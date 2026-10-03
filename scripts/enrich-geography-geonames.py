@@ -24,7 +24,13 @@ MAX_TERM_LENGTH = 120
 
 def normalize(value: str) -> str:
     decomposed = unicodedata.normalize("NFKD", value or "")
-    without_marks = "".join(ch for ch in decomposed if not unicodedata.combining(ch))
+    # Strip the common Latin combining-diacritic block after NFKD so
+    # "München" and "Munchen" can normalize together, while preserving
+    # combining marks that are semantically required by scripts such as Sinhala.
+    without_marks = "".join(
+        ch for ch in decomposed
+        if not (0x0300 <= ord(ch) <= 0x036F)
+    )
     lowered = without_marks.lower().replace("&", " and ")
     chars = [ch if ch.isalnum() else " " for ch in lowered]
     return re.sub(r"\s+", " ", "".join(chars)).strip()

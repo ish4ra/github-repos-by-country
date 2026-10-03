@@ -214,7 +214,7 @@ export function normalizeGeographyTerm(value) {
     .replace(/[\u0300-\u036f]/g, '')
     .toLowerCase()
     .replace(/&/g, ' and ')
-    .replace(/[^\p{L}\p{N}]+/gu, ' ')
+    .replace(/[^\p{L}\p{N}\p{M}]+/gu, ' ')
     .replace(/\s+/g, ' ')
     .trim();
 }
