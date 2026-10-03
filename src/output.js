@@ -53,12 +53,150 @@ export async function writeRankingsIndex() {
   );
 
   const indexPath = path.join(rankingDir, 'README.md');
-  await writeFile(
-    indexPath,
-    renderRankingsIndex(summaries, COUNTRIES, progress),
-    'utf8',
-  );
+  const rootReadmePath = path.join(root, 'README.md');
+
+  await Promise.all([
+    writeFile(
+      indexPath,
+      renderRankingsIndex(summaries, COUNTRIES, progress),
+      'utf8',
+    ),
+    writeFile(
+      rootReadmePath,
+      renderRootReadme(summaries, COUNTRIES, progress),
+      'utf8',
+    ),
+  ]);
+
   return indexPath;
+}
+
+export function renderRootReadme(summaries, countries = COUNTRIES, progressStates = []) {
+  const summaryByCode = new Map(summaries.map((summary) => [summary.country.code, summary]));
+  const progressByCode = new Map(
+    progressStates
+      .filter((state) => state?.country?.code)
+      .map((state) => [state.country.code, state]),
+  );
+
+  const liveCount = summaryByCode.size;
+  const buildingCount = countries.filter((country) => {
+    const progress = progressByCode.get(country.code);
+    return progress && progress.phase !== 'complete';
+  }).length;
+  const queuedCount = Math.max(0, countries.length - new Set([
+    ...summaryByCode.keys(),
+    ...progressByCode.keys(),
+  ]).size);
+
+  const lines = [
+    '<h1 align="center">GitHub Repositories by Country 🌍</h1>',
+    '',
+    '<p align="center">',
+    '  Discover the most-starred public GitHub repositories by country using transparent, reproducible location attribution.',
+    '</p>',
+    '',
+    '<p align="center">',
+    '  <a href="https://github.com/ish4ra/github-repos-by-country/actions/workflows/ci.yml"><img src="https://github.com/ish4ra/github-repos-by-country/actions/workflows/ci.yml/badge.svg" alt="CI"></a>',
+    '  <img src="https://img.shields.io/badge/countries%20%26%20territories-250-blue" alt="250 countries and territories">',
+    '  <img src="https://img.shields.io/badge/update-hourly-informational" alt="Hourly updates">',
+    '  <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="MIT license"></a>',
+    '</p>',
+    '',
+    '<p align="center">',
+    '  <a href="#browse-by-country"><strong>Browse countries</strong></a> ·',
+    '  <a href="./rankings/README.md">Detailed index</a> ·',
+    '  <a href="./docs/METHODOLOGY.md">Methodology</a> ·',
+    '  <a href="./data/">Raw data</a> ·',
+    '  <a href="./docs/ROADMAP.md">Roadmap</a>',
+    '</p>',
+    '',
+    '## Browse by country',
+    '',
+    `**${countries.length} indexed · ${liveCount} live · ${buildingCount} building · ${queuedCount} queued**`,
+    '',
+    '> 🟢 **Live** = published ranking · 🟡 **Building** = crawl in progress · ⚪ **Queued** = waiting for its first crawl',
+    '',
+    'Use `Ctrl+F` / `⌘F` to find a country instantly.',
+    '',
+    '<table>',
+    '  <tbody>',
+  ];
+
+  for (let index = 0; index < countries.length; index += 4) {
+    const group = countries.slice(index, index + 4);
+    lines.push('    <tr>');
+
+    for (const country of group) {
+      const summary = summaryByCode.get(country.code);
+      const progress = progressByCode.get(country.code);
+      const status = summary
+        ? '🟢'
+        : progress
+          ? '🟡'
+          : '⚪';
+
+      lines.push(
+        `      <td width="25%">${status} <a href="./rankings/${country.slug}.md"><strong>${country.flag} ${escapeHtml(country.name)}</strong></a></td>`,
+      );
+    }
+
+    while (group.length < 4) {
+      lines.push('      <td width="25%"></td>');
+      group.push(null);
+    }
+
+    lines.push('    </tr>');
+  }
+
+  lines.push(
+    '  </tbody>',
+    '</table>',
+    '',
+    '## How rankings work',
+    '',
+    'GitHub repositories do not have a native country field. This project attributes a repository to the **public GitHub profile location of its owner**, then validates that location against a global geography index.',
+    '',
+    'The geography layer combines a pinned Countries States Cities Database release with GeoNames enrichment and covers countries, territories, cities, towns, administrative regions, aliases, and alternate place names.',
+    '',
+    'To reduce missed owners and false positives:',
+    '',
+    '- ambiguous place names are not silently assigned to a country',
+    '- common country aliases such as `USA`, `UK`, `UAE`, and `Czech Republic` are recognized',
+    '- broad GitHub searches are deterministically sharded instead of treating the 1,000-result search window as complete',
+    '- shard queues and pagination cursors are checkpointed so large crawls resume across Actions runs',
+    '- incomplete countries are shown as **Building** rather than being presented as finished rankings',
+    '',
+    'See the full [methodology](./docs/METHODOLOGY.md) for details.',
+    '',
+    '## Ranking',
+    '',
+    'The initial country view ranks public, non-fork repositories by:',
+    '',
+    '1. stars, descending',
+    '2. forks, descending',
+    '3. repository name, as a deterministic final tie-breaker',
+    '',
+    'Archived repositories remain visible and are marked.',
+    '',
+    '## Data and automation',
+    '',
+    '- Human-readable rankings: [`rankings/`](./rankings/)',
+    '- Machine-readable datasets: [`data/`](./data/)',
+    '- Geography index: [`geography/`](./geography/)',
+    '- Global crawl runs automatically with GitHub Actions and saves progress between runs.',
+    '',
+    '## Next',
+    '',
+    'After the repository-country dataset is stable globally, the same geography and sharding engine will be reused for a more accurate **GitHub Users by Country** ranking system covering followers and contribution-based views.',
+    '',
+    '## License',
+    '',
+    'Code is licensed under the [MIT License](./LICENSE). External geography datasets retain their own applicable licenses and attribution requirements.',
+    '',
+  );
+
+  return lines.join('\n');
 }
 
 export function renderMarkdown(ranking) {
@@ -278,7 +416,7 @@ export function renderCountryProgressPage(country, progress) {
 }
 
 function renderCountryStatus(summary, progress) {
-  if (!progress) return summary ? '**Live**' : 'Queued';
+  if (!progress) return summary ? '🟢 **Live**' : '⚪ Queued';
   if (progress.phase === 'complete') return summary ? '**Live**' : 'Completed';
 
   const total = Number(progress.geography?.termsTotal || 0);
@@ -286,7 +424,7 @@ function renderCountryStatus(summary, progress) {
   const percent = total > 0 ? Math.min(100, Math.floor((done / total) * 100)) : 0;
   const phase = progress.phase === 'finalize' ? 'Finalizing' : `Building ${percent}%`;
 
-  return summary ? `**Live** · ${phase}` : phase;
+  return summary ? `🟢 **Live** · 🟡 ${phase}` : `🟡 ${phase}`;
 }
 
 async function readDiscoveryStates(stateDir) {

@@ -137,3 +137,44 @@ test('building country page can show early repository candidates without calling
   assert.match(markdown, /example\/project/);
   assert.match(markdown, /not the final country ranking/);
 });
+
+
+test('root README is browse-first and shows countries immediately', async () => {
+  const { renderRootReadme } = await import('../src/output.js');
+  const markdown = renderRootReadme(
+    [],
+    [
+      { code: 'JP', name: 'Japan', slug: 'japan', flag: '🇯🇵' },
+      { code: 'LK', name: 'Sri Lanka', slug: 'sri-lanka', flag: '🇱🇰' },
+    ],
+    [],
+  );
+
+  assert.match(markdown, /Browse by country/);
+  assert.match(markdown, /rankings\/japan\.md/);
+  assert.match(markdown, /rankings\/sri-lanka\.md/);
+  assert.match(markdown, /⚪/);
+  assert.ok(markdown.indexOf('Browse by country') < markdown.indexOf('How rankings work'));
+});
+
+test('root README distinguishes live and building countries', async () => {
+  const { renderRootReadme } = await import('../src/output.js');
+  const markdown = renderRootReadme(
+    [{
+      country: { code: 'LK', name: 'Sri Lanka', slug: 'sri-lanka' },
+      coverage: { publishedRepositories: 100 },
+    }],
+    [
+      { code: 'JP', name: 'Japan', slug: 'japan', flag: '🇯🇵' },
+      { code: 'LK', name: 'Sri Lanka', slug: 'sri-lanka', flag: '🇱🇰' },
+    ],
+    [{
+      country: { code: 'JP' },
+      phase: 'discovery',
+    }],
+  );
+
+  assert.match(markdown, /🟢/);
+  assert.match(markdown, /🟡/);
+  assert.match(markdown, /1 live · 1 building · 0 queued/);
+});
