@@ -31,6 +31,12 @@ The project is being built around these rules:
 
 The global geography target covers countries, cities, towns, administrative regions, aliases, and common spelling variants. See [Roadmap](docs/ROADMAP.md) and [Methodology](docs/METHODOLOGY.md).
 
+## Global rollout
+
+Repository discovery now advances through the 250-region catalog with a persistent, rate-limit-aware GitHub Actions worker. Search terms are generated from the global geography index, broad GitHub searches are sharded instead of silently truncated, and progress is checkpointed so a run can continue later without restarting a country.
+
+The older scheduled Sri Lanka-only refresh has been retired. Sri Lanka and every later country now use the same global discovery path. A manual Sri Lanka diagnostic workflow remains available only for troubleshooting.
+
 ## Current ranking pipeline
 
 The Sri Lanka proof of concept uses a two-stage repository discovery algorithm:
