@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 75**
 - Progress: **0%**
-- Retained high-potential owner candidates: **45**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **253**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -32,12 +32,12 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [OceanTroop/orca-one](https://github.com/OceanTroop/orca-one) | **372** | Cayman Islands |
 | [PolymeshAssociation/Polymesh](https://github.com/PolymeshAssociation/Polymesh) | **170** | Cayman Islands |
 | [Abstract-Foundation/examples](https://github.com/Abstract-Foundation/examples) | **166** | Cayman Islands |
+| [difelice/ejs-loader](https://github.com/difelice/ejs-loader) | **157** | Cayman Islands |
 | [etherfi-protocol/smart-contracts](https://github.com/etherfi-protocol/smart-contracts) | **141** | Cayman Islands |
 | [worldwide-asset-exchange/waxjs](https://github.com/worldwide-asset-exchange/waxjs) | **124** | Cayman Islands |
 | [ridgesai/ridges](https://github.com/ridgesai/ridges) | **90** | Cayman Islands |
 | [kaonone/akropolisOS](https://github.com/kaonone/akropolisOS) | **70** | Cayman Islands |
 | [InjectiveFoundation/injective-core](https://github.com/InjectiveFoundation/injective-core) | **66** | Cayman Islands |
 | [spheronFdn/portfolio-template](https://github.com/spheronFdn/portfolio-template) | **62** | Cayman Islands |
-| [tensor-foundation/tensorswap-sdk](https://github.com/tensor-foundation/tensorswap-sdk) | **41** | Cayman Islands |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

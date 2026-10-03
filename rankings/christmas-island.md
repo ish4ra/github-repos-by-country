@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 0%
+## Repository ranking status: Building 33%
 
-- Geography terms processed: **0 / 21**
-- Progress: **0%**
-- Retained high-potential owner candidates: **34**
-- Search requests completed: **1**
+- Geography terms processed: **7 / 21**
+- Progress: **33%**
+- Retained high-potential owner candidates: **71**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -32,12 +32,12 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [packd-core/packs-hackathon](https://github.com/packd-core/packs-hackathon) | **7** | Christmas Island |
 | [SleekCC/leaked-builds](https://github.com/SleekCC/leaked-builds) | **7** | Christmas Island |
 | [noramp/noramp-kit](https://github.com/noramp/noramp-kit) | **5** | Christmas Island |
+| [0pen-crab/BEAST](https://github.com/0pen-crab/BEAST) | **4** | Christmas Island |
+| [Altidias/reforger-internal-hook-example](https://github.com/Altidias/reforger-internal-hook-example) | **4** | Christmas Island |
 | [Tango-Club/Sometime](https://github.com/Tango-Club/Sometime) | **4** | Christmas Island |
 | [ECE-366-Final-Project/Back-End](https://github.com/ECE-366-Final-Project/Back-End) | **2** | Christmas Island |
 | [louis1204/MapNavigationDrawerExample](https://github.com/louis1204/MapNavigationDrawerExample) | **2** | Christmas Island |
 | [ScriptKitKat/personalwebsite](https://github.com/ScriptKitKat/personalwebsite) | **2** | Christmas Island |
 | [Sonic-Riders-Tournament-Edition/sega-nn-gno-exporter](https://github.com/Sonic-Riders-Tournament-Edition/sega-nn-gno-exporter) | **2** | Christmas Island |
-| [litchirui/algorithm-journey](https://github.com/litchirui/algorithm-journey) | **1** | Christmas Island |
-| [Mevissis/Mevissis-Smart-Contract-Machine](https://github.com/Mevissis/Mevissis-Smart-Contract-Machine) | **1** | Christmas Island |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

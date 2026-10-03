@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 4%
+## Repository ranking status: Building 42%
 
-- Geography terms processed: **1 / 21**
-- Progress: **4%**
-- Retained high-potential owner candidates: **26**
-- Search requests completed: **1**
+- Geography terms processed: **9 / 21**
+- Progress: **42%**
+- Retained high-potential owner candidates: **31**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -28,6 +28,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [D-Unity-dotnet-framework/DofusUnity.Plugins.BepInEx](https://github.com/D-Unity-dotnet-framework/DofusUnity.Plugins.BepInEx) | **10** | Cook Islands |
 | [kortizol2/contrib-pool-3-694](https://github.com/kortizol2/contrib-pool-3-694) | **5** | North Megantown, Cook Islands |
 | [Freakybob-Team-Games/MurderBob](https://github.com/Freakybob-Team-Games/MurderBob) | **3** | Cook Islands |
+| [0xOptimusPrime/cas](https://github.com/0xOptimusPrime/cas) | **1** | Avarua |
 | [hilpert51566/kohana-storage](https://github.com/hilpert51566/kohana-storage) | **1** | Cook Islands |
 | [Pirate-Treasure-Haunts/tarot](https://github.com/Pirate-Treasure-Haunts/tarot) | **1** | Cook Islands |
 | [sunrise-labs/cdad-consultant-skill](https://github.com/sunrise-labs/cdad-consultant-skill) | **1** | Cook Islands |
@@ -38,6 +39,5 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ano-tisam/SmartQRLauncher](https://github.com/ano-tisam/SmartQRLauncher) | **0** | Cook Islands |
 | [Bacon-Sausage-Spaghetti/My-Lovely-Girlfriend](https://github.com/Bacon-Sausage-Spaghetti/My-Lovely-Girlfriend) | **0** | Cook Islands |
 | [batmansmaster/IB-Mathematics-Helper-Textbook](https://github.com/batmansmaster/IB-Mathematics-Helper-Textbook) | **0** | Cook Islands |
-| [btangatakino/cse121b](https://github.com/btangatakino/cse121b) | **0** | Cook Islands |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

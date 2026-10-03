@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 0%
+## Repository ranking status: Building 7%
 
-- Geography terms processed: **1 / 128**
-- Progress: **0%**
-- Retained high-potential owner candidates: **29**
-- Search requests completed: **1**
+- Geography terms processed: **9 / 128**
+- Progress: **7%**
+- Retained high-potential owner candidates: **30**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -28,6 +28,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [SanyaKRY/automation-training](https://github.com/SanyaKRY/automation-training) | **2** | Comoros |
 | [fefe269/git_test](https://github.com/fefe269/git_test) | **1** | comoros |
 | [linkhousni/twominutes](https://github.com/linkhousni/twominutes) | **1** | Moroni - Comoros |
+| [MoneyXGG/crash_v2](https://github.com/MoneyXGG/crash_v2) | **1** | Anjouan |
 | [yvssineyh269/Flutter_bottom_navigation](https://github.com/yvssineyh269/Flutter_bottom_navigation) | **1** | Moroni, Comoros |
 | [ANADEN-KM/ANADEN-KM.github.io](https://github.com/ANADEN-KM/ANADEN-KM.github.io) | **0** | Moroni, Comoros |
 | [azzhyinc-cloud/waiichia](https://github.com/azzhyinc-cloud/waiichia) | **0** | Comoros |
@@ -38,6 +39,5 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [daroussilab88/strapi-nextjs-and-magic-frontend](https://github.com/daroussilab88/strapi-nextjs-and-magic-frontend) | **0** | COMOROS |
 | [data-sas/datasas](https://github.com/data-sas/datasas) | **0** | Comoros |
 | [demzex5/projetTeste](https://github.com/demzex5/projetTeste) | **0** | Comoros |
-| [epkaz-ecole-priveekaz/-cole-Priv-e-Kaz](https://github.com/epkaz-ecole-priveekaz/-cole-Priv-e-Kaz) | **0** | Comoros  |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

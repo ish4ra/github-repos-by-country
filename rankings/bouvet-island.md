@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 5%
+## Repository ranking status: Building 45%
 
-- Geography terms processed: **1 / 20**
-- Progress: **5%**
-- Retained high-potential owner candidates: **15**
-- Search requests completed: **1**
+- Geography terms processed: **9 / 20**
+- Progress: **45%**
+- Retained high-potential owner candidates: **18**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -30,14 +30,14 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [hexahigh/yapc](https://github.com/hexahigh/yapc) | **4** | Bouvet Island |
 | [UndefProphet/.nixos](https://github.com/UndefProphet/.nixos) | **3** | Bouvet Island |
 | [bijaybartaula/The-Optional-Disappointment](https://github.com/bijaybartaula/The-Optional-Disappointment) | **1** | Bouvet Island |
+| [anayadoramrdoors/anayadoramrdoors](https://github.com/anayadoramrdoors/anayadoramrdoors) | **0** | Bouveteiland (BV) |
 | [atomicmaildev/chat0006y4](https://github.com/atomicmaildev/chat0006y4) | **0** | Bouvet Island |
 | [Blockchain707/SharpPusher1](https://github.com/Blockchain707/SharpPusher1) | **0** | Bouvet Island |
 | [bode35210/500px-iOS-api](https://github.com/bode35210/500px-iOS-api) | **0** | Bouvet Island (Bouvetoya) |
 | [chucklesjoseph/chucklesjoseph](https://github.com/chucklesjoseph/chucklesjoseph) | **0** | Bouvet Island (BV) |
+| [heidaromrdemolol/heidaromrdemolol](https://github.com/heidaromrdemolol/heidaromrdemolol) | **0** | Bouveteiland (BV) |
 | [jojoramarmrdemolol/jojoramarmrdemolol](https://github.com/jojoramarmrdemolol/jojoramarmrdemolol) | **0** | Bouvet Island (BV) |
+| [mcpoweradeduck/mcpoweradeduck](https://github.com/mcpoweradeduck/mcpoweradeduck) | **0** | Bouveteiland (BV) |
 | [N844AA/Stuxnet-Source-main](https://github.com/N844AA/Stuxnet-Source-main) | **0** | Bouvet Island |
-| [northprogibator/northprogibator](https://github.com/northprogibator/northprogibator) | **0** | Bouvet Island (BV) |
-| [PixelTracksAlpaka/trackingRecHitChanges](https://github.com/PixelTracksAlpaka/trackingRecHitChanges) | **0** | Bouvet Island |
-| [st3v3ballm3r/bobo-finance](https://github.com/st3v3ballm3r/bobo-finance) | **0** | Bouvet Island |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

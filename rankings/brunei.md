@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 0%
+## Repository ranking status: Building 1%
 
-- Geography terms processed: **0 / 73**
-- Progress: **0%**
-- Retained high-potential owner candidates: **46**
-- Search requests completed: **1**
+- Geography terms processed: **1 / 73**
+- Progress: **1%**
+- Retained high-potential owner candidates: **242**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -35,9 +35,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [nz-is/LiDAR-Obstacle-Detection](https://github.com/nz-is/LiDAR-Obstacle-Detection) | **9** | Brunei Darussalam |
 | [Wollabebes/ST7789-Display-Pico-RP2040](https://github.com/Wollabebes/ST7789-Display-Pico-RP2040) | **9** | Brunei Darussalam |
 | [anwari-fikri/habitica-clone](https://github.com/anwari-fikri/habitica-clone) | **8** | Brunei Darussalam |
+| [NPCMS/ElementalExplorers](https://github.com/NPCMS/ElementalExplorers) | **8** | Brunei Darussalam |
 | [syahnur197/MVC-OnlineShop](https://github.com/syahnur197/MVC-OnlineShop) | **8** | Brunei |
 | [BenitzCoding/Pynex](https://github.com/BenitzCoding/Pynex) | **5** | Brunei |
 | [Bruneiverse/bruneimap](https://github.com/Bruneiverse/bruneimap) | **5** | Brunei Darussalam |
-| [lordsayur/water-taxi-tycoon](https://github.com/lordsayur/water-taxi-tycoon) | **5** | Brunei |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

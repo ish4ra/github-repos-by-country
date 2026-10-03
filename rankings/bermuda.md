@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 0%
+## Repository ranking status: Building 7%
 
-- Geography terms processed: **0 / 27**
-- Progress: **0%**
-- Retained high-potential owner candidates: **43**
-- Search requests completed: **1**
+- Geography terms processed: **2 / 27**
+- Progress: **7%**
+- Retained high-potential owner candidates: **209**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -38,6 +38,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [PirateTok/ttytok](https://github.com/PirateTok/ttytok) | **28** | Bermuda |
 | [ryancheley/yt-cli](https://github.com/ryancheley/yt-cli) | **28** | Bermuda Dunes, CA |
 | [mfielding92/ClawedBack](https://github.com/mfielding92/ClawedBack) | **23** | Bermuda Triangle |
-| [littleblack111/dotfiles](https://github.com/littleblack111/dotfiles) | **20** | Bermuda |
+| [HamiltonInsurance/outlook_msg](https://github.com/HamiltonInsurance/outlook_msg) | **21** | Hamilton, Bermuda |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

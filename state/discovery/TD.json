@@ -12,38 +12,21 @@
     "termsTotal": 108
   },
   "phase": "discovery",
-  "nextTermIndex": 0,
-  "activeTerm": {
-    "index": 0,
-    "term": "Chad",
-    "queue": [
-      {
-        "query": "location:\"Chad\"",
-        "stage": "base",
-        "cursor": "Y3Vyc29yOjUw",
-        "pageNumber": 2,
-        "attempts": 0
-      }
-    ],
-    "startedAt": "2026-10-03T08:28:21.814Z",
-    "requests": 1,
-    "leafPages": 1,
-    "shardExpansions": 0,
-    "reportedCount": null
-  },
+  "nextTermIndex": 5,
+  "activeTerm": null,
   "discoveryComplete": false,
   "startedAt": "2026-10-03T08:28:21.814Z",
-  "updatedAt": "2026-10-03T08:28:25.300Z",
+  "updatedAt": "2026-10-03T11:58:57.002Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
-    "termsProcessed": 0,
-    "searchRequests": 1,
-    "leafPages": 1,
+    "termsProcessed": 5,
+    "searchRequests": 9,
+    "leafPages": 9,
     "shardExpansions": 0,
-    "rawOwnerHits": 50,
-    "acceptedOwnerHits": 50,
-    "rejectedOwnerHits": 0,
+    "rawOwnerHits": 244,
+    "acceptedOwnerHits": 239,
+    "rejectedOwnerHits": 5,
     "unresolvedShardCount": 0,
     "minimumRateLimitRemaining": 4709
   },
@@ -128,6 +111,45 @@
       }
     },
     {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjg5MzIyNTkx",
+      "login": "fundingrate",
+      "name": "Fundingrate.io",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/fundingrate",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/89322591?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "tradingview-webhooks",
+        "nameWithOwner": "fundingrate/tradingview-webhooks",
+        "url": "https://github.com/fundingrate/tradingview-webhooks",
+        "description": "Backend service converting tradingview alerts into action.",
+        "stargazerCount": 54,
+        "forkCount": 24,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-09-07T22:49:14Z",
+        "pushedAt": "2020-03-31T00:24:04Z",
+        "homepageUrl": "https://fundingrate.io",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
       "id": "O_kgDOBZBAKg",
       "login": "SwirlLang",
       "name": "Swirl",
@@ -164,6 +186,120 @@
           "name": "GNU General Public License v3.0",
           "spdxId": "GPL-3.0"
         }
+      }
+    },
+    {
+      "id": "O_kgDOClYRDw",
+      "login": "SaaS-Framer",
+      "name": "SaaS Framer",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/SaaS-Framer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/173412623?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "trexui",
+        "nameWithOwner": "SaaS-Framer/trexui",
+        "url": "https://github.com/SaaS-Framer/trexui",
+        "description": "Build website in minutes using our UI components, sections and pages with easy to use customization options.",
+        "stargazerCount": 16,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-06-30T10:37:45Z",
+        "pushedAt": "2024-07-04T17:43:00Z",
+        "homepageUrl": "https://trexui.vercel.app/",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "O_kgDOBsYmnQ",
+      "login": "ChatImproVR",
+      "name": "ChatImproVR",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/ChatImproVR",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/113649309?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "chatimprovr",
+        "nameWithOwner": "ChatImproVR/chatimprovr",
+        "url": "https://github.com/ChatImproVR/chatimprovr",
+        "description": "A Virtual World Platform for the future",
+        "stargazerCount": 10,
+        "forkCount": 2,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2022-12-13T00:16:47Z",
+        "pushedAt": "2023-11-13T05:54:51Z",
+        "homepageUrl": "https://chatimprovr.github.io/",
+        "primaryLanguage": {
+          "name": "Rust"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjcyMTczODg0",
+      "login": "leScythekill",
+      "name": null,
+      "type": "User",
+      "location": "Chad, N'Djamena",
+      "url": "https://github.com/leScythekill",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/72173884?u=0c0b3fde534a23873f557044057c33908c6bb8ba&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "samp-anti-airbreak",
+        "nameWithOwner": "leScythekill/samp-anti-airbreak",
+        "url": "https://github.com/leScythekill/samp-anti-airbreak",
+        "description": "Simple SA-MP library that uses PawnRakNet to detect airbreak cheats",
+        "stargazerCount": 9,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-01-04T22:09:23Z",
+        "pushedAt": "2021-01-05T06:12:02Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Pawn"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -535,6 +671,42 @@
       }
     },
     {
+      "id": "O_kgDOBjmMBA",
+      "login": "FIT-prasata",
+      "name": "FIT-prasata",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/FIT-prasata",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/104434692?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "IFJ-2022",
+        "nameWithOwner": "FIT-prasata/IFJ-2022",
+        "url": "https://github.com/FIT-prasata/IFJ-2022",
+        "description": null,
+        "stargazerCount": 3,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-09-21T11:44:21Z",
+        "pushedAt": "2023-07-12T10:51:46Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCdArcA",
       "login": "koubra-gaby",
       "name": "Koubra Gaby",
@@ -568,6 +740,198 @@
           "name": "Jupyter Notebook"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOEGaM5Q",
+      "login": "LambSystems",
+      "name": "lamb",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/LambSystems",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/275156197?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "urbanlens",
+        "nameWithOwner": "LambSystems/urbanlens",
+        "url": "https://github.com/LambSystems/urbanlens",
+        "description": "agentic urban heat analysis from satellite capture to thermal evidence, hotspot ranking, and planning recommendations",
+        "stargazerCount": 3,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-11T22:49:35Z",
+        "pushedAt": "2026-05-31T01:53:05Z",
+        "homepageUrl": "https://urbanlens.postigo.sh/",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "O_kgDOBgcucA",
+      "login": "NecroClient",
+      "name": "Necro Client",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/NecroClient",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/101133936?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "Updater",
+        "nameWithOwner": "NecroClient/Updater",
+        "url": "https://github.com/NecroClient/Updater",
+        "description": "Necro Client Mods Updater",
+        "stargazerCount": 3,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-03-14T20:56:51Z",
+        "pushedAt": "2022-03-14T21:09:45Z",
+        "homepageUrl": "https://NecroClient.GitHub.io",
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": {
+          "name": "Mozilla Public License 2.0",
+          "spdxId": "MPL-2.0"
+        }
+      }
+    },
+    {
+      "id": "U_kgDODBUfiA",
+      "login": "bibahorizonservices",
+      "name": "BHS",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/bibahorizonservices",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/202710920?u=8b9ed786670d10e82f7d4215ca4fd2e19bcd7edd&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "BHS",
+        "nameWithOwner": "bibahorizonservices/BHS",
+        "url": "https://github.com/bibahorizonservices/BHS",
+        "description": "Site web de l'agence de voyage Biba orizon Services (BHS)",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-03-11T15:38:44Z",
+        "pushedAt": "2025-03-14T18:57:44Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCP9PZA",
+      "login": "Bobsinging",
+      "name": "Bob",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/Bobsinging",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/150949732?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "bonkio",
+        "nameWithOwner": "Bobsinging/bonkio",
+        "url": "https://github.com/Bobsinging/bonkio",
+        "description": "easy way to play bonkio if the link is blocked",
+        "stargazerCount": 2,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-01-26T15:58:11Z",
+        "pushedAt": "2024-02-16T21:58:21Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "O_kgDOBpdXmQ",
+      "login": "Chads-of-GH",
+      "name": "Chad",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/Chads-of-GH",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/110581657?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "HackWithACrew",
+        "nameWithOwner": "Chads-of-GH/HackWithACrew",
+        "url": "https://github.com/Chads-of-GH/HackWithACrew",
+        "description": "Hackathon Submission",
+        "stargazerCount": 2,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-08-05T22:37:15Z",
+        "pushedAt": "2022-08-06T20:19:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -607,6 +971,45 @@
       }
     },
     {
+      "id": "U_kgDODsZ_6Q",
+      "login": "kisaigo",
+      "name": "kisaigo",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/kisaigo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/247889897?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "TDGS",
+        "nameWithOwner": "kisaigo/TDGS",
+        "url": "https://github.com/kisaigo/TDGS",
+        "description": "Système de design officiel pour les services numériques de l'État du Tchad — tokens, composants accessibles WCAG AA, documentation Astro.",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-30T13:04:55Z",
+        "pushedAt": "2026-09-07T02:17:32Z",
+        "homepageUrl": "https://kisaigo.github.io/TDGS",
+        "primaryLanguage": {
+          "name": "MDX"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "O_kgDOBiKEMQ",
       "login": "Moles-LLC",
       "name": "Moles LLC",
@@ -643,6 +1046,219 @@
       }
     },
     {
+      "id": "U_kgDODZsNqg",
+      "login": "SanaaBH7",
+      "name": "San_BH7",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/SanaaBH7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/228265386?u=52f97957224f24b4eeb70142ea3464c8ec6f600d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "Anime-Quiz_Android-Kotlin-Game",
+        "nameWithOwner": "SanaaBH7/Anime-Quiz_Android-Kotlin-Game",
+        "url": "https://github.com/SanaaBH7/Anime-Quiz_Android-Kotlin-Game",
+        "description": null,
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-09-09T17:55:15Z",
+        "pushedAt": "2026-03-16T18:25:51Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Kotlin"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDODnOv-Q",
+      "login": "Star1ex",
+      "name": "Starlex",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/Star1ex",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/242462713?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "starlex-site",
+        "nameWithOwner": "Star1ex/starlex-site",
+        "url": "https://github.com/Star1ex/starlex-site",
+        "description": "Starlex - Co-op task manager with Markdown support",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-11-06T17:00:12Z",
+        "pushedAt": "2026-06-13T18:28:47Z",
+        "homepageUrl": "https://starlex.cc",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODvjhQA",
+      "login": "yayayou47",
+      "name": "Yaya Youssouf Yaya",
+      "type": "User",
+      "location": "N'djaména , Chad",
+      "url": "https://github.com/yayayou47",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/251191616?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "two-feedback-vicsek",
+        "nameWithOwner": "yayayou47/two-feedback-vicsek",
+        "url": "https://github.com/yayayou47/two-feedback-vicsek",
+        "description": "Simulation code, analysis pipeline and manuscript companion for 'Density-gated noise rectification in a Vicsek-Couzin flock: one dense-phase mechanism, additive at matched decorrelation'.",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-07T20:40:57Z",
+        "pushedAt": "2026-08-11T10:30:50Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg2MTA2MzIy",
+      "login": "bacharacherif",
+      "name": "Bachar Acherif",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/bacharacherif",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/86106322?u=ab755c42dc8412e9840935894ebef3b32c99de1b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "tag-manag",
+        "nameWithOwner": "bacharacherif/tag-manag",
+        "url": "https://github.com/bacharacherif/tag-manag",
+        "description": "mon tag manage ",
+        "stargazerCount": 1,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-07-12T16:35:01Z",
+        "pushedAt": "2021-07-12T16:35:02Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOBy5ABg",
+      "login": "bambuk-AG",
+      "name": "Team Bambuk",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/bambuk-AG",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/120471558?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "cat_links",
+        "nameWithOwner": "bambuk-AG/cat_links",
+        "url": "https://github.com/bambuk-AG/cat_links",
+        "description": "cat_links",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-12-16T14:02:18Z",
+        "pushedAt": "2022-12-16T14:03:56Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBhQnpA",
+      "login": "ernestpayang",
+      "name": "HOUSSOUBE PAYANG Ernest",
+      "type": "User",
+      "location": "N'Djamena / Chad",
+      "url": "https://github.com/ernestpayang",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/101984164?u=4da102cc2ff1dc408ec528f4499ed53042cdcb2e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "ernestpayang",
+        "nameWithOwner": "ernestpayang/ernestpayang",
+        "url": "https://github.com/ernestpayang/ernestpayang",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-24T07:28:54Z",
+        "pushedAt": "2026-07-24T14:46:55Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCJ_uVA",
       "login": "fardin33",
       "name": "Fardin Hassan Jihad",
@@ -674,6 +1290,78 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ2NzIwODEx",
+      "login": "Gagayo",
+      "name": "Hamid Tahir",
+      "type": "User",
+      "location": "Ndjamena, Chad",
+      "url": "https://github.com/Gagayo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/46720811?u=8dc36641c2a165a8dfe518addfa7668eb4c0b5a1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "DemoSpringSecurity",
+        "nameWithOwner": "Gagayo/DemoSpringSecurity",
+        "url": "https://github.com/Gagayo/DemoSpringSecurity",
+        "description": "Projet demonstration sur spring security",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-10-18T12:32:54Z",
+        "pushedAt": "2019-10-18T12:46:11Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBvxulg",
+      "login": "hamidbong",
+      "name": "Hamid Bong Brahim",
+      "type": "User",
+      "location": "Ndjamena, Chad",
+      "url": "https://github.com/hamidbong",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/117206678?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "devops-project",
+        "nameWithOwner": "hamidbong/devops-project",
+        "url": "https://github.com/hamidbong/devops-project",
+        "description": "for my microservice app (my master project)",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-05-14T17:19:09Z",
+        "pushedAt": "2026-04-21T09:27:20Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
         },
         "licenseInfo": null
       }
@@ -819,6 +1507,407 @@
       }
     },
     {
+      "id": "U_kgDOENG2FQ",
+      "login": "mkadembabarde-source",
+      "name": "Kademba Mahamat",
+      "type": "User",
+      "location": "n'djamena chad",
+      "url": "https://github.com/mkadembabarde-source",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/282179093?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "Calcul-de-la-distance",
+        "nameWithOwner": "mkadembabarde-source/Calcul-de-la-distance",
+        "url": "https://github.com/mkadembabarde-source/Calcul-de-la-distance",
+        "description": "calcule de la distance avec ultrason",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-06T11:08:29Z",
+        "pushedAt": "2026-05-06T11:27:48Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBY94qQ",
+      "login": "Muffinlavania",
+      "name": "Cristian S",
+      "type": "User",
+      "location": "chad",
+      "url": "https://github.com/Muffinlavania",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/93288617?u=4626338a95b482cce2badf6f06e573de34a8c9be&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "the-truth",
+        "nameWithOwner": "Muffinlavania/the-truth",
+        "url": "https://github.com/Muffinlavania/the-truth",
+        "description": "My main oldest project! A python console game with no outside graphics, a story, a boss (and a secret one), and a true ending. Can you find the truth?",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-02-25T17:50:01Z",
+        "pushedAt": "2026-03-27T18:07:00Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOEV_1iA",
+      "login": "oumarfarouknew-maker",
+      "name": "Oumar Mahamat Ahmat ",
+      "type": "User",
+      "location": "Abeche",
+      "url": "https://github.com/oumarfarouknew-maker",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/291501448?u=cdba2f1fa51a0ed43981e76ac286ba6c9044a0c9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "abeche"
+      },
+      "discoveryTerms": [
+        "Abeche"
+      ],
+      "topRepository": {
+        "name": "epidata.solutions",
+        "nameWithOwner": "oumarfarouknew-maker/epidata.solutions",
+        "url": "https://github.com/oumarfarouknew-maker/epidata.solutions",
+        "description": "Professional portfolio website for Epidemiology and Health Data Analytics",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-27T16:01:38Z",
+        "pushedAt": "2026-09-09T13:35:16Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCVcRhw",
+      "login": "phillipian413",
+      "name": "christian ouangbara",
+      "type": "User",
+      "location": "NDJAMENA/ CHAD",
+      "url": "https://github.com/phillipian413",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/156701063?u=cb625eaeab0b0f6fc555c7e37494154c69cddc12&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "phillipian413",
+        "nameWithOwner": "phillipian413/phillipian413",
+        "url": "https://github.com/phillipian413/phillipian413",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-02-21T14:15:28Z",
+        "pushedAt": "2025-02-21T14:17:48Z",
+        "homepageUrl": "https://github.com/phillipian413",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOBaGZAg",
+      "login": "pogchamps420",
+      "name": "ELEC2625 Group 35",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/pogchamps420",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/94476546?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "UNIT2Project",
+        "nameWithOwner": "pogchamps420/UNIT2Project",
+        "url": "https://github.com/pogchamps420/UNIT2Project",
+        "description": "This is our project for the ELEC2645 Group Project.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-11-16T17:32:13Z",
+        "pushedAt": "2022-08-17T11:33:50Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjQ2Njk5MTQ4",
+      "login": "robloxcom-corporation",
+      "name": "robloxcom-corporation",
+      "type": "Organization",
+      "location": "western Chad",
+      "url": "https://github.com/robloxcom-corporation",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/46699148?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "planez",
+        "nameWithOwner": "robloxcom-corporation/planez",
+        "url": "https://github.com/robloxcom-corporation/planez",
+        "description": "javascript clicker game",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-01-15T02:51:25Z",
+        "pushedAt": "2024-01-12T04:09:07Z",
+        "homepageUrl": "https://robloxcom-corporation.github.io/planez/",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOC_fROA",
+      "login": "Rosa-Demaye",
+      "name": "Rosa Demaye",
+      "type": "User",
+      "location": "N'Djamena, Chad",
+      "url": "https://github.com/Rosa-Demaye",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/200790328?u=42a926139f2602269669abf2e299ecb493978cbd&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "uok-events-final",
+        "nameWithOwner": "Rosa-Demaye/uok-events-final",
+        "url": "https://github.com/Rosa-Demaye/uok-events-final",
+        "description": "For my final year research project in  Bachelor in Business Information Technology I build a mobile app for University of Kigali to promote campus events management and increase students engagement in campus activities. ",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-11-24T23:57:05Z",
+        "pushedAt": "2025-12-03T15:18:03Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Dart"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQwNDA4MDc2",
+      "login": "SAbakar",
+      "name": null,
+      "type": "User",
+      "location": "chad",
+      "url": "https://github.com/SAbakar",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/40408076?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "VCData",
+        "nameWithOwner": "SAbakar/VCData",
+        "url": "https://github.com/SAbakar/VCData",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-06-25T15:02:46Z",
+        "pushedAt": "2018-06-26T08:21:11Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCGfMfg",
+      "login": "shahariar716",
+      "name": "Shahariar Ahmmed (Tanif)",
+      "type": "User",
+      "location": "Chad Uddan, mohammadpur",
+      "url": "https://github.com/shahariar716",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/141020286?u=52e56f2531580fd865d7eeb3b9f3d8103227e284&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "anaconda-71-71",
+        "nameWithOwner": "shahariar716/anaconda-71-71",
+        "url": "https://github.com/shahariar716/anaconda-71-71",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-06-10T16:44:35Z",
+        "pushedAt": "2025-08-09T11:27:45Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "CSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg3NDk3MjE4",
+      "login": "TelvanniChad",
+      "name": null,
+      "type": "User",
+      "location": "Tel Chad, Vvardenfell, Morrowind",
+      "url": "https://github.com/TelvanniChad",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/87497218?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "Medical-Exoskeleton-Simulator",
+        "nameWithOwner": "TelvanniChad/Medical-Exoskeleton-Simulator",
+        "url": "https://github.com/TelvanniChad/Medical-Exoskeleton-Simulator",
+        "description": "Simulator of Medical Exoskeleton",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-12-22T16:19:04Z",
+        "pushedAt": "2021-12-23T03:52:31Z",
+        "homepageUrl": "https://telvannichad.github.io/Medical-Exoskeleton-Simulator/",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM5MjIyODcw",
+      "login": "TenoAbba",
+      "name": "turki abba",
+      "type": "User",
+      "location": "Ndjamena, Chad",
+      "url": "https://github.com/TenoAbba",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39222870?u=fdcb141944b222f5941913ef992bd1a0ea420e4c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "Justory",
+        "nameWithOwner": "TenoAbba/Justory",
+        "url": "https://github.com/TenoAbba/Justory",
+        "description": "This is the Weather App :)",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-01-11T22:40:53Z",
+        "pushedAt": "2019-01-11T22:41:00Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjY1NDAxMjk2",
       "login": "XxEricgamerZxX",
       "name": "2pac",
@@ -855,6 +1944,502 @@
       }
     },
     {
+      "id": "U_kgDOCIIqVA",
+      "login": "01Hassa",
+      "name": "Hassa",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/01Hassa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/142748244?u=9350dd7e35443ca7aaaeb8464af678dbc6824a3c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "bulles",
+        "nameWithOwner": "01Hassa/bulles",
+        "url": "https://github.com/01Hassa/bulles",
+        "description": "Animations des bulles avec html",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-31T21:08:21Z",
+        "pushedAt": "2026-03-31T21:14:11Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCT8txw",
+      "login": "1KadenDev",
+      "name": "Kaden",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/1KadenDev",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/155135431?u=1da8a7245cfdf40ffc21594581376f2139bea9b8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "1KadenDev.github.io",
+        "nameWithOwner": "1KadenDev/1KadenDev.github.io",
+        "url": "https://github.com/1KadenDev/1KadenDev.github.io",
+        "description": "Mi proyecto HTML de verano :).",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-12-29T09:03:30Z",
+        "pushedAt": "2023-12-29T09:09:43Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOB01rrg",
+      "login": "22TIKO2D",
+      "name": "22TIKO2D",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/22TIKO2D",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/122514350?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "website",
+        "nameWithOwner": "22TIKO2D/website",
+        "url": "https://github.com/22TIKO2D/website",
+        "description": "Website for the game.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-03-15T12:41:55Z",
+        "pushedAt": "2023-04-28T16:21:33Z",
+        "homepageUrl": "https://webpages.tuni.fi/22tiko2d/",
+        "primaryLanguage": {
+          "name": "Svelte"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjkwMjcwMTYy",
+      "login": "6308-75-II2-TheMostAdvancedNameToDate",
+      "name": "Chad",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/6308-75-II2-TheMostAdvancedNameToDate",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/90270162?u=fe009bc5f066e6dd8803b546aed1789209efcdb7&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "6308-75-II2-TheMostAdvancedNameToDate",
+        "nameWithOwner": "6308-75-II2-TheMostAdvancedNameToDate/6308-75-II2-TheMostAdvancedNameToDate",
+        "url": "https://github.com/6308-75-II2-TheMostAdvancedNameToDate/6308-75-II2-TheMostAdvancedNameToDate",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-09-07T15:46:27Z",
+        "pushedAt": "2021-09-07T15:46:28Z",
+        "homepageUrl": "https://github.com/6308-75-II2-TheMostAdvancedNameToDate",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU5NDQ0MTI1",
+      "login": "Abakar-B",
+      "name": null,
+      "type": "User",
+      "location": "chad",
+      "url": "https://github.com/Abakar-B",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/59444125?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "Abakar-B",
+        "nameWithOwner": "Abakar-B/Abakar-B",
+        "url": "https://github.com/Abakar-B/Abakar-B",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-01-02T14:08:22Z",
+        "pushedAt": "2025-01-08T19:39:36Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM1Mzk3NTYw",
+      "login": "abdelrahim01",
+      "name": "Abdelrahim Senoussi ",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/abdelrahim01",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/35397560?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "abdelrahim01",
+        "nameWithOwner": "abdelrahim01/abdelrahim01",
+        "url": "https://github.com/abdelrahim01/abdelrahim01",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-11-11T11:10:23Z",
+        "pushedAt": "2021-11-11T11:10:24Z",
+        "homepageUrl": "https://github.com/abdelrahim01",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOEkiG1Q",
+      "login": "abdoulayeibniabdoulayemahamat",
+      "name": "Abdoulaye Ibni Abdoulaye Mahamat ",
+      "type": "User",
+      "location": "N'djamena , chad",
+      "url": "https://github.com/abdoulayeibniabdoulayemahamat",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/306742997?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "computer-science-projects",
+        "nameWithOwner": "abdoulayeibniabdoulayemahamat/computer-science-projects",
+        "url": "https://github.com/abdoulayeibniabdoulayemahamat/computer-science-projects",
+        "description": "Projects developed during my Computer Science studies at the University of N'Djamena.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-19T10:17:52Z",
+        "pushedAt": "2026-07-19T10:21:58Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOD9vqyQ",
+      "login": "abelmohsinmahamat-crypto",
+      "name": "ABDELMOHSIN MAHAMAT",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/abelmohsinmahamat-crypto",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/266070729?u=174429b510cf89f877345894aa24f5bcee05885d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "ai-cv-analyzer",
+        "nameWithOwner": "abelmohsinmahamat-crypto/ai-cv-analyzer",
+        "url": "https://github.com/abelmohsinmahamat-crypto/ai-cv-analyzer",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-02T13:14:31Z",
+        "pushedAt": "2026-10-02T13:25:38Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY1MzUzNzYw",
+      "login": "aguidiweidegue",
+      "name": "Aguidi Weidegue Tabah",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/aguidiweidegue",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/65353760?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "skills-introduction-to-github",
+        "nameWithOwner": "aguidiweidegue/skills-introduction-to-github",
+        "url": "https://github.com/aguidiweidegue/skills-introduction-to-github",
+        "description": "Exercise: Introduction to GitHub",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-31T08:52:57Z",
+        "pushedAt": "2026-08-31T08:53:18Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU5Mzc1NjQw",
+      "login": "ahmedkondas",
+      "name": "Ahmed Hussein ",
+      "type": "User",
+      "location": "chad",
+      "url": "https://github.com/ahmedkondas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/59375640?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "Data_analysis",
+        "nameWithOwner": "ahmedkondas/Data_analysis",
+        "url": "https://github.com/ahmedkondas/Data_analysis",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-07-30T08:51:14Z",
+        "pushedAt": "2021-07-30T08:51:14Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOCQ3ehw",
+      "login": "alessandro-vault",
+      "name": "Alessandro's Vault",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/alessandro-vault",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/151903879?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "finances-web",
+        "nameWithOwner": "alessandro-vault/finances-web",
+        "url": "https://github.com/alessandro-vault/finances-web",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-10-11T01:25:03Z",
+        "pushedAt": "2023-11-21T23:49:32Z",
+        "homepageUrl": "https://finances-app-delta.vercel.app",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCGYrUQ",
+      "login": "alkhassimking",
+      "name": "Alkhassim",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/alkhassimking",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/140913489?u=5b57d2e0d3615d04a22c4ed8defdf392c8004b99&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "ToumaiHolding",
+        "nameWithOwner": "alkhassimking/ToumaiHolding",
+        "url": "https://github.com/alkhassimking/ToumaiHolding",
+        "description": "Official Toumai Holding corporate website powering the digital ecosystem of Toumai Holding and its subsidiaries.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-10T14:42:27Z",
+        "pushedAt": "2026-07-11T20:18:17Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCKkLjA",
+      "login": "Badr3dobgu3",
+      "name": "Badré",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/Badr3dobgu3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/145296268?u=495d09305670f6238de4d9346c747b4096e64094&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "FUTURE_CS_03",
+        "nameWithOwner": "Badr3dobgu3/FUTURE_CS_03",
+        "url": "https://github.com/Badr3dobgu3/FUTURE_CS_03",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-22T16:55:22Z",
+        "pushedAt": "2026-05-23T10:44:55Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI1MzA5MjI1",
+      "login": "BAKOI",
+      "name": null,
+      "type": "User",
+      "location": "N'Djamena, Chad",
+      "url": "https://github.com/BAKOI",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25309225?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "Food-prices-monitoring",
+        "nameWithOwner": "BAKOI/Food-prices-monitoring",
+        "url": "https://github.com/BAKOI/Food-prices-monitoring",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-08-21T15:31:31Z",
+        "pushedAt": "2024-08-21T15:31:32Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBzBXrg",
       "login": "bara-yingra",
       "name": "Yingra BARA KAILENA ",
@@ -883,6 +2468,74 @@
         "isFork": false,
         "createdAt": "2026-07-19T05:42:27Z",
         "pushedAt": "2026-07-19T10:58:06Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCFBo-g",
+      "login": "Belna66",
+      "name": "Belna Epiphane",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/Belna66",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/139487482?u=845cf2b8da9b3ac8be1942b1e26de4cec30e442a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "Belna66",
+        "nameWithOwner": "Belna66/Belna66",
+        "url": "https://github.com/Belna66/Belna66",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-07-13T16:23:51Z",
+        "pushedAt": "2023-07-13T16:23:51Z",
+        "homepageUrl": "https://github.com/Belna66",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg4Njg0NzAw",
+      "login": "bryan-rigorous",
+      "name": "Bryan Miller",
+      "type": "User",
+      "location": "50 Chad Ln",
+      "url": "https://github.com/bryan-rigorous",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/88684700?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "hello-world",
+        "nameWithOwner": "bryan-rigorous/hello-world",
+        "url": "https://github.com/bryan-rigorous/hello-world",
+        "description": "sample program",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-08-09T20:06:15Z",
+        "pushedAt": "2021-08-09T20:17:57Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -925,6 +2578,144 @@
       }
     },
     {
+      "id": "U_kgDOEsbTMw",
+      "login": "cemmcom1-tech",
+      "name": "Abduldeen Ousman",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/cemmcom1-tech",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/315020083?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "-",
+        "nameWithOwner": "cemmcom1-tech/-",
+        "url": "https://github.com/cemmcom1-tech/-",
+        "description": "حمّله، فك الضغط عنه، ارفعه على استضافة، أو افتحه محلياً~9 https://www.genspark.ai/api/files/s/PwaBundle22",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-10T01:09:29Z",
+        "pushedAt": "2026-08-10T01:09:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ0ODEzNQ==",
+      "login": "cgfoz",
+      "name": null,
+      "type": "User",
+      "location": "N'Djamena, Chad",
+      "url": "https://github.com/cgfoz",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/448135?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "cgfoz.github.io",
+        "nameWithOwner": "cgfoz/cgfoz.github.io",
+        "url": "https://github.com/cgfoz/cgfoz.github.io",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-04-09T16:40:59Z",
+        "pushedAt": "2020-04-09T17:11:59Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOCg6t4g",
+      "login": "chomukbombatmtm",
+      "name": "₵ⱧØ₥Ʉ™",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/chomukbombatmtm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/168734178?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "464769118771676379861827127817826178621867167867218618345678345678934567893456782345678",
+        "nameWithOwner": "chomukbombatmtm/464769118771676379861827127817826178621867167867218618345678345678934567893456782345678",
+        "url": "https://github.com/chomukbombatmtm/464769118771676379861827127817826178621867167867218618345678345678934567893456782345678",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2024-05-03T08:22:01Z",
+        "pushedAt": "2024-05-03T08:22:02Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCmvLMw",
+      "login": "choromafils92",
+      "name": "aigle-One",
+      "type": "User",
+      "location": "N'djamena-chad",
+      "url": "https://github.com/choromafils92",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/174836531?u=03ca07ac5ae0a0aaf6dd9a8ac23b450027d23c73&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "ZENASYS",
+        "nameWithOwner": "choromafils92/ZENASYS",
+        "url": "https://github.com/choromafils92/ZENASYS",
+        "description": "Leader SI",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-05T20:54:08Z",
+        "pushedAt": "2026-01-05T20:54:09Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBXpsbw",
       "login": "chupacker",
       "name": "chu pack",
@@ -961,6 +2752,76 @@
       }
     },
     {
+      "id": "U_kgDODsYUUw",
+      "login": "code-craft-nayem",
+      "name": "Nayem Hasan",
+      "type": "User",
+      "location": "Chad Uddan,Mohammadpur,Dhaka-1207",
+      "url": "https://github.com/code-craft-nayem",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/247862355?u=73cce58258fa0ebd2c85039a80cfc68b9b59c241&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "b14-a6-fit-log",
+        "nameWithOwner": "code-craft-nayem/b14-a6-fit-log",
+        "url": "https://github.com/code-craft-nayem/b14-a6-fit-log",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-01T09:29:12Z",
+        "pushedAt": "2026-10-01T09:29:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgwNDQ5MjI4",
+      "login": "DemKat",
+      "name": "Dem",
+      "type": "User",
+      "location": "Giga Chad",
+      "url": "https://github.com/DemKat",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/80449228?u=9e1065990cd37502685ec31f48b17470ecfcc89c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "BeatSaber-Maps",
+        "nameWithOwner": "DemKat/BeatSaber-Maps",
+        "url": "https://github.com/DemKat/BeatSaber-Maps",
+        "description": "Beat Saber Maps I Made",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-03-21T15:57:15Z",
+        "pushedAt": "2022-03-21T15:58:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjcwMjU5NjUz",
       "login": "Djerade",
       "name": "Djeradé Golbé Parfait",
@@ -989,6 +2850,294 @@
         "isFork": false,
         "createdAt": "2026-06-20T09:59:55Z",
         "pushedAt": "2026-06-20T09:59:56Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg1Mjg0ODM1",
+      "login": "Djet-hub",
+      "name": "Hubert Djeteinboua",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/Djet-hub",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/85284835?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "Cyclistic-bike-share",
+        "nameWithOwner": "Djet-hub/Cyclistic-bike-share",
+        "url": "https://github.com/Djet-hub/Cyclistic-bike-share",
+        "description": "This is a capstone from Google Data Analytics Certificate, a case study on Bike share. Cyclistic is a fictive company",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-01-10T13:21:29Z",
+        "pushedAt": "2025-01-10T13:42:46Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc0NzYwNDky",
+      "login": "douzoune",
+      "name": "Kella DOUZOUNE",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/douzoune",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/74760492?u=17e2f5085ce1684774ddb1b4468aa2ad8f21833f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "data-mapping-projects-crfa2-workplan",
+        "nameWithOwner": "douzoune/data-mapping-projects-crfa2-workplan",
+        "url": "https://github.com/douzoune/data-mapping-projects-crfa2-workplan",
+        "description": "Plan de travail Data Mapping CRFA 2.0 - AfDB",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-13T10:50:14Z",
+        "pushedAt": "2026-03-13T12:47:37Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOENBSog",
+      "login": "Dr-Hans-Chucrute2016",
+      "name": "Herr Hans Von Sauerkraut",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/Dr-Hans-Chucrute2016",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/282088098?u=975039e15867c2f274e6eb5c43345ba9f6690a9e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "Meu-To-Do",
+        "nameWithOwner": "Dr-Hans-Chucrute2016/Meu-To-Do",
+        "url": "https://github.com/Dr-Hans-Chucrute2016/Meu-To-Do",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-06-08T23:17:43Z",
+        "pushedAt": "2026-06-09T00:42:24Z",
+        "homepageUrl": "https://meu-to-do-chi.vercel.app",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCuKSdA",
+      "login": "dunpagedormen",
+      "name": null,
+      "type": "User",
+      "location": "Chad (TD)",
+      "url": "https://github.com/dunpagedormen",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/182620788?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "dunpagedormen",
+        "nameWithOwner": "dunpagedormen/dunpagedormen",
+        "url": "https://github.com/dunpagedormen/dunpagedormen",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-24T09:06:40Z",
+        "pushedAt": "2024-09-24T09:07:00Z",
+        "homepageUrl": "https://github.com/dunpagedormen",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjg3MzE3Mzc3",
+      "login": "ENASTIC-GROUPE-4",
+      "name": "Groupe-4",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/ENASTIC-GROUPE-4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/87317377?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "gestion-hotel",
+        "nameWithOwner": "ENASTIC-GROUPE-4/gestion-hotel",
+        "url": "https://github.com/ENASTIC-GROUPE-4/gestion-hotel",
+        "description": "hello",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-07-12T20:12:42Z",
+        "pushedAt": "2021-07-12T20:25:45Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCzJy2g",
+      "login": "Eng-ahmat",
+      "name": "Ahmat Aboubakr",
+      "type": "User",
+      "location": "N'djamena, Chad",
+      "url": "https://github.com/Eng-ahmat",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/187855578?u=3caf3fe4560fcc06eae380f093bc3ef5a6f3acb7&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "Learning-repo",
+        "nameWithOwner": "Eng-ahmat/Learning-repo",
+        "url": "https://github.com/Eng-ahmat/Learning-repo",
+        "description": "This is my repository of my outcomes from learning new features, in coding, developing apps and web-apps",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-10-31T00:53:47Z",
+        "pushedAt": "2026-09-02T20:41:51Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOBiLraw",
+      "login": "ericbaouro",
+      "name": "ericbaouro",
+      "type": "User",
+      "location": "N'Djamena, Chad",
+      "url": "https://github.com/ericbaouro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/102951787?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "web_page",
+        "nameWithOwner": "ericbaouro/web_page",
+        "url": "https://github.com/ericbaouro/web_page",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-01-23T14:15:10Z",
+        "pushedAt": "2025-12-26T09:06:02Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "CSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOEjelZQ",
+      "login": "faissalizedine",
+      "name": "Faissal-Izedine",
+      "type": "User",
+      "location": "Chad ",
+      "url": "https://github.com/faissalizedine",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/305636709?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "faissalizedine",
+        "nameWithOwner": "faissalizedine/faissalizedine",
+        "url": "https://github.com/faissalizedine/faissalizedine",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-07T14:40:08Z",
+        "pushedAt": "2026-08-07T15:44:25Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -1029,6 +3178,144 @@
       }
     },
     {
+      "id": "U_kgDOCdjiGg",
+      "login": "forlamydreams",
+      "name": "FORLAMY DREAMS ORGANIZATION ",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/forlamydreams",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/165208602?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "forlamydreams",
+        "nameWithOwner": "forlamydreams/forlamydreams",
+        "url": "https://github.com/forlamydreams/forlamydreams",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-03-27T20:14:22Z",
+        "pushedAt": "2024-03-27T20:22:29Z",
+        "homepageUrl": "https://github.com/forlamydreams",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUwOTczMTYw",
+      "login": "foye-jr1046",
+      "name": "Abdelwahid Mahamat Foye Ilias",
+      "type": "User",
+      "location": "N'djamena, Chad",
+      "url": "https://github.com/foye-jr1046",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50973160?u=c2997b314fcf136f389e6e79d2077fee51caecc8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "foye-jr1046",
+        "nameWithOwner": "foye-jr1046/foye-jr1046",
+        "url": "https://github.com/foye-jr1046/foye-jr1046",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-06-07T10:11:12Z",
+        "pushedAt": "2021-06-07T10:41:25Z",
+        "homepageUrl": "https://github.com/foye-jr1046",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ2NjExMDEy",
+      "login": "gabdibegabhingonne",
+      "name": "Gabdibé GAB-HINGONNE",
+      "type": "User",
+      "location": "N'Djamena-Chad",
+      "url": "https://github.com/gabdibegabhingonne",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/46611012?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "Gabdib-GAB-HINGONNE",
+        "nameWithOwner": "gabdibegabhingonne/Gabdib-GAB-HINGONNE",
+        "url": "https://github.com/gabdibegabhingonne/Gabdib-GAB-HINGONNE",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-01-11T21:14:37Z",
+        "pushedAt": "2019-01-11T21:14:38Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOEAV33A",
+      "login": "Geeks-IT-Team",
+      "name": "Geeks IT Team",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/Geeks-IT-Team",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/268793820?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "detection-face",
+        "nameWithOwner": "Geeks-IT-Team/detection-face",
+        "url": "https://github.com/Geeks-IT-Team/detection-face",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-17T03:46:54Z",
+        "pushedAt": "2026-05-06T11:41:57Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBjPj6Q",
       "login": "Ghisdev",
       "name": null,
@@ -1059,6 +3346,42 @@
         "pushedAt": "2022-08-31T19:10:44Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjcyNDc2Mzgw",
+      "login": "gloire4",
+      "name": "Gloire IV Alaina",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/gloire4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/72476380?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "sgt-neobank",
+        "nameWithOwner": "gloire4/sgt-neobank",
+        "url": "https://github.com/gloire4/sgt-neobank",
+        "description": "Plateforme de transfert d'argent SGT vers Moov Money ou Airtel Money",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-09-30T08:33:09Z",
+        "pushedAt": "2022-09-30T08:43:20Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Dart"
+        },
         "licenseInfo": null
       }
     },
@@ -1199,6 +3522,502 @@
       }
     },
     {
+      "id": "U_kgDOBZPyKQ",
+      "login": "hishas",
+      "name": "Hisseine Hassane Abakar",
+      "type": "User",
+      "location": "Living in Chad actually.",
+      "url": "https://github.com/hishas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/93581865?u=6d7d5a0c0425ab6e3558795af96204f755db6677&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "Dashboard",
+        "nameWithOwner": "hishas/Dashboard",
+        "url": "https://github.com/hishas/Dashboard",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-05T07:44:34Z",
+        "pushedAt": "2026-08-05T07:59:50Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOC4rAbA",
+      "login": "IDontAName",
+      "name": null,
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/IDontAName",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/193642604?u=b02ee7da75d5d3abdeb54853ba169686321b034a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "werewolf",
+        "nameWithOwner": "IDontAName/werewolf",
+        "url": "https://github.com/IDontAName/werewolf",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-09T08:32:43Z",
+        "pushedAt": "2026-08-10T10:04:54Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODIdV1g",
+      "login": "instaforum",
+      "name": "Insta Tchad",
+      "type": "User",
+      "location": "Abeche",
+      "url": "https://github.com/instaforum",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/210195926?u=c6022fc5732378f71342ca13b4512ea9d1150ed1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "abeche"
+      },
+      "discoveryTerms": [
+        "Abeche"
+      ],
+      "topRepository": {
+        "name": "foruminsta",
+        "nameWithOwner": "instaforum/foruminsta",
+        "url": "https://github.com/instaforum/foruminsta",
+        "description": "Un forum de discussion, de partage des ressources et d'informations",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-05-06T07:12:17Z",
+        "pushedAt": "2025-05-06T21:31:17Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBol24w",
+      "login": "issahassan5555",
+      "name": "ISSA MAHAMAT HASSAN",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/issahassan5555",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/109672163?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "issahassan5555",
+        "nameWithOwner": "issahassan5555/issahassan5555",
+        "url": "https://github.com/issahassan5555/issahassan5555",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-07-30T15:50:21Z",
+        "pushedAt": "2022-07-30T15:51:20Z",
+        "homepageUrl": "https://github.com/issahassan5555",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOES2sqw",
+      "login": "jibaleysolution",
+      "name": "Jibaley Solution",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/jibaleysolution",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/288205995?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "ui-kit",
+        "nameWithOwner": "jibaleysolution/ui-kit",
+        "url": "https://github.com/jibaleysolution/ui-kit",
+        "description": "Jibaley ecosystem design system — Vue 3 + Inertia + reka-ui + Tailwind 4 admin-panel component kit (44 components, runtime brand theming, RTL-first).",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-22T16:58:08Z",
+        "pushedAt": "2026-08-30T21:02:37Z",
+        "homepageUrl": "https://jibaleysolution.github.io/ui-kit/",
+        "primaryLanguage": {
+          "name": "Vue"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "O_kgDOCdNLaw",
+      "login": "JimsForensics",
+      "name": "Jim's Forensics",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/JimsForensics",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/164842347?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": ".github",
+        "nameWithOwner": "JimsForensics/.github",
+        "url": "https://github.com/JimsForensics/.github",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-03-25T14:09:03Z",
+        "pushedAt": "2025-08-08T15:18:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOC1RqNw",
+      "login": "jose-osilveira",
+      "name": "José Eduardo Silveira",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/jose-osilveira",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/190081591?u=180b9fca52b45499811763643d501512fe11be63&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "PawLink",
+        "nameWithOwner": "jose-osilveira/PawLink",
+        "url": "https://github.com/jose-osilveira/PawLink",
+        "description": "Web platform for hiring pet service professionals, integrating HTML, CSS, JavaScript, and PHP. Implemented features include service browsing, booking, and a real-time chat system for direct communication between users and service providers. Focused on creating a user-friendly, responsive interface with dynamic back-end functionality.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-10-08T18:04:08Z",
+        "pushedAt": "2025-10-08T18:16:57Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODAarTQ",
+      "login": "kingterrytheterrible-terry",
+      "name": "o7",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/kingterrytheterrible-terry",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/201763661?u=d4742bf44cbb0099ecf7fd474f58642b97e9e732&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "encryv5",
+        "nameWithOwner": "kingterrytheterrible-terry/encryv5",
+        "url": "https://github.com/kingterrytheterrible-terry/encryv5",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-05-08T10:01:12Z",
+        "pushedAt": "2025-05-23T14:05:12Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUwMjAzNDk0",
+      "login": "LatishaLambeth",
+      "name": "Latisha Lambeth",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/LatishaLambeth",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50203494?u=f57504bdde093e3ded95264bebbf2a4c88fa42b6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "test_android",
+        "nameWithOwner": "LatishaLambeth/test_android",
+        "url": "https://github.com/LatishaLambeth/test_android",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-05-02T12:22:52Z",
+        "pushedAt": "2019-05-02T12:22:53Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMyNjgxOTYw",
+      "login": "LEDOUM",
+      "name": "sylvain.ledoum@td.tigo.com",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/LEDOUM",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/32681960?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "Test1",
+        "nameWithOwner": "LEDOUM/Test1",
+        "url": "https://github.com/LEDOUM/Test1",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-10-12T11:37:27Z",
+        "pushedAt": "2017-10-12T11:37:27Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOC4Rzzw",
+      "login": "LethalClient",
+      "name": "LethalClient",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/LethalClient",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/193229775?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": ".github",
+        "nameWithOwner": "LethalClient/.github",
+        "url": "https://github.com/LethalClient/.github",
+        "description": "bollocks",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-01-06T18:28:24Z",
+        "pushedAt": "2025-01-06T19:04:51Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCfsxBQ",
+      "login": "Maardimah",
+      "name": "Hamit Ali MAhamat",
+      "type": "User",
+      "location": "N'djamena , Chad",
+      "url": "https://github.com/Maardimah",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/167457029?u=6779638cf84341dcbb595cd46002b6bca834f826&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "Yarda",
+        "nameWithOwner": "Maardimah/Yarda",
+        "url": "https://github.com/Maardimah/Yarda",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-02-19T09:26:55Z",
+        "pushedAt": "2025-02-19T09:47:28Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIzNzA3ODcz",
+      "login": "MadTheViking",
+      "name": null,
+      "type": "User",
+      "location": "Chad, Boi",
+      "url": "https://github.com/MadTheViking",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/23707873?u=08b49f9a49fc13dd1efc48ab93410a17e9126242&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "fs_project",
+        "nameWithOwner": "MadTheViking/fs_project",
+        "url": "https://github.com/MadTheViking/fs_project",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-07-20T15:47:37Z",
+        "pushedAt": "2022-07-20T15:47:38Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "U_kgDODlO1jQ",
+      "login": "mahamataminahma",
+      "name": "Mahamatamin",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/mahamataminahma",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/240366989?u=d76f05f09052840aaa88250a5fc2845906615d01&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "Mahamatamin",
+        "nameWithOwner": "mahamataminahma/Mahamatamin",
+        "url": "https://github.com/mahamataminahma/Mahamatamin",
+        "description": "https://github.com/copilot",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-10-26T20:24:28Z",
+        "pushedAt": "2025-10-26T20:24:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjUxNTI0MTky",
       "login": "MiraiDesuuYo",
       "name": "Mirai Sama",
@@ -1272,6 +4091,40 @@
       }
     },
     {
+      "id": "O_kgDOClltOw",
+      "login": "MonoExploits",
+      "name": "MonoExploits",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/MonoExploits",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/173632827?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "MonoAppReleases",
+        "nameWithOwner": "MonoExploits/MonoAppReleases",
+        "url": "https://github.com/MonoExploits/MonoAppReleases",
+        "description": "Mono App Releasaes",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-08-06T11:03:57Z",
+        "pushedAt": "2024-08-06T11:03:57Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQ1ODk3MDMw",
       "login": "mouazmikail",
       "name": "Mikail",
@@ -1300,6 +4153,505 @@
         "isFork": false,
         "createdAt": "2026-10-02T14:26:05Z",
         "pushedAt": "2026-10-02T21:14:40Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIyMTg3OTg2",
+      "login": "moudjahid",
+      "name": "Moudjahid",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/moudjahid",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/22187986?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "CS50-Js-paython-lecture-1",
+        "nameWithOwner": "moudjahid/CS50-Js-paython-lecture-1",
+        "url": "https://github.com/moudjahid/CS50-Js-paython-lecture-1",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-04-19T10:12:46Z",
+        "pushedAt": "2020-04-19T12:23:14Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU3MzUzODQ5",
+      "login": "moussa-youssouf-issa",
+      "name": "Moussa Youssouf issa",
+      "type": "User",
+      "location": "N’Djamena, Chad",
+      "url": "https://github.com/moussa-youssouf-issa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/57353849?u=f69be379dd08a8375e2a979a359884e52eec961a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "Moussa-Youssouf-Issa",
+        "nameWithOwner": "moussa-youssouf-issa/Moussa-Youssouf-Issa",
+        "url": "https://github.com/moussa-youssouf-issa/Moussa-Youssouf-Issa",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-08-30T21:03:49Z",
+        "pushedAt": "2025-09-03T08:18:00Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCSmyLw",
+      "login": "n140289",
+      "name": "Nassir Idriss ADAM",
+      "type": "User",
+      "location": "N'Djamena, Chad",
+      "url": "https://github.com/n140289",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/153727535?u=ce0a172484046c873c10c981b5d7a14d523c83e4&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "Global-Health-Intelligence-Hub-GHIH-",
+        "nameWithOwner": "n140289/Global-Health-Intelligence-Hub-GHIH-",
+        "url": "https://github.com/n140289/Global-Health-Intelligence-Hub-GHIH-",
+        "description": "Repository name: ghih-website  Description: Global Health Intelligence Hub - AI Powered Digital Health Platform  Public ✅  Add a README file ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-21T23:32:03Z",
+        "pushedAt": "2026-07-21T23:32:04Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEwNjE1NDUx",
+      "login": "Nadjibx",
+      "name": "Nadjiarabeye Beassoum",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/Nadjibx",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10615451?u=bdc1cb3579d4fdce895d1d71b41cb847c3624f54&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "getdata-Project",
+        "nameWithOwner": "Nadjibx/getdata-Project",
+        "url": "https://github.com/Nadjibx/getdata-Project",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-03-20T11:49:09Z",
+        "pushedAt": "2015-03-20T13:17:32Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "R"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBa1JLA",
+      "login": "naitze",
+      "name": null,
+      "type": "User",
+      "location": "chad",
+      "url": "https://github.com/naitze",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/95242540?u=d293e79856c2b43d3129f51730908a7026679201&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "nait",
+        "nameWithOwner": "naitze/nait",
+        "url": "https://github.com/naitze/nait",
+        "description": "tutorial epico",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-07-02T03:51:06Z",
+        "pushedAt": "2024-07-02T03:56:16Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Papyrus"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc2OTgyODQy",
+      "login": "neorobert",
+      "name": "Robert Djondene",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/neorobert",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/76982842?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "SliceSim",
+        "nameWithOwner": "neorobert/SliceSim",
+        "url": "https://github.com/neorobert/SliceSim",
+        "description": "Network slicing simulator ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-05-26T09:44:52Z",
+        "pushedAt": "2025-05-27T14:42:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOCuyXyg",
+      "login": "nightlygg",
+      "name": "Nightly",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/nightlygg",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/183277514?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "kittyauth",
+        "nameWithOwner": "nightlygg/kittyauth",
+        "url": "https://github.com/nightlygg/kittyauth",
+        "description": "Authentication server for KittyMace (Judgement Client), implemented in Bun (TS) using Elysia.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-02-02T12:12:58Z",
+        "pushedAt": "2026-02-02T12:26:25Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOB_L0dw",
+      "login": "OneMusty",
+      "name": "OneMusty",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/OneMusty",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/133362807?u=d75256b384d3d10d91626c37afc4c95a85c3d50b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "Discord",
+        "nameWithOwner": "OneMusty/Discord",
+        "url": "https://github.com/OneMusty/Discord",
+        "description": "Files for Discord that are too big for it",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-07-23T03:33:48Z",
+        "pushedAt": "2025-11-11T02:24:01Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY4NDM0MDU0",
+      "login": "orijna",
+      "name": null,
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/orijna",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/68434054?u=cfd975b493bb79b01f5136f9a1fb80c96b815875&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "shat",
+        "nameWithOwner": "orijna/shat",
+        "url": "https://github.com/orijna/shat",
+        "description": "a cat replacement with less bullshit bloat. better than ken thompson could ever do",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-08-20T03:28:13Z",
+        "pushedAt": "2020-08-20T20:28:00Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOEWd72Q",
+      "login": "OumarEpiData",
+      "name": "EpiData.Solutions",
+      "type": "User",
+      "location": "Abeche Chad",
+      "url": "https://github.com/OumarEpiData",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/291994585?u=cf58823ff879b676df7c1ad193909e586df3e295&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Abeche",
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "health-data-dashboard",
+        "nameWithOwner": "OumarEpiData/health-data-dashboard",
+        "url": "https://github.com/OumarEpiData/health-data-dashboard",
+        "description": "Public Health and Epidemiological Data Analysis Projects using Excel, Power BI, Python, and SQL.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-06-09T05:40:55Z",
+        "pushedAt": "2026-06-09T05:40:56Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "O_kgDOBss4zw",
+      "login": "PersonalOrge",
+      "name": "Present",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/PersonalOrge",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/113981647?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "Yoyu",
+        "nameWithOwner": "PersonalOrge/Yoyu",
+        "url": "https://github.com/PersonalOrge/Yoyu",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-09-20T09:29:59Z",
+        "pushedAt": "2022-09-20T09:30:35Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOBmV3RA",
+      "login": "R0gueware",
+      "name": "Rogue",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/R0gueware",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/107312964?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": ".github",
+        "nameWithOwner": "R0gueware/.github",
+        "url": "https://github.com/R0gueware/.github",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-08-06T10:33:09Z",
+        "pushedAt": "2022-09-06T19:31:02Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOBhtgAA",
+      "login": "RidenYaw",
+      "name": "RidenYaw",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/RidenYaw",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/102457344?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "RidenYaw",
+        "nameWithOwner": "RidenYaw/RidenYaw",
+        "url": "https://github.com/RidenYaw/RidenYaw",
+        "description": "RidenYaw",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-03-27T06:58:52Z",
+        "pushedAt": "2022-05-08T09:04:27Z",
+        "homepageUrl": "https://github.com/RidenYaw",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCWUEhw",
+      "login": "roger-nadoumngar",
+      "name": "Roger Beramgoto Nadoumngar",
+      "type": "User",
+      "location": "CHAD",
+      "url": "https://github.com/roger-nadoumngar",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/157615239?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "gerro_lexicographe",
+        "nameWithOwner": "roger-nadoumngar/gerro_lexicographe",
+        "url": "https://github.com/roger-nadoumngar/gerro_lexicographe",
+        "description": "lexicographe",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-04T09:03:07Z",
+        "pushedAt": "2026-09-04T09:04:07Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Python"
@@ -1344,6 +4696,183 @@
       }
     },
     {
+      "id": "O_kgDOCbXz2g",
+      "login": "Script-Stoners",
+      "name": "ScriptStoners</💉>",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/Script-Stoners",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/162919386?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "ITProject",
+        "nameWithOwner": "Script-Stoners/ITProject",
+        "url": "https://github.com/Script-Stoners/ITProject",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-03-10T19:59:14Z",
+        "pushedAt": "2024-05-31T11:29:54Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBg0dHA",
+      "login": "SeriouSurge",
+      "name": "Mordecai",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/SeriouSurge",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/101522716?u=4a827d9646341c129f42d89b6482492b274a17b0&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "SeriouSurge",
+        "nameWithOwner": "SeriouSurge/SeriouSurge",
+        "url": "https://github.com/SeriouSurge/SeriouSurge",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-03-13T18:27:25Z",
+        "pushedAt": "2022-03-13T18:43:42Z",
+        "homepageUrl": "https://github.com/SeriouSurge",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOEErCtg",
+      "login": "sokchad90-debug",
+      "name": "Abdarahim — Software Developer",
+      "type": "User",
+      "location": "N'Djamena, Chad",
+      "url": "https://github.com/sokchad90-debug",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/273334966?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "sokchad90-debug",
+        "nameWithOwner": "sokchad90-debug/sokchad90-debug",
+        "url": "https://github.com/sokchad90-debug/sokchad90-debug",
+        "description": "My GitHub profile",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-08T09:04:28Z",
+        "pushedAt": "2026-09-08T16:52:56Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMwODgyMDA2",
+      "login": "Solid2017",
+      "name": "Betan Gildas Ongbaye",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/Solid2017",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/30882006?u=85f8d1355f3f9a3849a4e41d977cd5371a89390e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "djhina-backend",
+        "nameWithOwner": "Solid2017/djhina-backend",
+        "url": "https://github.com/Solid2017/djhina-backend",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-07T23:07:08Z",
+        "pushedAt": "2026-04-18T22:21:32Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODqnmJQ",
+      "login": "SouadCoundi",
+      "name": "Souad COUNDI",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/SouadCoundi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/246015525?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "these-microgrid-amdjarass",
+        "nameWithOwner": "SouadCoundi/these-microgrid-amdjarass",
+        "url": "https://github.com/SouadCoundi/these-microgrid-amdjarass",
+        "description": "Code, données et documentation pour ma thèse sur la gestion intelligente du micro-réseau d'Amdjarass",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-12-03T19:48:42Z",
+        "pushedAt": "2025-12-03T20:22:55Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TeX"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQ3NzQ5NTkz",
       "login": "ssougour",
       "name": "Sougour Mahamat Souleyman",
@@ -1372,6 +4901,575 @@
         "isFork": false,
         "createdAt": "2024-05-06T12:37:23Z",
         "pushedAt": "2024-05-06T12:37:48Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM5OTkxNDgx",
+      "login": "steve-nanou",
+      "name": "Steve NANOUDJAL",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/steve-nanou",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39991481?u=3f4b52f5a49bd5e41aa5771cb853157e6668eab6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "my_first_project",
+        "nameWithOwner": "steve-nanou/my_first_project",
+        "url": "https://github.com/steve-nanou/my_first_project",
+        "description": "Implement a model to make an audio classification using the urbansounddataset database.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-01-03T21:26:13Z",
+        "pushedAt": "2020-01-03T21:45:03Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOB9Ws4g",
+      "login": "StudySucess",
+      "name": "StudySucess",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/StudySucess",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/131443938?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "Fullstack-Laravel",
+        "nameWithOwner": "StudySucess/Fullstack-Laravel",
+        "url": "https://github.com/StudySucess/Fullstack-Laravel",
+        "description": "Ons project geintegreerd in Laravel: volledige backend & frontend functionaliteit",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-06-02T08:33:39Z",
+        "pushedAt": "2023-06-25T22:01:34Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Blade"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOBgqE_w",
+      "login": "sunad-party",
+      "name": "sunad.party",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/sunad-party",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/101352703?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "hugo",
+        "nameWithOwner": "sunad-party/hugo",
+        "url": "https://github.com/sunad-party/hugo",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-09-17T07:07:26Z",
+        "pushedAt": "2023-09-27T02:26:52Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCuPGyQ",
+      "login": "sweetgerporupor",
+      "name": null,
+      "type": "User",
+      "location": "Chad (TD)",
+      "url": "https://github.com/sweetgerporupor",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/182699721?u=4345122fab3843f45f006316da64986e81fe4d53&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "sweetgerporupor",
+        "nameWithOwner": "sweetgerporupor/sweetgerporupor",
+        "url": "https://github.com/sweetgerporupor/sweetgerporupor",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-24T21:27:47Z",
+        "pushedAt": "2024-09-24T21:27:59Z",
+        "homepageUrl": "https://github.com/sweetgerporupor",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDODtx3aw",
+      "login": "synergiesahel",
+      "name": "Synergie Sahel",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/synergiesahel",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/249329515?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "site",
+        "nameWithOwner": "synergiesahel/site",
+        "url": "https://github.com/synergiesahel/site",
+        "description": "Site institutionnel de Synergie Sahel. Page unique, autonome, routage par ancre.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-29T08:18:46Z",
+        "pushedAt": "2026-08-29T08:49:27Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOED9YDA",
+      "login": "TCHADEAU",
+      "name": "Tchad'Eau",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/TCHADEAU",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/272586764?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "STE_Outils_Supervision",
+        "nameWithOwner": "TCHADEAU/STE_Outils_Supervision",
+        "url": "https://github.com/TCHADEAU/STE_Outils_Supervision",
+        "description": "Description des installations pour la supervision du SI de la STE",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-15T07:56:16Z",
+        "pushedAt": "2026-06-21T15:22:59Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU2NzM4ODQ4",
+      "login": "Tchalle",
+      "name": "MAHAMAT TCHALLE GOLLE",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/Tchalle",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/56738848?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "hono-react-better-auth",
+        "nameWithOwner": "Tchalle/hono-react-better-auth",
+        "url": "https://github.com/Tchalle/hono-react-better-auth",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-30T13:40:29Z",
+        "pushedAt": "2026-04-30T17:32:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc4MjgxODg1",
+      "login": "th-huese",
+      "name": "th0mass",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/th-huese",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/78281885?u=14c4697ad4642fc5fb9625b187f2b20d01f7f032&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "avl-trainer",
+        "nameWithOwner": "th-huese/avl-trainer",
+        "url": "https://github.com/th-huese/avl-trainer",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-10T08:55:36Z",
+        "pushedAt": "2026-07-10T08:57:20Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOD36LVQ",
+      "login": "ticcyberchad",
+      "name": "TIC&CYBER CHAD",
+      "type": "User",
+      "location": "Chad",
+      "url": "https://github.com/ticcyberchad",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/259951445?u=88f1c5c4a5cb951c7d9d4f8917e561e9836e07d2&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "ticcyberchad",
+        "nameWithOwner": "ticcyberchad/ticcyberchad",
+        "url": "https://github.com/ticcyberchad/ticcyberchad",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-02-06T21:25:31Z",
+        "pushedAt": "2026-02-06T21:47:13Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOCbqkRQ",
+      "login": "tivect",
+      "name": "tivect",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/tivect",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/163226693?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "PlatScifi",
+        "nameWithOwner": "tivect/PlatScifi",
+        "url": "https://github.com/tivect/PlatScifi",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-03-13T21:58:04Z",
+        "pushedAt": "2024-04-21T19:43:48Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "O_kgDOEy_jtA",
+      "login": "Toumai-AI",
+      "name": "Toumaï AI",
+      "type": "Organization",
+      "location": "N'Djamena, Chad",
+      "url": "https://github.com/Toumai-AI",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/321905588?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": ".github",
+        "nameWithOwner": "Toumai-AI/.github",
+        "url": "https://github.com/Toumai-AI/.github",
+        "description": "Organisation profile, community health files and workflow templates for Toumai AI.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-29T19:54:45Z",
+        "pushedAt": "2026-08-29T20:01:25Z",
+        "homepageUrl": "https://toumaiai.com",
+        "primaryLanguage": {
+          "name": "PowerShell"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "O_kgDODxngYQ",
+      "login": "Villain-s-Gamburu-Den",
+      "name": "Villains' Gamburu Den",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/Villain-s-Gamburu-Den",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/253354081?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": ".github",
+        "nameWithOwner": "Villain-s-Gamburu-Den/.github",
+        "url": "https://github.com/Villain-s-Gamburu-Den/.github",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-06T19:33:06Z",
+        "pushedAt": "2026-01-06T19:35:06Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOCe9xbQ",
+      "login": "VX-PTC",
+      "name": "PTC",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/VX-PTC",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/166687085?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": ".github",
+        "nameWithOwner": "VX-PTC/.github",
+        "url": "https://github.com/VX-PTC/.github",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-04-11T07:06:06Z",
+        "pushedAt": "2024-04-11T07:08:09Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOB-rvdQ",
+      "login": "wepretendtobeprogrammers",
+      "name": "We pretend to be programmers",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/wepretendtobeprogrammers",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/132837237?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "wuebsyte",
+        "nameWithOwner": "wepretendtobeprogrammers/wuebsyte",
+        "url": "https://github.com/wepretendtobeprogrammers/wuebsyte",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-05-07T19:19:01Z",
+        "pushedAt": "2023-05-08T11:54:18Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjg4MDQzNjA4",
+      "login": "White-Door",
+      "name": "White Door [RBLX Horror game]",
+      "type": "Organization",
+      "location": "Chad",
+      "url": "https://github.com/White-Door",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/88043608?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "Updates",
+        "nameWithOwner": "White-Door/Updates",
+        "url": "https://github.com/White-Door/Updates",
+        "description": "Posting some stuff here",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-07-27T14:32:41Z",
+        "pushedAt": "2021-08-06T18:22:02Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOC1Crfw",
+      "login": "YOUSSOUF-2004",
+      "name": "ing.YOUSSOUF CHAIBO ABAKAR ",
+      "type": "User",
+      "location": "chad",
+      "url": "https://github.com/YOUSSOUF-2004",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/189836159?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Chad"
+      },
+      "discoveryTerms": [
+        "Chad"
+      ],
+      "topRepository": {
+        "name": "JAVA",
+        "nameWithOwner": "YOUSSOUF-2004/JAVA",
+        "url": "https://github.com/YOUSSOUF-2004/JAVA",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-12-14T04:29:46Z",
+        "pushedAt": "2024-12-14T04:30:09Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null

@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 572**
 - Progress: **0%**
-- Retained high-potential owner candidates: **48**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **157**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [bobeff/open-source-games](https://github.com/bobeff/open-source-games) | **15,544** | Sliven, Bulgaria |
+| [bobeff/open-source-games](https://github.com/bobeff/open-source-games) | **15,545** | Sliven, Bulgaria |
 | [erusev/parsedown](https://github.com/erusev/parsedown) | **15,055** | Sofia, Bulgaria |
 | [krasimir/react-in-patterns](https://github.com/krasimir/react-in-patterns) | **13,571** | Bulgaria |
 | [ggerganov/kbd-audio](https://github.com/ggerganov/kbd-audio) | **9,030** | Sofia, Bulgaria |
@@ -36,7 +36,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [me-no-dev/ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer) | **4,044** | Bulgaria |
 | [sebaxakerhtc/rdpwrap.ini](https://github.com/sebaxakerhtc/rdpwrap.ini) | **3,879** | Bulgaria |
 | [nakov/Practical-Cryptography-for-Developers-Book](https://github.com/nakov/Practical-Cryptography-for-Developers-Book) | **3,829** | Sofia, Bulgaria |
-| [presmihaylov/booknotes](https://github.com/presmihaylov/booknotes) | **3,079** | Sofia, Bulgaria |
+| [presmihaylov/booknotes](https://github.com/presmihaylov/booknotes) | **3,080** | Sofia, Bulgaria |
 | [astoilkov/jsblocks](https://github.com/astoilkov/jsblocks) | **2,745** | EU › Bulgaria › Sofia |
 | [telerik/kendo-ui-core](https://github.com/telerik/kendo-ui-core) | **2,586** | Bulgaria |
 

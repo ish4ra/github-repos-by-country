@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 2,628**
 - Progress: **0%**
-- Retained high-potential owner candidates: **48**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **312**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [vrana/adminer](https://github.com/vrana/adminer) | **7,915** | Praha, Czechia |
+| [vrana/adminer](https://github.com/vrana/adminer) | **7,916** | Praha, Czechia |
 | [vavkamil/awesome-bugbounty-tools](https://github.com/vavkamil/awesome-bugbounty-tools) | **6,287** | Czechia |
 | [JakubOnderka/PHP-Console-Highlighter](https://github.com/JakubOnderka/PHP-Console-Highlighter) | **6,152** | Brno, Czechia |
 | [tolgee/tolgee-platform](https://github.com/tolgee/tolgee-platform) | **4,119** | Brno, Czechia |

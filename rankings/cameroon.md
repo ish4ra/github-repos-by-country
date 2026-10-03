@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 163**
 - Progress: **0%**
-- Retained high-potential owner candidates: **49**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **346**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -31,13 +31,13 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Njong392/Abbreve](https://github.com/Njong392/Abbreve) | **166** | Cameroon |
 | [xSavitar/programming-books-and-resources](https://github.com/xSavitar/programming-books-and-resources) | **151** | Buea, Cameroon |
 | [donaldte/azure-devops-bootcamp-zero-a-expert](https://github.com/donaldte/azure-devops-bootcamp-zero-a-expert) | **149** | Bamenda/Cameroon |
+| [SherlockHolmes2045/fanga](https://github.com/SherlockHolmes2045/fanga) | **85** | Cameroon |
 | [trey-rosius/airbnb_clone](https://github.com/trey-rosius/airbnb_clone) | **71** | Douala,Cameroon |
 | [mystroken/drag](https://github.com/mystroken/drag) | **48** | Yaounde, Cameroon |
 | [osscameroon/website](https://github.com/osscameroon/website) | **37** | Douala - Cameroon |
+| [iws3/Medical-AI-Assistant---Production-Ready-Healthcare-Application](https://github.com/iws3/Medical-AI-Assistant---Production-Ready-Healthcare-Application) | **36** | Bamenda, Cameroon |
 | [Kanjo-Elkamira-Ndi/Data-Science-Operations-Pipeline-Lab](https://github.com/Kanjo-Elkamira-Ndi/Data-Science-Operations-Pipeline-Lab) | **29** | Yaoundé Cameroon |
 | [elhmn/ckp](https://github.com/elhmn/ckp) | **21** | Cameroon |
 | [AssahBismarkabah/Snif](https://github.com/AssahBismarkabah/Snif) | **19** | Cameroon |
-| [djangocameroon/djangonistas](https://github.com/djangocameroon/djangonistas) | **19** | Cameroon |
-| [djonmaila/projet_de_fin_de_formation](https://github.com/djonmaila/projet_de_fin_de_formation) | **16** | Cameroon |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

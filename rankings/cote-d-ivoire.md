@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 4,863**
 - Progress: **0%**
-- Retained high-potential owner candidates: **50**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **302**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,6 +25,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [catchain/tonscan](https://github.com/catchain/tonscan) | **213** | Côte d'Ivoire |
+| [eliseekn/laravel-metrics](https://github.com/eliseekn/laravel-metrics) | **138** | Côte d'Ivoire, Abidjan |
 | [agazinakou/AngularPos](https://github.com/agazinakou/AngularPos) | **90** | Abidjan, Côte d'ivoire |
 | [agnamc9/ArcsView](https://github.com/agnamc9/ArcsView) | **40** | Abidjan, Côte d'Ivoire |
 | [Mr-KAM/cartograpy](https://github.com/Mr-KAM/cartograpy) | **32** | Côte d'Ivoire |
@@ -38,6 +39,5 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ferdikam/location-vehicule](https://github.com/ferdikam/location-vehicule) | **6** | Côte d'Ivoire - Abidjan |
 | [flavien-hugs/dj-example-authentication](https://github.com/flavien-hugs/dj-example-authentication) | **6** | Abidjan - Côte d'Ivoire |
 | [CedrickOka/pagination-bundle](https://github.com/CedrickOka/pagination-bundle) | **5** | Abidjan, Côte d'Ivoire |
-| [karimalik/telegram-bot](https://github.com/karimalik/telegram-bot) | **5** | Abidjan, Côte d'ivoire |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

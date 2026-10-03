@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 249**
 - Progress: **0%**
-- Retained high-potential owner candidates: **50**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **160**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,12 +24,12 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [htr-tech/zphisher](https://github.com/htr-tech/zphisher) | **16,942** | Dhaka, Bangladesh |
+| [htr-tech/zphisher](https://github.com/htr-tech/zphisher) | **16,944** | Dhaka, Bangladesh |
 | [codewithsadee/vcard-personal-portfolio](https://github.com/codewithsadee/vcard-personal-portfolio) | **8,112** | Bangladesh |
 | [me-shaon/GLWTPL](https://github.com/me-shaon/GLWTPL) | **5,049** | Dhaka, Bangladesh |
 | [fhsinchy/docker-handbook-projects](https://github.com/fhsinchy/docker-handbook-projects) | **1,397** | Bangladesh |
 | [hasinhayder/hydra](https://github.com/hasinhayder/hydra) | **932** | Dhaka, Bangladesh |
-| [shovoalways/CSS-Course](https://github.com/shovoalways/CSS-Course) | **878** | Bangladesh |
+| [shovoalways/CSS-Course](https://github.com/shovoalways/CSS-Course) | **879** | Bangladesh |
 | [mrhm-dev/full-stack-army](https://github.com/mrhm-dev/full-stack-army) | **652** | Dhaka, Bangladesh |
 | [hasancse91/flutter_getx_template](https://github.com/hasancse91/flutter_getx_template) | **442** | Dhaka, Bangladesh |
 | [learnwithsumit/think-in-a-react-way](https://github.com/learnwithsumit/think-in-a-react-way) | **395** | Dhaka, Bangladesh |

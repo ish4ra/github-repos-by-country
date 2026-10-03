@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 0%
+## Repository ranking status: Building 2%
 
-- Geography terms processed: **0 / 209**
-- Progress: **0%**
-- Retained high-potential owner candidates: **48**
-- Search requests completed: **1**
+- Geography terms processed: **6 / 209**
+- Progress: **2%**
+- Retained high-potential owner candidates: **124**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -34,10 +34,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [carlosadcaraujo/html-wysiwyg](https://github.com/carlosadcaraujo/html-wysiwyg) | **6** | Cape Verde |
 | [DanildoSilva/music-event-website](https://github.com/DanildoSilva/music-event-website) | **5** | Cape Verde |
 | [Smithmayowa20/phobiadeflector](https://github.com/Smithmayowa20/phobiadeflector) | **5** | Priar, Cape Verde |
+| [kriol-lang/kriol](https://github.com/kriol-lang/kriol) | **4** | Cape Verde |
+| [roberto-centeio/bigNode](https://github.com/roberto-centeio/bigNode) | **4** | Cape Verde |
 | [Siqsuruq/Tcl-VSCode](https://github.com/Siqsuruq/Tcl-VSCode) | **4** | Cape Verde |
 | [7-AM/matanza](https://github.com/7-AM/matanza) | **3** | Cape Verde |
 | [Dnuns/katxupi-react](https://github.com/Dnuns/katxupi-react) | **3** | Cape Verde |
-| [IMarcelF/payment_acquirer_sisp](https://github.com/IMarcelF/payment_acquirer_sisp) | **3** | Praia, Cape Verde |
-| [kcfurtado/challenge-todo](https://github.com/kcfurtado/challenge-todo) | **3** | Cape Verde |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

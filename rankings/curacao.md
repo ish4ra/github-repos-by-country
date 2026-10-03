@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 0%
+## Repository ranking status: Building 38%
 
-- Geography terms processed: **0 / 18**
-- Progress: **0%**
-- Retained high-potential owner candidates: **30**
-- Search requests completed: **1**
+- Geography terms processed: **7 / 18**
+- Progress: **38%**
+- Retained high-potential owner candidates: **72**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -34,10 +34,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [rscoopcur/dbml2puml](https://github.com/rscoopcur/dbml2puml) | **5** | Willemstad, Curaçao, Dutch Caribbean |
 | [JObersi10/apple-music-tv](https://github.com/JObersi10/apple-music-tv) | **3** | Willemstad, Curaçao |
 | [EcoLabsHQ/Ecosystem-Accounts](https://github.com/EcoLabsHQ/Ecosystem-Accounts) | **2** | Curaçao |
+| [8841fb/lain](https://github.com/8841fb/lain) | **1** | Curaçao |
 | [BlyceOfficial/Gulp-Workflow](https://github.com/BlyceOfficial/Gulp-Workflow) | **1** | Willemstad, Curaçao |
 | [coinversus-labs/cryptrobot-generator](https://github.com/coinversus-labs/cryptrobot-generator) | **1** | Curaçao |
-| [frankgeerlings/InternationalizationDetails](https://github.com/frankgeerlings/InternationalizationDetails) | **1** | Curaçao |
-| [jentanbernardus/gulp-setup](https://github.com/jentanbernardus/gulp-setup) | **1** | Curaçao |
-| [r3c4ll/my-vim-config](https://github.com/r3c4ll/my-vim-config) | **1** | Willemstad, Curaçao. |
+| [Color4You/Color4You](https://github.com/Color4You/Color4You) | **1** | Curaçao |
+| [cubo-cms/node-framework](https://github.com/cubo-cms/node-framework) | **1** | Curaçao |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

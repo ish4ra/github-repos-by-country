@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 781**
 - Progress: **0%**
-- Retained high-potential owner candidates: **48**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **175**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -29,7 +29,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [lfades/next-with-apollo](https://github.com/lfades/next-with-apollo) | **762** | Sabaneta - Colombia |
 | [JesusChapman/termux-desktop-xfce](https://github.com/JesusChapman/termux-desktop-xfce) | **586** | Colombia |
 | [DiegoRBaquero/BTorrent](https://github.com/DiegoRBaquero/BTorrent) | **585** | Colombia |
-| [DragonJAR/n8n-workflows-esp](https://github.com/DragonJAR/n8n-workflows-esp) | **527** | Manizales, Caldas, Colombia |
+| [DragonJAR/n8n-workflows-esp](https://github.com/DragonJAR/n8n-workflows-esp) | **528** | Manizales, Caldas, Colombia |
 | [Edu4rdSHL/unimap](https://github.com/Edu4rdSHL/unimap) | **401** | Colombia |
 | [gndx/gndx-challenges](https://github.com/gndx/gndx-challenges) | **232** | Colombia |
 | [jdnichollsc/Ionic-Starter-Template](https://github.com/jdnichollsc/Ionic-Starter-Template) | **210** | Colombia |

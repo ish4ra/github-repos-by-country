@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 746**
 - Progress: **0%**
-- Retained high-potential owner candidates: **50**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **155**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,11 +24,11 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | **44,828** | Denmark |
+| [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | **44,841** | Denmark |
 | [Unity-Technologies/ml-agents](https://github.com/Unity-Technologies/ml-agents) | **19,717** | Copenhagen, Denmark |
 | [SubtitleEdit/subtitleedit](https://github.com/SubtitleEdit/subtitleedit) | **14,409** | Denmark |
 | [andreasbm/web-skills](https://github.com/andreasbm/web-skills) | **7,645** | Denmark |
-| [ilyamiro/serpantinum](https://github.com/ilyamiro/serpantinum) | **7,162** | Denmark |
+| [ilyamiro/serpantinum](https://github.com/ilyamiro/serpantinum) | **7,167** | Denmark |
 | [michenriksen/gitrob](https://github.com/michenriksen/gitrob) | **6,196** | Copenhagen, Denmark |
 | [klauspost/compress](https://github.com/klauspost/compress) | **5,654** | Denmark |
 | [SebLague/Digital-Logic-Sim](https://github.com/SebLague/Digital-Logic-Sim) | **4,727** | Denmark |
@@ -38,6 +38,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [simonbs/Runestone](https://github.com/simonbs/Runestone) | **3,223** | Denmark |
 | [mjebrahimi/Awesome-Microservices-DotNet](https://github.com/mjebrahimi/Awesome-Microservices-DotNet) | **3,083** | Copenhagen, Denmark |
 | [watson/awesome-computer-history](https://github.com/watson/awesome-computer-history) | **2,963** | Copenhagen, Denmark |
-| [SimonVT/android-menudrawer](https://github.com/SimonVT/android-menudrawer) | **2,567** | Denmark |
+| [thisandagain/sentiment](https://github.com/thisandagain/sentiment) | **2,678** | Denmark |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

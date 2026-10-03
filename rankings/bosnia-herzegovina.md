@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 300**
 - Progress: **0%**
-- Retained high-potential owner candidates: **49**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **267**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -37,7 +37,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [vladimir-cicovic/wifi_pass](https://github.com/vladimir-cicovic/wifi_pass) | **424** | @Bosnia and Herzegovina |
 | [beganovich/snappdf](https://github.com/beganovich/snappdf) | **221** | Bosnia and Herzegovina |
 | [BenjaminMahmic/collapsible_drawer](https://github.com/BenjaminMahmic/collapsible_drawer) | **182** | Zenica, Bosnia and Herzegovina |
+| [mstijak/tdo](https://github.com/mstijak/tdo) | **182** | Banja Luka, Bosnia and Herzegovina |
 | [BranislavLazic/SwingTutorials](https://github.com/BranislavLazic/SwingTutorials) | **123** | Bijeljina, Bosnia and Herzegovina |
-| [edinSahbaz/clean-api-template](https://github.com/edinSahbaz/clean-api-template) | **70** | Maglaj,Bosnia and Herzegovina,Europe |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 103**
 - Progress: **0%**
-- Retained high-potential owner candidates: **50**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **154**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -32,12 +32,12 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [improbabilidades/PyX](https://github.com/improbabilidades/PyX) | **440** | Costa Rica |
 | [r0r0x-xx/AeroSpace-Cybersecurity](https://github.com/r0r0x-xx/AeroSpace-Cybersecurity) | **429** | Costa Rica |
 | [ihuaylupo/manning-smia](https://github.com/ihuaylupo/manning-smia) | **397** | Costa Rica |
+| [jetm/mediatek-mt7927-dkms](https://github.com/jetm/mediatek-mt7927-dkms) | **270** | Costa Rica |
 | [fabianabarca/git](https://github.com/fabianabarca/git) | **127** | San José, Costa Rica |
 | [JoanEsquivel/cypress-cucumber-boilerplate](https://github.com/JoanEsquivel/cypress-cucumber-boilerplate) | **109** | Costa Rica |
 | [tropicalizacion/ferias](https://github.com/tropicalizacion/ferias) | **109** | Costa Rica |
 | [simovilab/databus](https://github.com/simovilab/databus) | **101** | Costa Rica |
 | [tuto1902/filament-pet-clinic](https://github.com/tuto1902/filament-pet-clinic) | **91** | Costa Rica |
 | [brolag/30DaysOfReact](https://github.com/brolag/30DaysOfReact) | **73** | Costa Rica |
-| [siddharta1337/Angular2-trabajo-con-API-REST](https://github.com/siddharta1337/Angular2-trabajo-con-API-REST) | **64** | Costa Rica |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

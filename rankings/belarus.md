@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 467**
 - Progress: **0%**
-- Retained high-potential owner candidates: **49**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **162**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -26,9 +26,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [asaskevich/govalidator](https://github.com/asaskevich/govalidator) | **6,202** | Belarus |
 | [dillidon/alerts-and-pickers](https://github.com/dillidon/alerts-and-pickers) | **5,756** | Belarus |
-| [YauhenKavalchuk/interview-questions](https://github.com/YauhenKavalchuk/interview-questions) | **4,546** | Belarus, Minsk |
+| [YauhenKavalchuk/interview-questions](https://github.com/YauhenKavalchuk/interview-questions) | **4,547** | Belarus, Minsk |
 | [BEPb/BEPb](https://github.com/BEPb/BEPb) | **3,220** | Belarus |
-| [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) | **3,079** | Belarus |
+| [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) | **3,109** | Belarus |
 | [nillerusr/source-engine](https://github.com/nillerusr/source-engine) | **2,275** | Belarus |
 | [ermig1979/Simd](https://github.com/ermig1979/Simd) | **2,271** | Minsk, Belarus |
 | [Mixaill/awesome-gog-galaxy](https://github.com/Mixaill/awesome-gog-galaxy) | **1,906** | Minsk, Belarus |

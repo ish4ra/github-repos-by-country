@@ -18,8 +18,106 @@
     "term": "Benin",
     "queue": [
       {
-        "query": "location:\"Benin\" type:user",
-        "stage": "type",
+        "query": "location:\"Benin\" type:user followers:0",
+        "stage": "followers",
+        "cursor": "Y3Vyc29yOjM1MA==",
+        "pageNumber": 8,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Benin\" type:user followers:1..4",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Benin\" type:user followers:5..9",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Benin\" type:user followers:10..24",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Benin\" type:user followers:25..49",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Benin\" type:user followers:50..99",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Benin\" type:user followers:100..249",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Benin\" type:user followers:250..499",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Benin\" type:user followers:500..999",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Benin\" type:user followers:1000..2499",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Benin\" type:user followers:2500..4999",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Benin\" type:user followers:5000..9999",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Benin\" type:user followers:10000..24999",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Benin\" type:user followers:25000..49999",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Benin\" type:user followers:>=50000",
+        "stage": "followers",
         "cursor": null,
         "pageNumber": 1,
         "attempts": 0
@@ -33,24 +131,24 @@
       }
     ],
     "startedAt": "2026-10-03T08:27:18.579Z",
-    "requests": 1,
-    "leafPages": 0,
-    "shardExpansions": 1,
-    "reportedCount": 1994
+    "requests": 9,
+    "leafPages": 7,
+    "shardExpansions": 2,
+    "reportedCount": 1698
   },
   "discoveryComplete": false,
   "startedAt": "2026-10-03T08:27:18.579Z",
-  "updatedAt": "2026-10-03T08:27:22.553Z",
+  "updatedAt": "2026-10-03T11:53:24.445Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 1,
-    "leafPages": 0,
-    "shardExpansions": 1,
-    "rawOwnerHits": 50,
+    "searchRequests": 9,
+    "leafPages": 7,
+    "shardExpansions": 2,
+    "rawOwnerHits": 450,
     "acceptedOwnerHits": 0,
-    "rejectedOwnerHits": 50,
+    "rejectedOwnerHits": 450,
     "unresolvedShardCount": 0,
     "minimumRateLimitRemaining": 4728
   },

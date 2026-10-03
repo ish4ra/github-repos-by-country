@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 0%
+## Repository ranking status: Building 9%
 
-- Geography terms processed: **0 / 51**
-- Progress: **0%**
-- Retained high-potential owner candidates: **46**
-- Search requests completed: **1**
+- Geography terms processed: **5 / 51**
+- Progress: **9%**
+- Retained high-potential owner candidates: **150**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -32,12 +32,12 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [waafipay/sdk-php](https://github.com/waafipay/sdk-php) | **3** | Djibouti |
 | [benkhaireh/tahajjud-calculator](https://github.com/benkhaireh/tahajjud-calculator) | **2** | Djibouti |
 | [DrPower01/Ravenbooks](https://github.com/DrPower01/Ravenbooks) | **2** | Djibouti |
+| [AbassO71/AbassO71](https://github.com/AbassO71/AbassO71) | **1** | Heron djibouti |
+| [Abdi1962/AKA](https://github.com/Abdi1962/AKA) | **1** | Djibouti |
 | [abdibogor/-Anonymous-Message-Board](https://github.com/abdibogor/-Anonymous-Message-Board) | **1** | Djibouti |
 | [AbdiR-pixel/Data-Structure-Project](https://github.com/AbdiR-pixel/Data-Structure-Project) | **1** | Djibouti |
+| [adena977/gestion-depenses-laravel](https://github.com/adena977/gestion-depenses-laravel) | **1** | Djibouti  |
 | [amino0/pass-sanitaire](https://github.com/amino0/pass-sanitaire) | **1** | Djibouti |
 | [bassim18ramad/Systeme-de-facturation-PDP2](https://github.com/bassim18ramad/Systeme-de-facturation-PDP2) | **1** | Djibouti |
-| [Captain-iiro/Barrede-navigation-html-scss](https://github.com/Captain-iiro/Barrede-navigation-html-scss) | **1** | Djibouti |
-| [Filsan648/HOOM](https://github.com/Filsan648/HOOM) | **1** | Djibouti |
-| [hamoudabass/Drapeau-de-DJibouti](https://github.com/hamoudabass/Drapeau-de-DJibouti) | **1** | Djibouti |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 260**
 - Progress: **0%**
-- Retained high-potential owner candidates: **49**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **124**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -28,6 +28,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [vitiko98/qobuz-dl](https://github.com/vitiko98/qobuz-dl) | **2,387** | Bolivia |
 | [owen2345/camaleon-cms](https://github.com/owen2345/camaleon-cms) | **1,237** | Cochabamba - Bolivia |
 | [alphaonex86/Ultracopier](https://github.com/alphaonex86/Ultracopier) | **507** | Santa cruz de la sierra, Bolivia |
+| [VictorRancesCode/flutter_dialogflow](https://github.com/VictorRancesCode/flutter_dialogflow) | **211** | Santa Cruz de la Sierra, Bolivia |
 | [Pericena/Droidjack](https://github.com/Pericena/Droidjack) | **148** | Bolivia, Santa Cruz |
 | [SergioRibera/sss](https://github.com/SergioRibera/sss) | **138** | Santa Cruz de la Sierra, Bolivia |
 | [nicobytes/interview-full-stack](https://github.com/nicobytes/interview-full-stack) | **96** | Cochabamba, Bolivia |
@@ -38,6 +39,5 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [emmi-lili/emmi-lili](https://github.com/emmi-lili/emmi-lili) | **49** | Bolivia |
 | [AndyIbanez/modern-concurrency-on-apple-platforms-book-code](https://github.com/AndyIbanez/modern-concurrency-on-apple-platforms-book-code) | **42** | Bolivia |
 | [cr0wg4n/plantilla-latex-tesis-proyecto-de-grado](https://github.com/cr0wg4n/plantilla-latex-tesis-proyecto-de-grado) | **40** | Bolivia |
-| [lorddemon/CVE-2021-41773-PoC](https://github.com/lorddemon/CVE-2021-41773-PoC) | **39** | Cochabamba - Bolivia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

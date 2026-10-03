@@ -12,37 +12,20 @@
     "termsTotal": 20
   },
   "phase": "discovery",
-  "nextTermIndex": 0,
-  "activeTerm": {
-    "index": 0,
-    "term": "British Virgin Islands",
-    "queue": [
-      {
-        "query": "location:\"British Virgin Islands\"",
-        "stage": "base",
-        "cursor": "Y3Vyc29yOjUw",
-        "pageNumber": 2,
-        "attempts": 0
-      }
-    ],
-    "startedAt": "2026-10-03T08:27:43.280Z",
-    "requests": 1,
-    "leafPages": 1,
-    "shardExpansions": 0,
-    "reportedCount": null
-  },
+  "nextTermIndex": 5,
+  "activeTerm": null,
   "discoveryComplete": false,
   "startedAt": "2026-10-03T08:27:43.280Z",
-  "updatedAt": "2026-10-03T08:27:46.023Z",
+  "updatedAt": "2026-10-03T11:55:35.998Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
-    "termsProcessed": 0,
-    "searchRequests": 1,
-    "leafPages": 1,
+    "termsProcessed": 5,
+    "searchRequests": 9,
+    "leafPages": 9,
     "shardExpansions": 0,
-    "rawOwnerHits": 50,
-    "acceptedOwnerHits": 50,
+    "rawOwnerHits": 204,
+    "acceptedOwnerHits": 204,
     "rejectedOwnerHits": 0,
     "unresolvedShardCount": 0,
     "minimumRateLimitRemaining": 4720
@@ -604,6 +587,84 @@
       }
     },
     {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjkwMjU4NTEz",
+      "login": "streaming-xyiming",
+      "name": "Xyiming",
+      "type": "Organization",
+      "location": "Virgin Islands, British",
+      "url": "https://github.com/streaming-xyiming",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/90258513?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "virgin islands british"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "xyiming",
+        "nameWithOwner": "streaming-xyiming/xyiming",
+        "url": "https://github.com/streaming-xyiming/xyiming",
+        "description": null,
+        "stargazerCount": 10,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-08-28T09:56:21Z",
+        "pushedAt": "2021-10-29T08:55:03Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "The Unlicense",
+          "spdxId": "Unlicense"
+        }
+      }
+    },
+    {
+      "id": "O_kgDOBmFwDQ",
+      "login": "flare-research",
+      "name": "Flare Research",
+      "type": "Organization",
+      "location": "Virgin Islands, British",
+      "url": "https://github.com/flare-research",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/107048973?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "virgin islands british"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "flare-ai-consensus",
+        "nameWithOwner": "flare-research/flare-ai-consensus",
+        "url": "https://github.com/flare-research/flare-ai-consensus",
+        "description": "Flare AI Kit template for Consensus Learning ☀️",
+        "stargazerCount": 9,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-02-04T09:58:27Z",
+        "pushedAt": "2025-03-07T03:04:10Z",
+        "homepageUrl": "https://hackathon.flare.network",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
       "id": "MDEyOk9yZ2FuaXphdGlvbjcxMjMyODI3",
       "login": "a3mc",
       "name": "art3mis.cloud",
@@ -635,6 +696,45 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Rust"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjM3MzA4OTY1",
+      "login": "AltEstate",
+      "name": "Alt.Estate",
+      "type": "Organization",
+      "location": "British Virgin Islands",
+      "url": "https://github.com/AltEstate",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/37308965?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "altestate",
+        "nameWithOwner": "AltEstate/altestate",
+        "url": "https://github.com/AltEstate/altestate",
+        "description": "DApps Customization Kit",
+        "stargazerCount": 7,
+        "forkCount": 6,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-03-13T10:53:00Z",
+        "pushedAt": "2018-10-17T20:49:27Z",
+        "homepageUrl": "https://account.alt.estate",
+        "primaryLanguage": {
+          "name": "HTML"
         },
         "licenseInfo": {
           "name": "MIT License",
@@ -676,6 +776,43 @@
           "name": "TypeScript"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjU2MzQzMjY0",
+      "login": "TrustDNS",
+      "name": "Trust DNS",
+      "type": "Organization",
+      "location": "British Virgin Islands ",
+      "url": "https://github.com/TrustDNS",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/56343264?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "dns-servers",
+        "nameWithOwner": "TrustDNS/dns-servers",
+        "url": "https://github.com/TrustDNS/dns-servers",
+        "description": "The list of DNS servers used by Trust DNS apps",
+        "stargazerCount": 6,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-04-20T09:45:23Z",
+        "pushedAt": "2020-04-23T13:08:34Z",
+        "homepageUrl": "https://surfshark.com/trustdns",
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -754,6 +891,45 @@
       }
     },
     {
+      "id": "O_kgDODXKFVA",
+      "login": "libbetanet",
+      "name": "libbetanet",
+      "type": "Organization",
+      "location": "Virgin Islands, British",
+      "url": "https://github.com/libbetanet",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/225609044?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "virgin islands british"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "libbetanet",
+        "nameWithOwner": "libbetanet/libbetanet",
+        "url": "https://github.com/libbetanet/libbetanet",
+        "description": "Library for using the Betanet protocol. Join our dev server; https://discord.gg/S4pYp77Vgz",
+        "stargazerCount": 5,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-08-09T20:02:40Z",
+        "pushedAt": "2025-08-11T14:57:32Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQ2NzQ5NjAx",
       "login": "temtum",
       "name": "Temtum",
@@ -787,6 +963,79 @@
           "name": "TypeScript"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjY4NTU4NzY0",
+      "login": "appbrewingcompany",
+      "name": "App Brewing Company Ltd",
+      "type": "Organization",
+      "location": "Virgin Islands, British",
+      "url": "https://github.com/appbrewingcompany",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/68558764?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "virgin islands british"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "kanjiverse",
+        "nameWithOwner": "appbrewingcompany/kanjiverse",
+        "url": "https://github.com/appbrewingcompany/kanjiverse",
+        "description": null,
+        "stargazerCount": 4,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-07-25T05:40:40Z",
+        "pushedAt": "2026-09-02T21:40:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDODiThKg",
+      "login": "Liquidity-Party",
+      "name": "Liquidity Party",
+      "type": "Organization",
+      "location": "Virgin Islands, British",
+      "url": "https://github.com/Liquidity-Party",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/237297962?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "virgin islands british"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "lmsr-amm",
+        "nameWithOwner": "Liquidity-Party/lmsr-amm",
+        "url": "https://github.com/Liquidity-Party/lmsr-amm",
+        "description": "Liquidity Party's multi-asset automated market maker based on the logarithmic market scoring rule",
+        "stargazerCount": 4,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-11-20T00:20:41Z",
+        "pushedAt": "2026-07-30T15:25:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Solidity"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
       }
     },
     {
@@ -907,6 +1156,40 @@
       }
     },
     {
+      "id": "O_kgDOBfnBzw",
+      "login": "top-developers-group",
+      "name": "The Top 0.1% of Developers",
+      "type": "Organization",
+      "location": "Virgin Islands, British",
+      "url": "https://github.com/top-developers-group",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/100254159?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "virgin islands british"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "words",
+        "nameWithOwner": "top-developers-group/words",
+        "url": "https://github.com/top-developers-group/words",
+        "description": "Commit a file but the file name is a word that exists somewhere probably.",
+        "stargazerCount": 4,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-02-23T03:43:58Z",
+        "pushedAt": "2022-05-14T11:11:34Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBbeJ7A",
       "login": "CryptoUnit-blockchain",
       "name": "Cryptounit",
@@ -979,6 +1262,113 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU5NDk2NTI=",
+      "login": "Alcatrax",
+      "name": "Alcatrax",
+      "type": "User",
+      "location": "British Virgin Islands",
+      "url": "https://github.com/Alcatrax",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5949652?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "rsbot-scripts",
+        "nameWithOwner": "Alcatrax/rsbot-scripts",
+        "url": "https://github.com/Alcatrax/rsbot-scripts",
+        "description": "RSBot™ (Powerbot) - Runescape Scripts",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-06-28T19:05:36Z",
+        "pushedAt": "2014-06-28T19:13:26Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg5MTg0NDI=",
+      "login": "dlichota",
+      "name": "Dietmar Lichota",
+      "type": "User",
+      "location": "British Virgin Islands ",
+      "url": "https://github.com/dlichota",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8918442?u=7e165755501bd00b3343b99b4640da15d061f438&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "ocamaloca",
+        "nameWithOwner": "dlichota/ocamaloca",
+        "url": "https://github.com/dlichota/ocamaloca",
+        "description": "Oca Maloca Apartment - Tortola",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-11-06T19:50:48Z",
+        "pushedAt": "2024-03-20T23:26:43Z",
+        "homepageUrl": "https://ocamaloca.com",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOEDTESQ",
+      "login": "drakos-gg",
+      "name": "Drakos",
+      "type": "Organization",
+      "location": "Virgin Islands, British",
+      "url": "https://github.com/drakos-gg",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/271893577?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "virgin islands british"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "drakos",
+        "nameWithOwner": "drakos-gg/drakos",
+        "url": "https://github.com/drakos-gg/drakos",
+        "description": "Full-pipeline FFXIV Dalamud automation plugin for crafting, gathering, and market board",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-29T05:41:56Z",
+        "pushedAt": "2026-10-02T07:20:44Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "O_kgDOCLROYw",
       "login": "FilamentFinance",
       "name": "Filament",
@@ -1047,6 +1437,40 @@
         "primaryLanguage": {
           "name": "JavaScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCqNidw",
+      "login": "GPTScam",
+      "name": "GPTScam",
+      "type": "User",
+      "location": "The British Virgin Islands",
+      "url": "https://github.com/GPTScam",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/178479735?u=87cd858539c99ae925f054af2e5aaba48f44165c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "GPTScam",
+        "nameWithOwner": "GPTScam/GPTScam",
+        "url": "https://github.com/GPTScam/GPTScam",
+        "description": "🚨欢迎来到 GPTScam 项目！ 本项目旨在记录市场中公开售卖ChatGPT、谷歌GCP、AWS、微软Azure等API、中转或账号过程中存在诈骗、欺诈等违规行为的商家信息。我们欢迎大家积极参与，共同维护一个诚信、安全的交易环境。",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-08-15T12:04:34Z",
+        "pushedAt": "2024-08-17T20:15:58Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -1129,6 +1553,84 @@
       }
     },
     {
+      "id": "U_kgDOEQrXcQ",
+      "login": "maximilian32541-spec",
+      "name": "Murni Marcus",
+      "type": "User",
+      "location": "British Virgin Islands",
+      "url": "https://github.com/maximilian32541-spec",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/285923185?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "game-ai-utils",
+        "nameWithOwner": "maximilian32541-spec/game-ai-utils",
+        "url": "https://github.com/maximilian32541-spec/game-ai-utils",
+        "description": "CLI utilities for testing and debugging game AI pipelines",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-25T02:23:17Z",
+        "pushedAt": "2026-05-25T02:52:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "O_kgDOEQraIw",
+      "login": "vantage-digital-labs",
+      "name": "vantage-digital-labs",
+      "type": "Organization",
+      "location": "British Virgin Islands",
+      "url": "https://github.com/vantage-digital-labs",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/285923875?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "unreal-plugin",
+        "nameWithOwner": "vantage-digital-labs/unreal-plugin",
+        "url": "https://github.com/vantage-digital-labs/unreal-plugin",
+        "description": "Official Unreal Engine 5 plugin for Vantage Digital Labs AI-powered NPC systems",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-19T07:28:47Z",
+        "pushedAt": "2026-05-25T02:48:28Z",
+        "homepageUrl": "https://vantage-digital.online",
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "O_kgDODgwPaw",
       "login": "whitechain-labs",
       "name": "Whitechain Labs",
@@ -1161,6 +1663,113 @@
         "primaryLanguage": {
           "name": "Solidity"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOBfEeNg",
+      "login": "BacktersProtocol",
+      "name": "Backters",
+      "type": "Organization",
+      "location": "Virgin Islands, British",
+      "url": "https://github.com/BacktersProtocol",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/99687990?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "virgin islands british"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "backters-contracts",
+        "nameWithOwner": "BacktersProtocol/backters-contracts",
+        "url": "https://github.com/BacktersProtocol/backters-contracts",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-02-14T19:49:17Z",
+        "pushedAt": "2022-02-15T12:06:49Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "O_kgDOC7vSNg",
+      "login": "Chirppad",
+      "name": "Chirppad",
+      "type": "Organization",
+      "location": "Virgin Islands, British",
+      "url": "https://github.com/Chirppad",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/196858422?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "virgin islands british"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "token",
+        "nameWithOwner": "Chirppad/token",
+        "url": "https://github.com/Chirppad/token",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-02-04T11:15:39Z",
+        "pushedAt": "2025-03-11T21:23:55Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Solidity"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOEE1hog",
+      "login": "DeLenglobal",
+      "name": "Delen Global",
+      "type": "User",
+      "location": "British Virgin Islands",
+      "url": "https://github.com/DeLenglobal",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/273506722?u=8e74177d18f0127c08d742e5219e52eeb8a9de22&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "Governance",
+        "nameWithOwner": "DeLenglobal/Governance",
+        "url": "https://github.com/DeLenglobal/Governance",
+        "description": "DeLen Global governance repository for decentralized infrastructure, real-world asset tokenization, and financial systems.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-04T06:23:28Z",
+        "pushedAt": "2026-04-04T06:23:28Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -1307,6 +1916,42 @@
       }
     },
     {
+      "id": "O_kgDOChDydw",
+      "login": "3Base-Labs",
+      "name": "3Base Labs",
+      "type": "Organization",
+      "location": "Virgin Islands, British",
+      "url": "https://github.com/3Base-Labs",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/168882807?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "virgin islands british"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "3base-assets",
+        "nameWithOwner": "3Base-Labs/3base-assets",
+        "url": "https://github.com/3Base-Labs/3base-assets",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-07-28T04:18:24Z",
+        "pushedAt": "2024-08-01T05:03:21Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "O_kgDOCF5h5Q",
       "login": "alphascan-xyz",
       "name": "AlphaScan",
@@ -1379,6 +2024,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjgyNzc1Mjk5",
+      "login": "Barzillin",
+      "name": "Rick Harisson",
+      "type": "User",
+      "location": "British Virgin Islands",
+      "url": "https://github.com/Barzillin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/82775299?u=4855365888eb818dfee6d6b6134c06830ac109ee&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "sibcoin_autoinstall",
+        "nameWithOwner": "Barzillin/sibcoin_autoinstall",
+        "url": "https://github.com/Barzillin/sibcoin_autoinstall",
+        "description": "sibcoin_autoinstall_node_script",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-12-09T10:24:01Z",
+        "pushedAt": "2021-12-09T10:25:44Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Shell"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "U_kgDOBhakFg",
       "login": "BazaarsBZR",
       "name": "Bazaars",
@@ -1418,6 +2102,144 @@
       }
     },
     {
+      "id": "O_kgDOC89-8Q",
+      "login": "CatPlanetOSS",
+      "name": "Cat Planet OSS Organization",
+      "type": "Organization",
+      "location": "Virgin Islands, British",
+      "url": "https://github.com/CatPlanetOSS",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/198147825?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "virgin islands british"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": ".github",
+        "nameWithOwner": "CatPlanetOSS/.github",
+        "url": "https://github.com/CatPlanetOSS/.github",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-02-07T01:11:28Z",
+        "pushedAt": "2025-02-07T01:53:57Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg2MDU4ODg4",
+      "login": "cdzexchange98",
+      "name": "Cdz Exchange",
+      "type": "User",
+      "location": "Vistra Corporate Services Centre, Wickhams Cay II, Road Town, Tortola, VG1110, British Virgin Islands.",
+      "url": "https://github.com/cdzexchange98",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/86058888?u=47d3d2c32c042910c9f1189aeabdc1560fc0d39d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "cdzexchange98",
+        "nameWithOwner": "cdzexchange98/cdzexchange98",
+        "url": "https://github.com/cdzexchange98/cdzexchange98",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-06-17T12:45:25Z",
+        "pushedAt": "2021-06-17T12:45:26Z",
+        "homepageUrl": "https://github.com/cdzexchange98",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODkzA4A",
+      "login": "ChengZhu-Science-Repository",
+      "name": "Eco-Tech",
+      "type": "User",
+      "location": "British Virgin Islands",
+      "url": "https://github.com/ChengZhu-Science-Repository",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/239911136?u=6f481af2e0c190457f72871d02f14e3f264048f5&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "Introduction",
+        "nameWithOwner": "ChengZhu-Science-Repository/Introduction",
+        "url": "https://github.com/ChengZhu-Science-Repository/Introduction",
+        "description": "International Eco-Tech Investing Corporation was registered in May 2019 in British Virgin Islands, with Incorporation NO 2012972. Financial Legal Entity Identifier (LEI --- Issued by London Stock Exchange Group): 213800W2G4SO3U3AMU06; Main Business Lines: Environmental Protection Engineering; Green Energy Tech; Environmental Finance.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-10-24T02:48:41Z",
+        "pushedAt": "2025-12-23T04:14:51Z",
+        "homepageUrl": "https://www.environmental-expert.com/companies/international-eco-tech-investing-corporation-110804",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOERvHaQ",
+      "login": "cryptsurf",
+      "name": "CryptSurf VPN",
+      "type": "User",
+      "location": "British Virgin Islands",
+      "url": "https://github.com/cryptsurf",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/287033193?u=021b72552231d1527d88930613b473fe189d4b84&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "cryptsurf-dns-blocklists",
+        "nameWithOwner": "cryptsurf/cryptsurf-dns-blocklists",
+        "url": "https://github.com/cryptsurf/cryptsurf-dns-blocklists",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-22T17:26:22Z",
+        "pushedAt": "2026-10-03T10:57:46Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "O_kgDOBlDyiQ",
       "login": "dApployxyz",
       "name": "dApploy",
@@ -1451,6 +2273,328 @@
           "name": "CSS"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCtI3Ig",
+      "login": "darklightleon",
+      "name": null,
+      "type": "User",
+      "location": "British Virgin Islands (VG)",
+      "url": "https://github.com/darklightleon",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/181548834?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "darklightleon",
+        "nameWithOwner": "darklightleon/darklightleon",
+        "url": "https://github.com/darklightleon/darklightleon",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-14T06:21:49Z",
+        "pushedAt": "2024-09-14T06:21:59Z",
+        "homepageUrl": "https://github.com/darklightleon",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjgyOTE0MTg3",
+      "login": "DeCash-Official",
+      "name": "DeCash Official",
+      "type": "Organization",
+      "location": "3rd Floor, Yamaraj Building, Market Square, P.O. Box 3175, Road Town, Tortola, British Virgin Islands",
+      "url": "https://github.com/DeCash-Official",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/82914187?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "decash-utils",
+        "nameWithOwner": "DeCash-Official/decash-utils",
+        "url": "https://github.com/DeCash-Official/decash-utils",
+        "description": "Different utilities for development on top of DeCash.",
+        "stargazerCount": 0,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-04-26T15:12:25Z",
+        "pushedAt": "2022-09-26T10:22:49Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "O_kgDOCbMFjg",
+      "login": "dedoai",
+      "name": "dedoAI",
+      "type": "Organization",
+      "location": "Virgin Islands, British",
+      "url": "https://github.com/dedoai",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/162727310?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "virgin islands british"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "ddai-ms-telegram",
+        "nameWithOwner": "dedoai/ddai-ms-telegram",
+        "url": "https://github.com/dedoai/ddai-ms-telegram",
+        "description": "ChatBot Telegram to manage Producers C4D",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-10-12T06:56:30Z",
+        "pushedAt": "2024-10-21T09:26:18Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "O_kgDOBr0JVw",
+      "login": "Dyme-Foundation",
+      "name": "Dyme Foundation",
+      "type": "Organization",
+      "location": "Virgin Islands, British",
+      "url": "https://github.com/Dyme-Foundation",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/113051991?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "virgin islands british"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": ".github",
+        "nameWithOwner": "Dyme-Foundation/.github",
+        "url": "https://github.com/Dyme-Foundation/.github",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-08-11T18:10:18Z",
+        "pushedAt": "2023-08-12T03:24:08Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE0MDc4NTAy",
+      "login": "facaptain",
+      "name": "Fidel Captain",
+      "type": "User",
+      "location": "British Virgin Islands",
+      "url": "https://github.com/facaptain",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/14078502?u=50bc403620e84555703d35fb30615bd6fa389781&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "Sekstrin-General",
+        "nameWithOwner": "facaptain/Sekstrin-General",
+        "url": "https://github.com/facaptain/Sekstrin-General",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-09-02T20:38:31Z",
+        "pushedAt": "2015-09-02T20:41:52Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCSoQcQ",
+      "login": "Fraodd",
+      "name": "Fraodd",
+      "type": "User",
+      "location": "Tortola, British Virgin Islands",
+      "url": "https://github.com/Fraodd",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/153751665?u=1ec7187e4a562b9db1c4a47f607f7576589a3bc5&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "drivers",
+        "nameWithOwner": "Fraodd/drivers",
+        "url": "https://github.com/Fraodd/drivers",
+        "description": "ignore this ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-08T05:12:28Z",
+        "pushedAt": "2026-08-08T05:14:18Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOCtH7Tw",
+      "login": "gabbyqueenidea",
+      "name": null,
+      "type": "User",
+      "location": "Britse Maagdeneilanden (VG)",
+      "url": "https://github.com/gabbyqueenidea",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/181533519?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "country-code",
+        "matched": "vg"
+      },
+      "discoveryTerms": [
+        "Britse Maagdeneilanden"
+      ],
+      "topRepository": {
+        "name": "gabbyqueenidea",
+        "nameWithOwner": "gabbyqueenidea/gabbyqueenidea",
+        "url": "https://github.com/gabbyqueenidea/gabbyqueenidea",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-14T00:51:29Z",
+        "pushedAt": "2024-09-14T00:51:38Z",
+        "homepageUrl": "https://github.com/gabbyqueenidea",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjI2ODU1MTkx",
+      "login": "GNEISSrev",
+      "name": "Global Network Encryption Investment Security Service Inc.",
+      "type": "Organization",
+      "location": "British Virgin Islands",
+      "url": "https://github.com/GNEISSrev",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/26855191?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "GNEISSLibrary",
+        "nameWithOwner": "GNEISSrev/GNEISSLibrary",
+        "url": "https://github.com/GNEISSrev/GNEISSLibrary",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-09-16T19:49:04Z",
+        "pushedAt": "2021-09-16T20:01:45Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ0MTA0NjQz",
+      "login": "HighBankio",
+      "name": "HighBank",
+      "type": "User",
+      "location": "Territory of British Virgin Islands",
+      "url": "https://github.com/HighBankio",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/44104643?u=a8039a214d4406a435d79c2a12710603bea430dc&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "TokenInformation",
+        "nameWithOwner": "HighBankio/TokenInformation",
+        "url": "https://github.com/HighBankio/TokenInformation",
+        "description": "This Repository contains HighBank Token related information",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-02-02T07:06:10Z",
+        "pushedAt": "2019-02-02T07:10:26Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -1490,6 +2634,45 @@
       }
     },
     {
+      "id": "O_kgDOD8S0TQ",
+      "login": "kasamila",
+      "name": "Kasamila",
+      "type": "Organization",
+      "location": "Virgin Islands, British",
+      "url": "https://github.com/kasamila",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/264549453?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "virgin islands british"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "kasamila-dev",
+        "nameWithOwner": "kasamila/kasamila-dev",
+        "url": "https://github.com/kasamila/kasamila-dev",
+        "description": "About kasamila API/SDk development and demos.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-27T02:07:57Z",
+        "pushedAt": "2026-10-02T14:28:50Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
       "id": "O_kgDOB-PBvg",
       "login": "KulaDao",
       "name": "Kula Technology",
@@ -1522,6 +2705,142 @@
         "primaryLanguage": {
           "name": "Solidity"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjU4OTkxOTU4",
+      "login": "Likvidi",
+      "name": "Likvidi Technologies Ltd.",
+      "type": "Organization",
+      "location": "Virgin Islands, British",
+      "url": "https://github.com/Likvidi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58991958?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "virgin islands british"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "SUMA-Litepaper",
+        "nameWithOwner": "Likvidi/SUMA-Litepaper",
+        "url": "https://github.com/Likvidi/SUMA-Litepaper",
+        "description": "Litepaper of SUMA Protocol",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-06-16T07:42:56Z",
+        "pushedAt": "2023-06-19T08:44:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOBfSC5Q",
+      "login": "MiltonFi",
+      "name": "MIltonFI",
+      "type": "Organization",
+      "location": "Virgin Islands, British",
+      "url": "https://github.com/MiltonFi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/99910373?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "virgin islands british"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "whitepaper",
+        "nameWithOwner": "MiltonFi/whitepaper",
+        "url": "https://github.com/MiltonFi/whitepaper",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-04-01T05:22:59Z",
+        "pushedAt": "2022-04-01T16:55:45Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgwOTM2OTE3",
+      "login": "MisterHD",
+      "name": "MONOGRAMA",
+      "type": "User",
+      "location": "British Virgin Islands",
+      "url": "https://github.com/MisterHD",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/80936917?u=5d3fc20dbf6ef22e41406124f4573283cc913866&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "MisterHD",
+        "nameWithOwner": "MisterHD/MisterHD",
+        "url": "https://github.com/MisterHD/MisterHD",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-05-19T17:24:54Z",
+        "pushedAt": "2021-05-19T17:24:56Z",
+        "homepageUrl": "https://github.com/MisterHD",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCt9Piw",
+      "login": "monzeroqwelcer",
+      "name": null,
+      "type": "User",
+      "location": "British Virgin Islands (VG)",
+      "url": "https://github.com/monzeroqwelcer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/182407051?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "monzeroqwelcer",
+        "nameWithOwner": "monzeroqwelcer/monzeroqwelcer",
+        "url": "https://github.com/monzeroqwelcer/monzeroqwelcer",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-22T09:25:59Z",
+        "pushedAt": "2024-09-22T09:26:11Z",
+        "homepageUrl": "https://github.com/monzeroqwelcer",
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -1559,6 +2878,292 @@
           "name": "TypeScript"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQzMDI3MDQ3",
+      "login": "MSERMONSTER",
+      "name": "MSER",
+      "type": "User",
+      "location": "British Virgin Islands",
+      "url": "https://github.com/MSERMONSTER",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43027047?u=a4df70b4e242e1229312cf99165f4e69b9903c30&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "monster_api",
+        "nameWithOwner": "MSERMONSTER/monster_api",
+        "url": "https://github.com/MSERMONSTER/monster_api",
+        "description": "monster_api",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-09-06T06:50:47Z",
+        "pushedAt": "2018-11-20T05:11:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCuNnvg",
+      "login": "murazorblackguard",
+      "name": null,
+      "type": "User",
+      "location": "British Virgin Islands (VG)",
+      "url": "https://github.com/murazorblackguard",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/182675390?u=72893d2d1a833b5eb7305bd8c08d316ca991aa8b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "murazorblackguard",
+        "nameWithOwner": "murazorblackguard/murazorblackguard",
+        "url": "https://github.com/murazorblackguard/murazorblackguard",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-24T16:55:18Z",
+        "pushedAt": "2024-09-24T16:55:33Z",
+        "homepageUrl": "https://github.com/murazorblackguard",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCtMnVg",
+      "login": "nighthunterlopd",
+      "name": null,
+      "type": "User",
+      "location": "British Virgin Islands (VG)",
+      "url": "https://github.com/nighthunterlopd",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/181610326?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "nighthunterlopd",
+        "nameWithOwner": "nighthunterlopd/nighthunterlopd",
+        "url": "https://github.com/nighthunterlopd/nighthunterlopd",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-15T01:47:36Z",
+        "pushedAt": "2024-09-15T01:47:45Z",
+        "homepageUrl": "https://github.com/nighthunterlopd",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDODN9_aQ",
+      "login": "notdotmarket",
+      "name": "not.market",
+      "type": "Organization",
+      "location": "Virgin Islands, British",
+      "url": "https://github.com/notdotmarket",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/215973737?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "virgin islands british"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": ".github",
+        "nameWithOwner": "notdotmarket/.github",
+        "url": "https://github.com/notdotmarket/.github",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-11-26T17:25:10Z",
+        "pushedAt": "2025-11-26T17:25:10Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOB-_wzQ",
+      "login": "NU-MODEL-STUDIO-PRODUCTIONS",
+      "name": "NU MODEL STUDIOS PRODUCTION",
+      "type": "Organization",
+      "location": "Virgin Islands, British",
+      "url": "https://github.com/NU-MODEL-STUDIO-PRODUCTIONS",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/133165261?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "virgin islands british"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "MUA5G",
+        "nameWithOwner": "NU-MODEL-STUDIO-PRODUCTIONS/MUA5G",
+        "url": "https://github.com/NU-MODEL-STUDIO-PRODUCTIONS/MUA5G",
+        "description": "WADCHAIN",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-07-07T22:47:01Z",
+        "pushedAt": "2023-07-07T22:47:03Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "O_kgDOC17Oeg",
+      "login": "operose-io",
+      "name": "Operose",
+      "type": "Organization",
+      "location": "Virgin Islands, British",
+      "url": "https://github.com/operose-io",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/190762618?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "virgin islands british"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "operose",
+        "nameWithOwner": "operose-io/operose",
+        "url": "https://github.com/operose-io/operose",
+        "description": "Operose - Change Life Token",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-08-27T18:30:43Z",
+        "pushedAt": "2026-04-28T17:52:24Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Solidity"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODD6cuQ",
+      "login": "Oppalina",
+      "name": "Oppalina",
+      "type": "User",
+      "location": "British Virgin Islands",
+      "url": "https://github.com/Oppalina",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/205429945?u=c10455a53306d39f3f80e37cbba31259ec1b862f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "website",
+        "nameWithOwner": "Oppalina/website",
+        "url": "https://github.com/Oppalina/website",
+        "description": "Oppalina website",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-03-29T13:19:07Z",
+        "pushedAt": "2026-01-03T19:09:49Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYzOTQ4ODU1",
+      "login": "orbis86",
+      "name": "Orbis86",
+      "type": "User",
+      "location": "British Virgin Islands",
+      "url": "https://github.com/orbis86",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/63948855?u=b69da54a7c1c535c9a513ad70f2f224bdd3de452&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "wordpressnftmembership",
+        "nameWithOwner": "orbis86/wordpressnftmembership",
+        "url": "https://github.com/orbis86/wordpressnftmembership",
+        "description": "A membership plugin for wordpress sites for hedera or ethereum NFT token gating",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-03-18T14:07:30Z",
+        "pushedAt": "2023-05-16T07:55:48Z",
+        "homepageUrl": "https://orbis86.com",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v2.0",
+          "spdxId": "GPL-2.0"
+        }
       }
     },
     {
@@ -1601,6 +3206,230 @@
       }
     },
     {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjg4Njk1NTE1",
+      "login": "osufuquila",
+      "name": "Fuquila",
+      "type": "Organization",
+      "location": "Virgin Islands, British",
+      "url": "https://github.com/osufuquila",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/88695515?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "virgin islands british"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "fuquila-pp-py",
+        "nameWithOwner": "osufuquila/fuquila-pp-py",
+        "url": "https://github.com/osufuquila/fuquila-pp-py",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-07-15T17:15:59Z",
+        "pushedAt": "2023-07-31T14:53:43Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Rust"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjgyNTM2ODgw",
+      "login": "polkacipher",
+      "name": "Polkacipher",
+      "type": "Organization",
+      "location": "British Virgin Islands",
+      "url": "https://github.com/polkacipher",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/82536880?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "substrate-base",
+        "nameWithOwner": "polkacipher/substrate-base",
+        "url": "https://github.com/polkacipher/substrate-base",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-06-03T05:03:34Z",
+        "pushedAt": "2021-06-03T05:08:28Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Rust"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjkwNjU3MzUx",
+      "login": "Protogon-Research",
+      "name": "Protogon Research",
+      "type": "Organization",
+      "location": "Virgin Islands, British",
+      "url": "https://github.com/Protogon-Research",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/90657351?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "virgin islands british"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "megalinter-custom-flavor-protogon",
+        "nameWithOwner": "Protogon-Research/megalinter-custom-flavor-protogon",
+        "url": "https://github.com/Protogon-Research/megalinter-custom-flavor-protogon",
+        "description": "Custom MegaLinter flavor for Protogon CI: only the linters monorepo actually runs",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-04T21:04:31Z",
+        "pushedAt": "2026-09-08T18:50:46Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "GNU Affero General Public License v3.0",
+          "spdxId": "AGPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOBuEryQ",
+      "login": "randxmGeek",
+      "name": "randxmGeek",
+      "type": "User",
+      "location": "British Virgin Islands",
+      "url": "https://github.com/randxmGeek",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/115420105?u=e46959a3e4af755edc234d87b15836df94867522&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "Lise100",
+        "nameWithOwner": "randxmGeek/Lise100",
+        "url": "https://github.com/randxmGeek/Lise100",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-08-16T10:03:13Z",
+        "pushedAt": "2023-08-16T10:05:09Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOCTVYHA",
+      "login": "react-native-web-rs",
+      "name": "react-native-web-rs",
+      "type": "Organization",
+      "location": "Virgin Islands, British",
+      "url": "https://github.com/react-native-web-rs",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/154490908?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "virgin islands british"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "revostack",
+        "nameWithOwner": "react-native-web-rs/revostack",
+        "url": "https://github.com/react-native-web-rs/revostack",
+        "description": "An open-source platform for making universal native apps with React. Revo runs on Windows, macOS, Linux and the web.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-12-29T23:51:28Z",
+        "pushedAt": "2023-12-29T23:51:29Z",
+        "homepageUrl": "https://revostack.dev",
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM3MTkzMjE=",
+      "login": "Rocciavelli",
+      "name": "Rocciavelli",
+      "type": "User",
+      "location": "Virgin Islands, British ",
+      "url": "https://github.com/Rocciavelli",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3719321?u=e68d326a69160f376e8bcda3466ffe4c246ef3e0&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "virgin islands british"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "jobfinder.server",
+        "nameWithOwner": "Rocciavelli/jobfinder.server",
+        "url": "https://github.com/Rocciavelli/jobfinder.server",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-05-25T13:20:52Z",
+        "pushedAt": "2023-02-22T15:33:17Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "O_kgDOBdaCEQ",
       "login": "SantaBrowser",
       "name": "SantaBrowser",
@@ -1633,6 +3462,283 @@
         "primaryLanguage": {
           "name": "JavaScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBa2JPg",
+      "login": "Scadenet-com",
+      "name": "Scadenet",
+      "type": "User",
+      "location": "British Virgin Islands",
+      "url": "https://github.com/Scadenet-com",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/95258942?u=6e8b9cbd77e42a05fc80b52e588a4fbf6e840c5a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "Uniswap-Widget",
+        "nameWithOwner": "Scadenet-com/Uniswap-Widget",
+        "url": "https://github.com/Scadenet-com/Uniswap-Widget",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-06-06T21:52:40Z",
+        "pushedAt": "2024-06-06T21:58:01Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjE0MDc4NTc1",
+      "login": "Sekstrin",
+      "name": "Project Sekstrin",
+      "type": "Organization",
+      "location": "British Virgin Islands",
+      "url": "https://github.com/Sekstrin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/14078575?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "Step_5",
+        "nameWithOwner": "Sekstrin/Step_5",
+        "url": "https://github.com/Sekstrin/Step_5",
+        "description": "Detailed E-R Diagram Creator",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-10-02T19:02:18Z",
+        "pushedAt": "2015-10-02T19:12:12Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI2NzA3NzA4",
+      "login": "sgtmarkets",
+      "name": "Sharif Sajir SGT",
+      "type": "User",
+      "location": "Tortola VG 1110, British Virgin Islands",
+      "url": "https://github.com/sgtmarkets",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/26707708?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "start",
+        "nameWithOwner": "sgtmarkets/start",
+        "url": "https://github.com/sgtmarkets/start",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-07-16T07:19:49Z",
+        "pushedAt": "2018-07-16T07:19:50Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjM0NzM1NzU4",
+      "login": "shellOrg",
+      "name": "Shell Crypto Laboratory",
+      "type": "Organization",
+      "location": "Virgin Islands, British",
+      "url": "https://github.com/shellOrg",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/34735758?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "virgin islands british"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": ".github",
+        "nameWithOwner": "shellOrg/.github",
+        "url": "https://github.com/shellOrg/.github",
+        "description": "All about Shell",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-04-25T16:06:50Z",
+        "pushedAt": "2026-07-16T02:59:56Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOBeqYgg",
+      "login": "solidefied",
+      "name": "Solidefied",
+      "type": "Organization",
+      "location": "Virgin Islands, British",
+      "url": "https://github.com/solidefied",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/99260546?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "virgin islands british"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "assets",
+        "nameWithOwner": "solidefied/assets",
+        "url": "https://github.com/solidefied/assets",
+        "description": "Used to store assets used in other repositories",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-11-16T12:47:05Z",
+        "pushedAt": "2022-11-17T06:08:43Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI5NDQ5ODE0",
+      "login": "sumerchain",
+      "name": "sumerchain",
+      "type": "User",
+      "location": "The British Virgin Islands",
+      "url": "https://github.com/sumerchain",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/29449814?u=6d421f23d653a7a6f51099b308ba718bde54cea3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "introduction",
+        "nameWithOwner": "sumerchain/introduction",
+        "url": "https://github.com/sumerchain/introduction",
+        "description": "公告",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-09-23T12:04:17Z",
+        "pushedAt": "2017-12-19T16:46:57Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBYA4fw",
+      "login": "SwoshsVPN",
+      "name": "SwoshsVPN",
+      "type": "User",
+      "location": "British Virgin Islands",
+      "url": "https://github.com/SwoshsVPN",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/92289151?u=e09183e277c1ff6b0fda03c8137417501ce846b6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "privacy",
+        "nameWithOwner": "SwoshsVPN/privacy",
+        "url": "https://github.com/SwoshsVPN/privacy",
+        "description": "SECURE YOUR DIGITAL LIFE",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-10-11T05:26:03Z",
+        "pushedAt": "2021-10-11T05:26:03Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODODcKQ",
+      "login": "symmetricgit",
+      "name": "Symmetric/Pecuni",
+      "type": "User",
+      "location": "British Virgin Islands",
+      "url": "https://github.com/symmetricgit",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/216063017?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "Quantum-Lock",
+        "nameWithOwner": "symmetricgit/Quantum-Lock",
+        "url": "https://github.com/symmetricgit/Quantum-Lock",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-06-12T17:49:37Z",
+        "pushedAt": "2025-06-12T18:28:51Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -1674,6 +3780,149 @@
       }
     },
     {
+      "id": "O_kgDODshC7Q",
+      "login": "tdldoteco",
+      "name": "TDL",
+      "type": "Organization",
+      "location": "Virgin Islands, British",
+      "url": "https://github.com/tdldoteco",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/248005357?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "virgin islands british"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "mintlify-docs",
+        "nameWithOwner": "tdldoteco/mintlify-docs",
+        "url": "https://github.com/tdldoteco/mintlify-docs",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-07T08:04:27Z",
+        "pushedAt": "2026-01-07T08:04:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "MDX"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQxNjkyNDAx",
+      "login": "TexasHoldemPokerChain",
+      "name": "Texas Hold'em Poker Chain",
+      "type": "User",
+      "location": "British Virgin Islands",
+      "url": "https://github.com/TexasHoldemPokerChain",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/41692401?u=51802684e34691e73c7f7ae58ca004f0a59a5f02&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "TexasHoldemPokerChain",
+        "nameWithOwner": "TexasHoldemPokerChain/TexasHoldemPokerChain",
+        "url": "https://github.com/TexasHoldemPokerChain/TexasHoldemPokerChain",
+        "description": "THPC builds the world's first weakly centralised Texas hold 'em poker ecosystem based on block chain bottom technology. Aims to use block chain, smart contracts, big data statistics, analysis of AI technology, such as for DE robot industry must level market upstream and downstream industry to provide technical solution, improve the global DE on the ecological environment of the industry, promote the healthy development of Texas poker culture.",
+        "stargazerCount": 0,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-07-25T14:28:09Z",
+        "pushedAt": "2018-08-24T12:12:22Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "CMake"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjQzMTg4MjM4",
+      "login": "TitanInd",
+      "name": "Titan Industries Inc.",
+      "type": "Organization",
+      "location": "Virgin Islands, British",
+      "url": "https://github.com/TitanInd",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43188238?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "virgin islands british"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "titan-token",
+        "nameWithOwner": "TitanInd/titan-token",
+        "url": "https://github.com/TitanInd/titan-token",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-05-05T17:04:07Z",
+        "pushedAt": "2021-04-29T05:11:27Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBhlDcQ",
+      "login": "Viridis-TreeStandard",
+      "name": "Viridis -TreeStandard-",
+      "type": "User",
+      "location": " British Virgin Islands",
+      "url": "https://github.com/Viridis-TreeStandard",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/102318961?u=44aefa027f2023afa699307fdc8fe6ee37f5063b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "Viridis-TreeStandard",
+        "nameWithOwner": "Viridis-TreeStandard/Viridis-TreeStandard",
+        "url": "https://github.com/Viridis-TreeStandard/Viridis-TreeStandard",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-03-24T17:46:28Z",
+        "pushedAt": "2022-03-24T17:47:34Z",
+        "homepageUrl": "https://github.com/Viridis-TreeStandard",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDEyOk9yZ2FuaXphdGlvbjg0MzAyODA2",
       "login": "Wanaka-Inc",
       "name": "Wanaka Farm",
@@ -1705,6 +3954,76 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCtI-Eg",
+      "login": "woodoodeckoficer",
+      "name": null,
+      "type": "User",
+      "location": "British Virgin Islands (VG)",
+      "url": "https://github.com/woodoodeckoficer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/181550610?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "woodoodeckoficer",
+        "nameWithOwner": "woodoodeckoficer/woodoodeckoficer",
+        "url": "https://github.com/woodoodeckoficer/woodoodeckoficer",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-14T06:51:16Z",
+        "pushedAt": "2024-09-14T06:51:26Z",
+        "homepageUrl": "https://github.com/woodoodeckoficer",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg2MDQ1OTgx",
+      "login": "XPOP-Entertainment",
+      "name": "XPOP Entertainment",
+      "type": "User",
+      "location": "British Virgin Islands",
+      "url": "https://github.com/XPOP-Entertainment",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/86045981?u=3dd9c8bce2b43f4b180ddc92a17ec3c55bb7b478&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "British Virgin Islands"
+      },
+      "discoveryTerms": [
+        "British Virgin Islands"
+      ],
+      "topRepository": {
+        "name": "token-contract",
+        "nameWithOwner": "XPOP-Entertainment/token-contract",
+        "url": "https://github.com/XPOP-Entertainment/token-contract",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-06-21T06:41:19Z",
+        "pushedAt": "2021-06-21T06:46:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Solidity"
         },
         "licenseInfo": null
       }

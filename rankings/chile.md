@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 275**
 - Progress: **0%**
-- Retained high-potential owner candidates: **47**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **189**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [agucova/awesome-esp](https://github.com/agucova/awesome-esp) | **2,718** | Santiago, Chile |
+| [agucova/awesome-esp](https://github.com/agucova/awesome-esp) | **2,719** | Santiago, Chile |
 | [4GeeksAcademy/Interactive-Tutorials](https://github.com/4GeeksAcademy/Interactive-Tutorials) | **2,147** | Online, Madrid, Miami, Santiago de Chile and Caracas. |
 | [michelson/Dante](https://github.com/michelson/Dante) | **2,041** | Santiago, Chile |
 | [nicolaslopezj/searchable](https://github.com/nicolaslopezj/searchable) | **1,993** | Santiago, Chile |
