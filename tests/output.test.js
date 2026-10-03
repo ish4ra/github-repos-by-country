@@ -60,3 +60,21 @@ test('rankings index shows live and queued countries', () => {
   assert.match(markdown, /Sri Lanka.*Live/);
   assert.match(markdown, /sri-lanka\.md/);
 });
+
+
+test('rankings index shows resumable build progress without claiming it is live', () => {
+  const markdown = renderRankingsIndex(
+    [],
+    [{ code: 'US', name: 'United States', slug: 'united-states', flag: '🇺🇸' }],
+    [{
+      country: { code: 'US' },
+      phase: 'discovery',
+      nextTermIndex: 250,
+      geography: { termsTotal: 1000 },
+      updatedAt: '2026-10-03T00:00:00.000Z',
+    }],
+  );
+
+  assert.match(markdown, /Building 25%/);
+  assert.doesNotMatch(markdown, /Most starred repositories/);
+});

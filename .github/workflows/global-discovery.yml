@@ -12,6 +12,9 @@ on:
       - 'src/search-shards.js'
       - 'src/github.js'
       - 'src/ranking.js'
+      - 'src/config.js'
+      - 'src/countries.js'
+      - 'src/output.js'
       - '.github/workflows/global-discovery.yml'
 
 permissions:
@@ -42,7 +45,7 @@ jobs:
       - name: Advance global discovery
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DISCOVERY_REQUEST_LIMIT: '180'
+          DISCOVERY_REQUEST_LIMIT: '400'
           DISCOVERY_PAGE_SIZE: '50'
           DISCOVERY_RUNTIME_MINUTES: '42'
           RATE_LIMIT_RESERVE: '120'

@@ -11,21 +11,40 @@ export async function writeOutputs(ranking) {
 
   const jsonPath = path.join(dataDir, `${ranking.country.code}.json`);
   const markdownPath = path.join(rankingDir, `${ranking.country.slug}.md`);
-  const indexPath = path.join(rankingDir, 'README.md');
 
   await Promise.all([
     writeFile(jsonPath, `${JSON.stringify(ranking, null, 2)}\n`, 'utf8'),
     writeFile(markdownPath, renderMarkdown(ranking), 'utf8'),
   ]);
 
-  const summaries = await readRankingSummaries(dataDir);
-  await writeFile(indexPath, renderRankingsIndex(summaries), 'utf8');
-
+  const indexPath = await writeRankingsIndex();
   return { jsonPath, markdownPath, indexPath };
+}
+
+export async function writeRankingsIndex() {
+  const root = projectRoot();
+  const dataDir = path.join(root, 'data');
+  const stateDir = path.join(root, 'state', 'discovery');
+  const rankingDir = path.join(root, 'rankings');
+  await mkdir(rankingDir, { recursive: true });
+
+  const [summaries, progress] = await Promise.all([
+    readRankingSummaries(dataDir),
+    readDiscoveryStates(stateDir),
+  ]);
+
+  const indexPath = path.join(rankingDir, 'README.md');
+  await writeFile(
+    indexPath,
+    renderRankingsIndex(summaries, COUNTRIES, progress),
+    'utf8',
+  );
+  return indexPath;
 }
 
 export function renderMarkdown(ranking) {
   const flag = countryCodeToFlag(ranking.country.code);
+  const ownerMetricLabel = ranking.coverage.ownerMetricLabel || 'Accepted owners';
   const lines = [
     `<p align="center" aria-label="${escapeHtml(ranking.country.name)} flag" style="font-size:72px">${flag}</p>`,
     '',
@@ -40,7 +59,7 @@ export function renderMarkdown(ranking) {
     '',
     '> **Experimental ranking.** Country attribution is inferred from the repository owner’s public GitHub profile location. Coverage limits are shown below instead of being hidden.',
     '',
-    '| Updated | Ranked repositories | Accepted owners | Candidate cutoff | Methodology |',
+    `| Updated | Ranked repositories | ${escapeMarkdown(ownerMetricLabel)} | Candidate cutoff | Methodology |`,
     '| --- | ---: | ---: | ---: | --- |',
     `| ${escapeHtml(formatDate(ranking.generatedAt))} | **${formatNumber(ranking.coverage.publishedRepositories)}** | **${formatNumber(ranking.coverage.acceptedUniqueOwners)}** | **${formatNumber(ranking.coverage.candidateThresholdStars || 0)} stars** | \`${escapeHtml(ranking.methodologyVersion)}\` |`,
     '',
@@ -81,14 +100,14 @@ export function renderMarkdown(ranking) {
     '## Coverage',
     '',
     `- **${formatNumber(ranking.coverage.rawOwnerHits)}** raw owner hits were seen across configured location searches.`,
-    `- **${formatNumber(ranking.coverage.acceptedUniqueOwners)}** unique owners passed the current location-attribution rules.`,
+    `- **${formatNumber(ranking.coverage.acceptedUniqueOwners)}** ${ownerMetricLabel.toLowerCase()} are represented by this published ranking run.`,
     `- **${formatNumber(ranking.coverage.repositoriesConsidered)}** repositories were considered after probe and candidate expansion.`,
-    `- Capped search terms: ${ranking.coverage.cappedQueries.length ? ranking.coverage.cappedQueries.map((item) => '`' + item + '`').join(', ') : 'none'}.`,
+    `- Capped search terms: ${ranking.coverage.cappedQueries?.length ? ranking.coverage.cappedQueries.map((item) => '`' + item + '`').join(', ') : 'none'}.`,
     '',
     '<details>',
     '<summary><strong>Known limitations</strong></summary>',
     '',
-    ...ranking.coverage.notes.map((note) => `- ${note}`),
+    ...(ranking.coverage.notes || []).map((note) => `- ${note}`),
     '',
     '</details>',
     '',
@@ -99,14 +118,22 @@ export function renderMarkdown(ranking) {
   return lines.join('\n');
 }
 
-export function renderRankingsIndex(summaries, countries = COUNTRIES) {
+export function renderRankingsIndex(summaries, countries = COUNTRIES, progressStates = []) {
   const summaryByCode = new Map(summaries.map((summary) => [summary.country.code, summary]));
+  const progressByCode = new Map(
+    progressStates
+      .filter((state) => state?.country?.code)
+      .map((state) => [state.country.code, state]),
+  );
   const liveCount = summaryByCode.size;
+  const buildingCount = [...progressByCode.values()].filter(
+    (state) => state.phase && state.phase !== 'complete',
+  ).length;
 
   const lines = [
     '# Browse Repository Rankings',
     '',
-    `**${countries.length} countries and territories indexed · ${liveCount} ranking${liveCount === 1 ? '' : 's'} live**`,
+    `**${countries.length} countries and territories indexed · ${liveCount} live · ${buildingCount} building**`,
     '',
     'Use your browser\'s **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a country.',
     '',
@@ -116,16 +143,18 @@ export function renderRankingsIndex(summaries, countries = COUNTRIES) {
 
   for (const country of countries) {
     const summary = summaryByCode.get(country.code);
-
-    if (!summary) {
-      lines.push(
-        `| ${country.flag} **${escapeMarkdown(country.name)}** | \`${country.code}\` | Queued | — | — | — |`,
-      );
-      continue;
-    }
+    const progress = progressByCode.get(country.code);
+    const status = renderCountryStatus(summary, progress);
+    const rankingCell = summary
+      ? `[Most starred repositories](./${summary.country.slug}.md)`
+      : '—';
+    const repositoryCount = summary
+      ? formatNumber(summary.coverage.publishedRepositories)
+      : '—';
+    const lastUpdated = progress?.updatedAt || summary?.generatedAt;
 
     lines.push(
-      `| ${country.flag} **${escapeMarkdown(country.name)}** | \`${country.code}\` | **Live** | [Most starred repositories](./${summary.country.slug}.md) | ${formatNumber(summary.coverage.publishedRepositories)} | ${escapeMarkdown(formatDate(summary.generatedAt))} |`,
+      `| ${country.flag} **${escapeMarkdown(country.name)}** | \`${country.code}\` | ${status} | ${rankingCell} | ${repositoryCount} | ${lastUpdated ? escapeMarkdown(formatDate(lastUpdated)) : '—'} |`,
     );
   }
 
@@ -133,16 +162,52 @@ export function renderRankingsIndex(summaries, countries = COUNTRIES) {
     '',
     '## Coverage policy',
     '',
-    '- The catalog is broader than the original 138-country project: it includes all 249 ISO 3166-1 country/territory codes plus Kosovo (`XK`).',
-    '- A queued country is indexed but does not yet have a published ranking.',
-    '- Global rollout will use comprehensive geography data rather than a short hand-maintained city list.',
-    '- Search caps and ambiguous locations must be surfaced instead of silently producing a supposedly complete ranking.',
+    '- The catalog includes all 249 ISO 3166-1 country/territory codes plus Kosovo (`XK`).',
+    '- **Building** means the resumable geography/shard crawl is accumulating verified owner candidates; it is not presented as a finished ranking.',
+    '- Global geography combines a pinned Countries States Cities Database release with GeoNames city enrichment.',
+    '- Search caps, unresolved shards, ambiguous locations, and temporal drift are surfaced instead of silently producing a supposedly complete ranking.',
     '',
     'See [`docs/ROADMAP.md`](../docs/ROADMAP.md) for the global rollout and users-by-country plan.',
     '',
   );
 
   return lines.join('\n');
+}
+
+function renderCountryStatus(summary, progress) {
+  if (!progress) return summary ? '**Live**' : 'Queued';
+  if (progress.phase === 'complete') return summary ? '**Live**' : 'Completed';
+
+  const total = Number(progress.geography?.termsTotal || 0);
+  const done = Number(progress.nextTermIndex || 0);
+  const percent = total > 0 ? Math.min(100, Math.floor((done / total) * 100)) : 0;
+  const phase = progress.phase === 'finalize' ? 'Finalizing' : `Building ${percent}%`;
+
+  return summary ? `**Live** · ${phase}` : phase;
+}
+
+async function readDiscoveryStates(stateDir) {
+  let entries;
+  try {
+    entries = await readdir(stateDir, { withFileTypes: true });
+  } catch (error) {
+    if (error?.code === 'ENOENT') return [];
+    throw error;
+  }
+
+  const states = [];
+  for (const entry of entries) {
+    if (!entry.isFile() || !entry.name.endsWith('.json')) continue;
+    try {
+      const content = await readFile(path.join(stateDir, entry.name), 'utf8');
+      const parsed = JSON.parse(content);
+      if (parsed?.country?.code) states.push(parsed);
+    } catch {
+      // A damaged progress file must not break the public country index.
+    }
+  }
+
+  return states;
 }
 
 async function readRankingSummaries(dataDir) {

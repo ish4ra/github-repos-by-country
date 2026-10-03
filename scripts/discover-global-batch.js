@@ -26,7 +26,7 @@ import {
   isSearchPageCapped,
 } from '../src/search-shards.js';
 import { fetchRepositoriesForOwners } from '../src/pipeline.js';
-import { writeOutputs } from '../src/output.js';
+import { writeOutputs, writeRankingsIndex } from '../src/output.js';
 import { normalizeLocationForComparison } from '../src/location.js';
 
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
@@ -319,6 +319,7 @@ checkpoint.lastRun = {
   runtimeSeconds: Math.round((Date.now() - startedAtMs) / 1000),
 };
 await writeJson(checkpointPath, checkpoint);
+await writeRankingsIndex();
 
 console.log(
   `Global discovery batch finished: cycle=${checkpoint.cycle}, nextCountryIndex=${checkpoint.countryIndex}, requests=${requestsUsed}/${requestBudget}, stop=${checkpoint.lastRun.stopReason}.`,
