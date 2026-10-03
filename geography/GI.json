@@ -1,13 +1,22 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T06:13:43.444Z",
+  "generatedAt": "2026-10-03T06:31:27.020Z",
   "source": {
     "name": "Countries States Cities Database",
     "repository": "dr5hn/countries-states-cities-database",
     "release": "v3.2-export.8",
     "asset": "json-countries+states+cities.json.gz",
     "sha256": "7e2d16815990f11bbddcd36a49a81528c6da85136f860239c3e8c7bd712cbb4e",
-    "license": "ODbL-1.0"
+    "license": "ODbL-1.0",
+    "geonames": {
+      "name": "GeoNames cities500",
+      "url": "https://download.geonames.org/export/dump/cities500.zip",
+      "fetchedAt": "2026-10-03T06:31:36.251032Z",
+      "lastModified": "Sat, 03 Oct 2026 02:09:53 GMT",
+      "sha256": "7c32ce0a1553dba6b5d3ee2a6e14b27bbbda756ecb5c0e812537681a15fc7f3a",
+      "license": "CC BY 4.0",
+      "scope": "cities with population > 500 or administrative seats through PPLA4"
+    }
   },
   "country": {
     "code": "GI",
@@ -19,28 +28,82 @@
     "cityRecords": 0,
     "uniquePrimaryCities": 0,
     "uniquePrimaryAdminRegions": 0,
-    "attributionTerms": 12,
-    "discoveryTerms": 1,
-    "ambiguousTerms": 1
+    "attributionTerms": 46,
+    "discoveryTerms": 18,
+    "ambiguousTerms": 2,
+    "geonamesCityRecords": 7
   },
   "attributionTerms": [
+    "Caleta",
+    "Calpe",
+    "Catalan",
+    "Catalan Bay",
+    "Catalan Bay Village",
+    "Cebelitarik",
+    "Cebelitarık",
+    "Djibraltar",
+    "East Side",
+    "Europa Point",
+    "GIB",
+    "Gibbilterra",
+    "Gibilterra",
+    "Gibraltar",
+    "Gibraltár",
+    "Gíbraltar",
+    "Gibraltaras",
+    "Gibraltaro",
+    "Ĝibraltaro",
+    "gybrltr",
+    "jbl tarq",
+    "jibeulolteo",
+    "Jibraltar",
+    "jiburarutaru",
+    "Kamaka",
+    "mhmyt jbl tarq",
+    "Reclamation Areas",
+    "Sandpits",
+    "South District",
+    "Town Area",
+    "Upper Town",
+    "Xibraltar",
+    "zhi bu luo tuo",
+    "Γιβραλτάρ",
+    "Гибралтар",
+    "Гібралтар",
+    "Ґібралтар",
+    "גיברלטר",
+    "جبل‌الطارق",
+    "جبل طارق",
+    "جبل‌طارق",
+    "محمية جبل طارق",
+    "जिब्राल्टर",
+    "ジブラルタル",
+    "直布罗陀",
+    "지브롤터"
+  ],
+  "discoveryTerms": [
+    "Catalan Bay",
     "Cebelitarik",
     "Gibilterra",
     "Gibraltar",
     "Jibraltar",
+    "Reclamation Areas",
+    "Sandpits",
+    "South District",
+    "Town Area",
+    "Upper Town",
     "Гибралтар",
     "Гібралтар",
     "جبل طارق",
     "جبل‌طارق",
     "जिब्राल्टर",
-    "지브롤터",
     "ジブラルタル",
-    "直布罗陀"
-  ],
-  "discoveryTerms": [
-    "Gibraltar"
+    "直布罗陀",
+    "지브롤터"
   ],
   "ambiguousTerms": [
-    "gibraltar"
-  ]
+    "gibraltar",
+    "south district"
+  ],
+  "contentSha256": "e743947e5fcf00dd5b47967e3b16e25003dfc31d3942ef15ec1c8119de426c98"
 }

@@ -9,8 +9,31 @@ This directory is generated from **Countries States Cities Database** and is use
 - Source database license: **ODbL-1.0**
 - Countries/territories generated: **250**
 - City/town/district records represented: **153,312**
-- Unique discovery terms across country files: **146,481**
+- Unique discovery terms across country files: **149,805**
 
-The files in this directory are a compact derivative index of the upstream geography database. They are provided under the upstream database's ODbL terms. Project source code outside this generated geography data remains under the MIT License.
+The base files in this directory are generated from the upstream Countries States Cities Database under its ODbL terms. A later enrichment step may merge additional attributed geography sources. Project source code remains under the MIT License.
 
 Do not edit these JSON files manually. Run `npm run sync:geography` instead.
+## GeoNames enrichment
+
+The base country/state/city index is additionally enriched from the official
+[GeoNames](https://www.geonames.org/) gazetteer using the global `cities500`
+extract.
+
+- Source: https://download.geonames.org/export/dump/cities500.zip
+- Retrieved: `2026-10-03T06:31:36.251032Z`
+- Last-Modified: `Sat, 03 Oct 2026 02:09:53 GMT`
+- Download SHA-256: `7c32ce0a1553dba6b5d3ee2a6e14b27bbbda756ecb5c0e812537681a15fc7f3a`
+- License: **CC BY 4.0**
+- GeoNames city records merged: **235,915**
+- Combined discovery terms: **285,178**
+- Combined attribution terms: **1,179,293**
+- Per-country ambiguous-term memberships: **19,376**
+
+GeoNames documents `cities500` as cities with population greater than 500,
+plus administrative seats down to PPLA4. The generated index also retains the
+base country/state/city database, so the two sources complement each other.
+
+Generated geography data incorporates upstream datasets with different
+licenses. Users of the generated geography files should comply with both the
+base database ODbL terms and GeoNames CC BY 4.0 attribution requirements.

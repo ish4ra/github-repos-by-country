@@ -1,13 +1,22 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T06:13:50.411Z",
+  "generatedAt": "2026-10-03T06:31:32.647Z",
   "source": {
     "name": "Countries States Cities Database",
     "repository": "dr5hn/countries-states-cities-database",
     "release": "v3.2-export.8",
     "asset": "json-countries+states+cities.json.gz",
     "sha256": "7e2d16815990f11bbddcd36a49a81528c6da85136f860239c3e8c7bd712cbb4e",
-    "license": "ODbL-1.0"
+    "license": "ODbL-1.0",
+    "geonames": {
+      "name": "GeoNames cities500",
+      "url": "https://download.geonames.org/export/dump/cities500.zip",
+      "fetchedAt": "2026-10-03T06:31:36.251032Z",
+      "lastModified": "Sat, 03 Oct 2026 02:09:53 GMT",
+      "sha256": "7c32ce0a1553dba6b5d3ee2a6e14b27bbbda756ecb5c0e812537681a15fc7f3a",
+      "license": "CC BY 4.0",
+      "scope": "cities with population > 500 or administrative seats through PPLA4"
+    }
   },
   "country": {
     "code": "UM",
@@ -20,8 +29,9 @@
     "uniquePrimaryCities": 0,
     "uniquePrimaryAdminRegions": 10,
     "attributionTerms": 30,
-    "discoveryTerms": 12,
-    "ambiguousTerms": 1
+    "discoveryTerms": 30,
+    "ambiguousTerms": 1,
+    "geonamesCityRecords": 0
   },
   "attributionTerms": [
     "Abd Küçük Harici Adalari",
@@ -46,30 +56,49 @@
     "U.S. Outlying Islands",
     "United States Minor Outlying Islands",
     "Wake Island",
-    "Малі віддалені острови Сполучених Штатів",
     "Малые отдаленные острова Соединенных Штатов",
+    "Малі віддалені острови Сполучених Штатів",
     "الولايات المتحدة الجزر البعيدة الصغرى",
     "جزایر کوچک حاشیه‌ای ایالات متحده آمریکا",
     "यूनाइटेड स्टेट्स माइनर आउटिंग आइलैंड्स",
-    "미국령 군소 제도",
     "合衆国領有小離島",
-    "美国本土外小岛屿"
+    "美国本土外小岛屿",
+    "미국령 군소 제도"
   ],
   "discoveryTerms": [
+    "Abd Küçük Harici Adalari",
     "Baker Island",
     "Howland Island",
+    "Îles mineures éloignées des États-Unis",
+    "Ilhas Menores Distantes dos Estados Unidos",
+    "Inizi Minor A-bell Stadoù-Unanet",
+    "Islas Ultramarinas Menores de Estados Unidos",
+    "Isole minori esterne degli Stati Uniti d'America",
     "Jarvis Island",
     "Johnston Atoll",
     "Kingman Reef",
+    "Kleine afgelegen eilanden van de Verenigde Staten",
+    "Kleinere Inselbesitzungen der Vereinigten Staaten",
+    "Mali udaljeni otoci SAD-a",
     "Midway Islands",
+    "Mniejsze Wyspy Zewnętrzne Stanów Zjednoczonych",
     "Navassa Island",
     "Palmyra Atoll",
     "Palmyra atoll",
     "U.S. Outlying Islands",
     "United States Minor Outlying Islands",
-    "Wake Island"
+    "Wake Island",
+    "Малые отдаленные острова Соединенных Штатов",
+    "Малі віддалені острови Сполучених Штатів",
+    "الولايات المتحدة الجزر البعيدة الصغرى",
+    "جزایر کوچک حاشیه‌ای ایالات متحده آمریکا",
+    "यूनाइटेड स्टेट्स माइनर आउटिंग आइलैंड्स",
+    "合衆国領有小離島",
+    "美国本土外小岛屿",
+    "미국령 군소 제도"
   ],
   "ambiguousTerms": [
     "united states minor outlying islands"
-  ]
+  ],
+  "contentSha256": "8021d013032a3202f97fec78fd70e96d5958df7fa0f8f5b840dccaeb2d03a8fa"
 }

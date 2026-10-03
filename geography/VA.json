@@ -1,13 +1,22 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T06:13:50.561Z",
+  "generatedAt": "2026-10-03T06:31:32.775Z",
   "source": {
     "name": "Countries States Cities Database",
     "repository": "dr5hn/countries-states-cities-database",
     "release": "v3.2-export.8",
     "asset": "json-countries+states+cities.json.gz",
     "sha256": "7e2d16815990f11bbddcd36a49a81528c6da85136f860239c3e8c7bd712cbb4e",
-    "license": "ODbL-1.0"
+    "license": "ODbL-1.0",
+    "geonames": {
+      "name": "GeoNames cities500",
+      "url": "https://download.geonames.org/export/dump/cities500.zip",
+      "fetchedAt": "2026-10-03T06:31:36.251032Z",
+      "lastModified": "Sat, 03 Oct 2026 02:09:53 GMT",
+      "sha256": "7c32ce0a1553dba6b5d3ee2a6e14b27bbbda756ecb5c0e812537681a15fc7f3a",
+      "license": "CC BY 4.0",
+      "scope": "cities with population > 500 or administrative seats through PPLA4"
+    }
   },
   "country": {
     "code": "VA",
@@ -19,11 +28,55 @@
     "cityRecords": 0,
     "uniquePrimaryCities": 0,
     "uniquePrimaryAdminRegions": 0,
-    "attributionTerms": 18,
-    "discoveryTerms": 3,
-    "ambiguousTerms": 0
+    "attributionTerms": 41,
+    "discoveryTerms": 18,
+    "ambiguousTerms": 0,
+    "geonamesCityRecords": 1
   },
   "attributionTerms": [
+    "Acqua Santa",
+    "batikan",
+    "batikan si",
+    "Citta del Vaticano",
+    "Città del Vaticano",
+    "Ciudad del Vaticano",
+    "Etat de la Cite du Vatican",
+    "État de la Cité du Vatican",
+    "Grad Vatikan",
+    "Heilige Stoel",
+    "Heiliger Stuhl",
+    "Państwo Watykańskie (Stolica Apostolska)",
+    "Santa Sede",
+    "Staat der Vatikanstadt",
+    "Staat Vatikanstadt",
+    "Sveta Stolica",
+    "Vaticaan-Stad",
+    "Vatican",
+    "Vatican City",
+    "Vatican City State",
+    "Vatican City State (Holy See)",
+    "Vaticano",
+    "Vatikan",
+    "Vatikán",
+    "Vatikanas",
+    "Vatikanstaden",
+    "Vatikanstadt",
+    "voir Saint",
+    "Ватикан",
+    "Город-государство Ватикан (Святой Престол)",
+    "Держава-місто Ватикан (Святий Престол)",
+    "سریر مقدس",
+    "ولاية مدينة الفاتيكان (الكرسي الرسولي)",
+    "वेटिकन सिटी स्टेट (पवित्र देखें)",
+    "ཝ་ཏ་ཀན་གང་ཁར།",
+    "ཝ་ཏི་ཀན་གྲོང་ཁྱོར།",
+    "梵蒂冈",
+    "聖座",
+    "바티칸",
+    "바티칸 시",
+    "바티칸 시국"
+  ],
+  "discoveryTerms": [
     "Heilige Stoel",
     "Heiliger Stuhl",
     "Państwo Watykańskie (Stolica Apostolska)",
@@ -39,14 +92,10 @@
     "سریر مقدس",
     "ولاية مدينة الفاتيكان (الكرسي الرسولي)",
     "वेटिकन सिटी स्टेट (पवित्र देखें)",
-    "바티칸 시국",
     "梵蒂冈",
-    "聖座"
+    "聖座",
+    "바티칸 시국"
   ],
-  "discoveryTerms": [
-    "Vatican City",
-    "Vatican City State (Holy See)",
-    "Vaticano"
-  ],
-  "ambiguousTerms": []
+  "ambiguousTerms": [],
+  "contentSha256": "3ba6a76fe779c39ce20e438b6acaaf88710f48da23a0ab95f3b558b57a3ec71e"
 }

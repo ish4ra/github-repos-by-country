@@ -1,13 +1,22 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T06:13:40.588Z",
+  "generatedAt": "2026-10-03T06:31:24.752Z",
   "source": {
     "name": "Countries States Cities Database",
     "repository": "dr5hn/countries-states-cities-database",
     "release": "v3.2-export.8",
     "asset": "json-countries+states+cities.json.gz",
     "sha256": "7e2d16815990f11bbddcd36a49a81528c6da85136f860239c3e8c7bd712cbb4e",
-    "license": "ODbL-1.0"
+    "license": "ODbL-1.0",
+    "geonames": {
+      "name": "GeoNames cities500",
+      "url": "https://download.geonames.org/export/dump/cities500.zip",
+      "fetchedAt": "2026-10-03T06:31:36.251032Z",
+      "lastModified": "Sat, 03 Oct 2026 02:09:53 GMT",
+      "sha256": "7c32ce0a1553dba6b5d3ee2a6e14b27bbbda756ecb5c0e812537681a15fc7f3a",
+      "license": "CC BY 4.0",
+      "scope": "cities with population > 500 or administrative seats through PPLA4"
+    }
   },
   "country": {
     "code": "AQ",
@@ -20,8 +29,9 @@
     "uniquePrimaryCities": 0,
     "uniquePrimaryAdminRegions": 0,
     "attributionTerms": 15,
-    "discoveryTerms": 1,
-    "ambiguousTerms": 0
+    "discoveryTerms": 15,
+    "ambiguousTerms": 0,
+    "geonamesCityRecords": 0
   },
   "attributionTerms": [
     "Antarctica",
@@ -36,12 +46,27 @@
     "أنتاركتيكا",
     "جنوبگان",
     "अंटार्कटिका",
-    "남극",
     "南极洲",
-    "南極大陸"
+    "南極大陸",
+    "남극"
   ],
   "discoveryTerms": [
-    "Antarctica"
+    "Antarctica",
+    "Antárctida",
+    "Antarctique",
+    "Antarktika",
+    "Antarktyda",
+    "Antártida",
+    "Antartide",
+    "Antartika",
+    "Антарктида",
+    "أنتاركتيكا",
+    "جنوبگان",
+    "अंटार्कटिका",
+    "南极洲",
+    "南極大陸",
+    "남극"
   ],
-  "ambiguousTerms": []
+  "ambiguousTerms": [],
+  "contentSha256": "73df3fe7b54c0efe7778f44c22ce83704ebb83ea040e7956a63a574406584681"
 }

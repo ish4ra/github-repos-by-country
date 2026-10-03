@@ -1,13 +1,22 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T06:13:43.560Z",
+  "generatedAt": "2026-10-03T06:31:27.113Z",
   "source": {
     "name": "Countries States Cities Database",
     "repository": "dr5hn/countries-states-cities-database",
     "release": "v3.2-export.8",
     "asset": "json-countries+states+cities.json.gz",
     "sha256": "7e2d16815990f11bbddcd36a49a81528c6da85136f860239c3e8c7bd712cbb4e",
-    "license": "ODbL-1.0"
+    "license": "ODbL-1.0",
+    "geonames": {
+      "name": "GeoNames cities500",
+      "url": "https://download.geonames.org/export/dump/cities500.zip",
+      "fetchedAt": "2026-10-03T06:31:36.251032Z",
+      "lastModified": "Sat, 03 Oct 2026 02:09:53 GMT",
+      "sha256": "7c32ce0a1553dba6b5d3ee2a6e14b27bbbda756ecb5c0e812537681a15fc7f3a",
+      "license": "CC BY 4.0",
+      "scope": "cities with population > 500 or administrative seats through PPLA4"
+    }
   },
   "country": {
     "code": "HM",
@@ -20,15 +29,16 @@
     "uniquePrimaryCities": 0,
     "uniquePrimaryAdminRegions": 0,
     "attributionTerms": 20,
-    "discoveryTerms": 2,
-    "ambiguousTerms": 0
+    "discoveryTerms": 20,
+    "ambiguousTerms": 0,
+    "geonamesCityRecords": 0
   },
   "attributionTerms": [
-    "Heard & McDonald Islands",
     "Heard Adasi Ve Mcdonald Adalari",
+    "Heard & McDonald Islands",
+    "Heard- en McDonaldeilanden",
     "Heard Island and McDonald Islands",
     "Heard und die McDonaldinseln",
-    "Heard- en McDonaldeilanden",
     "Îles Heard-et-MacDonald",
     "Ilha Heard e Ilhas McDonald",
     "Inizi Heard ha McDonald",
@@ -36,18 +46,37 @@
     "Isole Heard e McDonald",
     "Otok Heard i otočje McDonald",
     "Wyspa Heard i Wyspy McDonalda",
-    "Острів Херд та острови Макдональд",
     "Остров Херд и острова Макдональд",
+    "Острів Херд та острови Макдональд",
     "جزیره هرد و جزایر مک‌دونالد",
     "سمعت جزيرة وجزر ماكدونالد",
     "हर्ड द्वीप और मैकडोनाल्ड द्वीप",
-    "허드 맥도날드 제도",
     "ハード島とマクドナルド諸島",
-    "赫德·唐纳岛及麦唐纳岛"
+    "赫德·唐纳岛及麦唐纳岛",
+    "허드 맥도날드 제도"
   ],
   "discoveryTerms": [
+    "Heard Adasi Ve Mcdonald Adalari",
     "Heard & McDonald Islands",
-    "Heard Island and McDonald Islands"
+    "Heard- en McDonaldeilanden",
+    "Heard Island and McDonald Islands",
+    "Heard und die McDonaldinseln",
+    "Îles Heard-et-MacDonald",
+    "Ilha Heard e Ilhas McDonald",
+    "Inizi Heard ha McDonald",
+    "Islas Heard y McDonald",
+    "Isole Heard e McDonald",
+    "Otok Heard i otočje McDonald",
+    "Wyspa Heard i Wyspy McDonalda",
+    "Остров Херд и острова Макдональд",
+    "Острів Херд та острови Макдональд",
+    "جزیره هرد و جزایر مک‌دونالد",
+    "سمعت جزيرة وجزر ماكدونالد",
+    "हर्ड द्वीप और मैकडोनाल्ड द्वीप",
+    "ハード島とマクドナルド諸島",
+    "赫德·唐纳岛及麦唐纳岛",
+    "허드 맥도날드 제도"
   ],
-  "ambiguousTerms": []
+  "ambiguousTerms": [],
+  "contentSha256": "2c9b2d05db1c260748a4b0ee3dfea44bc6c4a1f1e522752cce05ce2fc30e382a"
 }
