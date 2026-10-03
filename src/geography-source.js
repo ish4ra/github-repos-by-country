@@ -64,7 +64,9 @@ export function buildCountryGeographyIndexes(dataset, catalog) {
     const adminNames = new Set();
 
     addNameVariants(attributionTerms, country, { includeTranslations: true });
-    addNameVariants(discoveryTerms, country, { includeTranslations: false });
+    // Country translations are cheap to search and catch profiles that use
+    // a localized country name instead of English.
+    addNameVariants(discoveryTerms, country, { includeTranslations: true });
 
     const states = Array.isArray(country.states) ? country.states : [];
     let cityRecords = 0;

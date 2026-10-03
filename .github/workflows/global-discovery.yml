@@ -1,9 +1,16 @@
-name: Refresh Sri Lanka ranking
+name: Advance global discovery
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 3 * * *'
+    - cron: '23 * * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/discover-global-batch.js'
+      - 'src/discovery-state.js'
+      - 'src/search-shards.js'
+      - '.github/workflows/global-discovery.yml'
 
 permissions:
   contents: write
@@ -13,12 +20,14 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  refresh:
+  discover:
     runs-on: ubuntu-24.04
-    timeout-minutes: 45
+    timeout-minutes: 55
     steps:
       - name: Checkout
         uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
 
       - name: Set up Node.js
         uses: actions/setup-node@v7
@@ -28,20 +37,23 @@ jobs:
       - name: Validate project
         run: npm run check
 
-      - name: Generate Sri Lanka ranking
+      - name: Advance global discovery
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npm run generate:sri-lanka
+          DISCOVERY_TERM_LIMIT: '200'
+          DISCOVERY_CHUNK_SIZE: '20'
+          CANDIDATE_POOL_LIMIT: '500'
+        run: npm run discover:global
 
-      - name: Commit refreshed data
+      - name: Commit discovery progress and completed rankings
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/LK.json rankings/sri-lanka.md rankings/README.md
+          git add state/ data/ rankings/
           if git diff --cached --quiet; then
-            echo "No ranking changes to commit."
+            echo "No discovery changes to commit."
             exit 0
           fi
-          git commit -m "data: refresh Sri Lanka ranking"
+          git commit -m "data: advance global discovery"
           git pull --rebase
           git push

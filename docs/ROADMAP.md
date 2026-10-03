@@ -32,6 +32,8 @@ The global discovery design must:
 4. preserve discovery state between refreshes when required
 5. use complementary discovery paths so a high-star repository is not lost merely because its owner has few followers
 6. expose unresolved coverage gaps in generated metadata
+7. process the 146k+ generated geography discovery terms incrementally with persistent per-country progress
+8. retain a safety pool of high-potential owners and re-probe it before publishing each completed country
 
 ## Repository rankings
 

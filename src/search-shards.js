@@ -45,6 +45,7 @@ export async function discoverLocationTerm({
     reportedCount: 0,
     sharded: false,
     unresolvedQueries: [],
+    minimumRateLimitRemaining: null,
   };
 
   await visit({
@@ -83,6 +84,7 @@ async function visit(context) {
     cursor: null,
   });
   summary.queriesIssued += 1;
+  trackRateLimit(summary, firstPage.rateLimit);
 
   const accessibleLimit = resultsPerPage * maxPagesPerQuery;
   const isCapped = Boolean(firstPage.pageInfo?.hasNextPage) && firstPage.userCount > accessibleLimit;
@@ -145,6 +147,7 @@ async function consumeLeaf({
 
   while (true) {
     summary.pagesFetched += 1;
+    trackRateLimit(summary, page.rateLimit);
     await onPage?.({
       ...page,
       searchQuery: query,
@@ -256,3 +259,15 @@ export const SEARCH_SHARD_LIMITS = Object.freeze({
   followerBuckets: FOLLOWER_BUCKETS,
   repositoryBuckets: REPOSITORY_BUCKETS,
 });
+
+
+function trackRateLimit(summary, rateLimit) {
+  const remaining = rateLimit?.remaining;
+  if (!Number.isFinite(remaining)) return;
+  if (
+    summary.minimumRateLimitRemaining == null ||
+    remaining < summary.minimumRateLimitRemaining
+  ) {
+    summary.minimumRateLimitRemaining = remaining;
+  }
+}
