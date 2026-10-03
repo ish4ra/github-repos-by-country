@@ -1,6 +1,13 @@
 name: Refresh Sri Lanka ranking
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'config/countries/sri-lanka.json'
+      - 'package.json'
+      - '.github/workflows/refresh-sri-lanka.yml'
   workflow_dispatch:
   schedule:
     - cron: '17 3 * * *'

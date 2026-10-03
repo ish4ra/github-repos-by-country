@@ -92,7 +92,7 @@ The token is only used to query GitHub. Do not commit it to the repository.
 
 `CI` validates syntax and runs tests on pushes and pull requests.
 
-`Refresh Sri Lanka ranking` runs daily and can also be started manually. It uses the repository's built-in GitHub Actions token, regenerates the two ranking files, and commits only when generated data changes.
+`Refresh Sri Lanka ranking` runs daily, can be started manually, and also runs when ranking/config code changes on `main`. It uses the repository's built-in GitHub Actions token, regenerates the two ranking files, and commits only when generated data changes.
 
 ## Ranking rules
 

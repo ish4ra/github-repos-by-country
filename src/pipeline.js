@@ -37,10 +37,14 @@ export async function generateCountryRanking(config, { token, fetchImpl, log = c
       cursor = page.pageInfo?.endCursor || null;
     }
 
-    if (hasNextPage) {
+    const queryStat = collector.queryStats.find((item) => item.term === searchTerm);
+    const accessibleResultLimit = config.resultsPerPage * config.maxPagesPerQuery;
+    const capped = hasNextPage || (queryStat?.reportedCount || 0) > accessibleResultLimit;
+
+    if (capped) {
       markQueryCapped(collector, searchTerm);
       log.warn?.(
-        `[${config.code}] ${searchTerm}: stopped after ${config.maxPagesPerQuery} pages; coverage for this term is capped.`,
+        `[${config.code}] ${searchTerm}: search coverage is capped at approximately ${accessibleResultLimit} accessible results.`,
       );
     }
   }

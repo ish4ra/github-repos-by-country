@@ -1,3 +1,14 @@
+const COMMON_REGION_ALIASES = new Map([
+  ['usa', 'US'],
+  ['u s a', 'US'],
+  ['uk', 'GB'],
+  ['u k', 'GB'],
+  ['uae', 'AE'],
+  ['u a e', 'AE'],
+]);
+
+let regionNames;
+
 function canonicalize(value) {
   return String(value || '')
     .normalize('NFKD')
@@ -15,6 +26,42 @@ function containsPhrase(haystack, phrase) {
   return ` ${haystack} `.includes(` ${normalizedPhrase} `);
 }
 
+function getRegionNames() {
+  if (regionNames) return regionNames;
+
+  const displayNames = new Intl.DisplayNames(['en'], { type: 'region' });
+  const found = new Map();
+
+  for (let first = 65; first <= 90; first += 1) {
+    for (let second = 65; second <= 90; second += 1) {
+      const code = String.fromCharCode(first, second);
+      const name = displayNames.of(code);
+      if (!name || name === code || name === 'Unknown Region') continue;
+      found.set(canonicalize(name), code);
+    }
+  }
+
+  for (const [alias, code] of COMMON_REGION_ALIASES) {
+    found.set(alias, code);
+  }
+
+  regionNames = [...found.entries()].sort((a, b) => b[0].length - a[0].length);
+  return regionNames;
+}
+
+function explicitForeignRegions(normalizedLocation, targetCode) {
+  const matches = new Map();
+
+  for (const [name, code] of getRegionNames()) {
+    if (code === targetCode) continue;
+    if (containsPhrase(normalizedLocation, name)) {
+      matches.set(code, name);
+    }
+  }
+
+  return [...matches.entries()].map(([code, name]) => ({ code, name }));
+}
+
 export function attributeLocation(location, config) {
   const raw = String(location || '').trim();
   if (!raw) {
@@ -27,31 +74,52 @@ export function attributeLocation(location, config) {
   }
 
   const normalized = canonicalize(raw);
-
-  for (const alias of config.countryAliases) {
-    if (containsPhrase(normalized, alias)) {
-      return {
-        accepted: true,
-        countryCode: config.code,
-        confidence: 'high',
-        evidence: 'explicit-country',
-        matched: alias,
-      };
-    }
-  }
-
-  for (const alias of config.exactCountryAliases) {
+  const explicitCountryAlias = config.countryAliases.find((alias) => containsPhrase(normalized, alias));
+  const exactCountryAlias = config.exactCountryAliases.find((alias) => {
     const exact = canonicalize(alias);
     const tokens = normalized.split(' ');
-    if (normalized === exact || tokens.at(-1) === exact) {
-      return {
-        accepted: true,
-        countryCode: config.code,
-        confidence: 'high',
-        evidence: 'country-code',
-        matched: alias,
-      };
-    }
+    return normalized === exact || tokens.at(-1) === exact;
+  });
+  const foreignRegions = explicitForeignRegions(normalized, config.code);
+
+  if ((explicitCountryAlias || exactCountryAlias) && foreignRegions.length > 0) {
+    return {
+      accepted: false,
+      confidence: 'ambiguous',
+      evidence: 'multiple-countries',
+      matched: null,
+      conflicts: foreignRegions,
+    };
+  }
+
+  if (foreignRegions.length > 0) {
+    return {
+      accepted: false,
+      confidence: 'unknown',
+      evidence: 'foreign-country',
+      matched: null,
+      conflicts: foreignRegions,
+    };
+  }
+
+  if (explicitCountryAlias) {
+    return {
+      accepted: true,
+      countryCode: config.code,
+      confidence: 'high',
+      evidence: 'explicit-country',
+      matched: explicitCountryAlias,
+    };
+  }
+
+  if (exactCountryAlias) {
+    return {
+      accepted: true,
+      countryCode: config.code,
+      confidence: 'high',
+      evidence: 'country-code',
+      matched: exactCountryAlias,
+    };
   }
 
   for (const term of config.locationTerms) {

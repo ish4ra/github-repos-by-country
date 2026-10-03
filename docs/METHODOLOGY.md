@@ -15,7 +15,8 @@ For the Sri Lanka proof of concept:
 1. An explicit `Sri Lanka`-style country match is **high confidence**.
 2. An `LK`/`LKA` country-code style match is **high confidence** when it appears as the complete location or final location token.
 3. A recognized Sri Lankan city or district without an explicit country is **medium confidence**.
-4. Empty or unrecognized locations are excluded.
+4. An explicit foreign-country match rejects a city-only match, and locations naming Sri Lanka plus another country are treated as ambiguous.
+5. Empty or unrecognized locations are excluded.
 
 This attribution is not a statement about citizenship, nationality, legal incorporation, contributor geography, or where development physically occurs.
 

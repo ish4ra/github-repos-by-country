@@ -9,7 +9,7 @@
   },
   "scripts": {
     "check:syntax": "node scripts/check-syntax.js",
-    "test": "node --test tests/*.test.js",
+    "test": "node --test",
     "check": "npm run check:syntax && npm test",
     "generate": "node src/cli.js",
     "generate:sri-lanka": "node src/cli.js --country LK"

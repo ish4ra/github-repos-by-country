@@ -32,6 +32,19 @@ test('missing and unrelated locations are rejected', () => {
   assert.equal(attributeLocation('Berlin, Germany', config).accepted, false);
 });
 
+test('foreign country disambiguates a shared city name', () => {
+  const result = attributeLocation('Colombo, Brazil', config);
+  assert.equal(result.accepted, false);
+  assert.equal(result.evidence, 'foreign-country');
+});
+
+test('multiple explicit countries are treated as ambiguous', () => {
+  const result = attributeLocation('Sri Lanka / Singapore', config);
+  assert.equal(result.accepted, false);
+  assert.equal(result.confidence, 'ambiguous');
+  assert.equal(result.evidence, 'multiple-countries');
+});
+
 test('location normalization is deterministic', () => {
   assert.equal(normalizeLocationForComparison(' Nuwara-Eliya,  Sri Lanka '), 'nuwara eliya sri lanka');
 });
