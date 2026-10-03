@@ -1,21 +1,25 @@
-name: Refresh Sri Lanka ranking
+name: Sync global geography
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '17 3 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'src/geography-source.js'
+      - 'scripts/sync-geography.js'
+      - '.github/workflows/sync-geography.yml'
 
 permissions:
   contents: write
 
 concurrency:
-  group: refresh-sri-lanka
+  group: sync-global-geography
   cancel-in-progress: false
 
 jobs:
-  refresh:
+  sync:
     runs-on: ubuntu-24.04
-    timeout-minutes: 45
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v7
@@ -25,23 +29,20 @@ jobs:
         with:
           node-version: 22
 
-      - name: Validate project
+      - name: Validate before sync
         run: npm run check
 
-      - name: Generate Sri Lanka ranking
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: npm run generate:sri-lanka
+      - name: Generate compact geography indexes
+        run: npm run sync:geography
 
-      - name: Commit refreshed data
+      - name: Commit geography update
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/LK.json rankings/sri-lanka.md rankings/README.md
+          git add geography/
           if git diff --cached --quiet; then
-            echo "No ranking changes to commit."
+            echo "No geography changes to commit."
             exit 0
           fi
-          git commit -m "data: refresh Sri Lanka ranking"
-          git pull --rebase
+          git commit -m "data: sync global geography index"
           git push

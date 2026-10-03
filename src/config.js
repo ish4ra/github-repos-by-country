@@ -21,7 +21,7 @@ export async function loadCountryConfig(code) {
     code: country.code,
     name: country.name,
     slug: country.slug,
-    methodologyVersion: '0.2.0-poc',
+    methodologyVersion: '0.3.0-global-geography',
     rankingLimit: 100,
     candidateRepositoriesPerOwner: 100,
     resultsPerPage: 100,
@@ -31,8 +31,20 @@ export async function loadCountryConfig(code) {
     exactCountryAliases: [country.code.toLowerCase()],
     locationTerms: [],
     searchTerms: [country.name],
+    geographySearchTerms: [],
     geographyCoverage: 'country-name-only',
   };
+
+  const geography = await loadGeographyIndex(normalized);
+  if (geography) {
+    base.locationTerms = mergeUnique(base.locationTerms, geography.attributionTerms || []);
+    base.geographySearchTerms = mergeUnique([], geography.discoveryTerms || []);
+    base.geographyCoverage = 'generated-global-index';
+    base.geography = {
+      source: geography.source,
+      counts: geography.counts,
+    };
+  }
 
   const filename = COUNTRY_OVERRIDE_FILES.get(normalized);
   let config = base;
@@ -40,11 +52,40 @@ export async function loadCountryConfig(code) {
   if (filename) {
     const configPath = path.join(ROOT, 'config', 'countries', filename);
     const raw = await readFile(configPath, 'utf8');
-    config = { ...base, ...JSON.parse(raw), geographyCoverage: 'curated-poc' };
+    const override = JSON.parse(raw);
+
+    config = {
+      ...base,
+      ...override,
+      countryAliases: mergeUnique(base.countryAliases, override.countryAliases || []),
+      exactCountryAliases: mergeUnique(base.exactCountryAliases, override.exactCountryAliases || []),
+      locationTerms: mergeUnique(base.locationTerms, override.locationTerms || []),
+      searchTerms: mergeUnique(base.searchTerms, override.searchTerms || []),
+      geographySearchTerms: base.geographySearchTerms,
+      geographyCoverage: geography ? 'generated-global-index+country-overrides' : 'curated-poc',
+    };
   }
 
   validateCountryConfig(config);
   return config;
+}
+
+async function loadGeographyIndex(code) {
+  try {
+    const raw = await readFile(path.join(ROOT, 'geography', `${code}.json`), 'utf8');
+    const parsed = JSON.parse(raw);
+    if (parsed?.country?.code !== code) {
+      throw new Error(`Geography index country mismatch for ${code}`);
+    }
+    return parsed;
+  } catch (error) {
+    if (error?.code === 'ENOENT') return null;
+    throw error;
+  }
+}
+
+function mergeUnique(first, second) {
+  return [...new Set([...(first || []), ...(second || [])])];
 }
 
 function validateCountryConfig(config) {
@@ -62,8 +103,10 @@ function validateCountryConfig(config) {
     }
   }
 
-  if (!Array.isArray(config.locationTerms)) {
-    throw new Error('Invalid country config: locationTerms must be an array');
+  for (const key of ['locationTerms', 'geographySearchTerms']) {
+    if (!Array.isArray(config[key])) {
+      throw new Error(`Invalid country config: ${key} must be an array`);
+    }
   }
 
   for (const key of ['rankingLimit', 'candidateRepositoriesPerOwner', 'resultsPerPage', 'maxPagesPerQuery']) {
