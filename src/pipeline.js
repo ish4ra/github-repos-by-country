@@ -4,9 +4,10 @@ import {
   createCollector,
   ingestDiscoveryPage,
   ingestRepositoryBatch,
-  markQueryCapped,
+  recordQueryStats,
   selectCandidateOwners,
 } from './ranking.js';
+import { discoverLocationTerm } from './search-shards.js';
 
 const PROBE_BATCH_SIZE = 50;
 const CANDIDATE_BATCH_SIZE = 5;
@@ -58,41 +59,35 @@ export async function generateCountryRanking(config, { token, fetchImpl, log = c
 
 async function discoverOwners(client, collector, config, log) {
   for (const searchTerm of config.searchTerms) {
-    let cursor = null;
-    let pageNumber = 0;
-    let hasNextPage = true;
+    log.info?.(`[${config.code}] discover ${searchTerm}`);
 
-    while (hasNextPage && pageNumber < config.maxPagesPerQuery) {
-      pageNumber += 1;
-      log.info?.(`[${config.code}] discover ${searchTerm}: page ${pageNumber}`);
+    const summary = await discoverLocationTerm({
+      client,
+      searchTerm,
+      resultsPerPage: config.resultsPerPage,
+      maxPagesPerQuery: config.maxPagesPerQuery,
+      log,
+      onPage: async (page) => {
+        ingestDiscoveryPage(collector, {
+          searchTerm,
+          pageNumber: page.leafPageNumber,
+          page,
+        });
+        assertRateLimit(page.rateLimit);
+      },
+    });
 
-      const page = await client.discoverOwnersPage({
-        searchTerm,
-        first: config.resultsPerPage,
-        cursor,
-      });
+    recordQueryStats(collector, summary);
 
-      ingestDiscoveryPage(collector, { searchTerm, pageNumber, page });
-      assertRateLimit(page.rateLimit);
-
-      hasNextPage = Boolean(page.pageInfo?.hasNextPage);
-      cursor = page.pageInfo?.endCursor || null;
-    }
-
-    const queryStat = collector.queryStats.find((item) => item.term === searchTerm);
-    const accessibleResultLimit = config.resultsPerPage * config.maxPagesPerQuery;
-    const capped = hasNextPage || (queryStat?.reportedCount || 0) > accessibleResultLimit;
-
-    if (capped) {
-      markQueryCapped(collector, searchTerm);
+    if (summary.unresolvedQueries.length > 0) {
       log.warn?.(
-        `[${config.code}] ${searchTerm}: search coverage is capped at approximately ${accessibleResultLimit} accessible results.`,
+        `[${config.code}] ${searchTerm}: ${summary.unresolvedQueries.length} shard(s) remain capped.`,
       );
     }
   }
 }
 
-async function fetchRepositoriesForOwners({
+export async function fetchRepositoriesForOwners({
   client,
   collector,
   owners,
@@ -146,7 +141,7 @@ async function fetchBatchAdaptive({ client, collector, owners, reposPerOwner, st
   }
 }
 
-function assertRateLimit(rateLimit) {
+export function assertRateLimit(rateLimit) {
   if (rateLimit?.remaining != null && rateLimit.remaining < 10) {
     const error = new Error(
       `GitHub GraphQL rate limit is nearly exhausted (${rateLimit.remaining} remaining; reset ${rateLimit.resetAt || 'unknown'}).`,

@@ -9,7 +9,7 @@ if (!token) {
 await loadCountryConfig('LK');
 const client = new GitHubGraphQLClient({ token, requestDelayMs: 0 });
 const discovery = await client.discoverOwnersPage({
-  searchTerm: 'Sri Lanka',
+  searchQuery: 'location:"Sri Lanka" type:user followers:0..9 repos:>=1 created:2020-01-01..2026-12-31',
   first: 5,
 });
 

@@ -17,19 +17,6 @@ export function createCollector(config) {
 export function ingestDiscoveryPage(collector, { searchTerm, pageNumber, page }) {
   collector.rawOwnerHits += page.nodes?.length || 0;
 
-  const existing = collector.queryStats.find((item) => item.term === searchTerm);
-  if (!existing) {
-    collector.queryStats.push({
-      term: searchTerm,
-      searchQuery: page.searchQuery,
-      reportedCount: page.userCount || 0,
-      pagesFetched: pageNumber,
-      capped: false,
-    });
-  } else {
-    existing.pagesFetched = Math.max(existing.pagesFetched, pageNumber);
-  }
-
   for (const node of page.nodes || []) {
     if (!node || !['User', 'Organization'].includes(node.__typename)) continue;
 
@@ -109,6 +96,23 @@ export function selectCandidateOwners(collector, rankingLimit = collector.config
   collector.candidateThresholdStars = threshold;
   collector.candidateOwners = candidates.length;
   return candidates;
+}
+
+export function recordQueryStats(collector, summary) {
+  const existingIndex = collector.queryStats.findIndex((item) => item.term === summary.term);
+  const stat = {
+    term: summary.term,
+    reportedCount: summary.reportedCount || 0,
+    pagesFetched: summary.pagesFetched || 0,
+    queriesIssued: summary.queriesIssued || 0,
+    leafQueries: summary.leafQueries || 0,
+    sharded: Boolean(summary.sharded),
+    capped: Array.isArray(summary.unresolvedQueries) && summary.unresolvedQueries.length > 0,
+    unresolvedQueries: summary.unresolvedQueries || [],
+  };
+
+  if (existingIndex >= 0) collector.queryStats[existingIndex] = stat;
+  else collector.queryStats.push(stat);
 }
 
 export function markQueryCapped(collector, searchTerm) {

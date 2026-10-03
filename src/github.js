@@ -116,8 +116,9 @@ export class GitHubGraphQLClient {
     this.fetch = fetchImpl;
   }
 
-  async discoverOwnersPage({ searchTerm, first, cursor = null }) {
-    const query = `location:"${escapeSearchValue(searchTerm)}"`;
+  async discoverOwnersPage({ searchTerm, searchQuery, first, cursor = null }) {
+    const query = searchQuery || `location:"${escapeSearchValue(searchTerm)}"`;
+    if (!query) throw new Error('A user-search query is required.');
     const payload = await this.#request(DISCOVERY_QUERY, {
       query,
       first,

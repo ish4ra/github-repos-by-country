@@ -115,3 +115,35 @@ test('no-data responses are retried', async () => {
   assert.equal(result.userCount, 0);
   assert.equal(calls, 2);
 });
+
+
+test('GraphQL discovery accepts a prebuilt sharded search query', async () => {
+  let capturedBody;
+  const fetchImpl = async (_url, options) => {
+    capturedBody = JSON.parse(options.body);
+    return new Response(
+      JSON.stringify({
+        data: {
+          search: {
+            userCount: 0,
+            pageInfo: { hasNextPage: false, endCursor: null },
+            nodes: [],
+          },
+          rateLimit: { cost: 1, limit: 5000, remaining: 4999, resetAt: '2026-10-03T07:00:00Z' },
+        },
+      }),
+      { status: 200, headers: { 'content-type': 'application/json' } },
+    );
+  };
+
+  const client = new GitHubGraphQLClient({ token: 'test-token', requestDelayMs: 0, fetchImpl });
+  await client.discoverOwnersPage({
+    searchQuery: 'location:"Sri Lanka" type:user followers:0..9',
+    first: 100,
+  });
+
+  assert.equal(
+    capturedBody.variables.query,
+    'location:"Sri Lanka" type:user followers:0..9',
+  );
+});
