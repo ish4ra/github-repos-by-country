@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 0%
+## Repository ranking status: Building 2%
 
-- Geography terms processed: **0 / 149**
-- Progress: **0%**
-- Retained high-potential owner candidates: **46**
-- Search requests completed: **1**
+- Geography terms processed: **3 / 149**
+- Progress: **2%**
+- Retained high-potential owner candidates: **208**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -27,17 +27,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Ziyadsk/scc](https://github.com/Ziyadsk/scc) | **124** | Nouakchott, Mauritania |
 | [medmahmoudhdaya/laravel-deadlock](https://github.com/medmahmoudhdaya/laravel-deadlock) | **100** | nouakchott mauritania |
 | [aziz0x00/agent.sh](https://github.com/aziz0x00/agent.sh) | **46** | Mauritania |
+| [binorassocies/brostash](https://github.com/binorassocies/brostash) | **33** | Mauritania |
 | [LeminEly/supnum-scan](https://github.com/LeminEly/supnum-scan) | **16** | Mauritania |
 | [Mohamed-94/Group-of-Assembly-Programs-Samples--8086-85-Processors-family-](https://github.com/Mohamed-94/Group-of-Assembly-Programs-Samples--8086-85-Processors-family-) | **16** | Nouakchott, Mauritania |
 | [OussamaTeyib/HelloWorld](https://github.com/OussamaTeyib/HelloWorld) | **15** | Nouakchott, Mauritania |
 | [ahmed-abdat/quran-mr](https://github.com/ahmed-abdat/quran-mr) | **13** | mauritania nouakchott |
 | [bechir/courat](https://github.com/bechir/courat) | **13** | Mauritania |
 | [babasahi/MarocPC](https://github.com/babasahi/MarocPC) | **9** | Nouakchott, Mauritania |
+| [LhacenMed/Sona](https://github.com/LhacenMed/Sona) | **9** | Nouakchott, Mauritania |
 | [medbbh/vizo](https://github.com/medbbh/vizo) | **9** | Nouakchott-Mauritania |
 | [SmellyArmure/pandas_exercices_guipsamora](https://github.com/SmellyArmure/pandas_exercices_guipsamora) | **9** | Nouakchott (Mauritania) |
 | [Mauritania-Programmers-Community/demo-repository](https://github.com/Mauritania-Programmers-Community/demo-repository) | **7** | Mauritania |
 | [mbareck7/server_hardening](https://github.com/mbareck7/server_hardening) | **6** | Mauritania, Nouakchott |
-| [leloufadel/capstone-1](https://github.com/leloufadel/capstone-1) | **5** | Mauritania |
-| [Kader198/Hulu-kader-yt](https://github.com/Kader198/Hulu-kader-yt) | **4** | MAURITANIA  |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

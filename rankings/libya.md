@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 162**
 - Progress: **0%**
-- Retained high-potential owner candidates: **48**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **239**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -29,6 +29,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [absholi7ly/POC-CVE-2025-24813](https://github.com/absholi7ly/POC-CVE-2025-24813) | **197** | Libya |
 | [qw46478/BlackHacker](https://github.com/qw46478/BlackHacker) | **142** | Libya |
 | [Mahamed-Belkheir/qufl](https://github.com/Mahamed-Belkheir/qufl) | **53** | Libya, Benghazi |
+| [torgodly/Html2Media](https://github.com/torgodly/Html2Media) | **48** | libya |
 | [KhawlahElshah/dynamic-relations-includes](https://github.com/KhawlahElshah/dynamic-relations-includes) | **28** | Tripoli, Libya |
 | [BllurryDev/FreeFire-PubgMobile-Source-Code](https://github.com/BllurryDev/FreeFire-PubgMobile-Source-Code) | **20** | Libya, Tripoli |
 | [Monther-bug/web_project](https://github.com/Monther-bug/web_project) | **14** | Libya |
@@ -38,6 +39,5 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [khengari77/PyParsec](https://github.com/khengari77/PyParsec) | **7** | Tripoli, Libya |
 | [ayagaidi/libyancityseeds](https://github.com/ayagaidi/libyancityseeds) | **6** |  Tripoli, Libya  |
 | [Mo7ammedXD/Tigerbeetle-studio](https://github.com/Mo7ammedXD/Tigerbeetle-studio) | **6** | Libya |
-| [MohammedAlkutrani/validator](https://github.com/MohammedAlkutrani/validator) | **6** | Libya, Benghazi |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

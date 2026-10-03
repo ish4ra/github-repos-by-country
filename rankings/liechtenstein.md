@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 0%
+## Repository ranking status: Building 6%
 
-- Geography terms processed: **0 / 29**
-- Progress: **0%**
-- Retained high-potential owner candidates: **43**
-- Search requests completed: **1**
+- Geography terms processed: **2 / 29**
+- Progress: **6%**
+- Retained high-potential owner candidates: **185**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -34,10 +34,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [niklasfrick/spark-dashboard](https://github.com/niklasfrick/spark-dashboard) | **128** | Liechtenstein |
 | [IDNI/TML](https://github.com/IDNI/TML) | **125** | Liechtenstein |
 | [teamniteo/handbook](https://github.com/teamniteo/handbook) | **110** | Liechtenstein |
+| [anondotli/awesome-privacy-tools](https://github.com/anondotli/awesome-privacy-tools) | **75** | Liechtenstein |
 | [oscardvs/zoteus](https://github.com/oscardvs/zoteus) | **51** | Liechtenstein |
 | [ixofoundation/ixo-blockchain](https://github.com/ixofoundation/ixo-blockchain) | **44** | Liechtenstein |
 | [ixoworld/bonds](https://github.com/ixoworld/bonds) | **41** | Liechtenstein |
 | [pitschr/knx-core](https://github.com/pitschr/knx-core) | **38** | Liechtenstein |
-| [secures92/CADMouse](https://github.com/secures92/CADMouse) | **32** | Liechtenstein |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

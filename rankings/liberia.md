@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 49**
 - Progress: **0%**
-- Retained high-potential owner candidates: **47**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **310**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,20 +24,20 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
+| [fhteam/laravel-amqp](https://github.com/fhteam/laravel-amqp) | **28** | Liberia |
 | [maxwelldorliea/github](https://github.com/maxwelldorliea/github) | **9** | Monrovia, Montserrado County, Liberia |
 | [1989shack/SDomDiscover](https://github.com/1989shack/SDomDiscover) | **8** | Monrovia, Liberia |
+| [forumhouse-oss/laravel-cache-redis-extended](https://github.com/forumhouse-oss/laravel-cache-redis-extended) | **8** | Liberia |
 | [mdsomah/nir-statistic-webapp](https://github.com/mdsomah/nir-statistic-webapp) | **5** | Monrovia, Liberia |
 | [RA9/tan-compose](https://github.com/RA9/tan-compose) | **5** | Liberia  |
 | [timtjoe/tokenizer](https://github.com/timtjoe/tokenizer) | **5** | Liberia, West Africa |
 | [Kwagei/week-1-portfolio-website-Mark1993Monger](https://github.com/Kwagei/week-1-portfolio-website-Mark1993Monger) | **3** | Monrovia, Liberia |
+| [Last-Mile-Health/Palm-Kiosk](https://github.com/Last-Mile-Health/Palm-Kiosk) | **3** | Liberia |
+| [R-cloud-git/ai-craft](https://github.com/R-cloud-git/ai-craft) | **3** | Monrovia, Liberia |
 | [benjaminangafua/ekklesia-record](https://github.com/benjaminangafua/ekklesia-record) | **2** | Liberia |
 | [BugHunter-SN/Samruki](https://github.com/BugHunter-SN/Samruki) | **2** |  Monrovia Liberia. West Africa |
+| [Byaxy/Byaxy.github.io](https://github.com/Byaxy/Byaxy.github.io) | **2** | Monrovia, Liberia |
 | [cruso003/conduit](https://github.com/cruso003/conduit) | **2** | Paynesville, Liberia |
-| [Ogiwara-unu/SafeSteps](https://github.com/Ogiwara-unu/SafeSteps) | **2** | Liberia |
-| [pastoreekahk96/alx-pre_course](https://github.com/pastoreekahk96/alx-pre_course) | **2** | Monrovia, Liberia |
-| [tangaye/schoolmate](https://github.com/tangaye/schoolmate) | **2** | Paynesville, Liberia |
-| [BioHelixNode-Research-Laboratory/.github](https://github.com/BioHelixNode-Research-Laboratory/.github) | **1** | Liberia |
-| [boaslah/tkinter_calculator](https://github.com/boaslah/tkinter_calculator) | **1** | Montserrado County, Liberia  |
-| [Deviskalo/pace-ui](https://github.com/Deviskalo/pace-ui) | **1** | Monrovia, Liberia |
+| [eNyanforh/mycampus.io](https://github.com/eNyanforh/mycampus.io) | **2** | Monrovia, Liberia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

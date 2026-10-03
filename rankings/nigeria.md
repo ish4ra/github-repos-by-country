@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 922**
 - Progress: **0%**
-- Retained high-potential owner candidates: **47**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **141**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,13 +24,13 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [abiosoft/colima](https://github.com/abiosoft/colima) | **31,081** | Nigeria |
-| [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) | **5,784** | Lagos, Nigeria |
+| [abiosoft/colima](https://github.com/abiosoft/colima) | **31,088** | Nigeria |
+| [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) | **5,785** | Lagos, Nigeria |
 | [cgzirim/seek-tune](https://github.com/cgzirim/seek-tune) | **5,602** | Abuja, Nigeria |
 | [calistus-igwilo/nitda-blockchain-scholarship](https://github.com/calistus-igwilo/nitda-blockchain-scholarship) | **3,084** | Nigeria |
 | [ayoisaiah/f2](https://github.com/ayoisaiah/f2) | **2,452** | Abuja, Nigeria |
 | [BolajiAyodeji/awesome-technical-writing](https://github.com/BolajiAyodeji/awesome-technical-writing) | **2,313** | Abuja, Nigeria |
-| [xt42io/avnac](https://github.com/xt42io/avnac) | **1,567** | Nigeria |
+| [xt42io/avnac](https://github.com/xt42io/avnac) | **1,568** | Nigeria |
 | [adeolaadeoti/adeolaadeoti-portfolio](https://github.com/adeolaadeoti/adeolaadeoti-portfolio) | **363** | Lagos, Nigeria |
 | [davepartner/pmanager](https://github.com/davepartner/pmanager) | **272** | Nigeria |
 | [BrightDaniel/alx-low_level_programming](https://github.com/BrightDaniel/alx-low_level_programming) | **219** | Port Harcourt, Nigeria |

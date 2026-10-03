@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 402**
 - Progress: **0%**
-- Retained high-potential owner candidates: **50**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **378**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -35,9 +35,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [gocemitevski/bushava-azbuka](https://github.com/gocemitevski/bushava-azbuka) | **26** | Skopje, North Macedonia |
 | [jaggedsoft/chartaholic](https://github.com/jaggedsoft/chartaholic) | **25** | North Macedonia |
 | [EienMosu/MERN-Shopping-App](https://github.com/EienMosu/MERN-Shopping-App) | **22** | North Macedonia/Skopje |
+| [flakrimjusufi/grpc-with-rest](https://github.com/flakrimjusufi/grpc-with-rest) | **21** | Tetovo, North Macedonia |
+| [srdzank/WinSQLite-Editor](https://github.com/srdzank/WinSQLite-Editor) | **19** | North Macedonia |
 | [Delemangi/FINKI](https://github.com/Delemangi/FINKI) | **15** | Skopje, North Macedonia |
-| [MStanislavov/stratoseer](https://github.com/MStanislavov/stratoseer) | **14** | North Macedonia |
-| [jeton-th/apple-like-navigation](https://github.com/jeton-th/apple-like-navigation) | **13** | Skopje, North Macedonia |
-| [MarkoKermi/Portfolio-Website](https://github.com/MarkoKermi/Portfolio-Website) | **9** | Skopje, North Macedonia |
+| [Pendramon/Toshinou-Community](https://github.com/Pendramon/Toshinou-Community) | **15** | Skopje, North Macedonia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 12,887**
 - Progress: **0%**
-- Retained high-potential owner candidates: **48**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **181**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,6 +25,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [JuanCrg90/Clean-Code-Notes](https://github.com/JuanCrg90/Clean-Code-Notes) | **6,120** | Leon, Gto. Mexico |
+| [gh0stzk/dotfiles](https://github.com/gh0stzk/dotfiles) | **4,750** | Mexico City |
 | [EliverLara/Nordic](https://github.com/EliverLara/Nordic) | **2,735** | Mexico |
 | [nanochess/bootOS](https://github.com/nanochess/bootOS) | **2,142** | Mexico |
 | [Elteoremadebeethoven/AnimationsWithManim](https://github.com/Elteoremadebeethoven/AnimationsWithManim) | **1,235** | Mexico City |
@@ -38,6 +39,5 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [LaunchX-InnovaccionVirtual/onboarding-github-launchx](https://github.com/LaunchX-InnovaccionVirtual/onboarding-github-launchx) | **399** | Mexico |
 | [vic/params](https://github.com/vic/params) | **373** | Mexico City |
 | [holasoymalva/deepseek-cli](https://github.com/holasoymalva/deepseek-cli) | **319** | CDMX - Mexico. |
-| [xiam/go-playground](https://github.com/xiam/go-playground) | **256** | Mexico City |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

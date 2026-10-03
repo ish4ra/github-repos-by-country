@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 162**
 - Progress: **0%**
-- Retained high-potential owner candidates: **50**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **340**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [RivoLink/leaf](https://github.com/RivoLink/leaf) | **2,095** | Antananarivo - Madagascar |
+| [RivoLink/leaf](https://github.com/RivoLink/leaf) | **2,097** | Antananarivo - Madagascar |
 | [luckasRanarison/tailwind-tools.nvim](https://github.com/luckasRanarison/tailwind-tools.nvim) | **587** | Antananarivo, Madagascar |
 | [tsirysndr/music-player](https://github.com/tsirysndr/music-player) | **525** | Antananarivo / Madagascar |
 | [RajaRakoto/cntemad-repository](https://github.com/RajaRakoto/cntemad-repository) | **77** | Antananarivo Madagascar |
@@ -34,10 +34,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [AmigosKazz/Code-templates-DSA](https://github.com/AmigosKazz/Code-templates-DSA) | **36** | Madagascar |
 | [rasolofonirina/quotes-gasy](https://github.com/rasolofonirina/quotes-gasy) | **28** | Madagascar |
 | [hatixntsoa/open.claude](https://github.com/hatixntsoa/open.claude) | **27** | Madagascar |
+| [rivo2302/Mvola](https://github.com/rivo2302/Mvola) | **24** | Antananarivo, Madagascar |
 | [tokyramarozaka/crkbd-corne-v3-keymap](https://github.com/tokyramarozaka/crkbd-corne-v3-keymap) | **19** | Madagascar |
 | [KiritoEM/boolean-table](https://github.com/KiritoEM/boolean-table) | **15** | Antananarivo, Madagascar |
 | [LizkaRyan/WinterFramework](https://github.com/LizkaRyan/WinterFramework) | **15** | Antananarivo, Madagascar |
 | [judicaelandria/miro-like](https://github.com/judicaelandria/miro-like) | **14** | Madagascar |
-| [gaetan1903/Asterisk-VoiP](https://github.com/gaetan1903/Asterisk-VoiP) | **13** | Toamasina, Madagascar |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

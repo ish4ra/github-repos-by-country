@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 87**
 - Progress: **0%**
-- Retained high-potential owner candidates: **49**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **342**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -26,7 +26,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [zikani03/groupby](https://github.com/zikani03/groupby) | **74** | Lilongwe, Malawi |
 | [JimmyXtesla/BILN](https://github.com/JimmyXtesla/BILN) | **57** | Blantyre, Malawi |
-| [Iankulani/2020_Malawi_Fresh_Presidential_Election](https://github.com/Iankulani/2020_Malawi_Fresh_Presidential_Election) | **53** | Mzimba, Malawi |
+| [Iankulani/2020_Malawi_Fresh_Presidential_Election](https://github.com/Iankulani/2020_Malawi_Fresh_Presidential_Election) | **54** | Mzimba, Malawi |
 | [Bright-Phiri/JavaFX-Library-Management-Information-System](https://github.com/Bright-Phiri/JavaFX-Library-Management-Information-System) | **29** | Lilongwe, Malawi |
 | [ACT91/My-Portfolio](https://github.com/ACT91/My-Portfolio) | **25** | Blantyre , Malawi |
 | [StevenKamwaza/weather-staion-iot](https://github.com/StevenKamwaza/weather-staion-iot) | **21** |  Malawi |

@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 164**
 - Progress: **0%**
-- Retained high-potential owner candidates: **50**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **254**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -34,10 +34,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [marclamberti/docker-airflow](https://github.com/marclamberti/docker-airflow) | **70** | Mauritius |
 | [kavishgr/xmlrpc-bruteforcer](https://github.com/kavishgr/xmlrpc-bruteforcer) | **63** | Republic Of Mauritius |
 | [arwinneil/albanian-virus](https://github.com/arwinneil/albanian-virus) | **51** | Mauritius |
+| [asvinb/pixidou](https://github.com/asvinb/pixidou) | **44** | Mauritius |
 | [percymamedy/laravel-dev-booter](https://github.com/percymamedy/laravel-dev-booter) | **35** | Port Louis Mauritius |
 | [k3ii/revq](https://github.com/k3ii/revq) | **34** | Mauritius |
 | [BarbUk/dotfiles](https://github.com/BarbUk/dotfiles) | **33** | Mauritius |
 | [MaskyS/daily_steps](https://github.com/MaskyS/daily_steps) | **30** | Mauritius |
-| [mgjules/chat-demo](https://github.com/mgjules/chat-demo) | **25** | Mauritius |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

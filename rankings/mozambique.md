@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 109**
 - Progress: **0%**
-- Retained high-potential owner candidates: **50**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **266**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -31,6 +31,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [PauloPhagula/awesome-mpesa](https://github.com/PauloPhagula/awesome-mpesa) | **38** | Maputo, Mozambique |
 | [HercoZauZau/Kutiva](https://github.com/HercoZauZau/Kutiva) | **33** | Maputo, Mozambique |
 | [doilio/Dowy](https://github.com/doilio/Dowy) | **30** | Mozambique, Maputo |
+| [emagombe/mpesa-api](https://github.com/emagombe/mpesa-api) | **30** | Mozambique |
 | [JefferMarcelino/whatsapp-bot](https://github.com/JefferMarcelino/whatsapp-bot) | **29** | Mozambique, Maputo |
 | [MelvinNunes/moz-regional-api](https://github.com/MelvinNunes/moz-regional-api) | **24** | Mozambique |
 | [arnaldo-tomo/laravel-autoscema](https://github.com/arnaldo-tomo/laravel-autoscema) | **21** | Mozambique |
@@ -38,6 +39,5 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [EdNgulele/Speak-To-Me](https://github.com/EdNgulele/Speak-To-Me) | **12** | Maputo,  Mozambique |
 | [ErnestoArgentina/optmus](https://github.com/ErnestoArgentina/optmus) | **11** | Mozambique, Maputo |
 | [joseseie/js-script-ubuntu](https://github.com/joseseie/js-script-ubuntu) | **9** | Maputo, Mozambique |
-| [enoquetembe/notifications-service](https://github.com/enoquetembe/notifications-service) | **8** | Maputo, Mozambique |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

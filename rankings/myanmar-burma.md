@@ -10,10 +10,10 @@
 
 ## Repository ranking status: Building 0%
 
-- Geography terms processed: **0 / 608**
+- Geography terms processed: **3 / 608**
 - Progress: **0%**
-- Retained high-potential owner candidates: **45**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **160**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -28,16 +28,16 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [thitlwincoder/direct_link](https://github.com/thitlwincoder/direct_link) | **36** | Yangon, Myanmar(Burma) |
 | [etherealTech/fuse-angular-demo](https://github.com/etherealTech/fuse-angular-demo) | **18** | Yangon, Myanmar (Burma) |
 | [GoLangsam/pipe](https://github.com/GoLangsam/pipe) | **8** | Anisakhan, Pyin Oo Lwin, Mandalay District, Myanmar / Burma |
+| [YawStar/Proxy-Hunter](https://github.com/YawStar/Proxy-Hunter) | **8** | Burma (Myanmar) |
 | [Nmk78/ERP](https://github.com/Nmk78/ERP) | **7** | Myeik/Myanmar(Burma) |
+| [KaungZinLin/PixTools](https://github.com/KaungZinLin/PixTools) | **6** | Rangoon, Burma |
 | [nureon22/gfont](https://github.com/nureon22/gfont) | **6** | Myanmar (Burma) |
 | [why-a-en/slice-ninja](https://github.com/why-a-en/slice-ninja) | **5** | Yangon, Myanmar (Burma) |
+| [0xL30N3/manga-kitty](https://github.com/0xL30N3/manga-kitty) | **4** | Rangoon, Burma |
 | [9Shiro9/voice-chatbot-whisper-gpt-tts](https://github.com/9Shiro9/voice-chatbot-whisper-gpt-tts) | **4** | Yangon , Myanmar (Burma) |
+| [lazyprogrammer-create/Sketchy-Codex](https://github.com/lazyprogrammer-create/Sketchy-Codex) | **4** | Nyaunglebin, Bago, Burma |
+| [GoGoal92/GitserverGoal](https://github.com/GoGoal92/GitserverGoal) | **3** | Yangon,Burma |
 | [heinzawaung-hack/BEP-20-Standard-Token](https://github.com/heinzawaung-hack/BEP-20-Standard-Token) | **3** | MayMyo,Myanmar(Burma) |
 | [Linzarnishwe/super-giggle](https://github.com/Linzarnishwe/super-giggle) | **3** | Naung Yoe Street 12/5A Power Building Thaketa Yangon Myanmar(Burma)11231 |
-| [win-than-htike/compose-sample-clean](https://github.com/win-than-htike/compose-sample-clean) | **3** | Yangon, Myanmar(Burma) |
-| [winkhaing/Img2TypTeX](https://github.com/winkhaing/Img2TypTeX) | **3** | Myanmar (BURMA) |
-| [Akaikenlol/imaginify](https://github.com/Akaikenlol/imaginify) | **2** | Burma, Myanmar |
-| [etherio97/etherio-pay-angular](https://github.com/etherio97/etherio-pay-angular) | **2** | Yangon, Myanmar (Burma) |
-| [kyawkoko232/tailwind-may](https://github.com/kyawkoko232/tailwind-may) | **2** | Yangon, Myanmar(Burma) |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

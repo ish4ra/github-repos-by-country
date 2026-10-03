@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 89**
 - Progress: **0%**
-- Retained high-potential owner candidates: **49**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **329**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,6 +25,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [seerr-team/seerr](https://github.com/seerr-team/seerr) | **12,777** | Maldives |
+| [Raais/ImStudio](https://github.com/Raais/ImStudio) | **927** | Malé, Maldives |
 | [Z3d0X/filament-logger](https://github.com/Z3d0X/filament-logger) | **389** | Maldives |
 | [raftalks/ravel](https://github.com/raftalks/ravel) | **212** | Maldives |
 | [athphane/userbot](https://github.com/athphane/userbot) | **187** | Maldives |
@@ -32,12 +33,11 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ameer1234567890/OnlineNandroid](https://github.com/ameer1234567890/OnlineNandroid) | **116** | Thulhaadhoo, Maldives |
 | [CustomIcon/GitGram](https://github.com/CustomIcon/GitGram) | **72** | Male, Maldives |
 | [fallenbagel/jellywatch](https://github.com/fallenbagel/jellywatch) | **55** | Maldives |
+| [menixator/hotstring](https://github.com/menixator/hotstring) | **45** | Maldives |
 | [muhannad0/mikrotik-traffic-counter](https://github.com/muhannad0/mikrotik-traffic-counter) | **40** | Maldives |
 | [aharen/Pay](https://github.com/aharen/Pay) | **28** | Malé, Maldives |
+| [muizzu/OpenVPN-Android](https://github.com/muizzu/OpenVPN-Android) | **24** | Maldives |
+| [naxeem/raalhu-blog](https://github.com/naxeem/raalhu-blog) | **24** | Maldives |
 | [ayarse/popkorn](https://github.com/ayarse/popkorn) | **23** | Maldives |
-| [hadithmv/hadithmv.github.io](https://github.com/hadithmv/hadithmv.github.io) | **23** | Malé, Maldives |
-| [Maxsy/emoji-deets](https://github.com/Maxsy/emoji-deets) | **16** | Maldives |
-| [fauzaanu/telegram-bot-starter](https://github.com/fauzaanu/telegram-bot-starter) | **15** | Maldives |
-| [Dharisd/DhivehiML](https://github.com/Dharisd/DhivehiML) | **14** | maldives |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

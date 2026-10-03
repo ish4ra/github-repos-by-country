@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 3%
+## Repository ranking status: Building 29%
 
-- Geography terms processed: **1 / 31**
-- Progress: **3%**
-- Retained high-potential owner candidates: **9**
-- Search requests completed: **1**
+- Geography terms processed: **9 / 31**
+- Progress: **29%**
+- Retained high-potential owner candidates: **10**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -29,6 +29,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Kasp42/Steam-Fast-Farm-Card](https://github.com/Kasp42/Steam-Fast-Farm-Card) | **2** | Niue |
 | [Fusion-Perception-Group/AeroPointer](https://github.com/Fusion-Perception-Group/AeroPointer) | **1** | Niue |
 | [404joe/csharp](https://github.com/404joe/csharp) | **0** | Niue |
+| [Nuggetinator/docco](https://github.com/Nuggetinator/docco) | **0** | Alofi |
 | [numbultrascream/numbultrascream](https://github.com/numbultrascream/numbultrascream) | **0** | Niue (NU) |
 | [rothbloodfire/rothbloodfire](https://github.com/rothbloodfire/rothbloodfire) | **0** | Niue (NU) |
 | [Sherdkull/Sherdkull](https://github.com/Sherdkull/Sherdkull) | **0** | Niue |

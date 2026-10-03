@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 184**
 - Progress: **0%**
-- Retained high-potential owner candidates: **48**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **144**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -33,7 +33,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [bring-shrubbery/SVG-to-SwiftUI](https://github.com/bring-shrubbery/SVG-to-SwiftUI) | **1,119** | Vilnius, Lithuania |
 | [mgedmin/objgraph](https://github.com/mgedmin/objgraph) | **841** | Lithuania |
 | [mvarnagiris/financius](https://github.com/mvarnagiris/financius) | **624** | Vilnius, Lithuania |
-| [Insality/druid](https://github.com/Insality/druid) | **596** | Lithuania |
+| [Insality/druid](https://github.com/Insality/druid) | **597** | Lithuania |
 | [remrc/Self-Balancing-Cube](https://github.com/remrc/Self-Balancing-Cube) | **544** | Lithuania |
 | [if-not-nil/revo](https://github.com/if-not-nil/revo) | **464** | Vilnius, Lithuania |
 | [Pawka/phrozn](https://github.com/Pawka/phrozn) | **451** | Lithuania |

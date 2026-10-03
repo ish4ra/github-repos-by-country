@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 201**
 - Progress: **0%**
-- Retained high-potential owner candidates: **45**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **313**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,20 +24,20 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
+| [dekitproject/ux-ui-promax-skill](https://github.com/dekitproject/ux-ui-promax-skill) | **17** | Laos |
 | [os555/lao-province-district-villages-sql](https://github.com/os555/lao-province-district-villages-sql) | **16** | Laos |
 | [tinbotu/sub](https://github.com/tinbotu/sub) | **11** | ວຽງຈັນ, Laos |
+| [Jackk-Doe/Basic_AUTH_with_Flutter_FastAPI](https://github.com/Jackk-Doe/Basic_AUTH_with_Flutter_FastAPI) | **10** | Vientiane, Laos |
+| [vongkeo/devla_youtube_tutorial](https://github.com/vongkeo/devla_youtube_tutorial) | **10** | vientaine laos |
+| [LaoitdevOpen/dart-emv-code](https://github.com/LaoitdevOpen/dart-emv-code) | **9** | laos |
+| [vilasone455/vscode-context-mcp](https://github.com/vilasone455/vscode-context-mcp) | **9** | Laos |
+| [Phoudthavisack/nodejs-hack-wifi](https://github.com/Phoudthavisack/nodejs-hack-wifi) | **8** | Laos |
+| [SaiHtetWaiYan/admin-dashboard](https://github.com/SaiHtetWaiYan/admin-dashboard) | **8** | Laos |
 | [loma/NTU-Final-Year-Project-Template--LATEX-](https://github.com/loma/NTU-Final-Year-Project-Template--LATEX-) | **7** | Laos |
+| [Z0NEN/Slide_Menu](https://github.com/Z0NEN/Slide_Menu) | **6** | Laos |
 | [chanthavong/Vestimate-App-ui](https://github.com/chanthavong/Vestimate-App-ui) | **5** | Vientiane, Laos |
 | [Dan16ssd/deployguard](https://github.com/Dan16ssd/deployguard) | **4** | Vientiane, Laos |
-| [frankxayachack/strapi-mysql-docker](https://github.com/frankxayachack/strapi-mysql-docker) | **3** | Laos |
-| [PitiDev/lek-det](https://github.com/PitiDev/lek-det) | **3** | Laos |
-| [1x000/zdzy](https://github.com/1x000/zdzy) | **2** | Laos |
-| [BigguyPapsi/Colab](https://github.com/BigguyPapsi/Colab) | **2** | Vangvieng, Vientiane, Laos |
-| [bobby-sills/read-lao-app](https://github.com/bobby-sills/read-lao-app) | **2** | Vientiane, Laos |
-| [dhecaptain/dhecaptain](https://github.com/dhecaptain/dhecaptain) | **2** | Laos |
-| [LethDz/Mono-Repo-FE](https://github.com/LethDz/Mono-Repo-FE) | **2** | Ha Noi, East Laos |
-| [Sengkue/AI-SCRIPT](https://github.com/Sengkue/AI-SCRIPT) | **2** | Laos, Vientiane capital |
-| [thailengthol/WRF_PostPrcocessing](https://github.com/thailengthol/WRF_PostPrcocessing) | **2** | Laos |
-| [TheBrown/spotipy](https://github.com/TheBrown/spotipy) | **2** | Vientiane,Laos |
+| [BounkhongDev/go-generator](https://github.com/BounkhongDev/go-generator) | **3** | Vientiane, laos |
+| [drquackky/global-amr-burden-analysis](https://github.com/drquackky/global-amr-burden-analysis) | **3** | Laos |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

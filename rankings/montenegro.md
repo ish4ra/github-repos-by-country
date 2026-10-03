@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 97**
 - Progress: **0%**
-- Retained high-potential owner candidates: **47**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **220**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,13 +24,14 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [Const-me/Whisper](https://github.com/Const-me/Whisper) | **10,673** | Tivat, Montenegro |
+| [Const-me/Whisper](https://github.com/Const-me/Whisper) | **10,674** | Tivat, Montenegro |
 | [dchest/captcha](https://github.com/dchest/captcha) | **2,064** | Montenegro |
 | [mifth/mifthtools](https://github.com/mifth/mifthtools) | **928** | Montenegro |
 | [cblp/yaml-sucks](https://github.com/cblp/yaml-sucks) | **654** | Montenegro |
 | [QuasarApp/CQtDeployer](https://github.com/QuasarApp/CQtDeployer) | **652** | Montenegro |
 | [olegkoval/magento2-regenerate_url_rewrites](https://github.com/olegkoval/magento2-regenerate_url_rewrites) | **444** | Bar, Montenegro |
 | [kostafey/ejc-sql](https://github.com/kostafey/ejc-sql) | **321** | Podgorica, Montenegro |
+| [M1ck0/adskipper-extension](https://github.com/M1ck0/adskipper-extension) | **229** | Podgorica, Montenegro |
 | [vladignatyev/crx-extractor](https://github.com/vladignatyev/crx-extractor) | **228** | Montenegro |
 | [mladenrakonjac/ModernAndroidApp](https://github.com/mladenrakonjac/ModernAndroidApp) | **203** | Montenegro |
 | [vovkasm/input-source-switcher](https://github.com/vovkasm/input-source-switcher) | **147** | Budva, Montenegro |
@@ -38,6 +39,5 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ivanderbu2/angular-redux](https://github.com/ivanderbu2/angular-redux) | **104** | Montenegro |
 | [mikha-dev/mt4-websockets](https://github.com/mikha-dev/mt4-websockets) | **100** | Montenegro |
 | [alekspetrov/mcp-docs-service](https://github.com/alekspetrov/mcp-docs-service) | **58** | Montenegro, Podgorica |
-| [dockimbel/cheyenne](https://github.com/dockimbel/cheyenne) | **53** | Montenegro |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

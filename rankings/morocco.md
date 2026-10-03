@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 607**
 - Progress: **0%**
-- Retained high-potential owner candidates: **50**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **125**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [NawfalMotii79/PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR) | **26,592** | Casablanca, MOROCCO |
+| [NawfalMotii79/PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR) | **26,614** | Casablanca, MOROCCO |
 | [benweet/stackedit](https://github.com/benweet/stackedit) | **23,096** | Marrakech, Morocco |
 | [medyo/android-about-page](https://github.com/medyo/android-about-page) | **2,026** | Morocco |
 | [yjose/reactjs-popup](https://github.com/yjose/reactjs-popup) | **1,804** | Casablanca, Morocco |

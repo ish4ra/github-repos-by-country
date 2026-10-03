@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 540**
 - Progress: **0%**
-- Retained high-potential owner candidates: **50**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **157**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,16 +25,16 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [portainer/portainer](https://github.com/portainer/portainer) | **38,616** | Auckland, New Zealand |
-| [deviantony/docker-elk](https://github.com/deviantony/docker-elk) | **18,389** | Auckland, New Zealand |
-| [acaudwell/Gource](https://github.com/acaudwell/Gource) | **13,156** | New Zealand |
+| [deviantony/docker-elk](https://github.com/deviantony/docker-elk) | **18,390** | Auckland, New Zealand |
+| [acaudwell/Gource](https://github.com/acaudwell/Gource) | **13,157** | New Zealand |
 | [ChenYilong/iOSInterviewQuestions](https://github.com/ChenYilong/iOSInterviewQuestions) | **9,551** | Auckland, New Zealand |
-| [Mooophy/Cpp-Primer](https://github.com/Mooophy/Cpp-Primer) | **8,287** | Auckland, New Zealand |
+| [Mooophy/Cpp-Primer](https://github.com/Mooophy/Cpp-Primer) | **8,288** | Auckland, New Zealand |
 | [urbanadventurer/WhatWeb](https://github.com/urbanadventurer/WhatWeb) | **6,869** | New Zealand |
 | [RichardLitt/standard-readme](https://github.com/RichardLitt/standard-readme) | **6,372** | Pōneke Wellington, Aotearoa New Zealand |
-| [brentvollebregt/auto-py-to-exe](https://github.com/brentvollebregt/auto-py-to-exe) | **4,989** | Wellington, New Zealand |
+| [brentvollebregt/auto-py-to-exe](https://github.com/brentvollebregt/auto-py-to-exe) | **4,990** | Wellington, New Zealand |
 | [cortesi/devd](https://github.com/cortesi/devd) | **3,474** | Dunedin, New Zealand |
 | [benhoyt/inih](https://github.com/benhoyt/inih) | **3,042** | Christchurch, New Zealand |
-| [ashmind/SharpLab](https://github.com/ashmind/SharpLab) | **2,980** | New Zealand |
+| [ashmind/SharpLab](https://github.com/ashmind/SharpLab) | **2,981** | New Zealand |
 | [nathanpeck/awesome-ecs](https://github.com/nathanpeck/awesome-ecs) | **2,903** | Auckland, New Zealand |
 | [meganz/MEGAcmd](https://github.com/meganz/MEGAcmd) | **2,219** | Auckland, New Zealand |
 | [dominictarr/event-stream](https://github.com/dominictarr/event-stream) | **2,173** | New Zealand |
