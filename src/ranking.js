@@ -7,6 +7,7 @@ export function createCollector(config) {
     rejectedOwners: new Map(),
     queryStats: [],
     rawOwnerHits: 0,
+    repositoryBatchesFetched: 0,
   };
 }
 
@@ -31,16 +32,19 @@ export function ingestDiscoveryPage(collector, { searchTerm, pageNumber, page })
 
     const attribution = attributeLocation(node.location, collector.config);
     if (!attribution.accepted) {
-      collector.rejectedOwners.set(node.login, {
-        login: node.login,
-        type: node.__typename,
-        location: node.location || null,
-        reason: attribution.evidence,
-      });
+      if (!collector.owners.has(node.login)) {
+        collector.rejectedOwners.set(node.login, {
+          login: node.login,
+          type: node.__typename,
+          location: node.location || null,
+          reason: attribution.evidence,
+        });
+      }
       continue;
     }
 
     const current = collector.owners.get(node.login) || {
+      id: node.id,
       login: node.login,
       name: node.name || null,
       type: node.__typename,
@@ -52,16 +56,28 @@ export function ingestDiscoveryPage(collector, { searchTerm, pageNumber, page })
       repositories: new Map(),
     };
 
+    current.id = node.id || current.id;
     current.discoveryTerms.add(searchTerm);
     current.attribution = strongerAttribution(current.attribution, attribution);
 
-    for (const repo of node.repositories?.nodes || []) {
-      if (!repo || repo.isFork) continue;
-      current.repositories.set(repo.nameWithOwner, repo);
-    }
-
     collector.owners.set(node.login, current);
     collector.rejectedOwners.delete(node.login);
+  }
+}
+
+export function ingestRepositoryBatch(collector, nodes) {
+  collector.repositoryBatchesFetched += 1;
+
+  for (const node of nodes || []) {
+    if (!node?.login || !['User', 'Organization'].includes(node.__typename)) continue;
+
+    const owner = collector.owners.get(node.login);
+    if (!owner) continue;
+
+    for (const repo of node.repositories?.nodes || []) {
+      if (!repo || repo.isFork) continue;
+      owner.repositories.set(repo.nameWithOwner, repo);
+    }
   }
 }
 
@@ -139,6 +155,7 @@ export function buildRanking(collector, generatedAt = new Date().toISOString()) 
       repositoriesConsidered: allRepositories.length,
       publishedRepositories: published.length,
       repositoriesPerOwner: collector.config.repositoriesPerOwner,
+      repositoryBatchesFetched: collector.repositoryBatchesFetched,
       rankingLimit: collector.config.rankingLimit,
       searchQueries: collector.queryStats,
       cappedQueries,
@@ -146,7 +163,7 @@ export function buildRanking(collector, generatedAt = new Date().toISOString()) 
         'GitHub repositories do not expose a native country field; country is inferred from the public location of the repository owner.',
         'GitHub search can cap accessible results for broad queries, so this proof of concept does not claim exhaustive national coverage.',
         `Only the top ${collector.config.repositoriesPerOwner} non-fork public repositories by stars are collected for each discovered owner.`,
-        'Owners with missing or unrecognized public locations are excluded instead of being guessed.',
+        'Owners with missing, ambiguous, or unrecognized public locations are excluded instead of being guessed.',
       ],
     },
     repositories: published,

@@ -24,13 +24,15 @@ This attribution is not a statement about citizenship, nationality, legal incorp
 
 The crawler performs separate GitHub user-search queries for the country name and configured Sri Lankan city/district terms. Results are deduplicated by GitHub login.
 
+Discovery requests intentionally fetch only lightweight owner metadata. Repositories are fetched in a second phase, in batches of GitHub node IDs. Keeping these phases separate avoids oversized nested GraphQL search queries and makes retry/rate-limit behavior more predictable.
+
 The returned public profile location is validated again locally. A search hit is not automatically accepted merely because GitHub returned it for a location query.
 
 Both individual users and organizations can be included when returned by GitHub's user search.
 
 ## Repository discovery
 
-For each accepted owner, the GraphQL query requests the owner's top non-fork public repositories ordered by `STARGAZERS` descending.
+After owner discovery is complete, accepted owner node IDs are processed in batches. For each owner, the GraphQL query requests the owner's top non-fork public repositories ordered by `STARGAZERS` descending.
 
 The proof of concept currently retrieves the top 25 repositories per discovered owner and publishes the top 100 repositories across the country after deduplication.
 

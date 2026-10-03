@@ -1,7 +1,7 @@
 const GRAPHQL_ENDPOINT = 'https://api.github.com/graphql';
 
 const DISCOVERY_QUERY = `
-  query DiscoverOwners($query: String!, $first: Int!, $cursor: String, $reposPerOwner: Int!) {
+  query DiscoverOwners($query: String!, $first: Int!, $cursor: String) {
     search(type: USER, query: $query, first: $first, after: $cursor) {
       userCount
       pageInfo {
@@ -11,39 +11,63 @@ const DISCOVERY_QUERY = `
       nodes {
         __typename
         ... on User {
+          id
           login
           name
           location
           url
           avatarUrl
-          repositories(
-            first: $reposPerOwner
-            ownerAffiliations: OWNER
-            privacy: PUBLIC
-            isFork: false
-            orderBy: { field: STARGAZERS, direction: DESC }
-          ) {
-            nodes {
-              ...RepositoryFields
-            }
-          }
         }
         ... on Organization {
+          id
           login
           name
           location
           url
           avatarUrl
-          repositories(
-            first: $reposPerOwner
-            ownerAffiliations: OWNER
-            privacy: PUBLIC
-            isFork: false
-            orderBy: { field: STARGAZERS, direction: DESC }
-          ) {
-            nodes {
-              ...RepositoryFields
-            }
+        }
+      }
+    }
+    rateLimit {
+      cost
+      limit
+      remaining
+      resetAt
+    }
+  }
+`;
+
+const REPOSITORY_BATCH_QUERY = `
+  query FetchOwnerRepositories($ids: [ID!]!, $reposPerOwner: Int!) {
+    nodes(ids: $ids) {
+      __typename
+      ... on User {
+        id
+        login
+        repositories(
+          first: $reposPerOwner
+          ownerAffiliations: OWNER
+          privacy: PUBLIC
+          isFork: false
+          orderBy: { field: STARGAZERS, direction: DESC }
+        ) {
+          nodes {
+            ...RepositoryFields
+          }
+        }
+      }
+      ... on Organization {
+        id
+        login
+        repositories(
+          first: $reposPerOwner
+          ownerAffiliations: OWNER
+          privacy: PUBLIC
+          isFork: false
+          orderBy: { field: STARGAZERS, direction: DESC }
+        ) {
+          nodes {
+            ...RepositoryFields
           }
         }
       }
@@ -92,19 +116,34 @@ export class GitHubGraphQLClient {
     this.fetch = fetchImpl;
   }
 
-  async discoverOwnersPage({ searchTerm, first, cursor = null, reposPerOwner }) {
+  async discoverOwnersPage({ searchTerm, first, cursor = null }) {
     const query = `location:"${escapeSearchValue(searchTerm)}"`;
     const payload = await this.#request(DISCOVERY_QUERY, {
       query,
       first,
       cursor,
-      reposPerOwner,
     });
 
     return {
       ...payload.search,
       rateLimit: payload.rateLimit,
       searchQuery: query,
+    };
+  }
+
+  async fetchOwnerRepositories({ ownerIds, reposPerOwner }) {
+    if (!Array.isArray(ownerIds) || ownerIds.length === 0) {
+      return { nodes: [], rateLimit: null };
+    }
+
+    const payload = await this.#request(REPOSITORY_BATCH_QUERY, {
+      ids: ownerIds,
+      reposPerOwner,
+    });
+
+    return {
+      nodes: payload.nodes || [],
+      rateLimit: payload.rateLimit,
     };
   }
 

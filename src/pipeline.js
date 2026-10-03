@@ -1,5 +1,13 @@
 import { GitHubGraphQLClient } from './github.js';
-import { buildRanking, createCollector, ingestDiscoveryPage, markQueryCapped } from './ranking.js';
+import {
+  buildRanking,
+  createCollector,
+  ingestDiscoveryPage,
+  ingestRepositoryBatch,
+  markQueryCapped,
+} from './ranking.js';
+
+const OWNER_REPOSITORY_BATCH_SIZE = 25;
 
 export async function generateCountryRanking(config, { token, fetchImpl, log = console } = {}) {
   const client = new GitHubGraphQLClient({
@@ -16,22 +24,16 @@ export async function generateCountryRanking(config, { token, fetchImpl, log = c
 
     while (hasNextPage && pageNumber < config.maxPagesPerQuery) {
       pageNumber += 1;
-      log.info?.(`[${config.code}] ${searchTerm}: page ${pageNumber}`);
+      log.info?.(`[${config.code}] discover ${searchTerm}: page ${pageNumber}`);
 
       const page = await client.discoverOwnersPage({
         searchTerm,
         first: config.resultsPerPage,
         cursor,
-        reposPerOwner: config.repositoriesPerOwner,
       });
 
       ingestDiscoveryPage(collector, { searchTerm, pageNumber, page });
-
-      if (page.rateLimit?.remaining != null && page.rateLimit.remaining < 10) {
-        throw new Error(
-          `GitHub GraphQL rate limit is nearly exhausted (${page.rateLimit.remaining} remaining; reset ${page.rateLimit.resetAt || 'unknown'}).`,
-        );
-      }
+      assertRateLimit(page.rateLimit);
 
       hasNextPage = Boolean(page.pageInfo?.hasNextPage);
       cursor = page.pageInfo?.endCursor || null;
@@ -49,5 +51,41 @@ export async function generateCountryRanking(config, { token, fetchImpl, log = c
     }
   }
 
+  const acceptedOwners = [...collector.owners.values()].filter((owner) => owner.id);
+  const batches = chunk(acceptedOwners, OWNER_REPOSITORY_BATCH_SIZE);
+
+  log.info?.(
+    `[${config.code}] discovered ${acceptedOwners.length} accepted owners; fetching repositories in ${batches.length} batches.`,
+  );
+
+  for (let index = 0; index < batches.length; index += 1) {
+    const owners = batches[index];
+    log.info?.(`[${config.code}] repositories: batch ${index + 1}/${batches.length}`);
+
+    const result = await client.fetchOwnerRepositories({
+      ownerIds: owners.map((owner) => owner.id),
+      reposPerOwner: config.repositoriesPerOwner,
+    });
+
+    ingestRepositoryBatch(collector, result.nodes);
+    assertRateLimit(result.rateLimit);
+  }
+
   return buildRanking(collector);
+}
+
+function assertRateLimit(rateLimit) {
+  if (rateLimit?.remaining != null && rateLimit.remaining < 10) {
+    throw new Error(
+      `GitHub GraphQL rate limit is nearly exhausted (${rateLimit.remaining} remaining; reset ${rateLimit.resetAt || 'unknown'}).`,
+    );
+  }
+}
+
+function chunk(items, size) {
+  const chunks = [];
+  for (let index = 0; index < items.length; index += size) {
+    chunks.push(items.slice(index, index + size));
+  }
+  return chunks;
 }

@@ -1,7 +1,12 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { loadCountryConfig } from '../src/config.js';
-import { buildRanking, createCollector, ingestDiscoveryPage } from '../src/ranking.js';
+import {
+  buildRanking,
+  createCollector,
+  ingestDiscoveryPage,
+  ingestRepositoryBatch,
+} from '../src/ranking.js';
 
 const config = await loadCountryConfig('LK');
 
@@ -33,23 +38,38 @@ function page(nodes) {
   };
 }
 
-test('ranking deduplicates owners and repositories and sorts by stars', () => {
-  const collector = createCollector(config);
-  const owner = {
+function owner(overrides = {}) {
+  return {
     __typename: 'User',
+    id: 'U_dev',
     login: 'dev',
     name: 'Dev',
     location: 'Sri Lanka',
     url: 'https://github.com/dev',
     avatarUrl: 'https://example.test/avatar.png',
-    repositories: { nodes: [repo('dev/one', 10), repo('dev/two', 50)] },
+    ...overrides,
   };
+}
 
-  ingestDiscoveryPage(collector, { searchTerm: 'Sri Lanka', pageNumber: 1, page: page([owner]) });
-  ingestDiscoveryPage(collector, { searchTerm: 'Colombo', pageNumber: 1, page: page([owner]) });
+test('ranking deduplicates owners and repositories and sorts by stars', () => {
+  const collector = createCollector(config);
+  const discovered = owner();
+
+  ingestDiscoveryPage(collector, { searchTerm: 'Sri Lanka', pageNumber: 1, page: page([discovered]) });
+  ingestDiscoveryPage(collector, { searchTerm: 'Colombo', pageNumber: 1, page: page([discovered]) });
+
+  ingestRepositoryBatch(collector, [
+    {
+      __typename: 'User',
+      id: 'U_dev',
+      login: 'dev',
+      repositories: { nodes: [repo('dev/one', 10), repo('dev/two', 50)] },
+    },
+  ]);
 
   const ranking = buildRanking(collector, '2026-10-03T00:00:00.000Z');
   assert.equal(ranking.coverage.acceptedUniqueOwners, 1);
+  assert.equal(ranking.coverage.repositoryBatchesFetched, 1);
   assert.equal(ranking.coverage.repositoriesConsidered, 2);
   assert.deepEqual(
     ranking.repositories.map((item) => item.nameWithOwner),
@@ -64,17 +84,25 @@ test('unrecognized owner location is excluded', () => {
     searchTerm: 'Sri Lanka',
     pageNumber: 1,
     page: page([
-      {
-        __typename: 'User',
+      owner({
+        id: 'U_elsewhere',
         login: 'elsewhere',
         name: null,
         location: 'Paris, France',
         url: 'https://github.com/elsewhere',
         avatarUrl: '',
-        repositories: { nodes: [repo('elsewhere/project', 1000)] },
-      },
+      }),
     ]),
   });
+
+  ingestRepositoryBatch(collector, [
+    {
+      __typename: 'User',
+      id: 'U_elsewhere',
+      login: 'elsewhere',
+      repositories: { nodes: [repo('elsewhere/project', 1000)] },
+    },
+  ]);
 
   const ranking = buildRanking(collector);
   assert.equal(ranking.repositories.length, 0);
@@ -87,19 +115,28 @@ test('tie breaking uses forks and then repository name', () => {
     searchTerm: 'Sri Lanka',
     pageNumber: 1,
     page: page([
-      {
+      owner({
         __typename: 'Organization',
+        id: 'O_org',
         login: 'org',
         name: 'Org',
         location: 'Colombo, Sri Lanka',
         url: 'https://github.com/org',
         avatarUrl: '',
-        repositories: {
-          nodes: [repo('org/b', 100, 5), repo('org/a', 100, 5), repo('org/c', 100, 10)],
-        },
-      },
+      }),
     ]),
   });
+
+  ingestRepositoryBatch(collector, [
+    {
+      __typename: 'Organization',
+      id: 'O_org',
+      login: 'org',
+      repositories: {
+        nodes: [repo('org/b', 100, 5), repo('org/a', 100, 5), repo('org/c', 100, 10)],
+      },
+    },
+  ]);
 
   const ranking = buildRanking(collector);
   assert.deepEqual(
