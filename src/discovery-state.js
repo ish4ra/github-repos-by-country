@@ -13,7 +13,7 @@ export function createDiscoveryState(config, terms, cycle = 1) {
     },
     geography: {
       release: config.geography?.source?.release || null,
-      sha256: config.geography?.source?.sha256 || null,
+      sha256: config.geography?.contentSha256 || config.geography?.source?.sha256 || null,
       termsTotal: terms.length,
     },
     nextTermIndex: 0,
@@ -34,7 +34,8 @@ export function prepareDiscoveryState(existing, config, terms, cycle = 1) {
   }
 
   const sourceChanged =
-    existing.geography?.sha256 !== (config.geography?.source?.sha256 || null) ||
+    existing.geography?.sha256 !==
+      (config.geography?.contentSha256 || config.geography?.source?.sha256 || null) ||
     existing.geography?.termsTotal !== terms.length;
   const cycleChanged = existing.cycle !== cycle;
 
@@ -45,7 +46,7 @@ export function prepareDiscoveryState(existing, config, terms, cycle = 1) {
     cycle,
     geography: {
       release: config.geography?.source?.release || null,
-      sha256: config.geography?.source?.sha256 || null,
+      sha256: config.geography?.contentSha256 || config.geography?.source?.sha256 || null,
       termsTotal: terms.length,
     },
     nextTermIndex: 0,

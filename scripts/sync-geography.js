@@ -56,7 +56,7 @@ This directory is generated from **${GEOGRAPHY_SOURCE.name}** and is used for co
 - City/town/district records represented: **${totalCityRecords.toLocaleString('en-US')}**
 - Unique discovery terms across country files: **${totalDiscoveryTerms.toLocaleString('en-US')}**
 
-The files in this directory are a compact derivative index of the upstream geography database. They are provided under the upstream database's ODbL terms. Project source code outside this generated geography data remains under the MIT License.
+The base files in this directory are generated from the upstream Countries States Cities Database under its ODbL terms. A later enrichment step may merge additional attributed geography sources. Project source code remains under the MIT License.
 
 Do not edit these JSON files manually. Run \`npm run sync:geography\` instead.
 `;

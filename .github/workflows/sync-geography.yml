@@ -35,6 +35,9 @@ jobs:
       - name: Generate compact geography indexes
         run: npm run sync:geography
 
+      - name: Enrich with GeoNames cities500
+        run: python3 scripts/enrich-geography-geonames.py
+
       - name: Commit geography update
         run: |
           git config user.name "github-actions[bot]"

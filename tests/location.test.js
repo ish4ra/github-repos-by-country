@@ -59,3 +59,19 @@ test('generated ambiguous city-only terms are rejected', () => {
 test('location normalization is deterministic', () => {
   assert.equal(normalizeLocationForComparison(' Nuwara-Eliya,  Sri Lanka '), 'nuwara eliya sri lanka');
 });
+
+
+test('Unicode place names survive normalization and can match generated locations', () => {
+  const unicodeConfig = {
+    ...config,
+    countryAliases: ['Sri Lanka'],
+    exactCountryAliases: ['lk'],
+    locationTermLookup: new Set(['කොළඹ']),
+    ambiguousLocationTermLookup: new Set(),
+    curatedLocationTerms: [],
+  };
+  const result = attributeLocation('කොළඹ', unicodeConfig);
+  assert.equal(result.accepted, true);
+  assert.equal(result.evidence, 'recognized-place');
+  assert.equal(normalizeLocationForComparison('කොළඹ'), 'කොළඹ');
+});

@@ -16,7 +16,7 @@ Target coverage:
 - common alternate and ASCII place names
 - explicit ambiguity handling for place names shared by multiple countries
 
-The first production geography index is generated from the Countries States Cities Database, pinned to a verified release. It currently contains 250 country/territory records, more than 5,000 administrative regions, and more than 150,000 city/town/district records. The project stores only compact per-country discovery/attribution indexes, not the full upstream database.
+The production geography index starts from the Countries States Cities Database, pinned to a verified release, and is enriched from the official GeoNames gazetteer. The GeoNames cities500 layer adds cities with population over 500 plus administrative seats through PPLA4. The project stores compact per-country discovery/attribution indexes rather than raw upstream dumps.
 
 A city-only GitHub profile must not be silently assigned to a country when the city name is ambiguous. A global ambiguity map is the next layer after the compact geography files are generated.
 
