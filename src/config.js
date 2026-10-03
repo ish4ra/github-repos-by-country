@@ -108,7 +108,8 @@ function canonicalize(value) {
     .replace(/&/g, ' and ')
     .replace(/[^\p{L}\p{N}\p{M}]+/gu, ' ')
     .replace(/\s+/g, ' ')
-    .trim();
+    .trim()
+    .normalize('NFC');
 }
 
 function mergeUnique(first, second) {

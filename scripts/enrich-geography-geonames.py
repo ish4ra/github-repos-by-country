@@ -37,7 +37,10 @@ def normalize(value: str) -> str:
         ch if (ch.isalnum() or unicodedata.category(ch).startswith("M")) else " "
         for ch in lowered
     ]
-    return re.sub(r"\s+", " ", "".join(chars)).strip()
+    return unicodedata.normalize(
+        "NFC",
+        re.sub(r"\s+", " ", "".join(chars)).strip(),
+    )
 
 
 def clean(value: str) -> str | None:
