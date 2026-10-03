@@ -113,11 +113,7 @@ while (
   countriesTouched += 1;
 
   if (state.phase === 'complete') {
-    checkpoint.countryIndex += 1;
-    if (checkpoint.countryIndex >= rolloutOrder.length) {
-      checkpoint.round = (checkpoint.round || 1) + 1;
-      checkpoint.countryIndex = 0;
-    }
+    advanceCountry(checkpoint, rolloutOrder.length);
     continue;
   }
 
@@ -144,9 +140,9 @@ while (
       continue;
     }
 
-    stopReason = 'finalization-deferred';
     await writeJson(statePath, state);
-    break;
+    advanceCountry(checkpoint, rolloutOrder.length);
+    continue;
   }
 
   while (
@@ -334,6 +330,9 @@ while (
     }
     continue;
   }
+
+  await writeJson(statePath, state);
+  advanceCountry(checkpoint, rolloutOrder.length);
 }
 
 checkpoint.schemaVersion = 3;
@@ -487,6 +486,15 @@ async function readJson(filePath, fallback) {
 async function writeJson(filePath, value) {
   await mkdir(path.dirname(filePath), { recursive: true });
   await writeFile(filePath, `${JSON.stringify(value, null, 2)}\n`, 'utf8');
+}
+
+function advanceCountry(checkpoint, totalCountries) {
+  checkpoint.countryIndex += 1;
+  if (checkpoint.countryIndex >= totalCountries) {
+    checkpoint.round = (checkpoint.round || 1) + 1;
+    checkpoint.countryIndex = 0;
+  }
+  checkpoint.updatedAt = new Date().toISOString();
 }
 
 function clampInt(value, fallback, minimum, maximum) {
