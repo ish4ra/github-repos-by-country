@@ -109,3 +109,31 @@ test('active country progress page shows crawl percentage', async () => {
   assert.match(markdown, /Building 25%/);
   assert.match(markdown, /1/);
 });
+
+
+test('building country page can show early repository candidates without calling them final', async () => {
+  const { renderCountryProgressPage } = await import('../src/output.js');
+  const markdown = renderCountryProgressPage(
+    { code: 'JP', name: 'Japan', slug: 'japan', flag: '🇯🇵' },
+    {
+      phase: 'discovery',
+      nextTermIndex: 0,
+      geography: { termsTotal: 100 },
+      stats: { searchRequests: 1 },
+      unresolvedShards: [],
+      candidates: [{
+        login: 'example',
+        location: 'Japan',
+        topRepository: {
+          nameWithOwner: 'example/project',
+          url: 'https://github.com/example/project',
+          stargazerCount: 1234,
+        },
+      }],
+    },
+  );
+
+  assert.match(markdown, /Early preview/);
+  assert.match(markdown, /example\/project/);
+  assert.match(markdown, /not the final country ranking/);
+});

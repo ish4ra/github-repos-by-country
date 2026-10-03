@@ -237,6 +237,36 @@ export function renderCountryProgressPage(country, progress) {
       'The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.',
       '',
     );
+
+    const preview = [...(progress.candidates || [])]
+      .filter((candidate) => candidate?.topRepository)
+      .sort(
+        (a, b) =>
+          (b.topRepository.stargazerCount || 0) -
+            (a.topRepository.stargazerCount || 0) ||
+          a.login.localeCompare(b.login),
+      )
+      .slice(0, 15);
+
+    if (preview.length > 0) {
+      lines.push(
+        '## Early preview',
+        '',
+        '> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.',
+        '',
+        '| Repository | Stars | Owner location |',
+        '| --- | ---: | --- |',
+      );
+
+      for (const candidate of preview) {
+        const repository = candidate.topRepository;
+        lines.push(
+          `| [${escapeMarkdown(repository.nameWithOwner)}](${repository.url}) | **${formatNumber(repository.stargazerCount)}** | ${escapeMarkdown(candidate.location || '—')} |`,
+        );
+      }
+
+      lines.push('');
+    }
   }
 
   lines.push(

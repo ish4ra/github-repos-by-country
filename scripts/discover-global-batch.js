@@ -105,6 +105,7 @@ while (
   const terms = buildDiscoveryTerms(config);
   const statePath = path.join(stateDir, `${code}.json`);
   const existing = await readJson(statePath, null);
+  const effectiveCountrySlice = existing ? countryRequestSlice : 1;
   const crawlCycle = existing?.cycle || 1;
   let state = prepareDiscoveryState(existing, config, terms, crawlCycle);
   if (!state) state = createDiscoveryState(config, terms, crawlCycle);
@@ -148,7 +149,7 @@ while (
   while (
     state.nextTermIndex < terms.length &&
     requestsUsed < requestBudget &&
-    requestsUsed - countryRequestStart < countryRequestSlice &&
+    requestsUsed - countryRequestStart < effectiveCountrySlice &&
     !runtimeExpired()
   ) {
     const term = terms[state.nextTermIndex];
@@ -206,6 +207,28 @@ while (
       continue;
     }
 
+    const pageCollector = createCollector(config);
+    ingestDiscoveryPage(pageCollector, {
+      searchTerm: active.term,
+      pageNumber: work.pageNumber || 1,
+      page,
+    });
+
+    state.stats.rawOwnerHits += page.nodes?.length || 0;
+    state.stats.acceptedOwnerHits += pageCollector.owners.size;
+    state.stats.rejectedOwnerHits += pageCollector.rejectedOwners.size;
+
+    const pageCandidates = serializeProbeCandidates(pageCollector);
+    state.candidates = mergeCandidatePools(
+      state.candidates,
+      pageCandidates,
+      candidatePoolLimit,
+    );
+    state.candidatePoolThresholdStars = candidatePoolThreshold(
+      state.candidates,
+      candidatePoolLimit,
+    );
+
     if (!work.cursor && isSearchPageCapped(page)) {
       const children = expandSearchWorkItem(work);
 
@@ -226,29 +249,8 @@ while (
         });
       }
     } else {
-      const collector = createCollector(config);
-      ingestDiscoveryPage(collector, {
-        searchTerm: active.term,
-        pageNumber: work.pageNumber || 1,
-        page,
-      });
-
       active.leafPages += 1;
       state.stats.leafPages += 1;
-      state.stats.rawOwnerHits += page.nodes?.length || 0;
-      state.stats.acceptedOwnerHits += collector.owners.size;
-      state.stats.rejectedOwnerHits += collector.rejectedOwners.size;
-
-      const freshCandidates = serializeProbeCandidates(collector);
-      state.candidates = mergeCandidatePools(
-        state.candidates,
-        freshCandidates,
-        candidatePoolLimit,
-      );
-      state.candidatePoolThresholdStars = candidatePoolThreshold(
-        state.candidates,
-        candidatePoolLimit,
-      );
 
       if (page.pageInfo?.hasNextPage) {
         if ((work.pageNumber || 1) < maxLeafPages && page.pageInfo.endCursor) {
