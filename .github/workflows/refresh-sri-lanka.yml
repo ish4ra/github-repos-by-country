@@ -1,0 +1,46 @@
+name: Refresh Sri Lanka ranking
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-sri-lanka
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Validate project
+        run: npm run check
+
+      - name: Generate Sri Lanka ranking
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run generate:sri-lanka
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/LK.json rankings/sri-lanka.md
+          if git diff --cached --quiet; then
+            echo "No ranking changes to commit."
+            exit 0
+          fi
+          git commit -m "data: refresh Sri Lanka ranking"
+          git push
