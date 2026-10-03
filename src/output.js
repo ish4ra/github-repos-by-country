@@ -82,7 +82,7 @@ export function renderMarkdown(ranking) {
     `- **${formatNumber(ranking.coverage.rawOwnerHits)}** raw owner hits were seen across configured location searches.`,
     `- **${formatNumber(ranking.coverage.acceptedUniqueOwners)}** unique owners passed the current location-attribution rules.`,
     `- **${formatNumber(ranking.coverage.repositoriesConsidered)}** repositories were considered after probe and candidate expansion.`,
-    `- Capped search terms: ${ranking.coverage.cappedQueries.length ? ranking.coverage.cappedQueries.map((item) => \`${item}\`).join(', ') : 'none'}.`,
+    `- Capped search terms: ${ranking.coverage.cappedQueries.length ? ranking.coverage.cappedQueries.map((item) => '`' + item + '`').join(', ') : 'none'}.`,
     '',
     '<details>',
     '<summary><strong>Known limitations</strong></summary>',
