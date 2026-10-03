@@ -32,7 +32,13 @@ import { normalizeLocationForComparison } from '../src/location.js';
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
 if (!token) throw new Error('GITHUB_TOKEN or GH_TOKEN is required.');
 
-const requestBudget = clampInt(process.env.DISCOVERY_REQUEST_LIMIT, 180, 20, 600);
+const requestBudget = clampInt(process.env.DISCOVERY_REQUEST_LIMIT, 400, 20, 600);
+const countryRequestSlice = clampInt(
+  process.env.COUNTRY_REQUEST_SLICE,
+  8,
+  1,
+  50,
+);
 const candidatePoolLimit = clampInt(
   process.env.CANDIDATE_POOL_LIMIT,
   DEFAULT_CANDIDATE_POOL_LIMIT,
@@ -70,8 +76,8 @@ let checkpoint = await readJson(checkpointPath, {
 if (checkpoint.countryIndex >= rolloutOrder.length) {
   checkpoint = {
     ...checkpoint,
-    schemaVersion: 2,
-    cycle: (checkpoint.cycle || 1) + 1,
+    schemaVersion: 3,
+    round: (checkpoint.round || 1) + 1,
     countryIndex: 0,
     updatedAt: new Date().toISOString(),
   };
@@ -99,11 +105,23 @@ while (
   const terms = buildDiscoveryTerms(config);
   const statePath = path.join(stateDir, `${code}.json`);
   const existing = await readJson(statePath, null);
-  let state = prepareDiscoveryState(existing, config, terms, checkpoint.cycle);
-  if (!state) state = createDiscoveryState(config, terms, checkpoint.cycle);
+  const crawlCycle = existing?.cycle || 1;
+  let state = prepareDiscoveryState(existing, config, terms, crawlCycle);
+  if (!state) state = createDiscoveryState(config, terms, crawlCycle);
 
   state.candidatePoolLimit = candidatePoolLimit;
   countriesTouched += 1;
+
+  if (state.phase === 'complete') {
+    checkpoint.countryIndex += 1;
+    if (checkpoint.countryIndex >= rolloutOrder.length) {
+      checkpoint.round = (checkpoint.round || 1) + 1;
+      checkpoint.countryIndex = 0;
+    }
+    continue;
+  }
+
+  const countryRequestStart = requestsUsed;
 
   const client = new GitHubGraphQLClient({
     token,
@@ -134,6 +152,7 @@ while (
   while (
     state.nextTermIndex < terms.length &&
     requestsUsed < requestBudget &&
+    requestsUsed - countryRequestStart < countryRequestSlice &&
     !runtimeExpired()
   ) {
     const term = terms[state.nextTermIndex];
@@ -279,12 +298,16 @@ while (
     }
   }
 
-  if (stopReason || requestsUsed >= requestBudget || runtimeExpired()) {
+  if (stopReason === 'rate-limit-reserve' || runtimeExpired() || requestsUsed >= requestBudget) {
     if (!stopReason) {
       stopReason = runtimeExpired() ? 'runtime-budget' : 'request-budget';
     }
     await writeJson(statePath, state);
     break;
+  }
+
+  if (stopReason === 'query-retry-deferred') {
+    stopReason = null;
   }
 
   if (state.nextTermIndex >= terms.length) {
@@ -303,17 +326,23 @@ while (
       continue;
     }
 
-    stopReason = 'finalization-deferred';
-    break;
+    await writeJson(statePath, state);
+    checkpoint.countryIndex += 1;
+    if (checkpoint.countryIndex >= rolloutOrder.length) {
+      checkpoint.round = (checkpoint.round || 1) + 1;
+      checkpoint.countryIndex = 0;
+    }
+    continue;
   }
 }
 
-checkpoint.schemaVersion = 2;
+checkpoint.schemaVersion = 3;
 checkpoint.updatedAt = new Date().toISOString();
 checkpoint.lastRun = {
   requestBudget,
   requestsUsed,
   countriesTouched,
+  countryRequestSlice,
   stopReason: stopReason || 'batch-complete',
   minimumRateLimitRemaining,
   runtimeSeconds: Math.round((Date.now() - startedAtMs) / 1000),
@@ -322,7 +351,7 @@ await writeJson(checkpointPath, checkpoint);
 await writeRankingsIndex();
 
 console.log(
-  `Global discovery batch finished: cycle=${checkpoint.cycle}, nextCountryIndex=${checkpoint.countryIndex}, requests=${requestsUsed}/${requestBudget}, stop=${checkpoint.lastRun.stopReason}.`,
+  `Global discovery batch finished: round=${checkpoint.round || 1}, nextCountryIndex=${checkpoint.countryIndex}, requests=${requestsUsed}/${requestBudget}, countries=${countriesTouched}, stop=${checkpoint.lastRun.stopReason}.`,
 );
 
 async function finalizeCountry(config, state, client) {

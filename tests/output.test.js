@@ -78,3 +78,34 @@ test('rankings index shows resumable build progress without claiming it is live'
   assert.match(markdown, /Building 25%/);
   assert.doesNotMatch(markdown, /Most starred repositories/);
 });
+
+
+test('queued country progress page is viewable before ranking is live', async () => {
+  const { renderCountryProgressPage } = await import('../src/output.js');
+  const markdown = renderCountryProgressPage(
+    { code: 'JP', name: 'Japan', slug: 'japan', flag: '🇯🇵' },
+    null,
+  );
+
+  assert.match(markdown, /Japan/);
+  assert.match(markdown, /Queued/);
+  assert.match(markdown, /Browse countries/);
+});
+
+test('active country progress page shows crawl percentage', async () => {
+  const { renderCountryProgressPage } = await import('../src/output.js');
+  const markdown = renderCountryProgressPage(
+    { code: 'US', name: 'United States', slug: 'united-states', flag: '🇺🇸' },
+    {
+      phase: 'discovery',
+      nextTermIndex: 25,
+      geography: { termsTotal: 100 },
+      candidates: [{ login: 'a' }],
+      stats: { searchRequests: 10 },
+      unresolvedShards: [],
+    },
+  );
+
+  assert.match(markdown, /Building 25%/);
+  assert.match(markdown, /1/);
+});

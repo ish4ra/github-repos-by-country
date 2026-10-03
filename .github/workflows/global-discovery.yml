@@ -47,6 +47,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DISCOVERY_REQUEST_LIMIT: '400'
           DISCOVERY_PAGE_SIZE: '50'
+          COUNTRY_REQUEST_SLICE: '8'
           DISCOVERY_RUNTIME_MINUTES: '42'
           RATE_LIMIT_RESERVE: '120'
           CANDIDATE_POOL_LIMIT: '500'

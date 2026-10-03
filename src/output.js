@@ -33,6 +33,25 @@ export async function writeRankingsIndex() {
     readDiscoveryStates(stateDir),
   ]);
 
+  const summaryByCode = new Map(summaries.map((summary) => [summary.country.code, summary]));
+  const progressByCode = new Map(
+    progress
+      .filter((state) => state?.country?.code)
+      .map((state) => [state.country.code, state]),
+  );
+
+  await Promise.all(
+    COUNTRIES
+      .filter((country) => !summaryByCode.has(country.code))
+      .map((country) =>
+        writeFile(
+          path.join(rankingDir, `${country.slug}.md`),
+          renderCountryProgressPage(country, progressByCode.get(country.code)),
+          'utf8',
+        ),
+      ),
+  );
+
   const indexPath = path.join(rankingDir, 'README.md');
   await writeFile(
     indexPath,
@@ -147,7 +166,7 @@ export function renderRankingsIndex(summaries, countries = COUNTRIES, progressSt
     const status = renderCountryStatus(summary, progress);
     const rankingCell = summary
       ? `[Most starred repositories](./${summary.country.slug}.md)`
-      : '—';
+      : `[Open country page](./${country.slug}.md)`;
     const repositoryCount = summary
       ? formatNumber(summary.coverage.publishedRepositories)
       : '—';
@@ -168,6 +187,60 @@ export function renderRankingsIndex(summaries, countries = COUNTRIES, progressSt
     '- Search caps, unresolved shards, ambiguous locations, and temporal drift are surfaced instead of silently producing a supposedly complete ranking.',
     '',
     'See [`docs/ROADMAP.md`](../docs/ROADMAP.md) for the global rollout and users-by-country plan.',
+    '',
+  );
+
+  return lines.join('\n');
+}
+
+export function renderCountryProgressPage(country, progress) {
+  const total = Number(progress?.geography?.termsTotal || 0);
+  const done = Number(progress?.nextTermIndex || 0);
+  const percent = total > 0 ? Math.min(100, Math.floor((done / total) * 100)) : 0;
+  const candidateCount = Array.isArray(progress?.candidates) ? progress.candidates.length : 0;
+  const phase = progress?.phase === 'finalize'
+    ? 'Finalizing'
+    : progress
+      ? `Building ${percent}%`
+      : 'Queued';
+
+  const lines = [
+    `<p align="center" aria-label="${escapeHtml(country.name)} flag" style="font-size:72px">${country.flag}</p>`,
+    '',
+    `<h1 align="center">${escapeHtml(country.name)}</h1>`,
+    '',
+    '<p align="center">',
+    '  <a href="./README.md"><strong>Browse countries</strong></a> ·',
+    '  <a href="../docs/METHODOLOGY.md">Methodology</a> ·',
+    '  <a href="../README.md">Project home</a>',
+    '</p>',
+    '',
+    `## Repository ranking status: ${phase}`,
+    '',
+  ];
+
+  if (!progress) {
+    lines.push(
+      'This country is indexed and queued for the global repository crawl.',
+      '',
+      'The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.',
+      '',
+    );
+  } else {
+    lines.push(
+      `- Geography terms processed: **${formatNumber(done)} / ${formatNumber(total)}**`,
+      `- Progress: **${percent}%**`,
+      `- Retained high-potential owner candidates: **${formatNumber(candidateCount)}**`,
+      `- Search requests completed: **${formatNumber(progress.stats?.searchRequests || 0)}**`,
+      `- Unresolved shards: **${formatNumber(progress.unresolvedShards?.length || 0)}**`,
+      '',
+      'The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.',
+      '',
+    );
+  }
+
+  lines.push(
+    'When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.',
     '',
   );
 
