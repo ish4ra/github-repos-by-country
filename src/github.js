@@ -93,7 +93,7 @@ export class GitHubGraphQLClient {
   }
 
   async discoverOwnersPage({ searchTerm, first, cursor = null, reposPerOwner }) {
-    const query = `location:\\"${escapeSearchValue(searchTerm)}\\"`;
+    const query = `location:"${escapeSearchValue(searchTerm)}"`;
     const payload = await this.#request(DISCOVERY_QUERY, {
       query,
       first,
