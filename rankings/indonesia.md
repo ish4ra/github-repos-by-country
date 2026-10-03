@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 7,987**
 - Progress: **0%**
-- Retained high-potential owner candidates: **50**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **194**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,14 +24,14 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack) | **16,746** | Kaltimantan, Indonesia |
-| [infosecn1nja/Red-Teaming-Toolkit](https://github.com/infosecn1nja/Red-Teaming-Toolkit) | **10,756** | Jakarta, Indonesia |
-| [daffainfo/AllAboutBugBounty](https://github.com/daffainfo/AllAboutBugBounty) | **6,914** | Indonesia |
-| [dwisiswant0/apkleaks](https://github.com/dwisiswant0/apkleaks) | **6,329** | Jakarta, Indonesia |
+| [HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack) | **16,801** | Kaltimantan, Indonesia |
+| [infosecn1nja/Red-Teaming-Toolkit](https://github.com/infosecn1nja/Red-Teaming-Toolkit) | **10,757** | Jakarta, Indonesia |
+| [daffainfo/AllAboutBugBounty](https://github.com/daffainfo/AllAboutBugBounty) | **6,915** | Indonesia |
+| [dwisiswant0/apkleaks](https://github.com/dwisiswant0/apkleaks) | **6,331** | Jakarta, Indonesia |
 | [theodorusclarence/ts-nextjs-tailwind-starter](https://github.com/theodorusclarence/ts-nextjs-tailwind-starter) | **3,414** | Indonesia |
-| [zuramai/mazer](https://github.com/zuramai/mazer) | **3,106** | Indonesia |
+| [zuramai/mazer](https://github.com/zuramai/mazer) | **3,107** | Indonesia |
 | [novalagung/dasarpemrogramangolang](https://github.com/novalagung/dasarpemrogramangolang) | **2,637** | Malang, Indonesia |
-| [Ranginang67/DarkFly-Tool](https://github.com/Ranginang67/DarkFly-Tool) | **1,954** | Indonesia - Tangerang |
+| [Ranginang67/DarkFly-Tool](https://github.com/Ranginang67/DarkFly-Tool) | **1,955** | Indonesia - Tangerang |
 | [hendisantika/List-All-Programming-Telegram-Group](https://github.com/hendisantika/List-All-Programming-Telegram-Group) | **1,494** | Bandung Jawa Barat - Indonesia |
 | [mathdroid/covid-19-api](https://github.com/mathdroid/covid-19-api) | **1,351** | Jakarta, Indonesia |
 | [sandhikagalih/project-kalian](https://github.com/sandhikagalih/project-kalian) | **1,122** | Indonesia |

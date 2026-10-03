@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 67**
 - Progress: **0%**
-- Retained high-potential owner candidates: **37**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **132**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -33,11 +33,11 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [structurizr/java](https://github.com/structurizr/java) | **1,135** | Jersey, Channel Islands |
 | [flavorjones/loofah](https://github.com/flavorjones/loofah) | **1,000** | New York City / New Jersey |
 | [leegao/readme2tex](https://github.com/leegao/readme2tex) | **908** | Jersey City, NJ |
+| [WayneDW/Sentiment-Analysis-in-Event-Driven-Stock-Price-Movement-Prediction](https://github.com/WayneDW/Sentiment-Analysis-in-Event-Driven-Stock-Price-Movement-Prediction) | **883** | New Jersey |
 | [jugyo/earthquake](https://github.com/jugyo/earthquake) | **661** | New Jersey |
 | [TomerAberbach/grfn](https://github.com/TomerAberbach/grfn) | **631** | New Jersey |
 | [SlongLiu/query2labels](https://github.com/SlongLiu/query2labels) | **470** | New Jersey |
 | [eed3si9n/scalaxb](https://github.com/eed3si9n/scalaxb) | **344** | New Jersey |
 | [SLaks/Silon](https://github.com/SLaks/Silon) | **343** | New Jersey |
-| [domitriusclark/mdnext](https://github.com/domitriusclark/mdnext) | **322** | Deptford, New Jersey |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

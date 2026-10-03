@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 0%
+## Repository ranking status: Building 9%
 
-- Geography terms processed: **0 / 41**
-- Progress: **0%**
-- Retained high-potential owner candidates: **42**
-- Search requests completed: **1**
+- Geography terms processed: **4 / 41**
+- Progress: **9%**
+- Retained high-potential owner candidates: **175**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -30,14 +30,14 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [dominicbraam/.dotfiles](https://github.com/dominicbraam/.dotfiles) | **19** | Guyana |
 | [sandogeorge/webtalk](https://github.com/sandogeorge/webtalk) | **12** | Guyana, South America |
 | [Alien-nick/UtilityTracker](https://github.com/Alien-nick/UtilityTracker) | **11** | South America, Guyana, Georgetown |
+| [aG00Dtime/Jellyfin.Plugin.UserRating](https://github.com/aG00Dtime/Jellyfin.Plugin.UserRating) | **8** | Guyana |
 | [ktappdev/pi-windsurf](https://github.com/ktappdev/pi-windsurf) | **7** | Guyana |
+| [vorsocom/mugen](https://github.com/vorsocom/mugen) | **7** | Guyana |
+| [zer0bytz/Beelink-SER5-Pro-MacOS15.5](https://github.com/zer0bytz/Beelink-SER5-Pro-MacOS15.5) | **7** | Anna Regina, Essequibo, Region #2, Guyana, SA |
+| [Vidyaratha/RFC_draftFOSSpolicy](https://github.com/Vidyaratha/RFC_draftFOSSpolicy) | **5** | Georgetown, Guyana |
 | [xbze3/financegy](https://github.com/xbze3/financegy) | **5** | Guyana |
 | [codedbychavez/react-docker-live-reload](https://github.com/codedbychavez/react-docker-live-reload) | **4** | Guyana |
 | [Kalpa-Services/mmg-wp-plugin](https://github.com/Kalpa-Services/mmg-wp-plugin) | **4** | Guyana |
 | [ClintonYounge/To-Do-List-Project](https://github.com/ClintonYounge/To-Do-List-Project) | **3** | Guyana |
-| [Ddenobrega/Ddenobrega](https://github.com/Ddenobrega/Ddenobrega) | **3** | Guyana |
-| [V75inc/Guyana-News-Dataset](https://github.com/V75inc/Guyana-News-Dataset) | **3** | Guyana |
-| [Akanjiro/larpsetup_download](https://github.com/Akanjiro/larpsetup_download) | **2** | French Guyana |
-| [barnwell/chatette](https://github.com/barnwell/chatette) | **2** | Guyana |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

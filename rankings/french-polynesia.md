@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 0%
+## Repository ranking status: Building 5%
 
-- Geography terms processed: **0 / 105**
-- Progress: **0%**
-- Retained high-potential owner candidates: **37**
-- Search requests completed: **1**
+- Geography terms processed: **6 / 105**
+- Progress: **5%**
+- Retained high-potential owner candidates: **83**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -29,15 +29,15 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Chelsea486MHz/SENPAI](https://github.com/Chelsea486MHz/SENPAI) | **137** | Mo'orea, French Polynesia |
 | [jalik/meteor-jalik-ufs](https://github.com/jalik/meteor-jalik-ufs) | **100** | French Polynesia |
 | [guybedo/minos](https://github.com/guybedo/minos) | **53** | Tahiti - French Polynesia |
+| [sysnux/btrfs-snapshots-diff](https://github.com/sysnux/btrfs-snapshots-diff) | **51** | Tahiti, French Polynesia, Polynésie française |
 | [paraita/hft-sim](https://github.com/paraita/hft-sim) | **30** | Tahiti, French Polynesia |
 | [smortex/portshaker](https://github.com/smortex/portshaker) | **26** | Faa'a, Tahiti, French Polynesia |
 | [jaffadog/lambda-facebook-oauth](https://github.com/jaffadog/lambda-facebook-oauth) | **15** | Tahanea, Tuamotus, French Polynesia |
+| [ferrucci-franco/timeseries-explorer](https://github.com/ferrucci-franco/timeseries-explorer) | **9** | Tahiti, French Polynesia |
 | [MartinBINARD/MartinBinard_7_02122021](https://github.com/MartinBINARD/MartinBinard_7_02122021) | **3** | Tahiti, French Polynesia |
 | [TToarii/Envoy-control-plane](https://github.com/TToarii/Envoy-control-plane) | **3** | French Polynesia |
 | [adriencanterot/masterinfo](https://github.com/adriencanterot/masterinfo) | **2** | Tahiti, French Polynesia |
 | [geoffguillain/Inefficient-WordPress-Theme](https://github.com/geoffguillain/Inefficient-WordPress-Theme) | **2** | French Polynesia |
 | [Heinux/Heal](https://github.com/Heinux/Heal) | **2** | French Polynesia |
-| [jbtheou/wifi-rc-car](https://github.com/jbtheou/wifi-rc-car) | **2** | French Polynesia |
-| [JeanWenc/flares](https://github.com/JeanWenc/flares) | **2** | Moorea, French Polynesia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

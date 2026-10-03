@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 265**
 - Progress: **0%**
-- Retained high-potential owner candidates: **49**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **107**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -32,12 +32,12 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Lu3ky13/Search-for-all-leaked-keys-secrets-using-one-regex-](https://github.com/Lu3ky13/Search-for-all-leaked-keys-secrets-using-one-regex-) | **242** | iraq |
 | [muhammedessa/Androidstudio](https://github.com/muhammedessa/Androidstudio) | **98** | IRAQ |
 | [engsafaaj/SMSystemProject](https://github.com/engsafaaj/SMSystemProject) | **86** | Iraq |
+| [IRAQ-hacker/hack-instagram](https://github.com/IRAQ-hacker/hack-instagram) | **65** | iraq |
 | [Ledear-Hacker/LEDEAR_HACKING](https://github.com/Ledear-Hacker/LEDEAR_HACKING) | **60** | Iraq |
 | [kurdi-dev/fib-sdk](https://github.com/kurdi-dev/fib-sdk) | **47** | As Sulaymaniyah, Kurdistan Region, Iraq |
 | [somarkn99/laravel-telegram-gateway](https://github.com/somarkn99/laravel-telegram-gateway) | **34** | Iraq, Erbil |
 | [abdulbasit-dev/laravel-windmill-dashboard](https://github.com/abdulbasit-dev/laravel-windmill-dashboard) | **33** | Iraq - Erbil |
 | [Aziz-AXG/Aziz-AXG](https://github.com/Aziz-AXG/Aziz-AXG) | **29** | Baghdad, Iraq |
 | [sajjad-salam/auto-follow-github](https://github.com/sajjad-salam/auto-follow-github) | **21** | iraq-baghdad |
-| [Mohammadkrd1/Strong-Password-Generator](https://github.com/Mohammadkrd1/Strong-Password-Generator) | **18** | Zakho, Iraq |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

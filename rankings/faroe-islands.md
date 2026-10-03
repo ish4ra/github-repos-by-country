@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 0%
+## Repository ranking status: Building 8%
 
-- Geography terms processed: **0 / 72**
-- Progress: **0%**
-- Retained high-potential owner candidates: **41**
-- Search requests completed: **1**
+- Geography terms processed: **6 / 72**
+- Progress: **8%**
+- Retained high-potential owner candidates: **101**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,6 +25,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [kruseio/hygg](https://github.com/kruseio/hygg) | **359** | Faroe Islands |
+| [QODIO/selectator](https://github.com/QODIO/selectator) | **88** | Faroe Islands |
 | [bardurt/odontograma](https://github.com/bardurt/odontograma) | **77** | Faroe Islands |
 | [Brian-ED/rayed-bqn](https://github.com/Brian-ED/rayed-bqn) | **53** | Faroe Islands |
 | [argilzar/vagrant-nzb](https://github.com/argilzar/vagrant-nzb) | **30** | Faroe Islands |
@@ -37,7 +38,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Rogn/copilot-cli-agent-observer](https://github.com/Rogn/copilot-cli-agent-observer) | **6** | Faroe Islands |
 | [Smilex/umka-lang-odin](https://github.com/Smilex/umka-lang-odin) | **6** | Faroe Islands |
 | [BergurDavidsen/GoProjects](https://github.com/BergurDavidsen/GoProjects) | **5** | Faroe Islands |
-| [olavurellefsen/reeemgame](https://github.com/olavurellefsen/reeemgame) | **4** | Faroe Islands |
-| [cybercrimecat/cybercrimecat.github.io](https://github.com/cybercrimecat/cybercrimecat.github.io) | **3** | faroe islands |
+| [Sprotin/translations](https://github.com/Sprotin/translations) | **5** | Faroe Islands |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

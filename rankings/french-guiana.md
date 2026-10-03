@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 0%
+## Repository ranking status: Building 18%
 
-- Geography terms processed: **0 / 43**
-- Progress: **0%**
-- Retained high-potential owner candidates: **40**
-- Search requests completed: **1**
+- Geography terms processed: **8 / 43**
+- Progress: **18%**
+- Retained high-potential owner candidates: **62**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -30,14 +30,14 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [baffy-req/contrib-pool-3-347](https://github.com/baffy-req/contrib-pool-3-347) | **5** | Amandafurt, French Guiana |
 | [EcoFoG/EcoFoG](https://github.com/EcoFoG/EcoFoG) | **5** | Kourou, French Guiana |
 | [highotutorn/contrib-pool-3-339](https://github.com/highotutorn/contrib-pool-3-339) | **5** | Elizabethberg, French Guiana |
+| [ericperret/DroneRX](https://github.com/ericperret/DroneRX) | **4** | Cayenne  |
+| [portonaute/teleprompter](https://github.com/portonaute/teleprompter) | **4** | French Guiana |
 | [ArianeMirabel/Dendrochronology](https://github.com/ArianeMirabel/Dendrochronology) | **2** | French Guiana |
 | [Dunvii/Projet_7_Groupomania_Nuxt3](https://github.com/Dunvii/Projet_7_Groupomania_Nuxt3) | **2** | French Guiana |
+| [mobapi/dugout](https://github.com/mobapi/dugout) | **2** | French Guiana |
 | [PaulZer/edens-garden](https://github.com/PaulZer/edens-garden) | **2** | French Guiana |
 | [roberthpereira/FastFeetBackend](https://github.com/roberthpereira/FastFeetBackend) | **2** | French Guiana |
+| [stirera/d-chimer_v1](https://github.com/stirera/d-chimer_v1) | **2** | French Guiana |
 | [4657878/-](https://github.com/4657878/-) | **1** | French Guiana |
-| [darklink973/EarthLink_Launcher](https://github.com/darklink973/EarthLink_Launcher) | **1** | French Guiana |
-| [EmiDt/symphostage](https://github.com/EmiDt/symphostage) | **1** | French Guiana |
-| [Mediamazonie/AMAZONIA-GPT](https://github.com/Mediamazonie/AMAZONIA-GPT) | **1** | French Guiana |
-| [S3F1RO/Alerte-Rouge-au-CSG](https://github.com/S3F1RO/Alerte-Rouge-au-CSG) | **1** | French Guiana |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

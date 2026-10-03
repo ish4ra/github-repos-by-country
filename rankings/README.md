@@ -71,56 +71,56 @@ Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a co
 | 🇩🇴 **Dominican Republic** | `DO` | 🟡 Building 0% | [Open country page](./dominican-republic.md) | — | 03 Oct 2026, 12:03 UTC |
 | 🇨🇩 **DR Congo** | `CD` | 🟡 Building 1% | [Open country page](./dr-congo.md) | — | 03 Oct 2026, 12:03 UTC |
 | 🇪🇨 **Ecuador** | `EC` | 🟡 Building 0% | [Open country page](./ecuador.md) | — | 03 Oct 2026, 12:04 UTC |
-| 🇪🇬 **Egypt** | `EG` | 🟡 Building 0% | [Open country page](./egypt.md) | — | 03 Oct 2026, 12:04 UTC |
-| 🇸🇻 **El Salvador** | `SV` | 🟡 Building 0% | [Open country page](./el-salvador.md) | — | 03 Oct 2026, 08:29 UTC |
-| 🇬🇶 **Equatorial Guinea** | `GQ` | 🟡 Building 1% | [Open country page](./equatorial-guinea.md) | — | 03 Oct 2026, 08:29 UTC |
-| 🇪🇷 **Eritrea** | `ER` | 🟡 Building 2% | [Open country page](./eritrea.md) | — | 03 Oct 2026, 08:29 UTC |
-| 🇪🇪 **Estonia** | `EE` | 🟡 Building 0% | [Open country page](./estonia.md) | — | 03 Oct 2026, 08:29 UTC |
-| 🇸🇿 **Eswatini** | `SZ` | 🟡 Building 0% | [Open country page](./eswatini.md) | — | 03 Oct 2026, 08:29 UTC |
-| 🇪🇹 **Ethiopia** | `ET` | 🟡 Building 0% | [Open country page](./ethiopia.md) | — | 03 Oct 2026, 08:29 UTC |
-| 🇫🇰 **Falkland Islands** | `FK` | 🟡 Building 5% | [Open country page](./falkland-islands.md) | — | 03 Oct 2026, 08:29 UTC |
-| 🇫🇴 **Faroe Islands** | `FO` | 🟡 Building 0% | [Open country page](./faroe-islands.md) | — | 03 Oct 2026, 08:29 UTC |
-| 🇫🇯 **Fiji** | `FJ` | 🟡 Building 0% | [Open country page](./fiji.md) | — | 03 Oct 2026, 08:29 UTC |
-| 🇫🇮 **Finland** | `FI` | 🟡 Building 0% | [Open country page](./finland.md) | — | 03 Oct 2026, 08:30 UTC |
-| 🇫🇷 **France** | `FR` | 🟡 Building 0% | [Open country page](./france.md) | — | 03 Oct 2026, 08:30 UTC |
-| 🇬🇫 **French Guiana** | `GF` | 🟡 Building 0% | [Open country page](./french-guiana.md) | — | 03 Oct 2026, 08:30 UTC |
-| 🇵🇫 **French Polynesia** | `PF` | 🟡 Building 0% | [Open country page](./french-polynesia.md) | — | 03 Oct 2026, 08:30 UTC |
-| 🇹🇫 **French Southern Territories** | `TF` | 🟡 Building 2% | [Open country page](./french-southern-territories.md) | — | 03 Oct 2026, 08:30 UTC |
-| 🇬🇦 **Gabon** | `GA` | 🟡 Building 0% | [Open country page](./gabon.md) | — | 03 Oct 2026, 08:30 UTC |
-| 🇬🇲 **Gambia** | `GM` | 🟡 Building 0% | [Open country page](./gambia.md) | — | 03 Oct 2026, 08:30 UTC |
-| 🇬🇪 **Georgia** | `GE` | 🟡 Building 0% | [Open country page](./georgia.md) | — | 03 Oct 2026, 08:30 UTC |
-| 🇩🇪 **Germany** | `DE` | 🟡 Building 0% | [Open country page](./germany.md) | — | 03 Oct 2026, 08:30 UTC |
-| 🇬🇭 **Ghana** | `GH` | 🟡 Building 0% | [Open country page](./ghana.md) | — | 03 Oct 2026, 08:30 UTC |
-| 🇬🇮 **Gibraltar** | `GI` | 🟡 Building 0% | [Open country page](./gibraltar.md) | — | 03 Oct 2026, 08:30 UTC |
-| 🇬🇷 **Greece** | `GR` | 🟡 Building 0% | [Open country page](./greece.md) | — | 03 Oct 2026, 08:30 UTC |
-| 🇬🇱 **Greenland** | `GL` | 🟡 Building 0% | [Open country page](./greenland.md) | — | 03 Oct 2026, 08:30 UTC |
-| 🇬🇩 **Grenada** | `GD` | 🟡 Building 0% | [Open country page](./grenada.md) | — | 03 Oct 2026, 08:30 UTC |
-| 🇬🇵 **Guadeloupe** | `GP` | 🟡 Building 0% | [Open country page](./guadeloupe.md) | — | 03 Oct 2026, 08:30 UTC |
-| 🇬🇺 **Guam** | `GU` | 🟡 Building 0% | [Open country page](./guam.md) | — | 03 Oct 2026, 08:30 UTC |
-| 🇬🇹 **Guatemala** | `GT` | 🟡 Building 0% | [Open country page](./guatemala.md) | — | 03 Oct 2026, 08:30 UTC |
-| 🇬🇬 **Guernsey** | `GG` | 🟡 Building 0% | [Open country page](./guernsey.md) | — | 03 Oct 2026, 08:30 UTC |
-| 🇬🇳 **Guinea** | `GN` | 🟡 Building 0% | [Open country page](./guinea.md) | — | 03 Oct 2026, 08:30 UTC |
-| 🇬🇼 **Guinea-Bissau** | `GW` | 🟡 Building 1% | [Open country page](./guinea-bissau.md) | — | 03 Oct 2026, 08:30 UTC |
-| 🇬🇾 **Guyana** | `GY` | 🟡 Building 0% | [Open country page](./guyana.md) | — | 03 Oct 2026, 08:30 UTC |
-| 🇭🇹 **Haiti** | `HT` | 🟡 Building 0% | [Open country page](./haiti.md) | — | 03 Oct 2026, 08:31 UTC |
-| 🇭🇲 **Heard & McDonald Islands** | `HM` | 🟡 Building 5% | [Open country page](./heard-mcdonald-islands.md) | — | 03 Oct 2026, 08:31 UTC |
-| 🇭🇳 **Honduras** | `HN` | 🟡 Building 0% | [Open country page](./honduras.md) | — | 03 Oct 2026, 08:31 UTC |
-| 🇭🇰 **Hong Kong SAR China** | `HK` | 🟡 Building 0% | [Open country page](./hong-kong-sar-china.md) | — | 03 Oct 2026, 08:31 UTC |
-| 🇭🇺 **Hungary** | `HU` | 🟡 Building 0% | [Open country page](./hungary.md) | — | 03 Oct 2026, 08:31 UTC |
-| 🇮🇸 **Iceland** | `IS` | 🟡 Building 0% | [Open country page](./iceland.md) | — | 03 Oct 2026, 08:31 UTC |
-| 🇮🇳 **India** | `IN` | 🟡 Building 0% | [Open country page](./india.md) | — | 03 Oct 2026, 08:31 UTC |
-| 🇮🇩 **Indonesia** | `ID` | 🟡 Building 0% | [Open country page](./indonesia.md) | — | 03 Oct 2026, 08:31 UTC |
-| 🇮🇷 **Iran** | `IR` | 🟡 Building 0% | [Open country page](./iran.md) | — | 03 Oct 2026, 08:31 UTC |
-| 🇮🇶 **Iraq** | `IQ` | 🟡 Building 0% | [Open country page](./iraq.md) | — | 03 Oct 2026, 08:31 UTC |
-| 🇮🇪 **Ireland** | `IE` | 🟡 Building 0% | [Open country page](./ireland.md) | — | 03 Oct 2026, 08:31 UTC |
-| 🇮🇲 **Isle of Man** | `IM` | 🟡 Building 0% | [Open country page](./isle-of-man.md) | — | 03 Oct 2026, 08:31 UTC |
-| 🇮🇱 **Israel** | `IL` | 🟡 Building 0% | [Open country page](./israel.md) | — | 03 Oct 2026, 08:31 UTC |
-| 🇮🇹 **Italy** | `IT` | 🟡 Building 0% | [Open country page](./italy.md) | — | 03 Oct 2026, 08:31 UTC |
-| 🇯🇲 **Jamaica** | `JM` | 🟡 Building 0% | [Open country page](./jamaica.md) | — | 03 Oct 2026, 08:31 UTC |
-| 🇯🇵 **Japan** | `JP` | 🟡 Building 0% | [Open country page](./japan.md) | — | 03 Oct 2026, 08:31 UTC |
-| 🇯🇪 **Jersey** | `JE` | 🟡 Building 0% | [Open country page](./jersey.md) | — | 03 Oct 2026, 08:32 UTC |
-| 🇯🇴 **Jordan** | `JO` | 🟡 Building 0% | [Open country page](./jordan.md) | — | 03 Oct 2026, 08:32 UTC |
-| 🇰🇿 **Kazakhstan** | `KZ` | 🟡 Building 0% | [Open country page](./kazakhstan.md) | — | 03 Oct 2026, 08:32 UTC |
+| 🇪🇬 **Egypt** | `EG` | 🟡 Building 0% | [Open country page](./egypt.md) | — | 03 Oct 2026, 16:32 UTC |
+| 🇸🇻 **El Salvador** | `SV` | 🟡 Building 0% | [Open country page](./el-salvador.md) | — | 03 Oct 2026, 16:32 UTC |
+| 🇬🇶 **Equatorial Guinea** | `GQ` | 🟡 Building 15% | [Open country page](./equatorial-guinea.md) | — | 03 Oct 2026, 16:33 UTC |
+| 🇪🇷 **Eritrea** | `ER` | 🟡 Building 19% | [Open country page](./eritrea.md) | — | 03 Oct 2026, 16:33 UTC |
+| 🇪🇪 **Estonia** | `EE` | 🟡 Building 0% | [Open country page](./estonia.md) | — | 03 Oct 2026, 16:33 UTC |
+| 🇸🇿 **Eswatini** | `SZ` | 🟡 Building 3% | [Open country page](./eswatini.md) | — | 03 Oct 2026, 16:33 UTC |
+| 🇪🇹 **Ethiopia** | `ET` | 🟡 Building 0% | [Open country page](./ethiopia.md) | — | 03 Oct 2026, 16:33 UTC |
+| 🇫🇰 **Falkland Islands** | `FK` | 🟡 Building 45% | [Open country page](./falkland-islands.md) | — | 03 Oct 2026, 16:33 UTC |
+| 🇫🇴 **Faroe Islands** | `FO` | 🟡 Building 8% | [Open country page](./faroe-islands.md) | — | 03 Oct 2026, 16:34 UTC |
+| 🇫🇯 **Fiji** | `FJ` | 🟡 Building 0% | [Open country page](./fiji.md) | — | 03 Oct 2026, 16:34 UTC |
+| 🇫🇮 **Finland** | `FI` | 🟡 Building 0% | [Open country page](./finland.md) | — | 03 Oct 2026, 16:34 UTC |
+| 🇫🇷 **France** | `FR` | 🟡 Building 0% | [Open country page](./france.md) | — | 03 Oct 2026, 16:35 UTC |
+| 🇬🇫 **French Guiana** | `GF` | 🟡 Building 18% | [Open country page](./french-guiana.md) | — | 03 Oct 2026, 16:35 UTC |
+| 🇵🇫 **French Polynesia** | `PF` | 🟡 Building 5% | [Open country page](./french-polynesia.md) | — | 03 Oct 2026, 16:35 UTC |
+| 🇹🇫 **French Southern Territories** | `TF` | 🟡 Building 25% | [Open country page](./french-southern-territories.md) | — | 03 Oct 2026, 16:35 UTC |
+| 🇬🇦 **Gabon** | `GA` | 🟡 Building 3% | [Open country page](./gabon.md) | — | 03 Oct 2026, 16:35 UTC |
+| 🇬🇲 **Gambia** | `GM` | 🟡 Building 0% | [Open country page](./gambia.md) | — | 03 Oct 2026, 16:36 UTC |
+| 🇬🇪 **Georgia** | `GE` | 🟡 Building 0% | [Open country page](./georgia.md) | — | 03 Oct 2026, 16:36 UTC |
+| 🇩🇪 **Germany** | `DE` | 🟡 Building 0% | [Open country page](./germany.md) | — | 03 Oct 2026, 16:36 UTC |
+| 🇬🇭 **Ghana** | `GH` | 🟡 Building 0% | [Open country page](./ghana.md) | — | 03 Oct 2026, 16:36 UTC |
+| 🇬🇮 **Gibraltar** | `GI` | 🟡 Building 12% | [Open country page](./gibraltar.md) | — | 03 Oct 2026, 16:37 UTC |
+| 🇬🇷 **Greece** | `GR` | 🟡 Building 0% | [Open country page](./greece.md) | — | 03 Oct 2026, 16:37 UTC |
+| 🇬🇱 **Greenland** | `GL` | 🟡 Building 13% | [Open country page](./greenland.md) | — | 03 Oct 2026, 16:37 UTC |
+| 🇬🇩 **Grenada** | `GD` | 🟡 Building 46% | [Open country page](./grenada.md) | — | 03 Oct 2026, 16:37 UTC |
+| 🇬🇵 **Guadeloupe** | `GP` | 🟡 Building 8% | [Open country page](./guadeloupe.md) | — | 03 Oct 2026, 16:38 UTC |
+| 🇬🇺 **Guam** | `GU` | 🟡 Building 8% | [Open country page](./guam.md) | — | 03 Oct 2026, 16:38 UTC |
+| 🇬🇹 **Guatemala** | `GT` | 🟡 Building 0% | [Open country page](./guatemala.md) | — | 03 Oct 2026, 16:38 UTC |
+| 🇬🇬 **Guernsey** | `GG` | 🟡 Building 22% | [Open country page](./guernsey.md) | — | 03 Oct 2026, 16:38 UTC |
+| 🇬🇳 **Guinea** | `GN` | 🟡 Building 0% | [Open country page](./guinea.md) | — | 03 Oct 2026, 16:39 UTC |
+| 🇬🇼 **Guinea-Bissau** | `GW` | 🟡 Building 13% | [Open country page](./guinea-bissau.md) | — | 03 Oct 2026, 16:39 UTC |
+| 🇬🇾 **Guyana** | `GY` | 🟡 Building 9% | [Open country page](./guyana.md) | — | 03 Oct 2026, 16:39 UTC |
+| 🇭🇹 **Haiti** | `HT` | 🟡 Building 0% | [Open country page](./haiti.md) | — | 03 Oct 2026, 16:39 UTC |
+| 🇭🇲 **Heard & McDonald Islands** | `HM` | 🟡 Building 45% | [Open country page](./heard-mcdonald-islands.md) | — | 03 Oct 2026, 16:39 UTC |
+| 🇭🇳 **Honduras** | `HN` | 🟡 Building 0% | [Open country page](./honduras.md) | — | 03 Oct 2026, 16:40 UTC |
+| 🇭🇰 **Hong Kong SAR China** | `HK` | 🟡 Building 1% | [Open country page](./hong-kong-sar-china.md) | — | 03 Oct 2026, 16:40 UTC |
+| 🇭🇺 **Hungary** | `HU` | 🟡 Building 0% | [Open country page](./hungary.md) | — | 03 Oct 2026, 16:40 UTC |
+| 🇮🇸 **Iceland** | `IS` | 🟡 Building 0% | [Open country page](./iceland.md) | — | 03 Oct 2026, 16:41 UTC |
+| 🇮🇳 **India** | `IN` | 🟡 Building 0% | [Open country page](./india.md) | — | 03 Oct 2026, 16:41 UTC |
+| 🇮🇩 **Indonesia** | `ID` | 🟡 Building 0% | [Open country page](./indonesia.md) | — | 03 Oct 2026, 16:41 UTC |
+| 🇮🇷 **Iran** | `IR` | 🟡 Building 0% | [Open country page](./iran.md) | — | 03 Oct 2026, 16:42 UTC |
+| 🇮🇶 **Iraq** | `IQ` | 🟡 Building 0% | [Open country page](./iraq.md) | — | 03 Oct 2026, 16:42 UTC |
+| 🇮🇪 **Ireland** | `IE` | 🟡 Building 0% | [Open country page](./ireland.md) | — | 03 Oct 2026, 16:42 UTC |
+| 🇮🇲 **Isle of Man** | `IM` | 🟡 Building 0% | [Open country page](./isle-of-man.md) | — | 03 Oct 2026, 16:42 UTC |
+| 🇮🇱 **Israel** | `IL` | 🟡 Building 0% | [Open country page](./israel.md) | — | 03 Oct 2026, 16:43 UTC |
+| 🇮🇹 **Italy** | `IT` | 🟡 Building 0% | [Open country page](./italy.md) | — | 03 Oct 2026, 16:43 UTC |
+| 🇯🇲 **Jamaica** | `JM` | 🟡 Building 0% | [Open country page](./jamaica.md) | — | 03 Oct 2026, 16:43 UTC |
+| 🇯🇵 **Japan** | `JP` | 🟡 Building 0% | [Open country page](./japan.md) | — | 03 Oct 2026, 16:44 UTC |
+| 🇯🇪 **Jersey** | `JE` | 🟡 Building 0% | [Open country page](./jersey.md) | — | 03 Oct 2026, 16:44 UTC |
+| 🇯🇴 **Jordan** | `JO` | 🟡 Building 0% | [Open country page](./jordan.md) | — | 03 Oct 2026, 16:44 UTC |
+| 🇰🇿 **Kazakhstan** | `KZ` | 🟡 Building 0% | [Open country page](./kazakhstan.md) | — | 03 Oct 2026, 16:44 UTC |
 | 🇰🇪 **Kenya** | `KE` | 🟡 Building 0% | [Open country page](./kenya.md) | — | 03 Oct 2026, 08:32 UTC |
 | 🇰🇮 **Kiribati** | `KI` | 🟡 Building 1% | [Open country page](./kiribati.md) | — | 03 Oct 2026, 08:32 UTC |
 | 🇽🇰 **Kosovo** | `XK` | 🟡 Building 0% | [Open country page](./kosovo.md) | — | 03 Oct 2026, 08:32 UTC |

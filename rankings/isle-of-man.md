@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 47**
 - Progress: **0%**
-- Retained high-potential owner candidates: **44**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **245**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -30,6 +30,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [aquacash5/magic-wormhole-exe](https://github.com/aquacash5/magic-wormhole-exe) | **81** | Douglas, Isle of Man |
 | [CubLinux/one](https://github.com/CubLinux/one) | **81** | Isle of Man |
 | [DanAnkers/WsprryPi](https://github.com/DanAnkers/WsprryPi) | **67** | Isle of Man |
+| [allantrabuco/react-calendar](https://github.com/allantrabuco/react-calendar) | **41** | Isle of Man |
 | [bengris32/releases](https://github.com/bengris32/releases) | **41** | Isle of Man |
 | [lwangenheim/PW_Spy](https://github.com/lwangenheim/PW_Spy) | **28** | Isle of Man |
 | [PerpetualBeta/RainbowApple](https://github.com/PerpetualBeta/RainbowApple) | **28** | Douglas, Isle of Man |
@@ -37,7 +38,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [stavinski/showdown](https://github.com/stavinski/showdown) | **24** | Isle of Man |
 | [ybubuzi/violet-electron-ipc](https://github.com/ybubuzi/violet-electron-ipc) | **23** | 97353 ,Pamala Mill ,West Kerryview ,Kansas ,Isle of Man |
 | [dive/ios-simulator-scenarios-to-gpx](https://github.com/dive/ios-simulator-scenarios-to-gpx) | **20** | Isle of Man |
-| [Winter0x11/malware-analyzer-linux](https://github.com/Winter0x11/malware-analyzer-linux) | **16** | Isle of Man |
-| [AndrewIOM/bristlecone](https://github.com/AndrewIOM/bristlecone) | **12** | Isle of Man |
+| [BambooOrg/CustomDiscs-SVC](https://github.com/BambooOrg/CustomDiscs-SVC) | **19** | Isle of Man |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

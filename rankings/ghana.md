@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 185**
 - Progress: **0%**
-- Retained high-potential owner candidates: **47**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **122**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -30,6 +30,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [iamEtornam/Tasky-Mobile-App](https://github.com/iamEtornam/Tasky-Mobile-App) | **295** | Accra, Ghana |
 | [KenBroTech/Django-Inventory-Management-System](https://github.com/KenBroTech/Django-Inventory-Management-System) | **148** | Ghana |
 | [eyedol/tools](https://github.com/eyedol/tools) | **90** | Accra, Ghana |
+| [lesliearkorful/juxtapose](https://github.com/lesliearkorful/juxtapose) | **80** | Accra, Ghana |
 | [elidotco/CONTENT](https://github.com/elidotco/CONTENT) | **46** | Ghana |
 | [codeoverdoze/cs-web-tech-legon](https://github.com/codeoverdoze/cs-web-tech-legon) | **42** | Accra, Ghana |
 | [Clifftech123/CliffTechYouTube](https://github.com/Clifftech123/CliffTechYouTube) | **39** | Ghana |
@@ -38,6 +39,5 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Bendomey/project-mfoni](https://github.com/Bendomey/project-mfoni) | **31** | Accra, Ghana |
 | [Mmabiaa/Cpp-Beginner-Projects](https://github.com/Mmabiaa/Cpp-Beginner-Projects) | **27** | Ghana |
 | [tothepointcode/flower-crib](https://github.com/tothepointcode/flower-crib) | **27** | Ghana |
-| [evansachie/Mobile-Bank-Application](https://github.com/evansachie/Mobile-Bank-Application) | **21** | Accra, Ghana |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

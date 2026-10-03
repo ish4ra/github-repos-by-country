@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 50**
 - Progress: **0%**
-- Retained high-potential owner candidates: **45**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **208**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -31,13 +31,13 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [188867052/MatrixAdmin](https://github.com/188867052/MatrixAdmin) | **59** | 0588 ,Emelia Rest ,Marceleneport ,Idaho ,Fiji |
 | [open-source-force/dyrah](https://github.com/open-source-force/dyrah) | **43** | Fiji |
 | [evesgf/SpaceGame](https://github.com/evesgf/SpaceGame) | **36** | 0588 ,Emelia Rest ,Marceleneport ,Idaho ,Fiji |
+| [m986883511/extract-video-subtittle](https://github.com/m986883511/extract-video-subtittle) | **23** | 0588 ,Emelia Rest ,Marceleneport ,Idaho ,Fiji |
 | [rht-fsang/ai-blog-public](https://github.com/rht-fsang/ai-blog-public) | **18** | 0588 ,Emelia Rest ,Marceleneport ,Idaho ,Fiji |
 | [anav5704/CS000](https://github.com/anav5704/CS000) | **17** | Fiji |
 | [SkylerSkr/BaseFrameworkCore](https://github.com/SkylerSkr/BaseFrameworkCore) | **16** | 0588 ,Emelia Rest ,Marceleneport ,Idaho ,Fiji |
 | [rsgrafx/TestingTalk](https://github.com/rsgrafx/TestingTalk) | **14** | SoCal \|> Fiji Islands  |
 | [Supercca/Twitter_autoSignUp](https://github.com/Supercca/Twitter_autoSignUp) | **12** | 0588 ,Emelia Rest ,Marceleneport ,Idaho ,Fiji |
 | [coderlfm/luckin-coffee](https://github.com/coderlfm/luckin-coffee) | **9** | 0588 ,Emelia Rest ,Marceleneport ,Idaho ,Fiji |
-| [anuraganands/Non-image-data-classification-with-CNN](https://github.com/anuraganands/Non-image-data-classification-with-CNN) | **7** | Suva, Fiji |
-| [Boxser567/SEOChallenge](https://github.com/Boxser567/SEOChallenge) | **7** | 0578,Emelia Rest ,Marceleneport ,Idaho ,Fiji |
+| [zhenttang/yunkebaiban-react](https://github.com/zhenttang/yunkebaiban-react) | **8** | 0588 ,Emelia Rest ,Marceleneport ,Idaho ,Fiji |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

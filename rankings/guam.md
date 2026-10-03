@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 0%
+## Repository ranking status: Building 8%
 
-- Geography terms processed: **0 / 57**
-- Progress: **0%**
-- Retained high-potential owner candidates: **35**
-- Search requests completed: **1**
+- Geography terms processed: **5 / 57**
+- Progress: **8%**
+- Retained high-potential owner candidates: **102**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -31,13 +31,13 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [mandoiwanaga/codewars_unfollow_allies](https://github.com/mandoiwanaga/codewars_unfollow_allies) | **4** | Guam |
 | [nanodavinci/kinery-lua-scripts](https://github.com/nanodavinci/kinery-lua-scripts) | **3** | Hagåtña, Guam |
 | [xiaden/nomarr](https://github.com/xiaden/nomarr) | **3** | Guam |
+| [chichiyacompany/GodsWar-Cheats](https://github.com/chichiyacompany/GodsWar-Cheats) | **2** | 119 Bibic Street Barrigada Guam |
 | [Chovin/VEDA-Notes](https://github.com/Chovin/VEDA-Notes) | **2** | Guam |
 | [cshellz/brain-party](https://github.com/cshellz/brain-party) | **2** | Marianas Trench, Guam |
 | [cthulhu-uu/pwnagotchi-leds](https://github.com/cthulhu-uu/pwnagotchi-leds) | **2** | Tamuning, Guam |
+| [AlfredoLondono/Snake](https://github.com/AlfredoLondono/Snake) | **1** | Guam |
 | [AnT1nG-Organization/animated-octo-Alyssa-](https://github.com/AnT1nG-Organization/animated-octo-Alyssa-) | **1** | Guam |
+| [audradarty/MusicBot](https://github.com/audradarty/MusicBot) | **1** | Guam (GU) |
 | [dannikate/tethysapp-nitrates](https://github.com/dannikate/tethysapp-nitrates) | **1** | Guam |
-| [Duplexx52/Duplexx52](https://github.com/Duplexx52/Duplexx52) | **1** | Guam |
-| [guamencja/wakacje](https://github.com/guamencja/wakacje) | **1** | Guam |
-| [laluis1/Bootsector-programs](https://github.com/laluis1/Bootsector-programs) | **1** | Guam |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

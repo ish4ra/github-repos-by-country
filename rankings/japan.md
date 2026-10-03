@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 2,780**
 - Progress: **0%**
-- Retained high-potential owner candidates: **47**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **184**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,15 +24,15 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [wasabeef/awesome-android-ui](https://github.com/wasabeef/awesome-android-ui) | **57,807** | Tokyo, Japan |
+| [wasabeef/awesome-android-ui](https://github.com/wasabeef/awesome-android-ui) | **57,808** | Tokyo, Japan |
 | [blueimp/jQuery-File-Upload](https://github.com/blueimp/jQuery-File-Upload) | **30,702** | Tokyo, Japan |
-| [AtsushiSakai/PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) | **30,621** | Kanagawa, Japan |
+| [AtsushiSakai/PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) | **30,623** | Kanagawa, Japan |
 | [ruby/ruby](https://github.com/ruby/ruby) | **23,769** | Japan |
-| [dennybritz/reinforcement-learning](https://github.com/dennybritz/reinforcement-learning) | **22,140** | Tokyo, Japan |
+| [dennybritz/reinforcement-learning](https://github.com/dennybritz/reinforcement-learning) | **22,141** | Tokyo, Japan |
 | [brettwooldridge/HikariCP](https://github.com/brettwooldridge/HikariCP) | **21,230** | Tokyo, Japan |
 | [mame/quine-relay](https://github.com/mame/quine-relay) | **14,607** | Japan |
-| [hajimehoshi/ebiten](https://github.com/hajimehoshi/ebiten) | **13,530** | Tokyo, Japan |
-| [privatenumber/tsx](https://github.com/privatenumber/tsx) | **12,162** | Tokyo, Japan |
+| [hajimehoshi/ebiten](https://github.com/hajimehoshi/ebiten) | **13,531** | Tokyo, Japan |
+| [privatenumber/tsx](https://github.com/privatenumber/tsx) | **12,163** | Tokyo, Japan |
 | [Cysharp/UniTask](https://github.com/Cysharp/UniTask) | **11,234** | Tokyo, Japan |
 | [kevinzhow/PNChart](https://github.com/kevinzhow/PNChart) | **9,634** | Koshigaya, Japan |
 | [mattn/go-sqlite3](https://github.com/mattn/go-sqlite3) | **9,246** | Osaka, Japan |

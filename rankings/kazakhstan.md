@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 401**
 - Progress: **0%**
-- Retained high-potential owner candidates: **49**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **129**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,9 +24,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [0xAX/linux-insides](https://github.com/0xAX/linux-insides) | **33,617** | Kazakhstan, Astana |
-| [henrypp/memreduct](https://github.com/henrypp/memreduct) | **10,697** | Almaty, Kazakhstan |
-| [MakazhanAlpamys/Soup](https://github.com/MakazhanAlpamys/Soup) | **8,042** | Astana, Kazakhstan |
+| [0xAX/linux-insides](https://github.com/0xAX/linux-insides) | **33,619** | Kazakhstan, Astana |
+| [henrypp/memreduct](https://github.com/henrypp/memreduct) | **10,699** | Almaty, Kazakhstan |
+| [MakazhanAlpamys/Soup](https://github.com/MakazhanAlpamys/Soup) | **8,053** | Astana, Kazakhstan |
 | [Hexlet/ru-test-assignments](https://github.com/Hexlet/ru-test-assignments) | **6,776** | Kazakhstan |
 | [adilkhash/Data-Engineering-HowTo](https://github.com/adilkhash/Data-Engineering-HowTo) | **4,028** | Astana, Kazakhstan |
 | [artemnovichkov/iOS-11-by-Examples](https://github.com/artemnovichkov/iOS-11-by-Examples) | **3,282** | Almaty, Kazakhstan |

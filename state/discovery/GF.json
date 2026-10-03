@@ -12,38 +12,21 @@
     "termsTotal": 43
   },
   "phase": "discovery",
-  "nextTermIndex": 0,
-  "activeTerm": {
-    "index": 0,
-    "term": "French Guiana",
-    "queue": [
-      {
-        "query": "location:\"French Guiana\"",
-        "stage": "base",
-        "cursor": "Y3Vyc29yOjUw",
-        "pageNumber": 2,
-        "attempts": 0
-      }
-    ],
-    "startedAt": "2026-10-03T08:30:05.249Z",
-    "requests": 1,
-    "leafPages": 1,
-    "shardExpansions": 0,
-    "reportedCount": null
-  },
+  "nextTermIndex": 8,
+  "activeTerm": null,
   "discoveryComplete": false,
   "startedAt": "2026-10-03T08:30:05.249Z",
-  "updatedAt": "2026-10-03T08:30:07.669Z",
+  "updatedAt": "2026-10-03T16:35:08.523Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
-    "termsProcessed": 0,
-    "searchRequests": 1,
-    "leafPages": 1,
+    "termsProcessed": 8,
+    "searchRequests": 9,
+    "leafPages": 9,
     "shardExpansions": 0,
-    "rawOwnerHits": 50,
-    "acceptedOwnerHits": 49,
-    "rejectedOwnerHits": 1,
+    "rawOwnerHits": 97,
+    "acceptedOwnerHits": 93,
+    "rejectedOwnerHits": 4,
     "unresolvedShardCount": 0,
     "minimumRateLimitRemaining": 4676
   },
@@ -268,6 +251,78 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjMzNjcyODA4",
+      "login": "ericperret",
+      "name": "M. Eric PERRET",
+      "type": "User",
+      "location": "Cayenne ",
+      "url": "https://github.com/ericperret",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33672808?u=cc8dcb390a3d840752e61e3333316b54d7a43369&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "GF",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "cayenne"
+      },
+      "discoveryTerms": [
+        "Cayenne"
+      ],
+      "topRepository": {
+        "name": "DroneRX",
+        "nameWithOwner": "ericperret/DroneRX",
+        "url": "https://github.com/ericperret/DroneRX",
+        "description": "Multi-protocol drone detection & identification — M5Stack CoreS3 (ESP32-S3) — FR/ODID/DJI/Parrot — ADS-B — Trajectory prediction",
+        "stargazerCount": 4,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-28T20:07:33Z",
+        "pushedAt": "2026-04-08T19:28:05Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg4Mzk1OTE5",
+      "login": "portonaute",
+      "name": "Pierre Lacombe",
+      "type": "User",
+      "location": "French Guiana",
+      "url": "https://github.com/portonaute",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/88395919?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "GF",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "French Guiana"
+      },
+      "discoveryTerms": [
+        "French Guiana"
+      ],
+      "topRepository": {
+        "name": "teleprompter",
+        "nameWithOwner": "portonaute/teleprompter",
+        "url": "https://github.com/portonaute/teleprompter",
+        "description": "A free full customizable 🎬teleprompter made with 🪐Celestory",
+        "stargazerCount": 4,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-06-05T09:51:00Z",
+        "pushedAt": "2026-09-21T12:20:26Z",
+        "homepageUrl": "https://www.celestory.io",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjM1NzcyMTc0",
       "login": "ArianeMirabel",
       "name": "Ariane Mirabel",
@@ -335,6 +390,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjExODQxMTk1",
+      "login": "mobapi",
+      "name": "Mobapi",
+      "type": "Organization",
+      "location": "French Guiana",
+      "url": "https://github.com/mobapi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11841195?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "GF",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "French Guiana"
+      },
+      "discoveryTerms": [
+        "French Guiana"
+      ],
+      "topRepository": {
+        "name": "dugout",
+        "nameWithOwner": "mobapi/dugout",
+        "url": "https://github.com/mobapi/dugout",
+        "description": "A companion app for \"dockerized\" micro-services applications",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-09-09T11:58:24Z",
+        "pushedAt": "2022-12-09T08:03:12Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "CoffeeScript"
         },
         "licenseInfo": null
       }
@@ -415,6 +506,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjc5MTMzODQ=",
+      "login": "stirera",
+      "name": "Sourakhata Tirera",
+      "type": "User",
+      "location": "French Guiana",
+      "url": "https://github.com/stirera",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7913384?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "GF",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "French Guiana"
+      },
+      "discoveryTerms": [
+        "French Guiana"
+      ],
+      "topRepository": {
+        "name": "d-chimer_v1",
+        "nameWithOwner": "stirera/d-chimer_v1",
+        "url": "https://github.com/stirera/d-chimer_v1",
+        "description": null,
+        "stargazerCount": 2,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-03-07T12:59:36Z",
+        "pushedAt": "2022-07-26T14:56:28Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
       "id": "O_kgDOEpXKiA",
       "login": "4657878",
       "name": "σξξφκ",
@@ -448,6 +578,45 @@
         "licenseInfo": {
           "name": "Boost Software License 1.0",
           "spdxId": "BSL-1.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY4MDQ2OTc=",
+      "login": "adrienandrem",
+      "name": "Adrien",
+      "type": "User",
+      "location": "Cayenne",
+      "url": "https://github.com/adrienandrem",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6804697?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "GF",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "cayenne"
+      },
+      "discoveryTerms": [
+        "Cayenne"
+      ],
+      "topRepository": {
+        "name": "r.to.vect.dir",
+        "nameWithOwner": "adrienandrem/r.to.vect.dir",
+        "url": "https://github.com/adrienandrem/r.to.vect.dir",
+        "description": "GRASS GIS module converting a raster map into a vector map according to a direction raster map.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-04-07T13:51:43Z",
+        "pushedAt": "2015-04-07T14:25:07Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v2.0",
+          "spdxId": "GPL-2.0"
         }
       }
     },
@@ -527,6 +696,195 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjMzNTAwNTYz",
+      "login": "geommon",
+      "name": "Milo",
+      "type": "User",
+      "location": "Cayenne",
+      "url": "https://github.com/geommon",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33500563?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "GF",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "cayenne"
+      },
+      "discoveryTerms": [
+        "Cayenne"
+      ],
+      "topRepository": {
+        "name": "gadm_postgis",
+        "nameWithOwner": "geommon/gadm_postgis",
+        "url": "https://github.com/geommon/gadm_postgis",
+        "description": "Build a local PostGIS database containing all administrative divisions from GADM data.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-02-19T11:28:13Z",
+        "pushedAt": "2021-02-19T11:33:45Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Shell"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI2MTM3Mjk2",
+      "login": "haylie28575",
+      "name": "Haylie Halvorson",
+      "type": "User",
+      "location": "French Guiana",
+      "url": "https://github.com/haylie28575",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/26137296?u=8e7f3d3ab16ce3863c8649130b574caa24dad97b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "GF",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "French Guiana"
+      },
+      "discoveryTerms": [
+        "French Guiana"
+      ],
+      "topRepository": {
+        "name": "theine",
+        "nameWithOwner": "haylie28575/theine",
+        "url": "https://github.com/haylie28575/theine",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-04-27T05:02:52Z",
+        "pushedAt": "2026-09-12T19:26:42Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Ruby"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "U_kgDODnMzVA",
+      "login": "Itz-Capy",
+      "name": "ItzCapy",
+      "type": "User",
+      "location": "French Guiana",
+      "url": "https://github.com/Itz-Capy",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/242430804?u=943e577f20ff756abf6b4a9c8d8f31dc6c7b30f5&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "GF",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "French Guiana"
+      },
+      "discoveryTerms": [
+        "French Guiana"
+      ],
+      "topRepository": {
+        "name": "minesweeper-gui-4-roblox",
+        "nameWithOwner": "Itz-Capy/minesweeper-gui-4-roblox",
+        "url": "https://github.com/Itz-Capy/minesweeper-gui-4-roblox",
+        "description": "Full interactible minesweeper gui for roblox. Coded in LuaU. This code was principally made for learning but i felt like it to post it on GitHub. I would be happy if you report any issue so i can fix it and learn more about Lua. Under the MIT license. ",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-02-15T03:17:12Z",
+        "pushedAt": "2026-03-03T22:31:55Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Lua"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM2MDI1NDgy",
+      "login": "jjcabon",
+      "name": "JJCABON",
+      "type": "User",
+      "location": "CAYENNE",
+      "url": "https://github.com/jjcabon",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/36025482?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "GF",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "cayenne"
+      },
+      "discoveryTerms": [
+        "Cayenne"
+      ],
+      "topRepository": {
+        "name": "26EP",
+        "nameWithOwner": "jjcabon/26EP",
+        "url": "https://github.com/jjcabon/26EP",
+        "description": "Sujets Epreuves pratiques",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-04T11:21:20Z",
+        "pushedAt": "2026-05-18T11:05:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUxMzI3MjU3",
+      "login": "marioaranha",
+      "name": "Mario Aranha",
+      "type": "User",
+      "location": "Cayenne, Guyane Française",
+      "url": "https://github.com/marioaranha",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/51327257?u=e9d5efa99fa1132b577ee089595afd1f55652552&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "GF",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "cayenne"
+      },
+      "discoveryTerms": [
+        "Cayenne"
+      ],
+      "topRepository": {
+        "name": "l2p01",
+        "nameWithOwner": "marioaranha/l2p01",
+        "url": "https://github.com/marioaranha/l2p01",
+        "description": "projetwebmagasin",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-12-07T13:04:43Z",
+        "pushedAt": "2025-01-16T18:21:06Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDODGq6Mg",
       "login": "Mediamazonie",
       "name": "Royaltiz",
@@ -597,6 +955,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM2MTIxOTUy",
+      "login": "ymlambert",
+      "name": "Yann Lambert",
+      "type": "User",
+      "location": "French Guiana",
+      "url": "https://github.com/ymlambert",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/36121952?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "GF",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "French Guiana"
+      },
+      "discoveryTerms": [
+        "French Guiana"
+      ],
+      "topRepository": {
+        "name": "malakitr",
+        "nameWithOwner": "ymlambert/malakitr",
+        "url": "https://github.com/ymlambert/malakitr",
+        "description": "MalakitR package",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-04-14T18:24:59Z",
+        "pushedAt": "2021-04-14T18:57:09Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "R"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjYyMzg0OTE4",
       "login": "Zakanawaner",
       "name": "MarioCarballo",
@@ -628,6 +1025,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "CSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU5MDM2ODM0",
+      "login": "alixdet",
+      "name": "Alix",
+      "type": "User",
+      "location": "French Guiana",
+      "url": "https://github.com/alixdet",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/59036834?u=ef2606a88df0de5d206d2c60f91630f9c80430d1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "GF",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "French Guiana"
+      },
+      "discoveryTerms": [
+        "French Guiana"
+      ],
+      "topRepository": {
+        "name": "bwt",
+        "nameWithOwner": "alixdet/bwt",
+        "url": "https://github.com/alixdet/bwt",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-01-02T16:38:28Z",
+        "pushedAt": "2022-01-02T16:40:52Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C"
         },
         "licenseInfo": null
       }
@@ -669,6 +1102,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjI3MjM5NjU5",
+      "login": "Anne973",
+      "name": "Anne",
+      "type": "User",
+      "location": "Cayenne",
+      "url": "https://github.com/Anne973",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/27239659?u=cc66fa1b996de4bdb3ff8c6388dd79f4271d1a61&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "GF",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "cayenne"
+      },
+      "discoveryTerms": [
+        "Cayenne"
+      ],
+      "topRepository": {
+        "name": "acg",
+        "nameWithOwner": "Anne973/acg",
+        "url": "https://github.com/Anne973/acg",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-04-22T01:46:54Z",
+        "pushedAt": "2020-02-12T20:51:14Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjUxNjA2NzU=",
       "login": "aschounette1D",
       "name": "aschou'euh :)",
@@ -699,6 +1168,42 @@
         "pushedAt": "2013-08-04T17:01:45Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOD9Hlqg",
+      "login": "ashiyr-agency",
+      "name": null,
+      "type": "User",
+      "location": "French Guiana",
+      "url": "https://github.com/ashiyr-agency",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/265414058?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "GF",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "French Guiana"
+      },
+      "discoveryTerms": [
+        "French Guiana"
+      ],
+      "topRepository": {
+        "name": "ashiyr-replay",
+        "nameWithOwner": "ashiyr-agency/ashiyr-replay",
+        "url": "https://github.com/ashiyr-agency/ashiyr-replay",
+        "description": "ASHIYR Replay - site officiel / official website",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-28T17:59:23Z",
+        "pushedAt": "2026-09-29T20:27:09Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
         "licenseInfo": null
       }
     },
@@ -810,6 +1315,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjI3ODk4NTQ3",
+      "login": "carlteck",
+      "name": "Carlteck",
+      "type": "User",
+      "location": "French Guiana",
+      "url": "https://github.com/carlteck",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/27898547?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "GF",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "French Guiana"
+      },
+      "discoveryTerms": [
+        "French Guiana"
+      ],
+      "topRepository": {
+        "name": "bycarl-app-aavie",
+        "nameWithOwner": "carlteck/bycarl-app-aavie",
+        "url": "https://github.com/carlteck/bycarl-app-aavie",
+        "description": "Application demarches express",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-07T13:01:14Z",
+        "pushedAt": "2026-09-21T01:11:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "U_kgDOBtRIWw",
       "login": "CRESSGuyane",
       "name": "CRESS de Guyane",
@@ -846,6 +1390,45 @@
       }
     },
     {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjgyMDk1MTM5",
+      "login": "ElectiHard",
+      "name": "hempter",
+      "type": "Organization",
+      "location": "French Guiana",
+      "url": "https://github.com/ElectiHard",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/82095139?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "GF",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "French Guiana"
+      },
+      "discoveryTerms": [
+        "French Guiana"
+      ],
+      "topRepository": {
+        "name": "Moderato",
+        "nameWithOwner": "ElectiHard/Moderato",
+        "url": "https://github.com/ElectiHard/Moderato",
+        "description": "Moderate program for moderate people",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-04-18T17:18:49Z",
+        "pushedAt": "2021-06-11T06:58:14Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjY2MTc1Mjg=",
       "login": "finnpiatscheck",
       "name": "Finn Piatscheck",
@@ -877,6 +1460,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "R"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCKQecA",
+      "login": "ginimod",
+      "name": "GIni",
+      "type": "User",
+      "location": "Cayenne",
+      "url": "https://github.com/ginimod",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/144973424?u=b17e1dfd038e6c3ebf9fb1a79f04c4be6b435376&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "GF",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "cayenne"
+      },
+      "discoveryTerms": [
+        "Cayenne"
+      ],
+      "topRepository": {
+        "name": "GmicUpdate2Vault",
+        "nameWithOwner": "ginimod/GmicUpdate2Vault",
+        "url": "https://github.com/ginimod/GmicUpdate2Vault",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-21T13:03:48Z",
+        "pushedAt": "2026-07-21T13:49:43Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
         },
         "licenseInfo": null
       }
@@ -918,6 +1537,40 @@
       }
     },
     {
+      "id": "O_kgDOCE8dpQ",
+      "login": "lespep973",
+      "name": "LES PEP 973",
+      "type": "Organization",
+      "location": "French Guiana",
+      "url": "https://github.com/lespep973",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/139402661?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "GF",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "French Guiana"
+      },
+      "discoveryTerms": [
+        "French Guiana"
+      ],
+      "topRepository": {
+        "name": "ThreatFeed_WhiteList",
+        "nameWithOwner": "lespep973/ThreatFeed_WhiteList",
+        "url": "https://github.com/lespep973/ThreatFeed_WhiteList",
+        "description": "custom whitelist for lespep973 ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-07-12T22:31:50Z",
+        "pushedAt": "2023-07-13T17:53:57Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjU1Njk5MzE3",
       "login": "LOPESDECASTRO",
       "name": "Valerie LOPES",
@@ -933,6 +1586,7 @@
         "matched": "French Guiana"
       },
       "discoveryTerms": [
+        "Cayenne",
         "French Guiana"
       ],
       "topRepository": {
@@ -1078,6 +1732,7 @@
         "matched": "French Guiana"
       },
       "discoveryTerms": [
+        "Cayenne",
         "French Guiana"
       ],
       "topRepository": {
@@ -1189,6 +1844,7 @@
         "matched": "French Guiana"
       },
       "discoveryTerms": [
+        "Cayenne",
         "French Guiana"
       ],
       "topRepository": {
@@ -1205,6 +1861,45 @@
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCPvhAQ",
+      "login": "raphael-fougeray",
+      "name": "Raphaël Fougeray",
+      "type": "User",
+      "location": "Cayenne",
+      "url": "https://github.com/raphael-fougeray",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/150724865?u=4333eefb6f88cdd2a865884a9a028f404194cb70&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "GF",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "cayenne"
+      },
+      "discoveryTerms": [
+        "Cayenne"
+      ],
+      "topRepository": {
+        "name": "raphael-fougeray.github.io",
+        "nameWithOwner": "raphael-fougeray/raphael-fougeray.github.io",
+        "url": "https://github.com/raphael-fougeray/raphael-fougeray.github.io",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-17T16:50:03Z",
+        "pushedAt": "2026-03-30T17:08:33Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -1419,6 +2114,40 @@
       }
     },
     {
+      "id": "U_kgDOCtHxTA",
+      "login": "taunandigarcia",
+      "name": null,
+      "type": "User",
+      "location": "French Guiana (GF)",
+      "url": "https://github.com/taunandigarcia",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/181530956?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "GF",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "French Guiana"
+      },
+      "discoveryTerms": [
+        "French Guiana"
+      ],
+      "topRepository": {
+        "name": "taunandigarcia",
+        "nameWithOwner": "taunandigarcia/taunandigarcia",
+        "url": "https://github.com/taunandigarcia/taunandigarcia",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-13T23:40:22Z",
+        "pushedAt": "2024-09-13T23:40:32Z",
+        "homepageUrl": "https://github.com/taunandigarcia",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjM4OTU1NDY1",
       "login": "thomasdenis973",
       "name": "Thomas Denis",
@@ -1487,6 +2216,79 @@
         "primaryLanguage": {
           "name": "SCSS"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE3MjAxNTM=",
+      "login": "vincentreboul",
+      "name": "Vincent",
+      "type": "User",
+      "location": "Cayenne",
+      "url": "https://github.com/vincentreboul",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1720153?u=38c2237318ce9b28fe4aa059c3a12831edcb3423&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "GF",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "cayenne"
+      },
+      "discoveryTerms": [
+        "Cayenne"
+      ],
+      "topRepository": {
+        "name": "mintzo",
+        "nameWithOwner": "vincentreboul/mintzo",
+        "url": "https://github.com/vincentreboul/mintzo",
+        "description": "Euskarazko diktaketa eta transkripzioa, %100 lokala — dictée et transcription basque/français, 100% locale sur Mac + web",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-03T17:12:20Z",
+        "pushedAt": "2026-07-04T11:03:08Z",
+        "homepageUrl": "https://www.mintzo.fr",
+        "primaryLanguage": {
+          "name": "Swift"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "U_kgDODaY8XA",
+      "login": "XucisaSuj26",
+      "name": "apogee.uplink",
+      "type": "User",
+      "location": "Kourou, French Guiana ",
+      "url": "https://github.com/XucisaSuj26",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/228998236?u=412aec56451cabb1a5b4f5157e458a8b39f24457&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "GF",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "French Guiana"
+      },
+      "discoveryTerms": [
+        "French Guiana"
+      ],
+      "topRepository": {
+        "name": "kinopub",
+        "nameWithOwner": "XucisaSuj26/kinopub",
+        "url": "https://github.com/XucisaSuj26/kinopub",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-26T13:23:46Z",
+        "pushedAt": "2026-09-26T13:23:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     }

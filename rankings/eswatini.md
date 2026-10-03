@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 0%
+## Repository ranking status: Building 3%
 
-- Geography terms processed: **0 / 57**
-- Progress: **0%**
-- Retained high-potential owner candidates: **44**
-- Search requests completed: **1**
+- Geography terms processed: **2 / 57**
+- Progress: **3%**
+- Retained high-potential owner candidates: **278**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,19 +25,19 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [Njabulo240/InventorySystem](https://github.com/Njabulo240/InventorySystem) | **36** | Eswatini, Manzini |
+| [crypto-jobs-fyi/crawler](https://github.com/crypto-jobs-fyi/crawler) | **8** | Swaziland |
 | [SiveMdluli/My-Portfolio](https://github.com/SiveMdluli/My-Portfolio) | **7** | ESwatini, Mbabane |
+| [allGhostAnon/wifi-hacker-advanced](https://github.com/allGhostAnon/wifi-hacker-advanced) | **6** | Mbabane, Swaziland  |
+| [Addis-AI-Org/addis-ai-docs](https://github.com/Addis-AI-Org/addis-ai-docs) | **4** | Swaziland |
+| [Mtsetfosisekelo/Variance-Gamma-Model-Calibration](https://github.com/Mtsetfosisekelo/Variance-Gamma-Model-Calibration) | **4** | Plot 1149 Nkhanini Township, Nhlangano, Swaziland |
+| [nigeljohnson73/gStation](https://github.com/nigeljohnson73/gStation) | **4** | Malkerns, Swaziland |
+| [patiesoft/Law-Of-Contract](https://github.com/patiesoft/Law-Of-Contract) | **4** | Mbabane Swaziland |
 | [phume03/Level-Up-Python](https://github.com/phume03/Level-Up-Python) | **4** | Eswatini |
 | [wandilemawelela/ai-engineer-project-1-llm-chatbot](https://github.com/wandilemawelela/ai-engineer-project-1-llm-chatbot) | **4** | Manzini, Eswatini |
+| [0xSP4C3/binance-spot](https://github.com/0xSP4C3/binance-spot) | **2** | Swaziland |
 | [bandilepdlamini/PickMe](https://github.com/bandilepdlamini/PickMe) | **2** | Mbabane, Eswatini |
+| [bl1nk3r/Ummo](https://github.com/bl1nk3r/Ummo) | **2** | Mbabane, Swaziland |
 | [BrianMsane/PySpark-Practical](https://github.com/BrianMsane/PySpark-Practical) | **2** | Ezulwini, Eswatini |
-| [Dwaynemaster007/Campus-Room-Allocator](https://github.com/Dwaynemaster007/Campus-Room-Allocator) | **2** | Eswatini |
-| [KDlamini/Recipe-app](https://github.com/KDlamini/Recipe-app) | **2** | Mbabane, Eswatini |
-| [Khuks/Stock-Price-Forecasting-Using-Univariate-Time-Series-Data](https://github.com/Khuks/Stock-Price-Forecasting-Using-Univariate-Time-Series-Data) | **2** | Siteki, Eswatini |
-| [MikeMalindzisa/printf-test](https://github.com/MikeMalindzisa/printf-test) | **2** | Eswatini |
-| [TheFaro/TheFaro.github.io](https://github.com/TheFaro/TheFaro.github.io) | **2** | Mbabane, Eswatini |
-| [Zweli-Sa/firecommerce](https://github.com/Zweli-Sa/firecommerce) | **2** | Mbabane eSwatini |
-| [bayankhosi/FarmProgram](https://github.com/bayankhosi/FarmProgram) | **1** | Eswatini |
-| [Doctraite/Resume-Parser-System-using-ML](https://github.com/Doctraite/Resume-Parser-System-using-ML) | **1** | Mbabane, Eswatini |
-| [leon-sihlongonyane/Financial-models-monte-carlo-pricing](https://github.com/leon-sihlongonyane/Financial-models-monte-carlo-pricing) | **1** | Matsapha, Eswatini |
+| [chokethenetwork/Stockchat](https://github.com/chokethenetwork/Stockchat) | **2** | University of Eswatini Luyengo campus, Mthonjeni block, room 6 |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

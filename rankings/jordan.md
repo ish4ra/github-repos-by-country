@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 156**
 - Progress: **0%**
-- Retained high-potential owner candidates: **46**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **110**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -27,7 +27,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [RightNow-AI/openfang](https://github.com/RightNow-AI/openfang) | **18,208** | Jordan |
 | [ShadowHackrs/gmail-account-creator](https://github.com/ShadowHackrs/gmail-account-creator) | **5,180** | jordan |
 | [MohammadYounes/AlertifyJS](https://github.com/MohammadYounes/AlertifyJS) | **2,083** | Jordan |
-| [ReSo7200/InstaEclipse](https://github.com/ReSo7200/InstaEclipse) | **1,513** | Jordan |
+| [ReSo7200/InstaEclipse](https://github.com/ReSo7200/InstaEclipse) | **1,514** | Jordan |
 | [aaronshaf/dynamodb-admin](https://github.com/aaronshaf/dynamodb-admin) | **1,484** | South Jordan, UT |
 | [tjoudeh/AngularJSAuthentication](https://github.com/tjoudeh/AngularJSAuthentication) | **1,168** | Jordan-Amman |
 | [bricelam/ImageResizer](https://github.com/bricelam/ImageResizer) | **1,032** | South Jordan, UT |

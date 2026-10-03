@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 0%
+## Repository ranking status: Building 22%
 
-- Geography terms processed: **0 / 27**
-- Progress: **0%**
-- Retained high-potential owner candidates: **36**
-- Search requests completed: **1**
+- Geography terms processed: **6 / 27**
+- Progress: **22%**
+- Retained high-potential owner candidates: **89**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -30,14 +30,14 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [RicLeP/laravel-storyblok](https://github.com/RicLeP/laravel-storyblok) | **62** | Guernsey |
 | [davidgoy/reflect](https://github.com/davidgoy/reflect) | **21** | Guernsey, Channel Islands |
 | [jasemagee/UnityCarNoWheelColliders](https://github.com/jasemagee/UnityCarNoWheelColliders) | **20** | Guernsey |
+| [laked0601/CompaniesHouseGPT-Public](https://github.com/laked0601/CompaniesHouseGPT-Public) | **3** | Guernsey |
 | [tomupson/fortnite-replay-repairer](https://github.com/tomupson/fortnite-replay-repairer) | **3** | Guernsey |
 | [wooki/nuisancevalue](https://github.com/wooki/nuisancevalue) | **3** | Guernsey, Channel Islands |
 | [YuriGuernsey/godot-launchpad](https://github.com/YuriGuernsey/godot-launchpad) | **3** | Guernsey |
 | [atdeJimmyG/Team-7-GAM130](https://github.com/atdeJimmyG/Team-7-GAM130) | **2** | Falmouth/Guernsey |
 | [adrianritchie/K8sTraefikAuth](https://github.com/adrianritchie/K8sTraefikAuth) | **1** | Guernsey |
-| [kerryguard/kerryguard](https://github.com/kerryguard/kerryguard) | **1** | Guernsey |
-| [Matthew-Collins/gb.device](https://github.com/Matthew-Collins/gb.device) | **1** | Guernsey |
-| [MattJamesChampion/SignalRExample](https://github.com/MattJamesChampion/SignalRExample) | **1** | Guernsey |
-| [reformsoft/snippets](https://github.com/reformsoft/snippets) | **1** | Guernsey, Channel Islands |
+| [CoffeeSlave/FixAPix](https://github.com/CoffeeSlave/FixAPix) | **1** | Guernsey |
+| [cortexGG/BlazorWindowsAuth](https://github.com/cortexGG/BlazorWindowsAuth) | **1** | Guernsey |
+| [Elania-Marvers/DeathBalls](https://github.com/Elania-Marvers/DeathBalls) | **1** | Guernesey |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

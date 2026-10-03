@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 0%
+## Repository ranking status: Building 12%
 
-- Geography terms processed: **0 / 16**
-- Progress: **0%**
-- Retained high-potential owner candidates: **40**
-- Search requests completed: **1**
+- Geography terms processed: **2 / 16**
+- Progress: **12%**
+- Retained high-potential owner candidates: **184**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -33,11 +33,11 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Holo-Host/web-sdk](https://github.com/Holo-Host/web-sdk) | **175** | Gibraltar |
 | [carribus/continuum-engine](https://github.com/carribus/continuum-engine) | **62** | Gibraltar |
 | [VladimirHumeniuk/equalizecss](https://github.com/VladimirHumeniuk/equalizecss) | **61** | Gibraltar |
+| [llmora/eepeep](https://github.com/llmora/eepeep) | **26** | Gibraltar |
+| [quedexnet/java-market-maker](https://github.com/quedexnet/java-market-maker) | **25** | Gibraltar |
 | [Industrial/reflex](https://github.com/Industrial/reflex) | **23** | Gibraltar |
 | [FortKnoxster/fortknoxster-crypto-web](https://github.com/FortKnoxster/fortknoxster-crypto-web) | **14** | Gibraltar |
+| [STKtoken/STK-smart-contracts](https://github.com/STKtoken/STK-smart-contracts) | **14** | Gibraltar |
 | [ArconaEcosystem/arcona-system](https://github.com/ArconaEcosystem/arcona-system) | **9** | Gibraltar |
-| [ileghlam/findOrCreate](https://github.com/ileghlam/findOrCreate) | **8** | Gibraltar |
-| [nats12/react-native-navigation-demo](https://github.com/nats12/react-native-navigation-demo) | **8** | Gibraltar |
-| [checkmobi/checkmobi_android](https://github.com/checkmobi/checkmobi_android) | **7** | Gibraltar |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

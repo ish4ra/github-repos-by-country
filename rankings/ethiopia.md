@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 312**
 - Progress: **0%**
-- Retained high-potential owner candidates: **50**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **112**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [frectonz/sql-studio](https://github.com/frectonz/sql-studio) | **3,690** | Ethiopia, Addis Abeba |
+| [frectonz/sql-studio](https://github.com/frectonz/sql-studio) | **3,691** | Ethiopia, Addis Abeba |
 | [devefy/Flutter-Story-App-UI](https://github.com/devefy/Flutter-Story-App-UI) | **955** | Ethiopia, Adama |
 | [adilmohak/django-lms](https://github.com/adilmohak/django-lms) | **730** | Addis ababa, Ethiopia |
 | [codingWithElias/Login-System-PHP-and-MYSQL](https://github.com/codingWithElias/Login-System-PHP-and-MYSQL) | **142** | Alem Gena, Ethiopia |

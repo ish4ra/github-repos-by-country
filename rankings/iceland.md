@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 172**
 - Progress: **0%**
-- Retained high-potential owner candidates: **48**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **308**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,15 +24,15 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | **68,790** | Iceland |
+| [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | **68,815** | Iceland |
 | [lss233/kirara-ai](https://github.com/lss233/kirara-ai) | **19,061** | Iceland III |
 | [sveinbjornt/Sloth](https://github.com/sveinbjornt/Sloth) | **8,965** | Reykjavík, Iceland |
-| [imbue-bit/AlphaGPT](https://github.com/imbue-bit/AlphaGPT) | **3,159** | Iceland |
+| [imbue-bit/AlphaGPT](https://github.com/imbue-bit/AlphaGPT) | **3,161** | Iceland |
 | [jeremybarbet/react-native-modalize](https://github.com/jeremybarbet/react-native-modalize) | **2,880** | Reykjavík, Iceland |
 | [HermannBjorgvin/Clawdmeter](https://github.com/HermannBjorgvin/Clawdmeter) | **2,229** | Reykjavík, Iceland |
 | [einaregilsson/Redirector](https://github.com/einaregilsson/Redirector) | **2,092** | Iceland |
 | [birkir/prime](https://github.com/birkir/prime) | **1,717** | Reykjavík, Iceland |
-| [SuprDewd/T-414-AFLV](https://github.com/SuprDewd/T-414-AFLV) | **910** | Iceland |
+| [SuprDewd/T-414-AFLV](https://github.com/SuprDewd/T-414-AFLV) | **911** | Iceland |
 | [pagekite/PyPagekite](https://github.com/pagekite/PyPagekite) | **751** | Reykjavik, Iceland |
 | [sverrirs/jekyll-paginate-v2](https://github.com/sverrirs/jekyll-paginate-v2) | **535** | Reykjavík, Iceland |
 | [carbonengine/trinity](https://github.com/carbonengine/trinity) | **460** | Iceland |

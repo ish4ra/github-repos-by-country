@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 3,616**
 - Progress: **0%**
-- Retained high-potential owner candidates: **49**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **133**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [IRNova/Nova-Proxy](https://github.com/IRNova/Nova-Proxy) | **3,305** | Persian Empire ( IRAN) |
+| [IRNova/Nova-Proxy](https://github.com/IRNova/Nova-Proxy) | **3,306** | Persian Empire ( IRAN) |
 | [SharifiZarchi/Introduction_to_Machine_Learning](https://github.com/SharifiZarchi/Introduction_to_Machine_Learning) | **2,138** | Tehran, Iran |
 | [The404Hacking/AndroRAT](https://github.com/The404Hacking/AndroRAT) | **1,729** | Iran, Mazandaran, Mahmudabad |
 | [VahidN/EFCoreSecondLevelCacheInterceptor](https://github.com/VahidN/EFCoreSecondLevelCacheInterceptor) | **971** | Iran, Tehran |

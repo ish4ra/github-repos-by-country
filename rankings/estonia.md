@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 328**
 - Progress: **0%**
-- Retained high-potential owner candidates: **46**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **143**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -34,10 +34,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [egonelbre/gophers](https://github.com/egonelbre/gophers) | **3,834** | Estonia, Tartu |
 | [maciejczyzewski/libchaos](https://github.com/maciejczyzewski/libchaos) | **1,597** | Estonia |
 | [andris9/jStorage](https://github.com/andris9/jStorage) | **1,524** | Tallinn, Estonia |
+| [tomialagbe/flutter_ui_challenges](https://github.com/tomialagbe/flutter_ui_challenges) | **1,512** | Tallinn, Estonia |
 | [vvscode/js--interview-questions](https://github.com/vvscode/js--interview-questions) | **1,417** | Tallinn, Estonia |
 | [toggl/toggl_api_docs](https://github.com/toggl/toggl_api_docs) | **1,391** | Tornimäe 5, Tallinn, Estonia |
 | [rebane2001/xikipedia](https://github.com/rebane2001/xikipedia) | **1,137** | Estonia |
 | [martinpaljak/GlobalPlatformPro](https://github.com/martinpaljak/GlobalPlatformPro) | **946** | Estonia |
-| [nordic-institute/X-Road](https://github.com/nordic-institute/X-Road) | **858** | Estonia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
