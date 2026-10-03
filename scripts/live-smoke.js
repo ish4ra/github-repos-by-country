@@ -11,10 +11,15 @@ const client = new GitHubGraphQLClient({ token, requestDelayMs: 0 });
 const discovery = await client.discoverOwnersPage({
   searchQuery: 'location:"Sri Lanka" type:user followers:0..9 repos:>=1 created:2020-01-01..2026-12-31',
   first: 5,
+  includeTopRepository: true,
 });
 
 if (!Number.isInteger(discovery.userCount) || !discovery.pageInfo || !discovery.rateLimit) {
   throw new Error('GitHub GraphQL discovery smoke test returned an unexpected response shape.');
+}
+
+if (!(discovery.nodes || []).every((node) => node?.repositories && Array.isArray(node.repositories.nodes))) {
+  throw new Error('GitHub GraphQL inline top-repository discovery returned an unexpected response shape.');
 }
 
 const ownerIds = (discovery.nodes || []).map((node) => node?.id).filter(Boolean);
