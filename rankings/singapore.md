@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 132**
 - Progress: **0%**
-- Retained high-potential owner candidates: **45**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **164**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,20 +24,20 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | **125,038** | Singapore |
-| [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) | **84,668** | Singapore |
+| [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) | **125,069** | Singapore |
+| [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) | **84,698** | Singapore |
 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | **83,342** | Singapore |
 | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | **77,935** | Singapore |
-| [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | **66,116** | Singapore |
-| [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) | **46,395** | Singapore |
+| [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | **66,142** | Singapore |
+| [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) | **46,400** | Singapore |
 | [XingangPan/DragGAN](https://github.com/XingangPan/DragGAN) | **35,749** | Singapore |
 | [cloudflare/pingora](https://github.com/cloudflare/pingora) | **27,577** | San Francisco, London, Austin, Lisbon, Singapore |
-| [Vonng/ddia](https://github.com/Vonng/ddia) | **23,780** | Singapore |
+| [Vonng/ddia](https://github.com/Vonng/ddia) | **23,782** | Singapore |
 | [camsong/You-Dont-Need-jQuery](https://github.com/camsong/You-Dont-Need-jQuery) | **20,123** | Singapore |
+| [sczhou/CodeFormer](https://github.com/sczhou/CodeFormer) | **18,171** | Singapore |
 | [AmazingAng/WTF-Solidity](https://github.com/AmazingAng/WTF-Solidity) | **14,055** | Singapore |
 | [JamesNK/Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json) | **11,312** | Singapore |
 | [fossasia/visdom](https://github.com/fossasia/visdom) | **10,315** | Singapore |
 | [happydog-intj/JsBridge](https://github.com/happydog-intj/JsBridge) | **9,911** | singapore |
-| [cmliu/CF-Workers-docker.io](https://github.com/cmliu/CF-Workers-docker.io) | **9,212** | Singapore |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

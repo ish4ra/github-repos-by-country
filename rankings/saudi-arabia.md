@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 463**
 - Progress: **0%**
-- Retained high-potential owner candidates: **49**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **135**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -26,7 +26,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [orangci/walls-catppuccin-mocha](https://github.com/orangci/walls-catppuccin-mocha) | **2,841** | Riyadh, Saudi Arabia |
 | [BandarHL/BHTwitter](https://github.com/BandarHL/BHTwitter) | **2,601** | Saudi Arabia |
-| [Matrix07ksa/Brute_Force](https://github.com/Matrix07ksa/Brute_Force) | **1,831** | Saudi arabia |
+| [Matrix07ksa/Brute_Force](https://github.com/Matrix07ksa/Brute_Force) | **1,832** | Saudi arabia |
 | [ialhashim/DenseDepth](https://github.com/ialhashim/DenseDepth) | **1,607** | Saudi Arabia |
 | [0xfff0800/Brute-force-Instagram-2025](https://github.com/0xfff0800/Brute-force-Instagram-2025) | **900** | Saudi Arabia |
 | [REVENGE977/stremio-enhanced](https://github.com/REVENGE977/stremio-enhanced) | **839** | Kingdom of Saudi Arabia |

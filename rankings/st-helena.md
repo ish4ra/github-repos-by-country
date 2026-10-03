@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 5%
+## Repository ranking status: Building 50%
 
-- Geography terms processed: **1 / 18**
-- Progress: **5%**
-- Retained high-potential owner candidates: **18**
-- Search requests completed: **1**
+- Geography terms processed: **9 / 18**
+- Progress: **50%**
+- Retained high-potential owner candidates: **23**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -30,14 +30,14 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [openprojectlabs/Feasitly-Open-Project-Recipe-App](https://github.com/openprojectlabs/Feasitly-Open-Project-Recipe-App) | **2** | St. Helena |
 | [tyler-grimes/somnus](https://github.com/tyler-grimes/somnus) | **2** | St. Helena, CA |
 | [2x74/strafetrainer](https://github.com/2x74/strafetrainer) | **1** | St. Helena |
+| [Deeannpva7/discord_bot](https://github.com/Deeannpva7/discord_bot) | **1** | Sint-Helena (SH) |
 | [erferguson/crypto-tracker](https://github.com/erferguson/crypto-tracker) | **1** | St Helena, CA |
 | [jujudigital/dsutils](https://github.com/jujudigital/dsutils) | **1** | St Helena Island |
 | [flamesongjasper/flamesongjasper](https://github.com/flamesongjasper/flamesongjasper) | **0** | St. Helena (SH) |
+| [helldragonsoftly/helldragonsoftly](https://github.com/helldragonsoftly/helldragonsoftly) | **0** | Sint-Helena (SH) |
 | [hendrik-j-roux-nl/visualstudiocode](https://github.com/hendrik-j-roux-nl/visualstudiocode) | **0** | St Helena |
 | [joruhan/Joruhan](https://github.com/joruhan/Joruhan) | **0** | St Helena Bay |
-| [mrioux/Filmless](https://github.com/mrioux/Filmless) | **0** | St. Helena, CA |
-| [NapoleonOfTheNow/cv](https://github.com/NapoleonOfTheNow/cv) | **0** | St. Helena |
-| [Nathan-C99/Nathan-C99](https://github.com/Nathan-C99/Nathan-C99) | **0** | 10 St Helena Rd, Beacon Bay North, East London, 5241 |
-| [selenegough/selenegough.github.io](https://github.com/selenegough/selenegough.github.io) | **0** | Jamestown, St Helena |
+| [kennyoverrun/kennyoverrun](https://github.com/kennyoverrun/kennyoverrun) | **0** | Sint-Helena (SH) |
+| [megacrafthoney/megacrafthoney](https://github.com/megacrafthoney/megacrafthoney) | **0** | Sint-Helena (SH) |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

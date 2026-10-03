@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 1,165**
 - Progress: **0%**
-- Retained high-potential owner candidates: **50**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **181**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,11 +24,11 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [jonasschmedtmann/complete-javascript-course](https://github.com/jonasschmedtmann/complete-javascript-course) | **17,258** | Faro, Portugal |
+| [jonasschmedtmann/complete-javascript-course](https://github.com/jonasschmedtmann/complete-javascript-course) | **17,259** | Faro, Portugal |
 | [Heroic-Games-Launcher/HeroicGamesLauncher](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher) | **12,334** | Portugal |
 | [dwyl/english-words](https://github.com/dwyl/english-words) | **12,304** | Portugal |
 | [andrew--r/frontend-case-studies](https://github.com/andrew--r/frontend-case-studies) | **7,430** | Lisbon, Portugal |
-| [vasturiano/3d-force-graph](https://github.com/vasturiano/3d-force-graph) | **6,429** | Lisbon, Portugal |
+| [vasturiano/3d-force-graph](https://github.com/vasturiano/3d-force-graph) | **6,431** | Lisbon, Portugal |
 | [filhodanuvem/gitql](https://github.com/filhodanuvem/gitql) | **6,292** | Lisbon - Portugal |
 | [nunomaduro/phpinsights](https://github.com/nunomaduro/phpinsights) | **5,637** | Portugal |
 | [dpgaspar/Flask-AppBuilder](https://github.com/dpgaspar/Flask-AppBuilder) | **4,963** | Lisbon, Portugal |

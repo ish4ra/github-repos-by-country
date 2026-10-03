@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 0%
+## Repository ranking status: Building 11%
 
-- Geography terms processed: **0 / 70**
-- Progress: **0%**
-- Retained high-potential owner candidates: **40**
-- Search requests completed: **1**
+- Geography terms processed: **8 / 70**
+- Progress: **11%**
+- Retained high-potential owner candidates: **65**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -28,16 +28,16 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [glody007/agentic-memory-from-scratch](https://github.com/glody007/agentic-memory-from-scratch) | **5** | Lubumbashi City in the Democratic Republic of the Congo |
 | [josamuna/iNeuronAssignments](https://github.com/josamuna/iNeuronAssignments) | **4** | Democratic Republic of the Congo |
 | [Credok12/llm_unify](https://github.com/Credok12/llm_unify) | **3** | Democratic Republic of the Congo |
+| [msp-central-africa/Machine-Learning-Presentation](https://github.com/msp-central-africa/Machine-Learning-Presentation) | **3** | Democratic Republic Of The Congo |
 | [RichardNk24/Nextjs.ecommerce](https://github.com/RichardNk24/Nextjs.ecommerce) | **3** | Lubumbashi, Democratic Republic of the Congo |
 | [TeddyCubaka/kisodo_app-chat_app-frontend](https://github.com/TeddyCubaka/kisodo_app-chat_app-frontend) | **3** | Kinshasa, Democratic Republic of the Congo |
 | [AshDest/ShopManagement](https://github.com/AshDest/ShopManagement) | **2** | Democratic Republic of the Congo, Goma |
 | [JBixx/finance-perso-website](https://github.com/JBixx/finance-perso-website) | **2** | Brazzaville, Republic of the Congo |
 | [tipizzo/gaming-store](https://github.com/tipizzo/gaming-store) | **2** | Democratic Republic of the Congo |
+| [armandbukama/Intelligent_security_system_case-_of_catholic_university_of_Bukavu](https://github.com/armandbukama/Intelligent_security_system_case-_of_catholic_university_of_Bukavu) | **1** | Democratic Republic of the Congo |
 | [chapi123/TP1delgoat](https://github.com/chapi123/TP1delgoat) | **1** |  Democratic Republic of the Congo |
+| [daniellalupepele-bit/Oruim-Agency](https://github.com/daniellalupepele-bit/Oruim-Agency) | **1** | Kinshasa, Democratic Republic of the Congo |
 | [dieudonnelungu96-cmd/porftfolio-dieudonnelungu](https://github.com/dieudonnelungu96-cmd/porftfolio-dieudonnelungu) | **1** | Democratic Republic of the Congo (DRC) |
-| [Gaetan-bamongoyo/isc_uvira_classroom](https://github.com/Gaetan-bamongoyo/isc_uvira_classroom) | **1** | Democratic Republic of the Congo |
-| [heleerra/heleerra-api-integration](https://github.com/heleerra/heleerra-api-integration) | **1** | Kinshasa, Democratic Republic of the Congo |
-| [jeremielodi/PHPExcelJs](https://github.com/jeremielodi/PHPExcelJs) | **1** | Democratic Republic of the Congo |
-| [jess-tech-dev/higherjess-business](https://github.com/jess-tech-dev/higherjess-business) | **1** | 🇨🇩 Kinshasa, Democratic Republic of the Congo  |
+| [Gabriel-Nyangwile/recettes_de_maman_chantal](https://github.com/Gabriel-Nyangwile/recettes_de_maman_chantal) | **1** | Democratic Republic of the Congo |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

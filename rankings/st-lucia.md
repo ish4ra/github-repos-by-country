@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 0%
+## Repository ranking status: Building 1%
 
-- Geography terms processed: **0 / 418**
-- Progress: **0%**
-- Retained high-potential owner candidates: **32**
-- Search requests completed: **1**
+- Geography terms processed: **7 / 418**
+- Progress: **1%**
+- Retained high-potential owner candidates: **60**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -33,11 +33,11 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [DavidPacio/PacioDAICO](https://github.com/DavidPacio/PacioDAICO) | **3** | St Lucia |
 | [uqroboticsclub/Projects2025](https://github.com/uqroboticsclub/Projects2025) | **3** | Brisbane St Lucia, The University of Queensland |
 | [arangutambo/democratised-read-it-later](https://github.com/arangutambo/democratised-read-it-later) | **2** | 280-284 Sir Fred Schonell Dr, St Lucia QLD 4067 |
+| [Ojasva77/MicoudSec](https://github.com/Ojasva77/MicoudSec) | **2** | St. Lucia |
 | [autoabacus/CrowdFunding](https://github.com/autoabacus/CrowdFunding) | **1** | St Lucia |
 | [Calixte-Williams/set08803_gw](https://github.com/Calixte-Williams/set08803_gw) | **1** | St. Lucia |
 | [dortizbarrientos/tutorials-Quant-Gen](https://github.com/dortizbarrientos/tutorials-Quant-Gen) | **1** | St Lucia |
 | [dylanablack/corticount](https://github.com/dylanablack/corticount) | **1** | St Lucia |
 | [jamalss/jamaLinks](https://github.com/jamalss/jamaLinks) | **1** | St Lucia |
-| [rassjuice1/-Path_Finder-.Ltd](https://github.com/rassjuice1/-Path_Finder-.Ltd) | **1** | St Lucia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 60**
 - Progress: **0%**
-- Retained high-potential owner candidates: **44**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **310**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [Offensive-Panda/ShadowDumper](https://github.com/Offensive-Panda/ShadowDumper) | **587** | Qatar |
+| [Offensive-Panda/ShadowDumper](https://github.com/Offensive-Panda/ShadowDumper) | **588** | Qatar |
 | [yusuf-musleh/mmar](https://github.com/yusuf-musleh/mmar) | **312** | Doha, Qatar |
 | [andrewheiss/hikmah-academic-quarto](https://github.com/andrewheiss/hikmah-academic-quarto) | **292** | Doha, Qatar |
 | [Samimust/predictive-maintenance](https://github.com/Samimust/predictive-maintenance) | **290** | Qatar |
@@ -35,9 +35,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [alotaiba/FlyJSONP](https://github.com/alotaiba/FlyJSONP) | **160** | Qatar |
 | [ZahraShahid/MyRealEstateWebsite](https://github.com/ZahraShahid/MyRealEstateWebsite) | **119** | Doha, Qatar |
 | [rithinskaria/AZ-104](https://github.com/rithinskaria/AZ-104) | **101** | Doha, Qatar |
+| [d7omdev/clipse-gui](https://github.com/d7omdev/clipse-gui) | **77** | Qatar |
 | [Sakib1263/NABNet](https://github.com/Sakib1263/NABNet) | **53** | Al Wakra, Qatar |
 | [nirzaf/merconiq](https://github.com/nirzaf/merconiq) | **52** | Doha - Qatar |
 | [akhalil-qa/SecurityPlus](https://github.com/akhalil-qa/SecurityPlus) | **41** | Qatar |
-| [TarikKaanKoc/Java-React-Bootcamp](https://github.com/TarikKaanKoc/Java-React-Bootcamp) | **39** | Qatar |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

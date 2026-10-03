@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 65**
 - Progress: **0%**
-- Retained high-potential owner candidates: **45**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **322**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -35,9 +35,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [byteab/operation-ink](https://github.com/byteab/operation-ink) | **44** | Muscat Oman |
 | [sweelam/microservices-architecture-talks](https://github.com/sweelam/microservices-architecture-talks) | **42** | Oman |
 | [PhazeRoOman/thawani-for-woocommerce](https://github.com/PhazeRoOman/thawani-for-woocommerce) | **34** | Oman |
+| [nRafinia/Emby.Subtitle.Subscene](https://github.com/nRafinia/Emby.Subtitle.Subscene) | **31** | Oman |
 | [zidhuss/neotest-minitest](https://github.com/zidhuss/neotest-minitest) | **27** | Oman |
 | [0xmahdirostami/audits](https://github.com/0xmahdirostami/audits) | **19** | Oman |
 | [sajadevo/material-ripple-effects](https://github.com/sajadevo/material-ripple-effects) | **19** | Muscat, Oman |
-| [malnafei/thawani-pay-woocommerce](https://github.com/malnafei/thawani-pay-woocommerce) | **16** | Oman |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

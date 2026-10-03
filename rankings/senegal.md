@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 176**
 - Progress: **0%**
-- Retained high-potential owner candidates: **49**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **302**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,11 +24,11 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [iib0011/omni-tools](https://github.com/iib0011/omni-tools) | **10,278** | Senegal |
-| [aimerou/awesome-ai-papers](https://github.com/aimerou/awesome-ai-papers) | **1,312** | Senegal |
+| [iib0011/omni-tools](https://github.com/iib0011/omni-tools) | **10,279** | Senegal |
+| [aimerou/awesome-ai-papers](https://github.com/aimerou/awesome-ai-papers) | **1,313** | Senegal |
 | [ibrahima92/pwa-with-vanilla-js](https://github.com/ibrahima92/pwa-with-vanilla-js) | **275** | Senegal |
 | [GalsenDev221/made.in.senegal](https://github.com/GalsenDev221/made.in.senegal) | **106** | Senegal |
-| [PapiHack/document-templating-service](https://github.com/PapiHack/document-templating-service) | **64** | Dakar, Senegal |
+| [PapiHack/document-templating-service](https://github.com/PapiHack/document-templating-service) | **65** | Dakar, Senegal |
 | [sibylassana95/GalsenAPi](https://github.com/sibylassana95/GalsenAPi) | **55** | Senegal  |
 | [takanome-dev/astro.go.blog](https://github.com/takanome-dev/astro.go.blog) | **50** | Dakar, Senegal |
 | [elias-ba/ask](https://github.com/elias-ba/ask) | **49** | Dakar, Senegal |

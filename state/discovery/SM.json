@@ -12,38 +12,21 @@
     "termsTotal": 22
   },
   "phase": "discovery",
-  "nextTermIndex": 0,
-  "activeTerm": {
-    "index": 0,
-    "term": "San Marino",
-    "queue": [
-      {
-        "query": "location:\"San Marino\"",
-        "stage": "base",
-        "cursor": "Y3Vyc29yOjUw",
-        "pageNumber": 2,
-        "attempts": 0
-      }
-    ],
-    "startedAt": "2026-10-03T08:35:41.245Z",
-    "requests": 1,
-    "leafPages": 1,
-    "shardExpansions": 0,
-    "reportedCount": null
-  },
+  "nextTermIndex": 5,
+  "activeTerm": null,
   "discoveryComplete": false,
   "startedAt": "2026-10-03T08:35:41.245Z",
-  "updatedAt": "2026-10-03T08:35:43.826Z",
+  "updatedAt": "2026-10-03T23:17:08.378Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
-    "termsProcessed": 0,
-    "searchRequests": 1,
-    "leafPages": 1,
+    "termsProcessed": 5,
+    "searchRequests": 9,
+    "leafPages": 9,
     "shardExpansions": 0,
-    "rawOwnerHits": 50,
-    "acceptedOwnerHits": 48,
-    "rejectedOwnerHits": 2,
+    "rawOwnerHits": 202,
+    "acceptedOwnerHits": 195,
+    "rejectedOwnerHits": 7,
     "unresolvedShardCount": 0,
     "minimumRateLimitRemaining": 4568
   },
@@ -120,6 +103,45 @@
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "C++"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU2NTU2ODA2",
+      "login": "mikyll",
+      "name": "Michele Righi",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/mikyll",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/56556806?u=78c253afdfd2931ba79798005868b59c151c32fe&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "UnityDOTS-Thesis",
+        "nameWithOwner": "mikyll/UnityDOTS-Thesis",
+        "url": "https://github.com/mikyll/UnityDOTS-Thesis",
+        "description": "Bachelor's degree thesis on Unity DOTS architecture",
+        "stargazerCount": 36,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-03-29T17:16:56Z",
+        "pushedAt": "2024-02-11T12:04:51Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C#"
         },
         "licenseInfo": {
           "name": "MIT License",
@@ -545,6 +567,81 @@
       }
     },
     {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjU0NTQ1OTkx",
+      "login": "unirsm",
+      "name": "Università degli Studi della Repubblica di San Marino",
+      "type": "Organization",
+      "location": "San Marino",
+      "url": "https://github.com/unirsm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/54545991?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "openMuseum",
+        "nameWithOwner": "unirsm/openMuseum",
+        "url": "https://github.com/unirsm/openMuseum",
+        "description": "Progetto di ricerca “Nuovi sistemi integrativi per la fruizione del percorso espositivo della Casa Museo“ UNIRSM – Coordinamento delle Case Museo dei Poeti e degli Scrittori di Romagna ",
+        "stargazerCount": 7,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-08-26T15:45:13Z",
+        "pushedAt": "2021-02-25T07:52:38Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE0NTY0MzA=",
+      "login": "andreaventuri",
+      "name": "Andrea",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/andreaventuri",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1456430?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "theatre-seat-reservation-snap-svg",
+        "nameWithOwner": "andreaventuri/theatre-seat-reservation-snap-svg",
+        "url": "https://github.com/andreaventuri/theatre-seat-reservation-snap-svg",
+        "description": "Theatre seat reservation developed with Snap.svg",
+        "stargazerCount": 6,
+        "forkCount": 4,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-05-28T17:25:03Z",
+        "pushedAt": "2018-05-29T06:58:16Z",
+        "homepageUrl": "http://labs.andreaventuri.it/theatre_snap_svg",
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE2MjY3NzE0",
       "login": "damiandominella",
       "name": "dodo",
@@ -578,6 +675,123 @@
           "name": "TypeScript"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOBqNVnw",
+      "login": "EE615",
+      "name": "北交EE615南",
+      "type": "Organization",
+      "location": "San Marino",
+      "url": "https://github.com/EE615",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/111367583?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "MonoSample",
+        "nameWithOwner": "EE615/MonoSample",
+        "url": "https://github.com/EE615/MonoSample",
+        "description": null,
+        "stargazerCount": 4,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-05-29T06:52:40Z",
+        "pushedAt": "2024-05-29T06:53:04Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjQ1ODEyNjIz",
+      "login": "botikasm",
+      "name": "Botika S.r.l.",
+      "type": "Organization",
+      "location": "San Marino",
+      "url": "https://github.com/botikasm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/45812623?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "lyj-framework",
+        "nameWithOwner": "botikasm/lyj-framework",
+        "url": "https://github.com/botikasm/lyj-framework",
+        "description": "This is Botika's main framework used in production for many applications.",
+        "stargazerCount": 3,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-12-12T07:07:00Z",
+        "pushedAt": "2018-12-12T08:26:57Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjYxODY5MjQ3",
+      "login": "dsii-2020-unirsm",
+      "name": "dsii-2020-unirsm",
+      "type": "Organization",
+      "location": "San Marino",
+      "url": "https://github.com/dsii-2020-unirsm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/61869247?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "archive",
+        "nameWithOwner": "dsii-2020-unirsm/archive",
+        "url": "https://github.com/dsii-2020-unirsm/archive",
+        "description": "DSII 2020 | Laboratorio design di sistemi interattivi per informazione (ICAR/13)",
+        "stargazerCount": 3,
+        "forkCount": 14,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2020-03-13T09:09:38Z",
+        "pushedAt": "2020-09-07T09:10:30Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -617,6 +831,81 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "O_kgDOEnZH1A",
+      "login": "NoWayToFix",
+      "name": "冇得医综合楼",
+      "type": "Organization",
+      "location": "San Marino",
+      "url": "https://github.com/NoWayToFix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/309741524?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "Reihitsu",
+        "nameWithOwner": "NoWayToFix/Reihitsu",
+        "url": "https://github.com/NoWayToFix/Reihitsu",
+        "description": "灵笔",
+        "stargazerCount": 3,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-06-24T23:30:43Z",
+        "pushedAt": "2026-08-03T06:46:36Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Dart"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM4NTAyNTg2",
+      "login": "robertgasperoni",
+      "name": "Robert Gasperoni",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/robertgasperoni",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/38502586?u=44b645376e0209912ff61457d4b12d06f32e95f4&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "PLC_INOUT",
+        "nameWithOwner": "robertgasperoni/PLC_INOUT",
+        "url": "https://github.com/robertgasperoni/PLC_INOUT",
+        "description": "Demo for Using Arduino PLC IDE with Arduino OPTA 8, for ModBus TCP protocol",
+        "stargazerCount": 3,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-05-09T07:36:05Z",
+        "pushedAt": "2023-05-09T07:49:43Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Makefile"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -843,6 +1132,78 @@
       }
     },
     {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjEwNzIyOTYy",
+      "login": "MrAPPs-RSM",
+      "name": "Mr. APPs s.r.l.",
+      "type": "Organization",
+      "location": "San Marino",
+      "url": "https://github.com/MrAPPs-RSM",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10722962?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "ngx-backend",
+        "nameWithOwner": "MrAPPs-RSM/ngx-backend",
+        "url": "https://github.com/MrAPPs-RSM/ngx-backend",
+        "description": null,
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-02-08T13:06:22Z",
+        "pushedAt": "2026-10-01T07:24:45Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEzMjMzODI1",
+      "login": "pro-free-dev",
+      "name": "I am a code hero",
+      "type": "User",
+      "location": "3965 ,Graciela Dam ,Lake Larrainefort ,Maryland ,San Marino",
+      "url": "https://github.com/pro-free-dev",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13233825?u=66884493046100f82a914ad145ee8c6476a4da73&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "main-project",
+        "nameWithOwner": "pro-free-dev/main-project",
+        "url": "https://github.com/pro-free-dev/main-project",
+        "description": null,
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-10-31T07:42:53Z",
+        "pushedAt": "2023-01-12T09:58:33Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCC_wjA",
       "login": "Restoncomic",
       "name": "Max",
@@ -873,6 +1234,76 @@
         "pushedAt": "2023-06-26T20:21:28Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODkNRJw",
+      "login": "salugea",
+      "name": "Salugea",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/salugea",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/239292711?u=5175be56fc53a18466a031e903a2f77291e0c2e8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "salugea-open-knowledge",
+        "nameWithOwner": "salugea/salugea-open-knowledge",
+        "url": "https://github.com/salugea/salugea-open-knowledge",
+        "description": null,
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-11-19T14:40:24Z",
+        "pushedAt": "2025-12-03T10:18:16Z",
+        "homepageUrl": "https://www.salugea.com",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg5NjU5ODcy",
+      "login": "xStaqed",
+      "name": "xStaqed_",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/xStaqed",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/89659872?u=5a11e5484e4d6d2d69d9d1b8981a3731b2c6539a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "HelloC",
+        "nameWithOwner": "xStaqed/HelloC",
+        "url": "https://github.com/xStaqed/HelloC",
+        "description": null,
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-08-27T20:19:46Z",
+        "pushedAt": "2022-08-23T21:04:46Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Objective-C"
+        },
         "licenseInfo": null
       }
     },
@@ -916,6 +1347,198 @@
       }
     },
     {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjYzNjg0MzE1",
+      "login": "brandnewteam",
+      "name": "3D Print",
+      "type": "Organization",
+      "location": "San Marino",
+      "url": "https://github.com/brandnewteam",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/63684315?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "bnduplicatecartrule",
+        "nameWithOwner": "brandnewteam/bnduplicatecartrule",
+        "url": "https://github.com/brandnewteam/bnduplicatecartrule",
+        "description": "PrestaShop module: select a cart rule (coupon/voucher/discounts) and massively duplicate it.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-10-06T16:09:22Z",
+        "pushedAt": "2024-03-22T17:28:04Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjc0NDM1OTk0",
+      "login": "ds-2021-unirsm",
+      "name": "ds-2021-unirsm",
+      "type": "Organization",
+      "location": "San Marino",
+      "url": "https://github.com/ds-2021-unirsm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/74435994?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "archive",
+        "nameWithOwner": "ds-2021-unirsm/archive",
+        "url": "https://github.com/ds-2021-unirsm/archive",
+        "description": "work in progress",
+        "stargazerCount": 1,
+        "forkCount": 20,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2021-03-05T14:11:21Z",
+        "pushedAt": "2021-09-08T06:07:04Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "O_kgDOBf3Z-g",
+      "login": "ds-2022-unirsm",
+      "name": "ds-2022-unirsm",
+      "type": "Organization",
+      "location": "San Marino",
+      "url": "https://github.com/ds-2022-unirsm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/100522490?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "ds-archive-22",
+        "nameWithOwner": "ds-2022-unirsm/ds-archive-22",
+        "url": "https://github.com/ds-2022-unirsm/ds-archive-22",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 17,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-03-15T09:15:09Z",
+        "pushedAt": "2022-09-01T17:12:00Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjI1NzIxMzk5",
+      "login": "dsii-2017-unirsm",
+      "name": "dsii-2017-unirsm ",
+      "type": "Organization",
+      "location": "San Marino",
+      "url": "https://github.com/dsii-2017-unirsm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25721399?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "dsii-2017-archive",
+        "nameWithOwner": "dsii-2017-unirsm/dsii-2017-archive",
+        "url": "https://github.com/dsii-2017-unirsm/dsii-2017-archive",
+        "description": "lab archive",
+        "stargazerCount": 1,
+        "forkCount": 13,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2017-03-24T10:47:01Z",
+        "pushedAt": "2017-10-01T17:26:54Z",
+        "homepageUrl": "http://dsii-2017-unirsm.github.io",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE0OTM4Mjc1",
+      "login": "eliapasqualini",
+      "name": "Elia Pasqualini",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/eliapasqualini",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/14938275?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "UniFood",
+        "nameWithOwner": "eliapasqualini/UniFood",
+        "url": "https://github.com/eliapasqualini/UniFood",
+        "description": "Assignment for Web Technologies exam",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-05-30T16:18:00Z",
+        "pushedAt": "2020-05-30T16:27:37Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "O_kgDOCJ7owQ",
       "login": "Fantafiga",
       "name": "Fantafiga",
@@ -955,6 +1578,193 @@
       }
     },
     {
+      "id": "O_kgDODt23uw",
+      "login": "G-G-Technologies-Srl",
+      "name": "G&G Technologies Srl",
+      "type": "Organization",
+      "location": "San Marino",
+      "url": "https://github.com/G-G-Technologies-Srl",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/249411515?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "g-g-technologies-srl.github.io",
+        "nameWithOwner": "G-G-Technologies-Srl/g-g-technologies-srl.github.io",
+        "url": "https://github.com/G-G-Technologies-Srl/g-g-technologies-srl.github.io",
+        "description": "Company WebSite",
+        "stargazerCount": 1,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-08T05:57:52Z",
+        "pushedAt": "2026-10-02T08:52:53Z",
+        "homepageUrl": "https://g-g-technologies-srl.github.io/",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCA2ieg",
+      "login": "Goddari",
+      "name": "Carlo Martone",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/Goddari",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/135111290?u=53dd2d8994d5504bd6a6e9e55eaffae18a1543e2&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "srs-postfix-chainsaw",
+        "nameWithOwner": "Goddari/srs-postfix-chainsaw",
+        "url": "https://github.com/Goddari/srs-postfix-chainsaw",
+        "description": "Perl Scripts to manage srs forward and bounce in postfix.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-10-17T08:07:11Z",
+        "pushedAt": "2025-10-17T08:19:35Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Perl"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMyNDMxOTMz",
+      "login": "Matt2309",
+      "name": "Mattia Mularoni",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/Matt2309",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/32431933?u=3b971a276f6b98a8c08347cb6a13b2e3735489ae&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "OOP-git-merge-conflict-test",
+        "nameWithOwner": "Matt2309/OOP-git-merge-conflict-test",
+        "url": "https://github.com/Matt2309/OOP-git-merge-conflict-test",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-10-28T09:57:15Z",
+        "pushedAt": "2024-10-28T10:17:13Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjQwNTk2MTM0",
+      "login": "nuland-project",
+      "name": "Lemonade.Care",
+      "type": "Organization",
+      "location": "San Marino",
+      "url": "https://github.com/nuland-project",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/40596134?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "rnhw",
+        "nameWithOwner": "nuland-project/rnhw",
+        "url": "https://github.com/nuland-project/rnhw",
+        "description": "hello world react-native app launch able on our computers",
+        "stargazerCount": 1,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-01-20T13:26:38Z",
+        "pushedAt": "2024-02-21T05:44:15Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjI5NDg0Nzkz",
+      "login": "simoneapp",
+      "name": "Simone",
+      "type": "Organization",
+      "location": "San Marino",
+      "url": "https://github.com/simoneapp",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/29484793?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "S3-16-simone",
+        "nameWithOwner": "simoneapp/S3-16-simone",
+        "url": "https://github.com/simoneapp/S3-16-simone",
+        "description": "Android app for Simone",
+        "stargazerCount": 1,
+        "forkCount": 4,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-06-16T14:09:23Z",
+        "pushedAt": "2018-01-23T11:05:44Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjExOTY4NTQ=",
       "login": "simonefalcini",
       "name": "Simone",
@@ -983,6 +1793,42 @@
         "isFork": false,
         "createdAt": "2019-07-28T22:14:07Z",
         "pushedAt": "2023-03-16T09:25:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIxMzM5NTI3",
+      "login": "thu105",
+      "name": "Hein Moe Thu",
+      "type": "User",
+      "location": "San Marino, CA",
+      "url": "https://github.com/thu105",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/21339527?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "work-circle",
+        "nameWithOwner": "thu105/work-circle",
+        "url": "https://github.com/thu105/work-circle",
+        "description": "A social networking app for internal employees.",
+        "stargazerCount": 1,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-03-09T06:06:59Z",
+        "pushedAt": "2023-04-03T05:42:20Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "PHP"
@@ -1027,6 +1873,78 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQyMzM4MjEy",
+      "login": "ACE27rsm",
+      "name": "Daniele Salvatori",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/ACE27rsm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/42338212?u=3eb79deedbcdcc95ba157ea57afeb2db6c687158&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "portfolio_lucia",
+        "nameWithOwner": "ACE27rsm/portfolio_lucia",
+        "url": "https://github.com/ACE27rsm/portfolio_lucia",
+        "description": "Portfolio Lucia Zavatta",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-02-04T09:48:17Z",
+        "pushedAt": "2026-09-15T19:27:21Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYzMzY3ODcz",
+      "login": "agentadept",
+      "name": "Agent Adept",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/agentadept",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/63367873?u=409c7ade6281bb76fd5be49f15b53ce1a71146ac&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "poppymail",
+        "nameWithOwner": "agentadept/poppymail",
+        "url": "https://github.com/agentadept/poppymail",
+        "description": "Simple POP3 Authorization Script",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-01-27T13:40:33Z",
+        "pushedAt": "2024-03-15T07:57:07Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE3ODYxNzgx",
       "login": "AldoJuniorSimoncini",
       "name": "Aldo Junior Simoncini",
@@ -1057,6 +1975,290 @@
         "pushedAt": "2024-03-08T08:17:46Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOB-5K5Q",
+      "login": "aleronci28",
+      "name": "Alessandro Ronci",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/aleronci28",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/133057253?u=1e52571a6536488706568d8097ae6e2a21995ea9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "threads_app",
+        "nameWithOwner": "aleronci28/threads_app",
+        "url": "https://github.com/aleronci28/threads_app",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-08-20T11:16:46Z",
+        "pushedAt": "2023-08-20T11:16:46Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYwOTUxNjY=",
+      "login": "AlessandroBenti",
+      "name": "Alessandro",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/AlessandroBenti",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6095166?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "funnel-templates",
+        "nameWithOwner": "AlessandroBenti/funnel-templates",
+        "url": "https://github.com/AlessandroBenti/funnel-templates",
+        "description": "Funnel Templates, progetto Bentivoglio Consulting. Template HTML, analisi VOC, materiali strategici per il progetto Funnel Templates.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-17T10:01:19Z",
+        "pushedAt": "2026-05-17T21:19:05Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgxMzg1NTUy",
+      "login": "Anna-Kostiuk",
+      "name": "Anna Kostiuk",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/Anna-Kostiuk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/81385552?u=1641e93f0a4d64fa1c1d1f148e38ad36a3a46806&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "Anna-Kostiuk.github.io",
+        "nameWithOwner": "Anna-Kostiuk/Anna-Kostiuk.github.io",
+        "url": "https://github.com/Anna-Kostiuk/Anna-Kostiuk.github.io",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-08-17T19:44:10Z",
+        "pushedAt": "2023-08-17T19:49:17Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjY0MDQzODgx",
+      "login": "arpatechnologies",
+      "name": "Arpa Technologies",
+      "type": "Organization",
+      "location": "San Marino",
+      "url": "https://github.com/arpatechnologies",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/64043881?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "arpatechnologies.github.io",
+        "nameWithOwner": "arpatechnologies/arpatechnologies.github.io",
+        "url": "https://github.com/arpatechnologies/arpatechnologies.github.io",
+        "description": "MasterFactory 4.0",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-03-09T13:15:30Z",
+        "pushedAt": "2021-03-09T15:39:23Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM1NTA5Mzkx",
+      "login": "brunodotgg",
+      "name": "Bruno",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/brunodotgg",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/35509391?u=d9a0e48625c1b8c12463295fdd5e9e971efabf90&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "thomas-test",
+        "nameWithOwner": "brunodotgg/thomas-test",
+        "url": "https://github.com/brunodotgg/thomas-test",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-08T08:47:05Z",
+        "pushedAt": "2026-05-08T09:10:24Z",
+        "homepageUrl": "https://thomas-test.vercel.app",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCt_B1w",
+      "login": "chorizoyammee",
+      "name": null,
+      "type": "User",
+      "location": "San Marino (SM)",
+      "url": "https://github.com/chorizoyammee",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/182436311?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "chorizoyammee",
+        "nameWithOwner": "chorizoyammee/chorizoyammee",
+        "url": "https://github.com/chorizoyammee/chorizoyammee",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-22T17:08:11Z",
+        "pushedAt": "2024-09-22T17:08:22Z",
+        "homepageUrl": "https://github.com/chorizoyammee",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMxNjAwMTg=",
+      "login": "clagenna",
+      "name": "Claudio Gennari",
+      "type": "User",
+      "location": "san marino",
+      "url": "https://github.com/clagenna",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3160018?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "fattaass",
+        "nameWithOwner": "clagenna/fattaass",
+        "url": "https://github.com/clagenna/fattaass",
+        "description": "Import e analisi delle fatture dell'azienda dei Servizi RSM",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-12-24T17:11:52Z",
+        "pushedAt": "2026-08-28T15:32:11Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "CSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI1MjcyNjQx",
+      "login": "D4nny-k",
+      "name": "Daniel Khoshnan",
+      "type": "User",
+      "location": "San Marino , California",
+      "url": "https://github.com/D4nny-k",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25272641?u=19c1686fe5a21dc1ee2c8227c9fa8ecf00926a6a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "Hero-And-Monsters",
+        "nameWithOwner": "D4nny-k/Hero-And-Monsters",
+        "url": "https://github.com/D4nny-k/Hero-And-Monsters",
+        "description": "Hero and Monsters code for APCS ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-02-01T21:39:15Z",
+        "pushedAt": "2018-03-06T17:13:33Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
         "licenseInfo": null
       }
     },
@@ -1093,6 +2295,40 @@
         "primaryLanguage": {
           "name": "PHP"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCu1KSA",
+      "login": "deansoribminster",
+      "name": null,
+      "type": "User",
+      "location": "San Marino (SM)",
+      "url": "https://github.com/deansoribminster",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/183323208?u=3ad6cfccdf7d3134cfd858c87a65f040f4867dce&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "deansoribminster",
+        "nameWithOwner": "deansoribminster/deansoribminster",
+        "url": "https://github.com/deansoribminster/deansoribminster",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-29T23:41:12Z",
+        "pushedAt": "2024-09-29T23:41:35Z",
+        "homepageUrl": "https://github.com/deansoribminster",
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -1136,6 +2372,81 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjI5OTc1NjE5",
+      "login": "dennistiboni-extera",
+      "name": "Dennis Tiboni",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/dennistiboni-extera",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/29975619?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "pimcore-formbuilder-to-db",
+        "nameWithOwner": "dennistiboni-extera/pimcore-formbuilder-to-db",
+        "url": "https://github.com/dennistiboni-extera/pimcore-formbuilder-to-db",
+        "description": "dachcom-digital/pimcore-formbuilder Addon to save request to object",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-05-11T15:15:35Z",
+        "pushedAt": "2018-05-14T13:47:07Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ4NjUwMDEy",
+      "login": "Design-dei-sistemi",
+      "name": "Lab di design dei sistemi",
+      "type": "User",
+      "location": "San Marino Republic",
+      "url": "https://github.com/Design-dei-sistemi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/48650012?u=b983d5802f8d22afa3b9ab18063ff14af8ed0740&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "unirsm-2022",
+        "nameWithOwner": "Design-dei-sistemi/unirsm-2022",
+        "url": "https://github.com/Design-dei-sistemi/unirsm-2022",
+        "description": "Repository dei progetti finali degli studenti del corso di Design dei Sistemi 2022 del corso di laurea magistrale in Interaction Design dell'Università degli studi della Repubblica di San Marino.",
+        "stargazerCount": 0,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-06-04T10:32:35Z",
+        "pushedAt": "2022-06-23T17:08:54Z",
+        "homepageUrl": "https://design-dei-sistemi.github.io/unirsm-2022/",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "O_kgDODLJvMg",
       "login": "digital-experience-lab-unirsm",
       "name": "digital-experience-lab-unirsm",
@@ -1173,6 +2484,157 @@
       }
     },
     {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjE2MTY0ODQy",
+      "login": "dsii-2016-unirsm",
+      "name": "dsii-2016-unirsm",
+      "type": "Organization",
+      "location": "San Marino",
+      "url": "https://github.com/dsii-2016-unirsm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16164842?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "dsii-2016-archive",
+        "nameWithOwner": "dsii-2016-unirsm/dsii-2016-archive",
+        "url": "https://github.com/dsii-2016-unirsm/dsii-2016-archive",
+        "description": "lab archive",
+        "stargazerCount": 0,
+        "forkCount": 17,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2016-03-11T11:38:27Z",
+        "pushedAt": "2016-07-13T14:43:08Z",
+        "homepageUrl": "http://dsii-2016-unirsm.github.io ",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjM2NDAyMDI0",
+      "login": "dsii-2018-unirsm",
+      "name": "dsii-2018-unirsm",
+      "type": "Organization",
+      "location": "San Marino",
+      "url": "https://github.com/dsii-2018-unirsm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/36402024?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "dsii-2018-unirsm.github.io",
+        "nameWithOwner": "dsii-2018-unirsm/dsii-2018-unirsm.github.io",
+        "url": "https://github.com/dsii-2018-unirsm/dsii-2018-unirsm.github.io",
+        "description": "lab website",
+        "stargazerCount": 0,
+        "forkCount": 13,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2018-02-12T09:26:59Z",
+        "pushedAt": "2018-06-25T09:25:40Z",
+        "homepageUrl": "https://dsii-2018-unirsm.github.io/",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjQ4MDI2MzM2",
+      "login": "dsii-2019-unirsm",
+      "name": "dsii-2019-unirsm",
+      "type": "Organization",
+      "location": "San Marino",
+      "url": "https://github.com/dsii-2019-unirsm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/48026336?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "archive",
+        "nameWithOwner": "dsii-2019-unirsm/archive",
+        "url": "https://github.com/dsii-2019-unirsm/archive",
+        "description": "DSII 2019 | Laboratorio design di sistemi interattivi per informazione (ICAR/13)",
+        "stargazerCount": 0,
+        "forkCount": 10,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2019-02-26T18:03:16Z",
+        "pushedAt": "2019-08-27T13:24:59Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ1MjU5OTc=",
+      "login": "ecasadei",
+      "name": "Erik Casadei",
+      "type": "User",
+      "location": "Rep. of San Marino",
+      "url": "https://github.com/ecasadei",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4525997?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "Electronics",
+        "nameWithOwner": "ecasadei/Electronics",
+        "url": "https://github.com/ecasadei/Electronics",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-08-09T07:35:10Z",
+        "pushedAt": "2020-08-16T19:55:04Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjM4MTUwMTE3",
       "login": "El2829",
       "name": "Angelito Borinaga",
@@ -1203,6 +2665,42 @@
         "pushedAt": "2024-01-01T16:01:21Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODelsdA",
+      "login": "elena-sarti",
+      "name": "Elena Sarti",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/elena-sarti",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/233401460?u=a7346a58212be99cc7d7c656fa3be3022e567973&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "pps-lab11",
+        "nameWithOwner": "elena-sarti/pps-lab11",
+        "url": "https://github.com/elena-sarti/pps-lab11",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-23T06:54:02Z",
+        "pushedAt": "2026-05-23T06:55:26Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Prolog"
+        },
         "licenseInfo": null
       }
     },
@@ -1243,6 +2741,255 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ2MzAyMTY=",
+      "login": "eneaextera",
+      "name": "Enea",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/eneaextera",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4630216?u=25156e3dcc2d0cac70ac197252e3d17d7b6c09e3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "strapi-cloud-template-blog-1fcab06f56",
+        "nameWithOwner": "eneaextera/strapi-cloud-template-blog-1fcab06f56",
+        "url": "https://github.com/eneaextera/strapi-cloud-template-blog-1fcab06f56",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-05-22T13:14:28Z",
+        "pushedAt": "2025-05-22T13:14:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOElZhMA",
+      "login": "Engstrom46180",
+      "name": "Sonia",
+      "type": "User",
+      "location": "Nueva San Marino",
+      "url": "https://github.com/Engstrom46180",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/307650864?u=29ea734f1d64b4d8019511f88a40e387e05fac78&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "golden_section_search",
+        "nameWithOwner": "Engstrom46180/golden_section_search",
+        "url": "https://github.com/Engstrom46180/golden_section_search",
+        "description": "Minimizes a unimodal scalar function on an interval without derivatives.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-02T11:38:56Z",
+        "pushedAt": "2026-10-02T11:39:06Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+          "spdxId": "BSD-3-Clause"
+        }
+      }
+    },
+    {
+      "id": "O_kgDOBipscQ",
+      "login": "evolvableNFT",
+      "name": "evolvableNFT",
+      "type": "Organization",
+      "location": "San Marino",
+      "url": "https://github.com/evolvableNFT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/103443569?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "nextai-demo",
+        "nameWithOwner": "evolvableNFT/nextai-demo",
+        "url": "https://github.com/evolvableNFT/nextai-demo",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-06-13T01:43:44Z",
+        "pushedAt": "2023-06-13T01:45:45Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOC6Ee4w",
+      "login": "exteraAgency",
+      "name": "Extera Digital Agency",
+      "type": "Organization",
+      "location": "San Marino",
+      "url": "https://github.com/exteraAgency",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/195108579?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "nextjs-waste-circle",
+        "nameWithOwner": "exteraAgency/nextjs-waste-circle",
+        "url": "https://github.com/exteraAgency/nextjs-waste-circle",
+        "description": "waste circle web app",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-11-19T15:02:43Z",
+        "pushedAt": "2025-11-19T15:02:43Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU2MDcyMzA4",
+      "login": "FIAMMAORO",
+      "name": null,
+      "type": "User",
+      "location": "Repubblica di San Marino",
+      "url": "https://github.com/FIAMMAORO",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/56072308?u=ae43ecfe486d0c93007c3e8f7a353e9a5aaac0d6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "PortFolio",
+        "nameWithOwner": "FIAMMAORO/PortFolio",
+        "url": "https://github.com/FIAMMAORO/PortFolio",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-10-02T11:15:55Z",
+        "pushedAt": "2019-10-02T11:15:56Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg5NjQyOA==",
+      "login": "Frikazoid",
+      "name": "Fabio Bombi",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/Frikazoid",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/896428?u=b5ee166faa8a96cfd845e1fdcca781220172f716&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "automidi",
+        "nameWithOwner": "Frikazoid/automidi",
+        "url": "https://github.com/Frikazoid/automidi",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-07-29T07:17:35Z",
+        "pushedAt": "2017-10-17T09:27:18Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQzMDcxMTQ4",
+      "login": "gennaris",
+      "name": "Simone Gennari",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/gennaris",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43071148?u=c6bfb436433dd17cd917f04f6a503d6ce2e6e788&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "myshoprepair",
+        "nameWithOwner": "gennaris/myshoprepair",
+        "url": "https://github.com/gennaris/myshoprepair",
+        "description": "myShopRepair has a tool which allows you to check and repair your web-shop configuration in seconds.",
+        "stargazerCount": 0,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-05-10T08:51:10Z",
+        "pushedAt": "2020-10-04T01:01:17Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDODB6gHw",
       "login": "gerza-lab",
       "name": "adam gerza",
@@ -1274,6 +3021,222 @@
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIzMzc5MDQx",
+      "login": "gioele-santi",
+      "name": null,
+      "type": "User",
+      "location": "San Marino Republic",
+      "url": "https://github.com/gioele-santi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/23379041?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "nihon-sanmarino",
+        "nameWithOwner": "gioele-santi/nihon-sanmarino",
+        "url": "https://github.com/gioele-santi/nihon-sanmarino",
+        "description": "New version of association website based on Jekyll",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-07-30T23:53:22Z",
+        "pushedAt": "2026-05-22T21:34:32Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "O_kgDOCpYM-A",
+      "login": "githubforsample",
+      "name": "hellonew",
+      "type": "Organization",
+      "location": "San Marino",
+      "url": "https://github.com/githubforsample",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/177605880?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "hi",
+        "nameWithOwner": "githubforsample/hi",
+        "url": "https://github.com/githubforsample/hi",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-08-06T06:19:59Z",
+        "pushedAt": "2024-08-06T06:19:59Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjU5NjY4MzMw",
+      "login": "Hattitude-Inc",
+      "name": "Hattitude, Inc",
+      "type": "Organization",
+      "location": "San Marino, CA",
+      "url": "https://github.com/Hattitude-Inc",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/59668330?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "test-repo-1",
+        "nameWithOwner": "Hattitude-Inc/test-repo-1",
+        "url": "https://github.com/Hattitude-Inc/test-repo-1",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-07-29T21:04:12Z",
+        "pushedAt": "2021-07-29T22:19:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM1ODQyMTk2",
+      "login": "jacquelinaWatson",
+      "name": "Jackie Watson",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/jacquelinaWatson",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/35842196?u=b84047e662af6c012886f9bcf3b7bc2a649c0ec6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "Programming-Theory-Repo",
+        "nameWithOwner": "jacquelinaWatson/Programming-Theory-Repo",
+        "url": "https://github.com/jacquelinaWatson/Programming-Theory-Repo",
+        "description": "Submission 2 for Junior Programmer Pathway",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-08-27T15:28:04Z",
+        "pushedAt": "2025-10-07T14:35:03Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE3MzQ2MzEw",
+      "login": "JosephKyleWong",
+      "name": "Joseph Wong",
+      "type": "User",
+      "location": "San Marino, California",
+      "url": "https://github.com/JosephKyleWong",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17346310?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "Temp",
+        "nameWithOwner": "JosephKyleWong/Temp",
+        "url": "https://github.com/JosephKyleWong/Temp",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-10-27T10:07:36Z",
+        "pushedAt": "2019-10-27T10:11:22Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOEfh8cQ",
+      "login": "Lacroix83",
+      "name": "Francisco",
+      "type": "User",
+      "location": "Vieja San Marino",
+      "url": "https://github.com/Lacroix83",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/301497457?u=90b3d54bba0addd0916e2595c56cab3052aacb08&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "the-request",
+        "nameWithOwner": "Lacroix83/the-request",
+        "url": "https://github.com/Lacroix83/the-request",
+        "description": "At whose view hair behavior rock sit.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-09T07:43:05Z",
+        "pushedAt": "2026-07-09T07:43:06Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "European Union Public License 1.2",
+          "spdxId": "EUPL-1.2"
+        }
       }
     },
     {
@@ -1345,6 +3308,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjc5NzM0NjI=",
+      "login": "lorenzobob0",
+      "name": "Lorenzo Moretti",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/lorenzobob0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7973462?u=0c1f3664d5f7f11e6106d9f793736ac214f91598&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "stomp-websockets",
+        "nameWithOwner": "lorenzobob0/stomp-websockets",
+        "url": "https://github.com/lorenzobob0/stomp-websockets",
+        "description": "Fork of http://jmesnil.net/stomp-websocket/ for use with webpack",
+        "stargazerCount": 0,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-10-20T19:34:48Z",
+        "pushedAt": "2022-12-05T09:00:49Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjY0NTkxMjM=",
       "login": "lucabio",
       "name": "Luca",
@@ -1378,6 +3377,45 @@
           "name": "JavaScript"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOD_gm9w",
+      "login": "migastone-rsm",
+      "name": "Migastone International Srl",
+      "type": "Organization",
+      "location": "San Marino",
+      "url": "https://github.com/migastone-rsm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/267921143?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "migasender.com",
+        "nameWithOwner": "migastone-rsm/migasender.com",
+        "url": "https://github.com/migastone-rsm/migasender.com",
+        "description": "Sito Migasender.com",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-03T07:33:21Z",
+        "pushedAt": "2026-10-03T07:50:45Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
       }
     },
     {
@@ -1445,6 +3483,302 @@
         "pushedAt": "2018-05-01T22:31:19Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCgCiXw",
+      "login": "NiykeeMoore",
+      "name": "Vladimir",
+      "type": "User",
+      "location": "San-Marino",
+      "url": "https://github.com/NiykeeMoore",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/167813727?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "Weather-App",
+        "nameWithOwner": "NiykeeMoore/Weather-App",
+        "url": "https://github.com/NiykeeMoore/Weather-App",
+        "description": "Single screen application interacting with API to get 5 days forecast in SwiftUI",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-05-26T17:54:15Z",
+        "pushedAt": "2025-05-28T19:25:45Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Swift"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIxNjgwNjY=",
+      "login": "pier-zano",
+      "name": null,
+      "type": "User",
+      "location": "san marino",
+      "url": "https://github.com/pier-zano",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2168066?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "xbrl",
+        "nameWithOwner": "pier-zano/xbrl",
+        "url": "https://github.com/pier-zano/xbrl",
+        "description": "sito xbrl san marino",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-01-25T06:20:45Z",
+        "pushedAt": "2019-03-07T06:49:42Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE1MTIxMzgx",
+      "login": "pigorg",
+      "name": "alessandro gnola",
+      "type": "User",
+      "location": "san marino",
+      "url": "https://github.com/pigorg",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/15121381?u=bbacc55cb85328195c4b1d632b18596f539c777b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "ai-financial-scanner-demo",
+        "nameWithOwner": "pigorg/ai-financial-scanner-demo",
+        "url": "https://github.com/pigorg/ai-financial-scanner-demo",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-02T13:25:48Z",
+        "pushedAt": "2026-10-02T13:41:45Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "O_kgDOD04m9w",
+      "login": "pop-sm",
+      "name": "POP Digital Studio",
+      "type": "Organization",
+      "location": "San Marino",
+      "url": "https://github.com/pop-sm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/256780023?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "301pay-sdk",
+        "nameWithOwner": "pop-sm/301pay-sdk",
+        "url": "https://github.com/pop-sm/301pay-sdk",
+        "description": "Unofficial Node.js SDK for Klirway 301Pay APIs.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-22T08:05:53Z",
+        "pushedAt": "2026-04-22T08:07:25Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM1MDkzMDU=",
+      "login": "Rimini",
+      "name": "Luca",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/Rimini",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3509305?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "Foto",
+        "nameWithOwner": "Rimini/Foto",
+        "url": "https://github.com/Rimini/Foto",
+        "description": "My photos",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-02-08T09:43:42Z",
+        "pushedAt": "2013-02-08T09:43:43Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOEa9xSw",
+      "login": "sarpatil",
+      "name": null,
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/sarpatil",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/296710475?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "template",
+        "nameWithOwner": "sarpatil/template",
+        "url": "https://github.com/sarpatil/template",
+        "description": "Mod template for all our mods.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-06-25T00:42:06Z",
+        "pushedAt": "2026-06-25T00:49:11Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjY5OTE5NDY=",
+      "login": "SEI-2014-UNIRSM",
+      "name": "SEI2014 @ UnirSM",
+      "type": "Organization",
+      "location": "San Marino",
+      "url": "https://github.com/SEI-2014-UNIRSM",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6991946?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "Federica-SEI2014-UnirSM",
+        "nameWithOwner": "SEI-2014-UNIRSM/Federica-SEI2014-UnirSM",
+        "url": "https://github.com/SEI-2014-UNIRSM/Federica-SEI2014-UnirSM",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 1,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2014-03-18T21:37:33Z",
+        "pushedAt": "2014-04-16T13:58:12Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "U_kgDODZFnRg",
+      "login": "SergioBartsovski",
+      "name": "SERHII LISIEIENKOV",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/SergioBartsovski",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/227632966?u=6f5e7ac6ce386ccf08a49847107e000b5de67964&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "UkrEthnoDumpCRM-Proxy-v2",
+        "nameWithOwner": "SergioBartsovski/UkrEthnoDumpCRM-Proxy-v2",
+        "url": "https://github.com/SergioBartsovski/UkrEthnoDumpCRM-Proxy-v2",
+        "description": "Scam repository",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-09-10T15:04:29Z",
+        "pushedAt": "2025-09-24T09:48:54Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
         "licenseInfo": null
       }
     },
@@ -1524,6 +3858,79 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM4OTk0MTQy",
+      "login": "smartecons",
+      "name": "Luca",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/smartecons",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/38994142?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "prova",
+        "nameWithOwner": "smartecons/prova",
+        "url": "https://github.com/smartecons/prova",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-05-04T23:55:50Z",
+        "pushedAt": "2018-05-04T23:55:51Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ3NDE2NDky",
+      "login": "stefanoRSM",
+      "name": "info@stefanomorganti.net",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/stefanoRSM",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47416492?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "intro-html",
+        "nameWithOwner": "stefanoRSM/intro-html",
+        "url": "https://github.com/stefanoRSM/intro-html",
+        "description": "A robot powered training repository :robot:",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-02-07T14:13:10Z",
+        "pushedAt": "2019-02-07T14:41:57Z",
+        "homepageUrl": "https://lab.github.com/githubtraining/introduction-to-html",
+        "primaryLanguage": {
+          "name": "CSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBXu5aQ",
       "login": "stfDeveloper",
       "name": null,
@@ -1560,6 +3967,144 @@
       }
     },
     {
+      "id": "U_kgDOCuwEnQ",
+      "login": "tailerilluminator",
+      "name": null,
+      "type": "User",
+      "location": "San Marino (SM)",
+      "url": "https://github.com/tailerilluminator",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/183239837?u=e6227a903591637e5d3be94b1452b1b7457d9dbf&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "tailerilluminator",
+        "nameWithOwner": "tailerilluminator/tailerilluminator",
+        "url": "https://github.com/tailerilluminator/tailerilluminator",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-28T20:22:05Z",
+        "pushedAt": "2024-09-28T20:22:40Z",
+        "homepageUrl": "https://github.com/tailerilluminator",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCuaWlQ",
+      "login": "thomasrenzini",
+      "name": "Thomas Renzini",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/thomasrenzini",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/182883989?u=29199f0e696d9a5010650f9611edf3407b60348b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "thomasrenzini",
+        "nameWithOwner": "thomasrenzini/thomasrenzini",
+        "url": "https://github.com/thomasrenzini/thomasrenzini",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-10-07T15:01:37Z",
+        "pushedAt": "2024-10-07T15:06:26Z",
+        "homepageUrl": "https://github.com/thomasrenzini",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjExNDU1NTAy",
+      "login": "Uff182",
+      "name": "Andrea Candini",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/Uff182",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11455502?u=e9cd2e2f8b5c2d6409d449541b26e823c28d3db5&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "my-daily-money",
+        "nameWithOwner": "Uff182/my-daily-money",
+        "url": "https://github.com/Uff182/my-daily-money",
+        "description": "Automatically exported from code.google.com/p/my-daily-money",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-03-13T08:07:41Z",
+        "pushedAt": "2015-03-13T12:51:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBpimLw",
+      "login": "Undefinetiv",
+      "name": "iSushi",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/Undefinetiv",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/110667311?u=f1734e46d5a8b2058f95724d8d6e4f679d7f9be4&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "my-first-repo",
+        "nameWithOwner": "Undefinetiv/my-first-repo",
+        "url": "https://github.com/Undefinetiv/my-first-repo",
+        "description": "Practice account for learning Git",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-04-15T09:41:29Z",
+        "pushedAt": "2023-04-15T10:14:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "O_kgDOBm4ZZg",
       "login": "vechainfoundation",
       "name": "Vechain Foundation San Marino",
@@ -1590,6 +4135,78 @@
         "pushedAt": "2023-07-18T13:56:02Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjE2Mjk3NTMy",
+      "login": "VisualTechnologies",
+      "name": "VisualTechnologies",
+      "type": "Organization",
+      "location": "2360 Huntington Dr, San Marino, CA 91108",
+      "url": "https://github.com/VisualTechnologies",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16297532?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "buyerportal",
+        "nameWithOwner": "VisualTechnologies/buyerportal",
+        "url": "https://github.com/VisualTechnologies/buyerportal",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-03-26T16:54:23Z",
+        "pushedAt": "2016-05-03T05:33:56Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc0MTcxMDQ1",
+      "login": "Xiangxiang-Li",
+      "name": "Xiangxiang Li",
+      "type": "User",
+      "location": "San Marino",
+      "url": "https://github.com/Xiangxiang-Li",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/74171045?u=eb42fa0398ca04c5fa9441f1a893a929e424d54a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SM",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "San Marino"
+      },
+      "discoveryTerms": [
+        "San Marino"
+      ],
+      "topRepository": {
+        "name": "XiangxiangLi-Website",
+        "nameWithOwner": "Xiangxiang-Li/XiangxiangLi-Website",
+        "url": "https://github.com/Xiangxiang-Li/XiangxiangLi-Website",
+        "description": "About me",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-11-14T03:19:54Z",
+        "pushedAt": "2020-11-14T03:57:57Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
         "licenseInfo": null
       }
     }

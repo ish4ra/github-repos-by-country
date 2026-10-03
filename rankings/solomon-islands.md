@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 0%
+## Repository ranking status: Building 17%
 
-- Geography terms processed: **0 / 47**
-- Progress: **0%**
-- Retained high-potential owner candidates: **31**
-- Search requests completed: **1**
+- Geography terms processed: **8 / 47**
+- Progress: **17%**
+- Retained high-potential owner candidates: **50**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -37,7 +37,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [SINPF/.github](https://github.com/SINPF/.github) | **1** | Solomon Islands |
 | [token-ek/Token-Workout-app](https://github.com/token-ek/Token-Workout-app) | **1** | Solomon Islands |
 | [62crook/hello-world](https://github.com/62crook/hello-world) | **0** | Solomon Islands/ Honiara |
-| [b-tupiti/dis-graphql-api](https://github.com/b-tupiti/dis-graphql-api) | **0** | Honiara, Solomon Islands |
-| [dimdumon/MJRefresh](https://github.com/dimdumon/MJRefresh) | **0** | Solomon Islands |
+| [7EX1U5/WSE-Web](https://github.com/7EX1U5/WSE-Web) | **0** | Honiara, Solomon Islands |
+| [AARAHA/AARAHA](https://github.com/AARAHA/AARAHA) | **0** | Solomon Islands |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

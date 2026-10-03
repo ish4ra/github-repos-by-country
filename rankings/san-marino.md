@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 0%
+## Repository ranking status: Building 22%
 
-- Geography terms processed: **0 / 22**
-- Progress: **0%**
-- Retained high-potential owner candidates: **42**
-- Search requests completed: **1**
+- Geography terms processed: **5 / 22**
+- Progress: **22%**
+- Retained high-potential owner candidates: **114**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -26,6 +26,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [Llandy3d/pytheus](https://github.com/Llandy3d/pytheus) | **96** | San Marino |
 | [agustingianni/retools](https://github.com/agustingianni/retools) | **88** | San Marino |
+| [mikyll/UnityDOTS-Thesis](https://github.com/mikyll/UnityDOTS-Thesis) | **36** | San Marino |
 | [nicorsm/Gradiente](https://github.com/nicorsm/Gradiente) | **35** | San Marino |
 | [v1rx/userbar-generator](https://github.com/v1rx/userbar-generator) | **30** | San Marino |
 | [solarbeamio/solarbeam-interface](https://github.com/solarbeamio/solarbeam-interface) | **25** | San Marino |
@@ -37,7 +38,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [AleRiccardi/laser_scan_processor](https://github.com/AleRiccardi/laser_scan_processor) | **11** | San Marino |
 | [calebnewtonusc/Chewbacca](https://github.com/calebnewtonusc/Chewbacca) | **9** | San Marino, CA |
 | [gcardi/Modbus](https://github.com/gcardi/Modbus) | **8** | Republic of San Marino |
-| [damiandominella/ecgjs](https://github.com/damiandominella/ecgjs) | **4** | San Marino / Milan / Remotely |
-| [N1K0232/BarManagerApplication](https://github.com/N1K0232/BarManagerApplication) | **3** | Repubblica di San Marino |
+| [unirsm/openMuseum](https://github.com/unirsm/openMuseum) | **7** | San Marino |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -10,10 +10,10 @@
 
 ## Repository ranking status: Building 0%
 
-- Geography terms processed: **0 / 402**
+- Geography terms processed: **2 / 402**
 - Progress: **0%**
-- Retained high-potential owner candidates: **378**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **569**
+- Search requests completed: **17**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -37,7 +37,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [EienMosu/MERN-Shopping-App](https://github.com/EienMosu/MERN-Shopping-App) | **22** | North Macedonia/Skopje |
 | [flakrimjusufi/grpc-with-rest](https://github.com/flakrimjusufi/grpc-with-rest) | **21** | Tetovo, North Macedonia |
 | [srdzank/WinSQLite-Editor](https://github.com/srdzank/WinSQLite-Editor) | **19** | North Macedonia |
+| [codeverbojan/remotion-cinematic](https://github.com/codeverbojan/remotion-cinematic) | **18** | North Macedonia |
 | [Delemangi/FINKI](https://github.com/Delemangi/FINKI) | **15** | Skopje, North Macedonia |
-| [Pendramon/Toshinou-Community](https://github.com/Pendramon/Toshinou-Community) | **15** | Skopje, North Macedonia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

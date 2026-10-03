@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 903**
 - Progress: **0%**
-- Retained high-potential owner candidates: **49**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **174**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,14 +24,14 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) | **11,407** | South Africa |
-| [limbopro/Paolujichang](https://github.com/limbopro/Paolujichang) | **7,334** | South Africa |
-| [mitchellkrogza/nginx-ultimate-bad-bot-blocker](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker) | **4,799** | South Africa |
+| [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) | **11,411** | South Africa |
+| [limbopro/Paolujichang](https://github.com/limbopro/Paolujichang) | **7,340** | South Africa |
+| [mitchellkrogza/nginx-ultimate-bad-bot-blocker](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker) | **4,800** | South Africa |
 | [FilledStacks/flutter-tutorials](https://github.com/FilledStacks/flutter-tutorials) | **4,776** | South Africa |
-| [Trixarian/NetherSX2-patch](https://github.com/Trixarian/NetherSX2-patch) | **2,653** | South Africa |
+| [Trixarian/NetherSX2-patch](https://github.com/Trixarian/NetherSX2-patch) | **2,660** | South Africa |
 | [TCNOco/TcNo-Acc-Switcher](https://github.com/TCNOco/TcNo-Acc-Switcher) | **2,373** | South Africa |
-| [vpavlenko/study-music](https://github.com/vpavlenko/study-music) | **2,300** | Tzaneen, South Africa |
-| [alexmojaki/heartrate](https://github.com/alexmojaki/heartrate) | **1,843** | South Africa |
+| [vpavlenko/study-music](https://github.com/vpavlenko/study-music) | **2,301** | Tzaneen, South Africa |
+| [alexmojaki/heartrate](https://github.com/alexmojaki/heartrate) | **1,844** | South Africa |
 | [fluffypony/dothething](https://github.com/fluffypony/dothething) | **937** | South Africa |
 | [stevedonovan/gentle-intro](https://github.com/stevedonovan/gentle-intro) | **849** | Johannesburg, South Africa |
 | [tiaanduplessis/awesome-react-talks](https://github.com/tiaanduplessis/awesome-react-talks) | **684** | Cape Town, South Africa |

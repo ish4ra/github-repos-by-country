@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 6%
+## Repository ranking status: Building 60%
 
-- Geography terms processed: **1 / 15**
-- Progress: **6%**
-- Retained high-potential owner candidates: **13**
-- Search requests completed: **1**
+- Geography terms processed: **9 / 15**
+- Progress: **60%**
+- Retained high-potential owner candidates: **14**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -26,6 +26,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [CaribThemes/grav-skeleton-pricklypear](https://github.com/CaribThemes/grav-skeleton-pricklypear) | **8** | St Martin Island F.W.I. |
 | [WillHayes096283/Movie-Collection-Library](https://github.com/WillHayes096283/Movie-Collection-Library) | **2** | 554 University St, Martin, TN 38237 |
+| [Active-Outre-Mer-Dev/sxm-quiz](https://github.com/Active-Outre-Mer-Dev/sxm-quiz) | **1** | Saint Martin (French part) |
 | [AlexandreRieraCesi/my-app](https://github.com/AlexandreRieraCesi/my-app) | **0** | MONTBONNOT ST MARTIN |
 | [ArtStu/Mdx_Template](https://github.com/ArtStu/Mdx_Template) | **0** | St.-Martin-Straße 61,81669 München |
 | [bluevistacaraibe/GLappGac](https://github.com/bluevistacaraibe/GLappGac) | **0** | ST MARTIN |

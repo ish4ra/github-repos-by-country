@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 161**
 - Progress: **0%**
-- Retained high-potential owner candidates: **49**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **329**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [tchx84/Flatseal](https://github.com/tchx84/Flatseal) | **1,791** | Paraguay |
+| [tchx84/Flatseal](https://github.com/tchx84/Flatseal) | **1,792** | Paraguay |
 | [matiasinsaurralde/facebook-tunnel](https://github.com/matiasinsaurralde/facebook-tunnel) | **1,289** | Paraguay |
 | [prolic/fpp](https://github.com/prolic/fpp) | **286** | Paraguay |
 | [mathiasgrimm/laravel-dot-env-gen](https://github.com/mathiasgrimm/laravel-dot-env-gen) | **168** | Asunción, Paraguay |
@@ -35,7 +35,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [melizeche/ayudapy](https://github.com/melizeche/ayudapy) | **118** | Paraguay |
 | [metakeule/fmtdate](https://github.com/metakeule/fmtdate) | **95** | Asunción / Paraguay |
 | [cmelgarejo/go-gql-server](https://github.com/cmelgarejo/go-gql-server) | **73** | Paraguay |
-| [skyvanguard/awesome-ai-pentesting](https://github.com/skyvanguard/awesome-ai-pentesting) | **58** | Paraguay |
+| [skyvanguard/awesome-ai-pentesting](https://github.com/skyvanguard/awesome-ai-pentesting) | **59** | Paraguay |
 | [kennym/cf7-to-api](https://github.com/kennym/cf7-to-api) | **52** | Paraguay |
 | [juancarlosmiranda/azure_kinect_notes](https://github.com/juancarlosmiranda/azure_kinect_notes) | **42** | Encarnación - Paraguay |
 | [jvcjunior/login-react-redux](https://github.com/jvcjunior/login-react-redux) | **40** | Santa Rita, Paraguay |

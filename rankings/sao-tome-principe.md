@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 1%
+## Repository ranking status: Building 15%
 
-- Geography terms processed: **1 / 58**
-- Progress: **1%**
-- Retained high-potential owner candidates: **19**
-- Search requests completed: **1**
+- Geography terms processed: **9 / 58**
+- Progress: **15%**
+- Retained high-potential owner candidates: **20**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -31,6 +31,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [JoelGraca/calculadoraIMC](https://github.com/JoelGraca/calculadoraIMC) | **1** | São Tomé e Príncipe |
 | [nevesade/app-bank-transfert](https://github.com/nevesade/app-bank-transfert) | **1** | São Tomé e Príncipe |
 | [alekssanderquintas/portif-lio](https://github.com/alekssanderquintas/portif-lio) | **0** | São Tomé e Príncipe |
+| [bd805672-eng/Focal-Operations](https://github.com/bd805672-eng/Focal-Operations) | **0** | changra ,moyna ,purba Mednipur |
 | [bigdaddydobby/bigdaddydobby](https://github.com/bigdaddydobby/bigdaddydobby) | **0** | São Tomé & Príncipe (ST) |
 | [danielneto81/Tool-System](https://github.com/danielneto81/Tool-System) | **0** | São Tomé e Príncipe |
 | [EdmyPenhor/EdmyPenhor](https://github.com/EdmyPenhor/EdmyPenhor) | **0** | São Tomé e Príncipe |
@@ -38,6 +39,5 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [fredemarta/Projecto-](https://github.com/fredemarta/Projecto-) | **0** | São Tomé e Príncipe |
 | [JoaoNoel/admin-tempalte](https://github.com/JoaoNoel/admin-tempalte) | **0** | São Tomé e Príncipe |
 | [josias-gsd/loveRepository-frontEnd](https://github.com/josias-gsd/loveRepository-frontEnd) | **0** | São Tomé e Príncipe |
-| [kotvnaskefunmaker/kotvnaskefunmaker](https://github.com/kotvnaskefunmaker/kotvnaskefunmaker) | **0** | São Tomé & Príncipe (ST) |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

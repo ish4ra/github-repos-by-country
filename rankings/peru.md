@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 1,893**
 - Progress: **0%**
-- Retained high-potential owner candidates: **46**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **165**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,12 +24,12 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [dcajasn/Riskfolio-Lib](https://github.com/dcajasn/Riskfolio-Lib) | **4,532** | Lima, Peru |
+| [dcajasn/Riskfolio-Lib](https://github.com/dcajasn/Riskfolio-Lib) | **4,533** | Lima, Peru |
 | [crafter-station/petdex](https://github.com/crafter-station/petdex) | **4,189** | Peru |
 | [mriscoc/Ender3V2S1](https://github.com/mriscoc/Ender3V2S1) | **3,179** | Lima, Peru |
-| [CristianOlivera1/openvid](https://github.com/CristianOlivera1/openvid) | **2,684** | Peru |
+| [CristianOlivera1/openvid](https://github.com/CristianOlivera1/openvid) | **2,686** | Peru |
 | [devaige/WheelPicker](https://github.com/devaige/WheelPicker) | **2,639** | Pampa de Vaca, Torata, Mariscal Nieto  Moquegua 18100, Peru |
-| [joelibaceta/video-to-ascii](https://github.com/joelibaceta/video-to-ascii) | **1,866** | Lima, Peru |
+| [joelibaceta/video-to-ascii](https://github.com/joelibaceta/video-to-ascii) | **1,867** | Lima, Peru |
 | [marcelo-earth/generative-manim](https://github.com/marcelo-earth/generative-manim) | **924** | Peru |
 | [emedinaa/kotlin-mvvm](https://github.com/emedinaa/kotlin-mvvm) | **549** | Lima, Peru |
 | [CodigoCristo/sublimepatch](https://github.com/CodigoCristo/sublimepatch) | **294** | Peru |

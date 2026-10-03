@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 2%
+## Repository ranking status: Building 16%
 
-- Geography terms processed: **1 / 49**
-- Progress: **2%**
-- Retained high-potential owner candidates: **20**
-- Search requests completed: **1**
+- Geography terms processed: **8 / 49**
+- Progress: **16%**
+- Retained high-potential owner candidates: **22**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -35,9 +35,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Dore133/JenkinsProgram](https://github.com/Dore133/JenkinsProgram) | **0** | St. Kitts & Nevis |
 | [dparis164/hello_test](https://github.com/dparis164/hello_test) | **0** | St. Kitts & Nevis |
 | [EvolutionOfGaming/EOG-Beta-Bug-Reporting](https://github.com/EvolutionOfGaming/EOG-Beta-Bug-Reporting) | **0** | St. Kitts & Nevis |
+| [GiggyDragoon/haxe](https://github.com/GiggyDragoon/haxe) | **0** | Basseterre |
 | [kemare2012/antibiotics_use](https://github.com/kemare2012/antibiotics_use) | **0** | St. Kitts and Nevis |
 | [ll1301/t](https://github.com/ll1301/t) | **0** | Basseterre, St Kitts & Nevis |
 | [lubberayescobar/lubberayescobar](https://github.com/lubberayescobar/lubberayescobar) | **0** | St. Kitts & Nevis (KN) |
-| [mercedesbenzley/mercedesbenzley](https://github.com/mercedesbenzley/mercedesbenzley) | **0** | St. Kitts & Nevis (KN) |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

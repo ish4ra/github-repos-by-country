@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 94**
 - Progress: **0%**
-- Retained high-potential owner candidates: **49**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **363**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -29,15 +29,15 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [samuelmoiwa/Awesome-books-ES6](https://github.com/samuelmoiwa/Awesome-books-ES6) | **19** | Sierra Leone |
 | [monimesl/pulserl](https://github.com/monimesl/pulserl) | **16** | Sierra Leone |
 | [AmaduKamara/leaderboard-app](https://github.com/AmaduKamara/leaderboard-app) | **14** | Freetown, Sierra Leone. |
+| [Barrie20/terradrift](https://github.com/Barrie20/terradrift) | **14** | Sierra Leone , West Africa |
 | [eponkratova/data_envelopment_analysis](https://github.com/eponkratova/data_envelopment_analysis) | **12** | Sierra Leone |
 | [mmsesay/todo-list](https://github.com/mmsesay/todo-list) | **11** | Freetown, Sierra Leone |
 | [joemrnice/js-view-engines.ai](https://github.com/joemrnice/js-view-engines.ai) | **10** | Freetown, Sierra Leone. |
 | [IshmaelKargbo/mordan-react](https://github.com/IshmaelKargbo/mordan-react) | **7** | Sierra Leone |
 | [mkk2026/agentreg](https://github.com/mkk2026/agentreg) | **6** | Freetown, Sierra Leone |
 | [Alusp/World-Health-Assembly](https://github.com/Alusp/World-Health-Assembly) | **5** | Sierra Leone |
-| [Mevizcode/Authentication-Authorization-Workflow-with-Spring-Boot](https://github.com/Mevizcode/Authentication-Authorization-Workflow-with-Spring-Boot) | **4** | Freetown, Sierra Leone |
-| [Mustapha-Official/www.mustapha.com](https://github.com/Mustapha-Official/www.mustapha.com) | **4** | Kenema, Sierra Leone |
-| [dominicOT/Python-CommonErrors](https://github.com/dominicOT/Python-CommonErrors) | **3** | Sierra Leone |
-| [moses-j-coker/next-platform-starter](https://github.com/moses-j-coker/next-platform-starter) | **3** | Sierra Leone |
+| [joestechs/php.ai](https://github.com/joestechs/php.ai) | **5** | Sierra Leone, West Africa. |
+| [Data-Science-Salone/rdcsl](https://github.com/Data-Science-Salone/rdcsl) | **4** | Sierra Leone |
+| [Judah40/Judah40](https://github.com/Judah40/Judah40) | **4** | Kissy Ferry  Junction, Freetown Sierra Leone |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

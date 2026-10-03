@@ -12,21 +12,38 @@
     "termsTotal": 49
   },
   "phase": "discovery",
-  "nextTermIndex": 1,
-  "activeTerm": null,
+  "nextTermIndex": 8,
+  "activeTerm": {
+    "index": 8,
+    "term": "Mansion",
+    "queue": [
+      {
+        "query": "location:\"Mansion\"",
+        "stage": "base",
+        "cursor": "Y3Vyc29yOjUw",
+        "pageNumber": 2,
+        "attempts": 0
+      }
+    ],
+    "startedAt": "2026-10-03T23:21:35.472Z",
+    "requests": 1,
+    "leafPages": 1,
+    "shardExpansions": 0,
+    "reportedCount": null
+  },
   "discoveryComplete": false,
   "startedAt": "2026-10-03T08:36:39.526Z",
-  "updatedAt": "2026-10-03T08:36:41.564Z",
+  "updatedAt": "2026-10-03T23:21:38.315Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
-    "termsProcessed": 1,
-    "searchRequests": 1,
-    "leafPages": 1,
+    "termsProcessed": 8,
+    "searchRequests": 9,
+    "leafPages": 9,
     "shardExpansions": 0,
-    "rawOwnerHits": 28,
-    "acceptedOwnerHits": 27,
-    "rejectedOwnerHits": 1,
+    "rawOwnerHits": 87,
+    "acceptedOwnerHits": 35,
+    "rejectedOwnerHits": 52,
     "unresolvedShardCount": 0,
     "minimumRateLimitRemaining": 4548
   },
@@ -84,6 +101,7 @@
         "matched": "St. Kitts & Nevis"
       },
       "discoveryTerms": [
+        "Basseterre",
         "St. Kitts & Nevis"
       ],
       "topRepository": {
@@ -156,6 +174,7 @@
         "matched": "St. Kitts & Nevis"
       },
       "discoveryTerms": [
+        "Basseterre",
         "St. Kitts & Nevis"
       ],
       "topRepository": {
@@ -426,6 +445,40 @@
       }
     },
     {
+      "id": "U_kgDOCTkd9Q",
+      "login": "GiggyDragoon",
+      "name": "GiggyDragoon",
+      "type": "User",
+      "location": "Basseterre",
+      "url": "https://github.com/GiggyDragoon",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/154738165?u=c1827ff7476e835a6a2295d659ac09e7831d20e2&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "KN",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "basseterre"
+      },
+      "discoveryTerms": [
+        "Basseterre"
+      ],
+      "topRepository": {
+        "name": "haxe",
+        "nameWithOwner": "GiggyDragoon/haxe",
+        "url": "https://github.com/GiggyDragoon/haxe",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-12-24T12:18:44Z",
+        "pushedAt": "2023-12-24T12:18:44Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjYzODAxNzY5",
       "login": "kemare2012",
       "name": "Martina Regis",
@@ -477,6 +530,7 @@
         "matched": "St. Kitts & Nevis"
       },
       "discoveryTerms": [
+        "Basseterre",
         "St. Kitts & Nevis"
       ],
       "topRepository": {
@@ -695,6 +749,40 @@
         "createdAt": "2024-09-28T21:41:14Z",
         "pushedAt": "2024-09-28T21:41:43Z",
         "homepageUrl": "https://github.com/shadriandancingman",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCFuuzw",
+      "login": "Sofrinix",
+      "name": "Sofrinix",
+      "type": "User",
+      "location": "Basseterre, Saint Kitts & Nevis",
+      "url": "https://github.com/Sofrinix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/140226255?u=1b3159de2eae53c704324ba8b26d77675964a359&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "KN",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "basseterre"
+      },
+      "discoveryTerms": [
+        "Basseterre"
+      ],
+      "topRepository": {
+        "name": "IP2ORG",
+        "nameWithOwner": "Sofrinix/IP2ORG",
+        "url": "https://github.com/Sofrinix/IP2ORG",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-07-22T04:07:00Z",
+        "pushedAt": "2023-07-22T04:07:00Z",
+        "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
       }

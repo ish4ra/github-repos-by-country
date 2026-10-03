@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 0%
+## Repository ranking status: Building 5%
 
-- Geography terms processed: **0 / 86**
-- Progress: **0%**
-- Retained high-potential owner candidates: **15**
-- Search requests completed: **1**
+- Geography terms processed: **5 / 86**
+- Progress: **5%**
+- Retained high-potential owner candidates: **44**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -34,10 +34,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [5thAttemptCode/Samoan_Fale--ReactThreeFiber_Blender](https://github.com/5thAttemptCode/Samoan_Fale--ReactThreeFiber_Blender) | **1** | Apia, Samoa |
 | [duchonic/aoc](https://github.com/duchonic/aoc) | **1** | samoa |
 | [iwtem/figma-fetch](https://github.com/iwtem/figma-fetch) | **1** | Samoa |
+| [Radr443/SSLChecker](https://github.com/Radr443/SSLChecker) | **1** | Samoa  |
+| [raharinjatovo/n8n-mcp](https://github.com/raharinjatovo/n8n-mcp) | **1** | Amirican Samoa |
+| [SPREP/tms-mobile](https://github.com/SPREP/tms-mobile) | **1** | Samoa |
 | [Tui-Vao/Vai-PBR](https://github.com/Tui-Vao/Vai-PBR) | **1** | Samoa |
-| [Hamobcdev/pacific-commerce-node](https://github.com/Hamobcdev/pacific-commerce-node) | **0** | Samoa |
-| [MetaWaveInfo/MetaWaveInfo](https://github.com/MetaWaveInfo/MetaWaveInfo) | **0** | Samoa Vistra Corporate Services Centre, Ground Floor NPF Building,Beach Road Apia |
-| [shifu-lin/shifu-lin](https://github.com/shifu-lin/shifu-lin) | **0** | Apia, Samoa |
-| [Vodafone-Samoa/joomla-docker](https://github.com/Vodafone-Samoa/joomla-docker) | **0** | Samoa |
+| [ahkeewan/ahkeewan.github.io](https://github.com/ahkeewan/ahkeewan.github.io) | **0** | Samoa |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

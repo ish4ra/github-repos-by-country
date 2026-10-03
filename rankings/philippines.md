@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 3,436**
 - Progress: **0%**
-- Retained high-potential owner candidates: **47**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **152**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,19 +25,19 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [yajra/laravel-datatables](https://github.com/yajra/laravel-datatables) | **4,872** | Philippines |
-| [xiv3r/Burpsuite-Professional](https://github.com/xiv3r/Burpsuite-Professional) | **3,160** | Malaybalay City Philippines |
-| [tyron12233/CodeAssist](https://github.com/tyron12233/CodeAssist) | **1,945** | Philippines |
+| [ivanceras/svgbob](https://github.com/ivanceras/svgbob) | **4,234** | Cebu, Philippines |
+| [xiv3r/Burpsuite-Professional](https://github.com/xiv3r/Burpsuite-Professional) | **3,162** | Malaybalay City Philippines |
+| [tyron12233/CodeAssist](https://github.com/tyron12233/CodeAssist) | **1,947** | Philippines |
 | [AeolusUX/ArkOS-R3XS](https://github.com/AeolusUX/ArkOS-R3XS) | **1,596** | Philippines |
 | [jgudo/ecommerce-react](https://github.com/jgudo/ecommerce-react) | **1,347** | Philippines |
-| [bryllim/workout-guide](https://github.com/bryllim/workout-guide) | **1,323** | Manila, Philippines |
+| [bryllim/workout-guide](https://github.com/bryllim/workout-guide) | **1,324** | Manila, Philippines |
 | [roatienza/Deep-Learning-Experiments](https://github.com/roatienza/Deep-Learning-Experiments) | **1,201** | Philippines |
-| [smoochiee/Bluetooth-jammer-esp32](https://github.com/smoochiee/Bluetooth-jammer-esp32) | **1,071** | philippines |
+| [smoochiee/Bluetooth-jammer-esp32](https://github.com/smoochiee/Bluetooth-jammer-esp32) | **1,072** | philippines |
 | [lxsmnsyc/seroval](https://github.com/lxsmnsyc/seroval) | **731** | Philippines |
 | [joshuadeguzman/flutter-examples](https://github.com/joshuadeguzman/flutter-examples) | **625** | Philippines |
 | [bettergovph/bettergov](https://github.com/bettergovph/bettergov) | **538** | Philippines |
 | [AlizerUncaged/desktop-waifu](https://github.com/AlizerUncaged/desktop-waifu) | **402** | Philippines |
 | [warengonzaga/css-text-portrait-builder](https://github.com/warengonzaga/css-text-portrait-builder) | **372** | Philippines |
 | [macalinao/ghfollowers](https://github.com/macalinao/ghfollowers) | **370** | Metro Manila, Philippines |
-| [OSSPhilippines/freefolio](https://github.com/OSSPhilippines/freefolio) | **346** | Philippines |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

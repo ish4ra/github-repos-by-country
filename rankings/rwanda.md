@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 59**
 - Progress: **0%**
-- Retained high-potential owner candidates: **50**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **120**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -30,6 +30,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [pacifiquem/awesome-go](https://github.com/pacifiquem/awesome-go) | **79** | Kigali, Rwanda |
 | [shemaikuzwe/urban-deals-shop](https://github.com/shemaikuzwe/urban-deals-shop) | **48** | rwanda |
 | [ikuzweelisa/react-todo-app](https://github.com/ikuzweelisa/react-todo-app) | **44** | Rwanda |
+| [divinecharlotte/todo-list](https://github.com/divinecharlotte/todo-list) | **25** | Rwanda,Kigali |
 | [thepiratehub/online-bus-ticket](https://github.com/thepiratehub/online-bus-ticket) | **24** | kigali rwanda |
 | [jazzybruno/Spring-Boot-Template](https://github.com/jazzybruno/Spring-Boot-Template) | **22** | Kigali , Rwanda |
 | [descholar-ceo/boiler](https://github.com/descholar-ceo/boiler) | **21** | Kigali, Rwanda |
@@ -38,6 +39,5 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [kenessajr/react-with-actions](https://github.com/kenessajr/react-with-actions) | **17** | Kigali Rwanda |
 | [Mucyo-chris/dart-mobile-app](https://github.com/Mucyo-chris/dart-mobile-app) | **17** | KIGALI-RWANDA |
 | [Edouard144/StayAwake](https://github.com/Edouard144/StayAwake) | **16** | Kigali, Rwanda |
-| [habibundayishimiye/Digital_Electronic](https://github.com/habibundayishimiye/Digital_Electronic) | **16** | Kigali Rwanda |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

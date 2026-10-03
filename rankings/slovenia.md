@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 633**
 - Progress: **0%**
-- Retained high-potential owner candidates: **47**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **305**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -27,10 +27,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [decaporg/decap-cms](https://github.com/decaporg/decap-cms) | **19,407** | Slovenia |
 | [aksonov/react-native-router-flux](https://github.com/aksonov/react-native-router-flux) | **8,913** | Koper, Slovenia |
 | [buresdv/Cork](https://github.com/buresdv/Cork) | **4,704** | Maribor, Slovenia |
-| [AndrewStetsenko/tech-jobs-with-relocation](https://github.com/AndrewStetsenko/tech-jobs-with-relocation) | **4,565** | Slovenia |
+| [AndrewStetsenko/tech-jobs-with-relocation](https://github.com/AndrewStetsenko/tech-jobs-with-relocation) | **4,567** | Slovenia |
 | [tomaz/appledoc](https://github.com/tomaz/appledoc) | **4,185** | Slovenia |
 | [maticzav/graphql-shield](https://github.com/maticzav/graphql-shield) | **3,576** | Ljubljana, Slovenia |
-| [filips123/PWAsForFirefox](https://github.com/filips123/PWAsForFirefox) | **3,114** | Slovenia |
+| [filips123/PWAsForFirefox](https://github.com/filips123/PWAsForFirefox) | **3,117** | Slovenia |
 | [CANopenNode/CANopenNode](https://github.com/CANopenNode/CANopenNode) | **2,020** | Slovenia |
 | [luksa/kubernetes-in-action](https://github.com/luksa/kubernetes-in-action) | **1,982** | Slovenia |
 | [ambrop72/badvpn](https://github.com/ambrop72/badvpn) | **1,932** | Slovenia |
