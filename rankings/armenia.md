@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 614**
+- Progress: **0%**
+- Retained high-potential owner candidates: **119**
+- Search requests completed: **9**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [nopSolutions/nopCommerce](https://github.com/nopSolutions/nopCommerce) | **10,162** | Armenia |
+| [suren-atoyan/monaco-react](https://github.com/suren-atoyan/monaco-react) | **4,749** | Yerevan, Armenia |
+| [ivbeg/awesome-status-pages](https://github.com/ivbeg/awesome-status-pages) | **3,820** | Armenia |
+| [screeps/screeps](https://github.com/screeps/screeps) | **3,351** | Armenia |
+| [khoren93/SwiftHub](https://github.com/khoren93/SwiftHub) | **3,113** | Yerevan, Armenia |
+| [NarHakobyan/awesome-nest-boilerplate](https://github.com/NarHakobyan/awesome-nest-boilerplate) | **2,829** | Armenia |
+| [ai-forever/Kandinsky-2](https://github.com/ai-forever/Kandinsky-2) | **2,811** | Armenia |
+| [vtereshkov/umka-lang](https://github.com/vtereshkov/umka-lang) | **2,108** | Yerevan, Armenia |
+| [armcha/Space-Navigation-View](https://github.com/armcha/Space-Navigation-View) | **1,973** | Armenia |
+| [robertlevonyan/material-chip-view](https://github.com/robertlevonyan/material-chip-view) | **1,334** | Yerevan, Armenia |
+| [shahen94/react-native-video-processing](https://github.com/shahen94/react-native-video-processing) | **1,287** | Yerevan, Armenia |
+| [dannote/figma-use](https://github.com/dannote/figma-use) | **606** | Armenia |
+| [vah13/extractTVpasswords](https://github.com/vah13/extractTVpasswords) | **464** | Armenia, Yerevan |
+| [Kaaveh/ComposeNews](https://github.com/Kaaveh/ComposeNews) | **378** | Yerevan, Armenia |
+| [EngineerSpock/postgres-course-ru](https://github.com/EngineerSpock/postgres-course-ru) | **239** | Armenia, Yerevan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

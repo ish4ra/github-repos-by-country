@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 401**
+- Progress: **0%**
+- Retained high-potential owner candidates: **49**
+- Search requests completed: **1**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [0xAX/linux-insides](https://github.com/0xAX/linux-insides) | **33,617** | Kazakhstan, Astana |
+| [henrypp/memreduct](https://github.com/henrypp/memreduct) | **10,697** | Almaty, Kazakhstan |
+| [MakazhanAlpamys/Soup](https://github.com/MakazhanAlpamys/Soup) | **8,042** | Astana, Kazakhstan |
+| [Hexlet/ru-test-assignments](https://github.com/Hexlet/ru-test-assignments) | **6,776** | Kazakhstan |
+| [adilkhash/Data-Engineering-HowTo](https://github.com/adilkhash/Data-Engineering-HowTo) | **4,028** | Astana, Kazakhstan |
+| [artemnovichkov/iOS-11-by-Examples](https://github.com/artemnovichkov/iOS-11-by-Examples) | **3,282** | Almaty, Kazakhstan |
+| [fnc12/sqlite_orm](https://github.com/fnc12/sqlite_orm) | **2,696** | Almaty, Kazakhstan |
+| [kefir500/apk-editor-studio](https://github.com/kefir500/apk-editor-studio) | **1,668** | Almaty, Kazakhstan |
+| [raindropio/app](https://github.com/raindropio/app) | **1,604** | Kazakhstan |
+| [icerockdev/moko-resources](https://github.com/icerockdev/moko-resources) | **1,350** | Kazakhstan |
+| [aitemr/awesome-git-hooks](https://github.com/aitemr/awesome-git-hooks) | **979** | Almaty, Kazakhstan |
+| [Sh3lldon/FullBypass](https://github.com/Sh3lldon/FullBypass) | **819** | Kazakhstan |
+| [zerobias/telegram-mtproto](https://github.com/zerobias/telegram-mtproto) | **629** | Kazakhstan |
+| [Nai64/Nai64Patches](https://github.com/Nai64/Nai64Patches) | **605** | Kazakhstan |
+| [onl1ner/TabBar](https://github.com/onl1ner/TabBar) | **469** | Astana, Kazakhstan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

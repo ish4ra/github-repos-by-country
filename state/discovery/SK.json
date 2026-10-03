@@ -1,0 +1,1841 @@
+{
+  "schemaVersion": 2,
+  "cycle": 1,
+  "country": {
+    "code": "SK",
+    "name": "Slovakia",
+    "slug": "slovakia"
+  },
+  "geography": {
+    "release": "v3.2-export.8",
+    "sha256": "4a302ea90ffc5820fb0cfc3f79b4fca20687b33bf71e441eb3652d1f4c8d7750",
+    "termsTotal": 873
+  },
+  "phase": "discovery",
+  "nextTermIndex": 0,
+  "activeTerm": {
+    "index": 0,
+    "term": "Slovakia",
+    "queue": [
+      {
+        "query": "location:\"Slovakia\" type:user",
+        "stage": "type",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Slovakia\" type:org",
+        "stage": "type",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      }
+    ],
+    "startedAt": "2026-10-03T08:36:08.822Z",
+    "requests": 1,
+    "leafPages": 0,
+    "shardExpansions": 1,
+    "reportedCount": 9746
+  },
+  "discoveryComplete": false,
+  "startedAt": "2026-10-03T08:36:08.822Z",
+  "updatedAt": "2026-10-03T08:36:13.171Z",
+  "completedAt": null,
+  "finalizedAt": null,
+  "stats": {
+    "termsProcessed": 0,
+    "searchRequests": 1,
+    "leafPages": 0,
+    "shardExpansions": 1,
+    "rawOwnerHits": 50,
+    "acceptedOwnerHits": 48,
+    "rejectedOwnerHits": 2,
+    "unresolvedShardCount": 0,
+    "minimumRateLimitRemaining": 4559
+  },
+  "unresolvedShards": [],
+  "candidates": [
+    {
+      "id": "MDQ6VXNlcjY3Nzkw",
+      "login": "haad",
+      "name": "Adam Hamsik",
+      "type": "User",
+      "location": "Bratislava Slovakia",
+      "url": "https://github.com/haad",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/67790?u=21981748a4badf566644e05ccd144c0fbda0264e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "proxychains",
+        "nameWithOwner": "haad/proxychains",
+        "url": "https://github.com/haad/proxychains",
+        "description": "proxychains - a tool that forces any TCP connection made by any given application to follow through proxy like TOR or any other SOCKS4, SOCKS5 or HTTP(S) proxy.  Supported auth-types: \"user/pass\" for SOCKS4/5, \"basic\" for HTTP.",
+        "stargazerCount": 7965,
+        "forkCount": 681,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2011-02-25T12:27:05Z",
+        "pushedAt": "2024-06-08T02:20:54Z",
+        "homepageUrl": "http://proxychains.sourceforge.net/",
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v2.0",
+          "spdxId": "GPL-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEyMjkyMzM=",
+      "login": "ondrajz",
+      "name": "Ondrej Fabry",
+      "type": "User",
+      "location": "Bratislava, Slovakia",
+      "url": "https://github.com/ondrajz",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1229233?u=be1150aa94261c5d8f241e322a740d616700c10e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "go-callvis",
+        "nameWithOwner": "ondrajz/go-callvis",
+        "url": "https://github.com/ondrajz/go-callvis",
+        "description": "Visualize call graph of a Go program using Graphviz",
+        "stargazerCount": 6528,
+        "forkCount": 428,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-09-03T11:31:46Z",
+        "pushedAt": "2026-03-30T16:22:18Z",
+        "homepageUrl": "https://ondrajz.github.io/go-callvis/",
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgyMTU4Mg==",
+      "login": "itsgoingd",
+      "name": "its",
+      "type": "User",
+      "location": "Slovakia",
+      "url": "https://github.com/itsgoingd",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/821582?u=b9558d572c0022ae29d9284c0764cd2c6e013eaf&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "clockwork",
+        "nameWithOwner": "itsgoingd/clockwork",
+        "url": "https://github.com/itsgoingd/clockwork",
+        "description": "Clockwork - php dev tools in your browser - server-side component",
+        "stargazerCount": 5953,
+        "forkCount": 333,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-06-21T23:57:05Z",
+        "pushedAt": "2026-08-29T01:55:47Z",
+        "homepageUrl": "https://underground.works/clockwork",
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjY0OTkyMTY=",
+      "login": "totaljs",
+      "name": "Total.js Platform",
+      "type": "Organization",
+      "location": "Slovakia",
+      "url": "https://github.com/totaljs",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6499216?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "framework",
+        "nameWithOwner": "totaljs/framework",
+        "url": "https://github.com/totaljs/framework",
+        "description": "Node.js framework",
+        "stargazerCount": 4356,
+        "forkCount": 437,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2012-12-16T13:12:02Z",
+        "pushedAt": "2024-03-22T08:28:40Z",
+        "homepageUrl": "http://www.totaljs.com",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjE2NDc2MjU3",
+      "login": "SimpleMobileTools",
+      "name": "Simple Mobile Tools",
+      "type": "Organization",
+      "location": "Slovakia",
+      "url": "https://github.com/SimpleMobileTools",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16476257?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "Simple-Gallery",
+        "nameWithOwner": "SimpleMobileTools/Simple-Gallery",
+        "url": "https://github.com/SimpleMobileTools/Simple-Gallery",
+        "description": "A premium app for managing and editing your photos, videos, GIFs without ads",
+        "stargazerCount": 4023,
+        "forkCount": 801,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-02-16T21:17:13Z",
+        "pushedAt": "2024-08-18T04:23:47Z",
+        "homepageUrl": "https://www.simplemobiletools.com",
+        "primaryLanguage": {
+          "name": "Kotlin"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE1MzUyNg==",
+      "login": "nem0",
+      "name": "Mikulas Florek",
+      "type": "User",
+      "location": "Slovakia, Bratislava",
+      "url": "https://github.com/nem0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/153526?u=66416808837783b88217ede23a3f0f34cc11c45d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "LumixEngine",
+        "nameWithOwner": "nem0/LumixEngine",
+        "url": "https://github.com/nem0/LumixEngine",
+        "description": "3D C++ Game Engine - yet another open source game engine",
+        "stargazerCount": 3890,
+        "forkCount": 444,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-11-21T14:43:55Z",
+        "pushedAt": "2026-10-02T23:05:34Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUzODgwMQ==",
+      "login": "darsain",
+      "name": null,
+      "type": "User",
+      "location": "Slovakia",
+      "url": "https://github.com/darsain",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/538801?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "sly",
+        "nameWithOwner": "darsain/sly",
+        "url": "https://github.com/darsain/sly",
+        "description": "JavaScript library for one-directional scrolling with item based navigation support.",
+        "stargazerCount": 2839,
+        "forkCount": 480,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2012-02-13T12:53:54Z",
+        "pushedAt": "2020-09-07T21:59:30Z",
+        "homepageUrl": "http://darsa.in/sly",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE5MDMyODU=",
+      "login": "michalmalik",
+      "name": "Michal Malik",
+      "type": "User",
+      "location": "Bratislava, Slovakia",
+      "url": "https://github.com/michalmalik",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1903285?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "linux-re-101",
+        "nameWithOwner": "michalmalik/linux-re-101",
+        "url": "https://github.com/michalmalik/linux-re-101",
+        "description": "A collection of resources for linux reverse engineering ",
+        "stargazerCount": 2081,
+        "forkCount": 365,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-01-04T18:33:20Z",
+        "pushedAt": "2022-06-02T17:39:32Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUxMDc1OTA=",
+      "login": "ckissi",
+      "name": "Csaba Kissi",
+      "type": "User",
+      "location": "Slovakia",
+      "url": "https://github.com/ckissi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5107590?u=21ceae6bec94b2c42c12b8be5d6cf9725c6431d6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "Learn-by-projects",
+        "nameWithOwner": "ckissi/Learn-by-projects",
+        "url": "https://github.com/ckissi/Learn-by-projects",
+        "description": "Programming tutorials for C, C#, Python, Javascript, Typescript, React, Go, HTML/CSS, Java. PHP and more",
+        "stargazerCount": 1639,
+        "forkCount": 191,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-10-12T13:31:45Z",
+        "pushedAt": "2025-10-12T19:44:34Z",
+        "homepageUrl": "https://csabakissi.com",
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM1OTQ1MA==",
+      "login": "mauron85",
+      "name": "Marián Hello",
+      "type": "User",
+      "location": "Slovakia",
+      "url": "https://github.com/mauron85",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/359450?u=d49fdfcee47356975981ea6f3ad3e7a71bc29bf0&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "react-native-background-geolocation",
+        "nameWithOwner": "mauron85/react-native-background-geolocation",
+        "url": "https://github.com/mauron85/react-native-background-geolocation",
+        "description": "Background and foreground geolocation plugin for React Native. Tracks user when app is running in background.",
+        "stargazerCount": 1354,
+        "forkCount": 560,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-05-31T22:09:08Z",
+        "pushedAt": "2024-08-20T03:31:58Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE0NDk5MA==",
+      "login": "mkottman",
+      "name": "Michal Kottman",
+      "type": "User",
+      "location": "Bratislava, Slovakia",
+      "url": "https://github.com/mkottman",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/144990?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "AndroLua",
+        "nameWithOwner": "mkottman/AndroLua",
+        "url": "https://github.com/mkottman/AndroLua",
+        "description": "Lua and LuaJava ported to Android",
+        "stargazerCount": 1113,
+        "forkCount": 301,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2011-02-04T00:49:44Z",
+        "pushedAt": "2016-08-17T03:56:17Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIyMDgzOQ==",
+      "login": "lalinsky",
+      "name": "Lukáš Lalinský",
+      "type": "User",
+      "location": "Trenčín, Slovakia",
+      "url": "https://github.com/lalinsky",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/220839?u=76f817358cb458727e81dd4ec11188d343becc9e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "zio",
+        "nameWithOwner": "lalinsky/zio",
+        "url": "https://github.com/lalinsky/zio",
+        "description": "Async I/O framework for Zig",
+        "stargazerCount": 629,
+        "forkCount": 40,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-09-16T12:12:46Z",
+        "pushedAt": "2026-10-02T10:58:14Z",
+        "homepageUrl": "https://lalinsky.github.io/zio/",
+        "primaryLanguage": {
+          "name": "Zig"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEwMjAwNDE=",
+      "login": "gabonator",
+      "name": "Gabriel Valky",
+      "type": "User",
+      "location": "Slovakia",
+      "url": "https://github.com/gabonator",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1020041?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "LA104",
+        "nameWithOwner": "gabonator/LA104",
+        "url": "https://github.com/gabonator/LA104",
+        "description": "LA104 logic analyser alternative firmware and experiments",
+        "stargazerCount": 596,
+        "forkCount": 91,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-11-01T03:54:21Z",
+        "pushedAt": "2025-01-29T22:34:46Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ2MTQ5MQ==",
+      "login": "mrshu",
+      "name": "Marek Šuppa",
+      "type": "User",
+      "location": "Slovakia",
+      "url": "https://github.com/mrshu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/461491?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "github-statuses",
+        "nameWithOwner": "mrshu/github-statuses",
+        "url": "https://github.com/mrshu/github-statuses",
+        "description": "The \"Missing GitHub Status Page\" -- a Flat Data attempt at historically documenting GitHub statuses",
+        "stargazerCount": 565,
+        "forkCount": 25,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-06-11T21:23:19Z",
+        "pushedAt": "2026-10-02T10:28:46Z",
+        "homepageUrl": "https://mrshu.github.io/github-statuses/",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEwNzA2Nzcz",
+      "login": "JAndrassy",
+      "name": "Juraj Andrássy",
+      "type": "User",
+      "location": "Slovakia",
+      "url": "https://github.com/JAndrassy",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10706773?u=1724ce638b7e43a99c78489853163d01cbcc05b7&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "ArduinoOTA",
+        "nameWithOwner": "JAndrassy/ArduinoOTA",
+        "url": "https://github.com/JAndrassy/ArduinoOTA",
+        "description": "Arduino library to upload sketch over network to Arduino board with WiFi or Ethernet libraries",
+        "stargazerCount": 534,
+        "forkCount": 95,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-12-16T19:56:59Z",
+        "pushedAt": "2026-03-24T18:43:18Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": {
+          "name": "GNU Lesser General Public License v2.1",
+          "spdxId": "LGPL-2.1"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYxMzY0Nw==",
+      "login": "mareksuscak",
+      "name": "Marek Suscak",
+      "type": "User",
+      "location": "Kosice, Slovakia",
+      "url": "https://github.com/mareksuscak",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/613647?u=404f61e24b7dc124697d9d0209d24bfce127b434&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "cs50",
+        "nameWithOwner": "mareksuscak/cs50",
+        "url": "https://github.com/mareksuscak/cs50",
+        "description": "🎓 Harvard CS50x — 2018 solutions 👨‍🏫",
+        "stargazerCount": 520,
+        "forkCount": 406,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-04-05T11:10:17Z",
+        "pushedAt": "2021-06-10T09:04:12Z",
+        "homepageUrl": "https://cs50.harvard.edu/x/2020/",
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMzMDA2ODg=",
+      "login": "skiselkov",
+      "name": "Saso Kiselkov",
+      "type": "User",
+      "location": "Slovakia",
+      "url": "https://github.com/skiselkov",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3300688?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "BetterPushbackC",
+        "nameWithOwner": "skiselkov/BetterPushbackC",
+        "url": "https://github.com/skiselkov/BetterPushbackC",
+        "description": "This is the BetterPushback plugin for X-Plane 11 and X-Plane 12",
+        "stargazerCount": 502,
+        "forkCount": 140,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2017-06-18T11:56:27Z",
+        "pushedAt": "2024-04-12T14:38:26Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI5MTUwOTcw",
+      "login": "sneakyevil",
+      "name": null,
+      "type": "User",
+      "location": "Slovakia",
+      "url": "https://github.com/sneakyevil",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/29150970?u=35fa71e8bc7b1267264087866e8ece1ec6f74a25&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "IL2CPP_Resolver",
+        "nameWithOwner": "sneakyevil/IL2CPP_Resolver",
+        "url": "https://github.com/sneakyevil/IL2CPP_Resolver",
+        "description": "A run-time API resolver for IL2CPP Unity.",
+        "stargazerCount": 474,
+        "forkCount": 89,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-08-21T02:35:15Z",
+        "pushedAt": "2024-07-30T07:49:52Z",
+        "homepageUrl": "https://sneakyevil.gitbook.io/il2cpp-resolver/",
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": {
+          "name": "The Unlicense",
+          "spdxId": "Unlicense"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU2NjAxMzUy",
+      "login": "xhyrom",
+      "name": "Jozef Steinhübl",
+      "type": "User",
+      "location": "Slovakia",
+      "url": "https://github.com/xhyrom",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/56601352?u=0b74fa9bc9ffa612af43a04239e8f22801070e78&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "zed-discord-presence",
+        "nameWithOwner": "xhyrom/zed-discord-presence",
+        "url": "https://github.com/xhyrom/zed-discord-presence",
+        "description": "extension for zed that adds support for discord rich presence using lsp",
+        "stargazerCount": 465,
+        "forkCount": 42,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-07-18T22:06:38Z",
+        "pushedAt": "2026-08-12T20:39:34Z",
+        "homepageUrl": "https://git.sr.ht/~hyro/zed-discord-presence",
+        "primaryLanguage": {
+          "name": "Rust"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEyNTk4Mzc5",
+      "login": "Electry",
+      "name": "Michal Chvila",
+      "type": "User",
+      "location": "Slovakia",
+      "url": "https://github.com/Electry",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12598379?u=edf954684da9597681101ef070bd6cc88d43edfd&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "VitaGrafix",
+        "nameWithOwner": "Electry/VitaGrafix",
+        "url": "https://github.com/Electry/VitaGrafix",
+        "description": "VitaGrafix - taiHEN plugin that allows you to change resolution and FPS cap of PS Vita games",
+        "stargazerCount": 445,
+        "forkCount": 27,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-08-07T22:19:43Z",
+        "pushedAt": "2026-09-03T15:46:38Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjkxOTk0MzM=",
+      "login": "amosbastian",
+      "name": "Amos Bastian",
+      "type": "User",
+      "location": "Banska Bystrica, Slovakia",
+      "url": "https://github.com/amosbastian",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9199433?u=01632b819b03b49df7ebf1c901e61683f9db973f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "fpl",
+        "nameWithOwner": "amosbastian/fpl",
+        "url": "https://github.com/amosbastian/fpl",
+        "description": "An asynchronous Python wrapper for the Fantasy Premier League API.",
+        "stargazerCount": 331,
+        "forkCount": 107,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-01-10T15:12:49Z",
+        "pushedAt": "2024-07-26T11:00:57Z",
+        "homepageUrl": "https://fpl.readthedocs.io",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM0Mzg0ODk=",
+      "login": "pylerSM",
+      "name": "pyler",
+      "type": "User",
+      "location": "Slovakia",
+      "url": "https://github.com/pylerSM",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3438489?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "YouTubeBackgroundPlayback",
+        "nameWithOwner": "pylerSM/YouTubeBackgroundPlayback",
+        "url": "https://github.com/pylerSM/YouTubeBackgroundPlayback",
+        "description": "[Xposed module] Enable background playback in YouTube",
+        "stargazerCount": 315,
+        "forkCount": 77,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-02-06T13:15:59Z",
+        "pushedAt": "2021-07-07T21:22:20Z",
+        "homepageUrl": "http://repo.xposed.info/module/com.pyler.youtubebackgroundplayback",
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": {
+          "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+          "spdxId": "BSD-3-Clause"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI0MTQyNTI=",
+      "login": "petersirka",
+      "name": "Peter Širka",
+      "type": "User",
+      "location": "Slovakia",
+      "url": "https://github.com/petersirka",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2414252?u=53668c88aff6493c6c5a4c5619f62f02a9575b43&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "nosql",
+        "nameWithOwner": "petersirka/nosql",
+        "url": "https://github.com/petersirka/nosql",
+        "description": "NoSQL embedded database for small node.js projects",
+        "stargazerCount": 294,
+        "forkCount": 49,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-04-07T09:40:37Z",
+        "pushedAt": "2019-07-23T13:16:11Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIzMjEzNTUz",
+      "login": "filiphric",
+      "name": "Filip Hric",
+      "type": "User",
+      "location": "Senec, Slovakia",
+      "url": "https://github.com/filiphric",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/23213553?u=fb715f089774dac8d2603e546999deb2a9580c96&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "cypress-plugin-api",
+        "nameWithOwner": "filiphric/cypress-plugin-api",
+        "url": "https://github.com/filiphric/cypress-plugin-api",
+        "description": "Cypress plugin to show your API information in the Cypress UI runner",
+        "stargazerCount": 275,
+        "forkCount": 38,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-10-07T19:05:18Z",
+        "pushedAt": "2026-09-04T10:55:37Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "ISC License",
+          "spdxId": "ISC"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYwMzg3Mzg=",
+      "login": "bobricius",
+      "name": "Peter Misenko",
+      "type": "User",
+      "location": "Slovakia",
+      "url": "https://github.com/bobricius",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6038738?u=d48f493a3f58d45abfbc15110e25c0f2b3b13c7f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "armachat",
+        "nameWithOwner": "bobricius/armachat",
+        "url": "https://github.com/bobricius/armachat",
+        "description": "Doomsday LORA QWERTY communicator",
+        "stargazerCount": 268,
+        "forkCount": 29,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-04-10T20:03:16Z",
+        "pushedAt": "2024-05-10T20:11:56Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": {
+          "name": "Creative Commons Zero v1.0 Universal",
+          "spdxId": "CC0-1.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI2MzQy",
+      "login": "jsuchal",
+      "name": "Jano Suchal",
+      "type": "User",
+      "location": "Bratislava/Slovakia",
+      "url": "https://github.com/jsuchal",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/26342?u=58585769aa9d755fe12e522f3a397a527534e020&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "garelic",
+        "nameWithOwner": "jsuchal/garelic",
+        "url": "https://github.com/jsuchal/garelic",
+        "description": "Use Google Analytics for Rails App Performance Monitoring.",
+        "stargazerCount": 228,
+        "forkCount": 6,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2012-10-02T19:22:37Z",
+        "pushedAt": "2012-11-18T20:05:39Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Ruby"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUxMTU4MDU=",
+      "login": "deathbeam",
+      "name": "Tomas Slusny",
+      "type": "User",
+      "location": "Slovakia",
+      "url": "https://github.com/deathbeam",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5115805?u=2f92bb08d8594088b3b931d7711b5f8901e269cc&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "dotfiles",
+        "nameWithOwner": "deathbeam/dotfiles",
+        "url": "https://github.com/deathbeam/dotfiles",
+        "description": "My awesome dotfiles :rocket:",
+        "stargazerCount": 112,
+        "forkCount": 4,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-07-19T15:42:27Z",
+        "pushedAt": "2026-10-01T17:31:39Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "GLSL"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjk0ODI3MjQ=",
+      "login": "Jerga99",
+      "name": "Filip Jerga",
+      "type": "User",
+      "location": "Slovakia",
+      "url": "https://github.com/Jerga99",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9482724?u=db038fd672fd81e7275b8eb2f4ed2941ccd39f98&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "portfolio-jerga",
+        "nameWithOwner": "Jerga99/portfolio-jerga",
+        "url": "https://github.com/Jerga99/portfolio-jerga",
+        "description": "Course on how to create a portfolio app with Next JS",
+        "stargazerCount": 100,
+        "forkCount": 46,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-11-07T11:56:05Z",
+        "pushedAt": "2023-02-28T14:39:50Z",
+        "homepageUrl": "https://www.udemy.com/course/awesome-nextjs-with-react-and-node-amazing-portfolio-app/?referralCode=154895384642AFFCE598",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMzMTY1NDE=",
+      "login": "LOM-instruments",
+      "name": "LOM",
+      "type": "User",
+      "location": "Slovakia",
+      "url": "https://github.com/LOM-instruments",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3316541?u=d23366162763810b65c1ba40afea53e0b4aed005&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "Priezor",
+        "nameWithOwner": "LOM-instruments/Priezor",
+        "url": "https://github.com/LOM-instruments/Priezor",
+        "description": "open source heptagonal magnetic antenna",
+        "stargazerCount": 98,
+        "forkCount": 8,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-03-26T13:10:52Z",
+        "pushedAt": "2022-07-21T11:50:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE2NjUzNzM=",
+      "login": "gamelaster",
+      "name": "Marek Kraus",
+      "type": "User",
+      "location": "Slovakia",
+      "url": "https://github.com/gamelaster",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1665373?u=ebf041da6d31300fd4a66f36cef82b962e387858&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "ArduinoGamepad",
+        "nameWithOwner": "gamelaster/ArduinoGamepad",
+        "url": "https://github.com/gamelaster/ArduinoGamepad",
+        "description": "A GamePad HID library for Arduino Pro Micro/Leonardo (ATMega32u4)",
+        "stargazerCount": 95,
+        "forkCount": 21,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-02-24T21:20:02Z",
+        "pushedAt": "2017-06-10T16:20:08Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ0MTM2",
+      "login": "mfojtik",
+      "name": "Michal Fojtik",
+      "type": "User",
+      "location": "Slovakia",
+      "url": "https://github.com/mfojtik",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/44136?u=c6f666b89ef71276e312a53e77e621d3e25a6f02&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "sinatra-rabbit",
+        "nameWithOwner": "mfojtik/sinatra-rabbit",
+        "url": "https://github.com/mfojtik/sinatra-rabbit",
+        "description": "Sinatra based framework and DSL for building rock-solid REST applications (like API's)",
+        "stargazerCount": 84,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2011-12-13T12:16:07Z",
+        "pushedAt": "2013-03-04T17:08:46Z",
+        "homepageUrl": "http://deltacloud.org",
+        "primaryLanguage": {
+          "name": "Ruby"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc0NjExODU2",
+      "login": "markub3327",
+      "name": "Martin Kubovčík",
+      "type": "User",
+      "location": "Slovakia",
+      "url": "https://github.com/markub3327",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/74611856?u=390b3f05ffc3177a2851412c67b5885a90557238&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "HAR-Transformer",
+        "nameWithOwner": "markub3327/HAR-Transformer",
+        "url": "https://github.com/markub3327/HAR-Transformer",
+        "description": "Transformer for Human Activity Recognition",
+        "stargazerCount": 78,
+        "forkCount": 16,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-02-03T19:55:52Z",
+        "pushedAt": "2023-01-18T13:19:26Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEyMTMzMTM=",
+      "login": "karpolan",
+      "name": "Anton Karpenko",
+      "type": "User",
+      "location": "Bratislava, Slovakia",
+      "url": "https://github.com/karpolan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1213313?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "react-typescript-mui-with-auth-starter",
+        "nameWithOwner": "karpolan/react-typescript-mui-with-auth-starter",
+        "url": "https://github.com/karpolan/react-typescript-mui-with-auth-starter",
+        "description": "[IMPORTANT] - better use Vite starter https://github.com/karpolan/react-mui-vite-ts instead of this \"Create React App + React + Material UI\" starter",
+        "stargazerCount": 55,
+        "forkCount": 20,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-04-22T23:46:48Z",
+        "pushedAt": "2024-05-01T16:12:29Z",
+        "homepageUrl": "https://react-typescript-material.netlify.app/",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE3NjI1MTk=",
+      "login": "ingbrzy",
+      "name": "ingbrzy",
+      "type": "User",
+      "location": "Slovakia, EU",
+      "url": "https://github.com/ingbrzy",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1762519?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "Xiaomi.eu-MIUIv12-XML-Compare",
+        "nameWithOwner": "ingbrzy/Xiaomi.eu-MIUIv12-XML-Compare",
+        "url": "https://github.com/ingbrzy/Xiaomi.eu-MIUIv12-XML-Compare",
+        "description": "MIUI 12 XML Daily Compare for Xiaomi.eu builds",
+        "stargazerCount": 45,
+        "forkCount": 28,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-04-21T09:01:56Z",
+        "pushedAt": "2021-12-22T01:08:21Z",
+        "homepageUrl": "https://www.xiaomi.eu/",
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMwNDA3MTM1",
+      "login": "ivanahuckova",
+      "name": "Ivana Huckova",
+      "type": "User",
+      "location": "Bratislava, Slovakia",
+      "url": "https://github.com/ivanahuckova",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/30407135?u=f4c3fa5008fcd9688f987b7240cc75546a086181&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "avocado_monitoring",
+        "nameWithOwner": "ivanahuckova/avocado_monitoring",
+        "url": "https://github.com/ivanahuckova/avocado_monitoring",
+        "description": "Avocado monitoring system 🥑",
+        "stargazerCount": 37,
+        "forkCount": 5,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-10-02T18:20:17Z",
+        "pushedAt": "2021-03-06T19:23:23Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUwOTQz",
+      "login": "vojto",
+      "name": "Vojtech Rinik",
+      "type": "User",
+      "location": "Kosice, Slovakia",
+      "url": "https://github.com/vojto",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50943?u=102b31bd02ab6322b7556f704683a05f9abff37c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "atmos2",
+        "nameWithOwner": "vojto/atmos2",
+        "url": "https://github.com/vojto/atmos2",
+        "description": null,
+        "stargazerCount": 23,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2012-01-22T07:12:31Z",
+        "pushedAt": "2013-01-11T07:45:42Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "CoffeeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjkwMjY3ODY=",
+      "login": "zpl-zak",
+      "name": "Dominik Madarász",
+      "type": "User",
+      "location": "Slovakia, Zvolen",
+      "url": "https://github.com/zpl-zak",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9026786?u=029925e4b58f3765451715076a466b342e3a3ae2&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "rurik",
+        "nameWithOwner": "zpl-zak/rurik",
+        "url": "https://github.com/zpl-zak/rurik",
+        "description": "A 2D cross-platform game engine experiment. Work in progress",
+        "stargazerCount": 19,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-12-23T02:35:52Z",
+        "pushedAt": "2019-11-10T07:33:09Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYxMzUyMjU=",
+      "login": "PatrikHudak",
+      "name": "Patrik Hudák",
+      "type": "User",
+      "location": "Slovakia",
+      "url": "https://github.com/PatrikHudak",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6135225?u=60a4fc58e365ab887a9446b5e42d134b6f06e109&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "project_sonar_ssl",
+        "nameWithOwner": "PatrikHudak/project_sonar_ssl",
+        "url": "https://github.com/PatrikHudak/project_sonar_ssl",
+        "description": "Helper scripts for processing Project Sonar SSL dataset",
+        "stargazerCount": 7,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-02-25T17:21:56Z",
+        "pushedAt": "2018-04-29T22:14:17Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjExOTY3NzEy",
+      "login": "radovankavicky",
+      "name": "Radovan Kavicky",
+      "type": "User",
+      "location": "Bratislava, Slovakia",
+      "url": "https://github.com/radovankavicky",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11967712?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "github-stickers-octodex",
+        "nameWithOwner": "radovankavicky/github-stickers-octodex",
+        "url": "https://github.com/radovankavicky/github-stickers-octodex",
+        "description": "GitHub Stickers (via) OctoDex https://octodex.github.com/",
+        "stargazerCount": 7,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-06-05T09:43:58Z",
+        "pushedAt": "2018-06-05T09:45:05Z",
+        "homepageUrl": "https://octodex.github.com/slideshow/",
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc1MTcwNjk5",
+      "login": "MatejBendik",
+      "name": "Matej Bendík",
+      "type": "User",
+      "location": "Slovakia",
+      "url": "https://github.com/MatejBendik",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/75170699?u=4dddf1ee2c54527cd2e25f94a53c9a8d63b30cd7&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "promptzone",
+        "nameWithOwner": "MatejBendik/promptzone",
+        "url": "https://github.com/MatejBendik/promptzone",
+        "description": "Promptzone is an AI prompting tool for modern world to discover, create and share creative prompts.",
+        "stargazerCount": 5,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-07-11T17:28:25Z",
+        "pushedAt": "2023-07-11T17:38:49Z",
+        "homepageUrl": "https://promptzone.matejbendik.com",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE4NDA0Nzg4",
+      "login": "ResoDev",
+      "name": "Matej Rešetár",
+      "type": "User",
+      "location": "Košice, Slovakia",
+      "url": "https://github.com/ResoDev",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18404788?u=afab2afd369aa38045a632e5dc9869024ddcb285&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "freezed-error-demo",
+        "nameWithOwner": "ResoDev/freezed-error-demo",
+        "url": "https://github.com/ResoDev/freezed-error-demo",
+        "description": null,
+        "stargazerCount": 4,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-02-09T12:54:09Z",
+        "pushedAt": "2020-02-09T13:06:14Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Dart"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUyODkzMQ==",
+      "login": "tibbi",
+      "name": "Tibor Kaputa",
+      "type": "User",
+      "location": "Jasov, Slovakia",
+      "url": "https://github.com/tibbi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/528931?u=6c1e1711d774b0ef87b9202cdef6d2e020da78de&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "Map",
+        "nameWithOwner": "tibbi/Map",
+        "url": "https://github.com/tibbi/Map",
+        "description": "Simple location sharing map. Just click somewhere and copy the url.",
+        "stargazerCount": 4,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-03-31T17:22:46Z",
+        "pushedAt": "2018-12-19T11:06:08Z",
+        "homepageUrl": "https://map.kaputa.sk/",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc1MTIwNDA=",
+      "login": "Shawoll",
+      "name": "R.K.",
+      "type": "User",
+      "location": "Slovakia",
+      "url": "https://github.com/Shawoll",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7512040?u=952cfa34e05e67d5975f4ed75dc6cf684e59ff5a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "WebSupport.API",
+        "nameWithOwner": "Shawoll/WebSupport.API",
+        "url": "https://github.com/Shawoll/WebSupport.API",
+        "description": null,
+        "stargazerCount": 3,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-01-14T23:00:04Z",
+        "pushedAt": "2020-01-30T22:49:36Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg2NDE3NjI3",
+      "login": "vikiluk",
+      "name": "𝒱𝒾𝓀𝒾",
+      "type": "User",
+      "location": "Slovakia",
+      "url": "https://github.com/vikiluk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/86417627?u=c2615509dcff44eac43d763ec723dbfb1cd240d6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "social-links-profile",
+        "nameWithOwner": "vikiluk/social-links-profile",
+        "url": "https://github.com/vikiluk/social-links-profile",
+        "description": null,
+        "stargazerCount": 3,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-20T20:49:15Z",
+        "pushedAt": "2026-03-21T21:14:45Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "CSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOB_gj_A",
+      "login": "JakeBrakes1",
+      "name": "JakeBrakes",
+      "type": "User",
+      "location": "Slovakia",
+      "url": "https://github.com/JakeBrakes1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/133702652?u=f1f768069f0f390c1b7492e7032ca6376b74710e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "JakeBrakes1",
+        "nameWithOwner": "JakeBrakes1/JakeBrakes1",
+        "url": "https://github.com/JakeBrakes1/JakeBrakes1",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-06-15T18:53:17Z",
+        "pushedAt": "2023-06-15T18:55:25Z",
+        "homepageUrl": "https://github.com/JakeBrakes1",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBzyykQ",
+      "login": "vlady0712",
+      "name": "Vlady",
+      "type": "User",
+      "location": "Košice, Slovakia",
+      "url": "https://github.com/vlady0712",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/121418385?u=034fb2a97772de334ddbc79da461399aa7fa211b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "shopify-node-react-app",
+        "nameWithOwner": "vlady0712/shopify-node-react-app",
+        "url": "https://github.com/vlady0712/shopify-node-react-app",
+        "description": null,
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-02-16T14:16:05Z",
+        "pushedAt": "2023-02-16T14:21:40Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "U_kgDODHTNBQ",
+      "login": "Atoryx1s",
+      "name": "Nazar Adamenko",
+      "type": "User",
+      "location": "Košice, Slovakia",
+      "url": "https://github.com/Atoryx1s",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/208981253?u=f6bf0078bf95d59bf165e4b2466c258c401215b6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "NETWORK",
+        "nameWithOwner": "Atoryx1s/NETWORK",
+        "url": "https://github.com/Atoryx1s/NETWORK",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-06-22T21:08:45Z",
+        "pushedAt": "2025-08-04T08:18:35Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": null
+      }
+    }
+  ],
+  "candidatePoolLimit": 500,
+  "candidatePoolThresholdStars": null
+}

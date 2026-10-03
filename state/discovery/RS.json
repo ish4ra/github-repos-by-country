@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 2,
+  "cycle": 1,
+  "country": {
+    "code": "RS",
+    "name": "Serbia",
+    "slug": "serbia"
+  },
+  "geography": {
+    "release": "v3.2-export.8",
+    "sha256": "8db00ab8e0312776a93d9d64baac06be7a5dea85f0858227a0a1e5f640bbceee",
+    "termsTotal": 512
+  },
+  "phase": "discovery",
+  "nextTermIndex": 0,
+  "activeTerm": {
+    "index": 0,
+    "term": "Serbia",
+    "queue": [
+      {
+        "query": "location:\"Serbia\" type:user",
+        "stage": "type",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Serbia\" type:org",
+        "stage": "type",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      }
+    ],
+    "startedAt": "2026-10-03T08:35:53.368Z",
+    "requests": 1,
+    "leafPages": 0,
+    "shardExpansions": 1,
+    "reportedCount": 19130
+  },
+  "discoveryComplete": false,
+  "startedAt": "2026-10-03T08:35:53.368Z",
+  "updatedAt": "2026-10-03T08:35:56.534Z",
+  "completedAt": null,
+  "finalizedAt": null,
+  "stats": {
+    "termsProcessed": 0,
+    "searchRequests": 1,
+    "leafPages": 0,
+    "shardExpansions": 1,
+    "rawOwnerHits": 50,
+    "acceptedOwnerHits": 0,
+    "rejectedOwnerHits": 50,
+    "unresolvedShardCount": 0,
+    "minimumRateLimitRemaining": 4564
+  },
+  "unresolvedShards": [],
+  "candidates": [],
+  "candidatePoolLimit": 500,
+  "candidatePoolThresholdStars": null
+}

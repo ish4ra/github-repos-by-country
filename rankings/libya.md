@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 162**
+- Progress: **0%**
+- Retained high-potential owner candidates: **48**
+- Search requests completed: **1**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [mohn93/AdvancedPageControl](https://github.com/mohn93/AdvancedPageControl) | **653** | Libya |
+| [tahaak67/Farhan](https://github.com/tahaak67/Farhan) | **214** | Libya |
+| [absholi7ly/POC-CVE-2025-24813](https://github.com/absholi7ly/POC-CVE-2025-24813) | **197** | Libya |
+| [qw46478/BlackHacker](https://github.com/qw46478/BlackHacker) | **142** | Libya |
+| [Mahamed-Belkheir/qufl](https://github.com/Mahamed-Belkheir/qufl) | **53** | Libya, Benghazi |
+| [KhawlahElshah/dynamic-relations-includes](https://github.com/KhawlahElshah/dynamic-relations-includes) | **28** | Tripoli, Libya |
+| [BllurryDev/FreeFire-PubgMobile-Source-Code](https://github.com/BllurryDev/FreeFire-PubgMobile-Source-Code) | **20** | Libya, Tripoli |
+| [Monther-bug/web_project](https://github.com/Monther-bug/web_project) | **14** | Libya |
+| [risc-vee/Pulsr](https://github.com/risc-vee/Pulsr) | **11** | Libya |
+| [abdelsalamshahlol/Toyota-VIN-Decoder-TVD.js](https://github.com/abdelsalamshahlol/Toyota-VIN-Decoder-TVD.js) | **8** | Benghazi, Libya |
+| [getplutu/plutu-laravel](https://github.com/getplutu/plutu-laravel) | **7** | Tripoli, Libya |
+| [khengari77/PyParsec](https://github.com/khengari77/PyParsec) | **7** | Tripoli, Libya |
+| [ayagaidi/libyancityseeds](https://github.com/ayagaidi/libyancityseeds) | **6** |  Tripoli, Libya  |
+| [Mo7ammedXD/Tigerbeetle-studio](https://github.com/Mo7ammedXD/Tigerbeetle-studio) | **6** | Libya |
+| [MohammedAlkutrani/validator](https://github.com/MohammedAlkutrani/validator) | **6** | Libya, Benghazi |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

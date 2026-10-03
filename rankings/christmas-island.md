@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 21**
+- Progress: **0%**
+- Retained high-potential owner candidates: **34**
+- Search requests completed: **1**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [MateriiApps/OpenCord](https://github.com/MateriiApps/OpenCord) | **1,311** | Christmas Island |
+| [dee-dee-catorce/desksaw](https://github.com/dee-dee-catorce/desksaw) | **202** | Chicago, Christmas Island |
+| [j0nk0/GetRoot-Android-DirtyCow](https://github.com/j0nk0/GetRoot-Android-DirtyCow) | **111** | Christmas Island |
+| [BiteTheDDDDt/Blog-Collection](https://github.com/BiteTheDDDDt/Blog-Collection) | **14** | Christmas Island |
+| [ElectronicWave/Elemental](https://github.com/ElectronicWave/Elemental) | **11** | Christmas Island |
+| [packd-core/packs-hackathon](https://github.com/packd-core/packs-hackathon) | **7** | Christmas Island |
+| [SleekCC/leaked-builds](https://github.com/SleekCC/leaked-builds) | **7** | Christmas Island |
+| [noramp/noramp-kit](https://github.com/noramp/noramp-kit) | **5** | Christmas Island |
+| [Tango-Club/Sometime](https://github.com/Tango-Club/Sometime) | **4** | Christmas Island |
+| [ECE-366-Final-Project/Back-End](https://github.com/ECE-366-Final-Project/Back-End) | **2** | Christmas Island |
+| [louis1204/MapNavigationDrawerExample](https://github.com/louis1204/MapNavigationDrawerExample) | **2** | Christmas Island |
+| [ScriptKitKat/personalwebsite](https://github.com/ScriptKitKat/personalwebsite) | **2** | Christmas Island |
+| [Sonic-Riders-Tournament-Edition/sega-nn-gno-exporter](https://github.com/Sonic-Riders-Tournament-Edition/sega-nn-gno-exporter) | **2** | Christmas Island |
+| [litchirui/algorithm-journey](https://github.com/litchirui/algorithm-journey) | **1** | Christmas Island |
+| [Mevissis/Mevissis-Smart-Contract-Machine](https://github.com/Mevissis/Mevissis-Smart-Contract-Machine) | **1** | Christmas Island |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

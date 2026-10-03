@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 209**
+- Progress: **0%**
+- Retained high-potential owner candidates: **48**
+- Search requests completed: **1**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [NOSiCode-CV/IGRP-Framework](https://github.com/NOSiCode-CV/IGRP-Framework) | **85** | Cape Verde |
+| [akira-io/laravel-qrcode](https://github.com/akira-io/laravel-qrcode) | **49** | Cape Verde |
+| [faxi-online/sisp-php](https://github.com/faxi-online/sisp-php) | **11** | Cape Verde |
+| [Steravy/airbnb-clone](https://github.com/Steravy/airbnb-clone) | **10** | Praia, Cape Verde |
+| [Sengeki1/tourism-management-API](https://github.com/Sengeki1/tourism-management-API) | **9** | Cape Verde |
+| [thisisleobro/markview](https://github.com/thisisleobro/markview) | **8** | Cape Verde |
+| [Jorgegabrielsantos/Jorgegabrielsantos](https://github.com/Jorgegabrielsantos/Jorgegabrielsantos) | **7** | Cape Verde,Praia |
+| [carlosadcaraujo/html-wysiwyg](https://github.com/carlosadcaraujo/html-wysiwyg) | **6** | Cape Verde |
+| [DanildoSilva/music-event-website](https://github.com/DanildoSilva/music-event-website) | **5** | Cape Verde |
+| [Smithmayowa20/phobiadeflector](https://github.com/Smithmayowa20/phobiadeflector) | **5** | Priar, Cape Verde |
+| [Siqsuruq/Tcl-VSCode](https://github.com/Siqsuruq/Tcl-VSCode) | **4** | Cape Verde |
+| [7-AM/matanza](https://github.com/7-AM/matanza) | **3** | Cape Verde |
+| [Dnuns/katxupi-react](https://github.com/Dnuns/katxupi-react) | **3** | Cape Verde |
+| [IMarcelF/payment_acquirer_sisp](https://github.com/IMarcelF/payment_acquirer_sisp) | **3** | Praia, Cape Verde |
+| [kcfurtado/challenge-todo](https://github.com/kcfurtado/challenge-todo) | **3** | Cape Verde |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

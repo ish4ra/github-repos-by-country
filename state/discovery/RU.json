@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 2,
+  "cycle": 1,
+  "country": {
+    "code": "RU",
+    "name": "Russia",
+    "slug": "russia"
+  },
+  "geography": {
+    "release": "v3.2-export.8",
+    "sha256": "0f12be3b09b7f68ce7db3ac2bc679e2ce93a1107390443b4e2c766bac211c57c",
+    "termsTotal": 5687
+  },
+  "phase": "discovery",
+  "nextTermIndex": 0,
+  "activeTerm": {
+    "index": 0,
+    "term": "Russia",
+    "queue": [
+      {
+        "query": "location:\"Russia\" type:user",
+        "stage": "type",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Russia\" type:org",
+        "stage": "type",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      }
+    ],
+    "startedAt": "2026-10-03T08:35:32.895Z",
+    "requests": 1,
+    "leafPages": 0,
+    "shardExpansions": 1,
+    "reportedCount": 95383
+  },
+  "discoveryComplete": false,
+  "startedAt": "2026-10-03T08:35:32.895Z",
+  "updatedAt": "2026-10-03T08:35:36.138Z",
+  "completedAt": null,
+  "finalizedAt": null,
+  "stats": {
+    "termsProcessed": 0,
+    "searchRequests": 1,
+    "leafPages": 0,
+    "shardExpansions": 1,
+    "rawOwnerHits": 50,
+    "acceptedOwnerHits": 0,
+    "rejectedOwnerHits": 50,
+    "unresolvedShardCount": 0,
+    "minimumRateLimitRemaining": 4571
+  },
+  "unresolvedShards": [],
+  "candidates": [],
+  "candidatePoolLimit": 500,
+  "candidatePoolThresholdStars": null
+}

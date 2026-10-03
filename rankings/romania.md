@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 8,412**
+- Progress: **0%**
+- Retained high-potential owner candidates: **49**
+- Search requests completed: **1**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas) | **97,918** | Romania |
+| [eugenp/tutorials](https://github.com/eugenp/tutorials) | **37,329** | Bucharest, Romania |
+| [valinet/ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) | **34,012** | Bucharest, Romania |
+| [ntdevlabs/tiny11builder](https://github.com/ntdevlabs/tiny11builder) | **19,706** | Romania |
+| [mishoo/UglifyJS](https://github.com/mishoo/UglifyJS) | **13,377** | Iasi, Romania |
+| [serbanghita/Mobile-Detect](https://github.com/serbanghita/Mobile-Detect) | **10,676** | Bucureşti, Romania |
+| [ionuttbara/windows-defender-remover](https://github.com/ionuttbara/windows-defender-remover) | **8,495** | Damuc, Romania |
+| [alin23/Lunar](https://github.com/alin23/Lunar) | **5,711** | Romania |
+| [Bogdanp/dramatiq](https://github.com/Bogdanp/dramatiq) | **5,324** | Cluj-Napoca, Romania |
+| [cristianbote/goober](https://github.com/cristianbote/goober) | **3,274** | Cluj-Napoca, Romania |
+| [ovidiuch/illustrated-algorithms](https://github.com/ovidiuch/illustrated-algorithms) | **2,760** | Cluj-Napoca, Romania |
+| [vladmihalcea/hypersistence-utils](https://github.com/vladmihalcea/hypersistence-utils) | **2,670** | Cluj-Napoca, Romania |
+| [ionelmc/pytest-benchmark](https://github.com/ionelmc/pytest-benchmark) | **1,455** | Cluj-Napoca, Romania |
+| [NytroRST/NetRipper](https://github.com/NytroRST/NetRipper) | **1,388** | Romania |
+| [AnghelLeonard/Hibernate-SpringBoot](https://github.com/AnghelLeonard/Hibernate-SpringBoot) | **1,372** | Romania |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

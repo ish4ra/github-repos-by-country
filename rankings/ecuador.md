@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 407**
+- Progress: **0%**
+- Retained high-potential owner candidates: **49**
+- Search requests completed: **1**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [eythaann/Seelen-UI](https://github.com/eythaann/Seelen-UI) | **17,938** | Ecuador |
+| [jxlarrea/kiosk-satellite](https://github.com/jxlarrea/kiosk-satellite) | **1,415** | Ecuador |
+| [vargasjona/fastapi-alembic-sqlmodel-async](https://github.com/vargasjona/fastapi-alembic-sqlmodel-async) | **1,266** | Quito, Ecuador |
+| [sauljabin/kaskade](https://github.com/sauljabin/kaskade) | **1,041** | Quito, Ecuador |
+| [asantibanez/livewire-calendar](https://github.com/asantibanez/livewire-calendar) | **971** | Guayaquil, Ecuador |
+| [xavysp/DexiNed](https://github.com/xavysp/DexiNed) | **862** | Ecuador |
+| [mikehardy/jetifier](https://github.com/mikehardy/jetifier) | **793** | Cuenca, Ecuador |
+| [GataNina-Li/GataBot-MD](https://github.com/GataNina-Li/GataBot-MD) | **678** | Ecuador |
+| [Darkmux/SETSMS](https://github.com/Darkmux/SETSMS) | **539** | Ecuador |
+| [r1vs3c/auto-bspwm](https://github.com/r1vs3c/auto-bspwm) | **528** | Ecuador |
+| [DevCoreXOfficial/core-termux](https://github.com/DevCoreXOfficial/core-termux) | **471** | Ecuador |
+| [darwin-morocho/OneCalendarView](https://github.com/darwin-morocho/OneCalendarView) | **308** | Ecuador |
+| [shoniisrael/Platzi-Tests](https://github.com/shoniisrael/Platzi-Tests) | **286** | Ecuador |
+| [TaurusOmar/psobf](https://github.com/TaurusOmar/psobf) | **256** | Ecuador |
+| [CondorCoders/github-readme-profile](https://github.com/CondorCoders/github-readme-profile) | **230** | Ecuador |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

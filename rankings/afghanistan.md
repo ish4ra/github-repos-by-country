@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 369**
+- Progress: **0%**
+- Retained high-potential owner candidates: **353**
+- Search requests completed: **9**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [openlibrecommunity/olcrtc](https://github.com/openlibrecommunity/olcrtc) | **2,027** | Afghanistan |
+| [afgprogrammer/Flutter-Complete-e-commerce](https://github.com/afgprogrammer/Flutter-Complete-e-commerce) | **564** |  Kabul, Afghanistan |
+| [habibmhamadi/multi-select-tag](https://github.com/habibmhamadi/multi-select-tag) | **166** | Kabul, Afghanistan |
+| [shayanheidari01/ShineNETVPN](https://github.com/shayanheidari01/ShineNETVPN) | **134** | Afghanistan/Kabul |
+| [shahghasiadil/laravel-clean-architecture-ddd-cqrs](https://github.com/shahghasiadil/laravel-clean-architecture-ddd-cqrs) | **120** | Afghanistan |
+| [ahmadjoya/typescript-express-mongoose-starter](https://github.com/ahmadjoya/typescript-express-mongoose-starter) | **102** | Afghanistan |
+| [ShafiqSadat/HamsterKeyGenWeb](https://github.com/ShafiqSadat/HamsterKeyGenWeb) | **86** | Afghanistan |
+| [SharokhAtaie/extractify](https://github.com/SharokhAtaie/extractify) | **65** | Afghanistan |
+| [Nasratullah-Shafiq/HRMS-Project](https://github.com/Nasratullah-Shafiq/HRMS-Project) | **46** | Afghanistan |
+| [Mohammadjan1122/love_akm](https://github.com/Mohammadjan1122/love_akm) | **30** | Mazar sharif afghanistan |
+| [ab-noori/Portfolio](https://github.com/ab-noori/Portfolio) | **28** | Afghanistan |
+| [TheHadiAhmadi/site-builder](https://github.com/TheHadiAhmadi/site-builder) | **27** | Kabul, Afghanistan |
+| [SaadullahKarimi/Database_Concept_Course](https://github.com/SaadullahKarimi/Database_Concept_Course) | **18** | Kabul, Afghanistan |
+| [mahdijafaridev/fastapi-middlewares](https://github.com/mahdijafaridev/fastapi-middlewares) | **17** | Kabul, Afghanistan |
+| [MastooraTurkmen/Quizzical-app](https://github.com/MastooraTurkmen/Quizzical-app) | **12** | Kabul, Afghanistan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

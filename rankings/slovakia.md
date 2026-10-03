@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 873**
+- Progress: **0%**
+- Retained high-potential owner candidates: **47**
+- Search requests completed: **1**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [haad/proxychains](https://github.com/haad/proxychains) | **7,965** | Bratislava Slovakia |
+| [ondrajz/go-callvis](https://github.com/ondrajz/go-callvis) | **6,528** | Bratislava, Slovakia |
+| [itsgoingd/clockwork](https://github.com/itsgoingd/clockwork) | **5,953** | Slovakia |
+| [totaljs/framework](https://github.com/totaljs/framework) | **4,356** | Slovakia |
+| [SimpleMobileTools/Simple-Gallery](https://github.com/SimpleMobileTools/Simple-Gallery) | **4,023** | Slovakia |
+| [nem0/LumixEngine](https://github.com/nem0/LumixEngine) | **3,890** | Slovakia, Bratislava |
+| [darsain/sly](https://github.com/darsain/sly) | **2,839** | Slovakia |
+| [michalmalik/linux-re-101](https://github.com/michalmalik/linux-re-101) | **2,081** | Bratislava, Slovakia |
+| [ckissi/Learn-by-projects](https://github.com/ckissi/Learn-by-projects) | **1,639** | Slovakia |
+| [mauron85/react-native-background-geolocation](https://github.com/mauron85/react-native-background-geolocation) | **1,354** | Slovakia |
+| [mkottman/AndroLua](https://github.com/mkottman/AndroLua) | **1,113** | Bratislava, Slovakia |
+| [lalinsky/zio](https://github.com/lalinsky/zio) | **629** | Trenčín, Slovakia |
+| [gabonator/LA104](https://github.com/gabonator/LA104) | **596** | Slovakia |
+| [mrshu/github-statuses](https://github.com/mrshu/github-statuses) | **565** | Slovakia |
+| [JAndrassy/ArduinoOTA](https://github.com/JAndrassy/ArduinoOTA) | **534** | Slovakia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

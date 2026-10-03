@@ -1,0 +1,1751 @@
+{
+  "schemaVersion": 2,
+  "cycle": 1,
+  "country": {
+    "code": "SG",
+    "name": "Singapore",
+    "slug": "singapore"
+  },
+  "geography": {
+    "release": "v3.2-export.8",
+    "sha256": "8bc3b68aed50b195ce4972ef8be6d5c8d4dc8d88f0a091afd2042240175c50bd",
+    "termsTotal": 132
+  },
+  "phase": "discovery",
+  "nextTermIndex": 0,
+  "activeTerm": {
+    "index": 0,
+    "term": "Singapore",
+    "queue": [
+      {
+        "query": "location:\"Singapore\" type:user",
+        "stage": "type",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Singapore\" type:org",
+        "stage": "type",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      }
+    ],
+    "startedAt": "2026-10-03T08:36:03.561Z",
+    "requests": 1,
+    "leafPages": 0,
+    "shardExpansions": 1,
+    "reportedCount": 58210
+  },
+  "discoveryComplete": false,
+  "startedAt": "2026-10-03T08:36:03.561Z",
+  "updatedAt": "2026-10-03T08:36:06.628Z",
+  "completedAt": null,
+  "finalizedAt": null,
+  "stats": {
+    "termsProcessed": 0,
+    "searchRequests": 1,
+    "leafPages": 0,
+    "shardExpansions": 1,
+    "rawOwnerHits": 50,
+    "acceptedOwnerHits": 46,
+    "rejectedOwnerHits": 4,
+    "unresolvedShardCount": 0,
+    "minimumRateLimitRemaining": 4561
+  },
+  "unresolvedShards": [],
+  "candidates": [
+    {
+      "id": "MDQ6VXNlcjcxNjM2MTkx",
+      "login": "rustdesk",
+      "name": "RustDesk",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/rustdesk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/71636191?u=fcdfa5bbe724bd4ec02f6c3b2419ff25b7f5eb07&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "rustdesk",
+        "nameWithOwner": "rustdesk/rustdesk",
+        "url": "https://github.com/rustdesk/rustdesk",
+        "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+        "stargazerCount": 125038,
+        "forkCount": 19387,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-09-28T15:36:08Z",
+        "pushedAt": "2026-10-02T22:51:34Z",
+        "homepageUrl": "https://rustdesk.com",
+        "primaryLanguage": {
+          "name": "Rust"
+        },
+        "licenseInfo": {
+          "name": "GNU Affero General Public License v3.0",
+          "spdxId": "AGPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEyNDk0MDc5",
+      "login": "unclecode",
+      "name": "UncleCode",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/unclecode",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12494079?u=413d68156031fdfe74861491b75ffe6d426d8228&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "crawl4ai",
+        "nameWithOwner": "unclecode/crawl4ai",
+        "url": "https://github.com/unclecode/crawl4ai",
+        "description": "Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key.",
+        "stargazerCount": 84668,
+        "forkCount": 8762,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-05-09T09:48:50Z",
+        "pushedAt": "2026-09-25T06:37:14Z",
+        "homepageUrl": "https://crawl4ai.com",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjQxNTg0NjY=",
+      "login": "bytedance",
+      "name": "Bytedance Inc.",
+      "type": "Organization",
+      "location": "Singapore",
+      "url": "https://github.com/bytedance",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4158466?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "deer-flow",
+        "nameWithOwner": "bytedance/deer-flow",
+        "url": "https://github.com/bytedance/deer-flow",
+        "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+        "stargazerCount": 83342,
+        "forkCount": 11560,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-05-07T02:50:19Z",
+        "pushedAt": "2026-10-03T08:35:56Z",
+        "homepageUrl": "https://deerflow.tech",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "O_kgDOC0ce6g",
+      "login": "shareAI-lab",
+      "name": "shareAI",
+      "type": "Organization",
+      "location": "Singapore",
+      "url": "https://github.com/shareAI-lab",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/189210346?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "learn-claude-code",
+        "nameWithOwner": "shareAI-lab/learn-claude-code",
+        "url": "https://github.com/shareAI-lab/learn-claude-code",
+        "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
+        "stargazerCount": 77935,
+        "forkCount": 12504,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-06-29T15:34:15Z",
+        "pushedAt": "2026-09-28T13:49:16Z",
+        "homepageUrl": "https://learn.shareai.run",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ3MTc4MDE3",
+      "login": "NanmiCoder",
+      "name": "程序员阿江-Relakkes",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/NanmiCoder",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47178017?u=9ede4e056bc911665ade24d830ac24b5c1122c8b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "MediaCrawler",
+        "nameWithOwner": "NanmiCoder/MediaCrawler",
+        "url": "https://github.com/NanmiCoder/MediaCrawler",
+        "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫",
+        "stargazerCount": 66116,
+        "forkCount": 12703,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-06-09T12:14:34Z",
+        "pushedAt": "2026-09-19T05:26:11Z",
+        "homepageUrl": "https://nanmicoder.github.io/MediaCrawler/",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgyNjYwNzU=",
+      "login": "DIYgod",
+      "name": "DIYgod",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/DIYgod",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8266075?u=9de49c9b3eaf4db02e685458cb64b64c172034bf&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "RSSHub",
+        "nameWithOwner": "DIYgod/RSSHub",
+        "url": "https://github.com/DIYgod/RSSHub",
+        "description": "🧡 Everything is RSSible",
+        "stargazerCount": 46395,
+        "forkCount": 10242,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-04-02T14:43:21Z",
+        "pushedAt": "2026-10-03T02:42:26Z",
+        "homepageUrl": "https://docs.rsshub.app",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "GNU Affero General Public License v3.0",
+          "spdxId": "AGPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEzNTc5NTM3",
+      "login": "XingangPan",
+      "name": "Xingang Pan",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/XingangPan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13579537?u=d3436a58b7f07f60d1ddd0e30e33e9c1f0b5e331&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "DragGAN",
+        "nameWithOwner": "XingangPan/DragGAN",
+        "url": "https://github.com/XingangPan/DragGAN",
+        "description": "Official Code for DragGAN (SIGGRAPH 2023)",
+        "stargazerCount": 35749,
+        "forkCount": 3395,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-05-18T10:08:02Z",
+        "pushedAt": "2024-05-18T17:51:40Z",
+        "homepageUrl": "https://vcai.mpi-inf.mpg.de/projects/DragGAN/",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjMxNDEzNQ==",
+      "login": "cloudflare",
+      "name": "Cloudflare",
+      "type": "Organization",
+      "location": "San Francisco, London, Austin, Lisbon, Singapore",
+      "url": "https://github.com/cloudflare",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/314135?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "pingora",
+        "nameWithOwner": "cloudflare/pingora",
+        "url": "https://github.com/cloudflare/pingora",
+        "description": "A library for building fast, reliable and evolvable network services.",
+        "stargazerCount": 27577,
+        "forkCount": 1765,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-05-05T20:03:08Z",
+        "pushedAt": "2026-09-11T22:39:10Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Rust"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg1ODc0MTA=",
+      "login": "Vonng",
+      "name": "Feng Ruohang",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/Vonng",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8587410?u=e9b7c9c5d370f615607fbbfe850590f467ce0ba3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "ddia",
+        "nameWithOwner": "Vonng/ddia",
+        "url": "https://github.com/Vonng/ddia",
+        "description": "《Designing Data-Intensive Application》DDIA 第一版 / 第二版 中文翻译",
+        "stargazerCount": 23780,
+        "forkCount": 4565,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-02-08T04:26:52Z",
+        "pushedAt": "2026-10-03T06:53:34Z",
+        "homepageUrl": "https://ddia.vonng.com",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "Creative Commons Attribution 4.0 International",
+          "spdxId": "CC-BY-4.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjk0ODg5Ng==",
+      "login": "camsong",
+      "name": "Shaoyin Song",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/camsong",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/948896?u=85a3066e49484f8c15bb9b9c40cbd331320813b8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "You-Dont-Need-jQuery",
+        "nameWithOwner": "camsong/You-Dont-Need-jQuery",
+        "url": "https://github.com/camsong/You-Dont-Need-jQuery",
+        "description": "Examples of how to do query, style, dom, ajax, event etc like jQuery with plain javascript.",
+        "stargazerCount": 20123,
+        "forkCount": 1705,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-11-21T16:02:26Z",
+        "pushedAt": "2026-09-23T12:17:17Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE0NzI4NTkx",
+      "login": "AmazingAng",
+      "name": "0xAA",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/AmazingAng",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/14728591?u=c13f8b64443351a60ef0ac2a610aeaed1ee49da2&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "WTF-Solidity",
+        "nameWithOwner": "AmazingAng/WTF-Solidity",
+        "url": "https://github.com/AmazingAng/WTF-Solidity",
+        "description": "WTF Solidity 极简入门教程，供小白们使用。Now supports English! 官网: https://wtf.academy",
+        "stargazerCount": 14055,
+        "forkCount": 2434,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-04-02T05:33:11Z",
+        "pushedAt": "2026-09-27T04:59:31Z",
+        "homepageUrl": "https://wtf.academy",
+        "primaryLanguage": {
+          "name": "Solidity"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMwMzIwMQ==",
+      "login": "JamesNK",
+      "name": "James Newton-King",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/JamesNK",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/303201?u=a4521438844aae7f844f8717a79a9858d6c805da&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "Newtonsoft.Json",
+        "nameWithOwner": "JamesNK/Newtonsoft.Json",
+        "url": "https://github.com/JamesNK/Newtonsoft.Json",
+        "description": "Json.NET is a popular high-performance JSON framework for .NET",
+        "stargazerCount": 11312,
+        "forkCount": 3300,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2012-02-18T07:30:28Z",
+        "pushedAt": "2026-09-21T09:58:07Z",
+        "homepageUrl": "https://www.newtonsoft.com/json",
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjYyOTU1Mjk=",
+      "login": "fossasia",
+      "name": "FOSSASIA",
+      "type": "Organization",
+      "location": "Singapore",
+      "url": "https://github.com/fossasia",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6295529?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "visdom",
+        "nameWithOwner": "fossasia/visdom",
+        "url": "https://github.com/fossasia/visdom",
+        "description": "Tool for real-time visualization, monitoring and collaborative analysis of AI/ML experiments and live data. Supports Python, PyTorch/Torch, NumPy, TensorFlow/Keras https://visdom.dev",
+        "stargazerCount": 10315,
+        "forkCount": 1271,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-01-25T17:59:45Z",
+        "pushedAt": "2026-10-02T10:12:08Z",
+        "homepageUrl": "https://visdom.dev",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIxMjk4NA==",
+      "login": "happydog-intj",
+      "name": "happy dog",
+      "type": "User",
+      "location": "singapore",
+      "url": "https://github.com/happydog-intj",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/212984?u=cd5ac3952f33d265ffb1bc3c25f6ba0e0bcfe682&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "JsBridge",
+        "nameWithOwner": "happydog-intj/JsBridge",
+        "url": "https://github.com/happydog-intj/JsBridge",
+        "description": "android java and javascript bridge, inspired by wechat webview jsbridge",
+        "stargazerCount": 9911,
+        "forkCount": 2001,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-02-26T12:10:58Z",
+        "pushedAt": "2026-09-12T04:06:55Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI0Nzg3NzQ0",
+      "login": "cmliu",
+      "name": "CMLiussss",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/cmliu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/24787744?u=703922e1f9e4129656faaddf2099a7da58d45254&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "CF-Workers-docker.io",
+        "nameWithOwner": "cmliu/CF-Workers-docker.io",
+        "url": "https://github.com/cmliu/CF-Workers-docker.io",
+        "description": "这个项目是一个基于 Cloudflare Workers 的 Docker 镜像代理工具。它能够中转对 Docker 官方镜像仓库的请求，解决一些访问限制和加速访问的问题。",
+        "stargazerCount": 9212,
+        "forkCount": 10551,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2024-06-10T19:13:56Z",
+        "pushedAt": "2025-06-26T09:30:17Z",
+        "homepageUrl": "https://Docker.fxxk.dedyn.io",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCIRmKQ",
+      "login": "eooce",
+      "name": "老王",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/eooce",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/142894633?u=38400bf8cfc2a6552e2a126b8c8eeb6af50cd7bb&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "nodejs-argo",
+        "nameWithOwner": "eooce/nodejs-argo",
+        "url": "https://github.com/eooce/nodejs-argo",
+        "description": "nodejs-argo是一个强大的Argo隧道部署工具，专为PaaS平台和游戏玩具平台设计。它支持多种代理协议(VLESS、VMess、Trojan)等，有直连协议(Socks5、Hysteria2、Reality)可选开启，并集成了哪吒探针功能",
+        "stargazerCount": 8392,
+        "forkCount": 13555,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-09-27T08:48:34Z",
+        "pushedAt": "2026-09-07T07:59:28Z",
+        "homepageUrl": "https://www.npmjs.com/package/nodejs-argo",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOCMeqaQ",
+      "login": "SkyworkAI",
+      "name": "Skywork ",
+      "type": "Organization",
+      "location": "Singapore",
+      "url": "https://github.com/SkyworkAI",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/147303017?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "SkyReels-V2",
+        "nameWithOwner": "SkyworkAI/SkyReels-V2",
+        "url": "https://github.com/SkyworkAI/SkyReels-V2",
+        "description": "SkyReels-V2: Infinite-length Film Generative model",
+        "stargazerCount": 7594,
+        "forkCount": 1672,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-04-15T10:16:25Z",
+        "pushedAt": "2026-01-29T05:21:27Z",
+        "homepageUrl": "https://platform.skyreels.ai",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM4NzIyMDk=",
+      "login": "fmzquant",
+      "name": "Zero",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/fmzquant",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3872209?u=c86cdcebed343061a6a0ed4983fa2458038250b4&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "strategies",
+        "nameWithOwner": "fmzquant/strategies",
+        "url": "https://github.com/fmzquant/strategies",
+        "description": "quantitative trading with Javascript, Python, C++, PineScript, Blockly, MyLanguage(麦语言)",
+        "stargazerCount": 5905,
+        "forkCount": 1866,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-04-03T16:12:40Z",
+        "pushedAt": "2025-04-30T04:08:14Z",
+        "homepageUrl": "https://www.fmz.com",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE2NzA0MjE=",
+      "login": "mithi",
+      "name": "Mithi Sevilla",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/mithi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1670421?u=353ff864b8ab7ee262471ca87e36a5ea488ca839&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "robotics-coursework",
+        "nameWithOwner": "mithi/robotics-coursework",
+        "url": "https://github.com/mithi/robotics-coursework",
+        "description": "🤖 Places where you can learn robotics (and stuff like that) online 🤖",
+        "stargazerCount": 5291,
+        "forkCount": 795,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-06-24T14:45:17Z",
+        "pushedAt": "2026-08-31T14:12:27Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "The Unlicense",
+          "spdxId": "Unlicense"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU3MTExODU=",
+      "login": "phith0n",
+      "name": "Owen Gong",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/phith0n",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5711185?u=d297daaf1b2af9fffbbc2f1698930979756543c9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "Mind-Map",
+        "nameWithOwner": "phith0n/Mind-Map",
+        "url": "https://github.com/phith0n/Mind-Map",
+        "description": "各种安全相关思维导图整理收集",
+        "stargazerCount": 4596,
+        "forkCount": 1949,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-09-03T09:31:26Z",
+        "pushedAt": "2023-12-22T07:41:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "GNU General Public License v2.0",
+          "spdxId": "GPL-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM4NDU0Ng==",
+      "login": "cch123",
+      "name": "Xargin",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/cch123",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/384546?u=b9f101045b6b9c0322ed6a41aad316c4f2ac5704&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "golang-notes",
+        "nameWithOwner": "cch123/golang-notes",
+        "url": "https://github.com/cch123/golang-notes",
+        "description": "Go source code analysis(zh-cn)",
+        "stargazerCount": 4025,
+        "forkCount": 667,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-04-04T05:21:51Z",
+        "pushedAt": "2022-07-18T09:30:00Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEwNTEzNDA4",
+      "login": "airingursb",
+      "name": "Airing",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/airingursb",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10513408?u=18bc72a9e5973c4fe60473f8c418e1b69471529d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "bilibili-user",
+        "nameWithOwner": "airingursb/bilibili-user",
+        "url": "https://github.com/airingursb/bilibili-user",
+        "description": "🍥 Bilibili 用户爬虫",
+        "stargazerCount": 3090,
+        "forkCount": 930,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-03-23T04:30:24Z",
+        "pushedAt": "2021-05-02T09:34:43Z",
+        "homepageUrl": "http://ursb.me/bilibili-report",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIyOTY=",
+      "login": "cheeaun",
+      "name": "Chee Aun",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/cheeaun",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2296?u=27cda8842db37edd84d12b2668f6d93564319899&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "life",
+        "nameWithOwner": "cheeaun/life",
+        "url": "https://github.com/cheeaun/life",
+        "description": "Life - a timeline of important events in my life",
+        "stargazerCount": 2898,
+        "forkCount": 599,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-11-26T13:47:17Z",
+        "pushedAt": "2024-07-28T03:06:53Z",
+        "homepageUrl": "http://cheeaun.life/",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ5OTU1MA==",
+      "login": "yyx990803",
+      "name": "Evan You",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/yyx990803",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/499550?u=dd9a9ba40daf29be7c310f7075e74251609b03f3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "build-your-own-mint",
+        "nameWithOwner": "yyx990803/build-your-own-mint",
+        "url": "https://github.com/yyx990803/build-your-own-mint",
+        "description": "Build your own personal finance analytics using Plaid, Google Sheets and CircleCI.",
+        "stargazerCount": 2538,
+        "forkCount": 200,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-01-05T21:03:59Z",
+        "pushedAt": "2022-12-10T01:14:18Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIwNjQ4MA==",
+      "login": "karlseguin",
+      "name": "Karl Seguin",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/karlseguin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/206480?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "the-little-go-book",
+        "nameWithOwner": "karlseguin/the-little-go-book",
+        "url": "https://github.com/karlseguin/the-little-go-book",
+        "description": null,
+        "stargazerCount": 2346,
+        "forkCount": 276,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-10-12T01:23:47Z",
+        "pushedAt": "2026-07-31T09:37:05Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TeX"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM0Njg0ODM=",
+      "login": "Brooooooklyn",
+      "name": "LongYinan",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/Brooooooklyn",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3468483?u=daf25d236ad2cc227470fa0da2d5bdf3dbb7feed&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "canvas",
+        "nameWithOwner": "Brooooooklyn/canvas",
+        "url": "https://github.com/Brooooooklyn/canvas",
+        "description": "High performance Skia canvas implementation. Zero system dependencies.",
+        "stargazerCount": 2329,
+        "forkCount": 98,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-08-30T03:08:40Z",
+        "pushedAt": "2026-10-01T16:49:46Z",
+        "homepageUrl": "https://vercel.skia.rs",
+        "primaryLanguage": {
+          "name": "Rust"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEyOTY3MDAw",
+      "login": "greyli",
+      "name": "Grey Li",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/greyli",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12967000?u=dd086202e11997756d307f086414c9e93ece3066&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "helloflask",
+        "nameWithOwner": "greyli/helloflask",
+        "url": "https://github.com/greyli/helloflask",
+        "description": "Hello, Flask!",
+        "stargazerCount": 2079,
+        "forkCount": 2575,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-06-12T08:54:57Z",
+        "pushedAt": "2026-03-30T17:33:30Z",
+        "homepageUrl": "https://docs.helloflask.com",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg1NjYwOQ==",
+      "login": "sonnylazuardi",
+      "name": "Sonny Lazuardi",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/sonnylazuardi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/856609?u=64056f5d541a735ff7c96e11b5338b4982bc051a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "chat-ai-desktop",
+        "nameWithOwner": "sonnylazuardi/chat-ai-desktop",
+        "url": "https://github.com/sonnylazuardi/chat-ai-desktop",
+        "description": "Unofficial ChatGPT desktop app for Mac & Windows menubar using Tauri & Rust",
+        "stargazerCount": 1998,
+        "forkCount": 183,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-12-04T07:57:40Z",
+        "pushedAt": "2023-12-23T19:38:01Z",
+        "homepageUrl": "https://twitter.com/sonnylazuardi/status/1624281443022286848",
+        "primaryLanguage": {
+          "name": "Rust"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjkyNDc0",
+      "login": "ring04h",
+      "name": null,
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/ring04h",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/92474?u=d3366e598cc0c54c2e7d2e41edeaff65894ec454&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "wydomain",
+        "nameWithOwner": "ring04h/wydomain",
+        "url": "https://github.com/ring04h/wydomain",
+        "description": "to discover subdomains of your target domain",
+        "stargazerCount": 1480,
+        "forkCount": 595,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-02-03T17:26:39Z",
+        "pushedAt": "2017-06-26T09:05:28Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOBylSNg",
+      "login": "okx",
+      "name": "OKX.com",
+      "type": "Organization",
+      "location": "Singapore",
+      "url": "https://github.com/okx",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/120148534?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "xlayer-docs",
+        "nameWithOwner": "okx/xlayer-docs",
+        "url": "https://github.com/okx/xlayer-docs",
+        "description": "XLayer L2 documents",
+        "stargazerCount": 969,
+        "forkCount": 124,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-10-13T07:00:50Z",
+        "pushedAt": "2026-06-02T03:58:20Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "MDX"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE5NTgzNg==",
+      "login": "phuslu",
+      "name": "Phus Lu",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/phuslu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/195836?u=701cb4099e8abed179a130f1aebee7cd8d68ebde&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "log",
+        "nameWithOwner": "phuslu/log",
+        "url": "https://github.com/phuslu/log",
+        "description": "Fastest structured logging",
+        "stargazerCount": 876,
+        "forkCount": 62,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-07-07T09:40:38Z",
+        "pushedAt": "2026-10-02T11:28:19Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIwNjg0OA==",
+      "login": "Jinjiang",
+      "name": "Jinjiang",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/Jinjiang",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/206848?u=f3bf03cbf0c932c9c997641488f4a7e081cfa8b0&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "h5slides",
+        "nameWithOwner": "Jinjiang/h5slides",
+        "url": "https://github.com/Jinjiang/h5slides",
+        "description": "A Slides App based on HTML5",
+        "stargazerCount": 847,
+        "forkCount": 273,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2011-06-24T16:29:08Z",
+        "pushedAt": "2019-02-26T19:40:16Z",
+        "homepageUrl": "https://jinjiang.github.io/h5slides/",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "GNU Lesser General Public License v3.0",
+          "spdxId": "LGPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI2MzYwNzYx",
+      "login": "kazura233",
+      "name": "kazura233",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/kazura233",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/26360761?u=e97748823f6f485fb793021e1001f4414ab0cf9d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "web-daemon",
+        "nameWithOwner": "kazura233/web-daemon",
+        "url": "https://github.com/kazura233/web-daemon",
+        "description": null,
+        "stargazerCount": 664,
+        "forkCount": 9,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2021-05-18T14:53:06Z",
+        "pushedAt": "2023-09-06T03:12:54Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE0MzAyNzk=",
+      "login": "Boshen",
+      "name": "Boshen",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/Boshen",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1430279?u=5b16e197d8c49292aa04bae727e688dccce9674e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "cargo-shear",
+        "nameWithOwner": "Boshen/cargo-shear",
+        "url": "https://github.com/Boshen/cargo-shear",
+        "description": "Remove unused dependencies in a Rust project",
+        "stargazerCount": 569,
+        "forkCount": 25,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-03-14T15:22:50Z",
+        "pushedAt": "2026-10-01T15:14:04Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Rust"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI3MDQ2MTU=",
+      "login": "mmumshad",
+      "name": "Mumshad Mannambeth",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/mmumshad",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2704615?u=627db6c6ad927a39625860523f059201f6e65867&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "kubernetes-training-answers",
+        "nameWithOwner": "mmumshad/kubernetes-training-answers",
+        "url": "https://github.com/mmumshad/kubernetes-training-answers",
+        "description": "Answer key for my Kubernetes for Beginners Course on Udemy",
+        "stargazerCount": 510,
+        "forkCount": 979,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-03-22T07:04:55Z",
+        "pushedAt": "2022-02-26T20:54:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMxNTgyNTg=",
+      "login": "liuziwei7",
+      "name": "Ziwei Liu",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/liuziwei7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3158258?u=2e75848201e352bdf89a383bbaec0ba651d75f50&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "fashion-detection",
+        "nameWithOwner": "liuziwei7/fashion-detection",
+        "url": "https://github.com/liuziwei7/fashion-detection",
+        "description": "Fashion Detection in the Wild (Deep Clothes Detector)",
+        "stargazerCount": 494,
+        "forkCount": 110,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-05-05T14:04:40Z",
+        "pushedAt": "2021-10-09T02:24:08Z",
+        "homepageUrl": "https://liuziwei7.github.io/projects/DeepFashion.html",
+        "primaryLanguage": {
+          "name": "MATLAB"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE2NTg3NDI=",
+      "login": "hpdang",
+      "name": "Hong Phuc Dang",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/hpdang",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1658742?u=47f83edbdae3ede5eba1aca10ea3eb378a74b8fd&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "pdfinator",
+        "nameWithOwner": "hpdang/pdfinator",
+        "url": "https://github.com/hpdang/pdfinator",
+        "description": "Turns images into pdfs",
+        "stargazerCount": 403,
+        "forkCount": 4,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-03-18T08:12:50Z",
+        "pushedAt": "2016-07-14T07:10:21Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEwNjk2NDM=",
+      "login": "Vamei",
+      "name": "Vamei",
+      "type": "User",
+      "location": "Singapore, Shanghai",
+      "url": "https://github.com/Vamei",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1069643?u=afd9331391c86ac27a48478dce72f9eb6a84e948&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "Protocol-Forest-Vamei",
+        "nameWithOwner": "Vamei/Protocol-Forest-Vamei",
+        "url": "https://github.com/Vamei/Protocol-Forest-Vamei",
+        "description": "《协议森林》公共写作计划",
+        "stargazerCount": 393,
+        "forkCount": 126,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-02-08T11:53:23Z",
+        "pushedAt": "2016-09-22T01:50:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY0NTA4NDM1",
+      "login": "CodexploreRepo",
+      "name": "CodeXplore",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/CodexploreRepo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/64508435?u=a6d521b6c483739524d88f64152047aed0bf87c6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "data-science",
+        "nameWithOwner": "CodexploreRepo/data-science",
+        "url": "https://github.com/CodexploreRepo/data-science",
+        "description": "Data Science Handbook",
+        "stargazerCount": 313,
+        "forkCount": 831,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-01-10T14:32:40Z",
+        "pushedAt": "2022-01-04T16:16:56Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY5NjU4OTM=",
+      "login": "seehiong",
+      "name": "seehiong",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/seehiong",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6965893?u=3fabbddef2ceb55a4325fedfc1afe855dceb27d9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "hdb-price-predictor",
+        "nameWithOwner": "seehiong/hdb-price-predictor",
+        "url": "https://github.com/seehiong/hdb-price-predictor",
+        "description": "In-browser Singapore property valuation engine for HDB flats and private condominiums powered by dual XGBoost models (< 1ms JS inference). Features interactive transaction maps and two prediction modes: historical comparable valuation and index-adjusted forward projection.",
+        "stargazerCount": 258,
+        "forkCount": 25,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-05-13T14:24:52Z",
+        "pushedAt": "2026-09-12T04:02:00Z",
+        "homepageUrl": "https://seehiong.github.io/hdb-price-predictor/",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIzMzg2MzI=",
+      "login": "tanhauhau",
+      "name": "Tan Li Hau",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/tanhauhau",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2338632?u=7ca35d9de31aadd8e9af2f8e75ac185c6c42d1ab&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "svelte-json-tree",
+        "nameWithOwner": "tanhauhau/svelte-json-tree",
+        "url": "https://github.com/tanhauhau/svelte-json-tree",
+        "description": "JSON tree component for Svelte",
+        "stargazerCount": 190,
+        "forkCount": 44,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-11-16T13:05:04Z",
+        "pushedAt": "2024-05-22T21:38:32Z",
+        "homepageUrl": "https://lihautan.com/svelte-json-tree/",
+        "primaryLanguage": {
+          "name": "Svelte"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "O_kgDOCdzfXQ",
+      "login": "OptimaiNetwork",
+      "name": "OptimAI Network",
+      "type": "Organization",
+      "location": "Singapore",
+      "url": "https://github.com/OptimaiNetwork",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/165470045?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "docs",
+        "nameWithOwner": "OptimaiNetwork/docs",
+        "url": "https://github.com/OptimaiNetwork/docs",
+        "description": "OptimAI Network Documentation",
+        "stargazerCount": 106,
+        "forkCount": 70,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-02-27T11:21:25Z",
+        "pushedAt": "2026-07-21T10:54:05Z",
+        "homepageUrl": "http://docs.optimai.network/",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCQeejw",
+      "login": "nahladzulula",
+      "name": "Kai Sheng",
+      "type": "User",
+      "location": "Singapore, Singapore",
+      "url": "https://github.com/nahladzulula",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/151494287?u=a6aef03c1d0a2f1d4b6b9370d39f1a79d9edba6f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "ZenRift",
+        "nameWithOwner": "nahladzulula/ZenRift",
+        "url": "https://github.com/nahladzulula/ZenRift",
+        "description": "ZenRift orchestrates real-time data processing in distributed systems, utilizing adaptive gateways and scalable engines.",
+        "stargazerCount": 93,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-28T20:08:47Z",
+        "pushedAt": "2026-08-28T20:10:13Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE1Mjc2NDg=",
+      "login": "vintagewang",
+      "name": "Xiaorui Wang",
+      "type": "User",
+      "location": "Singapore",
+      "url": "https://github.com/vintagewang",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1527648?u=9b9ed328f45640b4bc29594ffae22380a3048ae7&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "tuxone",
+        "nameWithOwner": "vintagewang/tuxone",
+        "url": "https://github.com/vintagewang/tuxone",
+        "description": "It's a distributed, open-systems application server for C/C++ applications.",
+        "stargazerCount": 36,
+        "forkCount": 31,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2012-06-04T06:48:38Z",
+        "pushedAt": "2022-05-27T09:34:04Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOBrs2hA",
+      "login": "Shib-Chain",
+      "name": "ShibChain",
+      "type": "Organization",
+      "location": "Singapore",
+      "url": "https://github.com/Shib-Chain",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/112932484?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Singapore"
+      },
+      "discoveryTerms": [
+        "Singapore"
+      ],
+      "topRepository": {
+        "name": "assets",
+        "nameWithOwner": "Shib-Chain/assets",
+        "url": "https://github.com/Shib-Chain/assets",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-09-13T06:28:33Z",
+        "pushedAt": "2022-09-27T14:56:02Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    }
+  ],
+  "candidatePoolLimit": 500,
+  "candidatePoolThresholdStars": null
+}

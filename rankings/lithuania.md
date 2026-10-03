@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 184**
+- Progress: **0%**
+- Retained high-potential owner candidates: **48**
+- Search requests completed: **1**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [viliusle/miniPaint](https://github.com/viliusle/miniPaint) | **3,469** | Lithuania |
+| [aras-p/UnityGaussianSplatting](https://github.com/aras-p/UnityGaussianSplatting) | **3,420** | Kaunas, Lithuania |
+| [justinas/alice](https://github.com/justinas/alice) | **3,368** | Vilnius, Lithuania |
+| [Almantask/CSharp-From-Zero-To-Hero](https://github.com/Almantask/CSharp-From-Zero-To-Hero) | **1,570** | Lithuania |
+| [p12tic/libsimdpp](https://github.com/p12tic/libsimdpp) | **1,305** | Lithuania |
+| [Decodo/Decodo](https://github.com/Decodo/Decodo) | **1,245** | Lithuania |
+| [bring-shrubbery/SVG-to-SwiftUI](https://github.com/bring-shrubbery/SVG-to-SwiftUI) | **1,119** | Vilnius, Lithuania |
+| [mgedmin/objgraph](https://github.com/mgedmin/objgraph) | **841** | Lithuania |
+| [mvarnagiris/financius](https://github.com/mvarnagiris/financius) | **624** | Vilnius, Lithuania |
+| [Insality/druid](https://github.com/Insality/druid) | **596** | Lithuania |
+| [remrc/Self-Balancing-Cube](https://github.com/remrc/Self-Balancing-Cube) | **544** | Lithuania |
+| [if-not-nil/revo](https://github.com/if-not-nil/revo) | **464** | Vilnius, Lithuania |
+| [Pawka/phrozn](https://github.com/Pawka/phrozn) | **451** | Lithuania |
+| [nicegram/Nicegram-Android](https://github.com/nicegram/Nicegram-Android) | **407** | Lithuania |
+| [it-incubator/musicfun-react-all-stacks](https://github.com/it-incubator/musicfun-react-all-stacks) | **399** | Lithuania |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

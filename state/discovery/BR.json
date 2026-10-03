@@ -1,0 +1,1924 @@
+{
+  "schemaVersion": 2,
+  "cycle": 1,
+  "country": {
+    "code": "BR",
+    "name": "Brazil",
+    "slug": "brazil"
+  },
+  "geography": {
+    "release": "v3.2-export.8",
+    "sha256": "6b67c020d637410fa009a0aa6b9c8875c48870f2279cd8c0f053cbd67046fa2e",
+    "termsTotal": 5082
+  },
+  "phase": "discovery",
+  "nextTermIndex": 0,
+  "activeTerm": {
+    "index": 0,
+    "term": "Brazil",
+    "queue": [
+      {
+        "query": "location:\"Brazil\" type:user",
+        "stage": "type",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Brazil\" type:org",
+        "stage": "type",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      }
+    ],
+    "startedAt": "2026-10-03T08:27:39.403Z",
+    "requests": 1,
+    "leafPages": 0,
+    "shardExpansions": 1,
+    "reportedCount": 261125
+  },
+  "discoveryComplete": false,
+  "startedAt": "2026-10-03T08:27:39.403Z",
+  "updatedAt": "2026-10-03T08:27:41.805Z",
+  "completedAt": null,
+  "finalizedAt": null,
+  "stats": {
+    "termsProcessed": 0,
+    "searchRequests": 1,
+    "leafPages": 0,
+    "shardExpansions": 1,
+    "rawOwnerHits": 50,
+    "acceptedOwnerHits": 50,
+    "rejectedOwnerHits": 0,
+    "unresolvedShardCount": 0,
+    "minimumRateLimitRemaining": 4990
+  },
+  "unresolvedShards": [],
+  "candidates": [
+    {
+      "id": "MDQ6VXNlcjMxOTk2",
+      "login": "avelino",
+      "name": "Avelino",
+      "type": "User",
+      "location": "Brazil",
+      "url": "https://github.com/avelino",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/31996?u=867314ee32416a56c62d7b0715d31d7b0ccd8e62&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "awesome-go",
+        "nameWithOwner": "avelino/awesome-go",
+        "url": "https://github.com/avelino/awesome-go",
+        "description": "A curated list of awesome Go frameworks, libraries and software",
+        "stargazerCount": 186672,
+        "forkCount": 13597,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-07-06T13:42:15Z",
+        "pushedAt": "2026-10-03T00:11:10Z",
+        "homepageUrl": "https://awesome-go.com",
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjg2NTY4MTMy",
+      "login": "Universidade-Livre",
+      "name": "Universidade Brasileira Livre",
+      "type": "Organization",
+      "location": "Brazil",
+      "url": "https://github.com/Universidade-Livre",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/86568132?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "ciencia-da-computacao",
+        "nameWithOwner": "Universidade-Livre/ciencia-da-computacao",
+        "url": "https://github.com/Universidade-Livre/ciencia-da-computacao",
+        "description": "🎓 Um caminho para a educação autodidata em Ciência da Computação!",
+        "stargazerCount": 20883,
+        "forkCount": 1683,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-06-27T19:16:24Z",
+        "pushedAt": "2026-05-20T23:56:38Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjExNDA3MDcx",
+      "login": "brunodev85",
+      "name": "BrunoSX",
+      "type": "User",
+      "location": "Brazil",
+      "url": "https://github.com/brunodev85",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11407071?u=b8e72693930cd1e2d2ea4e0423fb27e0e905b84d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "winlator",
+        "nameWithOwner": "brunodev85/winlator",
+        "url": "https://github.com/brunodev85/winlator",
+        "description": "Android application for running Windows applications with Wine and Box86/Box64",
+        "stargazerCount": 19280,
+        "forkCount": 1806,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-07-26T13:02:11Z",
+        "pushedAt": "2026-09-22T18:36:59Z",
+        "homepageUrl": "https://winlator.org",
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "GNU Lesser General Public License v2.1",
+          "spdxId": "LGPL-2.1"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg2ODMzNzg=",
+      "login": "gustavoguanabara",
+      "name": "Gustavo Guanabara",
+      "type": "User",
+      "location": "Rio de Janeiro, Brazil",
+      "url": "https://github.com/gustavoguanabara",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8683378?u=01b06a154f04dadaa4e4131497fa2442e6323cbc&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "html-css",
+        "nameWithOwner": "gustavoguanabara/html-css",
+        "url": "https://github.com/gustavoguanabara/html-css",
+        "description": "Curso de HTML5 e CSS3",
+        "stargazerCount": 16579,
+        "forkCount": 3891,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-03-09T19:54:04Z",
+        "pushedAt": "2025-08-11T15:13:07Z",
+        "homepageUrl": "https://gustavoguanabara.github.io/html-css/",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjcwMzgyNTMy",
+      "login": "arthurspk",
+      "name": "Arthur Coutinho",
+      "type": "User",
+      "location": "Alagoas, Brazil",
+      "url": "https://github.com/arthurspk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/70382532?u=7571684eb38182062632c98531ac76a9ee03e872&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "guiadevbrasil",
+        "nameWithOwner": "arthurspk/guiadevbrasil",
+        "url": "https://github.com/arthurspk/guiadevbrasil",
+        "description": "Um guia extenso de informações com um vasto conteúdo de várias áreas para ajudar, agregar conhecimento e retirar dúvidas, nesse guia você encontrará tudo que necessário para qualquer carreira relacionada a tecnologia.",
+        "stargazerCount": 15795,
+        "forkCount": 1790,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-10-15T18:37:21Z",
+        "pushedAt": "2026-09-02T16:27:13Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjE2OTYzODYz",
+      "login": "frontendbr",
+      "name": "Front-end Brasil",
+      "type": "Organization",
+      "location": "Brazil",
+      "url": "https://github.com/frontendbr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16963863?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "vagas",
+        "nameWithOwner": "frontendbr/vagas",
+        "url": "https://github.com/frontendbr/vagas",
+        "description": ":microscope: Espaço para divulgação de vagas para front-enders.",
+        "stargazerCount": 15427,
+        "forkCount": 717,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-02-03T13:30:09Z",
+        "pushedAt": "2026-09-23T12:23:07Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM2MDM3OTM=",
+      "login": "felipefialho",
+      "name": "Felipe Fialho",
+      "type": "User",
+      "location": "Sao Paulo - Brazil",
+      "url": "https://github.com/felipefialho",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3603793?u=9d2f17464f1546bbbbe01d64c3177e7253b1d17a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "frontend-challenges",
+        "nameWithOwner": "felipefialho/frontend-challenges",
+        "url": "https://github.com/felipefialho/frontend-challenges",
+        "description": "A public list of open-source challenges from companies around the world",
+        "stargazerCount": 15032,
+        "forkCount": 1266,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-03-01T21:28:30Z",
+        "pushedAt": "2024-05-14T17:38:08Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI4NDA=",
+      "login": "akitaonrails",
+      "name": "Fabio Akita",
+      "type": "User",
+      "location": "Brazil",
+      "url": "https://github.com/akitaonrails",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2840?u=6923ae49ba086f2c94d29287bc998bacf5b32010&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "ai-memory",
+        "nameWithOwner": "akitaonrails/ai-memory",
+        "url": "https://github.com/akitaonrails/ai-memory",
+        "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+        "stargazerCount": 8779,
+        "forkCount": 607,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-21T23:23:51Z",
+        "pushedAt": "2026-10-02T17:11:11Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Rust"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY3MTg0",
+      "login": "insidegui",
+      "name": "Guilherme Rambo",
+      "type": "User",
+      "location": "Brazil",
+      "url": "https://github.com/insidegui",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/67184?u=8289404df610d8703b7d7a77a626d9e049dd886c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "VirtualBuddy",
+        "nameWithOwner": "insidegui/VirtualBuddy",
+        "url": "https://github.com/insidegui/VirtualBuddy",
+        "description": "Virtualize macOS 12 and later on Apple Silicon, VirtualBuddy is a virtual machine GUI for macOS M1, M2, M3, M4",
+        "stargazerCount": 8760,
+        "forkCount": 256,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-04-12T00:07:35Z",
+        "pushedAt": "2026-10-02T21:47:36Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Swift"
+        },
+        "licenseInfo": {
+          "name": "BSD 2-Clause \"Simplified\" License",
+          "spdxId": "BSD-2-Clause"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjMwNzMyNjU4",
+      "login": "backend-br",
+      "name": "Back-End Brasil",
+      "type": "Organization",
+      "location": "Brazil",
+      "url": "https://github.com/backend-br",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/30732658?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "vagas",
+        "nameWithOwner": "backend-br/vagas",
+        "url": "https://github.com/backend-br/vagas",
+        "description": "Espaço para a divulgação de vagas para desenvolvedores backend via issues do Github.",
+        "stargazerCount": 7991,
+        "forkCount": 201,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-08-04T17:38:02Z",
+        "pushedAt": "2026-08-31T11:54:22Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUwNjg3OTc=",
+      "login": "EduardoPires",
+      "name": "Eduardo Pires",
+      "type": "User",
+      "location": "São Paulo - Brazil",
+      "url": "https://github.com/EduardoPires",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5068797?u=32cb1e96f7accd61af1027ab3c16a62528db2835&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "EquinoxProject",
+        "nameWithOwner": "EduardoPires/EquinoxProject",
+        "url": "https://github.com/EduardoPires/EquinoxProject",
+        "description": "Web Application ASP.NET 9 using Clean Architecture, DDD, CQRS, Event Sourcing and a lot of good practices",
+        "stargazerCount": 6776,
+        "forkCount": 1642,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-12-14T04:36:58Z",
+        "pushedAt": "2026-04-14T23:33:37Z",
+        "homepageUrl": "http://equinoxproject.azurewebsites.net/",
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI0NTQzNQ==",
+      "login": "caarlos0",
+      "name": "Carlos Alexandro Becker",
+      "type": "User",
+      "location": "Brazil",
+      "url": "https://github.com/caarlos0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/245435?u=016c628e1a5b95034b2b1af297827b7f545809bc&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "env",
+        "nameWithOwner": "caarlos0/env",
+        "url": "https://github.com/caarlos0/env",
+        "description": "A simple, zero-dependencies library to parse environment variables into structs",
+        "stargazerCount": 6323,
+        "forkCount": 293,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-07-28T02:14:37Z",
+        "pushedAt": "2026-10-02T13:57:37Z",
+        "homepageUrl": "https://pkg.go.dev/github.com/caarlos0/env/v11",
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjg2ODMzODU=",
+      "login": "cursoemvideo",
+      "name": "Curso em Vídeo",
+      "type": "Organization",
+      "location": "Brazil",
+      "url": "https://github.com/cursoemvideo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8683385?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "cursoemvideo-html5",
+        "nameWithOwner": "cursoemvideo/cursoemvideo-html5",
+        "url": "https://github.com/cursoemvideo/cursoemvideo-html5",
+        "description": "Material do Curso de HTML5 e CSS3 do Curso em Vídeo",
+        "stargazerCount": 2978,
+        "forkCount": 169,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-04-08T17:33:09Z",
+        "pushedAt": "2024-05-25T23:36:33Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgzNTg3OTc=",
+      "login": "rcaferati",
+      "name": "Rafael Caferati",
+      "type": "User",
+      "location": "Brazil",
+      "url": "https://github.com/rcaferati",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8358797?u=72e65378efd849d9838ceac86cb4bae5919071a3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "react-awesome-slider",
+        "nameWithOwner": "rcaferati/react-awesome-slider",
+        "url": "https://github.com/rcaferati/react-awesome-slider",
+        "description": "A performant, lightweight React slider/carousel for media and content transitions, featuring 60fps animations, modular styling, optional HOCs, and fullpage navigation utilities. 🖥️📱",
+        "stargazerCount": 2975,
+        "forkCount": 285,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-06-12T18:45:33Z",
+        "pushedAt": "2026-07-13T23:59:03Z",
+        "homepageUrl": "https://fullpage.caferati.dev",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgwNjAxMDI=",
+      "login": "ErickWendel",
+      "name": "Erick Wendel",
+      "type": "User",
+      "location": "São Paulo - Brazil",
+      "url": "https://github.com/ErickWendel",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8060102?u=de3bfaa57ccc7f15a33b67ea1bd86b76e5cebdda&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "semana-javascript-expert08",
+        "nameWithOwner": "ErickWendel/semana-javascript-expert08",
+        "url": "https://github.com/ErickWendel/semana-javascript-expert08",
+        "description": "JS Expert Week 8.0 - 🎥Pre processing videos before uploading in the browser 😏",
+        "stargazerCount": 2439,
+        "forkCount": 1486,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-10-16T18:52:12Z",
+        "pushedAt": "2025-01-07T14:32:57Z",
+        "homepageUrl": "https://bit.ly/semanajsexpert08",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE0Mjk1Mjk=",
+      "login": "vitorfs",
+      "name": "Vitor Freitas",
+      "type": "User",
+      "location": "São Paulo, Brazil",
+      "url": "https://github.com/vitorfs",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1429529?u=37a823482be3f7f1fc9d82d2402700c47d6ed4da&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "bootcamp",
+        "nameWithOwner": "vitorfs/bootcamp",
+        "url": "https://github.com/vitorfs/bootcamp",
+        "description": "An enterprise social network",
+        "stargazerCount": 2302,
+        "forkCount": 973,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-05-27T19:30:57Z",
+        "pushedAt": "2023-10-01T14:56:30Z",
+        "homepageUrl": "trybootcamp.vitorfs.com",
+        "primaryLanguage": {
+          "name": "CSS"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU1Mzg2Mg==",
+      "login": "luizomf",
+      "name": "Otávio Miranda",
+      "type": "User",
+      "location": "Boa Esperança, MG, Brazil",
+      "url": "https://github.com/luizomf",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/553862?u=28d6db8f57fa7a7b0090b9b6f6f01199ed87fae2&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "curso-js",
+        "nameWithOwner": "luizomf/curso-js",
+        "url": "https://github.com/luizomf/curso-js",
+        "description": "Arquivos criados no meu curso de Javascript.",
+        "stargazerCount": 2018,
+        "forkCount": 721,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-10-24T14:41:30Z",
+        "pushedAt": "2024-03-07T02:28:17Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIyNTQ3MzE=",
+      "login": "diego3g",
+      "name": "Diego Fernandes",
+      "type": "User",
+      "location": "Brazil",
+      "url": "https://github.com/diego3g",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2254731?u=62845aebc40eb4768981d586c3a5fe60c6d87bd8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "rocketredis",
+        "nameWithOwner": "diego3g/rocketredis",
+        "url": "https://github.com/diego3g/rocketredis",
+        "description": "A beautiful Redis GUI :fire: (under development)",
+        "stargazerCount": 1947,
+        "forkCount": 168,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-06-30T01:47:48Z",
+        "pushedAt": "2026-10-01T05:04:13Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ1ODk4NTE=",
+      "login": "rmanguinho",
+      "name": "Rodrigo Manguinho",
+      "type": "User",
+      "location": "Rio de Janeiro, Brazil",
+      "url": "https://github.com/rmanguinho",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4589851?u=cfafac7d66a37279940fee5dbdb7be0c75977e07&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "clean-ts-api",
+        "nameWithOwner": "rmanguinho/clean-ts-api",
+        "url": "https://github.com/rmanguinho/clean-ts-api",
+        "description": "API em NodeJs usando Typescript, TDD, Clean Architecture, Design Patterns e SOLID principles",
+        "stargazerCount": 1915,
+        "forkCount": 484,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-01-24T17:51:41Z",
+        "pushedAt": "2026-09-09T19:39:00Z",
+        "homepageUrl": "https://rmanguinho.github.io/",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEzMDkwMTY2",
+      "login": "VictorTaelin",
+      "name": "Victor Taelin",
+      "type": "User",
+      "location": "Rio de Janeiro, Brazil",
+      "url": "https://github.com/VictorTaelin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13090166?u=8759860e1bbf00e8bc006bed24b9aeffea9acef3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "OptMem",
+        "nameWithOwner": "VictorTaelin/OptMem",
+        "url": "https://github.com/VictorTaelin/OptMem",
+        "description": "Permanent memory for AI agents. A 426-token prompt, a script, plug and play.",
+        "stargazerCount": 1687,
+        "forkCount": 109,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-25T16:58:43Z",
+        "pushedAt": "2026-07-31T02:19:57Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY2NDMxMjI=",
+      "login": "maykbrito",
+      "name": "Mayk Brito",
+      "type": "User",
+      "location": "Brazil",
+      "url": "https://github.com/maykbrito",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6643122?u=0afcb7b2ccbaa4f7f4c7a850d9d203e1851cca37&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "mini-video-me",
+        "nameWithOwner": "maykbrito/mini-video-me",
+        "url": "https://github.com/maykbrito/mini-video-me",
+        "description": "📹   A small webcam player focused on providing an easy way to add and control your webcam during recordings.",
+        "stargazerCount": 1638,
+        "forkCount": 166,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-09-06T00:34:55Z",
+        "pushedAt": "2023-02-09T20:25:16Z",
+        "homepageUrl": "https://maykbrito.github.io/mini-video-me/",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY5MTI1OTY=",
+      "login": "danielhe4rt",
+      "name": "Daniel Reis",
+      "type": "User",
+      "location": "Brazil",
+      "url": "https://github.com/danielhe4rt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6912596?u=517862825ee9ff10375c3b88b75be1c0f07a753f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "git4noobs",
+        "nameWithOwner": "danielhe4rt/git4noobs",
+        "url": "https://github.com/danielhe4rt/git4noobs",
+        "description": "Aulão de Git para iniciantes",
+        "stargazerCount": 1617,
+        "forkCount": 105,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-02-01T21:35:48Z",
+        "pushedAt": "2024-09-28T23:24:48Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjQyNTcyNzU=",
+      "login": "nubank",
+      "name": "nubank",
+      "type": "Organization",
+      "location": "Brazil",
+      "url": "https://github.com/nubank",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4257275?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "fklearn",
+        "nameWithOwner": "nubank/fklearn",
+        "url": "https://github.com/nubank/fklearn",
+        "description": "fklearn: Functional Machine Learning",
+        "stargazerCount": 1552,
+        "forkCount": 175,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-02-27T14:32:57Z",
+        "pushedAt": "2026-09-24T18:27:00Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY0MzIzMTI0",
+      "login": "cami-la",
+      "name": "Camila Cavalcante",
+      "type": "User",
+      "location": "Pernambuco, Brazil",
+      "url": "https://github.com/cami-la",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/64323124?u=88956a36bedc41b4b0bbc28bf549db72c67b6130&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "loops-e-arrays",
+        "nameWithOwner": "cami-la/loops-e-arrays",
+        "url": "https://github.com/cami-la/loops-e-arrays",
+        "description": "Repositório do curso Estruturas de Repetição e Arrays com Java. Curso este oferecido pela Digital Innovation one e ministrado por mim.",
+        "stargazerCount": 1409,
+        "forkCount": 342,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-08-24T22:39:37Z",
+        "pushedAt": "2023-05-06T16:31:38Z",
+        "homepageUrl": "https://web.digitalinnovation.one/home",
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY4MDExMjI=",
+      "login": "dunossauro",
+      "name": "Eduardo Mendes",
+      "type": "User",
+      "location": "São Paulo, Brazil",
+      "url": "https://github.com/dunossauro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6801122?u=72b1753502bbad5d13b7727044f9bd861aef71d7&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "live-de-python",
+        "nameWithOwner": "dunossauro/live-de-python",
+        "url": "https://github.com/dunossauro/live-de-python",
+        "description": "Repositório das lives de python semanais",
+        "stargazerCount": 1306,
+        "forkCount": 217,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-04-26T20:48:33Z",
+        "pushedAt": "2026-07-03T17:08:42Z",
+        "homepageUrl": "https://youtube.com/@dunossauro",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjI4OTI5Mjc0",
+      "login": "Rocketseat",
+      "name": "Rocketseat",
+      "type": "Organization",
+      "location": "Brazil",
+      "url": "https://github.com/Rocketseat",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/28929274?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "awesome",
+        "nameWithOwner": "Rocketseat/awesome",
+        "url": "https://github.com/Rocketseat/awesome",
+        "description": "Uma lista dos materiais gratuitos diponibilizados pela Rocketseat, incluindo conteúdos do Blog, Youtube e Instagram.",
+        "stargazerCount": 1088,
+        "forkCount": 114,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-07-23T17:13:48Z",
+        "pushedAt": "2021-11-24T12:23:27Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYxODk2Mjc0",
+      "login": "Fernanda-Kipper",
+      "name": "Fernanda Kipper",
+      "type": "User",
+      "location": "Brazil",
+      "url": "https://github.com/Fernanda-Kipper",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/61896274?u=e719b50e7f8f45968eba32b0425c05fd9c7ac049&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "Readme-Templates",
+        "nameWithOwner": "Fernanda-Kipper/Readme-Templates",
+        "url": "https://github.com/Fernanda-Kipper/Readme-Templates",
+        "description": " This repository provides a series of README templates to help developers document their projects 🚀👩‍💻",
+        "stargazerCount": 983,
+        "forkCount": 162,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-03-26T19:47:32Z",
+        "pushedAt": "2025-08-02T23:06:37Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc0OTEyODM=",
+      "login": "rodrigobranas",
+      "name": "Rodrigo Branas",
+      "type": "User",
+      "location": "Florianópolis, Brazil",
+      "url": "https://github.com/rodrigobranas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7491283?u=af373a343dd451402953c7f2e82fc92c78550652&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "youtube",
+        "nameWithOwner": "rodrigobranas/youtube",
+        "url": "https://github.com/rodrigobranas/youtube",
+        "description": "Código das séries do Youtube",
+        "stargazerCount": 928,
+        "forkCount": 545,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-04-05T13:33:43Z",
+        "pushedAt": "2023-01-07T17:07:22Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ4NzY2OQ==",
+      "login": "fdaciuk",
+      "name": "Fernando Daciuk",
+      "type": "User",
+      "location": "Somewhere in Brazil",
+      "url": "https://github.com/fdaciuk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/487669?u=1636a89a1a53df495a6a518a1b5b2988a8afdec1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "ajax",
+        "nameWithOwner": "fdaciuk/ajax",
+        "url": "https://github.com/fdaciuk/ajax",
+        "description": "Ajax module in Vanilla JS",
+        "stargazerCount": 743,
+        "forkCount": 138,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-03-07T02:02:59Z",
+        "pushedAt": "2018-11-08T17:09:19Z",
+        "homepageUrl": "https://www.npmjs.com/package/@fdaciuk/ajax",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY2MDc2NDI4",
+      "login": "professorguanabara",
+      "name": "Gustavo Guanabara",
+      "type": "User",
+      "location": "Rio de Janeiro, Brazil",
+      "url": "https://github.com/professorguanabara",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/66076428?u=a0349b456988e351cca2d9f31cb05dfb25a7a4b2&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "html-css",
+        "nameWithOwner": "professorguanabara/html-css",
+        "url": "https://github.com/professorguanabara/html-css",
+        "description": "Curso de HTML5 e CSS3 do CursoemVideo",
+        "stargazerCount": 714,
+        "forkCount": 70,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-05-28T15:15:21Z",
+        "pushedAt": "2025-07-09T16:31:56Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjk2NTMwNQ==",
+      "login": "andrebaltieri",
+      "name": "Andre Baltieri",
+      "type": "User",
+      "location": "São Paulo, SP - Brazil",
+      "url": "https://github.com/andrebaltieri",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/965305?u=41de0ab893557944eeef05c7f66370805cdcb032&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "Flunt",
+        "nameWithOwner": "andrebaltieri/Flunt",
+        "url": "https://github.com/andrebaltieri/Flunt",
+        "description": "Validations and Notifications",
+        "stargazerCount": 685,
+        "forkCount": 168,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-10-10T21:52:41Z",
+        "pushedAt": "2023-05-08T01:15:34Z",
+        "homepageUrl": "https://github.com/andrebaltieri/flunt",
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEzODk3MjU3",
+      "login": "acenelio",
+      "name": "Nelio Alves",
+      "type": "User",
+      "location": "Brazil",
+      "url": "https://github.com/acenelio",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13897257?u=5dd2dde5f8ab6ce062dd3772ff97d040d451ab04&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "curso-algoritmos",
+        "nameWithOwner": "acenelio/curso-algoritmos",
+        "url": "https://github.com/acenelio/curso-algoritmos",
+        "description": null,
+        "stargazerCount": 595,
+        "forkCount": 175,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-11-10T19:40:30Z",
+        "pushedAt": "2023-01-03T23:55:37Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjczMDQ5Mg==",
+      "login": "falvojr",
+      "name": "Venilton FalvoJr",
+      "type": "User",
+      "location": "Araraquara-SP, Brazil",
+      "url": "https://github.com/falvojr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/730492?u=2c181774f70ac6faab09344656a204618637f042&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "santander-dev-week-2023",
+        "nameWithOwner": "falvojr/santander-dev-week-2023",
+        "url": "https://github.com/falvojr/santander-dev-week-2023",
+        "description": "Java RESTful API criada para a Santander Dev Week",
+        "stargazerCount": 513,
+        "forkCount": 711,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-07-21T09:26:28Z",
+        "pushedAt": "2025-12-18T20:14:19Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM3NDUyODM2",
+      "login": "felipeAguiarCode",
+      "name": "Felipe Silva Aguiar",
+      "type": "User",
+      "location": "São paulo - SP, Brazil",
+      "url": "https://github.com/felipeAguiarCode",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/37452836?u=c2ee9c77db0b30faee7978ceb70b11cad1ec562c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "angular-playground",
+        "nameWithOwner": "felipeAguiarCode/angular-playground",
+        "url": "https://github.com/felipeAguiarCode/angular-playground",
+        "description": "👨‍💻 Repo com exemplos práticos para cada sub competência de Angular",
+        "stargazerCount": 466,
+        "forkCount": 418,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-08-14T01:36:01Z",
+        "pushedAt": "2024-05-17T01:03:56Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQzMjk2NDY3",
+      "login": "lucasrmagalhaes",
+      "name": "Lucas Magalhães",
+      "type": "User",
+      "location": "Esteio, RS - Brazil",
+      "url": "https://github.com/lucasrmagalhaes",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43296467?u=325da88d4003c4ceb446409afed1fb30a9bda20e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "desafios-DIO",
+        "nameWithOwner": "lucasrmagalhaes/desafios-DIO",
+        "url": "https://github.com/lucasrmagalhaes/desafios-DIO",
+        "description": "Resolução dos desafios de C Sharp, Java, JavaScript, Kotlin e Ruby da Digital Innovation One.",
+        "stargazerCount": 345,
+        "forkCount": 119,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-09-17T13:50:45Z",
+        "pushedAt": "2022-03-23T00:39:52Z",
+        "homepageUrl": "https://digitalinnovation.one/",
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ3MzYyOTYw",
+      "login": "giovannamoeller",
+      "name": "Giovanna Moeller",
+      "type": "User",
+      "location": "São Paulo, Brazil",
+      "url": "https://github.com/giovannamoeller",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47362960?u=c93359e8e52a522234058ae67db1090919eebafc&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "swift4noobs",
+        "nameWithOwner": "giovannamoeller/swift4noobs",
+        "url": "https://github.com/giovannamoeller/swift4noobs",
+        "description": null,
+        "stargazerCount": 328,
+        "forkCount": 15,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-10-11T03:30:01Z",
+        "pushedAt": "2024-07-05T11:30:12Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE5MjMxOTA0",
+      "login": "gabrielfroes",
+      "name": "Gabriel Froes",
+      "type": "User",
+      "location": "São José dos Campos - SP - Brazil",
+      "url": "https://github.com/gabrielfroes",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19231904?u=e8d3dd3c30dd5af28dc30f86f6adb6d83f78cc21&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "webscraping_python_selenium",
+        "nameWithOwner": "gabrielfroes/webscraping_python_selenium",
+        "url": "https://github.com/gabrielfroes/webscraping_python_selenium",
+        "description": "Web Scraping Javascript generated pages using Python and Selenium",
+        "stargazerCount": 268,
+        "forkCount": 106,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-02-13T12:41:43Z",
+        "pushedAt": "2026-04-21T21:19:48Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ4MDIyNTg5",
+      "login": "LauraBeatris",
+      "name": "Laura Beatris",
+      "type": "User",
+      "location": "Florianópolis, Brazil",
+      "url": "https://github.com/LauraBeatris",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/48022589?u=315d4c03dcf4ebdfefb3a9946da1e10ddf0a9f13&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "use-selected-items-hook",
+        "nameWithOwner": "LauraBeatris/use-selected-items-hook",
+        "url": "https://github.com/LauraBeatris/use-selected-items-hook",
+        "description": "Easily select items based on an array",
+        "stargazerCount": 147,
+        "forkCount": 11,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-07-06T12:19:24Z",
+        "pushedAt": "2023-01-07T22:21:29Z",
+        "homepageUrl": "https://use-selected-items-hook.vercel.app",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU4NDUyNTQw",
+      "login": "oluiscabral",
+      "name": "oluiscabral",
+      "type": "User",
+      "location": "São Paulo, Brazil",
+      "url": "https://github.com/oluiscabral",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58452540?u=daac901c3c1c4db030963ae31980685313244358&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "studorama",
+        "nameWithOwner": "oluiscabral/studorama",
+        "url": "https://github.com/oluiscabral/studorama",
+        "description": "AI-powered study sessions to enhance your learning",
+        "stargazerCount": 108,
+        "forkCount": 12,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-07-01T03:22:40Z",
+        "pushedAt": "2026-09-03T17:31:16Z",
+        "homepageUrl": "https://studorama.vercel.app",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgzMDkyOTY=",
+      "login": "renatogroffe",
+      "name": "Renato Groffe",
+      "type": "User",
+      "location": "Brazil",
+      "url": "https://github.com/renatogroffe",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8309296?u=4a228a51395d2f670535a104e3af5b7f9d833c33&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "AZ-305_SolutionsArchitect",
+        "nameWithOwner": "renatogroffe/AZ-305_SolutionsArchitect",
+        "url": "https://github.com/renatogroffe/AZ-305_SolutionsArchitect",
+        "description": "Conteúdos gratuitos e série de lives sobre o exame AZ-305 - Designing Microsoft Azure Infrastructure Solutions. | Tópicos: Containers, Infraestrutura, Azure, Cloud, DevOps, Cybersecurity, Software Development...",
+        "stargazerCount": 92,
+        "forkCount": 10,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-10-19T22:08:06Z",
+        "pushedAt": "2026-05-14T17:39:14Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjcxNjM2",
+      "login": "peas",
+      "name": "Paulo Silveira",
+      "type": "User",
+      "location": "São Paulo, Brazil",
+      "url": "https://github.com/peas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/71636?u=0e94686ea55eaf4d51246d167e6277676b9a299d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "java8",
+        "nameWithOwner": "peas/java8",
+        "url": "https://github.com/peas/java8",
+        "description": null,
+        "stargazerCount": 79,
+        "forkCount": 53,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-04-16T18:21:49Z",
+        "pushedAt": "2021-07-05T17:42:06Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE3MzE2Mzky",
+      "login": "jakeliny",
+      "name": "Jakeliny Gracielly",
+      "type": "User",
+      "location": "Brazil",
+      "url": "https://github.com/jakeliny",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17316392?u=eb030996fad6a43228e24528a9fe8f430daff56f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "Discover-SQL",
+        "nameWithOwner": "jakeliny/Discover-SQL",
+        "url": "https://github.com/jakeliny/Discover-SQL",
+        "description": "Project created to teach about SQL queries with practical examples",
+        "stargazerCount": 77,
+        "forkCount": 13,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-04-23T16:22:27Z",
+        "pushedAt": "2023-12-20T05:45:07Z",
+        "homepageUrl": "https://biblioteca.rocketseat.com.br/sql/sql/overview-do-curso",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBY2hVA",
+      "login": "alineai18",
+      "name": "Aline Angela Ibers",
+      "type": "User",
+      "location": "Brazil",
+      "url": "https://github.com/alineai18",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/93167956?u=2074ee8fcc47c22384fb93e0b1637b888aa15665&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "website",
+        "nameWithOwner": "alineai18/website",
+        "url": "https://github.com/alineai18/website",
+        "description": "My website with aplus ❤️",
+        "stargazerCount": 75,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-11-28T02:40:52Z",
+        "pushedAt": "2021-11-28T03:07:06Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOB8uwww",
+      "login": "otaviossousa",
+      "name": "Otavio Sousa",
+      "type": "User",
+      "location": "Brazil",
+      "url": "https://github.com/otaviossousa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/130789571?u=755397e08c7c57ab68c95341de0e2086c9744ec7&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "otaviossousa",
+        "nameWithOwner": "otaviossousa/otaviossousa",
+        "url": "https://github.com/otaviossousa/otaviossousa",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 72,
+        "forkCount": 19,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-11-23T00:05:05Z",
+        "pushedAt": "2026-10-03T03:37:50Z",
+        "homepageUrl": "https://github.com/otaviossousaa",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBnDxhw",
+      "login": "AlianeAmaral",
+      "name": "Aliane Amaral",
+      "type": "User",
+      "location": "Campo Grande, MS - Brazil",
+      "url": "https://github.com/AlianeAmaral",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/108065159?u=e2a0b53983174f4c437ded1b4cad1f936ba46896&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "AlianeAmaral",
+        "nameWithOwner": "AlianeAmaral/AlianeAmaral",
+        "url": "https://github.com/AlianeAmaral/AlianeAmaral",
+        "description": "My Readme (GitHub Profile)",
+        "stargazerCount": 51,
+        "forkCount": 36,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-01-06T14:19:03Z",
+        "pushedAt": "2026-10-03T03:13:39Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIwOTYxMDkx",
+      "login": "Rafaelmdcarneiro",
+      "name": "Rafael Carneiro",
+      "type": "User",
+      "location": "Brazil",
+      "url": "https://github.com/Rafaelmdcarneiro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/20961091?u=40859f43eb1812f57c0b2cca247e3ab31e7e9757&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "walkdir-rs",
+        "nameWithOwner": "Rafaelmdcarneiro/walkdir-rs",
+        "url": "https://github.com/Rafaelmdcarneiro/walkdir-rs",
+        "description": "Rust library for walking directories recursively.",
+        "stargazerCount": 51,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-05-26T14:52:08Z",
+        "pushedAt": "2024-05-26T14:53:09Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Rust"
+        },
+        "licenseInfo": {
+          "name": "The Unlicense",
+          "spdxId": "Unlicense"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUxMjgyNDk1",
+      "login": "MonicaHillman",
+      "name": "Monica Hillman",
+      "type": "User",
+      "location": "São Paulo - SP, Brazil",
+      "url": "https://github.com/MonicaHillman",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/51282495?u=55676e07184f03f801772da8143c8c981bdd2b5b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "30dayscss",
+        "nameWithOwner": "MonicaHillman/30dayscss",
+        "url": "https://github.com/MonicaHillman/30dayscss",
+        "description": "30 CSS3 mini projects in 30 days",
+        "stargazerCount": 33,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-08-12T17:05:22Z",
+        "pushedAt": "2020-09-19T00:34:23Z",
+        "homepageUrl": "https://30dayscss.vercel.app",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOB3tCKg",
+      "login": "Rodrigo-Cn",
+      "name": "Rodrigo Costa",
+      "type": "User",
+      "location": "Caetité - Bahia - Brazil",
+      "url": "https://github.com/Rodrigo-Cn",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/125518378?u=5fcc49bc95b2fc9c7f130d96c99730f916cffe35&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "Rodrigo-Cn",
+        "nameWithOwner": "Rodrigo-Cn/Rodrigo-Cn",
+        "url": "https://github.com/Rodrigo-Cn/Rodrigo-Cn",
+        "description": null,
+        "stargazerCount": 22,
+        "forkCount": 4,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-04-24T16:09:21Z",
+        "pushedAt": "2026-02-03T01:08:53Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQxMTQ5Mw==",
+      "login": "jeffersongoncalves",
+      "name": "Jefferson Gonçalves",
+      "type": "User",
+      "location": "Assis, SP, Brazil",
+      "url": "https://github.com/jeffersongoncalves",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/411493?u=53b5f0453da8f12a07b081a3b5e45103a571a2d8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "filament-topbar",
+        "nameWithOwner": "jeffersongoncalves/filament-topbar",
+        "url": "https://github.com/jeffersongoncalves/filament-topbar",
+        "description": "Filament plugin that adds a customizable topbar with navigation items and quick actions to your admin panel.",
+        "stargazerCount": 20,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-08-02T01:11:55Z",
+        "pushedAt": "2026-09-28T23:51:56Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Blade"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg4NzQ4NjM3",
+      "login": "jpsantos1",
+      "name": "joao santos",
+      "type": "User",
+      "location": "Brazil",
+      "url": "https://github.com/jpsantos1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/88748637?u=3b3fdc7e9c4303e66e09bc872d72da723f332433&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Brazil"
+      },
+      "discoveryTerms": [
+        "Brazil"
+      ],
+      "topRepository": {
+        "name": "70-483-programming-csharp",
+        "nameWithOwner": "jpsantos1/70-483-programming-csharp",
+        "url": "https://github.com/jpsantos1/70-483-programming-csharp",
+        "description": "Exam Ref 70-483 Programming in C# examples",
+        "stargazerCount": 15,
+        "forkCount": 5,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-01-25T01:02:10Z",
+        "pushedAt": "2022-01-25T14:38:55Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    }
+  ],
+  "candidatePoolLimit": 500,
+  "candidatePoolThresholdStars": null
+}

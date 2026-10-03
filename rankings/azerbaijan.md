@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 392**
+- Progress: **0%**
+- Retained high-potential owner candidates: **113**
+- Search requests completed: **9**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [al1abb/invoify](https://github.com/al1abb/invoify) | **6,361** | Azerbaijan |
+| [sabuhish/fastapi-mail](https://github.com/sabuhish/fastapi-mail) | **1,013** | Baku Azerbaijan |
+| [theahmadov/slash](https://github.com/theahmadov/slash) | **748** | Azerbaijan |
+| [martian56/redcell](https://github.com/martian56/redcell) | **328** | Azerbaijan |
+| [kamranbekirovyz/bunpod](https://github.com/kamranbekirovyz/bunpod) | **235** | Baku, Azerbaijan |
+| [nazarli-shabnam/clevis](https://github.com/nazarli-shabnam/clevis) | **162** | Azerbaijan |
+| [MuradIsazade777/MuradIsazade777](https://github.com/MuradIsazade777/MuradIsazade777) | **88** | Baku, Azerbaijan |
+| [nihaddev/hastebin-site](https://github.com/nihaddev/hastebin-site) | **52** | Azerbaijan, Baku |
+| [huseynovvusal/spring-blog-api](https://github.com/huseynovvusal/spring-blog-api) | **49** | Azerbaijan |
+| [nurlanvalizada/ProgrammingInCSharpCourse](https://github.com/nurlanvalizada/ProgrammingInCSharpCourse) | **46** | Azerbaijan |
+| [NijatZeynalov/image_to_handwriting_az](https://github.com/NijatZeynalov/image_to_handwriting_az) | **33** | Azerbaijan |
+| [KhanbalaRashidov/Go-Azerbaijan](https://github.com/KhanbalaRashidov/Go-Azerbaijan) | **27** | Baku/Azerbaijan |
+| [aliyevorkhan/FRI](https://github.com/aliyevorkhan/FRI) | **19** | Baku, Azerbaijan |
+| [raminorujov/hackerrank](https://github.com/raminorujov/hackerrank) | **18** | Baku, Azerbaijan |
+| [thisisyusub/tdd-learn-example](https://github.com/thisisyusub/tdd-learn-example) | **18** | Azerbaijan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 468**
+- Progress: **0%**
+- Retained high-potential owner candidates: **329**
+- Search requests completed: **9**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [4lbH4cker/ALHacking](https://github.com/4lbH4cker/ALHacking) | **1,646** | Albania |
+| [banago/PHPloy](https://github.com/banago/PHPloy) | **1,431** | Vlorë, Albania |
+| [klendi/react-top-loading-bar](https://github.com/klendi/react-top-loading-bar) | **749** | Tirana, Albania |
+| [redianmarku/instagram-follower-scraper](https://github.com/redianmarku/instagram-follower-scraper) | **300** | Albania |
+| [fadion/Maneuver](https://github.com/fadion/Maneuver) | **172** | Tirana, Albania |
+| [eneajaho/ngx-isr](https://github.com/eneajaho/ngx-isr) | **150** | Albania |
+| [treshi/daily-iptv.al](https://github.com/treshi/daily-iptv.al) | **109** | albania |
+| [SxtBox/TablePlus_1x_License_Activation](https://github.com/SxtBox/TablePlus_1x_License_Activation) | **82** | Albania |
+| [redjanym/FCMBundle](https://github.com/redjanym/FCMBundle) | **43** | Tirane, Albania |
+| [orgito1015/free-cybersecurity-certifications](https://github.com/orgito1015/free-cybersecurity-certifications) | **38** | Albania |
+| [ilirhushi/laravel5.5-angular5](https://github.com/ilirhushi/laravel5.5-angular5) | **37** | Tirana, Albania |
+| [nertilpoci/PeopleCounter](https://github.com/nertilpoci/PeopleCounter) | **33** | Albania |
+| [detjonmataj/Data-Structure-and-Algorithms-Visualization-in-VR](https://github.com/detjonmataj/Data-Structure-and-Algorithms-Visualization-in-VR) | **27** | Tirana, Albania |
+| [vasilirigels/travel-app](https://github.com/vasilirigels/travel-app) | **26** | Tirana, Albania |
+| [Rolanddoda/vue-cli-plugin-gh-pages-auto-deploy](https://github.com/Rolanddoda/vue-cli-plugin-gh-pages-auto-deploy) | **22** | Tirana, Albania |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

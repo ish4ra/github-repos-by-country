@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 275**
+- Progress: **0%**
+- Retained high-potential owner candidates: **47**
+- Search requests completed: **1**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [agucova/awesome-esp](https://github.com/agucova/awesome-esp) | **2,718** | Santiago, Chile |
+| [4GeeksAcademy/Interactive-Tutorials](https://github.com/4GeeksAcademy/Interactive-Tutorials) | **2,147** | Online, Madrid, Miami, Santiago de Chile and Caracas. |
+| [michelson/Dante](https://github.com/michelson/Dante) | **2,041** | Santiago, Chile |
+| [nicolaslopezj/searchable](https://github.com/nicolaslopezj/searchable) | **1,993** | Santiago, Chile |
+| [tomas/needle](https://github.com/tomas/needle) | **1,635** | Valdivia, Chile |
+| [Mjrovai/OpenCV-Face-Recognition](https://github.com/Mjrovai/OpenCV-Face-Recognition) | **1,351** | Santiago, Chile |
+| [juanbrujo/listado-apis-publicas-en-chile](https://github.com/juanbrujo/listado-apis-publicas-en-chile) | **1,020** | Santiago, Chile |
+| [ColdGrub1384/Pyto](https://github.com/ColdGrub1384/Pyto) | **1,019** | Chile |
+| [matmartinez/MMNumberKeyboard](https://github.com/matmartinez/MMNumberKeyboard) | **956** | Chile |
+| [jbkunst/highcharter](https://github.com/jbkunst/highcharter) | **741** | Chile |
+| [RRUZ/delphi-ide-theme-editor](https://github.com/RRUZ/delphi-ide-theme-editor) | **695** | Valdivia, Chile. |
+| [DarkGhostHunter/Larapass](https://github.com/DarkGhostHunter/Larapass) | **581** | Chile |
+| [maria-rcks/t1code](https://github.com/maria-rcks/t1code) | **524** | Santiago, Chile |
+| [richonguzman/LoRa_APRS_iGate](https://github.com/richonguzman/LoRa_APRS_iGate) | **521** | Viña del Mar, Chile |
+| [rodyherrera/Quantum](https://github.com/rodyherrera/Quantum) | **475** | Chile, Talca |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 781**
+- Progress: **0%**
+- Retained high-potential owner candidates: **48**
+- Search requests completed: **1**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [nodesource/distributions](https://github.com/nodesource/distributions) | **13,850** | Colombia |
+| [jahirfiquitiva/Blueprint](https://github.com/jahirfiquitiva/Blueprint) | **938** | Duitama, Colombia |
+| [lfades/next-with-apollo](https://github.com/lfades/next-with-apollo) | **762** | Sabaneta - Colombia |
+| [JesusChapman/termux-desktop-xfce](https://github.com/JesusChapman/termux-desktop-xfce) | **586** | Colombia |
+| [DiegoRBaquero/BTorrent](https://github.com/DiegoRBaquero/BTorrent) | **585** | Colombia |
+| [DragonJAR/n8n-workflows-esp](https://github.com/DragonJAR/n8n-workflows-esp) | **527** | Manizales, Caldas, Colombia |
+| [Edu4rdSHL/unimap](https://github.com/Edu4rdSHL/unimap) | **401** | Colombia |
+| [gndx/gndx-challenges](https://github.com/gndx/gndx-challenges) | **232** | Colombia |
+| [jdnichollsc/Ionic-Starter-Template](https://github.com/jdnichollsc/Ionic-Starter-Template) | **210** | Colombia |
+| [JuanDMeGon/RESTful-API-with-Laravel-Definitive-Guide](https://github.com/JuanDMeGon/RESTful-API-with-Laravel-Definitive-Guide) | **186** | Medellín, Colombia |
+| [luischaparroc/holberton-system_engineering-devops](https://github.com/luischaparroc/holberton-system_engineering-devops) | **175** | Colombia |
+| [mecomonteshbtn/C-low_level_programming](https://github.com/mecomonteshbtn/C-low_level_programming) | **161** | Medellín, Colombia |
+| [Fhernd/PythonEjercicios](https://github.com/Fhernd/PythonEjercicios) | **147** | Bogotá - Colombia |
+| [Trycatch-tv/30-dias-de-proyectos-en-java](https://github.com/Trycatch-tv/30-dias-de-proyectos-en-java) | **127** | Colombia |
+| [jdjuan/ng-notyf](https://github.com/jdjuan/ng-notyf) | **97** | Manizales, Colombia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

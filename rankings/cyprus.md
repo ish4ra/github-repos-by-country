@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 156**
+- Progress: **0%**
+- Retained high-potential owner candidates: **48**
+- Search requests completed: **1**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [AdguardTeam/AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) | **37,191** | Cyprus |
+| [zloirock/core-js](https://github.com/zloirock/core-js) | **25,534** | Cyprus, Larnaca |
+| [zakirullin/cognitive-load](https://github.com/zakirullin/cognitive-load) | **12,515** | Limassol, Cyprus |
+| [centrifugal/centrifugo](https://github.com/centrifugal/centrifugo) | **10,825** | Cyprus |
+| [pikvm/pikvm](https://github.com/pikvm/pikvm) | **10,369** | Cyprus |
+| [gosom/google-maps-scraper](https://github.com/gosom/google-maps-scraper) | **6,254** | Cyprus |
+| [TrustTunnel/TrustTunnel](https://github.com/TrustTunnel/TrustTunnel) | **3,501** | Cyprus |
+| [polterguy/magic](https://github.com/polterguy/magic) | **1,200** | Cyprus |
+| [dgutov/diff-hl](https://github.com/dgutov/diff-hl) | **1,116** | Limassol, Cyprus |
+| [TezRomacH/python-package-template](https://github.com/TezRomacH/python-package-template) | **1,092** | Limassol, Cyprus |
+| [protesilaos/modus-themes](https://github.com/protesilaos/modus-themes) | **911** | Cyprus |
+| [sudoguy/tiktokpy](https://github.com/sudoguy/tiktokpy) | **876** | Limassol, Cyprus |
+| [paracycle/slackthemes](https://github.com/paracycle/slackthemes) | **873** | Nicosia, Cyprus |
+| [alexmic/filtrr](https://github.com/alexmic/filtrr) | **823** | Cyprus |
+| [FZambia/centrifuge](https://github.com/FZambia/centrifuge) | **674** | Limassol, Cyprus |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

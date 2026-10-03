@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 40**
+- Progress: **0%**
+- Retained high-potential owner candidates: **47**
+- Search requests completed: **1**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [giannisanni/pulsar](https://github.com/giannisanni/pulsar) | **224** | Paramaribo, Suriname |
+| [kareldonk/QuantumGate](https://github.com/kareldonk/QuantumGate) | **117** | Suriname |
+| [extensionsapp/translatte](https://github.com/extensionsapp/translatte) | **97** | Paramaribo, Suriname |
+| [ragnarok22/whereami.nvim](https://github.com/ragnarok22/whereami.nvim) | **22** | Suriname |
+| [lheijst/weewx-rtldavis](https://github.com/lheijst/weewx-rtldavis) | **21** | Paramaribo, Suriname |
+| [nerkarso/directus-extensions](https://github.com/nerkarso/directus-extensions) | **18** | Paramaribo, Suriname |
+| [Fuseteam/systemd-service-files](https://github.com/Fuseteam/systemd-service-files) | **12** | Paramaribo, Suriname |
+| [pawiromitchel/ftx-telegram-trader](https://github.com/pawiromitchel/ftx-telegram-trader) | **12** | Suriname |
+| [shayant98/teamsBot](https://github.com/shayant98/teamsBot) | **9** | Suriname |
+| [eSaniello/MT4-Batch-Backtester](https://github.com/eSaniello/MT4-Batch-Backtester) | **4** | Suriname |
+| [N3RDCLASH/mail-drive-sync](https://github.com/N3RDCLASH/mail-drive-sync) | **4** | Suriname |
+| [timmy1420/linux_scripts](https://github.com/timmy1420/linux_scripts) | **4** | Suriname |
+| [divergentvisiontechnologies/swarv](https://github.com/divergentvisiontechnologies/swarv) | **3** | Suriname |
+| [m23ck/opin1on8](https://github.com/m23ck/opin1on8) | **3** | Paramaribo/Suriname |
+| [viramdin/TicTacToe](https://github.com/viramdin/TicTacToe) | **3** | Suriname |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

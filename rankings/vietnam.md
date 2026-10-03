@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 1,373**
+- Progress: **0%**
+- Retained high-potential owner candidates: **48**
+- Search requests completed: **1**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | **132,638** | Vietnam |
+| [ZuzooVn/machine-learning-for-software-engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers) | **28,868** | Vietnam |
+| [thangchung/awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-core) | **21,398** | Ho Chi Minh City, Vietnam |
+| [tuhdo/os01](https://github.com/tuhdo/os01) | **13,719** | Vietnam |
+| [maxrave-dev/SimpMusic](https://github.com/maxrave-dev/SimpMusic) | **11,681** | Vietnam |
+| [trungdq88/Awesome-Black-Friday-Cyber-Monday](https://github.com/trungdq88/Awesome-Black-Friday-Cyber-Monday) | **7,489** | Vietnam |
+| [hathach/tinyusb](https://github.com/hathach/tinyusb) | **7,168** | Vietnam 🇻🇳 |
+| [rey5137/material](https://github.com/rey5137/material) | **5,944** | Vietnam |
+| [vietanhdev/anylabeling](https://github.com/vietanhdev/anylabeling) | **3,491** | Vietnam |
+| [nvh95/jest-preview](https://github.com/nvh95/jest-preview) | **2,389** | Vietnam |
+| [mrgoonie/claudekit-skills](https://github.com/mrgoonie/claudekit-skills) | **2,225** | Vietnam |
+| [hoangvvo/next-connect](https://github.com/hoangvvo/next-connect) | **1,651** | Vietnam |
+| [aiko-chan-ai/DiscordBotClient](https://github.com/aiko-chan-ai/DiscordBotClient) | **1,476** | Vietnam (Elysia Realm) |
+| [maudzung/Complex-YOLOv4-Pytorch](https://github.com/maudzung/Complex-YOLOv4-Pytorch) | **1,332** | Hanoi, Vietnam |
+| [tuanpmt/esp_mqtt](https://github.com/tuanpmt/esp_mqtt) | **1,171** | Ho Chi Minh, Vietnam |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

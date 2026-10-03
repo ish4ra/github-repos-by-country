@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 2,
+  "cycle": 1,
+  "country": {
+    "code": "FR",
+    "name": "France",
+    "slug": "france"
+  },
+  "geography": {
+    "release": "v3.2-export.8",
+    "sha256": "88a0b29fcbea38f2f7d91fb5f82cea07d7fb87d1b0f252dfc9d2138a25f7f543",
+    "termsTotal": 16145
+  },
+  "phase": "discovery",
+  "nextTermIndex": 0,
+  "activeTerm": {
+    "index": 0,
+    "term": "France",
+    "queue": [
+      {
+        "query": "location:\"France\" type:user",
+        "stage": "type",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"France\" type:org",
+        "stage": "type",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      }
+    ],
+    "startedAt": "2026-10-03T08:30:01.643Z",
+    "requests": 1,
+    "leafPages": 0,
+    "shardExpansions": 1,
+    "reportedCount": 183853
+  },
+  "discoveryComplete": false,
+  "startedAt": "2026-10-03T08:30:01.643Z",
+  "updatedAt": "2026-10-03T08:30:05.248Z",
+  "completedAt": null,
+  "finalizedAt": null,
+  "stats": {
+    "termsProcessed": 0,
+    "searchRequests": 1,
+    "leafPages": 0,
+    "shardExpansions": 1,
+    "rawOwnerHits": 50,
+    "acceptedOwnerHits": 0,
+    "rejectedOwnerHits": 50,
+    "unresolvedShardCount": 0,
+    "minimumRateLimitRemaining": 4677
+  },
+  "unresolvedShards": [],
+  "candidates": [],
+  "candidatePoolLimit": 500,
+  "candidatePoolThresholdStars": null
+}

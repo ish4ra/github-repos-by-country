@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 1,195**
+- Progress: **0%**
+- Retained high-potential owner candidates: **46**
+- Search requests completed: **1**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) | **94,756** | Finland |
+| [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) | **75,108** | Helsinki, Finland |
+| [petkaantonov/bluebird](https://github.com/petkaantonov/bluebird) | **20,472** | Helsinki, Finland |
+| [TeamVanced/VancedManager](https://github.com/TeamVanced/VancedManager) | **8,139** | Finland |
+| [agronholm/apscheduler](https://github.com/agronholm/apscheduler) | **7,644** | Nurmijärvi, Finland |
+| [tulir/whatsmeow](https://github.com/tulir/whatsmeow) | **7,465** | Finland |
+| [lhartikk/ArnoldC](https://github.com/lhartikk/ArnoldC) | **6,887** | Helsinki, Finland |
+| [jerry-git/learn-python3](https://github.com/jerry-git/learn-python3) | **6,858** | Helsinki, Finland |
+| [kijai/ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper) | **6,719** | Finland |
+| [tkarras/progressive_growing_of_gans](https://github.com/tkarras/progressive_growing_of_gans) | **6,176** | Helsinki, Finland |
+| [youssefHosni/Data-Science-Interview-Questions-Answers](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers) | **5,875** | Helsinki, Finland |
+| [amosgyamfi/open-swiftui-animations](https://github.com/amosgyamfi/open-swiftui-animations) | **5,655** | Helsinki, Finland |
+| [sallar/github-contributions-chart](https://github.com/sallar/github-contributions-chart) | **5,607** | Espoo, Finland |
+| [staltz/rxmarbles](https://github.com/staltz/rxmarbles) | **4,195** | Helsinki, Finland |
+| [arielsalminen/responsive-nav.js](https://github.com/arielsalminen/responsive-nav.js) | **4,048** | Helsinki, Finland |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

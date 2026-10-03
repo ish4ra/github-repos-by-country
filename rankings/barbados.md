@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 22**
+- Progress: **0%**
+- Retained high-potential owner candidates: **41**
+- Search requests completed: **1**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [kaku2015/ColorfulNews](https://github.com/kaku2015/ColorfulNews) | **1,298** | Barbados |
+| [adevbuildingstuff/ethereum-solidity-course-updated-code](https://github.com/adevbuildingstuff/ethereum-solidity-course-updated-code) | **188** | Barbados |
+| [lukehefson/ex-githubber-companies](https://github.com/lukehefson/ex-githubber-companies) | **125** | Barbados |
+| [iRoachie/react-native-material-tabs](https://github.com/iRoachie/react-native-material-tabs) | **122** | Barbados |
+| [hammertoe/crypto_balancer](https://github.com/hammertoe/crypto_balancer) | **33** | Barbados |
+| [daley-mottley/portfolio](https://github.com/daley-mottley/portfolio) | **29** | Barbados |
+| [bajedev/basic-react-navigation-sidebar](https://github.com/bajedev/basic-react-navigation-sidebar) | **10** | Barbados |
+| [jnthnclrk/Affiliate-URLs](https://github.com/jnthnclrk/Affiliate-URLs) | **9** | Barbados |
+| [diondree/stencil-vue2-output-target](https://github.com/diondree/stencil-vue2-output-target) | **7** | Barbados |
+| [fibini/Wbpack-To-Do-List](https://github.com/fibini/Wbpack-To-Do-List) | **7** | Barbados |
+| [paulmiu/dotfiles](https://github.com/paulmiu/dotfiles) | **6** | Barbados |
+| [intricate/paseto-haskell](https://github.com/intricate/paseto-haskell) | **5** | Barbados |
+| [d-alleyne/ashby-job-scraper](https://github.com/d-alleyne/ashby-job-scraper) | **4** | Barbados |
+| [ShamarKellman/omnipay-first-atlantic-commerce](https://github.com/ShamarKellman/omnipay-first-atlantic-commerce) | **4** | Barbados |
+| [sramharack/ScaledRelativeGraphs.jl](https://github.com/sramharack/ScaledRelativeGraphs.jl) | **4** | St. Phillips, Barbados, W.I. |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

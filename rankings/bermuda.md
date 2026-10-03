@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 27**
+- Progress: **0%**
+- Retained high-potential owner candidates: **43**
+- Search requests completed: **1**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [OwshenNetwork/owshen](https://github.com/OwshenNetwork/owshen) | **2,001** | Bermuda Triangle |
+| [DesktopECHO/Pi-hole-for-Android](https://github.com/DesktopECHO/Pi-hole-for-Android) | **653** | Hamilton, Bermuda |
+| [404name/winter](https://github.com/404name/winter) | **449** |  Bermuda Triangle |
+| [raggi/async_sinatra](https://github.com/raggi/async_sinatra) | **434** | California or Bermuda |
+| [Pear1y/CVE-2022-26133](https://github.com/Pear1y/CVE-2022-26133) | **146** | Bermuda |
+| [nvelden/geneviewer](https://github.com/nvelden/geneviewer) | **102** | Hamilton, Bermuda |
+| [augustoproiete/EmptyLicensesLicx](https://github.com/augustoproiete/EmptyLicensesLicx) | **85** | Bermuda |
+| [DukeWF/TJUT_CS_Helper](https://github.com/DukeWF/TJUT_CS_Helper) | **70** | Bermuda |
+| [colinbate/svelte-ts-tailwind-template](https://github.com/colinbate/svelte-ts-tailwind-template) | **69** | Bermuda |
+| [wuwenrufeng/amap](https://github.com/wuwenrufeng/amap) | **66** | Bermuda |
+| [gabriel-jones/iOS-Animated-Waveform-in-Swift](https://github.com/gabriel-jones/iOS-Animated-Waveform-in-Swift) | **40** | Bermuda |
+| [PirateTok/ttytok](https://github.com/PirateTok/ttytok) | **28** | Bermuda |
+| [ryancheley/yt-cli](https://github.com/ryancheley/yt-cli) | **28** | Bermuda Dunes, CA |
+| [mfielding92/ClawedBack](https://github.com/mfielding92/ClawedBack) | **23** | Bermuda Triangle |
+| [littleblack111/dotfiles](https://github.com/littleblack111/dotfiles) | **20** | Bermuda |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

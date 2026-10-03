@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 51**
+- Progress: **0%**
+- Retained high-potential owner candidates: **46**
+- Search requests completed: **1**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [moustapha-aden/sakinah](https://github.com/moustapha-aden/sakinah) | **10** | Djibouti Dj |
+| [inamkhosa/csharpdiameterstack](https://github.com/inamkhosa/csharpdiameterstack) | **5** | Dubai, Islamabad, Djibouti |
+| [nabolitains/plasma](https://github.com/nabolitains/plasma) | **5** | Djibouti |
+| [Ismael9-web/reactv2-mayan](https://github.com/Ismael9-web/reactv2-mayan) | **4** | Djibouti |
+| [YACIN-DEV-100/YACIN-DEV-100](https://github.com/YACIN-DEV-100/YACIN-DEV-100) | **4** | Djibouti  |
+| [waafipay/sdk-php](https://github.com/waafipay/sdk-php) | **3** | Djibouti |
+| [benkhaireh/tahajjud-calculator](https://github.com/benkhaireh/tahajjud-calculator) | **2** | Djibouti |
+| [DrPower01/Ravenbooks](https://github.com/DrPower01/Ravenbooks) | **2** | Djibouti |
+| [abdibogor/-Anonymous-Message-Board](https://github.com/abdibogor/-Anonymous-Message-Board) | **1** | Djibouti |
+| [AbdiR-pixel/Data-Structure-Project](https://github.com/AbdiR-pixel/Data-Structure-Project) | **1** | Djibouti |
+| [amino0/pass-sanitaire](https://github.com/amino0/pass-sanitaire) | **1** | Djibouti |
+| [bassim18ramad/Systeme-de-facturation-PDP2](https://github.com/bassim18ramad/Systeme-de-facturation-PDP2) | **1** | Djibouti |
+| [Captain-iiro/Barrede-navigation-html-scss](https://github.com/Captain-iiro/Barrede-navigation-html-scss) | **1** | Djibouti |
+| [Filsan648/HOOM](https://github.com/Filsan648/HOOM) | **1** | Djibouti |
+| [hamoudabass/Drapeau-de-DJibouti](https://github.com/hamoudabass/Drapeau-de-DJibouti) | **1** | Djibouti |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 555**
+- Progress: **0%**
+- Retained high-potential owner candidates: **50**
+- Search requests completed: **1**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [njbrown/texturelab](https://github.com/njbrown/texturelab) | **809** | Jamaica |
+| [BayBreezy/ui-thing](https://github.com/BayBreezy/ui-thing) | **729** | Jamaica |
+| [SIsilicon/WorldEdit-BE](https://github.com/SIsilicon/WorldEdit-BE) | **425** | St. Ann, Jamaica |
+| [tiannaparris/Data-Analysis-Portfolio](https://github.com/tiannaparris/Data-Analysis-Portfolio) | **292** | Jamaica |
+| [JonCooperWorks/judas](https://github.com/JonCooperWorks/judas) | **274** | Jamaica |
+| [trevoirwilliams/HR.LeaveManagement.CleanArchitecture-dotnet5](https://github.com/trevoirwilliams/HR.LeaveManagement.CleanArchitecture-dotnet5) | **252** | Jamaica |
+| [jordanliu/themecn](https://github.com/jordanliu/themecn) | **249** | Kingston, Jamaica |
+| [Lithium876/ConTroll_Remote_Access_Trojan](https://github.com/Lithium876/ConTroll_Remote_Access_Trojan) | **104** | Jamaica |
+| [JordanMicahBennett/SMART-CT-SCAN_BASED-COVID19_VIRUS_DETECTOR](https://github.com/JordanMicahBennett/SMART-CT-SCAN_BASED-COVID19_VIRUS_DETECTOR) | **102** | Jamaica |
+| [JasonHinds13/hackable](https://github.com/JasonHinds13/hackable) | **73** | Jamaica |
+| [IceDragon200/oui-blendish](https://github.com/IceDragon200/oui-blendish) | **55** | Knockpatrick, Manchester, Jamaica W.I |
+| [Fortnite-API/py-wrapper](https://github.com/Fortnite-API/py-wrapper) | **42** | Jamaica |
+| [JavonDavis/Android-View-Controller](https://github.com/JavonDavis/Android-View-Controller) | **41** | Jamaica |
+| [jondoescoding/awesome-ai-agents](https://github.com/jondoescoding/awesome-ai-agents) | **40** | Jamaica |
+| [marcamillion/craigslist-ruby-crawler](https://github.com/marcamillion/craigslist-ruby-crawler) | **29** | Kingston, Jamaica |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

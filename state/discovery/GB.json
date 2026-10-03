@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 2,
+  "cycle": 1,
+  "country": {
+    "code": "GB",
+    "name": "United Kingdom",
+    "slug": "united-kingdom"
+  },
+  "geography": {
+    "release": "v3.2-export.8",
+    "sha256": "1bd359b322bf17a2aa5f4bca13bd3ef4a056089cc2b15b38080cd985bbb5a76b",
+    "termsTotal": 4975
+  },
+  "phase": "discovery",
+  "nextTermIndex": 0,
+  "activeTerm": {
+    "index": 0,
+    "term": "United Kingdom",
+    "queue": [
+      {
+        "query": "location:\"United Kingdom\" type:user",
+        "stage": "type",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"United Kingdom\" type:org",
+        "stage": "type",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      }
+    ],
+    "startedAt": "2026-10-03T08:38:02.348Z",
+    "requests": 1,
+    "leafPages": 0,
+    "shardExpansions": 1,
+    "reportedCount": 123548
+  },
+  "discoveryComplete": false,
+  "startedAt": "2026-10-03T08:38:02.348Z",
+  "updatedAt": "2026-10-03T08:38:06.546Z",
+  "completedAt": null,
+  "finalizedAt": null,
+  "stats": {
+    "termsProcessed": 0,
+    "searchRequests": 1,
+    "leafPages": 0,
+    "shardExpansions": 1,
+    "rawOwnerHits": 50,
+    "acceptedOwnerHits": 0,
+    "rejectedOwnerHits": 50,
+    "unresolvedShardCount": 0,
+    "minimumRateLimitRemaining": 4518
+  },
+  "unresolvedShards": [],
+  "candidates": [],
+  "candidatePoolLimit": 500,
+  "candidatePoolThresholdStars": null
+}

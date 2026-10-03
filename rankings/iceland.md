@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 172**
+- Progress: **0%**
+- Retained high-potential owner candidates: **48**
+- Search requests completed: **1**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | **68,790** | Iceland |
+| [lss233/kirara-ai](https://github.com/lss233/kirara-ai) | **19,061** | Iceland III |
+| [sveinbjornt/Sloth](https://github.com/sveinbjornt/Sloth) | **8,965** | Reykjavík, Iceland |
+| [imbue-bit/AlphaGPT](https://github.com/imbue-bit/AlphaGPT) | **3,159** | Iceland |
+| [jeremybarbet/react-native-modalize](https://github.com/jeremybarbet/react-native-modalize) | **2,880** | Reykjavík, Iceland |
+| [HermannBjorgvin/Clawdmeter](https://github.com/HermannBjorgvin/Clawdmeter) | **2,229** | Reykjavík, Iceland |
+| [einaregilsson/Redirector](https://github.com/einaregilsson/Redirector) | **2,092** | Iceland |
+| [birkir/prime](https://github.com/birkir/prime) | **1,717** | Reykjavík, Iceland |
+| [SuprDewd/T-414-AFLV](https://github.com/SuprDewd/T-414-AFLV) | **910** | Iceland |
+| [pagekite/PyPagekite](https://github.com/pagekite/PyPagekite) | **751** | Reykjavik, Iceland |
+| [sverrirs/jekyll-paginate-v2](https://github.com/sverrirs/jekyll-paginate-v2) | **535** | Reykjavík, Iceland |
+| [carbonengine/trinity](https://github.com/carbonengine/trinity) | **460** | Iceland |
+| [szhorvat/MaTeX](https://github.com/szhorvat/MaTeX) | **403** | Iceland |
+| [phunterlau/wangfeng-rnn](https://github.com/phunterlau/wangfeng-rnn) | **332** | Iceland |
+| [LLaMafia/llamafia.github](https://github.com/LLaMafia/llamafia.github) | **317** | Iceland |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

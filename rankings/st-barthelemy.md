@@ -8,10 +8,24 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 9%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **1 / 11**
+- Progress: **9%**
+- Retained high-potential owner candidates: **3**
+- Search requests completed: **1**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [bambinafrankriver/bambinafrankriver](https://github.com/bambinafrankriver/bambinafrankriver) | **0** | St Barthélemy (BL) |
+| [malmesbourne/malmesbourne](https://github.com/malmesbourne/malmesbourne) | **0** | St. Barthélemy (BL) |
+| [sandstormundead/sandstormundead](https://github.com/sandstormundead/sandstormundead) | **0** | St. Barthélemy (BL) |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

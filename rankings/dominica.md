@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 21**
+- Progress: **0%**
+- Retained high-potential owner candidates: **39**
+- Search requests completed: **1**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [AdrielMinyety/Login-PHP-MySQL](https://github.com/AdrielMinyety/Login-PHP-MySQL) | **7** | República Dominica/ Santo Domingo |
+| [Clatasha/Clatasha-HUD](https://github.com/Clatasha/Clatasha-HUD) | **7** | Portsmouth,Dominica |
+| [xeno3dev/atlas](https://github.com/xeno3dev/atlas) | **7** | Dominica |
+| [jaimonorle/formBuilder-ConditionalLogic](https://github.com/jaimonorle/formBuilder-ConditionalLogic) | **5** | Dominica |
+| [lazarusvc/vouchcast_mvc5](https://github.com/lazarusvc/vouchcast_mvc5) | **5** | Dominica |
+| [PabloAlmonte/loopback-component-relation-filter](https://github.com/PabloAlmonte/loopback-component-relation-filter) | **3** | Republica Dominica, Santo Domingo |
+| [Zormat/Final_diplomado](https://github.com/Zormat/Final_diplomado) | **3** | Punta Cana, Dominica Republic |
+| [bowetech/Static](https://github.com/bowetech/Static) | **2** |  Dominica |
+| [DerejSoftt/derej-press](https://github.com/DerejSoftt/derej-press) | **1** | Santiago❤️ Republica Dominica. |
+| [EERR26/windows-server-vmware-lab](https://github.com/EERR26/windows-server-vmware-lab) | **1** | Dominica República  |
+| [hunterdr/python_django_blog](https://github.com/hunterdr/python_django_blog) | **1** | Republica Dominica |
+| [kingDebo/chrisitian-wordle](https://github.com/kingDebo/chrisitian-wordle) | **1** | Dominica, Caribbean |
+| [Oportorr/DataAccess](https://github.com/Oportorr/DataAccess) | **1** | Santo domingo Dominica Republic |
+| [pembertonc/pembertonc](https://github.com/pembertonc/pembertonc) | **1** | Commonwealth of Dominica Roseau Comm. of Dominica West Indies |
+| [robinsonassc/polycom](https://github.com/robinsonassc/polycom) | **1** | Dominica |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

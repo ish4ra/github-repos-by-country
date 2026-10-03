@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 540**
+- Progress: **0%**
+- Retained high-potential owner candidates: **50**
+- Search requests completed: **1**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [portainer/portainer](https://github.com/portainer/portainer) | **38,616** | Auckland, New Zealand |
+| [deviantony/docker-elk](https://github.com/deviantony/docker-elk) | **18,389** | Auckland, New Zealand |
+| [acaudwell/Gource](https://github.com/acaudwell/Gource) | **13,156** | New Zealand |
+| [ChenYilong/iOSInterviewQuestions](https://github.com/ChenYilong/iOSInterviewQuestions) | **9,551** | Auckland, New Zealand |
+| [Mooophy/Cpp-Primer](https://github.com/Mooophy/Cpp-Primer) | **8,287** | Auckland, New Zealand |
+| [urbanadventurer/WhatWeb](https://github.com/urbanadventurer/WhatWeb) | **6,869** | New Zealand |
+| [RichardLitt/standard-readme](https://github.com/RichardLitt/standard-readme) | **6,372** | Pōneke Wellington, Aotearoa New Zealand |
+| [brentvollebregt/auto-py-to-exe](https://github.com/brentvollebregt/auto-py-to-exe) | **4,989** | Wellington, New Zealand |
+| [cortesi/devd](https://github.com/cortesi/devd) | **3,474** | Dunedin, New Zealand |
+| [benhoyt/inih](https://github.com/benhoyt/inih) | **3,042** | Christchurch, New Zealand |
+| [ashmind/SharpLab](https://github.com/ashmind/SharpLab) | **2,980** | New Zealand |
+| [nathanpeck/awesome-ecs](https://github.com/nathanpeck/awesome-ecs) | **2,903** | Auckland, New Zealand |
+| [meganz/MEGAcmd](https://github.com/meganz/MEGAcmd) | **2,219** | Auckland, New Zealand |
+| [dominictarr/event-stream](https://github.com/dominictarr/event-stream) | **2,173** | New Zealand |
+| [lukemurraynz/awesome-azure-architecture](https://github.com/lukemurraynz/awesome-azure-architecture) | **1,730** | Hamilton, New Zealand |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

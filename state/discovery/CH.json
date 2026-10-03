@@ -1,0 +1,1985 @@
+{
+  "schemaVersion": 2,
+  "cycle": 1,
+  "country": {
+    "code": "CH",
+    "name": "Switzerland",
+    "slug": "switzerland"
+  },
+  "geography": {
+    "release": "v3.2-export.8",
+    "sha256": "1c00f13e3bab523bfba9e48df919a14b213d0fcaaff432c264215f52a8e0e8fc",
+    "termsTotal": 2089
+  },
+  "phase": "discovery",
+  "nextTermIndex": 0,
+  "activeTerm": {
+    "index": 0,
+    "term": "Switzerland",
+    "queue": [
+      {
+        "query": "location:\"Switzerland\" type:user",
+        "stage": "type",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Switzerland\" type:org",
+        "stage": "type",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      }
+    ],
+    "startedAt": "2026-10-03T08:37:00.493Z",
+    "requests": 1,
+    "leafPages": 0,
+    "shardExpansions": 1,
+    "reportedCount": 55146
+  },
+  "discoveryComplete": false,
+  "startedAt": "2026-10-03T08:37:00.493Z",
+  "updatedAt": "2026-10-03T08:37:03.931Z",
+  "completedAt": null,
+  "finalizedAt": null,
+  "stats": {
+    "termsProcessed": 0,
+    "searchRequests": 1,
+    "leafPages": 0,
+    "shardExpansions": 1,
+    "rawOwnerHits": 50,
+    "acceptedOwnerHits": 50,
+    "rejectedOwnerHits": 0,
+    "unresolvedShardCount": 0,
+    "minimumRateLimitRemaining": 4539
+  },
+  "unresolvedShards": [],
+  "candidates": [
+    {
+      "id": "O_kgDOCzt1nA",
+      "login": "docling-project",
+      "name": "Docling Project",
+      "type": "Organization",
+      "location": "Switzerland",
+      "url": "https://github.com/docling-project",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/188446108?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "docling",
+        "nameWithOwner": "docling-project/docling",
+        "url": "https://github.com/docling-project/docling",
+        "description": "Get your documents ready for gen AI",
+        "stargazerCount": 68326,
+        "forkCount": 4988,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-07-09T07:50:26Z",
+        "pushedAt": "2026-10-03T05:38:22Z",
+        "homepageUrl": "https://docling-project.github.io/docling",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEyODIwNjc=",
+      "login": "romkatv",
+      "name": "Roman Perepelitsa",
+      "type": "User",
+      "location": "Switzerland",
+      "url": "https://github.com/romkatv",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1282067?u=4e6e9bb432f7b5502008624ca3bb3f28cc15ff52&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "powerlevel10k",
+        "nameWithOwner": "romkatv/powerlevel10k",
+        "url": "https://github.com/romkatv/powerlevel10k",
+        "description": "A Zsh theme",
+        "stargazerCount": 55191,
+        "forkCount": 2447,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-02-24T19:09:45Z",
+        "pushedAt": "2026-09-14T08:10:04Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Shell"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEwODM1MzU0",
+      "login": "WerWolv",
+      "name": "Nik",
+      "type": "User",
+      "location": "Switzerland",
+      "url": "https://github.com/WerWolv",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10835354?u=df34a21c99e8b5470fb39a106d328372e7abc115&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "ImHex",
+        "nameWithOwner": "WerWolv/ImHex",
+        "url": "https://github.com/WerWolv/ImHex",
+        "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
+        "stargazerCount": 54966,
+        "forkCount": 2479,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-11-10T14:27:00Z",
+        "pushedAt": "2026-09-30T00:55:08Z",
+        "homepageUrl": "https://imhex.werwolv.net/",
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v2.0",
+          "spdxId": "GPL-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc4MDg4Njg3",
+      "login": "FujiwaraChoki",
+      "name": null,
+      "type": "User",
+      "location": "Zurich, Switzerland",
+      "url": "https://github.com/FujiwaraChoki",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/78088687?u=33f2e00d059b4625b3e80692173a068dc0b89048&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "MoneyPrinterV2",
+        "nameWithOwner": "FujiwaraChoki/MoneyPrinterV2",
+        "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
+        "description": "Automate the process of making money online.",
+        "stargazerCount": 32032,
+        "forkCount": 3444,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-02-12T11:20:42Z",
+        "pushedAt": "2026-09-15T22:35:17Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "GNU Affero General Public License v3.0",
+          "spdxId": "AGPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY5NDI=",
+      "login": "twpayne",
+      "name": "Tom Payne",
+      "type": "User",
+      "location": "Zürich, Switzerland",
+      "url": "https://github.com/twpayne",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6942?u=227a4496aba8d3f526c53bdb6aa7713b22c56906&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "chezmoi",
+        "nameWithOwner": "twpayne/chezmoi",
+        "url": "https://github.com/twpayne/chezmoi",
+        "description": "Manage your dotfiles across multiple diverse machines, securely.",
+        "stargazerCount": 21799,
+        "forkCount": 693,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-11-12T16:45:43Z",
+        "pushedAt": "2026-10-02T22:51:45Z",
+        "homepageUrl": "https://www.chezmoi.io/",
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE4MzY3OA==",
+      "login": "Seldaek",
+      "name": "Jordi Boggiano",
+      "type": "User",
+      "location": "Zürich, Zurich, Switzerland",
+      "url": "https://github.com/Seldaek",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/183678?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "monolog",
+        "nameWithOwner": "Seldaek/monolog",
+        "url": "https://github.com/Seldaek/monolog",
+        "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+        "stargazerCount": 21402,
+        "forkCount": 1912,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2011-02-17T02:07:15Z",
+        "pushedAt": "2026-10-01T13:21:08Z",
+        "homepageUrl": "https://seldaek.github.io/monolog/",
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE0MTIzMg==",
+      "login": "antonmedv",
+      "name": "Anton Medvedev",
+      "type": "User",
+      "location": "Switzerland",
+      "url": "https://github.com/antonmedv",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/141232?u=32c3c767d77f4bf7eb66499cb4898f88472d7d52&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "fx",
+        "nameWithOwner": "antonmedv/fx",
+        "url": "https://github.com/antonmedv/fx",
+        "description": "Terminal JSON viewer & processor",
+        "stargazerCount": 20644,
+        "forkCount": 493,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-01-25T17:29:43Z",
+        "pushedAt": "2026-10-02T12:12:44Z",
+        "homepageUrl": "https://fx.wtf",
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "O_kgDOB6IPnw",
+      "login": "anyproto",
+      "name": "Any Association",
+      "type": "Organization",
+      "location": "Switzerland",
+      "url": "https://github.com/anyproto",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/128061343?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "anytype-ts",
+        "nameWithOwner": "anyproto/anytype-ts",
+        "url": "https://github.com/anyproto/anytype-ts",
+        "description": "Official Anytype client for MacOS, Linux, and Windows",
+        "stargazerCount": 8879,
+        "forkCount": 584,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-05-22T10:39:33Z",
+        "pushedAt": "2026-10-02T12:27:05Z",
+        "homepageUrl": "https://anytype.io",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "O_kgDOD5nXNQ",
+      "login": "unicity-aos",
+      "name": "Unicity AOS",
+      "type": "Organization",
+      "location": "Switzerland",
+      "url": "https://github.com/unicity-aos",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/261740341?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "aos-ce",
+        "nameWithOwner": "unicity-aos/aos-ce",
+        "url": "https://github.com/unicity-aos/aos-ce",
+        "description": "AOS Community Edition: the open agent operating system.",
+        "stargazerCount": 8462,
+        "forkCount": 22,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-12T23:39:52Z",
+        "pushedAt": "2026-10-03T02:33:58Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Rust"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUxMzg4",
+      "login": "nst",
+      "name": "Nicolas Seriot",
+      "type": "User",
+      "location": "Switzerland",
+      "url": "https://github.com/nst",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/51388?u=07ab57f132b8c5c4778b07deb38eaaa902eecf02&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "iOS-Runtime-Headers",
+        "nameWithOwner": "nst/iOS-Runtime-Headers",
+        "url": "https://github.com/nst/iOS-Runtime-Headers",
+        "description": "iOS Objective-C headers as derived from runtime introspection",
+        "stargazerCount": 7970,
+        "forkCount": 1591,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2011-01-09T13:37:14Z",
+        "pushedAt": "2022-05-17T07:06:03Z",
+        "homepageUrl": "https://github.com/nst/RuntimeBrowser",
+        "primaryLanguage": {
+          "name": "Objective-C"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI2MDM0MDU=",
+      "login": "RicoSuter",
+      "name": "Rico Suter",
+      "type": "User",
+      "location": "Switzerland",
+      "url": "https://github.com/RicoSuter",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2603405?u=eaf8de2141873385ae3d6c2cefb7afefabd8c78d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "NSwag",
+        "nameWithOwner": "RicoSuter/NSwag",
+        "url": "https://github.com/RicoSuter/NSwag",
+        "description": "The Swagger/OpenAPI toolchain for .NET, ASP.NET Core and TypeScript. ",
+        "stargazerCount": 7364,
+        "forkCount": 1360,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-09-02T19:11:57Z",
+        "pushedAt": "2026-09-07T21:10:58Z",
+        "homepageUrl": "http://NSwag.org",
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM3NjY2MQ==",
+      "login": "mafintosh",
+      "name": "Mathias Buus",
+      "type": "User",
+      "location": "Switzerland",
+      "url": "https://github.com/mafintosh",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/376661?u=69e0f4e7e2dc9e575ef93b329babfa773302622e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "peerflix",
+        "nameWithOwner": "mafintosh/peerflix",
+        "url": "https://github.com/mafintosh/peerflix",
+        "description": "Streaming torrent client for node.js",
+        "stargazerCount": 6268,
+        "forkCount": 667,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-03-14T17:15:43Z",
+        "pushedAt": "2022-06-19T23:29:59Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEyMDM2Mjk=",
+      "login": "wjakob",
+      "name": "Wenzel Jakob",
+      "type": "User",
+      "location": "Lausanne, Switzerland",
+      "url": "https://github.com/wjakob",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1203629?u=42d816bc7194889b0372881656b4792c536fff69&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "instant-meshes",
+        "nameWithOwner": "wjakob/instant-meshes",
+        "url": "https://github.com/wjakob/instant-meshes",
+        "description": "Interactive field-aligned mesh generator",
+        "stargazerCount": 6237,
+        "forkCount": 710,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-09-14T10:24:27Z",
+        "pushedAt": "2022-01-03T03:31:55Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjQ3NTM2Mg==",
+      "login": "ethz-asl",
+      "name": "ETHZ ASL",
+      "type": "Organization",
+      "location": "Zurich, Switzerland",
+      "url": "https://github.com/ethz-asl",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/475362?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "kalibr",
+        "nameWithOwner": "ethz-asl/kalibr",
+        "url": "https://github.com/ethz-asl/kalibr",
+        "description": "The Kalibr visual-inertial calibration toolbox",
+        "stargazerCount": 5750,
+        "forkCount": 1612,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-05-29T12:31:48Z",
+        "pushedAt": "2024-03-30T19:42:29Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjY5NTM5NzA=",
+      "login": "ProtonMail",
+      "name": "Proton Mail",
+      "type": "Organization",
+      "location": "Geneva, Switzerland",
+      "url": "https://github.com/ProtonMail",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6953970?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "WebClients",
+        "nameWithOwner": "ProtonMail/WebClients",
+        "url": "https://github.com/ProtonMail/WebClients",
+        "description": "Monorepo hosting the proton web clients",
+        "stargazerCount": 5625,
+        "forkCount": 724,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-06-08T11:16:51Z",
+        "pushedAt": "2026-10-02T20:16:54Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjI1MDI4NTMw",
+      "login": "ProtonVPN",
+      "name": "ProtonVPN",
+      "type": "Organization",
+      "location": "Switzerland",
+      "url": "https://github.com/ProtonVPN",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25028530?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "android-app",
+        "nameWithOwner": "ProtonVPN/android-app",
+        "url": "https://github.com/ProtonVPN/android-app",
+        "description": "Official ProtonVPN Android app",
+        "stargazerCount": 4132,
+        "forkCount": 508,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-12-12T13:36:50Z",
+        "pushedAt": "2026-09-30T07:33:06Z",
+        "homepageUrl": "https://protonvpn.com/download-android",
+        "primaryLanguage": {
+          "name": "Kotlin"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQwNzc0",
+      "login": "cloudhead",
+      "name": "Alexis Sellier",
+      "type": "User",
+      "location": "Switzerland",
+      "url": "https://github.com/cloudhead",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/40774?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "rx",
+        "nameWithOwner": "cloudhead/rx",
+        "url": "https://github.com/cloudhead/rx",
+        "description": "👾 Modern and minimalist pixel editor",
+        "stargazerCount": 3486,
+        "forkCount": 110,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-08-14T21:54:49Z",
+        "pushedAt": "2024-01-31T21:57:35Z",
+        "homepageUrl": "https://discord.gg/xHggPjfsS9",
+        "primaryLanguage": {
+          "name": "Rust"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjU4NzI5NjU1",
+      "login": "solana-foundation",
+      "name": "Solana Foundation",
+      "type": "Organization",
+      "location": "Zug, Switzerland",
+      "url": "https://github.com/solana-foundation",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58729655?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "solana-web3.js",
+        "nameWithOwner": "solana-foundation/solana-web3.js",
+        "url": "https://github.com/solana-foundation/solana-web3.js",
+        "description": "Solana JavaScript SDK",
+        "stargazerCount": 2763,
+        "forkCount": 1084,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-08-22T20:30:39Z",
+        "pushedAt": "2026-10-02T03:13:36Z",
+        "homepageUrl": "https://solana-foundation.github.io/solana-web3.js/",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE2NTkzNzQ=",
+      "login": "Siguza",
+      "name": "Siguza",
+      "type": "User",
+      "location": "Switzerland",
+      "url": "https://github.com/Siguza",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1659374?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "ios-resources",
+        "nameWithOwner": "Siguza/ios-resources",
+        "url": "https://github.com/Siguza/ios-resources",
+        "description": "Useful resources for iOS hacking",
+        "stargazerCount": 1977,
+        "forkCount": 269,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-12-26T14:01:35Z",
+        "pushedAt": "2025-05-24T22:38:16Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjU5MTAxNTg1",
+      "login": "dfinity",
+      "name": "DFINITY",
+      "type": "Organization",
+      "location": "Switzerland",
+      "url": "https://github.com/dfinity",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/59101585?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "ic",
+        "nameWithOwner": "dfinity/ic",
+        "url": "https://github.com/dfinity/ic",
+        "description": "Internet Computer blockchain source: the client/replica software run by nodes",
+        "stargazerCount": 1794,
+        "forkCount": 411,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-05-09T08:16:37Z",
+        "pushedAt": "2026-10-03T07:19:26Z",
+        "homepageUrl": "https://internetcomputer.org",
+        "primaryLanguage": {
+          "name": "Rust"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIyMzUw",
+      "login": "joaomoreno",
+      "name": "João Moreno",
+      "type": "User",
+      "location": "Zurich, Switzerland",
+      "url": "https://github.com/joaomoreno",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/22350?u=eaef1b36456834b01a6751e1f10f49a3413f6fb6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "gifcap",
+        "nameWithOwner": "joaomoreno/gifcap",
+        "url": "https://github.com/joaomoreno/gifcap",
+        "description": "Capture your screen to a GIF in your browser",
+        "stargazerCount": 1657,
+        "forkCount": 119,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-03-19T12:32:50Z",
+        "pushedAt": "2026-01-08T17:40:31Z",
+        "homepageUrl": "https://gifcap.dev",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjgyNjIxOQ==",
+      "login": "kiwix",
+      "name": "Kiwix",
+      "type": "Organization",
+      "location": "Lausanne, Switzerland",
+      "url": "https://github.com/kiwix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/826219?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "kiwix-desktop",
+        "nameWithOwner": "kiwix/kiwix-desktop",
+        "url": "https://github.com/kiwix/kiwix-desktop",
+        "description": "Kiwix for Windows and GNU/Linux desktops",
+        "stargazerCount": 1488,
+        "forkCount": 185,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-12-03T12:49:23Z",
+        "pushedAt": "2026-10-02T08:54:47Z",
+        "homepageUrl": "https://download.kiwix.org/release/kiwix-desktop/",
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjEwNzQ0ODc3",
+      "login": "STMicroelectronics",
+      "name": "STMicroelectronics",
+      "type": "Organization",
+      "location": "Switzerland",
+      "url": "https://github.com/STMicroelectronics",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10744877?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "STM32CubeF4",
+        "nameWithOwner": "STMicroelectronics/STM32CubeF4",
+        "url": "https://github.com/STMicroelectronics/STM32CubeF4",
+        "description": "STM32Cube MCU Full Package for the STM32F4 series - (HAL + LL Drivers, CMSIS Core, CMSIS Device, MW libraries plus a set of Projects running on all boards provided by ST (Nucleo, Evaluation and Discovery Kits))",
+        "stargazerCount": 1343,
+        "forkCount": 490,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-04-18T13:01:52Z",
+        "pushedAt": "2026-09-23T14:48:12Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM0NDIxNTg=",
+      "login": "damienbod",
+      "name": "damienbod",
+      "type": "User",
+      "location": "Switzerland",
+      "url": "https://github.com/damienbod",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3442158?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "angular-auth-oidc-client",
+        "nameWithOwner": "damienbod/angular-auth-oidc-client",
+        "url": "https://github.com/damienbod/angular-auth-oidc-client",
+        "description": "npm package for OpenID Connect, OAuth Code Flow with PKCE, Refresh tokens, Implicit Flow",
+        "stargazerCount": 1236,
+        "forkCount": 448,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-06-13T09:19:36Z",
+        "pushedAt": "2026-10-02T00:36:22Z",
+        "homepageUrl": "https://www.npmjs.com/package/angular-auth-oidc-client",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjc2MDA1Nzg=",
+      "login": "OCA",
+      "name": "Odoo Community Association",
+      "type": "Organization",
+      "location": "Lausanne, Switzerland",
+      "url": "https://github.com/OCA",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7600578?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "web",
+        "nameWithOwner": "OCA/web",
+        "url": "https://github.com/OCA/web",
+        "description": "Odoo web client UI related addons",
+        "stargazerCount": 1233,
+        "forkCount": 2179,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-06-16T18:34:12Z",
+        "pushedAt": "2026-10-02T07:24:12Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "GNU Affero General Public License v3.0",
+          "spdxId": "AGPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIwMjI4MDM=",
+      "login": "vhf",
+      "name": "victor felder",
+      "type": "User",
+      "location": "Switzerland",
+      "url": "https://github.com/vhf",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2022803?u=803d3a03e92d783845385dfb48a14631921a6cc3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "v8-bailout-reasons",
+        "nameWithOwner": "vhf/v8-bailout-reasons",
+        "url": "https://github.com/vhf/v8-bailout-reasons",
+        "description": ":wrench: A list of Crankshaft bailout reasons with examples",
+        "stargazerCount": 902,
+        "forkCount": 38,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-01-13T20:29:19Z",
+        "pushedAt": "2018-07-13T13:00:41Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "O_kgDOB2_tbg",
+      "login": "protonpass",
+      "name": "Proton Pass",
+      "type": "Organization",
+      "location": "Switzerland",
+      "url": "https://github.com/protonpass",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/124775790?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "android-pass",
+        "nameWithOwner": "protonpass/android-pass",
+        "url": "https://github.com/protonpass/android-pass",
+        "description": "Android code for the Proton Pass application",
+        "stargazerCount": 787,
+        "forkCount": 76,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-06-15T10:46:30Z",
+        "pushedAt": "2026-10-02T11:10:10Z",
+        "homepageUrl": "https://play.google.com/store/apps/details?id=proton.android.pass",
+        "primaryLanguage": {
+          "name": "Kotlin"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI0NTMyOTA=",
+      "login": "saelo",
+      "name": "Samuel Groß",
+      "type": "User",
+      "location": "Zürich, Switzerland",
+      "url": "https://github.com/saelo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2453290?u=7ad4e1d6fe0cc7f52e70cdc960043801eea1eef4&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "pwn2own2018",
+        "nameWithOwner": "saelo/pwn2own2018",
+        "url": "https://github.com/saelo/pwn2own2018",
+        "description": "A Pwn2Own exploit chain",
+        "stargazerCount": 760,
+        "forkCount": 112,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-11-07T04:39:14Z",
+        "pushedAt": "2018-11-08T18:17:44Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEzNzg1NjY5",
+      "login": "nyancrimew",
+      "name": "maia arson crimew",
+      "type": "User",
+      "location": "Switzerland",
+      "url": "https://github.com/nyancrimew",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13785669?u=c1851eaee621909c627a42fbe6bb47d00d0435cf&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "goop",
+        "nameWithOwner": "nyancrimew/goop",
+        "url": "https://github.com/nyancrimew/goop",
+        "description": "Yet another tool to dump a git repository from a website, focused on as-complete-as-possible dumps and handling weird edge-cases.",
+        "stargazerCount": 655,
+        "forkCount": 54,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-10-30T17:49:11Z",
+        "pushedAt": "2026-09-04T06:11:31Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM3MDk3MTU=",
+      "login": "cclauss",
+      "name": "Christian Clauss",
+      "type": "User",
+      "location": "Switzerland",
+      "url": "https://github.com/cclauss",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3709715?u=0745d1d2473894c33f3b35f0b965d71cc9aec553&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "Ten-lines-or-less",
+        "nameWithOwner": "cclauss/Ten-lines-or-less",
+        "url": "https://github.com/cclauss/Ten-lines-or-less",
+        "description": "Python scripts that are short but useful or interesting",
+        "stargazerCount": 618,
+        "forkCount": 83,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-08-09T07:39:34Z",
+        "pushedAt": "2026-09-07T20:56:09Z",
+        "homepageUrl": "https://cclauss.github.io/Ten-lines-or-less/",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI1MDQ2",
+      "login": "tarsius",
+      "name": "Jonas Bernoulli",
+      "type": "User",
+      "location": "Basel, Switzerland",
+      "url": "https://github.com/tarsius",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25046?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "hl-todo",
+        "nameWithOwner": "tarsius/hl-todo",
+        "url": "https://github.com/tarsius/hl-todo",
+        "description": "Highlight TODO keywords",
+        "stargazerCount": 473,
+        "forkCount": 28,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-03-10T21:34:21Z",
+        "pushedAt": "2026-10-01T15:47:25Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Emacs Lisp"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE1OTA4MDYw",
+      "login": "FrancescoSaverioZuppichini",
+      "name": "Francesco Saverio Zuppichini",
+      "type": "User",
+      "location": "Lugano, Switzerland",
+      "url": "https://github.com/FrancescoSaverioZuppichini",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/15908060?u=45659c766b2721ce84e903e54ed25c21409a01a4&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "ViT",
+        "nameWithOwner": "FrancescoSaverioZuppichini/ViT",
+        "url": "https://github.com/FrancescoSaverioZuppichini/ViT",
+        "description": "Implementing Vi(sion)T(transformer)",
+        "stargazerCount": 460,
+        "forkCount": 62,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-01-01T15:14:05Z",
+        "pushedAt": "2023-03-19T11:55:02Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQyNjQ1ODk=",
+      "login": "jeremytammik",
+      "name": "Jeremy Tammik",
+      "type": "User",
+      "location": "Switzerland",
+      "url": "https://github.com/jeremytammik",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4264589?u=0661b68db0b6bf3d58b41788b3df1e81a3171659&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "the_building_coder_samples",
+        "nameWithOwner": "jeremytammik/the_building_coder_samples",
+        "url": "https://github.com/jeremytammik/the_building_coder_samples",
+        "description": "The Building Coder Samples",
+        "stargazerCount": 435,
+        "forkCount": 197,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-10-14T15:37:29Z",
+        "pushedAt": "2025-05-04T09:25:58Z",
+        "homepageUrl": "http://thebuildingcoder.typepad.com",
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUyMDYyNzc=",
+      "login": "sahildua2305",
+      "name": "Sahil Dua",
+      "type": "User",
+      "location": "Zurich, Switzerland",
+      "url": "https://github.com/sahildua2305",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5206277?u=6bf59e0241fe7fb5e17b4b88821e2ffa37907d0f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "hackIDE",
+        "nameWithOwner": "sahildua2305/hackIDE",
+        "url": "https://github.com/sahildua2305/hackIDE",
+        "description": "hackIDE is an online code editor, compiler and interpreter based on Django, powered by HackerEarth API! Go, hack it!",
+        "stargazerCount": 301,
+        "forkCount": 125,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-01-05T19:18:11Z",
+        "pushedAt": "2022-12-26T20:15:11Z",
+        "homepageUrl": "http://hackide.herokuapp.com/",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEwNzQ2Njgy",
+      "login": "sandy081",
+      "name": "Sandeep Somavarapu",
+      "type": "User",
+      "location": "Zurich, Switzerland",
+      "url": "https://github.com/sandy081",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10746682?u=f41e610654d0407b889cb97706c6e2adbf46d439&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "vscode-todotasks",
+        "nameWithOwner": "sandy081/vscode-todotasks",
+        "url": "https://github.com/sandy081/vscode-todotasks",
+        "description": "A VS Code extension for todo tasks",
+        "stargazerCount": 242,
+        "forkCount": 89,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-05-13T09:30:44Z",
+        "pushedAt": "2021-10-13T11:15:52Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "O_kgDOBdFRHw",
+      "login": "haqq-network",
+      "name": "Haqq Network",
+      "type": "Organization",
+      "location": "Switzerland",
+      "url": "https://github.com/haqq-network",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/97603871?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "haqq",
+        "nameWithOwner": "haqq-network/haqq",
+        "url": "https://github.com/haqq-network/haqq",
+        "description": "Shariah-compliant web3 platform ",
+        "stargazerCount": 230,
+        "forkCount": 127,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-06-20T17:29:56Z",
+        "pushedAt": "2026-09-27T00:38:54Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE3MzY1OTU=",
+      "login": "danistefanovic",
+      "name": "Daniel Stefanovic",
+      "type": "User",
+      "location": "Switzerland",
+      "url": "https://github.com/danistefanovic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1736595?u=31804dc71d739de0972aa1b99a10a64d1856149b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "hooka",
+        "nameWithOwner": "danistefanovic/hooka",
+        "url": "https://github.com/danistefanovic/hooka",
+        "description": "😎 A webhook server with zero coding",
+        "stargazerCount": 207,
+        "forkCount": 16,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2016-01-10T18:55:02Z",
+        "pushedAt": "2020-09-30T03:58:14Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEzODI5Ng==",
+      "login": "gavofyork",
+      "name": "Gavin Wood",
+      "type": "User",
+      "location": "Zug, Switzerland",
+      "url": "https://github.com/gavofyork",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/138296?u=4057698f557eb8d5cae19fdfea0c91f1a69ace49&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "graypaper",
+        "nameWithOwner": "gavofyork/graypaper",
+        "url": "https://github.com/gavofyork/graypaper",
+        "description": "The JAM Specification",
+        "stargazerCount": 201,
+        "forkCount": 92,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-04-17T18:24:28Z",
+        "pushedAt": "2026-09-12T07:50:17Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TeX"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI3OTM5NTE=",
+      "login": "RomainLanz",
+      "name": "Romain Lanz",
+      "type": "User",
+      "location": "Switzerland",
+      "url": "https://github.com/RomainLanz",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2793951?u=8362820a019064366b206e3b8fc9116dd048410d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "adonis-bull-queue",
+        "nameWithOwner": "RomainLanz/adonis-bull-queue",
+        "url": "https://github.com/RomainLanz/adonis-bull-queue",
+        "description": "Queue system based on BullMQ for AdonisJS",
+        "stargazerCount": 189,
+        "forkCount": 35,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-06-24T17:37:19Z",
+        "pushedAt": "2024-10-02T07:45:15Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU1NTA2",
+      "login": "stapelberg",
+      "name": "Michael Stapelberg",
+      "type": "User",
+      "location": "Zürich, Switzerland",
+      "url": "https://github.com/stapelberg",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/55506?u=d76452e75774c895a975e588cf2b830b32b61020&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "scan2drive",
+        "nameWithOwner": "stapelberg/scan2drive",
+        "url": "https://github.com/stapelberg/scan2drive",
+        "description": "scan paper documents 📄 from a scanner 🖨️ as PDFs to Google Drive for full-text search",
+        "stargazerCount": 171,
+        "forkCount": 7,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-05-16T08:32:24Z",
+        "pushedAt": "2026-09-02T07:08:58Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE2Mjk3ODU=",
+      "login": "JonnyBurger",
+      "name": "Jonny Burger",
+      "type": "User",
+      "location": "Zurich, Switzerland",
+      "url": "https://github.com/JonnyBurger",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1629785?u=f91613c118bb1fcf442a71008dff1cd5f9b30411&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "pipcorn",
+        "nameWithOwner": "JonnyBurger/pipcorn",
+        "url": "https://github.com/JonnyBurger/pipcorn",
+        "description": "🍿 Watch YouTube videos on your Mac via CLI",
+        "stargazerCount": 168,
+        "forkCount": 6,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-01-11T13:45:23Z",
+        "pushedAt": "2021-02-16T16:01:02Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgyNjQ4ODc=",
+      "login": "lvwerra",
+      "name": "Leandro von Werra",
+      "type": "User",
+      "location": "Bern, Switzerland",
+      "url": "https://github.com/lvwerra",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8264887?u=1e170968669fc1f852d3d122d65e8ff528f3d878&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "jupyterplot",
+        "nameWithOwner": "lvwerra/jupyterplot",
+        "url": "https://github.com/lvwerra/jupyterplot",
+        "description": "Create real-time plots in Jupyter Notebooks.",
+        "stargazerCount": 146,
+        "forkCount": 11,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-01-16T15:42:56Z",
+        "pushedAt": "2023-04-11T23:58:54Z",
+        "homepageUrl": "https://lvwerra.github.io/jupyterplot/",
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEwNDc5OA==",
+      "login": "sbrannen",
+      "name": "Sam Brannen",
+      "type": "User",
+      "location": "Zurich, Switzerland",
+      "url": "https://github.com/sbrannen",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/104798?u=e316a3b9d5ae74c3b31ace1a8361c90e84481daf&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "spring-test-junit5",
+        "nameWithOwner": "sbrannen/spring-test-junit5",
+        "url": "https://github.com/sbrannen/spring-test-junit5",
+        "description": "Spring TestContext Framework Extension for JUnit Jupiter (a.k.a., JUnit 5)",
+        "stargazerCount": 141,
+        "forkCount": 42,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-11-21T17:28:46Z",
+        "pushedAt": "2019-07-01T10:35:14Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEwMDg4NDQ=",
+      "login": "gynvael",
+      "name": "Gynvael Coldwind",
+      "type": "User",
+      "location": "Zürich, Switzerland",
+      "url": "https://github.com/gynvael",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1008844?u=0a6f845ffbc6c33245c478e5d53f2fed6374edd3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "stream",
+        "nameWithOwner": "gynvael/stream",
+        "url": "https://github.com/gynvael/stream",
+        "description": "Gynvael's Livestream code",
+        "stargazerCount": 137,
+        "forkCount": 28,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-01-31T09:39:45Z",
+        "pushedAt": "2023-08-11T07:55:00Z",
+        "homepageUrl": "http://gynvael.coldwind.pl/",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYyNTc5Mw==",
+      "login": "The-Compiler",
+      "name": "Freya Bruhin",
+      "type": "User",
+      "location": "Winterthur, Switzerland",
+      "url": "https://github.com/The-Compiler",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/625793?u=61843cb1e3ad3c0aead4450cd982ba06c6f51126&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "pytest-vw",
+        "nameWithOwner": "The-Compiler/pytest-vw",
+        "url": "https://github.com/The-Compiler/pytest-vw",
+        "description": "pytest-vw makes your failing test cases succeed under CI tools scrutiny",
+        "stargazerCount": 135,
+        "forkCount": 9,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-10-07T17:55:13Z",
+        "pushedAt": "2020-04-09T14:37:26Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU0OTUxOTM=",
+      "login": "awaelchli",
+      "name": "Adrian Wälchli",
+      "type": "User",
+      "location": "Switzerland",
+      "url": "https://github.com/awaelchli",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5495193?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "pytorch-lightning-snippets",
+        "nameWithOwner": "awaelchli/pytorch-lightning-snippets",
+        "url": "https://github.com/awaelchli/pytorch-lightning-snippets",
+        "description": "A collection of code snippets for my PyTorch Lightning projects",
+        "stargazerCount": 106,
+        "forkCount": 7,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-08-22T18:08:15Z",
+        "pushedAt": "2021-01-18T07:40:36Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI2ODU5MjA0",
+      "login": "lewtun",
+      "name": null,
+      "type": "User",
+      "location": "Bern, Switzerland",
+      "url": "https://github.com/lewtun",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/26859204?u=ca50a1595bbb6ace36c3adb39c40e186265184d3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "dslectures",
+        "nameWithOwner": "lewtun/dslectures",
+        "url": "https://github.com/lewtun/dslectures",
+        "description": "Course materials for introductory data science",
+        "stargazerCount": 65,
+        "forkCount": 12,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-01-05T10:38:38Z",
+        "pushedAt": "2023-04-12T00:04:21Z",
+        "homepageUrl": "https://lewtun.github.io/dslectures/",
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE3OTQwOTk=",
+      "login": "jrieken",
+      "name": "Johannes Rieken",
+      "type": "User",
+      "location": "Switzerland",
+      "url": "https://github.com/jrieken",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1794099?u=fd4a2d1f49f071ea5b9c3e9097fb9e36218b15af&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "es6-vscode-sample",
+        "nameWithOwner": "jrieken/es6-vscode-sample",
+        "url": "https://github.com/jrieken/es6-vscode-sample",
+        "description": "A sample project using ES6 with VS Code and babel to transpile",
+        "stargazerCount": 59,
+        "forkCount": 17,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-07-02T11:04:49Z",
+        "pushedAt": "2015-12-28T09:47:56Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjkwMDY5MA==",
+      "login": "bpasero",
+      "name": "Benjamin Pasero",
+      "type": "User",
+      "location": "Zurich, Switzerland",
+      "url": "https://github.com/bpasero",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/900690?u=bc6e61493ce693e514226c71aeba9d059fc1a30d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "debug-electron-vscode",
+        "nameWithOwner": "bpasero/debug-electron-vscode",
+        "url": "https://github.com/bpasero/debug-electron-vscode",
+        "description": "Sample repository for being able to debug main and renderer from one debug session",
+        "stargazerCount": 29,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-03-23T22:30:19Z",
+        "pushedAt": "2017-06-09T08:57:41Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "Creative Commons Zero v1.0 Universal",
+          "spdxId": "CC0-1.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE1OTg1NDcy",
+      "login": "sarlinpe",
+      "name": "Paul-Edouard Sarlin",
+      "type": "User",
+      "location": "Zurich, Switzerland",
+      "url": "https://github.com/sarlinpe",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/15985472?u=0f91ed26cc300b3ff40afcf7697369b55085973e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Switzerland"
+      },
+      "discoveryTerms": [
+        "Switzerland"
+      ],
+      "topRepository": {
+        "name": "Concrete-Dropout",
+        "nameWithOwner": "sarlinpe/Concrete-Dropout",
+        "url": "https://github.com/sarlinpe/Concrete-Dropout",
+        "description": "A clean TensorFlow implementation of Concrete Dropout",
+        "stargazerCount": 22,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-12-15T08:42:13Z",
+        "pushedAt": "2018-01-16T00:07:00Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    }
+  ],
+  "candidatePoolLimit": 500,
+  "candidatePoolThresholdStars": null
+}

@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 21%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **9 / 41**
+- Progress: **21%**
+- Retained high-potential owner candidates: **29**
+- Search requests completed: **9**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [hkarlstrom/openapi-validation-middleware](https://github.com/hkarlstrom/openapi-validation-middleware) | **95** | Åland Islands |
+| [flipsite/flipsite](https://github.com/flipsite/flipsite) | **18** | Åland Islands |
+| [tvntvn13/wolt-calculator](https://github.com/tvntvn13/wolt-calculator) | **5** | Mariehamn, Åland Islands |
+| [khalavak/pan-demonium](https://github.com/khalavak/pan-demonium) | **3** | Åland Islands |
+| [DeductiveLabs/async_javascript](https://github.com/DeductiveLabs/async_javascript) | **2** | Mariehamn, Åland Islands |
+| [blueskiy01/voxel-christmas-cabin](https://github.com/blueskiy01/voxel-christmas-cabin) | **1** | Mariehamn, Åland Islands |
+| [fatemekh78/nlp-scraper](https://github.com/fatemekh78/nlp-scraper) | **1** | Mariehamn, Åland islands |
+| [karusmari/java-checkpoint](https://github.com/karusmari/java-checkpoint) | **1** | Åland Islands |
+| [pophaax/coursecalculation](https://github.com/pophaax/coursecalculation) | **1** | Åland Islands (FIN) |
+| [pregamer189/prello-releases](https://github.com/pregamer189/prello-releases) | **1** | 1 Strandgatan, Mariehamn 22100, Åland Islands |
+| [Ramona-Ekanayake/GritLab](https://github.com/Ramona-Ekanayake/GritLab) | **1** | Åland Islands |
+| [0xAdlerauge/erasmus-etl-pipeline](https://github.com/0xAdlerauge/erasmus-etl-pipeline) | **0** | Åland Islands |
+| [AAAWG/aaawg-ansible](https://github.com/AAAWG/aaawg-ansible) | **0** | Åland Islands |
+| [arvinkhanian/forum](https://github.com/arvinkhanian/forum) | **0** | Mariehamn, Åland Islands |
+| [dwertipyqwelcer/dwertipyqwelcer](https://github.com/dwertipyqwelcer/dwertipyqwelcer) | **0** | Åland Islands (AX) |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

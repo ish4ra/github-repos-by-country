@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 75**
+- Progress: **0%**
+- Retained high-potential owner candidates: **45**
+- Search requests completed: **1**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [gitcoinco/web](https://github.com/gitcoinco/web) | **1,824** | Cayman Islands |
+| [paean-ai/deeptide](https://github.com/paean-ai/deeptide) | **1,102** | Cayman Islands |
+| [berachain/polaris](https://github.com/berachain/polaris) | **1,070** | Cayman Islands |
+| [superfluid-org/protocol-monorepo](https://github.com/superfluid-org/protocol-monorepo) | **902** | Cayman Islands |
+| [guhhhhaa/4675-scifi](https://github.com/guhhhhaa/4675-scifi) | **476** | Cayman Islands |
+| [OceanTroop/orca-one](https://github.com/OceanTroop/orca-one) | **372** | Cayman Islands |
+| [PolymeshAssociation/Polymesh](https://github.com/PolymeshAssociation/Polymesh) | **170** | Cayman Islands |
+| [Abstract-Foundation/examples](https://github.com/Abstract-Foundation/examples) | **166** | Cayman Islands |
+| [etherfi-protocol/smart-contracts](https://github.com/etherfi-protocol/smart-contracts) | **141** | Cayman Islands |
+| [worldwide-asset-exchange/waxjs](https://github.com/worldwide-asset-exchange/waxjs) | **124** | Cayman Islands |
+| [ridgesai/ridges](https://github.com/ridgesai/ridges) | **90** | Cayman Islands |
+| [kaonone/akropolisOS](https://github.com/kaonone/akropolisOS) | **70** | Cayman Islands |
+| [InjectiveFoundation/injective-core](https://github.com/InjectiveFoundation/injective-core) | **66** | Cayman Islands |
+| [spheronFdn/portfolio-template](https://github.com/spheronFdn/portfolio-template) | **62** | Cayman Islands |
+| [tensor-foundation/tensorswap-sdk](https://github.com/tensor-foundation/tensorswap-sdk) | **41** | Cayman Islands |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

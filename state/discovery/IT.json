@@ -1,0 +1,1854 @@
+{
+  "schemaVersion": 2,
+  "cycle": 1,
+  "country": {
+    "code": "IT",
+    "name": "Italy",
+    "slug": "italy"
+  },
+  "geography": {
+    "release": "v3.2-export.8",
+    "sha256": "37f808d592bc85297383897785a32a2185f79ac63e764aefea1c16257879c1b5",
+    "termsTotal": 10957
+  },
+  "phase": "discovery",
+  "nextTermIndex": 0,
+  "activeTerm": {
+    "index": 0,
+    "term": "Italy",
+    "queue": [
+      {
+        "query": "location:\"Italy\" type:user",
+        "stage": "type",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Italy\" type:org",
+        "stage": "type",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      }
+    ],
+    "startedAt": "2026-10-03T08:31:46.974Z",
+    "requests": 1,
+    "leafPages": 0,
+    "shardExpansions": 1,
+    "reportedCount": 88204
+  },
+  "discoveryComplete": false,
+  "startedAt": "2026-10-03T08:31:46.974Z",
+  "updatedAt": "2026-10-03T08:31:50.099Z",
+  "completedAt": null,
+  "finalizedAt": null,
+  "stats": {
+    "termsProcessed": 0,
+    "searchRequests": 1,
+    "leafPages": 0,
+    "shardExpansions": 1,
+    "rawOwnerHits": 50,
+    "acceptedOwnerHits": 47,
+    "rejectedOwnerHits": 3,
+    "unresolvedShardCount": 0,
+    "minimumRateLimitRemaining": 4645
+  },
+  "unresolvedShards": [],
+  "candidates": [
+    {
+      "id": "MDQ6VXNlcjEyMjUyOTQ=",
+      "login": "FiloSottile",
+      "name": "Filippo Valsorda",
+      "type": "User",
+      "location": "Rome, Italy",
+      "url": "https://github.com/FiloSottile",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1225294?u=f9186107b90a6f746f8e7192ee7b1d5a68f4ab07&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "mkcert",
+        "nameWithOwner": "FiloSottile/mkcert",
+        "url": "https://github.com/FiloSottile/mkcert",
+        "description": "A simple zero-config tool to make locally trusted development certificates with any names you'd like.",
+        "stargazerCount": 59714,
+        "forkCount": 3138,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-06-25T05:33:03Z",
+        "pushedAt": "2024-08-13T13:37:46Z",
+        "homepageUrl": "https://mkcert.dev",
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": {
+          "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+          "spdxId": "BSD-3-Clause"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI0MjA1NDM=",
+      "login": "mudler",
+      "name": "Ettore Di Giacinto",
+      "type": "User",
+      "location": "Italy",
+      "url": "https://github.com/mudler",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2420543?u=16f3e50bb3fb9481949d864f63fe0b85d7afcf7c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "LocalAI",
+        "nameWithOwner": "mudler/LocalAI",
+        "url": "https://github.com/mudler/LocalAI",
+        "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
+        "stargazerCount": 49370,
+        "forkCount": 4483,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-03-18T22:58:02Z",
+        "pushedAt": "2026-10-03T06:29:23Z",
+        "homepageUrl": "https://localai.io",
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOBfsuQQ",
+      "login": "GyulyVGC",
+      "name": "Giuliano Bellini",
+      "type": "User",
+      "location": "Italy",
+      "url": "https://github.com/GyulyVGC",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/100347457?u=457b7bfcb8a0516311e53da38c1302ae5348ff1f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "sniffnet",
+        "nameWithOwner": "GyulyVGC/sniffnet",
+        "url": "https://github.com/GyulyVGC/sniffnet",
+        "description": "Comfortably monitor your network traffic 🕵️‍♂️",
+        "stargazerCount": 41316,
+        "forkCount": 1960,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-07-31T21:55:56Z",
+        "pushedAt": "2026-10-03T03:13:45Z",
+        "homepageUrl": "https://sniffnet.app",
+        "primaryLanguage": {
+          "name": "Rust"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY1NjMy",
+      "login": "antirez",
+      "name": "Salvatore Sanfilippo",
+      "type": "User",
+      "location": "Catania, Sicily, Italy",
+      "url": "https://github.com/antirez",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/65632?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "ds4",
+        "nameWithOwner": "antirez/ds4",
+        "url": "https://github.com/antirez/ds4",
+        "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
+        "stargazerCount": 23031,
+        "forkCount": 2218,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-06T17:17:05Z",
+        "pushedAt": "2026-09-20T07:51:19Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI2NzE3MjE4",
+      "login": "Datalux",
+      "name": "Giuseppe Criscione",
+      "type": "User",
+      "location": "Italy",
+      "url": "https://github.com/Datalux",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/26717218?u=560d1ce8e49270894d0b31f11d9dd92a8e98e031&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "Osintgram",
+        "nameWithOwner": "Datalux/Osintgram",
+        "url": "https://github.com/Datalux/Osintgram",
+        "description": "Osintgram is a OSINT tool on Instagram. It offers an interactive shell to perform analysis on Instagram account of any users by its nickname",
+        "stargazerCount": 14752,
+        "forkCount": 3148,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-06-07T23:23:40Z",
+        "pushedAt": "2026-09-28T20:09:24Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg2OTIy",
+      "login": "evilsocket",
+      "name": "Simone Margaritelli",
+      "type": "User",
+      "location": "Italy",
+      "url": "https://github.com/evilsocket",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/86922?u=d520230a3f6cff87456f55fd636bb6d0dfa3f74b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "opensnitch",
+        "nameWithOwner": "evilsocket/opensnitch",
+        "url": "https://github.com/evilsocket/opensnitch",
+        "description": "OpenSnitch is a GNU/Linux interactive application firewall inspired by Little Snitch.",
+        "stargazerCount": 14113,
+        "forkCount": 674,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-04-16T14:02:50Z",
+        "pushedAt": "2026-07-26T23:34:20Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE4MTIyMTY=",
+      "login": "skypjack",
+      "name": "Michele Caini",
+      "type": "User",
+      "location": "Florence, Italy",
+      "url": "https://github.com/skypjack",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1812216?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "entt",
+        "nameWithOwner": "skypjack/entt",
+        "url": "https://github.com/skypjack/entt",
+        "description": "Gaming meets modern C++ - a fast and reliable entity component system (ECS) and much more",
+        "stargazerCount": 13161,
+        "forkCount": 1117,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-03-27T13:15:36Z",
+        "pushedAt": "2026-10-02T13:47:12Z",
+        "homepageUrl": "https://github.com/skypjack/entt/wiki",
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQyNzYxNA==",
+      "login": "cubiq",
+      "name": "Matteo Spinelli",
+      "type": "User",
+      "location": "Florence, Italy",
+      "url": "https://github.com/cubiq",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/427614?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "iscroll",
+        "nameWithOwner": "cubiq/iscroll",
+        "url": "https://github.com/cubiq/iscroll",
+        "description": "Smooth scrolling for the web",
+        "stargazerCount": 12790,
+        "forkCount": 3714,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2010-12-03T19:03:44Z",
+        "pushedAt": "2018-12-13T19:06:24Z",
+        "homepageUrl": "http://iscrolljs.com",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg3ODkxMg==",
+      "login": "gcanti",
+      "name": "Giulio Canti",
+      "type": "User",
+      "location": "Milan, Italy",
+      "url": "https://github.com/gcanti",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/878912?u=3ff4c1cd724888d4e864258865467b5b93e1b01b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "fp-ts",
+        "nameWithOwner": "gcanti/fp-ts",
+        "url": "https://github.com/gcanti/fp-ts",
+        "description": "Functional programming in TypeScript",
+        "stargazerCount": 11550,
+        "forkCount": 509,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-01-25T17:44:09Z",
+        "pushedAt": "2026-04-20T19:55:05Z",
+        "homepageUrl": "https://gcanti.github.io/fp-ts/",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM1NzgzNTcw",
+      "login": "edoardottt",
+      "name": "Edoardo Ottavianelli",
+      "type": "User",
+      "location": "Italy",
+      "url": "https://github.com/edoardottt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/35783570?u=0d92158553af9725b6864d4a3838e2c8f89cac92&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "awesome-hacker-search-engines",
+        "nameWithOwner": "edoardottt/awesome-hacker-search-engines",
+        "url": "https://github.com/edoardottt/awesome-hacker-search-engines",
+        "description": "A curated list of awesome search engines useful during Penetration testing, Vulnerability assessments, Red/Blue Team operations, Bug Bounty and more",
+        "stargazerCount": 11239,
+        "forkCount": 1081,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-06-20T10:00:02Z",
+        "pushedAt": "2026-10-01T08:36:55Z",
+        "homepageUrl": "https://awesome-hacker-search-engines.com/",
+        "primaryLanguage": {
+          "name": "Shell"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUyMTk1",
+      "login": "mcollina",
+      "name": "Matteo Collina",
+      "type": "User",
+      "location": "Forlì, Italy",
+      "url": "https://github.com/mcollina",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/52195?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "autocannon",
+        "nameWithOwner": "mcollina/autocannon",
+        "url": "https://github.com/mcollina/autocannon",
+        "description": "fast HTTP/1.1 benchmarking tool written in Node.js",
+        "stargazerCount": 8527,
+        "forkCount": 345,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-03-31T17:18:21Z",
+        "pushedAt": "2026-05-16T07:48:53Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIzNTY0NQ==",
+      "login": "malcommac",
+      "name": "Daniele Margutti",
+      "type": "User",
+      "location": "Rome, Italy",
+      "url": "https://github.com/malcommac",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/235645?u=7baa058e36a43d53ce37ece3a4cde107d1d6ca7a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "SwiftDate",
+        "nameWithOwner": "malcommac/SwiftDate",
+        "url": "https://github.com/malcommac/SwiftDate",
+        "description": "🐔 Toolkit to parse, validate, manipulate, compare and display dates, time & timezones in Swift.",
+        "stargazerCount": 7692,
+        "forkCount": 772,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-05-06T06:46:24Z",
+        "pushedAt": "2023-09-19T09:59:48Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Swift"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE3MDU2MA==",
+      "login": "lballabio",
+      "name": "Luigi Ballabio",
+      "type": "User",
+      "location": "Milan, Italy",
+      "url": "https://github.com/lballabio",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/170560?u=e23cdc03cf6fb7fbebce2f1ec12e89e088a2ab48&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "QuantLib",
+        "nameWithOwner": "lballabio/QuantLib",
+        "url": "https://github.com/lballabio/QuantLib",
+        "description": "The QuantLib C++ library",
+        "stargazerCount": 7644,
+        "forkCount": 2338,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-12-17T16:29:33Z",
+        "pushedAt": "2026-10-03T08:21:06Z",
+        "homepageUrl": "http://quantlib.org",
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE3ODYwMzM=",
+      "login": "johnno1962",
+      "name": "John Holdsworth",
+      "type": "User",
+      "location": "Italy (VT)",
+      "url": "https://github.com/johnno1962",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1786033?u=2fe82e3b21f83a01bb7bb552447c9d75a81623d7&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "injectionforxcode",
+        "nameWithOwner": "johnno1962/injectionforxcode",
+        "url": "https://github.com/johnno1962/injectionforxcode",
+        "description": "Runtime Code Injection for Objective-C & Swift",
+        "stargazerCount": 6534,
+        "forkCount": 562,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2012-05-28T15:37:09Z",
+        "pushedAt": "2022-08-04T00:53:23Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Objective-C"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU3MDc5Nw==",
+      "login": "andreamazz",
+      "name": "Andrea Mazzini",
+      "type": "User",
+      "location": "Italy",
+      "url": "https://github.com/andreamazz",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/570797?u=faf90cd3f6e7a55175f4fddb247f66fb0c414148&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "AMScrollingNavbar",
+        "nameWithOwner": "andreamazz/AMScrollingNavbar",
+        "url": "https://github.com/andreamazz/AMScrollingNavbar",
+        "description": "Scrollable UINavigationBar that follows the scrolling of a UIScrollView",
+        "stargazerCount": 5988,
+        "forkCount": 627,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-11-08T16:56:39Z",
+        "pushedAt": "2023-04-13T02:27:58Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Swift"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE1NDI1Ng==",
+      "login": "Ocramius",
+      "name": "Marco Pivetta",
+      "type": "User",
+      "location": "Perugia, Italy",
+      "url": "https://github.com/Ocramius",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/154256?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "ProxyManager",
+        "nameWithOwner": "Ocramius/ProxyManager",
+        "url": "https://github.com/Ocramius/ProxyManager",
+        "description": "🎩✨🌈 OOP Proxy wrappers/utilities - generates and manages proxies of your objects",
+        "stargazerCount": 4943,
+        "forkCount": 190,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-03-19T09:43:22Z",
+        "pushedAt": "2026-09-25T01:00:01Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI1ODMwNzg=",
+      "login": "gabrielemariotti",
+      "name": "Gabriele Mariotti",
+      "type": "User",
+      "location": "Ancona, Italy",
+      "url": "https://github.com/gabrielemariotti",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2583078?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "cardslib",
+        "nameWithOwner": "gabrielemariotti/cardslib",
+        "url": "https://github.com/gabrielemariotti/cardslib",
+        "description": "Android Library to build a UI Card",
+        "stargazerCount": 4606,
+        "forkCount": 1164,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-09-20T21:57:19Z",
+        "pushedAt": "2021-11-18T19:50:33Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMxMzIxMTg4",
+      "login": "remorses",
+      "name": "Tommy D. Rossi",
+      "type": "User",
+      "location": "italy",
+      "url": "https://github.com/remorses",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/31321188?u=98d0726a329d89e8486ec9eb4ff8085dcb220110&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "playwriter",
+        "nameWithOwner": "remorses/playwriter",
+        "url": "https://github.com/remorses/playwriter",
+        "description": "Chrome extension & CLI to let agents control your browser. Runs Playwright snippets in a stateful sandbox. Available as CLI or MCP",
+        "stargazerCount": 3959,
+        "forkCount": 186,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-11-13T18:23:26Z",
+        "pushedAt": "2026-09-24T17:19:07Z",
+        "homepageUrl": "https://playwriter.dev",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE4MzYwODcx",
+      "login": "FrancescoXX",
+      "name": "Francesco Ciulla",
+      "type": "User",
+      "location": "Italy",
+      "url": "https://github.com/FrancescoXX",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18360871?u=631316423fd45e1293999e9b2ac2f46a7e3094b1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "free-Web3-resources",
+        "nameWithOwner": "FrancescoXX/free-Web3-resources",
+        "url": "https://github.com/FrancescoXX/free-Web3-resources",
+        "description": "A list of FREE resources to make Web3 accessible to everyone.",
+        "stargazerCount": 3661,
+        "forkCount": 578,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-12-20T07:22:13Z",
+        "pushedAt": "2024-10-11T02:29:09Z",
+        "homepageUrl": "https://freeweb3resources.com",
+        "primaryLanguage": {
+          "name": "CSS"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI1MDA4NzM0",
+      "login": "m4ll0k",
+      "name": "m4ll0k (mallok)",
+      "type": "User",
+      "location": " Italy (Rimini)",
+      "url": "https://github.com/m4ll0k",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25008734?u=1095494651bc1940e250580738f336970f2c315c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "SecretFinder",
+        "nameWithOwner": "m4ll0k/SecretFinder",
+        "url": "https://github.com/m4ll0k/SecretFinder",
+        "description": "SecretFinder - A python script for find sensitive data (apikeys, accesstoken,jwt,..) and search anything on javascript files ",
+        "stargazerCount": 2521,
+        "forkCount": 439,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-06-08T10:50:12Z",
+        "pushedAt": "2024-05-26T09:36:41Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjQ2MDcxNDcz",
+      "login": "OpenIPC",
+      "name": "OpenIPC",
+      "type": "Organization",
+      "location": "Italy",
+      "url": "https://github.com/OpenIPC",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/46071473?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "firmware",
+        "nameWithOwner": "OpenIPC/firmware",
+        "url": "https://github.com/OpenIPC/firmware",
+        "description": "Alternative IP Camera firmware from an open community",
+        "stargazerCount": 2224,
+        "forkCount": 488,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-04-13T17:10:54Z",
+        "pushedAt": "2026-10-03T08:10:26Z",
+        "homepageUrl": "https://openipc.org",
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUzODI0NDM=",
+      "login": "FezVrasta",
+      "name": "Federico Zivolo",
+      "type": "User",
+      "location": "Milano, Italy",
+      "url": "https://github.com/FezVrasta",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5382443?u=04a0da91fca3a34f40abc5dff54c7f7a2d0bae8d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "cafe-hass",
+        "nameWithOwner": "FezVrasta/cafe-hass",
+        "url": "https://github.com/FezVrasta/cafe-hass",
+        "description": "The \"Third Way\" for Home Assistant Automations.",
+        "stargazerCount": 1704,
+        "forkCount": 35,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-09T08:11:21Z",
+        "pushedAt": "2026-09-25T11:33:25Z",
+        "homepageUrl": "https://fezvrasta.github.io/cafe",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMwMDkzNDQw",
+      "login": "0xdea",
+      "name": "raptor",
+      "type": "User",
+      "location": "Italy",
+      "url": "https://github.com/0xdea",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/30093440?u=4ae154c14edfe0e1c580870fd72bd965b6105762&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "frida-scripts",
+        "nameWithOwner": "0xdea/frida-scripts",
+        "url": "https://github.com/0xdea/frida-scripts",
+        "description": "A collection of my Frida instrumentation scripts to reverse engineer mobile apps and more.",
+        "stargazerCount": 1666,
+        "forkCount": 260,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-08-30T17:52:36Z",
+        "pushedAt": "2026-08-02T21:39:51Z",
+        "homepageUrl": "https://www.frida.re",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ4NjU2MDg=",
+      "login": "delvedor",
+      "name": "Tomas Della Vedova",
+      "type": "User",
+      "location": "Italy",
+      "url": "https://github.com/delvedor",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4865608?u=1baacaccb1096537c1c69be56439e85faaf48f8b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "find-my-way",
+        "nameWithOwner": "delvedor/find-my-way",
+        "url": "https://github.com/delvedor/find-my-way",
+        "description": "A crazy fast HTTP router",
+        "stargazerCount": 1631,
+        "forkCount": 156,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-04-16T19:55:51Z",
+        "pushedAt": "2026-10-01T14:43:50Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY3NTMyMg==",
+      "login": "bdamele",
+      "name": "Bernardo Damele A. G.",
+      "type": "User",
+      "location": "Italy",
+      "url": "https://github.com/bdamele",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/675322?u=68aaaad2cb0f2ef8f936c732558f4b4877a8705c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "icmpsh",
+        "nameWithOwner": "bdamele/icmpsh",
+        "url": "https://github.com/bdamele/icmpsh",
+        "description": "Simple reverse ICMP shell",
+        "stargazerCount": 1625,
+        "forkCount": 416,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2011-04-15T10:04:12Z",
+        "pushedAt": "2018-04-06T17:15:44Z",
+        "homepageUrl": "http://inquisb.github.com/icmpsh",
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE5NTA3MzM=",
+      "login": "kristoff-it",
+      "name": "Loris Cro",
+      "type": "User",
+      "location": "Milan, Italy",
+      "url": "https://github.com/kristoff-it",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1950733?u=4c433986c229d3bff345521171a121c84014917e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "zine",
+        "nameWithOwner": "kristoff-it/zine",
+        "url": "https://github.com/kristoff-it/zine",
+        "description": "Fast, Scalable, Flexible Static Site Generator (SSG)",
+        "stargazerCount": 1596,
+        "forkCount": 105,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-11-30T15:11:26Z",
+        "pushedAt": "2026-09-30T18:41:34Z",
+        "homepageUrl": "https://zine-ssg.io",
+        "primaryLanguage": {
+          "name": "Zig"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE5Nzk3MDY0",
+      "login": "antonioCoco",
+      "name": null,
+      "type": "User",
+      "location": "Italy",
+      "url": "https://github.com/antonioCoco",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19797064?u=4801f17015645ef9f687dafabf2aed39992e613e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "RemotePotato0",
+        "nameWithOwner": "antonioCoco/RemotePotato0",
+        "url": "https://github.com/antonioCoco/RemotePotato0",
+        "description": "Windows Privilege Escalation from User to Domain Admin.",
+        "stargazerCount": 1471,
+        "forkCount": 220,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-02-08T22:02:19Z",
+        "pushedAt": "2022-12-18T01:52:53Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM4OTAyNTA=",
+      "login": "whatyouhide",
+      "name": "Andrea Leopardi",
+      "type": "User",
+      "location": "Italy",
+      "url": "https://github.com/whatyouhide",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3890250?u=69e57259ca52d179d90b240c12d620e69ece9e74&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "vim-gotham",
+        "nameWithOwner": "whatyouhide/vim-gotham",
+        "url": "https://github.com/whatyouhide/vim-gotham",
+        "description": "Code never sleeps in Gotham City. 🌃",
+        "stargazerCount": 1319,
+        "forkCount": 79,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-09-28T19:56:47Z",
+        "pushedAt": "2026-07-12T08:31:37Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Vim Script"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI1NjQ3ODU0",
+      "login": "Domenicobrz",
+      "name": null,
+      "type": "User",
+      "location": "Italy",
+      "url": "https://github.com/Domenicobrz",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25647854?u=2b94c4ec5471200e4620cce2a06071bfb583e4d9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "Blurry",
+        "nameWithOwner": "Domenicobrz/Blurry",
+        "url": "https://github.com/Domenicobrz/Blurry",
+        "description": "Simulating depth of field with particles on a shader",
+        "stargazerCount": 880,
+        "forkCount": 69,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-06-20T21:23:48Z",
+        "pushedAt": "2019-09-23T23:22:43Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM3Mjc4MQ==",
+      "login": "mariofusco",
+      "name": "Mario Fusco",
+      "type": "User",
+      "location": "Mondragone, Italy",
+      "url": "https://github.com/mariofusco",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/372781?u=b3542c3131ad71f54174f396dc94dd1ac36e4b24&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "from-gof-to-lambda",
+        "nameWithOwner": "mariofusco/from-gof-to-lambda",
+        "url": "https://github.com/mariofusco/from-gof-to-lambda",
+        "description": null,
+        "stargazerCount": 854,
+        "forkCount": 167,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-03-02T16:34:02Z",
+        "pushedAt": "2022-01-07T23:48:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjkxNTI3MTA=",
+      "login": "Rinnegatamante",
+      "name": "Alessio Tosto",
+      "type": "User",
+      "location": "Italy",
+      "url": "https://github.com/Rinnegatamante",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9152710?u=2a667282888b6e3d5f8d3e43a438a7040a2891af&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "vitaGL",
+        "nameWithOwner": "Rinnegatamante/vitaGL",
+        "url": "https://github.com/Rinnegatamante/vitaGL",
+        "description": "openGL wrapper for PSVITA.",
+        "stargazerCount": 636,
+        "forkCount": 83,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-12-30T20:35:21Z",
+        "pushedAt": "2026-10-02T23:54:55Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "GNU Lesser General Public License v3.0",
+          "spdxId": "LGPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI1NDk0MzY4",
+      "login": "JonnyBanana",
+      "name": "Jonny Banana",
+      "type": "User",
+      "location": "Bologna -  Italy",
+      "url": "https://github.com/JonnyBanana",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25494368?u=b1ecba05ee4cb171ab9e7c6089b63461531fbb76&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "Huge-Collection-of-CheatSheet",
+        "nameWithOwner": "JonnyBanana/Huge-Collection-of-CheatSheet",
+        "url": "https://github.com/JonnyBanana/Huge-Collection-of-CheatSheet",
+        "description": " :goberserk: :goberserk: :goberserk: Share of my Huge Collection of Cheatsheet (Coding, Cheat, Pinouts, Command Lists, Etc.)  :goberserk: :goberserk: :goberserk: ",
+        "stargazerCount": 566,
+        "forkCount": 156,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-03-01T23:47:07Z",
+        "pushedAt": "2024-05-01T14:53:01Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Shell"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjExNzgzMzg4",
+      "login": "flaviocopes",
+      "name": "Flavio Copes",
+      "type": "User",
+      "location": "Italy",
+      "url": "https://github.com/flaviocopes",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11783388?u=4eab1e7bd802156023c138c66779f2cf635cec7f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "vue-developer-roadmap",
+        "nameWithOwner": "flaviocopes/vue-developer-roadmap",
+        "url": "https://github.com/flaviocopes/vue-developer-roadmap",
+        "description": "Roadmap to becoming a Vue.js developer in 2019",
+        "stargazerCount": 527,
+        "forkCount": 83,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-07-07T14:37:59Z",
+        "pushedAt": "2020-05-07T12:10:47Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjE1Mzc3ODI0",
+      "login": "italia",
+      "name": "Developers Italia",
+      "type": "Organization",
+      "location": "Italy",
+      "url": "https://github.com/italia",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/15377824?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "covid19-opendata-vaccini",
+        "nameWithOwner": "italia/covid19-opendata-vaccini",
+        "url": "https://github.com/italia/covid19-opendata-vaccini",
+        "description": "Open Data su consegna e somministrazione dei vaccini anti COVID-19 in Italia - Commissario straordinario per l'emergenza Covid-19",
+        "stargazerCount": 521,
+        "forkCount": 191,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-01-05T09:47:27Z",
+        "pushedAt": "2026-10-02T00:26:57Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU0MjQ1OA==",
+      "login": "juristr",
+      "name": "Juri Strumpflohner",
+      "type": "User",
+      "location": "Bolzano, Italy",
+      "url": "https://github.com/juristr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/542458?u=8e2500145f2dedd5646c428e766a542423e0a340&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "angular-testing-recipes",
+        "nameWithOwner": "juristr/angular-testing-recipes",
+        "url": "https://github.com/juristr/angular-testing-recipes",
+        "description": "Simple testing patterns for Angular version 2+",
+        "stargazerCount": 499,
+        "forkCount": 106,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-01-06T16:25:30Z",
+        "pushedAt": "2023-01-03T19:51:43Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE1MDY3NzQx",
+      "login": "GeoSn0w",
+      "name": "GeoSn0w",
+      "type": "User",
+      "location": "Italy",
+      "url": "https://github.com/GeoSn0w",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/15067741?u=2d814eb353160d5bc830dc903bdefc8a4ed30c16&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "OpenJailbreak",
+        "nameWithOwner": "GeoSn0w/OpenJailbreak",
+        "url": "https://github.com/GeoSn0w/OpenJailbreak",
+        "description": "GeoSn0w's OpenJailbreak Project, an open-source iOS 11 to iOS 13 Jailbreak project & vault.",
+        "stargazerCount": 411,
+        "forkCount": 47,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-05-29T21:55:34Z",
+        "pushedAt": "2026-07-07T11:04:40Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg5OTkzMDk5",
+      "login": "Berserk-hub150",
+      "name": "BerserkTime",
+      "type": "User",
+      "location": "Italy",
+      "url": "https://github.com/Berserk-hub150",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/89993099?u=32345d3cde9a9133015aa8e81c9f05490b02429a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "moodle-ai-skill-navigator",
+        "nameWithOwner": "Berserk-hub150/moodle-ai-skill-navigator",
+        "url": "https://github.com/Berserk-hub150/moodle-ai-skill-navigator",
+        "description": "AI-powered Moodle plugin for tutoring, quizzes, mind maps, RAG course materials and more.",
+        "stargazerCount": 222,
+        "forkCount": 30,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-08-10T14:16:22Z",
+        "pushedAt": "2026-09-29T10:37:07Z",
+        "homepageUrl": "https://berserk-hub150.github.io/moodle-ai-skill-navigator/",
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ4Mjk1Nw==",
+      "login": "as-cii",
+      "name": "Antonio Scandurra",
+      "type": "User",
+      "location": "Italy",
+      "url": "https://github.com/as-cii",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/482957?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "PdfReportKit",
+        "nameWithOwner": "as-cii/PdfReportKit",
+        "url": "https://github.com/as-cii/PdfReportKit",
+        "description": "Generate a PDF report from HTML code and Mustache templates. No longer maintained!",
+        "stargazerCount": 168,
+        "forkCount": 50,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2012-11-23T15:17:50Z",
+        "pushedAt": "2016-04-30T11:17:33Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgxMDY4Nzgx",
+      "login": "formidablae",
+      "name": "Andi Ferhati",
+      "type": "User",
+      "location": "Milan, Italy",
+      "url": "https://github.com/formidablae",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/81068781?u=592cdbda095c2c9bbf4f05fb0b016f4297896954&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "formidablae",
+        "nameWithOwner": "formidablae/formidablae",
+        "url": "https://github.com/formidablae/formidablae",
+        "description": "My profile's README.md",
+        "stargazerCount": 112,
+        "forkCount": 176,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-07-12T02:56:55Z",
+        "pushedAt": "2026-10-01T05:15:01Z",
+        "homepageUrl": "https://github.com/formidablae/formidablae",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBnH1dA",
+      "login": "vittorioPiotti",
+      "name": "vittorioPiotti",
+      "type": "User",
+      "location": "Italy",
+      "url": "https://github.com/vittorioPiotti",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/108131700?u=9994b6b8ad1a8cbed16c993b20ea36d4418d354c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "MusicPlayer-Web",
+        "nameWithOwner": "vittorioPiotti/MusicPlayer-Web",
+        "url": "https://github.com/vittorioPiotti/MusicPlayer-Web",
+        "description": "Dark mode e light mode. Schermate di Home, Artisti, Musica. Navbar dinamica per la riproduzione musicale. Musica in background supportata. Compatibilità con i principali browser. Future implementazioni: accesso come artista, gestione dei brani su cloud, interazioni tra utenti tramite like e visualizzazioni",
+        "stargazerCount": 88,
+        "forkCount": 4,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-07-16T12:35:36Z",
+        "pushedAt": "2024-12-29T22:43:04Z",
+        "homepageUrl": "https://vittoriopiotti.altervista.org/MusicPlayer/Client/index.php",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjkwOTg1NzUw",
+      "login": "somekindofwallflower",
+      "name": "Mbarsila Kadiu",
+      "type": "User",
+      "location": "Milan, Italy",
+      "url": "https://github.com/somekindofwallflower",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/90985750?u=da9e8530b3c8db335be7187715061a58e8e9c6c5&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "somekindofwallflower",
+        "nameWithOwner": "somekindofwallflower/somekindofwallflower",
+        "url": "https://github.com/somekindofwallflower/somekindofwallflower",
+        "description": "Well, that's me :)",
+        "stargazerCount": 63,
+        "forkCount": 25,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-12-06T15:02:01Z",
+        "pushedAt": "2026-10-03T04:30:26Z",
+        "homepageUrl": "https://github.com/somekindofwallflower/somekindofwallflower",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBYzcAA",
+      "login": "x3ric",
+      "name": null,
+      "type": "User",
+      "location": "Italy",
+      "url": "https://github.com/x3ric",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/93117440?u=2351c3a819574bfca92ae9dc76fbb6de9e1d698d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "usr",
+        "nameWithOwner": "x3ric/usr",
+        "url": "https://github.com/x3ric/usr",
+        "description": "DotFiles",
+        "stargazerCount": 32,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-02-26T02:17:21Z",
+        "pushedAt": "2026-06-24T03:07:43Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Lua"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU4MDQzNjEz",
+      "login": "bocaletto-luca",
+      "name": "Bocaletto Luca",
+      "type": "User",
+      "location": "Italy",
+      "url": "https://github.com/bocaletto-luca",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58043613?u=758dd1af81bb1c6752786c1855ea6c1011470e7b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "BootableUSB",
+        "nameWithOwner": "bocaletto-luca/BootableUSB",
+        "url": "https://github.com/bocaletto-luca/BootableUSB",
+        "description": "Bootable USB Creator is a Python script that provides a simple graphical user interface for creating bootable USB drives from ISO files. This tool is authored by Luca Bocaletto.",
+        "stargazerCount": 25,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-04-22T12:04:36Z",
+        "pushedAt": "2025-07-06T00:32:37Z",
+        "homepageUrl": "https://bocaletto-luca.github.io/",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ2MjQxMTM=",
+      "login": "Magicianred",
+      "name": "Simone Paolucci",
+      "type": "User",
+      "location": "Italy",
+      "url": "https://github.com/Magicianred",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4624113?u=b32845aee95250ceba82a7cf73011cbfe196fdab&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "old-simple-app",
+        "nameWithOwner": "Magicianred/old-simple-app",
+        "url": "https://github.com/Magicianred/old-simple-app",
+        "description": "Some simple structure in different languages for made simple web sites without database",
+        "stargazerCount": 23,
+        "forkCount": 5,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2020-04-06T12:29:40Z",
+        "pushedAt": "2021-06-02T12:12:22Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "GNU Affero General Public License v3.0",
+          "spdxId": "AGPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "U_kgDODNv4HQ",
+      "login": "lucaboca82",
+      "name": "Luca ;)",
+      "type": "User",
+      "location": "Italy",
+      "url": "https://github.com/lucaboca82",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/215742493?u=25b7a1ba3d25f06d685adf3e27a2fc4e6e4241aa&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "Portfolio",
+        "nameWithOwner": "lucaboca82/Portfolio",
+        "url": "https://github.com/lucaboca82/Portfolio",
+        "description": "This is a fully advanced, professional single-page portfolio template designed to help you showcase your skills, projects, and experience. It combines modern web technologies and best practices to deliver an impeccable user experience.",
+        "stargazerCount": 14,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-06-11T15:19:01Z",
+        "pushedAt": "2025-06-17T19:10:48Z",
+        "homepageUrl": "https://github.com/lucaboca82/",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjcwOTk4NTk4",
+      "login": "HosseinJafari2001",
+      "name": "Hossein jafari",
+      "type": "User",
+      "location": "Bologna, Italy",
+      "url": "https://github.com/HosseinJafari2001",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/70998598?u=7c8fbfe0058d1dd2ace869bf8d501af4d17a8cfb&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "HosseinJafari2001",
+        "nameWithOwner": "HosseinJafari2001/HosseinJafari2001",
+        "url": "https://github.com/HosseinJafari2001/HosseinJafari2001",
+        "description": "my personal repository.",
+        "stargazerCount": 13,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-06-01T22:53:30Z",
+        "pushedAt": "2025-03-16T09:41:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjczODg4MTg0",
+      "login": "maxcohen31",
+      "name": "Emanuele",
+      "type": "User",
+      "location": "Italy",
+      "url": "https://github.com/maxcohen31",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73888184?u=73ccff38cad7dfdc5ebc69953306522033becba0&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "Parkinson-Disease-Detector",
+        "nameWithOwner": "maxcohen31/Parkinson-Disease-Detector",
+        "url": "https://github.com/maxcohen31/Parkinson-Disease-Detector",
+        "description": "Parkinson's disease detector using XGBoost",
+        "stargazerCount": 10,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-07-06T14:47:42Z",
+        "pushedAt": "2022-07-06T15:28:44Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": null
+      }
+    }
+  ],
+  "candidatePoolLimit": 500,
+  "candidatePoolThresholdStars": null
+}

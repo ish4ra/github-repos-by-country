@@ -1,6 +1,6 @@
-<p align="center" aria-label="Trinidad & Tobago flag" style="font-size:72px">🇹🇹</p>
+<p align="center" aria-label="Trinidad &amp; Tobago flag" style="font-size:72px">🇹🇹</p>
 
-<h1 align="center">Trinidad & Tobago</h1>
+<h1 align="center">Trinidad &amp; Tobago</h1>
 
 <p align="center">
   <a href="./README.md"><strong>Browse countries</strong></a> ·
@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 53**
+- Progress: **0%**
+- Retained high-potential owner candidates: **45**
+- Search requests completed: **1**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [trinib/Linux-Bash-Commands](https://github.com/trinib/Linux-Bash-Commands) | **4,147** | ❤Trinidad & Tobago❤ |
+| [chrisdev/django-pandas](https://github.com/chrisdev/django-pandas) | **807** | Trinidad & Tobago |
+| [callmenick/Animating-Hamburger-Icons](https://github.com/callmenick/Animating-Hamburger-Icons) | **485** | Trinidad & Tobago |
+| [creativenull/efmls-configs-nvim](https://github.com/creativenull/efmls-configs-nvim) | **319** | Trinidad and Tobago |
+| [godlyranchdressing/United-GNOME](https://github.com/godlyranchdressing/United-GNOME) | **306** | Trinidad & Tobago |
+| [foohyfooh/PKHeXPluginPile](https://github.com/foohyfooh/PKHeXPluginPile) | **103** | Trinidad and Tobago |
+| [dwayne/haskell-programming](https://github.com/dwayne/haskell-programming) | **93** | Trinidad & Tobago |
+| [triniwiz/nativescript-pager](https://github.com/triniwiz/nativescript-pager) | **88** | Trinidad & Tobago |
+| [ArmstrongSubero/PIC16-Projects](https://github.com/ArmstrongSubero/PIC16-Projects) | **85** | Moruga, Trinidad and Tobago |
+| [uwidcit/flaskmvc](https://github.com/uwidcit/flaskmvc) | **40** | St Augustine, Trinidad and Tobago |
+| [KevinGirardx/qb-radialmenu](https://github.com/KevinGirardx/qb-radialmenu) | **30** | Trinidad & Tobago |
+| [Snickdx/pwadocs](https://github.com/Snickdx/pwadocs) | **27** | Trinidad and Tobago |
+| [wyntonfranklin/simple-file-server](https://github.com/wyntonfranklin/simple-file-server) | **25** | Trinidad and Tobago |
+| [JadeOfMaar/SterlingSystems](https://github.com/JadeOfMaar/SterlingSystems) | **24** | Trinidad and Tobago |
+| [msanatan/django_graphql_movies](https://github.com/msanatan/django_graphql_movies) | **21** | Trinidad and Tobago |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

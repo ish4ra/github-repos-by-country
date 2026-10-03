@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 72**
+- Progress: **0%**
+- Retained high-potential owner candidates: **41**
+- Search requests completed: **1**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [kruseio/hygg](https://github.com/kruseio/hygg) | **359** | Faroe Islands |
+| [bardurt/odontograma](https://github.com/bardurt/odontograma) | **77** | Faroe Islands |
+| [Brian-ED/rayed-bqn](https://github.com/Brian-ED/rayed-bqn) | **53** | Faroe Islands |
+| [argilzar/vagrant-nzb](https://github.com/argilzar/vagrant-nzb) | **30** | Faroe Islands |
+| [flowcore-io/luttaka-open](https://github.com/flowcore-io/luttaka-open) | **13** | Faroe Islands |
+| [ahjohannessen/sec](https://github.com/ahjohannessen/sec) | **12** | Faroe Islands |
+| [Brett2x/Minecraft-Hacked-Client-Tutorials](https://github.com/Brett2x/Minecraft-Hacked-Client-Tutorials) | **10** | Tórshavn, Faroe Islands |
+| [jbiskur/nestjs-utils](https://github.com/jbiskur/nestjs-utils) | **8** | Faroe Islands |
+| [samal-rasmussen/png-validator](https://github.com/samal-rasmussen/png-validator) | **7** | Tórshavn, Faroe Islands |
+| [Niflheimrx/surfkultur-surf](https://github.com/Niflheimrx/surfkultur-surf) | **6** | Faroe Islands |
+| [Rogn/copilot-cli-agent-observer](https://github.com/Rogn/copilot-cli-agent-observer) | **6** | Faroe Islands |
+| [Smilex/umka-lang-odin](https://github.com/Smilex/umka-lang-odin) | **6** | Faroe Islands |
+| [BergurDavidsen/GoProjects](https://github.com/BergurDavidsen/GoProjects) | **5** | Faroe Islands |
+| [olavurellefsen/reeemgame](https://github.com/olavurellefsen/reeemgame) | **4** | Faroe Islands |
+| [cybercrimecat/cybercrimecat.github.io](https://github.com/cybercrimecat/cybercrimecat.github.io) | **3** | faroe islands |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

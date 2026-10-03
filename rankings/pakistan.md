@@ -8,10 +8,36 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Queued
+## Repository ranking status: Building 0%
 
-This country is indexed and queued for the global repository crawl.
+- Geography terms processed: **0 / 607**
+- Progress: **0%**
+- Retained high-potential owner candidates: **50**
+- Search requests completed: **1**
+- Unresolved shards: **0**
 
-The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.
+The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | **67,021** | Karachi, Pakistan |
+| [farhanashrafdev/90DaysOfCyberSecurity](https://github.com/farhanashrafdev/90DaysOfCyberSecurity) | **19,759** | Lahore, Pakistan |
+| [FareedKhan-dev/train-llm-from-scratch](https://github.com/FareedKhan-dev/train-llm-from-scratch) | **11,930** | Karachi, Pakistan |
+| [r0oth3x49/udemy-dl](https://github.com/r0oth3x49/udemy-dl) | **4,950** | Pakistan |
+| [evildevill/instahack](https://github.com/evildevill/instahack) | **1,907** | Pakistan |
+| [wajahatkarim3/EasyFlipView](https://github.com/wajahatkarim3/EasyFlipView) | **1,376** | Karachi, Pakistan |
+| [RizwanMunawar/yolov7-object-tracking](https://github.com/RizwanMunawar/yolov7-object-tracking) | **654** | Islamabad Pakistan |
+| [axiftaj/Flutter-Getx-Roadmap](https://github.com/axiftaj/Flutter-Getx-Roadmap) | **460** | Islamabad, Pakistan |
+| [ZainRk/Personal-Portfolio-React](https://github.com/ZainRk/Personal-Portfolio-React) | **299** | Pakistan |
+| [Ameen-Alam/CNC-Docker](https://github.com/Ameen-Alam/CNC-Docker) | **195** | Karachi , pakistan |
+| [AsharibAli/100-days-of-code](https://github.com/AsharibAli/100-days-of-code) | **192** | Pakistan |
+| [ghousahmed/modern-web-and-app-development](https://github.com/ghousahmed/modern-web-and-app-development) | **148** | Karachi,Pakistan |
+| [rashidwassan/My-Ultimate-OSINT-Arsenal](https://github.com/rashidwassan/My-Ultimate-OSINT-Arsenal) | **141** | Karachi, Sindh, Pakistan |
+| [EimanTahir027/Python-Programming-Basics-For-Artificial-Intelligence](https://github.com/EimanTahir027/Python-Programming-Basics-For-Artificial-Intelligence) | **123** | Islamabad,Pakistan |
+| [MuhammadMohsin/PanacloudBootcamp2020](https://github.com/MuhammadMohsin/PanacloudBootcamp2020) | **105** | Karachi, Pakistan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
