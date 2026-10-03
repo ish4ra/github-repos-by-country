@@ -17,7 +17,7 @@ test('generic country configuration is available outside Sri Lanka', async () =>
   assert.equal(config.code, 'JP');
   assert.equal(config.name, 'Japan');
   assert.deepEqual(config.searchTerms, ['Japan']);
-  assert.equal(config.geographyCoverage, 'country-name-only');
+  assert.equal(config.geographyCoverage, 'generated-global-index');
 });
 
 test('Sri Lanka keeps its proof-of-concept overrides', async () => {
@@ -25,5 +25,5 @@ test('Sri Lanka keeps its proof-of-concept overrides', async () => {
   assert.equal(config.code, 'LK');
   assert.ok(config.searchTerms.includes('Kalutara'));
   assert.ok(config.countryAliases.includes('srilanka'));
-  assert.equal(config.geographyCoverage, 'curated-poc');
+  assert.equal(config.geographyCoverage, 'generated-global-index+country-overrides');
 });
