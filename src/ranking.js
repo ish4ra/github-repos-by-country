@@ -7,7 +7,10 @@ export function createCollector(config) {
     rejectedOwners: new Map(),
     queryStats: [],
     rawOwnerHits: 0,
-    repositoryBatchesFetched: 0,
+    probeBatchesFetched: 0,
+    candidateBatchesFetched: 0,
+    candidateThresholdStars: null,
+    candidateOwners: 0,
   };
 }
 
@@ -65,8 +68,9 @@ export function ingestDiscoveryPage(collector, { searchTerm, pageNumber, page })
   }
 }
 
-export function ingestRepositoryBatch(collector, nodes) {
-  collector.repositoryBatchesFetched += 1;
+export function ingestRepositoryBatch(collector, nodes, stage = 'candidate') {
+  if (stage === 'probe') collector.probeBatchesFetched += 1;
+  else collector.candidateBatchesFetched += 1;
 
   for (const node of nodes || []) {
     if (!node?.login || !['User', 'Organization'].includes(node.__typename)) continue;
@@ -79,6 +83,32 @@ export function ingestRepositoryBatch(collector, nodes) {
       owner.repositories.set(repo.nameWithOwner, repo);
     }
   }
+}
+
+export function selectCandidateOwners(collector, rankingLimit = collector.config.rankingLimit) {
+  const ownersWithRepos = [...collector.owners.values()]
+    .map((owner) => ({
+      owner,
+      topStars: Math.max(0, ...[...owner.repositories.values()].map((repo) => repo.stargazerCount || 0)),
+    }))
+    .filter(({ owner }) => owner.repositories.size > 0)
+    .sort((a, b) => b.topStars - a.topStars || a.owner.login.localeCompare(b.owner.login));
+
+  if (ownersWithRepos.length === 0) {
+    collector.candidateThresholdStars = null;
+    collector.candidateOwners = 0;
+    return [];
+  }
+
+  const thresholdIndex = Math.min(rankingLimit, ownersWithRepos.length) - 1;
+  const threshold = ownersWithRepos[thresholdIndex].topStars;
+  const candidates = ownersWithRepos
+    .filter((item) => item.topStars >= threshold)
+    .map((item) => item.owner);
+
+  collector.candidateThresholdStars = threshold;
+  collector.candidateOwners = candidates.length;
+  return candidates;
 }
 
 export function markQueryCapped(collector, searchTerm) {
@@ -152,17 +182,22 @@ export function buildRanking(collector, generatedAt = new Date().toISOString()) 
       rawOwnerHits: collector.rawOwnerHits,
       acceptedUniqueOwners: collector.owners.size,
       rejectedUniqueOwners: collector.rejectedOwners.size,
+      candidateOwners: collector.candidateOwners,
+      candidateThresholdStars: collector.candidateThresholdStars,
       repositoriesConsidered: allRepositories.length,
       publishedRepositories: published.length,
-      repositoriesPerOwner: collector.config.repositoriesPerOwner,
-      repositoryBatchesFetched: collector.repositoryBatchesFetched,
+      candidateRepositoriesPerOwner: collector.config.candidateRepositoriesPerOwner,
+      probeBatchesFetched: collector.probeBatchesFetched,
+      candidateBatchesFetched: collector.candidateBatchesFetched,
       rankingLimit: collector.config.rankingLimit,
       searchQueries: collector.queryStats,
       cappedQueries,
       notes: [
         'GitHub repositories do not expose a native country field; country is inferred from the public location of the repository owner.',
-        'GitHub search can cap accessible results for broad queries, so this proof of concept does not claim exhaustive national coverage.',
-        `Only the top ${collector.config.repositoriesPerOwner} non-fork public repositories by stars are collected for each discovered owner.`,
+        'GitHub search can cap accessible results for broad queries, so this proof of concept does not claim exhaustive national owner discovery.',
+        'Every discovered owner is first probed for their single most-starred public non-fork repository.',
+        'Only owners whose top repository can still affect the published ranking are expanded in the candidate pass.',
+        `Candidate owners are expanded to at most ${collector.config.candidateRepositoriesPerOwner} public non-fork repositories, matching the ranking limit.`,
         'Owners with missing, ambiguous, or unrecognized public locations are excluded instead of being guessed.',
       ],
     },

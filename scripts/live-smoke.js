@@ -6,11 +6,11 @@ if (!token) {
   throw new Error('GITHUB_TOKEN or GH_TOKEN is required for the live GraphQL smoke test.');
 }
 
-const config = await loadCountryConfig('LK');
+await loadCountryConfig('LK');
 const client = new GitHubGraphQLClient({ token, requestDelayMs: 0 });
 const discovery = await client.discoverOwnersPage({
   searchTerm: 'Sri Lanka',
-  first: 2,
+  first: 5,
 });
 
 if (!Number.isInteger(discovery.userCount) || !discovery.pageInfo || !discovery.rateLimit) {
@@ -22,15 +22,24 @@ if (ownerIds.length === 0) {
   throw new Error('GitHub GraphQL discovery smoke test returned no owner IDs.');
 }
 
-const repositories = await client.fetchOwnerRepositories({
+const probe = await client.fetchOwnerRepositories({
   ownerIds,
   reposPerOwner: 1,
 });
 
-if (!Array.isArray(repositories.nodes) || !repositories.rateLimit) {
-  throw new Error('GitHub GraphQL repository smoke test returned an unexpected response shape.');
+if (!Array.isArray(probe.nodes) || !probe.rateLimit) {
+  throw new Error('GitHub GraphQL repository probe smoke test returned an unexpected response shape.');
+}
+
+const deeper = await client.fetchOwnerRepositories({
+  ownerIds: ownerIds.slice(0, Math.min(2, ownerIds.length)),
+  reposPerOwner: 5,
+});
+
+if (!Array.isArray(deeper.nodes) || !deeper.rateLimit) {
+  throw new Error('GitHub GraphQL candidate expansion smoke test returned an unexpected response shape.');
 }
 
 console.log(
-  `Live GraphQL smoke test passed: reported users=${discovery.userCount}, sampled owners=${ownerIds.length}, rate-limit remaining=${repositories.rateLimit.remaining}.`,
+  `Live GraphQL smoke test passed: reported users=${discovery.userCount}, sampled owners=${ownerIds.length}, rate-limit remaining=${deeper.rateLimit.remaining}.`,
 );

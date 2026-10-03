@@ -12,7 +12,8 @@ The first pipeline:
 
 - discovers GitHub users and organizations through country/city location searches
 - validates each returned public profile location locally
-- retrieves each accepted owner's top public non-fork repositories
+- probes every accepted owner's most-starred public repository
+- expands only the owners who can still affect the requested ranking
 - ranks repositories by stars, then forks
 - writes machine-readable JSON and a human-readable Markdown ranking
 - records coverage limitations and capped searches in the generated data
@@ -32,15 +33,11 @@ See [Methodology](docs/METHODOLOGY.md) for the exact rules and limitations.
 
 The first supported country is Sri Lanka (`LK`). It uses the country name plus configured Sri Lankan city and district terms for owner discovery.
 
-Current defaults:
+For a top-100 ranking, every discovered owner is first queried for only their #1 most-starred non-fork public repository. Owners whose #1 repository falls below the 100th-owner threshold cannot contribute a repository to the final top 100, so only the remaining candidate owners need a deeper repository query.
 
-- up to 100 search results per GraphQL page
-- up to 10 pages per location query
-- top 25 non-fork public repositories per discovered owner
-- top 100 repositories published in the country ranking
-- archived repositories remain visible and are marked
+This keeps repository discovery practical without sacrificing top-100 correctness within the discovered owner set.
 
-The generated ranking does **not** claim exhaustive national coverage yet. GitHub search caps, free-form profile locations, missing locations, and the per-owner repository limit are explicitly recorded as coverage constraints.
+The generated ranking does **not** claim exhaustive national coverage yet. GitHub search caps, free-form profile locations, missing locations, and ambiguous locations are explicitly recorded as coverage constraints.
 
 ## Generated files
 
@@ -90,9 +87,9 @@ The token is only used to query GitHub. Do not commit it to the repository.
 
 ## Automation
 
-`CI` validates syntax and runs tests on pushes and pull requests.
+`CI` validates syntax, runs tests, and performs a small live GraphQL smoke test on pushes.
 
-`Refresh Sri Lanka ranking` runs daily, can be started manually, and also runs when ranking/config code changes on `main`. It uses the repository's built-in GitHub Actions token, regenerates the two ranking files, and commits only when generated data changes.
+`Refresh Sri Lanka ranking` runs daily, can be started manually, and also runs when ranking/config code changes on `main`. It uses the repository's built-in GitHub Actions token, regenerates the ranking files, and commits only when generated data changes.
 
 ## Ranking rules
 
@@ -109,7 +106,7 @@ Forks are excluded. Repository star/fork metadata comes from GitHub at generatio
 1. GitHub-sourced repository statistics are kept separate from inferred country attribution.
 2. Attribution evidence and confidence are included in generated JSON.
 3. Ambiguous or unrecognized locations should not be silently guessed.
-4. Rankings should not depend on a manually selected list of popular developers.
+4. Rankings should not depend only on a manually selected list of popular developers.
 5. Generated datasets include timestamps, methodology versions, coverage statistics, and search-cap warnings.
 6. The project should disclose known incompleteness instead of presenting approximate discovery as a complete census.
 
@@ -119,7 +116,7 @@ The next milestones are:
 
 - validate the Sri Lanka output against known repositories and missed-owner cases
 - improve geography normalization and explicit ambiguity handling
-- add repo-centric discovery checks to reduce owner-search blind spots
+- add complementary repo-centric discovery checks for owner-search blind spots
 - expand to additional countries
 - add historical snapshots for star growth and trending rankings
 - modernize country-level developer rankings

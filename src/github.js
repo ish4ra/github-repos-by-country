@@ -184,11 +184,14 @@ export class GitHubGraphQLClient {
           const error = new Error(`GitHub GraphQL error: ${message}`);
           error.graphqlErrors = data.errors;
           error.retryAfter = retryAfter;
+          if (!data.data) error.retryable = true;
           throw error;
         }
 
         if (!data?.data) {
-          throw new Error('GitHub GraphQL returned no data');
+          const error = new Error('GitHub GraphQL returned no data');
+          error.retryable = true;
+          throw error;
         }
 
         if (this.requestDelayMs > 0) {
@@ -216,10 +219,18 @@ function escapeSearchValue(value) {
 }
 
 function isRetryable(error) {
+  if (error?.retryable) return true;
   if (error?.status === 429) return true;
   if (error?.status >= 500) return true;
   const message = String(error?.message || '').toLowerCase();
-  return message.includes('rate limit') || message.includes('temporarily unavailable');
+  return (
+    message.includes('rate limit') ||
+    message.includes('temporarily unavailable') ||
+    message.includes('something went wrong') ||
+    message.includes('timeout') ||
+    message.includes('timed out') ||
+    message.includes('no data')
+  );
 }
 
 function sleep(ms) {

@@ -76,10 +76,42 @@ test('repository fetch uses owner node IDs separately from discovery', async () 
   const client = new GitHubGraphQLClient({ token: 'test-token', requestDelayMs: 0, fetchImpl });
   const result = await client.fetchOwnerRepositories({
     ownerIds: ['U_1'],
-    reposPerOwner: 25,
+    reposPerOwner: 1,
   });
 
   assert.deepEqual(capturedBody.variables.ids, ['U_1']);
-  assert.equal(capturedBody.variables.reposPerOwner, 25);
+  assert.equal(capturedBody.variables.reposPerOwner, 1);
   assert.equal(result.nodes[0].repositories.nodes[0].stargazerCount, 42);
+});
+
+test('no-data responses are retried', async () => {
+  let calls = 0;
+  const fetchImpl = async () => {
+    calls += 1;
+    if (calls === 1) {
+      return new Response(JSON.stringify({ data: null }), {
+        status: 200,
+        headers: { 'content-type': 'application/json' },
+      });
+    }
+
+    return new Response(
+      JSON.stringify({
+        data: {
+          search: {
+            userCount: 0,
+            pageInfo: { hasNextPage: false, endCursor: null },
+            nodes: [],
+          },
+          rateLimit: { cost: 1, limit: 5000, remaining: 4999, resetAt: '2026-10-03T05:00:00Z' },
+        },
+      }),
+      { status: 200, headers: { 'content-type': 'application/json' } },
+    );
+  };
+
+  const client = new GitHubGraphQLClient({ token: 'test-token', requestDelayMs: 0, fetchImpl });
+  const result = await client.discoverOwnersPage({ searchTerm: 'Sri Lanka', first: 1 });
+  assert.equal(result.userCount, 0);
+  assert.equal(calls, 2);
 });

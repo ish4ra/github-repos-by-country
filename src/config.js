@@ -39,7 +39,7 @@ function validateCountryConfig(config) {
     }
   }
 
-  for (const key of ['rankingLimit', 'repositoriesPerOwner', 'resultsPerPage', 'maxPagesPerQuery']) {
+  for (const key of ['rankingLimit', 'candidateRepositoriesPerOwner', 'resultsPerPage', 'maxPagesPerQuery']) {
     if (!Number.isInteger(config[key]) || config[key] < 1) {
       throw new Error(`Invalid country config: ${key} must be a positive integer`);
     }
@@ -49,8 +49,10 @@ function validateCountryConfig(config) {
     throw new Error('Invalid country config: resultsPerPage cannot exceed GitHub GraphQL pagination limit of 100');
   }
 
-  if (config.repositoriesPerOwner > 100) {
-    throw new Error('Invalid country config: repositoriesPerOwner cannot exceed GitHub GraphQL pagination limit of 100');
+  if (config.candidateRepositoriesPerOwner > 100) {
+    throw new Error(
+      'Invalid country config: candidateRepositoriesPerOwner cannot exceed GitHub GraphQL pagination limit of 100',
+    );
   }
 }
 
