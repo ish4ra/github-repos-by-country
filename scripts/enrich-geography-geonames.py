@@ -32,7 +32,10 @@ def normalize(value: str) -> str:
         if not (0x0300 <= ord(ch) <= 0x036F)
     )
     lowered = without_marks.lower().replace("&", " and ")
-    chars = [ch if ch.isalnum() else " " for ch in lowered]
+    chars = [
+        ch if (ch.isalnum() or unicodedata.category(ch).startswith("M")) else " "
+        for ch in lowered
+    ]
     return re.sub(r"\s+", " ", "".join(chars)).strip()
 
 
