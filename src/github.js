@@ -1,7 +1,12 @@
 const GRAPHQL_ENDPOINT = 'https://api.github.com/graphql';
 
 const DISCOVERY_QUERY = `
-  query DiscoverOwners($query: String!, $first: Int!, $cursor: String) {
+  query DiscoverOwners(
+    $query: String!
+    $first: Int!
+    $cursor: String
+    $includeTopRepository: Boolean!
+  ) {
     search(type: USER, query: $query, first: $first, after: $cursor) {
       userCount
       pageInfo {
@@ -17,6 +22,17 @@ const DISCOVERY_QUERY = `
           location
           url
           avatarUrl
+          repositories(
+            first: 1
+            ownerAffiliations: OWNER
+            privacy: PUBLIC
+            isFork: false
+            orderBy: { field: STARGAZERS, direction: DESC }
+          ) @include(if: $includeTopRepository) {
+            nodes {
+              ...DiscoveryRepositoryFields
+            }
+          }
         }
         ... on Organization {
           id
@@ -25,6 +41,17 @@ const DISCOVERY_QUERY = `
           location
           url
           avatarUrl
+          repositories(
+            first: 1
+            ownerAffiliations: OWNER
+            privacy: PUBLIC
+            isFork: false
+            orderBy: { field: STARGAZERS, direction: DESC }
+          ) @include(if: $includeTopRepository) {
+            nodes {
+              ...DiscoveryRepositoryFields
+            }
+          }
         }
       }
     }
@@ -33,6 +60,27 @@ const DISCOVERY_QUERY = `
       limit
       remaining
       resetAt
+    }
+  }
+
+  fragment DiscoveryRepositoryFields on Repository {
+    name
+    nameWithOwner
+    url
+    description
+    stargazerCount
+    forkCount
+    isArchived
+    isFork
+    createdAt
+    pushedAt
+    homepageUrl
+    primaryLanguage {
+      name
+    }
+    licenseInfo {
+      name
+      spdxId
     }
   }
 `;
@@ -116,13 +164,21 @@ export class GitHubGraphQLClient {
     this.fetch = fetchImpl;
   }
 
-  async discoverOwnersPage({ searchTerm, searchQuery, first, cursor = null }) {
+  async discoverOwnersPage({
+    searchTerm,
+    searchQuery,
+    first,
+    cursor = null,
+    includeTopRepository = false,
+  }) {
     const query = searchQuery || `location:"${escapeSearchValue(searchTerm)}"`;
     if (!query) throw new Error('A user-search query is required.');
+
     const payload = await this.#request(DISCOVERY_QUERY, {
       query,
       first,
       cursor,
+      includeTopRepository: Boolean(includeTopRepository),
     });
 
     return {

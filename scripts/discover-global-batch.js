@@ -3,24 +3,28 @@ import path from 'node:path';
 import { COUNTRIES } from '../src/countries.js';
 import { loadCountryConfig, projectRoot } from '../src/config.js';
 import { GitHubGraphQLClient } from '../src/github.js';
-import { discoverLocationTerm } from '../src/search-shards.js';
 import {
-  buildRanking,
   createCollector,
   ingestDiscoveryPage,
-  recordQueryStats,
   selectCandidateOwners,
+  buildRanking,
 } from '../src/ranking.js';
 import {
-  accumulateDiscoveryStats,
+  addUnresolvedShard,
+  beginActiveTerm,
   candidatePoolThreshold,
   createDiscoveryState,
+  finishActiveTerm,
   hydrateCollectorFromCandidates,
   mergeCandidatePools,
   prepareDiscoveryState,
   serializeProbeCandidates,
   DEFAULT_CANDIDATE_POOL_LIMIT,
 } from '../src/discovery-state.js';
+import {
+  expandSearchWorkItem,
+  isSearchPageCapped,
+} from '../src/search-shards.js';
 import { fetchRepositoriesForOwners } from '../src/pipeline.js';
 import { writeOutputs } from '../src/output.js';
 import { normalizeLocationForComparison } from '../src/location.js';
@@ -28,14 +32,23 @@ import { normalizeLocationForComparison } from '../src/location.js';
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
 if (!token) throw new Error('GITHUB_TOKEN or GH_TOKEN is required.');
 
-const termBudget = clampInt(process.env.DISCOVERY_TERM_LIMIT, 200, 1, 500);
-const chunkSize = clampInt(process.env.DISCOVERY_CHUNK_SIZE, 20, 1, 50);
+const requestBudget = clampInt(process.env.DISCOVERY_REQUEST_LIMIT, 180, 20, 600);
 const candidatePoolLimit = clampInt(
   process.env.CANDIDATE_POOL_LIMIT,
   DEFAULT_CANDIDATE_POOL_LIMIT,
   100,
   1000,
 );
+const pageSize = clampInt(process.env.DISCOVERY_PAGE_SIZE, 50, 10, 100);
+const maxLeafPages = Math.max(1, Math.ceil(1000 / pageSize));
+const rateLimitReserve = clampInt(process.env.RATE_LIMIT_RESERVE, 120, 50, 400);
+const runtimeBudgetMs = clampInt(
+  process.env.DISCOVERY_RUNTIME_MINUTES,
+  42,
+  5,
+  48,
+) * 60 * 1000;
+const startedAtMs = Date.now();
 
 const root = projectRoot();
 const stateDir = path.join(root, 'state', 'discovery');
@@ -48,7 +61,7 @@ const rolloutOrder = [
 ];
 
 let checkpoint = await readJson(checkpointPath, {
-  schemaVersion: 1,
+  schemaVersion: 2,
   cycle: 1,
   countryIndex: 0,
   updatedAt: new Date().toISOString(),
@@ -57,21 +70,28 @@ let checkpoint = await readJson(checkpointPath, {
 if (checkpoint.countryIndex >= rolloutOrder.length) {
   checkpoint = {
     ...checkpoint,
+    schemaVersion: 2,
     cycle: (checkpoint.cycle || 1) + 1,
     countryIndex: 0,
     updatedAt: new Date().toISOString(),
   };
 }
 
-let remainingTerms = termBudget;
+let requestsUsed = 0;
+let minimumRateLimitRemaining = null;
+let stopReason = null;
 let countriesTouched = 0;
 
-while (remainingTerms > 0 && checkpoint.countryIndex < rolloutOrder.length) {
+while (
+  checkpoint.countryIndex < rolloutOrder.length &&
+  requestsUsed < requestBudget &&
+  !runtimeExpired()
+) {
   const code = rolloutOrder[checkpoint.countryIndex];
   const config = await loadCountryConfig(code);
 
   if (!config.geographySearchTerms.length) {
-    console.warn(`[${code}] no generated geography terms; skipping until geography sync is available.`);
+    console.warn(`[${code}] no generated geography terms; advancing without publishing.`);
     checkpoint.countryIndex += 1;
     continue;
   }
@@ -80,186 +100,238 @@ while (remainingTerms > 0 && checkpoint.countryIndex < rolloutOrder.length) {
   const statePath = path.join(stateDir, `${code}.json`);
   const existing = await readJson(statePath, null);
   let state = prepareDiscoveryState(existing, config, terms, checkpoint.cycle);
-
   if (!state) state = createDiscoveryState(config, terms, checkpoint.cycle);
 
-  const available = Math.max(0, terms.length - state.nextTermIndex);
-  const countryBudget = Math.min(remainingTerms, available);
-
-  if (countryBudget === 0) {
-    if (!state.discoveryComplete) {
-      state.discoveryComplete = state.unresolvedShards.length === 0;
-      state.completedAt = new Date().toISOString();
-    }
-
-    if (state.discoveryComplete && !state.finalizedAt) {
-      await finalizeCountry(config, state, token);
-      state.finalizedAt = new Date().toISOString();
-      state.updatedAt = state.finalizedAt;
-      await writeJson(statePath, state);
-    }
-
-    if (state.discoveryComplete) {
-      console.log(`[${code}] discovery complete; advancing rollout.`);
-      checkpoint.countryIndex += 1;
-      countriesTouched += 1;
-      continue;
-    }
-
-    console.warn(
-      `[${code}] cannot finalize because ${state.unresolvedShards.length} capped shard(s) remain unresolved.`,
-    );
-    await writeJson(statePath, state);
-    break;
-  }
+  state.candidatePoolLimit = candidatePoolLimit;
+  countriesTouched += 1;
 
   const client = new GitHubGraphQLClient({
     token,
     requestDelayMs: config.requestDelayMs,
   });
 
-  let processedForCountry = 0;
+  if (state.phase === 'finalize' || state.nextTermIndex >= terms.length) {
+    state.phase = 'finalize';
+    state.discoveryComplete = true;
+    state.completedAt ||= new Date().toISOString();
 
-  while (processedForCountry < countryBudget) {
-    const size = Math.min(
-      chunkSize,
-      countryBudget - processedForCountry,
-      terms.length - state.nextTermIndex,
-    );
-    if (size <= 0) break;
-
-    const chunk = terms.slice(state.nextTermIndex, state.nextTermIndex + size);
-    const collector = createCollector(config);
-    const summaries = [];
-    let lowRateLimit = false;
-
-    for (const searchTerm of chunk) {
-      console.log(
-        `[${code}] term ${state.nextTermIndex + summaries.length + 1}/${terms.length}: ${searchTerm}`,
-      );
-
-      const summary = await discoverLocationTerm({
-        client,
-        searchTerm,
-        resultsPerPage: config.resultsPerPage,
-        maxPagesPerQuery: config.maxPagesPerQuery,
-        onPage: async (page) => {
-          ingestDiscoveryPage(collector, {
-            searchTerm,
-            pageNumber: page.leafPageNumber,
-            page,
-          });
-        },
-      });
-
-      summaries.push(summary);
-      recordQueryStats(collector, summary);
-
-      if (
-        Number.isFinite(summary.minimumRateLimitRemaining) &&
-        summary.minimumRateLimitRemaining < 120
-      ) {
-        lowRateLimit = true;
-        console.warn(
-          `[${code}] rate-limit reserve reached (${summary.minimumRateLimitRemaining}); finishing this chunk and saving progress.`,
-        );
-        break;
-      }
+    if (canFinalize()) {
+      await finalizeCountry(config, state, client);
+      state.phase = 'complete';
+      state.finalizedAt = new Date().toISOString();
+      state.updatedAt = state.finalizedAt;
+      await writeJson(statePath, state);
+      checkpoint.countryIndex += 1;
+      console.log(`[${code}] finalized; advancing to next country.`);
+      continue;
     }
 
-    const acceptedOwners = [...collector.owners.values()].filter((owner) => owner.id);
-    if (acceptedOwners.length > 0) {
-      console.log(
-        `[${code}] probing ${acceptedOwners.length} unique owner(s) discovered in this chunk.`,
-      );
-      await fetchRepositoriesForOwners({
-        client,
-        collector,
-        owners: acceptedOwners,
-        reposPerOwner: 1,
-        batchSize: 50,
-        stage: 'probe',
-        countryCode: code,
-        log: console,
-      });
-    }
-
-    const freshCandidates = serializeProbeCandidates(collector);
-    state.candidates = mergeCandidatePools(
-      state.candidates,
-      freshCandidates,
-      candidatePoolLimit,
-    );
-
-    const processedTerms = summaries.length;
-    state.nextTermIndex += processedTerms;
-    processedForCountry += processedTerms;
-    remainingTerms -= processedTerms;
-    accumulateDiscoveryStats(state, collector, summaries);
-
-    state.candidatePoolLimit = candidatePoolLimit;
-    state.candidatePoolThresholdStars = candidatePoolThreshold(
-      state.candidates,
-      candidatePoolLimit,
-    );
-
+    stopReason = 'finalization-deferred';
     await writeJson(statePath, state);
-
-    console.log(
-      `[${code}] progress ${state.nextTermIndex}/${terms.length}; candidate pool=${state.candidates.length}; threshold=${state.candidatePoolThresholdStars ?? 'n/a'}.`,
-    );
-
-    if (lowRateLimit || processedTerms === 0) {
-      remainingTerms = 0;
-      break;
-    }
+    break;
   }
 
-  countriesTouched += 1;
+  while (
+    state.nextTermIndex < terms.length &&
+    requestsUsed < requestBudget &&
+    !runtimeExpired()
+  ) {
+    const term = terms[state.nextTermIndex];
+    const active = beginActiveTerm(state, term);
 
-  if (state.nextTermIndex >= terms.length) {
-    state.discoveryComplete = state.unresolvedShards.length === 0;
-    state.completedAt = new Date().toISOString();
+    if (!active.queue.length) {
+      finishActiveTerm(state);
+      await writeJson(statePath, state);
+      continue;
+    }
 
-    if (state.discoveryComplete) {
-      await finalizeCountry(config, state, token);
-      state.finalizedAt = new Date().toISOString();
-      checkpoint.countryIndex += 1;
+    const work = active.queue.shift();
+
+    let page;
+    try {
+      page = await client.discoverOwnersPage({
+        searchQuery: work.query,
+        first: pageSize,
+        cursor: work.cursor || null,
+        includeTopRepository: true,
+      });
+      requestsUsed += 1;
+      active.requests += 1;
+      state.stats.searchRequests += 1;
+      trackRateLimit(state, page.rateLimit);
+      minimumRateLimitRemaining = minFinite(
+        minimumRateLimitRemaining,
+        page.rateLimit?.remaining,
+      );
+    } catch (error) {
+      work.attempts = Number(work.attempts || 0) + 1;
+      work.lastError = String(error?.message || error);
+      work.lastAttemptAt = new Date().toISOString();
+
+      if (work.attempts < 3) {
+        active.queue.unshift(work);
+        stopReason = 'query-retry-deferred';
+        console.warn(
+          `[${code}] deferred failed shard for next run after client retries: ${work.query}`,
+        );
+      } else {
+        addUnresolvedShard(state, {
+          term: active.term,
+          query: work.query,
+          reason: 'query-failed-after-worker-retries',
+          error: work.lastError,
+        });
+        console.warn(
+          `[${code}] recorded unresolved shard after repeated failures: ${work.query}`,
+        );
+      }
+
+      await writeJson(statePath, state);
+      if (stopReason) break;
+      continue;
+    }
+
+    if (!work.cursor && isSearchPageCapped(page)) {
+      const children = expandSearchWorkItem(work);
+
+      if (children.length > 0) {
+        active.shardExpansions += 1;
+        state.stats.shardExpansions += 1;
+        active.reportedCount = page.userCount || active.reportedCount;
+        active.queue.unshift(...children);
+        console.log(
+          `[${code}] ${active.term}: split ${work.stage} shard with ${page.userCount} results into ${children.length} resumable shard(s).`,
+        );
+      } else {
+        addUnresolvedShard(state, {
+          term: active.term,
+          query: work.query,
+          reportedCount: page.userCount || 0,
+          reason: 'search-cap-after-final-shard',
+        });
+      }
+    } else {
+      const collector = createCollector(config);
+      ingestDiscoveryPage(collector, {
+        searchTerm: active.term,
+        pageNumber: work.pageNumber || 1,
+        page,
+      });
+
+      active.leafPages += 1;
+      state.stats.leafPages += 1;
+      state.stats.rawOwnerHits += page.nodes?.length || 0;
+      state.stats.acceptedOwnerHits += collector.owners.size;
+      state.stats.rejectedOwnerHits += collector.rejectedOwners.size;
+
+      const freshCandidates = serializeProbeCandidates(collector);
+      state.candidates = mergeCandidatePools(
+        state.candidates,
+        freshCandidates,
+        candidatePoolLimit,
+      );
+      state.candidatePoolThresholdStars = candidatePoolThreshold(
+        state.candidates,
+        candidatePoolLimit,
+      );
+
+      if (page.pageInfo?.hasNextPage) {
+        if ((work.pageNumber || 1) < maxLeafPages && page.pageInfo.endCursor) {
+          active.queue.unshift({
+            ...work,
+            cursor: page.pageInfo.endCursor,
+            pageNumber: (work.pageNumber || 1) + 1,
+            attempts: 0,
+            lastError: undefined,
+            lastAttemptAt: undefined,
+          });
+        } else {
+          addUnresolvedShard(state, {
+            term: active.term,
+            query: work.query,
+            reportedCount: page.userCount || 0,
+            reason: 'leaf-page-window-exhausted',
+          });
+        }
+      }
     }
 
     state.updatedAt = new Date().toISOString();
     await writeJson(statePath, state);
+
+    if (
+      Number.isFinite(minimumRateLimitRemaining) &&
+      minimumRateLimitRemaining < rateLimitReserve
+    ) {
+      stopReason = 'rate-limit-reserve';
+      console.warn(
+        `[${code}] stopping safely with ${minimumRateLimitRemaining} GraphQL points remaining.`,
+      );
+      break;
+    }
+
+    if (!active.queue.length) {
+      console.log(
+        `[${code}] completed geography term ${state.nextTermIndex + 1}/${terms.length}: ${active.term}`,
+      );
+      finishActiveTerm(state);
+      await writeJson(statePath, state);
+    }
   }
 
-  if (!state.discoveryComplete) break;
+  if (stopReason || requestsUsed >= requestBudget || runtimeExpired()) {
+    if (!stopReason) {
+      stopReason = runtimeExpired() ? 'runtime-budget' : 'request-budget';
+    }
+    await writeJson(statePath, state);
+    break;
+  }
+
+  if (state.nextTermIndex >= terms.length) {
+    state.phase = 'finalize';
+    state.discoveryComplete = true;
+    state.completedAt ||= new Date().toISOString();
+    await writeJson(statePath, state);
+
+    if (canFinalize()) {
+      await finalizeCountry(config, state, client);
+      state.phase = 'complete';
+      state.finalizedAt = new Date().toISOString();
+      state.updatedAt = state.finalizedAt;
+      await writeJson(statePath, state);
+      checkpoint.countryIndex += 1;
+      continue;
+    }
+
+    stopReason = 'finalization-deferred';
+    break;
+  }
 }
 
+checkpoint.schemaVersion = 2;
 checkpoint.updatedAt = new Date().toISOString();
 checkpoint.lastRun = {
-  termBudget,
-  remainingTerms,
+  requestBudget,
+  requestsUsed,
   countriesTouched,
+  stopReason: stopReason || 'batch-complete',
+  minimumRateLimitRemaining,
+  runtimeSeconds: Math.round((Date.now() - startedAtMs) / 1000),
 };
 await writeJson(checkpointPath, checkpoint);
 
 console.log(
-  `Global discovery batch finished: cycle=${checkpoint.cycle}, nextCountryIndex=${checkpoint.countryIndex}, termsUsed=${termBudget - remainingTerms}/${termBudget}.`,
+  `Global discovery batch finished: cycle=${checkpoint.cycle}, nextCountryIndex=${checkpoint.countryIndex}, requests=${requestsUsed}/${requestBudget}, stop=${checkpoint.lastRun.stopReason}.`,
 );
 
-async function finalizeCountry(config, state, tokenValue) {
+async function finalizeCountry(config, state, client) {
   console.log(
     `[${config.code}] finalizing from safety pool of ${state.candidates.length} owner(s).`,
   );
 
-  const client = new GitHubGraphQLClient({
-    token: tokenValue,
-    requestDelayMs: config.requestDelayMs,
-  });
-
   const collector = hydrateCollectorFromCandidates(config, state.candidates);
   const poolOwners = [...collector.owners.values()].filter((owner) => owner.id);
 
-  // Refresh each retained owner's best repository at finalization time.
   await fetchRepositoriesForOwners({
     client,
     collector,
@@ -285,8 +357,12 @@ async function finalizeCountry(config, state, tokenValue) {
   });
 
   const ranking = buildRanking(collector);
-  ranking.methodologyVersion = '0.4.0-global-crawl';
-  ranking.coverage.status = 'global-geography-crawl';
+  ranking.methodologyVersion = '0.5.0-resumable-global-crawl';
+  ranking.coverage.status =
+    state.unresolvedShards.length === 0
+      ? 'global-geography-crawl'
+      : 'global-geography-crawl-with-gaps';
+  ranking.coverage.ownerMetricLabel = 'Retained candidate owners';
   ranking.coverage.geography = {
     source: config.geography?.source || null,
     counts: config.geography?.counts || null,
@@ -303,11 +379,13 @@ async function finalizeCountry(config, state, tokenValue) {
     thresholdStars: state.candidatePoolThresholdStars,
   };
   ranking.coverage.discoveryTotals = state.stats;
+  ranking.coverage.unresolvedShards = state.unresolvedShards;
   ranking.coverage.notes = [
     'Country attribution uses the generated global country/city/admin geography index plus explicit country aliases.',
     'Ambiguous city/admin names shared by multiple countries are not accepted as city-only evidence.',
-    'Broad GitHub user searches are deterministically sharded when they exceed the accessible search-result window.',
-    'The geography crawl processes every configured discovery term across repeated rate-limit-aware batches.',
+    'Broad GitHub user searches are deterministically sharded when they exceed GitHub search result windows.',
+    'Search shard queues and page cursors are persisted so large terms can resume across workflow runs.',
+    'The retained candidate safety pool is re-probed before publication; long crawl durations can still introduce temporal drift.',
     ...ranking.coverage.notes,
   ];
 
@@ -324,11 +402,10 @@ function buildDiscoveryTerms(config) {
   for (const value of [...config.searchTerms, ...config.geographySearchTerms]) {
     const raw = String(value || '').trim();
     if (!raw) continue;
+
     const normalized = normalizeLocationForComparison(raw);
     if (!normalized) continue;
 
-    // Always retain explicit country aliases. Skip globally ambiguous
-    // city/admin-only terms because they cannot be safely attributed alone.
     const isExplicitCountry = config.countryAliases.some(
       (alias) => normalizeLocationForComparison(alias) === normalized,
     );
@@ -338,6 +415,34 @@ function buildDiscoveryTerms(config) {
   }
 
   return [...terms.values()];
+}
+
+function trackRateLimit(state, rateLimit) {
+  const remaining = rateLimit?.remaining;
+  if (!Number.isFinite(remaining)) return;
+
+  state.stats.minimumRateLimitRemaining = minFinite(
+    state.stats.minimumRateLimitRemaining,
+    remaining,
+  );
+}
+
+function canFinalize() {
+  const enoughRequests = requestBudget - requestsUsed >= 40;
+  const enoughRateLimit =
+    !Number.isFinite(minimumRateLimitRemaining) ||
+    minimumRateLimitRemaining >= rateLimitReserve;
+  return enoughRequests && enoughRateLimit && !runtimeExpired(8 * 60 * 1000);
+}
+
+function runtimeExpired(reserveMs = 0) {
+  return Date.now() - startedAtMs >= runtimeBudgetMs - reserveMs;
+}
+
+function minFinite(a, b) {
+  if (!Number.isFinite(a)) return Number.isFinite(b) ? b : null;
+  if (!Number.isFinite(b)) return a;
+  return Math.min(a, b);
 }
 
 async function readJson(filePath, fallback) {

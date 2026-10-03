@@ -1,3 +1,5 @@
+export const SEARCH_RESULT_WINDOW = 1000;
+
 const FOLLOWER_BUCKETS = [
   'followers:0',
   'followers:1..4',
@@ -27,6 +29,34 @@ const REPOSITORY_BUCKETS = [
   'repos:>=500',
 ];
 
+export function buildLocationSearchQuery(searchTerm) {
+  return `location:"${escapeSearchValue(searchTerm)}"`;
+}
+
+export function createSearchWorkItem(searchTerm) {
+  return {
+    query: buildLocationSearchQuery(searchTerm),
+    stage: 'base',
+    cursor: null,
+    pageNumber: 1,
+    attempts: 0,
+  };
+}
+
+export function isSearchPageCapped(page) {
+  return Number(page?.userCount || 0) > SEARCH_RESULT_WINDOW;
+}
+
+export function expandSearchWorkItem(work, currentYear = new Date().getUTCFullYear()) {
+  return createChildQueries(work.query, work.stage, currentYear).map((child) => ({
+    query: child.query,
+    stage: child.stage,
+    cursor: null,
+    pageNumber: 1,
+    attempts: 0,
+  }));
+}
+
 export async function discoverLocationTerm({
   client,
   searchTerm,
@@ -36,7 +66,7 @@ export async function discoverLocationTerm({
   log = console,
   currentYear = new Date().getUTCFullYear(),
 }) {
-  const baseQuery = `location:"${escapeSearchValue(searchTerm)}"`;
+  const baseQuery = buildLocationSearchQuery(searchTerm);
   const summary = {
     term: searchTerm,
     queriesIssued: 0,
@@ -86,10 +116,7 @@ async function visit(context) {
   summary.queriesIssued += 1;
   trackRateLimit(summary, firstPage.rateLimit);
 
-  const accessibleLimit = resultsPerPage * maxPagesPerQuery;
-  const isCapped = Boolean(firstPage.pageInfo?.hasNextPage) && firstPage.userCount > accessibleLimit;
-
-  if (!isCapped) {
+  if (!isSearchPageCapped(firstPage)) {
     summary.leafQueries += 1;
     summary.reportedCount += firstPage.userCount || 0;
     await consumeLeaf({
@@ -174,7 +201,7 @@ async function consumeLeaf({
   }
 }
 
-function createChildQueries(query, stage, currentYear) {
+export function createChildQueries(query, stage, currentYear) {
   if (stage === 'base') {
     return [
       { query: `${query} type:user`, stage: 'type' },
@@ -190,8 +217,6 @@ function createChildQueries(query, stage, currentYear) {
   }
 
   if (stage === 'followers') {
-    // repos:0 is intentionally omitted because an owner with zero public
-    // repositories cannot contribute to a public repository ranking.
     return REPOSITORY_BUCKETS.map((qualifier) => ({
       query: `${query} ${qualifier}`,
       stage: 'repos',
@@ -212,6 +237,7 @@ function createChildQueries(query, stage, currentYear) {
   if (stage.startsWith('year:')) {
     const year = Number(stage.slice(5));
     if (!Number.isInteger(year)) return [];
+
     return Array.from({ length: 12 }, (_, index) => {
       const month = index + 1;
       const lastDay = new Date(Date.UTC(year, month, 0)).getUTCDate();
@@ -225,6 +251,7 @@ function createChildQueries(query, stage, currentYear) {
   if (stage.startsWith('month:')) {
     const [year, month] = stage.slice(6).split('-').map(Number);
     if (!Number.isInteger(year) || !Number.isInteger(month)) return [];
+
     const lastDay = new Date(Date.UTC(year, month, 0)).getUTCDate();
     return Array.from({ length: lastDay }, (_, index) => {
       const day = index + 1;
@@ -255,12 +282,6 @@ function escapeSearchValue(value) {
   return String(value).replace(/["\\]/g, '\\$&');
 }
 
-export const SEARCH_SHARD_LIMITS = Object.freeze({
-  followerBuckets: FOLLOWER_BUCKETS,
-  repositoryBuckets: REPOSITORY_BUCKETS,
-});
-
-
 function trackRateLimit(summary, rateLimit) {
   const remaining = rateLimit?.remaining;
   if (!Number.isFinite(remaining)) return;
@@ -271,3 +292,8 @@ function trackRateLimit(summary, rateLimit) {
     summary.minimumRateLimitRemaining = remaining;
   }
 }
+
+export const SEARCH_SHARD_LIMITS = Object.freeze({
+  followerBuckets: FOLLOWER_BUCKETS,
+  repositoryBuckets: REPOSITORY_BUCKETS,
+});

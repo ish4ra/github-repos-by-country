@@ -1,22 +1,22 @@
 import { createCollector } from './ranking.js';
+import { createSearchWorkItem } from './search-shards.js';
 
 export const DEFAULT_CANDIDATE_POOL_LIMIT = 500;
+export const DISCOVERY_STATE_SCHEMA_VERSION = 2;
 
 export function createDiscoveryState(config, terms, cycle = 1) {
   return {
-    schemaVersion: 1,
+    schemaVersion: DISCOVERY_STATE_SCHEMA_VERSION,
     cycle,
     country: {
       code: config.code,
       name: config.name,
       slug: config.slug,
     },
-    geography: {
-      release: config.geography?.source?.release || null,
-      sha256: config.geography?.contentSha256 || config.geography?.source?.sha256 || null,
-      termsTotal: terms.length,
-    },
+    geography: geographyFingerprint(config, terms),
+    phase: 'discovery',
     nextTermIndex: 0,
+    activeTerm: null,
     discoveryComplete: false,
     startedAt: new Date().toISOString(),
     updatedAt: new Date().toISOString(),
@@ -25,42 +25,74 @@ export function createDiscoveryState(config, terms, cycle = 1) {
     stats: emptyStats(),
     unresolvedShards: [],
     candidates: [],
+    candidatePoolLimit: DEFAULT_CANDIDATE_POOL_LIMIT,
+    candidatePoolThresholdStars: null,
   };
 }
 
 export function prepareDiscoveryState(existing, config, terms, cycle = 1) {
-  if (!existing || existing.schemaVersion !== 1 || existing.country?.code !== config.code) {
-    return createDiscoveryState(config, terms, cycle);
+  const fresh = createDiscoveryState(config, terms, cycle);
+
+  if (!existing || existing.country?.code !== config.code) {
+    return fresh;
   }
 
+  const fingerprint = geographyFingerprint(config, terms);
   const sourceChanged =
-    existing.geography?.sha256 !==
-      (config.geography?.contentSha256 || config.geography?.source?.sha256 || null) ||
-    existing.geography?.termsTotal !== terms.length;
+    existing.geography?.sha256 !== fingerprint.sha256 ||
+    existing.geography?.termsTotal !== fingerprint.termsTotal;
   const cycleChanged = existing.cycle !== cycle;
 
-  if (!sourceChanged && !cycleChanged) return existing;
+  if (
+    existing.schemaVersion === DISCOVERY_STATE_SCHEMA_VERSION &&
+    !sourceChanged &&
+    !cycleChanged
+  ) {
+    return {
+      ...fresh,
+      ...existing,
+      geography: fingerprint,
+      activeTerm: existing.activeTerm || null,
+      phase: existing.phase || 'discovery',
+      stats: { ...emptyStats(), ...(existing.stats || {}) },
+      unresolvedShards: existing.unresolvedShards || [],
+      candidates: existing.candidates || [],
+    };
+  }
 
   return {
-    ...existing,
-    cycle,
-    geography: {
-      release: config.geography?.source?.release || null,
-      sha256: config.geography?.contentSha256 || config.geography?.source?.sha256 || null,
-      termsTotal: terms.length,
-    },
-    nextTermIndex: 0,
-    discoveryComplete: false,
-    startedAt: new Date().toISOString(),
-    updatedAt: new Date().toISOString(),
-    completedAt: null,
-    finalizedAt: null,
-    stats: emptyStats(),
-    unresolvedShards: [],
-    // Keep the prior candidate safety pool. A fresh crawl will re-probe
-    // candidates before publishing and can only improve this pool.
+    ...fresh,
     candidates: existing.candidates || [],
   };
+}
+
+export function beginActiveTerm(state, term) {
+  if (state.activeTerm) return state.activeTerm;
+
+  state.activeTerm = {
+    index: state.nextTermIndex,
+    term,
+    queue: [createSearchWorkItem(term)],
+    startedAt: new Date().toISOString(),
+    requests: 0,
+    leafPages: 0,
+    shardExpansions: 0,
+    reportedCount: null,
+  };
+  state.updatedAt = new Date().toISOString();
+  return state.activeTerm;
+}
+
+export function finishActiveTerm(state) {
+  if (!state.activeTerm) return;
+
+  state.stats.termsProcessed += 1;
+  state.nextTermIndex = Math.max(
+    state.nextTermIndex,
+    Number(state.activeTerm.index || 0) + 1,
+  );
+  state.activeTerm = null;
+  state.updatedAt = new Date().toISOString();
 }
 
 export function serializeProbeCandidates(collector) {
@@ -163,21 +195,38 @@ export function accumulateDiscoveryStats(state, collector, summaries) {
   state.stats.rejectedOwnerHits += collector.rejectedOwners.size;
 
   for (const summary of summaries) {
-    state.stats.searchQueries += summary.queriesIssued || 0;
-    state.stats.leafQueries += summary.leafQueries || 0;
-    state.stats.pagesFetched += summary.pagesFetched || 0;
-    state.stats.shardedTerms += summary.sharded ? 1 : 0;
+    state.stats.searchRequests += summary.queriesIssued || 0;
+    state.stats.leafPages += summary.pagesFetched || 0;
+    state.stats.shardExpansions += summary.sharded ? 1 : 0;
 
     for (const unresolved of summary.unresolvedQueries || []) {
-      state.unresolvedShards.push({
+      addUnresolvedShard(state, {
         term: summary.term,
         ...unresolved,
       });
     }
   }
 
-  if (state.unresolvedShards.length > 200) {
-    state.unresolvedShards = state.unresolvedShards.slice(-200);
+  state.updatedAt = new Date().toISOString();
+}
+
+export function addUnresolvedShard(state, unresolved) {
+  const key = `${unresolved.term || ''}\n${unresolved.query || ''}\n${unresolved.reason || ''}`;
+  const existing = new Set(
+    (state.unresolvedShards || []).map(
+      (item) => `${item.term || ''}\n${item.query || ''}\n${item.reason || ''}`,
+    ),
+  );
+
+  if (!existing.has(key)) {
+    state.unresolvedShards.push({
+      ...unresolved,
+      recordedAt: unresolved.recordedAt || new Date().toISOString(),
+    });
+  }
+
+  if (state.unresolvedShards.length > 500) {
+    state.unresolvedShards = state.unresolvedShards.slice(-500);
   }
 
   state.stats.unresolvedShardCount = state.unresolvedShards.length;
@@ -187,6 +236,17 @@ export function accumulateDiscoveryStats(state, collector, summaries) {
 export function candidatePoolThreshold(candidates, poolLimit = DEFAULT_CANDIDATE_POOL_LIMIT) {
   if (!Array.isArray(candidates) || candidates.length < poolLimit) return null;
   return candidates[poolLimit - 1]?.topRepository?.stargazerCount ?? null;
+}
+
+function geographyFingerprint(config, terms) {
+  return {
+    release: config.geography?.source?.release || null,
+    sha256:
+      config.geography?.contentSha256 ||
+      config.geography?.source?.sha256 ||
+      null,
+    termsTotal: terms.length,
+  };
 }
 
 function normalizeCandidate(item) {
@@ -211,13 +271,13 @@ function strongerAttribution(a, b) {
 function emptyStats() {
   return {
     termsProcessed: 0,
-    searchQueries: 0,
-    leafQueries: 0,
-    pagesFetched: 0,
-    shardedTerms: 0,
+    searchRequests: 0,
+    leafPages: 0,
+    shardExpansions: 0,
     rawOwnerHits: 0,
     acceptedOwnerHits: 0,
     rejectedOwnerHits: 0,
     unresolvedShardCount: 0,
+    minimumRateLimitRemaining: null,
   };
 }

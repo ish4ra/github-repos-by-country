@@ -10,16 +10,15 @@ on:
       - 'scripts/discover-global-batch.js'
       - 'src/discovery-state.js'
       - 'src/search-shards.js'
-      - 'src/location.js'
-      - 'src/config.js'
-      - 'geography/**'
+      - 'src/github.js'
+      - 'src/ranking.js'
       - '.github/workflows/global-discovery.yml'
 
 permissions:
   contents: write
 
 concurrency:
-  group: global-discovery
+  group: repository-data-writes
   cancel-in-progress: false
 
 jobs:
@@ -43,8 +42,10 @@ jobs:
       - name: Advance global discovery
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DISCOVERY_TERM_LIMIT: '200'
-          DISCOVERY_CHUNK_SIZE: '20'
+          DISCOVERY_REQUEST_LIMIT: '180'
+          DISCOVERY_PAGE_SIZE: '50'
+          DISCOVERY_RUNTIME_MINUTES: '42'
+          RATE_LIMIT_RESERVE: '120'
           CANDIDATE_POOL_LIMIT: '500'
         run: npm run discover:global
 

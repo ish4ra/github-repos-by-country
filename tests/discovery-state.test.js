@@ -1,7 +1,10 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {
+  beginActiveTerm,
   candidatePoolThreshold,
+  createDiscoveryState,
+  finishActiveTerm,
   mergeCandidatePools,
   prepareDiscoveryState,
 } from '../src/discovery-state.js';
@@ -16,6 +19,18 @@ function candidate(login, stars, terms = []) {
     topRepository: {
       nameWithOwner: `${login}/project`,
       stargazerCount: stars,
+    },
+  };
+}
+
+function config() {
+  return {
+    code: 'LK',
+    name: 'Sri Lanka',
+    slug: 'sri-lanka',
+    geography: {
+      source: { release: 'v1', sha256: 'source-hash' },
+      contentSha256: 'content-hash',
     },
   };
 }
@@ -49,24 +64,48 @@ test('candidate merge deduplicates discovery terms and keeps stronger top reposi
   assert.deepEqual(merged[0].discoveryTerms, ['Colombo', 'Sri Lanka']);
 });
 
-test('new crawl cycle restarts term cursor while retaining safety candidates', () => {
-  const config = {
-    code: 'LK',
-    name: 'Sri Lanka',
-    slug: 'sri-lanka',
-    geography: { source: { release: 'v1', sha256: 'abc' } },
-  };
-  const existing = {
-    schemaVersion: 1,
-    cycle: 1,
-    country: { code: 'LK' },
-    geography: { release: 'v1', sha256: 'abc', termsTotal: 2 },
-    nextTermIndex: 2,
-    candidates: [candidate('a', 50)],
+test('active term preserves resumable shard queue until explicitly finished', () => {
+  const state = createDiscoveryState(config(), ['Sri Lanka', 'Kalutara'], 1);
+  const active = beginActiveTerm(state, 'Sri Lanka');
+
+  active.queue[0].cursor = 'cursor-1';
+  const same = beginActiveTerm(state, 'Sri Lanka');
+  assert.equal(same.queue[0].cursor, 'cursor-1');
+  assert.equal(state.nextTermIndex, 0);
+
+  finishActiveTerm(state);
+  assert.equal(state.nextTermIndex, 1);
+  assert.equal(state.activeTerm, null);
+  assert.equal(state.stats.termsProcessed, 1);
+});
+
+test('same crawl resumes schema-v2 state without resetting shard cursor', () => {
+  const base = createDiscoveryState(config(), ['one', 'two'], 1);
+  beginActiveTerm(base, 'one');
+  base.activeTerm.queue[0].cursor = 'resume-me';
+
+  const resumed = prepareDiscoveryState(base, config(), ['one', 'two'], 1);
+  assert.equal(resumed.activeTerm.queue[0].cursor, 'resume-me');
+  assert.equal(resumed.nextTermIndex, 0);
+});
+
+test('changed geography restarts term cursor while retaining safety candidates', () => {
+  const oldConfig = config();
+  const existing = createDiscoveryState(oldConfig, ['one', 'two'], 1);
+  existing.nextTermIndex = 2;
+  existing.candidates = [candidate('a', 50)];
+
+  const changed = {
+    ...oldConfig,
+    geography: {
+      ...oldConfig.geography,
+      contentSha256: 'new-content-hash',
+    },
   };
 
-  const state = prepareDiscoveryState(existing, config, ['one', 'two'], 2);
+  const state = prepareDiscoveryState(existing, changed, ['one', 'two', 'three'], 1);
   assert.equal(state.nextTermIndex, 0);
-  assert.equal(state.cycle, 2);
+  assert.equal(state.cycle, 1);
   assert.equal(state.candidates.length, 1);
+  assert.equal(state.schemaVersion, 2);
 });

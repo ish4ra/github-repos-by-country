@@ -50,6 +50,11 @@ export function ingestDiscoveryPage(collector, { searchTerm, pageNumber, page })
     current.discoveryTerms.add(searchTerm);
     current.attribution = strongerAttribution(current.attribution, attribution);
 
+    for (const repo of node.repositories?.nodes || []) {
+      if (!repo || repo.isFork) continue;
+      current.repositories.set(repo.nameWithOwner, repo);
+    }
+
     collector.owners.set(node.login, current);
     collector.rejectedOwners.delete(node.login);
   }

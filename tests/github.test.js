@@ -147,3 +147,60 @@ test('GraphQL discovery accepts a prebuilt sharded search query', async () => {
     'location:"Sri Lanka" type:user followers:0..9',
   );
 });
+
+
+test('discovery can include each owner\'s most-starred repository for resumable global crawl', async () => {
+  let capturedBody;
+  const fetchImpl = async (_url, options) => {
+    capturedBody = JSON.parse(options.body);
+    return new Response(
+      JSON.stringify({
+        data: {
+          search: {
+            userCount: 1,
+            pageInfo: { hasNextPage: false, endCursor: null },
+            nodes: [
+              {
+                __typename: 'User',
+                id: 'U_1',
+                login: 'dev',
+                location: 'Sri Lanka',
+                repositories: {
+                  nodes: [
+                    {
+                      name: 'project',
+                      nameWithOwner: 'dev/project',
+                      url: 'https://github.com/dev/project',
+                      description: null,
+                      stargazerCount: 100,
+                      forkCount: 1,
+                      isArchived: false,
+                      isFork: false,
+                      createdAt: '2020-01-01T00:00:00Z',
+                      pushedAt: '2026-01-01T00:00:00Z',
+                      homepageUrl: null,
+                      primaryLanguage: { name: 'JavaScript' },
+                      licenseInfo: null,
+                    },
+                  ],
+                },
+              },
+            ],
+          },
+          rateLimit: { cost: 1, limit: 5000, remaining: 4999, resetAt: '2026-10-03T07:00:00Z' },
+        },
+      }),
+      { status: 200, headers: { 'content-type': 'application/json' } },
+    );
+  };
+
+  const client = new GitHubGraphQLClient({ token: 'test-token', requestDelayMs: 0, fetchImpl });
+  const result = await client.discoverOwnersPage({
+    searchTerm: 'Sri Lanka',
+    first: 50,
+    includeTopRepository: true,
+  });
+
+  assert.equal(capturedBody.variables.includeTopRepository, true);
+  assert.equal(result.nodes[0].repositories.nodes[0].stargazerCount, 100);
+});
