@@ -12,6 +12,7 @@
     "test": "node --test",
     "check": "npm run check:syntax && npm test",
     "generate": "node src/cli.js",
-    "generate:sri-lanka": "node src/cli.js --country LK"
+    "generate:sri-lanka": "node src/cli.js --country LK",
+    "generate:index": "node scripts/generate-country-index.js"
   }
 }

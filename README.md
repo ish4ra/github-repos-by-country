@@ -3,9 +3,9 @@
 Explore the most-starred public GitHub repositories by country with transparent location attribution and reproducible ranking data.
 
 [![CI](https://github.com/ish4ra/github-repos-by-country/actions/workflows/ci.yml/badge.svg)](https://github.com/ish4ra/github-repos-by-country/actions/workflows/ci.yml)
-[![Refresh Sri Lanka](https://github.com/ish4ra/github-repos-by-country/actions/workflows/refresh-sri-lanka.yml/badge.svg)](https://github.com/ish4ra/github-repos-by-country/actions/workflows/refresh-sri-lanka.yml)
+![Countries indexed](https://img.shields.io/badge/countries%20%26%20territories-250-blue)
 
-> **Status:** Experimental. Sri Lanka is the first live country while discovery accuracy is hardened for global rollout.
+> **Status:** Global rollout in progress. Sri Lanka is the first live ranking while the geography and discovery engine is being expanded.
 
 ## Browse rankings
 
@@ -13,53 +13,53 @@ Explore the most-starred public GitHub repositories by country with transparent 
 | --- | --- | --- |
 | 🇱🇰 **Sri Lanka** | [Most starred repositories](rankings/sri-lanka.md) | [JSON](data/LK.json) |
 
-**[Browse all country rankings →](rankings/README.md)**
+### [Browse all 250 countries and territories →](rankings/README.md)
 
-## What you get
-
-Each country page is designed to be easy to scan and includes repository rank, owner, stars, forks, language, owner location, update time, coverage statistics, and direct links to the raw JSON and methodology.
-
-The ranking pipeline:
-
-1. discovers candidate users and organizations from public GitHub location data
-2. normalizes and validates owner locations
-3. probes every accepted owner's most-starred public non-fork repository
-4. expands only owners that can still affect the requested top ranking
-5. ranks repositories by stars, then forks, then repository name
-6. publishes Markdown and JSON automatically through GitHub Actions
+The catalog includes all 249 ISO 3166-1 countries/territories plus Kosovo (`XK`). Countries without generated ranking data are shown as **Queued** instead of being hidden.
 
 ## Accuracy first
 
-GitHub repositories do not have a native country field. Country is inferred from the repository owner's **public GitHub profile location**, so owner discovery and geography normalization matter as much as the ranking itself.
+GitHub repositories do not contain a native country field. Country attribution therefore depends on the repository owner's public GitHub profile location.
 
-This project intentionally does not hide uncertainty:
+The project is being built around these rules:
 
-- ambiguous or conflicting locations are rejected instead of guessed
-- city-only matches are weaker than explicit country matches
-- capped GitHub searches are recorded in generated coverage metadata
-- generated data includes methodology versions and timestamps
-- repository stars/forks come directly from GitHub at generation time
+- do not guess ambiguous locations
+- do not rely on a tiny hand-maintained major-city list
+- do not treat GitHub's capped search results as a complete census
+- keep GitHub-sourced repository statistics separate from inferred geography
+- record methodology versions, timestamps, capped searches, and coverage gaps
 
-The global version is intended to use a **comprehensive geography catalog**, not a short manually curated city list. The target is coverage for recognized countries, cities, towns, districts/regions, aliases, and common spelling variants while still rejecting ambiguous matches.
+The global geography target covers countries, cities, towns, administrative regions, aliases, and common spelling variants. See [Roadmap](docs/ROADMAP.md) and [Methodology](docs/METHODOLOGY.md).
 
-See [Methodology](docs/METHODOLOGY.md) for the current rules.
+## Current ranking pipeline
 
-## Current proof of concept
+The Sri Lanka proof of concept uses a two-stage repository discovery algorithm:
 
-Sri Lanka currently publishes a top-100 repository ranking using a two-stage repository discovery algorithm. Every discovered owner is first queried for only their most-starred repository. Owners whose best repository cannot affect the final top 100 do not require an expensive deep fetch.
+1. discover candidate repository owners from location searches
+2. validate their public locations
+3. probe each accepted owner's most-starred public non-fork repository
+4. calculate the top-100 candidate cutoff
+5. deeply fetch only owners who can still affect the top 100
+6. publish Markdown and JSON
 
-This preserves top-ranking correctness **within the discovered owner set** while keeping GraphQL usage practical.
+This preserves top-ranking correctness within the discovered owner set while keeping GraphQL usage practical.
+
+## Why the global version is broader
+
+The older reference project currently indexes 138 country entries and only a small manually configured set of cities for each country.
+
+This project indexes **250 country/territory regions** from the start and is being designed around comprehensive geography data rather than a fixed list of a few cities.
 
 ## Project structure
 
 ```text
-.github/workflows/         CI and scheduled refresh workflows
-config/countries/          country-specific discovery configuration
+.github/workflows/         CI and data-refresh workflows
+config/countries/          country-specific overrides where required
 data/                      generated machine-readable datasets
-docs/                      methodology documentation
-rankings/                  country index and human-readable rankings
-src/                       discovery, attribution, ranking and output pipeline
-tests/                     Node.js built-in test suite
+docs/                      methodology and roadmap
+rankings/                  global country index and rankings
+src/                       discovery, geography, ranking and output pipeline
+tests/                     automated tests
 ```
 
 ## Run locally
@@ -82,18 +82,17 @@ npm run generate:sri-lanka
 
 Do not commit your token.
 
-## Roadmap
+## Next milestones
 
-- replace limited per-country city lists with comprehensive global geography coverage
-- shard broad GitHub searches so high-value owners are not lost behind search caps
-- add complementary discovery paths to catch owners missed by location search
-- expand repository rankings country by country
-- build an **accurate GitHub users-by-country dataset and rankings** using the same improved geography/discovery layer
-- add historical star growth, trending views, languages, and country comparisons
-- build a unified searchable website for repositories, users, countries, and maps
+- integrate comprehensive global city/town/admin geography data
+- shard capped GitHub searches so owners are not silently missed
+- roll out repository rankings across the full 250-region catalog
+- add complementary repository-first discovery checks
+- build the improved users-by-country ranking engine
+- combine repositories and developers in a searchable website
 
 ## License
 
 Code is licensed under the [MIT License](LICENSE).
 
-Generated data is derived from public GitHub API responses. Any third-party geography dataset added later will retain its own applicable license and attribution requirements.
+Generated ranking data is derived from public GitHub API responses. External geography data will retain its own attribution and license requirements.

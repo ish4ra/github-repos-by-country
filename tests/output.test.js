@@ -46,11 +46,17 @@ test('country ranking renders navigation, summary and visual repository table', 
   assert.match(markdown, /Capped search terms/);
 });
 
-test('rankings index links countries and top repositories', () => {
-  const markdown = renderRankingsIndex([ranking]);
+test('rankings index shows live and queued countries', () => {
+  const markdown = renderRankingsIndex(
+    [ranking],
+    [
+      { code: 'JP', name: 'Japan', slug: 'japan', flag: '🇯🇵' },
+      { code: 'LK', name: 'Sri Lanka', slug: 'sri-lanka', flag: '🇱🇰' },
+    ],
+  );
 
-  assert.match(markdown, /Browse Repository Rankings/);
+  assert.match(markdown, /2 countries and territories indexed/);
+  assert.match(markdown, /Japan.*Queued/);
+  assert.match(markdown, /Sri Lanka.*Live/);
   assert.match(markdown, /sri-lanka\.md/);
-  assert.match(markdown, /owner\/project/);
-  assert.match(markdown, /comprehensive geography catalog/);
 });

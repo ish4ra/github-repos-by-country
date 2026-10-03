@@ -1,6 +1,7 @@
 import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { projectRoot } from './config.js';
+import { COUNTRIES, countryCodeToFlag } from './countries.js';
 
 export async function writeOutputs(ranking) {
   const root = projectRoot();
@@ -98,35 +99,46 @@ export function renderMarkdown(ranking) {
   return lines.join('\n');
 }
 
-export function renderRankingsIndex(summaries) {
+export function renderRankingsIndex(summaries, countries = COUNTRIES) {
+  const summaryByCode = new Map(summaries.map((summary) => [summary.country.code, summary]));
+  const liveCount = summaryByCode.size;
+
   const lines = [
     '# Browse Repository Rankings',
     '',
-    'Country pages are generated from GitHub data and linked here for quick browsing.',
+    `**${countries.length} countries and territories indexed · ${liveCount} ranking${liveCount === 1 ? '' : 's'} live**`,
     '',
-    '> Use your browser\'s **Find** command (`Ctrl+F` / `⌘F`) to jump to a country as the index grows.',
+    'Use your browser\'s **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a country.',
     '',
-    '| Country | Ranking | Repositories | Top repository | Last updated |',
-    '| --- | --- | ---: | --- | --- |',
+    '| Country | ISO | Status | Ranking | Repositories | Last updated |',
+    '| --- | :---: | :---: | --- | ---: | --- |',
   ];
 
-  for (const summary of summaries) {
-    const top = summary.repositories?.[0];
-    const topCell = top ? `[${escapeMarkdown(top.nameWithOwner)}](${top.url})` : '—';
+  for (const country of countries) {
+    const summary = summaryByCode.get(country.code);
+
+    if (!summary) {
+      lines.push(
+        `| ${country.flag} **${escapeMarkdown(country.name)}** | \`${country.code}\` | Queued | — | — | — |`,
+      );
+      continue;
+    }
+
     lines.push(
-      `| ${countryCodeToFlag(summary.country.code)} **${escapeMarkdown(summary.country.name)}** | [Most starred repositories](./${summary.country.slug}.md) | ${formatNumber(summary.coverage.publishedRepositories)} | ${topCell} | ${escapeMarkdown(formatDate(summary.generatedAt))} |`,
+      `| ${country.flag} **${escapeMarkdown(country.name)}** | \`${country.code}\` | **Live** | [Most starred repositories](./${summary.country.slug}.md) | ${formatNumber(summary.coverage.publishedRepositories)} | ${escapeMarkdown(formatDate(summary.generatedAt))} |`,
     );
   }
 
   lines.push(
     '',
-    '## Data',
+    '## Coverage policy',
     '',
-    'Machine-readable country datasets live in [`data/`](../data/).',
+    '- The catalog is broader than the original 138-country project: it includes all 249 ISO 3166-1 country/territory codes plus Kosovo (`XK`).',
+    '- A queued country is indexed but does not yet have a published ranking.',
+    '- Global rollout will use comprehensive geography data rather than a short hand-maintained city list.',
+    '- Search caps and ambiguous locations must be surfaced instead of silently producing a supposedly complete ranking.',
     '',
-    '## Accuracy',
-    '',
-    'A country page is only as complete as owner discovery allows. Search caps, free-form GitHub profile locations, and ambiguous locations are reported rather than hidden. The global rollout will replace small hand-maintained city lists with a comprehensive geography catalog covering recognized countries, cities, towns, districts/regions, aliases, and common spelling variants where attribution can be made safely.',
+    'See [`docs/ROADMAP.md`](../docs/ROADMAP.md) for the global rollout and users-by-country plan.',
     '',
   );
 
@@ -151,12 +163,6 @@ async function readRankingSummaries(dataDir) {
   }
 
   return summaries.sort((a, b) => a.country.name.localeCompare(b.country.name));
-}
-
-function countryCodeToFlag(code) {
-  return String(code || '')
-    .toUpperCase()
-    .replace(/[A-Z]/g, (char) => String.fromCodePoint(127397 + char.charCodeAt(0)));
 }
 
 function formatDate(value) {
