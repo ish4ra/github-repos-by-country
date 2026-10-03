@@ -27,3 +27,15 @@ test('Sri Lanka keeps its proof-of-concept overrides', async () => {
   assert.ok(config.countryAliases.includes('srilanka'));
   assert.equal(config.geographyCoverage, 'generated-global-index+country-overrides');
 });
+
+
+test('common country aliases are available to global discovery config', async () => {
+  const us = await loadCountryConfig('US');
+  const gb = await loadCountryConfig('GB');
+  const ae = await loadCountryConfig('AE');
+
+  assert.ok(us.countryAliases.includes('USA'));
+  assert.ok(us.searchTerms.includes('United States of America'));
+  assert.ok(gb.countryAliases.includes('UK'));
+  assert.ok(ae.countryAliases.includes('UAE'));
+});

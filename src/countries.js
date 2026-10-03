@@ -52,6 +52,35 @@ const NAME_OVERRIDES = new Map([
   ['VN', 'Vietnam'],
 ]);
 
+const COUNTRY_ALIASES = new Map([
+  ['AE', ['UAE', 'U.A.E.']],
+  ['BO', ['Plurinational State of Bolivia']],
+  ['BN', ['Brunei Darussalam']],
+  ['CD', ['Democratic Republic of the Congo', 'DRC', 'D.R.C.']],
+  ['CI', ['Ivory Coast']],
+  ['CV', ['Cape Verde']],
+  ['CZ', ['Czech Republic']],
+  ['FM', ['Federated States of Micronesia']],
+  ['GB', ['UK', 'U.K.', 'Great Britain']],
+  ['IR', ['Islamic Republic of Iran']],
+  ['KP', ['DPRK', 'D.P.R.K.', "Democratic People's Republic of Korea"]],
+  ['KR', ['Republic of Korea', 'ROK', 'R.O.K.']],
+  ['LA', ["Lao People's Democratic Republic", 'Lao PDR']],
+  ['MD', ['Republic of Moldova']],
+  ['MM', ['Burma']],
+  ['PS', ['State of Palestine', 'Palestinian Territories']],
+  ['RU', ['Russian Federation']],
+  ['SZ', ['Swaziland']],
+  ['TL', ['East Timor']],
+  ['TR', ['Turkey', 'Türkiye']],
+  ['TZ', ['United Republic of Tanzania']],
+  ['US', ['USA', 'U.S.A.', 'United States of America']],
+  ['VA', ['Vatican City']],
+  ['VE', ['Bolivarian Republic of Venezuela']],
+  ['VN', ['Viet Nam']],
+  ['XK', ['Republic of Kosovo']],
+]);
+
 const displayNames = new Intl.DisplayNames(['en'], { type: 'region' });
 
 export const COUNTRIES = [
@@ -65,6 +94,7 @@ export const COUNTRIES = [
     ...country,
     slug: slugify(country.name),
     flag: countryCodeToFlag(country.code),
+    aliases: COUNTRY_ALIASES.get(country.code) || [],
   }))
   .sort((a, b) => a.name.localeCompare(b.name));
 

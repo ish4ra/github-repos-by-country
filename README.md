@@ -29,7 +29,7 @@ The project is being built around these rules:
 - keep GitHub-sourced repository statistics separate from inferred geography
 - record methodology versions, timestamps, capped searches, and coverage gaps
 
-The global geography target covers countries, cities, towns, administrative regions, aliases, and common spelling variants. See [Roadmap](docs/ROADMAP.md) and [Methodology](docs/METHODOLOGY.md).
+The global geography index now combines a pinned Countries States Cities Database release with GeoNames enrichment. It covers 250 country/territory regions, more than 150,000 base city/town/district records, and more than 235,000 GeoNames city records, with alternate names retained for attribution. See [Roadmap](docs/ROADMAP.md) and [Methodology](docs/METHODOLOGY.md).
 
 ## Global rollout
 
@@ -90,9 +90,8 @@ Do not commit your token.
 
 ## Next milestones
 
-- integrate comprehensive global city/town/admin geography data
-- shard capped GitHub searches so owners are not silently missed
-- roll out repository rankings across the full 250-region catalog
+- continue the resumable global crawl across the full 250-region catalog
+- audit unresolved shards and geography ambiguities as each country completes
 - add complementary repository-first discovery checks
 - build the improved users-by-country ranking engine
 - combine repositories and developers in a searchable website
