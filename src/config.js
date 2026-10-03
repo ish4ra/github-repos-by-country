@@ -30,6 +30,8 @@ export async function loadCountryConfig(code) {
     countryAliases: [country.name],
     exactCountryAliases: [country.code.toLowerCase()],
     locationTerms: [],
+    curatedLocationTerms: [],
+    ambiguousLocationTerms: [],
     searchTerms: [country.name],
     geographySearchTerms: [],
     geographyCoverage: 'country-name-only',
@@ -38,6 +40,7 @@ export async function loadCountryConfig(code) {
   const geography = await loadGeographyIndex(normalized);
   if (geography) {
     base.locationTerms = mergeUnique(base.locationTerms, geography.attributionTerms || []);
+    base.ambiguousLocationTerms = geography.ambiguousTerms || [];
     base.geographySearchTerms = mergeUnique([], geography.discoveryTerms || []);
     base.geographyCoverage = 'generated-global-index';
     base.geography = {
@@ -60,6 +63,8 @@ export async function loadCountryConfig(code) {
       countryAliases: mergeUnique(base.countryAliases, override.countryAliases || []),
       exactCountryAliases: mergeUnique(base.exactCountryAliases, override.exactCountryAliases || []),
       locationTerms: mergeUnique(base.locationTerms, override.locationTerms || []),
+      curatedLocationTerms: mergeUnique([], override.locationTerms || []),
+      ambiguousLocationTerms: base.ambiguousLocationTerms,
       searchTerms: mergeUnique(base.searchTerms, override.searchTerms || []),
       geographySearchTerms: base.geographySearchTerms,
       geographyCoverage: geography ? 'generated-global-index+country-overrides' : 'curated-poc',
@@ -67,7 +72,7 @@ export async function loadCountryConfig(code) {
   }
 
   validateCountryConfig(config);
-  return config;
+  return prepareLookups(config);
 }
 
 async function loadGeographyIndex(code) {
@@ -82,6 +87,26 @@ async function loadGeographyIndex(code) {
     if (error?.code === 'ENOENT') return null;
     throw error;
   }
+}
+
+function prepareLookups(config) {
+  return {
+    ...config,
+    locationTermLookup: new Set(config.locationTerms.map(canonicalize)),
+    ambiguousLocationTermLookup: new Set(config.ambiguousLocationTerms.map(canonicalize)),
+    curatedLocationTerms: config.curatedLocationTerms || [],
+  };
+}
+
+function canonicalize(value) {
+  return String(value || '')
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/&/g, ' and ')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
 }
 
 function mergeUnique(first, second) {
@@ -103,7 +128,12 @@ function validateCountryConfig(config) {
     }
   }
 
-  for (const key of ['locationTerms', 'geographySearchTerms']) {
+  for (const key of [
+    'locationTerms',
+    'curatedLocationTerms',
+    'ambiguousLocationTerms',
+    'geographySearchTerms',
+  ]) {
     if (!Array.isArray(config[key])) {
       throw new Error(`Invalid country config: ${key} must be an array`);
     }

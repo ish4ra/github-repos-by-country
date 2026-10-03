@@ -122,13 +122,36 @@ export function attributeLocation(location, config) {
     };
   }
 
-  for (const term of config.locationTerms) {
+  for (const candidate of locationCandidates(raw)) {
+    if (config.ambiguousLocationTermLookup?.has(candidate)) {
+      return {
+        accepted: false,
+        confidence: 'ambiguous',
+        evidence: 'ambiguous-place',
+        matched: candidate,
+      };
+    }
+
+    if (config.locationTermLookup?.has(candidate)) {
+      return {
+        accepted: true,
+        countryCode: config.code,
+        confidence: 'medium',
+        evidence: 'recognized-place',
+        matched: candidate,
+      };
+    }
+  }
+
+  // Country-specific hand-curated terms are intentionally allowed as
+  // substring evidence for backward compatibility with known local cases.
+  for (const term of config.curatedLocationTerms || []) {
     if (containsPhrase(normalized, term)) {
       return {
         accepted: true,
         countryCode: config.code,
         confidence: 'medium',
-        evidence: 'recognized-location',
+        evidence: 'curated-location',
         matched: term,
       };
     }
@@ -144,4 +167,16 @@ export function attributeLocation(location, config) {
 
 export function normalizeLocationForComparison(value) {
   return canonicalize(value);
+}
+
+function locationCandidates(value) {
+  const raw = String(value || '');
+  const candidates = new Set([canonicalize(raw)]);
+
+  for (const part of raw.split(/[,/|;]+/)) {
+    const normalized = canonicalize(part);
+    if (normalized) candidates.add(normalized);
+  }
+
+  return [...candidates].filter(Boolean);
 }

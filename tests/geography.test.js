@@ -1,6 +1,10 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { buildCountryGeographyIndexes, extractNameVariants } from '../src/geography-source.js';
+import {
+  buildCountryGeographyIndexes,
+  extractNameVariants,
+  normalizeGeographyTerm,
+} from '../src/geography-source.js';
 
 const catalog = [
   { code: 'LK', name: 'Sri Lanka', slug: 'sri-lanka' },
@@ -53,6 +57,19 @@ test('geography builder extracts states and cities per country', () => {
   assert.ok(lk.discoveryTerms.includes('Kalutara'));
   assert.ok(lk.discoveryTerms.includes('Western Province'));
 
-  const br = indexes.get('BR');
-  assert.ok(br.discoveryTerms.includes('Colombo'));
+  const normalizedColombo = normalizeGeographyTerm('Colombo');
+  assert.ok(lk.ambiguousTerms.includes(normalizedColombo));
+  assert.ok(indexes.get('BR').ambiguousTerms.includes(normalizedColombo));
+});
+
+test('country-unique city names are not marked ambiguous', () => {
+  const indexes = buildCountryGeographyIndexes(
+    [
+      { iso2: 'LK', name: 'Sri Lanka', states: [{ name: 'Western', cities: [{ name: 'Kalutara' }] }] },
+      { iso2: 'BR', name: 'Brazil', states: [{ name: 'Paraná', cities: [{ name: 'Curitiba' }] }] },
+    ],
+    catalog,
+  );
+
+  assert.ok(!indexes.get('LK').ambiguousTerms.includes('kalutara'));
 });

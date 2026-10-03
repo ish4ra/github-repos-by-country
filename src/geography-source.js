@@ -124,6 +124,29 @@ export function buildCountryGeographyIndexes(dataset, catalog) {
     });
   }
 
+  const countriesByTerm = new Map();
+  for (const [code, index] of indexes) {
+    for (const term of index.discoveryTerms) {
+      const normalized = normalizeGeographyTerm(term);
+      if (!normalized) continue;
+      const codes = countriesByTerm.get(normalized) || new Set();
+      codes.add(code);
+      countriesByTerm.set(normalized, codes);
+    }
+  }
+
+  for (const [code, index] of indexes) {
+    const ambiguous = new Set();
+    for (const term of index.discoveryTerms) {
+      const normalized = normalizeGeographyTerm(term);
+      const codes = countriesByTerm.get(normalized);
+      if (codes?.size > 1 && codes.has(code)) ambiguous.add(normalized);
+    }
+
+    index.ambiguousTerms = [...ambiguous].sort();
+    index.counts.ambiguousTerms = index.ambiguousTerms.length;
+  }
+
   return indexes;
 }
 
@@ -180,4 +203,16 @@ function sortTerms(values) {
 function normalizeCode(value) {
   const code = String(value || '').trim().toUpperCase();
   return /^[A-Z]{2}$/.test(code) ? code : null;
+}
+
+
+export function normalizeGeographyTerm(value) {
+  return String(value || '')
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/&/g, ' and ')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
 }

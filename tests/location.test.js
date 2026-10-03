@@ -13,11 +13,10 @@ test('explicit Sri Lanka country name is high confidence', () => {
   assert.equal(result.evidence, 'explicit-country');
 });
 
-test('known Sri Lankan city without country is medium confidence', () => {
+test('known Sri Lankan city without country is accepted when unambiguous or curated', () => {
   const result = attributeLocation('Kalutara', config);
   assert.equal(result.accepted, true);
   assert.equal(result.confidence, 'medium');
-  assert.equal(result.evidence, 'recognized-location');
 });
 
 test('country code suffix is accepted', () => {
@@ -43,6 +42,18 @@ test('multiple explicit countries are treated as ambiguous', () => {
   assert.equal(result.accepted, false);
   assert.equal(result.confidence, 'ambiguous');
   assert.equal(result.evidence, 'multiple-countries');
+});
+
+test('generated ambiguous city-only terms are rejected', () => {
+  const custom = {
+    ...config,
+    ambiguousLocationTermLookup: new Set(['colombo']),
+    locationTermLookup: new Set(['colombo']),
+    curatedLocationTerms: [],
+  };
+  const result = attributeLocation('Colombo', custom);
+  assert.equal(result.accepted, false);
+  assert.equal(result.evidence, 'ambiguous-place');
 });
 
 test('location normalization is deterministic', () => {
