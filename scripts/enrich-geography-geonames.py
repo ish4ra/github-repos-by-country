@@ -31,7 +31,8 @@ def normalize(value: str) -> str:
         ch for ch in decomposed
         if not (0x0300 <= ord(ch) <= 0x036F)
     )
-    lowered = without_marks.lower().replace("&", " and ")
+    recomposed = unicodedata.normalize("NFC", without_marks)
+    lowered = recomposed.lower().replace("&", " and ")
     chars = [
         ch if (ch.isalnum() or unicodedata.category(ch).startswith("M")) else " "
         for ch in lowered

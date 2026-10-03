@@ -212,6 +212,7 @@ export function normalizeGeographyTerm(value) {
   return String(value || '')
     .normalize('NFKD')
     .replace(/[\u0300-\u036f]/g, '')
+    .normalize('NFC')
     .toLowerCase()
     .replace(/&/g, ' and ')
     .replace(/[^\p{L}\p{N}\p{M}]+/gu, ' ')
