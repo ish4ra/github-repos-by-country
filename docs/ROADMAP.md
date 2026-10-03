@@ -33,7 +33,8 @@ The global discovery design must:
 5. use complementary discovery paths so a high-star repository is not lost merely because its owner has few followers
 6. expose unresolved coverage gaps in generated metadata
 7. process the 146k+ generated geography discovery terms incrementally with persistent per-country progress
-8. retain a safety pool of high-potential owners and re-probe it before publishing each completed country\n9. checkpoint the active search shard and pagination cursor so a large location query can resume without restarting
+8. retain a safety pool of high-potential owners and re-probe it before publishing each completed country
+9. checkpoint the active search shard and pagination cursor so a large location query can resume without restarting
 
 ## Repository rankings
 
