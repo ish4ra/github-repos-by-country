@@ -1,0 +1,3841 @@
+{
+  "schemaVersion": 1,
+  "methodologyVersion": "0.2.0-poc",
+  "generatedAt": "2026-10-03T05:02:46.246Z",
+  "country": {
+    "code": "LK",
+    "name": "Sri Lanka",
+    "slug": "sri-lanka"
+  },
+  "source": {
+    "provider": "GitHub GraphQL API",
+    "endpoint": "https://api.github.com/graphql",
+    "countryBasis": "public owner profile location"
+  },
+  "coverage": {
+    "status": "experimental",
+    "exhaustive": false,
+    "rawOwnerHits": 12947,
+    "acceptedUniqueOwners": 11184,
+    "rejectedUniqueOwners": 17,
+    "candidateOwners": 100,
+    "candidateThresholdStars": 103,
+    "repositoriesConsidered": 13515,
+    "publishedRepositories": 100,
+    "candidateRepositoriesPerOwner": 100,
+    "probeBatchesFetched": 224,
+    "candidateBatchesFetched": 20,
+    "rankingLimit": 100,
+    "searchQueries": [
+      {
+        "term": "Sri Lanka",
+        "searchQuery": "location:\"Sri Lanka\"",
+        "reportedCount": 33897,
+        "pagesFetched": 10,
+        "capped": true
+      },
+      {
+        "term": "Srilanka",
+        "searchQuery": "location:\"Srilanka\"",
+        "reportedCount": 3312,
+        "pagesFetched": 10,
+        "capped": true
+      },
+      {
+        "term": "Lanka",
+        "searchQuery": "location:\"Lanka\"",
+        "reportedCount": 33994,
+        "pagesFetched": 10,
+        "capped": true
+      },
+      {
+        "term": "Colombo",
+        "searchQuery": "location:\"Colombo\"",
+        "reportedCount": 12538,
+        "pagesFetched": 10,
+        "capped": true
+      },
+      {
+        "term": "Gampaha",
+        "searchQuery": "location:\"Gampaha\"",
+        "reportedCount": 932,
+        "pagesFetched": 10,
+        "capped": false
+      },
+      {
+        "term": "Kalutara",
+        "searchQuery": "location:\"Kalutara\"",
+        "reportedCount": 383,
+        "pagesFetched": 4,
+        "capped": false
+      },
+      {
+        "term": "Kandy",
+        "searchQuery": "location:\"Kandy\"",
+        "reportedCount": 1693,
+        "pagesFetched": 10,
+        "capped": true
+      },
+      {
+        "term": "Matale",
+        "searchQuery": "location:\"Matale\"",
+        "reportedCount": 181,
+        "pagesFetched": 2,
+        "capped": false
+      },
+      {
+        "term": "Nuwara Eliya",
+        "searchQuery": "location:\"Nuwara Eliya\"",
+        "reportedCount": 36,
+        "pagesFetched": 1,
+        "capped": false
+      },
+      {
+        "term": "Galle",
+        "searchQuery": "location:\"Galle\"",
+        "reportedCount": 1553,
+        "pagesFetched": 10,
+        "capped": true
+      },
+      {
+        "term": "Matara",
+        "searchQuery": "location:\"Matara\"",
+        "reportedCount": 983,
+        "pagesFetched": 10,
+        "capped": false
+      },
+      {
+        "term": "Hambantota",
+        "searchQuery": "location:\"Hambantota\"",
+        "reportedCount": 47,
+        "pagesFetched": 1,
+        "capped": false
+      },
+      {
+        "term": "Jaffna",
+        "searchQuery": "location:\"Jaffna\"",
+        "reportedCount": 746,
+        "pagesFetched": 8,
+        "capped": false
+      },
+      {
+        "term": "Kilinochchi",
+        "searchQuery": "location:\"Kilinochchi\"",
+        "reportedCount": 68,
+        "pagesFetched": 1,
+        "capped": false
+      },
+      {
+        "term": "Mannar",
+        "searchQuery": "location:\"Mannar\"",
+        "reportedCount": 52,
+        "pagesFetched": 1,
+        "capped": false
+      },
+      {
+        "term": "Mullaitivu",
+        "searchQuery": "location:\"Mullaitivu\"",
+        "reportedCount": 19,
+        "pagesFetched": 1,
+        "capped": false
+      },
+      {
+        "term": "Vavuniya",
+        "searchQuery": "location:\"Vavuniya\"",
+        "reportedCount": 110,
+        "pagesFetched": 2,
+        "capped": false
+      },
+      {
+        "term": "Puttalam",
+        "searchQuery": "location:\"Puttalam\"",
+        "reportedCount": 78,
+        "pagesFetched": 1,
+        "capped": false
+      },
+      {
+        "term": "Kurunegala",
+        "searchQuery": "location:\"Kurunegala\"",
+        "reportedCount": 712,
+        "pagesFetched": 8,
+        "capped": false
+      },
+      {
+        "term": "Anuradhapura",
+        "searchQuery": "location:\"Anuradhapura\"",
+        "reportedCount": 262,
+        "pagesFetched": 3,
+        "capped": false
+      },
+      {
+        "term": "Polonnaruwa",
+        "searchQuery": "location:\"Polonnaruwa\"",
+        "reportedCount": 69,
+        "pagesFetched": 1,
+        "capped": false
+      },
+      {
+        "term": "Badulla",
+        "searchQuery": "location:\"Badulla\"",
+        "reportedCount": 231,
+        "pagesFetched": 3,
+        "capped": false
+      },
+      {
+        "term": "Monaragala",
+        "searchQuery": "location:\"Monaragala\"",
+        "reportedCount": 65,
+        "pagesFetched": 1,
+        "capped": false
+      },
+      {
+        "term": "Ratnapura",
+        "searchQuery": "location:\"Ratnapura\"",
+        "reportedCount": 169,
+        "pagesFetched": 2,
+        "capped": false
+      },
+      {
+        "term": "Kegalle",
+        "searchQuery": "location:\"Kegalle\"",
+        "reportedCount": 306,
+        "pagesFetched": 4,
+        "capped": false
+      },
+      {
+        "term": "Trincomalee",
+        "searchQuery": "location:\"Trincomalee\"",
+        "reportedCount": 132,
+        "pagesFetched": 2,
+        "capped": false
+      },
+      {
+        "term": "Batticaloa",
+        "searchQuery": "location:\"Batticaloa\"",
+        "reportedCount": 189,
+        "pagesFetched": 2,
+        "capped": false
+      },
+      {
+        "term": "Ampara",
+        "searchQuery": "location:\"Ampara\"",
+        "reportedCount": 88,
+        "pagesFetched": 1,
+        "capped": false
+      },
+      {
+        "term": "Negombo",
+        "searchQuery": "location:\"Negombo\"",
+        "reportedCount": 285,
+        "pagesFetched": 3,
+        "capped": false
+      },
+      {
+        "term": "Moratuwa",
+        "searchQuery": "location:\"Moratuwa\"",
+        "reportedCount": 418,
+        "pagesFetched": 5,
+        "capped": false
+      },
+      {
+        "term": "Panadura",
+        "searchQuery": "location:\"Panadura\"",
+        "reportedCount": 369,
+        "pagesFetched": 4,
+        "capped": false
+      },
+      {
+        "term": "Sri Jayawardenepura Kotte",
+        "searchQuery": "location:\"Sri Jayawardenepura Kotte\"",
+        "reportedCount": 17,
+        "pagesFetched": 1,
+        "capped": false
+      }
+    ],
+    "cappedQueries": [
+      "Sri Lanka",
+      "Srilanka",
+      "Lanka",
+      "Colombo",
+      "Kandy",
+      "Galle"
+    ],
+    "notes": [
+      "GitHub repositories do not expose a native country field; country is inferred from the public location of the repository owner.",
+      "GitHub search can cap accessible results for broad queries, so this proof of concept does not claim exhaustive national owner discovery.",
+      "Every discovered owner is first probed for their single most-starred public non-fork repository.",
+      "Only owners whose top repository can still affect the published ranking are expanded in the candidate pass.",
+      "Candidate owners are expanded to at most 100 public non-fork repositories, matching the ranking limit.",
+      "Owners with missing, ambiguous, or unrecognized public locations are excluded instead of being guessed."
+    ]
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "neutralinojs",
+      "nameWithOwner": "neutralinojs/neutralinojs",
+      "url": "https://github.com/neutralinojs/neutralinojs",
+      "description": "Portable and lightweight cross-platform desktop application development framework",
+      "stars": 8661,
+      "forks": 548,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2018-06-23T03:30:41Z",
+      "pushedAt": "2026-10-03T00:40:45Z",
+      "homepageUrl": "https://neutralino.js.org",
+      "archived": false,
+      "owner": {
+        "login": "neutralinojs",
+        "name": "Neutralinojs",
+        "type": "Organization",
+        "url": "https://github.com/neutralinojs",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "name": "linux-wifi-hotspot",
+      "nameWithOwner": "lakinduakash/linux-wifi-hotspot",
+      "url": "https://github.com/lakinduakash/linux-wifi-hotspot",
+      "description": "Feature-rich wifi hotspot creator for Linux which provides both GUI and command-line interface. It is also able to create a hotspot using the same wifi card which is connected to an AP already ( Similar to Windows 10). ",
+      "stars": 4410,
+      "forks": 391,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "spdxId": "BSD-2-Clause"
+      },
+      "createdAt": "2019-02-28T15:09:58Z",
+      "pushedAt": "2026-09-17T05:15:12Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "lakinduakash",
+        "name": "Lakindu Akash",
+        "type": "User",
+        "url": "https://github.com/lakinduakash",
+        "location": "Colombo,Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Colombo",
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "name": "solution-architecture-patterns",
+      "nameWithOwner": "chanakaudaya/solution-architecture-patterns",
+      "url": "https://github.com/chanakaudaya/solution-architecture-patterns",
+      "description": "Reusable, vendor-neutral, industry-specific, vendor-specific solution architecture patterns for enterprise ",
+      "stars": 3473,
+      "forks": 675,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Creative Commons Attribution 4.0 International",
+        "spdxId": "CC-BY-4.0"
+      },
+      "createdAt": "2019-04-05T15:27:50Z",
+      "pushedAt": "2023-04-17T05:29:49Z",
+      "homepageUrl": "https://chanakaudaya.github.io/solution-architecture-patterns/",
+      "archived": false,
+      "owner": {
+        "login": "chanakaudaya",
+        "name": "Chanaka Fernando",
+        "type": "User",
+        "url": "https://github.com/chanakaudaya",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "name": "worklenz",
+      "nameWithOwner": "Worklenz/worklenz",
+      "url": "https://github.com/Worklenz/worklenz",
+      "description": "All in one project management tool for efficient teams",
+      "stars": 3196,
+      "forks": 373,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2024-05-16T05:51:01Z",
+      "pushedAt": "2026-09-29T06:50:27Z",
+      "homepageUrl": "https://worklenz.com",
+      "archived": false,
+      "owner": {
+        "login": "Worklenz",
+        "name": "Worklenz",
+        "type": "Organization",
+        "url": "https://github.com/Worklenz",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "name": "essentials",
+      "nameWithOwner": "sameerasw/essentials",
+      "url": "https://github.com/sameerasw/essentials",
+      "description": "Essential tools and mods for Android nerds",
+      "stars": 3188,
+      "forks": 84,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-12-04T10:51:08Z",
+      "pushedAt": "2026-10-03T04:28:42Z",
+      "homepageUrl": "https://sameerasw.com/essentials",
+      "archived": false,
+      "owner": {
+        "login": "sameerasw",
+        "name": "sameerasw.com",
+        "type": "User",
+        "url": "https://github.com/sameerasw",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 6,
+      "name": "ReBarUEFI",
+      "nameWithOwner": "xCuri0/ReBarUEFI",
+      "url": "https://github.com/xCuri0/ReBarUEFI",
+      "description": "Resizable BAR for (almost) any UEFI system",
+      "stars": 2541,
+      "forks": 118,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-07-12T07:21:39Z",
+      "pushedAt": "2025-12-01T18:05:18Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "xCuri0",
+        "name": "Curi0",
+        "type": "User",
+        "url": "https://github.com/xCuri0",
+        "location": "Colombo, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Colombo",
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 7,
+      "name": "Droidspaces-OSS",
+      "nameWithOwner": "ravindu644/Droidspaces-OSS",
+      "url": "https://github.com/ravindu644/Droidspaces-OSS",
+      "description": "A lightweight, LXC-like container runtime for Android and Linux. Run full Linux distributions natively with zero performance penalty",
+      "stars": 2263,
+      "forks": 218,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2026-02-18T13:42:14Z",
+      "pushedAt": "2026-10-01T06:50:35Z",
+      "homepageUrl": "https://www.droidspaces.org",
+      "archived": false,
+      "owner": {
+        "login": "ravindu644",
+        "name": "Ravindu Deshan",
+        "type": "User",
+        "url": "https://github.com/ravindu644",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 8,
+      "name": "meteor-up-legacy",
+      "nameWithOwner": "arunoda/meteor-up-legacy",
+      "url": "https://github.com/arunoda/meteor-up-legacy",
+      "description": "Production Quality Meteor Deployments",
+      "stars": 2234,
+      "forks": 381,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-11-22T10:05:50Z",
+      "pushedAt": "2017-02-03T10:39:09Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "arunoda",
+        "name": "Arunoda Susiripala",
+        "type": "User",
+        "url": "https://github.com/arunoda",
+        "location": "Colombo, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Colombo",
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 9,
+      "name": "vue-toasted",
+      "nameWithOwner": "shakee93/vue-toasted",
+      "url": "https://github.com/shakee93/vue-toasted",
+      "description": "🖖 Responsive Touch Compatible Toast plugin for VueJS 2+",
+      "stars": 2193,
+      "forks": 185,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-03-02T16:51:13Z",
+      "pushedAt": "2023-05-30T14:19:57Z",
+      "homepageUrl": "https://shakee93.github.io/vue-toasted/",
+      "archived": false,
+      "owner": {
+        "login": "shakee93",
+        "name": "Shakeeb Sadikeen",
+        "type": "User",
+        "url": "https://github.com/shakee93",
+        "location": "Colombo, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Colombo",
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 10,
+      "name": "knowledge_gpt",
+      "nameWithOwner": "mmz-001/knowledge_gpt",
+      "url": "https://github.com/mmz-001/knowledge_gpt",
+      "description": "Accurate answers and instant citations for your documents.",
+      "stars": 1628,
+      "forks": 780,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-01-31T06:17:33Z",
+      "pushedAt": "2024-05-29T21:23:51Z",
+      "homepageUrl": "https://knowledgegpt.streamlit.app/",
+      "archived": true,
+      "owner": {
+        "login": "mmz-001",
+        "name": "Sasmitha",
+        "type": "User",
+        "url": "https://github.com/mmz-001",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 11,
+      "name": "Nora",
+      "nameWithOwner": "Sandakan/Nora",
+      "url": "https://github.com/Sandakan/Nora",
+      "description": "An elegant music player built using Electron and React. Inspired from Oto Music for Android by Piyush Mamidwar.",
+      "stars": 1239,
+      "forks": 59,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-03-11T02:08:39Z",
+      "pushedAt": "2026-10-02T12:52:37Z",
+      "homepageUrl": "https://noramusic.netlify.app",
+      "archived": false,
+      "owner": {
+        "login": "Sandakan",
+        "name": "Sandakan Nipunajith",
+        "type": "User",
+        "url": "https://github.com/Sandakan",
+        "location": "Colombo, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Colombo",
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 12,
+      "name": "Drift",
+      "nameWithOwner": "CutWire-Studios/Drift",
+      "url": "https://github.com/CutWire-Studios/Drift",
+      "description": "Drift is a free, open-source, beginner-friendly desktop video editor built with Qt 6 and FFmpeg.",
+      "stars": 977,
+      "forks": 118,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2026-07-07T11:08:57Z",
+      "pushedAt": "2026-10-02T16:14:03Z",
+      "homepageUrl": "https://cutwire.org/drift",
+      "archived": false,
+      "owner": {
+        "login": "CutWire-Studios",
+        "name": "Cutwire Studios",
+        "type": "Organization",
+        "url": "https://github.com/CutWire-Studios",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 13,
+      "name": "MediaFusion",
+      "nameWithOwner": "mhdzumair/MediaFusion",
+      "url": "https://github.com/mhdzumair/MediaFusion",
+      "description": "The ultimate open-source streaming platform",
+      "stars": 952,
+      "forks": 138,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-09-16T11:45:46Z",
+      "pushedAt": "2026-09-09T01:57:06Z",
+      "homepageUrl": "https://mhdzumair.github.io/MediaFusion/docs",
+      "archived": false,
+      "owner": {
+        "login": "mhdzumair",
+        "name": "Mohamed Zumair",
+        "type": "User",
+        "url": "https://github.com/mhdzumair",
+        "location": "Sri lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 14,
+      "name": "monkey-dl",
+      "nameWithOwner": "Oshan96/monkey-dl",
+      "url": "https://github.com/Oshan96/monkey-dl",
+      "description": "Bulk download your favourite anime episodes from your favourite anime websites",
+      "stars": 905,
+      "forks": 81,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-02-21T16:02:48Z",
+      "pushedAt": "2023-05-22T23:20:38Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Oshan96",
+        "name": "Oshan Mendis",
+        "type": "User",
+        "url": "https://github.com/Oshan96",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 15,
+      "name": "folder-icons",
+      "nameWithOwner": "sameerasw/folder-icons",
+      "url": "https://github.com/sameerasw/folder-icons",
+      "description": "Folder icons I made in Windows 11 style.",
+      "stars": 877,
+      "forks": 48,
+      "primaryLanguage": "Python",
+      "license": null,
+      "createdAt": "2022-08-22T14:32:30Z",
+      "pushedAt": "2026-09-12T06:58:53Z",
+      "homepageUrl": "https://www.sameerasw.com/icons/categories",
+      "archived": false,
+      "owner": {
+        "login": "sameerasw",
+        "name": "sameerasw.com",
+        "type": "User",
+        "url": "https://github.com/sameerasw",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 16,
+      "name": "airsync-mac",
+      "nameWithOwner": "sameerasw/airsync-mac",
+      "url": "https://github.com/sameerasw/airsync-mac",
+      "description": "AirSync macOS - Bring the forbidden macOS continuity to Android",
+      "stars": 853,
+      "forks": 79,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2025-07-27T00:01:46Z",
+      "pushedAt": "2026-09-25T18:31:11Z",
+      "homepageUrl": "https://sameerasw.com/airsync",
+      "archived": false,
+      "owner": {
+        "login": "sameerasw",
+        "name": "sameerasw.com",
+        "type": "User",
+        "url": "https://github.com/sameerasw",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 17,
+      "name": "mediaflow-proxy",
+      "nameWithOwner": "mhdzumair/mediaflow-proxy",
+      "url": "https://github.com/mhdzumair/mediaflow-proxy",
+      "description": "A high-performance proxy server for streaming media, supporting HTTP(S), HLS, and MPEG-DASH with real-time DRM decryption, acestream, xtreamcode proxy",
+      "stars": 802,
+      "forks": 525,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2024-08-24T16:43:33Z",
+      "pushedAt": "2026-09-06T00:15:13Z",
+      "homepageUrl": "https://mhdzumair.github.io/mediaflow-proxy/",
+      "archived": false,
+      "owner": {
+        "login": "mhdzumair",
+        "name": "Mohamed Zumair",
+        "type": "User",
+        "url": "https://github.com/mhdzumair",
+        "location": "Sri lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 18,
+      "name": "abc",
+      "nameWithOwner": "nbbb15092/abc",
+      "url": "https://github.com/nbbb15092/abc",
+      "description": null,
+      "stars": 779,
+      "forks": 4038,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2025-04-10T15:38:10Z",
+      "pushedAt": "2026-09-08T17:21:34Z",
+      "homepageUrl": "asitha.top",
+      "archived": false,
+      "owner": {
+        "login": "nbbb15092",
+        "name": "Mr Asitha 🔥",
+        "type": "User",
+        "url": "https://github.com/nbbb15092",
+        "location": "Kurunegala, Sri Lanka 🇱🇰",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Kurunegala",
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 19,
+      "name": "Android-Kernel-Tutorials",
+      "nameWithOwner": "ravindu644/Android-Kernel-Tutorials",
+      "url": "https://github.com/ravindu644/Android-Kernel-Tutorials",
+      "description": "Kernel building tutorials for Any device for newbies..! 🎉",
+      "stars": 737,
+      "forks": 132,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2024-01-20T05:41:44Z",
+      "pushedAt": "2026-08-22T13:57:58Z",
+      "homepageUrl": "https://t.me/SamsungTweaks",
+      "archived": false,
+      "owner": {
+        "login": "ravindu644",
+        "name": "Ravindu Deshan",
+        "type": "User",
+        "url": "https://github.com/ravindu644",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 20,
+      "name": "icehrm",
+      "nameWithOwner": "gamonoid/icehrm",
+      "url": "https://github.com/gamonoid/icehrm",
+      "description": "Manage your employees easily with a robust and efficient Human Resource Management System",
+      "stars": 729,
+      "forks": 429,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2015-10-10T14:30:32Z",
+      "pushedAt": "2026-10-01T10:40:38Z",
+      "homepageUrl": "http://icehrm.com",
+      "archived": false,
+      "owner": {
+        "login": "gamonoid",
+        "name": "Gamonoid",
+        "type": "User",
+        "url": "https://github.com/gamonoid",
+        "location": "Colombo, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Colombo",
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 21,
+      "name": "vue-file-agent",
+      "nameWithOwner": "safrazik/vue-file-agent",
+      "url": "https://github.com/safrazik/vue-file-agent",
+      "description": "The most beautiful and full featured file upload component for Vue JS",
+      "stars": 725,
+      "forks": 87,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-08-11T04:40:40Z",
+      "pushedAt": "2023-10-23T18:33:54Z",
+      "homepageUrl": "https://safrazik.github.io/vue-file-agent/",
+      "archived": false,
+      "owner": {
+        "login": "safrazik",
+        "name": "Safraz Razik",
+        "type": "User",
+        "url": "https://github.com/safrazik",
+        "location": "Puttalam, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Puttalam"
+        ]
+      }
+    },
+    {
+      "rank": 22,
+      "name": "react-komposer",
+      "nameWithOwner": "arunoda/react-komposer",
+      "url": "https://github.com/arunoda/react-komposer",
+      "description": "Feed data into React components by composing containers. ",
+      "stars": 723,
+      "forks": 69,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-12-30T18:08:41Z",
+      "pushedAt": "2018-04-02T10:01:30Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "arunoda",
+        "name": "Arunoda Susiripala",
+        "type": "User",
+        "url": "https://github.com/arunoda",
+        "location": "Colombo, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Colombo",
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 23,
+      "name": "spicetify-bloom",
+      "nameWithOwner": "nimsandu/spicetify-bloom",
+      "url": "https://github.com/nimsandu/spicetify-bloom",
+      "description": "Spicetify theme inspired by Microsoft's Fluent Design, Always up-to-date!, A Powerful Theme to Calm your Eyes While Listening to Your Favorite Beats",
+      "stars": 682,
+      "forks": 54,
+      "primaryLanguage": "CSS",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-04-03T09:48:36Z",
+      "pushedAt": "2025-05-20T12:27:50Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "nimsandu",
+        "name": "Nimsandu Kottage",
+        "type": "User",
+        "url": "https://github.com/nimsandu",
+        "location": "Sri lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 24,
+      "name": "whatsapp-desktop-dark",
+      "nameWithOwner": "m4heshd/whatsapp-desktop-dark",
+      "url": "https://github.com/m4heshd/whatsapp-desktop-dark",
+      "description": "Dark mode for WhatsApp desktop official version (Windows & macOS)",
+      "stars": 617,
+      "forks": 72,
+      "primaryLanguage": "CSS",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2019-08-22T14:42:02Z",
+      "pushedAt": "2022-12-11T22:48:11Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "m4heshd",
+        "name": "Mahesh Bandara Wijerathna",
+        "type": "User",
+        "url": "https://github.com/m4heshd",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 25,
+      "name": "ntfsmac",
+      "nameWithOwner": "khr898/ntfsmac",
+      "url": "https://github.com/khr898/ntfsmac",
+      "description": "NTFS read/write on Apple Silicon macOS — no kernel extension, no SIP modification.",
+      "stars": 604,
+      "forks": 22,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-07-13T18:34:29Z",
+      "pushedAt": "2026-09-15T19:17:22Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "khr898",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/khr898",
+        "location": "Matara, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Matara"
+        ]
+      }
+    },
+    {
+      "rank": 26,
+      "name": "Github-for-beginners",
+      "nameWithOwner": "nisalgunawardhana/Github-for-beginners",
+      "url": "https://github.com/nisalgunawardhana/Github-for-beginners",
+      "description": "Welcome to the GitHub for Beginners practice repository! This repo is designed to help you learn and practice essential GitHub workflows including forking, cloning, branching, committing, pushing, and creating pull requests.",
+      "stars": 582,
+      "forks": 1031,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2025-07-20T05:22:49Z",
+      "pushedAt": "2026-09-27T09:00:17Z",
+      "homepageUrl": "https://nisalgunawardhana.co",
+      "archived": false,
+      "owner": {
+        "login": "nisalgunawardhana",
+        "name": "Nisal Gunawardhana",
+        "type": "User",
+        "url": "https://github.com/nisalgunawardhana",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 27,
+      "name": "simplelb",
+      "nameWithOwner": "kasvith/simplelb",
+      "url": "https://github.com/kasvith/simplelb",
+      "description": "World's most dumbest Load Balancer",
+      "stars": 553,
+      "forks": 107,
+      "primaryLanguage": "Go",
+      "license": null,
+      "createdAt": "2019-11-02T16:10:53Z",
+      "pushedAt": "2024-08-21T07:17:36Z",
+      "homepageUrl": "https://kasvith.me/posts/lets-create-a-simple-lb-go",
+      "archived": false,
+      "owner": {
+        "login": "kasvith",
+        "name": "Kasun Vithanage",
+        "type": "User",
+        "url": "https://github.com/kasvith",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 28,
+      "name": "Godot_Noshot_Controller",
+      "nameWithOwner": "theRealUnd3rdog/Godot_Noshot_Controller",
+      "url": "https://github.com/theRealUnd3rdog/Godot_Noshot_Controller",
+      "description": "NOSHOT First Person Controller",
+      "stars": 548,
+      "forks": 61,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-11-01T06:01:08Z",
+      "pushedAt": "2025-06-16T16:27:40Z",
+      "homepageUrl": "https://www.youtube.com/@UnderdogDen",
+      "archived": false,
+      "owner": {
+        "login": "theRealUnd3rdog",
+        "name": "Underdog",
+        "type": "User",
+        "url": "https://github.com/theRealUnd3rdog",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 29,
+      "name": "internet-banking-concept-microservices",
+      "nameWithOwner": "JavatoDev-com/internet-banking-concept-microservices",
+      "url": "https://github.com/JavatoDev-com/internet-banking-concept-microservices",
+      "description": "Internet Banking Concept Microservices",
+      "stars": 542,
+      "forks": 295,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-05-08T19:50:30Z",
+      "pushedAt": "2026-07-27T06:52:31Z",
+      "homepageUrl": "https://javatodev.com/building-microservices-with-spring-boot-free-course-with-practical-project/",
+      "archived": false,
+      "owner": {
+        "login": "JavatoDev-com",
+        "name": "JavatoDev",
+        "type": "Organization",
+        "url": "https://github.com/JavatoDev-com",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 30,
+      "name": "All-Url-Uploader",
+      "nameWithOwner": "kalanakt/All-Url-Uploader",
+      "url": "https://github.com/kalanakt/All-Url-Uploader",
+      "description": "A simple telegram Bot, Upload Media File| video To telegram using the direct download link. (youtube, Mediafire, google drive, mega drive, etc)",
+      "stars": 534,
+      "forks": 1095,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-11-11T11:04:24Z",
+      "pushedAt": "2026-09-21T16:17:32Z",
+      "homepageUrl": "https://urluploader.vercel.app",
+      "archived": false,
+      "owner": {
+        "login": "kalanakt",
+        "name": "kalana kt",
+        "type": "User",
+        "url": "https://github.com/kalanakt",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 31,
+      "name": "goindex-extended",
+      "nameWithOwner": "menukaonline/goindex-extended",
+      "url": "https://github.com/menukaonline/goindex-extended",
+      "description": "A Google Drive Index, which has a lot of extra features, running on Cloudflare Workers.",
+      "stars": 494,
+      "forks": 257,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-01-30T17:32:11Z",
+      "pushedAt": "2024-04-12T07:37:38Z",
+      "homepageUrl": "https://demo.dudoo.workers.dev",
+      "archived": false,
+      "owner": {
+        "login": "menukaonline",
+        "name": "Menuka Rathnayake",
+        "type": "User",
+        "url": "https://github.com/menukaonline",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 32,
+      "name": "reactfolio",
+      "nameWithOwner": "truethari/reactfolio",
+      "url": "https://github.com/truethari/reactfolio",
+      "description": "Reactfolio is a sleek and responsive personal portfolio template built using React, perfect for showcasing your work and skills in a professional manner.",
+      "stars": 492,
+      "forks": 317,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-05-04T03:43:04Z",
+      "pushedAt": "2025-02-20T20:29:12Z",
+      "homepageUrl": "https://reactfolio.tharindu.dev/",
+      "archived": false,
+      "owner": {
+        "login": "truethari",
+        "name": "Tharindu N. Madhusanka",
+        "type": "User",
+        "url": "https://github.com/truethari",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 33,
+      "name": "NFG-Multi-Crack",
+      "nameWithOwner": "rockz5555/NFG-Multi-Crack",
+      "url": "https://github.com/rockz5555/NFG-Multi-Crack",
+      "description": "Ultimate Android Toolkit",
+      "stars": 490,
+      "forks": 33,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2017-11-26T17:59:02Z",
+      "pushedAt": "2026-07-21T07:57:44Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "rockz5555",
+        "name": "Nijoo",
+        "type": "User",
+        "url": "https://github.com/rockz5555",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 34,
+      "name": "my-internet",
+      "nameWithOwner": "sameerasw/my-internet",
+      "url": "https://github.com/sameerasw/my-internet",
+      "description": "Custom CSS to make the web transparent, beautiful and zen. Main style repo for the Zen Internet add-on",
+      "stars": 475,
+      "forks": 133,
+      "primaryLanguage": "CSS",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-02-08T11:26:59Z",
+      "pushedAt": "2026-09-28T03:52:05Z",
+      "homepageUrl": "https://addons.mozilla.org/en-US/firefox/addon/zen-internet/",
+      "archived": false,
+      "owner": {
+        "login": "sameerasw",
+        "name": "sameerasw.com",
+        "type": "User",
+        "url": "https://github.com/sameerasw",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 35,
+      "name": "cut-it-out",
+      "nameWithOwner": "Suvink/cut-it-out",
+      "url": "https://github.com/Suvink/cut-it-out",
+      "description": "A browser based background removal tool for images.",
+      "stars": 475,
+      "forks": 63,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2025-12-13T13:57:08Z",
+      "pushedAt": "2025-12-13T14:38:10Z",
+      "homepageUrl": "https://cut-it-out.vercel.app",
+      "archived": false,
+      "owner": {
+        "login": "Suvink",
+        "name": "Suvin Nimnaka",
+        "type": "User",
+        "url": "https://github.com/Suvink",
+        "location": "Colombo, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Colombo",
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 36,
+      "name": "github-readme",
+      "nameWithOwner": "madushadhanushka/github-readme",
+      "url": "https://github.com/madushadhanushka/github-readme",
+      "description": "Collection of GitHub readme widgets",
+      "stars": 464,
+      "forks": 41,
+      "primaryLanguage": "Python",
+      "license": null,
+      "createdAt": "2021-08-23T12:33:03Z",
+      "pushedAt": "2026-10-03T02:45:05Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "madushadhanushka",
+        "name": "Dhanushka Madushan",
+        "type": "User",
+        "url": "https://github.com/madushadhanushka",
+        "location": "Sri Lanka, Moratuwa.",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Moratuwa",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 37,
+      "name": "nvim-window-picker",
+      "nameWithOwner": "s1n7ax/nvim-window-picker",
+      "url": "https://github.com/s1n7ax/nvim-window-picker",
+      "description": "This plugins prompts the user to pick a window and returns the window id of the picked window",
+      "stars": 460,
+      "forks": 37,
+      "primaryLanguage": "Lua",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-09-25T20:30:24Z",
+      "pushedAt": "2025-02-26T13:58:34Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "s1n7ax",
+        "name": "Srinesh Nisala",
+        "type": "User",
+        "url": "https://github.com/s1n7ax",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 38,
+      "name": "Reach",
+      "nameWithOwner": "Isuru-Nanayakkara/Reach",
+      "url": "https://github.com/Isuru-Nanayakkara/Reach",
+      "description": "A simple class to check for internet connection availability in Swift.",
+      "stars": 453,
+      "forks": 111,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-09-02T17:47:07Z",
+      "pushedAt": "2019-07-26T16:54:10Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "Isuru-Nanayakkara",
+        "name": "Isuru Nanayakkara",
+        "type": "User",
+        "url": "https://github.com/Isuru-Nanayakkara",
+        "location": "Colombo, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Colombo",
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 39,
+      "name": "fetch-php",
+      "nameWithOwner": "Thavarshan/fetch-php",
+      "url": "https://github.com/Thavarshan/fetch-php",
+      "description": "🚀 Modern PHP HTTP client inspired by JavaScript's fetch API. Async/await, streaming, SSE, middleware, RFC 7234 caching, and full PSR-7/18 compliance.",
+      "stars": 449,
+      "forks": 27,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2024-09-13T18:33:05Z",
+      "pushedAt": "2026-07-23T06:56:11Z",
+      "homepageUrl": "https://fetch-php.thavarshan.com",
+      "archived": false,
+      "owner": {
+        "login": "Thavarshan",
+        "name": "Jerome Thayananthajothy",
+        "type": "User",
+        "url": "https://github.com/Thavarshan",
+        "location": "Colombo, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Colombo",
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 40,
+      "name": "ZPhisher",
+      "nameWithOwner": "Optane002/ZPhisher",
+      "url": "https://github.com/Optane002/ZPhisher",
+      "description": "Automated Phishing Tool.🐱‍💻🧷",
+      "stars": 436,
+      "forks": 112,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2020-10-22T18:58:08Z",
+      "pushedAt": "2023-11-01T09:19:57Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Optane002",
+        "name": "Chamicara De Silva",
+        "type": "User",
+        "url": "https://github.com/Optane002",
+        "location": "Ratnapura, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Ratnapura",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 41,
+      "name": "Manzana-Apple-Music-Downloader",
+      "nameWithOwner": "dropcreations/Manzana-Apple-Music-Downloader",
+      "url": "https://github.com/dropcreations/Manzana-Apple-Music-Downloader",
+      "description": "A python program to download albums and songs with AAC codec in .m4a container format and music-videos up to 4K in AVC or HEVC codec in .mp4 format from Apple Music.",
+      "stars": 421,
+      "forks": 52,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2023-06-15T13:03:08Z",
+      "pushedAt": "2025-09-06T11:55:02Z",
+      "homepageUrl": "https://music.apple.com",
+      "archived": false,
+      "owner": {
+        "login": "dropcreations",
+        "name": "dropcodes",
+        "type": "User",
+        "url": "https://github.com/dropcreations",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 42,
+      "name": "Next-js-starter",
+      "nameWithOwner": "wdevon99/Next-js-starter",
+      "url": "https://github.com/wdevon99/Next-js-starter",
+      "description": "Full-stack starter template 2024",
+      "stars": 420,
+      "forks": 126,
+      "primaryLanguage": "TypeScript",
+      "license": null,
+      "createdAt": "2024-02-25T17:06:56Z",
+      "pushedAt": "2024-08-12T19:32:10Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "wdevon99",
+        "name": "Devon Wijesinghe",
+        "type": "User",
+        "url": "https://github.com/wdevon99",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 43,
+      "name": "simple-sqlite",
+      "nameWithOwner": "madushadhanushka/simple-sqlite",
+      "url": "https://github.com/madushadhanushka/simple-sqlite",
+      "description": "Code reading for sqlite backend",
+      "stars": 407,
+      "forks": 62,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "spdxId": "GPL-2.0"
+      },
+      "createdAt": "2018-11-18T06:41:06Z",
+      "pushedAt": "2023-03-01T13:41:26Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "madushadhanushka",
+        "name": "Dhanushka Madushan",
+        "type": "User",
+        "url": "https://github.com/madushadhanushka",
+        "location": "Sri Lanka, Moratuwa.",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Moratuwa",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 44,
+      "name": "node-usage",
+      "nameWithOwner": "arunoda/node-usage",
+      "url": "https://github.com/arunoda/node-usage",
+      "description": "process usage lookup with nodejs",
+      "stars": 387,
+      "forks": 50,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-02-19T15:13:49Z",
+      "pushedAt": "2020-08-12T14:13:21Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "arunoda",
+        "name": "Arunoda Susiripala",
+        "type": "User",
+        "url": "https://github.com/arunoda",
+        "location": "Colombo, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Colombo",
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 45,
+      "name": "CYBER-X-WHATSAPP-BOT",
+      "nameWithOwner": "darkalphaxteam/CYBER-X-WHATSAPP-BOT",
+      "url": "https://github.com/darkalphaxteam/CYBER-X-WHATSAPP-BOT",
+      "description": "A 3ʳᵈ Party user bot for WhatsApp. Developed by @darkalphaxteam  ",
+      "stars": 380,
+      "forks": 2505,
+      "primaryLanguage": "JavaScript",
+      "license": null,
+      "createdAt": "2023-06-23T01:24:20Z",
+      "pushedAt": "2024-09-17T12:12:05Z",
+      "homepageUrl": "https://github.com/darkalphaxteam/CYBER-X-WHATSAPP-BOT",
+      "archived": false,
+      "owner": {
+        "login": "darkalphaxteam",
+        "name": "DARK_ALPHA_XTEAM",
+        "type": "User",
+        "url": "https://github.com/darkalphaxteam",
+        "location": "Kurunegala / Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Kurunegala",
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 46,
+      "name": "HDL-Bits-Solutions",
+      "nameWithOwner": "viduraakalanka/HDL-Bits-Solutions",
+      "url": "https://github.com/viduraakalanka/HDL-Bits-Solutions",
+      "description": "This is a repository containing solutions to the problem statements given in HDL Bits website.",
+      "stars": 379,
+      "forks": 108,
+      "primaryLanguage": "Verilog",
+      "license": {
+        "name": "The Unlicense",
+        "spdxId": "Unlicense"
+      },
+      "createdAt": "2019-06-07T06:35:59Z",
+      "pushedAt": "2023-07-16T07:49:15Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "viduraakalanka",
+        "name": "Vidura Akalanka",
+        "type": "User",
+        "url": "https://github.com/viduraakalanka",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 47,
+      "name": "Free-Unlimited-Google-Cloud-Backup-Magisk-Module",
+      "nameWithOwner": "VehanRajintha/Free-Unlimited-Google-Cloud-Backup-Magisk-Module",
+      "url": "https://github.com/VehanRajintha/Free-Unlimited-Google-Cloud-Backup-Magisk-Module",
+      "description": "This is a Magisk module and from this you can get Unlimited Google Cloud Storage to backup Photos and Videos on your device.",
+      "stars": 379,
+      "forks": 19,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2023-10-22T12:46:48Z",
+      "pushedAt": "2025-02-19T16:11:00Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "VehanRajintha",
+        "name": "VehanRajintha",
+        "type": "User",
+        "url": "https://github.com/VehanRajintha",
+        "location": "Colombo Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Colombo",
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 48,
+      "name": "chat-app",
+      "nameWithOwner": "davehowson/chat-app",
+      "url": "https://github.com/davehowson/chat-app",
+      "description": "MERN Stack Based Chat Application",
+      "stars": 373,
+      "forks": 119,
+      "primaryLanguage": "JavaScript",
+      "license": null,
+      "createdAt": "2019-06-13T14:26:28Z",
+      "pushedAt": "2023-01-06T20:57:38Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "davehowson",
+        "name": "Dave Howson",
+        "type": "User",
+        "url": "https://github.com/davehowson",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 49,
+      "name": "neutralino.js",
+      "nameWithOwner": "neutralinojs/neutralino.js",
+      "url": "https://github.com/neutralinojs/neutralino.js",
+      "description": "JavaScript API for Neutralinojs ",
+      "stars": 353,
+      "forks": 131,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-03-13T05:25:49Z",
+      "pushedAt": "2026-10-03T02:52:03Z",
+      "homepageUrl": "https://neutralino.js.org/docs/api/overview",
+      "archived": false,
+      "owner": {
+        "login": "neutralinojs",
+        "name": "Neutralinojs",
+        "type": "Organization",
+        "url": "https://github.com/neutralinojs",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 50,
+      "name": "kache",
+      "nameWithOwner": "kasvith/kache",
+      "url": "https://github.com/kasvith/kache",
+      "description": "A simple in memory cache written using go",
+      "stars": 351,
+      "forks": 24,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-07-24T15:22:01Z",
+      "pushedAt": "2019-04-08T16:09:05Z",
+      "homepageUrl": "https://kasvith.github.io/kache",
+      "archived": true,
+      "owner": {
+        "login": "kasvith",
+        "name": "Kasun Vithanage",
+        "type": "User",
+        "url": "https://github.com/kasvith",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 51,
+      "name": "evaluation",
+      "nameWithOwner": "neutralinojs/evaluation",
+      "url": "https://github.com/neutralinojs/evaluation",
+      "description": "Neutralinojs vs Electron vs Nw.js",
+      "stars": 346,
+      "forks": 13,
+      "primaryLanguage": null,
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-12-03T08:58:05Z",
+      "pushedAt": "2021-06-26T08:05:05Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "neutralinojs",
+        "name": "Neutralinojs",
+        "type": "Organization",
+        "url": "https://github.com/neutralinojs",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 52,
+      "name": "Positivus",
+      "nameWithOwner": "manulthanura/Positivus",
+      "url": "https://github.com/manulthanura/Positivus",
+      "description": "A stunning and versatile Astro theme designed for digital marketing agencies.",
+      "stars": 340,
+      "forks": 106,
+      "primaryLanguage": "Astro",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2024-04-08T12:31:37Z",
+      "pushedAt": "2025-09-03T11:07:58Z",
+      "homepageUrl": "https://positivustheme.vercel.app",
+      "archived": false,
+      "owner": {
+        "login": "manulthanura",
+        "name": "Manul Thanura",
+        "type": "User",
+        "url": "https://github.com/manulthanura",
+        "location": "Colombo, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Colombo",
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 53,
+      "name": "colombo-skylines",
+      "nameWithOwner": "team-watchdog/colombo-skylines",
+      "url": "https://github.com/team-watchdog/colombo-skylines",
+      "description": "A digital twin of the city of Colombo, Sri Lanka, implemented in Cities: Skylines, based on real data. Nearly 1:1 in terms of geography and population.",
+      "stars": 324,
+      "forks": 2,
+      "primaryLanguage": "HTML",
+      "license": null,
+      "createdAt": "2024-02-22T07:23:21Z",
+      "pushedAt": "2024-09-06T05:37:28Z",
+      "homepageUrl": "https://watchdog.team",
+      "archived": false,
+      "owner": {
+        "login": "team-watchdog",
+        "name": "Watchdog",
+        "type": "Organization",
+        "url": "https://github.com/team-watchdog",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 54,
+      "name": "OVIWrite",
+      "nameWithOwner": "MiragianCycle/OVIWrite",
+      "url": "https://github.com/MiragianCycle/OVIWrite",
+      "description": "Integrated Writing Environment (IWE) based on NeoVim",
+      "stars": 309,
+      "forks": 26,
+      "primaryLanguage": "Lua",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2021-11-12T12:07:35Z",
+      "pushedAt": "2025-12-04T11:59:51Z",
+      "homepageUrl": "https://miragiancycle.github.io/OVIWrite/",
+      "archived": false,
+      "owner": {
+        "login": "MiragianCycle",
+        "name": "Theena Kumaragurunathan",
+        "type": "User",
+        "url": "https://github.com/MiragianCycle",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 55,
+      "name": "grpc-demo",
+      "nameWithOwner": "poorna-soysa/grpc-demo",
+      "url": "https://github.com/poorna-soysa/grpc-demo",
+      "description": "This repository contains a sample application built with .NET 8, demonstrating the use of gRPC for high-performance remote procedure calls",
+      "stars": 306,
+      "forks": 157,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2024-10-17T08:57:30Z",
+      "pushedAt": "2024-11-22T01:35:24Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "poorna-soysa",
+        "name": "Poorna Soysa",
+        "type": "User",
+        "url": "https://github.com/poorna-soysa",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 56,
+      "name": "Flutter-TDD-Clean-Architecture-E-Commerce-App",
+      "nameWithOwner": "Sameera-Perera/Flutter-TDD-Clean-Architecture-E-Commerce-App",
+      "url": "https://github.com/Sameera-Perera/Flutter-TDD-Clean-Architecture-E-Commerce-App",
+      "description": "A modern E-Commerce mobile application built with Flutter, TDD, Clean Architecture, and BLoC.",
+      "stars": 305,
+      "forks": 104,
+      "primaryLanguage": "Dart",
+      "license": null,
+      "createdAt": "2023-09-29T20:45:14Z",
+      "pushedAt": "2026-02-11T20:48:17Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Sameera-Perera",
+        "name": "Sameera Perera",
+        "type": "User",
+        "url": "https://github.com/Sameera-Perera",
+        "location": "Sri lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 57,
+      "name": "react-native-mentions",
+      "nameWithOwner": "harshq/react-native-mentions",
+      "url": "https://github.com/harshq/react-native-mentions",
+      "description": "Mentions textbox for React Native. Works on both ios and android. :whale: ",
+      "stars": 304,
+      "forks": 81,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-01-09T03:32:10Z",
+      "pushedAt": "2022-02-22T20:53:12Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "harshq",
+        "name": "Harshana Abeyaratne",
+        "type": "User",
+        "url": "https://github.com/harshq",
+        "location": "Colombo, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Colombo"
+        ]
+      }
+    },
+    {
+      "rank": 58,
+      "name": "vertical-slice-architecture-template",
+      "nameWithOwner": "poorna-soysa/vertical-slice-architecture-template",
+      "url": "https://github.com/poorna-soysa/vertical-slice-architecture-template",
+      "description": "Vertical Slice Architecture Template for .NET 10",
+      "stars": 301,
+      "forks": 135,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2024-10-03T01:30:59Z",
+      "pushedAt": "2026-01-10T08:44:32Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "poorna-soysa",
+        "name": "Poorna Soysa",
+        "type": "User",
+        "url": "https://github.com/poorna-soysa",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 59,
+      "name": "python-tail",
+      "nameWithOwner": "kasun/python-tail",
+      "url": "https://github.com/kasun/python-tail",
+      "description": "Unix tail follow implementation in python",
+      "stars": 297,
+      "forks": 106,
+      "primaryLanguage": "Python",
+      "license": null,
+      "createdAt": "2011-09-10T15:03:57Z",
+      "pushedAt": "2022-11-18T08:57:33Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "kasun",
+        "name": "Kasun Herath",
+        "type": "User",
+        "url": "https://github.com/kasun",
+        "location": "Kandy, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Kandy",
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 60,
+      "name": "MauiIcons",
+      "nameWithOwner": "AathifMahir/MauiIcons",
+      "url": "https://github.com/AathifMahir/MauiIcons",
+      "description": "MauiIcons is Icon Collection Library for .Net Maui",
+      "stars": 297,
+      "forks": 22,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-10-27T14:26:35Z",
+      "pushedAt": "2026-02-22T01:53:47Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "AathifMahir",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/AathifMahir",
+        "location": "Kandy, Sri lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Kandy",
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 61,
+      "name": "Mega-to-Google-Drive",
+      "nameWithOwner": "menukaonline/Mega-to-Google-Drive",
+      "url": "https://github.com/menukaonline/Mega-to-Google-Drive",
+      "description": "This is a Google Colab notebook that helps you to transfer files from Mega to Google Drive",
+      "stars": 294,
+      "forks": 139,
+      "primaryLanguage": "Jupyter Notebook",
+      "license": null,
+      "createdAt": "2020-06-12T12:30:48Z",
+      "pushedAt": "2023-08-11T19:27:17Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "menukaonline",
+        "name": "Menuka Rathnayake",
+        "type": "User",
+        "url": "https://github.com/menukaonline",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 62,
+      "name": "fonoapi",
+      "nameWithOwner": "shakee93/fonoapi",
+      "url": "https://github.com/shakee93/fonoapi",
+      "description": ":telephone: FonoApi - Mobile Device Description API  ",
+      "stars": 294,
+      "forks": 60,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-02-04T20:42:33Z",
+      "pushedAt": "2021-12-27T12:17:39Z",
+      "homepageUrl": "https://fonoapi.freshpixl.com",
+      "archived": true,
+      "owner": {
+        "login": "shakee93",
+        "name": "Shakeeb Sadikeen",
+        "type": "User",
+        "url": "https://github.com/shakee93",
+        "location": "Colombo, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Colombo",
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 63,
+      "name": "books-api-docker-compose-postgresql-redis",
+      "nameWithOwner": "poorna-soysa/books-api-docker-compose-postgresql-redis",
+      "url": "https://github.com/poorna-soysa/books-api-docker-compose-postgresql-redis",
+      "description": "This repository showcases a sample API built with .NET 10,  designed to demonstrate the integration of Docker Compose for container orchestration. The application utilizes PostgreSQL as its primary database and Redis for caching, providing a robust foundation for scalable web services",
+      "stars": 286,
+      "forks": 178,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2024-10-12T04:43:12Z",
+      "pushedAt": "2026-01-02T19:46:42Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "poorna-soysa",
+        "name": "Poorna Soysa",
+        "type": "User",
+        "url": "https://github.com/poorna-soysa",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 64,
+      "name": "meteor-streams",
+      "nameWithOwner": "arunoda/meteor-streams",
+      "url": "https://github.com/arunoda/meteor-streams",
+      "description": "Realtime messaging for Meteor",
+      "stars": 283,
+      "forks": 96,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-06-16T09:44:14Z",
+      "pushedAt": "2015-06-25T12:01:42Z",
+      "homepageUrl": "http://arunoda.github.io/meteor-streams",
+      "archived": false,
+      "owner": {
+        "login": "arunoda",
+        "name": "Arunoda Susiripala",
+        "type": "User",
+        "url": "https://github.com/arunoda",
+        "location": "Colombo, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Colombo",
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 65,
+      "name": "airsync-android",
+      "nameWithOwner": "sameerasw/airsync-android",
+      "url": "https://github.com/sameerasw/airsync-android",
+      "description": "Android app for AirSync  - Bring the forbidden mac continuity to Android",
+      "stars": 283,
+      "forks": 37,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2025-07-28T18:18:40Z",
+      "pushedAt": "2026-09-25T18:22:22Z",
+      "homepageUrl": "https://www.sameerasw.com/airsync",
+      "archived": false,
+      "owner": {
+        "login": "sameerasw",
+        "name": "sameerasw.com",
+        "type": "User",
+        "url": "https://github.com/sameerasw",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 66,
+      "name": "sni-injector",
+      "nameWithOwner": "miyurudassanayake/sni-injector",
+      "url": "https://github.com/miyurudassanayake/sni-injector",
+      "description": "SNI Injecting tool for free internet (HTTP Injector)",
+      "stars": 271,
+      "forks": 91,
+      "primaryLanguage": "Python",
+      "license": null,
+      "createdAt": "2022-08-12T09:17:45Z",
+      "pushedAt": "2024-07-03T09:26:16Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "miyurudassanayake",
+        "name": "Miyuru Dassanayake",
+        "type": "User",
+        "url": "https://github.com/miyurudassanayake",
+        "location": "Kandy, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Kandy"
+        ]
+      }
+    },
+    {
+      "rank": 67,
+      "name": "speechlib",
+      "nameWithOwner": "NavodPeiris/speechlib",
+      "url": "https://github.com/NavodPeiris/speechlib",
+      "description": "Speechlib is a library that unifies speaker diarization, transcription and speaker recognition in a single pipeline to create transcripts for audio conversations with actual speaker names and time tags. This library also contains audio preprocessor functions.",
+      "stars": 269,
+      "forks": 26,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2024-01-07T12:02:11Z",
+      "pushedAt": "2026-04-19T08:56:09Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "NavodPeiris",
+        "name": "Navod Peiris",
+        "type": "User",
+        "url": "https://github.com/NavodPeiris",
+        "location": "Colombo, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Colombo",
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 68,
+      "name": "HealthPlus",
+      "nameWithOwner": "heshanera/HealthPlus",
+      "url": "https://github.com/heshanera/HealthPlus",
+      "description": "A Management System for a Health Care Facility. The system includes Registration of patients, Making appointments, Storing patient records, Billing in the pharmacy & Pharmacy stock controlling",
+      "stars": 265,
+      "forks": 134,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2016-11-15T20:41:56Z",
+      "pushedAt": "2026-08-28T22:42:36Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "heshanera",
+        "name": "Heshan Eranga",
+        "type": "User",
+        "url": "https://github.com/heshanera",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 69,
+      "name": "url-shortener-app",
+      "nameWithOwner": "poorna-soysa/url-shortener-app",
+      "url": "https://github.com/poorna-soysa/url-shortener-app",
+      "description": "This repository contains a n URL Shortener sample application built with .NET 10 ,  NET Aspire, PostgreSQL",
+      "stars": 264,
+      "forks": 99,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2024-11-23T09:11:02Z",
+      "pushedAt": "2025-12-27T19:20:25Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "poorna-soysa",
+        "name": "Poorna Soysa",
+        "type": "User",
+        "url": "https://github.com/poorna-soysa",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 70,
+      "name": "neutralinojs.github.io",
+      "nameWithOwner": "neutralinojs/neutralinojs.github.io",
+      "url": "https://github.com/neutralinojs/neutralinojs.github.io",
+      "description": "The official website and documentation of Neutralinojs",
+      "stars": 262,
+      "forks": 194,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-05-15T09:45:58Z",
+      "pushedAt": "2026-10-02T13:43:47Z",
+      "homepageUrl": "https://neutralino.js.org",
+      "archived": false,
+      "owner": {
+        "login": "neutralinojs",
+        "name": "Neutralinojs",
+        "type": "Organization",
+        "url": "https://github.com/neutralinojs",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 71,
+      "name": "Red-Dragon",
+      "nameWithOwner": "prabhasha2006/Red-Dragon",
+      "url": "https://github.com/prabhasha2006/Red-Dragon",
+      "description": "Welcome To ☬𝗥𝗘𝗗༒𝗗𝗥𝗔𝗚𝗢𝗡-𝗕𝗢𝗧࿐",
+      "stars": 254,
+      "forks": 4108,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-06-05T11:52:10Z",
+      "pushedAt": "2024-08-09T01:52:13Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "prabhasha2006",
+        "name": "K.Prabhasha",
+        "type": "User",
+        "url": "https://github.com/prabhasha2006",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 72,
+      "name": "awesome-telegram",
+      "nameWithOwner": "kalanakt/awesome-telegram",
+      "url": "https://github.com/kalanakt/awesome-telegram",
+      "description": "A curated list of awesome telegram groups, channels, bots, open source projects And Libraries",
+      "stars": 254,
+      "forks": 64,
+      "primaryLanguage": null,
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2022-10-01T15:24:01Z",
+      "pushedAt": "2026-09-23T14:50:02Z",
+      "homepageUrl": "https://kalanakt.github.io/awesome-telegram/",
+      "archived": false,
+      "owner": {
+        "login": "kalanakt",
+        "name": "kalana kt",
+        "type": "User",
+        "url": "https://github.com/kalanakt",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 73,
+      "name": "tg-ytdlp-bot",
+      "nameWithOwner": "upekshaip/tg-ytdlp-bot",
+      "url": "https://github.com/upekshaip/tg-ytdlp-bot",
+      "description": "This is a telegram deployable bot for downloading any private video files from any site (Intergrated with yt-dlp). Also can download private videos or playlists with cookies too",
+      "stars": 249,
+      "forks": 127,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2023-09-11T14:16:28Z",
+      "pushedAt": "2026-01-11T08:55:56Z",
+      "homepageUrl": "https://upekshaip.com/projects/-O0t36gRpfJR1p8KB7vU",
+      "archived": false,
+      "owner": {
+        "login": "upekshaip",
+        "name": "Upeksha Indeewara",
+        "type": "User",
+        "url": "https://github.com/upekshaip",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 74,
+      "name": "gremlin-visualizer",
+      "nameWithOwner": "prabushitha/gremlin-visualizer",
+      "url": "https://github.com/prabushitha/gremlin-visualizer",
+      "description": "visualize a graph network corresponding to a gremlin query",
+      "stars": 246,
+      "forks": 70,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-11-24T16:03:28Z",
+      "pushedAt": "2024-07-26T20:24:52Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "prabushitha",
+        "name": "Umesh Prabushitha Jayasinghe",
+        "type": "User",
+        "url": "https://github.com/prabushitha",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 75,
+      "name": "better-sqlite3-multiple-ciphers",
+      "nameWithOwner": "m4heshd/better-sqlite3-multiple-ciphers",
+      "url": "https://github.com/m4heshd/better-sqlite3-multiple-ciphers",
+      "description": "better-sqlite3 with multiple-cipher encryption support 🔒",
+      "stars": 242,
+      "forks": 38,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-07-22T02:26:41Z",
+      "pushedAt": "2026-09-21T05:12:09Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "m4heshd",
+        "name": "Mahesh Bandara Wijerathna",
+        "type": "User",
+        "url": "https://github.com/m4heshd",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 76,
+      "name": "laika",
+      "nameWithOwner": "arunoda/laika",
+      "url": "https://github.com/arunoda/laika",
+      "description": "testing framework for meteor",
+      "stars": 242,
+      "forks": 34,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-05-22T08:43:43Z",
+      "pushedAt": "2017-04-17T03:20:15Z",
+      "homepageUrl": "http://arunoda.github.io/laika/",
+      "archived": false,
+      "owner": {
+        "login": "arunoda",
+        "name": "Arunoda Susiripala",
+        "type": "User",
+        "url": "https://github.com/arunoda",
+        "location": "Colombo, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Colombo",
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 77,
+      "name": "nextjs-dapp-starter-ts",
+      "nameWithOwner": "G3root/nextjs-dapp-starter-ts",
+      "url": "https://github.com/G3root/nextjs-dapp-starter-ts",
+      "description": "A fullstack monorepo template to develop ethereum dapps",
+      "stars": 236,
+      "forks": 34,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-11-09T16:41:00Z",
+      "pushedAt": "2022-01-21T17:43:41Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "G3root",
+        "name": "Nafees Nazik",
+        "type": "User",
+        "url": "https://github.com/G3root",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 78,
+      "name": "DRAGON-VPS-MANAGER",
+      "nameWithOwner": "januda-ui/DRAGON-VPS-MANAGER",
+      "url": "https://github.com/januda-ui/DRAGON-VPS-MANAGER",
+      "description": "🐉 DRAGON VPS MANAGER 🐉",
+      "stars": 235,
+      "forks": 160,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2021-11-25T07:21:24Z",
+      "pushedAt": "2024-02-16T10:04:02Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "januda-ui",
+        "name": "JANUDA ISUM",
+        "type": "User",
+        "url": "https://github.com/januda-ui",
+        "location": "Sri Lanka ",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 79,
+      "name": "hmis",
+      "nameWithOwner": "hmislk/hmis",
+      "url": "https://github.com/hmislk/hmis",
+      "description": "This is an Open Source Java EE based Hospital Information Management System",
+      "stars": 235,
+      "forks": 139,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2014-07-12T10:10:38Z",
+      "pushedAt": "2026-10-03T04:40:27Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "hmislk",
+        "name": "CareCode",
+        "type": "Organization",
+        "url": "https://github.com/hmislk",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 80,
+      "name": "livewire-dropzone",
+      "nameWithOwner": "dasundev/livewire-dropzone",
+      "url": "https://github.com/dasundev/livewire-dropzone",
+      "description": "A Livewire Dropzone component for simple drag-and-drop file uploads.",
+      "stars": 230,
+      "forks": 23,
+      "primaryLanguage": "Blade",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-12-03T07:30:31Z",
+      "pushedAt": "2026-08-03T03:48:13Z",
+      "homepageUrl": "https://dasun.dev/docs/livewire-dropzone",
+      "archived": false,
+      "owner": {
+        "login": "dasundev",
+        "name": "Dasun Tharanga",
+        "type": "User",
+        "url": "https://github.com/dasundev",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 81,
+      "name": "harmony",
+      "nameWithOwner": "gayanvirajith/harmony",
+      "url": "https://github.com/gayanvirajith/harmony",
+      "description": "A responsive Jekyll theme.",
+      "stars": 220,
+      "forks": 193,
+      "primaryLanguage": "CSS",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2014-07-28T06:02:43Z",
+      "pushedAt": "2019-11-06T19:52:56Z",
+      "homepageUrl": "http://gayan.me/harmony",
+      "archived": false,
+      "owner": {
+        "login": "gayanvirajith",
+        "name": "Gayan Virajith",
+        "type": "User",
+        "url": "https://github.com/gayanvirajith",
+        "location": "Colombo, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Colombo",
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 82,
+      "name": "logster",
+      "nameWithOwner": "navinpeiris/logster",
+      "url": "https://github.com/navinpeiris/logster",
+      "description": "Easily parsable single line, plain text and JSON logger for Plug and Phoenix applications",
+      "stars": 213,
+      "forks": 27,
+      "primaryLanguage": "Elixir",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-03-31T09:32:48Z",
+      "pushedAt": "2025-01-19T01:30:40Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "navinpeiris",
+        "name": "Navin Peiris",
+        "type": "User",
+        "url": "https://github.com/navinpeiris",
+        "location": "Colombo, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Colombo",
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 83,
+      "name": "Level-Set",
+      "nameWithOwner": "Ramesh-X/Level-Set",
+      "url": "https://github.com/Ramesh-X/Level-Set",
+      "description": "Level Set algorithm for python",
+      "stars": 206,
+      "forks": 68,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-06-10T08:50:29Z",
+      "pushedAt": "2020-09-29T11:23:50Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Ramesh-X",
+        "name": "Ramesh Pramuditha Rathnayake",
+        "type": "User",
+        "url": "https://github.com/Ramesh-X",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 84,
+      "name": "DaisyXMusic",
+      "nameWithOwner": "InukaAsith/DaisyXMusic",
+      "url": "https://github.com/InukaAsith/DaisyXMusic",
+      "description": "Free and Open Source Group Voice chat music player for telegram ❤️ with button support youtube playback support",
+      "stars": 205,
+      "forks": 799,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-04-06T13:00:50Z",
+      "pushedAt": "2022-02-17T18:09:55Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "InukaAsith",
+        "name": "Inuka Asith",
+        "type": "User",
+        "url": "https://github.com/InukaAsith",
+        "location": "Matara, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Matara",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 85,
+      "name": "CustomStage",
+      "nameWithOwner": "Oshan96/CustomStage",
+      "url": "https://github.com/Oshan96/CustomStage",
+      "description": "A JavaFX UI framework to create fully customized undecorated windows",
+      "stars": 205,
+      "forks": 20,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-03-11T14:59:57Z",
+      "pushedAt": "2021-10-17T16:35:57Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Oshan96",
+        "name": "Oshan Mendis",
+        "type": "User",
+        "url": "https://github.com/Oshan96",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 86,
+      "name": "DateGrid",
+      "nameWithOwner": "yodagamaheshan/DateGrid",
+      "url": "https://github.com/yodagamaheshan/DateGrid",
+      "description": "A customizable swiftui calendar",
+      "stars": 200,
+      "forks": 22,
+      "primaryLanguage": "Swift",
+      "license": null,
+      "createdAt": "2020-10-26T15:22:47Z",
+      "pushedAt": "2022-12-03T15:51:15Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "yodagamaheshan",
+        "name": "Heshan Yodagama",
+        "type": "User",
+        "url": "https://github.com/yodagamaheshan",
+        "location": "University of Moratuwa",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "medium",
+          "evidence": "recognized-location",
+          "matched": "Moratuwa"
+        },
+        "discoveryTerms": [
+          "Moratuwa"
+        ]
+      }
+    },
+    {
+      "rank": 87,
+      "name": "filterable",
+      "nameWithOwner": "Thavarshan/filterable",
+      "url": "https://github.com/Thavarshan/filterable",
+      "description": "🔍 Enhance Laravel queries with adaptable, customisable filters and intelligent caching to improve both performance and functionality.",
+      "stars": 193,
+      "forks": 10,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2024-04-07T17:13:46Z",
+      "pushedAt": "2026-06-22T10:23:02Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Thavarshan",
+        "name": "Jerome Thayananthajothy",
+        "type": "User",
+        "url": "https://github.com/Thavarshan",
+        "location": "Colombo, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Colombo",
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 88,
+      "name": "agent-kernel",
+      "nameWithOwner": "yaalalabs/agent-kernel",
+      "url": "https://github.com/yaalalabs/agent-kernel",
+      "description": "The Operating System for Scalable Enterprise AI Agents - Run, orchestrate, and deploy Compliant Enterprise AI Agents at scale across frameworks, without lock-in, rewrites or fragile glue code. Native support for MCP, A2A. Interface with all mainstream communication channels seamlessly out of the box, production ready from day one.",
+      "stars": 190,
+      "forks": 88,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2025-07-18T11:27:58Z",
+      "pushedAt": "2026-10-02T19:06:15Z",
+      "homepageUrl": "https://kernel.yaala.ai/",
+      "archived": false,
+      "owner": {
+        "login": "yaalalabs",
+        "name": "Yaala Labs",
+        "type": "Organization",
+        "url": "https://github.com/yaalalabs",
+        "location": "Colombo, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Colombo"
+        ]
+      }
+    },
+    {
+      "rank": 89,
+      "name": "usb2-power-hub",
+      "nameWithOwner": "dilshan/usb2-power-hub",
+      "url": "https://github.com/dilshan/usb2-power-hub",
+      "description": "4-Port High Power USB 2.0 Hub",
+      "stars": 189,
+      "forks": 15,
+      "primaryLanguage": "Makefile",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-10-23T15:41:33Z",
+      "pushedAt": "2019-11-04T15:13:20Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "dilshan",
+        "name": "Dilshan R Jayakody",
+        "type": "User",
+        "url": "https://github.com/dilshan",
+        "location": "Maharagama, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 90,
+      "name": "Responsive-Portfolio-Design",
+      "nameWithOwner": "Ratheshan03/Responsive-Portfolio-Design",
+      "url": "https://github.com/Ratheshan03/Responsive-Portfolio-Design",
+      "description": "Responsive Portfolio Website Using HTML, CSS and JavaScript with awesome user interface.",
+      "stars": 180,
+      "forks": 80,
+      "primaryLanguage": "HTML",
+      "license": null,
+      "createdAt": "2021-08-05T17:49:38Z",
+      "pushedAt": "2023-10-22T10:52:32Z",
+      "homepageUrl": "https://ratheshan03.github.io/Responsive-Portfolio-Design/",
+      "archived": false,
+      "owner": {
+        "login": "Ratheshan03",
+        "name": "Ratheshan Sathiyamoorthy",
+        "type": "User",
+        "url": "https://github.com/Ratheshan03",
+        "location": "Colombo, SriLanka ",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "srilanka"
+        },
+        "discoveryTerms": [
+          "Colombo",
+          "Srilanka"
+        ]
+      }
+    },
+    {
+      "rank": 91,
+      "name": "thismypc",
+      "nameWithOwner": "supunlakmal/thismypc",
+      "url": "https://github.com/supunlakmal/thismypc",
+      "description": "ThisMyPC provides a neat web interface that can be used for browsing your desktop drives from any device in your browser itself. With the help of NodeJs, the file details are displayed in JSON format that can then we easily displayed in web browsers.",
+      "stars": 178,
+      "forks": 87,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-04-09T07:06:20Z",
+      "pushedAt": "2025-04-03T04:10:07Z",
+      "homepageUrl": "https://thismypc.vercel.app",
+      "archived": false,
+      "owner": {
+        "login": "supunlakmal",
+        "name": "Supun Lakmal Abesekara",
+        "type": "User",
+        "url": "https://github.com/supunlakmal",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 92,
+      "name": "Nosql-MongoDB-injection-username-password-enumeration",
+      "nameWithOwner": "an0nlk/Nosql-MongoDB-injection-username-password-enumeration",
+      "url": "https://github.com/an0nlk/Nosql-MongoDB-injection-username-password-enumeration",
+      "description": "Using this script, you can enumerate Usernames and passwords of Nosql(mongodb) injecion vulnerable web applications. ",
+      "stars": 177,
+      "forks": 36,
+      "primaryLanguage": "Python",
+      "license": null,
+      "createdAt": "2019-11-14T10:34:27Z",
+      "pushedAt": "2019-11-29T07:26:22Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "an0nlk",
+        "name": "Kalana Sankalpa",
+        "type": "User",
+        "url": "https://github.com/an0nlk",
+        "location": "colombo",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "medium",
+          "evidence": "recognized-location",
+          "matched": "Colombo"
+        },
+        "discoveryTerms": [
+          "Colombo"
+        ]
+      }
+    },
+    {
+      "rank": 93,
+      "name": "Hospital-Management-System-Laravel",
+      "nameWithOwner": "shakthisachintha/Hospital-Management-System-Laravel",
+      "url": "https://github.com/shakthisachintha/Hospital-Management-System-Laravel",
+      "description": "Hospital Management System Laravel",
+      "stars": 171,
+      "forks": 69,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2019-08-08T08:16:24Z",
+      "pushedAt": "2023-07-11T00:13:49Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "shakthisachintha",
+        "name": "Shakthi Sachintha",
+        "type": "User",
+        "url": "https://github.com/shakthisachintha",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 94,
+      "name": "phpvm",
+      "nameWithOwner": "Thavarshan/phpvm",
+      "url": "https://github.com/Thavarshan/phpvm",
+      "description": "📟 Simple PHP version manager for MacOS and Linux.",
+      "stars": 170,
+      "forks": 10,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2024-10-05T19:10:50Z",
+      "pushedAt": "2026-09-29T17:41:23Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Thavarshan",
+        "name": "Jerome Thayananthajothy",
+        "type": "User",
+        "url": "https://github.com/Thavarshan",
+        "location": "Colombo, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Colombo",
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 95,
+      "name": "api-learning-101",
+      "nameWithOwner": "nisalgunawardhana/api-learning-101",
+      "url": "https://github.com/nisalgunawardhana/api-learning-101",
+      "description": "Welcome to API Learning 101! This repository is your comprehensive guide to understanding and working with APIs, complete with a fully functional REST API backend and hands-on learning resources.",
+      "stars": 169,
+      "forks": 389,
+      "primaryLanguage": "JavaScript",
+      "license": null,
+      "createdAt": "2026-01-10T20:16:56Z",
+      "pushedAt": "2026-05-24T16:30:27Z",
+      "homepageUrl": "https://api-learning-101.vercel.app",
+      "archived": false,
+      "owner": {
+        "login": "nisalgunawardhana",
+        "name": "Nisal Gunawardhana",
+        "type": "User",
+        "url": "https://github.com/nisalgunawardhana",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 96,
+      "name": "ReconCobra---Complete-Automated-Pentest-Framework-For-Information-Gathering",
+      "nameWithOwner": "nerodtm/ReconCobra---Complete-Automated-Pentest-Framework-For-Information-Gathering",
+      "url": "https://github.com/nerodtm/ReconCobra---Complete-Automated-Pentest-Framework-For-Information-Gathering",
+      "description": "ReconCobra Reconcobra is Foot printing software for Ultimate Information Gathering Kali, Parrot OS, Black Arch, Termux, Android Led TV  Interface Software have 82 Options with full automation with powerful information gathering capability  Brief Introduction ReconCobra is useful in Banks, Private Organisations and Ethical hacker personnel for legal auditing. It serves as a defense method to find as much as information possible for gaining unauthorised access and intrusion. With the emergence of more advanced technology, cybercriminals have also found more ways to get into the system of many organizations. ReconCobra software can audit, firewall behaviour, if it is leaking backend machines/server and replying pings, it can find internal and external networks where many software’s like erp, mail firewalls are installed, exposing servers so it do Footprinting, Scanning & Enumeration as much as possible of target, to discover and collect most possible informations like username, web technologies, files, endpoint, api and much more.",
+      "stars": 167,
+      "forks": 40,
+      "primaryLanguage": "Perl",
+      "license": null,
+      "createdAt": "2019-12-24T17:02:56Z",
+      "pushedAt": "2020-05-12T17:08:55Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "nerodtm",
+        "name": "Niroshan Tharanga",
+        "type": "User",
+        "url": "https://github.com/nerodtm",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 97,
+      "name": "microservices-course-on-youtube",
+      "nameWithOwner": "krish/microservices-course-on-youtube",
+      "url": "https://github.com/krish/microservices-course-on-youtube",
+      "description": null,
+      "stars": 163,
+      "forks": 385,
+      "primaryLanguage": "Java",
+      "license": null,
+      "createdAt": "2019-01-15T05:33:47Z",
+      "pushedAt": "2022-06-21T04:21:17Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "krish",
+        "name": "Krish",
+        "type": "User",
+        "url": "https://github.com/krish",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 98,
+      "name": "Ubuntu-Chroot",
+      "nameWithOwner": "ravindu644/Ubuntu-Chroot",
+      "url": "https://github.com/ravindu644/Ubuntu-Chroot",
+      "description": "Run Ubuntu 24.04 on Android With full Hardware Access and pure namespace isolation..!",
+      "stars": 162,
+      "forks": 23,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-10-29T23:11:53Z",
+      "pushedAt": "2026-03-23T16:59:59Z",
+      "homepageUrl": "https://t.me/SamsungTweaks",
+      "archived": false,
+      "owner": {
+        "login": "ravindu644",
+        "name": "Ravindu Deshan",
+        "type": "User",
+        "url": "https://github.com/ravindu644",
+        "location": "Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 99,
+      "name": "DaisyX",
+      "nameWithOwner": "InukaAsith/DaisyX",
+      "url": "https://github.com/InukaAsith/DaisyX",
+      "description": "“ HOLA HUMANS 👋 I'M DAISYX 2.0 ❤️ „ OLD VERSION OF DAISYX.. Source Code of @Daisyxbot ",
+      "stars": 159,
+      "forks": 611,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2021-03-26T10:11:08Z",
+      "pushedAt": "2025-02-12T20:09:41Z",
+      "homepageUrl": "https://t.me/DaisyXupdates",
+      "archived": true,
+      "owner": {
+        "login": "InukaAsith",
+        "name": "Inuka Asith",
+        "type": "User",
+        "url": "https://github.com/InukaAsith",
+        "location": "Matara, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Lanka",
+          "Matara",
+          "Sri Lanka"
+        ]
+      }
+    },
+    {
+      "rank": 100,
+      "name": "spring-boot-rest-api-tutorial",
+      "nameWithOwner": "givanthak/spring-boot-rest-api-tutorial",
+      "url": "https://github.com/givanthak/spring-boot-rest-api-tutorial",
+      "description": "Sample REST CRUD API with Spring Boot, Mysql, JPA and Hibernate",
+      "stars": 159,
+      "forks": 202,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-11-11T14:41:19Z",
+      "pushedAt": "2021-11-30T03:12:11Z",
+      "homepageUrl": "https://www.prathapgivantha.wordpress.com",
+      "archived": false,
+      "owner": {
+        "login": "givanthak",
+        "name": "Prathap Givantha Kalansuriya",
+        "type": "User",
+        "url": "https://github.com/givanthak",
+        "location": "Colombo, Sri Lanka",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sri lanka"
+        },
+        "discoveryTerms": [
+          "Colombo",
+          "Lanka",
+          "Sri Lanka"
+        ]
+      }
+    }
+  ]
+}
