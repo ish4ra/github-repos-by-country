@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { renderMarkdown, renderRankingsIndex } from '../src/output.js';
+import { renderCountryProgressPage, renderMarkdown, renderRankingsIndex } from '../src/output.js';
 
 const ranking = {
   country: { code: 'LK', name: 'Sri Lanka', slug: 'sri-lanka' },
