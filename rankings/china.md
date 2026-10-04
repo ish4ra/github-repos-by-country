@@ -13,7 +13,7 @@
 
 | Updated | Ranked repositories | Unique owners in top ranking | Candidate cutoff | Methodology |
 | --- | ---: | ---: | ---: | --- |
-| 04 Oct 2026, 03:18 UTC | **100** | **83** | **22,875 stars** | `0.7.0-repository-first` |
+| 04 Oct 2026, 03:25 UTC | **100** | **83** | **22,700 stars** | `0.8.0-repository-first` |
 
 ## Ranking
 
@@ -53,7 +53,7 @@
         <a href="https://github.com/Snailclimb/JavaGuide"><strong>Snailclimb/JavaGuide</strong></a><br>
         <sub>Java 面试 &amp; 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发</sub>
       </td>
-      <td align="right"><strong>159,019</strong></td>
+      <td align="right"><strong>159,020</strong></td>
       <td align="right">46,142</td>
       <td>JavaScript</td>
       <td>Wuhan, Hubei</td>
@@ -77,7 +77,7 @@
         <a href="https://github.com/jaywcjlove/awesome-mac"><strong>jaywcjlove/awesome-mac</strong></a><br>
         <sub> This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and…</sub>
       </td>
-      <td align="right"><strong>115,351</strong></td>
+      <td align="right"><strong>115,352</strong></td>
       <td align="right">9,115</td>
       <td>Swift</td>
       <td>Suzhou, China</td>
@@ -97,18 +97,6 @@
     <tr>
       <td align="right"><strong>7</strong></td>
       <td>
-        <a href="https://github.com/Anduin2017"><img src="https://github.com/Anduin2017.png?size=64" width="28" height="28" alt="Anduin2017" align="left"></a>
-        <a href="https://github.com/Anduin2017/HowToCook"><strong>Anduin2017/HowToCook</strong></a><br>
-        <sub>Programmer&#39;s guide about how to cook at home.</sub>
-      </td>
-      <td align="right"><strong>102,392</strong></td>
-      <td align="right">11,100</td>
-      <td>—</td>
-      <td>Hong Kong SAR</td>
-    </tr>
-    <tr>
-      <td align="right"><strong>8</strong></td>
-      <td>
         <a href="https://github.com/ant-design"><img src="https://github.com/ant-design.png?size=64" width="28" height="28" alt="ant-design" align="left"></a>
         <a href="https://github.com/ant-design/ant-design"><strong>ant-design/ant-design</strong></a><br>
         <sub>An enterprise-class UI design language and React UI library</sub>
@@ -119,7 +107,7 @@
       <td>HangZhou, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>9</strong></td>
+      <td align="right"><strong>8</strong></td>
       <td>
         <a href="https://github.com/PanJiaChen"><img src="https://github.com/PanJiaChen.png?size=64" width="28" height="28" alt="PanJiaChen" align="left"></a>
         <a href="https://github.com/PanJiaChen/vue-element-admin"><strong>PanJiaChen/vue-element-admin</strong></a><br>
@@ -131,7 +119,7 @@
       <td>Shanghai, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>10</strong></td>
+      <td align="right"><strong>9</strong></td>
       <td>
         <a href="https://github.com/macrozheng"><img src="https://github.com/macrozheng.png?size=64" width="28" height="28" alt="macrozheng" align="left"></a>
         <a href="https://github.com/macrozheng/mall"><strong>macrozheng/mall</strong></a><br>
@@ -143,7 +131,7 @@
       <td>Wuxi,China</td>
     </tr>
     <tr>
-      <td align="right"><strong>11</strong></td>
+      <td align="right"><strong>10</strong></td>
       <td>
         <a href="https://github.com/MisterBooo"><img src="https://github.com/MisterBooo.png?size=64" width="28" height="28" alt="MisterBooo" align="left"></a>
         <a href="https://github.com/MisterBooo/LeetCodeAnimation"><strong>MisterBooo/LeetCodeAnimation</strong></a><br>
@@ -155,7 +143,7 @@
       <td>Guangzhou, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>12</strong></td>
+      <td align="right"><strong>11</strong></td>
       <td>
         <a href="https://github.com/PKUFlyingPig"><img src="https://github.com/PKUFlyingPig.png?size=64" width="28" height="28" alt="PKUFlyingPig" align="left"></a>
         <a href="https://github.com/PKUFlyingPig/cs-self-learning"><strong>PKUFlyingPig/cs-self-learning</strong></a><br>
@@ -167,7 +155,7 @@
       <td>Beijing, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>13</strong></td>
+      <td align="right"><strong>12</strong></td>
       <td>
         <a href="https://github.com/666ghj"><img src="https://github.com/666ghj.png?size=64" width="28" height="28" alt="666ghj" align="left"></a>
         <a href="https://github.com/666ghj/MiroFish"><strong>666ghj/MiroFish</strong></a><br>
@@ -179,7 +167,7 @@
       <td>Shanghai, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>14</strong></td>
+      <td align="right"><strong>13</strong></td>
       <td>
         <a href="https://github.com/hiyouga"><img src="https://github.com/hiyouga.png?size=64" width="28" height="28" alt="hiyouga" align="left"></a>
         <a href="https://github.com/hiyouga/LlamaFactory"><strong>hiyouga/LlamaFactory</strong></a><br>
@@ -191,7 +179,7 @@
       <td>Beijing, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>15</strong></td>
+      <td align="right"><strong>14</strong></td>
       <td>
         <a href="https://github.com/1c7"><img src="https://github.com/1c7.png?size=64" width="28" height="28" alt="1c7" align="left"></a>
         <a href="https://github.com/1c7/chinese-independent-developer"><strong>1c7/chinese-independent-developer</strong></a><br>
@@ -203,7 +191,7 @@
       <td>Guangzhou, China. 广州南沙</td>
     </tr>
     <tr>
-      <td align="right"><strong>16</strong></td>
+      <td align="right"><strong>15</strong></td>
       <td>
         <a href="https://github.com/xingshaocheng"><img src="https://github.com/xingshaocheng.png?size=64" width="28" height="28" alt="xingshaocheng" align="left"></a>
         <a href="https://github.com/xingshaocheng/architect-awesome"><strong>xingshaocheng/architect-awesome</strong></a><br>
@@ -215,19 +203,19 @@
       <td>Beijing</td>
     </tr>
     <tr>
-      <td align="right"><strong>17</strong></td>
+      <td align="right"><strong>16</strong></td>
       <td>
         <a href="https://github.com/Lordog"><img src="https://github.com/Lordog.png?size=64" width="28" height="28" alt="Lordog" align="left"></a>
         <a href="https://github.com/Lordog/dive-into-llms"><strong>Lordog/dive-into-llms</strong></a><br>
         <sub>《动手学大模型Dive into LLMs》系列编程实践教程</sub>
       </td>
-      <td align="right"><strong>55,617</strong></td>
+      <td align="right"><strong>55,616</strong></td>
       <td align="right">6,636</td>
       <td>Jupyter Notebook</td>
       <td>Shanghai, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>18</strong></td>
+      <td align="right"><strong>17</strong></td>
       <td>
         <a href="https://github.com/ElemeFE"><img src="https://github.com/ElemeFE.png?size=64" width="28" height="28" alt="ElemeFE" align="left"></a>
         <a href="https://github.com/ElemeFE/element"><strong>ElemeFE/element</strong></a><br>
@@ -239,7 +227,7 @@
       <td>Shanghai</td>
     </tr>
     <tr>
-      <td align="right"><strong>19</strong></td>
+      <td align="right"><strong>18</strong></td>
       <td>
         <a href="https://github.com/chinese-poetry"><img src="https://github.com/chinese-poetry.png?size=64" width="28" height="28" alt="chinese-poetry" align="left"></a>
         <a href="https://github.com/chinese-poetry/chinese-poetry"><strong>chinese-poetry/chinese-poetry</strong></a><br>
@@ -251,7 +239,7 @@
       <td>Shanghai, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>20</strong></td>
+      <td align="right"><strong>19</strong></td>
       <td>
         <a href="https://github.com/justjavac"><img src="https://github.com/justjavac.png?size=64" width="28" height="28" alt="justjavac" align="left"></a>
         <a href="https://github.com/justjavac/wechat-miniapp-radar"><strong>justjavac/wechat-miniapp-radar</strong></a><br>
@@ -263,31 +251,31 @@
       <td>Tianjin, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>21</strong></td>
+      <td align="right"><strong>20</strong></td>
       <td>
         <a href="https://github.com/iamkun"><img src="https://github.com/iamkun.png?size=64" width="28" height="28" alt="iamkun" align="left"></a>
         <a href="https://github.com/iamkun/dayjs"><strong>iamkun/dayjs</strong></a><br>
         <sub>⏰ Day.js 2kB immutable date-time library alternative to Moment.js with the same modern API</sub>
       </td>
       <td align="right"><strong>48,665</strong></td>
-      <td align="right">4,030</td>
+      <td align="right">4,033</td>
       <td>JavaScript</td>
       <td>Shanghai, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>22</strong></td>
+      <td align="right"><strong>21</strong></td>
       <td>
         <a href="https://github.com/vnpy"><img src="https://github.com/vnpy.png?size=64" width="28" height="28" alt="vnpy" align="left"></a>
         <a href="https://github.com/vnpy/vnpy"><strong>vnpy/vnpy</strong></a><br>
         <sub>基于Python的开源量化交易平台开发框架</sub>
       </td>
       <td align="right"><strong>45,675</strong></td>
-      <td align="right">12,495</td>
+      <td align="right">12,496</td>
       <td>Python</td>
       <td>Shanghai</td>
     </tr>
     <tr>
-      <td align="right"><strong>23</strong></td>
+      <td align="right"><strong>22</strong></td>
       <td>
         <a href="https://github.com/NaiboWang"><img src="https://github.com/NaiboWang.png?size=64" width="28" height="28" alt="NaiboWang" align="left"></a>
         <a href="https://github.com/NaiboWang/EasySpider"><strong>NaiboWang/EasySpider</strong></a><br>
@@ -299,7 +287,7 @@
       <td>Ningbo, Zhejiang Province</td>
     </tr>
     <tr>
-      <td align="right"><strong>24</strong></td>
+      <td align="right"><strong>23</strong></td>
       <td>
         <a href="https://github.com/astaxie"><img src="https://github.com/astaxie.png?size=64" width="28" height="28" alt="astaxie" align="left"></a>
         <a href="https://github.com/astaxie/build-web-application-with-golang"><strong>astaxie/build-web-application-with-golang</strong></a><br>
@@ -311,19 +299,19 @@
       <td>Shanghai, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>25</strong></td>
+      <td align="right"><strong>24</strong></td>
       <td>
         <a href="https://github.com/alibaba"><img src="https://github.com/alibaba.png?size=64" width="28" height="28" alt="alibaba" align="left"></a>
         <a href="https://github.com/alibaba/open-code-review"><strong>alibaba/open-code-review</strong></a><br>
         <sub>Secure, fast, efficient, battle-tested at Alibaba&#39;s scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-le…</sub>
       </td>
-      <td align="right"><strong>43,538</strong></td>
+      <td align="right"><strong>43,541</strong></td>
       <td align="right">3,140</td>
       <td>Go</td>
       <td>Hangzhou, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>26</strong></td>
+      <td align="right"><strong>25</strong></td>
       <td>
         <a href="https://github.com/Light-City"><img src="https://github.com/Light-City.png?size=64" width="28" height="28" alt="Light-City" align="left"></a>
         <a href="https://github.com/Light-City/CPlusPlusThings"><strong>Light-City/CPlusPlusThings</strong></a><br>
@@ -335,7 +323,7 @@
       <td>重庆</td>
     </tr>
     <tr>
-      <td align="right"><strong>27</strong></td>
+      <td align="right"><strong>26</strong></td>
       <td>
         <a href="https://github.com/666ghj"><img src="https://github.com/666ghj.png?size=64" width="28" height="28" alt="666ghj" align="left"></a>
         <a href="https://github.com/666ghj/BettaFish"><strong>666ghj/BettaFish</strong></a><br>
@@ -347,7 +335,7 @@
       <td>Shanghai, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>28</strong></td>
+      <td align="right"><strong>27</strong></td>
       <td>
         <a href="https://github.com/dcloudio"><img src="https://github.com/dcloudio.png?size=64" width="28" height="28" alt="dcloudio" align="left"></a>
         <a href="https://github.com/dcloudio/uni-app"><strong>dcloudio/uni-app</strong></a><br>
@@ -359,7 +347,7 @@
       <td>Beijing,China</td>
     </tr>
     <tr>
-      <td align="right"><strong>29</strong></td>
+      <td align="right"><strong>28</strong></td>
       <td>
         <a href="https://github.com/bailicangdu"><img src="https://github.com/bailicangdu.png?size=64" width="28" height="28" alt="bailicangdu" align="left"></a>
         <a href="https://github.com/bailicangdu/vue2-elm"><strong>bailicangdu/vue2-elm</strong></a><br>
@@ -371,7 +359,7 @@
       <td>Shanghai, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>30</strong></td>
+      <td align="right"><strong>29</strong></td>
       <td>
         <a href="https://github.com/YunaiV"><img src="https://github.com/YunaiV.png?size=64" width="28" height="28" alt="YunaiV" align="left"></a>
         <a href="https://github.com/YunaiV/ruoyi-vue-pro"><strong>YunaiV/ruoyi-vue-pro</strong></a><br>
@@ -383,7 +371,7 @@
       <td>Shanghai, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>31</strong></td>
+      <td align="right"><strong>30</strong></td>
       <td>
         <a href="https://github.com/huiyadanli"><img src="https://github.com/huiyadanli.png?size=64" width="28" height="28" alt="huiyadanli" align="left"></a>
         <a href="https://github.com/huiyadanli/RevokeMsgPatcher"><strong>huiyadanli/RevokeMsgPatcher</strong></a><br>
@@ -395,7 +383,7 @@
       <td>Hangzhou,China</td>
     </tr>
     <tr>
-      <td align="right"><strong>32</strong></td>
+      <td align="right"><strong>31</strong></td>
       <td>
         <a href="https://github.com/ant-design"><img src="https://github.com/ant-design.png?size=64" width="28" height="28" alt="ant-design" align="left"></a>
         <a href="https://github.com/ant-design/ant-design-pro"><strong>ant-design/ant-design-pro</strong></a><br>
@@ -407,7 +395,7 @@
       <td>HangZhou, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>33</strong></td>
+      <td align="right"><strong>32</strong></td>
       <td>
         <a href="https://github.com/huihut"><img src="https://github.com/huihut.png?size=64" width="28" height="28" alt="huihut" align="left"></a>
         <a href="https://github.com/huihut/interview"><strong>huihut/interview</strong></a><br>
@@ -419,19 +407,19 @@
       <td>Guangzhou, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>34</strong></td>
+      <td align="right"><strong>33</strong></td>
       <td>
         <a href="https://github.com/fengdu78"><img src="https://github.com/fengdu78.png?size=64" width="28" height="28" alt="fengdu78" align="left"></a>
         <a href="https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes"><strong>fengdu78/Coursera-ML-AndrewNg-Notes</strong></a><br>
         <sub>吴恩达老师的机器学习课程个人笔记</sub>
       </td>
-      <td align="right"><strong>37,885</strong></td>
+      <td align="right"><strong>37,886</strong></td>
       <td align="right">11,188</td>
       <td>HTML</td>
       <td>Qingdao,China</td>
     </tr>
     <tr>
-      <td align="right"><strong>35</strong></td>
+      <td align="right"><strong>34</strong></td>
       <td>
         <a href="https://github.com/FreeCodeCampChina"><img src="https://github.com/FreeCodeCampChina.png?size=64" width="28" height="28" alt="FreeCodeCampChina" align="left"></a>
         <a href="https://github.com/FreeCodeCampChina/freecodecamp.cn"><strong>FreeCodeCampChina/freecodecamp.cn</strong></a><br>
@@ -443,7 +431,7 @@
       <td>Suzhou, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>36</strong></td>
+      <td align="right"><strong>35</strong></td>
       <td>
         <a href="https://github.com/alibaba"><img src="https://github.com/alibaba.png?size=64" width="28" height="28" alt="alibaba" align="left"></a>
         <a href="https://github.com/alibaba/arthas"><strong>alibaba/arthas</strong></a><br>
@@ -455,19 +443,19 @@
       <td>Hangzhou, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>37</strong></td>
+      <td align="right"><strong>36</strong></td>
       <td>
         <a href="https://github.com/musistudio"><img src="https://github.com/musistudio.png?size=64" width="28" height="28" alt="musistudio" align="left"></a>
         <a href="https://github.com/musistudio/claude-code-router"><strong>musistudio/claude-code-router</strong></a><br>
         <sub>One local control plane for every AI agent: route across models, fuse new capabilities, orchestrate tools, and stay fully in control.</sub>
       </td>
-      <td align="right"><strong>37,526</strong></td>
+      <td align="right"><strong>37,527</strong></td>
       <td align="right">3,145</td>
       <td>TypeScript</td>
       <td>Hangzhou</td>
     </tr>
     <tr>
-      <td align="right"><strong>38</strong></td>
+      <td align="right"><strong>37</strong></td>
       <td>
         <a href="https://github.com/songquanpeng"><img src="https://github.com/songquanpeng.png?size=64" width="28" height="28" alt="songquanpeng" align="left"></a>
         <a href="https://github.com/songquanpeng/one-api"><strong>songquanpeng/one-api</strong></a><br>
@@ -479,7 +467,7 @@
       <td>Shanghai, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>39</strong></td>
+      <td align="right"><strong>38</strong></td>
       <td>
         <a href="https://github.com/jaywcjlove"><img src="https://github.com/jaywcjlove.png?size=64" width="28" height="28" alt="jaywcjlove" align="left"></a>
         <a href="https://github.com/jaywcjlove/linux-command"><strong>jaywcjlove/linux-command</strong></a><br>
@@ -491,7 +479,7 @@
       <td>Suzhou, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>40</strong></td>
+      <td align="right"><strong>39</strong></td>
       <td>
         <a href="https://github.com/AobingJava"><img src="https://github.com/AobingJava.png?size=64" width="28" height="28" alt="AobingJava" align="left"></a>
         <a href="https://github.com/AobingJava/JavaFamily"><strong>AobingJava/JavaFamily</strong></a><br>
@@ -503,7 +491,7 @@
       <td>杭州</td>
     </tr>
     <tr>
-      <td align="right"><strong>41</strong></td>
+      <td align="right"><strong>40</strong></td>
       <td>
         <a href="https://github.com/babysor"><img src="https://github.com/babysor.png?size=64" width="28" height="28" alt="babysor" align="left"></a>
         <a href="https://github.com/babysor/MockingBird"><strong>babysor/MockingBird</strong></a><br>
@@ -515,7 +503,7 @@
       <td>Beijing</td>
     </tr>
     <tr>
-      <td align="right"><strong>42</strong></td>
+      <td align="right"><strong>41</strong></td>
       <td>
         <a href="https://github.com/formulahendry"><img src="https://github.com/formulahendry.png?size=64" width="28" height="28" alt="formulahendry" align="left"></a>
         <a href="https://github.com/formulahendry/955.WLB"><strong>formulahendry/955.WLB</strong></a><br>
@@ -527,7 +515,7 @@
       <td>Shanghai, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>43</strong></td>
+      <td align="right"><strong>42</strong></td>
       <td>
         <a href="https://github.com/sorrycc"><img src="https://github.com/sorrycc.png?size=64" width="28" height="28" alt="sorrycc" align="left"></a>
         <a href="https://github.com/sorrycc/awesome-javascript"><strong>sorrycc/awesome-javascript</strong></a><br>
@@ -539,7 +527,7 @@
       <td>HangZhou, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>44</strong></td>
+      <td align="right"><strong>43</strong></td>
       <td>
         <a href="https://github.com/Leey21"><img src="https://github.com/Leey21.png?size=64" width="28" height="28" alt="Leey21" align="left"></a>
         <a href="https://github.com/Leey21/awesome-ai-research-writing"><strong>Leey21/awesome-ai-research-writing</strong></a><br>
@@ -551,7 +539,7 @@
       <td>Shanghai</td>
     </tr>
     <tr>
-      <td align="right"><strong>45</strong></td>
+      <td align="right"><strong>44</strong></td>
       <td>
         <a href="https://github.com/xitu"><img src="https://github.com/xitu.png?size=64" width="28" height="28" alt="xitu" align="left"></a>
         <a href="https://github.com/xitu/gold-miner"><strong>xitu/gold-miner</strong></a><br>
@@ -563,7 +551,7 @@
       <td>Beijing</td>
     </tr>
     <tr>
-      <td align="right"><strong>46</strong></td>
+      <td align="right"><strong>45</strong></td>
       <td>
         <a href="https://github.com/xkcoding"><img src="https://github.com/xkcoding.png?size=64" width="28" height="28" alt="xkcoding" align="left"></a>
         <a href="https://github.com/xkcoding/spring-boot-demo"><strong>xkcoding/spring-boot-demo</strong></a><br>
@@ -575,7 +563,7 @@
       <td>Hangzhou, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>47</strong></td>
+      <td align="right"><strong>46</strong></td>
       <td>
         <a href="https://github.com/chenfei-wu"><img src="https://github.com/chenfei-wu.png?size=64" width="28" height="28" alt="chenfei-wu" align="left"></a>
         <a href="https://github.com/chenfei-wu/TaskMatrix"><strong>chenfei-wu/TaskMatrix</strong></a><br>
@@ -587,7 +575,7 @@
       <td>Beijing</td>
     </tr>
     <tr>
-      <td align="right"><strong>48</strong></td>
+      <td align="right"><strong>47</strong></td>
       <td>
         <a href="https://github.com/Blankj"><img src="https://github.com/Blankj.png?size=64" width="28" height="28" alt="Blankj" align="left"></a>
         <a href="https://github.com/Blankj/AndroidUtilCode"><strong>Blankj/AndroidUtilCode</strong></a><br>
@@ -599,7 +587,7 @@
       <td>Hangzhou</td>
     </tr>
     <tr>
-      <td align="right"><strong>49</strong></td>
+      <td align="right"><strong>48</strong></td>
       <td>
         <a href="https://github.com/alibaba"><img src="https://github.com/alibaba.png?size=64" width="28" height="28" alt="alibaba" align="left"></a>
         <a href="https://github.com/alibaba/easyexcel"><strong>alibaba/easyexcel</strong></a> <sub>archived</sub><br>
@@ -611,7 +599,7 @@
       <td>Hangzhou, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>50</strong></td>
+      <td align="right"><strong>49</strong></td>
       <td>
         <a href="https://github.com/alibaba"><img src="https://github.com/alibaba.png?size=64" width="28" height="28" alt="alibaba" align="left"></a>
         <a href="https://github.com/alibaba/nacos"><strong>alibaba/nacos</strong></a><br>
@@ -623,7 +611,7 @@
       <td>Hangzhou, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>51</strong></td>
+      <td align="right"><strong>50</strong></td>
       <td>
         <a href="https://github.com/bilibili"><img src="https://github.com/bilibili.png?size=64" width="28" height="28" alt="bilibili" align="left"></a>
         <a href="https://github.com/bilibili/ijkplayer"><strong>bilibili/ijkplayer</strong></a><br>
@@ -635,7 +623,7 @@
       <td>Shanghai, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>52</strong></td>
+      <td align="right"><strong>51</strong></td>
       <td>
         <a href="https://github.com/barry-ran"><img src="https://github.com/barry-ran.png?size=64" width="28" height="28" alt="barry-ran" align="left"></a>
         <a href="https://github.com/barry-ran/QtScrcpy"><strong>barry-ran/QtScrcpy</strong></a><br>
@@ -647,7 +635,7 @@
       <td>Shanghai</td>
     </tr>
     <tr>
-      <td align="right"><strong>53</strong></td>
+      <td align="right"><strong>52</strong></td>
       <td>
         <a href="https://github.com/linexjlin"><img src="https://github.com/linexjlin.png?size=64" width="28" height="28" alt="linexjlin" align="left"></a>
         <a href="https://github.com/linexjlin/GPTs"><strong>linexjlin/GPTs</strong></a><br>
@@ -659,7 +647,7 @@
       <td>Shanghai</td>
     </tr>
     <tr>
-      <td align="right"><strong>54</strong></td>
+      <td align="right"><strong>53</strong></td>
       <td>
         <a href="https://github.com/Trinea"><img src="https://github.com/Trinea.png?size=64" width="28" height="28" alt="Trinea" align="left"></a>
         <a href="https://github.com/Trinea/android-open-project"><strong>Trinea/android-open-project</strong></a><br>
@@ -671,7 +659,7 @@
       <td>HangZhou</td>
     </tr>
     <tr>
-      <td align="right"><strong>55</strong></td>
+      <td align="right"><strong>54</strong></td>
       <td>
         <a href="https://github.com/iawia002"><img src="https://github.com/iawia002.png?size=64" width="28" height="28" alt="iawia002" align="left"></a>
         <a href="https://github.com/iawia002/lux"><strong>iawia002/lux</strong></a><br>
@@ -683,7 +671,7 @@
       <td>Chengdu, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>56</strong></td>
+      <td align="right"><strong>55</strong></td>
       <td>
         <a href="https://github.com/Chanzhaoyu"><img src="https://github.com/Chanzhaoyu.png?size=64" width="28" height="28" alt="Chanzhaoyu" align="left"></a>
         <a href="https://github.com/Chanzhaoyu/chatgpt-web"><strong>Chanzhaoyu/chatgpt-web</strong></a> <sub>archived</sub><br>
@@ -695,7 +683,7 @@
       <td>DongGuan, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>57</strong></td>
+      <td align="right"><strong>56</strong></td>
       <td>
         <a href="https://github.com/ascoders"><img src="https://github.com/ascoders.png?size=64" width="28" height="28" alt="ascoders" align="left"></a>
         <a href="https://github.com/ascoders/weekly"><strong>ascoders/weekly</strong></a><br>
@@ -707,7 +695,7 @@
       <td>Hangzhou, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>58</strong></td>
+      <td align="right"><strong>57</strong></td>
       <td>
         <a href="https://github.com/mqyqingfeng"><img src="https://github.com/mqyqingfeng.png?size=64" width="28" height="28" alt="mqyqingfeng" align="left"></a>
         <a href="https://github.com/mqyqingfeng/Blog"><strong>mqyqingfeng/Blog</strong></a><br>
@@ -719,7 +707,7 @@
       <td>Hangzhou, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>59</strong></td>
+      <td align="right"><strong>58</strong></td>
       <td>
         <a href="https://github.com/sunface"><img src="https://github.com/sunface.png?size=64" width="28" height="28" alt="sunface" align="left"></a>
         <a href="https://github.com/sunface/rust-course"><strong>sunface/rust-course</strong></a><br>
@@ -731,7 +719,7 @@
       <td>Beijing</td>
     </tr>
     <tr>
-      <td align="right"><strong>60</strong></td>
+      <td align="right"><strong>59</strong></td>
       <td>
         <a href="https://github.com/alibaba"><img src="https://github.com/alibaba.png?size=64" width="28" height="28" alt="alibaba" align="left"></a>
         <a href="https://github.com/alibaba/p3c"><strong>alibaba/p3c</strong></a><br>
@@ -743,7 +731,7 @@
       <td>Hangzhou, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>61</strong></td>
+      <td align="right"><strong>60</strong></td>
       <td>
         <a href="https://github.com/the1812"><img src="https://github.com/the1812.png?size=64" width="28" height="28" alt="the1812" align="left"></a>
         <a href="https://github.com/the1812/Bilibili-Evolved"><strong>the1812/Bilibili-Evolved</strong></a><br>
@@ -755,7 +743,7 @@
       <td>Hangzhou, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>62</strong></td>
+      <td align="right"><strong>61</strong></td>
       <td>
         <a href="https://github.com/jobbole"><img src="https://github.com/jobbole.png?size=64" width="28" height="28" alt="jobbole" align="left"></a>
         <a href="https://github.com/jobbole/awesome-python-cn"><strong>jobbole/awesome-python-cn</strong></a><br>
@@ -767,7 +755,7 @@
       <td>ShangHai</td>
     </tr>
     <tr>
-      <td align="right"><strong>63</strong></td>
+      <td align="right"><strong>62</strong></td>
       <td>
         <a href="https://github.com/xuxueli"><img src="https://github.com/xuxueli.png?size=64" width="28" height="28" alt="xuxueli" align="left"></a>
         <a href="https://github.com/xuxueli/xxl-job"><strong>xuxueli/xxl-job</strong></a><br>
@@ -779,7 +767,7 @@
       <td>Shanghai, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>64</strong></td>
+      <td align="right"><strong>63</strong></td>
       <td>
         <a href="https://github.com/ityouknow"><img src="https://github.com/ityouknow.png?size=64" width="28" height="28" alt="ityouknow" align="left"></a>
         <a href="https://github.com/ityouknow/spring-boot-examples"><strong>ityouknow/spring-boot-examples</strong></a><br>
@@ -791,19 +779,19 @@
       <td>beijing,china</td>
     </tr>
     <tr>
-      <td align="right"><strong>65</strong></td>
+      <td align="right"><strong>64</strong></td>
       <td>
         <a href="https://github.com/imDazui"><img src="https://github.com/imDazui.png?size=64" width="28" height="28" alt="imDazui" align="left"></a>
         <a href="https://github.com/imDazui/Tvlist-awesome-m3u-m3u8"><strong>imDazui/Tvlist-awesome-m3u-m3u8</strong></a><br>
         <sub>直播源相关资源汇总 📺 💯 IPTV、M3U —— 勤洗手、戴口罩，祝愿所有人百毒不侵</sub>
       </td>
-      <td align="right"><strong>30,089</strong></td>
+      <td align="right"><strong>30,090</strong></td>
       <td align="right">3,470</td>
       <td>—</td>
       <td>Beijing</td>
     </tr>
     <tr>
-      <td align="right"><strong>66</strong></td>
+      <td align="right"><strong>65</strong></td>
       <td>
         <a href="https://github.com/521xueweihan"><img src="https://github.com/521xueweihan.png?size=64" width="28" height="28" alt="521xueweihan" align="left"></a>
         <a href="https://github.com/521xueweihan/GitHub520"><strong>521xueweihan/GitHub520</strong></a><br>
@@ -815,7 +803,7 @@
       <td>Beijing, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>67</strong></td>
+      <td align="right"><strong>66</strong></td>
       <td>
         <a href="https://github.com/jackwener"><img src="https://github.com/jackwener.png?size=64" width="28" height="28" alt="jackwener" align="left"></a>
         <a href="https://github.com/jackwener/OpenCLI"><strong>jackwener/OpenCLI</strong></a><br>
@@ -827,7 +815,7 @@
       <td>Hangzhou, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>68</strong></td>
+      <td align="right"><strong>67</strong></td>
       <td>
         <a href="https://github.com/alibaba"><img src="https://github.com/alibaba.png?size=64" width="28" height="28" alt="alibaba" align="left"></a>
         <a href="https://github.com/alibaba/canal"><strong>alibaba/canal</strong></a><br>
@@ -839,7 +827,7 @@
       <td>Hangzhou, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>69</strong></td>
+      <td align="right"><strong>68</strong></td>
       <td>
         <a href="https://github.com/zhiwehu"><img src="https://github.com/zhiwehu.png?size=64" width="28" height="28" alt="zhiwehu" align="left"></a>
         <a href="https://github.com/zhiwehu/Python-programming-exercises"><strong>zhiwehu/Python-programming-exercises</strong></a><br>
@@ -851,19 +839,19 @@
       <td>Hefei, Anhui, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>70</strong></td>
+      <td align="right"><strong>69</strong></td>
       <td>
         <a href="https://github.com/alibaba"><img src="https://github.com/alibaba.png?size=64" width="28" height="28" alt="alibaba" align="left"></a>
         <a href="https://github.com/alibaba/page-agent"><strong>alibaba/page-agent</strong></a><br>
         <sub>JavaScript in-page GUI agent. Control web interfaces with natural language.</sub>
       </td>
       <td align="right"><strong>29,318</strong></td>
-      <td align="right">2,635</td>
+      <td align="right">2,636</td>
       <td>TypeScript</td>
       <td>Hangzhou, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>71</strong></td>
+      <td align="right"><strong>70</strong></td>
       <td>
         <a href="https://github.com/alibaba"><img src="https://github.com/alibaba.png?size=64" width="28" height="28" alt="alibaba" align="left"></a>
         <a href="https://github.com/alibaba/spring-cloud-alibaba"><strong>alibaba/spring-cloud-alibaba</strong></a><br>
@@ -875,7 +863,7 @@
       <td>Hangzhou, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>72</strong></td>
+      <td align="right"><strong>71</strong></td>
       <td>
         <a href="https://github.com/subframe7536"><img src="https://github.com/subframe7536.png?size=64" width="28" height="28" alt="subframe7536" align="left"></a>
         <a href="https://github.com/subframe7536/maple-font"><strong>subframe7536/maple-font</strong></a><br>
@@ -887,7 +875,7 @@
       <td>Hangzhou, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>73</strong></td>
+      <td align="right"><strong>72</strong></td>
       <td>
         <a href="https://github.com/alibaba"><img src="https://github.com/alibaba.png?size=64" width="28" height="28" alt="alibaba" align="left"></a>
         <a href="https://github.com/alibaba/druid"><strong>alibaba/druid</strong></a><br>
@@ -899,7 +887,7 @@
       <td>Hangzhou, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>74</strong></td>
+      <td align="right"><strong>73</strong></td>
       <td>
         <a href="https://github.com/YMFE"><img src="https://github.com/YMFE.png?size=64" width="28" height="28" alt="YMFE" align="left"></a>
         <a href="https://github.com/YMFE/yapi"><strong>YMFE/yapi</strong></a><br>
@@ -911,7 +899,7 @@
       <td>北京</td>
     </tr>
     <tr>
-      <td align="right"><strong>75</strong></td>
+      <td align="right"><strong>74</strong></td>
       <td>
         <a href="https://github.com/coder2gwy"><img src="https://github.com/coder2gwy.png?size=64" width="28" height="28" alt="coder2gwy" align="left"></a>
         <a href="https://github.com/coder2gwy/coder2gwy"><strong>coder2gwy/coder2gwy</strong></a><br>
@@ -923,7 +911,7 @@
       <td>中国</td>
     </tr>
     <tr>
-      <td align="right"><strong>76</strong></td>
+      <td align="right"><strong>75</strong></td>
       <td>
         <a href="https://github.com/forthespada"><img src="https://github.com/forthespada.png?size=64" width="28" height="28" alt="forthespada" align="left"></a>
         <a href="https://github.com/forthespada/CS-Books"><strong>forthespada/CS-Books</strong></a><br>
@@ -935,7 +923,7 @@
       <td>上海</td>
     </tr>
     <tr>
-      <td align="right"><strong>77</strong></td>
+      <td align="right"><strong>76</strong></td>
       <td>
         <a href="https://github.com/maotoumao"><img src="https://github.com/maotoumao.png?size=64" width="28" height="28" alt="maotoumao" align="left"></a>
         <a href="https://github.com/maotoumao/MusicFree"><strong>maotoumao/MusicFree</strong></a><br>
@@ -947,19 +935,19 @@
       <td>Beijing, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>78</strong></td>
+      <td align="right"><strong>77</strong></td>
       <td>
         <a href="https://github.com/oldj"><img src="https://github.com/oldj.png?size=64" width="28" height="28" alt="oldj" align="left"></a>
         <a href="https://github.com/oldj/SwitchHosts"><strong>oldj/SwitchHosts</strong></a><br>
         <sub>Switch hosts quickly!</sub>
       </td>
-      <td align="right"><strong>27,253</strong></td>
+      <td align="right"><strong>27,254</strong></td>
       <td align="right">2,683</td>
       <td>Rust</td>
       <td>Hangzhou, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>79</strong></td>
+      <td align="right"><strong>78</strong></td>
       <td>
         <a href="https://github.com/op7418"><img src="https://github.com/op7418.png?size=64" width="28" height="28" alt="op7418" align="left"></a>
         <a href="https://github.com/op7418/guizang-ppt-skill"><strong>op7418/guizang-ppt-skill</strong></a><br>
@@ -971,7 +959,7 @@
       <td>beijing</td>
     </tr>
     <tr>
-      <td align="right"><strong>80</strong></td>
+      <td align="right"><strong>79</strong></td>
       <td>
         <a href="https://github.com/houshanren"><img src="https://github.com/houshanren.png?size=64" width="28" height="28" alt="houshanren" align="left"></a>
         <a href="https://github.com/houshanren/hangzhou_house_knowledge"><strong>houshanren/hangzhou_house_knowledge</strong></a><br>
@@ -983,7 +971,7 @@
       <td>杭州市</td>
     </tr>
     <tr>
-      <td align="right"><strong>81</strong></td>
+      <td align="right"><strong>80</strong></td>
       <td>
         <a href="https://github.com/crossoverJie"><img src="https://github.com/crossoverJie.png?size=64" width="28" height="28" alt="crossoverJie" align="left"></a>
         <a href="https://github.com/crossoverJie/JCSprout"><strong>crossoverJie/JCSprout</strong></a><br>
@@ -995,7 +983,7 @@
       <td>Chongqing, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>82</strong></td>
+      <td align="right"><strong>81</strong></td>
       <td>
         <a href="https://github.com/OI-wiki"><img src="https://github.com/OI-wiki.png?size=64" width="28" height="28" alt="OI-wiki" align="left"></a>
         <a href="https://github.com/OI-wiki/OI-wiki"><strong>OI-wiki/OI-wiki</strong></a><br>
@@ -1007,7 +995,7 @@
       <td>Beijing, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>83</strong></td>
+      <td align="right"><strong>82</strong></td>
       <td>
         <a href="https://github.com/baidu"><img src="https://github.com/baidu.png?size=64" width="28" height="28" alt="baidu" align="left"></a>
         <a href="https://github.com/baidu/Unlimited-OCR"><strong>baidu/Unlimited-OCR</strong></a><br>
@@ -1019,7 +1007,7 @@
       <td>Beijing, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>84</strong></td>
+      <td align="right"><strong>83</strong></td>
       <td>
         <a href="https://github.com/alibaba"><img src="https://github.com/alibaba.png?size=64" width="28" height="28" alt="alibaba" align="left"></a>
         <a href="https://github.com/alibaba/fastjson"><strong>alibaba/fastjson</strong></a> <sub>archived</sub><br>
@@ -1031,7 +1019,7 @@
       <td>Hangzhou, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>85</strong></td>
+      <td align="right"><strong>84</strong></td>
       <td>
         <a href="https://github.com/hollischuang"><img src="https://github.com/hollischuang.png?size=64" width="28" height="28" alt="hollischuang" align="left"></a>
         <a href="https://github.com/hollischuang/toBeTopJavaer"><strong>hollischuang/toBeTopJavaer</strong></a><br>
@@ -1043,7 +1031,7 @@
       <td>Hangzhou, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>86</strong></td>
+      <td align="right"><strong>85</strong></td>
       <td>
         <a href="https://github.com/titanwings"><img src="https://github.com/titanwings.png?size=64" width="28" height="28" alt="titanwings" align="left"></a>
         <a href="https://github.com/titanwings/distilly"><strong>titanwings/distilly</strong></a><br>
@@ -1055,7 +1043,7 @@
       <td>Shanghai</td>
     </tr>
     <tr>
-      <td align="right"><strong>87</strong></td>
+      <td align="right"><strong>86</strong></td>
       <td>
         <a href="https://github.com/liguodongiot"><img src="https://github.com/liguodongiot.png?size=64" width="28" height="28" alt="liguodongiot" align="left"></a>
         <a href="https://github.com/liguodongiot/llm-action"><strong>liguodongiot/llm-action</strong></a><br>
@@ -1067,7 +1055,7 @@
       <td>Chengdu, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>88</strong></td>
+      <td align="right"><strong>87</strong></td>
       <td>
         <a href="https://github.com/CymChad"><img src="https://github.com/CymChad.png?size=64" width="28" height="28" alt="CymChad" align="left"></a>
         <a href="https://github.com/CymChad/BaseRecyclerViewAdapterHelper"><strong>CymChad/BaseRecyclerViewAdapterHelper</strong></a><br>
@@ -1079,7 +1067,7 @@
       <td>长沙</td>
     </tr>
     <tr>
-      <td align="right"><strong>89</strong></td>
+      <td align="right"><strong>88</strong></td>
       <td>
         <a href="https://github.com/leiurayer"><img src="https://github.com/leiurayer.png?size=64" width="28" height="28" alt="leiurayer" align="left"></a>
         <a href="https://github.com/leiurayer/downkyi"><strong>leiurayer/downkyi</strong></a><br>
@@ -1091,7 +1079,7 @@
       <td>Beijing</td>
     </tr>
     <tr>
-      <td align="right"><strong>90</strong></td>
+      <td align="right"><strong>89</strong></td>
       <td>
         <a href="https://github.com/youzan"><img src="https://github.com/youzan.png?size=64" width="28" height="28" alt="youzan" align="left"></a>
         <a href="https://github.com/youzan/vant"><strong>youzan/vant</strong></a><br>
@@ -1103,19 +1091,19 @@
       <td>杭州</td>
     </tr>
     <tr>
-      <td align="right"><strong>91</strong></td>
+      <td align="right"><strong>90</strong></td>
       <td>
         <a href="https://github.com/youhunwl"><img src="https://github.com/youhunwl.png?size=64" width="28" height="28" alt="youhunwl" align="left"></a>
         <a href="https://github.com/youhunwl/TVAPP"><strong>youhunwl/TVAPP</strong></a><br>
         <sub>收集全网 Android TV电视盒子应用，涵盖影视、直播、K歌、工具、游戏等类型，整理优质APK资源，支持便捷下载与自动更新。提供安全验证、分类索引与兼容性标注，助力用户打造家庭影音娱乐中心！ ✅ TVBox/影视仓等影音壳接口配置源。</sub>
       </td>
       <td align="right"><strong>24,297</strong></td>
-      <td align="right">3,302</td>
+      <td align="right">3,303</td>
       <td>JavaScript</td>
       <td>Beijing,China</td>
     </tr>
     <tr>
-      <td align="right"><strong>92</strong></td>
+      <td align="right"><strong>91</strong></td>
       <td>
         <a href="https://github.com/timqian"><img src="https://github.com/timqian.png?size=64" width="28" height="28" alt="timqian" align="left"></a>
         <a href="https://github.com/timqian/chinese-independent-blogs"><strong>timqian/chinese-independent-blogs</strong></a><br>
@@ -1127,7 +1115,7 @@
       <td>ChongQing, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>93</strong></td>
+      <td align="right"><strong>92</strong></td>
       <td>
         <a href="https://github.com/ayangweb"><img src="https://github.com/ayangweb.png?size=64" width="28" height="28" alt="ayangweb" align="left"></a>
         <a href="https://github.com/ayangweb/BongoCat"><strong>ayangweb/BongoCat</strong></a><br>
@@ -1139,7 +1127,7 @@
       <td>Qinghai, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>94</strong></td>
+      <td align="right"><strong>93</strong></td>
       <td>
         <a href="https://github.com/iview"><img src="https://github.com/iview.png?size=64" width="28" height="28" alt="iview" align="left"></a>
         <a href="https://github.com/iview/iview"><strong>iview/iview</strong></a><br>
@@ -1151,7 +1139,7 @@
       <td>BeiJing</td>
     </tr>
     <tr>
-      <td align="right"><strong>95</strong></td>
+      <td align="right"><strong>94</strong></td>
       <td>
         <a href="https://github.com/jhao104"><img src="https://github.com/jhao104.png?size=64" width="28" height="28" alt="jhao104" align="left"></a>
         <a href="https://github.com/jhao104/proxy_pool"><strong>jhao104/proxy_pool</strong></a><br>
@@ -1163,7 +1151,7 @@
       <td>ChengDu</td>
     </tr>
     <tr>
-      <td align="right"><strong>96</strong></td>
+      <td align="right"><strong>95</strong></td>
       <td>
         <a href="https://github.com/alibaba"><img src="https://github.com/alibaba.png?size=64" width="28" height="28" alt="alibaba" align="left"></a>
         <a href="https://github.com/alibaba/flutter-go"><strong>alibaba/flutter-go</strong></a><br>
@@ -1175,7 +1163,7 @@
       <td>Hangzhou, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>97</strong></td>
+      <td align="right"><strong>96</strong></td>
       <td>
         <a href="https://github.com/Sanster"><img src="https://github.com/Sanster.png?size=64" width="28" height="28" alt="Sanster" align="left"></a>
         <a href="https://github.com/Sanster/IOPaint"><strong>Sanster/IOPaint</strong></a> <sub>archived</sub><br>
@@ -1187,7 +1175,7 @@
       <td>Shanghai</td>
     </tr>
     <tr>
-      <td align="right"><strong>98</strong></td>
+      <td align="right"><strong>97</strong></td>
       <td>
         <a href="https://github.com/bilibili"><img src="https://github.com/bilibili.png?size=64" width="28" height="28" alt="bilibili" align="left"></a>
         <a href="https://github.com/bilibili/flv.js"><strong>bilibili/flv.js</strong></a><br>
@@ -1199,7 +1187,7 @@
       <td>Shanghai, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>99</strong></td>
+      <td align="right"><strong>98</strong></td>
       <td>
         <a href="https://github.com/alibaba"><img src="https://github.com/alibaba.png?size=64" width="28" height="28" alt="alibaba" align="left"></a>
         <a href="https://github.com/alibaba/Sentinel"><strong>alibaba/Sentinel</strong></a><br>
@@ -1211,7 +1199,7 @@
       <td>Hangzhou, China</td>
     </tr>
     <tr>
-      <td align="right"><strong>100</strong></td>
+      <td align="right"><strong>99</strong></td>
       <td>
         <a href="https://github.com/amusi"><img src="https://github.com/amusi.png?size=64" width="28" height="28" alt="amusi" align="left"></a>
         <a href="https://github.com/amusi/CVPR2026-Papers-with-Code"><strong>amusi/CVPR2026-Papers-with-Code</strong></a><br>
@@ -1221,6 +1209,18 @@
       <td align="right">2,790</td>
       <td>—</td>
       <td>Shanghai, China</td>
+    </tr>
+    <tr>
+      <td align="right"><strong>100</strong></td>
+      <td>
+        <a href="https://github.com/chaitin"><img src="https://github.com/chaitin.png?size=64" width="28" height="28" alt="chaitin" align="left"></a>
+        <a href="https://github.com/chaitin/SafeLine"><strong>chaitin/SafeLine</strong></a><br>
+        <sub>SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits.</sub>
+      </td>
+      <td align="right"><strong>22,700</strong></td>
+      <td align="right">1,544</td>
+      <td>Go</td>
+      <td>Beijing</td>
     </tr>
   </tbody>
 </table>

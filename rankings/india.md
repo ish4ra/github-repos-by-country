@@ -51,7 +51,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) | **121,794** | Bangalore, India |
+| [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) | **121,795** | Bangalore, India |
 | [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) | **79,825** | India, West Bengal |
 | [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | **47,704** | Guwahati, Assam, India |
 | [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | **45,274** | Bangalore, India |

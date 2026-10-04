@@ -52,10 +52,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) | **33,512** | Boa Vista, Roraima. |
-| [NickeManarin/ScreenToGif](https://github.com/NickeManarin/ScreenToGif) | **27,737** | Porto Alegre, Rio Grande do Sul, Brazil |
+| [NickeManarin/ScreenToGif](https://github.com/NickeManarin/ScreenToGif) | **27,738** | Porto Alegre, Rio Grande do Sul, Brazil |
 | [danielgatis/rembg](https://github.com/danielgatis/rembg) | **24,957** | Recife - PE |
 | [pedronauck/docz](https://github.com/pedronauck/docz) | **23,571** | Florianópolis |
-| [Diolinux/PhotoGIMP](https://github.com/Diolinux/PhotoGIMP) | **18,253** | Brasil |
+| [Diolinux/PhotoGIMP](https://github.com/Diolinux/PhotoGIMP) | **18,254** | Brasil |
 | [ellisonleao/magictools](https://github.com/ellisonleao/magictools) | **17,417** | Curitiba |
 | [gustavoguanabara/html-css](https://github.com/gustavoguanabara/html-css) | **16,580** | Rio de Janeiro, Brazil |
 | [arthurspk/guiadevbrasil](https://github.com/arthurspk/guiadevbrasil) | **15,795** | Alagoas, Brazil |

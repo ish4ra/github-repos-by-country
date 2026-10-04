@@ -52,7 +52,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) | **94,754** | Finland |
-| [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) | **75,164** | Helsinki, Finland |
+| [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) | **75,165** | Helsinki, Finland |
 | [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) | **46,874** | Helsinki, Finland |
 | [Asabeneh/30-Days-Of-React](https://github.com/Asabeneh/30-Days-Of-React) | **27,515** | Helsinki, Finland |
 | [mxgmn/WaveFunctionCollapse](https://github.com/mxgmn/WaveFunctionCollapse) | **25,377** | Helsinki |

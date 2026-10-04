@@ -51,7 +51,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | **109,562** | Netherlands |
+| [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | **109,563** | Netherlands |
 | [JetBrains/kotlin](https://github.com/JetBrains/kotlin) | **53,471** | Netherlands |
 | [juanfont/headscale](https://github.com/juanfont/headscale) | **44,330** | Leiden, Netherlands |
 | [faif/python-patterns](https://github.com/faif/python-patterns) | **43,033** | Netherlands |

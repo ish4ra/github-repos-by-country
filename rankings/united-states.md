@@ -13,7 +13,7 @@
 
 | Updated | Ranked repositories | Unique owners in top ranking | Candidate cutoff | Methodology |
 | --- | ---: | ---: | ---: | --- |
-| 04 Oct 2026, 03:18 UTC | **100** | **78** | **49,823 stars** | `0.7.0-repository-first` |
+| 04 Oct 2026, 03:25 UTC | **100** | **78** | **49,824 stars** | `0.8.0-repository-first` |
 
 ## Ranking
 
@@ -29,7 +29,7 @@
         <a href="https://github.com/codecrafters-io/build-your-own-x"><strong>codecrafters-io/build-your-own-x</strong></a><br>
         <sub>Master programming by recreating your favorite technologies from scratch.</sub>
       </td>
-      <td align="right"><strong>551,405</strong></td>
+      <td align="right"><strong>551,406</strong></td>
       <td align="right">51,747</td>
       <td>Markdown</td>
       <td>United States of America</td>
@@ -42,7 +42,7 @@
         <sub>freeCodeCamp.org&#39;s open-source codebase and curriculum. Learn math, programming, and computer science for free.</sub>
       </td>
       <td align="right"><strong>456,710</strong></td>
-      <td align="right">48,106</td>
+      <td align="right">48,108</td>
       <td>TypeScript</td>
       <td>United States of America</td>
     </tr>
@@ -90,7 +90,7 @@
         <sub>Linux kernel source tree</sub>
       </td>
       <td align="right"><strong>250,982</strong></td>
-      <td align="right">66,642</td>
+      <td align="right">66,644</td>
       <td>C</td>
       <td>Portland, OR</td>
     </tr>
@@ -101,7 +101,7 @@
         <a href="https://github.com/DigitalPlatDev/FreeDomain"><strong>DigitalPlatDev/FreeDomain</strong></a><br>
         <sub>Free domain registration and practical DNS learning resources for everyone.</sub>
       </td>
-      <td align="right"><strong>202,383</strong></td>
+      <td align="right"><strong>202,384</strong></td>
       <td align="right">4,439</td>
       <td>Markdown</td>
       <td>United States of America</td>
@@ -126,7 +126,7 @@
         <sub>🙃 A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git…</sub>
       </td>
       <td align="right"><strong>190,096</strong></td>
-      <td align="right">28,302</td>
+      <td align="right">28,303</td>
       <td>Shell</td>
       <td>Portland, OR</td>
     </tr>
@@ -137,8 +137,8 @@
         <a href="https://github.com/firecrawl/firecrawl"><strong>firecrawl/firecrawl</strong></a><br>
         <sub>Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥</sub>
       </td>
-      <td align="right"><strong>188,316</strong></td>
-      <td align="right">10,020</td>
+      <td align="right"><strong>188,318</strong></td>
+      <td align="right">10,021</td>
       <td>TypeScript</td>
       <td>United States of America</td>
     </tr>
@@ -149,7 +149,7 @@
         <a href="https://github.com/microsoft/markitdown"><strong>microsoft/markitdown</strong></a><br>
         <sub>Python tool for converting files and office documents to Markdown.</sub>
       </td>
-      <td align="right"><strong>188,217</strong></td>
+      <td align="right"><strong>188,216</strong></td>
       <td align="right">13,933</td>
       <td>Python</td>
       <td>Redmond, WA</td>
@@ -209,8 +209,8 @@
         <a href="https://github.com/anthropics/claude-code"><strong>anthropics/claude-code</strong></a><br>
         <sub>Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, e…</sub>
       </td>
-      <td align="right"><strong>149,242</strong></td>
-      <td align="right">25,389</td>
+      <td align="right"><strong>149,244</strong></td>
+      <td align="right">25,390</td>
       <td>TypeScript</td>
       <td>United States of America</td>
     </tr>
@@ -269,7 +269,7 @@
         <a href="https://github.com/Graphify-Labs/graphify"><strong>Graphify-Labs/graphify</strong></a><br>
         <sub>Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex,…</sub>
       </td>
-      <td align="right"><strong>123,574</strong></td>
+      <td align="right"><strong>123,576</strong></td>
       <td align="right">11,911</td>
       <td>Python</td>
       <td>United States of America</td>
@@ -306,7 +306,7 @@
         <sub>Empowering everyone to build reliable and efficient software.</sub>
       </td>
       <td align="right"><strong>119,480</strong></td>
-      <td align="right">17,491</td>
+      <td align="right">17,493</td>
       <td>Rust</td>
       <td>United States of America</td>
     </tr>
@@ -329,7 +329,7 @@
         <a href="https://github.com/browser-use/browser-use"><strong>browser-use/browser-use</strong></a><br>
         <sub>Agents that use the browser.</sub>
       </td>
-      <td align="right"><strong>117,081</strong></td>
+      <td align="right"><strong>117,082</strong></td>
       <td align="right">12,923</td>
       <td>Python</td>
       <td>United States of America</td>
@@ -366,7 +366,7 @@
         <sub>The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.</sub>
       </td>
       <td align="right"><strong>111,060</strong></td>
-      <td align="right">15,660</td>
+      <td align="right">15,663</td>
       <td>TypeScript</td>
       <td>United States of America</td>
     </tr>
@@ -377,7 +377,7 @@
         <a href="https://github.com/TauricResearch/TradingAgents"><strong>TauricResearch/TradingAgents</strong></a><br>
         <sub>TradingAgents: Multi-Agents LLM Financial Trading Framework</sub>
       </td>
-      <td align="right"><strong>109,646</strong></td>
+      <td align="right"><strong>109,647</strong></td>
       <td align="right">21,082</td>
       <td>Python</td>
       <td>United States of America</td>
@@ -414,7 +414,7 @@
         <sub>Deliver web apps with confidence 🚀</sub>
       </td>
       <td align="right"><strong>101,015</strong></td>
-      <td align="right">29,257</td>
+      <td align="right">29,259</td>
       <td>TypeScript</td>
       <td>United States of America</td>
     </tr>
@@ -461,7 +461,7 @@
         <a href="https://github.com/paperclipai/paperclip"><strong>paperclipai/paperclip</strong></a><br>
         <sub>The open-source app everyone uses to manage agents at work</sub>
       </td>
-      <td align="right"><strong>96,780</strong></td>
+      <td align="right"><strong>96,781</strong></td>
       <td align="right">16,388</td>
       <td>TypeScript</td>
       <td>United States of America</td>
@@ -486,7 +486,7 @@
         <sub>A collection of MCP servers.</sub>
       </td>
       <td align="right"><strong>95,796</strong></td>
-      <td align="right">17,034</td>
+      <td align="right">17,035</td>
       <td>—</td>
       <td>Miami, FL</td>
     </tr>
@@ -533,7 +533,7 @@
         <a href="https://github.com/stablyai/orca"><strong>stablyai/orca</strong></a><br>
         <sub>Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote…</sub>
       </td>
-      <td align="right"><strong>84,492</strong></td>
+      <td align="right"><strong>84,496</strong></td>
       <td align="right">5,450</td>
       <td>TypeScript</td>
       <td>United States of America</td>
@@ -545,8 +545,8 @@
         <a href="https://github.com/lobehub/lobehub"><strong>lobehub/lobehub</strong></a><br>
         <sub>🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.</sub>
       </td>
-      <td align="right"><strong>82,972</strong></td>
-      <td align="right">15,953</td>
+      <td align="right"><strong>82,971</strong></td>
+      <td align="right">15,954</td>
       <td>TypeScript</td>
       <td>United States of America</td>
     </tr>
@@ -593,7 +593,7 @@
         <a href="https://github.com/unslothai/unsloth"><strong>unslothai/unsloth</strong></a><br>
         <sub>Local UI to run and train LLMs and diffusion models. Supports GGUF, MLX, Qwen3.8, DeepSeek-V4, MiniMax-H3, Gemma 4, FLUX and more.</sub>
       </td>
-      <td align="right"><strong>77,181</strong></td>
+      <td align="right"><strong>77,182</strong></td>
       <td align="right">7,100</td>
       <td>Python</td>
       <td>United States of America</td>
@@ -714,7 +714,7 @@
         <sub>ripgrep recursively searches directories for a regex pattern while respecting your gitignore</sub>
       </td>
       <td align="right"><strong>68,816</strong></td>
-      <td align="right">4,349</td>
+      <td align="right">4,353</td>
       <td>Rust</td>
       <td>Marlborough, MA</td>
     </tr>
@@ -749,8 +749,8 @@
         <a href="https://github.com/mem0ai/mem0"><strong>mem0ai/mem0</strong></a><br>
         <sub>The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.</sub>
       </td>
-      <td align="right"><strong>66,541</strong></td>
-      <td align="right">7,842</td>
+      <td align="right"><strong>66,542</strong></td>
+      <td align="right">7,843</td>
       <td>Python</td>
       <td>United States of America</td>
     </tr>
@@ -822,7 +822,7 @@
         <sub>World&#39;s first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Tur…</sub>
       </td>
       <td align="right"><strong>62,721</strong></td>
-      <td align="right">8,011</td>
+      <td align="right">8,012</td>
       <td>Python</td>
       <td>Seattle, WA</td>
     </tr>
@@ -965,7 +965,7 @@
         <a href="https://github.com/Alishahryar1/free-claude-code"><strong>Alishahryar1/free-claude-code</strong></a><br>
         <sub>Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now…</sub>
       </td>
-      <td align="right"><strong>56,501</strong></td>
+      <td align="right"><strong>56,502</strong></td>
       <td align="right">9,034</td>
       <td>Python</td>
       <td>Sunnyvale, CA</td>
@@ -1061,8 +1061,8 @@
         <a href="https://github.com/ayghri/i-have-adhd"><strong>ayghri/i-have-adhd</strong></a><br>
         <sub>A skill to stop your coding agent from burying the answer. ADHD-friendly output.</sub>
       </td>
-      <td align="right"><strong>53,196</strong></td>
-      <td align="right">3,064</td>
+      <td align="right"><strong>53,198</strong></td>
+      <td align="right">3,065</td>
       <td>Python</td>
       <td>Boulder, CO</td>
     </tr>
@@ -1217,7 +1217,7 @@
         <a href="https://github.com/hashicorp/terraform"><strong>hashicorp/terraform</strong></a><br>
         <sub>Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into dec…</sub>
       </td>
-      <td align="right"><strong>49,823</strong></td>
+      <td align="right"><strong>49,824</strong></td>
       <td align="right">10,639</td>
       <td>Go</td>
       <td>San Francisco, CA</td>

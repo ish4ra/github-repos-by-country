@@ -52,7 +52,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | **144,008** | Spain |
-| [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | **73,407** | Spain |
+| [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | **73,408** | Spain |
 | [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) | **68,476** | Asturias, Spain |
 | [leonardomso/33-js-concepts](https://github.com/leonardomso/33-js-concepts) | **66,536** | Valencia, Spain |
 | [ngosang/trackerslist](https://github.com/ngosang/trackerslist) | **55,266** | Madrid, Spain |

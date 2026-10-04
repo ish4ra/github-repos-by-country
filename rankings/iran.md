@@ -51,6 +51,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [MatrixTM/MHDDoS](https://github.com/MatrixTM/MHDDoS) | **16,779** | Iran |
+| [MatrixTM/MHDDoS](https://github.com/MatrixTM/MHDDoS) | **16,780** | Iran |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

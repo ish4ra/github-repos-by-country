@@ -51,7 +51,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [earendil-works/pi](https://github.com/earendil-works/pi) | **112,187** | Austria |
+| [earendil-works/pi](https://github.com/earendil-works/pi) | **112,190** | Austria |
 | [PhilJay/MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) | **38,183** | Austria |
 | [m1k1o/neko](https://github.com/m1k1o/neko) | **22,448** | Vienna, Austria |
 | [sandboxie-plus/Sandboxie](https://github.com/sandboxie-plus/Sandboxie) | **19,601** | Austria |

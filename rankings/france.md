@@ -29,17 +29,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) | **150,950** | Paris, Lyon, San Francisco |
+| [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) | **150,952** | Paris, Lyon, San Francisco |
 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | **82,315** | France |
 | [ocornut/imgui](https://github.com/ocornut/imgui) | **76,482** | Paris, France |
-| [topjohnwu/Magisk](https://github.com/topjohnwu/Magisk) | **63,062** | US / Taiwan |
+| [topjohnwu/Magisk](https://github.com/topjohnwu/Magisk) | **63,061** | US / Taiwan |
 | [Solido/awesome-flutter](https://github.com/Solido/awesome-flutter) | **61,406** | France |
-| [elder-plinius/CL4R1T4S](https://github.com/elder-plinius/CL4R1T4S) | **50,873** | France |
+| [elder-plinius/CL4R1T4S](https://github.com/elder-plinius/CL4R1T4S) | **50,874** | France |
 | [GitSquared/edex-ui](https://github.com/GitSquared/edex-ui) | **45,050** | Paris, France |
 | [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) | **41,734** | Paris, France |
 | [The-Vibe-Company/quivr](https://github.com/The-Vibe-Company/quivr) | **39,579** | France |
 | [derailed/k9s](https://github.com/derailed/k9s) | **34,728** | Colorado, US |
-| [nicolargo/glances](https://github.com/nicolargo/glances) | **33,727** | Valbonne, France |
+| [nicolargo/glances](https://github.com/nicolargo/glances) | **33,728** | Valbonne, France |
 | [VincentGarreau/particles.js](https://github.com/VincentGarreau/particles.js) | **30,208** | Paris, France |
 | [notepad-plus-plus/notepad-plus-plus](https://github.com/notepad-plus-plus/notepad-plus-plus) | **29,453** | France |
 | [plausible/analytics](https://github.com/plausible/analytics) | **29,300** | EU |

@@ -52,7 +52,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [portainer/portainer](https://github.com/portainer/portainer) | **38,617** | Auckland, New Zealand |
-| [ageron/handson-ml2](https://github.com/ageron/handson-ml2) | **29,957** | Auckland |
+| [ageron/handson-ml2](https://github.com/ageron/handson-ml2) | **29,958** | Auckland |
 | [ageron/handson-ml](https://github.com/ageron/handson-ml) | **25,604** | Auckland |
 | [deviantony/docker-elk](https://github.com/deviantony/docker-elk) | **18,390** | Auckland, New Zealand |
 

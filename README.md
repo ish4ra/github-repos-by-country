@@ -177,7 +177,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
       <td width="25%">🟡 <a href="./rankings/haiti.md"><strong>🇭🇹 Haiti</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/heard-mcdonald-islands.md"><strong>🇭🇲 Heard &amp; McDonald Islands</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/honduras.md"><strong>🇭🇳 Honduras</strong></a></td>
-      <td width="25%">🟡 <a href="./rankings/hong-kong-sar-china.md"><strong>🇭🇰 Hong Kong SAR China</strong></a></td>
+      <td width="25%">🟡 <a href="./rankings/hong-kong.md"><strong>🇭🇰 Hong Kong</strong></a></td>
     </tr>
     <tr>
       <td width="25%">🟡 <a href="./rankings/hungary.md"><strong>🇭🇺 Hungary</strong></a></td>
@@ -223,7 +223,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
     </tr>
     <tr>
       <td width="25%">🟡 <a href="./rankings/luxembourg.md"><strong>🇱🇺 Luxembourg</strong></a></td>
-      <td width="25%">🟡 <a href="./rankings/macao-sar-china.md"><strong>🇲🇴 Macao SAR China</strong></a></td>
+      <td width="25%">🟡 <a href="./rankings/macao.md"><strong>🇲🇴 Macao</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/madagascar.md"><strong>🇲🇬 Madagascar</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/malawi.md"><strong>🇲🇼 Malawi</strong></a></td>
     </tr>

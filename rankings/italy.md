@@ -51,6 +51,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [antirez/ds4](https://github.com/antirez/ds4) | **23,203** | Catania, Sicily, Italy |
+| [antirez/ds4](https://github.com/antirez/ds4) | **23,204** | Catania, Sicily, Italy |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

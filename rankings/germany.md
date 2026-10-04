@@ -53,14 +53,14 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [n8n-io/n8n](https://github.com/n8n-io/n8n) | **206,590** | Germany |
 | [localsend/localsend](https://github.com/localsend/localsend) | **93,291** | Germany |
-| [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | **92,358** | Munich |
+| [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | **92,359** | Munich |
 | [tonsky/FiraCode](https://github.com/tonsky/FiraCode) | **82,086** | Berlin, Germany |
 | [Eugeny/tabby](https://github.com/Eugeny/tabby) | **74,794** | Düsseldorf, DE |
 | [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion) | **73,491** | Germany |
 | [sharkdp/bat](https://github.com/sharkdp/bat) | **60,661** | Stuttgart, Germany |
 | [nlohmann/json](https://github.com/nlohmann/json) | **50,719** | Berlin, Germany |
 | [mastodon/mastodon](https://github.com/mastodon/mastodon) | **50,344** | Germany |
-| [brillout/awesome-react-components](https://github.com/brillout/awesome-react-components) | **48,547** | Germany, Munich |
+| [brillout/awesome-react-components](https://github.com/brillout/awesome-react-components) | **48,546** | Germany, Munich |
 | [sharkdp/fd](https://github.com/sharkdp/fd) | **44,631** | Stuttgart, Germany |
 | [photoprism/photoprism](https://github.com/photoprism/photoprism) | **40,271** | Berlin, Germany |
 | [ueberdosis/tiptap](https://github.com/ueberdosis/tiptap) | **38,634** | Berlin, Germany |

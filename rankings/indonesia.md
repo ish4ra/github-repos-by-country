@@ -51,7 +51,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack) | **16,853** | Kaltimantan, Indonesia |
+| [HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack) | **16,855** | Kaltimantan, Indonesia |
 | [rmyndharis/OpenWA](https://github.com/rmyndharis/OpenWA) | **15,000** | Batam, Indonesia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

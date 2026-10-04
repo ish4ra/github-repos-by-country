@@ -57,7 +57,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | **77,958** | Singapore |
 | [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | **73,212** | Singapore |
 | [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) | **66,147** | Singapore |
-| [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) | **46,400** | Singapore |
+| [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) | **46,401** | Singapore |
 | [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop) | **39,203** | Singapore |
 | [XingangPan/DragGAN](https://github.com/XingangPan/DragGAN) | **35,750** | Singapore |
 | [halfrost/LeetCode-Go](https://github.com/halfrost/LeetCode-Go) | **33,814** | [California, Singapore, China] |

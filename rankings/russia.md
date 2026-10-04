@@ -29,7 +29,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | **63,215** | UK |
+| [rohitg00/ai-engineering-from-scratch](https://github.com/rohitg00/ai-engineering-from-scratch) | **63,218** | UK |
 | [gchq/CyberChef](https://github.com/gchq/CyberChef) | **36,018** | UK |
 | [alvarotrigo/fullPage.js](https://github.com/alvarotrigo/fullPage.js) | **35,385** | Cambridge, UK |
 | [lissy93/web-check](https://github.com/lissy93/web-check) | **34,993** | London, UK |

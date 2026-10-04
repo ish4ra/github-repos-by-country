@@ -30,9 +30,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap) | **368,806** | United Kingdom |
-| [mattpocock/skills](https://github.com/mattpocock/skills) | **275,411** | Oxfordshire |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | **275,414** | Oxfordshire |
 | [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | **187,642** | United Kingdom |
-| [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | **93,529** | United Kingdom |
+| [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) | **93,530** | United Kingdom |
 | [mlabonne/llm-course](https://github.com/mlabonne/llm-course) | **83,283** | London, United Kingdom |
 | [jgraph/drawio-desktop](https://github.com/jgraph/drawio-desktop) | **63,380** | United Kingdom |
 | [tldraw/tldraw](https://github.com/tldraw/tldraw) | **50,732** | United Kingdom |
