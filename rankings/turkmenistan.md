@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 175**
 - Progress: **0%**
-- Retained high-potential owner candidates: **48**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **385**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -27,17 +27,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [vbauerster/mpb](https://github.com/vbauerster/mpb) | **2,513** | Turkmenistan |
 | [nyansterowo/MongoDB-bot](https://github.com/nyansterowo/MongoDB-bot) | **75** | Turkmenistan, Ashabat |
 | [richxcame/ride-hailing](https://github.com/richxcame/ride-hailing) | **55** | Turkmenistan |
+| [berdimyradov/fs-rn-todo-app](https://github.com/berdimyradov/fs-rn-todo-app) | **53** | Turkmenistan |
+| [c10udburst-discord/Aliucord-RightNow-Plugins](https://github.com/c10udburst-discord/Aliucord-RightNow-Plugins) | **39** | Turkmenistan |
 | [Atamyrat2005/Atamyrat2005](https://github.com/Atamyrat2005/Atamyrat2005) | **34** | Ashgabat/Turkmenistan |
+| [Dragon-0609/Yuki-Theme](https://github.com/Dragon-0609/Yuki-Theme) | **19** | Turkmenistan |
+| [bruno-keiko/Restaurant-app](https://github.com/bruno-keiko/Restaurant-app) | **18** | Turkmenistan |
 | [orazchollaev/nuxt-feature-starter](https://github.com/orazchollaev/nuxt-feature-starter) | **17** | Turkmenistan, Ashgabat |
+| [merdiano/gateway-tm](https://github.com/merdiano/gateway-tm) | **16** | Turkmenistan |
+| [ykjam/bpchack](https://github.com/ykjam/bpchack) | **16** | Ashgabat, Turkmenistan |
 | [resulshm/howabot](https://github.com/resulshm/howabot) | **13** | Ashgabat, Turkmenistan |
-| [ezzhood/LinkCollector](https://github.com/ezzhood/LinkCollector) | **10** | Ashgabat,Turkmenistan |
-| [atageldi194229/flutter_bloc_app](https://github.com/atageldi194229/flutter_bloc_app) | **9** | Ashgabat, Turkmenistan |
-| [Kemalstudio/parallax-3d-lens-effect-website](https://github.com/Kemalstudio/parallax-3d-lens-effect-website) | **9** | Turkmenistan / Ashgabat |
-| [nazar-41/pdf-generator](https://github.com/nazar-41/pdf-generator) | **9** | Turkmenistan, Ashgabat |
-| [erknvl/codex-plusplus-account-switcher](https://github.com/erknvl/codex-plusplus-account-switcher) | **8** | Ashgabat, Turkmenistan |
-| [evgeniy-dammer/marketplace-api](https://github.com/evgeniy-dammer/marketplace-api) | **8** | Ashgabat, Turkmenistan |
-| [northernwolf00/ivi_tv](https://github.com/northernwolf00/ivi_tv) | **7** | Turkmenistan |
-| [addTvb/landing-page](https://github.com/addTvb/landing-page) | **5** | Turkmenistan, Ashgabat |
-| [AnnaPaytakov/telegram_auto_reply](https://github.com/AnnaPaytakov/telegram_auto_reply) | **5** | Ashgabat, Turkmenistan |
+| [apuokenas/allow-unsigned-extensions](https://github.com/apuokenas/allow-unsigned-extensions) | **12** | Cavitas-dendri-başy, Turkmenistan |
+| [azamattajiyev/weather-swiftui-app](https://github.com/azamattajiyev/weather-swiftui-app) | **10** | Turkmenabat, Turkmenistan |
+| [dayanchm/Go-turkmen](https://github.com/dayanchm/Go-turkmen) | **10** | Turkmenistan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

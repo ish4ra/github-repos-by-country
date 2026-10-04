@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 5,081**
 - Progress: **0%**
-- Retained high-potential owner candidates: **49**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **170**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,20 +24,20 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) | **50,622** | Lviv, Ukraine |
-| [vadimdemedes/ink](https://github.com/vadimdemedes/ink) | **40,014** | Ukraine |
+| [serhii-londar/open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) | **50,628** | Lviv, Ukraine |
+| [vadimdemedes/ink](https://github.com/vadimdemedes/ink) | **40,027** | Ukraine |
 | [denysdovhan/wtfjs](https://github.com/denysdovhan/wtfjs) | **37,684** | Kyiv, Ukraine |
-| [dimsemenov/PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe) | **25,267** | Ukraine, Kyiv |
-| [Tyrrrz/YoutubeDownloader](https://github.com/Tyrrrz/YoutubeDownloader) | **16,345** | Kyiv, Ukraine |
+| [dimsemenov/PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe) | **25,270** | Ukraine, Kyiv |
+| [Tyrrrz/YoutubeDownloader](https://github.com/Tyrrrz/YoutubeDownloader) | **16,348** | Kyiv, Ukraine |
 | [platformio/platformio-core](https://github.com/platformio/platformio-core) | **9,499** | Ukraine |
-| [vitalik/django-ninja](https://github.com/vitalik/django-ninja) | **9,204** | Ukraine, Kharkiv |
-| [mishakorzik/AllHackingTools](https://github.com/mishakorzik/AllHackingTools) | **6,281** | Україна (Ukraine) |
+| [vitalik/django-ninja](https://github.com/vitalik/django-ninja) | **9,205** | Ukraine, Kharkiv |
+| [mishakorzik/AllHackingTools](https://github.com/mishakorzik/AllHackingTools) | **6,283** | Україна (Ukraine) |
 | [olexale/flutter_roadmap](https://github.com/olexale/flutter_roadmap) | **5,940** | Ukraine |
-| [mourner/suncalc](https://github.com/mourner/suncalc) | **3,487** | Kyiv, Ukraine |
-| [divan/txqr](https://github.com/divan/txqr) | **3,249** | Kyiv, Ukraine |
+| [mourner/suncalc](https://github.com/mourner/suncalc) | **3,488** | Kyiv, Ukraine |
+| [divan/txqr](https://github.com/divan/txqr) | **3,250** | Kyiv, Ukraine |
 | [LimerBoy/Impulse](https://github.com/LimerBoy/Impulse) | **2,855** | Ukraine |
-| [RazrFalcon/cargo-bloat](https://github.com/RazrFalcon/cargo-bloat) | **2,771** | Ukraine |
+| [RazrFalcon/cargo-bloat](https://github.com/RazrFalcon/cargo-bloat) | **2,772** | Ukraine |
+| [le0pard/pgtune](https://github.com/le0pard/pgtune) | **2,744** | Kyiv, Ukraine |
 | [vshymanskyy/TinyGSM](https://github.com/vshymanskyy/TinyGSM) | **2,220** | Kyiv, Ukraine |
-| [roman01la/html-to-react-components](https://github.com/roman01la/html-to-react-components) | **2,176** | Kyiv, Ukraine |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

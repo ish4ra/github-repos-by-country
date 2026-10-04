@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 342**
 - Progress: **0%**
-- Retained high-potential owner candidates: **49**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **125**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -27,9 +27,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [anouarbensaad/vulnx](https://github.com/anouarbensaad/vulnx) | **2,149** | Tunisia |
 | [Cyb0r9/SocialBox](https://github.com/Cyb0r9/SocialBox) | **2,059** | Tunisia |
 | [MohamedRejeb/compose-rich-editor](https://github.com/MohamedRejeb/compose-rich-editor) | **1,858** | Tunisia |
-| [Ademking/MD-This-Page](https://github.com/Ademking/MD-This-Page) | **1,588** | Tunisia |
+| [Ademking/MD-This-Page](https://github.com/Ademking/MD-This-Page) | **1,590** | Tunisia |
 | [hamedbaatour/minimus](https://github.com/hamedbaatour/minimus) | **628** | Tunis, Tunisia |
-| [Loukious/StreamLabsTikTokStreamKeyGenerator](https://github.com/Loukious/StreamLabsTikTokStreamKeyGenerator) | **415** | Tunisia |
+| [Loukious/StreamLabsTikTokStreamKeyGenerator](https://github.com/Loukious/StreamLabsTikTokStreamKeyGenerator) | **416** | Tunisia |
 | [X-SLAYER/Website-Cloner](https://github.com/X-SLAYER/Website-Cloner) | **365** | Tunisia |
 | [SelimHorri/ecommerce-microservice-backend-app](https://github.com/SelimHorri/ecommerce-microservice-backend-app) | **314** | Tunisia |
 | [Afif13/CSS-Pattern](https://github.com/Afif13/CSS-Pattern) | **240** | Tunisia |

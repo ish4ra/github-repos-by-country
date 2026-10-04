@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 53**
 - Progress: **0%**
-- Retained high-potential owner candidates: **45**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **340**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -33,11 +33,11 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [dwayne/haskell-programming](https://github.com/dwayne/haskell-programming) | **93** | Trinidad & Tobago |
 | [triniwiz/nativescript-pager](https://github.com/triniwiz/nativescript-pager) | **88** | Trinidad & Tobago |
 | [ArmstrongSubero/PIC16-Projects](https://github.com/ArmstrongSubero/PIC16-Projects) | **85** | Moruga, Trinidad and Tobago |
+| [aaanthonyyy/CircuitNet](https://github.com/aaanthonyyy/CircuitNet) | **65** | Trinidad & Tobago 🇹🇹 |
+| [IWhoI/SubnauticaVREnhancements](https://github.com/IWhoI/SubnauticaVREnhancements) | **43** | Trinidad and Tobago |
 | [uwidcit/flaskmvc](https://github.com/uwidcit/flaskmvc) | **40** | St Augustine, Trinidad and Tobago |
 | [KevinGirardx/qb-radialmenu](https://github.com/KevinGirardx/qb-radialmenu) | **30** | Trinidad & Tobago |
+| [itstargetconfirmed/flash-loan-sample](https://github.com/itstargetconfirmed/flash-loan-sample) | **29** | Trinidad and Tobago |
 | [Snickdx/pwadocs](https://github.com/Snickdx/pwadocs) | **27** | Trinidad and Tobago |
-| [wyntonfranklin/simple-file-server](https://github.com/wyntonfranklin/simple-file-server) | **25** | Trinidad and Tobago |
-| [JadeOfMaar/SterlingSystems](https://github.com/JadeOfMaar/SterlingSystems) | **24** | Trinidad and Tobago |
-| [msanatan/django_graphql_movies](https://github.com/msanatan/django_graphql_movies) | **21** | Trinidad and Tobago |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

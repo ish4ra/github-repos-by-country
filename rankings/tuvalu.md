@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 3%
+## Repository ranking status: Building 27%
 
-- Geography terms processed: **1 / 33**
-- Progress: **3%**
-- Retained high-potential owner candidates: **21**
-- Search requests completed: **1**
+- Geography terms processed: **9 / 33**
+- Progress: **27%**
+- Retained high-potential owner candidates: **23**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -28,6 +28,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [xubeiyan/Nscripter2-API](https://github.com/xubeiyan/Nscripter2-API) | **7** | Chenhai, Tuvalu(图瓦卢，辰海市) |
 | [Bubblingo0/http2socks5](https://github.com/Bubblingo0/http2socks5) | **1** | Tuvalu |
 | [CasualModernPGM/ModernMaps](https://github.com/CasualModernPGM/ModernMaps) | **1** | Tuvalu |
+| [Dan-Creative/godot-3D-carousel-menu](https://github.com/Dan-Creative/godot-3D-carousel-menu) | **1** | Funafuti |
 | [enaros/cardgame](https://github.com/enaros/cardgame) | **1** | Tuvalu |
 | [pedromaestu/minero](https://github.com/pedromaestu/minero) | **1** | Tuvalu |
 | [alessandroocapa/TepsiBBinToDec](https://github.com/alessandroocapa/TepsiBBinToDec) | **0** | tuvalu |
@@ -38,6 +39,5 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [deltaost/deltaost.github.io](https://github.com/deltaost/deltaost.github.io) | **0** | Funafuti, Tuvalu |
 | [gnomegirmest/gnomegirmest](https://github.com/gnomegirmest/gnomegirmest) | **0** | Tuvalu (TV) |
 | [http-lkz/Transcritor](https://github.com/http-lkz/Transcritor) | **0** | Tuvalu |
-| [Inciclopedia/mwnext](https://github.com/Inciclopedia/mwnext) | **0** | Tuvalu Ulterior |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

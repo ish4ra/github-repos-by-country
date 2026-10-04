@@ -8,14 +8,34 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 0%
+## Repository ranking status: Building 5%
 
-- Geography terms processed: **0 / 91**
-- Progress: **0%**
-- Retained high-potential owner candidates: **0**
-- Search requests completed: **1**
+- Geography terms processed: **5 / 91**
+- Progress: **5%**
+- Retained high-potential owner candidates: **13**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [marobo/project_hub](https://github.com/marobo/project_hub) | **1** | Dili, East Timor |
+| [ajesantos/ajesantos](https://github.com/ajesantos/ajesantos) | **0** | Aileu, Aitoin-Mantane |
+| [Celio-err/website_apftl](https://github.com/Celio-err/website_apftl) | **0** | Dili, East Timor |
+| [jaimitoxavierguterresdasilva/jaimitoxavierguterresdasilva](https://github.com/jaimitoxavierguterresdasilva/jaimitoxavierguterresdasilva) | **0** | Dili, East Timor |
+| [JoelGomesTavares/JoelGomesTavares](https://github.com/JoelGomesTavares/JoelGomesTavares) | **0** | Dili, East Timor |
+| [lospalos123/first_app](https://github.com/lospalos123/first_app) | **0** | East Timor |
+| [NickyNoodlePaws/egret-core](https://github.com/NickyNoodlePaws/egret-core) | **0** | East Timor |
+| [nuno-magno17/dosenkesehatanmasyarakat](https://github.com/nuno-magno17/dosenkesehatanmasyarakat) | **0** | Ainaro |
+| [Samthreemakerek/Gunter](https://github.com/Samthreemakerek/Gunter) | **0** | East Timor |
+| [thomasloy/fortran](https://github.com/thomasloy/fortran) | **0** | East Timor |
+| [TiagovskiCode/Curso_Python_Mosh](https://github.com/TiagovskiCode/Curso_Python_Mosh) | **0** | East-Timor |
+| [valetgkl/CodeIgniter](https://github.com/valetgkl/CodeIgniter) | **0** | East Timor |
+| [XICANO88/XICANO88](https://github.com/XICANO88/XICANO88) | **0** | Guarda-Iliheu, East Timor |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

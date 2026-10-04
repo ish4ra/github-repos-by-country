@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 0%
+## Repository ranking status: Building 13%
 
-- Geography terms processed: **0 / 58**
-- Progress: **0%**
-- Retained high-potential owner candidates: **33**
-- Search requests completed: **1**
+- Geography terms processed: **8 / 58**
+- Progress: **13%**
+- Retained high-potential owner candidates: **43**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -31,6 +31,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [staumoepeau/loan_management](https://github.com/staumoepeau/loan_management) | **2** | Tonga |
 | [ccrryysstt44ll/Kitty-App](https://github.com/ccrryysstt44ll/Kitty-App) | **1** | Tonga 🇹🇴 |
 | [Forge-Limited/pasifika-token](https://github.com/Forge-Limited/pasifika-token) | **1** | Tonga |
+| [mafiyaofthehacking/1King](https://github.com/mafiyaofthehacking/1King) | **1** | Tonga-6 Microsmart |
 | [Maui222/page](https://github.com/Maui222/page) | **1** | Tonga |
 | [taufa/COMP9321](https://github.com/taufa/COMP9321) | **1** | Tongatapu, Tonga |
 | [The-Kids-Hub/the-kids-hub-fe](https://github.com/The-Kids-Hub/the-kids-hub-fe) | **1** | Tonga |
@@ -38,6 +39,5 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [click-mouse/python](https://github.com/click-mouse/python) | **0** | 42640 ,Orn Forest ,Lake Irwinside ,Kansas ,Tonga |
 | [CookieDogxox/PullZoomView](https://github.com/CookieDogxox/PullZoomView) | **0** | Tonga |
 | [Digital-Transformation-Tonga/public-resources](https://github.com/Digital-Transformation-Tonga/public-resources) | **0** | Tonga |
-| [Doge-Driver/AutoDrive](https://github.com/Doge-Driver/AutoDrive) | **0** | Tonga |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

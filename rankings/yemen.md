@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 518**
 - Progress: **0%**
-- Retained high-potential owner candidates: **47**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **334**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -32,12 +32,12 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [YemenOpenSource/Yemen-info](https://github.com/YemenOpenSource/Yemen-info) | **86** | Yemen |
 | [mbahomaid/mbahomaid](https://github.com/mbahomaid/mbahomaid) | **70** | Yemen |
 | [0-d3y/SQLi](https://github.com/0-d3y/SQLi) | **67** | Yemen |
+| [kid1194/frappe-better-attach-control](https://github.com/kid1194/frappe-better-attach-control) | **56** | Yemen |
 | [mrpythonfpi/CloudScanX](https://github.com/mrpythonfpi/CloudScanX) | **39** | YEMEN |
 | [WatheqAlshowaiter/model-fields](https://github.com/WatheqAlshowaiter/model-fields) | **39** | Yemen |
 | [hnjm/WhatsApp-Noob-Hackers-Help](https://github.com/hnjm/WhatsApp-Noob-Hackers-Help) | **36** | Yemen |
 | [7s9n/small_sms_api](https://github.com/7s9n/small_sms_api) | **27** | Yemen |
 | [Salimer/RLCS-event-landing-page](https://github.com/Salimer/RLCS-event-landing-page) | **20** | Mukalla, Yemen |
 | [akramghaleb/Route-Rider-System](https://github.com/akramghaleb/Route-Rider-System) | **18** | Yemen |
-| [Esmail-ibraheem/TorchLab](https://github.com/Esmail-ibraheem/TorchLab) | **18** | Yemen |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

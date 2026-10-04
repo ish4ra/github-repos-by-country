@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 121**
 - Progress: **0%**
-- Retained high-potential owner candidates: **49**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **341**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [mrxdking/star-xd](https://github.com/mrxdking/star-xd) | **627** | Zimbabwe |
+| [mrxdking/star-xd](https://github.com/mrxdking/star-xd) | **628** | Zimbabwe |
 | [AyuGram/AyuGramDocs](https://github.com/AyuGram/AyuGramDocs) | **230** | Zimbabwe |
 | [zim-bot/zimbot-v3](https://github.com/zim-bot/zimbot-v3) | **186** | Zimbabwe |
 | [Ju99ernaut/grapesjs-tailwind](https://github.com/Ju99ernaut/grapesjs-tailwind) | **172** | Zimbabwe |

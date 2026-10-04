@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 3%
+## Repository ranking status: Building 32%
 
-- Geography terms processed: **1 / 28**
-- Progress: **3%**
-- Retained high-potential owner candidates: **1**
-- Search requests completed: **1**
+- Geography terms processed: **9 / 28**
+- Progress: **32%**
+- Retained high-potential owner candidates: **2**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,6 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
+| [BakingLiberteZ/tui_tools](https://github.com/BakingLiberteZ/tui_tools) | **4** | Baker Island |
 | [RanchoSM/CTSDirectlinkLibrary](https://github.com/RanchoSM/CTSDirectlinkLibrary) | **1** | U.S. Outlying Islands |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

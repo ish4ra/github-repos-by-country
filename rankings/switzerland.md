@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 2,089**
 - Progress: **0%**
-- Retained high-potential owner candidates: **50**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **180**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,19 +25,19 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [docling-project/docling](https://github.com/docling-project/docling) | **68,326** | Switzerland |
-| [romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k) | **55,191** | Switzerland |
-| [WerWolv/ImHex](https://github.com/WerWolv/ImHex) | **54,966** | Switzerland |
-| [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2) | **32,032** | Zurich, Switzerland |
-| [twpayne/chezmoi](https://github.com/twpayne/chezmoi) | **21,799** | Zürich, Switzerland |
+| [romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k) | **55,192** | Switzerland |
+| [WerWolv/ImHex](https://github.com/WerWolv/ImHex) | **54,970** | Switzerland |
+| [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2) | **32,037** | Zurich, Switzerland |
+| [twpayne/chezmoi](https://github.com/twpayne/chezmoi) | **21,809** | Zürich, Switzerland |
 | [Seldaek/monolog](https://github.com/Seldaek/monolog) | **21,402** | Zürich, Zurich, Switzerland |
 | [antonmedv/fx](https://github.com/antonmedv/fx) | **20,644** | Switzerland |
+| [jwagner/smartcrop.js](https://github.com/jwagner/smartcrop.js) | **12,954** | Zurich, Switzerland |
+| [klaudiosinani/taskbook](https://github.com/klaudiosinani/taskbook) | **9,349** | Zurich, Switzerland |
 | [anyproto/anytype-ts](https://github.com/anyproto/anytype-ts) | **8,879** | Switzerland |
 | [unicity-aos/aos-ce](https://github.com/unicity-aos/aos-ce) | **8,462** | Switzerland |
-| [nst/iOS-Runtime-Headers](https://github.com/nst/iOS-Runtime-Headers) | **7,970** | Switzerland |
+| [nst/iOS-Runtime-Headers](https://github.com/nst/iOS-Runtime-Headers) | **7,971** | Switzerland |
 | [RicoSuter/NSwag](https://github.com/RicoSuter/NSwag) | **7,364** | Switzerland |
 | [mafintosh/peerflix](https://github.com/mafintosh/peerflix) | **6,268** | Switzerland |
 | [wjakob/instant-meshes](https://github.com/wjakob/instant-meshes) | **6,237** | Lausanne, Switzerland |
-| [ethz-asl/kalibr](https://github.com/ethz-asl/kalibr) | **5,750** | Zurich, Switzerland |
-| [ProtonMail/WebClients](https://github.com/ProtonMail/WebClients) | **5,625** | Geneva, Switzerland |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

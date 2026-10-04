@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 7%
+## Repository ranking status: Building 64%
 
-- Geography terms processed: **1 / 14**
-- Progress: **7%**
-- Retained high-potential owner candidates: **10**
-- Search requests completed: **1**
+- Geography terms processed: **9 / 14**
+- Progress: **64%**
+- Retained high-potential owner candidates: **11**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -28,6 +28,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [DaczoDenes/uStupid](https://github.com/DaczoDenes/uStupid) | **1** | Tokelau |
 | [knukima/matrix-5858](https://github.com/knukima/matrix-5858) | **1** | Fale, Fakaofo Atoll, Tokelau |
 | [awise-dorensbach/awise-paulo](https://github.com/awise-dorensbach/awise-paulo) | **0** | Tokelau |
+| [ayratcpp/Twelve](https://github.com/ayratcpp/Twelve) | **0** | Токелау |
 | [cheguang/cccccc](https://github.com/cheguang/cccccc) | **0** | 7439 ,Kling Track ,North Ken ,Alabama ,Tokelau |
 | [dragonkekofmeister/dragonkekofmeister](https://github.com/dragonkekofmeister/dragonkekofmeister) | **0** | Tokelau (TK) |
 | [edingdeadasted/edingdeadasted](https://github.com/edingdeadasted/edingdeadasted) | **0** | Tokelau (TK) |

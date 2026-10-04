@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 12,818**
 - Progress: **0%**
-- Retained high-potential owner candidates: **49**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **226**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -26,7 +26,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) | **551,273** | United States of America |
 | [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) | **456,670** | United States of America |
-| [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) | **362,267** | United States |
+| [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university) | **362,293** | United States |
 | [anthropics/skills](https://github.com/anthropics/skills) | **179,453** | United States of America |
 | [github/gitignore](https://github.com/github/gitignore) | **176,014** | United States of America |
 | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) | **147,392** | United States of America |

@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 130**
 - Progress: **0%**
-- Retained high-potential owner candidates: **47**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **263**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -28,7 +28,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [veyxov/qanata](https://github.com/veyxov/qanata) | **56** | Tajikistan |
 | [abdullokhonz/Bookkeeping](https://github.com/abdullokhonz/Bookkeeping) | **43** | Khujand, Tajikistan |
 | [awtb/IntelligentAdminBot](https://github.com/awtb/IntelligentAdminBot) | **24** | Dushanbe, Tajikistan |
-| [Abdughafur/Quarter](https://github.com/Abdughafur/Quarter) | **20** | Tajikistan |
+| [Abdughafur/Quarter](https://github.com/Abdughafur/Quarter) | **23** | Tajikistan |
 | [icoder-new/goBomber](https://github.com/icoder-new/goBomber) | **13** | Tajikistan, Dushanbe |
 | [Muhammad0602/Leaderboard](https://github.com/Muhammad0602/Leaderboard) | **13** | Dushanbe, Tajikistan. |
 | [MirolimMajidov/Jobs](https://github.com/MirolimMajidov/Jobs) | **12** | Dushunbe, Tajikistan |

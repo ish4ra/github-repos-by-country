@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 0%
+## Repository ranking status: Building 38%
 
-- Geography terms processed: **0 / 18**
-- Progress: **0%**
-- Retained high-potential owner candidates: **35**
-- Search requests completed: **1**
+- Geography terms processed: **7 / 18**
+- Progress: **38%**
+- Retained high-potential owner candidates: **58**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -33,11 +33,11 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [meereuk/NMConverter](https://github.com/meereuk/NMConverter) | **6** | Vatican City |
 | [canonlaw/what-year-is-it](https://github.com/canonlaw/what-year-is-it) | **4** | Vatican City |
 | [Ventexx/vael](https://github.com/Ventexx/vael) | **4** | Vatican City |
+| [Gli-Informatici-Bestemmiatori-Seriali/gibs_generatore_bestemmie](https://github.com/Gli-Informatici-Bestemmiatori-Seriali/gibs_generatore_bestemmie) | **3** | Vatican City |
 | [Cosmic-Stars-Team/rebound-rs](https://github.com/Cosmic-Stars-Team/rebound-rs) | **2** | Vatican City |
 | [PadrePioUI/android_packages_apps_HolyBiblePrebuilt](https://github.com/PadrePioUI/android_packages_apps_HolyBiblePrebuilt) | **2** | Vatican City |
+| [Pineapple-Dev-s/gwadloup-alert](https://github.com/Pineapple-Dev-s/gwadloup-alert) | **2** | Vatican City |
 | [stanlin21/8b8tSMP](https://github.com/stanlin21/8b8tSMP) | **2** | Vatican City |
 | [B00Mjack/PyVanguard](https://github.com/B00Mjack/PyVanguard) | **1** | Vatican City Città del Vaticano 00120 Vatican City |
-| [Difficulty-Immersion-Quality/Difficulty-Immersion-Quality](https://github.com/Difficulty-Immersion-Quality/Difficulty-Immersion-Quality) | **1** | Vatican City |
-| [dru91ce/EmailClient](https://github.com/dru91ce/EmailClient) | **1** | Vatican City (Holy See) |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

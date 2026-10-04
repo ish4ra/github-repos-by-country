@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 334**
 - Progress: **0%**
-- Retained high-potential owner candidates: **48**
-- Search requests completed: **1**
+- Retained high-potential owner candidates: **166**
+- Search requests completed: **9**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -26,9 +26,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [VonHeikemen/lsp-zero.nvim](https://github.com/VonHeikemen/lsp-zero.nvim) | **3,974** | Venezuela |
 | [samuelmarina/is-even](https://github.com/samuelmarina/is-even) | **2,229** | Venezuela |
-| [mardous/BoomingMusic](https://github.com/mardous/BoomingMusic) | **542** | Venezuela |
+| [mardous/BoomingMusic](https://github.com/mardous/BoomingMusic) | **543** | Venezuela |
 | [alexanyernas/Ejercicios-Practicos](https://github.com/alexanyernas/Ejercicios-Practicos) | **410** | Venezuela |
 | [NTBBloodbath/cheovim](https://github.com/NTBBloodbath/cheovim) | **348** | Caracas, Venezuela |
+| [DtxdF/AppJail](https://github.com/DtxdF/AppJail) | **237** | Venezuela |
 | [DIEGO-OFC/ShadowBot-MD](https://github.com/DIEGO-OFC/ShadowBot-MD) | **149** | Venezuela |
 | [albertogg/flask-bootstrap-skel](https://github.com/albertogg/flask-bootstrap-skel) | **133** | Caracas, Venezuela |
 | [danestves/remix-auth-auth0](https://github.com/danestves/remix-auth-auth0) | **131** | Venezuela |
@@ -38,6 +39,5 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [danielzespitia/curso_programacion_basica](https://github.com/danielzespitia/curso_programacion_basica) | **38** | Venezuela |
 | [EdinsonRequena/computer-sicence-topics](https://github.com/EdinsonRequena/computer-sicence-topics) | **38** | Caracas, Venezuela |
 | [libredesarrollo/android](https://github.com/libredesarrollo/android) | **28** | Venezuela |
-| [LuisAlejandro/movie-box](https://github.com/LuisAlejandro/movie-box) | **26** | Maracay, Venezuela |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
