@@ -21,7 +21,7 @@ The base country/state/city index is additionally enriched from the official
 extract.
 
 - Source: https://download.geonames.org/export/dump/cities500.zip
-- Retrieved: `2026-10-03T06:31:36.251032Z`
+- Retrieved: `2026-10-04T02:58:55.679384Z`
 - Last-Modified: `Sat, 03 Oct 2026 02:09:53 GMT`
 - Download SHA-256: `7c32ce0a1553dba6b5d3ee2a6e14b27bbbda756ecb5c0e812537681a15fc7f3a`
 - License: **CC BY 4.0**
