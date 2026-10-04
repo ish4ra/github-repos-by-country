@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 3%
+## Repository ranking status: Building 1%
 
-- Geography terms processed: **2 / 57**
-- Progress: **3%**
+- Geography terms processed: **1 / 57**
+- Progress: **1%**
 - Retained high-potential owner candidates: **278**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -39,5 +39,18 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [bl1nk3r/Ummo](https://github.com/bl1nk3r/Ummo) | **2** | Mbabane, Swaziland |
 | [BrianMsane/PySpark-Practical](https://github.com/BrianMsane/PySpark-Practical) | **2** | Ezulwini, Eswatini |
 | [chokethenetwork/Stockchat](https://github.com/chokethenetwork/Stockchat) | **2** | University of Eswatini Luyengo campus, Mthonjeni block, room 6 |
+
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **2,828**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [SCUTlihaoyu/open-chat-video-editor](https://github.com/SCUTlihaoyu/open-chat-video-editor) | **2,815** | SZ |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

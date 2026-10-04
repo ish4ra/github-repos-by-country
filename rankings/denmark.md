@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 746**
 - Progress: **0%**
 - Retained high-potential owner candidates: **155**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,26 +24,26 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | **44,841** | Denmark |
-| [Unity-Technologies/ml-agents](https://github.com/Unity-Technologies/ml-agents) | **19,717** | Copenhagen, Denmark |
-| [SubtitleEdit/subtitleedit](https://github.com/SubtitleEdit/subtitleedit) | **14,409** | Denmark |
-| [andreasbm/web-skills](https://github.com/andreasbm/web-skills) | **7,645** | Denmark |
-| [ilyamiro/serpantinum](https://github.com/ilyamiro/serpantinum) | **7,167** | Denmark |
+| [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search) | **44,958** | Denmark |
+| [Unity-Technologies/ml-agents](https://github.com/Unity-Technologies/ml-agents) | **19,720** | Copenhagen, Denmark |
+| [SubtitleEdit/subtitleedit](https://github.com/SubtitleEdit/subtitleedit) | **14,430** | Denmark |
+| [andreasbm/web-skills](https://github.com/andreasbm/web-skills) | **7,647** | Denmark |
+| [ilyamiro/serpantinum](https://github.com/ilyamiro/serpantinum) | **7,191** | Denmark |
 | [michenriksen/gitrob](https://github.com/michenriksen/gitrob) | **6,196** | Copenhagen, Denmark |
 | [klauspost/compress](https://github.com/klauspost/compress) | **5,654** | Denmark |
 | [SebLague/Digital-Logic-Sim](https://github.com/SebLague/Digital-Logic-Sim) | **4,727** | Denmark |
 | [jdah/minecraft-weekend](https://github.com/jdah/minecraft-weekend) | **4,416** | Denmark |
 | [ly4k/Certipy](https://github.com/ly4k/Certipy) | **3,681** | Copenhagen, Denmark |
 | [firasdib/Regex101](https://github.com/firasdib/Regex101) | **3,517** | Denmark, Copenhagen |
-| [simonbs/Runestone](https://github.com/simonbs/Runestone) | **3,223** | Denmark |
+| [simonbs/Runestone](https://github.com/simonbs/Runestone) | **3,224** | Denmark |
 | [mjebrahimi/Awesome-Microservices-DotNet](https://github.com/mjebrahimi/Awesome-Microservices-DotNet) | **3,083** | Copenhagen, Denmark |
-| [watson/awesome-computer-history](https://github.com/watson/awesome-computer-history) | **2,963** | Copenhagen, Denmark |
+| [watson/awesome-computer-history](https://github.com/watson/awesome-computer-history) | **2,964** | Copenhagen, Denmark |
 | [thisandagain/sentiment](https://github.com/thisandagain/sentiment) | **2,678** | Denmark |
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **18**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **25**
+- Current global star frontier: **2,828**
 
 ### High-star verified preview
 
@@ -69,5 +69,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [n3d1117/chatgpt-telegram-bot](https://github.com/n3d1117/chatgpt-telegram-bot) | **3,460** | Copenhagen, Denmark |
 | [mortbopet/Ripes](https://github.com/mortbopet/Ripes) | **3,441** | Copenhagen, Denmark |
 | [Unity-Technologies/arfoundation-samples](https://github.com/Unity-Technologies/arfoundation-samples) | **3,434** | Copenhagen, Denmark |
+| [Unity-Technologies/NavMeshComponents](https://github.com/Unity-Technologies/NavMeshComponents) | **3,087** | Copenhagen, Denmark |
+| [mjebrahimi/Awesome-Microservices-DotNet](https://github.com/mjebrahimi/Awesome-Microservices-DotNet) | **3,082** | Copenhagen, Denmark |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

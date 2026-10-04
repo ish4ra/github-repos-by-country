@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **19**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **24**
+- Current global star frontier: **2,828**
 
 ### High-star verified preview
 
@@ -70,5 +70,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [neuronetio/gantt-schedule-timeline-calendar](https://github.com/neuronetio/gantt-schedule-timeline-calendar) | **3,632** | Poland, Kalisz |
 | [wojciech-kulik/FlashSpace](https://github.com/wojciech-kulik/FlashSpace) | **3,524** | Wrocław, Poland |
 | [mczachurski/wallpapper](https://github.com/mczachurski/wallpapper) | **3,436** | Wrocław, Poland |
+| [adamsitnik/awesome-dot-net-performance](https://github.com/adamsitnik/awesome-dot-net-performance) | **3,289** | Gdańsk, Poland |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

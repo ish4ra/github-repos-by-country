@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 156**
 - Progress: **0%**
-- Retained high-potential owner candidates: **324**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **325**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,13 +24,13 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [AdguardTeam/AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) | **37,191** | Cyprus |
+| [AdguardTeam/AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) | **37,218** | Cyprus |
 | [zloirock/core-js](https://github.com/zloirock/core-js) | **25,535** | Cyprus, Larnaca |
 | [zakirullin/cognitive-load](https://github.com/zakirullin/cognitive-load) | **12,515** | Limassol, Cyprus |
-| [centrifugal/centrifugo](https://github.com/centrifugal/centrifugo) | **10,825** | Cyprus |
-| [pikvm/pikvm](https://github.com/pikvm/pikvm) | **10,369** | Cyprus |
-| [gosom/google-maps-scraper](https://github.com/gosom/google-maps-scraper) | **6,255** | Cyprus |
-| [TrustTunnel/TrustTunnel](https://github.com/TrustTunnel/TrustTunnel) | **3,501** | Cyprus |
+| [centrifugal/centrifugo](https://github.com/centrifugal/centrifugo) | **10,830** | Cyprus |
+| [pikvm/pikvm](https://github.com/pikvm/pikvm) | **10,370** | Cyprus |
+| [gosom/google-maps-scraper](https://github.com/gosom/google-maps-scraper) | **6,273** | Cyprus |
+| [TrustTunnel/TrustTunnel](https://github.com/TrustTunnel/TrustTunnel) | **3,506** | Cyprus |
 | [polterguy/magic](https://github.com/polterguy/magic) | **1,200** | Cyprus |
 | [dgutov/diff-hl](https://github.com/dgutov/diff-hl) | **1,116** | Limassol, Cyprus |
 | [TezRomacH/python-package-template](https://github.com/TezRomacH/python-package-template) | **1,092** | Limassol, Cyprus |

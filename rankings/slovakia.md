@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **10**
+- Current global star frontier: **2,828**
 
 ### High-star verified preview
 
@@ -60,5 +60,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [SimpleMobileTools/Simple-Calendar](https://github.com/SimpleMobileTools/Simple-Calendar) | **3,651** | Slovakia |
 | [tomasklaen/uosc](https://github.com/tomasklaen/uosc) | **3,434** | Slovakia |
 | [dorny/paths-filter](https://github.com/dorny/paths-filter) | **3,350** | Bratislava, Slovakia |
+| [darsain/sly](https://github.com/darsain/sly) | **2,839** | Slovakia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

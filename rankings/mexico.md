@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **7**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **8**
+- Current global star frontier: **2,828**
 
 ### High-star verified preview
 
@@ -58,5 +58,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [gh0stzk/dotfiles](https://github.com/gh0stzk/dotfiles) | **4,751** | Mexico City |
 | [Samsar4/Ethical-Hacking-Labs](https://github.com/Samsar4/Ethical-Hacking-Labs) | **3,917** | ::1 |
 | [styfle/awesome-online-ide](https://github.com/styfle/awesome-online-ide) | **3,533** | ::1 |
+| [Mic92/sops-nix](https://github.com/Mic92/sops-nix) | **3,208** | ::1 |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

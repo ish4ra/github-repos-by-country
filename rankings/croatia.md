@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **15**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **20**
+- Current global star frontier: **2,828**
 
 ### High-star verified preview
 
@@ -66,5 +66,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [adrianhajdin/portfolio_website](https://github.com/adrianhajdin/portfolio_website) | **3,490** | Croatia |
 | [Source-Robotics/PAROL6-Desktop-robot-arm](https://github.com/Source-Robotics/PAROL6-Desktop-robot-arm) | **3,338** | Croatia |
 | [vladmandic/human](https://github.com/vladmandic/human) | **3,327** | Miami, Florida / Rijeka, Croatia |
+| [Tinche/aiofiles](https://github.com/Tinche/aiofiles) | **3,264** | Zagreb, Croatia |
+| [adrianhajdin/banking](https://github.com/adrianhajdin/banking) | **3,235** | Croatia |
+| [teamtnt/tntsearch](https://github.com/teamtnt/tntsearch) | **3,199** | Zagreb, Croatia |
+| [adrianhajdin/project_syncfusion_dashboard](https://github.com/adrianhajdin/project_syncfusion_dashboard) | **3,127** | Croatia |
+| [adrianhajdin/project_next_14_ai_prompt_sharing](https://github.com/adrianhajdin/project_next_14_ai_prompt_sharing) | **2,959** | Croatia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

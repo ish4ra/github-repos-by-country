@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 79**
 - Progress: **0%**
-- Retained high-potential owner candidates: **125**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **126**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,14 +25,14 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [deviantfero/wpgtk](https://github.com/deviantfero/wpgtk) | **2,193** | Santa Tecla, El Salvador |
-| [terrakube-io/terrakube](https://github.com/terrakube-io/terrakube) | **963** | El Salvador |
+| [terrakube-io/terrakube](https://github.com/terrakube-io/terrakube) | **964** | El Salvador |
 | [mxgxw/MFRC522-python](https://github.com/mxgxw/MFRC522-python) | **533** | El Salvador |
 | [leosuncin/nest-auth-example](https://github.com/leosuncin/nest-auth-example) | **491** | San Salvador, El Salvador |
 | [huazhouwang/WIFIADB](https://github.com/huazhouwang/WIFIADB) | **277** | El Salvador |
 | [williamcruzme/vue-gates](https://github.com/williamcruzme/vue-gates) | **262** | El Salvador |
 | [saulhdev/ZimLX](https://github.com/saulhdev/ZimLX) | **156** | El Salvador |
 | [hherzl/EntityFrameworkCoreForTheEnterprise](https://github.com/hherzl/EntityFrameworkCoreForTheEnterprise) | **150** | El Salvador |
-| [bitgetwallet/download](https://github.com/bitgetwallet/download) | **146** | El Salvador |
+| [bitgetwallet/download](https://github.com/bitgetwallet/download) | **147** | El Salvador |
 | [cybergaala/Angular-CRUD](https://github.com/cybergaala/Angular-CRUD) | **100** | El Salvador |
 | [Carlos007007/INVENTARIO](https://github.com/Carlos007007/INVENTARIO) | **88** | El Salvador |
 | [nolash/ethereum-samples](https://github.com/nolash/ethereum-samples) | **63** | El Salvador |

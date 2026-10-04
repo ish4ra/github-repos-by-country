@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **2,828**
 
 ### High-star verified preview
 
@@ -52,5 +52,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [dan1471/FREE-openai-api-keys](https://github.com/dan1471/FREE-openai-api-keys) | **5,749** | Nairobi |
+| [pharmapsychotic/clip-interrogator](https://github.com/pharmapsychotic/clip-interrogator) | **2,986** | IL, USA |
+| [Dark-Xploit/CypherX](https://github.com/Dark-Xploit/CypherX) | **2,960** | Kenya |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

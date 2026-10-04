@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [singer-yang/awesome-deep-optics](https://github.com/singer-yang/awesome-deep-optics) | **395** | Thuwal, Saudi Arabia |
 | [yazeed44/MultiImagePicker](https://github.com/yazeed44/MultiImagePicker) | **383** | Saudi Arabia |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **2,828**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [orangci/walls-catppuccin-mocha](https://github.com/orangci/walls-catppuccin-mocha) | **2,845** | Riyadh, Saudi Arabia |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

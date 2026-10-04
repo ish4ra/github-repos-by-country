@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 8%
+## Repository ranking status: Building 6%
 
-- Geography terms processed: **6 / 72**
-- Progress: **8%**
+- Geography terms processed: **5 / 72**
+- Progress: **6%**
 - Retained high-potential owner candidates: **101**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [kruseio/hygg](https://github.com/kruseio/hygg) | **359** | Faroe Islands |
+| [kruseio/hygg](https://github.com/kruseio/hygg) | **360** | Faroe Islands |
 | [QODIO/selectator](https://github.com/QODIO/selectator) | **88** | Faroe Islands |
 | [bardurt/odontograma](https://github.com/bardurt/odontograma) | **77** | Faroe Islands |
 | [Brian-ED/rayed-bqn](https://github.com/Brian-ED/rayed-bqn) | **53** | Faroe Islands |

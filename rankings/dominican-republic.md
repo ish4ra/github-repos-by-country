@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 205**
 - Progress: **0%**
 - Retained high-potential owner candidates: **337**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -33,7 +33,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [dualra1n/dualra1n](https://github.com/dualra1n/dualra1n) | **296** | Dominican Republic |
 | [rdelrosario/xamarin-plugins](https://github.com/rdelrosario/xamarin-plugins) | **178** | Dominican Republic |
 | [gbaldera/ShoppingCartExample](https://github.com/gbaldera/ShoppingCartExample) | **162** | Santiago de los Caballeros, Dominican Republic |
-| [KevRojo/Dulus](https://github.com/KevRojo/Dulus) | **115** | Dominican Republic |
+| [KevRojo/Dulus](https://github.com/KevRojo/Dulus) | **124** | Dominican Republic |
 | [luismts/ValidationRulesPlugin](https://github.com/luismts/ValidationRulesPlugin) | **67** | Dominican Republic |
 | [Jadhielv/ITL](https://github.com/Jadhielv/ITL) | **66** | Dominican Republic |
 | [itsalb3rt/savycart-app](https://github.com/itsalb3rt/savycart-app) | **55** | Santiago,Dominican Republic |

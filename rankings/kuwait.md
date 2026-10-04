@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **2,828**
 
 ### High-star verified preview
 
@@ -53,5 +53,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [obytes/react-native-template-obytes](https://github.com/obytes/react-native-template-obytes) | **4,350** | Kuwait |
 | [telly/TLYShyNavBar](https://github.com/telly/TLYShyNavBar) | **3,693** | Kuwait |
+| [NYAN-x-CAT/AsyncRAT-C-Sharp](https://github.com/NYAN-x-CAT/AsyncRAT-C-Sharp) | **3,031** | Kuwait |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

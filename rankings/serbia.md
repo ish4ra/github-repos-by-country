@@ -20,8 +20,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **7**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **11**
+- Current global star frontier: **2,828**
 
 ### High-star verified preview
 
@@ -36,5 +36,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [oblac/jodd](https://github.com/oblac/jodd) | **4,049** | Belgrade, Serbia |
 | [milanm/DotNet-Developer-Roadmap](https://github.com/milanm/DotNet-Developer-Roadmap) | **3,745** | Belgrade, Serbia |
 | [slevithan/xregexp](https://github.com/slevithan/xregexp) | **3,325** | Belgrade, Serbia |
+| [pamburus/hl](https://github.com/pamburus/hl) | **3,301** | Belgrade, Serbia |
+| [ClusterM/hakchi2](https://github.com/ClusterM/hakchi2) | **2,928** | Serbia |
+| [orangehill/iseed](https://github.com/orangehill/iseed) | **2,894** | Belgrade, Serbia |
+| [s3rius/FastAPI-template](https://github.com/s3rius/FastAPI-template) | **2,834** | Serbia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

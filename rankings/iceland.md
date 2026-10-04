@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **2,828**
 
 ### High-star verified preview
 
@@ -54,5 +54,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | **68,837** | Iceland |
 | [sveinbjornt/Sloth](https://github.com/sveinbjornt/Sloth) | **8,965** | Reykjavík, Iceland |
 | [sveinbjornt/Platypus](https://github.com/sveinbjornt/Platypus) | **3,450** | Reykjavík, Iceland |
+| [imbue-bit/AlphaGPT](https://github.com/imbue-bit/AlphaGPT) | **3,164** | Iceland |
+| [jeremybarbet/react-native-modalize](https://github.com/jeremybarbet/react-native-modalize) | **2,880** | Reykjavík, Iceland |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

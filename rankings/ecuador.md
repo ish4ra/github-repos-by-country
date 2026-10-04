@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 407**
 - Progress: **0%**
 - Retained high-potential owner candidates: **141**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,17 +24,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [eythaann/Seelen-UI](https://github.com/eythaann/Seelen-UI) | **17,938** | Ecuador |
-| [jxlarrea/kiosk-satellite](https://github.com/jxlarrea/kiosk-satellite) | **1,419** | Ecuador |
+| [eythaann/Seelen-UI](https://github.com/eythaann/Seelen-UI) | **17,947** | Ecuador |
+| [jxlarrea/kiosk-satellite](https://github.com/jxlarrea/kiosk-satellite) | **1,459** | Ecuador |
 | [vargasjona/fastapi-alembic-sqlmodel-async](https://github.com/vargasjona/fastapi-alembic-sqlmodel-async) | **1,266** | Quito, Ecuador |
 | [sauljabin/kaskade](https://github.com/sauljabin/kaskade) | **1,041** | Quito, Ecuador |
 | [asantibanez/livewire-calendar](https://github.com/asantibanez/livewire-calendar) | **971** | Guayaquil, Ecuador |
 | [xavysp/DexiNed](https://github.com/xavysp/DexiNed) | **863** | Ecuador |
 | [mikehardy/jetifier](https://github.com/mikehardy/jetifier) | **793** | Cuenca, Ecuador |
 | [GataNina-Li/GataBot-MD](https://github.com/GataNina-Li/GataBot-MD) | **678** | Ecuador |
-| [Darkmux/SETSMS](https://github.com/Darkmux/SETSMS) | **539** | Ecuador |
+| [Darkmux/SETSMS](https://github.com/Darkmux/SETSMS) | **540** | Ecuador |
 | [r1vs3c/auto-bspwm](https://github.com/r1vs3c/auto-bspwm) | **528** | Ecuador |
-| [DevCoreXOfficial/core-termux](https://github.com/DevCoreXOfficial/core-termux) | **471** | Ecuador |
+| [DevCoreXOfficial/core-termux](https://github.com/DevCoreXOfficial/core-termux) | **473** | Ecuador |
 | [darwin-morocho/OneCalendarView](https://github.com/darwin-morocho/OneCalendarView) | **308** | Ecuador |
 | [shoniisrael/Platzi-Tests](https://github.com/shoniisrael/Platzi-Tests) | **286** | Ecuador |
 | [TaurusOmar/psobf](https://github.com/TaurusOmar/psobf) | **256** | Ecuador |

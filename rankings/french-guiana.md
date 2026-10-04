@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 18%
+## Repository ranking status: Building 6%
 
-- Geography terms processed: **8 / 43**
-- Progress: **18%**
+- Geography terms processed: **3 / 43**
+- Progress: **6%**
 - Retained high-potential owner candidates: **62**
-- Search requests completed: **9**
+- Search requests completed: **4**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [drainerw/Advanced-Family-Personal-Warehouse-Storage-RedAge-v3-](https://github.com/drainerw/Advanced-Family-Personal-Warehouse-Storage-RedAge-v3-) | **18** | French Guiana |
+| [drainerw/Advanced-Family-Personal-Warehouse-Storage-RedAge-v3-](https://github.com/drainerw/Advanced-Family-Personal-Warehouse-Storage-RedAge-v3-) | **19** | French Guiana |
 | [Xeiron/sndfile.rs](https://github.com/Xeiron/sndfile.rs) | **10** | Carbet Toukan, French Guiana |
 | [Primo-Studio/openclaw-memoria](https://github.com/Primo-Studio/openclaw-memoria) | **7** | French Guiana |
 | [baffy-req/contrib-pool-3-347](https://github.com/baffy-req/contrib-pool-3-347) | **5** | Amandafurt, French Guiana |

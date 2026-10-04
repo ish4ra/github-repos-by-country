@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **2,828**
 
 ### High-star verified preview
 
@@ -55,5 +55,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [dillidon/alerts-and-pickers](https://github.com/dillidon/alerts-and-pickers) | **5,756** | Belarus |
 | [YauhenKavalchuk/interview-questions](https://github.com/YauhenKavalchuk/interview-questions) | **4,546** | Belarus, Minsk |
 | [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) | **3,475** | Belarus |
+| [BEPb/BEPb](https://github.com/BEPb/BEPb) | **3,221** | Belarus |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

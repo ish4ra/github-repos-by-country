@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **2,828**
 
 ### High-star verified preview
 
@@ -54,5 +54,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [lipis/flag-icons](https://github.com/lipis/flag-icons) | **12,444** | Thessaloniki, Greece |
 | [pablof7z/chardin.js](https://github.com/pablof7z/chardin.js) | **4,952** | Kalymnos, Greece |
 | [skorokithakis/catt](https://github.com/skorokithakis/catt) | **3,702** | Thessaloniki, Greece |
+| [lipis/bootstrap-social](https://github.com/lipis/bootstrap-social) | **2,885** | Thessaloniki, Greece |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

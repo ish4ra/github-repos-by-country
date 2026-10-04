@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **8**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **10**
+- Current global star frontier: **2,828**
 
 ### High-star verified preview
 
@@ -59,5 +59,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [AndrewStetsenko/tech-jobs-with-relocation](https://github.com/AndrewStetsenko/tech-jobs-with-relocation) | **4,568** | Slovenia |
 | [tomaz/appledoc](https://github.com/tomaz/appledoc) | **4,185** | Slovenia |
 | [maticzav/graphql-shield](https://github.com/maticzav/graphql-shield) | **3,575** | Ljubljana, Slovenia |
+| [filips123/PWAsForFirefox](https://github.com/filips123/PWAsForFirefox) | **3,117** | Slovenia |
+| [matejlatin/Gutenberg](https://github.com/matejlatin/Gutenberg) | **2,845** | Slovenia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

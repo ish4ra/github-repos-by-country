@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 338**
 - Progress: **0%**
-- Retained high-potential owner candidates: **401**
-- Search requests completed: **17**
+- Retained high-potential owner candidates: **402**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,15 +24,15 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | **85,372** | Egypt |
-| [aboul3la/Sublist3r](https://github.com/aboul3la/Sublist3r) | **11,048** | Egypt |
+| [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) | **85,667** | Egypt |
+| [aboul3la/Sublist3r](https://github.com/aboul3la/Sublist3r) | **11,050** | Egypt |
 | [mbadry1/DeepLearning.ai-Summary](https://github.com/mbadry1/DeepLearning.ai-Summary) | **5,349** | Cairo, Egypt |
-| [Moataz-Elmesmary/Data-Science-Roadmap](https://github.com/Moataz-Elmesmary/Data-Science-Roadmap) | **4,384** | Cairo, Egypt |
+| [Moataz-Elmesmary/Data-Science-Roadmap](https://github.com/Moataz-Elmesmary/Data-Science-Roadmap) | **4,386** | Cairo, Egypt |
 | [AhmadElsagheer/Competitive-programming-library](https://github.com/AhmadElsagheer/Competitive-programming-library) | **2,488** | Cairo, Egypt |
-| [amElnagdy/delegate-skills](https://github.com/amElnagdy/delegate-skills) | **2,288** | Egypt |
-| [abanoub-asaad/Java-Backend](https://github.com/abanoub-asaad/Java-Backend) | **1,917** | Egypt  |
+| [amElnagdy/delegate-skills](https://github.com/amElnagdy/delegate-skills) | **2,300** | Egypt |
+| [abanoub-asaad/Java-Backend](https://github.com/abanoub-asaad/Java-Backend) | **1,919** | Egypt  |
 | [emadshanab/Nuclei-Templates-Collection](https://github.com/emadshanab/Nuclei-Templates-Collection) | **1,228** | Egypt  |
-| [abdullahtarek/football_analysis](https://github.com/abdullahtarek/football_analysis) | **1,015** | Cairo, Egypt |
+| [abdullahtarek/football_analysis](https://github.com/abdullahtarek/football_analysis) | **1,016** | Cairo, Egypt |
 | [bakrianoo/mini-rag](https://github.com/bakrianoo/mini-rag) | **724** | Sinai, Egypt |
 | [A-Hemeda/Remote-Jobs-List](https://github.com/A-Hemeda/Remote-Jobs-List) | **718** | Cairo, Egypt |
 | [h9-tect/ML-DL_Roadmap.](https://github.com/h9-tect/ML-DL_Roadmap.) | **613** | Egypt |

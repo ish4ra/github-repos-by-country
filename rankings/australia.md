@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **7**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **2,828**
 
 ### High-star verified preview
 
@@ -58,5 +58,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [buymeasoda/soda-theme](https://github.com/buymeasoda/soda-theme) | **4,288** | Sunshine Coast, Australia |
 | [zolrath/wemux](https://github.com/zolrath/wemux) | **3,691** | Central Coast, CA |
 | [iann0036/iamlive](https://github.com/iann0036/iamlive) | **3,411** | Sydney, NSW |
+| [MewX/light-novel-library_Wenku8_Android](https://github.com/MewX/light-novel-library_Wenku8_Android) | **3,067** | Sydney, NSW |
+| [livinamuk/Hell2025](https://github.com/livinamuk/Hell2025) | **2,870** | Tasmania, Australia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

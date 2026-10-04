@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **15**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **21**
+- Current global star frontier: **2,828**
 
 ### High-star verified preview
 
@@ -66,5 +66,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [parnurzeal/gorequest](https://github.com/parnurzeal/gorequest) | **3,515** | Bangkok |
 | [danyuchn/asd-ste100-skill](https://github.com/danyuchn/asd-ste100-skill) | **3,505** | Bangkok, Thailand |
 | [waf/CSharpRepl](https://github.com/waf/CSharpRepl) | **3,352** | Bangkok, Thailand |
+| [jettify/pytorch-optimizer](https://github.com/jettify/pytorch-optimizer) | **3,169** | Greater Boston, MA |
+| [quantopian/qgrid](https://github.com/quantopian/qgrid) | **3,081** | Boston, MA, USA |
+| [JoshuaKGoldberg/Old-Deleted-FullScreenMario](https://github.com/JoshuaKGoldberg/Old-Deleted-FullScreenMario) | **2,961** | Somerville, MA, USA |
+| [signintech/gopdf](https://github.com/signintech/gopdf) | **2,938** | Bangkok, Thailand |
+| [roylee0704/react-flexbox-grid](https://github.com/roylee0704/react-flexbox-grid) | **2,910** | Bangkok, Thailand |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

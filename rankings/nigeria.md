@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **7**
+- Current global star frontier: **2,828**
 
 ### High-star verified preview
 
@@ -55,5 +55,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) | **5,785** | Lagos, Nigeria |
 | [cgzirim/seek-tune](https://github.com/cgzirim/seek-tune) | **5,602** | Abuja, Nigeria |
 | [appcypher/awesome-wasm-langs](https://github.com/appcypher/awesome-wasm-langs) | **4,448** | Lagos, Nigeria |
+| [AIEraDev/Clypra](https://github.com/AIEraDev/Clypra) | **3,309** | Nigeria. |
+| [e-oj/Magic-Grid](https://github.com/e-oj/Magic-Grid) | **3,150** | Vancouver, BC \| Abuja, Nigeria |
+| [calistus-igwilo/nitda-blockchain-scholarship](https://github.com/calistus-igwilo/nitda-blockchain-scholarship) | **3,084** | Nigeria |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

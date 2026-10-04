@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **2,828**
 
 ### High-star verified preview
 
@@ -54,5 +54,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [lohanidamodar/flutter_ui_challenges](https://github.com/lohanidamodar/flutter_ui_challenges) | **4,749** | Kathmandu, Nepal |
 | [casualsnek/waydroid_script](https://github.com/casualsnek/waydroid_script) | **3,813** | Nepal |
 | [casualsnek/cassowary](https://github.com/casualsnek/cassowary) | **3,586** | Nepal |
+| [codse/animata](https://github.com/codse/animata) | **2,815** | Pokhara, Nepal |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

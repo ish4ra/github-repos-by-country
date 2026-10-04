@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **15**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **22**
+- Current global star frontier: **2,828**
 
 ### High-star verified preview
 
@@ -66,5 +66,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [andreafrancia/trash-cli](https://github.com/andreafrancia/trash-cli) | **4,597** | Milano |
 | [antirez/linenoise](https://github.com/antirez/linenoise) | **4,364** | Catania, Sicily, Italy |
 | [pichillilorenzo/flutter_inappwebview](https://github.com/pichillilorenzo/flutter_inappwebview) | **3,782** | Teramo, Italy |
+| [pglombardo/PasswordPusher](https://github.com/pglombardo/PasswordPusher) | **3,210** | Palermo, Sicily |
+| [Djdefrag/QualityScaler](https://github.com/Djdefrag/QualityScaler) | **3,204** | Castel San Giorgio (Salerno) |
+| [Ocramius/PackageVersions](https://github.com/Ocramius/PackageVersions) | **3,167** | Perugia, Italy |
+| [veeso/termscp](https://github.com/veeso/termscp) | **3,111** | Udine, Italy |
+| [gabrielemariotti/RecyclerViewItemAnimators](https://github.com/gabrielemariotti/RecyclerViewItemAnimators) | **3,015** | Ancona, Italy |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **17**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **21**
+- Current global star frontier: **2,828**
 
 ### High-star verified preview
 
@@ -68,5 +68,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Gictorbit/photoshopCClinux](https://github.com/Gictorbit/photoshopCClinux) | **4,510** | UAE/Dubai |
 | [jMonkeyEngine/jmonkeyengine](https://github.com/jMonkeyEngine/jmonkeyengine) | **4,320** | International |
 | [garylab/dnmp](https://github.com/garylab/dnmp) | **4,089** | Abu Dhabi, UAE |
+| [wa0x6e/cal-heatmap](https://github.com/wa0x6e/cal-heatmap) | **3,128** | Dubai, UAE |
+| [openworm/OpenWorm](https://github.com/openworm/OpenWorm) | **3,067** | International |
+| [Serhioromano/bootstrap-calendar](https://github.com/Serhioromano/bootstrap-calendar) | **3,000** | International |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

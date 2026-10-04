@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 1,195**
 - Progress: **0%**
 - Retained high-potential owner candidates: **134**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,25 +25,25 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) | **94,756** | Finland |
-| [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) | **75,128** | Helsinki, Finland |
+| [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) | **75,231** | Helsinki, Finland |
 | [petkaantonov/bluebird](https://github.com/petkaantonov/bluebird) | **20,472** | Helsinki, Finland |
 | [TeamVanced/VancedManager](https://github.com/TeamVanced/VancedManager) | **8,139** | Finland |
-| [agronholm/apscheduler](https://github.com/agronholm/apscheduler) | **7,644** | Nurmijärvi, Finland |
-| [tulir/whatsmeow](https://github.com/tulir/whatsmeow) | **7,472** | Finland |
+| [agronholm/apscheduler](https://github.com/agronholm/apscheduler) | **7,646** | Nurmijärvi, Finland |
+| [tulir/whatsmeow](https://github.com/tulir/whatsmeow) | **7,485** | Finland |
 | [lhartikk/ArnoldC](https://github.com/lhartikk/ArnoldC) | **6,887** | Helsinki, Finland |
 | [jerry-git/learn-python3](https://github.com/jerry-git/learn-python3) | **6,858** | Helsinki, Finland |
-| [kijai/ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper) | **6,720** | Finland |
+| [kijai/ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper) | **6,721** | Finland |
 | [tkarras/progressive_growing_of_gans](https://github.com/tkarras/progressive_growing_of_gans) | **6,178** | Helsinki, Finland |
-| [youssefHosni/Data-Science-Interview-Questions-Answers](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers) | **5,876** | Helsinki, Finland |
-| [amosgyamfi/open-swiftui-animations](https://github.com/amosgyamfi/open-swiftui-animations) | **5,656** | Helsinki, Finland |
+| [youssefHosni/Data-Science-Interview-Questions-Answers](https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers) | **5,880** | Helsinki, Finland |
+| [amosgyamfi/open-swiftui-animations](https://github.com/amosgyamfi/open-swiftui-animations) | **5,657** | Helsinki, Finland |
 | [sallar/github-contributions-chart](https://github.com/sallar/github-contributions-chart) | **5,607** | Espoo, Finland |
 | [staltz/rxmarbles](https://github.com/staltz/rxmarbles) | **4,195** | Helsinki, Finland |
 | [arielsalminen/responsive-nav.js](https://github.com/arielsalminen/responsive-nav.js) | **4,048** | Helsinki, Finland |
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **53**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **63**
+- Current global star frontier: **2,828**
 
 ### High-star verified preview
 

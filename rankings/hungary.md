@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **10**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **16**
+- Current global star frontier: **2,828**
 
 ### High-star verified preview
 
@@ -61,5 +61,11 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [kovacsv/Online3DViewer](https://github.com/kovacsv/Online3DViewer) | **3,711** | Budapest, Hungary |
 | [guildxyz/guild.xyz](https://github.com/guildxyz/guild.xyz) | **3,480** | Hungary |
 | [arpanghosh8453/garmin-grafana](https://github.com/arpanghosh8453/garmin-grafana) | **3,480** | Budapest |
+| [nxrighthere/UnrealCLR](https://github.com/nxrighthere/UnrealCLR) | **3,303** | Budapest, Hungary |
+| [asciimoo/drawille](https://github.com/asciimoo/drawille) | **3,257** | Budapest, Hungary |
+| [Aylur/ags](https://github.com/Aylur/ags) | **3,106** | Hungary |
+| [Aylur/dotfiles](https://github.com/Aylur/dotfiles) | **3,098** | Hungary |
+| [relatedcode/ProgressHUD](https://github.com/relatedcode/ProgressHUD) | **2,966** | Budapest |
+| [icebob/vue-express-mongo-boilerplate](https://github.com/icebob/vue-express-mongo-boilerplate) | **2,823** | Hungary |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

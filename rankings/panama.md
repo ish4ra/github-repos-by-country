@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [kuking/seof](https://github.com/kuking/seof) | **46** | Panama City |
 | [jeremymcs/patchdeck](https://github.com/jeremymcs/patchdeck) | **21** | Panama City, FL |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **2,828**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [zacharee/InstallWithOptions](https://github.com/zacharee/InstallWithOptions) | **3,301** | PA |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

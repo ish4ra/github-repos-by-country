@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **2,828**
 
 ### High-star verified preview
 
@@ -54,5 +54,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [garmeeh/next-seo](https://github.com/garmeeh/next-seo) | **8,518** | Wexford, Ireland |
 | [techfort/LokiJS](https://github.com/techfort/LokiJS) | **6,824** | Cork, Ireland |
 | [vitaly-t/pg-promise](https://github.com/vitaly-t/pg-promise) | **3,548** | Wicklow, Ireland |
+| [boramalper/magnetico](https://github.com/boramalper/magnetico) | **3,131** | Cork, Ireland |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

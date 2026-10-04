@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **7**
+- Current global star frontier: **2,828**
 
 ### High-star verified preview
 
@@ -56,5 +56,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [awarexone/Agentic-Bug-Hunter](https://github.com/awarexone/Agentic-Bug-Hunter) | **5,262** | Malaysia |
 | [keenthemes/reui](https://github.com/keenthemes/reui) | **3,614** | Malaysia |
 | [subbarayudu-j/TheAlgorithms-Python](https://github.com/subbarayudu-j/TheAlgorithms-Python) | **3,589** | Malaysia |
+| [kitloong/laravel-migrations-generator](https://github.com/kitloong/laravel-migrations-generator) | **2,868** | Kuala Lumpur, Malaysia |
+| [fathulfahmy/aio-usb-drive](https://github.com/fathulfahmy/aio-usb-drive) | **2,796** | Malaysia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
