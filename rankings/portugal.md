@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **10**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **17**
+- Current global star frontier: **4,174**
 
 ### High-star verified preview
 
@@ -61,5 +61,12 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [vasturiano/3d-force-graph](https://github.com/vasturiano/3d-force-graph) | **6,432** | Lisbon, Portugal |
 | [nunomaduro/phpinsights](https://github.com/nunomaduro/phpinsights) | **5,637** | Portugal |
 | [pedrommcarrasco/Brooklyn](https://github.com/pedrommcarrasco/Brooklyn) | **5,615** | Porto, Portugal |
+| [dpgaspar/Flask-AppBuilder](https://github.com/dpgaspar/Flask-AppBuilder) | **4,963** | Lisbon, Portugal |
+| [apocas/dockerode](https://github.com/apocas/dockerode) | **4,947** | Portugal |
+| [jonasschmedtmann/advanced-css-course](https://github.com/jonasschmedtmann/advanced-css-course) | **4,738** | Faro, Portugal |
+| [nunomaduro/collision](https://github.com/nunomaduro/collision) | **4,659** | Portugal |
+| [jonasschmedtmann/ultimate-react-course](https://github.com/jonasschmedtmann/ultimate-react-course) | **4,519** | Faro, Portugal |
+| [andrew--r/channels](https://github.com/andrew--r/channels) | **4,469** | Lisbon, Portugal |
+| [dwyl/learn-json-web-tokens](https://github.com/dwyl/learn-json-web-tokens) | **4,173** | Portugal |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

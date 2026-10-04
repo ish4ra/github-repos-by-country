@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 4%
+## Repository ranking status: Building 3%
 
-- Geography terms processed: **5 / 108**
-- Progress: **4%**
-- Retained high-potential owner candidates: **153**
-- Search requests completed: **9**
+- Geography terms processed: **4 / 108**
+- Progress: **3%**
+- Retained high-potential owner candidates: **154**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [RustLangES/rust-book-es](https://github.com/RustLangES/rust-book-es) | **170** | Chad |
+| [RustLangES/rust-book-es](https://github.com/RustLangES/rust-book-es) | **171** | Chad |
 | [0xIntuition/chrome-extension](https://github.com/0xIntuition/chrome-extension) | **153** | Chad |
 | [fundingrate/tradingview-webhooks](https://github.com/fundingrate/tradingview-webhooks) | **54** | Chad |
 | [SwirlLang/Swirl](https://github.com/SwirlLang/Swirl) | **18** | Chad |

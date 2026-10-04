@@ -1,0 +1,3419 @@
+{
+  "schemaVersion": 1,
+  "methodologyVersion": "0.8.0-repository-first",
+  "generatedAt": "2026-10-04T15:19:47.982Z",
+  "country": {
+    "code": "SG",
+    "name": "Singapore",
+    "slug": "singapore"
+  },
+  "source": {
+    "provider": "GitHub GraphQL API",
+    "endpoint": "https://api.github.com/graphql",
+    "countryBasis": "public repository-owner profile location",
+    "discovery": "global repositories scanned by stars descending"
+  },
+  "coverage": {
+    "status": "repository-first-certified-by-star-frontier",
+    "exhaustive": false,
+    "rawOwnerHits": 15540,
+    "acceptedUniqueOwners": 74,
+    "ownerMetricLabel": "Unique owners in top ranking",
+    "repositoriesConsidered": 117,
+    "publishedRepositories": 100,
+    "candidateThresholdStars": 5299,
+    "rankingLimit": 100,
+    "cappedQueries": [],
+    "repositoryFirst": {
+      "scanFrontierStars": 4174,
+      "topObservedStars": 551406,
+      "repositoriesSeen": 15540,
+      "attributedRepositories": 5352,
+      "ambiguousLocations": 2202,
+      "unknownLocations": 7986,
+      "unresolvedStarCounts": []
+    },
+    "notes": [
+      "Repositories are scanned globally in descending star ranges, independently of owner follower count or owner-search ordering.",
+      "A country is certified only after its 100th repository has more stars than every unprocessed global star range.",
+      "Owner country is inferred from the owner public GitHub profile location using the global geography resolver.",
+      "Owners with missing or unresolved locations are excluded, so country attribution is not a citizenship or legal-incorporation claim.",
+      "Compound city/admin locations such as \"Portland, OR\" are resolved before ambiguous city-only names."
+    ]
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "rustdesk",
+      "nameWithOwner": "rustdesk/rustdesk",
+      "url": "https://github.com/rustdesk/rustdesk",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "stars": 125074,
+      "forks": 19404,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2020-09-28T15:36:08Z",
+      "pushedAt": "2026-10-04T00:05:06Z",
+      "homepageUrl": "https://rustdesk.com",
+      "archived": false,
+      "owner": {
+        "login": "rustdesk",
+        "name": "RustDesk",
+        "type": "User",
+        "url": "https://github.com/rustdesk",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71636191?u=fcdfa5bbe724bd4ec02f6c3b2419ff25b7f5eb07&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 2,
+      "name": "crawl4ai",
+      "nameWithOwner": "unclecode/crawl4ai",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "description": "Open-source web crawler and scraper for LLMs and AI agents: any website into clean, LLM-ready Markdown. Run it yourself, or use Crawl4AI Cloud with one key.",
+      "stars": 84712,
+      "forks": 8766,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2024-05-09T09:48:50Z",
+      "pushedAt": "2026-09-25T06:37:14Z",
+      "homepageUrl": "https://crawl4ai.com",
+      "archived": false,
+      "owner": {
+        "login": "unclecode",
+        "name": "UncleCode",
+        "type": "User",
+        "url": "https://github.com/unclecode",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12494079?u=413d68156031fdfe74861491b75ffe6d426d8228&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 3,
+      "name": "deer-flow",
+      "nameWithOwner": "bytedance/deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "stars": 83359,
+      "forks": 11569,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-05-07T02:50:19Z",
+      "pushedAt": "2026-10-04T03:00:06Z",
+      "homepageUrl": "https://deerflow.tech",
+      "archived": false,
+      "owner": {
+        "login": "bytedance",
+        "name": "Bytedance Inc.",
+        "type": "Organization",
+        "url": "https://github.com/bytedance",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4158466?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 4,
+      "name": "learn-claude-code",
+      "nameWithOwner": "shareAI-lab/learn-claude-code",
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
+      "stars": 77958,
+      "forks": 12509,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-06-29T15:34:15Z",
+      "pushedAt": "2026-09-28T13:49:16Z",
+      "homepageUrl": "https://learn.shareai.run",
+      "archived": false,
+      "owner": {
+        "login": "shareAI-lab",
+        "name": "shareAI",
+        "type": "Organization",
+        "url": "https://github.com/shareAI-lab",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/189210346?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 5,
+      "name": "AFFiNE",
+      "nameWithOwner": "toeverything/AFFiNE",
+      "url": "https://github.com/toeverything/AFFiNE",
+      "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. ",
+      "stars": 73212,
+      "forks": 5328,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2022-07-31T18:45:21Z",
+      "pushedAt": "2026-10-03T23:17:08Z",
+      "homepageUrl": "https://affine.pro",
+      "archived": false,
+      "owner": {
+        "login": "toeverything",
+        "name": "Toeverything",
+        "type": "Organization",
+        "url": "https://github.com/toeverything",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78728988?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 6,
+      "name": "MediaCrawler",
+      "nameWithOwner": "NanmiCoder/MediaCrawler",
+      "url": "https://github.com/NanmiCoder/MediaCrawler",
+      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫  | 知乎问答文章｜评论爬虫",
+      "stars": 66147,
+      "forks": 12701,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2023-06-09T12:14:34Z",
+      "pushedAt": "2026-10-03T19:37:27Z",
+      "homepageUrl": "https://nanmicoder.github.io/MediaCrawler/",
+      "archived": false,
+      "owner": {
+        "login": "NanmiCoder",
+        "name": "程序员阿江-Relakkes",
+        "type": "User",
+        "url": "https://github.com/NanmiCoder",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47178017?u=9ede4e056bc911665ade24d830ac24b5c1122c8b&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 7,
+      "name": "RSSHub",
+      "nameWithOwner": "DIYgod/RSSHub",
+      "url": "https://github.com/DIYgod/RSSHub",
+      "description": "🧡 Everything is RSSible",
+      "stars": 46401,
+      "forks": 10241,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2018-04-02T14:43:21Z",
+      "pushedAt": "2026-10-04T02:40:27Z",
+      "homepageUrl": "https://docs.rsshub.app",
+      "archived": false,
+      "owner": {
+        "login": "DIYgod",
+        "name": "DIYgod",
+        "type": "User",
+        "url": "https://github.com/DIYgod",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8266075?u=9de49c9b3eaf4db02e685458cb64b64c172034bf&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 8,
+      "name": "UI-TARS-desktop",
+      "nameWithOwner": "bytedance/UI-TARS-desktop",
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "stars": 39203,
+      "forks": 3969,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2025-01-19T09:04:43Z",
+      "pushedAt": "2026-09-24T06:48:56Z",
+      "homepageUrl": "https://agent-tars.com",
+      "archived": false,
+      "owner": {
+        "login": "bytedance",
+        "name": "Bytedance Inc.",
+        "type": "Organization",
+        "url": "https://github.com/bytedance",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4158466?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 9,
+      "name": "DragGAN",
+      "nameWithOwner": "XingangPan/DragGAN",
+      "url": "https://github.com/XingangPan/DragGAN",
+      "description": "Official Code for DragGAN (SIGGRAPH 2023)",
+      "stars": 35750,
+      "forks": 3395,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2023-05-18T10:08:02Z",
+      "pushedAt": "2024-05-18T17:51:40Z",
+      "homepageUrl": "https://vcai.mpi-inf.mpg.de/projects/DragGAN/",
+      "archived": false,
+      "owner": {
+        "login": "XingangPan",
+        "name": "Xingang Pan",
+        "type": "User",
+        "url": "https://github.com/XingangPan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13579537?u=d3436a58b7f07f60d1ddd0e30e33e9c1f0b5e331&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 10,
+      "name": "LeetCode-Go",
+      "nameWithOwner": "halfrost/LeetCode-Go",
+      "url": "https://github.com/halfrost/LeetCode-Go",
+      "description": "✅ Solutions to LeetCode by Go, 100% test coverage, runtime beats 100% | LeetCode 题解",
+      "stars": 33814,
+      "forks": 5702,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-07-18T00:06:14Z",
+      "pushedAt": "2026-09-11T01:48:08Z",
+      "homepageUrl": "https://books.halfrost.com/leetcode",
+      "archived": false,
+      "owner": {
+        "login": "halfrost",
+        "name": "halfrost",
+        "type": "User",
+        "url": "https://github.com/halfrost",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10825609?u=03334ecb4f5215e795ed600b655acd597945d4f9&v=4",
+        "location": "[California, Singapore, China]",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 11,
+      "name": "html2canvas",
+      "nameWithOwner": "niklasvh/html2canvas",
+      "url": "https://github.com/niklasvh/html2canvas",
+      "description": "Screenshots with JavaScript",
+      "stars": 31925,
+      "forks": 4871,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2011-07-16T01:05:58Z",
+      "pushedAt": "2024-07-18T07:26:56Z",
+      "homepageUrl": "https://html2canvas.hertzen.com/",
+      "archived": false,
+      "owner": {
+        "login": "niklasvh",
+        "name": "Niklas von Hertzen",
+        "type": "User",
+        "url": "https://github.com/niklasvh",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/551347?u=3b7f436a57f4a525ceb216ead0c8a145875fced8&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 12,
+      "name": "Chat2DB",
+      "nameWithOwner": "OtterMind/Chat2DB",
+      "url": "https://github.com/OtterMind/Chat2DB",
+      "description": "Chat2DB is a free, cross-platform, local-first database client and SQL workspace for developers, DBAs, analysts, and data teams. Connect to 40+ databases, manage data, edit and run SQL, and use your own AI model to generate, explain, and optimize queries. Available on desktop, web, Docker, and CLI, with MCP support.",
+      "stars": 28302,
+      "forks": 3044,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2023-06-20T14:05:26Z",
+      "pushedAt": "2026-10-01T05:46:29Z",
+      "homepageUrl": "https://chat2db.ai",
+      "archived": false,
+      "owner": {
+        "login": "OtterMind",
+        "name": "OtterMind",
+        "type": "Organization",
+        "url": "https://github.com/OtterMind",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131834193?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 13,
+      "name": "ddia",
+      "nameWithOwner": "Vonng/ddia",
+      "url": "https://github.com/Vonng/ddia",
+      "description": "《Designing Data-Intensive Application》DDIA 第一版 / 第二版 中文翻译",
+      "stars": 23783,
+      "forks": 4564,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Creative Commons Attribution 4.0 International",
+        "spdxId": "CC-BY-4.0"
+      },
+      "createdAt": "2018-02-08T04:26:52Z",
+      "pushedAt": "2026-10-04T01:21:29Z",
+      "homepageUrl": "https://ddia.vonng.com",
+      "archived": false,
+      "owner": {
+        "login": "Vonng",
+        "name": "Feng Ruohang",
+        "type": "User",
+        "url": "https://github.com/Vonng",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8587410?u=e9b7c9c5d370f615607fbbfe850590f467ce0ba3&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 14,
+      "name": "TeachYourselfCS-CN",
+      "nameWithOwner": "izackwu/TeachYourselfCS-CN",
+      "url": "https://github.com/izackwu/TeachYourselfCS-CN",
+      "description": "TeachYourselfCS 的中文翻译 |  A Chinese translation of TeachYourselfCS",
+      "stars": 22171,
+      "forks": 3324,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Creative Commons Attribution Share Alike 4.0 International",
+        "spdxId": "CC-BY-SA-4.0"
+      },
+      "createdAt": "2019-10-04T08:53:38Z",
+      "pushedAt": "2023-01-18T11:23:31Z",
+      "homepageUrl": "https://teachyourselfcs.com/",
+      "archived": false,
+      "owner": {
+        "login": "izackwu",
+        "name": "Zack Wu",
+        "type": "User",
+        "url": "https://github.com/izackwu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20233656?u=261e9618e33664855cb352dc1809167ad8e69ea0&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 15,
+      "name": "awesome-readme",
+      "nameWithOwner": "matiassingers/awesome-readme",
+      "url": "https://github.com/matiassingers/awesome-readme",
+      "description": "A curated list of awesome READMEs",
+      "stars": 21532,
+      "forks": 3954,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2015-01-19T06:15:03Z",
+      "pushedAt": "2026-09-28T20:10:26Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "matiassingers",
+        "name": "Matias Singers",
+        "type": "User",
+        "url": "https://github.com/matiassingers",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/938453?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 16,
+      "name": "You-Dont-Need-jQuery",
+      "nameWithOwner": "camsong/You-Dont-Need-jQuery",
+      "url": "https://github.com/camsong/You-Dont-Need-jQuery",
+      "description": "Examples of how to do query, style, dom, ajax, event etc like jQuery with plain javascript.",
+      "stars": 20122,
+      "forks": 1705,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-11-21T16:02:26Z",
+      "pushedAt": "2026-09-23T12:17:17Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "camsong",
+        "name": "Shaoyin Song",
+        "type": "User",
+        "url": "https://github.com/camsong",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/948896?u=85a3066e49484f8c15bb9b9c40cbd331320813b8&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 17,
+      "name": "awesome-macOS",
+      "nameWithOwner": "iCHAIT/awesome-macOS",
+      "url": "https://github.com/iCHAIT/awesome-macOS",
+      "description": "  A curated list of awesome applications, softwares, tools and shiny things for macOS.",
+      "stars": 19290,
+      "forks": 1533,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2015-05-25T16:24:12Z",
+      "pushedAt": "2026-08-23T18:27:23Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "iCHAIT",
+        "name": "Chaitanya Gupta",
+        "type": "User",
+        "url": "https://github.com/iCHAIT",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8472314?u=3e6f37e42518322643eea0404d23b7d8e9dbb895&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 18,
+      "name": "subql",
+      "nameWithOwner": "subquery/subql",
+      "url": "https://github.com/subquery/subql",
+      "description": "SubQuery is an Open, Flexible, Fast and Universal data indexing framework for web3. Our mission is to help developers create the decentralised products of the future.",
+      "stars": 18739,
+      "forks": 395,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2020-12-15T02:31:38Z",
+      "pushedAt": "2026-04-01T02:17:48Z",
+      "homepageUrl": "https://subquery.network",
+      "archived": false,
+      "owner": {
+        "login": "subquery",
+        "name": "SubQuery Network",
+        "type": "Organization",
+        "url": "https://github.com/subquery",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77033664?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 19,
+      "name": "CodeFormer",
+      "nameWithOwner": "sczhou/CodeFormer",
+      "url": "https://github.com/sczhou/CodeFormer",
+      "description": "[NeurIPS 2022] Towards Robust Blind Face Restoration with Codebook Lookup Transformer",
+      "stars": 18171,
+      "forks": 3725,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2022-06-21T02:48:14Z",
+      "pushedAt": "2025-11-18T12:03:30Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "sczhou",
+        "name": "Shangchen Zhou",
+        "type": "User",
+        "url": "https://github.com/sczhou",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14334509?u=7d30c71af7c2ab4d4f2fbbdead98722f5886cee8&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 20,
+      "name": "ffmpeg.wasm",
+      "nameWithOwner": "ffmpegwasm/ffmpeg.wasm",
+      "url": "https://github.com/ffmpegwasm/ffmpeg.wasm",
+      "description": "FFmpeg for browser, powered by WebAssembly",
+      "stars": 17828,
+      "forks": 1114,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-10-16T11:21:16Z",
+      "pushedAt": "2026-09-29T21:30:20Z",
+      "homepageUrl": "https://ffmpegwasm.netlify.app",
+      "archived": false,
+      "owner": {
+        "login": "ffmpegwasm",
+        "name": "ffmpeg.wasm",
+        "type": "Organization",
+        "url": "https://github.com/ffmpegwasm",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56998921?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 21,
+      "name": "cli",
+      "nameWithOwner": "larksuite/cli",
+      "url": "https://github.com/larksuite/cli",
+      "description": "The official Lark/飞书 CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 20+ AI Agent Skills.",
+      "stars": 17533,
+      "forks": 1391,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-03-25T07:13:30Z",
+      "pushedAt": "2026-09-30T07:35:56Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "larksuite",
+        "name": "Lark Technologies Pte. Ltd.",
+        "type": "Organization",
+        "url": "https://github.com/larksuite",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54944174?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 22,
+      "name": "ego-lite",
+      "nameWithOwner": "citrolabs/ego-lite",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "stars": 16806,
+      "forks": 899,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-04-16T12:51:09Z",
+      "pushedAt": "2026-09-23T07:16:19Z",
+      "homepageUrl": "https://lite.ego.app",
+      "archived": false,
+      "owner": {
+        "login": "citrolabs",
+        "name": "CitroLabs",
+        "type": "Organization",
+        "url": "https://github.com/citrolabs",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/234319236?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 23,
+      "name": "DPlayer",
+      "nameWithOwner": "DIYgod/DPlayer",
+      "url": "https://github.com/DIYgod/DPlayer",
+      "description": ":lollipop: Wow, such a lovely HTML5 danmaku video player",
+      "stars": 16515,
+      "forks": 2485,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-05-03T14:11:22Z",
+      "pushedAt": "2026-03-04T03:04:09Z",
+      "homepageUrl": "https://dplayer.diygod.dev",
+      "archived": false,
+      "owner": {
+        "login": "DIYgod",
+        "name": "DIYgod",
+        "type": "User",
+        "url": "https://github.com/DIYgod",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8266075?u=9de49c9b3eaf4db02e685458cb64b64c172034bf&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 24,
+      "name": "gpui-kit",
+      "nameWithOwner": "longbridge/gpui-kit",
+      "url": "https://github.com/longbridge/gpui-kit",
+      "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
+      "stars": 15870,
+      "forks": 975,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2024-06-13T13:45:39Z",
+      "pushedAt": "2026-10-03T15:28:38Z",
+      "homepageUrl": "http://gpui-kit.com",
+      "archived": false,
+      "owner": {
+        "login": "longbridge",
+        "name": "Longbridge",
+        "type": "Organization",
+        "url": "https://github.com/longbridge",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68419756?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 25,
+      "name": "OrcaSlicer",
+      "nameWithOwner": "OrcaSlicer/OrcaSlicer",
+      "url": "https://github.com/OrcaSlicer/OrcaSlicer",
+      "description": "G-code generator for 3D printers (Bambu, Prusa, Voron, VzBot, RatRig, Creality, etc.)",
+      "stars": 15842,
+      "forks": 3175,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2022-07-16T11:01:21Z",
+      "pushedAt": "2026-10-04T03:21:37Z",
+      "homepageUrl": "https://www.orcaslicer.com",
+      "archived": false,
+      "owner": {
+        "login": "OrcaSlicer",
+        "name": "OrcaSlicer",
+        "type": "Organization",
+        "url": "https://github.com/OrcaSlicer",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/134699248?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 26,
+      "name": "PentestGPT",
+      "nameWithOwner": "GreyDGL/PentestGPT",
+      "url": "https://github.com/GreyDGL/PentestGPT",
+      "description": "Automated Penetration Testing Agentic Framework Powered by Large Language Models",
+      "stars": 15682,
+      "forks": 2730,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-02-27T06:01:53Z",
+      "pushedAt": "2026-07-14T12:58:31Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "GreyDGL",
+        "name": "Gelei Deng",
+        "type": "User",
+        "url": "https://github.com/GreyDGL",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78410652?u=317b9d7badfdd48154c750f10883d1832f3a67ff&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 27,
+      "name": "Duix-Avatar",
+      "nameWithOwner": "duixcom/Duix-Avatar",
+      "url": "https://github.com/duixcom/Duix-Avatar",
+      "description": "🚀 Truly open-source AI avatar(digital human) toolkit for offline video generation and digital human cloning.",
+      "stars": 15644,
+      "forks": 2662,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2024-12-24T03:00:26Z",
+      "pushedAt": "2026-04-21T07:06:36Z",
+      "homepageUrl": "https://www.duix.com/",
+      "archived": false,
+      "owner": {
+        "login": "duixcom",
+        "name": "Duix",
+        "type": "Organization",
+        "url": "https://github.com/duixcom",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/170155462?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 28,
+      "name": "front-end-guide",
+      "nameWithOwner": "grab/front-end-guide",
+      "url": "https://github.com/grab/front-end-guide",
+      "description": "📚 Study guide and introduction to the modern front end stack.",
+      "stars": 15225,
+      "forks": 1097,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-04-24T02:06:06Z",
+      "pushedAt": "2023-06-12T05:35:55Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "grab",
+        "name": "Grab",
+        "type": "Organization",
+        "url": "https://github.com/grab",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17284363?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 29,
+      "name": "cc-haha",
+      "nameWithOwner": "NanmiCoder/cc-haha",
+      "url": "https://github.com/NanmiCoder/cc-haha",
+      "description": "Local-first cross-platform desktop workspace for Claude Code / agents: multi-agent, Git worktrees, code diffs, skill marketplace, multi-model, Computer Use, task-aware desktop pets, with WeChat, Feishu, DingTalk, Telegram, WhatsApp and H5 access.",
+      "stars": 14852,
+      "forks": 8593,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-03-31T17:30:14Z",
+      "pushedAt": "2026-10-03T19:24:50Z",
+      "homepageUrl": "cchaha.ai",
+      "archived": false,
+      "owner": {
+        "login": "NanmiCoder",
+        "name": "程序员阿江-Relakkes",
+        "type": "User",
+        "url": "https://github.com/NanmiCoder",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47178017?u=9ede4e056bc911665ade24d830ac24b5c1122c8b&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 30,
+      "name": "HackBrowserData",
+      "nameWithOwner": "moonD4rk/HackBrowserData",
+      "url": "https://github.com/moonD4rk/HackBrowserData",
+      "description": "Extract and decrypt browser data, supporting multiple data types, runnable on various operating systems (macOS, Windows, Linux).",
+      "stars": 14581,
+      "forks": 1807,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-06-18T03:24:31Z",
+      "pushedAt": "2026-09-25T05:44:31Z",
+      "homepageUrl": "https://hackbrowserdata.org",
+      "archived": false,
+      "owner": {
+        "login": "moonD4rk",
+        "name": "Roger",
+        "type": "User",
+        "url": "https://github.com/moonD4rk",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24284231?u=9f095f72efa33857739af052beb9c528ba8bba20&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 31,
+      "name": "WTF-Solidity",
+      "nameWithOwner": "AmazingAng/WTF-Solidity",
+      "url": "https://github.com/AmazingAng/WTF-Solidity",
+      "description": "WTF Solidity 极简入门教程，供小白们使用。Now supports English! 官网: https://wtf.academy",
+      "stars": 14056,
+      "forks": 2434,
+      "primaryLanguage": "Solidity",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2022-04-02T05:33:11Z",
+      "pushedAt": "2026-09-27T04:59:31Z",
+      "homepageUrl": "https://wtf.academy",
+      "archived": false,
+      "owner": {
+        "login": "AmazingAng",
+        "name": "0xAA",
+        "type": "User",
+        "url": "https://github.com/AmazingAng",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14728591?u=c13f8b64443351a60ef0ac2a610aeaed1ee49da2&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 32,
+      "name": "LibreTV",
+      "nameWithOwner": "LibreSpark/LibreTV",
+      "url": "https://github.com/LibreSpark/LibreTV",
+      "description": "一分钟搭建影视站，支持Docker等部署方式",
+      "stars": 14017,
+      "forks": 27483,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2025-04-06T10:52:08Z",
+      "pushedAt": "2026-10-02T14:54:53Z",
+      "homepageUrl": "https://libretv.is-an.org",
+      "archived": false,
+      "owner": {
+        "login": "LibreSpark",
+        "name": "LibreSpark",
+        "type": "Organization",
+        "url": "https://github.com/LibreSpark",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/207667577?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 33,
+      "name": "awesome-nano-banana-pro-prompts",
+      "nameWithOwner": "YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+      "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts",
+      "description": "🍌 World's largest Nano Banana Pro prompt library — 10,000+ curated prompts with preview images, 16 languages. Google Gemini AI image generation. Free & open source.",
+      "stars": 13534,
+      "forks": 1434,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2025-11-23T07:17:48Z",
+      "pushedAt": "2026-10-04T00:53:10Z",
+      "homepageUrl": "https://youmind.com/nano-banana-pro-prompts",
+      "archived": false,
+      "owner": {
+        "login": "YouMind-OpenLab",
+        "name": "YouMind OpenLab",
+        "type": "Organization",
+        "url": "https://github.com/YouMind-OpenLab",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/245655810?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 34,
+      "name": "Halfrost-Field",
+      "nameWithOwner": "halfrost/Halfrost-Field",
+      "url": "https://github.com/halfrost/Halfrost-Field",
+      "description": "✍🏻 Source Code Deep Dives, System Design & Engineering Blogs | Halfrost-Field 冰霜之地：源码解析、系统设计与工程实践笔记 ",
+      "stars": 13239,
+      "forks": 1874,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Creative Commons Attribution Share Alike 4.0 International",
+        "spdxId": "CC-BY-SA-4.0"
+      },
+      "createdAt": "2017-04-02T11:24:18Z",
+      "pushedAt": "2026-09-30T03:25:27Z",
+      "homepageUrl": "https://halfrost.com",
+      "archived": false,
+      "owner": {
+        "login": "halfrost",
+        "name": "halfrost",
+        "type": "User",
+        "url": "https://github.com/halfrost",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10825609?u=03334ecb4f5215e795ed600b655acd597945d4f9&v=4",
+        "location": "[California, Singapore, China]",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 35,
+      "name": "nofx",
+      "nameWithOwner": "NoFxAiOS/nofx",
+      "url": "https://github.com/NoFxAiOS/nofx",
+      "description": "Your AI trading terminal assistant for US stocks, commodities, forex, and crypto.",
+      "stars": 12994,
+      "forks": 3048,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2025-10-28T07:17:53Z",
+      "pushedAt": "2026-09-05T02:55:46Z",
+      "homepageUrl": "https://vergex.trade/explore",
+      "archived": false,
+      "owner": {
+        "login": "NoFxAiOS",
+        "name": "NoFxAiOS",
+        "type": "Organization",
+        "url": "https://github.com/NoFxAiOS",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/241546879?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 36,
+      "name": "glazewm",
+      "nameWithOwner": "glzr-io/glazewm",
+      "url": "https://github.com/glzr-io/glazewm",
+      "description": "GlazeWM is a tiling window manager for macOS and Windows inspired by i3wm.",
+      "stars": 12848,
+      "forks": 449,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2020-06-28T10:28:26Z",
+      "pushedAt": "2026-06-20T06:02:04Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "glzr-io",
+        "name": "glzr.io",
+        "type": "Organization",
+        "url": "https://github.com/glzr-io",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67482629?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 37,
+      "name": "the-incredible-pytorch",
+      "nameWithOwner": "ritchieng/the-incredible-pytorch",
+      "url": "https://github.com/ritchieng/the-incredible-pytorch",
+      "description": "The Incredible PyTorch: a curated list of tutorials, papers, projects, communities and more relating to PyTorch. ",
+      "stars": 12653,
+      "forks": 2210,
+      "primaryLanguage": null,
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-02-11T08:33:11Z",
+      "pushedAt": "2026-09-23T08:07:58Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ritchieng",
+        "name": "Ritchie Ng",
+        "type": "User",
+        "url": "https://github.com/ritchieng",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11657655?u=94b5ed7226c15a7b1220fb711462ebf908dda6a5&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 38,
+      "name": "jstips",
+      "nameWithOwner": "loverajoel/jstips",
+      "url": "https://github.com/loverajoel/jstips",
+      "description": "This is about useful JS tips!",
+      "stars": 12416,
+      "forks": 777,
+      "primaryLanguage": null,
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2015-12-07T15:35:12Z",
+      "pushedAt": "2025-04-26T14:48:52Z",
+      "homepageUrl": "http://jstips.co",
+      "archived": false,
+      "owner": {
+        "login": "loverajoel",
+        "name": "Joel Lovera",
+        "type": "User",
+        "url": "https://github.com/loverajoel",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1700100?u=e954e099320ea935177ff4f8e4fdd2e301e6bc11&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 39,
+      "name": "dujiaoka",
+      "nameWithOwner": "assimon/dujiaoka",
+      "url": "https://github.com/assimon/dujiaoka",
+      "description": "🦄独角数卡(自动售货系统)-开源站长自动化售货解决方案、高效、稳定、快速！🚀🚀🎉🎉",
+      "stars": 12133,
+      "forks": 2795,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-04-17T05:45:39Z",
+      "pushedAt": "2026-03-12T12:38:08Z",
+      "homepageUrl": "https://t.me/dujiaoka",
+      "archived": true,
+      "owner": {
+        "login": "assimon",
+        "name": "Assimon",
+        "type": "User",
+        "url": "https://github.com/assimon",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35057561?u=8c3289ad741dbe5cd3d62d0a98e26664f06b137a&v=4",
+        "location": "singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 40,
+      "name": "trae-agent",
+      "nameWithOwner": "bytedance/trae-agent",
+      "url": "https://github.com/bytedance/trae-agent",
+      "description": "Trae Agent is an LLM-based agent for general purpose software engineering tasks.",
+      "stars": 12125,
+      "forks": 1358,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-06-13T12:05:15Z",
+      "pushedAt": "2026-02-05T11:21:00Z",
+      "homepageUrl": "https://www.trae.ai/",
+      "archived": false,
+      "owner": {
+        "login": "bytedance",
+        "name": "Bytedance Inc.",
+        "type": "Organization",
+        "url": "https://github.com/bytedance",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4158466?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 41,
+      "name": "UI-TARS",
+      "nameWithOwner": "bytedance/UI-TARS",
+      "url": "https://github.com/bytedance/UI-TARS",
+      "description": "Pioneering Automated GUI Interaction with Native Agents",
+      "stars": 11557,
+      "forks": 881,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2025-01-19T09:04:17Z",
+      "pushedAt": "2026-01-27T04:57:26Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "bytedance",
+        "name": "Bytedance Inc.",
+        "type": "Organization",
+        "url": "https://github.com/bytedance",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4158466?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 42,
+      "name": "Newtonsoft.Json",
+      "nameWithOwner": "JamesNK/Newtonsoft.Json",
+      "url": "https://github.com/JamesNK/Newtonsoft.Json",
+      "description": "Json.NET is a popular high-performance JSON framework for .NET",
+      "stars": 11311,
+      "forks": 3300,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2012-02-18T07:30:28Z",
+      "pushedAt": "2026-09-21T09:58:07Z",
+      "homepageUrl": "https://www.newtonsoft.com/json",
+      "archived": false,
+      "owner": {
+        "login": "JamesNK",
+        "name": "James Newton-King",
+        "type": "User",
+        "url": "https://github.com/JamesNK",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/303201?u=a4521438844aae7f844f8717a79a9858d6c805da&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 43,
+      "name": "SS-Rule-Snippet",
+      "nameWithOwner": "Hackl0us/SS-Rule-Snippet",
+      "url": "https://github.com/Hackl0us/SS-Rule-Snippet",
+      "description": "搜集、整理、维护 Surge / Quantumult (X) / Shadowrocket / Surfboard / clash (Premium) 实用规则。",
+      "stars": 11235,
+      "forks": 1767,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2016-10-11T08:13:52Z",
+      "pushedAt": "2024-03-19T11:51:12Z",
+      "homepageUrl": "https://t.me/AppleNuts",
+      "archived": false,
+      "owner": {
+        "login": "Hackl0us",
+        "name": "Jason Zhang",
+        "type": "User",
+        "url": "https://github.com/Hackl0us",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10215166?u=23cf50919551a4fa8014e94cb3aef07c8650fdd9&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 44,
+      "name": "FileCentipede",
+      "nameWithOwner": "filecxx/FileCentipede",
+      "url": "https://github.com/filecxx/FileCentipede",
+      "description": "Cross-platform internet upload/download manager for HTTP(S), FTP(S), SSH, magnet-link, BitTorrent, m3u8, ed2k, and online videos.  WebDAV client, FTP client, SSH client.",
+      "stars": 10932,
+      "forks": 682,
+      "primaryLanguage": "C++",
+      "license": null,
+      "createdAt": "2022-03-07T15:47:16Z",
+      "pushedAt": "2026-08-25T07:57:12Z",
+      "homepageUrl": "http://filecxx.com",
+      "archived": false,
+      "owner": {
+        "login": "filecxx",
+        "name": "filecxx",
+        "type": "User",
+        "url": "https://github.com/filecxx",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100348948?u=d8563d779bdb796b1ad7ba640313a8da4c2c354a&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 45,
+      "name": "reclip",
+      "nameWithOwner": "averygan/reclip",
+      "url": "https://github.com/averygan/reclip",
+      "description": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.",
+      "stars": 10606,
+      "forks": 1572,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-03-31T04:29:13Z",
+      "pushedAt": "2026-07-09T17:49:44Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "averygan",
+        "name": "Avery Gan",
+        "type": "User",
+        "url": "https://github.com/averygan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88895948?u=901a9e2a37ea884431b3e2bf07a5fe80133f14e0&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 46,
+      "name": "tailwind-nextjs-starter-blog",
+      "nameWithOwner": "timlrx/tailwind-nextjs-starter-blog",
+      "url": "https://github.com/timlrx/tailwind-nextjs-starter-blog",
+      "description": "This is a Next.js, Tailwind CSS blogging starter template. Comes out of the box configured with the latest technologies to make technical writing a breeze. Easily configurable and customizable. Perfect as a replacement to existing Jekyll and Hugo individual blogs.",
+      "stars": 10559,
+      "forks": 2602,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-01-09T09:41:22Z",
+      "pushedAt": "2026-02-08T15:11:33Z",
+      "homepageUrl": "https://tailwind-nextjs-starter-blog.vercel.app/",
+      "archived": false,
+      "owner": {
+        "login": "timlrx",
+        "name": "Timothy",
+        "type": "User",
+        "url": "https://github.com/timlrx",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28362229?u=9a745ca31372ee324af682715ae88ce8522f9094&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 47,
+      "name": "rustdesk-server",
+      "nameWithOwner": "rustdesk/rustdesk-server",
+      "url": "https://github.com/rustdesk/rustdesk-server",
+      "description": "RustDesk Server Program",
+      "stars": 10499,
+      "forks": 2639,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2020-09-28T15:37:59Z",
+      "pushedAt": "2026-08-07T08:56:36Z",
+      "homepageUrl": "https://rustdesk.com/server",
+      "archived": false,
+      "owner": {
+        "login": "rustdesk",
+        "name": "RustDesk",
+        "type": "User",
+        "url": "https://github.com/rustdesk",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71636191?u=fcdfa5bbe724bd4ec02f6c3b2419ff25b7f5eb07&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 48,
+      "name": "visdom",
+      "nameWithOwner": "fossasia/visdom",
+      "url": "https://github.com/fossasia/visdom",
+      "description": "Tool for real-time visualization, monitoring and collaborative analysis of AI/ML experiments and live data. Supports Python, PyTorch/Torch, NumPy, TensorFlow/Keras https://visdom.dev",
+      "stars": 10315,
+      "forks": 1271,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2017-01-25T17:59:45Z",
+      "pushedAt": "2026-10-03T22:49:25Z",
+      "homepageUrl": "https://visdom.dev",
+      "archived": false,
+      "owner": {
+        "login": "fossasia",
+        "name": "FOSSASIA",
+        "type": "Organization",
+        "url": "https://github.com/fossasia",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6295529?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 49,
+      "name": "oceanbase",
+      "nameWithOwner": "oceanbase/oceanbase",
+      "url": "https://github.com/oceanbase/oceanbase",
+      "description": "OceanBase is the unified distributed database for the AI era — open-source, multi-model, one engine for your most demanding workloads.",
+      "stars": 10295,
+      "forks": 1922,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2021-05-31T14:36:17Z",
+      "pushedAt": "2026-10-01T01:00:47Z",
+      "homepageUrl": "https://en.oceanbase.com",
+      "archived": false,
+      "owner": {
+        "login": "oceanbase",
+        "name": "OceanBase",
+        "type": "Organization",
+        "url": "https://github.com/oceanbase",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82347605?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 50,
+      "name": "awesome-gpt-image-2",
+      "nameWithOwner": "YouMind-OpenLab/awesome-gpt-image-2",
+      "url": "https://github.com/YouMind-OpenLab/awesome-gpt-image-2",
+      "description": "🚀 World's largest GPT Image 2 prompt library, updated daily — 2000+ curated prompts with preview images, 16 languages. OpenAI's next-gen image model with pixel-perfect text rendering, cross-image consistency, and commercial-grade illustration. Free & open source.",
+      "stars": 9995,
+      "forks": 882,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2026-04-16T13:57:42Z",
+      "pushedAt": "2026-10-04T03:17:30Z",
+      "homepageUrl": "https://youmind.com/gpt-image-2-prompts",
+      "archived": false,
+      "owner": {
+        "login": "YouMind-OpenLab",
+        "name": "YouMind OpenLab",
+        "type": "Organization",
+        "url": "https://github.com/YouMind-OpenLab",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/245655810?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 51,
+      "name": "JsBridge",
+      "nameWithOwner": "happydog-intj/JsBridge",
+      "url": "https://github.com/happydog-intj/JsBridge",
+      "description": "android java and javascript bridge, inspired by wechat webview jsbridge",
+      "stars": 9911,
+      "forks": 2001,
+      "primaryLanguage": "Java",
+      "license": null,
+      "createdAt": "2015-02-26T12:10:58Z",
+      "pushedAt": "2026-09-12T04:06:55Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "happydog-intj",
+        "name": "happy dog",
+        "type": "User",
+        "url": "https://github.com/happydog-intj",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/212984?u=cd5ac3952f33d265ffb1bc3c25f6ba0e0bcfe682&v=4",
+        "location": "singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 52,
+      "name": "sonic",
+      "nameWithOwner": "bytedance/sonic",
+      "url": "https://github.com/bytedance/sonic",
+      "description": "A blazingly fast JSON serializing & deserializing library",
+      "stars": 9612,
+      "forks": 478,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2021-05-25T03:52:51Z",
+      "pushedAt": "2026-09-26T14:13:55Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "bytedance",
+        "name": "Bytedance Inc.",
+        "type": "Organization",
+        "url": "https://github.com/bytedance",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4158466?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 53,
+      "name": "inference",
+      "nameWithOwner": "xorbitsai/inference",
+      "url": "https://github.com/xorbitsai/inference",
+      "description": "Swap GPT for any LLM by changing a single line of code. Xinference lets you run open-source, speech, and multimodal models on cloud, on-prem, or your laptop — all through one unified, production-ready inference API.",
+      "stars": 9596,
+      "forks": 870,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2023-06-14T07:05:04Z",
+      "pushedAt": "2026-10-04T02:14:01Z",
+      "homepageUrl": "https://inference.readthedocs.io",
+      "archived": false,
+      "owner": {
+        "login": "xorbitsai",
+        "name": "Xorbits",
+        "type": "Organization",
+        "url": "https://github.com/xorbitsai",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109655068?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 54,
+      "name": "xgplayer",
+      "nameWithOwner": "bytedance/xgplayer",
+      "url": "https://github.com/bytedance/xgplayer",
+      "description": "A HTML5 video player with a parser that saves traffic",
+      "stars": 9303,
+      "forks": 942,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-05-16T12:01:55Z",
+      "pushedAt": "2026-09-30T07:02:14Z",
+      "homepageUrl": "https://h5player.bytedance.com/",
+      "archived": false,
+      "owner": {
+        "login": "bytedance",
+        "name": "Bytedance Inc.",
+        "type": "Organization",
+        "url": "https://github.com/bytedance",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4158466?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 55,
+      "name": "monolith",
+      "nameWithOwner": "bytedance/monolith",
+      "url": "https://github.com/bytedance/monolith",
+      "description": "A Lightweight Recommendation System",
+      "stars": 9287,
+      "forks": 720,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2022-09-29T19:47:57Z",
+      "pushedAt": "2025-10-13T02:39:09Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "bytedance",
+        "name": "Bytedance Inc.",
+        "type": "Organization",
+        "url": "https://github.com/bytedance",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4158466?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 56,
+      "name": "CF-Workers-docker.io",
+      "nameWithOwner": "cmliu/CF-Workers-docker.io",
+      "url": "https://github.com/cmliu/CF-Workers-docker.io",
+      "description": "这个项目是一个基于 Cloudflare Workers 的 Docker 镜像代理工具。它能够中转对 Docker 官方镜像仓库的请求，解决一些访问限制和加速访问的问题。",
+      "stars": 9212,
+      "forks": 10551,
+      "primaryLanguage": "JavaScript",
+      "license": null,
+      "createdAt": "2024-06-10T19:13:56Z",
+      "pushedAt": "2025-06-26T09:30:17Z",
+      "homepageUrl": "https://Docker.fxxk.dedyn.io",
+      "archived": true,
+      "owner": {
+        "login": "cmliu",
+        "name": "CMLiussss",
+        "type": "User",
+        "url": "https://github.com/cmliu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24787744?u=703922e1f9e4129656faaddf2099a7da58d45254&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 57,
+      "name": "Dolphin",
+      "nameWithOwner": "bytedance/Dolphin",
+      "url": "https://github.com/bytedance/Dolphin",
+      "description": "The official repo for “Dolphin: Document Image Parsing via Heterogeneous Anchor Prompting”, ACL, 2025.",
+      "stars": 9059,
+      "forks": 777,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2025-05-13T09:20:19Z",
+      "pushedAt": "2026-03-25T06:34:12Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "bytedance",
+        "name": "Bytedance Inc.",
+        "type": "Organization",
+        "url": "https://github.com/bytedance",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4158466?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 58,
+      "name": "IconPark",
+      "nameWithOwner": "bytedance/IconPark",
+      "url": "https://github.com/bytedance/IconPark",
+      "description": "🍎Transform an SVG icon into multiple themes, and generate React icons，Vue icons，svg icons",
+      "stars": 9046,
+      "forks": 553,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2020-07-27T07:42:16Z",
+      "pushedAt": "2023-02-24T07:46:02Z",
+      "homepageUrl": "http://iconpark.bytedance.com/",
+      "archived": true,
+      "owner": {
+        "login": "bytedance",
+        "name": "Bytedance Inc.",
+        "type": "Organization",
+        "url": "https://github.com/bytedance",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4158466?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 59,
+      "name": "open-source-alternatives",
+      "nameWithOwner": "btw-so/open-source-alternatives",
+      "url": "https://github.com/btw-so/open-source-alternatives",
+      "description": "List of open-source alternatives to everyday SaaS products.",
+      "stars": 8805,
+      "forks": 372,
+      "primaryLanguage": null,
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-05-22T08:57:21Z",
+      "pushedAt": "2024-11-08T10:26:57Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "btw-so",
+        "name": "btw",
+        "type": "Organization",
+        "url": "https://github.com/btw-so",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77832921?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 60,
+      "name": "flowgram.ai",
+      "nameWithOwner": "bytedance/flowgram.ai",
+      "url": "https://github.com/bytedance/flowgram.ai",
+      "description": "FlowGram is an extensible workflow development framework with built-in canvas, form, variable, and materials that helps developers build AI workflow platforms faster and simpler.",
+      "stars": 8479,
+      "forks": 775,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-02-17T03:33:58Z",
+      "pushedAt": "2026-09-30T07:03:35Z",
+      "homepageUrl": "https://flowgram.ai",
+      "archived": false,
+      "owner": {
+        "login": "bytedance",
+        "name": "Bytedance Inc.",
+        "type": "Organization",
+        "url": "https://github.com/bytedance",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4158466?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 61,
+      "name": "MiroThinker",
+      "nameWithOwner": "MiroMindAI/MiroThinker",
+      "url": "https://github.com/MiroMindAI/MiroThinker",
+      "description": "MiroThinker is a deep research agent optimized for complex research and prediction tasks. Our latest models, MiroThinker-1.7, achieves 74.0 and 75.3 on the BrowseComp and BrowseComp Zh, respectively.",
+      "stars": 8418,
+      "forks": 646,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2025-08-07T13:32:12Z",
+      "pushedAt": "2026-07-06T14:50:39Z",
+      "homepageUrl": "https://miromind.ai/",
+      "archived": false,
+      "owner": {
+        "login": "MiroMindAI",
+        "name": "MiroMind",
+        "type": "Organization",
+        "url": "https://github.com/MiroMindAI",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/209656584?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 62,
+      "name": "nodejs-argo",
+      "nameWithOwner": "eooce/nodejs-argo",
+      "url": "https://github.com/eooce/nodejs-argo",
+      "description": "nodejs-argo是一个强大的Argo隧道部署工具，专为PaaS平台和游戏玩具平台设计。它支持多种代理协议(VLESS、VMess、Trojan)等，有直连协议(Socks5、Hysteria2、Reality)可选开启，并集成了哪吒探针功能",
+      "stars": 8393,
+      "forks": 13559,
+      "primaryLanguage": "JavaScript",
+      "license": null,
+      "createdAt": "2023-09-27T08:48:34Z",
+      "pushedAt": "2026-09-07T07:59:28Z",
+      "homepageUrl": "https://www.npmjs.com/package/nodejs-argo",
+      "archived": false,
+      "owner": {
+        "login": "eooce",
+        "name": "老王",
+        "type": "User",
+        "url": "https://github.com/eooce",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/142894633?u=38400bf8cfc2a6552e2a126b8c8eeb6af50cd7bb&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 63,
+      "name": "BetterChatGPT",
+      "nameWithOwner": "ztjhz/BetterChatGPT",
+      "url": "https://github.com/ztjhz/BetterChatGPT",
+      "description": "An amazing UI for OpenAI's ChatGPT (Website + Windows + MacOS + Linux)",
+      "stars": 8377,
+      "forks": 2621,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdxId": "CC0-1.0"
+      },
+      "createdAt": "2023-03-03T22:16:18Z",
+      "pushedAt": "2024-08-14T10:26:46Z",
+      "homepageUrl": "http://bettergpt.chat/",
+      "archived": false,
+      "owner": {
+        "login": "ztjhz",
+        "name": "Jing Hua",
+        "type": "User",
+        "url": "https://github.com/ztjhz",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59118459?u=4b15efa2be0f71a1e61d6af0baea5ea036a73a44&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 64,
+      "name": "Duix-Mobile",
+      "nameWithOwner": "duixcom/Duix-Mobile",
+      "url": "https://github.com/duixcom/Duix-Mobile",
+      "description": "🚀 The best real-time interactive AI avatar(digital human) with on-premise deployment and <1.5 s latency.",
+      "stars": 8256,
+      "forks": 1219,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2024-05-16T09:16:41Z",
+      "pushedAt": "2026-08-05T09:54:40Z",
+      "homepageUrl": "https://www.duix.com",
+      "archived": false,
+      "owner": {
+        "login": "duixcom",
+        "name": "Duix",
+        "type": "Organization",
+        "url": "https://github.com/duixcom",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/170155462?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 65,
+      "name": "Awesome-Red-Teaming",
+      "nameWithOwner": "yeyintminthuhtut/Awesome-Red-Teaming",
+      "url": "https://github.com/yeyintminthuhtut/Awesome-Red-Teaming",
+      "description": "List of Awesome Red Teaming Resources",
+      "stars": 8119,
+      "forks": 1754,
+      "primaryLanguage": null,
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-09-27T07:39:15Z",
+      "pushedAt": "2023-12-28T18:10:52Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "yeyintminthuhtut",
+        "name": "r0lan",
+        "type": "User",
+        "url": "https://github.com/yeyintminthuhtut",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6358256?u=309688c0aaa61cc57d6028aeef505686f72b77ff&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 66,
+      "name": "FastImageCache",
+      "nameWithOwner": "path/FastImageCache",
+      "url": "https://github.com/path/FastImageCache",
+      "description": "iOS library for quickly displaying images while scrolling",
+      "stars": 8049,
+      "forks": 918,
+      "primaryLanguage": "Objective-C",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-08-21T22:44:53Z",
+      "pushedAt": "2023-07-12T23:20:57Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "path",
+        "name": "Path Mobile Inc Pte. Ltd.",
+        "type": "Organization",
+        "url": "https://github.com/path",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/177071?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 67,
+      "name": "napi-rs",
+      "nameWithOwner": "napi-rs/napi-rs",
+      "url": "https://github.com/napi-rs/napi-rs",
+      "description": "A framework for building compiled Node.js add-ons in Rust via Node-API",
+      "stars": 7959,
+      "forks": 413,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2018-04-28T08:26:28Z",
+      "pushedAt": "2026-10-03T09:21:35Z",
+      "homepageUrl": "https://napi.rs",
+      "archived": false,
+      "owner": {
+        "login": "napi-rs",
+        "name": "Node-API (N-API) for Rust",
+        "type": "Organization",
+        "url": "https://github.com/napi-rs",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34149896?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 68,
+      "name": "VALL-E-X",
+      "nameWithOwner": "Plachtaa/VALL-E-X",
+      "url": "https://github.com/Plachtaa/VALL-E-X",
+      "description": "An open source implementation of Microsoft's VALL-E X zero-shot TTS model. Demo is available in https://plachtaa.github.io/vallex/",
+      "stars": 7922,
+      "forks": 775,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-07-29T07:10:10Z",
+      "pushedAt": "2024-02-11T15:36:45Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "Plachtaa",
+        "name": "Songting",
+        "type": "User",
+        "url": "https://github.com/Plachtaa",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/112609742?u=6fdb2377bd8f770cc39e7611f6e7e06c7a0f216b&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 69,
+      "name": "Awesome-Chinese-NLP",
+      "nameWithOwner": "crownpku/Awesome-Chinese-NLP",
+      "url": "https://github.com/crownpku/Awesome-Chinese-NLP",
+      "description": "A curated list of resources for Chinese NLP 中文自然语言处理相关资料",
+      "stars": 7921,
+      "forks": 1704,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2017-07-14T04:07:08Z",
+      "pushedAt": "2023-07-27T02:54:52Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "crownpku",
+        "name": "Guan Wang",
+        "type": "User",
+        "url": "https://github.com/crownpku",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2224389?u=11198545c4b1a8ad258c2db644f64e1bf342a776&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 70,
+      "name": "react-illustration-series",
+      "nameWithOwner": "7kms/react-illustration-series",
+      "url": "https://github.com/7kms/react-illustration-series",
+      "description": "图解react源码, 用大量配图的方式, 致力于将react原理表述清楚.",
+      "stars": 7921,
+      "forks": 832,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2020-05-06T17:07:35Z",
+      "pushedAt": "2024-03-02T06:55:06Z",
+      "homepageUrl": "http://7km.top/",
+      "archived": false,
+      "owner": {
+        "login": "7kms",
+        "name": "Liam",
+        "type": "User",
+        "url": "https://github.com/7kms",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12625342?u=1548d9cb8bd763f138e98849b4ed18b8cad95ab7&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 71,
+      "name": "APlayer",
+      "nameWithOwner": "DIYgod/APlayer",
+      "url": "https://github.com/DIYgod/APlayer",
+      "description": ":lollipop: Wow, such a beautiful HTML5 music player",
+      "stars": 7706,
+      "forks": 1058,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-11-14T13:13:46Z",
+      "pushedAt": "2024-02-23T16:58:13Z",
+      "homepageUrl": "http://aplayer.js.org",
+      "archived": false,
+      "owner": {
+        "login": "DIYgod",
+        "name": "DIYgod",
+        "type": "User",
+        "url": "https://github.com/DIYgod",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8266075?u=9de49c9b3eaf4db02e685458cb64b64c172034bf&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 72,
+      "name": "SkyReels-V2",
+      "nameWithOwner": "SkyworkAI/SkyReels-V2",
+      "url": "https://github.com/SkyworkAI/SkyReels-V2",
+      "description": "SkyReels-V2: Infinite-length Film Generative model",
+      "stars": 7597,
+      "forks": 1672,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2025-04-15T10:16:25Z",
+      "pushedAt": "2026-01-29T05:21:27Z",
+      "homepageUrl": "https://platform.skyreels.ai",
+      "archived": false,
+      "owner": {
+        "login": "SkyworkAI",
+        "name": "Skywork ",
+        "type": "Organization",
+        "url": "https://github.com/SkyworkAI",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/147303017?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 73,
+      "name": "CF-Workers-SUB",
+      "nameWithOwner": "cmliu/CF-Workers-SUB",
+      "url": "https://github.com/cmliu/CF-Workers-SUB",
+      "description": "这个是一个通过 Cloudflare Workers 搭建，将你任意节点与多个订阅汇聚成专属于你的订阅链接",
+      "stars": 7524,
+      "forks": 9075,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2024-02-23T08:37:35Z",
+      "pushedAt": "2026-06-25T09:23:11Z",
+      "homepageUrl": "https://youtu.be/w6rRY4FDd58",
+      "archived": true,
+      "owner": {
+        "login": "cmliu",
+        "name": "CMLiussss",
+        "type": "User",
+        "url": "https://github.com/cmliu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24787744?u=703922e1f9e4129656faaddf2099a7da58d45254&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 74,
+      "name": "Google-Chinese-Results-Blocklist",
+      "nameWithOwner": "cobaltdisco/Google-Chinese-Results-Blocklist",
+      "url": "https://github.com/cobaltdisco/Google-Chinese-Results-Blocklist",
+      "description": "我终于能用谷歌搜中文了……",
+      "stars": 7463,
+      "forks": 278,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2016-10-15T07:33:01Z",
+      "pushedAt": "2026-03-08T18:28:36Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "cobaltdisco",
+        "name": "fx",
+        "type": "User",
+        "url": "https://github.com/cobaltdisco",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7610406?u=68b982a13aee5360d1a5182bef66c9667a2dc055&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 75,
+      "name": "GeoIP2-CN",
+      "nameWithOwner": "Hackl0us/GeoIP2-CN",
+      "url": "https://github.com/Hackl0us/GeoIP2-CN",
+      "description": "小巧精悍、准确、实用 GeoIP2 数据库",
+      "stars": 7431,
+      "forks": 216,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2020-12-09T07:55:16Z",
+      "pushedAt": "2026-10-04T03:04:23Z",
+      "homepageUrl": "https://hackl0us.com",
+      "archived": false,
+      "owner": {
+        "login": "Hackl0us",
+        "name": "Jason Zhang",
+        "type": "User",
+        "url": "https://github.com/Hackl0us",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10215166?u=23cf50919551a4fa8014e94cb3aef07c8650fdd9&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 76,
+      "name": "RSSHub-Radar",
+      "nameWithOwner": "DIYgod/RSSHub-Radar",
+      "url": "https://github.com/DIYgod/RSSHub-Radar",
+      "description": "🧡 Browser extension that simplifies finding and subscribing RSS and RSSHub",
+      "stars": 7355,
+      "forks": 419,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2019-07-16T14:00:28Z",
+      "pushedAt": "2026-09-01T07:04:41Z",
+      "homepageUrl": "https://chrome.google.com/webstore/detail/kefjpfngnndepjbopdmoebkipbgkggaa",
+      "archived": false,
+      "owner": {
+        "login": "DIYgod",
+        "name": "DIYgod",
+        "type": "User",
+        "url": "https://github.com/DIYgod",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8266075?u=9de49c9b3eaf4db02e685458cb64b64c172034bf&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 77,
+      "name": "cursor-talk-to-figma-mcp",
+      "nameWithOwner": "grab/cursor-talk-to-figma-mcp",
+      "url": "https://github.com/grab/cursor-talk-to-figma-mcp",
+      "description": "TalkToFigma: MCP integration between AI Agent (Cursor, Claude Code, Codex) and Figma, allowing Agentic AI to communicate with Figma for reading designs and modifying them programmatically.",
+      "stars": 7047,
+      "forks": 778,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-03-16T16:45:37Z",
+      "pushedAt": "2026-07-26T07:14:26Z",
+      "homepageUrl": "https://www.figma.com/community/plugin/1485687494525374295/cursor-talk-to-figma-mcp-plugin",
+      "archived": false,
+      "owner": {
+        "login": "grab",
+        "name": "Grab",
+        "type": "Organization",
+        "url": "https://github.com/grab",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17284363?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 78,
+      "name": "boxplayer",
+      "nameWithOwner": "gaozhangmin/boxplayer",
+      "url": "https://github.com/gaozhangmin/boxplayer",
+      "description": "BoxPlayer - 聚合网盘管理+影视聚合 支持 Windows Linux iOS macOS tvOS Android",
+      "stars": 6979,
+      "forks": 410,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2023-02-23T07:13:23Z",
+      "pushedAt": "2026-09-29T05:38:57Z",
+      "homepageUrl": "https://www.xbyvideohub.com",
+      "archived": false,
+      "owner": {
+        "login": "gaozhangmin",
+        "name": "Zhangao",
+        "type": "User",
+        "url": "https://github.com/gaozhangmin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9278488?u=5616f527e85eb57fc20f99668088c7acf46fe91a&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 79,
+      "name": "ProPainter",
+      "nameWithOwner": "sczhou/ProPainter",
+      "url": "https://github.com/sczhou/ProPainter",
+      "description": "[ICCV 2023] ProPainter: Improving Propagation and Transformer for Video Inpainting",
+      "stars": 6978,
+      "forks": 821,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2023-09-01T13:11:57Z",
+      "pushedAt": "2025-02-19T12:07:56Z",
+      "homepageUrl": "https://shangchenzhou.com/projects/ProPainter/",
+      "archived": false,
+      "owner": {
+        "login": "sczhou",
+        "name": "Shangchen Zhou",
+        "type": "User",
+        "url": "https://github.com/sczhou",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14334509?u=7d30c71af7c2ab4d4f2fbbdead98722f5886cee8&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 80,
+      "name": "howtheytest",
+      "nameWithOwner": "abhivaikar/howtheytest",
+      "url": "https://github.com/abhivaikar/howtheytest",
+      "description": "A collection of public resources about how software companies test their software",
+      "stars": 6877,
+      "forks": 645,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdxId": "CC0-1.0"
+      },
+      "createdAt": "2020-03-24T09:07:10Z",
+      "pushedAt": "2026-08-22T05:12:59Z",
+      "homepageUrl": "https://abhivaikar.github.io/howtheytest/",
+      "archived": false,
+      "owner": {
+        "login": "abhivaikar",
+        "name": "Abhijeet Vaikar",
+        "type": "User",
+        "url": "https://github.com/abhivaikar",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1690028?u=ac2c25d677a100f2177849715119f6901ab11f0c&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 81,
+      "name": "996.Leave",
+      "nameWithOwner": "623637646/996.Leave",
+      "url": "https://github.com/623637646/996.Leave",
+      "description": "逃离996",
+      "stars": 6666,
+      "forks": 366,
+      "primaryLanguage": null,
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-04-03T15:50:28Z",
+      "pushedAt": "2024-01-15T12:53:02Z",
+      "homepageUrl": "https://623637646.github.io/996.Leave/",
+      "archived": false,
+      "owner": {
+        "login": "623637646",
+        "name": "Yanni Wang",
+        "type": "User",
+        "url": "https://github.com/623637646",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5275802?u=967799cef1973873bc632cdba8b8c670b702d9c6&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 82,
+      "name": "osmedeus",
+      "nameWithOwner": "j3ssie/osmedeus",
+      "url": "https://github.com/j3ssie/osmedeus",
+      "description": "A Modern Orchestration Engine for Security",
+      "stars": 6592,
+      "forks": 1036,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-11-10T04:17:18Z",
+      "pushedAt": "2026-10-03T08:01:35Z",
+      "homepageUrl": "https://www.osmedeus.org/",
+      "archived": false,
+      "owner": {
+        "login": "j3ssie",
+        "name": "Jessie Ho (j3ssie)",
+        "type": "User",
+        "url": "https://github.com/j3ssie",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23289085?u=989191a38fef295d8bd9ec0b6a6db0f8fd55b48f&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 83,
+      "name": "melonJS",
+      "nameWithOwner": "melonjs/melonJS",
+      "url": "https://github.com/melonjs/melonJS",
+      "description": "a modern & lightweight HTML5 game engine",
+      "stars": 6401,
+      "forks": 662,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2011-04-11T07:03:14Z",
+      "pushedAt": "2026-10-04T02:32:04Z",
+      "homepageUrl": "https://melonjs.org",
+      "archived": false,
+      "owner": {
+        "login": "melonjs",
+        "name": "melonJS",
+        "type": "Organization",
+        "url": "https://github.com/melonjs",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/579995?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 84,
+      "name": "TagUI",
+      "nameWithOwner": "aisingapore/TagUI",
+      "url": "https://github.com/aisingapore/TagUI",
+      "description": "Free RPA tool by AI Singapore",
+      "stars": 6337,
+      "forks": 650,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2016-12-06T04:30:34Z",
+      "pushedAt": "2026-09-20T11:49:19Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "aisingapore",
+        "name": "AI Singapore",
+        "type": "Organization",
+        "url": "https://github.com/aisingapore",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110224767?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 85,
+      "name": "WorkerVless2sub",
+      "nameWithOwner": "cmliu/WorkerVless2sub",
+      "url": "https://github.com/cmliu/WorkerVless2sub",
+      "description": "自动化批量替换生成优选线路 VMess / VLESS / Trojan 节点的 优选订阅生成器",
+      "stars": 6261,
+      "forks": 7631,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2023-12-25T11:23:28Z",
+      "pushedAt": "2026-09-11T16:56:51Z",
+      "homepageUrl": "https://VLESS.fxxk.dedyn.io",
+      "archived": false,
+      "owner": {
+        "login": "cmliu",
+        "name": "CMLiussss",
+        "type": "User",
+        "url": "https://github.com/cmliu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24787744?u=703922e1f9e4129656faaddf2099a7da58d45254&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 86,
+      "name": "html5-qrcode",
+      "nameWithOwner": "mebjas/html5-qrcode",
+      "url": "https://github.com/mebjas/html5-qrcode",
+      "description": "A cross platform HTML5 QR code reader. See end to end implementation at: https://scanapp.org",
+      "stars": 6238,
+      "forks": 1150,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2015-10-28T17:46:38Z",
+      "pushedAt": "2025-12-01T06:41:53Z",
+      "homepageUrl": "https://qrcode.minhazav.dev",
+      "archived": false,
+      "owner": {
+        "login": "mebjas",
+        "name": "minhaz",
+        "type": "User",
+        "url": "https://github.com/mebjas",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3007365?u=82304c8a9d85391d2c74760668bdad4ee84ec73d&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 87,
+      "name": "node-ws",
+      "nameWithOwner": "eooce/node-ws",
+      "url": "https://github.com/eooce/node-ws",
+      "description": "基于serverless实现的vless+trojan+shadowsocks+vmess四协议，无内核，node环境通用项目",
+      "stars": 6234,
+      "forks": 10228,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2023-09-07T17:57:56Z",
+      "pushedAt": "2026-08-07T14:28:38Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "eooce",
+        "name": "老王",
+        "type": "User",
+        "url": "https://github.com/eooce",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/142894633?u=38400bf8cfc2a6552e2a126b8c8eeb6af50cd7bb&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 88,
+      "name": "Masuit.Tools",
+      "nameWithOwner": "ldqk/Masuit.Tools",
+      "url": "https://github.com/ldqk/Masuit.Tools",
+      "description": "全龄段友好的C#万能工具库，码数吐司库，包含一些常用的操作类，大都是静态类，加密解密，反射操作，权重随机筛选算法，分布式短id，表达式树，linq扩展，文件压缩，多线程下载，硬件信息，字符串扩展方法，日期时间扩展操作，中国农历，大文件拷贝，图像裁剪，验证码，断点续传，集合扩展、Excel导出等常用封装。诸多功能集一身，代码量不到2MB！",
+      "stars": 6188,
+      "forks": 1298,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-03-02T07:02:07Z",
+      "pushedAt": "2026-09-30T08:18:54Z",
+      "homepageUrl": "https://www.masuit.tools/",
+      "archived": false,
+      "owner": {
+        "login": "ldqk",
+        "name": "懒得勤快",
+        "type": "User",
+        "url": "https://github.com/ldqk",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20254980?u=4bf9a3e12a0c94058b9ff767c2c90cadbd231c06&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 89,
+      "name": "proxmark3",
+      "nameWithOwner": "RfidResearchGroup/proxmark3",
+      "url": "https://github.com/RfidResearchGroup/proxmark3",
+      "description": "Iceman Fork - Proxmark3",
+      "stars": 6117,
+      "forks": 1448,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2018-08-12T12:37:00Z",
+      "pushedAt": "2026-10-02T13:05:36Z",
+      "homepageUrl": "http://www.icedev.se",
+      "archived": false,
+      "owner": {
+        "login": "RfidResearchGroup",
+        "name": "RFID Research Group",
+        "type": "Organization",
+        "url": "https://github.com/RfidResearchGroup",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40314039?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 90,
+      "name": "LatentSync",
+      "nameWithOwner": "bytedance/LatentSync",
+      "url": "https://github.com/bytedance/LatentSync",
+      "description": "Taming Stable Diffusion for Lip Sync!",
+      "stars": 6106,
+      "forks": 983,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2024-12-11T10:32:54Z",
+      "pushedAt": "2025-06-20T07:36:58Z",
+      "homepageUrl": "https://arxiv.org/abs/2412.09262",
+      "archived": false,
+      "owner": {
+        "login": "bytedance",
+        "name": "Bytedance Inc.",
+        "type": "Organization",
+        "url": "https://github.com/bytedance",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4158466?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 91,
+      "name": "MegaTTS3",
+      "nameWithOwner": "bytedance/MegaTTS3",
+      "url": "https://github.com/bytedance/MegaTTS3",
+      "description": null,
+      "stars": 6095,
+      "forks": 475,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2025-03-20T08:57:52Z",
+      "pushedAt": "2026-06-15T11:26:48Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "bytedance",
+        "name": "Bytedance Inc.",
+        "type": "Organization",
+        "url": "https://github.com/bytedance",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4158466?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 92,
+      "name": "blocksuite",
+      "nameWithOwner": "toeverything/blocksuite",
+      "url": "https://github.com/toeverything/blocksuite",
+      "description": "🧩 Content editing tech stack for the web - BlockSuite is a toolkit for building editors and collaborative applications.",
+      "stars": 6037,
+      "forks": 563,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Mozilla Public License 2.0",
+        "spdxId": "MPL-2.0"
+      },
+      "createdAt": "2022-09-10T19:51:14Z",
+      "pushedAt": "2026-10-01T13:51:37Z",
+      "homepageUrl": "https://blocksuite.io",
+      "archived": false,
+      "owner": {
+        "login": "toeverything",
+        "name": "Toeverything",
+        "type": "Organization",
+        "url": "https://github.com/toeverything",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78728988?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 93,
+      "name": "Awesome-Fuzzing",
+      "nameWithOwner": "secfigo/Awesome-Fuzzing",
+      "url": "https://github.com/secfigo/Awesome-Fuzzing",
+      "description": "A curated list of fuzzing resources ( Books, courses - free and paid, videos, tools, tutorials and vulnerable applications to practice on ) for learning Fuzzing and initial phases of Exploit Development like root cause analysis.",
+      "stars": 5919,
+      "forks": 840,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdxId": "CC0-1.0"
+      },
+      "createdAt": "2016-07-01T07:44:53Z",
+      "pushedAt": "2024-04-03T07:04:46Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "secfigo",
+        "name": "Mohammed A Imran",
+        "type": "User",
+        "url": "https://github.com/secfigo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11695998?u=cb29b487be54b3f5988af14cb079a52b19e06b2f&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 94,
+      "name": "strategies",
+      "nameWithOwner": "fmzquant/strategies",
+      "url": "https://github.com/fmzquant/strategies",
+      "description": "quantitative trading with Javascript, Python, C++, PineScript, Blockly, MyLanguage(麦语言)",
+      "stars": 5909,
+      "forks": 1867,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2016-04-03T16:12:40Z",
+      "pushedAt": "2025-04-30T04:08:14Z",
+      "homepageUrl": "https://www.fmz.com",
+      "archived": false,
+      "owner": {
+        "login": "fmzquant",
+        "name": "Zero",
+        "type": "User",
+        "url": "https://github.com/fmzquant",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3872209?u=c86cdcebed343061a6a0ed4983fa2458038250b4&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 95,
+      "name": "pigsty",
+      "nameWithOwner": "pgsty/pigsty",
+      "url": "https://github.com/pgsty/pigsty",
+      "description": "Enterprise-Grade OSS PostgreSQL Distribution with HA, PITR, IaC, Monitor, 12 kernel forks and 575 PG extensions. Best-of-breed products integrated as a platform. Self-host Postgres like a Pro!",
+      "stars": 5761,
+      "forks": 387,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2020-06-02T02:22:09Z",
+      "pushedAt": "2026-09-28T01:07:59Z",
+      "homepageUrl": "https://pigsty.io",
+      "archived": false,
+      "owner": {
+        "login": "pgsty",
+        "name": "Pigsty",
+        "type": "Organization",
+        "url": "https://github.com/pgsty",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/157279331?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 96,
+      "name": "electron-vite",
+      "nameWithOwner": "alex8088/electron-vite",
+      "url": "https://github.com/alex8088/electron-vite",
+      "description": "Next generation Electron build tooling based on Vite 新一代 Electron 开发构建工具，支持源代码保护",
+      "stars": 5623,
+      "forks": 246,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-02-09T08:54:54Z",
+      "pushedAt": "2026-10-01T14:45:41Z",
+      "homepageUrl": "https://electron-vite.org",
+      "archived": false,
+      "owner": {
+        "login": "alex8088",
+        "name": "alex.wei",
+        "type": "User",
+        "url": "https://github.com/alex8088",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25053004?u=580847528c57ec5a537f686d5a4d0502dd9c288f&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 97,
+      "name": "stockpredictionai",
+      "nameWithOwner": "borisbanushev/stockpredictionai",
+      "url": "https://github.com/borisbanushev/stockpredictionai",
+      "description": "       In this noteboook I will create a complete process for predicting stock price movements. Follow along and we will achieve some pretty good results. For that purpose we will use a Generative Adversarial Network (GAN) with LSTM, a type of Recurrent Neural Network, as generator, and a Convolutional Neural Network, CNN, as a discriminator. We use LSTM for the obvious reason that we are trying to predict time series data. Why we use GAN and specifically CNN as a discriminator? That is a good question: there are special sections on that later.",
+      "stars": 5602,
+      "forks": 1874,
+      "primaryLanguage": "JavaScript",
+      "license": null,
+      "createdAt": "2019-01-09T08:02:47Z",
+      "pushedAt": "2025-08-19T04:04:58Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "borisbanushev",
+        "name": "Boris Banushev",
+        "type": "User",
+        "url": "https://github.com/borisbanushev",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36700291?u=2081b2b055a2d87a7093123a129f04466dfd07d5&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 98,
+      "name": "open-science",
+      "nameWithOwner": "aipoch/open-science",
+      "url": "https://github.com/aipoch/open-science",
+      "description": "The open-source AI research workbench for scientific research and agent workflows. Local-first, model-agnostic desktop app with extensible skills, MCP tools and connectors, Python/R execution and traceable artifacts for reproducible research on macOS, Windows and Linux.",
+      "stars": 5382,
+      "forks": 497,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2026-07-03T02:50:10Z",
+      "pushedAt": "2026-10-04T15:06:28Z",
+      "homepageUrl": "https://aipoch.com/open-science",
+      "archived": false,
+      "owner": {
+        "login": "aipoch",
+        "name": "AIPOCH",
+        "type": "Organization",
+        "url": "https://github.com/aipoch",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/243506841?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 99,
+      "name": "Olares",
+      "nameWithOwner": "beclab/Olares",
+      "url": "https://github.com/beclab/Olares",
+      "description": "Open-Source Personal Cloud OS for Always-On Agents",
+      "stars": 5300,
+      "forks": 330,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2024-04-29T05:43:58Z",
+      "pushedAt": "2026-10-03T19:48:59Z",
+      "homepageUrl": "https://www.olares.com/",
+      "archived": false,
+      "owner": {
+        "login": "beclab",
+        "name": "BEC Lab",
+        "type": "Organization",
+        "url": "https://github.com/beclab",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/166520503?v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 100,
+      "name": "robotics-coursework",
+      "nameWithOwner": "mithi/robotics-coursework",
+      "url": "https://github.com/mithi/robotics-coursework",
+      "description": "🤖 Places where you can learn robotics (and stuff like that) online 🤖",
+      "stars": 5299,
+      "forks": 796,
+      "primaryLanguage": null,
+      "license": {
+        "name": "The Unlicense",
+        "spdxId": "Unlicense"
+      },
+      "createdAt": "2017-06-24T14:45:17Z",
+      "pushedAt": "2026-08-31T14:12:27Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "mithi",
+        "name": "Mithi Sevilla",
+        "type": "User",
+        "url": "https://github.com/mithi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1670421?u=353ff864b8ab7ee262471ca87e36a5ea488ca839&v=4",
+        "location": "Singapore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SG",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "singapore"
+        },
+        "discoveryTerms": []
+      }
+    }
+  ]
+}

@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 4,863**
 - Progress: **0%**
-- Retained high-potential owner candidates: **302**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **303**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [catchain/tonscan](https://github.com/catchain/tonscan) | **213** | Côte d'Ivoire |
+| [catchain/tonscan](https://github.com/catchain/tonscan) | **214** | Côte d'Ivoire |
 | [eliseekn/laravel-metrics](https://github.com/eliseekn/laravel-metrics) | **138** | Côte d'Ivoire, Abidjan |
 | [agazinakou/AngularPos](https://github.com/agazinakou/AngularPos) | **90** | Abidjan, Côte d'ivoire |
 | [agnamc9/ArcsView](https://github.com/agnamc9/ArcsView) | **40** | Abidjan, Côte d'Ivoire |
@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **6**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **7**
+- Current global star frontier: **4,174**
 
 ### High-star verified preview
 
@@ -57,5 +57,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [brave-people/Dev-Event](https://github.com/brave-people/Dev-Event) | **8,847** | Korea, South |
 | [NomaDamas/k-skill](https://github.com/NomaDamas/k-skill) | **7,759** | Korea, South |
 | [BitterSecurity/Decepticon](https://github.com/BitterSecurity/Decepticon) | **5,654** | Korea, South |
+| [brave-people/brave-tech-interview](https://github.com/brave-people/brave-tech-interview) | **4,466** | Korea, South |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

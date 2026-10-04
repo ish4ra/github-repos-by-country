@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **4,174**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [EsotericSoftware/kryo](https://github.com/EsotericSoftware/kryo) | **6,546** | Puerto Rico |
+| [EsotericSoftware/spine-runtimes](https://github.com/EsotericSoftware/spine-runtimes) | **5,309** | Puerto Rico |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

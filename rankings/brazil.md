@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **16**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **25**
+- Current global star frontier: **4,174**
 
 ### High-star verified preview
 
@@ -67,5 +67,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [clappr/clappr](https://github.com/clappr/clappr) | **7,505** | Rio de Janeiro, RJ |
 | [filipedeschamps/tabnews.com.br](https://github.com/filipedeschamps/tabnews.com.br) | **6,385** | Brasil |
 | [ebertti/awesome-telegram](https://github.com/ebertti/awesome-telegram) | **5,907** | Rio de Janeiro, Rio de Janeiro, Brazil |
+| [filipecalegario/awesome-vibe-coding](https://github.com/filipecalegario/awesome-vibe-coding) | **5,304** | Recife, Brazil |
+| [iuricode/readme-template](https://github.com/iuricode/readme-template) | **5,254** | Brasil |
+| [bernaferrari/FigmaToCode](https://github.com/bernaferrari/FigmaToCode) | **5,214** | Curitiba / Paraná / Brasil |
+| [iuricode/recursos-gratuitos](https://github.com/iuricode/recursos-gratuitos) | **5,098** | Brasil |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

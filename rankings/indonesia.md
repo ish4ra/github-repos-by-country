@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **14**
+- Current global star frontier: **4,174**
 
 ### High-star verified preview
 
@@ -60,5 +60,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [zetbaitsu/Compressor](https://github.com/zetbaitsu/Compressor) | **7,227** | Yogyakarta |
 | [daffainfo/AllAboutBugBounty](https://github.com/daffainfo/AllAboutBugBounty) | **6,915** | Indonesia |
 | [dwisiswant0/apkleaks](https://github.com/dwisiswant0/apkleaks) | **6,332** | Jakarta, Indonesia |
+| [farizdotid/DAFTAR-API-LOKAL-INDONESIA](https://github.com/farizdotid/DAFTAR-API-LOKAL-INDONESIA) | **5,330** | Purwakarta, West Java, Indonesia. |
+| [ctrlplusb/easy-peasy](https://github.com/ctrlplusb/easy-peasy) | **5,040** | Bali, Indonesia |
+| [aldinokemal/go-whatsapp-web-multidevice](https://github.com/aldinokemal/go-whatsapp-web-multidevice) | **4,887** | Yogyakarta, Indonesia |
+| [infosecn1nja/AD-Attack-Defense](https://github.com/infosecn1nja/AD-Attack-Defense) | **4,867** | Jakarta, Indonesia |
+| [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) | **4,408** | Indonesia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

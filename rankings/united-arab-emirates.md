@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **11**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **16**
+- Current global star frontier: **4,174**
 
 ### High-star verified preview
 
@@ -62,5 +62,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [nannou-org/nannou](https://github.com/nannou-org/nannou) | **6,763** | International |
 | [jpuri/react-draft-wysiwyg](https://github.com/jpuri/react-draft-wysiwyg) | **6,458** | UAE |
 | [builderz-labs/mission-control](https://github.com/builderz-labs/mission-control) | **6,300** | United Arab Emirates |
+| [knqyf263/pet](https://github.com/knqyf263/pet) | **5,356** | Dubai, UAE |
+| [Ahmed-Ali/JSONExport](https://github.com/Ahmed-Ali/JSONExport) | **4,800** | Abu Dhabi |
+| [Gaurav-Gosain/tuios](https://github.com/Gaurav-Gosain/tuios) | **4,653** | Abu Dhabi, United Arab Emirates |
+| [Gictorbit/photoshopCClinux](https://github.com/Gictorbit/photoshopCClinux) | **4,510** | UAE/Dubai |
+| [jMonkeyEngine/jmonkeyengine](https://github.com/jMonkeyEngine/jmonkeyengine) | **4,320** | International |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

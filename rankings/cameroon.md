@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 163**
 - Progress: **0%**
 - Retained high-potential owner candidates: **346**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,8 +24,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [ln-dev7/circle](https://github.com/ln-dev7/circle) | **4,556** | Cameroon |
-| [Blair2004/NexoPOS](https://github.com/Blair2004/NexoPOS) | **1,267** | Cameroon. Yaoundé |
+| [ln-dev7/circle](https://github.com/ln-dev7/circle) | **4,557** | Cameroon |
+| [Blair2004/NexoPOS](https://github.com/Blair2004/NexoPOS) | **1,268** | Cameroon. Yaoundé |
 | [RMPR/atbswp](https://github.com/RMPR/atbswp) | **742** | Cameroon |
 | [yunweneric/flutter-open-ui](https://github.com/yunweneric/flutter-open-ui) | **525** | Douala, Cameroon |
 | [Njong392/Abbreve](https://github.com/Njong392/Abbreve) | **166** | Cameroon |
@@ -39,5 +39,18 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Kanjo-Elkamira-Ndi/Data-Science-Operations-Pipeline-Lab](https://github.com/Kanjo-Elkamira-Ndi/Data-Science-Operations-Pipeline-Lab) | **29** | Yaoundé Cameroon |
 | [elhmn/ckp](https://github.com/elhmn/ckp) | **21** | Cameroon |
 | [AssahBismarkabah/Snif](https://github.com/AssahBismarkabah/Snif) | **19** | Cameroon |
+
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **4,174**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [ln-dev7/circle](https://github.com/ln-dev7/circle) | **4,557** | Cameroon |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

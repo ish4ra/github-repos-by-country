@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **13**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **19**
+- Current global star frontier: **4,174**
 
 ### High-star verified preview
 
@@ -64,5 +64,11 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [alin23/Lunar](https://github.com/alin23/Lunar) | **5,712** | Romania |
 | [soketi/soketi](https://github.com/soketi/soketi) | **5,633** | Romania |
 | [froala/wysiwyg-editor](https://github.com/froala/wysiwyg-editor) | **5,397** | Bucharest, Romania |
+| [Bogdanp/dramatiq](https://github.com/Bogdanp/dramatiq) | **5,325** | Cluj-Napoca, Romania |
+| [DavidHDev/canvas-ui](https://github.com/DavidHDev/canvas-ui) | **4,751** | Cluj-Napoca |
+| [danburzo/percollate](https://github.com/danburzo/percollate) | **4,682** | Cluj, Romania |
+| [DavidHDev/vue-bits](https://github.com/DavidHDev/vue-bits) | **4,555** | Cluj-Napoca |
+| [wmariuss/awesome-devops](https://github.com/wmariuss/awesome-devops) | **4,407** | Bucharest |
+| [alexandru/scala-best-practices](https://github.com/alexandru/scala-best-practices) | **4,348** | România |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **4,174**
 
 ### High-star verified preview
 
@@ -54,5 +54,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [atomiks/tippyjs](https://github.com/atomiks/tippyjs) | **12,240** | Gold Coast, Australia |
 | [ghuntley/how-to-build-a-coding-agent](https://github.com/ghuntley/how-to-build-a-coding-agent) | **5,859** | Kangaroo Island, Australia |
 | [xingkongliang/skills-manager](https://github.com/xingkongliang/skills-manager) | **5,442** | Canberra |
+| [Velocidex/velociraptor](https://github.com/Velocidex/velociraptor) | **4,291** | Gold Coast, Australia |
+| [buymeasoda/soda-theme](https://github.com/buymeasoda/soda-theme) | **4,288** | Sunshine Coast, Australia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [knro/indiwebmanager](https://github.com/knro/indiwebmanager) | **51** | Kuwait |
 | [abdallahelsokary/TwitterSniper](https://github.com/abdallahelsokary/TwitterSniper) | **41** | kuwait |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **4,174**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [obytes/react-native-template-obytes](https://github.com/obytes/react-native-template-obytes) | **4,350** | Kuwait |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **4,174**
 
 ### High-star verified preview
 
@@ -53,5 +53,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [ondrajz/go-callvis](https://github.com/ondrajz/go-callvis) | **6,528** | Bratislava, Slovakia |
 | [itsgoingd/clockwork](https://github.com/itsgoingd/clockwork) | **5,953** | Slovakia |
+| [JakubVojvoda/design-patterns-cpp](https://github.com/JakubVojvoda/design-patterns-cpp) | **4,564** | Slovakia |
+| [totaljs/framework](https://github.com/totaljs/framework) | **4,357** | Slovakia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

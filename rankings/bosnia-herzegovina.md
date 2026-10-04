@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **8,078**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **4,174**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [adnanh/webhook](https://github.com/adnanh/webhook) | **12,171** | Sarajevo, Bosnia & Herzegovina |
+| [inputsh/awesome-linux](https://github.com/inputsh/awesome-linux) | **5,158** | Sarajevo, Bosnia & Herzegovina |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

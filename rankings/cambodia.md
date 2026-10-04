@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 444**
 - Progress: **0%**
-- Retained high-potential owner candidates: **337**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **338**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -37,7 +37,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [rohKane/Kane-qb-hud-Nopixel-4.0-inspired](https://github.com/rohKane/Kane-qb-hud-Nopixel-4.0-inspired) | **87** | Cambodia |
 | [Chensokheng/next-saas-blog](https://github.com/Chensokheng/next-saas-blog) | **84** | Cambodia |
 | [cbrunnkvist/ansistrano-symfony-deploy](https://github.com/cbrunnkvist/ansistrano-symfony-deploy) | **68** | Siem Reap, Cambodia |
+| [len/korg-prologue](https://github.com/len/korg-prologue) | **66** | Cambodia |
 | [tfd-ed/tfd-nest-boilerplate](https://github.com/tfd-ed/tfd-nest-boilerplate) | **58** | Phnom Penh, Cambodia |
-| [KhmerCoders/khmercoders-web](https://github.com/KhmerCoders/khmercoders-web) | **54** | Cambodia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

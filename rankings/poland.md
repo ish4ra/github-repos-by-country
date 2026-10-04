@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **12**
+- Current global star frontier: **4,174**
 
 ### High-star verified preview
 
@@ -60,5 +60,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [shentao/vue-multiselect](https://github.com/shentao/vue-multiselect) | **6,780** | Wrocław |
 | [nesbox/TIC-80](https://github.com/nesbox/TIC-80) | **6,151** | Wrocław, Poland |
 | [TheLastGimbus/GooglePhotosTakeoutHelper](https://github.com/TheLastGimbus/GooglePhotosTakeoutHelper) | **5,926** | Poland, Wrocław |
+| [satya164/react-native-tab-view](https://github.com/satya164/react-native-tab-view) | **5,104** | Wrocław, Poland |
+| [JohnSundell/Publish](https://github.com/JohnSundell/Publish) | **4,970** | Gdansk, Poland |
+| [frogermcs/InstaMaterial](https://github.com/frogermcs/InstaMaterial) | **4,933** | Cracow |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

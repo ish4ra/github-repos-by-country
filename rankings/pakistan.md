@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **8,078**
+- Verified high-star candidates retained: **8**
+- Current global star frontier: **4,174**
 
 ### High-star verified preview
 
@@ -56,5 +56,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [streetwriters/notesnook](https://github.com/streetwriters/notesnook) | **14,714** | Pakistan |
 | [FareedKhan-dev/train-llm-from-scratch](https://github.com/FareedKhan-dev/train-llm-from-scratch) | **11,946** | Karachi, Pakistan |
 | [FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c) | **8,868** | Karachi, Pakistan |
+| [r0oth3x49/udemy-dl](https://github.com/r0oth3x49/udemy-dl) | **4,950** | Pakistan |
+| [FareedKhan-dev/all-agentic-architectures](https://github.com/FareedKhan-dev/all-agentic-architectures) | **4,579** | Karachi, Pakistan |
+| [haris-musa/excel-mcp-server](https://github.com/haris-musa/excel-mcp-server) | **4,212** | Karachi, Pakistan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

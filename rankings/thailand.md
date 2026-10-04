@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **11**
+- Current global star frontier: **4,174**
 
 ### High-star verified preview
 
@@ -60,5 +60,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Aethersailor/Custom_OpenClash_Rules](https://github.com/Aethersailor/Custom_OpenClash_Rules) | **6,575** | Chiang Mai |
 | [quantopian/pyfolio](https://github.com/quantopian/pyfolio) | **6,426** | Boston, MA, USA |
 | [Aikoyori/ProgrammingVTuberLogos](https://github.com/Aikoyori/ProgrammingVTuberLogos) | **6,239** | Thailand |
+| [satnaing/astro-paper](https://github.com/satnaing/astro-paper) | **5,093** | Bangkok, Thailand |
+| [quantopian/alphalens](https://github.com/quantopian/alphalens) | **4,461** | Boston, MA, USA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

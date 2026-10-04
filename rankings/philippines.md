@@ -40,4 +40,20 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [warengonzaga/css-text-portrait-builder](https://github.com/warengonzaga/css-text-portrait-builder) | **372** | Philippines |
 | [macalinao/ghfollowers](https://github.com/macalinao/ghfollowers) | **370** | Metro Manila, Philippines |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **4,174**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [pageman/sutskever-30-implementations](https://github.com/pageman/sutskever-30-implementations) | **5,188** | Manila, Philippines |
+| [yajra/laravel-datatables](https://github.com/yajra/laravel-datatables) | **4,872** | Philippines |
+| [JaKooLit/Arch-Hyprland](https://github.com/JaKooLit/Arch-Hyprland) | **4,583** | Philippines / South Korea - Worldwide |
+| [ivanceras/svgbob](https://github.com/ivanceras/svgbob) | **4,234** | Cebu, Philippines |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **16**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **24**
+- Current global star frontier: **4,174**
 
 ### High-star verified preview
 
@@ -67,5 +67,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [sanity-io/sanity](https://github.com/sanity-io/sanity) | **6,349** | San Francisco / Oslo |
 | [mikaelbr/node-notifier](https://github.com/mikaelbr/node-notifier) | **5,845** | Molde, Norway |
 | [onmyway133/awesome-ios-animation](https://github.com/onmyway133/awesome-ios-animation) | **5,445** | Oslo, Norway |
+| [onmyway133/awesome-ios-architecture](https://github.com/onmyway133/awesome-ios-architecture) | **5,267** | Oslo, Norway |
+| [hyperoslo/ImagePicker](https://github.com/hyperoslo/ImagePicker) | **4,878** | Oslo |
+| [Maxteabag/sqlit](https://github.com/Maxteabag/sqlit) | **4,874** | Oslo, Norway |
+| [atlemo/SubtlePatterns](https://github.com/atlemo/SubtlePatterns) | **4,780** | Nesodden, Norway |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

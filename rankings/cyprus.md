@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **6**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **4,174**
 
 ### High-star verified preview
 
@@ -57,5 +57,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [centrifugal/centrifugo](https://github.com/centrifugal/centrifugo) | **10,828** | Cyprus |
 | [pikvm/pikvm](https://github.com/pikvm/pikvm) | **10,369** | Cyprus |
 | [gosom/google-maps-scraper](https://github.com/gosom/google-maps-scraper) | **6,265** | Cyprus |
+| [AdguardTeam/AdguardFilters](https://github.com/AdguardTeam/AdguardFilters) | **4,540** | Cyprus |
+| [AdguardTeam/AdguardBrowserExtension](https://github.com/AdguardTeam/AdguardBrowserExtension) | **4,479** | Cyprus |
+| [zakirullin/files.md](https://github.com/zakirullin/files.md) | **4,156** | Limassol, Cyprus |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **4,174**
 
 ### High-star verified preview
 
@@ -53,5 +53,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [databasus/databasus](https://github.com/databasus/databasus) | **8,735** | Tbilisi, Georgin |
 | [rlidwka/sinopia](https://github.com/rlidwka/sinopia) | **5,472** | Tbilisi, Georgia |
+| [gokadzev/Musify](https://github.com/gokadzev/Musify) | **4,293** | Tbilisi, Georgia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

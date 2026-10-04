@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 103**
 - Progress: **0%**
-- Retained high-potential owner candidates: **154**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **155**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,14 +25,14 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [glittercowboy/taches-cc-resources](https://github.com/glittercowboy/taches-cc-resources) | **1,981** | Costa Rica |
-| [Jeffser/Alpaca](https://github.com/Jeffser/Alpaca) | **1,644** | Costa Rica |
+| [Jeffser/Alpaca](https://github.com/Jeffser/Alpaca) | **1,645** | Costa Rica |
 | [scallyw4g/bonsai](https://github.com/scallyw4g/bonsai) | **1,449** | Playa Avellanas, Costa Rica |
 | [Klerith/mas-talento](https://github.com/Klerith/mas-talento) | **718** | Costa Rica |
 | [tito/2048](https://github.com/tito/2048) | **473** | Costa Rica |
 | [improbabilidades/PyX](https://github.com/improbabilidades/PyX) | **440** | Costa Rica |
 | [r0r0x-xx/AeroSpace-Cybersecurity](https://github.com/r0r0x-xx/AeroSpace-Cybersecurity) | **429** | Costa Rica |
 | [ihuaylupo/manning-smia](https://github.com/ihuaylupo/manning-smia) | **397** | Costa Rica |
-| [jetm/mediatek-mt7927-dkms](https://github.com/jetm/mediatek-mt7927-dkms) | **270** | Costa Rica |
+| [jetm/mediatek-mt7927-dkms](https://github.com/jetm/mediatek-mt7927-dkms) | **272** | Costa Rica |
 | [fabianabarca/git](https://github.com/fabianabarca/git) | **127** | San José, Costa Rica |
 | [JoanEsquivel/cypress-cucumber-boilerplate](https://github.com/JoanEsquivel/cypress-cucumber-boilerplate) | **109** | Costa Rica |
 | [tropicalizacion/ferias](https://github.com/tropicalizacion/ferias) | **109** | Costa Rica |

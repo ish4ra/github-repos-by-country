@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 1,287**
 - Progress: **0%**
 - Retained high-potential owner candidates: **143**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,11 +24,11 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [stamparm/maltrail](https://github.com/stamparm/maltrail) | **8,613** | Croatia |
+| [stamparm/maltrail](https://github.com/stamparm/maltrail) | **8,615** | Croatia |
 | [vladmandic/sdnext](https://github.com/vladmandic/sdnext) | **7,355** | Miami, Florida / Rijeka, Croatia |
-| [adrianhajdin/project_3D_developer_portfolio](https://github.com/adrianhajdin/project_3D_developer_portfolio) | **7,129** | Croatia |
-| [ivpusic/react-native-image-crop-picker](https://github.com/ivpusic/react-native-image-crop-picker) | **6,350** | Zagreb, Croatia |
-| [nibzard/awesome-agentic-patterns](https://github.com/nibzard/awesome-agentic-patterns) | **5,014** | Split, Croatia |
+| [adrianhajdin/project_3D_developer_portfolio](https://github.com/adrianhajdin/project_3D_developer_portfolio) | **7,131** | Croatia |
+| [ivpusic/react-native-image-crop-picker](https://github.com/ivpusic/react-native-image-crop-picker) | **6,351** | Zagreb, Croatia |
+| [nibzard/awesome-agentic-patterns](https://github.com/nibzard/awesome-agentic-patterns) | **5,017** | Split, Croatia |
 | [judge0/judge0](https://github.com/judge0/judge0) | **4,461** | Croatia |
 | [Tinche/aiofiles](https://github.com/Tinche/aiofiles) | **3,264** | Zagreb, Croatia |
 | [eez-open/studio](https://github.com/eez-open/studio) | **1,833** | Croatia |
@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **8**
+- Current global star frontier: **4,174**
 
 ### High-star verified preview
 
@@ -55,5 +55,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [vladmandic/sdnext](https://github.com/vladmandic/sdnext) | **7,354** | Miami, Florida / Rijeka, Croatia |
 | [adrianhajdin/project_3D_developer_portfolio](https://github.com/adrianhajdin/project_3D_developer_portfolio) | **7,131** | Croatia |
 | [ivpusic/react-native-image-crop-picker](https://github.com/ivpusic/react-native-image-crop-picker) | **6,351** | Zagreb, Croatia |
+| [adrianhajdin/project_mern_memories](https://github.com/adrianhajdin/project_mern_memories) | **5,121** | Croatia |
+| [nibzard/awesome-agentic-patterns](https://github.com/nibzard/awesome-agentic-patterns) | **5,018** | Split, Croatia |
+| [judge0/judge0](https://github.com/judge0/judge0) | **4,461** | Croatia |
+| [adrianhajdin/project_web3.0](https://github.com/adrianhajdin/project_web3.0) | **4,246** | Croatia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

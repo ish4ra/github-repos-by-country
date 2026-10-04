@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 275**
 - Progress: **0%**
-- Retained high-potential owner candidates: **189**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **190**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,19 +24,19 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [agucova/awesome-esp](https://github.com/agucova/awesome-esp) | **2,719** | Santiago, Chile |
+| [agucova/awesome-esp](https://github.com/agucova/awesome-esp) | **2,720** | Santiago, Chile |
 | [4GeeksAcademy/Interactive-Tutorials](https://github.com/4GeeksAcademy/Interactive-Tutorials) | **2,147** | Online, Madrid, Miami, Santiago de Chile and Caracas. |
 | [michelson/Dante](https://github.com/michelson/Dante) | **2,041** | Santiago, Chile |
 | [nicolaslopezj/searchable](https://github.com/nicolaslopezj/searchable) | **1,993** | Santiago, Chile |
 | [tomas/needle](https://github.com/tomas/needle) | **1,635** | Valdivia, Chile |
-| [Mjrovai/OpenCV-Face-Recognition](https://github.com/Mjrovai/OpenCV-Face-Recognition) | **1,351** | Santiago, Chile |
+| [Mjrovai/OpenCV-Face-Recognition](https://github.com/Mjrovai/OpenCV-Face-Recognition) | **1,352** | Santiago, Chile |
 | [juanbrujo/listado-apis-publicas-en-chile](https://github.com/juanbrujo/listado-apis-publicas-en-chile) | **1,020** | Santiago, Chile |
 | [ColdGrub1384/Pyto](https://github.com/ColdGrub1384/Pyto) | **1,019** | Chile |
 | [matmartinez/MMNumberKeyboard](https://github.com/matmartinez/MMNumberKeyboard) | **956** | Chile |
 | [jbkunst/highcharter](https://github.com/jbkunst/highcharter) | **741** | Chile |
 | [RRUZ/delphi-ide-theme-editor](https://github.com/RRUZ/delphi-ide-theme-editor) | **695** | Valdivia, Chile. |
 | [DarkGhostHunter/Larapass](https://github.com/DarkGhostHunter/Larapass) | **581** | Chile |
-| [maria-rcks/t1code](https://github.com/maria-rcks/t1code) | **524** | Santiago, Chile |
+| [maria-rcks/t1code](https://github.com/maria-rcks/t1code) | **525** | Santiago, Chile |
 | [richonguzman/LoRa_APRS_iGate](https://github.com/richonguzman/LoRa_APRS_iGate) | **521** | Viña del Mar, Chile |
 | [rodyherrera/Quantum](https://github.com/rodyherrera/Quantum) | **475** | Chile, Talca |
 

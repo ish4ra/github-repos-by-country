@@ -1,0 +1,3407 @@
+{
+  "schemaVersion": 1,
+  "methodologyVersion": "0.8.0-repository-first",
+  "generatedAt": "2026-10-04T15:19:47.977Z",
+  "country": {
+    "code": "RU",
+    "name": "Russia",
+    "slug": "russia"
+  },
+  "source": {
+    "provider": "GitHub GraphQL API",
+    "endpoint": "https://api.github.com/graphql",
+    "countryBasis": "public repository-owner profile location",
+    "discovery": "global repositories scanned by stars descending"
+  },
+  "coverage": {
+    "status": "repository-first-certified-by-star-frontier",
+    "exhaustive": false,
+    "rawOwnerHits": 15540,
+    "acceptedUniqueOwners": 85,
+    "ownerMetricLabel": "Unique owners in top ranking",
+    "repositoriesConsidered": 125,
+    "publishedRepositories": 100,
+    "candidateThresholdStars": 5276,
+    "rankingLimit": 100,
+    "cappedQueries": [],
+    "repositoryFirst": {
+      "scanFrontierStars": 4174,
+      "topObservedStars": 551406,
+      "repositoriesSeen": 15540,
+      "attributedRepositories": 5352,
+      "ambiguousLocations": 2202,
+      "unknownLocations": 7986,
+      "unresolvedStarCounts": []
+    },
+    "notes": [
+      "Repositories are scanned globally in descending star ranges, independently of owner follower count or owner-search ordering.",
+      "A country is certified only after its 100th repository has more stars than every unprocessed global star range.",
+      "Owner country is inferred from the owner public GitHub profile location using the global geography resolver.",
+      "Owners with missing or unresolved locations are excluded, so country attribution is not a citizenship or legal-incorporation claim.",
+      "Compound city/admin locations such as \"Portland, OR\" are resolved before ambiguous city-only names."
+    ]
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "ai-engineering-from-scratch",
+      "nameWithOwner": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "stars": 63218,
+      "forks": 10808,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-03-18T18:38:02Z",
+      "pushedAt": "2026-10-02T05:37:24Z",
+      "homepageUrl": "https://aiengineeringfromscratch.com",
+      "archived": false,
+      "owner": {
+        "login": "rohitg00",
+        "name": "Rohit Ghumare",
+        "type": "User",
+        "url": "https://github.com/rohitg00",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48523873?u=8134ac52f936baee23bd0a46b1b4510d8ecb6948&v=4",
+        "location": "UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 2,
+      "name": "CyberChef",
+      "nameWithOwner": "gchq/CyberChef",
+      "url": "https://github.com/gchq/CyberChef",
+      "description": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis",
+      "stars": 36018,
+      "forks": 4164,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2016-11-28T10:34:07Z",
+      "pushedAt": "2026-10-03T10:34:20Z",
+      "homepageUrl": "https://gchq.github.io/CyberChef",
+      "archived": false,
+      "owner": {
+        "login": "gchq",
+        "name": "GCHQ",
+        "type": "Organization",
+        "url": "https://github.com/gchq",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15800240?v=4",
+        "location": "UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 3,
+      "name": "fullPage.js",
+      "nameWithOwner": "alvarotrigo/fullPage.js",
+      "url": "https://github.com/alvarotrigo/fullPage.js",
+      "description": "fullPage plugin by Alvaro Trigo. Create full screen pages fast and simple",
+      "stars": 35385,
+      "forks": 7090,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2013-09-20T11:58:29Z",
+      "pushedAt": "2026-09-20T10:56:49Z",
+      "homepageUrl": "http://alvarotrigo.com/fullPage/",
+      "archived": false,
+      "owner": {
+        "login": "alvarotrigo",
+        "name": "Álvaro",
+        "type": "User",
+        "url": "https://github.com/alvarotrigo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1706326?u=110c3f3536561b4ac258e52721437b48b1a4d7fa&v=4",
+        "location": "Cambridge, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 4,
+      "name": "web-check",
+      "nameWithOwner": "lissy93/web-check",
+      "url": "https://github.com/lissy93/web-check",
+      "description": "🕵️‍♂️ All-in-one OSINT tool for analysing any website",
+      "stars": 34993,
+      "forks": 2870,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-06-25T14:32:11Z",
+      "pushedAt": "2026-10-02T19:06:47Z",
+      "homepageUrl": "https://web-check.xyz",
+      "archived": false,
+      "owner": {
+        "login": "lissy93",
+        "name": "Alicia Sykes",
+        "type": "User",
+        "url": "https://github.com/lissy93",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1862727?u=49343bef1ca0552bc411b2dc7c34591efdf433d1&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 5,
+      "name": "awesome-awesomeness",
+      "nameWithOwner": "bayandin/awesome-awesomeness",
+      "url": "https://github.com/bayandin/awesome-awesomeness",
+      "description": "A curated list of awesome awesomeness",
+      "stars": 33696,
+      "forks": 3603,
+      "primaryLanguage": "Ruby",
+      "license": null,
+      "createdAt": "2014-07-08T05:44:19Z",
+      "pushedAt": "2024-06-02T22:46:41Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "bayandin",
+        "name": "Alexander Bayandin",
+        "type": "User",
+        "url": "https://github.com/bayandin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/864213?u=bece5170441fbfed6963d934553abf048d0b14e1&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 6,
+      "name": "sharp",
+      "nameWithOwner": "lovell/sharp",
+      "url": "https://github.com/lovell/sharp",
+      "description": "High performance Node.js image processing, the fastest module to resize JPEG, PNG, WebP, AVIF and TIFF images. Uses the libvips library.",
+      "stars": 32737,
+      "forks": 1440,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2013-08-19T20:24:24Z",
+      "pushedAt": "2026-10-03T19:03:16Z",
+      "homepageUrl": "https://sharp.pixelplumbing.com",
+      "archived": false,
+      "owner": {
+        "login": "lovell",
+        "name": "Lovell Fuller",
+        "type": "User",
+        "url": "https://github.com/lovell",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/210965?u=64c063da7bd5a864725d60a20cebf688886824a0&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 7,
+      "name": "Hover",
+      "nameWithOwner": "IanLunn/Hover",
+      "url": "https://github.com/IanLunn/Hover",
+      "description": "A collection of CSS3 powered hover effects to be applied to links, buttons, logos, SVG, featured images and so on. Easily apply to your own elements, modify or just use for inspiration. Available in CSS, Sass, and LESS.",
+      "stars": 29404,
+      "forks": 5604,
+      "primaryLanguage": "SCSS",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2014-01-02T14:27:35Z",
+      "pushedAt": "2023-10-28T16:07:33Z",
+      "homepageUrl": "http://ianlunn.github.io/Hover/",
+      "archived": false,
+      "owner": {
+        "login": "IanLunn",
+        "name": "Ian Lunn",
+        "type": "User",
+        "url": "https://github.com/IanLunn",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/694641?v=4",
+        "location": "Devon, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 8,
+      "name": "agentmemory",
+      "nameWithOwner": "rohitg00/agentmemory",
+      "url": "https://github.com/rohitg00/agentmemory",
+      "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+      "stars": 29122,
+      "forks": 2547,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2026-02-25T07:32:52Z",
+      "pushedAt": "2026-10-03T08:04:35Z",
+      "homepageUrl": "https://agent-memory.dev",
+      "archived": false,
+      "owner": {
+        "login": "rohitg00",
+        "name": "Rohit Ghumare",
+        "type": "User",
+        "url": "https://github.com/rohitg00",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48523873?u=8134ac52f936baee23bd0a46b1b4510d8ecb6948&v=4",
+        "location": "UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 9,
+      "name": "awesome-vscode",
+      "nameWithOwner": "viatsko/awesome-vscode",
+      "url": "https://github.com/viatsko/awesome-vscode",
+      "description": "🎨 A curated list of delightful VS Code packages and resources.",
+      "stars": 29097,
+      "forks": 1433,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdxId": "CC0-1.0"
+      },
+      "createdAt": "2016-02-07T23:02:45Z",
+      "pushedAt": "2026-06-21T09:36:55Z",
+      "homepageUrl": "https://viatsko.github.io/awesome-vscode/",
+      "archived": false,
+      "owner": {
+        "login": "viatsko",
+        "name": "Valerii Iatsko",
+        "type": "User",
+        "url": "https://github.com/viatsko",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/376065?u=453b2691bfeca5e30663ad8129dec259d6209106&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 10,
+      "name": "async",
+      "nameWithOwner": "caolan/async",
+      "url": "https://github.com/caolan/async",
+      "description": "Async utilities for node and the browser",
+      "stars": 28119,
+      "forks": 2385,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2010-06-01T21:01:30Z",
+      "pushedAt": "2026-10-01T15:34:00Z",
+      "homepageUrl": "http://caolan.github.io/async/",
+      "archived": false,
+      "owner": {
+        "login": "caolan",
+        "name": "Caolan McMahon",
+        "type": "User",
+        "url": "https://github.com/caolan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5274?u=17021a8e3d3c10a9ec3d30a1a43562100cd7f30b&v=4",
+        "location": "Sheffield, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 11,
+      "name": "nodemon",
+      "nameWithOwner": "remy/nodemon",
+      "url": "https://github.com/remy/nodemon",
+      "description": "Monitor for any changes in your node.js application and automatically restart the server - perfect for development",
+      "stars": 26658,
+      "forks": 1739,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2010-10-03T12:50:52Z",
+      "pushedAt": "2026-09-12T08:25:12Z",
+      "homepageUrl": "http://nodemon.io/",
+      "archived": false,
+      "owner": {
+        "login": "remy",
+        "name": "Remy Sharp",
+        "type": "User",
+        "url": "https://github.com/remy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13700?u=6d8feab03c8dd9102833150eb5ca6054d5a395a1&v=4",
+        "location": "Brighton, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 12,
+      "name": "dashy",
+      "nameWithOwner": "lissy93/dashy",
+      "url": "https://github.com/lissy93/dashy",
+      "description": "🚀 A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more!",
+      "stars": 26620,
+      "forks": 1945,
+      "primaryLanguage": "Vue",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-02-28T10:35:44Z",
+      "pushedAt": "2026-10-03T06:04:58Z",
+      "homepageUrl": "https://dashy.to",
+      "archived": false,
+      "owner": {
+        "login": "lissy93",
+        "name": "Alicia Sykes",
+        "type": "User",
+        "url": "https://github.com/lissy93",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1862727?u=49343bef1ca0552bc411b2dc7c34591efdf433d1&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 13,
+      "name": "faas",
+      "nameWithOwner": "openfaas/faas",
+      "url": "https://github.com/openfaas/faas",
+      "description": "OpenFaaS - Serverless Functions Made Simple",
+      "stars": 26249,
+      "forks": 1964,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2016-12-22T12:51:39Z",
+      "pushedAt": "2026-07-02T09:09:13Z",
+      "homepageUrl": "https://www.openfaas.com",
+      "archived": false,
+      "owner": {
+        "login": "openfaas",
+        "name": "OpenFaaS",
+        "type": "Organization",
+        "url": "https://github.com/openfaas",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27013154?v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 14,
+      "name": "difftastic",
+      "nameWithOwner": "Wilfred/difftastic",
+      "url": "https://github.com/Wilfred/difftastic",
+      "description": "a structural diff that understands syntax 🟥🟩",
+      "stars": 25972,
+      "forks": 523,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-12-18T11:19:45Z",
+      "pushedAt": "2026-10-02T08:47:16Z",
+      "homepageUrl": "https://difftastic.wilfred.me.uk/",
+      "archived": false,
+      "owner": {
+        "login": "Wilfred",
+        "name": "Wilfred Hughes",
+        "type": "User",
+        "url": "https://github.com/Wilfred",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70800?u=97bfa6a7fa68c3f2b653ec599478743a93146ec6&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 15,
+      "name": "awesome-n8n-templates",
+      "nameWithOwner": "enescingoz/awesome-n8n-templates",
+      "url": "https://github.com/enescingoz/awesome-n8n-templates",
+      "description": "280+ free n8n automation templates — ready-to-use workflows for Gmail, Telegram, Slack, Discord, WhatsApp, Google Drive, Notion, OpenAI, and more. AI agents, RAG   chatbots, email automation, social media, DevOps, and document processing. The largest open-source n8n template collection.",
+      "stars": 25722,
+      "forks": 6487,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2025-05-08T18:34:01Z",
+      "pushedAt": "2026-09-12T13:00:32Z",
+      "homepageUrl": "https://n8n.partnerlinks.io/h1pwwf5m4toe",
+      "archived": false,
+      "owner": {
+        "login": "enescingoz",
+        "name": "Enes Cingöz",
+        "type": "User",
+        "url": "https://github.com/enescingoz",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60349121?u=7b15ee2f6dee588e304a75c22a95ae8c01e6d6c8&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 16,
+      "name": "DSA-Bootcamp-Java",
+      "nameWithOwner": "kunal-kushwaha/DSA-Bootcamp-Java",
+      "url": "https://github.com/kunal-kushwaha/DSA-Bootcamp-Java",
+      "description": "This repository consists of the code samples, assignments, and notes for the Java data structures & algorithms + interview preparation bootcamp of WeMakeDevs.",
+      "stars": 23942,
+      "forks": 13584,
+      "primaryLanguage": "Java",
+      "license": null,
+      "createdAt": "2021-07-30T12:23:25Z",
+      "pushedAt": "2024-08-18T08:21:57Z",
+      "homepageUrl": "https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ",
+      "archived": false,
+      "owner": {
+        "login": "kunal-kushwaha",
+        "name": "Kunal Kushwaha",
+        "type": "User",
+        "url": "https://github.com/kunal-kushwaha",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42698533?u=ff495fe438361b19649efdfc4a2fa15bbffc0b75&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 17,
+      "name": "learn-go-with-tests",
+      "nameWithOwner": "quii/learn-go-with-tests",
+      "url": "https://github.com/quii/learn-go-with-tests",
+      "description": "Learn Go with test-driven development",
+      "stars": 23903,
+      "forks": 2936,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-03-02T11:41:14Z",
+      "pushedAt": "2026-09-30T14:07:24Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "quii",
+        "name": "Chris James",
+        "type": "User",
+        "url": "https://github.com/quii",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/631756?u=123f719ea9c1d667afedfef562c6b1b3b929d483&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 18,
+      "name": "personal-security-checklist",
+      "nameWithOwner": "lissy93/personal-security-checklist",
+      "url": "https://github.com/lissy93/personal-security-checklist",
+      "description": "🔒 A compiled checklist of 300+ tips for protecting digital security and privacy in 2026",
+      "stars": 22450,
+      "forks": 1475,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2018-03-02T21:12:37Z",
+      "pushedAt": "2026-10-01T08:21:16Z",
+      "homepageUrl": "https://digital-defense.io",
+      "archived": false,
+      "owner": {
+        "login": "lissy93",
+        "name": "Alicia Sykes",
+        "type": "User",
+        "url": "https://github.com/lissy93",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1862727?u=49343bef1ca0552bc411b2dc7c34591efdf433d1&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 19,
+      "name": "faker",
+      "nameWithOwner": "joke2k/faker",
+      "url": "https://github.com/joke2k/faker",
+      "description": "Faker is a Python package that generates fake data for you.",
+      "stars": 19421,
+      "forks": 2123,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2012-11-12T23:00:09Z",
+      "pushedAt": "2026-09-29T00:56:28Z",
+      "homepageUrl": "https://faker.readthedocs.io",
+      "archived": false,
+      "owner": {
+        "login": "joke2k",
+        "name": "Daniele Faraglia",
+        "type": "User",
+        "url": "https://github.com/joke2k",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/359076?u=f6f0bce5d0882c44a01c4bf5e328f69877cca4a1&v=4",
+        "location": "Brighton, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 20,
+      "name": "screenity",
+      "nameWithOwner": "alyssaxuu/screenity",
+      "url": "https://github.com/alyssaxuu/screenity",
+      "description": "The free and privacy-friendly screen recorder with no limits 🎥",
+      "stars": 18751,
+      "forks": 1531,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2020-11-01T15:16:31Z",
+      "pushedAt": "2026-09-25T18:09:04Z",
+      "homepageUrl": "https://screenity.io",
+      "archived": false,
+      "owner": {
+        "login": "alyssaxuu",
+        "name": "Alyssa X",
+        "type": "User",
+        "url": "https://github.com/alyssaxuu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7581348?u=428dff6968d72fe5eda6c79217c3c684336b2fd9&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 21,
+      "name": "engine",
+      "nameWithOwner": "playcanvas/engine",
+      "url": "https://github.com/playcanvas/engine",
+      "description": "Powerful web graphics runtime built on WebGL, WebGPU, WebXR and glTF",
+      "stars": 16978,
+      "forks": 2015,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-05-12T11:24:30Z",
+      "pushedAt": "2026-10-03T02:23:24Z",
+      "homepageUrl": "https://playcanvas.com",
+      "archived": false,
+      "owner": {
+        "login": "playcanvas",
+        "name": "PlayCanvas",
+        "type": "Organization",
+        "url": "https://github.com/playcanvas",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1030579?v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 22,
+      "name": "parallax",
+      "nameWithOwner": "wagerfield/parallax",
+      "url": "https://github.com/wagerfield/parallax",
+      "description": "Parallax Engine that reacts to the orientation of a smart device",
+      "stars": 16575,
+      "forks": 2086,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2013-08-01T15:28:05Z",
+      "pushedAt": "2024-04-06T08:07:55Z",
+      "homepageUrl": "http://wagerfield.github.io/parallax/",
+      "archived": false,
+      "owner": {
+        "login": "wagerfield",
+        "name": "Matthew Wagerfield",
+        "type": "User",
+        "url": "https://github.com/wagerfield",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/412747?u=690ff43f3563acc8fa02d083959791acb0cfbd16&v=4",
+        "location": "UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 23,
+      "name": "SuperTinyIcons",
+      "nameWithOwner": "edent/SuperTinyIcons",
+      "url": "https://github.com/edent/SuperTinyIcons",
+      "description": "Under 1KB each! Super Tiny Icons are miniscule SVG versions of your favourite website and app logos",
+      "stars": 15401,
+      "forks": 967,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2017-04-13T23:28:34Z",
+      "pushedAt": "2026-05-18T06:50:14Z",
+      "homepageUrl": "https://edent.github.io/SuperTinyIcons/",
+      "archived": false,
+      "owner": {
+        "login": "edent",
+        "name": "Terence Eden",
+        "type": "User",
+        "url": "https://github.com/edent",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/837136?u=73b5c34325606e447be7074fd0deefc55a004c82&v=4",
+        "location": "UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 24,
+      "name": "DVWA",
+      "nameWithOwner": "digininja/DVWA",
+      "url": "https://github.com/digininja/DVWA",
+      "description": "Damn Vulnerable Web Application (DVWA)",
+      "stars": 13766,
+      "forks": 5161,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2013-05-01T13:03:10Z",
+      "pushedAt": "2026-10-01T09:14:29Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "digininja",
+        "name": "Robin Wood",
+        "type": "User",
+        "url": "https://github.com/digininja",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/117081?u=cee7912aa7d3832b009472e54c3d6f5aaacd9c61&v=4",
+        "location": "UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 25,
+      "name": "GulfOfMexico",
+      "nameWithOwner": "TodePond/GulfOfMexico",
+      "url": "https://github.com/TodePond/GulfOfMexico",
+      "description": "perfect programming language",
+      "stars": 13607,
+      "forks": 472,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2022-04-17T17:48:12Z",
+      "pushedAt": "2026-01-20T12:20:39Z",
+      "homepageUrl": "https://dreamberd.computer",
+      "archived": false,
+      "owner": {
+        "login": "TodePond",
+        "name": "Lu Wilson",
+        "type": "User",
+        "url": "https://github.com/TodePond",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15892272?u=3efcefcf8e3d0968ccc584933f5f295d76b8e940&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 26,
+      "name": "blockly",
+      "nameWithOwner": "RaspberryPiFoundation/blockly",
+      "url": "https://github.com/RaspberryPiFoundation/blockly",
+      "description": "The web-based visual programming editor.",
+      "stars": 13578,
+      "forks": 3879,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2013-10-25T21:13:33Z",
+      "pushedAt": "2026-10-03T09:34:03Z",
+      "homepageUrl": "https://blockly.com",
+      "archived": false,
+      "owner": {
+        "login": "RaspberryPiFoundation",
+        "name": "Raspberry Pi Foundation",
+        "type": "Organization",
+        "url": "https://github.com/RaspberryPiFoundation",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3691930?v=4",
+        "location": "Cambridge, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 27,
+      "name": "linux",
+      "nameWithOwner": "raspberrypi/linux",
+      "url": "https://github.com/raspberrypi/linux",
+      "description": "Kernel source tree for Raspberry Pi-provided kernel builds. Issues unrelated to the linux kernel should be posted on the community forum at https://forums.raspberrypi.com/",
+      "stars": 13215,
+      "forks": 5471,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2012-01-17T12:10:20Z",
+      "pushedAt": "2026-10-02T05:50:51Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "raspberrypi",
+        "name": "Raspberry Pi",
+        "type": "Organization",
+        "url": "https://github.com/raspberrypi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1294177?v=4",
+        "location": "Cambridge, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 28,
+      "name": "video-subtitle-remover",
+      "nameWithOwner": "YaoFANGUK/video-subtitle-remover",
+      "url": "https://github.com/YaoFANGUK/video-subtitle-remover",
+      "description": "基于AI的图片/视频硬字幕去除、文本水印去除，无损分辨率生成去字幕、去水印后的图片/视频文件。无需申请第三方API，本地实现。AI-based tool for removing hard-coded subtitles and text-like watermarks from videos or Pictures.",
+      "stars": 13131,
+      "forks": 1658,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2023-10-25T02:50:01Z",
+      "pushedAt": "2026-06-30T01:06:52Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "YaoFANGUK",
+        "name": "天涯古巷",
+        "type": "User",
+        "url": "https://github.com/YaoFANGUK",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50165320?u=a970bfd2e92589dbf33d8a35afa0ec97054dd2fb&v=4",
+        "location": "Nottingham, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 29,
+      "name": "awesome-laravel",
+      "nameWithOwner": "chiraggude/awesome-laravel",
+      "url": "https://github.com/chiraggude/awesome-laravel",
+      "description": "A curated list of bookmarks, packages, tutorials, videos and other cool resources from the Laravel ecosystem",
+      "stars": 13110,
+      "forks": 2344,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2014-07-30T08:39:02Z",
+      "pushedAt": "2024-07-03T15:59:36Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "chiraggude",
+        "name": "Chirag Gude",
+        "type": "User",
+        "url": "https://github.com/chiraggude",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5411330?u=6fa1b4f465c09b650ff2aa9bbee57bcfcff6d577&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 30,
+      "name": "crystal",
+      "nameWithOwner": "graphile/crystal",
+      "url": "https://github.com/graphile/crystal",
+      "description": "🔮 Graphile's Crystal Monorepo; home to Grafast, PostGraphile, pg-introspection, pg-sql2 and much more!",
+      "stars": 12931,
+      "forks": 627,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-04-14T21:29:19Z",
+      "pushedAt": "2026-10-02T08:32:01Z",
+      "homepageUrl": "https://graphile.org/",
+      "archived": false,
+      "owner": {
+        "login": "graphile",
+        "name": "Graphile",
+        "type": "Organization",
+        "url": "https://github.com/graphile",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30540084?v=4",
+        "location": "Southampton, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 31,
+      "name": "dust",
+      "nameWithOwner": "bootandy/dust",
+      "url": "https://github.com/bootandy/dust",
+      "description": "A more intuitive version of du in rust",
+      "stars": 12463,
+      "forks": 293,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-03-16T19:49:52Z",
+      "pushedAt": "2026-09-16T21:39:17Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "bootandy",
+        "name": "andy.boot",
+        "type": "User",
+        "url": "https://github.com/bootandy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/311785?v=4",
+        "location": "london, uk",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 32,
+      "name": "browser-sync",
+      "nameWithOwner": "BrowserSync/browser-sync",
+      "url": "https://github.com/BrowserSync/browser-sync",
+      "description": "Keep multiple browsers & devices in sync when building websites. https://browsersync.io",
+      "stars": 12287,
+      "forks": 750,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2013-10-12T19:35:45Z",
+      "pushedAt": "2026-05-09T08:29:15Z",
+      "homepageUrl": "https://discord.gg/2d2xUThp",
+      "archived": false,
+      "owner": {
+        "login": "BrowserSync",
+        "name": "Browsersync",
+        "type": "Organization",
+        "url": "https://github.com/BrowserSync",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10654171?v=4",
+        "location": "Nottingham, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 33,
+      "name": "flowy",
+      "nameWithOwner": "alyssaxuu/flowy",
+      "url": "https://github.com/alyssaxuu/flowy",
+      "description": "The minimal javascript library to create flowcharts ✨",
+      "stars": 12140,
+      "forks": 1044,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-11-27T14:03:51Z",
+      "pushedAt": "2024-07-13T17:01:28Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "alyssaxuu",
+        "name": "Alyssa X",
+        "type": "User",
+        "url": "https://github.com/alyssaxuu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7581348?u=428dff6968d72fe5eda6c79217c3c684336b2fd9&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 34,
+      "name": "jwt-auth",
+      "nameWithOwner": "tymondesigns/jwt-auth",
+      "url": "https://github.com/tymondesigns/jwt-auth",
+      "description": "🔐 JSON Web Token Authentication for Laravel & Lumen",
+      "stars": 11494,
+      "forks": 1532,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-09-04T21:50:50Z",
+      "pushedAt": "2026-03-06T10:37:13Z",
+      "homepageUrl": "https://jwt-auth.com",
+      "archived": false,
+      "owner": {
+        "login": "tymondesigns",
+        "name": "Sean Tymon",
+        "type": "User",
+        "url": "https://github.com/tymondesigns",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1801923?u=e08b0c45e984f31e82b36a099e3432cca592a261&v=4",
+        "location": "Manchester, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 35,
+      "name": "tini",
+      "nameWithOwner": "krallin/tini",
+      "url": "https://github.com/krallin/tini",
+      "description": "A tiny but valid `init` for containers",
+      "stars": 11250,
+      "forks": 547,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-02-27T18:13:59Z",
+      "pushedAt": "2025-05-08T14:42:27Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "krallin",
+        "name": "Thomas Orozco",
+        "type": "User",
+        "url": "https://github.com/krallin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1737686?v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 36,
+      "name": "headroom.js",
+      "nameWithOwner": "WickyNilliams/headroom.js",
+      "url": "https://github.com/WickyNilliams/headroom.js",
+      "description": "Give your pages some headroom. Hide your header until you need it",
+      "stars": 10843,
+      "forks": 795,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-08-07T20:42:58Z",
+      "pushedAt": "2023-10-25T11:50:31Z",
+      "homepageUrl": "https://wicky.nillia.ms/headroom.js/",
+      "archived": false,
+      "owner": {
+        "login": "WickyNilliams",
+        "name": "Nick Williams",
+        "type": "User",
+        "url": "https://github.com/WickyNilliams",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1091390?v=4",
+        "location": "Wales, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 37,
+      "name": "lax.js",
+      "nameWithOwner": "alexfoxy/lax.js",
+      "url": "https://github.com/alexfoxy/lax.js",
+      "description": "Simple & lightweight (<4kb gzipped) vanilla JavaScript library to create smooth & beautiful animations when you scroll.",
+      "stars": 10469,
+      "forks": 479,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-03-12T09:21:03Z",
+      "pushedAt": "2025-05-21T06:07:55Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "alexfoxy",
+        "name": "Alex Fox",
+        "type": "User",
+        "url": "https://github.com/alexfoxy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/151772?u=64131d54e11f6b99bd6c4eaa559f3ac246e9d73c&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 38,
+      "name": "supersplat",
+      "nameWithOwner": "playcanvas/supersplat",
+      "url": "https://github.com/playcanvas/supersplat",
+      "description": "3D Gaussian Splat Editor",
+      "stars": 10296,
+      "forks": 1166,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-10-19T14:45:07Z",
+      "pushedAt": "2026-10-02T13:34:28Z",
+      "homepageUrl": "https://superspl.at/editor",
+      "archived": false,
+      "owner": {
+        "login": "playcanvas",
+        "name": "PlayCanvas",
+        "type": "Organization",
+        "url": "https://github.com/playcanvas",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1030579?v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 39,
+      "name": "awesome-privacy",
+      "nameWithOwner": "lissy93/awesome-privacy",
+      "url": "https://github.com/lissy93/awesome-privacy",
+      "description": "🦄  A curated list of privacy & security-focused software and services",
+      "stars": 9923,
+      "forks": 672,
+      "primaryLanguage": "Astro",
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdxId": "CC0-1.0"
+      },
+      "createdAt": "2022-07-09T19:32:38Z",
+      "pushedAt": "2026-10-03T05:16:48Z",
+      "homepageUrl": "https://awesome-privacy.xyz",
+      "archived": false,
+      "owner": {
+        "login": "lissy93",
+        "name": "Alicia Sykes",
+        "type": "User",
+        "url": "https://github.com/lissy93",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1862727?u=49343bef1ca0552bc411b2dc7c34591efdf433d1&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 40,
+      "name": "video-subtitle-extractor",
+      "nameWithOwner": "YaoFANGUK/video-subtitle-extractor",
+      "url": "https://github.com/YaoFANGUK/video-subtitle-extractor",
+      "description": "视频硬字幕提取，生成srt文件。无需申请第三方API，本地实现文本识别。基于深度学习的视频字幕提取框架，包含字幕区域检测、字幕内容提取。A GUI tool for extracting hard-coded subtitle (hardsub) from videos and generating srt files. ",
+      "stars": 9555,
+      "forks": 973,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2020-10-04T18:01:25Z",
+      "pushedAt": "2026-04-09T15:27:37Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "YaoFANGUK",
+        "name": "天涯古巷",
+        "type": "User",
+        "url": "https://github.com/YaoFANGUK",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50165320?u=a970bfd2e92589dbf33d8a35afa0ec97054dd2fb&v=4",
+        "location": "Nottingham, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 41,
+      "name": "gb-studio",
+      "nameWithOwner": "chrismaltby/gb-studio",
+      "url": "https://github.com/chrismaltby/gb-studio",
+      "description": "A quick and easy to use drag and drop retro game creator for your favourite handheld video game system",
+      "stars": 9413,
+      "forks": 579,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-04-17T13:14:32Z",
+      "pushedAt": "2026-10-03T07:11:34Z",
+      "homepageUrl": "https://www.gbstudio.dev",
+      "archived": false,
+      "owner": {
+        "login": "chrismaltby",
+        "name": "Chris Maltby",
+        "type": "User",
+        "url": "https://github.com/chrismaltby",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16776042?u=f864c54158cf721c0815808fdd39ed117c080def&v=4",
+        "location": "Rugby, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 42,
+      "name": "microk8s",
+      "nameWithOwner": "canonical/microk8s",
+      "url": "https://github.com/canonical/microk8s",
+      "description": "MicroK8s is a small, fast, single-package Kubernetes for datacenters and the edge.",
+      "stars": 9380,
+      "forks": 832,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-05-09T09:19:36Z",
+      "pushedAt": "2026-10-03T10:12:01Z",
+      "homepageUrl": "https://microk8s.io",
+      "archived": false,
+      "owner": {
+        "login": "canonical",
+        "name": "Canonical",
+        "type": "Organization",
+        "url": "https://github.com/canonical",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53057619?v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 43,
+      "name": "colour-schemes",
+      "nameWithOwner": "daylerees/colour-schemes",
+      "url": "https://github.com/daylerees/colour-schemes",
+      "description": "Colour schemes for a variety of editors created by Dayle Rees.",
+      "stars": 9280,
+      "forks": 1550,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2012-06-07T11:33:33Z",
+      "pushedAt": "2024-01-08T11:55:52Z",
+      "homepageUrl": "http://daylerees.github.io",
+      "archived": false,
+      "owner": {
+        "login": "daylerees",
+        "name": "Dayle Rees",
+        "type": "User",
+        "url": "https://github.com/daylerees",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/207870?u=166bc63387ee76479ae3289ee66c243e38fa0397&v=4",
+        "location": "Wales, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 44,
+      "name": "multipass",
+      "nameWithOwner": "canonical/multipass",
+      "url": "https://github.com/canonical/multipass",
+      "description": "Multipass orchestrates virtual Ubuntu instances",
+      "stars": 9260,
+      "forks": 831,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2017-12-13T14:05:21Z",
+      "pushedAt": "2026-10-04T01:48:46Z",
+      "homepageUrl": "https://canonical.com/multipass",
+      "archived": false,
+      "owner": {
+        "login": "canonical",
+        "name": "Canonical",
+        "type": "Organization",
+        "url": "https://github.com/canonical",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53057619?v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 45,
+      "name": "flutter_architecture_samples",
+      "nameWithOwner": "brianegan/flutter_architecture_samples",
+      "url": "https://github.com/brianegan/flutter_architecture_samples",
+      "description": "TodoMVC for Flutter",
+      "stars": 8930,
+      "forks": 1713,
+      "primaryLanguage": "Dart",
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2017-11-25T19:08:14Z",
+      "pushedAt": "2025-11-06T22:37:20Z",
+      "homepageUrl": "http://fluttersamples.com/",
+      "archived": false,
+      "owner": {
+        "login": "brianegan",
+        "name": "Brian Egan",
+        "type": "User",
+        "url": "https://github.com/brianegan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/126604?u=21082fa24bfb189c5cc6c45faa03298e06c29356&v=4",
+        "location": "Lake District, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 46,
+      "name": "AI4Animation",
+      "nameWithOwner": "sebastianstarke/AI4Animation",
+      "url": "https://github.com/sebastianstarke/AI4Animation",
+      "description": "Bringing Characters to Life with Computer Brains in Unity",
+      "stars": 8880,
+      "forks": 1142,
+      "primaryLanguage": "C++",
+      "license": null,
+      "createdAt": "2017-07-26T22:20:35Z",
+      "pushedAt": "2026-04-17T17:03:39Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "sebastianstarke",
+        "name": "Sebastian Starke",
+        "type": "User",
+        "url": "https://github.com/sebastianstarke",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20269775?u=766950953c977dcb5690f591776b9735f5496f7e&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 47,
+      "name": "whatcable",
+      "nameWithOwner": "darrylmorley/whatcable",
+      "url": "https://github.com/darrylmorley/whatcable",
+      "description": "macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do",
+      "stars": 8828,
+      "forks": 270,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2026-05-01T07:45:10Z",
+      "pushedAt": "2026-10-02T23:09:07Z",
+      "homepageUrl": "https://whatcable.uk",
+      "archived": false,
+      "owner": {
+        "login": "darrylmorley",
+        "name": "Darryl Morley",
+        "type": "User",
+        "url": "https://github.com/darrylmorley",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20406137?u=ce81c09d8ca05e4c0ea9b21d73abbab304d046e8&v=4",
+        "location": "UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 48,
+      "name": "MultiplayerNetworkingResources",
+      "nameWithOwner": "0xFA11/MultiplayerNetworkingResources",
+      "url": "https://github.com/0xFA11/MultiplayerNetworkingResources",
+      "description": "A curated list of Multiplayer Game Network Programming Resources",
+      "stars": 8718,
+      "forks": 542,
+      "primaryLanguage": "C",
+      "license": null,
+      "createdAt": "2018-01-24T09:05:00Z",
+      "pushedAt": "2026-08-27T10:58:50Z",
+      "homepageUrl": "https://multiplayernetworking.com/",
+      "archived": false,
+      "owner": {
+        "login": "0xFA11",
+        "name": "Fatih Mar",
+        "type": "User",
+        "url": "https://github.com/0xFA11",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12574651?u=e2598bacfeaf6c21d7c2306bcd8fe7aa8d3aabb0&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 49,
+      "name": "MWPhotoBrowser",
+      "nameWithOwner": "mwaterfall/MWPhotoBrowser",
+      "url": "https://github.com/mwaterfall/MWPhotoBrowser",
+      "description": "A simple iOS photo and video browser with grid view, captions and selections.",
+      "stars": 8701,
+      "forks": 2645,
+      "primaryLanguage": "Objective-C",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2010-10-21T15:40:47Z",
+      "pushedAt": "2024-06-27T12:38:19Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "mwaterfall",
+        "name": "Michael Waterfall",
+        "type": "User",
+        "url": "https://github.com/mwaterfall",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/132291?u=762e8180e67d5ec8aaba6573699d9ad915272081&v=4",
+        "location": "Cambridge, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 50,
+      "name": "audiblez",
+      "nameWithOwner": "santinic/audiblez",
+      "url": "https://github.com/santinic/audiblez",
+      "description": "Generate audiobooks from e-books",
+      "stars": 8680,
+      "forks": 758,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-01-14T14:36:20Z",
+      "pushedAt": "2026-02-27T19:06:57Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "santinic",
+        "name": "Claudio Santini",
+        "type": "User",
+        "url": "https://github.com/santinic",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/179558?u=c56e5ee756bb1204f8294ee4b8e1157e94e39785&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 51,
+      "name": "Android-PullToRefresh",
+      "nameWithOwner": "chrisbanes/Android-PullToRefresh",
+      "url": "https://github.com/chrisbanes/Android-PullToRefresh",
+      "description": "DEPRECATED",
+      "stars": 8628,
+      "forks": 4612,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2011-11-29T09:59:56Z",
+      "pushedAt": "2017-10-13T08:40:58Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "chrisbanes",
+        "name": "Chris Banes",
+        "type": "User",
+        "url": "https://github.com/chrisbanes",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/227486?u=3c4456ae378b94b193fe12061c9cc4ac0c01ae5b&v=4",
+        "location": "Bath, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 52,
+      "name": "vim-gitgutter",
+      "nameWithOwner": "airblade/vim-gitgutter",
+      "url": "https://github.com/airblade/vim-gitgutter",
+      "description": "A Vim plugin which shows git diff markers in the sign column and stages/previews/undoes hunks and partial hunks.",
+      "stars": 8514,
+      "forks": 300,
+      "primaryLanguage": "Vim Script",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-02-20T09:54:02Z",
+      "pushedAt": "2026-07-21T11:08:11Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "airblade",
+        "name": "Andy Stewart",
+        "type": "User",
+        "url": "https://github.com/airblade",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7265?u=4e4b392ac516396a83c93a4777886c7690a9b332&v=4",
+        "location": "Oxford, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 53,
+      "name": "xh",
+      "nameWithOwner": "ducaale/xh",
+      "url": "https://github.com/ducaale/xh",
+      "description": "Friendly and fast tool for sending HTTP requests",
+      "stars": 8115,
+      "forks": 147,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-09-10T20:58:13Z",
+      "pushedAt": "2026-09-05T09:34:49Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ducaale",
+        "name": "Mohamed Daahir",
+        "type": "User",
+        "url": "https://github.com/ducaale",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16341131?u=c7246ac820e5c348244e4ddfbf359f34b4505b7d&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 54,
+      "name": "webiny-js",
+      "nameWithOwner": "webiny/webiny-js",
+      "url": "https://github.com/webiny/webiny-js",
+      "description": "Open-source, self-hosted CMS platform on AWS serverless (Lambda, DynamoDB, S3). TypeScript framework with multi-tenancy, lifecycle hooks, GraphQL API, and AI-assisted development via MCP server. Built for developers at large organizations.",
+      "stars": 8047,
+      "forks": 682,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2018-01-09T13:09:44Z",
+      "pushedAt": "2026-10-02T23:34:21Z",
+      "homepageUrl": "https://www.webiny.com",
+      "archived": false,
+      "owner": {
+        "login": "webiny",
+        "name": "Webiny",
+        "type": "Organization",
+        "url": "https://github.com/webiny",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3808429?v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 55,
+      "name": "LinEnum",
+      "nameWithOwner": "rebootuser/LinEnum",
+      "url": "https://github.com/rebootuser/LinEnum",
+      "description": "Scripted Local Linux Enumeration & Privilege Escalation Checks",
+      "stars": 8043,
+      "forks": 2016,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-08-20T06:26:58Z",
+      "pushedAt": "2023-09-06T18:02:29Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "rebootuser",
+        "name": "Rebootuser",
+        "type": "User",
+        "url": "https://github.com/rebootuser",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5245685?u=1393d360b18d37d797dbd75c59d29941a8de2189&v=4",
+        "location": "UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 56,
+      "name": "pyinstrument",
+      "nameWithOwner": "joerick/pyinstrument",
+      "url": "https://github.com/joerick/pyinstrument",
+      "description": "🚴 Call stack profiler for Python. Shows you why your code is slow!",
+      "stars": 8014,
+      "forks": 303,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2014-03-13T17:53:13Z",
+      "pushedAt": "2026-09-01T22:22:46Z",
+      "homepageUrl": "https://pyinstrument.readthedocs.io/",
+      "archived": false,
+      "owner": {
+        "login": "joerick",
+        "name": "Joe Rickerby",
+        "type": "User",
+        "url": "https://github.com/joerick",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1244307?u=4a5be77f97814a6a8cb87217a1d3ef3cc9701db1&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 57,
+      "name": "omni",
+      "nameWithOwner": "alyssaxuu/omni",
+      "url": "https://github.com/alyssaxuu/omni",
+      "description": "The all-in-one tool to supercharge your productivity ⌨️",
+      "stars": 7855,
+      "forks": 368,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-01-10T22:25:55Z",
+      "pushedAt": "2024-01-11T01:55:35Z",
+      "homepageUrl": "https://chrome.google.com/webstore/detail/omni/mapjgeachilmcbbokkgcbgpbakaaeehi?hl=en&authuser=0",
+      "archived": false,
+      "owner": {
+        "login": "alyssaxuu",
+        "name": "Alyssa X",
+        "type": "User",
+        "url": "https://github.com/alyssaxuu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7581348?u=428dff6968d72fe5eda6c79217c3c684336b2fd9&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 58,
+      "name": "markdown-js",
+      "nameWithOwner": "evilstreak/markdown-js",
+      "url": "https://github.com/evilstreak/markdown-js",
+      "description": "A Markdown parser for javascript",
+      "stars": 7671,
+      "forks": 834,
+      "primaryLanguage": "JavaScript",
+      "license": null,
+      "createdAt": "2009-12-18T15:31:48Z",
+      "pushedAt": "2020-03-27T01:02:30Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "evilstreak",
+        "name": "Dominic Baggott",
+        "type": "User",
+        "url": "https://github.com/evilstreak",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74812?u=323422f7c100df8d5742550d08259dae6b33e2ae&v=4",
+        "location": "UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 59,
+      "name": "cheesesquare",
+      "nameWithOwner": "chrisbanes/cheesesquare",
+      "url": "https://github.com/chrisbanes/cheesesquare",
+      "description": "Demos the new Android Design library.",
+      "stars": 7634,
+      "forks": 1777,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2015-05-28T22:54:34Z",
+      "pushedAt": "2020-12-07T17:39:00Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "chrisbanes",
+        "name": "Chris Banes",
+        "type": "User",
+        "url": "https://github.com/chrisbanes",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/227486?u=3c4456ae378b94b193fe12061c9cc4ac0c01ae5b&v=4",
+        "location": "Bath, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 60,
+      "name": "Awesome_Math_Books",
+      "nameWithOwner": "valeman/Awesome_Math_Books",
+      "url": "https://github.com/valeman/Awesome_Math_Books",
+      "description": null,
+      "stars": 7296,
+      "forks": 675,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2024-09-01T11:55:44Z",
+      "pushedAt": "2026-08-14T09:37:03Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "valeman",
+        "name": "valeman",
+        "type": "User",
+        "url": "https://github.com/valeman",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26203246?u=76fc841b27850920ead8fb592347f826533c2cd9&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 61,
+      "name": "ddia-references",
+      "nameWithOwner": "ept/ddia-references",
+      "url": "https://github.com/ept/ddia-references",
+      "description": "Literature references for “Designing Data-Intensive Applications”",
+      "stars": 7267,
+      "forks": 903,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2017-01-26T21:06:11Z",
+      "pushedAt": "2026-02-07T22:25:40Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ept",
+        "name": "Martin Kleppmann",
+        "type": "User",
+        "url": "https://github.com/ept",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27544?u=b33b13b1e9fc319880ca8a78f758299c2ebb6df1&v=4",
+        "location": "Cambridge, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 62,
+      "name": "Android-Bootstrap",
+      "nameWithOwner": "Bearded-Hen/Android-Bootstrap",
+      "url": "https://github.com/Bearded-Hen/Android-Bootstrap",
+      "description": "Bootstrap style widgets for Android, with Glyph Icons",
+      "stars": 7214,
+      "forks": 1399,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-11-01T15:36:17Z",
+      "pushedAt": "2021-09-02T06:14:15Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Bearded-Hen",
+        "name": "Bearded Hen",
+        "type": "Organization",
+        "url": "https://github.com/Bearded-Hen",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5832191?v=4",
+        "location": "Bath, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 63,
+      "name": "goja",
+      "nameWithOwner": "dop251/goja",
+      "url": "https://github.com/dop251/goja",
+      "description": "ECMAScript/JavaScript engine in pure Go",
+      "stars": 7126,
+      "forks": 483,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-11-04T22:04:06Z",
+      "pushedAt": "2026-10-02T13:58:14Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "dop251",
+        "name": "Dmitry Panov",
+        "type": "User",
+        "url": "https://github.com/dop251",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/995021?v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 64,
+      "name": "script",
+      "nameWithOwner": "bitfield/script",
+      "url": "https://github.com/bitfield/script",
+      "description": "Making it easy to write shell-like scripts in Go",
+      "stars": 7042,
+      "forks": 368,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-04-20T14:37:03Z",
+      "pushedAt": "2026-09-06T09:42:48Z",
+      "homepageUrl": "https://bitfieldconsulting.com/subscribe",
+      "archived": false,
+      "owner": {
+        "login": "bitfield",
+        "name": "John Arundel",
+        "type": "User",
+        "url": "https://github.com/bitfield",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/142262?u=891caee96719775c06ce9ebac02c34996996f2d6&v=4",
+        "location": "Cornwall, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 65,
+      "name": "cash",
+      "nameWithOwner": "fabiospampinato/cash",
+      "url": "https://github.com/fabiospampinato/cash",
+      "description": "An absurdly small jQuery alternative for modern browsers.",
+      "stars": 7033,
+      "forks": 270,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-09-19T12:47:40Z",
+      "pushedAt": "2026-07-17T21:02:06Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "fabiospampinato",
+        "name": "Fabio Spampinato",
+        "type": "User",
+        "url": "https://github.com/fabiospampinato",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1812093?u=0d6a92ea991be8b4d893c64f017d10b26d60e581&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 66,
+      "name": "Track-Anything",
+      "nameWithOwner": "gaomingqi/Track-Anything",
+      "url": "https://github.com/gaomingqi/Track-Anything",
+      "description": "Track-Anything is a flexible and interactive tool for video object tracking and segmentation, based on Segment Anything, XMem, and E2FGVI.",
+      "stars": 7007,
+      "forks": 508,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-04-12T00:19:57Z",
+      "pushedAt": "2025-12-13T11:02:33Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "gaomingqi",
+        "name": "Mingqi Gao",
+        "type": "User",
+        "url": "https://github.com/gaomingqi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28050374?u=f1891af61d07c3dadd5d8c29118ed58c62901c09&v=4",
+        "location": "Sheffield, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 67,
+      "name": "githug",
+      "nameWithOwner": "Gazler/githug",
+      "url": "https://github.com/Gazler/githug",
+      "description": "Git your game on!",
+      "stars": 6955,
+      "forks": 1022,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2012-03-14T19:11:05Z",
+      "pushedAt": "2026-09-14T09:17:36Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Gazler",
+        "name": "Gary Rennie",
+        "type": "User",
+        "url": "https://github.com/Gazler",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/477511?v=4",
+        "location": "Midlands, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 68,
+      "name": "fastdom",
+      "nameWithOwner": "wilsonpage/fastdom",
+      "url": "https://github.com/wilsonpage/fastdom",
+      "description": "Eliminates layout thrashing by batching DOM measurement and mutation tasks",
+      "stars": 6915,
+      "forks": 235,
+      "primaryLanguage": "JavaScript",
+      "license": null,
+      "createdAt": "2013-02-11T09:45:41Z",
+      "pushedAt": "2024-02-20T08:00:07Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "wilsonpage",
+        "name": "Wilson Page",
+        "type": "User",
+        "url": "https://github.com/wilsonpage",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1020551?u=9bfa1e13e34bf212aabaa3b9ea71b57a741251e2&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 69,
+      "name": "codecompanion.nvim",
+      "nameWithOwner": "olimorris/codecompanion.nvim",
+      "url": "https://github.com/olimorris/codecompanion.nvim",
+      "description": "✨ AI Coding, Vim Style",
+      "stars": 6885,
+      "forks": 461,
+      "primaryLanguage": "Lua",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2023-12-27T17:32:51Z",
+      "pushedAt": "2026-10-03T21:43:30Z",
+      "homepageUrl": "https://codecompanion.olimorris.dev",
+      "archived": false,
+      "owner": {
+        "login": "olimorris",
+        "name": "Oli",
+        "type": "User",
+        "url": "https://github.com/olimorris",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9512444?u=95866afb0ad92a14fff44da12bd3b1cc8c173962&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 70,
+      "name": ".NET-Backend-Developer-Roadmap",
+      "nameWithOwner": "Elfocrash/.NET-Backend-Developer-Roadmap",
+      "url": "https://github.com/Elfocrash/.NET-Backend-Developer-Roadmap",
+      "description": "Roadmap for a .NET Backend Developer working with Microservices",
+      "stars": 6873,
+      "forks": 561,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2022-01-12T23:55:51Z",
+      "pushedAt": "2023-06-22T07:36:46Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Elfocrash",
+        "name": "Nick Chapsas",
+        "type": "User",
+        "url": "https://github.com/Elfocrash",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8199968?u=20d208e09ca3b7eda9a5e7678fe96a9d7f5ec114&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 71,
+      "name": "turbo-fieldfare",
+      "nameWithOwner": "drumih/turbo-fieldfare",
+      "url": "https://github.com/drumih/turbo-fieldfare",
+      "description": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook",
+      "stars": 6859,
+      "forks": 436,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2026-07-17T15:57:54Z",
+      "pushedAt": "2026-09-27T08:41:44Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "drumih",
+        "name": "Andrey Mikhaylov",
+        "type": "User",
+        "url": "https://github.com/drumih",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8088294?u=4430fa0dd63dba273a77bb87061eca00287a0a54&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 72,
+      "name": "android-showcase",
+      "nameWithOwner": "igorwojda/android-showcase",
+      "url": "https://github.com/igorwojda/android-showcase",
+      "description": "💎 Android application following best practices:  Kotlin, Coroutines, JetPack, Clean Architecture, Feature Modules, Tests, MVVM, DI, Static Analysis...",
+      "stars": 6805,
+      "forks": 909,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-11-20T22:45:04Z",
+      "pushedAt": "2026-09-30T10:26:33Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "igorwojda",
+        "name": "Igor Wojda",
+        "type": "User",
+        "url": "https://github.com/igorwojda",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/530122?u=1c407c8d4d5eb2e2552329c46b3871ee0ab411d6&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 73,
+      "name": "jwt_tool",
+      "nameWithOwner": "ticarpi/jwt_tool",
+      "url": "https://github.com/ticarpi/jwt_tool",
+      "description": ":snake: A toolkit for testing, tweaking and cracking JSON Web Tokens",
+      "stars": 6773,
+      "forks": 822,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2017-01-23T21:13:50Z",
+      "pushedAt": "2025-05-01T11:57:50Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ticarpi",
+        "name": "ticarpi",
+        "type": "User",
+        "url": "https://github.com/ticarpi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19988419?v=4",
+        "location": "UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 74,
+      "name": "tivi",
+      "nameWithOwner": "chrisbanes/tivi",
+      "url": "https://github.com/chrisbanes/tivi",
+      "description": "Tivi is a TV show tracking Android app, which connects to trakt.tv",
+      "stars": 6718,
+      "forks": 893,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2017-08-17T16:35:58Z",
+      "pushedAt": "2024-11-12T18:56:00Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "chrisbanes",
+        "name": "Chris Banes",
+        "type": "User",
+        "url": "https://github.com/chrisbanes",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/227486?u=3c4456ae378b94b193fe12061c9cc4ac0c01ae5b&v=4",
+        "location": "Bath, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 75,
+      "name": "flagsmith",
+      "nameWithOwner": "Flagsmith/flagsmith",
+      "url": "https://github.com/Flagsmith/flagsmith",
+      "description": "Flagsmith is an open-source feature flag platform with remote config, experimentation, and self-hosted or cloud deployment options.",
+      "stars": 6585,
+      "forks": 579,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2018-06-05T10:49:57Z",
+      "pushedAt": "2026-10-03T17:27:41Z",
+      "homepageUrl": "https://www.flagsmith.com",
+      "archived": false,
+      "owner": {
+        "login": "Flagsmith",
+        "name": "Flagsmith",
+        "type": "Organization",
+        "url": "https://github.com/Flagsmith",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58150233?v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 76,
+      "name": "instagram-private-api",
+      "nameWithOwner": "dilame/instagram-private-api",
+      "url": "https://github.com/dilame/instagram-private-api",
+      "description": "NodeJS Instagram private API SDK. Written in TypeScript.",
+      "stars": 6481,
+      "forks": 1190,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-06-09T12:14:48Z",
+      "pushedAt": "2024-08-09T15:15:55Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "dilame",
+        "name": "Dmitry",
+        "type": "User",
+        "url": "https://github.com/dilame",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9336742?u=f039a5e94952a5594a58ba130fd525b94c78705c&v=4",
+        "location": "Россия, Москва",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "россия"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 77,
+      "name": "preline",
+      "nameWithOwner": "htmlstreamofficial/preline",
+      "url": "https://github.com/htmlstreamofficial/preline",
+      "description": "Preline UI is an open-source set of prebuilt UI components based on the utility-first Tailwind CSS framework.",
+      "stars": 6465,
+      "forks": 414,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2022-05-15T15:29:39Z",
+      "pushedAt": "2026-08-31T01:53:38Z",
+      "homepageUrl": "https://preline.co",
+      "archived": false,
+      "owner": {
+        "login": "htmlstreamofficial",
+        "name": "Html Stream",
+        "type": "Organization",
+        "url": "https://github.com/htmlstreamofficial",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38157020?v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 78,
+      "name": "simplebar",
+      "nameWithOwner": "Grsmto/simplebar",
+      "url": "https://github.com/Grsmto/simplebar",
+      "description": "Custom scrollbars vanilla javascript library with native scroll, done simple, lightweight, easy to use and cross-browser.",
+      "stars": 6416,
+      "forks": 526,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-05-29T20:39:40Z",
+      "pushedAt": "2025-11-09T20:14:28Z",
+      "homepageUrl": "http://grsmto.github.io/simplebar/",
+      "archived": false,
+      "owner": {
+        "login": "Grsmto",
+        "name": "Adrien Denat",
+        "type": "User",
+        "url": "https://github.com/Grsmto",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/527559?u=fb1e53329b5ac268f52049b743cc4e0392746710&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 79,
+      "name": "HackingWithSwift",
+      "nameWithOwner": "twostraws/HackingWithSwift",
+      "url": "https://github.com/twostraws/HackingWithSwift",
+      "description": "The project source code for Hacking with iOS.",
+      "stars": 6391,
+      "forks": 3228,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "The Unlicense",
+        "spdxId": "Unlicense"
+      },
+      "createdAt": "2015-04-03T09:04:25Z",
+      "pushedAt": "2025-06-22T13:03:12Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "twostraws",
+        "name": "Paul Hudson",
+        "type": "User",
+        "url": "https://github.com/twostraws",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/190200?u=c394311c13273de9e59d56c3eb82d55e71d4081d&v=4",
+        "location": "Bath, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 80,
+      "name": "jsonschema2pojo",
+      "nameWithOwner": "joelittlejohn/jsonschema2pojo",
+      "url": "https://github.com/joelittlejohn/jsonschema2pojo",
+      "description": "Generate Java types from JSON or JSON Schema and annotate those types for data-binding with Jackson, Gson, etc",
+      "stars": 6380,
+      "forks": 1673,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2013-06-22T22:28:53Z",
+      "pushedAt": "2026-05-02T01:04:21Z",
+      "homepageUrl": "http://www.jsonschema2pojo.org",
+      "archived": false,
+      "owner": {
+        "login": "joelittlejohn",
+        "name": "Joe Littlejohn",
+        "type": "User",
+        "url": "https://github.com/joelittlejohn",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/686384?u=f98aea7ba86121be72d848a59ad116f496c7a6d9&v=4",
+        "location": "Bristol, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 81,
+      "name": "mammoth.js",
+      "nameWithOwner": "mwilliamson/mammoth.js",
+      "url": "https://github.com/mwilliamson/mammoth.js",
+      "description": "Convert Word documents (.docx files) to HTML",
+      "stars": 6316,
+      "forks": 672,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "spdxId": "BSD-2-Clause"
+      },
+      "createdAt": "2013-03-29T21:41:02Z",
+      "pushedAt": "2026-09-26T22:10:56Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "mwilliamson",
+        "name": "Michael Williamson",
+        "type": "User",
+        "url": "https://github.com/mwilliamson",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/391876?u=e10ad0b0c48196b38c9ee1dcaa984ddb724fb925&v=4",
+        "location": "Cambridge, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 82,
+      "name": "f1-race-replay",
+      "nameWithOwner": "IAmTomShaw/f1-race-replay",
+      "url": "https://github.com/IAmTomShaw/f1-race-replay",
+      "description": "An interactive Formula 1 race visualisation and data analysis tool built with Python! 🏎️",
+      "stars": 6259,
+      "forks": 829,
+      "primaryLanguage": "Python",
+      "license": null,
+      "createdAt": "2025-11-21T17:37:05Z",
+      "pushedAt": "2026-07-12T13:08:12Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "IAmTomShaw",
+        "name": "Tom Shaw",
+        "type": "User",
+        "url": "https://github.com/IAmTomShaw",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73386292?u=afda983278c3b51fcf69070f928647508711e01b&v=4",
+        "location": "Manchester, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 83,
+      "name": "lightdash",
+      "nameWithOwner": "lightdash/lightdash",
+      "url": "https://github.com/lightdash/lightdash",
+      "description": "Agentic BI. Analytics at the speed of code ⚡️",
+      "stars": 6174,
+      "forks": 790,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2021-03-19T09:44:40Z",
+      "pushedAt": "2026-10-04T09:57:52Z",
+      "homepageUrl": "https://lightdash.com",
+      "archived": false,
+      "owner": {
+        "login": "lightdash",
+        "name": "Lightdash",
+        "type": "Organization",
+        "url": "https://github.com/lightdash",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65912827?v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 84,
+      "name": "ControlRoom",
+      "nameWithOwner": "twostraws/ControlRoom",
+      "url": "https://github.com/twostraws/ControlRoom",
+      "description": "A macOS app to control the Xcode Simulator.",
+      "stars": 6103,
+      "forks": 318,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-02-12T19:01:22Z",
+      "pushedAt": "2026-04-05T01:37:16Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "twostraws",
+        "name": "Paul Hudson",
+        "type": "User",
+        "url": "https://github.com/twostraws",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/190200?u=c394311c13273de9e59d56c3eb82d55e71d4081d&v=4",
+        "location": "Bath, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 85,
+      "name": "asciiflow",
+      "nameWithOwner": "lewish/asciiflow",
+      "url": "https://github.com/lewish/asciiflow",
+      "description": "ASCIIFlow",
+      "stars": 5957,
+      "forks": 424,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-01-05T00:34:30Z",
+      "pushedAt": "2026-07-13T20:05:56Z",
+      "homepageUrl": "https://asciiflow.com",
+      "archived": false,
+      "owner": {
+        "login": "lewish",
+        "name": "Lewis Hemens",
+        "type": "User",
+        "url": "https://github.com/lewish",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/912458?u=76522c8326a228d6b74a7f03687ebe1ea0134da1&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 86,
+      "name": "docx",
+      "nameWithOwner": "dolanmiu/docx",
+      "url": "https://github.com/dolanmiu/docx",
+      "description": "Easily generate and modify .docx files with JS/TS with a nice declarative API. Works for Node and on the Browser.",
+      "stars": 5938,
+      "forks": 613,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-03-26T23:43:56Z",
+      "pushedAt": "2026-10-04T01:32:00Z",
+      "homepageUrl": "https://docx.js.org/",
+      "archived": false,
+      "owner": {
+        "login": "dolanmiu",
+        "name": "Dolan",
+        "type": "User",
+        "url": "https://github.com/dolanmiu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2917613?u=a1fee2c6ac9f0b20a35134b86a54e7fd88ccd7c7&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 87,
+      "name": "angularjs-styleguide",
+      "nameWithOwner": "toddmotto/angularjs-styleguide",
+      "url": "https://github.com/toddmotto/angularjs-styleguide",
+      "description": "AngularJS styleguide for teams",
+      "stars": 5906,
+      "forks": 680,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2014-07-27T11:31:16Z",
+      "pushedAt": "2022-08-24T23:24:49Z",
+      "homepageUrl": "https://funforms.com",
+      "archived": false,
+      "owner": {
+        "login": "toddmotto",
+        "name": "Todd Motto",
+        "type": "User",
+        "url": "https://github.com/toddmotto",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1655968?u=90b103c52364743c252c446a9078aaffbe602ea3&v=4",
+        "location": "England, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 88,
+      "name": "KurrentDB",
+      "nameWithOwner": "kurrent-io/KurrentDB",
+      "url": "https://github.com/kurrent-io/KurrentDB",
+      "description": "KurrentDB is a database that's engineered for modern software applications and event-driven architectures. Its event-native design simplifies data modeling and preserves data integrity while the integrated streaming engine solves distributed messaging challenges and ensures data consistency.",
+      "stars": 5861,
+      "forks": 679,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2012-09-17T17:22:49Z",
+      "pushedAt": "2026-10-02T15:19:59Z",
+      "homepageUrl": "https://www.kurrent.io/",
+      "archived": false,
+      "owner": {
+        "login": "kurrent-io",
+        "name": "Kurrent (formerly Event Store)",
+        "type": "Organization",
+        "url": "https://github.com/kurrent-io",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1628864?v=4",
+        "location": "UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 89,
+      "name": "how2",
+      "nameWithOwner": "santinic/how2",
+      "url": "https://github.com/santinic/how2",
+      "description": "AI for the Command Line",
+      "stars": 5770,
+      "forks": 151,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-02-13T14:42:16Z",
+      "pushedAt": "2023-03-15T06:25:21Z",
+      "homepageUrl": "https://how2terminal.com",
+      "archived": false,
+      "owner": {
+        "login": "santinic",
+        "name": "Claudio Santini",
+        "type": "User",
+        "url": "https://github.com/santinic",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/179558?u=c56e5ee756bb1204f8294ee4b8e1157e94e39785&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 90,
+      "name": "perfect-freehand",
+      "nameWithOwner": "steveruizok/perfect-freehand",
+      "url": "https://github.com/steveruizok/perfect-freehand",
+      "description": "Draw perfect pressure-sensitive freehand lines.",
+      "stars": 5749,
+      "forks": 212,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-02-19T22:59:03Z",
+      "pushedAt": "2026-04-13T04:44:47Z",
+      "homepageUrl": "https://perfectfreehand.com",
+      "archived": false,
+      "owner": {
+        "login": "steveruizok",
+        "name": "Steve Ruiz",
+        "type": "User",
+        "url": "https://github.com/steveruizok",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23072548?u=a7d4c7068c956a3a08f48b056f56d722689af935&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 91,
+      "name": "asi-http-request",
+      "nameWithOwner": "pokeb/asi-http-request",
+      "url": "https://github.com/pokeb/asi-http-request",
+      "description": "Easy to use CFNetwork wrapper for HTTP requests, Objective-C,  Mac OS X and iPhone",
+      "stars": 5718,
+      "forks": 1382,
+      "primaryLanguage": "Objective-C",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2008-07-14T21:43:50Z",
+      "pushedAt": "2019-01-15T18:31:03Z",
+      "homepageUrl": "http://allseeing-i.com/ASIHTTPRequest",
+      "archived": false,
+      "owner": {
+        "login": "pokeb",
+        "name": "Ben Copsey",
+        "type": "User",
+        "url": "https://github.com/pokeb",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8152?v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 92,
+      "name": "pytorch-seq2seq",
+      "nameWithOwner": "bentrevett/pytorch-seq2seq",
+      "url": "https://github.com/bentrevett/pytorch-seq2seq",
+      "description": "Tutorials on implementing a few sequence-to-sequence (seq2seq) models with PyTorch and TorchText.",
+      "stars": 5710,
+      "forks": 1351,
+      "primaryLanguage": "Jupyter Notebook",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-07-17T12:26:59Z",
+      "pushedAt": "2024-01-20T16:51:04Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "bentrevett",
+        "name": "Ben Trevett",
+        "type": "User",
+        "url": "https://github.com/bentrevett",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8006479?u=66716772e744ebc680280df1c2bd595c3921deb7&v=4",
+        "location": "UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 93,
+      "name": "flashtext",
+      "nameWithOwner": "vi3k6i5/flashtext",
+      "url": "https://github.com/vi3k6i5/flashtext",
+      "description": "Extract Keywords from sentence or Replace keywords in sentences.",
+      "stars": 5705,
+      "forks": 595,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-08-15T18:03:01Z",
+      "pushedAt": "2025-04-13T22:35:59Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "vi3k6i5",
+        "name": "Vikash Singh",
+        "type": "User",
+        "url": "https://github.com/vi3k6i5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3116482?u=719ffe5e251e373b80b9e248fea7b65e22ae1291&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 94,
+      "name": "cabot",
+      "nameWithOwner": "arachnys/cabot",
+      "url": "https://github.com/arachnys/cabot",
+      "description": "Self-hosted, easily-deployable monitoring and alerts service - like a lightweight PagerDuty",
+      "stars": 5679,
+      "forks": 582,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-01-06T17:48:59Z",
+      "pushedAt": "2023-09-10T09:23:26Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "arachnys",
+        "name": "Arachnys",
+        "type": "Organization",
+        "url": "https://github.com/arachnys",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1513699?v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 95,
+      "name": "documentation",
+      "nameWithOwner": "raspberrypi/documentation",
+      "url": "https://github.com/raspberrypi/documentation",
+      "description": "The official documentation for Raspberry Pi computers and microcontrollers",
+      "stars": 5613,
+      "forks": 2067,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Creative Commons Attribution Share Alike 4.0 International",
+        "spdxId": "CC-BY-SA-4.0"
+      },
+      "createdAt": "2014-02-06T11:18:08Z",
+      "pushedAt": "2026-10-02T14:25:01Z",
+      "homepageUrl": "https://raspberrypi.com/documentation",
+      "archived": false,
+      "owner": {
+        "login": "raspberrypi",
+        "name": "Raspberry Pi",
+        "type": "Organization",
+        "url": "https://github.com/raspberrypi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1294177?v=4",
+        "location": "Cambridge, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 96,
+      "name": "firmware",
+      "nameWithOwner": "raspberrypi/firmware",
+      "url": "https://github.com/raspberrypi/firmware",
+      "description": "This repository contains pre-compiled binaries of the current Raspberry Pi  kernel and modules, userspace libraries, and bootloader/GPU firmware.",
+      "stars": 5584,
+      "forks": 1691,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2012-02-27T23:06:53Z",
+      "pushedAt": "2026-09-29T17:34:59Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "raspberrypi",
+        "name": "Raspberry Pi",
+        "type": "Organization",
+        "url": "https://github.com/raspberrypi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1294177?v=4",
+        "location": "Cambridge, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 97,
+      "name": "LLM-Engineers-Handbook",
+      "nameWithOwner": "PacktPublishing/LLM-Engineers-Handbook",
+      "url": "https://github.com/PacktPublishing/LLM-Engineers-Handbook",
+      "description": "The LLM's practical guide: From the fundamentals to deploying advanced LLM and RAG apps to AWS using LLMOps best practices",
+      "stars": 5362,
+      "forks": 1314,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2024-04-09T10:56:03Z",
+      "pushedAt": "2026-04-22T08:25:03Z",
+      "homepageUrl": "https://www.amazon.com/LLM-Engineers-Handbook-engineering-production/dp/1836200072/",
+      "archived": false,
+      "owner": {
+        "login": "PacktPublishing",
+        "name": "Packt",
+        "type": "Organization",
+        "url": "https://github.com/PacktPublishing",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10974906?v=4",
+        "location": "Birmingham, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 98,
+      "name": "canvas-sketch",
+      "nameWithOwner": "mattdesl/canvas-sketch",
+      "url": "https://github.com/mattdesl/canvas-sketch",
+      "description": "[beta] A framework for making generative artwork in JavaScript and the browser.",
+      "stars": 5287,
+      "forks": 404,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-06-14T06:01:46Z",
+      "pushedAt": "2026-06-02T16:26:31Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "mattdesl",
+        "name": "Matt DesLauriers",
+        "type": "User",
+        "url": "https://github.com/mattdesl",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1383811?u=b19282767c457635117f335916f8099f30ed88cd&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 99,
+      "name": "rallly",
+      "nameWithOwner": "lukevella/rallly",
+      "url": "https://github.com/lukevella/rallly",
+      "description": "Rallly is an open-source scheduling and collaboration tool designed to make organizing events and meetings easier.",
+      "stars": 5284,
+      "forks": 557,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2015-01-27T17:01:38Z",
+      "pushedAt": "2026-10-04T10:26:36Z",
+      "homepageUrl": "https://rallly.co",
+      "archived": false,
+      "owner": {
+        "login": "lukevella",
+        "name": "Luke Vella",
+        "type": "User",
+        "url": "https://github.com/lukevella",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/676849?u=d76d8b9e567c334d38028c779313ebcab28caa83&v=4",
+        "location": "London, UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 100,
+      "name": "porffor",
+      "nameWithOwner": "CanadaHonk/porffor",
+      "url": "https://github.com/CanadaHonk/porffor",
+      "description": "An ahead-of-time JavaScript compiler",
+      "stars": 5276,
+      "forks": 137,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-06-25T03:22:18Z",
+      "pushedAt": "2026-10-02T21:58:13Z",
+      "homepageUrl": "https://porffor.dev",
+      "archived": false,
+      "owner": {
+        "login": "CanadaHonk",
+        "name": "Oliver Medhurst",
+        "type": "User",
+        "url": "https://github.com/CanadaHonk",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19228318?u=eea29901f58d6357f0fc2992747d0b4b80d23c8e&v=4",
+        "location": "UK",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "RU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "uk"
+        },
+        "discoveryTerms": []
+      }
+    }
+  ]
+}

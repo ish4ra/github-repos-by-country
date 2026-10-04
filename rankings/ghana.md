@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **4,174**
 
 ### High-star verified preview
 
@@ -54,5 +54,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [sullo/nikto](https://github.com/sullo/nikto) | **10,752** | Richmond, VA, USA |
 | [dgkanatsios/CKAD-exercises](https://github.com/dgkanatsios/CKAD-exercises) | **10,154** | WA, USA |
 | [jwyang/faster-rcnn.pytorch](https://github.com/jwyang/faster-rcnn.pytorch) | **7,860** | WA |
+| [skyzh/tiny-llm](https://github.com/skyzh/tiny-llm) | **4,751** | Bellevue, WA, USA ⇌ Shanghai, China |
+| [async-labs/saas](https://github.com/async-labs/saas) | **4,517** | WA |
+| [skyzh/mini-lsm](https://github.com/skyzh/mini-lsm) | **4,174** | Bellevue, WA, USA ⇌ Shanghai, China |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **4,174**
 
 ### High-star verified preview
 
@@ -52,5 +52,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) | **23,534** | Diest, Belgium |
+| [JanDeDobbeleer/oh-my-posh2](https://github.com/JanDeDobbeleer/oh-my-posh2) | **5,213** | Diest, Belgium |
+| [phpro/grumphp](https://github.com/phpro/grumphp) | **4,316** | Kontich, Belgium |
+| [jarnedemeulemeester/findroid](https://github.com/jarnedemeulemeester/findroid) | **4,271** | Harelbeke, Belgium |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

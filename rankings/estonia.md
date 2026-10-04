@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **7**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **4,174**
 
 ### High-star verified preview
 
@@ -58,5 +58,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [joe-bell/cva](https://github.com/joe-bell/cva) | **6,904** | Tallinn, Estonia |
 | [iconify/iconify](https://github.com/iconify/iconify) | **6,354** | Estonia |
 | [Wolg/awesome-swift](https://github.com/Wolg/awesome-swift) | **5,893** | Tallinn |
+| [surveyjs/survey-library](https://github.com/surveyjs/survey-library) | **4,887** | Estonia |
+| [s4kibs4mi/java-developer-roadmap](https://github.com/s4kibs4mi/java-developer-roadmap) | **4,548** | Tallinn, Estonia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

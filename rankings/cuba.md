@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 202**
 - Progress: **0%**
 - Retained high-potential owner candidates: **335**
-- Search requests completed: **9**
+- Search requests completed: **4**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [GamerHack/GamerHack.github.io](https://github.com/GamerHack/GamerHack.github.io) | **219** | Cuba |
+| [GamerHack/GamerHack.github.io](https://github.com/GamerHack/GamerHack.github.io) | **220** | Cuba |
 | [apiad/auditorium](https://github.com/apiad/auditorium) | **87** | Cuba |
 | [matcom/programming](https://github.com/matcom/programming) | **85** | La Habana, Cuba |
 | [pavelmc/Si5351mcu](https://github.com/pavelmc/Si5351mcu) | **71** | Camaguey, Cuba |

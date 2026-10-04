@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **7**
+- Current global star frontier: **4,174**
 
 ### High-star verified preview
 
@@ -55,5 +55,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [olivernn/lunr.js](https://github.com/olivernn/lunr.js) | **9,202** | Cape Town |
 | [limbopro/Paolujichang](https://github.com/limbopro/Paolujichang) | **7,343** | South Africa |
 | [rizonesoft/Notepad3](https://github.com/rizonesoft/Notepad3) | **6,684** | South Africa |
+| [mitchellkrogza/nginx-ultimate-bad-bot-blocker](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker) | **4,800** | South Africa |
+| [FilledStacks/flutter-tutorials](https://github.com/FilledStacks/flutter-tutorials) | **4,776** | South Africa |
+| [limbopro/Adblock4limbo](https://github.com/limbopro/Adblock4limbo) | **4,522** | South Africa |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

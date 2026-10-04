@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **21**
+- Current global star frontier: **4,174**
 
 ### High-star verified preview
 
@@ -65,5 +65,11 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [denysdovhan/bash-handbook](https://github.com/denysdovhan/bash-handbook) | **6,079** | Kyiv, Ukraine |
 | [Mak5er/AirCard](https://github.com/Mak5er/AirCard) | **5,975** | Lviv, Ukraine |
 | [Yalantis/Koloda](https://github.com/Yalantis/Koloda) | **5,388** | Ukraine, Dnipro |
+| [leits/MeetingBar](https://github.com/leits/MeetingBar) | **5,361** | Lviv, Ukraine |
+| [Yalantis/Side-Menu.Android](https://github.com/Yalantis/Side-Menu.Android) | **5,203** | Ukraine, Dnipro |
+| [Tyrrrz/CliWrap](https://github.com/Tyrrrz/CliWrap) | **5,001** | Kyiv, Ukraine |
+| [foobnix/LibreraReader](https://github.com/foobnix/LibreraReader) | **4,871** | Ukraine, Kyiv |
+| [tucnak/telebot](https://github.com/tucnak/telebot) | **4,635** | Kyiv |
+| [romandanylyk/PageIndicatorView](https://github.com/romandanylyk/PageIndicatorView) | **4,618** | Lviv, Ukraine |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

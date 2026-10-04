@@ -21,7 +21,7 @@
 
 ## Browse by country
 
-**250 indexed · 6 live · 249 building · 0 queued**
+**250 indexed · 9 live · 249 building · 0 queued**
 
 > 🟢 **Live** = published ranking · 🟡 **Building** = crawl in progress · ⚪ **Queued** = waiting for its first crawl
 
@@ -303,7 +303,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
       <td width="25%">🟡 <a href="./rankings/republic-of-the-congo.md"><strong>🇨🇬 Republic of the Congo</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/reunion.md"><strong>🇷🇪 Réunion</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/romania.md"><strong>🇷🇴 Romania</strong></a></td>
-      <td width="25%">🟡 <a href="./rankings/russia.md"><strong>🇷🇺 Russia</strong></a></td>
+      <td width="25%">🟢 <a href="./rankings/russia.md"><strong>🇷🇺 Russia</strong></a></td>
     </tr>
     <tr>
       <td width="25%">🟡 <a href="./rankings/rwanda.md"><strong>🇷🇼 Rwanda</strong></a></td>
@@ -319,7 +319,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
     </tr>
     <tr>
       <td width="25%">🟡 <a href="./rankings/sierra-leone.md"><strong>🇸🇱 Sierra Leone</strong></a></td>
-      <td width="25%">🟡 <a href="./rankings/singapore.md"><strong>🇸🇬 Singapore</strong></a></td>
+      <td width="25%">🟢 <a href="./rankings/singapore.md"><strong>🇸🇬 Singapore</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/sint-maarten.md"><strong>🇸🇽 Sint Maarten</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/slovakia.md"><strong>🇸🇰 Slovakia</strong></a></td>
     </tr>
@@ -385,7 +385,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
     </tr>
     <tr>
       <td width="25%">🟡 <a href="./rankings/united-arab-emirates.md"><strong>🇦🇪 United Arab Emirates</strong></a></td>
-      <td width="25%">🟡 <a href="./rankings/united-kingdom.md"><strong>🇬🇧 United Kingdom</strong></a></td>
+      <td width="25%">🟢 <a href="./rankings/united-kingdom.md"><strong>🇬🇧 United Kingdom</strong></a></td>
       <td width="25%">🟢 <a href="./rankings/united-states.md"><strong>🇺🇸 United States</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/uruguay.md"><strong>🇺🇾 Uruguay</strong></a></td>
     </tr>

@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Kaaveh/ComposeNews](https://github.com/Kaaveh/ComposeNews) | **378** | Yerevan, Armenia |
 | [EngineerSpock/postgres-course-ru](https://github.com/EngineerSpock/postgres-course-ru) | **239** | Armenia, Yerevan |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **4,174**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [suren-atoyan/monaco-react](https://github.com/suren-atoyan/monaco-react) | **4,749** | Yerevan, Armenia |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

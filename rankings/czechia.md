@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **17**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **22**
+- Current global star frontier: **4,174**
 
 ### High-star verified preview
 
@@ -68,5 +68,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [WeblateOrg/weblate](https://github.com/WeblateOrg/weblate) | **6,104** | Czech Republic |
 | [jindrapetrik/jpexs-decompiler](https://github.com/jindrapetrik/jpexs-decompiler) | **5,906** | Czech Republic |
 | [fikovnik/ShiftIt](https://github.com/fikovnik/ShiftIt) | **5,541** | Czech Republic |
+| [mosra/magnum](https://github.com/mosra/magnum) | **5,217** | Prague, Czech Republic |
+| [jankotek/mapdb](https://github.com/jankotek/mapdb) | **5,051** | Prague, Czech Republic |
+| [Chlumsky/msdfgen](https://github.com/Chlumsky/msdfgen) | **4,945** | Czech Republic |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

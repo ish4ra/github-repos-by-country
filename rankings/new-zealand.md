@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **18**
+- Current global star frontier: **4,174**
 
 ### High-star verified preview
 
@@ -65,5 +65,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [urbanadventurer/WhatWeb](https://github.com/urbanadventurer/WhatWeb) | **6,871** | New Zealand |
 | [VeNoMouS/cloudscraper](https://github.com/VeNoMouS/cloudscraper) | **6,778** | New Zealand |
 | [executeautomation/mcp-playwright](https://github.com/executeautomation/mcp-playwright) | **5,661** | Auckland, NZ |
+| [brentvollebregt/auto-py-to-exe](https://github.com/brentvollebregt/auto-py-to-exe) | **4,990** | Wellington, New Zealand |
+| [urbanadventurer/Android-PIN-Bruteforce](https://github.com/urbanadventurer/Android-PIN-Bruteforce) | **4,835** | New Zealand |
+| [ChenYilong/iOS9AdaptationTips](https://github.com/ChenYilong/iOS9AdaptationTips) | **4,437** | Auckland, New Zealand |
+| [ketoo/NoahGameFrame](https://github.com/ketoo/NoahGameFrame) | **4,155** | Auckland |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **14**
+- Current global star frontier: **4,174**
 
 ### High-star verified preview
 
@@ -60,5 +60,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [antirez/smallchat](https://github.com/antirez/smallchat) | **7,491** | Catania, Sicily, Italy |
 | [alexcasalboni/aws-lambda-power-tuning](https://github.com/alexcasalboni/aws-lambda-power-tuning) | **6,069** | Bologna, Italy |
 | [antirez/sds](https://github.com/antirez/sds) | **5,574** | Catania, Sicily, Italy |
+| [corna/me_cleaner](https://github.com/corna/me_cleaner) | **5,050** | Bergamo, Italy |
+| [Ocramius/ProxyManager](https://github.com/Ocramius/ProxyManager) | **4,942** | Perugia, Italy |
+| [gabrielemariotti/cardslib](https://github.com/gabrielemariotti/cardslib) | **4,606** | Ancona, Italy |
+| [andreafrancia/trash-cli](https://github.com/andreafrancia/trash-cli) | **4,597** | Milano |
+| [antirez/linenoise](https://github.com/antirez/linenoise) | **4,364** | Catania, Sicily, Italy |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
