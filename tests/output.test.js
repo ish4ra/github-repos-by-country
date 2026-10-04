@@ -178,3 +178,27 @@ test('root README distinguishes live and building countries', async () => {
   assert.match(markdown, /🟡/);
   assert.match(markdown, /1 live · 1 building · 0 queued/);
 });
+
+
+test('country page prefers independent repository-first candidates when available', () => {
+  const markdown = renderCountryProgressPage(
+    { code: 'US', name: 'United States', slug: 'united-states', flag: '🇺🇸' },
+    null,
+    {
+      country: { code: 'US' },
+      scanFrontierStars: 200000,
+      repositories: [{
+        nameWithOwner: 'torvalds/linux',
+        url: 'https://github.com/torvalds/linux',
+        stars: 250000,
+        forks: 66000,
+        owner: { location: 'Portland, OR' },
+      }],
+    },
+  );
+
+  assert.match(markdown, /Repository-first scan/);
+  assert.match(markdown, /torvalds\/linux/);
+  assert.match(markdown, /Portland, OR/);
+  assert.match(markdown, /not.*final|becomes final/i);
+});

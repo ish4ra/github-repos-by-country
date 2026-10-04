@@ -25,17 +25,24 @@ export async function writeRankingsIndex() {
   const root = projectRoot();
   const dataDir = path.join(root, 'data');
   const stateDir = path.join(root, 'state', 'discovery');
+  const repositoryCandidateDir = path.join(root, 'state', 'repository-candidates');
   const rankingDir = path.join(root, 'rankings');
   await mkdir(rankingDir, { recursive: true });
 
-  const [summaries, progress] = await Promise.all([
+  const [summaries, progress, repositoryProgress] = await Promise.all([
     readRankingSummaries(dataDir),
     readDiscoveryStates(stateDir),
+    readRepositoryCandidateStates(repositoryCandidateDir),
   ]);
 
   const summaryByCode = new Map(summaries.map((summary) => [summary.country.code, summary]));
   const progressByCode = new Map(
     progress
+      .filter((state) => state?.country?.code)
+      .map((state) => [state.country.code, state]),
+  );
+  const repositoryProgressByCode = new Map(
+    repositoryProgress
       .filter((state) => state?.country?.code)
       .map((state) => [state.country.code, state]),
   );
@@ -46,7 +53,11 @@ export async function writeRankingsIndex() {
       .map((country) =>
         writeFile(
           path.join(rankingDir, `${country.slug}.md`),
-          renderCountryProgressPage(country, progressByCode.get(country.code)),
+          renderCountryProgressPage(
+            country,
+            progressByCode.get(country.code),
+            repositoryProgressByCode.get(country.code),
+          ),
           'utf8',
         ),
       ),
@@ -58,12 +69,12 @@ export async function writeRankingsIndex() {
   await Promise.all([
     writeFile(
       indexPath,
-      renderRankingsIndex(summaries, COUNTRIES, progress),
+      renderRankingsIndex(summaries, COUNTRIES, progress, repositoryProgress),
       'utf8',
     ),
     writeFile(
       rootReadmePath,
-      renderRootReadme(summaries, COUNTRIES, progress),
+      renderRootReadme(summaries, COUNTRIES, progress, repositoryProgress),
       'utf8',
     ),
   ]);
@@ -71,7 +82,12 @@ export async function writeRankingsIndex() {
   return indexPath;
 }
 
-export function renderRootReadme(summaries, countries = COUNTRIES, progressStates = []) {
+export function renderRootReadme(
+  summaries,
+  countries = COUNTRIES,
+  progressStates = [],
+  repositoryProgressStates = [],
+) {
   const summaryByCode = new Map(summaries.map((summary) => [summary.country.code, summary]));
   const progressByCode = new Map(
     progressStates
@@ -79,14 +95,23 @@ export function renderRootReadme(summaries, countries = COUNTRIES, progressState
       .map((state) => [state.country.code, state]),
   );
 
+  const repositoryProgressByCode = new Map(
+    repositoryProgressStates
+      .filter((state) => state?.country?.code)
+      .map((state) => [state.country.code, state]),
+  );
   const liveCount = summaryByCode.size;
   const buildingCount = countries.filter((country) => {
     const progress = progressByCode.get(country.code);
-    return progress && progress.phase !== 'complete';
+    return (
+      (progress && progress.phase !== 'complete') ||
+      repositoryProgressByCode.has(country.code)
+    );
   }).length;
   const queuedCount = Math.max(0, countries.length - new Set([
     ...summaryByCode.keys(),
     ...progressByCode.keys(),
+    ...repositoryProgressByCode.keys(),
   ]).size);
 
   const lines = [
@@ -130,9 +155,10 @@ export function renderRootReadme(summaries, countries = COUNTRIES, progressState
     for (const country of group) {
       const summary = summaryByCode.get(country.code);
       const progress = progressByCode.get(country.code);
+      const repositoryProgress = repositoryProgressByCode.get(country.code);
       const status = summary
         ? '🟢'
-        : progress
+        : progress || repositoryProgress
           ? '🟡'
           : '⚪';
 
@@ -275,17 +301,31 @@ export function renderMarkdown(ranking) {
   return lines.join('\n');
 }
 
-export function renderRankingsIndex(summaries, countries = COUNTRIES, progressStates = []) {
+export function renderRankingsIndex(
+  summaries,
+  countries = COUNTRIES,
+  progressStates = [],
+  repositoryProgressStates = [],
+) {
   const summaryByCode = new Map(summaries.map((summary) => [summary.country.code, summary]));
   const progressByCode = new Map(
     progressStates
       .filter((state) => state?.country?.code)
       .map((state) => [state.country.code, state]),
   );
+  const repositoryProgressByCode = new Map(
+    repositoryProgressStates
+      .filter((state) => state?.country?.code)
+      .map((state) => [state.country.code, state]),
+  );
   const liveCount = summaryByCode.size;
-  const buildingCount = [...progressByCode.values()].filter(
-    (state) => state.phase && state.phase !== 'complete',
-  ).length;
+  const buildingCodes = new Set([
+    ...[...progressByCode.values()]
+      .filter((state) => state.phase && state.phase !== 'complete')
+      .map((state) => state.country.code),
+    ...repositoryProgressByCode.keys(),
+  ]);
+  const buildingCount = buildingCodes.size;
 
   const lines = [
     '# Browse Repository Rankings',
@@ -301,14 +341,16 @@ export function renderRankingsIndex(summaries, countries = COUNTRIES, progressSt
   for (const country of countries) {
     const summary = summaryByCode.get(country.code);
     const progress = progressByCode.get(country.code);
-    const status = renderCountryStatus(summary, progress);
+    const repositoryProgress = repositoryProgressByCode.get(country.code);
+    const status = renderCountryStatus(summary, progress, repositoryProgress);
     const rankingCell = summary
       ? `[Most starred repositories](./${summary.country.slug}.md)`
       : `[Open country page](./${country.slug}.md)`;
     const repositoryCount = summary
       ? formatNumber(summary.coverage.publishedRepositories)
       : '—';
-    const lastUpdated = progress?.updatedAt || summary?.generatedAt;
+    const lastUpdated =
+      repositoryProgress?.updatedAt || progress?.updatedAt || summary?.generatedAt;
 
     lines.push(
       `| ${country.flag} **${escapeMarkdown(country.name)}** | \`${country.code}\` | ${status} | ${rankingCell} | ${repositoryCount} | ${lastUpdated ? escapeMarkdown(formatDate(lastUpdated)) : '—'} |`,
@@ -331,7 +373,7 @@ export function renderRankingsIndex(summaries, countries = COUNTRIES, progressSt
   return lines.join('\n');
 }
 
-export function renderCountryProgressPage(country, progress) {
+export function renderCountryProgressPage(country, progress, repositoryProgress = null) {
   const total = Number(progress?.geography?.termsTotal || 0);
   const done = Number(progress?.nextTermIndex || 0);
   const percent = total > 0 ? Math.min(100, Math.floor((done / total) * 100)) : 0;
@@ -340,7 +382,9 @@ export function renderCountryProgressPage(country, progress) {
     ? 'Finalizing'
     : progress
       ? `Building ${percent}%`
-      : 'Queued';
+      : repositoryProgress
+        ? 'Building via repository-first scan'
+        : 'Queued';
 
   const lines = [
     `<p align="center" aria-label="${escapeHtml(country.name)} flag" style="font-size:72px">${country.flag}</p>`,
@@ -357,14 +401,14 @@ export function renderCountryProgressPage(country, progress) {
     '',
   ];
 
-  if (!progress) {
+  if (!progress && !repositoryProgress) {
     lines.push(
       'This country is indexed and queued for the global repository crawl.',
       '',
       'The ranking is not published yet because this project does not label incomplete discovery as a finished country ranking.',
       '',
     );
-  } else {
+  } else if (progress) {
     lines.push(
       `- Geography terms processed: **${formatNumber(done)} / ${formatNumber(total)}**`,
       `- Progress: **${percent}%**`,
@@ -407,6 +451,43 @@ export function renderCountryProgressPage(country, progress) {
     }
   }
 
+  const repositoryPreview = [...(repositoryProgress?.repositories || [])]
+    .sort(
+      (a, b) =>
+        (b.stars || 0) - (a.stars || 0) ||
+        (b.forks || 0) - (a.forks || 0) ||
+        a.nameWithOwner.localeCompare(b.nameWithOwner),
+    )
+    .slice(0, 20);
+
+  if (repositoryProgress) {
+    lines.push(
+      '## Repository-first scan',
+      '',
+      `- Verified high-star candidates retained: **${formatNumber(repositoryProgress.repositories?.length || 0)}**`,
+      `- Current global star frontier: **${formatNumber(repositoryProgress.scanFrontierStars || 0)}**`,
+      '',
+    );
+  }
+
+  if (repositoryPreview.length > 0) {
+    lines.push(
+      '### High-star verified preview',
+      '',
+      '> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.',
+      '',
+      '| Repository | Stars | Owner location |',
+      '| --- | ---: | --- |',
+    );
+
+    for (const repository of repositoryPreview) {
+      lines.push(
+        `| [${escapeMarkdown(repository.nameWithOwner)}](${repository.url}) | **${formatNumber(repository.stars)}** | ${escapeMarkdown(repository.owner?.location || '—')} |`,
+      );
+    }
+    lines.push('');
+  }
+
   lines.push(
     'When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.',
     '',
@@ -415,8 +496,9 @@ export function renderCountryProgressPage(country, progress) {
   return lines.join('\n');
 }
 
-function renderCountryStatus(summary, progress) {
-  if (!progress) return summary ? '🟢 **Live**' : '⚪ Queued';
+function renderCountryStatus(summary, progress, repositoryProgress = null) {
+  if (!progress && !repositoryProgress) return summary ? '🟢 **Live**' : '⚪ Queued';
+  if (!progress && repositoryProgress) return summary ? '🟢 **Live**' : '🟡 Repository scan';
   if (progress.phase === 'complete') return summary ? '**Live**' : 'Completed';
 
   const total = Number(progress.geography?.termsTotal || 0);
@@ -448,6 +530,29 @@ async function readDiscoveryStates(stateDir) {
     }
   }
 
+  return states;
+}
+
+async function readRepositoryCandidateStates(candidateDir) {
+  let entries;
+  try {
+    entries = await readdir(candidateDir, { withFileTypes: true });
+  } catch (error) {
+    if (error?.code === 'ENOENT') return [];
+    throw error;
+  }
+
+  const states = [];
+  for (const entry of entries) {
+    if (!entry.isFile() || !/^[A-Z]{2}\.json$/.test(entry.name)) continue;
+    try {
+      const content = await readFile(path.join(candidateDir, entry.name), 'utf8');
+      const parsed = JSON.parse(content);
+      if (parsed?.country?.code) states.push(parsed);
+    } catch {
+      // Ignore damaged candidate state so one file cannot break navigation.
+    }
+  }
   return states;
 }
 

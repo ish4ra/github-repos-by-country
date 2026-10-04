@@ -1,31 +1,29 @@
-name: Advance global discovery
+name: Repository-first ranking scan
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 */6 * * *'
+    - cron: '7 * * * *'
   push:
     branches: [main]
     paths:
-      - 'scripts/discover-global-batch.js'
-      - 'src/discovery-state.js'
-      - 'src/search-shards.js'
+      - 'scripts/discover-repositories-global.js'
       - 'src/github.js'
-      - 'src/ranking.js'
-      - 'src/config.js'
-      - 'src/countries.js'
+      - 'src/global-location-resolver.js'
+      - 'src/repository-search.js'
+      - 'src/location.js'
       - 'src/output.js'
-      - '.github/workflows/global-discovery.yml'
+      - '.github/workflows/repository-first.yml'
 
 permissions:
   contents: write
 
 concurrency:
-  group: global-discovery
+  group: repository-first
   cancel-in-progress: true
 
 jobs:
-  discover:
+  scan:
     runs-on: ubuntu-24.04
     timeout-minutes: 55
     steps:
@@ -42,26 +40,24 @@ jobs:
       - name: Validate project
         run: npm run check
 
-      - name: Advance global discovery
+      - name: Advance repository-first scan
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DISCOVERY_REQUEST_LIMIT: '180'
-          DISCOVERY_PAGE_SIZE: '50'
-          COUNTRY_REQUEST_SLICE: '8'
-          DISCOVERY_RUNTIME_MINUTES: '42'
+          REPOSITORY_SCAN_REQUEST_LIMIT: '300'
+          REPOSITORY_SCAN_RUNTIME_MINUTES: '42'
+          REPOSITORY_CANDIDATE_LIMIT: '125'
           RATE_LIMIT_RESERVE: '120'
-          CANDIDATE_POOL_LIMIT: '500'
-        run: npm run discover:global
+        run: npm run discover:repositories
 
-      - name: Commit discovery progress and completed rankings
+      - name: Commit scan progress and certified rankings
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state/ data/ rankings/ README.md
+          git add state/repository-first.json state/repository-candidates/ data/ rankings/ README.md
           if git diff --cached --quiet; then
-            echo "No discovery changes to commit."
+            echo "No repository-first changes to commit."
             exit 0
           fi
-          git commit -m "data: advance global discovery"
+          git commit -m "data: advance repository-first scan"
           git pull --rebase
           git push
