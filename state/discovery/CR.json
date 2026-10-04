@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "cd934c5bcf23b26e819cf4b58a396ce7619e048740ca9495c393feeadfcba800",
+    "sha256": "4e8ec3eac1db63bae32003e007ab80345b64b36484da230bbcc0c873a8217aed",
     "termsTotal": 103
   },
   "phase": "discovery",
@@ -20,8 +20,8 @@
       {
         "query": "location:\"Costa Rica\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
         "stage": "year:2012",
-        "cursor": "Y3Vyc29yOjUw",
-        "pageNumber": 2,
+        "cursor": null,
+        "pageNumber": 1,
         "attempts": 0
       },
       {
@@ -277,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:28:47.506Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-04T12:33:57.748Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 3402
+    "reportedCount": 3403
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:28:47.506Z",
-  "updatedAt": "2026-10-03T12:00:24.732Z",
+  "startedAt": "2026-10-04T12:33:57.748Z",
+  "updatedAt": "2026-10-04T12:34:13.481Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 258,
-    "acceptedOwnerHits": 258,
+    "rawOwnerHits": 208,
+    "acceptedOwnerHits": 208,
     "rejectedOwnerHits": 0,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4701
+    "minimumRateLimitRemaining": 4841
   },
   "unresolvedShards": [],
   "candidates": [
@@ -363,7 +363,7 @@
         "nameWithOwner": "Jeffser/Alpaca",
         "url": "https://github.com/Jeffser/Alpaca",
         "description": "🦙 Local and online AI hub",
-        "stargazerCount": 1644,
+        "stargazerCount": 1645,
         "forkCount": 147,
         "isArchived": false,
         "isFork": false,
@@ -625,7 +625,7 @@
         "nameWithOwner": "jetm/mediatek-mt7927-dkms",
         "url": "https://github.com/jetm/mediatek-mt7927-dkms",
         "description": "DKMS package for MediaTek MT7927/MT6639 Filogic 380 WiFi 7 + Bluetooth on Linux",
-        "stargazerCount": 270,
+        "stargazerCount": 272,
         "forkCount": 25,
         "isArchived": false,
         "isFork": false,
@@ -1263,6 +1263,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjE0MDgwMg==",
+      "login": "thoughtpunch",
+      "name": "Dan Barrett",
+      "type": "User",
+      "location": "Costa Rica",
+      "url": "https://github.com/thoughtpunch",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/140802?u=39c2c8547f5026e13fbd02c5a3886f5cc9e23a11&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Costa Rica"
+      },
+      "discoveryTerms": [
+        "Costa Rica"
+      ],
+      "topRepository": {
+        "name": "claudetube",
+        "nameWithOwner": "thoughtpunch/claudetube",
+        "url": "https://github.com/thoughtpunch/claudetube",
+        "description": "Let Claude Code watch Youtube videos",
+        "stargazerCount": 21,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-26T22:14:32Z",
+        "pushedAt": "2026-02-05T22:10:03Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjc1MTQyNA==",
       "login": "fmontes",
       "name": "Freddy Montes",
@@ -1299,13 +1338,13 @@
       }
     },
     {
-      "id": "MDQ6VXNlcjE0MDgwMg==",
-      "login": "thoughtpunch",
-      "name": "Dan Barrett",
+      "id": "MDQ6VXNlcjYyNTY4",
+      "login": "jvillalobos",
+      "name": "Jorge Villalobos (he/him)",
       "type": "User",
-      "location": "Costa Rica",
-      "url": "https://github.com/thoughtpunch",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/140802?u=39c2c8547f5026e13fbd02c5a3886f5cc9e23a11&v=4",
+      "location": "San José, Costa Rica",
+      "url": "https://github.com/jvillalobos",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/62568?u=84733258af4adcdb31b3b6c416aa602646f51dba&v=4",
       "attribution": {
         "accepted": true,
         "countryCode": "CR",
@@ -1317,24 +1356,21 @@
         "Costa Rica"
       ],
       "topRepository": {
-        "name": "claudetube",
-        "nameWithOwner": "thoughtpunch/claudetube",
-        "url": "https://github.com/thoughtpunch/claudetube",
-        "description": "Let Claude Code watch Youtube videos",
-        "stargazerCount": 20,
-        "forkCount": 2,
+        "name": "Remote-XUL-Manager",
+        "nameWithOwner": "jvillalobos/Remote-XUL-Manager",
+        "url": "https://github.com/jvillalobos/Remote-XUL-Manager",
+        "description": "A now defunct Firefox add-on that enabled whitelisting for Remote XUL domains.",
+        "stargazerCount": 19,
+        "forkCount": 5,
         "isArchived": false,
         "isFork": false,
-        "createdAt": "2026-01-26T22:14:32Z",
-        "pushedAt": "2026-02-05T22:10:03Z",
-        "homepageUrl": null,
+        "createdAt": "2010-09-22T16:29:43Z",
+        "pushedAt": "2020-05-04T20:38:44Z",
+        "homepageUrl": "",
         "primaryLanguage": {
-          "name": "Python"
+          "name": "JavaScript"
         },
-        "licenseInfo": {
-          "name": "MIT License",
-          "spdxId": "MIT"
-        }
+        "licenseInfo": null
       }
     },
     {

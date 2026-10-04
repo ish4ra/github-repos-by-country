@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "93a5c81de25ba5b17ad570efe34255c048df0fda41e3c5e817bb5be712df79f3",
+    "sha256": "fda2e2a27068be0038464594548a8a4eb7f1c95f1d9271870fac701aba53860b",
     "termsTotal": 1287
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Croatia",
     "queue": [
+      {
+        "query": "location:\"Croatia\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
       {
         "query": "location:\"Croatia\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
         "stage": "year:2013",
@@ -270,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:28:53.383Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-04T12:34:37.206Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 1683
+    "reportedCount": 1684
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:28:53.383Z",
-  "updatedAt": "2026-10-03T12:01:03.081Z",
+  "startedAt": "2026-10-04T12:34:37.206Z",
+  "updatedAt": "2026-10-04T12:34:52.894Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 243,
-    "acceptedOwnerHits": 243,
+    "rawOwnerHits": 213,
+    "acceptedOwnerHits": 213,
     "rejectedOwnerHits": 0,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4689
+    "minimumRateLimitRemaining": 4826
   },
   "unresolvedShards": [],
   "candidates": [
@@ -317,12 +324,12 @@
         "nameWithOwner": "stamparm/maltrail",
         "url": "https://github.com/stamparm/maltrail",
         "description": "Malicious traffic detection system",
-        "stargazerCount": 8613,
+        "stargazerCount": 8615,
         "forkCount": 1267,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2014-12-04T21:33:46Z",
-        "pushedAt": "2026-10-02T20:43:22Z",
+        "pushedAt": "2026-10-03T14:49:44Z",
         "homepageUrl": "https://www.sekuripy.hr/labs/maltrail/",
         "primaryLanguage": {
           "name": "Python"
@@ -361,7 +368,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2022-12-24T20:59:11Z",
-        "pushedAt": "2026-10-03T11:44:36Z",
+        "pushedAt": "2026-10-04T12:19:52Z",
         "homepageUrl": "https://vladmandic.github.io/sdnext/",
         "primaryLanguage": {
           "name": "Python"
@@ -395,8 +402,8 @@
         "nameWithOwner": "adrianhajdin/project_3D_developer_portfolio",
         "url": "https://github.com/adrianhajdin/project_3D_developer_portfolio",
         "description": "The most impressive websites in the world use 3D graphics and animations to bring their content to life. Learn how to build your own ThreeJS 3D Developer Portfolio today!",
-        "stargazerCount": 7129,
-        "forkCount": 1686,
+        "stargazerCount": 7131,
+        "forkCount": 1685,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2023-02-28T15:07:11Z",
@@ -431,7 +438,7 @@
         "nameWithOwner": "ivpusic/react-native-image-crop-picker",
         "url": "https://github.com/ivpusic/react-native-image-crop-picker",
         "description": "iOS/Android image picker with support for camera, video, configurable compression, multiple images and cropping",
-        "stargazerCount": 6350,
+        "stargazerCount": 6351,
         "forkCount": 1611,
         "isArchived": false,
         "isFork": false,
@@ -470,8 +477,8 @@
         "nameWithOwner": "nibzard/awesome-agentic-patterns",
         "url": "https://github.com/nibzard/awesome-agentic-patterns",
         "description": "A curated catalogue of awesome agentic AI patterns",
-        "stargazerCount": 5014,
-        "forkCount": 472,
+        "stargazerCount": 5017,
+        "forkCount": 471,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-05-31T11:20:41Z",
@@ -1461,7 +1468,7 @@
         "nameWithOwner": "xan1242/NFS-XtendedInput",
         "url": "https://github.com/xan1242/NFS-XtendedInput",
         "description": "NFS (Black Box, MW & newer) - XInput Plugin",
-        "stargazerCount": 209,
+        "stargazerCount": 210,
         "forkCount": 16,
         "isArchived": false,
         "isFork": false,
