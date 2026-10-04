@@ -79,8 +79,7 @@ export function attributeLocation(location, config) {
   const explicitCountryAlias = config.countryAliases.find((alias) => containsPhrase(normalized, alias));
   const exactCountryAlias = config.exactCountryAliases.find((alias) => {
     const exact = canonicalize(alias);
-    const tokens = normalized.split(' ');
-    return normalized === exact || tokens.at(-1) === exact;
+    return normalized === exact;
   });
   const foreignRegions = explicitForeignRegions(normalized, config.code);
 

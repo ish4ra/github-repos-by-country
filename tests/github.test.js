@@ -204,3 +204,54 @@ test('discovery can include each owner\'s most-starred repository for resumable 
   assert.equal(capturedBody.variables.includeTopRepository, true);
   assert.equal(result.nodes[0].repositories.nodes[0].stargazerCount, 100);
 });
+
+
+test('repository search returns repository owner location inline', async () => {
+  let capturedBody;
+  const fetchImpl = async (_url, options) => {
+    capturedBody = JSON.parse(options.body);
+    return new Response(JSON.stringify({
+      data: {
+        search: {
+          repositoryCount: 1,
+          pageInfo: { hasNextPage: false, endCursor: null },
+          nodes: [{
+            __typename: 'Repository',
+            name: 'linux',
+            nameWithOwner: 'torvalds/linux',
+            url: 'https://github.com/torvalds/linux',
+            description: 'Linux kernel source tree',
+            stargazerCount: 250000,
+            forkCount: 66000,
+            isArchived: false,
+            isFork: false,
+            createdAt: '2011-09-04T22:48:12Z',
+            pushedAt: '2026-10-04T00:00:00Z',
+            homepageUrl: '',
+            primaryLanguage: { name: 'C' },
+            licenseInfo: null,
+            owner: {
+              __typename: 'User',
+              login: 'torvalds',
+              name: 'Linus Torvalds',
+              location: 'Portland, OR',
+              url: 'https://github.com/torvalds',
+              avatarUrl: 'https://avatars.githubusercontent.com/u/1024025?v=4',
+            },
+          }],
+        },
+        rateLimit: { cost: 1, limit: 5000, remaining: 4999, resetAt: '2026-10-04T04:00:00Z' },
+      },
+    }), { status: 200, headers: { 'content-type': 'application/json' } });
+  };
+
+  const client = new GitHubGraphQLClient({ token: 'test-token', requestDelayMs: 0, fetchImpl });
+  const result = await client.searchRepositoriesPage({
+    searchQuery: 'stars:200000..300000 fork:false sort:stars-desc',
+    first: 100,
+  });
+
+  assert.match(capturedBody.query, /type: REPOSITORY/);
+  assert.equal(result.repositoryCount, 1);
+  assert.equal(result.nodes[0].owner.location, 'Portland, OR');
+});

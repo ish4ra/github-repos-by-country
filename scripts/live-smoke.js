@@ -48,3 +48,22 @@ if (!Array.isArray(deeper.nodes) || !deeper.rateLimit) {
 console.log(
   `Live GraphQL smoke test passed: reported users=${discovery.userCount}, sampled owners=${ownerIds.length}, rate-limit remaining=${deeper.rateLimit.remaining}.`,
 );
+
+
+const repositorySearch = await client.searchRepositoriesPage({
+  searchQuery: 'stars:>=200000 fork:false sort:stars-desc',
+  first: 2,
+});
+
+if (
+  !Number.isInteger(repositorySearch.repositoryCount) ||
+  !Array.isArray(repositorySearch.nodes) ||
+  repositorySearch.nodes.length === 0 ||
+  !repositorySearch.nodes.every((repo) => repo?.owner?.login)
+) {
+  throw new Error('GitHub GraphQL repository-first smoke test returned an unexpected response shape.');
+}
+
+console.log(
+  `Repository-first smoke test passed: sampled=${repositorySearch.nodes.length}, top=${repositorySearch.nodes[0].nameWithOwner}.`,
+);

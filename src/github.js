@@ -150,6 +150,61 @@ const REPOSITORY_BATCH_QUERY = `
   }
 `;
 
+const REPOSITORY_SEARCH_QUERY = `
+  query SearchRepositories($query: String!, $first: Int!, $cursor: String) {
+    search(type: REPOSITORY, query: $query, first: $first, after: $cursor) {
+      repositoryCount
+      pageInfo {
+        hasNextPage
+        endCursor
+      }
+      nodes {
+        __typename
+        ... on Repository {
+          name
+          nameWithOwner
+          url
+          description
+          stargazerCount
+          forkCount
+          isArchived
+          isFork
+          createdAt
+          pushedAt
+          homepageUrl
+          primaryLanguage {
+            name
+          }
+          licenseInfo {
+            name
+            spdxId
+          }
+          owner {
+            __typename
+            login
+            url
+            avatarUrl
+            ... on User {
+              name
+              location
+            }
+            ... on Organization {
+              name
+              location
+            }
+          }
+        }
+      }
+    }
+    rateLimit {
+      cost
+      limit
+      remaining
+      resetAt
+    }
+  }
+`;
+
 export class GitHubGraphQLClient {
   constructor({ token, requestDelayMs = 250, fetchImpl = globalThis.fetch } = {}) {
     if (!token) {
@@ -185,6 +240,22 @@ export class GitHubGraphQLClient {
       ...payload.search,
       rateLimit: payload.rateLimit,
       searchQuery: query,
+    };
+  }
+
+  async searchRepositoriesPage({ searchQuery, first = 100, cursor = null }) {
+    if (!searchQuery) throw new Error('A repository-search query is required.');
+
+    const payload = await this.#request(REPOSITORY_SEARCH_QUERY, {
+      query: searchQuery,
+      first,
+      cursor,
+    });
+
+    return {
+      ...payload.search,
+      rateLimit: payload.rateLimit,
+      searchQuery,
     };
   }
 
