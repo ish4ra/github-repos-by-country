@@ -40,4 +40,36 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [orhun/git-cliff](https://github.com/orhun/git-cliff) | **12,283** | Berlin, Germany |
 | [horsicq/Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy) | **11,627** | Germany |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **54**
+- Current global star frontier: **15,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [n8n-io/n8n](https://github.com/n8n-io/n8n) | **206,590** | Germany |
+| [localsend/localsend](https://github.com/localsend/localsend) | **93,291** | Germany |
+| [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | **92,358** | Munich |
+| [tonsky/FiraCode](https://github.com/tonsky/FiraCode) | **82,086** | Berlin, Germany |
+| [Eugeny/tabby](https://github.com/Eugeny/tabby) | **74,794** | Düsseldorf, DE |
+| [CompVis/stable-diffusion](https://github.com/CompVis/stable-diffusion) | **73,491** | Germany |
+| [sharkdp/bat](https://github.com/sharkdp/bat) | **60,661** | Stuttgart, Germany |
+| [nlohmann/json](https://github.com/nlohmann/json) | **50,719** | Berlin, Germany |
+| [mastodon/mastodon](https://github.com/mastodon/mastodon) | **50,344** | Germany |
+| [brillout/awesome-react-components](https://github.com/brillout/awesome-react-components) | **48,547** | Germany, Munich |
+| [sharkdp/fd](https://github.com/sharkdp/fd) | **44,631** | Stuttgart, Germany |
+| [photoprism/photoprism](https://github.com/photoprism/photoprism) | **40,271** | Berlin, Germany |
+| [ueberdosis/tiptap](https://github.com/ueberdosis/tiptap) | **38,634** | Berlin, Germany |
+| [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant) | **37,387** | Germany |
+| [qdrant/qdrant](https://github.com/qdrant/qdrant) | **34,921** | Germany |
+| [explosion/spaCy](https://github.com/explosion/spaCy) | **33,935** | Berlin, Germany |
+| [AMAI-GmbH/AI-Expert-Roadmap](https://github.com/AMAI-GmbH/AI-Expert-Roadmap) | **31,281** | Karlsruhe, Germany |
+| [herrbischoff/awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line) | **30,958** | Hamburg, Germany, Earth (Sol) |
+| [oraios/serena](https://github.com/oraios/serena) | **29,967** | Germany |
+| [netbirdio/netbird](https://github.com/netbirdio/netbird) | **29,725** | Germany |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

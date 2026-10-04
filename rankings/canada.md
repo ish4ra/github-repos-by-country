@@ -40,4 +40,26 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Kulbear/deep-learning-coursera](https://github.com/Kulbear/deep-learning-coursera) | **7,729** | Edmonton, AB, Canada |
 | [nayuki/QR-Code-generator](https://github.com/nayuki/QR-Code-generator) | **6,787** | Toronto, Ontario, Canada |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **10**
+- Current global star frontier: **15,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [wesbos/JavaScript30](https://github.com/wesbos/JavaScript30) | **29,305** | Hamilton, Ontario |
+| [Devolutions/UniGetUI](https://github.com/Devolutions/UniGetUI) | **26,381** | Lavaltrie, Quebec, Canada |
+| [sirupsen/logrus](https://github.com/sirupsen/logrus) | **25,759** | Ottawa, ON |
+| [syl20bnr/spacemacs](https://github.com/syl20bnr/spacemacs) | **24,542** | Quebec City, Canada |
+| [ExistentialAudio/BlackHole](https://github.com/ExistentialAudio/BlackHole) | **19,860** | Burnaby, BC Canada |
+| [bcit-ci/CodeIgniter](https://github.com/bcit-ci/CodeIgniter) | **18,155** | Burnaby, B.C. |
+| [lowlighter/metrics](https://github.com/lowlighter/metrics) | **17,257** | 🇫🇷 / 🇨🇦 (QC) |
+| [wtfutil/wtf](https://github.com/wtfutil/wtf) | **17,112** | Vancouver, BC |
+| [NodeBB/NodeBB](https://github.com/NodeBB/NodeBB) | **15,229** | Toronto, ON |
+| [botpress/botpress](https://github.com/botpress/botpress) | **14,934** | Québec City |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

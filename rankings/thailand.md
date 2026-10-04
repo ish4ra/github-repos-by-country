@@ -40,4 +40,19 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [mightyiam/eslint-config-love](https://github.com/mightyiam/eslint-config-love) | **818** | Chiang Mai, Thailand |
 | [titipata/pubmed_parser](https://github.com/titipata/pubmed_parser) | **737** | Bangkok, Thailand |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **15,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [quantopian/zipline](https://github.com/quantopian/zipline) | **20,137** | Boston, MA, USA |
+| [elysiajs/elysia](https://github.com/elysiajs/elysia) | **19,216** | Thailand |
+| [satnaing/shadcn-admin](https://github.com/satnaing/shadcn-admin) | **15,557** | Bangkok, Thailand |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

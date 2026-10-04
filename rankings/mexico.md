@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [vic/params](https://github.com/vic/params) | **373** | Mexico City |
 | [holasoymalva/deepseek-cli](https://github.com/holasoymalva/deepseek-cli) | **319** | CDMX - Mexico. |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **15,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [sxyazi/yazi](https://github.com/sxyazi/yazi) | **42,600** | ::1 |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -40,4 +40,34 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [adi1090x/rofi](https://github.com/adi1090x/rofi) | **8,808** | India |
 | [ritwickdey/vscode-live-server](https://github.com/ritwickdey/vscode-live-server) | **6,873** | India |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **18**
+- Current global star frontier: **15,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [Hack-with-Github/Awesome-Hacking](https://github.com/Hack-with-Github/Awesome-Hacking) | **121,794** | Bangalore, India |
+| [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) | **79,825** | India, West Bengal |
+| [abhigyanpatwari/GitNexus](https://github.com/abhigyanpatwari/GitNexus) | **47,704** | Guwahati, Assam, India |
+| [juspay/hyperswitch](https://github.com/juspay/hyperswitch) | **45,274** | Bangalore, India |
+| [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects) | **38,287** | Ahmedabad |
+| [ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code) | **37,091** | Ahmedabad |
+| [kovidgoyal/kitty](https://github.com/kovidgoyal/kitty) | **35,156** | Mumbai, India |
+| [hasura/graphql-engine](https://github.com/hasura/graphql-engine) | **32,132** | San Francisco, Bangalore |
+| [kovidgoyal/calibre](https://github.com/kovidgoyal/calibre) | **26,059** | Mumbai, India |
+| [rahuldkjain/github-profile-readme-generator](https://github.com/rahuldkjain/github-profile-readme-generator) | **24,447** | Bangalore, India |
+| [knadh/listmonk](https://github.com/knadh/listmonk) | **23,685** | Bengaluru |
+| [mitesh77/Best-Flutter-UI-Templates](https://github.com/mitesh77/Best-Flutter-UI-Templates) | **22,832** | Bengaluru  |
+| [pranshuparmar/witr](https://github.com/pranshuparmar/witr) | **22,575** | Pune, India |
+| [dipakkr/A-to-Z-Resources-for-Students](https://github.com/dipakkr/A-to-Z-Resources-for-Students) | **22,314** | Bangalore, India |
+| [krishnadey30/LeetCode-Questions-CompanyWise](https://github.com/krishnadey30/LeetCode-Questions-CompanyWise) | **20,242** | Bengaluru |
+| [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) | **17,730** | Bangalore, India |
+| [The-Cool-Coders/Project-Ideas-And-Resources](https://github.com/The-Cool-Coders/Project-Ideas-And-Resources) | **16,886** | Bhubaneswar |
+| [hackiftekhar/IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager) | **16,624** | Chandametta, Madhya Pradesh, India |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -40,4 +40,20 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [arch-yunus/university-courses](https://github.com/arch-yunus/university-courses) | **112** | Türkiye |
 | [101t/jasmin-web-panel](https://github.com/101t/jasmin-web-panel) | **103** | Türkiye |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **15,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [f/prompts.chat](https://github.com/f/prompts.chat) | **171,956** | Istanbul, Turkey |
+| [saadeghi/daisyui](https://github.com/saadeghi/daisyui) | **42,529** | Istanbul |
+| [hasaneyldrm/exercises-dataset](https://github.com/hasaneyldrm/exercises-dataset) | **22,483** | Istanbul |
+| [fatih/vim-go](https://github.com/fatih/vim-go) | **16,220** | Ankara, TR |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

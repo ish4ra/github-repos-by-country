@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Trycatch-tv/30-dias-de-proyectos-en-java](https://github.com/Trycatch-tv/30-dias-de-proyectos-en-java) | **127** | Colombia |
 | [jdjuan/ng-notyf](https://github.com/jdjuan/ng-notyf) | **97** | Manizales, Colombia |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **15,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [neonbjb/tortoise-tts](https://github.com/neonbjb/tortoise-tts) | **14,877** | CO |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

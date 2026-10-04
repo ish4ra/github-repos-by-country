@@ -40,4 +40,23 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [staltz/rxmarbles](https://github.com/staltz/rxmarbles) | **4,195** | Helsinki, Finland |
 | [arielsalminen/responsive-nav.js](https://github.com/arielsalminen/responsive-nav.js) | **4,048** | Helsinki, Finland |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **7**
+- Current global star frontier: **15,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) | **94,754** | Finland |
+| [Asabeneh/30-Days-Of-Python](https://github.com/Asabeneh/30-Days-Of-Python) | **75,164** | Helsinki, Finland |
+| [Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript) | **46,874** | Helsinki, Finland |
+| [Asabeneh/30-Days-Of-React](https://github.com/Asabeneh/30-Days-Of-React) | **27,515** | Helsinki, Finland |
+| [mxgmn/WaveFunctionCollapse](https://github.com/mxgmn/WaveFunctionCollapse) | **25,377** | Helsinki |
+| [wekan/wekan](https://github.com/wekan/wekan) | **21,103** | Finland |
+| [petkaantonov/bluebird](https://github.com/petkaantonov/bluebird) | **20,472** | Helsinki, Finland |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

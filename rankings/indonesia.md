@@ -40,4 +40,18 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [reiryuki/Miui-Core-Magisk-Module](https://github.com/reiryuki/Miui-Core-Magisk-Module) | **673** | Indonesia |
 | [nauvalazhar/bootstrap-4-login-page](https://github.com/nauvalazhar/bootstrap-4-login-page) | **660** | Bogor, Indonesia |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **15,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack) | **16,853** | Kaltimantan, Indonesia |
+| [rmyndharis/OpenWA](https://github.com/rmyndharis/OpenWA) | **15,000** | Batam, Indonesia |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -40,4 +40,22 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [KrauseFx/TSMessages](https://github.com/KrauseFx/TSMessages) | **4,837** | Vienna, Austria |
 | [nefarius/ViGEmBus](https://github.com/nefarius/ViGEmBus) | **4,229** | Austria |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **15,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [earendil-works/pi](https://github.com/earendil-works/pi) | **112,187** | Austria |
+| [PhilJay/MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) | **38,183** | Austria |
+| [m1k1o/neko](https://github.com/m1k1o/neko) | **22,448** | Vienna, Austria |
+| [sandboxie-plus/Sandboxie](https://github.com/sandboxie-plus/Sandboxie) | **19,601** | Austria |
+| [enyo/dropzone](https://github.com/enyo/dropzone) | **18,399** | Vienna, Austria |
+| [janpaepke/ScrollMagic](https://github.com/janpaepke/ScrollMagic) | **14,957** | Vienna, Austria |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -40,4 +40,25 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [pwntester/ysoserial.net](https://github.com/pwntester/ysoserial.net) | **3,795** | Madrid, Spain |
 | [krakjoe/pthreads](https://github.com/krakjoe/pthreads) | **3,445** | Spain |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **15,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | **144,008** | Spain |
+| [career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops) | **73,407** | Spain |
+| [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) | **68,476** | Asturias, Spain |
+| [leonardomso/33-js-concepts](https://github.com/leonardomso/33-js-concepts) | **66,536** | Valencia, Spain |
+| [ngosang/trackerslist](https://github.com/ngosang/trackerslist) | **55,266** | Madrid, Spain |
+| [LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets) | **46,533** | Barcelona, Spain. |
+| [cfenollosa/os-tutorial](https://github.com/cfenollosa/os-tutorial) | **30,743** | Barcelona, Spain |
+| [ai/nanoid](https://github.com/ai/nanoid) | **27,009** | Barcelona, Spain |
+| [Nyr/openvpn-install](https://github.com/Nyr/openvpn-install) | **20,648** | Spain |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

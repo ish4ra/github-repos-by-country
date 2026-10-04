@@ -40,4 +40,19 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [rebane2001/xikipedia](https://github.com/rebane2001/xikipedia) | **1,137** | Estonia |
 | [martinpaljak/GlobalPlatformPro](https://github.com/martinpaljak/GlobalPlatformPro) | **946** | Estonia |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **15,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [AvaloniaUI/Avalonia](https://github.com/AvaloniaUI/Avalonia) | **31,619** | Estonia |
+| [nodemailer/nodemailer](https://github.com/nodemailer/nodemailer) | **17,684** | Tallinn, Estonia |
+| [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | **15,564** | Estonia |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

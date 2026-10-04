@@ -40,4 +40,33 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [EmbarkStudios/rust-gpu](https://github.com/EmbarkStudios/rust-gpu) | **7,562** | Stockholm, Sweden |
 | [vandadnp/flutter-tips-and-tricks](https://github.com/vandadnp/flutter-tips-and-tricks) | **6,801** | Sweden |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **17**
+- Current global star frontier: **15,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [grafana/grafana](https://github.com/grafana/grafana) | **77,055** | Sweden |
+| [hakimel/reveal.js](https://github.com/hakimel/reveal.js) | **72,377** | Sweden |
+| [veggiemonk/awesome-docker](https://github.com/veggiemonk/awesome-docker) | **36,959** | Stockholm, Sweden |
+| [aristocratos/btop](https://github.com/aristocratos/btop) | **34,851** | Sweden |
+| [eriklindernoren/ML-From-Scratch](https://github.com/eriklindernoren/ML-From-Scratch) | **32,938** | Stockholm, Sweden |
+| [grafana/k6](https://github.com/grafana/k6) | **31,771** | Sweden |
+| [emilk/egui](https://github.com/emilk/egui) | **30,823** | Stockholm, Sweden |
+| [grafana/loki](https://github.com/grafana/loki) | **28,988** | Sweden |
+| [emmabostian/developer-portfolios](https://github.com/emmabostian/developer-portfolios) | **26,949** | Stockholm, Sweden |
+| [tobiasahlin/SpinKit](https://github.com/tobiasahlin/SpinKit) | **19,325** | Sweden |
+| [C4illin/ConvertX](https://github.com/C4illin/ConvertX) | **19,091** | Gothenburg, Sweden |
+| [uNetworking/uWebSockets](https://github.com/uNetworking/uWebSockets) | **18,993** | Skåne |
+| [spotify/luigi](https://github.com/spotify/luigi) | **18,779** | Stockholm, Sweden |
+| [darius-khll/golang-developer-roadmap](https://github.com/darius-khll/golang-developer-roadmap) | **18,421** | Stockholm |
+| [eriklindernoren/PyTorch-GAN](https://github.com/eriklindernoren/PyTorch-GAN) | **17,457** | Stockholm, Sweden |
+| [OptimalBits/bull](https://github.com/OptimalBits/bull) | **16,257** | Sweden |
+| [midday-ai/midday](https://github.com/midday-ai/midday) | **15,060** | Sweden |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

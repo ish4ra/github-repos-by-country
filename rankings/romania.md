@@ -40,4 +40,22 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ionelmc/pytest-benchmark](https://github.com/ionelmc/pytest-benchmark) | **1,455** | Cluj-Napoca, Romania |
 | [NytroRST/NetRipper](https://github.com/NytroRST/NetRipper) | **1,388** | Romania |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **15,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas) | **97,928** | Romania |
+| [DavidHDev/react-bits](https://github.com/DavidHDev/react-bits) | **48,464** | Cluj-Napoca |
+| [eugenp/tutorials](https://github.com/eugenp/tutorials) | **37,328** | Bucharest, Romania |
+| [valinet/ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) | **34,018** | Bucharest, Romania |
+| [ntdevlabs/tiny11builder](https://github.com/ntdevlabs/tiny11builder) | **19,713** | Romania |
+| [kleampa/not-paid](https://github.com/kleampa/not-paid) | **15,700** | Bucharest |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

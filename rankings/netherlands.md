@@ -40,4 +40,35 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [KenneyNL/Adobe-Alternatives](https://github.com/KenneyNL/Adobe-Alternatives) | **9,575** | Netherlands |
 | [JerBouma/FinanceDatabase](https://github.com/JerBouma/FinanceDatabase) | **9,386** | Utrecht, The Netherlands |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **19**
+- Current global star frontier: **15,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | **109,562** | Netherlands |
+| [JetBrains/kotlin](https://github.com/JetBrains/kotlin) | **53,471** | Netherlands |
+| [juanfont/headscale](https://github.com/juanfont/headscale) | **44,330** | Leiden, Netherlands |
+| [faif/python-patterns](https://github.com/faif/python-patterns) | **43,033** | Netherlands |
+| [pola-rs/polars](https://github.com/pola-rs/polars) | **39,915** | Netherlands |
+| [soxoj/maigret](https://github.com/soxoj/maigret) | **38,227** | Amsterdam, Netherlands |
+| [motiondivision/motion](https://github.com/motiondivision/motion) | **33,817** | Netherlands |
+| [HarisIqbal88/PlotNeuralNet](https://github.com/HarisIqbal88/PlotNeuralNet) | **25,009** | The Hague, Netherlands |
+| [firefly-iii/firefly-iii](https://github.com/firefly-iii/firefly-iii) | **24,811** | NL |
+| [arendst/Tasmota](https://github.com/arendst/Tasmota) | **24,796** | Netherlands |
+| [hammerjs/hammer.js](https://github.com/hammerjs/hammer.js) | **24,334** | Arnhem, Netherlands |
+| [JetBrains/intellij-community](https://github.com/JetBrains/intellij-community) | **20,608** | Netherlands |
+| [MoienTajik/AspNetCore-Developer-Roadmap](https://github.com/MoienTajik/AspNetCore-Developer-Roadmap) | **19,654** | Netherlands 🇳🇱 |
+| [JetBrains/compose-multiplatform](https://github.com/JetBrains/compose-multiplatform) | **19,398** | Netherlands |
+| [fruitcake/laravel-debugbar](https://github.com/fruitcake/laravel-debugbar) | **19,290** | Netherlands |
+| [Baseflow/PhotoView](https://github.com/Baseflow/PhotoView) | **18,804** | Netherlands |
+| [dutchcoders/transfer.sh](https://github.com/dutchcoders/transfer.sh) | **15,896** | Netherlands |
+| [Koenkk/zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt) | **15,684** | The Netherlands, Helmond |
+| [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) | **14,970** | Noord-Brabant, the Netherlands |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -40,4 +40,25 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [cursoemvideo/cursoemvideo-html5](https://github.com/cursoemvideo/cursoemvideo-html5) | **2,978** | Brazil |
 | [rcaferati/react-awesome-slider](https://github.com/rcaferati/react-awesome-slider) | **2,975** | Brazil |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **15,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) | **33,512** | Boa Vista, Roraima. |
+| [NickeManarin/ScreenToGif](https://github.com/NickeManarin/ScreenToGif) | **27,737** | Porto Alegre, Rio Grande do Sul, Brazil |
+| [danielgatis/rembg](https://github.com/danielgatis/rembg) | **24,957** | Recife - PE |
+| [pedronauck/docz](https://github.com/pedronauck/docz) | **23,571** | Florianópolis |
+| [Diolinux/PhotoGIMP](https://github.com/Diolinux/PhotoGIMP) | **18,253** | Brasil |
+| [ellisonleao/magictools](https://github.com/ellisonleao/magictools) | **17,417** | Curitiba |
+| [gustavoguanabara/html-css](https://github.com/gustavoguanabara/html-css) | **16,580** | Rio de Janeiro, Brazil |
+| [arthurspk/guiadevbrasil](https://github.com/arthurspk/guiadevbrasil) | **15,795** | Alagoas, Brazil |
+| [KAYOKG/BibliotecaDev](https://github.com/KAYOKG/BibliotecaDev) | **14,991** | Belo Horizonte - MG |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -21,7 +21,7 @@
 
 ## Browse by country
 
-**250 indexed · 2 live · 249 building · 0 queued**
+**250 indexed · 4 live · 249 building · 0 queued**
 
 > 🟢 **Live** = published ranking · 🟡 **Building** = crawl in progress · ⚪ **Queued** = waiting for its first crawl
 
@@ -98,7 +98,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
     <tr>
       <td width="25%">🟡 <a href="./rankings/chad.md"><strong>🇹🇩 Chad</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/chile.md"><strong>🇨🇱 Chile</strong></a></td>
-      <td width="25%">🟡 <a href="./rankings/china.md"><strong>🇨🇳 China</strong></a></td>
+      <td width="25%">🟢 <a href="./rankings/china.md"><strong>🇨🇳 China</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/christmas-island.md"><strong>🇨🇽 Christmas Island</strong></a></td>
     </tr>
     <tr>
@@ -386,7 +386,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
     <tr>
       <td width="25%">🟡 <a href="./rankings/united-arab-emirates.md"><strong>🇦🇪 United Arab Emirates</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/united-kingdom.md"><strong>🇬🇧 United Kingdom</strong></a></td>
-      <td width="25%">🟡 <a href="./rankings/united-states.md"><strong>🇺🇸 United States</strong></a></td>
+      <td width="25%">🟢 <a href="./rankings/united-states.md"><strong>🇺🇸 United States</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/uruguay.md"><strong>🇺🇾 Uruguay</strong></a></td>
     </tr>
     <tr>

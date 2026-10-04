@@ -1,0 +1,3362 @@
+{
+  "schemaVersion": 1,
+  "methodologyVersion": "0.7.0-repository-first",
+  "generatedAt": "2026-10-04T03:18:10.173Z",
+  "country": {
+    "code": "CN",
+    "name": "China",
+    "slug": "china"
+  },
+  "source": {
+    "provider": "GitHub GraphQL API",
+    "endpoint": "https://api.github.com/graphql",
+    "countryBasis": "public repository-owner profile location",
+    "discovery": "global repositories scanned by stars descending"
+  },
+  "coverage": {
+    "status": "repository-first-certified-by-star-frontier",
+    "exhaustive": false,
+    "rawOwnerHits": 3430,
+    "acceptedUniqueOwners": 83,
+    "ownerMetricLabel": "Unique owners in top ranking",
+    "repositoriesConsidered": 125,
+    "publishedRepositories": 100,
+    "candidateThresholdStars": 22875,
+    "rankingLimit": 100,
+    "cappedQueries": [],
+    "repositoryFirst": {
+      "scanFrontierStars": 15078,
+      "topObservedStars": 551405,
+      "repositoriesSeen": 3430,
+      "attributedRepositories": 1135,
+      "ambiguousLocations": 461,
+      "unknownLocations": 1834,
+      "unresolvedStarCounts": []
+    },
+    "notes": [
+      "Repositories are scanned globally in descending star ranges, independently of owner follower count or owner-search ordering.",
+      "A country is certified only after its 100th repository has more stars than every unprocessed global star range.",
+      "Owner country is inferred from the owner public GitHub profile location using the global geography resolver.",
+      "Owners with missing or unresolved locations are excluded, so country attribution is not a citizenship or legal-incorporation claim.",
+      "Compound city/admin locations such as \"Portland, OR\" are resolved before ambiguous city-only names."
+    ]
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "CS-Notes",
+      "nameWithOwner": "CyC2018/CS-Notes",
+      "url": "https://github.com/CyC2018/CS-Notes",
+      "description": ":books: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计",
+      "stars": 186370,
+      "forks": 50717,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2018-02-13T14:56:24Z",
+      "pushedAt": "2024-08-21T09:40:10Z",
+      "homepageUrl": "http://cyc2018.xyz",
+      "archived": false,
+      "owner": {
+        "login": "CyC2018",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/CyC2018",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36260787?u=70a8c2cbcaeb2f7dbcf84c1c40eea8c87a6d9bc3&v=4",
+        "location": "Guangzhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "guangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 2,
+      "name": "HelloGitHub",
+      "nameWithOwner": "521xueweihan/HelloGitHub",
+      "url": "https://github.com/521xueweihan/HelloGitHub",
+      "description": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
+      "stars": 179932,
+      "forks": 12896,
+      "primaryLanguage": "Python",
+      "license": null,
+      "createdAt": "2016-05-04T06:24:11Z",
+      "pushedAt": "2026-09-28T00:11:38Z",
+      "homepageUrl": "https://hellogithub.com",
+      "archived": false,
+      "owner": {
+        "login": "521xueweihan",
+        "name": "削微寒",
+        "type": "User",
+        "url": "https://github.com/521xueweihan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8255800?u=2024c0f3979fd65c8aab945856eae0852f1186f6&v=4",
+        "location": "Beijing, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "beijing"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 3,
+      "name": "JavaGuide",
+      "nameWithOwner": "Snailclimb/JavaGuide",
+      "url": "https://github.com/Snailclimb/JavaGuide",
+      "description": "Java 面试 & 后端通用面试指南，覆盖计算机基础、数据库、分布式、高并发、系统设计与 AI 应用开发",
+      "stars": 159019,
+      "forks": 46142,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-05-07T13:27:00Z",
+      "pushedAt": "2026-10-03T23:36:32Z",
+      "homepageUrl": "https://javaguide.cn",
+      "archived": false,
+      "owner": {
+        "login": "Snailclimb",
+        "name": "Guide",
+        "type": "User",
+        "url": "https://github.com/Snailclimb",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29880145?u=d2f8361655b9ebd973f5375acf014500bc0a4197&v=4",
+        "location": "Wuhan, Hubei",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "wuhan hubei"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 4,
+      "name": "free-programming-books-zh_CN",
+      "nameWithOwner": "justjavac/free-programming-books-zh_CN",
+      "url": "https://github.com/justjavac/free-programming-books-zh_CN",
+      "description": ":books: 免费的计算机编程类中文书籍，欢迎投稿",
+      "stars": 119221,
+      "forks": 28259,
+      "primaryLanguage": null,
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2013-11-04T01:59:19Z",
+      "pushedAt": "2026-07-29T00:39:06Z",
+      "homepageUrl": "http://weibo.com/justjavac",
+      "archived": false,
+      "owner": {
+        "login": "justjavac",
+        "name": "迷渡",
+        "type": "User",
+        "url": "https://github.com/justjavac",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/359395?u=bb50dde6882b70d87c0b074e1d4986762cf294ad&v=4",
+        "location": "Tianjin, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "tianjin"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 5,
+      "name": "awesome-mac",
+      "nameWithOwner": "jaywcjlove/awesome-mac",
+      "url": "https://github.com/jaywcjlove/awesome-mac",
+      "description": " This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
+      "stars": 115351,
+      "forks": 9115,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdxId": "CC0-1.0"
+      },
+      "createdAt": "2016-07-17T15:33:47Z",
+      "pushedAt": "2026-10-03T17:45:41Z",
+      "homepageUrl": "https://git.io/macx",
+      "archived": false,
+      "owner": {
+        "login": "jaywcjlove",
+        "name": "小弟调调",
+        "type": "User",
+        "url": "https://github.com/jaywcjlove",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1680273?u=4471b74deb9973096418a93960c664c5ea3bd159&v=4",
+        "location": "Suzhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "suzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 6,
+      "name": "weekly",
+      "nameWithOwner": "ruanyf/weekly",
+      "url": "https://github.com/ruanyf/weekly",
+      "description": "科技爱好者周刊，每周五发布",
+      "stars": 105130,
+      "forks": 4474,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2018-10-13T12:36:07Z",
+      "pushedAt": "2026-09-19T11:38:43Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ruanyf",
+        "name": "Ruan YiFeng",
+        "type": "User",
+        "url": "https://github.com/ruanyf",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/905434?v=4",
+        "location": "Shanghai, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "shanghai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 7,
+      "name": "HowToCook",
+      "nameWithOwner": "Anduin2017/HowToCook",
+      "url": "https://github.com/Anduin2017/HowToCook",
+      "description": "Programmer's guide about how to cook at home.",
+      "stars": 102392,
+      "forks": 11100,
+      "primaryLanguage": null,
+      "license": {
+        "name": "The Unlicense",
+        "spdxId": "Unlicense"
+      },
+      "createdAt": "2020-02-29T10:43:49Z",
+      "pushedAt": "2026-09-23T03:41:08Z",
+      "homepageUrl": "https://howtocook.aiursoft.com",
+      "archived": false,
+      "owner": {
+        "login": "Anduin2017",
+        "name": "Anduin Xue",
+        "type": "User",
+        "url": "https://github.com/Anduin2017",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19531547?u=9bfa4b5f7256f64a05b280019f26a56319955cd0&v=4",
+        "location": "Hong Kong SAR",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hong kong sar"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 8,
+      "name": "ant-design",
+      "nameWithOwner": "ant-design/ant-design",
+      "url": "https://github.com/ant-design/ant-design",
+      "description": "An enterprise-class UI design language and React UI library",
+      "stars": 99668,
+      "forks": 54689,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-04-24T15:37:24Z",
+      "pushedAt": "2026-10-04T02:28:19Z",
+      "homepageUrl": "https://ant.design",
+      "archived": false,
+      "owner": {
+        "login": "ant-design",
+        "name": "Ant Design Team",
+        "type": "Organization",
+        "url": "https://github.com/ant-design",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12101536?v=4",
+        "location": "HangZhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 9,
+      "name": "vue-element-admin",
+      "nameWithOwner": "PanJiaChen/vue-element-admin",
+      "url": "https://github.com/PanJiaChen/vue-element-admin",
+      "description": ":tada: A magical vue admin                                                                https://panjiachen.github.io/vue-element-admin",
+      "stars": 90167,
+      "forks": 30279,
+      "primaryLanguage": "Vue",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-04-17T03:35:49Z",
+      "pushedAt": "2024-10-24T11:25:46Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "PanJiaChen",
+        "name": "花裤衩",
+        "type": "User",
+        "url": "https://github.com/PanJiaChen",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8121621?u=4789e0163407a88c30a80b2fda7ed87d403370ef&v=4",
+        "location": "Shanghai, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "shanghai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 10,
+      "name": "mall",
+      "nameWithOwner": "macrozheng/mall",
+      "url": "https://github.com/macrozheng/mall",
+      "description": "mall项目是一套电商系统，包括前台商城系统及后台管理系统，基于Spring Boot+MyBatis实现，采用Docker容器化部署。 前台商城系统包含首页门户、商品推荐、商品搜索、商品展示、购物车、订单流程、会员中心、客户服务、帮助中心等模块。 后台管理系统包含商品管理、订单管理、会员管理、促销管理、运营管理、内容管理、统计报表、财务管理、权限管理、设置等模块。",
+      "stars": 84855,
+      "forks": 29835,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-04-04T01:11:44Z",
+      "pushedAt": "2026-09-15T02:34:44Z",
+      "homepageUrl": "https://www.macrozheng.com/admin/",
+      "archived": false,
+      "owner": {
+        "login": "macrozheng",
+        "name": "macro",
+        "type": "User",
+        "url": "https://github.com/macrozheng",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15903809?u=c76ae8e89e30a5aeeaf667fbcb749efa73fa28b3&v=4",
+        "location": "Wuxi,China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "wuxi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 11,
+      "name": "LeetCodeAnimation",
+      "nameWithOwner": "MisterBooo/LeetCodeAnimation",
+      "url": "https://github.com/MisterBooo/LeetCodeAnimation",
+      "description": "Demonstrate all the questions on LeetCode in the form of animation.（用动画的形式呈现解LeetCode题目的思路,完整单步/回看/变速/语音讲解在 algomooc.com）",
+      "stars": 76712,
+      "forks": 13858,
+      "primaryLanguage": "Java",
+      "license": null,
+      "createdAt": "2018-12-06T08:01:22Z",
+      "pushedAt": "2026-06-12T13:49:06Z",
+      "homepageUrl": "https://www.algomooc.com",
+      "archived": false,
+      "owner": {
+        "login": "MisterBooo",
+        "name": "吴师兄学算法",
+        "type": "User",
+        "url": "https://github.com/MisterBooo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15308811?u=e28ce46461e497b635691637db08b2742d8ac84a&v=4",
+        "location": "Guangzhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "guangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 12,
+      "name": "cs-self-learning",
+      "nameWithOwner": "PKUFlyingPig/cs-self-learning",
+      "url": "https://github.com/PKUFlyingPig/cs-self-learning",
+      "description": "计算机自学指南",
+      "stars": 75995,
+      "forks": 8002,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-10-20T13:43:42Z",
+      "pushedAt": "2026-09-17T02:11:53Z",
+      "homepageUrl": "https://csdiy.wiki",
+      "archived": false,
+      "owner": {
+        "login": "PKUFlyingPig",
+        "name": "Yinmin Zhong",
+        "type": "User",
+        "url": "https://github.com/PKUFlyingPig",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60659728?u=6d9732dc87e3cf8d6952b25499519c2c3f289680&v=4",
+        "location": "Beijing, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "beijing"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 13,
+      "name": "MiroFish",
+      "nameWithOwner": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "stars": 75713,
+      "forks": 11629,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2025-11-26T04:23:02Z",
+      "pushedAt": "2026-10-01T18:28:51Z",
+      "homepageUrl": "https://mirofish.ai",
+      "archived": false,
+      "owner": {
+        "login": "666ghj",
+        "name": "BaiFu",
+        "type": "User",
+        "url": "https://github.com/666ghj",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110395318?u=5fe6ff285b2612fc23cc25c36ac30cd899b40681&v=4",
+        "location": "Shanghai, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "shanghai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 14,
+      "name": "LlamaFactory",
+      "nameWithOwner": "hiyouga/LlamaFactory",
+      "url": "https://github.com/hiyouga/LlamaFactory",
+      "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
+      "stars": 75298,
+      "forks": 9224,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2023-05-28T10:09:12Z",
+      "pushedAt": "2026-09-28T09:10:59Z",
+      "homepageUrl": "https://llamafactory.readthedocs.io",
+      "archived": false,
+      "owner": {
+        "login": "hiyouga",
+        "name": "Yaowei Zheng",
+        "type": "User",
+        "url": "https://github.com/hiyouga",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16256802?u=9622ad4c25aa0a0bfc6dfac3db6bd0d7732c0f1e&v=4",
+        "location": "Beijing, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "beijing"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 15,
+      "name": "chinese-independent-developer",
+      "nameWithOwner": "1c7/chinese-independent-developer",
+      "url": "https://github.com/1c7/chinese-independent-developer",
+      "description": "👩🏿‍💻👨🏾‍💻👩🏼‍💻👨🏽‍💻👩🏻‍💻中国独立开发者项目列表 -- 分享大家都在做什么",
+      "stars": 61636,
+      "forks": 5424,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2017-09-21T11:08:23Z",
+      "pushedAt": "2026-10-04T01:58:15Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "1c7",
+        "name": "Cheng Zheng（郑诚）",
+        "type": "User",
+        "url": "https://github.com/1c7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1804755?u=e48cfd9a67ee1813413011b4a02179d903352e30&v=4",
+        "location": "Guangzhou, China. 广州南沙",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "guangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 16,
+      "name": "architect-awesome",
+      "nameWithOwner": "xingshaocheng/architect-awesome",
+      "url": "https://github.com/xingshaocheng/architect-awesome",
+      "description": "后端架构师技术图谱",
+      "stars": 60855,
+      "forks": 17608,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2018-04-06T13:30:58Z",
+      "pushedAt": "2024-04-11T11:32:12Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "xingshaocheng",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/xingshaocheng",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4962837?u=6a44e013fb77fc344e7606445e0f40a6d9271168&v=4",
+        "location": "Beijing",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "beijing"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 17,
+      "name": "dive-into-llms",
+      "nameWithOwner": "Lordog/dive-into-llms",
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
+      "stars": 55617,
+      "forks": 6636,
+      "primaryLanguage": "Jupyter Notebook",
+      "license": null,
+      "createdAt": "2024-04-08T13:11:40Z",
+      "pushedAt": "2025-10-10T06:25:48Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Lordog",
+        "name": "Tongxin Yuan",
+        "type": "User",
+        "url": "https://github.com/Lordog",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59903352?u=fed9ddf9f8c0f1920c83bf4e145295f8c61154a4&v=4",
+        "location": "Shanghai, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "shanghai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 18,
+      "name": "element",
+      "nameWithOwner": "ElemeFE/element",
+      "url": "https://github.com/ElemeFE/element",
+      "description": "A Vue.js 2.0 UI Toolkit for Web",
+      "stars": 54036,
+      "forks": 14387,
+      "primaryLanguage": "Vue",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-09-03T06:19:26Z",
+      "pushedAt": "2024-08-20T07:40:13Z",
+      "homepageUrl": "https://element.eleme.io/",
+      "archived": false,
+      "owner": {
+        "login": "ElemeFE",
+        "name": "饿了么前端",
+        "type": "Organization",
+        "url": "https://github.com/ElemeFE",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12810740?v=4",
+        "location": "Shanghai",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "shanghai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 19,
+      "name": "chinese-poetry",
+      "nameWithOwner": "chinese-poetry/chinese-poetry",
+      "url": "https://github.com/chinese-poetry/chinese-poetry",
+      "description": "The most comprehensive database of Chinese poetry 🧶最全中华古诗词数据库,  唐宋两朝近一万四千古诗人,  接近5.5万首唐诗加26万宋诗.  两宋时期1564位词人，21050首词。",
+      "stars": 53532,
+      "forks": 10748,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-09-02T03:32:25Z",
+      "pushedAt": "2026-06-17T01:56:08Z",
+      "homepageUrl": "https://awesome-poetry.top/",
+      "archived": false,
+      "owner": {
+        "login": "chinese-poetry",
+        "name": "chinese-poetry",
+        "type": "Organization",
+        "url": "https://github.com/chinese-poetry",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30764933?v=4",
+        "location": "Shanghai, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "shanghai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 20,
+      "name": "wechat-miniapp-radar",
+      "nameWithOwner": "justjavac/wechat-miniapp-radar",
+      "url": "https://github.com/justjavac/wechat-miniapp-radar",
+      "description": ":traffic_light:小程序雷达：AI 驱动的小程序技术选型、趋势追踪和迁移诊断工具",
+      "stars": 51204,
+      "forks": 8986,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2016-09-22T20:04:48Z",
+      "pushedAt": "2026-10-02T01:03:25Z",
+      "homepageUrl": "https://miniapp.jjc.fun",
+      "archived": false,
+      "owner": {
+        "login": "justjavac",
+        "name": "迷渡",
+        "type": "User",
+        "url": "https://github.com/justjavac",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/359395?u=bb50dde6882b70d87c0b074e1d4986762cf294ad&v=4",
+        "location": "Tianjin, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "tianjin"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 21,
+      "name": "dayjs",
+      "nameWithOwner": "iamkun/dayjs",
+      "url": "https://github.com/iamkun/dayjs",
+      "description": "⏰ Day.js 2kB immutable date-time library alternative to Moment.js with the same modern API",
+      "stars": 48665,
+      "forks": 4030,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-04-10T09:26:44Z",
+      "pushedAt": "2026-09-15T11:35:36Z",
+      "homepageUrl": "https://day.js.org",
+      "archived": false,
+      "owner": {
+        "login": "iamkun",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/iamkun",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17680888?u=4bbc550a2b6c37cdbc0bff92c72e73e53757d5c1&v=4",
+        "location": "Shanghai, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "shanghai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 22,
+      "name": "vnpy",
+      "nameWithOwner": "vnpy/vnpy",
+      "url": "https://github.com/vnpy/vnpy",
+      "description": "基于Python的开源量化交易平台开发框架",
+      "stars": 45675,
+      "forks": 12495,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-03-02T03:36:58Z",
+      "pushedAt": "2026-10-03T15:43:16Z",
+      "homepageUrl": "http://www.vnpy.com",
+      "archived": false,
+      "owner": {
+        "login": "vnpy",
+        "name": "vn.py",
+        "type": "User",
+        "url": "https://github.com/vnpy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11263900?u=7c76ce5e04cb90f40d1001834a171e5a0b6ada11&v=4",
+        "location": "Shanghai",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "shanghai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 23,
+      "name": "EasySpider",
+      "nameWithOwner": "NaiboWang/EasySpider",
+      "url": "https://github.com/NaiboWang/EasySpider",
+      "description": "A visual no-code/code-free web crawler/spider易采集：一个可视化浏览器自动化测试/数据采集/网页爬虫软件，可以无代码图形化的设计和执行爬虫任务。别名：ServiceWrapper面向Web应用的智能化服务封装系统。",
+      "stars": 44626,
+      "forks": 5390,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2020-07-18T02:41:27Z",
+      "pushedAt": "2026-09-17T12:09:24Z",
+      "homepageUrl": "https://www.easyspider.net",
+      "archived": false,
+      "owner": {
+        "login": "NaiboWang",
+        "name": "Naibo Wang",
+        "type": "User",
+        "url": "https://github.com/NaiboWang",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30287768?u=430d71312cd7b74533c807b08d7211a6e25d4edd&v=4",
+        "location": "Ningbo, Zhejiang Province",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ningbo"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 24,
+      "name": "build-web-application-with-golang",
+      "nameWithOwner": "astaxie/build-web-application-with-golang",
+      "url": "https://github.com/astaxie/build-web-application-with-golang",
+      "description": "A golang ebook intro how to build a web with golang",
+      "stars": 43890,
+      "forks": 10400,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2012-08-02T11:49:35Z",
+      "pushedAt": "2024-05-12T00:47:46Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "astaxie",
+        "name": "astaxie",
+        "type": "User",
+        "url": "https://github.com/astaxie",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/233907?v=4",
+        "location": "Shanghai, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "shanghai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 25,
+      "name": "open-code-review",
+      "nameWithOwner": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "stars": 43538,
+      "forks": 3140,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2026-05-18T02:16:36Z",
+      "pushedAt": "2026-10-01T20:40:46Z",
+      "homepageUrl": "https://open-codereview.ai",
+      "archived": false,
+      "owner": {
+        "login": "alibaba",
+        "name": "Alibaba",
+        "type": "Organization",
+        "url": "https://github.com/alibaba",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1961952?v=4",
+        "location": "Hangzhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 26,
+      "name": "CPlusPlusThings",
+      "nameWithOwner": "Light-City/CPlusPlusThings",
+      "url": "https://github.com/Light-City/CPlusPlusThings",
+      "description": "C++那些事",
+      "stars": 43500,
+      "forks": 8795,
+      "primaryLanguage": "C++",
+      "license": null,
+      "createdAt": "2019-07-14T08:45:45Z",
+      "pushedAt": "2026-05-16T06:05:14Z",
+      "homepageUrl": "https://light-city.github.io/stories_things/",
+      "archived": false,
+      "owner": {
+        "login": "Light-City",
+        "name": "Francis",
+        "type": "User",
+        "url": "https://github.com/Light-City",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25699850?u=ae1ceddf2cd1d69488bc3132d29b5ca3bb57ee26&v=4",
+        "location": "重庆",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "重庆"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 27,
+      "name": "BettaFish",
+      "nameWithOwner": "666ghj/BettaFish",
+      "url": "https://github.com/666ghj/BettaFish",
+      "description": "微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。",
+      "stars": 42331,
+      "forks": 7607,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "spdxId": "GPL-2.0"
+      },
+      "createdAt": "2024-07-01T13:11:38Z",
+      "pushedAt": "2026-10-01T18:28:58Z",
+      "homepageUrl": "https://deepwiki.com/666ghj/BettaFish",
+      "archived": false,
+      "owner": {
+        "login": "666ghj",
+        "name": "BaiFu",
+        "type": "User",
+        "url": "https://github.com/666ghj",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110395318?u=5fe6ff285b2612fc23cc25c36ac30cd899b40681&v=4",
+        "location": "Shanghai, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "shanghai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 28,
+      "name": "uni-app",
+      "nameWithOwner": "dcloudio/uni-app",
+      "url": "https://github.com/dcloudio/uni-app",
+      "description": "A cross-platform framework using Vue.js",
+      "stars": 41615,
+      "forks": 3708,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-07-12T08:52:39Z",
+      "pushedAt": "2026-10-03T18:29:06Z",
+      "homepageUrl": "https://uniapp.dcloud.io",
+      "archived": false,
+      "owner": {
+        "login": "dcloudio",
+        "name": "DCloud",
+        "type": "Organization",
+        "url": "https://github.com/dcloudio",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5485517?v=4",
+        "location": "Beijing,China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "beijing"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 29,
+      "name": "vue2-elm",
+      "nameWithOwner": "bailicangdu/vue2-elm",
+      "url": "https://github.com/bailicangdu/vue2-elm",
+      "description": "Large single page application with 45 pages built on vue2 + vuex. 基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用",
+      "stars": 40996,
+      "forks": 12224,
+      "primaryLanguage": "Vue",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "spdxId": "GPL-2.0"
+      },
+      "createdAt": "2016-12-23T01:49:20Z",
+      "pushedAt": "2025-04-11T12:52:02Z",
+      "homepageUrl": "https://cangdu.org/elm/",
+      "archived": false,
+      "owner": {
+        "login": "bailicangdu",
+        "name": "cangdu",
+        "type": "User",
+        "url": "https://github.com/bailicangdu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20297227?u=e242a737826e2e0d44245a9bb1129a0948334004&v=4",
+        "location": "Shanghai, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "shanghai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 30,
+      "name": "ruoyi-vue-pro",
+      "nameWithOwner": "YunaiV/ruoyi-vue-pro",
+      "url": "https://github.com/YunaiV/ruoyi-vue-pro",
+      "description": "🔥 官方推荐 🔥 RuoYi-Vue 全新 Pro 版本，优化重构所有功能。基于 Spring Boot + MyBatis Plus + Vue & Element 实现的后台管理系统 + 微信小程序，支持 RBAC 动态权限、数据权限、SaaS 多租户、Flowable 工作流、三方登录、支付、短信、商城、CRM、ERP、MES、IM、AI 大模型、IoT 物联网等功能。你的 ⭐️ Star ⭐️，是作者生发的动力！",
+      "stars": 39530,
+      "forks": 8536,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-01-24T03:18:25Z",
+      "pushedAt": "2026-09-30T04:50:09Z",
+      "homepageUrl": "https://doc.iocoder.cn/",
+      "archived": false,
+      "owner": {
+        "login": "YunaiV",
+        "name": "芋道源码",
+        "type": "User",
+        "url": "https://github.com/YunaiV",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2015545?u=cb494dbc67c9004f32a4535f466e75b9f8702627&v=4",
+        "location": "Shanghai, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "shanghai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 31,
+      "name": "RevokeMsgPatcher",
+      "nameWithOwner": "huiyadanli/RevokeMsgPatcher",
+      "url": "https://github.com/huiyadanli/RevokeMsgPatcher",
+      "description": ":trollface: A hex editor for WeChat/QQ/TIM - PC版微信/QQ/TIM防撤回补丁（我已经看到了，撤回也没用了）",
+      "stars": 38877,
+      "forks": 4078,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2019-07-21T15:12:52Z",
+      "pushedAt": "2026-08-16T12:51:44Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "huiyadanli",
+        "name": "辉鸭蛋",
+        "type": "User",
+        "url": "https://github.com/huiyadanli",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15783049?u=86f380636f7c09b86788a977ea96272cb7484a30&v=4",
+        "location": "Hangzhou,China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 32,
+      "name": "ant-design-pro",
+      "nameWithOwner": "ant-design/ant-design-pro",
+      "url": "https://github.com/ant-design/ant-design-pro",
+      "description": "👨🏻‍💻👩🏻‍💻 Use Ant Design like a Pro!",
+      "stars": 38829,
+      "forks": 8255,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-08-25T10:40:44Z",
+      "pushedAt": "2026-10-01T03:10:23Z",
+      "homepageUrl": "https://pro.ant.design",
+      "archived": false,
+      "owner": {
+        "login": "ant-design",
+        "name": "Ant Design Team",
+        "type": "Organization",
+        "url": "https://github.com/ant-design",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12101536?v=4",
+        "location": "HangZhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 33,
+      "name": "interview",
+      "nameWithOwner": "huihut/interview",
+      "url": "https://github.com/huihut/interview",
+      "description": "📚 C/C++ 技术面试基础知识总结，包括语言、程序库、数据结构、算法、系统、网络、链接装载库等知识及面试经验、招聘、内推等信息。This repository is a summary of the basic knowledge of recruiting job seekers and beginners in the direction of C/C++ technology, including language, program library, data structure, algorithm, system, network, link loading library, interview experience, recruitment, recommendation, etc.",
+      "stars": 38237,
+      "forks": 8064,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2018-02-09T09:49:48Z",
+      "pushedAt": "2026-09-17T07:18:55Z",
+      "homepageUrl": "https://interview.huihut.com",
+      "archived": false,
+      "owner": {
+        "login": "huihut",
+        "name": "huihut",
+        "type": "User",
+        "url": "https://github.com/huihut",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23519480?u=26a7af910c0edb7be47b9a2f4241b22bb26e3607&v=4",
+        "location": "Guangzhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "guangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 34,
+      "name": "Coursera-ML-AndrewNg-Notes",
+      "nameWithOwner": "fengdu78/Coursera-ML-AndrewNg-Notes",
+      "url": "https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes",
+      "description": "吴恩达老师的机器学习课程个人笔记",
+      "stars": 37885,
+      "forks": 11188,
+      "primaryLanguage": "HTML",
+      "license": null,
+      "createdAt": "2017-11-04T10:04:08Z",
+      "pushedAt": "2025-08-25T04:02:38Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "fengdu78",
+        "name": "Huang Haiguang",
+        "type": "User",
+        "url": "https://github.com/fengdu78",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26119052?u=64357994632ab7e6be27e8a6549727e5bee3c077&v=4",
+        "location": "Qingdao,China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "qingdao"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 35,
+      "name": "freecodecamp.cn",
+      "nameWithOwner": "FreeCodeCampChina/freecodecamp.cn",
+      "url": "https://github.com/FreeCodeCampChina/freecodecamp.cn",
+      "description": "FCC China open source codebase and curriculum. Learn to code and help nonprofits.",
+      "stars": 37795,
+      "forks": 1417,
+      "primaryLanguage": "CSS",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2016-09-30T03:13:43Z",
+      "pushedAt": "2023-07-16T16:48:59Z",
+      "homepageUrl": "https://fcc.asia/",
+      "archived": false,
+      "owner": {
+        "login": "FreeCodeCampChina",
+        "name": "freeCodeCamp 中国",
+        "type": "Organization",
+        "url": "https://github.com/FreeCodeCampChina",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18478284?v=4",
+        "location": "Suzhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "suzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 36,
+      "name": "arthas",
+      "nameWithOwner": "alibaba/arthas",
+      "url": "https://github.com/alibaba/arthas",
+      "description": "Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas",
+      "stars": 37565,
+      "forks": 7643,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-08-29T17:15:57Z",
+      "pushedAt": "2026-09-29T09:34:58Z",
+      "homepageUrl": "https://arthas.aliyun.com/",
+      "archived": false,
+      "owner": {
+        "login": "alibaba",
+        "name": "Alibaba",
+        "type": "Organization",
+        "url": "https://github.com/alibaba",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1961952?v=4",
+        "location": "Hangzhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 37,
+      "name": "claude-code-router",
+      "nameWithOwner": "musistudio/claude-code-router",
+      "url": "https://github.com/musistudio/claude-code-router",
+      "description": "One local control plane for every AI agent: route across models, fuse new capabilities, orchestrate tools, and stay fully in control.",
+      "stars": 37526,
+      "forks": 3145,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-02-25T02:17:18Z",
+      "pushedAt": "2026-09-26T15:00:04Z",
+      "homepageUrl": "https://ccrdesk.top/",
+      "archived": false,
+      "owner": {
+        "login": "musistudio",
+        "name": "musi",
+        "type": "User",
+        "url": "https://github.com/musistudio",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21162426?u=96df8b9ab5dd4b2d28257d32f2ce37557ec3dfd2&v=4",
+        "location": "Hangzhou",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 38,
+      "name": "one-api",
+      "nameWithOwner": "songquanpeng/one-api",
+      "url": "https://github.com/songquanpeng/one-api",
+      "description": "LLM API 管理 & 分发系统，支持 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、ChatGLM、文心一言、讯飞星火、通义千问、360 智脑、腾讯混元等主流模型，统一 API 适配，可用于 key 管理与二次分发。单可执行文件，提供 Docker 镜像，一键部署，开箱即用。LLM API management & key redistribution system, unifying multiple providers under a single API. Single binary, Docker-ready, with an English UI.",
+      "stars": 37073,
+      "forks": 6873,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-04-22T12:39:24Z",
+      "pushedAt": "2026-01-09T03:26:43Z",
+      "homepageUrl": "https://oneapi.justsong.cn/",
+      "archived": false,
+      "owner": {
+        "login": "songquanpeng",
+        "name": "JustSong",
+        "type": "User",
+        "url": "https://github.com/songquanpeng",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39998050?v=4",
+        "location": "Shanghai, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "shanghai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 39,
+      "name": "linux-command",
+      "nameWithOwner": "jaywcjlove/linux-command",
+      "url": "https://github.com/jaywcjlove/linux-command",
+      "description": "Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。https://git.io/linux",
+      "stars": 37065,
+      "forks": 6599,
+      "primaryLanguage": "Markdown",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-11-12T15:44:26Z",
+      "pushedAt": "2026-09-06T04:01:05Z",
+      "homepageUrl": "https://jaywcjlove.github.io/linux-command",
+      "archived": false,
+      "owner": {
+        "login": "jaywcjlove",
+        "name": "小弟调调",
+        "type": "User",
+        "url": "https://github.com/jaywcjlove",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1680273?u=4471b74deb9973096418a93960c664c5ea3bd159&v=4",
+        "location": "Suzhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "suzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 40,
+      "name": "JavaFamily",
+      "nameWithOwner": "AobingJava/JavaFamily",
+      "url": "https://github.com/AobingJava/JavaFamily",
+      "description": "【Java面试+Java学习指南】 一份涵盖大部分Java程序员所需要掌握的核心知识。",
+      "stars": 36995,
+      "forks": 7743,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2019-11-12T04:26:18Z",
+      "pushedAt": "2025-11-03T12:37:27Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "AobingJava",
+        "name": "敖丙",
+        "type": "User",
+        "url": "https://github.com/AobingJava",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41898583?u=b7dfbe5811f4ae9c87963b8be33c1bf2c7f2522e&v=4",
+        "location": "杭州",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "杭州"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 41,
+      "name": "MockingBird",
+      "nameWithOwner": "babysor/MockingBird",
+      "url": "https://github.com/babysor/MockingBird",
+      "description": "🚀Clone a voice in 5 seconds to generate arbitrary speech in real-time",
+      "stars": 36900,
+      "forks": 5173,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2021-08-07T03:53:39Z",
+      "pushedAt": "2026-03-03T14:59:58Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "babysor",
+        "name": "Vega",
+        "type": "User",
+        "url": "https://github.com/babysor",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7423248?v=4",
+        "location": "Beijing",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "beijing"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 42,
+      "name": "955.WLB",
+      "nameWithOwner": "formulahendry/955.WLB",
+      "url": "https://github.com/formulahendry/955.WLB",
+      "description": "955 不加班的公司名单 - 工作 955，work–life balance (工作与生活的平衡)",
+      "stars": 36405,
+      "forks": 1739,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2019-03-27T23:53:37Z",
+      "pushedAt": "2025-02-03T05:15:20Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "formulahendry",
+        "name": "Jun Han",
+        "type": "User",
+        "url": "https://github.com/formulahendry",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1050213?v=4",
+        "location": "Shanghai, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "shanghai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 43,
+      "name": "awesome-javascript",
+      "nameWithOwner": "sorrycc/awesome-javascript",
+      "url": "https://github.com/sorrycc/awesome-javascript",
+      "description": "🐢 A collection of awesome browser-side  JavaScript libraries, resources and shiny things.",
+      "stars": 35033,
+      "forks": 4559,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2014-07-01T15:59:02Z",
+      "pushedAt": "2026-09-08T21:09:10Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "sorrycc",
+        "name": "chencheng (云谦)",
+        "type": "User",
+        "url": "https://github.com/sorrycc",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35128?u=8fbc1a12d0728494fb0b0620b1fb4a2d04b27493&v=4",
+        "location": "HangZhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 44,
+      "name": "awesome-ai-research-writing",
+      "nameWithOwner": "Leey21/awesome-ai-research-writing",
+      "url": "https://github.com/Leey21/awesome-ai-research-writing",
+      "description": "Elevate your AI research writing, no more tedious polishing ✨ ",
+      "stars": 34529,
+      "forks": 2478,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2026-01-30T07:59:30Z",
+      "pushedAt": "2026-08-19T02:47:43Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Leey21",
+        "name": "LY",
+        "type": "User",
+        "url": "https://github.com/Leey21",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/112166430?u=57439e9cd177ca483fcc6f7c2b7fd4e3eca3e046&v=4",
+        "location": "Shanghai",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "shanghai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 45,
+      "name": "gold-miner",
+      "nameWithOwner": "xitu/gold-miner",
+      "url": "https://github.com/xitu/gold-miner",
+      "description": "🥇掘金翻译计划，可能是世界最大最好的英译中技术社区，最懂读者和译者的翻译平台：",
+      "stars": 34368,
+      "forks": 4983,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2015-11-04T03:29:13Z",
+      "pushedAt": "2024-04-17T09:44:37Z",
+      "homepageUrl": "https://juejin.cn/tag/掘金翻译计划",
+      "archived": false,
+      "owner": {
+        "login": "xitu",
+        "name": "稀土",
+        "type": "Organization",
+        "url": "https://github.com/xitu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10482599?v=4",
+        "location": "Beijing",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "beijing"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 46,
+      "name": "spring-boot-demo",
+      "nameWithOwner": "xkcoding/spring-boot-demo",
+      "url": "https://github.com/xkcoding/spring-boot-demo",
+      "description": "🚀一个用来深入学习并实战 Spring Boot 的项目。",
+      "stars": 34084,
+      "forks": 10867,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-11-10T06:27:29Z",
+      "pushedAt": "2024-07-24T02:02:52Z",
+      "homepageUrl": "https://parg.co/UZM",
+      "archived": false,
+      "owner": {
+        "login": "xkcoding",
+        "name": "Yangkai.Shen",
+        "type": "User",
+        "url": "https://github.com/xkcoding",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10429917?u=2ab29bd2c0344eecd8922933cc3141e063c34c9b&v=4",
+        "location": "Hangzhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 47,
+      "name": "TaskMatrix",
+      "nameWithOwner": "chenfei-wu/TaskMatrix",
+      "url": "https://github.com/chenfei-wu/TaskMatrix",
+      "description": null,
+      "stars": 33973,
+      "forks": 3192,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2023-03-02T09:04:28Z",
+      "pushedAt": "2024-01-06T02:41:20Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "chenfei-wu",
+        "name": "Chenfei Wu",
+        "type": "User",
+        "url": "https://github.com/chenfei-wu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17916698?u=de9096161f13f99a5e85f9ab61b1893cd94a5fcc&v=4",
+        "location": "Beijing",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "beijing"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 48,
+      "name": "AndroidUtilCode",
+      "nameWithOwner": "Blankj/AndroidUtilCode",
+      "url": "https://github.com/Blankj/AndroidUtilCode",
+      "description": ":fire: Android developers should collect the following utils(updating).",
+      "stars": 33618,
+      "forks": 10597,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2016-07-30T18:18:32Z",
+      "pushedAt": "2024-08-15T10:38:10Z",
+      "homepageUrl": "https://blankj.com/2016/07/31/android-utils-code/",
+      "archived": false,
+      "owner": {
+        "login": "Blankj",
+        "name": "Blankj",
+        "type": "User",
+        "url": "https://github.com/Blankj",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17978187?u=f16ccc3c301427f37a97f185c825ca7bc975a122&v=4",
+        "location": "Hangzhou",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 49,
+      "name": "easyexcel",
+      "nameWithOwner": "alibaba/easyexcel",
+      "url": "https://github.com/alibaba/easyexcel",
+      "description": "快速、简洁、解决大文件内存溢出的java处理Excel工具",
+      "stars": 33614,
+      "forks": 7542,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-02-06T03:14:08Z",
+      "pushedAt": "2024-10-29T06:07:07Z",
+      "homepageUrl": "https://easyexcel.opensource.alibaba.com",
+      "archived": true,
+      "owner": {
+        "login": "alibaba",
+        "name": "Alibaba",
+        "type": "Organization",
+        "url": "https://github.com/alibaba",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1961952?v=4",
+        "location": "Hangzhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 50,
+      "name": "nacos",
+      "nameWithOwner": "alibaba/nacos",
+      "url": "https://github.com/alibaba/nacos",
+      "description": "an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications.",
+      "stars": 33419,
+      "forks": 13294,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-06-15T06:49:27Z",
+      "pushedAt": "2026-09-24T05:38:43Z",
+      "homepageUrl": "https://nacos.io",
+      "archived": false,
+      "owner": {
+        "login": "alibaba",
+        "name": "Alibaba",
+        "type": "Organization",
+        "url": "https://github.com/alibaba",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1961952?v=4",
+        "location": "Hangzhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 51,
+      "name": "ijkplayer",
+      "nameWithOwner": "bilibili/ijkplayer",
+      "url": "https://github.com/bilibili/ijkplayer",
+      "description": "Android/iOS video player based on FFmpeg n3.4, with MediaCodec, VideoToolbox support.",
+      "stars": 33209,
+      "forks": 8244,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "spdxId": "GPL-2.0"
+      },
+      "createdAt": "2013-06-03T04:12:04Z",
+      "pushedAt": "2024-08-13T00:53:33Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "bilibili",
+        "name": "bilibili",
+        "type": "Organization",
+        "url": "https://github.com/bilibili",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12002442?v=4",
+        "location": "Shanghai, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "shanghai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 52,
+      "name": "QtScrcpy",
+      "nameWithOwner": "barry-ran/QtScrcpy",
+      "url": "https://github.com/barry-ran/QtScrcpy",
+      "description": "Android real-time display control software",
+      "stars": 32223,
+      "forks": 3802,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2019-06-23T04:12:17Z",
+      "pushedAt": "2026-09-24T06:24:47Z",
+      "homepageUrl": "https://blog.csdn.net/rankun1/article/details/87970523",
+      "archived": false,
+      "owner": {
+        "login": "barry-ran",
+        "name": "Barry",
+        "type": "User",
+        "url": "https://github.com/barry-ran",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18702692?u=213546aca2a03bcb9fad7b47a24e77d5748327e0&v=4",
+        "location": "Shanghai",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "shanghai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 53,
+      "name": "GPTs",
+      "nameWithOwner": "linexjlin/GPTs",
+      "url": "https://github.com/linexjlin/GPTs",
+      "description": "leaked prompts of GPTs",
+      "stars": 32051,
+      "forks": 4339,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2023-11-11T03:24:16Z",
+      "pushedAt": "2024-09-27T03:31:47Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "linexjlin",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/linexjlin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3595733?u=442ccd775c6a5c2bd262fb78c0fd458697081e30&v=4",
+        "location": "Shanghai",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "shanghai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 54,
+      "name": "android-open-project",
+      "nameWithOwner": "Trinea/android-open-project",
+      "url": "https://github.com/Trinea/android-open-project",
+      "description": "A categorized collection of Android Open Source Projects,  More powerful web version:",
+      "stars": 31806,
+      "forks": 11790,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2014-01-05T15:20:15Z",
+      "pushedAt": "2026-03-25T01:04:16Z",
+      "homepageUrl": "https://p.codekk.com/",
+      "archived": false,
+      "owner": {
+        "login": "Trinea",
+        "name": "Trinea",
+        "type": "User",
+        "url": "https://github.com/Trinea",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1169522?u=e929ded804542fb9730dd348b823e68dbbbdc609&v=4",
+        "location": "HangZhou",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 55,
+      "name": "lux",
+      "nameWithOwner": "iawia002/lux",
+      "url": "https://github.com/iawia002/lux",
+      "description": "👾 Fast and simple video download library and CLI tool written in Go",
+      "stars": 31734,
+      "forks": 3318,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-02-24T11:29:03Z",
+      "pushedAt": "2026-03-29T18:18:56Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "iawia002",
+        "name": "Xinzhao Xu",
+        "type": "User",
+        "url": "https://github.com/iawia002",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9134003?u=98ed581f2dae06d9139a0c18065605c263dd5065&v=4",
+        "location": "Chengdu, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "chengdu"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 56,
+      "name": "chatgpt-web",
+      "nameWithOwner": "Chanzhaoyu/chatgpt-web",
+      "url": "https://github.com/Chanzhaoyu/chatgpt-web",
+      "description": "用 Express 和  Vue3 搭建的 ChatGPT 演示网页",
+      "stars": 31427,
+      "forks": 10647,
+      "primaryLanguage": "Vue",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-02-09T03:21:37Z",
+      "pushedAt": "2024-08-16T15:26:57Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "Chanzhaoyu",
+        "name": "Redon",
+        "type": "User",
+        "url": "https://github.com/Chanzhaoyu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24789441?u=434d1ded5a55e9e1d52f2bc0307832db35645a4e&v=4",
+        "location": "DongGuan, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "dongguan"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 57,
+      "name": "weekly",
+      "nameWithOwner": "ascoders/weekly",
+      "url": "https://github.com/ascoders/weekly",
+      "description": "前端精读周刊。帮你理解最前沿、实用的技术。",
+      "stars": 31259,
+      "forks": 3255,
+      "primaryLanguage": "JavaScript",
+      "license": null,
+      "createdAt": "2017-03-20T06:10:04Z",
+      "pushedAt": "2024-09-09T01:39:37Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ascoders",
+        "name": "黄子毅",
+        "type": "User",
+        "url": "https://github.com/ascoders",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7970947?u=730a8387e8cd0725e005f4bedb868efdd627c06d&v=4",
+        "location": "Hangzhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 58,
+      "name": "Blog",
+      "nameWithOwner": "mqyqingfeng/Blog",
+      "url": "https://github.com/mqyqingfeng/Blog",
+      "description": "冴羽写博客的地方，预计写四个系列：JavaScript深入系列、JavaScript专题系列、ES6系列、React系列。",
+      "stars": 31071,
+      "forks": 4636,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2017-03-13T10:04:33Z",
+      "pushedAt": "2026-06-09T09:43:14Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "mqyqingfeng",
+        "name": "冴羽",
+        "type": "User",
+        "url": "https://github.com/mqyqingfeng",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11458263?u=8abd594f236f381da9cbe70bade832663ecb4bd0&v=4",
+        "location": "Hangzhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 59,
+      "name": "rust-course",
+      "nameWithOwner": "sunface/rust-course",
+      "url": "https://github.com/sunface/rust-course",
+      "description": "什么？你敢放心的把后背交给 AI? 我赌你不敢，那就来学学 AI 时代最酷、最安全、最快的语言吧。本书拥有全面且深入的讲解、生动贴切的示例、德芙般丝滑的内容，这可能是目前最用心的 Rust 中文学习教程 / Book ",
+      "stars": 30980,
+      "forks": 2593,
+      "primaryLanguage": "Rust",
+      "license": null,
+      "createdAt": "2018-08-07T05:01:21Z",
+      "pushedAt": "2026-08-24T07:34:23Z",
+      "homepageUrl": "https://course.rs",
+      "archived": false,
+      "owner": {
+        "login": "sunface",
+        "name": "Sunface",
+        "type": "User",
+        "url": "https://github.com/sunface",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7036754?u=b8136850dbea9e1528dae03648ab4af64dae8f1b&v=4",
+        "location": "Beijing",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "beijing"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 60,
+      "name": "p3c",
+      "nameWithOwner": "alibaba/p3c",
+      "url": "https://github.com/alibaba/p3c",
+      "description": "Alibaba Java Coding Guidelines pmd implements and IDE plugin",
+      "stars": 30850,
+      "forks": 7958,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2017-06-23T06:15:51Z",
+      "pushedAt": "2024-08-06T08:22:02Z",
+      "homepageUrl": "https://github.com/alibaba/p3c/wiki",
+      "archived": false,
+      "owner": {
+        "login": "alibaba",
+        "name": "Alibaba",
+        "type": "Organization",
+        "url": "https://github.com/alibaba",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1961952?v=4",
+        "location": "Hangzhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 61,
+      "name": "Bilibili-Evolved",
+      "nameWithOwner": "the1812/Bilibili-Evolved",
+      "url": "https://github.com/the1812/Bilibili-Evolved",
+      "description": "强大的哔哩哔哩增强脚本",
+      "stars": 30659,
+      "forks": 1811,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2018-07-16T07:48:06Z",
+      "pushedAt": "2026-10-03T03:28:28Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "the1812",
+        "name": "Grant Howard",
+        "type": "User",
+        "url": "https://github.com/the1812",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26504152?u=0360dd7ed7fe68d694ffa0658bba30b101aad7c6&v=4",
+        "location": "Hangzhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 62,
+      "name": "awesome-python-cn",
+      "nameWithOwner": "jobbole/awesome-python-cn",
+      "url": "https://github.com/jobbole/awesome-python-cn",
+      "description": "Python资源大全中文版，包括：Web框架、网络爬虫、模板引擎、数据库、数据可视化、图片处理等，由「开源前哨」和「Python开发者」微信公号团队维护更新。",
+      "stars": 30630,
+      "forks": 7912,
+      "primaryLanguage": "Makefile",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2015-11-03T09:50:50Z",
+      "pushedAt": "2022-08-29T11:28:59Z",
+      "homepageUrl": "http://jobbole.github.io/awesome-python-cn/",
+      "archived": false,
+      "owner": {
+        "login": "jobbole",
+        "name": "伯乐在线",
+        "type": "Organization",
+        "url": "https://github.com/jobbole",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8531823?v=4",
+        "location": "ShangHai",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "shanghai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 63,
+      "name": "xxl-job",
+      "nameWithOwner": "xuxueli/xxl-job",
+      "url": "https://github.com/xuxueli/xxl-job",
+      "description": "A distributed task scheduling framework.（分布式任务调度平台XXL-JOB）",
+      "stars": 30600,
+      "forks": 11492,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2015-11-28T12:59:34Z",
+      "pushedAt": "2026-10-02T18:26:07Z",
+      "homepageUrl": "http://www.xuxueli.com/xxl-job/",
+      "archived": false,
+      "owner": {
+        "login": "xuxueli",
+        "name": "许雪里",
+        "type": "User",
+        "url": "https://github.com/xuxueli",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10633817?u=89329d69ca512f24ce0ee669bf679e30c9503243&v=4",
+        "location": "Shanghai, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "shanghai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 64,
+      "name": "spring-boot-examples",
+      "nameWithOwner": "ityouknow/spring-boot-examples",
+      "url": "https://github.com/ityouknow/spring-boot-examples",
+      "description": "about learning Spring Boot via examples. Spring Boot 教程、技术栈示例代码，快速简单上手教程。 ",
+      "stars": 30485,
+      "forks": 12131,
+      "primaryLanguage": "Java",
+      "license": null,
+      "createdAt": "2016-11-05T05:32:33Z",
+      "pushedAt": "2023-11-18T16:32:16Z",
+      "homepageUrl": "http://www.ityouknow.com/spring-boot.html",
+      "archived": false,
+      "owner": {
+        "login": "ityouknow",
+        "name": "纯洁的微笑",
+        "type": "User",
+        "url": "https://github.com/ityouknow",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4979648?u=e447466d7ed677222b240a07a4fc701d4f63d2e7&v=4",
+        "location": "beijing,china",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "beijing"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 65,
+      "name": "Tvlist-awesome-m3u-m3u8",
+      "nameWithOwner": "imDazui/Tvlist-awesome-m3u-m3u8",
+      "url": "https://github.com/imDazui/Tvlist-awesome-m3u-m3u8",
+      "description": "直播源相关资源汇总 📺 💯 IPTV、M3U —— 勤洗手、戴口罩，祝愿所有人百毒不侵",
+      "stars": 30089,
+      "forks": 3470,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2017-02-18T03:59:25Z",
+      "pushedAt": "2025-11-14T10:50:50Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "imDazui",
+        "name": "Dazui",
+        "type": "User",
+        "url": "https://github.com/imDazui",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53277?u=ce2c67f831a0423a098d0c4ee09b1bc0004ab9de&v=4",
+        "location": "Beijing",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "beijing"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 66,
+      "name": "GitHub520",
+      "nameWithOwner": "521xueweihan/GitHub520",
+      "url": "https://github.com/521xueweihan/GitHub520",
+      "description": ":kissing_heart: 让你“爱”上 GitHub，解决访问时图裂、加载慢的问题。（无需安装）",
+      "stars": 29938,
+      "forks": 2761,
+      "primaryLanguage": "Python",
+      "license": null,
+      "createdAt": "2020-05-13T07:25:21Z",
+      "pushedAt": "2026-10-04T03:00:58Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "521xueweihan",
+        "name": "削微寒",
+        "type": "User",
+        "url": "https://github.com/521xueweihan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8255800?u=2024c0f3979fd65c8aab945856eae0852f1186f6&v=4",
+        "location": "Beijing, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "beijing"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 67,
+      "name": "OpenCLI",
+      "nameWithOwner": "jackwener/OpenCLI",
+      "url": "https://github.com/jackwener/OpenCLI",
+      "description": "Make Any Website into CLI & Use your logged-in browser by AI agent. ",
+      "stars": 29812,
+      "forks": 2908,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2026-03-14T22:10:23Z",
+      "pushedAt": "2026-09-24T18:55:16Z",
+      "homepageUrl": "https://opencli.info/",
+      "archived": false,
+      "owner": {
+        "login": "jackwener",
+        "name": "jakevin",
+        "type": "User",
+        "url": "https://github.com/jackwener",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30525741?u=16fc1212ffb8a00d02b9303638fc9ad9b602d157&v=4",
+        "location": "Hangzhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 68,
+      "name": "canal",
+      "nameWithOwner": "alibaba/canal",
+      "url": "https://github.com/alibaba/canal",
+      "description": "阿里巴巴 MySQL binlog 增量订阅&消费组件 ",
+      "stars": 29738,
+      "forks": 7626,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2013-01-13T10:59:52Z",
+      "pushedAt": "2026-07-30T07:40:52Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "alibaba",
+        "name": "Alibaba",
+        "type": "Organization",
+        "url": "https://github.com/alibaba",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1961952?v=4",
+        "location": "Hangzhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 69,
+      "name": "Python-programming-exercises",
+      "nameWithOwner": "zhiwehu/Python-programming-exercises",
+      "url": "https://github.com/zhiwehu/Python-programming-exercises",
+      "description": "100+ Python challenging programming exercises",
+      "stars": 29719,
+      "forks": 6964,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2012-06-14T07:56:46Z",
+      "pushedAt": "2026-04-06T09:50:18Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "zhiwehu",
+        "name": "Jeffrey Hu",
+        "type": "User",
+        "url": "https://github.com/zhiwehu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1313947?u=435b7c727d6f276d039543eb6ccffdfe75d7d810&v=4",
+        "location": "Hefei, Anhui, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hefei"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 70,
+      "name": "page-agent",
+      "nameWithOwner": "alibaba/page-agent",
+      "url": "https://github.com/alibaba/page-agent",
+      "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+      "stars": 29318,
+      "forks": 2635,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-09-23T09:30:17Z",
+      "pushedAt": "2026-09-29T07:38:08Z",
+      "homepageUrl": "https://alibaba.github.io/page-agent/",
+      "archived": false,
+      "owner": {
+        "login": "alibaba",
+        "name": "Alibaba",
+        "type": "Organization",
+        "url": "https://github.com/alibaba",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1961952?v=4",
+        "location": "Hangzhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 71,
+      "name": "spring-cloud-alibaba",
+      "nameWithOwner": "alibaba/spring-cloud-alibaba",
+      "url": "https://github.com/alibaba/spring-cloud-alibaba",
+      "description": "Spring Cloud Alibaba provides a one-stop solution for application development for the distributed solutions of Alibaba middleware.",
+      "stars": 29174,
+      "forks": 8479,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2017-12-01T20:49:15Z",
+      "pushedAt": "2026-10-03T22:36:02Z",
+      "homepageUrl": "https://sca.aliyun.com",
+      "archived": false,
+      "owner": {
+        "login": "alibaba",
+        "name": "Alibaba",
+        "type": "Organization",
+        "url": "https://github.com/alibaba",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1961952?v=4",
+        "location": "Hangzhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 72,
+      "name": "maple-font",
+      "nameWithOwner": "subframe7536/maple-font",
+      "url": "https://github.com/subframe7536/maple-font",
+      "description": "Maple Mono: Open source monospace font with round corner, ligatures and Nerd-Font icons for IDE and terminal, fine-grained customization options. 带连字和控制台图标的圆角等宽字体，中英文宽度完美2:1，细粒度的自定义选项",
+      "stars": 29115,
+      "forks": 1198,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "SIL Open Font License 1.1",
+        "spdxId": "OFL-1.1"
+      },
+      "createdAt": "2022-04-08T15:51:22Z",
+      "pushedAt": "2026-09-20T15:10:42Z",
+      "homepageUrl": "https://font.subf.dev",
+      "archived": false,
+      "owner": {
+        "login": "subframe7536",
+        "name": "Song",
+        "type": "User",
+        "url": "https://github.com/subframe7536",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78338239?u=ab321434c239eb2e1e3f593db412ff00361bc046&v=4",
+        "location": "Hangzhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 73,
+      "name": "druid",
+      "nameWithOwner": "alibaba/druid",
+      "url": "https://github.com/alibaba/druid",
+      "description": "阿里云计算平台DataWorks(https://help.aliyun.com/document_detail/137663.html) 团队出品，为监控而生的数据库连接池",
+      "stars": 28171,
+      "forks": 8555,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2011-11-03T05:12:51Z",
+      "pushedAt": "2026-08-01T11:32:54Z",
+      "homepageUrl": "https://github.com/alibaba/druid/wiki",
+      "archived": false,
+      "owner": {
+        "login": "alibaba",
+        "name": "Alibaba",
+        "type": "Organization",
+        "url": "https://github.com/alibaba",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1961952?v=4",
+        "location": "Hangzhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 74,
+      "name": "yapi",
+      "nameWithOwner": "YMFE/yapi",
+      "url": "https://github.com/YMFE/yapi",
+      "description": "YApi 是一个可本地部署的、打通前后端及QA的、可视化的接口管理平台",
+      "stars": 27716,
+      "forks": 4815,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2016-05-30T09:09:09Z",
+      "pushedAt": "2024-08-12T09:29:34Z",
+      "homepageUrl": "http://yapi.smart-xwork.cn/",
+      "archived": false,
+      "owner": {
+        "login": "YMFE",
+        "name": "YMFE",
+        "type": "Organization",
+        "url": "https://github.com/YMFE",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19645609?v=4",
+        "location": "北京",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "北京"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 75,
+      "name": "coder2gwy",
+      "nameWithOwner": "coder2gwy/coder2gwy",
+      "url": "https://github.com/coder2gwy/coder2gwy",
+      "description": "互联网首份程序员考公指南，由3位已经进入体制内的前大厂程序员联合献上。",
+      "stars": 27685,
+      "forks": 3693,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2020-12-30T14:40:50Z",
+      "pushedAt": "2022-02-11T08:56:20Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "coder2gwy",
+        "name": "程序员考公",
+        "type": "User",
+        "url": "https://github.com/coder2gwy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74944224?u=3ca31b00f37083139ac9ff97443da16d67e2af48&v=4",
+        "location": "中国",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "中国"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 76,
+      "name": "CS-Books",
+      "nameWithOwner": "forthespada/CS-Books",
+      "url": "https://github.com/forthespada/CS-Books",
+      "description": "🔥🔥超过1000本的计算机经典书籍、个人笔记资料以及本人在各平台发表文章中所涉及的资源等。书籍资源包括C/C++、Java、Python、Go语言、数据结构与算法、操作系统、后端架构、计算机系统知识、数据库、计算机网络、设计模式、前端、汇编以及校招社招各种面经~",
+      "stars": 27408,
+      "forks": 4118,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2021-01-10T09:49:05Z",
+      "pushedAt": "2025-11-06T12:55:46Z",
+      "homepageUrl": "https://interviewguide.cn",
+      "archived": false,
+      "owner": {
+        "login": "forthespada",
+        "name": "阿秀",
+        "type": "User",
+        "url": "https://github.com/forthespada",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44971298?u=c1361b48b569372262eff821d0db75b7f572a865&v=4",
+        "location": "上海",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "上海"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 77,
+      "name": "MusicFree",
+      "nameWithOwner": "maotoumao/MusicFree",
+      "url": "https://github.com/maotoumao/MusicFree",
+      "description": "插件化、定制化、无广告的免费音乐播放器",
+      "stars": 27265,
+      "forks": 1957,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2022-08-22T14:29:32Z",
+      "pushedAt": "2026-09-13T14:28:51Z",
+      "homepageUrl": "https://musicfree.catcat.work",
+      "archived": false,
+      "owner": {
+        "login": "maotoumao",
+        "name": "猫头猫",
+        "type": "User",
+        "url": "https://github.com/maotoumao",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31655147?u=72dc03b528a0f965b35fa41d48bf47eaff33f0af&v=4",
+        "location": "Beijing, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "beijing"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 78,
+      "name": "SwitchHosts",
+      "nameWithOwner": "oldj/SwitchHosts",
+      "url": "https://github.com/oldj/SwitchHosts",
+      "description": "Switch hosts quickly!",
+      "stars": 27253,
+      "forks": 2683,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2011-09-02T09:38:09Z",
+      "pushedAt": "2026-10-03T00:25:45Z",
+      "homepageUrl": "https://switchhosts.app",
+      "archived": false,
+      "owner": {
+        "login": "oldj",
+        "name": "oldj",
+        "type": "User",
+        "url": "https://github.com/oldj",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/416130?u=8753e86600e300a9811cdc539aa158deec2e2724&v=4",
+        "location": "Hangzhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 79,
+      "name": "guizang-ppt-skill",
+      "nameWithOwner": "op7418/guizang-ppt-skill",
+      "url": "https://github.com/op7418/guizang-ppt-skill",
+      "description": "AI-agent Skill for generating polished HTML slide decks: editorial magazine and Swiss layouts, image prompts, social covers, and a WebGL/low-power presentation runtime.",
+      "stars": 27216,
+      "forks": 1888,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2026-04-23T13:23:07Z",
+      "pushedAt": "2026-08-07T03:58:08Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "op7418",
+        "name": "歸藏",
+        "type": "User",
+        "url": "https://github.com/op7418",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13505770?u=f161773fad9ed19edffc8c5c37fc2a31cd919b11&v=4",
+        "location": "beijing",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "beijing"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 80,
+      "name": "hangzhou_house_knowledge",
+      "nameWithOwner": "houshanren/hangzhou_house_knowledge",
+      "url": "https://github.com/houshanren/hangzhou_house_knowledge",
+      "description": "2017年买房经历总结出来的买房购房知识分享给大家，希望对大家有所帮助。买房不易，且买且珍惜。Sharing the knowledge of buy an own house that according  to the experience at hangzhou in 2017 to all the people. It's not easy to buy a own house, so I hope that it would be useful to everyone.",
+      "stars": 26850,
+      "forks": 5169,
+      "primaryLanguage": "CSS",
+      "license": null,
+      "createdAt": "2018-02-24T01:54:18Z",
+      "pushedAt": "2022-02-28T10:57:30Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "houshanren",
+        "name": "后山人",
+        "type": "User",
+        "url": "https://github.com/houshanren",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6621875?u=cc74b696465266e6589f73cac42c80eabc1910ab&v=4",
+        "location": "杭州市",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "杭州市"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 81,
+      "name": "JCSprout",
+      "nameWithOwner": "crossoverJie/JCSprout",
+      "url": "https://github.com/crossoverJie/JCSprout",
+      "description": "👨‍🎓 Java Core Sprout : basic, concurrent, algorithm ",
+      "stars": 26825,
+      "forks": 6944,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-12-17T09:06:50Z",
+      "pushedAt": "2024-05-21T02:46:20Z",
+      "homepageUrl": "https://crossoverjie.top/JCSprout",
+      "archived": false,
+      "owner": {
+        "login": "crossoverJie",
+        "name": "crossoverJie",
+        "type": "User",
+        "url": "https://github.com/crossoverJie",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15684156?u=17a8f50fac42502be372dcb03641ccf4e24ffd34&v=4",
+        "location": "Chongqing, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "chongqing"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 82,
+      "name": "OI-wiki",
+      "nameWithOwner": "OI-wiki/OI-wiki",
+      "url": "https://github.com/OI-wiki/OI-wiki",
+      "description": ":star2: Wiki of OI / ICPC for everyone. （某大型游戏线上攻略，内含炫酷算术魔法）",
+      "stars": 26809,
+      "forks": 4699,
+      "primaryLanguage": "TypeScript",
+      "license": null,
+      "createdAt": "2018-07-11T03:28:14Z",
+      "pushedAt": "2026-10-03T21:39:25Z",
+      "homepageUrl": "https://oi-wiki.org",
+      "archived": false,
+      "owner": {
+        "login": "OI-wiki",
+        "name": "OI Wiki",
+        "type": "Organization",
+        "url": "https://github.com/OI-wiki",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41097204?v=4",
+        "location": "Beijing, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "beijing"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 83,
+      "name": "Unlimited-OCR",
+      "nameWithOwner": "baidu/Unlimited-OCR",
+      "url": "https://github.com/baidu/Unlimited-OCR",
+      "description": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
+      "stars": 26634,
+      "forks": 2783,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-06-18T08:40:15Z",
+      "pushedAt": "2026-07-29T04:37:03Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "baidu",
+        "name": "Baidu",
+        "type": "Organization",
+        "url": "https://github.com/baidu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13245940?v=4",
+        "location": "Beijing, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "beijing"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 84,
+      "name": "fastjson",
+      "nameWithOwner": "alibaba/fastjson",
+      "url": "https://github.com/alibaba/fastjson",
+      "description": "FASTJSON 2.0.x has been released, faster and more secure, recommend you upgrade.",
+      "stars": 25584,
+      "forks": 6390,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2011-11-03T06:58:52Z",
+      "pushedAt": "2026-07-29T08:04:40Z",
+      "homepageUrl": "https://github.com/alibaba/fastjson2/wiki/fastjson_1_upgrade_cn",
+      "archived": true,
+      "owner": {
+        "login": "alibaba",
+        "name": "Alibaba",
+        "type": "Organization",
+        "url": "https://github.com/alibaba",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1961952?v=4",
+        "location": "Hangzhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 85,
+      "name": "toBeTopJavaer",
+      "nameWithOwner": "hollischuang/toBeTopJavaer",
+      "url": "https://github.com/hollischuang/toBeTopJavaer",
+      "description": "To Be Top Javaer - Java工程师成神之路",
+      "stars": 25306,
+      "forks": 5347,
+      "primaryLanguage": "Java",
+      "license": null,
+      "createdAt": "2018-10-25T09:54:54Z",
+      "pushedAt": "2024-01-03T13:58:24Z",
+      "homepageUrl": "https://www.hollischuang.com",
+      "archived": false,
+      "owner": {
+        "login": "hollischuang",
+        "name": "Hollis",
+        "type": "User",
+        "url": "https://github.com/hollischuang",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7971539?u=8b21ace62c53daa1de89a4dd0a88d5ca1f3b3009&v=4",
+        "location": "Hangzhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 86,
+      "name": "distilly",
+      "nameWithOwner": "titanwings/distilly",
+      "url": "https://github.com/titanwings/distilly",
+      "description": "Distilly — Distill how they think into reusable Skills for any Agent or Bot. Formerly Colleague Skill（原同事 Skill）.",
+      "stars": 25277,
+      "forks": 2177,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-03-30T05:22:23Z",
+      "pushedAt": "2026-09-22T14:01:08Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "titanwings",
+        "name": "Tianyi Zhou",
+        "type": "User",
+        "url": "https://github.com/titanwings",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85022018?u=6113597ca45e93695ad70a154be122589f227d53&v=4",
+        "location": "Shanghai",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "shanghai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 87,
+      "name": "llm-action",
+      "nameWithOwner": "liguodongiot/llm-action",
+      "url": "https://github.com/liguodongiot/llm-action",
+      "description": "本项目旨在分享大模型相关技术原理以及实战经验（大模型工程化、大模型应用落地）",
+      "stars": 25127,
+      "forks": 2853,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2023-05-23T05:29:16Z",
+      "pushedAt": "2026-07-19T13:13:31Z",
+      "homepageUrl": "https://www.zhihu.com/column/c_1456193767213043713",
+      "archived": false,
+      "owner": {
+        "login": "liguodongiot",
+        "name": "Jelly Lee",
+        "type": "User",
+        "url": "https://github.com/liguodongiot",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13220186?u=fefc75817a091bc7c44f120a2b1899e962f9ebdb&v=4",
+        "location": "Chengdu, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "chengdu"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 88,
+      "name": "BaseRecyclerViewAdapterHelper",
+      "nameWithOwner": "CymChad/BaseRecyclerViewAdapterHelper",
+      "url": "https://github.com/CymChad/BaseRecyclerViewAdapterHelper",
+      "description": "BRVAH:Powerful and flexible RecyclerAdapter",
+      "stars": 24575,
+      "forks": 5169,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-04-10T07:40:11Z",
+      "pushedAt": "2026-06-26T16:18:38Z",
+      "homepageUrl": "http://www.recyclerview.org/",
+      "archived": false,
+      "owner": {
+        "login": "CymChad",
+        "name": "陈宇明",
+        "type": "User",
+        "url": "https://github.com/CymChad",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7698209?u=3d0d15bf6610d0db3f6229795212eec63a6f575d&v=4",
+        "location": "长沙",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "长沙"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 89,
+      "name": "downkyi",
+      "nameWithOwner": "leiurayer/downkyi",
+      "url": "https://github.com/leiurayer/downkyi",
+      "description": null,
+      "stars": 24404,
+      "forks": 2598,
+      "primaryLanguage": null,
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2020-12-26T03:27:42Z",
+      "pushedAt": "2026-07-06T02:20:42Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "leiurayer",
+        "name": "leiurayer",
+        "type": "User",
+        "url": "https://github.com/leiurayer",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19290097?u=589c798ec2b77363ddf03308123a6f8c718a8426&v=4",
+        "location": "Beijing",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "beijing"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 90,
+      "name": "vant",
+      "nameWithOwner": "youzan/vant",
+      "url": "https://github.com/youzan/vant",
+      "description": "A lightweight, customizable Vue UI library for mobile web apps.",
+      "stars": 24386,
+      "forks": 9372,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-04-19T07:55:31Z",
+      "pushedAt": "2026-10-03T01:08:20Z",
+      "homepageUrl": "https://vant.pro/vant/",
+      "archived": false,
+      "owner": {
+        "login": "youzan",
+        "name": "有赞",
+        "type": "Organization",
+        "url": "https://github.com/youzan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11404085?v=4",
+        "location": "杭州",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "杭州"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 91,
+      "name": "TVAPP",
+      "nameWithOwner": "youhunwl/TVAPP",
+      "url": "https://github.com/youhunwl/TVAPP",
+      "description": " 收集全网 Android TV电视盒子应用，涵盖影视、直播、K歌、工具、游戏等类型，整理优质APK资源，支持便捷下载与自动更新。提供安全验证、分类索引与兼容性标注，助力用户打造家庭影音娱乐中心！              ✅ TVBox/影视仓等影音壳接口配置源。",
+      "stars": 24297,
+      "forks": 3302,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2025-03-11T01:59:36Z",
+      "pushedAt": "2026-09-30T07:55:35Z",
+      "homepageUrl": "https://app.iyouhun.com",
+      "archived": false,
+      "owner": {
+        "login": "youhunwl",
+        "name": "游魂",
+        "type": "User",
+        "url": "https://github.com/youhunwl",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30980738?u=f91945c8e5e7545cc6fecb98ec49683927582292&v=4",
+        "location": "Beijing,China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "beijing"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 92,
+      "name": "chinese-independent-blogs",
+      "nameWithOwner": "timqian/chinese-independent-blogs",
+      "url": "https://github.com/timqian/chinese-independent-blogs",
+      "description": "中文独立博客列表",
+      "stars": 23984,
+      "forks": 2706,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-10-22T09:22:45Z",
+      "pushedAt": "2026-10-02T23:56:17Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "timqian",
+        "name": "Tim Qian",
+        "type": "User",
+        "url": "https://github.com/timqian",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5512552?u=58b8da78b1f5cf94993062906f80d9775d51cf90&v=4",
+        "location": "ChongQing, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "chongqing"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 93,
+      "name": "BongoCat",
+      "nameWithOwner": "ayangweb/BongoCat",
+      "url": "https://github.com/ayangweb/BongoCat",
+      "description": "🐱 BongoCat — A cross-platform interactive desktop pet that brings fun to your desktop!",
+      "stars": 23773,
+      "forks": 1171,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2025-03-28T04:50:22Z",
+      "pushedAt": "2026-10-03T19:10:10Z",
+      "homepageUrl": "https://github.com/ayangweb/Awesome-BongoCat",
+      "archived": false,
+      "owner": {
+        "login": "ayangweb",
+        "name": "ayangweb",
+        "type": "User",
+        "url": "https://github.com/ayangweb",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75017711?u=5dd62383d29d8ed7fa1f9b9762672ac5636beee9&v=4",
+        "location": "Qinghai, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "qinghai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 94,
+      "name": "iview",
+      "nameWithOwner": "iview/iview",
+      "url": "https://github.com/iview/iview",
+      "description": "A high quality UI Toolkit built on Vue.js 2.0",
+      "stars": 23755,
+      "forks": 4046,
+      "primaryLanguage": "Vue",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2016-07-28T01:52:59Z",
+      "pushedAt": "2024-01-15T00:27:21Z",
+      "homepageUrl": "http://iview.talkingdata.com",
+      "archived": false,
+      "owner": {
+        "login": "iview",
+        "name": "iView",
+        "type": "Organization",
+        "url": "https://github.com/iview",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20693613?v=4",
+        "location": "BeiJing",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "beijing"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 95,
+      "name": "proxy_pool",
+      "nameWithOwner": "jhao104/proxy_pool",
+      "url": "https://github.com/jhao104/proxy_pool",
+      "description": "Python ProxyPool for web spider",
+      "stars": 23743,
+      "forks": 5424,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-11-25T13:49:07Z",
+      "pushedAt": "2026-06-15T14:36:35Z",
+      "homepageUrl": "https://jhao104.github.io/proxy_pool/",
+      "archived": false,
+      "owner": {
+        "login": "jhao104",
+        "name": "J_hao104",
+        "type": "User",
+        "url": "https://github.com/jhao104",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15058920?u=a06740e9086144ed4b9624ed783677c9ecf118f3&v=4",
+        "location": "ChengDu",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "chengdu"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 96,
+      "name": "flutter-go",
+      "nameWithOwner": "alibaba/flutter-go",
+      "url": "https://github.com/alibaba/flutter-go",
+      "description": "flutter 开发者帮助 APP，包含 flutter 常用 140+ 组件的demo 演示与中文文档",
+      "stars": 23635,
+      "forks": 3755,
+      "primaryLanguage": "Dart",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2019-01-08T09:03:40Z",
+      "pushedAt": "2023-12-11T20:49:42Z",
+      "homepageUrl": "https://flutter-go.pub/website/",
+      "archived": false,
+      "owner": {
+        "login": "alibaba",
+        "name": "Alibaba",
+        "type": "Organization",
+        "url": "https://github.com/alibaba",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1961952?v=4",
+        "location": "Hangzhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 97,
+      "name": "IOPaint",
+      "nameWithOwner": "Sanster/IOPaint",
+      "url": "https://github.com/Sanster/IOPaint",
+      "description": "Image inpainting tool powered by SOTA AI Model. Remove any unwanted object, defect, people from your pictures or erase and replace(powered by stable diffusion) any thing on your pictures.",
+      "stars": 23310,
+      "forks": 2540,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2021-11-15T14:16:40Z",
+      "pushedAt": "2025-04-29T02:13:17Z",
+      "homepageUrl": "https://www.iopaint.com/",
+      "archived": true,
+      "owner": {
+        "login": "Sanster",
+        "name": "Qing",
+        "type": "User",
+        "url": "https://github.com/Sanster",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3998421?v=4",
+        "location": "Shanghai",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "shanghai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 98,
+      "name": "flv.js",
+      "nameWithOwner": "bilibili/flv.js",
+      "url": "https://github.com/bilibili/flv.js",
+      "description": "HTML5 FLV Player",
+      "stars": 23180,
+      "forks": 3333,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2016-05-12T08:34:31Z",
+      "pushedAt": "2024-07-07T07:28:53Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "bilibili",
+        "name": "bilibili",
+        "type": "Organization",
+        "url": "https://github.com/bilibili",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12002442?v=4",
+        "location": "Shanghai, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "shanghai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 99,
+      "name": "Sentinel",
+      "nameWithOwner": "alibaba/Sentinel",
+      "url": "https://github.com/alibaba/Sentinel",
+      "description": "A powerful flow control component enabling reliability, resilience and monitoring for microservices. (面向云原生微服务的高可用流控防护组件)",
+      "stars": 23144,
+      "forks": 8138,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-04-04T06:37:33Z",
+      "pushedAt": "2026-05-27T08:58:51Z",
+      "homepageUrl": "https://sentinelguard.io/",
+      "archived": false,
+      "owner": {
+        "login": "alibaba",
+        "name": "Alibaba",
+        "type": "Organization",
+        "url": "https://github.com/alibaba",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1961952?v=4",
+        "location": "Hangzhou, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hangzhou"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 100,
+      "name": "CVPR2026-Papers-with-Code",
+      "nameWithOwner": "amusi/CVPR2026-Papers-with-Code",
+      "url": "https://github.com/amusi/CVPR2026-Papers-with-Code",
+      "description": "CVPR 2026 论文和开源项目合集",
+      "stars": 22875,
+      "forks": 2790,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2020-02-26T06:04:25Z",
+      "pushedAt": "2026-03-08T07:27:34Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "amusi",
+        "name": "Amusi",
+        "type": "User",
+        "url": "https://github.com/amusi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22436957?u=96a326f8d9c37e32abbc78f5dc872d3898a65f23&v=4",
+        "location": "Shanghai, China",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "shanghai"
+        },
+        "discoveryTerms": []
+      }
+    }
+  ]
+}

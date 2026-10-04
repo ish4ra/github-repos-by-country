@@ -18,4 +18,18 @@
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **15,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [milanm/DevOps-Roadmap](https://github.com/milanm/DevOps-Roadmap) | **20,673** | Belgrade, Serbia |
+| [morhetz/gruvbox](https://github.com/morhetz/gruvbox) | **15,775** | Serbia, Belgrade |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

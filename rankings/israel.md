@@ -40,4 +40,27 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Lightricks/LTX-Video](https://github.com/Lightricks/LTX-Video) | **11,007** | Jerusalem, Israel |
 | [snyk/cli](https://github.com/snyk/cli) | **5,670** | London/Israel |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **11**
+- Current global star frontier: **15,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices) | **105,654** | Israel |
+| [DovAmir/awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns) | **49,189** | Israel |
+| [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app) | **36,664** | Israel |
+| [jondot/awesome-react-native](https://github.com/jondot/awesome-react-native) | **35,711** | Tel Aviv, Israel |
+| [kuchin/awesome-cto](https://github.com/kuchin/awesome-cto) | **35,544** | Israel |
+| [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) | **31,743** | Israel |
+| [gabime/spdlog](https://github.com/gabime/spdlog) | **29,652** | Israel |
+| [goldbergyoni/javascript-testing-best-practices](https://github.com/goldbergyoni/javascript-testing-best-practices) | **24,615** | Israel |
+| [renovatebot/renovate](https://github.com/renovatebot/renovate) | **22,663** | Israel |
+| [teambit/bit](https://github.com/teambit/bit) | **18,493** | Israel |
+| [cool-RR/PySnooper](https://github.com/cool-RR/PySnooper) | **16,576** | Tel-Aviv, Israel |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

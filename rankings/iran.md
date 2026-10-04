@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [nimakian/github-unfollower](https://github.com/nimakian/github-unfollower) | **115** | Tabriz, Iran |
 | [VIDAKHOSHPEY22/Atari-Racer](https://github.com/VIDAKHOSHPEY22/Atari-Racer) | **114** | Iran |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **15,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [MatrixTM/MHDDoS](https://github.com/MatrixTM/MHDDoS) | **16,779** | Iran |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

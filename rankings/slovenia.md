@@ -40,4 +40,18 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Legoless/Alpha](https://github.com/Legoless/Alpha) | **729** | Slovenia |
 | [jzbontar/mc-cnn](https://github.com/jzbontar/mc-cnn) | **726** | Ljubljana, Slovenia |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **15,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [gto76/python-cheatsheet](https://github.com/gto76/python-cheatsheet) | **38,695** | Ljubljana |
+| [decaporg/decap-cms](https://github.com/decaporg/decap-cms) | **19,409** | Slovenia |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

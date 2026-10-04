@@ -40,4 +40,21 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Laxcorp-Research/project-raven](https://github.com/Laxcorp-Research/project-raven) | **421** | United Arab Emirates |
 | [venom-blockchain/awesome-venom](https://github.com/venom-blockchain/awesome-venom) | **390** | United Arab Emirates |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **15,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [homebridge/homebridge](https://github.com/homebridge/homebridge) | **25,503** | International |
+| [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) | **25,226** | United Arab Emirates |
+| [Atlas-OS/Atlas](https://github.com/Atlas-OS/Atlas) | **21,745** | International |
+| [vxunderground/MalwareSourceCode](https://github.com/vxunderground/MalwareSourceCode) | **18,766** | International |
+| [audacity/audacity](https://github.com/audacity/audacity) | **18,642** | International |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

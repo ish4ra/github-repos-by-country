@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [hoangvvo/next-connect](https://github.com/hoangvvo/next-connect) | **1,651** | Vietnam |
 | [aiko-chan-ai/DiscordBotClient](https://github.com/aiko-chan-ai/DiscordBotClient) | **1,476** | Vietnam (Elysia Realm) |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **15,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [thangchung/awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-core) | **21,397** | Ho Chi Minh City, Vietnam |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

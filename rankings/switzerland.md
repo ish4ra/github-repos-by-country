@@ -40,4 +40,24 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [mafintosh/peerflix](https://github.com/mafintosh/peerflix) | **6,268** | Switzerland |
 | [wjakob/instant-meshes](https://github.com/wjakob/instant-meshes) | **6,237** | Lausanne, Switzerland |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **8**
+- Current global star frontier: **15,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [docling-project/docling](https://github.com/docling-project/docling) | **68,344** | Switzerland |
+| [romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k) | **55,193** | Switzerland |
+| [WerWolv/ImHex](https://github.com/WerWolv/ImHex) | **54,970** | Switzerland |
+| [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2) | **32,037** | Zurich, Switzerland |
+| [twpayne/chezmoi](https://github.com/twpayne/chezmoi) | **21,809** | Zürich, Switzerland |
+| [Seldaek/monolog](https://github.com/Seldaek/monolog) | **21,401** | Zürich, Zurich, Switzerland |
+| [antonmedv/fx](https://github.com/antonmedv/fx) | **20,643** | Switzerland |
+| [paperjs/paper.js](https://github.com/paperjs/paper.js) | **15,081** | Switzerland |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

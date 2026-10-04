@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [dive/ios-simulator-scenarios-to-gpx](https://github.com/dive/ios-simulator-scenarios-to-gpx) | **20** | Isle of Man |
 | [BambooOrg/CustomDiscs-SVC](https://github.com/BambooOrg/CustomDiscs-SVC) | **19** | Isle of Man |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **15,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [braydie/HowToBeAProgrammer](https://github.com/braydie/HowToBeAProgrammer) | **16,317** | Isle of Man |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
