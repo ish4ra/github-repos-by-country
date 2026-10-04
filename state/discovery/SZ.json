@@ -8,27 +8,44 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "290840445a2da6a50b8c8edc5b88a47011ca1f053d174c1bc6b45e4f48bd39ef",
+    "sha256": "aed40457e15d84872361b3adf0998e0d9ac5e39f49a4fbc8ef2e27f7d3b3e54f",
     "termsTotal": 57
   },
   "phase": "discovery",
-  "nextTermIndex": 2,
-  "activeTerm": null,
+  "nextTermIndex": 1,
+  "activeTerm": {
+    "index": 1,
+    "term": "Swaziland",
+    "queue": [
+      {
+        "query": "location:\"Swaziland\"",
+        "stage": "base",
+        "cursor": "Y3Vyc29yOjE1MA==",
+        "pageNumber": 4,
+        "attempts": 0
+      }
+    ],
+    "startedAt": "2026-10-04T21:39:15.069Z",
+    "requests": 3,
+    "leafPages": 3,
+    "shardExpansions": 0,
+    "reportedCount": null
+  },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:29:45.053Z",
-  "updatedAt": "2026-10-03T16:33:41.203Z",
+  "startedAt": "2026-10-04T21:39:01.687Z",
+  "updatedAt": "2026-10-04T21:39:22.773Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
-    "termsProcessed": 2,
-    "searchRequests": 9,
-    "leafPages": 9,
+    "termsProcessed": 1,
+    "searchRequests": 8,
+    "leafPages": 8,
     "shardExpansions": 0,
-    "rawOwnerHits": 390,
-    "acceptedOwnerHits": 384,
+    "rawOwnerHits": 383,
+    "acceptedOwnerHits": 377,
     "rejectedOwnerHits": 6,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4683
+    "minimumRateLimitRemaining": 4873
   },
   "unresolvedShards": [],
   "candidates": [
@@ -216,7 +233,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-12-19T08:37:08Z",
-        "pushedAt": "2026-08-09T17:18:00Z",
+        "pushedAt": "2026-10-04T20:51:35Z",
         "homepageUrl": "https://docs.addisassistant.com",
         "primaryLanguage": {
           "name": "MDX"
@@ -2652,7 +2669,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-03-17T13:23:18Z",
-        "pushedAt": "2026-10-01T11:48:47Z",
+        "pushedAt": "2026-10-03T19:41:56Z",
         "homepageUrl": "https://circle-app-app.vercel.app",
         "primaryLanguage": {
           "name": "JavaScript"
@@ -4392,7 +4409,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-11-06T19:20:13Z",
-        "pushedAt": "2026-10-03T09:57:06Z",
+        "pushedAt": "2026-10-04T08:46:09Z",
         "homepageUrl": "https://ticketiv.app",
         "primaryLanguage": {
           "name": "TypeScript"

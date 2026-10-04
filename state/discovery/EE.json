@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "4b72ea3863c07e6dfecfde1b4a9ef7498bbca462a54dc269c0a9247ab516342f",
+    "sha256": "b84ce70524541c67055c47ad207761f44e739b0fe83d5804d5f23eca8273c02a",
     "termsTotal": 328
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Estonia",
     "queue": [
+      {
+        "query": "location:\"Estonia\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
       {
         "query": "location:\"Estonia\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
         "stage": "year:2013",
@@ -270,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:29:41.266Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-04T21:38:47.704Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 1531
+    "reportedCount": 1529
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:29:41.266Z",
-  "updatedAt": "2026-10-03T16:33:21.092Z",
+  "startedAt": "2026-10-04T21:38:47.704Z",
+  "updatedAt": "2026-10-04T21:39:01.680Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 246,
-    "acceptedOwnerHits": 239,
+    "rawOwnerHits": 213,
+    "acceptedOwnerHits": 206,
     "rejectedOwnerHits": 7,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4684
+    "minimumRateLimitRemaining": 4881
   },
   "unresolvedShards": [],
   "candidates": [
@@ -317,12 +324,12 @@
         "nameWithOwner": "AvaloniaUI/Avalonia",
         "url": "https://github.com/AvaloniaUI/Avalonia",
         "description": "Develop Desktop, Embedded, Mobile and WebAssembly apps with C# and XAML. The future of .NET UI",
-        "stargazerCount": 31618,
+        "stargazerCount": 31622,
         "forkCount": 2835,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2013-12-05T20:13:21Z",
-        "pushedAt": "2026-10-01T14:18:30Z",
+        "pushedAt": "2026-10-04T20:59:39Z",
         "homepageUrl": "https://avaloniaui.net",
         "primaryLanguage": {
           "name": "C#"
@@ -356,12 +363,12 @@
         "nameWithOwner": "organicmaps/organicmaps",
         "url": "https://github.com/organicmaps/organicmaps",
         "description": "🍃 Organic Maps is a free Android & iOS offline maps app for more than 6M travelers, tourists, hikers, and cyclists. It uses crowd-sourced OpenStreetMap data and is developed with love by the community. No ads, no tracking, no data collection, no crapware. Please donate to support the development!",
-        "stargazerCount": 15553,
-        "forkCount": 1621,
+        "stargazerCount": 15579,
+        "forkCount": 1624,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2020-12-27T19:02:26Z",
-        "pushedAt": "2026-10-03T04:10:11Z",
+        "pushedAt": "2026-10-04T21:22:41Z",
         "homepageUrl": "https://organicmaps.app",
         "primaryLanguage": {
           "name": "C++"
@@ -395,7 +402,7 @@
         "nameWithOwner": "bxcodec/go-clean-arch",
         "url": "https://github.com/bxcodec/go-clean-arch",
         "description": "Go (Golang) Clean Architecture based on Reading Uncle Bob's Clean Architecture",
-        "stargazerCount": 10169,
+        "stargazerCount": 10172,
         "forkCount": 1317,
         "isArchived": false,
         "isFork": false,
@@ -434,7 +441,7 @@
         "nameWithOwner": "joe-bell/cva",
         "url": "https://github.com/joe-bell/cva",
         "description": "Class Variance Authority",
-        "stargazerCount": 6904,
+        "stargazerCount": 6905,
         "forkCount": 140,
         "isArchived": false,
         "isFork": false,
@@ -473,7 +480,7 @@
         "nameWithOwner": "iconify/iconify",
         "url": "https://github.com/iconify/iconify",
         "description": "Universal icon framework. One syntax for FontAwesome, Material Design Icons, DashIcons, Feather Icons, EmojiOne, Noto Emoji and many other open source icon sets (over 200 icon sets and ~300k icons). SVG framework, React, Vue and Svelte components!",
-        "stargazerCount": 6351,
+        "stargazerCount": 6354,
         "forkCount": 207,
         "isArchived": false,
         "isFork": false,
@@ -551,7 +558,7 @@
         "nameWithOwner": "s4kibs4mi/java-developer-roadmap",
         "url": "https://github.com/s4kibs4mi/java-developer-roadmap",
         "description": "Roadmap to becoming a Java developer in 2026",
-        "stargazerCount": 4547,
+        "stargazerCount": 4548,
         "forkCount": 565,
         "isArchived": false,
         "isFork": false,
@@ -814,7 +821,7 @@
         "nameWithOwner": "rebane2001/xikipedia",
         "url": "https://github.com/rebane2001/xikipedia",
         "description": "Wikipedia as a social media feed",
-        "stargazerCount": 1137,
+        "stargazerCount": 1138,
         "forkCount": 74,
         "isArchived": false,
         "isFork": false,
@@ -853,7 +860,7 @@
         "nameWithOwner": "martinpaljak/GlobalPlatformPro",
         "url": "https://github.com/martinpaljak/GlobalPlatformPro",
         "description": "Manage applets and keys on JavaCard-s like a pro 🌐 🔐",
-        "stargazerCount": 946,
+        "stargazerCount": 948,
         "forkCount": 258,
         "isArchived": false,
         "isFork": false,
@@ -975,7 +982,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2018-09-04T08:42:05Z",
-        "pushedAt": "2026-10-03T06:58:52Z",
+        "pushedAt": "2026-10-04T21:36:26Z",
         "homepageUrl": "https://transferwise.github.io/pipelinewise",
         "primaryLanguage": {
           "name": "Python"
@@ -1736,10 +1743,10 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2019-04-23T13:58:54Z",
-        "pushedAt": "2026-08-06T10:26:25Z",
+        "pushedAt": "2026-10-04T18:27:16Z",
         "homepageUrl": "https://vatcomply.com",
         "primaryLanguage": {
-          "name": "Python"
+          "name": "Rust"
         },
         "licenseInfo": {
           "name": "MIT License",
@@ -4590,6 +4597,42 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY4MzM4Mzc4",
+      "login": "mungoose",
+      "name": "Margus Tammela",
+      "type": "User",
+      "location": "Estonia",
+      "url": "https://github.com/mungoose",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/68338378?u=ebec824166ea54ff72b19ef618c200b32a29c430&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "EE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Estonia"
+      },
+      "discoveryTerms": [
+        "Estonia"
+      ],
+      "topRepository": {
+        "name": "valiit",
+        "nameWithOwner": "mungoose/valiit",
+        "url": "https://github.com/mungoose/valiit",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-11-04T11:08:35Z",
+        "pushedAt": "2020-11-22T10:20:12Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
       }
     },
     {

@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "517caed06910d956a9b087548a686481f19d5d02c7524a8c3b2af671245c016b",
+    "sha256": "f9ffd835c880f820ede5e3949b8fdc2a344e41ab68011d415f2cfabf61a01ec4",
     "termsTotal": 312
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Ethiopia",
     "queue": [
+      {
+        "query": "location:\"Ethiopia\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
       {
         "query": "location:\"Ethiopia\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
         "stage": "year:2013",
@@ -270,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:29:48.023Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-04T21:39:22.783Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 2602
+    "reportedCount": 2601
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:29:48.023Z",
-  "updatedAt": "2026-10-03T16:33:54.228Z",
+  "startedAt": "2026-10-04T21:39:22.783Z",
+  "updatedAt": "2026-10-04T21:39:38.047Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 207,
-    "acceptedOwnerHits": 207,
+    "rawOwnerHits": 202,
+    "acceptedOwnerHits": 202,
     "rejectedOwnerHits": 0,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4682
+    "minimumRateLimitRemaining": 4865
   },
   "unresolvedShards": [],
   "candidates": [
@@ -317,7 +324,7 @@
         "nameWithOwner": "frectonz/sql-studio",
         "url": "https://github.com/frectonz/sql-studio",
         "description": "SQL Database Explorer [SQLite, libSQL, PostgreSQL, MySQL/MariaDB, ClickHouse, DuckDB, Microsoft SQL Server]",
-        "stargazerCount": 3691,
+        "stargazerCount": 3692,
         "forkCount": 130,
         "isArchived": false,
         "isFork": false,
@@ -776,7 +783,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-05-03T17:09:26Z",
-        "pushedAt": "2026-10-03T11:30:22Z",
+        "pushedAt": "2026-10-04T19:29:08Z",
         "homepageUrl": "https://digital-camera-6pmo.vercel.app",
         "primaryLanguage": {
           "name": "TypeScript"
@@ -1128,9 +1135,9 @@
         "Ethiopia"
       ],
       "topRepository": {
-        "name": "DemisoDaba.github.io",
-        "nameWithOwner": "DemisoDaba/DemisoDaba.github.io",
-        "url": "https://github.com/DemisoDaba/DemisoDaba.github.io",
+        "name": "DemisoDaba.github.ioo",
+        "nameWithOwner": "DemisoDaba/DemisoDaba.github.ioo",
+        "url": "https://github.com/DemisoDaba/DemisoDaba.github.ioo",
         "description": "My Portfolio - Personal Website : This repository contains a version of SE Foundations portfolio, requested by Alx-Africa School in partial fulfillment for Foundation.",
         "stargazerCount": 9,
         "forkCount": 0,
@@ -1138,7 +1145,7 @@
         "isFork": false,
         "createdAt": "2023-08-22T12:52:48Z",
         "pushedAt": "2024-05-29T16:56:50Z",
-        "homepageUrl": "https://demisodaba.github.io/",
+        "homepageUrl": "https://demisodaba.github.io/DemisoDaba.github.ioo/",
         "primaryLanguage": {
           "name": "HTML"
         },

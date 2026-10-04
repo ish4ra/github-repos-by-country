@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "0a73a5981330aba1816a037d9ad3e8e1f356f65c22bcc806dd0c815562981913",
+    "sha256": "6352cd62f991ee5aae55491e52c0cbc9124302592e65e66f1868fcd3e8ee9099",
     "termsTotal": 79
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "El Salvador",
     "queue": [
+      {
+        "query": "location:\"El Salvador\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
       {
         "query": "location:\"El Salvador\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
         "stage": "year:2013",
@@ -270,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:29:32.748Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-04T21:38:19.693Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 1218
+    "reportedCount": 1219
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:29:32.748Z",
-  "updatedAt": "2026-10-03T16:32:55.468Z",
+  "startedAt": "2026-10-04T21:38:19.693Z",
+  "updatedAt": "2026-10-04T21:38:34.960Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 217,
-    "acceptedOwnerHits": 214,
+    "rawOwnerHits": 205,
+    "acceptedOwnerHits": 202,
     "rejectedOwnerHits": 3,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4687
+    "minimumRateLimitRemaining": 4904
   },
   "unresolvedShards": [],
   "candidates": [
@@ -356,12 +363,12 @@
         "nameWithOwner": "terrakube-io/terrakube",
         "url": "https://github.com/terrakube-io/terrakube",
         "description": "Open source IaC Automation and Collaboration Software.",
-        "stargazerCount": 963,
+        "stargazerCount": 964,
         "forkCount": 133,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2021-03-19T23:15:31Z",
-        "pushedAt": "2026-10-02T23:11:54Z",
+        "pushedAt": "2026-10-04T20:28:07Z",
         "homepageUrl": "https://docs.terrakube.io",
         "primaryLanguage": {
           "name": "Java"
@@ -626,7 +633,7 @@
         "nameWithOwner": "bitgetwallet/download",
         "url": "https://github.com/bitgetwallet/download",
         "description": "Bitget Wallet Logos",
-        "stargazerCount": 146,
+        "stargazerCount": 147,
         "forkCount": 62,
         "isArchived": false,
         "isFork": false,
@@ -704,7 +711,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2022-03-01T22:36:30Z",
-        "pushedAt": "2026-09-15T18:34:04Z",
+        "pushedAt": "2026-10-04T16:11:02Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "PHP"
@@ -3606,6 +3613,40 @@
         "isFork": false,
         "createdAt": "2024-03-27T06:59:28Z",
         "pushedAt": "2024-03-27T06:59:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYwNTYyNjA5",
+      "login": "JRSV1809",
+      "name": "Josue Romero Escobar",
+      "type": "User",
+      "location": "SV - El Salvador",
+      "url": "https://github.com/JRSV1809",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/60562609?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SV",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "El Salvador"
+      },
+      "discoveryTerms": [
+        "El Salvador"
+      ],
+      "topRepository": {
+        "name": "300ERP",
+        "nameWithOwner": "JRSV1809/300ERP",
+        "url": "https://github.com/JRSV1809/300ERP",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-08-16T04:27:44Z",
+        "pushedAt": "2025-08-16T04:39:06Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null

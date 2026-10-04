@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "bfac5f0536b954c20100e51cf71693d7c3b62fa3acd8e0ffbcf6eb3dcf19f27a",
+    "sha256": "df66b07f3c5b439b81f1889147a2eef89b7aca00fa964ab1db4928cce20acf26",
     "termsTotal": 407
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Ecuador",
     "queue": [
+      {
+        "query": "location:\"Ecuador\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
       {
         "query": "location:\"Ecuador\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
         "stage": "year:2013",
@@ -270,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:29:25.580Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-04T21:37:50.759Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 2954
+    "reportedCount": 2952
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:29:25.580Z",
-  "updatedAt": "2026-10-03T12:04:00.711Z",
+  "startedAt": "2026-10-04T21:37:50.759Z",
+  "updatedAt": "2026-10-04T21:38:04.984Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 244,
-    "acceptedOwnerHits": 240,
-    "rejectedOwnerHits": 4,
+    "rawOwnerHits": 212,
+    "acceptedOwnerHits": 209,
+    "rejectedOwnerHits": 3,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4609
+    "minimumRateLimitRemaining": 4920
   },
   "unresolvedShards": [],
   "candidates": [
@@ -317,12 +324,12 @@
         "nameWithOwner": "eythaann/Seelen-UI",
         "url": "https://github.com/eythaann/Seelen-UI",
         "description": "The Fully Customizable Desktop Environment for Windows 10/11.",
-        "stargazerCount": 17938,
+        "stargazerCount": 17947,
         "forkCount": 616,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2024-02-16T18:03:35Z",
-        "pushedAt": "2026-10-03T01:24:27Z",
+        "pushedAt": "2026-10-04T00:48:49Z",
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "Rust"
@@ -356,12 +363,12 @@
         "nameWithOwner": "jxlarrea/kiosk-satellite",
         "url": "https://github.com/jxlarrea/kiosk-satellite",
         "description": "Turn any Android device into a beautiful, dedicated Home Assistant kiosk. Purpose-built for Home Assistant from the ground up.",
-        "stargazerCount": 1419,
-        "forkCount": 45,
+        "stargazerCount": 1459,
+        "forkCount": 48,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-07-15T04:19:12Z",
-        "pushedAt": "2026-10-03T05:30:08Z",
+        "pushedAt": "2026-10-04T21:31:43Z",
         "homepageUrl": "https://kiosksatellite.com",
         "primaryLanguage": {
           "name": "Dart"
@@ -591,7 +598,7 @@
         "url": "https://github.com/GataNina-Li/GataBot-MD",
         "description": "🐈 Este es el Repositorio Oficial de GataBot-MD. Si te ha gustado lo que ves, ¡nos encantaría que nos apoyaras con una estrella! ⭐ Muchas gracias por tu apoyo. 🫶",
         "stargazerCount": 678,
-        "forkCount": 1927,
+        "forkCount": 1928,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2022-12-21T05:41:36Z",
@@ -629,7 +636,7 @@
         "nameWithOwner": "Darkmux/SETSMS",
         "url": "https://github.com/Darkmux/SETSMS",
         "description": "Es una herramienta de automatización de spam de mensajes de texto a un número telefónico de manera gratuita y anónima. Utiliza las herramientas (Quack - Impulse) para realizar el spam, además, tiene la función de guardar números telefónicos en una lista negra (blacklist) y realizar el spam a todos los números de la lista negra consecutivamente.",
-        "stargazerCount": 539,
+        "stargazerCount": 540,
         "forkCount": 71,
         "isArchived": false,
         "isFork": false,
@@ -704,8 +711,8 @@
         "nameWithOwner": "DevCoreXOfficial/core-termux",
         "url": "https://github.com/DevCoreXOfficial/core-termux",
         "description": "Turn Termux into a complete development workstation with AI coding agents, a modern code editor, databases, automation, and developer tools.",
-        "stargazerCount": 471,
-        "forkCount": 62,
+        "stargazerCount": 473,
+        "forkCount": 64,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2023-12-06T19:55:00Z",

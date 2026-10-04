@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "ba5f5529743df21151d078d81708d10402c77157658a2eb988aad3f625fc11e2",
+    "sha256": "adf76aba25e92d29eb80ad504261348eac95f80f2e7cc037be74d9ad4ccb3ae8",
     "termsTotal": 338
   },
   "phase": "discovery",
@@ -18,10 +18,31 @@
     "term": "Egypt",
     "queue": [
       {
+        "query": "location:\"Egypt\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Egypt\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
+        "stage": "year:2013",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Egypt\" type:user followers:0 repos:1..4 created:2014-01-01..2014-12-31",
+        "stage": "year:2014",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
         "query": "location:\"Egypt\" type:user followers:0 repos:1..4 created:2015-01-01..2015-12-31",
         "stage": "year:2015",
-        "cursor": "Y3Vyc29yOjUw",
-        "pageNumber": 2,
+        "cursor": null,
+        "pageNumber": 1,
         "attempts": 0
       },
       {
@@ -256,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:29:29.235Z",
-    "requests": 17,
-    "leafPages": 13,
+    "startedAt": "2026-10-04T21:38:04.998Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 11864
+    "reportedCount": 11882
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:29:29.235Z",
-  "updatedAt": "2026-10-03T16:32:42.618Z",
+  "startedAt": "2026-10-04T21:38:04.998Z",
+  "updatedAt": "2026-10-04T21:38:19.678Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 17,
-    "leafPages": 13,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 574,
-    "acceptedOwnerHits": 569,
-    "rejectedOwnerHits": 5,
+    "rawOwnerHits": 215,
+    "acceptedOwnerHits": 211,
+    "rejectedOwnerHits": 4,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4601
+    "minimumRateLimitRemaining": 4912
   },
   "unresolvedShards": [],
   "candidates": [
@@ -303,12 +324,12 @@
         "nameWithOwner": "D4Vinci/Scrapling",
         "url": "https://github.com/D4Vinci/Scrapling",
         "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
-        "stargazerCount": 85372,
-        "forkCount": 8744,
+        "stargazerCount": 85667,
+        "forkCount": 8774,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2024-10-13T20:29:53Z",
-        "pushedAt": "2026-09-30T22:28:16Z",
+        "pushedAt": "2026-10-04T19:47:53Z",
         "homepageUrl": "https://scrapling.readthedocs.io/en/latest/",
         "primaryLanguage": {
           "name": "Python"
@@ -342,7 +363,7 @@
         "nameWithOwner": "aboul3la/Sublist3r",
         "url": "https://github.com/aboul3la/Sublist3r",
         "description": "Fast subdomains enumeration tool for penetration testers",
-        "stargazerCount": 11048,
+        "stargazerCount": 11050,
         "forkCount": 2214,
         "isArchived": false,
         "isFork": false,
@@ -382,7 +403,7 @@
         "url": "https://github.com/mbadry1/DeepLearning.ai-Summary",
         "description": "This repository contains my personal notes and summaries on DeepLearning.ai specialization courses. I've enjoyed every little bit of the course hope you enjoy my notes too.",
         "stargazerCount": 5349,
-        "forkCount": 2428,
+        "forkCount": 2427,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2017-11-12T15:08:34Z",
@@ -420,8 +441,8 @@
         "nameWithOwner": "Moataz-Elmesmary/Data-Science-Roadmap",
         "url": "https://github.com/Moataz-Elmesmary/Data-Science-Roadmap",
         "description": "Data Science Roadmap from A to Z",
-        "stargazerCount": 4384,
-        "forkCount": 623,
+        "stargazerCount": 4386,
+        "forkCount": 624,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2022-04-17T13:40:19Z",
@@ -496,8 +517,8 @@
         "nameWithOwner": "amElnagdy/delegate-skills",
         "url": "https://github.com/amElnagdy/delegate-skills",
         "description": "Delegate a coding task to a separate coding agent CLI, review the diff, land the commit yourself — one per implementer.",
-        "stargazerCount": 2288,
-        "forkCount": 189,
+        "stargazerCount": 2300,
+        "forkCount": 192,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-06-14T10:35:48Z",
@@ -535,8 +556,8 @@
         "nameWithOwner": "abanoub-asaad/Java-Backend",
         "url": "https://github.com/abanoub-asaad/Java-Backend",
         "description": "These are resources, roadmaps, links to learn Java Backend :)",
-        "stargazerCount": 1917,
-        "forkCount": 270,
+        "stargazerCount": 1919,
+        "forkCount": 271,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2022-10-09T17:41:35Z",
@@ -573,7 +594,7 @@
         "url": "https://github.com/emadshanab/Nuclei-Templates-Collection",
         "description": "Nuclei Templates Collection",
         "stargazerCount": 1228,
-        "forkCount": 298,
+        "forkCount": 297,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2021-05-29T17:49:33Z",
@@ -608,7 +629,7 @@
         "nameWithOwner": "abdullahtarek/football_analysis",
         "url": "https://github.com/abdullahtarek/football_analysis",
         "description": "This repository contains a comprehensive computer vision/machine learning football project that uses YOLO for object detection, Kmeans for pixel segmentation, optical flow for motion tracking, and perspective transformation to analyze player movements in football videos",
-        "stargazerCount": 1015,
+        "stargazerCount": 1016,
         "forkCount": 343,
         "isArchived": false,
         "isFork": false,
@@ -645,7 +666,7 @@
         "url": "https://github.com/bakrianoo/mini-rag",
         "description": "An Educational Project (step by step) to teach how to build a production-ready app for RAG application.",
         "stargazerCount": 724,
-        "forkCount": 329,
+        "forkCount": 331,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2024-02-27T13:39:48Z",
@@ -860,7 +881,7 @@
         "nameWithOwner": "7oSkaaa/Competitive-Programming-Session-Content",
         "url": "https://github.com/7oSkaaa/Competitive-Programming-Session-Content",
         "description": "Competitive Programming Sessions",
-        "stargazerCount": 221,
+        "stargazerCount": 222,
         "forkCount": 15,
         "isArchived": false,
         "isFork": false,
@@ -1335,7 +1356,7 @@
         "nameWithOwner": "Mohamed20384/machine-learning-from-scratch",
         "url": "https://github.com/Mohamed20384/machine-learning-from-scratch",
         "description": null,
-        "stargazerCount": 68,
+        "stargazerCount": 69,
         "forkCount": 5,
         "isArchived": false,
         "isFork": false,
@@ -1371,7 +1392,7 @@
         "nameWithOwner": "noorgx/form-forge",
         "url": "https://github.com/noorgx/form-forge",
         "description": "Fill scanned paper forms from a template, with bulk generation from an Excel sheet. Arabic and English.",
-        "stargazerCount": 67,
+        "stargazerCount": 69,
         "forkCount": 1,
         "isArchived": false,
         "isFork": false,
@@ -1451,7 +1472,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-10-22T14:22:25Z",
-        "pushedAt": "2026-10-03T03:56:45Z",
+        "pushedAt": "2026-10-04T16:29:38Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -1485,7 +1506,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-09-30T02:51:01Z",
-        "pushedAt": "2026-10-03T08:48:54Z",
+        "pushedAt": "2026-10-04T09:16:16Z",
         "homepageUrl": "https://maher-elmair.github.io/My_Website/",
         "primaryLanguage": null,
         "licenseInfo": null
@@ -1564,6 +1585,42 @@
       }
     },
     {
+      "id": "U_kgDOBvy4bw",
+      "login": "mohamed-sayed-elmahdy",
+      "name": "Mohamed Sayed Elmahdy",
+      "type": "User",
+      "location": "Egypt",
+      "url": "https://github.com/mohamed-sayed-elmahdy",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/117225583?u=2407deb3f777fd049a67b00bc95d1e49a2841c18&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "EG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Egypt"
+      },
+      "discoveryTerms": [
+        "Egypt"
+      ],
+      "topRepository": {
+        "name": "Frontend-Forge-Platform",
+        "nameWithOwner": "mohamed-sayed-elmahdy/Frontend-Forge-Platform",
+        "url": "https://github.com/mohamed-sayed-elmahdy/Frontend-Forge-Platform",
+        "description": null,
+        "stargazerCount": 16,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-11-17T12:31:46Z",
+        "pushedAt": "2026-09-22T07:51:54Z",
+        "homepageUrl": "https://frontend-forge-platform.vercel.app/",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCaKONw",
       "login": "YoussefMoHlemyAlpha",
       "name": "Youssef MO Helmy ",
@@ -1591,45 +1648,9 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2024-04-15T15:43:35Z",
-        "pushedAt": "2026-10-03T04:55:07Z",
+        "pushedAt": "2026-10-04T05:27:30Z",
         "homepageUrl": "https://github.com/YoussefMoHlemyAlpha",
         "primaryLanguage": null,
-        "licenseInfo": null
-      }
-    },
-    {
-      "id": "U_kgDOBvy4bw",
-      "login": "mohamed-sayed-elmahdy",
-      "name": "Mohamed Sayed Elmahdy",
-      "type": "User",
-      "location": "Egypt",
-      "url": "https://github.com/mohamed-sayed-elmahdy",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/117225583?u=2407deb3f777fd049a67b00bc95d1e49a2841c18&v=4",
-      "attribution": {
-        "accepted": true,
-        "countryCode": "EG",
-        "confidence": "high",
-        "evidence": "explicit-country",
-        "matched": "Egypt"
-      },
-      "discoveryTerms": [
-        "Egypt"
-      ],
-      "topRepository": {
-        "name": "Frontend-Forge-Platform",
-        "nameWithOwner": "mohamed-sayed-elmahdy/Frontend-Forge-Platform",
-        "url": "https://github.com/mohamed-sayed-elmahdy/Frontend-Forge-Platform",
-        "description": null,
-        "stargazerCount": 15,
-        "forkCount": 2,
-        "isArchived": false,
-        "isFork": false,
-        "createdAt": "2024-11-17T12:31:46Z",
-        "pushedAt": "2026-09-22T07:51:54Z",
-        "homepageUrl": "https://frontend-forge-platform.vercel.app/",
-        "primaryLanguage": {
-          "name": "JavaScript"
-        },
         "licenseInfo": null
       }
     },
@@ -1840,14 +1861,14 @@
         "url": "https://github.com/mostafaalagamy/mostafaalagamy.github.io",
         "description": "Metrolist - YouTube Music client for Android",
         "stargazerCount": 6,
-        "forkCount": 1,
+        "forkCount": 2,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-01-08T18:19:26Z",
-        "pushedAt": "2026-01-08T19:03:27Z",
+        "pushedAt": "2026-10-04T17:27:11Z",
         "homepageUrl": "https://mostafaalagamy.github.io",
         "primaryLanguage": {
-          "name": "JavaScript"
+          "name": "HTML"
         },
         "licenseInfo": {
           "name": "GNU General Public License v3.0",
@@ -1959,6 +1980,42 @@
         "isFork": false,
         "createdAt": "2019-01-06T23:43:22Z",
         "pushedAt": "2019-01-06T23:57:00Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOB33mXw",
+      "login": "Islam412",
+      "name": "Islam Hamdy",
+      "type": "User",
+      "location": "Egypt",
+      "url": "https://github.com/Islam412",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/125691487?u=77dde86f89d65015428d3183b113593d2b17daba&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "EG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Egypt"
+      },
+      "discoveryTerms": [
+        "Egypt"
+      ],
+      "topRepository": {
+        "name": "Add-student-name",
+        "nameWithOwner": "Islam412/Add-student-name",
+        "url": "https://github.com/Islam412/Add-student-name",
+        "description": "Add student name  with js",
+        "stargazerCount": 3,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-07-10T20:03:23Z",
+        "pushedAt": "2024-07-10T20:10:48Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "HTML"
