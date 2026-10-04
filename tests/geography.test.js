@@ -73,3 +73,31 @@ test('country-unique city names are not marked ambiguous', () => {
 
   assert.ok(!indexes.get('LK').ambiguousTerms.includes('kalutara'));
 });
+
+
+test('compound city and admin terms preserve disambiguating state context', () => {
+  const indexes = buildCountryGeographyIndexes(
+    [
+      {
+        iso2: 'US',
+        name: 'United States',
+        states: [{ name: 'Oregon', iso2: 'OR', cities: [{ name: 'Portland', state_code: 'OR' }] }],
+      },
+      {
+        iso2: 'AU',
+        name: 'Australia',
+        states: [{ name: 'Victoria', iso2: 'VIC', cities: [{ name: 'Portland', state_code: 'VIC' }] }],
+      },
+    ],
+    [
+      { code: 'US', name: 'United States', slug: 'united-states' },
+      { code: 'AU', name: 'Australia', slug: 'australia' },
+    ],
+  );
+
+  const us = indexes.get('US');
+  assert.ok(us.ambiguousTerms.includes('portland'));
+  assert.ok(us.compoundTerms.includes('Portland, Oregon'));
+  assert.ok(us.compoundTerms.includes('Portland, OR'));
+  assert.ok(indexes.get('AU').compoundTerms.includes('Portland, Victoria'));
+});

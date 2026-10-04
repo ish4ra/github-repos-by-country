@@ -62,6 +62,7 @@ export function buildCountryGeographyIndexes(dataset, catalog) {
     const discoveryTerms = new Set();
     const cityNames = new Set();
     const adminNames = new Set();
+    const compoundTerms = new Set();
 
     addNameVariants(attributionTerms, country, { includeTranslations: true });
     // Country translations are cheap to search and catch profiles that use
@@ -74,14 +75,24 @@ export function buildCountryGeographyIndexes(dataset, catalog) {
     for (const state of states) {
       addNameVariants(attributionTerms, state, { includeTranslations: true });
       addNameVariants(discoveryTerms, state, { includeTranslations: false });
-      for (const name of getPrimaryNames(state)) adminNames.add(name);
+      const stateNames = getPrimaryNames(state);
+      const stateCodes = getAdminCodes(state, code);
+      for (const name of stateNames) adminNames.add(name);
 
       const cities = Array.isArray(state?.cities) ? state.cities : [];
       for (const city of cities) {
         cityRecords += 1;
         addNameVariants(attributionTerms, city, { includeTranslations: true });
         addNameVariants(discoveryTerms, city, { includeTranslations: false });
-        for (const name of getPrimaryNames(city)) cityNames.add(name);
+        const primaryCityNames = getPrimaryNames(city);
+        const cityStateCodes = getAdminCodes(city, code);
+        for (const name of primaryCityNames) cityNames.add(name);
+        addCompoundVariants(
+          compoundTerms,
+          primaryCityNames,
+          stateNames,
+          [...new Set([...stateCodes, ...cityStateCodes])],
+        );
       }
     }
 
@@ -120,9 +131,11 @@ export function buildCountryGeographyIndexes(dataset, catalog) {
         uniquePrimaryAdminRegions: adminNames.size,
         attributionTerms: attributionTerms.size,
         discoveryTerms: discoveryTerms.size,
+        compoundTerms: compoundTerms.size,
       },
       attributionTerms: sortTerms(attributionTerms),
       discoveryTerms: sortTerms(discoveryTerms),
+      compoundTerms: sortTerms(compoundTerms),
     });
   }
 
@@ -189,6 +202,32 @@ function getPrimaryNames(value) {
   for (const field of ['name', 'native', 'ascii_name', 'asciiName']) {
     addTerm(found, value[field]);
   }
+  return [...found];
+}
+
+function addCompoundVariants(target, cityNames, adminNames, adminCodes) {
+  for (const cityName of cityNames || []) {
+    for (const adminName of adminNames || []) addTerm(target, `${cityName}, ${adminName}`);
+    for (const adminCode of adminCodes || []) addTerm(target, `${cityName}, ${adminCode}`);
+  }
+}
+
+function getAdminCodes(value, countryCode) {
+  if (!value || typeof value !== 'object') return [];
+  const found = new Set();
+
+  for (const field of ['iso2', 'state_code', 'stateCode', 'code']) {
+    const raw = String(value[field] || '').trim();
+    if (!raw || raw.length > 16) continue;
+    found.add(raw);
+
+    const prefix = `${String(countryCode || '').toUpperCase()}-`;
+    const upper = raw.toUpperCase();
+    if (upper.startsWith(prefix) && upper.length > prefix.length) {
+      found.add(raw.slice(prefix.length));
+    }
+  }
+
   return [...found];
 }
 

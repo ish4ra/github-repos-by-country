@@ -30,6 +30,7 @@ export async function loadCountryConfig(code) {
     countryAliases: mergeUnique([country.name], country.aliases || []),
     exactCountryAliases: [country.code.toLowerCase()],
     locationTerms: [],
+    compoundLocationTerms: [],
     curatedLocationTerms: [],
     ambiguousLocationTerms: [],
     searchTerms: mergeUnique([country.name], country.aliases || []),
@@ -40,6 +41,7 @@ export async function loadCountryConfig(code) {
   const geography = await loadGeographyIndex(normalized);
   if (geography) {
     base.locationTerms = mergeUnique(base.locationTerms, geography.attributionTerms || []);
+    base.compoundLocationTerms = mergeUnique([], geography.compoundTerms || []);
     base.ambiguousLocationTerms = geography.ambiguousTerms || [];
     base.geographySearchTerms = mergeUnique([], geography.discoveryTerms || []);
     base.geographyCoverage = 'generated-global-index';
@@ -64,6 +66,7 @@ export async function loadCountryConfig(code) {
       countryAliases: mergeUnique(base.countryAliases, override.countryAliases || []),
       exactCountryAliases: mergeUnique(base.exactCountryAliases, override.exactCountryAliases || []),
       locationTerms: mergeUnique(base.locationTerms, override.locationTerms || []),
+      compoundLocationTerms: base.compoundLocationTerms,
       curatedLocationTerms: mergeUnique([], override.locationTerms || []),
       ambiguousLocationTerms: base.ambiguousLocationTerms,
       searchTerms: mergeUnique(base.searchTerms, override.searchTerms || []),
@@ -94,6 +97,7 @@ function prepareLookups(config) {
   return {
     ...config,
     locationTermLookup: new Set(config.locationTerms.map(canonicalize)),
+    compoundLocationTermLookup: new Set((config.compoundLocationTerms || []).map(canonicalize)),
     ambiguousLocationTermLookup: new Set(config.ambiguousLocationTerms.map(canonicalize)),
     curatedLocationTerms: config.curatedLocationTerms || [],
   };
@@ -133,6 +137,7 @@ function validateCountryConfig(config) {
 
   for (const key of [
     'locationTerms',
+    'compoundLocationTerms',
     'curatedLocationTerms',
     'ambiguousLocationTerms',
     'geographySearchTerms',

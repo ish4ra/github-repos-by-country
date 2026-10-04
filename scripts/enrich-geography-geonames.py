@@ -99,6 +99,10 @@ def main() -> None:
         code: set(value.get("discoveryTerms", []))
         for code, value in indexes.items()
     }
+    compound = {
+        code: set(value.get("compoundTerms", []))
+        for code, value in indexes.items()
+    }
     geonames_records: defaultdict[str, int] = defaultdict(int)
 
     with zipfile.ZipFile(io.BytesIO(payload)) as archive:
@@ -118,11 +122,16 @@ def main() -> None:
                 name = columns[1]
                 ascii_name = columns[2]
                 alternate_names = columns[3]
+                admin1_code = columns[10].strip()
 
                 add_term(discovery[code], name)
                 add_term(discovery[code], ascii_name)
                 add_term(attribution[code], name)
                 add_term(attribution[code], ascii_name)
+
+                if admin1_code:
+                    add_term(compound[code], f"{name}, {admin1_code}")
+                    add_term(compound[code], f"{ascii_name}, {admin1_code}")
 
                 for alias in alternate_names.split(","):
                     add_term(attribution[code], alias)
@@ -155,6 +164,7 @@ def main() -> None:
                 "attributionTerms": attribution_terms,
                 "discoveryTerms": discovery_terms,
                 "ambiguousTerms": ambiguous,
+                "compoundTerms": sorted(compound[code], key=lambda v: (normalize(v), v)),
             },
             ensure_ascii=False,
             separators=(",", ":"),
@@ -164,7 +174,9 @@ def main() -> None:
 
         index["attributionTerms"] = attribution_terms
         index["discoveryTerms"] = discovery_terms
+        compound_terms = sorted(compound[code], key=lambda v: (normalize(v), v))
         index["ambiguousTerms"] = ambiguous
+        index["compoundTerms"] = compound_terms
         index["contentSha256"] = content_hash
 
         source = index.setdefault("source", {})
@@ -183,6 +195,7 @@ def main() -> None:
         counts["attributionTerms"] = len(attribution_terms)
         counts["discoveryTerms"] = len(discovery_terms)
         counts["ambiguousTerms"] = len(ambiguous)
+        counts["compoundTerms"] = len(compound_terms)
 
         total_records += geonames_records[code]
         total_discovery += len(discovery_terms)

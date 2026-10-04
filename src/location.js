@@ -124,6 +124,16 @@ export function attributeLocation(location, config) {
     };
   }
 
+  if (config.compoundLocationTermLookup?.has(normalized)) {
+    return {
+      accepted: true,
+      countryCode: config.code,
+      confidence: 'high',
+      evidence: 'recognized-place-with-admin',
+      matched: normalized,
+    };
+  }
+
   for (const candidate of locationCandidates(raw)) {
     if (config.ambiguousLocationTermLookup?.has(candidate)) {
       return {

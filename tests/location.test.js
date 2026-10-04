@@ -75,3 +75,40 @@ test('Unicode place names survive normalization and can match generated location
   assert.equal(result.evidence, 'recognized-place');
   assert.equal(normalizeLocationForComparison('කොළඹ'), 'කොළඹ');
 });
+
+
+test('ambiguous city becomes attributable when admin context is recognized', () => {
+  const usConfig = {
+    ...config,
+    code: 'US',
+    countryAliases: ['United States', 'USA'],
+    exactCountryAliases: ['us'],
+    locationTermLookup: new Set(['portland', 'oregon']),
+    compoundLocationTermLookup: new Set(['portland or', 'portland oregon']),
+    ambiguousLocationTermLookup: new Set(['portland']),
+    curatedLocationTerms: [],
+  };
+
+  const result = attributeLocation('Portland, OR', usConfig);
+  assert.equal(result.accepted, true);
+  assert.equal(result.countryCode, 'US');
+  assert.equal(result.confidence, 'high');
+  assert.equal(result.evidence, 'recognized-place-with-admin');
+});
+
+test('ambiguous city without admin context remains rejected', () => {
+  const usConfig = {
+    ...config,
+    code: 'US',
+    countryAliases: ['United States', 'USA'],
+    exactCountryAliases: ['us'],
+    locationTermLookup: new Set(['portland']),
+    compoundLocationTermLookup: new Set(['portland or']),
+    ambiguousLocationTermLookup: new Set(['portland']),
+    curatedLocationTerms: [],
+  };
+
+  const result = attributeLocation('Portland', usConfig);
+  assert.equal(result.accepted, false);
+  assert.equal(result.evidence, 'ambiguous-place');
+});
