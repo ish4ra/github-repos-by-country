@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **12**
+- Current global star frontier: **3,366**
 
 ### High-star verified preview
 
@@ -60,5 +60,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Wolg/awesome-swift](https://github.com/Wolg/awesome-swift) | **5,893** | Tallinn |
 | [surveyjs/survey-library](https://github.com/surveyjs/survey-library) | **4,887** | Estonia |
 | [s4kibs4mi/java-developer-roadmap](https://github.com/s4kibs4mi/java-developer-roadmap) | **4,548** | Tallinn, Estonia |
+| [2ndalpha/gasmask](https://github.com/2ndalpha/gasmask) | **3,859** | Tartu, Estonia |
+| [egonelbre/gophers](https://github.com/egonelbre/gophers) | **3,834** | Estonia, Tartu |
+| [Voog/wysihtml](https://github.com/Voog/wysihtml) | **3,348** | Tartu, Estonia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

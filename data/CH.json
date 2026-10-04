@@ -1,0 +1,3428 @@
+{
+  "schemaVersion": 1,
+  "methodologyVersion": "0.8.0-repository-first",
+  "generatedAt": "2026-10-04T18:44:25.490Z",
+  "country": {
+    "code": "CH",
+    "name": "Switzerland",
+    "slug": "switzerland"
+  },
+  "source": {
+    "provider": "GitHub GraphQL API",
+    "endpoint": "https://api.github.com/graphql",
+    "countryBasis": "public repository-owner profile location",
+    "discovery": "global repositories scanned by stars descending"
+  },
+  "coverage": {
+    "status": "repository-first-certified-by-star-frontier",
+    "exhaustive": false,
+    "rawOwnerHits": 19850,
+    "acceptedUniqueOwners": 85,
+    "ownerMetricLabel": "Unique owners in top ranking",
+    "repositoriesConsidered": 102,
+    "publishedRepositories": 100,
+    "candidateThresholdStars": 3450,
+    "rankingLimit": 100,
+    "cappedQueries": [],
+    "repositoryFirst": {
+      "scanFrontierStars": 3366,
+      "topObservedStars": 551406,
+      "repositoriesSeen": 19850,
+      "attributedRepositories": 6889,
+      "ambiguousLocations": 2846,
+      "unknownLocations": 10115,
+      "unresolvedStarCounts": []
+    },
+    "notes": [
+      "Repositories are scanned globally in descending star ranges, independently of owner follower count or owner-search ordering.",
+      "A country is certified only after its 100th repository has more stars than every unprocessed global star range.",
+      "Owner country is inferred from the owner public GitHub profile location using the global geography resolver.",
+      "Owners with missing or unresolved locations are excluded, so country attribution is not a citizenship or legal-incorporation claim.",
+      "Compound city/admin locations such as \"Portland, OR\" are resolved before ambiguous city-only names."
+    ]
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "docling",
+      "nameWithOwner": "docling-project/docling",
+      "url": "https://github.com/docling-project/docling",
+      "description": "Get your documents ready for gen AI",
+      "stars": 68344,
+      "forks": 4992,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2024-07-09T07:50:26Z",
+      "pushedAt": "2026-10-04T02:45:06Z",
+      "homepageUrl": "https://docling-project.github.io/docling",
+      "archived": false,
+      "owner": {
+        "login": "docling-project",
+        "name": "Docling Project",
+        "type": "Organization",
+        "url": "https://github.com/docling-project",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/188446108?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 2,
+      "name": "powerlevel10k",
+      "nameWithOwner": "romkatv/powerlevel10k",
+      "url": "https://github.com/romkatv/powerlevel10k",
+      "description": "A Zsh theme",
+      "stars": 55193,
+      "forks": 2448,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-02-24T19:09:45Z",
+      "pushedAt": "2026-09-14T08:10:04Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "romkatv",
+        "name": "Roman Perepelitsa",
+        "type": "User",
+        "url": "https://github.com/romkatv",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1282067?u=4e6e9bb432f7b5502008624ca3bb3f28cc15ff52&v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 3,
+      "name": "ImHex",
+      "nameWithOwner": "WerWolv/ImHex",
+      "url": "https://github.com/WerWolv/ImHex",
+      "description": "🔍 A Hex Editor for Reverse Engineers, Programmers and people who value their retinas when working at 3 AM.",
+      "stars": 54970,
+      "forks": 2479,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "spdxId": "GPL-2.0"
+      },
+      "createdAt": "2020-11-10T14:27:00Z",
+      "pushedAt": "2026-09-30T00:55:08Z",
+      "homepageUrl": "https://imhex.werwolv.net/",
+      "archived": false,
+      "owner": {
+        "login": "WerWolv",
+        "name": "Nik",
+        "type": "User",
+        "url": "https://github.com/WerWolv",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10835354?u=df34a21c99e8b5470fb39a106d328372e7abc115&v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 4,
+      "name": "MoneyPrinterV2",
+      "nameWithOwner": "FujiwaraChoki/MoneyPrinterV2",
+      "url": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
+      "description": "Automate the process of making money online.",
+      "stars": 32037,
+      "forks": 3443,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2024-02-12T11:20:42Z",
+      "pushedAt": "2026-09-15T22:35:17Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "FujiwaraChoki",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/FujiwaraChoki",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78088687?u=33f2e00d059b4625b3e80692173a068dc0b89048&v=4",
+        "location": "Zurich, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 5,
+      "name": "chezmoi",
+      "nameWithOwner": "twpayne/chezmoi",
+      "url": "https://github.com/twpayne/chezmoi",
+      "description": "Manage your dotfiles across multiple diverse machines, securely.",
+      "stars": 21809,
+      "forks": 693,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-11-12T16:45:43Z",
+      "pushedAt": "2026-10-02T22:51:45Z",
+      "homepageUrl": "https://www.chezmoi.io/",
+      "archived": false,
+      "owner": {
+        "login": "twpayne",
+        "name": "Tom Payne",
+        "type": "User",
+        "url": "https://github.com/twpayne",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6942?u=227a4496aba8d3f526c53bdb6aa7713b22c56906&v=4",
+        "location": "Zürich, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 6,
+      "name": "monolog",
+      "nameWithOwner": "Seldaek/monolog",
+      "url": "https://github.com/Seldaek/monolog",
+      "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+      "stars": 21401,
+      "forks": 1912,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2011-02-17T02:07:15Z",
+      "pushedAt": "2026-10-01T13:21:08Z",
+      "homepageUrl": "https://seldaek.github.io/monolog/",
+      "archived": false,
+      "owner": {
+        "login": "Seldaek",
+        "name": "Jordi Boggiano",
+        "type": "User",
+        "url": "https://github.com/Seldaek",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/183678?v=4",
+        "location": "Zürich, Zurich, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 7,
+      "name": "fx",
+      "nameWithOwner": "antonmedv/fx",
+      "url": "https://github.com/antonmedv/fx",
+      "description": "Terminal JSON viewer & processor",
+      "stars": 20643,
+      "forks": 493,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-01-25T17:29:43Z",
+      "pushedAt": "2026-10-02T12:12:44Z",
+      "homepageUrl": "https://fx.wtf",
+      "archived": false,
+      "owner": {
+        "login": "antonmedv",
+        "name": "Anton Medvedev",
+        "type": "User",
+        "url": "https://github.com/antonmedv",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/141232?u=32c3c767d77f4bf7eb66499cb4898f88472d7d52&v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 8,
+      "name": "paper.js",
+      "nameWithOwner": "paperjs/paper.js",
+      "url": "https://github.com/paperjs/paper.js",
+      "description": "The Swiss Army Knife of Vector Graphics Scripting – Scriptographer ported to JavaScript and the browser, using HTML5 Canvas. Created by @lehni & @puckey",
+      "stars": 15081,
+      "forks": 1256,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2011-02-07T18:21:30Z",
+      "pushedAt": "2024-07-23T00:58:54Z",
+      "homepageUrl": "http://paperjs.org",
+      "archived": false,
+      "owner": {
+        "login": "paperjs",
+        "name": "Paper.js",
+        "type": "Organization",
+        "url": "https://github.com/paperjs",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/846856?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 9,
+      "name": "scala",
+      "nameWithOwner": "scala/scala",
+      "url": "https://github.com/scala/scala",
+      "description": "Scala 2 compiler and standard library. Scala 2 bugs at https://github.com/scala/bug; Scala 3 at https://github.com/scala/scala3",
+      "stars": 14563,
+      "forks": 3210,
+      "primaryLanguage": "Scala",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2011-12-01T05:02:34Z",
+      "pushedAt": "2026-09-29T07:20:05Z",
+      "homepageUrl": "https://www.scala-lang.org/",
+      "archived": false,
+      "owner": {
+        "login": "scala",
+        "name": "The Scala Programming Language",
+        "type": "Organization",
+        "url": "https://github.com/scala",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57059?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 10,
+      "name": "MoneyPrinter",
+      "nameWithOwner": "FujiwaraChoki/MoneyPrinter",
+      "url": "https://github.com/FujiwaraChoki/MoneyPrinter",
+      "description": "Automate Creation of YouTube Shorts using MoviePy.",
+      "stars": 14020,
+      "forks": 1822,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2024-01-31T18:53:24Z",
+      "pushedAt": "2026-03-26T22:17:17Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "FujiwaraChoki",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/FujiwaraChoki",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78088687?u=33f2e00d059b4625b3e80692173a068dc0b89048&v=4",
+        "location": "Zurich, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 11,
+      "name": "chartist",
+      "nameWithOwner": "chartist-js/chartist",
+      "url": "https://github.com/chartist-js/chartist",
+      "description": "Simple responsive charts",
+      "stars": 13389,
+      "forks": 2465,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-03-09T22:40:07Z",
+      "pushedAt": "2026-10-03T17:49:06Z",
+      "homepageUrl": "https://chartist.dev",
+      "archived": false,
+      "owner": {
+        "login": "chartist-js",
+        "name": "Chartist",
+        "type": "Organization",
+        "url": "https://github.com/chartist-js",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16578487?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 12,
+      "name": "smartcrop.js",
+      "nameWithOwner": "jwagner/smartcrop.js",
+      "url": "https://github.com/jwagner/smartcrop.js",
+      "description": "Content aware image cropping",
+      "stars": 12954,
+      "forks": 572,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-04-03T14:21:19Z",
+      "pushedAt": "2024-03-16T23:45:27Z",
+      "homepageUrl": "http://29a.ch/2014/04/03/smartcrop-content-aware-image-cropping",
+      "archived": false,
+      "owner": {
+        "login": "jwagner",
+        "name": "Jonas Wagner",
+        "type": "User",
+        "url": "https://github.com/jwagner",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/293536?v=4",
+        "location": "Zurich, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 13,
+      "name": "sonarqube",
+      "nameWithOwner": "SonarSource/sonarqube",
+      "url": "https://github.com/SonarSource/sonarqube",
+      "description": "Continuous Inspection",
+      "stars": 11044,
+      "forks": 2238,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "GNU Lesser General Public License v3.0",
+        "spdxId": "LGPL-3.0"
+      },
+      "createdAt": "2011-01-05T11:05:17Z",
+      "pushedAt": "2026-10-02T20:09:48Z",
+      "homepageUrl": "http://www.sonarqube.org",
+      "archived": false,
+      "owner": {
+        "login": "SonarSource",
+        "name": "Sonar",
+        "type": "Organization",
+        "url": "https://github.com/SonarSource",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/545988?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 14,
+      "name": "html-webpack-plugin",
+      "nameWithOwner": "jantimon/html-webpack-plugin",
+      "url": "https://github.com/jantimon/html-webpack-plugin",
+      "description": "Simplifies creation of HTML files to serve your webpack bundles",
+      "stars": 10715,
+      "forks": 1286,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-08-08T03:19:15Z",
+      "pushedAt": "2026-09-07T15:40:44Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "jantimon",
+        "name": "Jan Nicklas",
+        "type": "User",
+        "url": "https://github.com/jantimon",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4113649?u=82f022432f14b040cbd90208fdd6a71f6ed04bc1&v=4",
+        "location": "Zurich",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "zurich"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 15,
+      "name": "django-cms",
+      "nameWithOwner": "django-cms/django-cms",
+      "url": "https://github.com/django-cms/django-cms",
+      "description": "The easy-to-use and developer-friendly enterprise CMS powered by Django ",
+      "stars": 10676,
+      "forks": 3192,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2009-03-05T10:14:18Z",
+      "pushedAt": "2026-09-30T09:57:19Z",
+      "homepageUrl": "http://www.django-cms.org",
+      "archived": false,
+      "owner": {
+        "login": "django-cms",
+        "name": "django CMS Association",
+        "type": "Organization",
+        "url": "https://github.com/django-cms",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69975235?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 16,
+      "name": "RapidRAW",
+      "nameWithOwner": "CyberTimon/RapidRAW",
+      "url": "https://github.com/CyberTimon/RapidRAW",
+      "description": "A beautiful, non-destructive, and GPU-accelerated RAW image editor built with performance in mind.",
+      "stars": 10307,
+      "forks": 587,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2025-06-13T20:16:40Z",
+      "pushedAt": "2026-10-03T18:18:17Z",
+      "homepageUrl": "https://getrapidraw.com",
+      "archived": false,
+      "owner": {
+        "login": "CyberTimon",
+        "name": "Timon Käch",
+        "type": "User",
+        "url": "https://github.com/CyberTimon",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78795905?u=81a4db1bf45dff336d3fdf4226b8b814a02d811b&v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 17,
+      "name": "darts",
+      "nameWithOwner": "unit8co/darts",
+      "url": "https://github.com/unit8co/darts",
+      "description": "A python library for user-friendly forecasting and anomaly detection on time series.",
+      "stars": 9536,
+      "forks": 1047,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-09-13T15:17:28Z",
+      "pushedAt": "2026-09-30T14:57:15Z",
+      "homepageUrl": "https://unit8co.github.io/darts/",
+      "archived": false,
+      "owner": {
+        "login": "unit8co",
+        "name": "Unit8 SA",
+        "type": "Organization",
+        "url": "https://github.com/unit8co",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39619745?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 18,
+      "name": "vscode-drawio",
+      "nameWithOwner": "hediet/vscode-drawio",
+      "url": "https://github.com/hediet/vscode-drawio",
+      "description": "This unofficial extension integrates Draw.io (also known as diagrams.net) into VS Code.",
+      "stars": 9495,
+      "forks": 467,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2020-05-08T16:14:10Z",
+      "pushedAt": "2026-10-03T16:28:26Z",
+      "homepageUrl": "https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio",
+      "archived": false,
+      "owner": {
+        "login": "hediet",
+        "name": "Henning Dieterichs",
+        "type": "User",
+        "url": "https://github.com/hediet",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2931520?u=83ac40b6195015e88fc3af01383ba4b3d44c89b4&v=4",
+        "location": "Zurich",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "zurich"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 19,
+      "name": "ghostfolio",
+      "nameWithOwner": "ghostfolio/ghostfolio",
+      "url": "https://github.com/ghostfolio/ghostfolio",
+      "description": "Open Source Wealth Management Software. Angular + NestJS + Prisma + Nx + TypeScript 🤍",
+      "stars": 9395,
+      "forks": 1345,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2021-04-13T19:51:25Z",
+      "pushedAt": "2026-10-03T19:03:01Z",
+      "homepageUrl": "https://Ghostfol.io",
+      "archived": false,
+      "owner": {
+        "login": "ghostfolio",
+        "name": "Ghostfolio",
+        "type": "Organization",
+        "url": "https://github.com/ghostfolio",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82473144?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 20,
+      "name": "taskbook",
+      "nameWithOwner": "klaudiosinani/taskbook",
+      "url": "https://github.com/klaudiosinani/taskbook",
+      "description": "Tasks, boards & notes for the command-line habitat",
+      "stars": 9350,
+      "forks": 392,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-02-12T05:37:22Z",
+      "pushedAt": "2025-11-03T15:32:09Z",
+      "homepageUrl": "https://klaudiosinani.com/taskbook",
+      "archived": false,
+      "owner": {
+        "login": "klaudiosinani",
+        "name": "Klaudio Sinani",
+        "type": "User",
+        "url": "https://github.com/klaudiosinani",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12670537?u=8e2da131d191b004f69e0de74d12ef13a9378c99&v=4",
+        "location": "Zurich, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 21,
+      "name": "signale",
+      "nameWithOwner": "klaudiosinani/signale",
+      "url": "https://github.com/klaudiosinani/signale",
+      "description": "Highly configurable logging library",
+      "stars": 9175,
+      "forks": 232,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-04-08T16:04:09Z",
+      "pushedAt": "2026-04-06T20:08:22Z",
+      "homepageUrl": "https://klaudiosinani.com/signale",
+      "archived": false,
+      "owner": {
+        "login": "klaudiosinani",
+        "name": "Klaudio Sinani",
+        "type": "User",
+        "url": "https://github.com/klaudiosinani",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12670537?u=8e2da131d191b004f69e0de74d12ef13a9378c99&v=4",
+        "location": "Zurich, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 22,
+      "name": "awesome-3D-gaussian-splatting",
+      "nameWithOwner": "MrNeRF/awesome-3D-gaussian-splatting",
+      "url": "https://github.com/MrNeRF/awesome-3D-gaussian-splatting",
+      "description": "Curated list of papers and resources focused on 3D Gaussian Splatting, intended to keep pace with the anticipated surge of research in the coming months.",
+      "stars": 8920,
+      "forks": 550,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-10-15T12:08:17Z",
+      "pushedAt": "2026-09-24T19:24:24Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "MrNeRF",
+        "name": "janusch",
+        "type": "User",
+        "url": "https://github.com/MrNeRF",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33876434?u=223e93bb39f15a25feb7a1fc111709206531b57e&v=4",
+        "location": "Basel, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 23,
+      "name": "anytype-ts",
+      "nameWithOwner": "anyproto/anytype-ts",
+      "url": "https://github.com/anyproto/anytype-ts",
+      "description": "Official Anytype client for MacOS, Linux, and Windows",
+      "stars": 8880,
+      "forks": 584,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2023-05-22T10:39:33Z",
+      "pushedAt": "2026-10-03T15:30:43Z",
+      "homepageUrl": "https://anytype.io",
+      "archived": false,
+      "owner": {
+        "login": "anyproto",
+        "name": "Any Association",
+        "type": "Organization",
+        "url": "https://github.com/anyproto",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/128061343?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 24,
+      "name": "ThreadPool",
+      "nameWithOwner": "progschj/ThreadPool",
+      "url": "https://github.com/progschj/ThreadPool",
+      "description": "A simple C++11 Thread Pool implementation",
+      "stars": 8820,
+      "forks": 2334,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "zlib License",
+        "spdxId": "Zlib"
+      },
+      "createdAt": "2012-10-05T00:04:30Z",
+      "pushedAt": "2024-07-20T12:33:59Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "progschj",
+        "name": "Jakob Progsch",
+        "type": "User",
+        "url": "https://github.com/progschj",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1257680?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 25,
+      "name": "flowchart.js",
+      "nameWithOwner": "adrai/flowchart.js",
+      "url": "https://github.com/adrai/flowchart.js",
+      "description": "Draws simple SVG flow chart diagrams from textual representation of the diagram",
+      "stars": 8700,
+      "forks": 1197,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-07-17T11:25:29Z",
+      "pushedAt": "2026-01-15T10:51:12Z",
+      "homepageUrl": "http://flowchart.js.org/",
+      "archived": false,
+      "owner": {
+        "login": "adrai",
+        "name": "Adriano Raiano",
+        "type": "User",
+        "url": "https://github.com/adrai",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1086194?v=4",
+        "location": "Zürich, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 26,
+      "name": "aos-ce",
+      "nameWithOwner": "unicity-aos/aos-ce",
+      "url": "https://github.com/unicity-aos/aos-ce",
+      "description": "AOS Community Edition: the open agent operating system.",
+      "stars": 8462,
+      "forks": 23,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2026-07-12T23:39:52Z",
+      "pushedAt": "2026-10-03T14:34:09Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "unicity-aos",
+        "name": "Unicity AOS",
+        "type": "Organization",
+        "url": "https://github.com/unicity-aos",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/261740341?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 27,
+      "name": "capsule-memory",
+      "nameWithOwner": "unicity-aos/capsule-memory",
+      "url": "https://github.com/unicity-aos/capsule-memory",
+      "description": "Cross-session memory. Reads local memory state and injects it into the system prompt through hooks. Part of Unicity AOS.",
+      "stars": 8442,
+      "forks": 20,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2026-03-16T11:30:27Z",
+      "pushedAt": "2026-07-09T19:29:34Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "unicity-aos",
+        "name": "Unicity AOS",
+        "type": "Organization",
+        "url": "https://github.com/unicity-aos",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/261740341?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 28,
+      "name": "capsule-identity",
+      "nameWithOwner": "unicity-aos/capsule-identity",
+      "url": "https://github.com/unicity-aos/capsule-identity",
+      "description": "System prompt builder. Assembles agent identity from workspace config and spark.toml. Part of Unicity AOS.",
+      "stars": 8410,
+      "forks": 19,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2026-03-16T11:30:24Z",
+      "pushedAt": "2026-07-02T04:13:02Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "unicity-aos",
+        "name": "Unicity AOS",
+        "type": "Organization",
+        "url": "https://github.com/unicity-aos",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/261740341?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 29,
+      "name": "capsule-fs",
+      "nameWithOwner": "unicity-aos/capsule-fs",
+      "url": "https://github.com/unicity-aos/capsule-fs",
+      "description": "Filesystem tools for agents. Read, write, replace, grep, list, create, delete, move via VFS airlock. Part of Unicity AOS.",
+      "stars": 8389,
+      "forks": 15,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2026-03-16T11:30:15Z",
+      "pushedAt": "2026-07-09T19:29:28Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "unicity-aos",
+        "name": "Unicity AOS",
+        "type": "Organization",
+        "url": "https://github.com/unicity-aos",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/261740341?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 30,
+      "name": "Auto_Bangumi",
+      "nameWithOwner": "EstrellaXD/Auto_Bangumi",
+      "url": "https://github.com/EstrellaXD/Auto_Bangumi",
+      "description": "AutoBangumi - 全自动追番工具",
+      "stars": 8256,
+      "forks": 450,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-05-03T03:46:36Z",
+      "pushedAt": "2026-09-19T16:08:06Z",
+      "homepageUrl": "https://autobangumi.org",
+      "archived": false,
+      "owner": {
+        "login": "EstrellaXD",
+        "name": "Xingyu (Estrella) Pan",
+        "type": "User",
+        "url": "https://github.com/EstrellaXD",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33726646?u=0da33342b723ae8a9daeff6bd5314ba72ce733b2&v=4",
+        "location": "Zurich",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "zurich"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 31,
+      "name": "vscode-debug-visualizer",
+      "nameWithOwner": "hediet/vscode-debug-visualizer",
+      "url": "https://github.com/hediet/vscode-debug-visualizer",
+      "description": "An extension for VS Code that visualizes data during debugging.",
+      "stars": 8174,
+      "forks": 444,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2019-06-20T09:41:04Z",
+      "pushedAt": "2025-03-17T11:54:30Z",
+      "homepageUrl": "https://marketplace.visualstudio.com/items?itemName=hediet.debug-visualizer",
+      "archived": false,
+      "owner": {
+        "login": "hediet",
+        "name": "Henning Dieterichs",
+        "type": "User",
+        "url": "https://github.com/hediet",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2931520?u=83ac40b6195015e88fc3af01383ba4b3d44c89b4&v=4",
+        "location": "Zurich",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "zurich"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 32,
+      "name": "purgecss",
+      "nameWithOwner": "FullHuman/purgecss",
+      "url": "https://github.com/FullHuman/purgecss",
+      "description": "Remove unused CSS",
+      "stars": 8051,
+      "forks": 244,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-07-01T15:01:43Z",
+      "pushedAt": "2026-08-20T23:28:36Z",
+      "homepageUrl": "https://purgecss.com",
+      "archived": false,
+      "owner": {
+        "login": "FullHuman",
+        "name": "Full Human",
+        "type": "Organization",
+        "url": "https://github.com/FullHuman",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28688397?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 33,
+      "name": "iodine",
+      "nameWithOwner": "yarrick/iodine",
+      "url": "https://github.com/yarrick/iodine",
+      "description": "Official git repo for iodine dns tunnel",
+      "stars": 7992,
+      "forks": 598,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "ISC License",
+        "spdxId": "ISC"
+      },
+      "createdAt": "2012-02-04T19:51:39Z",
+      "pushedAt": "2026-09-30T13:30:02Z",
+      "homepageUrl": "https://code.kryo.se/iodine",
+      "archived": false,
+      "owner": {
+        "login": "yarrick",
+        "name": "Erik Ekman",
+        "type": "User",
+        "url": "https://github.com/yarrick",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1261015?u=70cce10a4f828ad4f109c0949868846f78478cbd&v=4",
+        "location": "Zürich, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 34,
+      "name": "iOS-Runtime-Headers",
+      "nameWithOwner": "nst/iOS-Runtime-Headers",
+      "url": "https://github.com/nst/iOS-Runtime-Headers",
+      "description": "iOS Objective-C headers as derived from runtime introspection",
+      "stars": 7971,
+      "forks": 1591,
+      "primaryLanguage": "Objective-C",
+      "license": null,
+      "createdAt": "2011-01-09T13:37:14Z",
+      "pushedAt": "2022-05-17T07:06:03Z",
+      "homepageUrl": "https://github.com/nst/RuntimeBrowser",
+      "archived": true,
+      "owner": {
+        "login": "nst",
+        "name": "Nicolas Seriot",
+        "type": "User",
+        "url": "https://github.com/nst",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51388?u=07ab57f132b8c5c4778b07deb38eaaa902eecf02&v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 35,
+      "name": "pipreqs",
+      "nameWithOwner": "bndr/pipreqs",
+      "url": "https://github.com/bndr/pipreqs",
+      "description": "pipreqs - Generate pip requirements.txt file based on imports of any project. Looking for maintainers to move this project forward.",
+      "stars": 7463,
+      "forks": 425,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2015-04-22T16:38:14Z",
+      "pushedAt": "2026-03-30T18:46:52Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "bndr",
+        "name": "Vadim Kravcenko",
+        "type": "User",
+        "url": "https://github.com/bndr",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1145456?u=fe5733c293f25b3306fe1c9a72c7cf5efc21238a&v=4",
+        "location": "Zurich, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 36,
+      "name": "NSwag",
+      "nameWithOwner": "RicoSuter/NSwag",
+      "url": "https://github.com/RicoSuter/NSwag",
+      "description": "The Swagger/OpenAPI toolchain for .NET, ASP.NET Core and TypeScript. ",
+      "stars": 7364,
+      "forks": 1360,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-09-02T19:11:57Z",
+      "pushedAt": "2026-09-07T21:10:58Z",
+      "homepageUrl": "http://NSwag.org",
+      "archived": false,
+      "owner": {
+        "login": "RicoSuter",
+        "name": "Rico Suter",
+        "type": "User",
+        "url": "https://github.com/RicoSuter",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2603405?u=eaf8de2141873385ae3d6c2cefb7afefabd8c78d&v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 37,
+      "name": "zerobyte",
+      "nameWithOwner": "nicotsx/zerobyte",
+      "url": "https://github.com/nicotsx/zerobyte",
+      "description": "Backup automation for self-hosters. Built on top of restic",
+      "stars": 7009,
+      "forks": 177,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2025-08-09T08:58:56Z",
+      "pushedAt": "2026-10-04T05:48:17Z",
+      "homepageUrl": "https://zerobyte.app",
+      "archived": false,
+      "owner": {
+        "login": "nicotsx",
+        "name": "Nico",
+        "type": "User",
+        "url": "https://github.com/nicotsx",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47644445?u=7df62ac26a4aea30c143c51f0d5f0107933d8cc8&v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 38,
+      "name": "jOOQ",
+      "nameWithOwner": "jOOQ/jOOQ",
+      "url": "https://github.com/jOOQ/jOOQ",
+      "description": "jOOQ is the best way to write SQL in Java",
+      "stars": 6793,
+      "forks": 1218,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2011-04-17T10:43:33Z",
+      "pushedAt": "2026-10-01T19:20:25Z",
+      "homepageUrl": "https://www.jooq.org",
+      "archived": false,
+      "owner": {
+        "login": "jOOQ",
+        "name": "jOOQ Object Oriented Querying",
+        "type": "Organization",
+        "url": "https://github.com/jOOQ",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1666512?v=4",
+        "location": "St. Gallen",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "st gallen"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 39,
+      "name": "hugo-theme-stack",
+      "nameWithOwner": "CaiJimmy/hugo-theme-stack",
+      "url": "https://github.com/CaiJimmy/hugo-theme-stack",
+      "description": "Card-style Hugo theme designed for bloggers",
+      "stars": 6471,
+      "forks": 1971,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2020-08-22T09:16:55Z",
+      "pushedAt": "2026-05-25T08:44:26Z",
+      "homepageUrl": "https://stack.cai.im",
+      "archived": false,
+      "owner": {
+        "login": "CaiJimmy",
+        "name": "Jimmy",
+        "type": "User",
+        "url": "https://github.com/CaiJimmy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5889006?u=8f636e50300c3565d339af911af78dcbd097fcda&v=4",
+        "location": "Zurich",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "zurich"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 40,
+      "name": "scala3",
+      "nameWithOwner": "scala/scala3",
+      "url": "https://github.com/scala/scala3",
+      "description": "The Scala 3 compiler, also known as Dotty.",
+      "stars": 6310,
+      "forks": 1181,
+      "primaryLanguage": "Scala",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2012-12-06T12:57:33Z",
+      "pushedAt": "2026-10-02T13:54:26Z",
+      "homepageUrl": "https://scala-lang.org",
+      "archived": false,
+      "owner": {
+        "login": "scala",
+        "name": "The Scala Programming Language",
+        "type": "Organization",
+        "url": "https://github.com/scala",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57059?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 41,
+      "name": "peerflix",
+      "nameWithOwner": "mafintosh/peerflix",
+      "url": "https://github.com/mafintosh/peerflix",
+      "description": "Streaming torrent client for node.js",
+      "stars": 6268,
+      "forks": 667,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-03-14T17:15:43Z",
+      "pushedAt": "2022-06-19T23:29:59Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "mafintosh",
+        "name": "Mathias Buus",
+        "type": "User",
+        "url": "https://github.com/mafintosh",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/376661?u=69e0f4e7e2dc9e575ef93b329babfa773302622e&v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 42,
+      "name": "instant-meshes",
+      "nameWithOwner": "wjakob/instant-meshes",
+      "url": "https://github.com/wjakob/instant-meshes",
+      "description": "Interactive field-aligned mesh generator",
+      "stars": 6237,
+      "forks": 710,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2015-09-14T10:24:27Z",
+      "pushedAt": "2022-01-03T03:31:55Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "wjakob",
+        "name": "Wenzel Jakob",
+        "type": "User",
+        "url": "https://github.com/wjakob",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1203629?u=42d816bc7194889b0372881656b4792c536fff69&v=4",
+        "location": "Lausanne, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 43,
+      "name": "anti-adblock-killer",
+      "nameWithOwner": "reek/anti-adblock-killer",
+      "url": "https://github.com/reek/anti-adblock-killer",
+      "description": "Anti-Adblock Killer helps you keep your Ad-Blocker active, when you visit a website and it asks you to disable.",
+      "stars": 6213,
+      "forks": 771,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2014-04-17T16:44:29Z",
+      "pushedAt": "2024-05-09T04:06:50Z",
+      "homepageUrl": "http://reek.github.io/anti-adblock-killer/",
+      "archived": false,
+      "owner": {
+        "login": "reek",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/reek",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3474011?u=916fed92319c5eaf1ecba60adadb03849b0dcb4f&v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 44,
+      "name": "jedi",
+      "nameWithOwner": "davidhalter/jedi",
+      "url": "https://github.com/davidhalter/jedi",
+      "description": "Awesome autocompletion, static analysis and refactoring library for python",
+      "stars": 6182,
+      "forks": 540,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2012-02-19T23:12:30Z",
+      "pushedAt": "2026-10-01T06:42:56Z",
+      "homepageUrl": "http://jedi.readthedocs.io",
+      "archived": false,
+      "owner": {
+        "login": "davidhalter",
+        "name": "Dave Halter",
+        "type": "User",
+        "url": "https://github.com/davidhalter",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/748594?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 45,
+      "name": "awesome-fp-js",
+      "nameWithOwner": "stoeffel/awesome-fp-js",
+      "url": "https://github.com/stoeffel/awesome-fp-js",
+      "description": ":sunglasses: A curated list of awesome functional programming stuff in js",
+      "stars": 6038,
+      "forks": 388,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2015-05-15T07:40:29Z",
+      "pushedAt": "2026-01-15T19:55:47Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "stoeffel",
+        "name": "Christoph Hermann",
+        "type": "User",
+        "url": "https://github.com/stoeffel",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1217681?u=c1118a3a805bd456fdf93e8d380e4d946b874422&v=4",
+        "location": "Zurich",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "zurich"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 46,
+      "name": "graphql-platform",
+      "nameWithOwner": "ChilliCream/graphql-platform",
+      "url": "https://github.com/ChilliCream/graphql-platform",
+      "description": "Welcome to the home of the Hot Chocolate GraphQL server for .NET, the Strawberry Shake GraphQL client for .NET and Nitro the awesome Monaco based GraphQL IDE.",
+      "stars": 5761,
+      "forks": 812,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-01-11T13:12:21Z",
+      "pushedAt": "2026-10-04T09:34:17Z",
+      "homepageUrl": "https://chillicream.com",
+      "archived": false,
+      "owner": {
+        "login": "ChilliCream",
+        "name": "ChilliCream",
+        "type": "Organization",
+        "url": "https://github.com/ChilliCream",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16239022?v=4",
+        "location": "Zurich",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "zurich"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 47,
+      "name": "kalibr",
+      "nameWithOwner": "ethz-asl/kalibr",
+      "url": "https://github.com/ethz-asl/kalibr",
+      "description": "The Kalibr visual-inertial calibration toolbox",
+      "stars": 5750,
+      "forks": 1612,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2014-05-29T12:31:48Z",
+      "pushedAt": "2024-03-30T19:42:29Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ethz-asl",
+        "name": "ETHZ ASL",
+        "type": "Organization",
+        "url": "https://github.com/ethz-asl",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/475362?v=4",
+        "location": "Zurich, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 48,
+      "name": "guide",
+      "nameWithOwner": "hobby-kube/guide",
+      "url": "https://github.com/hobby-kube/guide",
+      "description": " Kubernetes clusters for the hobbyist.",
+      "stars": 5659,
+      "forks": 252,
+      "primaryLanguage": null,
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-04-18T19:00:09Z",
+      "pushedAt": "2023-09-21T14:37:01Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "hobby-kube",
+        "name": "Hobby Kube",
+        "type": "Organization",
+        "url": "https://github.com/hobby-kube",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26108800?v=4",
+        "location": "Zürich, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 49,
+      "name": "WebClients",
+      "nameWithOwner": "ProtonMail/WebClients",
+      "url": "https://github.com/ProtonMail/WebClients",
+      "description": "Monorepo hosting the proton web clients",
+      "stars": 5624,
+      "forks": 724,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2016-06-08T11:16:51Z",
+      "pushedAt": "2026-10-03T16:16:43Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ProtonMail",
+        "name": "Proton Mail",
+        "type": "Organization",
+        "url": "https://github.com/ProtonMail",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6953970?v=4",
+        "location": "Geneva, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 50,
+      "name": "awesome-powershell",
+      "nameWithOwner": "janikvonrotz/awesome-powershell",
+      "url": "https://github.com/janikvonrotz/awesome-powershell",
+      "description": "This repository has been moved to https://codeberg.org/janikvonrotz/awesome-powershell. Please visit the new location for the latest updates.",
+      "stars": 5406,
+      "forks": 448,
+      "primaryLanguage": "PowerShell",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2015-05-28T12:10:06Z",
+      "pushedAt": "2025-04-14T06:25:33Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "janikvonrotz",
+        "name": "Janik von Rotz",
+        "type": "User",
+        "url": "https://github.com/janikvonrotz",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1370421?u=d02fe3852775c2ce8b4ae83ef430defad20ead45&v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 51,
+      "name": "jedi-vim",
+      "nameWithOwner": "davidhalter/jedi-vim",
+      "url": "https://github.com/davidhalter/jedi-vim",
+      "description": "Using the jedi autocompletion library for VIM.",
+      "stars": 5302,
+      "forks": 368,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2012-09-18T14:14:29Z",
+      "pushedAt": "2026-06-16T07:05:45Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "davidhalter",
+        "name": "Dave Halter",
+        "type": "User",
+        "url": "https://github.com/davidhalter",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/748594?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 52,
+      "name": "123-Essential-JavaScript-Interview-Questions",
+      "nameWithOwner": "ganqqwerty/123-Essential-JavaScript-Interview-Questions",
+      "url": "https://github.com/ganqqwerty/123-Essential-JavaScript-Interview-Questions",
+      "description": "JavaScript interview Questions",
+      "stars": 5241,
+      "forks": 1193,
+      "primaryLanguage": null,
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2015-06-02T12:50:14Z",
+      "pushedAt": "2024-06-28T11:22:18Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ganqqwerty",
+        "name": "Yuri Katkov",
+        "type": "User",
+        "url": "https://github.com/ganqqwerty",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/697308?u=115485290603d1e3072f2426a5609fa6831512c0&v=4",
+        "location": "Lausanne, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 53,
+      "name": "rustowl",
+      "nameWithOwner": "cordx56/rustowl",
+      "url": "https://github.com/cordx56/rustowl",
+      "description": "Visualize Ownership and Lifetimes in Rust",
+      "stars": 5231,
+      "forks": 113,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Mozilla Public License 2.0",
+        "spdxId": "MPL-2.0"
+      },
+      "createdAt": "2024-10-16T19:28:48Z",
+      "pushedAt": "2026-10-04T14:31:15Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "cordx56",
+        "name": "Yuki Okamoto",
+        "type": "User",
+        "url": "https://github.com/cordx56",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23298744?u=7e0160d4d9284ef5a2b754d581f2bc60bfcaecc5&v=4",
+        "location": "Zurich, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 54,
+      "name": "restreamer",
+      "nameWithOwner": "datarhei/restreamer",
+      "url": "https://github.com/datarhei/restreamer",
+      "description": "The Restreamer is a complete streaming server solution for self-hosting. It has a visually appealing user interface and no ongoing license costs. Upload your live stream to YouTube, Twitch, Facebook, Vimeo, or other streaming solutions like Wowza. Receive video data from OBS and publish it with the RTMP and SRT server.",
+      "stars": 5206,
+      "forks": 561,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2015-12-09T09:42:59Z",
+      "pushedAt": "2026-05-22T06:57:59Z",
+      "homepageUrl": "https://docs.datarhei.com/restreamer/",
+      "archived": false,
+      "owner": {
+        "login": "datarhei",
+        "name": "datarhei",
+        "type": "Organization",
+        "url": "https://github.com/datarhei",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8463692?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 55,
+      "name": "awesome-asyncio",
+      "nameWithOwner": "timofurrer/awesome-asyncio",
+      "url": "https://github.com/timofurrer/awesome-asyncio",
+      "description": "A curated list of awesome Python asyncio frameworks, libraries, software and resources",
+      "stars": 5137,
+      "forks": 357,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2016-11-01T10:04:45Z",
+      "pushedAt": "2025-12-01T14:19:00Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "timofurrer",
+        "name": "Timo Furrer",
+        "type": "User",
+        "url": "https://github.com/timofurrer",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1008252?u=2bde4396f4cb650b73de9e86c7608f5b7eac24a8&v=4",
+        "location": "__switzerland__",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 56,
+      "name": "gans-awesome-applications",
+      "nameWithOwner": "nashory/gans-awesome-applications",
+      "url": "https://github.com/nashory/gans-awesome-applications",
+      "description": "Curated list of awesome GAN applications and demo",
+      "stars": 5105,
+      "forks": 814,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdxId": "CC0-1.0"
+      },
+      "createdAt": "2017-10-12T03:19:02Z",
+      "pushedAt": "2026-06-08T10:40:14Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "nashory",
+        "name": "Minchul Shin",
+        "type": "User",
+        "url": "https://github.com/nashory",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17468992?u=977e096a2524305b75304076bf2cc2ffe06bfecb&v=4",
+        "location": "Zurich, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 57,
+      "name": "FUXA",
+      "nameWithOwner": "frangoteam/FUXA",
+      "url": "https://github.com/frangoteam/FUXA",
+      "description": "Web-based Process Visualization (SCADA/HMI/Dashboard) software",
+      "stars": 5075,
+      "forks": 1375,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-03-09T15:08:23Z",
+      "pushedAt": "2026-10-04T14:20:49Z",
+      "homepageUrl": "https://frangoteam.org",
+      "archived": false,
+      "owner": {
+        "login": "frangoteam",
+        "name": "frangoteam",
+        "type": "Organization",
+        "url": "https://github.com/frangoteam",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15831817?v=4",
+        "location": "Bern, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 58,
+      "name": "capsule-react",
+      "nameWithOwner": "unicity-aos/capsule-react",
+      "url": "https://github.com/unicity-aos/capsule-react",
+      "description": "ReAct loop coordinator. Stateless state machine for reasoning-and-action cycle. Part of Unicity AOS.",
+      "stars": 5039,
+      "forks": 13,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2026-03-16T11:30:31Z",
+      "pushedAt": "2026-07-09T19:30:04Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "unicity-aos",
+        "name": "Unicity AOS",
+        "type": "Organization",
+        "url": "https://github.com/unicity-aos",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/261740341?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 59,
+      "name": "Gutenberg",
+      "nameWithOwner": "BafS/Gutenberg",
+      "url": "https://github.com/BafS/Gutenberg",
+      "description": "Modern framework to print the web correctly.                                               ",
+      "stars": 4922,
+      "forks": 143,
+      "primaryLanguage": "SCSS",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-10-20T15:16:35Z",
+      "pushedAt": "2024-02-03T04:40:43Z",
+      "homepageUrl": "https://bafs.github.io/Gutenberg",
+      "archived": false,
+      "owner": {
+        "login": "BafS",
+        "name": "Fabien Salathe",
+        "type": "User",
+        "url": "https://github.com/BafS",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/588205?u=8384c5dd7170c6cbe8d7a4ca19b5e33c9878de6c&v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 60,
+      "name": "nanogui",
+      "nameWithOwner": "wjakob/nanogui",
+      "url": "https://github.com/wjakob/nanogui",
+      "description": "Minimalistic GUI library for OpenGL",
+      "stars": 4867,
+      "forks": 609,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2015-02-01T03:16:12Z",
+      "pushedAt": "2023-04-28T13:40:49Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "wjakob",
+        "name": "Wenzel Jakob",
+        "type": "User",
+        "url": "https://github.com/wjakob",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1203629?u=42d816bc7194889b0372881656b4792c536fff69&v=4",
+        "location": "Lausanne, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 61,
+      "name": "cyberduck",
+      "nameWithOwner": "iterate-ch/cyberduck",
+      "url": "https://github.com/iterate-ch/cyberduck",
+      "description": "Cyberduck is a libre FTP, SFTP, WebDAV, Amazon S3, Backblaze B2, Microsoft Azure & OneDrive and OpenStack Swift file transfer client for Mac and Windows.",
+      "stars": 4822,
+      "forks": 372,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2017-01-20T14:16:34Z",
+      "pushedAt": "2026-10-04T06:24:39Z",
+      "homepageUrl": "https://cyberduck.io",
+      "archived": false,
+      "owner": {
+        "login": "iterate-ch",
+        "name": "iterate GmbH",
+        "type": "Organization",
+        "url": "https://github.com/iterate-ch",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7976610?v=4",
+        "location": "Bern, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 62,
+      "name": "webots",
+      "nameWithOwner": "cyberbotics/webots",
+      "url": "https://github.com/cyberbotics/webots",
+      "description": "Webots Robot Simulator",
+      "stars": 4690,
+      "forks": 2072,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-11-05T14:09:10Z",
+      "pushedAt": "2026-10-04T06:19:48Z",
+      "homepageUrl": "https://cyberbotics.com",
+      "archived": false,
+      "owner": {
+        "login": "cyberbotics",
+        "name": "Cyberbotics Ltd.",
+        "type": "Organization",
+        "url": "https://github.com/cyberbotics",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54178273?v=4",
+        "location": "Lausanne, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 63,
+      "name": "ergo",
+      "nameWithOwner": "ergo-services/ergo",
+      "url": "https://github.com/ergo-services/ergo",
+      "description": "An actor-based Framework with network transparency for creating event-driven architecture in Golang. Inspired by Erlang. Zero dependencies. ",
+      "stars": 4672,
+      "forks": 191,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-09-21T06:00:22Z",
+      "pushedAt": "2026-10-03T11:05:31Z",
+      "homepageUrl": "https://ergo.services",
+      "archived": false,
+      "owner": {
+        "login": "ergo-services",
+        "name": "ergo.services",
+        "type": "Organization",
+        "url": "https://github.com/ergo-services",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76691249?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 64,
+      "name": "pingvin-share",
+      "nameWithOwner": "stonith404/pingvin-share",
+      "url": "https://github.com/stonith404/pingvin-share",
+      "description": "A self-hosted file sharing platform that combines lightness and beauty, perfect for seamless and efficient file sharing.",
+      "stars": 4664,
+      "forks": 430,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "spdxId": "BSD-2-Clause"
+      },
+      "createdAt": "2022-04-25T13:17:54Z",
+      "pushedAt": "2026-05-18T20:19:06Z",
+      "homepageUrl": "https://stonith404.github.io/pingvin-share/",
+      "archived": true,
+      "owner": {
+        "login": "stonith404",
+        "name": "Elias Schneider",
+        "type": "User",
+        "url": "https://github.com/stonith404",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58886915?u=331d50be14395e2c62a2a733e16d89e59a5b04b9&v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 65,
+      "name": "riscv-gnu-toolchain",
+      "nameWithOwner": "riscv-collab/riscv-gnu-toolchain",
+      "url": "https://github.com/riscv-collab/riscv-gnu-toolchain",
+      "description": "GNU toolchain for RISC-V, including GCC",
+      "stars": 4635,
+      "forks": 1421,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2014-09-08T05:22:03Z",
+      "pushedAt": "2026-08-27T08:56:43Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "riscv-collab",
+        "name": "RISC-V Collaboration",
+        "type": "Organization",
+        "url": "https://github.com/riscv-collab",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89536104?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 66,
+      "name": "SwiftOCR",
+      "nameWithOwner": "NMAC427/SwiftOCR",
+      "url": "https://github.com/NMAC427/SwiftOCR",
+      "description": "Fast and simple OCR library written in Swift",
+      "stars": 4627,
+      "forks": 475,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2016-04-22T08:39:02Z",
+      "pushedAt": "2020-12-13T08:49:55Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "NMAC427",
+        "name": "Nicolas Camenisch",
+        "type": "User",
+        "url": "https://github.com/NMAC427",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9914734?u=b67ff624133cf2e96afde42dffc5e01889a33665&v=4",
+        "location": "AG, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 67,
+      "name": "ueli",
+      "nameWithOwner": "oliverschwendener/ueli",
+      "url": "https://github.com/oliverschwendener/ueli",
+      "description": "Cross-Platform Keystroke Launcher",
+      "stars": 4601,
+      "forks": 276,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-10-11T04:59:52Z",
+      "pushedAt": "2026-09-12T11:23:45Z",
+      "homepageUrl": "https://ueli.app",
+      "archived": false,
+      "owner": {
+        "login": "oliverschwendener",
+        "name": "Oliver Schwendener",
+        "type": "User",
+        "url": "https://github.com/oliverschwendener",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15727229?u=5adeb6f186f378d204f85d740ba554c6587bd1db&v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 68,
+      "name": "prometheus",
+      "nameWithOwner": "vegasbrianc/prometheus",
+      "url": "https://github.com/vegasbrianc/prometheus",
+      "description": "A docker-compose stack for Prometheus monitoring",
+      "stars": 4561,
+      "forks": 1525,
+      "primaryLanguage": null,
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-08-18T11:28:35Z",
+      "pushedAt": "2024-07-09T17:32:21Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "vegasbrianc",
+        "name": "Brian Christner",
+        "type": "User",
+        "url": "https://github.com/vegasbrianc",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/674790?u=571076a5357725fbfa67ee1333f2254f75f20b4c&v=4",
+        "location": "Zurich, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 69,
+      "name": "hestiacp",
+      "nameWithOwner": "hestiacp/hestiacp",
+      "url": "https://github.com/hestiacp/hestiacp",
+      "description": "Hestia Control Panel | A lightweight and powerful control panel for the modern web.",
+      "stars": 4518,
+      "forks": 946,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2018-11-07T21:02:45Z",
+      "pushedAt": "2026-10-02T18:37:56Z",
+      "homepageUrl": "https://hestiacp.com",
+      "archived": false,
+      "owner": {
+        "login": "hestiacp",
+        "name": "Hestia Control Panel",
+        "type": "Organization",
+        "url": "https://github.com/hestiacp",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44101440?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 70,
+      "name": "kubero",
+      "nameWithOwner": "kubero-dev/kubero",
+      "url": "https://github.com/kubero-dev/kubero",
+      "description": "A free and self-hosted PaaS alternative to Heroku / Netlify / Coolify / Vercel / Dokku / Portainer running on Kubernetes",
+      "stars": 4430,
+      "forks": 214,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2022-05-17T14:42:13Z",
+      "pushedAt": "2026-09-09T23:54:32Z",
+      "homepageUrl": "https://demo.kubero.dev",
+      "archived": false,
+      "owner": {
+        "login": "kubero-dev",
+        "name": "kubero.dev",
+        "type": "Organization",
+        "url": "https://github.com/kubero-dev",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106908824?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 71,
+      "name": "sort",
+      "nameWithOwner": "abewley/sort",
+      "url": "https://github.com/abewley/sort",
+      "description": "Simple, online, and realtime tracking of multiple objects in a video sequence.",
+      "stars": 4386,
+      "forks": 1133,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2016-02-03T03:16:23Z",
+      "pushedAt": "2023-11-28T07:01:46Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "abewley",
+        "name": "Alex Bewley",
+        "type": "User",
+        "url": "https://github.com/abewley",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8096683?u=69b53a46fbbe4445ad98e1bc37ecbd24cd79d1f8&v=4",
+        "location": "Zurich",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "zurich"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 72,
+      "name": "node-opencv",
+      "nameWithOwner": "peterbraden/node-opencv",
+      "url": "https://github.com/peterbraden/node-opencv",
+      "description": "OpenCV Bindings for node.js",
+      "stars": 4384,
+      "forks": 834,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2012-01-14T22:59:50Z",
+      "pushedAt": "2024-07-09T08:27:12Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "peterbraden",
+        "name": "Peter Braden",
+        "type": "User",
+        "url": "https://github.com/peterbraden",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52586?u=bf87f6541f6fe7e786b3b3c30c5bf00fd5e3415a&v=4",
+        "location": "Zürich",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "zurich"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 73,
+      "name": "sam-hq",
+      "nameWithOwner": "SysCV/sam-hq",
+      "url": "https://github.com/SysCV/sam-hq",
+      "description": "Segment Anything in High Quality [NeurIPS 2023]",
+      "stars": 4264,
+      "forks": 260,
+      "primaryLanguage": "Jupyter Notebook",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2023-06-01T02:04:54Z",
+      "pushedAt": "2025-09-12T00:00:27Z",
+      "homepageUrl": "https://arxiv.org/abs/2306.01567",
+      "archived": false,
+      "owner": {
+        "login": "SysCV",
+        "name": "ETH VIS Group",
+        "type": "Organization",
+        "url": "https://github.com/SysCV",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52431727?v=4",
+        "location": "Zürich, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 74,
+      "name": "lmql",
+      "nameWithOwner": "eth-sri/lmql",
+      "url": "https://github.com/eth-sri/lmql",
+      "description": "A language for constraint-guided and efficient LLM programming.",
+      "stars": 4219,
+      "forks": 222,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2022-11-24T06:43:00Z",
+      "pushedAt": "2025-05-22T07:32:31Z",
+      "homepageUrl": "https://lmql.ai",
+      "archived": false,
+      "owner": {
+        "login": "eth-sri",
+        "name": "SRI Lab, ETH Zurich",
+        "type": "Organization",
+        "url": "https://github.com/eth-sri",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5363413?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 75,
+      "name": "can-it-be-done-in-react-native",
+      "nameWithOwner": "wcandillon/can-it-be-done-in-react-native",
+      "url": "https://github.com/wcandillon/can-it-be-done-in-react-native",
+      "description": "⚛️ 📺 Projects from the “Can it be done in React Native?” YouTube series",
+      "stars": 4202,
+      "forks": 1301,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-11-10T16:29:44Z",
+      "pushedAt": "2025-05-19T06:52:42Z",
+      "homepageUrl": "https://www.youtube.com/wcandillon",
+      "archived": false,
+      "owner": {
+        "login": "wcandillon",
+        "name": "William Candillon",
+        "type": "User",
+        "url": "https://github.com/wcandillon",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/306134?v=4",
+        "location": "Zürich",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "zurich"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 76,
+      "name": "cling",
+      "nameWithOwner": "root-project/cling",
+      "url": "https://github.com/root-project/cling",
+      "description": "The cling C++ interpreter",
+      "stars": 4197,
+      "forks": 315,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2016-01-07T14:45:35Z",
+      "pushedAt": "2026-08-06T06:09:15Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "root-project",
+        "name": "ROOT",
+        "type": "Organization",
+        "url": "https://github.com/root-project",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6450093?v=4",
+        "location": "Geneva, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 77,
+      "name": "mapperly",
+      "nameWithOwner": "riok/mapperly",
+      "url": "https://github.com/riok/mapperly",
+      "description": "A .NET source generator for generating object mappings. No runtime reflection.",
+      "stars": 4178,
+      "forks": 231,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2022-02-14T09:13:56Z",
+      "pushedAt": "2026-10-03T11:32:38Z",
+      "homepageUrl": "https://mapperly.riok.app",
+      "archived": false,
+      "owner": {
+        "login": "riok",
+        "name": "riok",
+        "type": "Organization",
+        "url": "https://github.com/riok",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42564480?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 78,
+      "name": "nullboard",
+      "nameWithOwner": "apankrat/nullboard",
+      "url": "https://github.com/apankrat/nullboard",
+      "description": "Nullboard is a minimalist kanban board, focused on compactness and readability.",
+      "stars": 4147,
+      "forks": 284,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2019-04-28T16:21:36Z",
+      "pushedAt": "2023-11-05T17:35:15Z",
+      "homepageUrl": "https://nullboard.io/preview",
+      "archived": false,
+      "owner": {
+        "login": "apankrat",
+        "name": "Alexander Pankratov",
+        "type": "User",
+        "url": "https://github.com/apankrat",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/957994?u=583f17cb37bda4798c5e98178185abb7ec726634&v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 79,
+      "name": "android-app",
+      "nameWithOwner": "ProtonVPN/android-app",
+      "url": "https://github.com/ProtonVPN/android-app",
+      "description": "Official ProtonVPN Android app",
+      "stars": 4135,
+      "forks": 509,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2019-12-12T13:36:50Z",
+      "pushedAt": "2026-09-30T07:33:06Z",
+      "homepageUrl": "https://protonvpn.com/download-android",
+      "archived": false,
+      "owner": {
+        "login": "ProtonVPN",
+        "name": "ProtonVPN",
+        "type": "Organization",
+        "url": "https://github.com/ProtonVPN",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25028530?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 80,
+      "name": "MQTT-Explorer",
+      "nameWithOwner": "thomasnordquist/MQTT-Explorer",
+      "url": "https://github.com/thomasnordquist/MQTT-Explorer",
+      "description": "An all-round MQTT client that provides a structured topic overview",
+      "stars": 4078,
+      "forks": 410,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Creative Commons Attribution 4.0 International",
+        "spdxId": "CC-BY-4.0"
+      },
+      "createdAt": "2019-01-02T15:38:09Z",
+      "pushedAt": "2026-05-08T01:27:42Z",
+      "homepageUrl": "https://mqtt-explorer.com",
+      "archived": false,
+      "owner": {
+        "login": "thomasnordquist",
+        "name": "Thomas Nordquist",
+        "type": "User",
+        "url": "https://github.com/thomasnordquist",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7721625?u=8621114d5dd0fd0fe910f8ce9308cf6dab243f7c&v=4",
+        "location": "Basel, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 81,
+      "name": "pms-docker",
+      "nameWithOwner": "plexinc/pms-docker",
+      "url": "https://github.com/plexinc/pms-docker",
+      "description": "Plex Media Server Docker repo, for all your PMS docker needs.",
+      "stars": 4036,
+      "forks": 596,
+      "primaryLanguage": "Go Template",
+      "license": null,
+      "createdAt": "2016-12-07T14:19:25Z",
+      "pushedAt": "2026-09-22T17:07:10Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "plexinc",
+        "name": "Plex",
+        "type": "Organization",
+        "url": "https://github.com/plexinc",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/324832?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 82,
+      "name": "status-legacy",
+      "nameWithOwner": "status-im/status-legacy",
+      "url": "https://github.com/status-im/status-legacy",
+      "description": "a free (libre) open source, mobile OS for Ethereum",
+      "stars": 4024,
+      "forks": 988,
+      "primaryLanguage": "Clojure",
+      "license": {
+        "name": "Mozilla Public License 2.0",
+        "spdxId": "MPL-2.0"
+      },
+      "createdAt": "2016-02-22T21:48:48Z",
+      "pushedAt": "2026-07-22T12:43:42Z",
+      "homepageUrl": "https://status.app",
+      "archived": true,
+      "owner": {
+        "login": "status-im",
+        "name": "Status",
+        "type": "Organization",
+        "url": "https://github.com/status-im",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11767950?v=4",
+        "location": "Zug, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 83,
+      "name": "lean-ctx",
+      "nameWithOwner": "yvgude/lean-ctx",
+      "url": "https://github.com/yvgude/lean-ctx",
+      "description": "LeanCTX — Context Gateway for AI Systems. Control what your AI can see. Open-source Engine for context selection, supported controls, and evidence.",
+      "stars": 3861,
+      "forks": 352,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2026-03-23T19:48:59Z",
+      "pushedAt": "2026-10-04T06:53:00Z",
+      "homepageUrl": "https://leanctx.com",
+      "archived": false,
+      "owner": {
+        "login": "yvgude",
+        "name": "Yves Gugger",
+        "type": "User",
+        "url": "https://github.com/yvgude",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7590809?u=88724f5043ad5ac9f78c4c2d5f7a32e7cbf34b17&v=4",
+        "location": "Zürich",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "zurich"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 84,
+      "name": "lightly",
+      "nameWithOwner": "lightly-ai/lightly",
+      "url": "https://github.com/lightly-ai/lightly",
+      "description": "A python library for self-supervised learning on images.",
+      "stars": 3816,
+      "forks": 374,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-10-13T13:02:56Z",
+      "pushedAt": "2026-09-28T18:23:00Z",
+      "homepageUrl": "https://docs.lightly.ai/self-supervised-learning/",
+      "archived": false,
+      "owner": {
+        "login": "lightly-ai",
+        "name": "Lightly",
+        "type": "Organization",
+        "url": "https://github.com/lightly-ai",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50146475?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 85,
+      "name": "LichtFeld-Studio",
+      "nameWithOwner": "MrNeRF/LichtFeld-Studio",
+      "url": "https://github.com/MrNeRF/LichtFeld-Studio",
+      "description": "Train, inspect, edit, automate, and export 3D Gaussian Splatting scenes from a single native application.",
+      "stars": 3810,
+      "forks": 481,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2023-07-30T19:55:48Z",
+      "pushedAt": "2026-10-04T17:09:21Z",
+      "homepageUrl": "https://lichtfeld.io",
+      "archived": false,
+      "owner": {
+        "login": "MrNeRF",
+        "name": "janusch",
+        "type": "User",
+        "url": "https://github.com/MrNeRF",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33876434?u=223e93bb39f15a25feb7a1fc111709206531b57e&v=4",
+        "location": "Basel, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 86,
+      "name": "vulscan",
+      "nameWithOwner": "scipag/vulscan",
+      "url": "https://github.com/scipag/vulscan",
+      "description": "Advanced vulnerability scanning with Nmap NSE",
+      "stars": 3785,
+      "forks": 693,
+      "primaryLanguage": "Lua",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2017-03-10T12:34:02Z",
+      "pushedAt": "2026-02-06T15:04:56Z",
+      "homepageUrl": "https://www.computec.ch/projekte/vulscan/",
+      "archived": false,
+      "owner": {
+        "login": "scipag",
+        "name": "scip ag",
+        "type": "Organization",
+        "url": "https://github.com/scipag",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26244049?v=4",
+        "location": "Zurich, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 87,
+      "name": "bknd",
+      "nameWithOwner": "bknd-io/bknd",
+      "url": "https://github.com/bknd-io/bknd",
+      "description": "Lightweight Firebase/Supabase alternative built to run anywhere — incl. Next.js, React Router, Astro, Cloudflare, Bun, Node, AWS Lambda & more.",
+      "stars": 3768,
+      "forks": 144,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2024-11-16T10:54:56Z",
+      "pushedAt": "2026-09-24T11:52:42Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "bknd-io",
+        "name": "bknd",
+        "type": "Organization",
+        "url": "https://github.com/bknd-io",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/166797171?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 88,
+      "name": "nanobind",
+      "nameWithOwner": "wjakob/nanobind",
+      "url": "https://github.com/wjakob/nanobind",
+      "description": "nanobind: tiny and efficient C++/Python bindings",
+      "stars": 3738,
+      "forks": 331,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2022-02-08T10:07:15Z",
+      "pushedAt": "2026-09-28T20:20:00Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "wjakob",
+        "name": "Wenzel Jakob",
+        "type": "User",
+        "url": "https://github.com/wjakob",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1203629?u=42d816bc7194889b0372881656b4792c536fff69&v=4",
+        "location": "Lausanne, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 89,
+      "name": "paper-tips-and-tricks",
+      "nameWithOwner": "Wookai/paper-tips-and-tricks",
+      "url": "https://github.com/Wookai/paper-tips-and-tricks",
+      "description": "Best practice and tips & tricks to write scientific papers in LaTeX, with figures generated in Python or Matlab.",
+      "stars": 3731,
+      "forks": 253,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-07-09T08:31:12Z",
+      "pushedAt": "2023-05-17T13:35:30Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Wookai",
+        "name": "Vincent Etter",
+        "type": "User",
+        "url": "https://github.com/Wookai",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/141379?v=4",
+        "location": "Vuadens, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 90,
+      "name": "olivia",
+      "nameWithOwner": "olivia-ai/olivia",
+      "url": "https://github.com/olivia-ai/olivia",
+      "description": "💁‍♀️Your new best friend powered by an artificial neural network",
+      "stars": 3719,
+      "forks": 343,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-06-05T18:19:31Z",
+      "pushedAt": "2025-02-06T10:19:30Z",
+      "homepageUrl": "https://olivia-ai.org",
+      "archived": true,
+      "owner": {
+        "login": "olivia-ai",
+        "name": "Olivia",
+        "type": "Organization",
+        "url": "https://github.com/olivia-ai",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40570637?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 91,
+      "name": "RuntimeBrowser",
+      "nameWithOwner": "nst/RuntimeBrowser",
+      "url": "https://github.com/nst/RuntimeBrowser",
+      "description": "Objective-C Runtime Browser, for Mac OS X and iOS",
+      "stars": 3660,
+      "forks": 521,
+      "primaryLanguage": "Objective-C",
+      "license": null,
+      "createdAt": "2011-03-22T23:54:06Z",
+      "pushedAt": "2026-09-10T16:47:15Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "nst",
+        "name": "Nicolas Seriot",
+        "type": "User",
+        "url": "https://github.com/nst",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51388?u=07ab57f132b8c5c4778b07deb38eaaa902eecf02&v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 92,
+      "name": "k8s-deployment-strategies",
+      "nameWithOwner": "ContainerSolutions/k8s-deployment-strategies",
+      "url": "https://github.com/ContainerSolutions/k8s-deployment-strategies",
+      "description": "Kubernetes deployment strategies explained",
+      "stars": 3651,
+      "forks": 1068,
+      "primaryLanguage": "Go",
+      "license": null,
+      "createdAt": "2017-09-21T08:46:42Z",
+      "pushedAt": "2024-04-24T08:10:01Z",
+      "homepageUrl": "https://container-solutions.com/kubernetes-deployment-strategies/",
+      "archived": false,
+      "owner": {
+        "login": "ContainerSolutions",
+        "name": "Container Solutions",
+        "type": "Organization",
+        "url": "https://github.com/ContainerSolutions",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9009380?v=4",
+        "location": "Amsterdam, London, Warsaw, Berlin, Montreal, Zurich, Edinburgh",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "zurich"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 93,
+      "name": "walk",
+      "nameWithOwner": "antonmedv/walk",
+      "url": "https://github.com/antonmedv/walk",
+      "description": "Terminal file manager",
+      "stars": 3642,
+      "forks": 108,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-12-08T22:50:51Z",
+      "pushedAt": "2026-01-06T09:07:56Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "antonmedv",
+        "name": "Anton Medvedev",
+        "type": "User",
+        "url": "https://github.com/antonmedv",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/141232?u=32c3c767d77f4bf7eb66499cb4898f88472d7d52&v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 94,
+      "name": "vernemq",
+      "nameWithOwner": "vernemq/vernemq",
+      "url": "https://github.com/vernemq/vernemq",
+      "description": "A distributed MQTT message broker based on Erlang/OTP. Built for high quality & Industrial use cases. The VerneMQ mission is active & the project maintained. Thank you for your support!",
+      "stars": 3637,
+      "forks": 430,
+      "primaryLanguage": "Erlang",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2015-05-27T07:29:57Z",
+      "pushedAt": "2026-10-04T18:35:41Z",
+      "homepageUrl": "https://vernemq.com",
+      "archived": false,
+      "owner": {
+        "login": "vernemq",
+        "name": "VerneMQ",
+        "type": "Organization",
+        "url": "https://github.com/vernemq",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11618711?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 95,
+      "name": "pingfs",
+      "nameWithOwner": "yarrick/pingfs",
+      "url": "https://github.com/yarrick/pingfs",
+      "description": "Stores your data in ICMP ping packets",
+      "stars": 3583,
+      "forks": 138,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "ISC License",
+        "spdxId": "ISC"
+      },
+      "createdAt": "2014-08-07T22:10:15Z",
+      "pushedAt": "2023-08-05T20:50:32Z",
+      "homepageUrl": "https://code.kryo.se/pingfs/",
+      "archived": false,
+      "owner": {
+        "login": "yarrick",
+        "name": "Erik Ekman",
+        "type": "User",
+        "url": "https://github.com/yarrick",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1261015?u=70cce10a4f828ad4f109c0949868846f78478cbd&v=4",
+        "location": "Zürich, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 96,
+      "name": "node-html-pdf",
+      "nameWithOwner": "marcbachmann/node-html-pdf",
+      "url": "https://github.com/marcbachmann/node-html-pdf",
+      "description": "This repo isn't maintained anymore as phantomjs got dreprecated a long time ago. Please migrate to headless chrome/puppeteer.",
+      "stars": 3575,
+      "forks": 523,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-04-18T15:51:48Z",
+      "pushedAt": "2024-05-15T14:58:10Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "marcbachmann",
+        "name": "Marc Bachmann",
+        "type": "User",
+        "url": "https://github.com/marcbachmann",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/431376?u=1b983dba8d775eee7cfa00922efa3c85d2c6bd6a&v=4",
+        "location": "Zurich, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 97,
+      "name": "cs229-2018-autumn",
+      "nameWithOwner": "maxim5/cs229-2018-autumn",
+      "url": "https://github.com/maxim5/cs229-2018-autumn",
+      "description": "All notes and materials for the CS229: Machine Learning course by Stanford University",
+      "stars": 3544,
+      "forks": 1229,
+      "primaryLanguage": "Jupyter Notebook",
+      "license": null,
+      "createdAt": "2021-02-08T14:39:48Z",
+      "pushedAt": "2025-02-14T11:35:32Z",
+      "homepageUrl": "http://cs229.stanford.edu/",
+      "archived": false,
+      "owner": {
+        "login": "maxim5",
+        "name": "Maxim Podkolzine",
+        "type": "User",
+        "url": "https://github.com/maxim5",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2580604?u=dccfdf443ddda152c950da5c87b28490d57eb3aa&v=4",
+        "location": "Zurich",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "zurich"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 98,
+      "name": "rx",
+      "nameWithOwner": "cloudhead/rx",
+      "url": "https://github.com/cloudhead/rx",
+      "description": "👾 Modern and minimalist pixel editor",
+      "stars": 3487,
+      "forks": 110,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2019-08-14T21:54:49Z",
+      "pushedAt": "2024-01-31T21:57:35Z",
+      "homepageUrl": "https://discord.gg/xHggPjfsS9",
+      "archived": false,
+      "owner": {
+        "login": "cloudhead",
+        "name": "Alexis Sellier",
+        "type": "User",
+        "url": "https://github.com/cloudhead",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40774?v=4",
+        "location": "Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 99,
+      "name": "latex-css",
+      "nameWithOwner": "vincentdoerig/latex-css",
+      "url": "https://github.com/vincentdoerig/latex-css",
+      "description": "LaTeX.css is a CSS library that makes your website look like a LaTeX document",
+      "stars": 3480,
+      "forks": 150,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-05-18T11:30:55Z",
+      "pushedAt": "2026-05-13T06:49:33Z",
+      "homepageUrl": "https://latex.vercel.app",
+      "archived": false,
+      "owner": {
+        "login": "vincentdoerig",
+        "name": "Vincent Dörig",
+        "type": "User",
+        "url": "https://github.com/vincentdoerig",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24668338?u=0d87703fd8bed7edcaca65533ac4f034b9c0c226&v=4",
+        "location": "Zürich, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 100,
+      "name": "Docker-Traefik",
+      "nameWithOwner": "SimpleHomelab/Docker-Traefik",
+      "url": "https://github.com/SimpleHomelab/Docker-Traefik",
+      "description": "Docker media and home server stack with Docker Compose, Traefik, CrowdSec, Google OAuth2/Authelia, and LetsEncrypt. Built with Deployrr and UDMS guides/videos.",
+      "stars": 3450,
+      "forks": 637,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-11-07T20:00:58Z",
+      "pushedAt": "2025-10-15T22:02:57Z",
+      "homepageUrl": "https://www.simplehomelab.com/",
+      "archived": false,
+      "owner": {
+        "login": "SimpleHomelab",
+        "name": "SimpleHomelab",
+        "type": "User",
+        "url": "https://github.com/SimpleHomelab",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7935041?u=0c727304e9ab394bae529aea0dd87f54b76f3712&v=4",
+        "location": "Lausanne, Switzerland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "switzerland"
+        },
+        "discoveryTerms": []
+      }
+    }
+  ]
+}

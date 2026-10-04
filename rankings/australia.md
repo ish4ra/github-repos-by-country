@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **7**
+- Current global star frontier: **3,366**
 
 ### High-star verified preview
 
@@ -56,5 +56,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [xingkongliang/skills-manager](https://github.com/xingkongliang/skills-manager) | **5,442** | Canberra |
 | [Velocidex/velociraptor](https://github.com/Velocidex/velociraptor) | **4,291** | Gold Coast, Australia |
 | [buymeasoda/soda-theme](https://github.com/buymeasoda/soda-theme) | **4,288** | Sunshine Coast, Australia |
+| [zolrath/wemux](https://github.com/zolrath/wemux) | **3,691** | Central Coast, CA |
+| [iann0036/iamlive](https://github.com/iann0036/iamlive) | **3,411** | Sydney, NSW |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

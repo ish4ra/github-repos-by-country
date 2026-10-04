@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **3,366**
 
 ### High-star verified preview
 
@@ -53,5 +53,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [adnanh/webhook](https://github.com/adnanh/webhook) | **12,171** | Sarajevo, Bosnia & Herzegovina |
 | [inputsh/awesome-linux](https://github.com/inputsh/awesome-linux) | **5,158** | Sarajevo, Bosnia & Herzegovina |
+| [borisdj/EFCore.BulkExtensions](https://github.com/borisdj/EFCore.BulkExtensions) | **4,000** | Banja Luka, Bosnia and Herzegovina |
+| [elvirbrk/NoteHighlight2016](https://github.com/elvirbrk/NoteHighlight2016) | **3,932** | Sarajevo |
+| [inputsh/awesome-c](https://github.com/inputsh/awesome-c) | **3,858** | Sarajevo, Bosnia & Herzegovina |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **19**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **21**
+- Current global star frontier: **3,366**
 
 ### High-star verified preview
 
@@ -70,5 +70,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [DavidHDev/vue-bits](https://github.com/DavidHDev/vue-bits) | **4,555** | Cluj-Napoca |
 | [wmariuss/awesome-devops](https://github.com/wmariuss/awesome-devops) | **4,407** | Bucharest |
 | [alexandru/scala-best-practices](https://github.com/alexandru/scala-best-practices) | **4,348** | România |
+| [micku7zu/vanilla-tilt.js](https://github.com/micku7zu/vanilla-tilt.js) | **4,015** | Cluj-Napoca |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

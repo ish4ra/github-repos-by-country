@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **7**
+- Current global star frontier: **3,366**
 
 ### High-star verified preview
 
@@ -53,5 +53,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [epicmaxco/vuestic-admin](https://github.com/epicmaxco/vuestic-admin) | **10,955** | Lithuania |
 | [DATA-DOG/go-sqlmock](https://github.com/DATA-DOG/go-sqlmock) | **6,570** | Kaunas |
+| [epicmaxco/epic-spinners](https://github.com/epicmaxco/epic-spinners) | **3,912** | Lithuania |
+| [epicmaxco/vuestic-ui](https://github.com/epicmaxco/vuestic-ui) | **3,747** | Lithuania |
+| [viliusle/miniPaint](https://github.com/viliusle/miniPaint) | **3,469** | Lithuania |
+| [aras-p/UnityGaussianSplatting](https://github.com/aras-p/UnityGaussianSplatting) | **3,420** | Kaunas, Lithuania |
+| [justinas/alice](https://github.com/justinas/alice) | **3,368** | Vilnius, Lithuania |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

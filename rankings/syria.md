@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Abdalrahman-Alhamod/Books](https://github.com/Abdalrahman-Alhamod/Books) | **51** | Damascus, Syria |
 | [Eng-Hasan-Hajjar/Eng-Hasan-Hajjar](https://github.com/Eng-Hasan-Hajjar/Eng-Hasan-Hajjar) | **47** | Aleppo - Syria |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **3,366**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [evoiz/Agentic-Design-Patterns](https://github.com/evoiz/Agentic-Design-Patterns) | **3,805** | Homs, Syria |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

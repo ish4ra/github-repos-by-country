@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **6**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **7**
+- Current global star frontier: **3,366**
 
 ### High-star verified preview
 
@@ -57,5 +57,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [thangchung/clean-code-dotnet](https://github.com/thangchung/clean-code-dotnet) | **7,735** | Ho Chi Minh City, Vietnam |
 | [PokeAPI/pokeapi](https://github.com/PokeAPI/pokeapi) | **5,392** | Kanto |
 | [thangchung/go-coffeeshop](https://github.com/thangchung/go-coffeeshop) | **4,356** | Ho Chi Minh City, Vietnam |
+| [tamnd/kage](https://github.com/tamnd/kage) | **3,460** | Ho Chi Minh City, Vietnam |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

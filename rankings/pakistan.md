@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **8**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **3,366**
 
 ### High-star verified preview
 
@@ -59,5 +59,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [r0oth3x49/udemy-dl](https://github.com/r0oth3x49/udemy-dl) | **4,950** | Pakistan |
 | [FareedKhan-dev/all-agentic-architectures](https://github.com/FareedKhan-dev/all-agentic-architectures) | **4,579** | Karachi, Pakistan |
 | [haris-musa/excel-mcp-server](https://github.com/haris-musa/excel-mcp-server) | **4,212** | Karachi, Pakistan |
+| [r0oth3x49/ghauri](https://github.com/r0oth3x49/ghauri) | **4,081** | Pakistan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

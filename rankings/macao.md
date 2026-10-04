@@ -30,8 +30,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **3,366**
 
 ### High-star verified preview
 
@@ -41,5 +41,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [spiritLHLS/ecs](https://github.com/spiritLHLS/ecs) | **7,229** | Macau |
 | [layumi/Person_reID_baseline_pytorch](https://github.com/layumi/Person_reID_baseline_pytorch) | **4,448** | Macau, China |
+| [vczero/react-native-lesson](https://github.com/vczero/react-native-lesson) | **4,045** | Macau, China |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

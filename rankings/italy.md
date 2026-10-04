@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **15**
+- Current global star frontier: **3,366**
 
 ### High-star verified preview
 
@@ -65,5 +65,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [gabrielemariotti/cardslib](https://github.com/gabrielemariotti/cardslib) | **4,606** | Ancona, Italy |
 | [andreafrancia/trash-cli](https://github.com/andreafrancia/trash-cli) | **4,597** | Milano |
 | [antirez/linenoise](https://github.com/antirez/linenoise) | **4,364** | Catania, Sicily, Italy |
+| [pichillilorenzo/flutter_inappwebview](https://github.com/pichillilorenzo/flutter_inappwebview) | **3,782** | Teramo, Italy |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

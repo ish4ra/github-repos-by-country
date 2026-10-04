@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **12**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **19**
+- Current global star frontier: **3,366**
 
 ### High-star verified preview
 
@@ -63,5 +63,12 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [satya164/react-native-tab-view](https://github.com/satya164/react-native-tab-view) | **5,104** | Wrocław, Poland |
 | [JohnSundell/Publish](https://github.com/JohnSundell/Publish) | **4,970** | Gdansk, Poland |
 | [frogermcs/InstaMaterial](https://github.com/frogermcs/InstaMaterial) | **4,933** | Cracow |
+| [JohnSundell/SwiftTips](https://github.com/JohnSundell/SwiftTips) | **4,007** | Gdansk, Poland |
+| [fcambus/nginx-resources](https://github.com/fcambus/nginx-resources) | **3,823** | Rzeszów, Poland |
+| [the-moonwitch/Cozette](https://github.com/the-moonwitch/Cozette) | **3,802** | Wrocław, Poland |
+| [oskardudycz/EventSourcing.NetCore](https://github.com/oskardudycz/EventSourcing.NetCore) | **3,687** | Wrocław |
+| [neuronetio/gantt-schedule-timeline-calendar](https://github.com/neuronetio/gantt-schedule-timeline-calendar) | **3,632** | Poland, Kalisz |
+| [wojciech-kulik/FlashSpace](https://github.com/wojciech-kulik/FlashSpace) | **3,524** | Wrocław, Poland |
+| [mczachurski/wallpapper](https://github.com/mczachurski/wallpapper) | **3,436** | Wrocław, Poland |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

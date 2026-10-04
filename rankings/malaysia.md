@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **3,366**
 
 ### High-star verified preview
 
@@ -54,5 +54,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [MoonTechLab/LunaTV](https://github.com/MoonTechLab/LunaTV) | **10,589** | Malaysia |
 | [huseinzol05/Stock-Prediction-Models](https://github.com/huseinzol05/Stock-Prediction-Models) | **9,501** | Kedah, Malaysia |
 | [awarexone/Agentic-Bug-Hunter](https://github.com/awarexone/Agentic-Bug-Hunter) | **5,262** | Malaysia |
+| [keenthemes/reui](https://github.com/keenthemes/reui) | **3,614** | Malaysia |
+| [subbarayudu-j/TheAlgorithms-Python](https://github.com/subbarayudu-j/TheAlgorithms-Python) | **3,589** | Malaysia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

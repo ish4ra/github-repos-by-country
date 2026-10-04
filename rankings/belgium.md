@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **3,366**
 
 ### High-star verified preview
 
@@ -55,5 +55,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [JanDeDobbeleer/oh-my-posh2](https://github.com/JanDeDobbeleer/oh-my-posh2) | **5,213** | Diest, Belgium |
 | [phpro/grumphp](https://github.com/phpro/grumphp) | **4,316** | Kontich, Belgium |
 | [jarnedemeulemeester/findroid](https://github.com/jarnedemeulemeester/findroid) | **4,271** | Harelbeke, Belgium |
+| [mariusandra/pigeon-maps](https://github.com/mariusandra/pigeon-maps) | **3,521** | Leuven, Belgium |
+| [probberechts/hexo-theme-cactus](https://github.com/probberechts/hexo-theme-cactus) | **3,516** | Leuven, Belgium |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

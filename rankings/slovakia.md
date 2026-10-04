@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **3,366**
 
 ### High-star verified preview
 
@@ -55,5 +55,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [itsgoingd/clockwork](https://github.com/itsgoingd/clockwork) | **5,953** | Slovakia |
 | [JakubVojvoda/design-patterns-cpp](https://github.com/JakubVojvoda/design-patterns-cpp) | **4,564** | Slovakia |
 | [totaljs/framework](https://github.com/totaljs/framework) | **4,357** | Slovakia |
+| [SimpleMobileTools/Simple-Gallery](https://github.com/SimpleMobileTools/Simple-Gallery) | **4,026** | Slovakia |
+| [nem0/LumixEngine](https://github.com/nem0/LumixEngine) | **3,894** | Slovakia, Bratislava |
+| [SimpleMobileTools/Simple-Calendar](https://github.com/SimpleMobileTools/Simple-Calendar) | **3,651** | Slovakia |
+| [tomasklaen/uosc](https://github.com/tomasklaen/uosc) | **3,434** | Slovakia |
+| [dorny/paths-filter](https://github.com/dorny/paths-filter) | **3,350** | Bratislava, Slovakia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **20**
+- Current global star frontier: **3,366**
 
 ### High-star verified preview
 
@@ -65,5 +65,11 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [aldinokemal/go-whatsapp-web-multidevice](https://github.com/aldinokemal/go-whatsapp-web-multidevice) | **4,887** | Yogyakarta, Indonesia |
 | [infosecn1nja/AD-Attack-Defense](https://github.com/infosecn1nja/AD-Attack-Defense) | **4,867** | Jakarta, Indonesia |
 | [miqdadbadjuber/anti-slop](https://github.com/miqdadbadjuber/anti-slop) | **4,408** | Indonesia |
+| [ericc-ch/copilot-api](https://github.com/ericc-ch/copilot-api) | **4,137** | Indonesia |
+| [stisla/stisla](https://github.com/stisla/stisla) | **3,762** | Indonesia |
+| [anggrayudi/android-hidden-api](https://github.com/anggrayudi/android-hidden-api) | **3,623** | Jakarta, Indonesia |
+| [raexera/yoru](https://github.com/raexera/yoru) | **3,579** | Indonesia |
+| [fians/Waves](https://github.com/fians/Waves) | **3,458** | Jakarta, Indonesia |
+| [theodorusclarence/ts-nextjs-tailwind-starter](https://github.com/theodorusclarence/ts-nextjs-tailwind-starter) | **3,413** | Indonesia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

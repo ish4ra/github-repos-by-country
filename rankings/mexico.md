@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **7**
+- Current global star frontier: **3,366**
 
 ### High-star verified preview
 
@@ -56,5 +56,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [EdOverflow/bugbounty-cheatsheet](https://github.com/EdOverflow/bugbounty-cheatsheet) | **6,555** | ::1 |
 | [EdOverflow/can-i-take-over-xyz](https://github.com/EdOverflow/can-i-take-over-xyz) | **5,819** | ::1 |
 | [gh0stzk/dotfiles](https://github.com/gh0stzk/dotfiles) | **4,751** | Mexico City |
+| [Samsar4/Ethical-Hacking-Labs](https://github.com/Samsar4/Ethical-Hacking-Labs) | **3,917** | ::1 |
+| [styfle/awesome-online-ide](https://github.com/styfle/awesome-online-ide) | **3,533** | ::1 |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

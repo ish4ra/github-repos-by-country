@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **17**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **25**
+- Current global star frontier: **3,366**
 
 ### High-star verified preview
 
@@ -68,5 +68,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [obss/sahi](https://github.com/obss/sahi) | **5,528** | Istanbul |
 | [ardatan/graphql-tools](https://github.com/ardatan/graphql-tools) | **5,429** | Karşıyaka, İzmir, Türkiye |
 | [seyhunak/twitter-bootstrap-rails](https://github.com/seyhunak/twitter-bootstrap-rails) | **4,463** | Turkiye |
+| [bisguzar/twitter-scraper](https://github.com/bisguzar/twitter-scraper) | **4,005** | Turkey/Istanbul |
+| [f/textream](https://github.com/f/textream) | **3,926** | Istanbul, Turkey |
+| [fatih/structs](https://github.com/fatih/structs) | **3,922** | Ankara, TR |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

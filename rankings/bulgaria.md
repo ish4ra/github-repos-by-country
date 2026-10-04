@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **22**
+- Current global star frontier: **3,366**
 
 ### High-star verified preview
 
@@ -65,5 +65,11 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [vakata/jstree](https://github.com/vakata/jstree) | **5,180** | Plovdiv, Bulgaria |
 | [radzenhq/radzen-blazor](https://github.com/radzenhq/radzen-blazor) | **4,363** | Bulgaria |
 | [bbatsov/projectile](https://github.com/bbatsov/projectile) | **4,243** | Bulgaria |
+| [bbatsov/clojure-style-guide](https://github.com/bbatsov/clojure-style-guide) | **4,100** | Bulgaria |
+| [shanalikhan/code-settings-sync](https://github.com/shanalikhan/code-settings-sync) | **4,090** | Bulgaria |
+| [me-no-dev/ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer) | **4,043** | Bulgaria |
+| [sebaxakerhtc/rdpwrap.ini](https://github.com/sebaxakerhtc/rdpwrap.ini) | **3,883** | Bulgaria |
+| [nakov/Practical-Cryptography-for-Developers-Book](https://github.com/nakov/Practical-Cryptography-for-Developers-Book) | **3,829** | Sofia, Bulgaria |
+| [ggerganov/imtui](https://github.com/ggerganov/imtui) | **3,630** | Sofia, Bulgaria |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

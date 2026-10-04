@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **11**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **15**
+- Current global star frontier: **3,366**
 
 ### High-star verified preview
 
@@ -62,5 +62,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Aikoyori/ProgrammingVTuberLogos](https://github.com/Aikoyori/ProgrammingVTuberLogos) | **6,239** | Thailand |
 | [satnaing/astro-paper](https://github.com/satnaing/astro-paper) | **5,093** | Bangkok, Thailand |
 | [quantopian/alphalens](https://github.com/quantopian/alphalens) | **4,461** | Boston, MA, USA |
+| [claraverse-space/ClaraVerse](https://github.com/claraverse-space/ClaraVerse) | **3,898** | Thailand |
+| [parnurzeal/gorequest](https://github.com/parnurzeal/gorequest) | **3,515** | Bangkok |
+| [danyuchn/asd-ste100-skill](https://github.com/danyuchn/asd-ste100-skill) | **3,505** | Bangkok, Thailand |
+| [waf/CSharpRepl](https://github.com/waf/CSharpRepl) | **3,352** | Bangkok, Thailand |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

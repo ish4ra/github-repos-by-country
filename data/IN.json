@@ -1,0 +1,3389 @@
+{
+  "schemaVersion": 1,
+  "methodologyVersion": "0.8.0-repository-first",
+  "generatedAt": "2026-10-04T18:44:25.514Z",
+  "country": {
+    "code": "IN",
+    "name": "India",
+    "slug": "india"
+  },
+  "source": {
+    "provider": "GitHub GraphQL API",
+    "endpoint": "https://api.github.com/graphql",
+    "countryBasis": "public repository-owner profile location",
+    "discovery": "global repositories scanned by stars descending"
+  },
+  "coverage": {
+    "status": "repository-first-certified-by-star-frontier",
+    "exhaustive": false,
+    "rawOwnerHits": 19850,
+    "acceptedUniqueOwners": 83,
+    "ownerMetricLabel": "Unique owners in top ranking",
+    "repositoriesConsidered": 125,
+    "publishedRepositories": 100,
+    "candidateThresholdStars": 4130,
+    "rankingLimit": 100,
+    "cappedQueries": [],
+    "repositoryFirst": {
+      "scanFrontierStars": 3366,
+      "topObservedStars": 551406,
+      "repositoriesSeen": 19850,
+      "attributedRepositories": 6889,
+      "ambiguousLocations": 2846,
+      "unknownLocations": 10115,
+      "unresolvedStarCounts": []
+    },
+    "notes": [
+      "Repositories are scanned globally in descending star ranges, independently of owner follower count or owner-search ordering.",
+      "A country is certified only after its 100th repository has more stars than every unprocessed global star range.",
+      "Owner country is inferred from the owner public GitHub profile location using the global geography resolver.",
+      "Owners with missing or unresolved locations are excluded, so country attribution is not a citizenship or legal-incorporation claim.",
+      "Compound city/admin locations such as \"Portland, OR\" are resolved before ambiguous city-only names."
+    ]
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "Awesome-Hacking",
+      "nameWithOwner": "Hack-with-Github/Awesome-Hacking",
+      "url": "https://github.com/Hack-with-Github/Awesome-Hacking",
+      "description": "A collection of various awesome lists for hackers, pentesters and security researchers",
+      "stars": 121795,
+      "forks": 10803,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdxId": "CC0-1.0"
+      },
+      "createdAt": "2016-03-30T15:47:10Z",
+      "pushedAt": "2026-07-26T03:29:02Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Hack-with-Github",
+        "name": "Hack with GitHub",
+        "type": "Organization",
+        "url": "https://github.com/Hack-with-Github",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18143746?v=4",
+        "location": "Bangalore, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 2,
+      "name": "github-readme-stats",
+      "nameWithOwner": "anuraghazra/github-readme-stats",
+      "url": "https://github.com/anuraghazra/github-readme-stats",
+      "description": ":zap: Dynamically generated stats for your github readmes",
+      "stars": 79825,
+      "forks": 38120,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-07-09T10:34:22Z",
+      "pushedAt": "2026-10-01T01:02:55Z",
+      "homepageUrl": "https://github-readme-stats.vercel.app",
+      "archived": false,
+      "owner": {
+        "login": "anuraghazra",
+        "name": "Anurag Hazra",
+        "type": "User",
+        "url": "https://github.com/anuraghazra",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35374649?u=3125539259bebd2d8af05462a37f22a4fba763e4&v=4",
+        "location": "India, West Bengal",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "west bengal"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 3,
+      "name": "GitNexus",
+      "nameWithOwner": "abhigyanpatwari/GitNexus",
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine ",
+      "stars": 47704,
+      "forks": 5179,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2025-08-02T23:20:31Z",
+      "pushedAt": "2026-10-03T19:41:16Z",
+      "homepageUrl": "https://gitnexus.vercel.app",
+      "archived": false,
+      "owner": {
+        "login": "abhigyanpatwari",
+        "name": "Abhigyan Patwari",
+        "type": "User",
+        "url": "https://github.com/abhigyanpatwari",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/126312502?u=9365d82c85671bbd26d1ba38a373ec95ee78dae1&v=4",
+        "location": "Guwahati, Assam, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "guwahati"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 4,
+      "name": "hyperswitch",
+      "nameWithOwner": "juspay/hyperswitch",
+      "url": "https://github.com/juspay/hyperswitch",
+      "description": "Open source, composable payments platform | PCI compliant | SaaS and Self-host options | Enables connectivity to multiple payment, payout, fraud, vault and tokenization providers | Uplifts authorization with intelligent routing and revenue recovery | Reduce payment processing costs with cost observability | Reduces payment ops with reconciliation",
+      "stars": 45274,
+      "forks": 6420,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2022-10-17T11:18:28Z",
+      "pushedAt": "2026-10-03T22:26:50Z",
+      "homepageUrl": "https://hyperswitch.io/",
+      "archived": false,
+      "owner": {
+        "login": "juspay",
+        "name": "Juspay Technologies",
+        "type": "Organization",
+        "url": "https://github.com/juspay",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11497632?v=4",
+        "location": "Bangalore, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 5,
+      "name": "500-AI-Agents-Projects",
+      "nameWithOwner": "ashishpatel26/500-AI-Agents-Projects",
+      "url": "https://github.com/ashishpatel26/500-AI-Agents-Projects",
+      "description": "The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more.",
+      "stars": 38287,
+      "forks": 6849,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2024-12-20T13:37:15Z",
+      "pushedAt": "2026-07-27T05:40:40Z",
+      "homepageUrl": "https://ashishpatel26.github.io/500-AI-Agents-Projects/",
+      "archived": false,
+      "owner": {
+        "login": "ashishpatel26",
+        "name": "Ashish Patel",
+        "type": "User",
+        "url": "https://github.com/ashishpatel26",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3095771?u=522d8855c070c0af151b27becc02052e34849d4e&v=4",
+        "location": "Ahmedabad",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ahmedabad"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 6,
+      "name": "500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+      "nameWithOwner": "ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+      "url": "https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code",
+      "description": "500 AI Machine learning Deep learning Computer vision NLP Projects with code",
+      "stars": 37091,
+      "forks": 7489,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2021-01-02T12:08:37Z",
+      "pushedAt": "2026-09-26T00:44:47Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ashishpatel26",
+        "name": "Ashish Patel",
+        "type": "User",
+        "url": "https://github.com/ashishpatel26",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3095771?u=522d8855c070c0af151b27becc02052e34849d4e&v=4",
+        "location": "Ahmedabad",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ahmedabad"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 7,
+      "name": "kitty",
+      "nameWithOwner": "kovidgoyal/kitty",
+      "url": "https://github.com/kovidgoyal/kitty",
+      "description": "If you live in the terminal, kitty is made for you! Cross-platform, fast, feature-rich, GPU based.",
+      "stars": 35156,
+      "forks": 1539,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2016-10-16T14:48:28Z",
+      "pushedAt": "2026-10-04T02:29:59Z",
+      "homepageUrl": "https://sw.kovidgoyal.net/kitty/",
+      "archived": false,
+      "owner": {
+        "login": "kovidgoyal",
+        "name": "Kovid Goyal",
+        "type": "User",
+        "url": "https://github.com/kovidgoyal",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1308621?u=b3fb9d6c1fe72bbc3d3b3b1192e8e421cad810c9&v=4",
+        "location": "Mumbai, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mumbai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 8,
+      "name": "graphql-engine",
+      "nameWithOwner": "hasura/graphql-engine",
+      "url": "https://github.com/hasura/graphql-engine",
+      "description": "Blazing fast, instant realtime GraphQL APIs on all your data with fine grained access control, also trigger webhooks on database events.",
+      "stars": 32132,
+      "forks": 3027,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-06-18T07:57:36Z",
+      "pushedAt": "2026-09-21T17:48:10Z",
+      "homepageUrl": "https://hasura.io",
+      "archived": false,
+      "owner": {
+        "login": "hasura",
+        "name": "Hasura",
+        "type": "Organization",
+        "url": "https://github.com/hasura",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13966722?v=4",
+        "location": "San Francisco, Bangalore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 9,
+      "name": "calibre",
+      "nameWithOwner": "kovidgoyal/calibre",
+      "url": "https://github.com/kovidgoyal/calibre",
+      "description": "The official source code repository for the calibre ebook manager",
+      "stars": 26059,
+      "forks": 2711,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2013-05-28T10:03:23Z",
+      "pushedAt": "2026-10-04T02:14:42Z",
+      "homepageUrl": "https://calibre-ebook.com",
+      "archived": false,
+      "owner": {
+        "login": "kovidgoyal",
+        "name": "Kovid Goyal",
+        "type": "User",
+        "url": "https://github.com/kovidgoyal",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1308621?u=b3fb9d6c1fe72bbc3d3b3b1192e8e421cad810c9&v=4",
+        "location": "Mumbai, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mumbai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 10,
+      "name": "github-profile-readme-generator",
+      "nameWithOwner": "rahuldkjain/github-profile-readme-generator",
+      "url": "https://github.com/rahuldkjain/github-profile-readme-generator",
+      "description": "🚀 Generate GitHub profile README easily with the latest add-ons like visitors count, GitHub stats, etc using minimal UI.",
+      "stars": 24447,
+      "forks": 8418,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2020-07-15T11:20:48Z",
+      "pushedAt": "2025-10-28T10:27:15Z",
+      "homepageUrl": "https://rahuldkjain.github.io/github-profile-readme-generator",
+      "archived": false,
+      "owner": {
+        "login": "rahuldkjain",
+        "name": "Rahul Jain",
+        "type": "User",
+        "url": "https://github.com/rahuldkjain",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26406279?u=08729fe37cddd01234a661d511028d698879e257&v=4",
+        "location": "Bangalore, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 11,
+      "name": "listmonk",
+      "nameWithOwner": "knadh/listmonk",
+      "url": "https://github.com/knadh/listmonk",
+      "description": "High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.",
+      "stars": 23685,
+      "forks": 2645,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2019-06-26T05:08:39Z",
+      "pushedAt": "2026-10-04T02:52:34Z",
+      "homepageUrl": "https://listmonk.app",
+      "archived": false,
+      "owner": {
+        "login": "knadh",
+        "name": "Kailash Nadh",
+        "type": "User",
+        "url": "https://github.com/knadh",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/547147?u=d0d65c421bb54c3714c473259ea33259bf3ccd06&v=4",
+        "location": "Bengaluru",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bengaluru"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 12,
+      "name": "Best-Flutter-UI-Templates",
+      "nameWithOwner": "mitesh77/Best-Flutter-UI-Templates",
+      "url": "https://github.com/mitesh77/Best-Flutter-UI-Templates",
+      "description": "completely free for everyone. Its build-in Flutter Dart.",
+      "stars": 22832,
+      "forks": 4813,
+      "primaryLanguage": "Dart",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2019-09-02T08:36:18Z",
+      "pushedAt": "2025-12-16T10:59:44Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "mitesh77",
+        "name": "Mitesh Chodvadiya",
+        "type": "User",
+        "url": "https://github.com/mitesh77",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38649435?u=1674f36568e39dacdef37e8b17da8ea010e506dc&v=4",
+        "location": "Bengaluru ",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bengaluru"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 13,
+      "name": "witr",
+      "nameWithOwner": "pranshuparmar/witr",
+      "url": "https://github.com/pranshuparmar/witr",
+      "description": "Why is this running? Trace any process, port, container, or file back to what started it - CLI + TUI. ",
+      "stars": 22575,
+      "forks": 789,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2025-12-20T17:26:59Z",
+      "pushedAt": "2026-10-03T16:51:43Z",
+      "homepageUrl": "https://pranshuparmar.github.io/witr/",
+      "archived": false,
+      "owner": {
+        "login": "pranshuparmar",
+        "name": "Pranshu Parmar",
+        "type": "User",
+        "url": "https://github.com/pranshuparmar",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4262592?u=dc1af2c7e0a6e001ce67f732c10b69ea33c617d5&v=4",
+        "location": "Pune, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "pune"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 14,
+      "name": "A-to-Z-Resources-for-Students",
+      "nameWithOwner": "dipakkr/A-to-Z-Resources-for-Students",
+      "url": "https://github.com/dipakkr/A-to-Z-Resources-for-Students",
+      "description": "✅  Curated list of resources for developers ",
+      "stars": 22314,
+      "forks": 4825,
+      "primaryLanguage": null,
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-09-17T11:15:29Z",
+      "pushedAt": "2026-06-17T14:00:26Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "dipakkr",
+        "name": "Deepak",
+        "type": "User",
+        "url": "https://github.com/dipakkr",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17788569?u=22a3947569250f55a5922cb72209939cc5890cb5&v=4",
+        "location": "Bangalore, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 15,
+      "name": "LeetCode-Questions-CompanyWise",
+      "nameWithOwner": "krishnadey30/LeetCode-Questions-CompanyWise",
+      "url": "https://github.com/krishnadey30/LeetCode-Questions-CompanyWise",
+      "description": "Contains Company Wise Questions sorted based on Frequency and all time",
+      "stars": 20242,
+      "forks": 5603,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2020-08-11T14:57:24Z",
+      "pushedAt": "2024-06-23T13:03:59Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "krishnadey30",
+        "name": "Krishna Kumar Dey",
+        "type": "User",
+        "url": "https://github.com/krishnadey30",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22263782?u=4f2cb9ae035f8394b794c3a7afedd85154f90c5b&v=4",
+        "location": "Bengaluru",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bengaluru"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 16,
+      "name": "stop-slop",
+      "nameWithOwner": "hardikpandya/stop-slop",
+      "url": "https://github.com/hardikpandya/stop-slop",
+      "description": "A skill file for removing AI tells from prose",
+      "stars": 17730,
+      "forks": 1292,
+      "primaryLanguage": null,
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-01-11T12:00:59Z",
+      "pushedAt": "2026-03-17T18:50:39Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "hardikpandya",
+        "name": "Hardik Pandya",
+        "type": "User",
+        "url": "https://github.com/hardikpandya",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/591262?u=d9f9fcfc0610bd0f8e63ea492d274c188a3110ff&v=4",
+        "location": "Bangalore, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 17,
+      "name": "Project-Ideas-And-Resources",
+      "nameWithOwner": "The-Cool-Coders/Project-Ideas-And-Resources",
+      "url": "https://github.com/The-Cool-Coders/Project-Ideas-And-Resources",
+      "description": "A Collection of application ideas that can be used to improve your coding skills ❤.",
+      "stars": 16886,
+      "forks": 1439,
+      "primaryLanguage": null,
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-10-24T19:28:51Z",
+      "pushedAt": "2026-09-21T06:38:30Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "The-Cool-Coders",
+        "name": "The Cool Coders",
+        "type": "Organization",
+        "url": "https://github.com/The-Cool-Coders",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73399475?v=4",
+        "location": "Bhubaneswar",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bhubaneswar"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 18,
+      "name": "IQKeyboardManager",
+      "nameWithOwner": "hackiftekhar/IQKeyboardManager",
+      "url": "https://github.com/hackiftekhar/IQKeyboardManager",
+      "description": "Codeless drop-in universal library allows to prevent issues of keyboard sliding up and cover UITextField/UITextView. Neither need to write any code nor any setup required and much more.",
+      "stars": 16624,
+      "forks": 2443,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-08-25T11:32:48Z",
+      "pushedAt": "2026-09-28T05:57:26Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "hackiftekhar",
+        "name": "Mohd Iftekhar Qurashi",
+        "type": "User",
+        "url": "https://github.com/hackiftekhar",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3831495?u=e97406e0c4cca3d9c8a9d23998dc880d767b5a8d&v=4",
+        "location": "Chandametta, Madhya Pradesh, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "madhya pradesh"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 19,
+      "name": "mit-deep-learning-book-pdf",
+      "nameWithOwner": "janishar/mit-deep-learning-book-pdf",
+      "url": "https://github.com/janishar/mit-deep-learning-book-pdf",
+      "description": "MIT Deep Learning Book in PDF format (complete and parts) by Ian Goodfellow, Yoshua Bengio and Aaron Courville",
+      "stars": 14241,
+      "forks": 2906,
+      "primaryLanguage": "Java",
+      "license": null,
+      "createdAt": "2017-04-07T10:46:50Z",
+      "pushedAt": "2026-02-03T19:27:04Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "janishar",
+        "name": "Janishar Ali",
+        "type": "User",
+        "url": "https://github.com/janishar",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11065002?u=5b6dadf43871e14f66650e968000541d9c8ef5a1&v=4",
+        "location": "New Delhi, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "new delhi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 20,
+      "name": "maptoposter",
+      "nameWithOwner": "originalankur/maptoposter",
+      "url": "https://github.com/originalankur/maptoposter",
+      "description": "Transform your favorite cities into beautiful, minimalist designs. MapToPoster lets you create and export visually striking map posters with code.",
+      "stars": 14178,
+      "forks": 1256,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-01-08T12:29:35Z",
+      "pushedAt": "2026-08-06T07:57:04Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "originalankur",
+        "name": "Ankur Gupta",
+        "type": "User",
+        "url": "https://github.com/originalankur",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11364?u=6437b0adbedf1c3f1d255e009298d52140573dbe&v=4",
+        "location": "Bengaluru, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bengaluru"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 21,
+      "name": "hugo-PaperMod",
+      "nameWithOwner": "adityatelange/hugo-PaperMod",
+      "url": "https://github.com/adityatelange/hugo-PaperMod",
+      "description": " A fast, clean, responsive Hugo theme.",
+      "stars": 13964,
+      "forks": 3438,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-07-21T04:45:10Z",
+      "pushedAt": "2026-08-02T18:00:13Z",
+      "homepageUrl": "https://adityatelange.github.io/hugo-PaperMod/",
+      "archived": false,
+      "owner": {
+        "login": "adityatelange",
+        "name": "Aditya Telange",
+        "type": "User",
+        "url": "https://github.com/adityatelange",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21258296?u=2ffcf94141998ba00f433cf699e8675ea324c6c8&v=4",
+        "location": "Mumbai, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mumbai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 22,
+      "name": "awesome-podcasts",
+      "nameWithOwner": "rShetty/awesome-podcasts",
+      "url": "https://github.com/rShetty/awesome-podcasts",
+      "description": "Collection of awesome podcasts",
+      "stars": 13111,
+      "forks": 648,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2018-03-23T07:33:39Z",
+      "pushedAt": "2024-03-02T17:15:28Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "rShetty",
+        "name": "Rajeev N Bharshetty",
+        "type": "User",
+        "url": "https://github.com/rShetty",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1204933?u=acafb590d7464679610bcf7e5e19c5e8e103a6dd&v=4",
+        "location": "Bangalore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 23,
+      "name": "android-interview-questions",
+      "nameWithOwner": "amitshekhariitbhu/android-interview-questions",
+      "url": "https://github.com/amitshekhariitbhu/android-interview-questions",
+      "description": "Your Cheat Sheet For Android Interview - Android Interview Questions and Answers",
+      "stars": 12366,
+      "forks": 2385,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2017-07-09T18:47:24Z",
+      "pushedAt": "2026-03-21T09:31:59Z",
+      "homepageUrl": "https://outcomeschool.com/program/android",
+      "archived": false,
+      "owner": {
+        "login": "amitshekhariitbhu",
+        "name": "AMIT SHEKHAR",
+        "type": "User",
+        "url": "https://github.com/amitshekhariitbhu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9877145?u=3827ad395dfc458321f9b65944406cfdd26055dd&v=4",
+        "location": "Bangalore, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 24,
+      "name": "scira",
+      "nameWithOwner": "zaidmukaddam/scira",
+      "url": "https://github.com/zaidmukaddam/scira",
+      "description": "Scira (Formerly MiniPerplx) is a minimalistic AI-powered search engine that helps you find information on the internet and cites it too. Powered by Vercel AI SDK!",
+      "stars": 11904,
+      "forks": 1498,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2024-08-07T13:29:49Z",
+      "pushedAt": "2026-08-12T22:28:59Z",
+      "homepageUrl": "https://scira.ai",
+      "archived": false,
+      "owner": {
+        "login": "zaidmukaddam",
+        "name": "Zaid Mukaddam",
+        "type": "User",
+        "url": "https://github.com/zaidmukaddam",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76097144?u=1eedb8b5ff0b4f75c9b20346f1832a55857a150b&v=4",
+        "location": "Mumbai",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mumbai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 25,
+      "name": "SpotiFlyer",
+      "nameWithOwner": "Shabinder/SpotiFlyer",
+      "url": "https://github.com/Shabinder/SpotiFlyer",
+      "description": "Kotlin Multiplatform Music Downloader, Supports Spotify /   Gaana / Youtube Music / Jio Saavn / SoundCloud.",
+      "stars": 11283,
+      "forks": 820,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2020-07-15T20:05:01Z",
+      "pushedAt": "2024-10-06T22:16:49Z",
+      "homepageUrl": "https://spotiflyer.in/",
+      "archived": false,
+      "owner": {
+        "login": "Shabinder",
+        "name": "Shabinder Singh",
+        "type": "User",
+        "url": "https://github.com/Shabinder",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44765050?u=3a951fd3f01903f7a27b3c1451089373281554b7&v=4",
+        "location": "Kolkata, West Bengal",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "kolkata west bengal"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 26,
+      "name": "A-Curated-List-of-ML-System-Design-Case-Studies",
+      "nameWithOwner": "Engineer1999/A-Curated-List-of-ML-System-Design-Case-Studies",
+      "url": "https://github.com/Engineer1999/A-Curated-List-of-ML-System-Design-Case-Studies",
+      "description": "This repository contains a curated collection of 300+ case studies from over 80 companies, detailing practical applications and insights into machine learning (ML) system design. The contents are organized to help you easily find relevant case studies based on industry or specific ML use cases. ",
+      "stars": 11014,
+      "forks": 1681,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2024-05-18T15:42:58Z",
+      "pushedAt": "2025-08-05T04:07:00Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Engineer1999",
+        "name": "Bhargav Patel",
+        "type": "User",
+        "url": "https://github.com/Engineer1999",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35295970?u=06c393bdb3a42d9fab3698cf7c93b4feac5adf79&v=4",
+        "location": "Gurgaon",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "gurgaon"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 27,
+      "name": "claurst",
+      "nameWithOwner": "Kuberwastaken/claurst",
+      "url": "https://github.com/Kuberwastaken/claurst",
+      "description": "Agentic Coding for Builders who Ship",
+      "stars": 10314,
+      "forks": 7715,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2026-03-31T09:23:58Z",
+      "pushedAt": "2026-09-02T15:57:58Z",
+      "homepageUrl": "https://claurst.kuber.studio/",
+      "archived": false,
+      "owner": {
+        "login": "Kuberwastaken",
+        "name": "Kuber Mehta",
+        "type": "User",
+        "url": "https://github.com/Kuberwastaken",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97027230?u=42eb2a2f12f3b06730b27573e06271cbd23737e8&v=4",
+        "location": "New Delhi, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "new delhi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 28,
+      "name": "Tkinter-Designer",
+      "nameWithOwner": "ParthJadhav/Tkinter-Designer",
+      "url": "https://github.com/ParthJadhav/Tkinter-Designer",
+      "description": "An easy and fast way to create a Python GUI 🐍",
+      "stars": 10264,
+      "forks": 931,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2021-05-18T07:29:26Z",
+      "pushedAt": "2026-09-05T08:14:43Z",
+      "homepageUrl": "https://www.parthjadhav.com/products/tkinter-designer",
+      "archived": false,
+      "owner": {
+        "login": "ParthJadhav",
+        "name": "Parth Jadhav",
+        "type": "User",
+        "url": "https://github.com/ParthJadhav",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42001064?u=c33e2bb9c6fe0ee3dec05a61741127dc2f7334b9&v=4",
+        "location": "Pune, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "pune"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 29,
+      "name": "seeker",
+      "nameWithOwner": "thewhiteh4t/seeker",
+      "url": "https://github.com/thewhiteh4t/seeker",
+      "description": "Accurately Locate Smartphones using Social Engineering ",
+      "stars": 10083,
+      "forks": 2314,
+      "primaryLanguage": "CSS",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-07-15T16:06:48Z",
+      "pushedAt": "2026-06-19T04:34:58Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "thewhiteh4t",
+        "name": "Lohitya Pushkar",
+        "type": "User",
+        "url": "https://github.com/thewhiteh4t",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36354846?u=99d06a9237c301569774dac1c70218d5c032773a&v=4",
+        "location": "NET",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "net"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 30,
+      "name": "DnsServer",
+      "nameWithOwner": "TechnitiumSoftware/DnsServer",
+      "url": "https://github.com/TechnitiumSoftware/DnsServer",
+      "description": "Technitium DNS Server",
+      "stars": 10057,
+      "forks": 794,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2017-10-29T10:56:47Z",
+      "pushedAt": "2026-10-03T13:43:52Z",
+      "homepageUrl": "https://technitium.com/dns/",
+      "archived": false,
+      "owner": {
+        "login": "TechnitiumSoftware",
+        "name": "Technitium",
+        "type": "Organization",
+        "url": "https://github.com/TechnitiumSoftware",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12230362?v=4",
+        "location": "Mumbai, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mumbai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 31,
+      "name": "countries-states-cities-database",
+      "nameWithOwner": "dr5hn/countries-states-cities-database",
+      "url": "https://github.com/dr5hn/countries-states-cities-database",
+      "description": "🌍 Discover our global repository of countries, states, and cities!  🏙️ Get comprehensive data in JSON, SQL, PSQL, SQLSERVER, MONGODB, SQLITE, XML, YAML, and CSV formats. Access ISO2, ISO3 codes, country code, capital, native language, timezones (for countries), and more. #countries #states #cities",
+      "stars": 9856,
+      "forks": 3033,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Open Data Commons Open Database License v1.0",
+        "spdxId": "ODbL-1.0"
+      },
+      "createdAt": "2018-07-20T14:13:45Z",
+      "pushedAt": "2026-10-01T19:49:00Z",
+      "homepageUrl": "http://countrystatecity.in/",
+      "archived": false,
+      "owner": {
+        "login": "dr5hn",
+        "name": "Darshan Gada",
+        "type": "User",
+        "url": "https://github.com/dr5hn",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6929121?u=74a3cd075eb923b0774f3551d3633ebb1587ac97&v=4",
+        "location": "Mumbai",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mumbai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 32,
+      "name": "bundlephobia",
+      "nameWithOwner": "pastelsky/bundlephobia",
+      "url": "https://github.com/pastelsky/bundlephobia",
+      "description": "🏋️ Find out the cost of adding a new frontend dependency to your project",
+      "stars": 9597,
+      "forks": 274,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-03-27T17:24:15Z",
+      "pushedAt": "2026-09-25T19:02:47Z",
+      "homepageUrl": "https://bundlephobia.com",
+      "archived": false,
+      "owner": {
+        "login": "pastelsky",
+        "name": "Shubham Kanodia",
+        "type": "User",
+        "url": "https://github.com/pastelsky",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8946207?u=16ab56b5b9dd5edff85dc5d2b0117be4447175f8&v=4",
+        "location": "Bangalore ",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 33,
+      "name": "DevOps-Guide",
+      "nameWithOwner": "Tikam02/DevOps-Guide",
+      "url": "https://github.com/Tikam02/DevOps-Guide",
+      "description": " DevOps Guide - Development to Production all configurations with basic notes to debug efficiently.",
+      "stars": 9345,
+      "forks": 2088,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-10-16T16:56:08Z",
+      "pushedAt": "2026-05-22T21:30:07Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Tikam02",
+        "name": "Tikam Singh Alma",
+        "type": "User",
+        "url": "https://github.com/Tikam02",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10548085?u=353d09c563684f97506a8479a3db095024b398df&v=4",
+        "location": "Ahmedabad,India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ahmedabad"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 34,
+      "name": "Mindmap",
+      "nameWithOwner": "Ignitetechnologies/Mindmap",
+      "url": "https://github.com/Ignitetechnologies/Mindmap",
+      "description": "This repository will contain many mindmaps for cyber security technologies, methodologies, courses, and certifications in a tree structure to give brief details about them",
+      "stars": 9342,
+      "forks": 1822,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2023-01-22T09:45:22Z",
+      "pushedAt": "2026-07-21T15:47:21Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Ignitetechnologies",
+        "name": "Hacking Articles ",
+        "type": "User",
+        "url": "https://github.com/Ignitetechnologies",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23155361?u=be9f446aa1934c001a1b69a802c24cba848f8a8d&v=4",
+        "location": "New Delhi",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "new delhi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 35,
+      "name": "transform",
+      "nameWithOwner": "ritz078/transform",
+      "url": "https://github.com/ritz078/transform",
+      "description": "A polyglot web converter.",
+      "stars": 9238,
+      "forks": 703,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-06-15T19:48:21Z",
+      "pushedAt": "2026-09-28T20:46:03Z",
+      "homepageUrl": "https://transform.tools",
+      "archived": false,
+      "owner": {
+        "login": "ritz078",
+        "name": "Ritesh Kumar",
+        "type": "User",
+        "url": "https://github.com/ritz078",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5389035?u=c8fca27cdb4b89d4af560c608a24fa12170934ff&v=4",
+        "location": "Mumbai",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mumbai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 36,
+      "name": "The-Grand-Complete-Data-Science-Materials",
+      "nameWithOwner": "krishnaik06/The-Grand-Complete-Data-Science-Materials",
+      "url": "https://github.com/krishnaik06/The-Grand-Complete-Data-Science-Materials",
+      "description": null,
+      "stars": 9138,
+      "forks": 4525,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "spdxId": "GPL-2.0"
+      },
+      "createdAt": "2023-09-19T06:19:22Z",
+      "pushedAt": "2024-08-04T07:14:11Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "krishnaik06",
+        "name": "Krish C Naik",
+        "type": "User",
+        "url": "https://github.com/krishnaik06",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20041231?u=9f199efaa177b1071e96cef3d9bb9aa2e591e9da&v=4",
+        "location": "Bangalore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 37,
+      "name": "MLOps-Basics",
+      "nameWithOwner": "graviraja/MLOps-Basics",
+      "url": "https://github.com/graviraja/MLOps-Basics",
+      "description": null,
+      "stars": 8918,
+      "forks": 1772,
+      "primaryLanguage": "Jupyter Notebook",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-05-02T10:35:35Z",
+      "pushedAt": "2024-09-22T19:19:29Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "graviraja",
+        "name": "raviraja",
+        "type": "User",
+        "url": "https://github.com/graviraja",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7556119?u=09ddb0729a5d39b0c75b85af76471f9065d7837c&v=4",
+        "location": "Bangalore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 38,
+      "name": "python-dotenv",
+      "nameWithOwner": "theskumar/python-dotenv",
+      "url": "https://github.com/theskumar/python-dotenv",
+      "description": "Reads key-value pairs from a .env file and can set them as environment variables. It helps in developing applications following the 12-factor principles.",
+      "stars": 8892,
+      "forks": 595,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2014-09-06T05:35:17Z",
+      "pushedAt": "2026-10-01T07:34:37Z",
+      "homepageUrl": "https://saurabh-kumar.com/python-dotenv/",
+      "archived": false,
+      "owner": {
+        "login": "theskumar",
+        "name": "Saurabh Kumar",
+        "type": "User",
+        "url": "https://github.com/theskumar",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/236356?u=bb87f5e4e12db480a4dfcda96298e9902f27bb39&v=4",
+        "location": "New Delhi, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "new delhi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 39,
+      "name": "Android-Debug-Database",
+      "nameWithOwner": "amitshekhariitbhu/Android-Debug-Database",
+      "url": "https://github.com/amitshekhariitbhu/Android-Debug-Database",
+      "description": "A library for debugging android databases and shared preferences - Make Debugging Great Again",
+      "stars": 8688,
+      "forks": 885,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2016-11-16T14:20:24Z",
+      "pushedAt": "2026-02-05T09:09:32Z",
+      "homepageUrl": "https://outcomeschool.com",
+      "archived": false,
+      "owner": {
+        "login": "amitshekhariitbhu",
+        "name": "AMIT SHEKHAR",
+        "type": "User",
+        "url": "https://github.com/amitshekhariitbhu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9877145?u=3827ad395dfc458321f9b65944406cfdd26055dd&v=4",
+        "location": "Bangalore, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 40,
+      "name": "hint.css",
+      "nameWithOwner": "chinchang/hint.css",
+      "url": "https://github.com/chinchang/hint.css",
+      "description": "A CSS only tooltip library for your lovely websites.",
+      "stars": 8427,
+      "forks": 679,
+      "primaryLanguage": "CSS",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2012-12-30T20:17:34Z",
+      "pushedAt": "2024-10-17T14:08:37Z",
+      "homepageUrl": "https://kushagra.dev/lab/hint/",
+      "archived": false,
+      "owner": {
+        "login": "chinchang",
+        "name": "Kushagra Gour",
+        "type": "User",
+        "url": "https://github.com/chinchang",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/379918?u=a8421c7658268d7fc90d74397a387b4b04254ae6&v=4",
+        "location": "Greater Noida, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "greater noida"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 41,
+      "name": "leetcode-companywise-interview-questions",
+      "nameWithOwner": "snehasishroy/leetcode-companywise-interview-questions",
+      "url": "https://github.com/snehasishroy/leetcode-companywise-interview-questions",
+      "description": "Contains latest company wise questions of LeetCode as of July 2026.",
+      "stars": 8218,
+      "forks": 1663,
+      "primaryLanguage": "Java",
+      "license": null,
+      "createdAt": "2022-12-03T20:00:54Z",
+      "pushedAt": "2026-08-21T19:06:52Z",
+      "homepageUrl": "https://snehasishroy.com/",
+      "archived": false,
+      "owner": {
+        "login": "snehasishroy",
+        "name": "Snehasish Roy",
+        "type": "User",
+        "url": "https://github.com/snehasishroy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4747384?u=d69ab93263499db696451a281fbdc72166a4d1c3&v=4",
+        "location": "Bengaluru",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bengaluru"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 42,
+      "name": "UltimateAndroidReference",
+      "nameWithOwner": "aritraroy/UltimateAndroidReference",
+      "url": "https://github.com/aritraroy/UltimateAndroidReference",
+      "description": ":rocket: Ultimate Android Reference - Your Road to Become a Better Android Developer",
+      "stars": 8063,
+      "forks": 1276,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2017-04-10T07:28:27Z",
+      "pushedAt": "2024-07-18T10:43:57Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "aritraroy",
+        "name": "Aritra Roy",
+        "type": "User",
+        "url": "https://github.com/aritraroy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8044760?u=b11759f9e36708c6bf1519633587bb3ad18bdc47&v=4",
+        "location": "Kolkata, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "kolkata"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 43,
+      "name": "dockerlabs",
+      "nameWithOwner": "collabnix/dockerlabs",
+      "url": "https://github.com/collabnix/dockerlabs",
+      "description": "Docker  - Beginners | Intermediate | Advanced",
+      "stars": 8043,
+      "forks": 2169,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-10-15T07:19:18Z",
+      "pushedAt": "2026-08-25T03:32:47Z",
+      "homepageUrl": "https://dockerlabs.collabnix.com",
+      "archived": false,
+      "owner": {
+        "login": "collabnix",
+        "name": "Collabnix",
+        "type": "User",
+        "url": "https://github.com/collabnix",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34368930?u=ff71ff4c8e33ab6410f4594403d82a8f036c0dcb&v=4",
+        "location": "Bengaluru",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bengaluru"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 44,
+      "name": "xdm",
+      "nameWithOwner": "subhra74/xdm",
+      "url": "https://github.com/subhra74/xdm",
+      "description": "Powerfull download accelerator and video downloader",
+      "stars": 7954,
+      "forks": 1193,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "spdxId": "GPL-2.0"
+      },
+      "createdAt": "2018-02-25T13:09:15Z",
+      "pushedAt": "2026-10-02T07:04:11Z",
+      "homepageUrl": "https://xtremedownloadmanager.com/",
+      "archived": false,
+      "owner": {
+        "login": "subhra74",
+        "name": "Subhra Das Gupta",
+        "type": "User",
+        "url": "https://github.com/subhra74",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8403090?v=4",
+        "location": "Kolkata, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "kolkata"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 45,
+      "name": "low-level-design-primer",
+      "nameWithOwner": "prasadgujar/low-level-design-primer",
+      "url": "https://github.com/prasadgujar/low-level-design-primer",
+      "description": "Dedicated Resources for the Low-Level System Design. Learn how to design and implement large-scale systems. Prep for the system design interview.",
+      "stars": 7946,
+      "forks": 2485,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2020-08-03T19:59:05Z",
+      "pushedAt": "2024-01-01T20:34:02Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "prasadgujar",
+        "name": "Prasad Gujar",
+        "type": "User",
+        "url": "https://github.com/prasadgujar",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12856921?u=73bf6282980e99fd3c50b655a8907555d86a263a&v=4",
+        "location": "Mumbai,India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mumbai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 46,
+      "name": "kubernetes-learning-path",
+      "nameWithOwner": "techiescamp/kubernetes-learning-path",
+      "url": "https://github.com/techiescamp/kubernetes-learning-path",
+      "description": "A roadmap to learn Kubernetes from scratch (Beginner to Advanced level)",
+      "stars": 7640,
+      "forks": 1008,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2022-11-16T05:02:58Z",
+      "pushedAt": "2026-09-24T07:35:04Z",
+      "homepageUrl": "https://devopscube.com/learn-kubernetes-complete-roadmap/",
+      "archived": false,
+      "owner": {
+        "login": "techiescamp",
+        "name": "DevOpsCube",
+        "type": "User",
+        "url": "https://github.com/techiescamp",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106984297?u=c673a2b4f20f204e6f99c6358cdebf21678834c3&v=4",
+        "location": "Bangalore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 47,
+      "name": "Awesome-WAF",
+      "nameWithOwner": "0xInfection/Awesome-WAF",
+      "url": "https://github.com/0xInfection/Awesome-WAF",
+      "description": "Everything about Web Application Firewalls (WAFs) from Security Standpoint! 🔥",
+      "stars": 7633,
+      "forks": 1173,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2019-01-08T04:57:06Z",
+      "pushedAt": "2026-08-26T12:48:34Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "0xInfection",
+        "name": "Pinaki",
+        "type": "User",
+        "url": "https://github.com/0xInfection",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39941993?u=0d4dd544e582478650e799620d30b3066604e968&v=4",
+        "location": "Kolkata, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "kolkata"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 48,
+      "name": "HowToHunt",
+      "nameWithOwner": "KathanP19/HowToHunt",
+      "url": "https://github.com/KathanP19/HowToHunt",
+      "description": "Collection of methodology and test case for various web vulnerabilities.",
+      "stars": 7356,
+      "forks": 1983,
+      "primaryLanguage": null,
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2020-08-29T03:14:14Z",
+      "pushedAt": "2025-06-25T06:39:07Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "KathanP19",
+        "name": "Kathan Patel",
+        "type": "User",
+        "url": "https://github.com/KathanP19",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33719912?u=055215fcf7e22f955be9fe16315a4cf679edcbcc&v=4",
+        "location": "Gujarat,India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "gujarat"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 49,
+      "name": "app-store-screenshots",
+      "nameWithOwner": "ParthJadhav/app-store-screenshots",
+      "url": "https://github.com/ParthJadhav/app-store-screenshots",
+      "description": "end to end app store screenshot creation using AI",
+      "stars": 7138,
+      "forks": 521,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-03-07T13:56:04Z",
+      "pushedAt": "2026-10-03T18:35:53Z",
+      "homepageUrl": "https://www.parthjadhav.com/products/app-store-screenshots",
+      "archived": false,
+      "owner": {
+        "login": "ParthJadhav",
+        "name": "Parth Jadhav",
+        "type": "User",
+        "url": "https://github.com/ParthJadhav",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42001064?u=c33e2bb9c6fe0ee3dec05a61741127dc2f7334b9&v=4",
+        "location": "Pune, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "pune"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 50,
+      "name": "next-shadcn-dashboard-starter",
+      "nameWithOwner": "Kiranism/next-shadcn-dashboard-starter",
+      "url": "https://github.com/Kiranism/next-shadcn-dashboard-starter",
+      "description": "Free, open source, AI-friendly admin dashboard template built with Next.js 16, shadcn/ui, Tailwind CSS, and TypeScript. Production-ready tables, forms, auth, and billing. MIT licensed.",
+      "stars": 7094,
+      "forks": 1607,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-11-02T11:54:38Z",
+      "pushedAt": "2026-09-11T08:42:58Z",
+      "homepageUrl": "https://dub.sh/shadcn-dashboard",
+      "archived": false,
+      "owner": {
+        "login": "Kiranism",
+        "name": "K I R A N",
+        "type": "User",
+        "url": "https://github.com/Kiranism",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68379183?u=57849d9c417cbc77fb6a9220226f4b806bc3e6e4&v=4",
+        "location": "Remote, Kerala 🌴",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "kerala"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 51,
+      "name": "lightGallery",
+      "nameWithOwner": "sachinchoolur/lightGallery",
+      "url": "https://github.com/sachinchoolur/lightGallery",
+      "description": "A customizable, modular, responsive, lightbox gallery plugin. ",
+      "stars": 7050,
+      "forks": 1295,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2014-02-28T17:10:09Z",
+      "pushedAt": "2026-10-03T16:39:13Z",
+      "homepageUrl": "https://www.lightgalleryjs.com/",
+      "archived": false,
+      "owner": {
+        "login": "sachinchoolur",
+        "name": "Sachin Neravath",
+        "type": "User",
+        "url": "https://github.com/sachinchoolur",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6586706?u=93c7e2e7271ec018e5e029c30c9e1857602894b3&v=4",
+        "location": "Bangalore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 52,
+      "name": "Timber",
+      "nameWithOwner": "naman14/Timber",
+      "url": "https://github.com/naman14/Timber",
+      "description": "Material Design Music Player",
+      "stars": 7038,
+      "forks": 2119,
+      "primaryLanguage": "Java",
+      "license": null,
+      "createdAt": "2015-06-12T16:43:55Z",
+      "pushedAt": "2023-04-28T07:13:46Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "naman14",
+        "name": "Naman Dwivedi",
+        "type": "User",
+        "url": "https://github.com/naman14",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8599099?u=0fb1ba2866b336b2b9d4b2a73e8db2539b42aead&v=4",
+        "location": "New Delhi, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "new delhi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 53,
+      "name": "AI-Project-Gallery",
+      "nameWithOwner": "KalyanM45/AI-Project-Gallery",
+      "url": "https://github.com/KalyanM45/AI-Project-Gallery",
+      "description": "This Repository Contain All the Artificial Intelligence Projects such as Machine Learning, Deep Learning and Generative AI that I have done while understanding Advanced Techniques & Concepts.",
+      "stars": 6919,
+      "forks": 1322,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2023-12-31T14:26:51Z",
+      "pushedAt": "2026-08-26T18:32:52Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "KalyanM45",
+        "name": "Hema Kalyan Murapaka",
+        "type": "User",
+        "url": "https://github.com/KalyanM45",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/101493756?u=12879cc7145b8eceee0b45af61dafa8df5f1a84c&v=4",
+        "location": "Andhra Pradesh, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "andhra pradesh"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 54,
+      "name": "Grokking-System-Design",
+      "nameWithOwner": "Jeevan-kumar-Raj/Grokking-System-Design",
+      "url": "https://github.com/Jeevan-kumar-Raj/Grokking-System-Design",
+      "description": "Systems design is the process of defining the architecture, modules, interfaces, and data for a system to satisfy specified requirements. Systems design could be seen as the application of systems theory to product development.",
+      "stars": 6586,
+      "forks": 1711,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2020-08-07T07:40:31Z",
+      "pushedAt": "2024-03-06T16:24:47Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Jeevan-kumar-Raj",
+        "name": "Jeevan Kumar",
+        "type": "User",
+        "url": "https://github.com/Jeevan-kumar-Raj",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63276441?u=88c802752be51980c997270ba2249200545ea383&v=4",
+        "location": "Bengaluru, Karnataka, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bengaluru"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 55,
+      "name": "autoresearch",
+      "nameWithOwner": "uditgoenka/autoresearch",
+      "url": "https://github.com/uditgoenka/autoresearch",
+      "description": "Claude Autoresearch Skill — Autonomous goal-directed iteration for Claude Code. Inspired by Karpathy's autoresearch. Modify → Verify → Keep/Discard → Repeat forever.",
+      "stars": 6510,
+      "forks": 483,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-03-13T14:51:54Z",
+      "pushedAt": "2026-08-12T22:28:18Z",
+      "homepageUrl": "https://udit.co/projects/autoresearch",
+      "archived": false,
+      "owner": {
+        "login": "uditgoenka",
+        "name": "Udit Goenka",
+        "type": "User",
+        "url": "https://github.com/uditgoenka",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1478769?u=cd40fe5786752ddebc4e799e5390277817fb6e2e&v=4",
+        "location": "Mumbai, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mumbai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 56,
+      "name": "PhoneSploit-Pro",
+      "nameWithOwner": "AzeemIdrisi/PhoneSploit-Pro",
+      "url": "https://github.com/AzeemIdrisi/PhoneSploit-Pro",
+      "description": "An all-in-one hacking tool to remotely take over Android devices.",
+      "stars": 6330,
+      "forks": 898,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2022-12-24T18:05:33Z",
+      "pushedAt": "2026-09-14T05:48:37Z",
+      "homepageUrl": "https://phonesploitpro.vercel.app",
+      "archived": false,
+      "owner": {
+        "login": "AzeemIdrisi",
+        "name": "Azeem Idrisi",
+        "type": "User",
+        "url": "https://github.com/AzeemIdrisi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/112647789?u=4baf3259454c0bd4ccae56bfcd24d4ee89d0c9fb&v=4",
+        "location": "New Delhi, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "new delhi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 57,
+      "name": "from-java-to-kotlin",
+      "nameWithOwner": "amitshekhariitbhu/from-java-to-kotlin",
+      "url": "https://github.com/amitshekhariitbhu/from-java-to-kotlin",
+      "description": "From Java To Kotlin - Your Cheat Sheet For Java To Kotlin",
+      "stars": 6323,
+      "forks": 777,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2017-05-21T11:56:27Z",
+      "pushedAt": "2026-01-28T09:25:16Z",
+      "homepageUrl": "https://outcomeschool.com",
+      "archived": false,
+      "owner": {
+        "login": "amitshekhariitbhu",
+        "name": "AMIT SHEKHAR",
+        "type": "User",
+        "url": "https://github.com/amitshekhariitbhu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9877145?u=3827ad395dfc458321f9b65944406cfdd26055dd&v=4",
+        "location": "Bangalore, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 58,
+      "name": "go-backend-clean-architecture",
+      "nameWithOwner": "amitshekhariitbhu/go-backend-clean-architecture",
+      "url": "https://github.com/amitshekhariitbhu/go-backend-clean-architecture",
+      "description": "A Go (Golang) Backend Clean Architecture project with Gin, MongoDB, JWT Authentication Middleware, Test, and Docker.",
+      "stars": 6164,
+      "forks": 680,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2023-01-08T04:50:47Z",
+      "pushedAt": "2026-02-05T09:10:04Z",
+      "homepageUrl": "https://outcomeschool.com/blog/go-backend-clean-architecture",
+      "archived": false,
+      "owner": {
+        "login": "amitshekhariitbhu",
+        "name": "AMIT SHEKHAR",
+        "type": "User",
+        "url": "https://github.com/amitshekhariitbhu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9877145?u=3827ad395dfc458321f9b65944406cfdd26055dd&v=4",
+        "location": "Bangalore, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 59,
+      "name": "tinyfilemanager",
+      "nameWithOwner": "prasathmani/tinyfilemanager",
+      "url": "https://github.com/prasathmani/tinyfilemanager",
+      "description": "Single-file PHP file manager, browser and manage your files efficiently and easily with tinyfilemanager",
+      "stars": 5979,
+      "forks": 1815,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2017-07-05T06:31:58Z",
+      "pushedAt": "2026-07-20T03:40:58Z",
+      "homepageUrl": "https://tinyfilemanager.github.io",
+      "archived": false,
+      "owner": {
+        "login": "prasathmani",
+        "name": "Prasath Mani",
+        "type": "User",
+        "url": "https://github.com/prasathmani",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11345598?u=59eb549154a5e02970d6be483ea3c63b22453669&v=4",
+        "location": "Bangalore, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 60,
+      "name": "Fast-Android-Networking",
+      "nameWithOwner": "amitshekhariitbhu/Fast-Android-Networking",
+      "url": "https://github.com/amitshekhariitbhu/Fast-Android-Networking",
+      "description": "🚀 A Complete Fast Android Networking Library that also supports HTTP/2 🚀",
+      "stars": 5921,
+      "forks": 978,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2016-03-21T18:35:44Z",
+      "pushedAt": "2026-02-05T09:09:48Z",
+      "homepageUrl": "https://outcomeschool.com",
+      "archived": false,
+      "owner": {
+        "login": "amitshekhariitbhu",
+        "name": "AMIT SHEKHAR",
+        "type": "User",
+        "url": "https://github.com/amitshekhariitbhu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9877145?u=3827ad395dfc458321f9b65944406cfdd26055dd&v=4",
+        "location": "Bangalore, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 61,
+      "name": "company-wise-dsa",
+      "nameWithOwner": "nishant-Tiwari24/company-wise-dsa",
+      "url": "https://github.com/nishant-Tiwari24/company-wise-dsa",
+      "description": null,
+      "stars": 5863,
+      "forks": 1119,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2024-10-27T11:11:52Z",
+      "pushedAt": "2025-06-27T13:41:55Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "nishant-Tiwari24",
+        "name": "Nishant Tiwari",
+        "type": "User",
+        "url": "https://github.com/nishant-Tiwari24",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124623023?u=b207831dfc4b316c1085189805c91fea3da42d4e&v=4",
+        "location": "Secunderabad",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "secunderabad"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 62,
+      "name": "oat",
+      "nameWithOwner": "knadh/oat",
+      "url": "https://github.com/knadh/oat",
+      "description": "Ultra-lightweight, zero dependency, semantic HTML, CSS, JS UI library. ~10KB min+gz.",
+      "stars": 5525,
+      "forks": 258,
+      "primaryLanguage": "CSS",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-01-15T05:49:47Z",
+      "pushedAt": "2026-09-28T11:24:10Z",
+      "homepageUrl": "https://oat.ink",
+      "archived": false,
+      "owner": {
+        "login": "knadh",
+        "name": "Kailash Nadh",
+        "type": "User",
+        "url": "https://github.com/knadh",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/547147?u=d0d65c421bb54c3714c473259ea33259bf3ccd06&v=4",
+        "location": "Bengaluru",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bengaluru"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 63,
+      "name": "BotsApp",
+      "nameWithOwner": "Prince-Mendiratta/BotsApp",
+      "url": "https://github.com/Prince-Mendiratta/BotsApp",
+      "description": "Your personal assistant, on WhatsApp! The most user friendly userbot for the platform!",
+      "stars": 5524,
+      "forks": 1266,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2021-05-12T13:24:26Z",
+      "pushedAt": "2026-06-01T05:45:04Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Prince-Mendiratta",
+        "name": "Prince Mendiratta",
+        "type": "User",
+        "url": "https://github.com/Prince-Mendiratta",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54077356?u=1bbb9eb19bc2ca89585d42a027578aeaebb3ef12&v=4",
+        "location": "New Delhi",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "new delhi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 64,
+      "name": "medium-unlimited",
+      "nameWithOwner": "manojVivek/medium-unlimited",
+      "url": "https://github.com/manojVivek/medium-unlimited",
+      "description": "A browser extension to read medium.com articles for free without membership.",
+      "stars": 5462,
+      "forks": 444,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2018-08-17T13:25:07Z",
+      "pushedAt": "2022-11-09T00:34:55Z",
+      "homepageUrl": "https://manojvivek.github.io/medium-unlimited/",
+      "archived": true,
+      "owner": {
+        "login": "manojVivek",
+        "name": "Manoj Vivek",
+        "type": "User",
+        "url": "https://github.com/manojVivek",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1283424?u=f292541c68ec9f5a084534cb16094c7cba514c96&v=4",
+        "location": "Coimbatore, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "coimbatore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 65,
+      "name": "recyclerlistview",
+      "nameWithOwner": "Flipkart/recyclerlistview",
+      "url": "https://github.com/Flipkart/recyclerlistview",
+      "description": "High performance listview for React Native and web!",
+      "stars": 5432,
+      "forks": 437,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2017-04-16T06:14:33Z",
+      "pushedAt": "2025-03-16T06:14:10Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Flipkart",
+        "name": "Flipkart",
+        "type": "Organization",
+        "url": "https://github.com/Flipkart",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1179997?v=4",
+        "location": "Bangalore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 66,
+      "name": "Tools-to-Design-or-Visualize-Architecture-of-Neural-Network",
+      "nameWithOwner": "ashishpatel26/Tools-to-Design-or-Visualize-Architecture-of-Neural-Network",
+      "url": "https://github.com/ashishpatel26/Tools-to-Design-or-Visualize-Architecture-of-Neural-Network",
+      "description": "Tools to Design or Visualize Architecture of Neural Network",
+      "stars": 5404,
+      "forks": 651,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2019-11-06T12:00:06Z",
+      "pushedAt": "2025-08-01T12:10:51Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ashishpatel26",
+        "name": "Ashish Patel",
+        "type": "User",
+        "url": "https://github.com/ashishpatel26",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3095771?u=522d8855c070c0af151b27becc02052e34849d4e&v=4",
+        "location": "Ahmedabad",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ahmedabad"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 67,
+      "name": "lightgallery.js",
+      "nameWithOwner": "sachinchoolur/lightgallery.js",
+      "url": "https://github.com/sachinchoolur/lightgallery.js",
+      "description": "Full featured JavaScript image & video gallery. No dependencies",
+      "stars": 5318,
+      "forks": 577,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2016-08-01T04:19:56Z",
+      "pushedAt": "2026-02-17T20:17:04Z",
+      "homepageUrl": "https://sachinchoolur.github.io/lightgallery.js/",
+      "archived": false,
+      "owner": {
+        "login": "sachinchoolur",
+        "name": "Sachin Neravath",
+        "type": "User",
+        "url": "https://github.com/sachinchoolur",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6586706?u=93c7e2e7271ec018e5e029c30c9e1857602894b3&v=4",
+        "location": "Bangalore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 68,
+      "name": "moreThanFAANGM",
+      "nameWithOwner": "Kaustubh-Natuskar/moreThanFAANGM",
+      "url": "https://github.com/Kaustubh-Natuskar/moreThanFAANGM",
+      "description": "This repository contains opportunities for you to apply to more than 400 product base companies(NOT JUST FAANGM) & good start-ups.",
+      "stars": 5238,
+      "forks": 1046,
+      "primaryLanguage": null,
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-09-18T11:23:02Z",
+      "pushedAt": "2026-08-10T16:37:40Z",
+      "homepageUrl": "https://kaustubh-natuskar.github.io/moreThanFAANGM/",
+      "archived": false,
+      "owner": {
+        "login": "Kaustubh-Natuskar",
+        "name": "kaustubh natuskar",
+        "type": "User",
+        "url": "https://github.com/Kaustubh-Natuskar",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64963969?u=42634cea1a433d450a2b6d37cbf4952600940b0d&v=4",
+        "location": "Ambarnath",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ambarnath"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 69,
+      "name": "redis-rdb-tools",
+      "nameWithOwner": "sripathikrishnan/redis-rdb-tools",
+      "url": "https://github.com/sripathikrishnan/redis-rdb-tools",
+      "description": "Parse Redis dump.rdb files, Analyze Memory, and Export Data to JSON",
+      "stars": 5198,
+      "forks": 742,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2012-03-10T11:09:12Z",
+      "pushedAt": "2026-01-21T01:47:49Z",
+      "homepageUrl": "https://rdbtools.com",
+      "archived": false,
+      "owner": {
+        "login": "sripathikrishnan",
+        "name": "Sripathi Krishnan",
+        "type": "User",
+        "url": "https://github.com/sripathikrishnan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/991744?v=4",
+        "location": "Bangalore, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 70,
+      "name": "List-Of-Open-Source-Internships-Programs",
+      "nameWithOwner": "deepanshu1422/List-Of-Open-Source-Internships-Programs",
+      "url": "https://github.com/deepanshu1422/List-Of-Open-Source-Internships-Programs",
+      "description": "A curated list of all the open-source internships/Programs",
+      "stars": 5193,
+      "forks": 685,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2020-05-29T14:11:28Z",
+      "pushedAt": "2026-04-20T07:49:08Z",
+      "homepageUrl": "https://30dayscoding.com",
+      "archived": false,
+      "owner": {
+        "login": "deepanshu1422",
+        "name": "Deepanshu Udhwani",
+        "type": "User",
+        "url": "https://github.com/deepanshu1422",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25971693?u=0f064de7678f025420bd950f8ebb28b4eaef7e9e&v=4",
+        "location": "Bengaluru,India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bengaluru"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 71,
+      "name": "kener",
+      "nameWithOwner": "rajnandan1/kener",
+      "url": "https://github.com/rajnandan1/kener",
+      "description": "Stunning status pages, batteries included!",
+      "stars": 5189,
+      "forks": 302,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-12-01T15:39:00Z",
+      "pushedAt": "2026-10-02T14:20:44Z",
+      "homepageUrl": "https://kener.ing/",
+      "archived": false,
+      "owner": {
+        "login": "rajnandan1",
+        "name": "Raj Nandan Sharma",
+        "type": "User",
+        "url": "https://github.com/rajnandan1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16224367?u=21ad443f628435ad7fe6c387bee364851d8c8c02&v=4",
+        "location": "Bengaluru",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bengaluru"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 72,
+      "name": "AndroRAT",
+      "nameWithOwner": "karma9874/AndroRAT",
+      "url": "https://github.com/karma9874/AndroRAT",
+      "description": "A Simple android remote administration tool using sockets. It uses java on the client side and python on the server side",
+      "stars": 5173,
+      "forks": 1663,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-03-22T09:31:28Z",
+      "pushedAt": "2024-07-17T17:22:43Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "karma9874",
+        "name": "Neeraj Singh",
+        "type": "User",
+        "url": "https://github.com/karma9874",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33444666?u=236731bce6eb24fd1d94326db0c237ae34b47bd2&v=4",
+        "location": "Bangalore, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 73,
+      "name": "Front-End-Web-Development-Resources",
+      "nameWithOwner": "RitikPatni/Front-End-Web-Development-Resources",
+      "url": "https://github.com/RitikPatni/Front-End-Web-Development-Resources",
+      "description": "This repository contains content which will be helpful in your journey as a front-end Web Developer",
+      "stars": 5168,
+      "forks": 717,
+      "primaryLanguage": null,
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-08-17T14:57:10Z",
+      "pushedAt": "2024-06-24T10:38:36Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "RitikPatni",
+        "name": "Ritik Patni",
+        "type": "User",
+        "url": "https://github.com/RitikPatni",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16117262?u=e3dc3b6dfcb61e33d1959985114eb9b33ee109ac&v=4",
+        "location": "Malpura",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "malpura"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 74,
+      "name": "colorls",
+      "nameWithOwner": "athityakumar/colorls",
+      "url": "https://github.com/athityakumar/colorls",
+      "description": "A Ruby gem that beautifies the terminal's ls command, with color and font-awesome icons. :tada:",
+      "stars": 5141,
+      "forks": 396,
+      "primaryLanguage": "Ruby",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-06-29T16:41:23Z",
+      "pushedAt": "2026-07-27T11:41:05Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "athityakumar",
+        "name": "Athitya Kumar",
+        "type": "User",
+        "url": "https://github.com/athityakumar",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17109060?u=c409afbc4f827342196862191fabb6cd69625305&v=4",
+        "location": "Bangalore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 75,
+      "name": "Interview_DS_Algo",
+      "nameWithOwner": "MAZHARMIK/Interview_DS_Algo",
+      "url": "https://github.com/MAZHARMIK/Interview_DS_Algo",
+      "description": "Super Repository for Coding Interview Preperation",
+      "stars": 5123,
+      "forks": 2132,
+      "primaryLanguage": "C++",
+      "license": null,
+      "createdAt": "2020-07-12T13:13:36Z",
+      "pushedAt": "2026-10-03T04:34:07Z",
+      "homepageUrl": "https://github.com/MAZHARMIK/Interview_DS_Algo",
+      "archived": false,
+      "owner": {
+        "login": "MAZHARMIK",
+        "name": "MAZHAR",
+        "type": "User",
+        "url": "https://github.com/MAZHARMIK",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17107752?u=801f3912768eba988dceebc72fe4c682a0feff34&v=4",
+        "location": "Gurgaon, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "gurgaon"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 76,
+      "name": "security-study-plan",
+      "nameWithOwner": "jassics/security-study-plan",
+      "url": "https://github.com/jassics/security-study-plan",
+      "description": "Complete Practical Study Plan to become a successful cybersecurity engineer based on roles like Pentest, AppSec, Cloud Security, DevSecOps and so on...",
+      "stars": 5093,
+      "forks": 637,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2022-04-19T15:43:27Z",
+      "pushedAt": "2026-09-14T11:52:47Z",
+      "homepageUrl": "https://cybercloud.guru/",
+      "archived": false,
+      "owner": {
+        "login": "jassics",
+        "name": "Sanjeev Jaiswal",
+        "type": "User",
+        "url": "https://github.com/jassics",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/312391?u=614c11fd20632842718e5bb5e76b5964896ddc8b&v=4",
+        "location": "Bangalore, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 77,
+      "name": "Roadmap-To-Learn-Generative-AI-In-2025",
+      "nameWithOwner": "krishnaik06/Roadmap-To-Learn-Generative-AI-In-2025",
+      "url": "https://github.com/krishnaik06/Roadmap-To-Learn-Generative-AI-In-2025",
+      "description": null,
+      "stars": 5085,
+      "forks": 1867,
+      "primaryLanguage": null,
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2023-12-11T11:43:22Z",
+      "pushedAt": "2025-08-19T06:40:15Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "krishnaik06",
+        "name": "Krish C Naik",
+        "type": "User",
+        "url": "https://github.com/krishnaik06",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20041231?u=9f199efaa177b1071e96cef3d9bb9aa2e591e9da&v=4",
+        "location": "Bangalore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 78,
+      "name": "Free-Security-eBooks",
+      "nameWithOwner": "Hack-with-Github/Free-Security-eBooks",
+      "url": "https://github.com/Hack-with-Github/Free-Security-eBooks",
+      "description": "Free Security and Hacking eBooks",
+      "stars": 4999,
+      "forks": 1091,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2016-04-21T12:26:50Z",
+      "pushedAt": "2019-07-10T09:15:27Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "Hack-with-Github",
+        "name": "Hack with GitHub",
+        "type": "Organization",
+        "url": "https://github.com/Hack-with-Github",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18143746?v=4",
+        "location": "Bangalore, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 79,
+      "name": "RxJava2-Android-Samples",
+      "nameWithOwner": "amitshekhariitbhu/RxJava2-Android-Samples",
+      "url": "https://github.com/amitshekhariitbhu/RxJava2-Android-Samples",
+      "description": "RxJava 2 Android Examples - How to use RxJava 2 in Android",
+      "stars": 4906,
+      "forks": 1042,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2016-08-27T08:21:37Z",
+      "pushedAt": "2026-01-28T09:26:05Z",
+      "homepageUrl": "https://outcomeschool.com",
+      "archived": false,
+      "owner": {
+        "login": "amitshekhariitbhu",
+        "name": "AMIT SHEKHAR",
+        "type": "User",
+        "url": "https://github.com/amitshekhariitbhu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9877145?u=3827ad395dfc458321f9b65944406cfdd26055dd&v=4",
+        "location": "Bangalore, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 80,
+      "name": "Atoll",
+      "nameWithOwner": "Ebullioscopic/Atoll",
+      "url": "https://github.com/Ebullioscopic/Atoll",
+      "description": "Dynamic Island for macOS",
+      "stars": 4839,
+      "forks": 334,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2024-11-01T05:06:09Z",
+      "pushedAt": "2026-10-04T01:02:43Z",
+      "homepageUrl": "https://getatoll.app",
+      "archived": false,
+      "owner": {
+        "login": "Ebullioscopic",
+        "name": "Hariharan Mudaliar",
+        "type": "User",
+        "url": "https://github.com/Ebullioscopic",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83903166?u=9b33e19376abc97557bd2e04a316b76eaf50f51f&v=4",
+        "location": "Bengaluru",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bengaluru"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 81,
+      "name": "getwidget",
+      "nameWithOwner": "ionicfirebaseapp/getwidget",
+      "url": "https://github.com/ionicfirebaseapp/getwidget",
+      "description": "Most popular and easy to use open source UI library with 1000+ Widgets to build flutter app. ",
+      "stars": 4837,
+      "forks": 649,
+      "primaryLanguage": "Dart",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-12-11T03:45:22Z",
+      "pushedAt": "2026-05-24T07:18:35Z",
+      "homepageUrl": "https://www.getwidget.dev",
+      "archived": false,
+      "owner": {
+        "login": "ionicfirebaseapp",
+        "name": "Ionicfirebaseapp",
+        "type": "Organization",
+        "url": "https://github.com/ionicfirebaseapp",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33476427?v=4",
+        "location": "Bangalore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 82,
+      "name": "xplr",
+      "nameWithOwner": "sayanarijit/xplr",
+      "url": "https://github.com/sayanarijit/xplr",
+      "description": "A hackable, minimal, fast TUI file explorer",
+      "stars": 4837,
+      "forks": 96,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-02-24T20:42:17Z",
+      "pushedAt": "2026-09-23T09:17:39Z",
+      "homepageUrl": "https://xplr.dev",
+      "archived": false,
+      "owner": {
+        "login": "sayanarijit",
+        "name": "Arijit Basu",
+        "type": "User",
+        "url": "https://github.com/sayanarijit",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11632726?u=b356b4b6d9682924fd842d9b4ea073283e3ebba2&v=4",
+        "location": "Kolkata, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "kolkata"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 83,
+      "name": "frontend-learning-kit",
+      "nameWithOwner": "sadanandpai/frontend-learning-kit",
+      "url": "https://github.com/sadanandpai/frontend-learning-kit",
+      "description": "Frontend tech guide and curated collection of frontend materials",
+      "stars": 4695,
+      "forks": 893,
+      "primaryLanguage": null,
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-06-05T04:17:15Z",
+      "pushedAt": "2026-05-08T04:22:24Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "sadanandpai",
+        "name": "Sadanand Pai",
+        "type": "User",
+        "url": "https://github.com/sadanandpai",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12962887?u=8b72dfcdd13ee297e8966d66769a95b16f8f1413&v=4",
+        "location": "Bengaluru",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bengaluru"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 84,
+      "name": "i-hate-regex",
+      "nameWithOwner": "geongeorge/i-hate-regex",
+      "url": "https://github.com/geongeorge/i-hate-regex",
+      "description": "The code for iHateregex.io 😈 - The Regex Cheat Sheet",
+      "stars": 4560,
+      "forks": 318,
+      "primaryLanguage": "TypeScript",
+      "license": null,
+      "createdAt": "2019-08-03T02:42:32Z",
+      "pushedAt": "2026-09-10T13:23:04Z",
+      "homepageUrl": "https://iHateRegex.io",
+      "archived": false,
+      "owner": {
+        "login": "geongeorge",
+        "name": "Geon George",
+        "type": "User",
+        "url": "https://github.com/geongeorge",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29296982?u=2eabdbec72c5090be00703ec0d1a3413eb50f5a6&v=4",
+        "location": "Kerala, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "kerala"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 85,
+      "name": "awesome-ricing",
+      "nameWithOwner": "fosslife/awesome-ricing",
+      "url": "https://github.com/fosslife/awesome-ricing",
+      "description": "A curated list of awesome tools and technology to help you out with ricing on linux",
+      "stars": 4534,
+      "forks": 112,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2018-12-17T09:53:15Z",
+      "pushedAt": "2026-09-28T03:06:44Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "fosslife",
+        "name": "fosslife",
+        "type": "Organization",
+        "url": "https://github.com/fosslife",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45305425?v=4",
+        "location": "Pune",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "pune"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 86,
+      "name": "PhotoEditor",
+      "nameWithOwner": "burhanrashid52/PhotoEditor",
+      "url": "https://github.com/burhanrashid52/PhotoEditor",
+      "description": "A Photo Editor library with simple, easy support for image editing using paints,text,filters,emoji and Sticker like stories.",
+      "stars": 4517,
+      "forks": 1050,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-01-23T11:44:10Z",
+      "pushedAt": "2026-09-27T14:43:26Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "burhanrashid52",
+        "name": "Burhanuddin Rashid",
+        "type": "User",
+        "url": "https://github.com/burhanrashid52",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14251963?u=0b0aa05d6cecad78bfe2ce8d2f0754dfe86b2e6e&v=4",
+        "location": "Galiakot",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "galiakot"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 87,
+      "name": "doggo",
+      "nameWithOwner": "mr-karan/doggo",
+      "url": "https://github.com/mr-karan/doggo",
+      "description": ":dog: Command-line DNS Client for Humans. Written in Golang",
+      "stars": 4507,
+      "forks": 146,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2020-12-09T05:07:07Z",
+      "pushedAt": "2026-09-01T09:47:04Z",
+      "homepageUrl": "https://doggo.mrkaran.dev/",
+      "archived": false,
+      "owner": {
+        "login": "mr-karan",
+        "name": "Karan Sharma",
+        "type": "User",
+        "url": "https://github.com/mr-karan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5689132?u=141688ed68b89eaefb09f580e9cdb15284a2745a&v=4",
+        "location": "Bangalore, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 88,
+      "name": "javascript-design-patterns-for-humans",
+      "nameWithOwner": "sohamkamani/javascript-design-patterns-for-humans",
+      "url": "https://github.com/sohamkamani/javascript-design-patterns-for-humans",
+      "description": "An ultra-simplified explanation of design patterns implemented in javascript",
+      "stars": 4477,
+      "forks": 496,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2017-02-21T08:10:03Z",
+      "pushedAt": "2024-01-08T05:07:39Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "sohamkamani",
+        "name": "Soham Kamani",
+        "type": "User",
+        "url": "https://github.com/sohamkamani",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6852008?u=84f746465ccb12dddbe9301200bc5ef79f08750b&v=4",
+        "location": "Bangalore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 89,
+      "name": "nextplayer",
+      "nameWithOwner": "anilbeesetti/nextplayer",
+      "url": "https://github.com/anilbeesetti/nextplayer",
+      "description": "An Android native video player",
+      "stars": 4465,
+      "forks": 336,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2023-02-08T05:34:22Z",
+      "pushedAt": "2026-10-02T07:47:37Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "anilbeesetti",
+        "name": "Anil Kumar Beesetti",
+        "type": "User",
+        "url": "https://github.com/anilbeesetti",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66936649?u=e4b88f11b0628c67f3638561541517a88e2ce231&v=4",
+        "location": "Visakhapatnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "visakhapatnam"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 90,
+      "name": "javascript-code-challenges",
+      "nameWithOwner": "sadanandpai/javascript-code-challenges",
+      "url": "https://github.com/sadanandpai/javascript-code-challenges",
+      "description": "A collection of JavaScript modern interview code challenges for beginners to experts",
+      "stars": 4463,
+      "forks": 854,
+      "primaryLanguage": "MDX",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-11-20T13:10:04Z",
+      "pushedAt": "2026-04-01T06:25:55Z",
+      "homepageUrl": "https://jscodechallenges.vercel.app",
+      "archived": false,
+      "owner": {
+        "login": "sadanandpai",
+        "name": "Sadanand Pai",
+        "type": "User",
+        "url": "https://github.com/sadanandpai",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12962887?u=8b72dfcdd13ee297e8966d66769a95b16f8f1413&v=4",
+        "location": "Bengaluru",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bengaluru"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 91,
+      "name": "Grokking-the-Coding-Interview-Patterns-for-Coding-Questions",
+      "nameWithOwner": "dipjul/Grokking-the-Coding-Interview-Patterns-for-Coding-Questions",
+      "url": "https://github.com/dipjul/Grokking-the-Coding-Interview-Patterns-for-Coding-Questions",
+      "description": "Grokking the Coding Interview: Patterns for Coding Questions Alternative",
+      "stars": 4460,
+      "forks": 946,
+      "primaryLanguage": null,
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-01-26T19:52:53Z",
+      "pushedAt": "2025-09-15T21:33:47Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "dipjul",
+        "name": "Dipjul",
+        "type": "User",
+        "url": "https://github.com/dipjul",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20329508?u=28ef62c794cde462550e6ee9ae4bff984ecf14f2&v=4",
+        "location": "Bangalore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 92,
+      "name": "android-mvp-architecture",
+      "nameWithOwner": "janishar/android-mvp-architecture",
+      "url": "https://github.com/janishar/android-mvp-architecture",
+      "description": "This repository contains a detailed sample app that implements MVP architecture using Dagger2,  GreenDao, RxJava2, FastAndroidNetworking and PlaceholderView",
+      "stars": 4416,
+      "forks": 1226,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2017-01-27T08:39:06Z",
+      "pushedAt": "2024-04-16T15:28:00Z",
+      "homepageUrl": "https://janisharali.com",
+      "archived": false,
+      "owner": {
+        "login": "janishar",
+        "name": "Janishar Ali",
+        "type": "User",
+        "url": "https://github.com/janishar",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11065002?u=5b6dadf43871e14f66650e968000541d9c8ef5a1&v=4",
+        "location": "New Delhi, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "new delhi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 93,
+      "name": "swag-for-dev",
+      "nameWithOwner": "swapagarwal/swag-for-dev",
+      "url": "https://github.com/swapagarwal/swag-for-dev",
+      "description": "😎 swag opportunities for developers",
+      "stars": 4396,
+      "forks": 357,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdxId": "CC0-1.0"
+      },
+      "createdAt": "2018-02-18T05:29:31Z",
+      "pushedAt": "2024-12-09T08:36:38Z",
+      "homepageUrl": "http://devswag.swapnil.net",
+      "archived": false,
+      "owner": {
+        "login": "swapagarwal",
+        "name": "Swapnil Agarwal",
+        "type": "User",
+        "url": "https://github.com/swapagarwal",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2833845?v=4",
+        "location": "Bangalore, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 94,
+      "name": "whitelist",
+      "nameWithOwner": "anudeepND/whitelist",
+      "url": "https://github.com/anudeepND/whitelist",
+      "description": "A simple tool to add commonly white listed domains to your Pi-Hole setup. ",
+      "stars": 4383,
+      "forks": 288,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-07-24T07:37:21Z",
+      "pushedAt": "2024-03-19T11:10:06Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "anudeepND",
+        "name": "Anudeep",
+        "type": "User",
+        "url": "https://github.com/anudeepND",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26179946?u=5abd9d264f3d2a831d400c3b73c4952745f95a43&v=4",
+        "location": "Bangalore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 95,
+      "name": "pygorithm",
+      "nameWithOwner": "OmkarPathak/pygorithm",
+      "url": "https://github.com/OmkarPathak/pygorithm",
+      "description": "A Python module for learning all major algorithms",
+      "stars": 4382,
+      "forks": 502,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-07-31T01:47:38Z",
+      "pushedAt": "2025-10-11T01:50:02Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "OmkarPathak",
+        "name": "Omkar Pathak",
+        "type": "User",
+        "url": "https://github.com/OmkarPathak",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17998893?u=f3190517abfdea06d6d6b79bcdfb8f9092ee5422&v=4",
+        "location": "Pune, Maharashtra, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "pune"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 96,
+      "name": "Aliens_eye",
+      "nameWithOwner": "arxhr007/Aliens_eye",
+      "url": "https://github.com/arxhr007/Aliens_eye",
+      "description": "Hunt down 840+ social media accounts using AI",
+      "stars": 4243,
+      "forks": 493,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-09-22T05:15:32Z",
+      "pushedAt": "2026-09-18T16:50:20Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "arxhr007",
+        "name": "Aaron Thomas",
+        "type": "User",
+        "url": "https://github.com/arxhr007",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84493696?u=d6f599d06051e7cef188d991a9db145f3bc7c72d&v=4",
+        "location": "Thrissur, Kerala",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "thrissur kerala"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 97,
+      "name": "flutter_twitter_clone",
+      "nameWithOwner": "TheAlphamerc/flutter_twitter_clone",
+      "url": "https://github.com/TheAlphamerc/flutter_twitter_clone",
+      "description": "Fully functional Twitter clone built in  flutter framework using Firebase realtime database and storage",
+      "stars": 4240,
+      "forks": 1159,
+      "primaryLanguage": "Dart",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-12-25T05:56:37Z",
+      "pushedAt": "2024-07-31T04:58:06Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "TheAlphamerc",
+        "name": "Sonu Sharma",
+        "type": "User",
+        "url": "https://github.com/TheAlphamerc",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37103237?v=4",
+        "location": "New Delhi,  India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "new delhi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 98,
+      "name": "koanf",
+      "nameWithOwner": "knadh/koanf",
+      "url": "https://github.com/knadh/koanf",
+      "description": "Simple, extremely lightweight, extensible, configuration management library for Go. Supports JSON, TOML, YAML, env, command line, file, S3 etc. Alternative to viper.",
+      "stars": 4215,
+      "forks": 208,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-06-18T06:34:05Z",
+      "pushedAt": "2026-09-24T17:15:39Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "knadh",
+        "name": "Kailash Nadh",
+        "type": "User",
+        "url": "https://github.com/knadh",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/547147?u=d0d65c421bb54c3714c473259ea33259bf3ccd06&v=4",
+        "location": "Bengaluru",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bengaluru"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 99,
+      "name": "rockstar",
+      "nameWithOwner": "avinassh/rockstar",
+      "url": "https://github.com/avinassh/rockstar",
+      "description": "Makes you a Rockstar C++ Programmer in 2 minutes",
+      "stars": 4186,
+      "forks": 282,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-07-16T18:31:43Z",
+      "pushedAt": "2023-08-21T03:59:48Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "avinassh",
+        "name": "Avinash Sajjanshetty",
+        "type": "User",
+        "url": "https://github.com/avinassh",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/640792?u=5aef7c4ec51dcfa7114ff9937ec68693016cb978&v=4",
+        "location": "Bangalore, India",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 100,
+      "name": "Perfect-Roadmap-To-Learn-Data-Science-In-2025",
+      "nameWithOwner": "krishnaik06/Perfect-Roadmap-To-Learn-Data-Science-In-2025",
+      "url": "https://github.com/krishnaik06/Perfect-Roadmap-To-Learn-Data-Science-In-2025",
+      "description": null,
+      "stars": 4130,
+      "forks": 1533,
+      "primaryLanguage": null,
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2023-12-03T13:57:38Z",
+      "pushedAt": "2025-08-19T06:23:43Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "krishnaik06",
+        "name": "Krish C Naik",
+        "type": "User",
+        "url": "https://github.com/krishnaik06",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20041231?u=9f199efaa177b1071e96cef3d9bb9aa2e591e9da&v=4",
+        "location": "Bangalore",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "IN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bangalore"
+        },
+        "discoveryTerms": []
+      }
+    }
+  ]
+}

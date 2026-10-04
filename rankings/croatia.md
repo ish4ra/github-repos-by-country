@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **8**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **15**
+- Current global star frontier: **3,366**
 
 ### High-star verified preview
 
@@ -59,5 +59,12 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [nibzard/awesome-agentic-patterns](https://github.com/nibzard/awesome-agentic-patterns) | **5,018** | Split, Croatia |
 | [judge0/judge0](https://github.com/judge0/judge0) | **4,461** | Croatia |
 | [adrianhajdin/project_web3.0](https://github.com/adrianhajdin/project_web3.0) | **4,246** | Croatia |
+| [adrianhajdin/project_chat_application](https://github.com/adrianhajdin/project_chat_application) | **4,133** | Croatia |
+| [adrianhajdin/project_modern_ui_ux_gpt3](https://github.com/adrianhajdin/project_modern_ui_ux_gpt3) | **3,840** | Croatia |
+| [adrianhajdin/portfolio](https://github.com/adrianhajdin/portfolio) | **3,666** | Croatia |
+| [Megabit/Blazorise](https://github.com/Megabit/Blazorise) | **3,535** | Croatia |
+| [adrianhajdin/portfolio_website](https://github.com/adrianhajdin/portfolio_website) | **3,490** | Croatia |
+| [Source-Robotics/PAROL6-Desktop-robot-arm](https://github.com/Source-Robotics/PAROL6-Desktop-robot-arm) | **3,338** | Croatia |
+| [vladmandic/human](https://github.com/vladmandic/human) | **3,327** | Miami, Florida / Rijeka, Croatia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

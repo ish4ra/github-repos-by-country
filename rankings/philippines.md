@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **3,366**
 
 ### High-star verified preview
 
@@ -55,5 +55,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [yajra/laravel-datatables](https://github.com/yajra/laravel-datatables) | **4,872** | Philippines |
 | [JaKooLit/Arch-Hyprland](https://github.com/JaKooLit/Arch-Hyprland) | **4,583** | Philippines / South Korea - Worldwide |
 | [ivanceras/svgbob](https://github.com/ivanceras/svgbob) | **4,234** | Cebu, Philippines |
+| [JaKooLit/Hyprland-Dots](https://github.com/JaKooLit/Hyprland-Dots) | **3,580** | Philippines / South Korea - Worldwide |
+| [SeaDve/Kooha](https://github.com/SeaDve/Kooha) | **3,525** | Central Luzon, Philippines |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

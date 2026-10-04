@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **17**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **25**
+- Current global star frontier: **3,366**
 
 ### High-star verified preview
 
@@ -68,5 +68,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [jonasschmedtmann/ultimate-react-course](https://github.com/jonasschmedtmann/ultimate-react-course) | **4,519** | Faro, Portugal |
 | [andrew--r/channels](https://github.com/andrew--r/channels) | **4,469** | Lisbon, Portugal |
 | [dwyl/learn-json-web-tokens](https://github.com/dwyl/learn-json-web-tokens) | **4,173** | Portugal |
+| [m1guelpf/chatgpt-telegram](https://github.com/m1guelpf/chatgpt-telegram) | **3,880** | Lisbon, Portugal |
+| [ruipgil/scraperjs](https://github.com/ruipgil/scraperjs) | **3,712** | Portugal |
+| [sw33tLie/macshot](https://github.com/sw33tLie/macshot) | **3,665** | Lisboa, from Italy |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

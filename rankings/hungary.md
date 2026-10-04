@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **7**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **10**
+- Current global star frontier: **3,366**
 
 ### High-star verified preview
 
@@ -58,5 +58,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [asciimoo/hister](https://github.com/asciimoo/hister) | **5,874** | Budapest, Hungary |
 | [AppPear/ChartView](https://github.com/AppPear/ChartView) | **5,646** | Budapest |
 | [relatedcode/Messenger](https://github.com/relatedcode/Messenger) | **4,772** | Budapest |
+| [kovacsv/Online3DViewer](https://github.com/kovacsv/Online3DViewer) | **3,711** | Budapest, Hungary |
+| [guildxyz/guild.xyz](https://github.com/guildxyz/guild.xyz) | **3,480** | Hungary |
+| [arpanghosh8453/garmin-grafana](https://github.com/arpanghosh8453/garmin-grafana) | **3,480** | Budapest |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **8**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **3,366**
 
 ### High-star verified preview
 
@@ -59,5 +59,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ONLYOFFICE/DocumentServer](https://github.com/ONLYOFFICE/DocumentServer) | **6,967** | Latvia |
 | [ONLYOFFICE/DesktopEditors](https://github.com/ONLYOFFICE/DesktopEditors) | **5,471** | Latvia |
 | [puikinsh/Adminator-admin-dashboard](https://github.com/puikinsh/Adminator-admin-dashboard) | **4,660** | Riga, Latvia |
+| [ChiliLabs/CHIPageControl](https://github.com/ChiliLabs/CHIPageControl) | **3,467** | Riga, Latvia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

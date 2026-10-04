@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **16**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **17**
+- Current global star frontier: **3,366**
 
 ### High-star verified preview
 
@@ -67,5 +67,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Gaurav-Gosain/tuios](https://github.com/Gaurav-Gosain/tuios) | **4,653** | Abu Dhabi, United Arab Emirates |
 | [Gictorbit/photoshopCClinux](https://github.com/Gictorbit/photoshopCClinux) | **4,510** | UAE/Dubai |
 | [jMonkeyEngine/jmonkeyengine](https://github.com/jMonkeyEngine/jmonkeyengine) | **4,320** | International |
+| [garylab/dnmp](https://github.com/garylab/dnmp) | **4,089** | Abu Dhabi, UAE |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

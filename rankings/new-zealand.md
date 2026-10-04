@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **18**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **20**
+- Current global star frontier: **3,366**
 
 ### High-star verified preview
 
@@ -69,5 +69,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [urbanadventurer/Android-PIN-Bruteforce](https://github.com/urbanadventurer/Android-PIN-Bruteforce) | **4,835** | New Zealand |
 | [ChenYilong/iOS9AdaptationTips](https://github.com/ChenYilong/iOS9AdaptationTips) | **4,437** | Auckland, New Zealand |
 | [ketoo/NoahGameFrame](https://github.com/ketoo/NoahGameFrame) | **4,155** | Auckland |
+| [zeman/perfmap](https://github.com/zeman/perfmap) | **3,761** | Auckland, New Zealand |
+| [cortesi/devd](https://github.com/cortesi/devd) | **3,474** | Dunedin, New Zealand |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

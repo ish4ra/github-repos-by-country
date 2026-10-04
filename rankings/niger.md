@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [sn115426/nclient](https://github.com/sn115426/nclient) | **6** | niger |
 | [abass-dev/react-native-dev-roadmap](https://github.com/abass-dev/react-native-dev-roadmap) | **5** | Niamey, Niger |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **3,366**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [kodjodevf/mangayomi](https://github.com/kodjodevf/mangayomi) | **3,883** | Niamey,Niger |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

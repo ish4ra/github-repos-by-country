@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [codeverbojan/remotion-cinematic](https://github.com/codeverbojan/remotion-cinematic) | **18** | North Macedonia |
 | [Delemangi/FINKI](https://github.com/Delemangi/FINKI) | **15** | Skopje, North Macedonia |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **3,366**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [MTrajK/coding-problems](https://github.com/MTrajK/coding-problems) | **3,402** | Skopje |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

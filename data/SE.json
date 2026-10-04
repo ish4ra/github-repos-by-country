@@ -1,0 +1,3428 @@
+{
+  "schemaVersion": 1,
+  "methodologyVersion": "0.8.0-repository-first",
+  "generatedAt": "2026-10-04T18:44:25.534Z",
+  "country": {
+    "code": "SE",
+    "name": "Sweden",
+    "slug": "sweden"
+  },
+  "source": {
+    "provider": "GitHub GraphQL API",
+    "endpoint": "https://api.github.com/graphql",
+    "countryBasis": "public repository-owner profile location",
+    "discovery": "global repositories scanned by stars descending"
+  },
+  "coverage": {
+    "status": "repository-first-certified-by-star-frontier",
+    "exhaustive": false,
+    "rawOwnerHits": 19850,
+    "acceptedUniqueOwners": 77,
+    "ownerMetricLabel": "Unique owners in top ranking",
+    "repositoriesConsidered": 119,
+    "publishedRepositories": 100,
+    "candidateThresholdStars": 3973,
+    "rankingLimit": 100,
+    "cappedQueries": [],
+    "repositoryFirst": {
+      "scanFrontierStars": 3366,
+      "topObservedStars": 551406,
+      "repositoriesSeen": 19850,
+      "attributedRepositories": 6889,
+      "ambiguousLocations": 2846,
+      "unknownLocations": 10115,
+      "unresolvedStarCounts": []
+    },
+    "notes": [
+      "Repositories are scanned globally in descending star ranges, independently of owner follower count or owner-search ordering.",
+      "A country is certified only after its 100th repository has more stars than every unprocessed global star range.",
+      "Owner country is inferred from the owner public GitHub profile location using the global geography resolver.",
+      "Owners with missing or unresolved locations are excluded, so country attribution is not a citizenship or legal-incorporation claim.",
+      "Compound city/admin locations such as \"Portland, OR\" are resolved before ambiguous city-only names."
+    ]
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "grafana",
+      "nameWithOwner": "grafana/grafana",
+      "url": "https://github.com/grafana/grafana",
+      "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ",
+      "stars": 77055,
+      "forks": 14815,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2013-12-11T15:59:56Z",
+      "pushedAt": "2026-10-04T01:06:04Z",
+      "homepageUrl": "https://grafana.com",
+      "archived": false,
+      "owner": {
+        "login": "grafana",
+        "name": "Grafana Labs",
+        "type": "Organization",
+        "url": "https://github.com/grafana",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7195757?v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 2,
+      "name": "reveal.js",
+      "nameWithOwner": "hakimel/reveal.js",
+      "url": "https://github.com/hakimel/reveal.js",
+      "description": "The HTML Presentation Framework",
+      "stars": 72377,
+      "forks": 17021,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2011-06-07T18:54:22Z",
+      "pushedAt": "2026-09-30T19:38:13Z",
+      "homepageUrl": "https://revealjs.com",
+      "archived": false,
+      "owner": {
+        "login": "hakimel",
+        "name": "Hakim El Hattab",
+        "type": "User",
+        "url": "https://github.com/hakimel",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/629429?u=89467ce33d305cdd20922cb190314e92562dc640&v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 3,
+      "name": "awesome-docker",
+      "nameWithOwner": "veggiemonk/awesome-docker",
+      "url": "https://github.com/veggiemonk/awesome-docker",
+      "description": ":whale: A curated list of Docker resources and projects",
+      "stars": 36959,
+      "forks": 3379,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2014-09-21T17:01:48Z",
+      "pushedAt": "2026-10-02T05:20:29Z",
+      "homepageUrl": "https://average.joe.dev/awesome-docker/",
+      "archived": false,
+      "owner": {
+        "login": "veggiemonk",
+        "name": "Julien Bisconti",
+        "type": "User",
+        "url": "https://github.com/veggiemonk",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5487021?u=b585317a55eee3d3c59eaad4ebf8e79c5998005f&v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 4,
+      "name": "btop",
+      "nameWithOwner": "aristocratos/btop",
+      "url": "https://github.com/aristocratos/btop",
+      "description": "A monitor of resources",
+      "stars": 34851,
+      "forks": 1189,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2021-05-06T18:40:21Z",
+      "pushedAt": "2026-10-03T09:07:44Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "aristocratos",
+        "name": "Jakob P. Liljenberg",
+        "type": "User",
+        "url": "https://github.com/aristocratos",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59659483?u=e7a780662f1876525a5d2f7f642fa3f8fe56b1fe&v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 5,
+      "name": "ML-From-Scratch",
+      "nameWithOwner": "eriklindernoren/ML-From-Scratch",
+      "url": "https://github.com/eriklindernoren/ML-From-Scratch",
+      "description": "Machine Learning From Scratch. Bare bones NumPy implementations of machine learning models and algorithms with a focus on accessibility. Aims to cover everything from linear regression to deep learning.",
+      "stars": 32938,
+      "forks": 5494,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-02-05T12:11:23Z",
+      "pushedAt": "2023-10-15T06:05:06Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "eriklindernoren",
+        "name": "Erik Linder-Norén",
+        "type": "User",
+        "url": "https://github.com/eriklindernoren",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7977505?u=60e0b8ce77d2017799199f025134abbfae11a137&v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 6,
+      "name": "k6",
+      "nameWithOwner": "grafana/k6",
+      "url": "https://github.com/grafana/k6",
+      "description": "A modern load testing tool, using Go and JavaScript",
+      "stars": 31771,
+      "forks": 1657,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2016-03-21T15:30:24Z",
+      "pushedAt": "2026-10-02T14:14:39Z",
+      "homepageUrl": "https://grafana.com/oss/k6/",
+      "archived": false,
+      "owner": {
+        "login": "grafana",
+        "name": "Grafana Labs",
+        "type": "Organization",
+        "url": "https://github.com/grafana",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7195757?v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 7,
+      "name": "egui",
+      "nameWithOwner": "emilk/egui",
+      "url": "https://github.com/emilk/egui",
+      "description": "egui: an easy-to-use immediate mode GUI in Rust that runs on both web and native",
+      "stars": 30823,
+      "forks": 2161,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2019-01-13T15:39:15Z",
+      "pushedAt": "2026-09-29T17:13:22Z",
+      "homepageUrl": "https://www.egui.rs/",
+      "archived": false,
+      "owner": {
+        "login": "emilk",
+        "name": "Emil Ernerfeldt",
+        "type": "User",
+        "url": "https://github.com/emilk",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1148717?u=1ad444882def5ad4bd70cdb8f5da252bb6d03e39&v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 8,
+      "name": "loki",
+      "nameWithOwner": "grafana/loki",
+      "url": "https://github.com/grafana/loki",
+      "description": "Like Prometheus, but for logs.",
+      "stars": 28988,
+      "forks": 4127,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2018-04-16T09:22:48Z",
+      "pushedAt": "2026-10-04T03:09:52Z",
+      "homepageUrl": "https://grafana.com/oss/loki",
+      "archived": false,
+      "owner": {
+        "login": "grafana",
+        "name": "Grafana Labs",
+        "type": "Organization",
+        "url": "https://github.com/grafana",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7195757?v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 9,
+      "name": "developer-portfolios",
+      "nameWithOwner": "emmabostian/developer-portfolios",
+      "url": "https://github.com/emmabostian/developer-portfolios",
+      "description": "A list of developer portfolios for your inspiration",
+      "stars": 26949,
+      "forks": 5258,
+      "primaryLanguage": "Python",
+      "license": null,
+      "createdAt": "2019-09-13T14:18:58Z",
+      "pushedAt": "2026-10-03T18:46:50Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "emmabostian",
+        "name": "Emma Bostian",
+        "type": "User",
+        "url": "https://github.com/emmabostian",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7671983?u=10c5f30603b781947103e842e2c48437359f8df1&v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 10,
+      "name": "SpinKit",
+      "nameWithOwner": "tobiasahlin/SpinKit",
+      "url": "https://github.com/tobiasahlin/SpinKit",
+      "description": "A collection of loading indicators animated with CSS",
+      "stars": 19325,
+      "forks": 1757,
+      "primaryLanguage": "CSS",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-12-12T23:29:41Z",
+      "pushedAt": "2020-08-01T09:04:59Z",
+      "homepageUrl": "http://tobiasahlin.com/spinkit/",
+      "archived": false,
+      "owner": {
+        "login": "tobiasahlin",
+        "name": "Tobias Ahlin",
+        "type": "User",
+        "url": "https://github.com/tobiasahlin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/211284?u=9673e9709b6ce46ba66a402cf0e10c1c8e8f73d6&v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 11,
+      "name": "ConvertX",
+      "nameWithOwner": "C4illin/ConvertX",
+      "url": "https://github.com/C4illin/ConvertX",
+      "description": "💾 Self-hosted online file converter. Supports 1000+ formats ⚙️",
+      "stars": 19091,
+      "forks": 1085,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2024-04-07T16:21:39Z",
+      "pushedAt": "2026-10-02T13:45:04Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "C4illin",
+        "name": "Emrik Östling",
+        "type": "User",
+        "url": "https://github.com/C4illin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20753603?u=fa4667de4968e743c089b88b336de141346daf6e&v=4",
+        "location": "Gothenburg, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 12,
+      "name": "uWebSockets",
+      "nameWithOwner": "uNetworking/uWebSockets",
+      "url": "https://github.com/uNetworking/uWebSockets",
+      "description": "Simple, secure & standards compliant web server for the most demanding of applications",
+      "stars": 18993,
+      "forks": 1866,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2016-03-21T04:39:40Z",
+      "pushedAt": "2026-10-03T22:59:57Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "uNetworking",
+        "name": "uNetworking AB",
+        "type": "Organization",
+        "url": "https://github.com/uNetworking",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28876608?v=4",
+        "location": "Skåne",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "skane"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 13,
+      "name": "luigi",
+      "nameWithOwner": "spotify/luigi",
+      "url": "https://github.com/spotify/luigi",
+      "description": "Luigi is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization etc. It also comes with Hadoop support built in.",
+      "stars": 18779,
+      "forks": 2466,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2012-09-20T15:06:38Z",
+      "pushedAt": "2026-07-18T11:15:46Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "spotify",
+        "name": "Spotify",
+        "type": "Organization",
+        "url": "https://github.com/spotify",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/251374?v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 14,
+      "name": "golang-developer-roadmap",
+      "nameWithOwner": "darius-khll/golang-developer-roadmap",
+      "url": "https://github.com/darius-khll/golang-developer-roadmap",
+      "description": "Roadmap to becoming a Go developer in 2020",
+      "stars": 18421,
+      "forks": 2176,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2019-04-15T10:14:22Z",
+      "pushedAt": "2023-02-13T08:08:20Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "darius-khll",
+        "name": "Darius Khalili",
+        "type": "User",
+        "url": "https://github.com/darius-khll",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17675690?u=3470e8f12ade5aed27fae34831697c74db40b119&v=4",
+        "location": "Stockholm",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "stockholm"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 15,
+      "name": "PyTorch-GAN",
+      "nameWithOwner": "eriklindernoren/PyTorch-GAN",
+      "url": "https://github.com/eriklindernoren/PyTorch-GAN",
+      "description": "PyTorch implementations of Generative Adversarial Networks.",
+      "stars": 17457,
+      "forks": 4058,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-04-21T13:06:40Z",
+      "pushedAt": "2024-06-18T07:08:31Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "eriklindernoren",
+        "name": "Erik Linder-Norén",
+        "type": "User",
+        "url": "https://github.com/eriklindernoren",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7977505?u=60e0b8ce77d2017799199f025134abbfae11a137&v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 16,
+      "name": "bull",
+      "nameWithOwner": "OptimalBits/bull",
+      "url": "https://github.com/OptimalBits/bull",
+      "description": "Premium Queue package for handling distributed jobs and messages in NodeJS.",
+      "stars": 16257,
+      "forks": 1402,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2013-06-27T14:35:35Z",
+      "pushedAt": "2026-10-03T03:17:57Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "OptimalBits",
+        "name": "OptimalBits",
+        "type": "Organization",
+        "url": "https://github.com/OptimalBits",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/945399?v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 17,
+      "name": "midday",
+      "nameWithOwner": "midday-ai/midday",
+      "url": "https://github.com/midday-ai/midday",
+      "description": "Invoicing, Time tracking, File reconciliation, Storage, Financial Overview & your own Assistant made for Freelancers",
+      "stars": 15060,
+      "forks": 1892,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2023-09-18T17:12:27Z",
+      "pushedAt": "2026-06-13T13:40:35Z",
+      "homepageUrl": "https://midday.ai",
+      "archived": false,
+      "owner": {
+        "login": "midday-ai",
+        "name": "Midday",
+        "type": "Organization",
+        "url": "https://github.com/midday-ai",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/145366395?v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 18,
+      "name": "samples",
+      "nameWithOwner": "webrtc/samples",
+      "url": "https://github.com/webrtc/samples",
+      "description": "WebRTC Web demos and samples",
+      "stars": 14640,
+      "forks": 5662,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2013-09-20T10:40:23Z",
+      "pushedAt": "2026-07-14T15:15:13Z",
+      "homepageUrl": "https://webrtc.github.io/samples",
+      "archived": false,
+      "owner": {
+        "login": "webrtc",
+        "name": "WebRTC",
+        "type": "Organization",
+        "url": "https://github.com/webrtc",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10526312?v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 19,
+      "name": "Dexie.js",
+      "nameWithOwner": "dexie/Dexie.js",
+      "url": "https://github.com/dexie/Dexie.js",
+      "description": "A Minimalistic Wrapper for IndexedDB",
+      "stars": 14622,
+      "forks": 712,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2014-02-26T08:16:16Z",
+      "pushedAt": "2026-09-28T07:30:58Z",
+      "homepageUrl": "https://dexie.org",
+      "archived": false,
+      "owner": {
+        "login": "dexie",
+        "name": "Dexie",
+        "type": "Organization",
+        "url": "https://github.com/dexie",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32483223?v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 20,
+      "name": "ppsspp",
+      "nameWithOwner": "hrydgard/ppsspp",
+      "url": "https://github.com/hrydgard/ppsspp",
+      "description": "A PSP emulator for Android, Windows, Mac, Linux and iOS, written in C++. Want to contribute? Join us on Discord at https://discord.gg/5NJB6dD or just send pull requests / issues.",
+      "stars": 14571,
+      "forks": 2646,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2012-11-01T08:41:48Z",
+      "pushedAt": "2026-10-02T22:08:15Z",
+      "homepageUrl": "https://www.ppsspp.org",
+      "archived": false,
+      "owner": {
+        "login": "hrydgard",
+        "name": "Henrik Rydgård",
+        "type": "User",
+        "url": "https://github.com/hrydgard",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/130929?u=3f6a75a1ef554e8faac09efa30c4d8f0c826a231&v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 21,
+      "name": "facenet",
+      "nameWithOwner": "davidsandberg/facenet",
+      "url": "https://github.com/davidsandberg/facenet",
+      "description": "Face recognition using Tensorflow",
+      "stars": 14356,
+      "forks": 4771,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-02-12T22:14:40Z",
+      "pushedAt": "2023-07-24T12:43:21Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "davidsandberg",
+        "name": "David Sandberg",
+        "type": "User",
+        "url": "https://github.com/davidsandberg",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15169058?u=c2a693f84538087bb1d8771a0130b14482e5930b&v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 22,
+      "name": "annoy",
+      "nameWithOwner": "spotify/annoy",
+      "url": "https://github.com/spotify/annoy",
+      "description": "Approximate Nearest Neighbors in C++/Python optimized for memory usage and loading/saving to disk",
+      "stars": 14311,
+      "forks": 1227,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2013-04-01T20:29:40Z",
+      "pushedAt": "2025-10-29T14:08:37Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "spotify",
+        "name": "Spotify",
+        "type": "Organization",
+        "url": "https://github.com/spotify",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/251374?v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 23,
+      "name": "akka-core",
+      "nameWithOwner": "akka/akka-core",
+      "url": "https://github.com/akka/akka-core",
+      "description": "A platform to build and run apps that are elastic, agile, and resilient. SDK, libraries, and hosted environments.",
+      "stars": 13281,
+      "forks": 3531,
+      "primaryLanguage": "Scala",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2009-02-16T12:51:54Z",
+      "pushedAt": "2026-10-02T14:59:30Z",
+      "homepageUrl": "https://doc.akka.io/libraries/",
+      "archived": false,
+      "owner": {
+        "login": "akka",
+        "name": "Akka Project",
+        "type": "Organization",
+        "url": "https://github.com/akka",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1496237?v=4",
+        "location": "Uppsala, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 24,
+      "name": "encore",
+      "nameWithOwner": "encoredev/encore",
+      "url": "https://github.com/encoredev/encore",
+      "description": "The infrastructure platform for the intelligence era",
+      "stars": 12410,
+      "forks": 627,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Mozilla Public License 2.0",
+        "spdxId": "MPL-2.0"
+      },
+      "createdAt": "2021-02-17T16:33:24Z",
+      "pushedAt": "2026-10-01T20:24:05Z",
+      "homepageUrl": "https://encore.dev",
+      "archived": false,
+      "owner": {
+        "login": "encoredev",
+        "name": "Encore",
+        "type": "Organization",
+        "url": "https://github.com/encoredev",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50438175?v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 25,
+      "name": "otp",
+      "nameWithOwner": "erlang/otp",
+      "url": "https://github.com/erlang/otp",
+      "description": "Erlang/OTP",
+      "stars": 12349,
+      "forks": 3276,
+      "primaryLanguage": "Erlang",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2009-11-16T17:17:57Z",
+      "pushedAt": "2026-10-02T13:55:17Z",
+      "homepageUrl": "http://erlang.org",
+      "archived": false,
+      "owner": {
+        "login": "erlang",
+        "name": "Erlang/OTP",
+        "type": "Organization",
+        "url": "https://github.com/erlang",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/153393?v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 26,
+      "name": "pyroscope",
+      "nameWithOwner": "grafana/pyroscope",
+      "url": "https://github.com/grafana/pyroscope",
+      "description": "Continuous Profiling Platform. Debug performance issues down to a single line of code",
+      "stars": 11690,
+      "forks": 816,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2020-12-31T05:47:19Z",
+      "pushedAt": "2026-10-04T01:18:18Z",
+      "homepageUrl": "https://grafana.com/oss/pyroscope/",
+      "archived": false,
+      "owner": {
+        "login": "grafana",
+        "name": "Grafana Labs",
+        "type": "Organization",
+        "url": "https://github.com/grafana",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7195757?v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 27,
+      "name": "rerun",
+      "nameWithOwner": "rerun-io/rerun",
+      "url": "https://github.com/rerun-io/rerun",
+      "description": "Visualize, query, and stream to train on multimodal robotics data.",
+      "stars": 11541,
+      "forks": 858,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2022-04-08T07:30:05Z",
+      "pushedAt": "2026-10-02T11:31:11Z",
+      "homepageUrl": "https://rerun.io/",
+      "archived": false,
+      "owner": {
+        "login": "rerun-io",
+        "name": "rerun.io",
+        "type": "Organization",
+        "url": "https://github.com/rerun-io",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99407368?v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 28,
+      "name": "list.js",
+      "nameWithOwner": "javve/list.js",
+      "url": "https://github.com/javve/list.js",
+      "description": "The perfect library for adding search, sort, filters and flexibility to tables, lists and various HTML elements. Built to be invisible and work on existing HTML.",
+      "stars": 11209,
+      "forks": 879,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2011-01-30T12:29:56Z",
+      "pushedAt": "2025-04-27T14:43:58Z",
+      "homepageUrl": "https://listjs.com",
+      "archived": false,
+      "owner": {
+        "login": "javve",
+        "name": "Jonny Strömberg",
+        "type": "User",
+        "url": "https://github.com/javve",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/123192?u=74525f7edc0c551b3e5b079c7f8b541339754ac3&v=4",
+        "location": "Stockholm",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "stockholm"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 29,
+      "name": "bashtop",
+      "nameWithOwner": "aristocratos/bashtop",
+      "url": "https://github.com/aristocratos/bashtop",
+      "description": "Linux/OSX/FreeBSD resource monitor",
+      "stars": 11116,
+      "forks": 553,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2020-03-28T09:58:14Z",
+      "pushedAt": "2023-08-21T03:58:13Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "aristocratos",
+        "name": "Jakob P. Liljenberg",
+        "type": "User",
+        "url": "https://github.com/aristocratos",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59659483?u=e7a780662f1876525a5d2f7f642fa3f8fe56b1fe&v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 30,
+      "name": "bpytop",
+      "nameWithOwner": "aristocratos/bpytop",
+      "url": "https://github.com/aristocratos/bpytop",
+      "description": "Linux/OSX/FreeBSD resource monitor",
+      "stars": 10928,
+      "forks": 423,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2020-07-01T17:41:25Z",
+      "pushedAt": "2025-06-01T20:57:08Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "aristocratos",
+        "name": "Jakob P. Liljenberg",
+        "type": "User",
+        "url": "https://github.com/aristocratos",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59659483?u=e7a780662f1876525a5d2f7f642fa3f8fe56b1fe&v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 31,
+      "name": "MudBlazor",
+      "nameWithOwner": "MudBlazor/MudBlazor",
+      "url": "https://github.com/MudBlazor/MudBlazor",
+      "description": "Blazor Component Library based on Material Design principles. Do more with Blazor, utilizing CSS and keeping JavaScript to a bare minimum.",
+      "stars": 10631,
+      "forks": 1689,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-08-18T10:47:27Z",
+      "pushedAt": "2026-10-03T01:21:56Z",
+      "homepageUrl": "https://mudblazor.com",
+      "archived": false,
+      "owner": {
+        "login": "MudBlazor",
+        "name": "MudBlazor",
+        "type": "Organization",
+        "url": "https://github.com/MudBlazor",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79755064?v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 32,
+      "name": "fq",
+      "nameWithOwner": "wader/fq",
+      "url": "https://github.com/wader/fq",
+      "description": "fq - jq for binary formats. Tool, language and decoders for working with binary formats.",
+      "stars": 10605,
+      "forks": 254,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2021-02-07T21:37:53Z",
+      "pushedAt": "2026-10-03T17:22:06Z",
+      "homepageUrl": "https://wader.github.io/fq/",
+      "archived": false,
+      "owner": {
+        "login": "wader",
+        "name": "Mattias Wadman",
+        "type": "User",
+        "url": "https://github.com/wader",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/185566?u=3d3221f6b26270d87665a5523f31328f576c5051&v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 33,
+      "name": "ungit",
+      "nameWithOwner": "FredrikNoren/ungit",
+      "url": "https://github.com/FredrikNoren/ungit",
+      "description": "The easiest way to use git. On any platform. Anywhere.",
+      "stars": 10604,
+      "forks": 647,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-05-19T10:44:44Z",
+      "pushedAt": "2026-09-03T00:11:38Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "FredrikNoren",
+        "name": "Fredrik Norén",
+        "type": "User",
+        "url": "https://github.com/FredrikNoren",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1288009?v=4",
+        "location": "Stockholm",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "stockholm"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 34,
+      "name": "fluxer",
+      "nameWithOwner": "fluxerapp/fluxer",
+      "url": "https://github.com/fluxerapp/fluxer",
+      "description": "A free and open source instant messaging and VoIP chat app built for friends, groups, and communities.",
+      "stars": 10476,
+      "forks": 785,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2026-01-01T21:09:14Z",
+      "pushedAt": "2026-10-04T01:15:45Z",
+      "homepageUrl": "https://fluxer.app",
+      "archived": false,
+      "owner": {
+        "login": "fluxerapp",
+        "name": "Fluxer",
+        "type": "Organization",
+        "url": "https://github.com/fluxerapp",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/241304524?v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 35,
+      "name": "Reloader",
+      "nameWithOwner": "stakater/Reloader",
+      "url": "https://github.com/stakater/Reloader",
+      "description": "A Kubernetes controller to watch changes in ConfigMap and Secrets and do rolling upgrades on Pods with their associated Deployment, StatefulSet, DaemonSet and DeploymentConfig – [✩Star] if you're using it!",
+      "stars": 10460,
+      "forks": 664,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-07-04T13:42:50Z",
+      "pushedAt": "2026-10-02T09:59:51Z",
+      "homepageUrl": "https://docs.stakater.com/reloader/",
+      "archived": false,
+      "owner": {
+        "login": "stakater",
+        "name": "Stakater",
+        "type": "Organization",
+        "url": "https://github.com/stakater",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15930712?v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 36,
+      "name": "madge",
+      "nameWithOwner": "pahen/madge",
+      "url": "https://github.com/pahen/madge",
+      "description": "Create graphs from your CommonJS, AMD or ES6 module dependencies",
+      "stars": 10170,
+      "forks": 349,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2012-05-20T11:01:26Z",
+      "pushedAt": "2026-01-21T23:04:43Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "pahen",
+        "name": "Patrik Henningsson",
+        "type": "User",
+        "url": "https://github.com/pahen",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/353888?u=2165ceb046ec6746c3b88b392d251a1b34303017&v=4",
+        "location": "Gothenburg, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 37,
+      "name": "css.gg",
+      "nameWithOwner": "astrit/css.gg",
+      "url": "https://github.com/astrit/css.gg",
+      "description": "700+ Pure CSS, SVG & Figma UI Icons, 6000+ glyphs, patterns, colors and layouts.",
+      "stars": 10049,
+      "forks": 495,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2019-10-01T21:35:58Z",
+      "pushedAt": "2024-08-26T22:56:02Z",
+      "homepageUrl": "https://css.gg",
+      "archived": false,
+      "owner": {
+        "login": "astrit",
+        "name": "astrit",
+        "type": "User",
+        "url": "https://github.com/astrit",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2398447?u=54a41444f874782a2200aa0981db36583c4af682&v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 38,
+      "name": "spark",
+      "nameWithOwner": "perwendel/spark",
+      "url": "https://github.com/perwendel/spark",
+      "description": "A simple expressive web framework for java. Spark has a kotlin DSL https://github.com/perwendel/spark-kotlin",
+      "stars": 9635,
+      "forks": 1567,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2011-05-05T11:52:05Z",
+      "pushedAt": "2023-10-08T09:20:37Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "perwendel",
+        "name": "Per Wendel",
+        "type": "User",
+        "url": "https://github.com/perwendel",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/741279?u=dda45cee961f77eee08b5c55dd87239395187377&v=4",
+        "location": "Malmö, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 39,
+      "name": "nhost",
+      "nameWithOwner": "nhost/nhost",
+      "url": "https://github.com/nhost/nhost",
+      "description": "The Open Source Firebase Alternative with GraphQL.",
+      "stars": 9333,
+      "forks": 631,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-02-09T13:33:34Z",
+      "pushedAt": "2026-10-03T19:48:41Z",
+      "homepageUrl": "https://nhost.io",
+      "archived": false,
+      "owner": {
+        "login": "nhost",
+        "name": "Nhost",
+        "type": "Organization",
+        "url": "https://github.com/nhost",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48448799?v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 40,
+      "name": "Keras-GAN",
+      "nameWithOwner": "eriklindernoren/Keras-GAN",
+      "url": "https://github.com/eriklindernoren/Keras-GAN",
+      "description": "Keras implementations of Generative Adversarial Networks.",
+      "stars": 9206,
+      "forks": 3064,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-07-11T16:24:53Z",
+      "pushedAt": "2022-12-12T05:55:51Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "eriklindernoren",
+        "name": "Erik Linder-Norén",
+        "type": "User",
+        "url": "https://github.com/eriklindernoren",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7977505?u=60e0b8ce77d2017799199f025134abbfae11a137&v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 41,
+      "name": "uWebSockets.js",
+      "nameWithOwner": "uNetworking/uWebSockets.js",
+      "url": "https://github.com/uNetworking/uWebSockets.js",
+      "description": "μWebSockets for Node.js back-ends :metal:",
+      "stars": 9163,
+      "forks": 624,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-07-27T23:18:30Z",
+      "pushedAt": "2026-10-03T12:09:11Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "uNetworking",
+        "name": "uNetworking AB",
+        "type": "Organization",
+        "url": "https://github.com/uNetworking",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28876608?v=4",
+        "location": "Skåne",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "skane"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 42,
+      "name": "pundit",
+      "nameWithOwner": "varvet/pundit",
+      "url": "https://github.com/varvet/pundit",
+      "description": "Minimal authorization through OO design and pure Ruby classes",
+      "stars": 8521,
+      "forks": 640,
+      "primaryLanguage": "Ruby",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2012-11-04T09:20:19Z",
+      "pushedAt": "2026-08-28T08:16:33Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "varvet",
+        "name": "Varvet",
+        "type": "Organization",
+        "url": "https://github.com/varvet",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3612746?v=4",
+        "location": "Gothenburg, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 43,
+      "name": "Machine-Learning-Collection",
+      "nameWithOwner": "aladdinpersson/Machine-Learning-Collection",
+      "url": "https://github.com/aladdinpersson/Machine-Learning-Collection",
+      "description": "A resource for learning about Machine learning & Deep Learning",
+      "stars": 8489,
+      "forks": 2778,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-03-26T07:02:40Z",
+      "pushedAt": "2024-08-17T12:31:20Z",
+      "homepageUrl": "https://www.youtube.com/c/AladdinPersson",
+      "archived": false,
+      "owner": {
+        "login": "aladdinpersson",
+        "name": "Aladdin Persson",
+        "type": "User",
+        "url": "https://github.com/aladdinpersson",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23462240?u=d0f3b91d6086f7bbdb64f61e972230ad41f978c0&v=4",
+        "location": "Stockholm",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "stockholm"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 44,
+      "name": "embla-carousel",
+      "nameWithOwner": "davidjerleke/embla-carousel",
+      "url": "https://github.com/davidjerleke/embla-carousel",
+      "description": "A lightweight carousel library with fluid motion and great swipe precision.",
+      "stars": 8434,
+      "forks": 262,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-03-18T18:34:50Z",
+      "pushedAt": "2026-10-02T15:28:46Z",
+      "homepageUrl": "https://www.embla-carousel.com",
+      "archived": false,
+      "owner": {
+        "login": "davidjerleke",
+        "name": "David Jerleke",
+        "type": "User",
+        "url": "https://github.com/davidjerleke",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11529148?u=94446866c576d620cbd33e62834c480091fedcf0&v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 45,
+      "name": "pcileech",
+      "nameWithOwner": "ufrisk/pcileech",
+      "url": "https://github.com/ufrisk/pcileech",
+      "description": "Direct Memory Access (DMA) Attack Software",
+      "stars": 7945,
+      "forks": 1016,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2016-07-27T16:26:36Z",
+      "pushedAt": "2026-07-25T20:12:35Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ufrisk",
+        "name": "Ulf Frisk",
+        "type": "User",
+        "url": "https://github.com/ufrisk",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18221464?u=a3c3b6e1b5621fe92cfa9eb82cab30a8fdce9520&v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 46,
+      "name": "Ladda",
+      "nameWithOwner": "hakimel/Ladda",
+      "url": "https://github.com/hakimel/Ladda",
+      "description": "Buttons with built-in loading indicators.",
+      "stars": 7790,
+      "forks": 843,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-06-05T08:30:13Z",
+      "pushedAt": "2021-12-02T21:28:53Z",
+      "homepageUrl": "http://lab.hakim.se/ladda/",
+      "archived": false,
+      "owner": {
+        "login": "hakimel",
+        "name": "Hakim El Hattab",
+        "type": "User",
+        "url": "https://github.com/hakimel",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/629429?u=89467ce33d305cdd20922cb190314e92562dc640&v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 47,
+      "name": "rust-gpu",
+      "nameWithOwner": "EmbarkStudios/rust-gpu",
+      "url": "https://github.com/EmbarkStudios/rust-gpu",
+      "description": "🐉 Making Rust a first-class language and ecosystem for GPU shaders 🚧",
+      "stars": 7562,
+      "forks": 247,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2020-07-24T09:36:51Z",
+      "pushedAt": "2025-10-31T14:58:57Z",
+      "homepageUrl": "https://shader.rs",
+      "archived": true,
+      "owner": {
+        "login": "EmbarkStudios",
+        "name": "Embark",
+        "type": "Organization",
+        "url": "https://github.com/EmbarkStudios",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44887257?v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 48,
+      "name": "PyTorch-YOLOv3",
+      "nameWithOwner": "eriklindernoren/PyTorch-YOLOv3",
+      "url": "https://github.com/eriklindernoren/PyTorch-YOLOv3",
+      "description": "Minimal PyTorch implementation of YOLOv3",
+      "stars": 7440,
+      "forks": 2580,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2018-05-21T16:05:55Z",
+      "pushedAt": "2024-11-17T15:24:57Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "eriklindernoren",
+        "name": "Erik Linder-Norén",
+        "type": "User",
+        "url": "https://github.com/eriklindernoren",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7977505?u=60e0b8ce77d2017799199f025134abbfae11a137&v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 49,
+      "name": "beautiful-web-type",
+      "nameWithOwner": "ubuwaits/beautiful-web-type",
+      "url": "https://github.com/ubuwaits/beautiful-web-type",
+      "description": "In-depth guide to the best open-source typefaces: https://www.beautifulwebtype.com",
+      "stars": 7340,
+      "forks": 272,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2012-01-12T05:23:14Z",
+      "pushedAt": "2026-09-20T08:57:58Z",
+      "homepageUrl": "https://www.beautifulwebtype.com",
+      "archived": false,
+      "owner": {
+        "login": "ubuwaits",
+        "name": "Chad Mazzola",
+        "type": "User",
+        "url": "https://github.com/ubuwaits",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/223076?u=3bf8d99421a717ef26d428b4e4aea339476ee7d3&v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 50,
+      "name": "js-code-to-svg-flowchart",
+      "nameWithOwner": "Bogdan-Lyashenko/js-code-to-svg-flowchart",
+      "url": "https://github.com/Bogdan-Lyashenko/js-code-to-svg-flowchart",
+      "description": "js2flowchart - a visualization library to convert any JavaScript code into beautiful SVG flowchart. Learn other’s code. Design your code. Refactor code. Document code. Explain code.",
+      "stars": 7109,
+      "forks": 478,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-07-30T20:34:13Z",
+      "pushedAt": "2023-10-02T19:41:41Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Bogdan-Lyashenko",
+        "name": "Bohdan Liashenko",
+        "type": "User",
+        "url": "https://github.com/Bogdan-Lyashenko",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2098309?u=5be76d92959c63ce452edfbe97531f3444828e84&v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 51,
+      "name": "openpanel",
+      "nameWithOwner": "Openpanel-dev/openpanel",
+      "url": "https://github.com/Openpanel-dev/openpanel",
+      "description": "OpenPanel is an open-source web and product analytics platform, an open-source alternative to Mixpanel with optional self-hosting.",
+      "stars": 7084,
+      "forks": 504,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2024-02-29T07:27:49Z",
+      "pushedAt": "2026-09-30T22:22:21Z",
+      "homepageUrl": "https://openpanel.dev",
+      "archived": false,
+      "owner": {
+        "login": "Openpanel-dev",
+        "name": "Openpanel",
+        "type": "Organization",
+        "url": "https://github.com/Openpanel-dev",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/161692650?v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 52,
+      "name": "react-native-scrollable-tab-view",
+      "nameWithOwner": "ptomasroos/react-native-scrollable-tab-view",
+      "url": "https://github.com/ptomasroos/react-native-scrollable-tab-view",
+      "description": "Tabbed navigation that you can swipe between, each tab can have  its own ScrollView and maintain its own scroll position between swipes. Pleasantly animated. Customizable tab bar",
+      "stars": 6942,
+      "forks": 2242,
+      "primaryLanguage": "JavaScript",
+      "license": null,
+      "createdAt": "2015-06-11T05:01:07Z",
+      "pushedAt": "2024-06-23T08:18:54Z",
+      "homepageUrl": "https://www.npmjs.com/package/react-native-scrollable-tab-view",
+      "archived": false,
+      "owner": {
+        "login": "ptomasroos",
+        "name": "Tomas Roos",
+        "type": "User",
+        "url": "https://github.com/ptomasroos",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1064547?u=543dc0393cd6751aa36179a593524dbf1652fcac&v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 53,
+      "name": "flutter-tips-and-tricks",
+      "nameWithOwner": "vandadnp/flutter-tips-and-tricks",
+      "url": "https://github.com/vandadnp/flutter-tips-and-tricks",
+      "description": "A Collection of Flutter and Dart Tips and Tricks",
+      "stars": 6801,
+      "forks": 1103,
+      "primaryLanguage": "Dart",
+      "license": null,
+      "createdAt": "2021-03-29T04:56:41Z",
+      "pushedAt": "2023-09-10T16:58:52Z",
+      "homepageUrl": "https://linktr.ee/vandadnp",
+      "archived": false,
+      "owner": {
+        "login": "vandadnp",
+        "name": "Vandad Nahavandipoor",
+        "type": "User",
+        "url": "https://github.com/vandadnp",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/759524?u=cbff3fcc30a312c2d267fbf7b354266a82abcd95&v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 54,
+      "name": "Under-the-hood-ReactJS",
+      "nameWithOwner": "Bogdan-Lyashenko/Under-the-hood-ReactJS",
+      "url": "https://github.com/Bogdan-Lyashenko/Under-the-hood-ReactJS",
+      "description": "Entire React code base explanation by visual block schemes (Stack version) ",
+      "stars": 6766,
+      "forks": 613,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-06-22T20:46:16Z",
+      "pushedAt": "2022-04-25T11:06:33Z",
+      "homepageUrl": "https://bogdan-lyashenko.github.io/Under-the-hood-ReactJS/",
+      "archived": false,
+      "owner": {
+        "login": "Bogdan-Lyashenko",
+        "name": "Bohdan Liashenko",
+        "type": "User",
+        "url": "https://github.com/Bogdan-Lyashenko",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2098309?u=5be76d92959c63ce452edfbe97531f3444828e84&v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 55,
+      "name": "Harmony",
+      "nameWithOwner": "pardeike/Harmony",
+      "url": "https://github.com/pardeike/Harmony",
+      "description": "A library for patching, replacing and decorating .NET and Mono methods during runtime",
+      "stars": 6679,
+      "forks": 582,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-01-04T09:43:16Z",
+      "pushedAt": "2026-09-30T16:25:37Z",
+      "homepageUrl": "https://www.patreon.com/pardeike",
+      "archived": false,
+      "owner": {
+        "login": "pardeike",
+        "name": "Andreas Pardeike",
+        "type": "User",
+        "url": "https://github.com/pardeike",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/853584?u=7507769c2d3a1bd5decb361a8eef4a1c150e1da7&v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 56,
+      "name": "defold",
+      "nameWithOwner": "defold/defold",
+      "url": "https://github.com/defold/defold",
+      "description": "Defold is a completely free to use game engine for development of desktop, console, mobile and web games.",
+      "stars": 6347,
+      "forks": 456,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2012-05-13T16:03:44Z",
+      "pushedAt": "2026-10-04T09:34:08Z",
+      "homepageUrl": "https://www.defold.com",
+      "archived": false,
+      "owner": {
+        "login": "defold",
+        "name": "Defold",
+        "type": "Organization",
+        "url": "https://github.com/defold",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1090871?v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 57,
+      "name": "pedalboard",
+      "nameWithOwner": "spotify/pedalboard",
+      "url": "https://github.com/spotify/pedalboard",
+      "description": "🎛 🔊 A Python library for audio.",
+      "stars": 6336,
+      "forks": 358,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2021-07-06T13:04:18Z",
+      "pushedAt": "2026-09-23T21:38:52Z",
+      "homepageUrl": "https://spotify.github.io/pedalboard",
+      "archived": false,
+      "owner": {
+        "login": "spotify",
+        "name": "Spotify",
+        "type": "Organization",
+        "url": "https://github.com/spotify",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/251374?v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 58,
+      "name": "bounce.js",
+      "nameWithOwner": "tictail/bounce.js",
+      "url": "https://github.com/tictail/bounce.js",
+      "description": "Create beautiful CSS3 powered animations in no time.",
+      "stars": 6149,
+      "forks": 405,
+      "primaryLanguage": "CSS",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-04-10T13:59:41Z",
+      "pushedAt": "2020-09-03T08:17:21Z",
+      "homepageUrl": "http://bouncejs.com/",
+      "archived": false,
+      "owner": {
+        "login": "tictail",
+        "name": "Tictail",
+        "type": "Organization",
+        "url": "https://github.com/tictail",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/546817?v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 59,
+      "name": "libtorrent",
+      "nameWithOwner": "arvidn/libtorrent",
+      "url": "https://github.com/arvidn/libtorrent",
+      "description": "an efficient feature complete C++ bittorrent implementation",
+      "stars": 6079,
+      "forks": 1111,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2015-06-03T05:22:03Z",
+      "pushedAt": "2026-10-04T07:52:48Z",
+      "homepageUrl": "http://libtorrent.org",
+      "archived": false,
+      "owner": {
+        "login": "arvidn",
+        "name": "Arvid Norberg",
+        "type": "User",
+        "url": "https://github.com/arvidn",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/661450?u=0776b7dc299640869e1b67765046d2f7057c78cf&v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 60,
+      "name": "JsBarcode",
+      "nameWithOwner": "lindell/JsBarcode",
+      "url": "https://github.com/lindell/JsBarcode",
+      "description": "Barcode generation library written in JavaScript that works in both the browser and on Node.js",
+      "stars": 5893,
+      "forks": 1115,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2011-12-29T15:38:35Z",
+      "pushedAt": "2026-06-23T19:07:52Z",
+      "homepageUrl": "http://lindell.me/JsBarcode",
+      "archived": false,
+      "owner": {
+        "login": "lindell",
+        "name": "Johan Lindell",
+        "type": "User",
+        "url": "https://github.com/lindell",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/284868?u=0deab4bc0b7aa79bf1abbcbd58516f5a95f6ada1&v=4",
+        "location": "Stockholm",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "stockholm"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 61,
+      "name": "kcat",
+      "nameWithOwner": "edenhill/kcat",
+      "url": "https://github.com/edenhill/kcat",
+      "description": "Generic command line non-JVM Apache Kafka producer and consumer",
+      "stars": 5784,
+      "forks": 498,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2014-03-30T04:25:31Z",
+      "pushedAt": "2024-07-09T16:13:37Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "edenhill",
+        "name": "Magnus Edenhill",
+        "type": "User",
+        "url": "https://github.com/edenhill",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/524990?v=4",
+        "location": "Rånäs, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 62,
+      "name": "basic-pitch",
+      "nameWithOwner": "spotify/basic-pitch",
+      "url": "https://github.com/spotify/basic-pitch",
+      "description": "A lightweight yet powerful audio-to-MIDI converter with pitch bend detection",
+      "stars": 5662,
+      "forks": 519,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2022-05-03T09:10:03Z",
+      "pushedAt": "2025-11-13T14:40:46Z",
+      "homepageUrl": "https://basicpitch.io",
+      "archived": false,
+      "owner": {
+        "login": "spotify",
+        "name": "Spotify",
+        "type": "Organization",
+        "url": "https://github.com/spotify",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/251374?v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 63,
+      "name": "plupload",
+      "nameWithOwner": "moxiecode/plupload",
+      "url": "https://github.com/moxiecode/plupload",
+      "description": "Plupload is JavaScript API for building file uploaders. It supports multiple file selection, file filtering, chunked upload, client side image downsizing and when necessary can fallback to alternative runtimes, like Flash and Silverlight.",
+      "stars": 5615,
+      "forks": 1396,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2010-01-11T14:35:54Z",
+      "pushedAt": "2024-07-18T14:21:35Z",
+      "homepageUrl": "http://www.plupload.com",
+      "archived": false,
+      "owner": {
+        "login": "moxiecode",
+        "name": "Moxiecode",
+        "type": "Organization",
+        "url": "https://github.com/moxiecode",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119816?v=4",
+        "location": "Skellefteå, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 64,
+      "name": "protoactor-go",
+      "nameWithOwner": "asynkron/protoactor-go",
+      "url": "https://github.com/asynkron/protoactor-go",
+      "description": "Proto Actor - Ultra fast distributed actors for Go, C# and Java/Kotlin",
+      "stars": 5511,
+      "forks": 572,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2016-04-17T19:08:14Z",
+      "pushedAt": "2026-04-08T21:41:59Z",
+      "homepageUrl": "http://proto.actor",
+      "archived": false,
+      "owner": {
+        "login": "asynkron",
+        "name": "ASYNKRON",
+        "type": "Organization",
+        "url": "https://github.com/asynkron",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21288464?v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 65,
+      "name": "tempo",
+      "nameWithOwner": "grafana/tempo",
+      "url": "https://github.com/grafana/tempo",
+      "description": "Grafana Tempo is a high volume, minimal dependency distributed tracing backend.",
+      "stars": 5507,
+      "forks": 765,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2020-01-24T18:05:02Z",
+      "pushedAt": "2026-10-04T05:16:11Z",
+      "homepageUrl": "https://grafana.com/oss/tempo/",
+      "archived": false,
+      "owner": {
+        "login": "grafana",
+        "name": "Grafana Labs",
+        "type": "Organization",
+        "url": "https://github.com/grafana",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7195757?v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 66,
+      "name": "hashids",
+      "nameWithOwner": "vinkla/hashids",
+      "url": "https://github.com/vinkla/hashids",
+      "description": "A small PHP library to generate YouTube-like ids from numbers. Use it when you don't want to expose your database ids to the user.",
+      "stars": 5423,
+      "forks": 412,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2012-04-14T18:24:45Z",
+      "pushedAt": "2026-04-16T11:38:45Z",
+      "homepageUrl": "https://hashids.org/php",
+      "archived": false,
+      "owner": {
+        "login": "vinkla",
+        "name": "Vincent Klaiber",
+        "type": "User",
+        "url": "https://github.com/vinkla",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/499192?u=81d50b54a2aeb53bd8a7af3b5563f1bdbc598491&v=4",
+        "location": "Göteborg",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "goteborg"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 67,
+      "name": "PhoneNumberKit",
+      "nameWithOwner": "marmelroy/PhoneNumberKit",
+      "url": "https://github.com/marmelroy/PhoneNumberKit",
+      "description": "A Swift framework for parsing, formatting and validating international phone numbers. Inspired by Google's libphonenumber.",
+      "stars": 5387,
+      "forks": 851,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-09-26T14:37:36Z",
+      "pushedAt": "2026-05-25T20:59:33Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "marmelroy",
+        "name": "Roy Marmelstein",
+        "type": "User",
+        "url": "https://github.com/marmelroy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/889949?u=58417bbb301801174230ae0a26a7f5c89dbe71e0&v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 68,
+      "name": "heynote",
+      "nameWithOwner": "heyman/heynote",
+      "url": "https://github.com/heyman/heynote",
+      "description": "A dedicated scratchpad for power users",
+      "stars": 5372,
+      "forks": 292,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2022-12-28T11:49:43Z",
+      "pushedAt": "2026-06-24T09:47:30Z",
+      "homepageUrl": "https://heynote.com",
+      "archived": false,
+      "owner": {
+        "login": "heyman",
+        "name": "Jonatan Heyman",
+        "type": "User",
+        "url": "https://github.com/heyman",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54217?u=26fff55717cc6243493162f9204b129e12535702&v=4",
+        "location": "Uppsala / Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 69,
+      "name": "kajiya",
+      "nameWithOwner": "EmbarkStudios/kajiya",
+      "url": "https://github.com/EmbarkStudios/kajiya",
+      "description": "💡 Experimental real-time global illumination renderer 🦀",
+      "stars": 5341,
+      "forks": 215,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2021-03-26T03:18:43Z",
+      "pushedAt": "2025-07-07T21:27:20Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "EmbarkStudios",
+        "name": "Embark",
+        "type": "Organization",
+        "url": "https://github.com/EmbarkStudios",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44887257?v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 70,
+      "name": "dddsample-core",
+      "nameWithOwner": "citerus/dddsample-core",
+      "url": "https://github.com/citerus/dddsample-core",
+      "description": "This is the new home of the original DDD Sample app (previously hosted at sf.net).. ",
+      "stars": 5293,
+      "forks": 1496,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-01-31T23:21:37Z",
+      "pushedAt": "2025-06-02T09:09:44Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "citerus",
+        "name": "Citerus AB",
+        "type": "Organization",
+        "url": "https://github.com/citerus",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/233203?v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 71,
+      "name": "mimir",
+      "nameWithOwner": "grafana/mimir",
+      "url": "https://github.com/grafana/mimir",
+      "description": "Grafana Mimir provides horizontally scalable, highly available, multi-tenant, long-term storage for Prometheus.",
+      "stars": 5248,
+      "forks": 847,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2021-07-13T14:34:08Z",
+      "pushedAt": "2026-10-03T11:10:36Z",
+      "homepageUrl": "https://grafana.com/oss/mimir/",
+      "archived": false,
+      "owner": {
+        "login": "grafana",
+        "name": "Grafana Labs",
+        "type": "Organization",
+        "url": "https://github.com/grafana",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7195757?v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 72,
+      "name": "snabbt.js",
+      "nameWithOwner": "daniel-lundin/snabbt.js",
+      "url": "https://github.com/daniel-lundin/snabbt.js",
+      "description": "Fast animations with javascript and CSS transforms",
+      "stars": 5164,
+      "forks": 327,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-03-14T17:18:01Z",
+      "pushedAt": "2016-09-10T21:22:34Z",
+      "homepageUrl": "http://daniel-lundin.github.io/snabbt.js/",
+      "archived": false,
+      "owner": {
+        "login": "daniel-lundin",
+        "name": "Daniel Lundin",
+        "type": "User",
+        "url": "https://github.com/daniel-lundin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/545809?u=e5e48ca7ef41d5b03d5eb9e572329222967b77d3&v=4",
+        "location": "Stockholm",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "stockholm"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 73,
+      "name": "finicky",
+      "nameWithOwner": "johnste/finicky",
+      "url": "https://github.com/johnste/finicky",
+      "description": "A macOS app for customizing which browser to start",
+      "stars": 5140,
+      "forks": 217,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-06-12T11:46:13Z",
+      "pushedAt": "2026-09-16T17:07:55Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "johnste",
+        "name": "John Sterling",
+        "type": "User",
+        "url": "https://github.com/johnste",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/886051?u=f1b1a8b0c476fba3ee904a69f1850c64b7e63f78&v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 74,
+      "name": "docker-gc",
+      "nameWithOwner": "spotify/docker-gc",
+      "url": "https://github.com/spotify/docker-gc",
+      "description": "INACTIVE: Docker garbage collection of containers and images",
+      "stars": 5013,
+      "forks": 430,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2014-06-23T00:52:57Z",
+      "pushedAt": "2021-02-01T19:20:40Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "spotify",
+        "name": "Spotify",
+        "type": "Organization",
+        "url": "https://github.com/spotify",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/251374?v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 75,
+      "name": "cannon.js",
+      "nameWithOwner": "schteppe/cannon.js",
+      "url": "https://github.com/schteppe/cannon.js",
+      "description": "A lightweight 3D physics engine written in JavaScript.",
+      "stars": 5004,
+      "forks": 740,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2012-01-04T06:46:35Z",
+      "pushedAt": "2023-08-04T10:35:17Z",
+      "homepageUrl": "http://schteppe.github.com/cannon.js",
+      "archived": false,
+      "owner": {
+        "login": "schteppe",
+        "name": "Stefan Harr",
+        "type": "User",
+        "url": "https://github.com/schteppe",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1063152?v=4",
+        "location": "Boden, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 76,
+      "name": "vulture",
+      "nameWithOwner": "jendrikseipp/vulture",
+      "url": "https://github.com/jendrikseipp/vulture",
+      "description": "Find dead Python code",
+      "stars": 4831,
+      "forks": 204,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-03-06T08:00:18Z",
+      "pushedAt": "2026-09-25T09:10:05Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "jendrikseipp",
+        "name": "Jendrik Seipp",
+        "type": "User",
+        "url": "https://github.com/jendrikseipp",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/213955?u=b6b27f3e5df079c2d66e2b51ddc13da7fd804250&v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 77,
+      "name": "pipet",
+      "nameWithOwner": "bjesus/pipet",
+      "url": "https://github.com/bjesus/pipet",
+      "description": "Swiss-army tool for scraping and extracting data from online assets, made for hackers ",
+      "stars": 4769,
+      "forks": 222,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2024-08-31T18:00:43Z",
+      "pushedAt": "2024-10-12T07:47:38Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "bjesus",
+        "name": "Yo'av Moshe",
+        "type": "User",
+        "url": "https://github.com/bjesus",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55081?v=4",
+        "location": "Stockholm",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "stockholm"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 78,
+      "name": "https-portal",
+      "nameWithOwner": "SteveLTN/https-portal",
+      "url": "https://github.com/SteveLTN/https-portal",
+      "description": "A fully automated HTTPS server powered by Nginx, Let's Encrypt and Docker.",
+      "stars": 4688,
+      "forks": 297,
+      "primaryLanguage": "Ruby",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-12-14T20:09:04Z",
+      "pushedAt": "2026-05-26T13:22:04Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "SteveLTN",
+        "name": "W Shao",
+        "type": "User",
+        "url": "https://github.com/SteveLTN",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/508007?v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 79,
+      "name": "happy-dom",
+      "nameWithOwner": "capricorn86/happy-dom",
+      "url": "https://github.com/capricorn86/happy-dom",
+      "description": "A JavaScript implementation of a web browser without its graphical user interface",
+      "stars": 4684,
+      "forks": 338,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-09-09T19:53:08Z",
+      "pushedAt": "2026-09-12T00:04:32Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "capricorn86",
+        "name": "David Ortner",
+        "type": "User",
+        "url": "https://github.com/capricorn86",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19155544?u=6848d42beb6f0dcbda2f8511ee6b75a762ab5fdc&v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 80,
+      "name": "dnsguide",
+      "nameWithOwner": "EmilHernvall/dnsguide",
+      "url": "https://github.com/EmilHernvall/dnsguide",
+      "description": "A guide to writing a DNS Server from scratch in Rust",
+      "stars": 4678,
+      "forks": 285,
+      "primaryLanguage": null,
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-07-13T11:53:11Z",
+      "pushedAt": "2025-04-28T10:33:26Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "EmilHernvall",
+        "name": "Emil Hernvall",
+        "type": "User",
+        "url": "https://github.com/EmilHernvall",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/507999?u=93a4097a2dde30bf14cef49e61e8d264236ba39a&v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 81,
+      "name": "Launcher",
+      "nameWithOwner": "MultiMC/Launcher",
+      "url": "https://github.com/MultiMC/Launcher",
+      "description": "A custom launcher for Minecraft that allows you to easily manage multiple installations of Minecraft at once",
+      "stars": 4668,
+      "forks": 1038,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2013-09-08T14:51:29Z",
+      "pushedAt": "2026-09-26T23:34:00Z",
+      "homepageUrl": "https://multimc.org/",
+      "archived": false,
+      "owner": {
+        "login": "MultiMC",
+        "name": "MultiMC",
+        "type": "Organization",
+        "url": "https://github.com/MultiMC",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5411890?v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 82,
+      "name": "drozer",
+      "nameWithOwner": "ReversecLabs/drozer",
+      "url": "https://github.com/ReversecLabs/drozer",
+      "description": "The Leading Security Assessment Framework for Android.",
+      "stars": 4626,
+      "forks": 854,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2012-02-24T15:02:31Z",
+      "pushedAt": "2026-04-08T07:54:54Z",
+      "homepageUrl": "https://labs.reversec.com/tools/drozer",
+      "archived": false,
+      "owner": {
+        "login": "ReversecLabs",
+        "name": "Reversec Labs",
+        "type": "Organization",
+        "url": "https://github.com/ReversecLabs",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/207843805?v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 83,
+      "name": "css",
+      "nameWithOwner": "hakimel/css",
+      "url": "https://github.com/hakimel/css",
+      "description": "Assorted CSS and UI experiments.",
+      "stars": 4545,
+      "forks": 992,
+      "primaryLanguage": "HTML",
+      "license": null,
+      "createdAt": "2013-09-18T13:35:29Z",
+      "pushedAt": "2024-02-18T12:56:26Z",
+      "homepageUrl": "http://lab.hakim.se",
+      "archived": false,
+      "owner": {
+        "login": "hakimel",
+        "name": "Hakim El Hattab",
+        "type": "User",
+        "url": "https://github.com/hakimel",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/629429?u=89467ce33d305cdd20922cb190314e92562dc640&v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 84,
+      "name": "malicious-pdf",
+      "nameWithOwner": "jonaslejon/malicious-pdf",
+      "url": "https://github.com/jonaslejon/malicious-pdf",
+      "description": "💀 Generate malicious PDF test files for testing phone-home callbacks, SSRF, XSS, NTLM credential theft, and data exfiltration in PDF viewers, converters, and web applications. Can be used with Burp Collaborator or Interact.sh",
+      "stars": 4453,
+      "forks": 587,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "spdxId": "BSD-2-Clause"
+      },
+      "createdAt": "2021-08-17T10:10:12Z",
+      "pushedAt": "2026-08-27T09:51:23Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "jonaslejon",
+        "name": "Jonas Lejon",
+        "type": "User",
+        "url": "https://github.com/jonaslejon",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/190150?u=33d47a86bd2c44119d51ea54c144922fbd107384&v=4",
+        "location": "Funäsdalen",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "funasdalen"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 85,
+      "name": "ISLR-python",
+      "nameWithOwner": "JWarmenhoven/ISLR-python",
+      "url": "https://github.com/JWarmenhoven/ISLR-python",
+      "description": "An Introduction to Statistical Learning (James, Witten, Hastie, Tibshirani, 2013): Python code",
+      "stars": 4416,
+      "forks": 2378,
+      "primaryLanguage": "Jupyter Notebook",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-06-14T16:14:00Z",
+      "pushedAt": "2022-10-27T09:23:52Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "JWarmenhoven",
+        "name": "Jordi Warmenhoven",
+        "type": "User",
+        "url": "https://github.com/JWarmenhoven",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7450204?u=7473956c8d230114ca0a285b957287700d63ee34&v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 86,
+      "name": "redbird",
+      "nameWithOwner": "OptimalBits/redbird",
+      "url": "https://github.com/OptimalBits/redbird",
+      "description": "A modern reverse proxy for node",
+      "stars": 4410,
+      "forks": 273,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "spdxId": "BSD-2-Clause"
+      },
+      "createdAt": "2014-08-05T13:33:11Z",
+      "pushedAt": "2024-09-30T08:57:11Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "OptimalBits",
+        "name": "OptimalBits",
+        "type": "Organization",
+        "url": "https://github.com/OptimalBits",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/945399?v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 87,
+      "name": "react-scroll",
+      "nameWithOwner": "fisshy/react-scroll",
+      "url": "https://github.com/fisshy/react-scroll",
+      "description": "React scroll component",
+      "stars": 4397,
+      "forks": 427,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-02-27T18:56:28Z",
+      "pushedAt": "2025-02-19T14:35:35Z",
+      "homepageUrl": "https://github.com/fisshy/react-scroll/blob/master/README.md",
+      "archived": false,
+      "owner": {
+        "login": "fisshy",
+        "name": "Joachim",
+        "type": "User",
+        "url": "https://github.com/fisshy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3023875?u=c349512ad410ae89b1ef2434dcbf872c8ba1e78b&v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 88,
+      "name": "clean-architecture-manga",
+      "nameWithOwner": "ivanpaulovich/clean-architecture-manga",
+      "url": "https://github.com/ivanpaulovich/clean-architecture-manga",
+      "description": " :cyclone: Clean Architecture with .NET6, C#10 and React+Redux. Use cases as central organizing structure, completely testable, decoupled from frameworks",
+      "stars": 4372,
+      "forks": 751,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2017-12-27T11:58:03Z",
+      "pushedAt": "2026-06-22T09:52:34Z",
+      "homepageUrl": "http://paulovich.net/",
+      "archived": false,
+      "owner": {
+        "login": "ivanpaulovich",
+        "name": "Ivan Paulovich",
+        "type": "User",
+        "url": "https://github.com/ivanpaulovich",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7133698?v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 89,
+      "name": "StreamSaver.js",
+      "nameWithOwner": "jimmywarting/StreamSaver.js",
+      "url": "https://github.com/jimmywarting/StreamSaver.js",
+      "description": "StreamSaver writes stream to the filesystem directly asynchronous",
+      "stars": 4369,
+      "forks": 442,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-05-31T21:42:52Z",
+      "pushedAt": "2026-07-30T12:07:39Z",
+      "homepageUrl": "https://jimmywarting.github.io/StreamSaver.js/example.html",
+      "archived": false,
+      "owner": {
+        "login": "jimmywarting",
+        "name": "Jimmy Wärting",
+        "type": "User",
+        "url": "https://github.com/jimmywarting",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1148376?u=97348b862d4820275f7e7567ad64a72edfec1443&v=4",
+        "location": "Sverige",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "sverige"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 90,
+      "name": "MemProcFS",
+      "nameWithOwner": "ufrisk/MemProcFS",
+      "url": "https://github.com/ufrisk/MemProcFS",
+      "description": "MemProcFS",
+      "stars": 4358,
+      "forks": 519,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2018-11-18T18:19:49Z",
+      "pushedAt": "2026-09-14T21:21:22Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ufrisk",
+        "name": "Ulf Frisk",
+        "type": "User",
+        "url": "https://github.com/ufrisk",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18221464?u=a3c3b6e1b5621fe92cfa9eb82cab30a8fdce9520&v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 91,
+      "name": "BuildTimeAnalyzer-for-Xcode",
+      "nameWithOwner": "RobertGummesson/BuildTimeAnalyzer-for-Xcode",
+      "url": "https://github.com/RobertGummesson/BuildTimeAnalyzer-for-Xcode",
+      "description": "Build Time Analyzer for Swift",
+      "stars": 4348,
+      "forks": 263,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-05-04T16:34:00Z",
+      "pushedAt": "2026-03-08T20:47:14Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "RobertGummesson",
+        "name": "Robert Gummesson",
+        "type": "User",
+        "url": "https://github.com/RobertGummesson",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5736937?u=b851549f8ffcc713484f3ce2f1daf1b3468a7dc5&v=4",
+        "location": "Helsingborg, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 92,
+      "name": "stroll.js",
+      "nameWithOwner": "hakimel/stroll.js",
+      "url": "https://github.com/hakimel/stroll.js",
+      "description": "CSS3 list scroll effects",
+      "stars": 4340,
+      "forks": 704,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2012-04-14T22:37:23Z",
+      "pushedAt": "2020-07-24T09:23:03Z",
+      "homepageUrl": "http://lab.hakim.se/scroll-effects",
+      "archived": false,
+      "owner": {
+        "login": "hakimel",
+        "name": "Hakim El Hattab",
+        "type": "User",
+        "url": "https://github.com/hakimel",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/629429?u=89467ce33d305cdd20922cb190314e92562dc640&v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 93,
+      "name": "GildedRose-Refactoring-Kata",
+      "nameWithOwner": "emilybache/GildedRose-Refactoring-Kata",
+      "url": "https://github.com/emilybache/GildedRose-Refactoring-Kata",
+      "description": "Starting code for the GildedRose Refactoring Kata in many programming languages.",
+      "stars": 4299,
+      "forks": 6126,
+      "primaryLanguage": "XSLT",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-06-10T12:43:34Z",
+      "pushedAt": "2026-08-21T21:22:39Z",
+      "homepageUrl": "https://youtu.be/Mt4XpGxigT4",
+      "archived": false,
+      "owner": {
+        "login": "emilybache",
+        "name": "Emily Bache",
+        "type": "User",
+        "url": "https://github.com/emilybache",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48844?u=9ebc29cfa3edd85c0bdbdad1e64a30e77985b843&v=4",
+        "location": "Göteborg, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 94,
+      "name": "apprtc",
+      "nameWithOwner": "webrtc/apprtc",
+      "url": "https://github.com/webrtc/apprtc",
+      "description": "appr.tc has been shutdown. Please use the Dockerfile to run your own test/dev instance.",
+      "stars": 4224,
+      "forks": 1345,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2015-02-03T18:10:41Z",
+      "pushedAt": "2024-04-24T09:26:57Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "webrtc",
+        "name": "WebRTC",
+        "type": "Organization",
+        "url": "https://github.com/webrtc",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10526312?v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 95,
+      "name": "dashmap",
+      "nameWithOwner": "xacrimon/dashmap",
+      "url": "https://github.com/xacrimon/dashmap",
+      "description": "Blazing fast concurrent HashMap for Rust.",
+      "stars": 4119,
+      "forks": 191,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-12-06T21:48:39Z",
+      "pushedAt": "2026-05-17T21:25:40Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "xacrimon",
+        "name": "Joel Wejdenstål",
+        "type": "User",
+        "url": "https://github.com/xacrimon",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21025159?u=6559dee401b8a9341c08504b848e38d9c62d28c0&v=4",
+        "location": "östergötland / sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 96,
+      "name": "hugo-book",
+      "nameWithOwner": "alex-shpak/hugo-book",
+      "url": "https://github.com/alex-shpak/hugo-book",
+      "description": "Hugo documentation theme as simple as plain book",
+      "stars": 4099,
+      "forks": 1311,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-09-05T14:21:31Z",
+      "pushedAt": "2026-09-24T21:57:56Z",
+      "homepageUrl": "https://book.alxs.dev",
+      "archived": false,
+      "owner": {
+        "login": "alex-shpak",
+        "name": "Alex Shpak",
+        "type": "User",
+        "url": "https://github.com/alex-shpak",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5515443?v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 97,
+      "name": "theBeamBook",
+      "nameWithOwner": "happi/theBeamBook",
+      "url": "https://github.com/happi/theBeamBook",
+      "description": "A description of the Erlang Runtime System ERTS and the virtual Machine BEAM.",
+      "stars": 4056,
+      "forks": 266,
+      "primaryLanguage": "Erlang",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2017-03-23T18:25:31Z",
+      "pushedAt": "2026-09-25T20:09:06Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "happi",
+        "name": "Erik Stenman",
+        "type": "User",
+        "url": "https://github.com/happi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/158428?u=c243070ba21a12f68d226e2ccb0f06a83bebecef&v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 98,
+      "name": "Awesome-Quant-Machine-Learning-Trading",
+      "nameWithOwner": "grananqvist/Awesome-Quant-Machine-Learning-Trading",
+      "url": "https://github.com/grananqvist/Awesome-Quant-Machine-Learning-Trading",
+      "description": "Quant/Algorithm trading resources with an emphasis on Machine Learning",
+      "stars": 4035,
+      "forks": 705,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2018-11-05T21:09:06Z",
+      "pushedAt": "2025-05-21T20:41:58Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "grananqvist",
+        "name": "fgranqvist",
+        "type": "User",
+        "url": "https://github.com/grananqvist",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16865473?u=b58c9a850d3cb5df557d982b7367ead685e5d4fb&v=4",
+        "location": "Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 99,
+      "name": "kafkajs",
+      "nameWithOwner": "tulios/kafkajs",
+      "url": "https://github.com/tulios/kafkajs",
+      "description": "A modern Apache Kafka client for node.js",
+      "stars": 4004,
+      "forks": 605,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-08-01T08:44:12Z",
+      "pushedAt": "2024-08-02T21:32:46Z",
+      "homepageUrl": "https://kafka.js.org",
+      "archived": false,
+      "owner": {
+        "login": "tulios",
+        "name": "Túlio Ornelas",
+        "type": "User",
+        "url": "https://github.com/tulios",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33231?u=d37ed5316e38f552866d7598addb4f36049e2ec9&v=4",
+        "location": "Stockholm, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 100,
+      "name": "btfs",
+      "nameWithOwner": "johang/btfs",
+      "url": "https://github.com/johang/btfs",
+      "description": "A bittorrent filesystem based on FUSE.",
+      "stars": 3973,
+      "forks": 147,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2015-07-26T08:20:49Z",
+      "pushedAt": "2026-09-13T08:03:56Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "johang",
+        "name": "Johan Gunnarsson",
+        "type": "User",
+        "url": "https://github.com/johang",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41016?v=4",
+        "location": "Lund, Sweden",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "sweden"
+        },
+        "discoveryTerms": []
+      }
+    }
+  ]
+}

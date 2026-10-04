@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **6**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **7**
+- Current global star frontier: **3,366**
 
 ### High-star verified preview
 
@@ -57,5 +57,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ublue-os/bazzite](https://github.com/ublue-os/bazzite) | **9,137** | Antarctica |
 | [rustformers/llm](https://github.com/rustformers/llm) | **6,156** | Antarctica |
 | [FxEmbed/FxEmbed](https://github.com/FxEmbed/FxEmbed) | **5,653** | Antarctica |
+| [lingdojo/kana-dojo](https://github.com/lingdojo/kana-dojo) | **3,562** | Antarctica |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

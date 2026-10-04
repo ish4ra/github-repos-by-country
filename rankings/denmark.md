@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **10**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **18**
+- Current global star frontier: **3,366**
 
 ### High-star verified preview
 
@@ -61,5 +61,13 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Unity-Technologies/FPSSample](https://github.com/Unity-Technologies/FPSSample) | **5,131** | Copenhagen, Denmark |
 | [23/resumable.js](https://github.com/23/resumable.js) | **4,730** | Copenhagen, Denmark |
 | [cavi-au/Consent-O-Matic](https://github.com/cavi-au/Consent-O-Matic) | **4,265** | Århus, Denmark |
+| [luis-almeida/unveil](https://github.com/luis-almeida/unveil) | **4,089** | Copenhagen, Denmark |
+| [Unity-Technologies/PostProcessing](https://github.com/Unity-Technologies/PostProcessing) | **3,745** | Copenhagen, Denmark |
+| [ly4k/Certipy](https://github.com/ly4k/Certipy) | **3,680** | Copenhagen, Denmark |
+| [Ruben2776/PicView](https://github.com/Ruben2776/PicView) | **3,624** | Copenhagen, Denmark |
+| [mortennobel/cpp-cheatsheet](https://github.com/mortennobel/cpp-cheatsheet) | **3,569** | Copenhagen, Denmark |
+| [n3d1117/chatgpt-telegram-bot](https://github.com/n3d1117/chatgpt-telegram-bot) | **3,460** | Copenhagen, Denmark |
+| [mortbopet/Ripes](https://github.com/mortbopet/Ripes) | **3,441** | Copenhagen, Denmark |
+| [Unity-Technologies/arfoundation-samples](https://github.com/Unity-Technologies/arfoundation-samples) | **3,434** | Copenhagen, Denmark |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
