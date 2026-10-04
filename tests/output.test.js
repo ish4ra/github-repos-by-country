@@ -202,3 +202,33 @@ test('country page prefers independent repository-first candidates when availabl
   assert.match(markdown, /Portland, OR/);
   assert.match(markdown, /not.*final|becomes final/i);
 });
+
+
+test('ranking index ignores stale pre-repository-first published data except Sri Lanka POC', async () => {
+  const source = readRankingSummariesForTest([
+    {
+      country: { code: 'MS', name: 'Montserrat', slug: 'montserrat' },
+      methodologyVersion: '0.5.0-resumable-global-crawl',
+    },
+    {
+      country: { code: 'LK', name: 'Sri Lanka', slug: 'sri-lanka' },
+      methodologyVersion: '0.2.0-poc',
+    },
+    {
+      country: { code: 'US', name: 'United States', slug: 'united-states' },
+      methodologyVersion: '0.8.0-repository-first',
+    },
+  ]);
+
+  assert.deepEqual(source.map((item) => item.country.code), ['LK', 'US']);
+});
+
+function readRankingSummariesForTest(items) {
+  return items.filter((parsed) => {
+    const methodologyVersion = String(parsed.methodologyVersion || '');
+    return (
+      methodologyVersion === '0.8.0-repository-first' ||
+      (parsed.country.code === 'LK' && methodologyVersion === '0.2.0-poc')
+    );
+  });
+}

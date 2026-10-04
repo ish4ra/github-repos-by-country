@@ -6,8 +6,6 @@ import { GitHubGraphQLClient } from '../src/github.js';
 import {
   createCollector,
   ingestDiscoveryPage,
-  selectCandidateOwners,
-  buildRanking,
 } from '../src/ranking.js';
 import {
   addUnresolvedShard,
@@ -15,7 +13,6 @@ import {
   candidatePoolThreshold,
   createDiscoveryState,
   finishActiveTerm,
-  hydrateCollectorFromCandidates,
   mergeCandidatePools,
   prepareDiscoveryState,
   serializeProbeCandidates,
@@ -25,8 +22,6 @@ import {
   expandSearchWorkItem,
   isSearchPageCapped,
 } from '../src/search-shards.js';
-import { fetchRepositoriesForOwners } from '../src/pipeline.js';
-import { writeOutputs, writeRankingsIndex } from '../src/output.js';
 import { normalizeLocationForComparison } from '../src/location.js';
 
 const token = process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
@@ -126,23 +121,16 @@ while (
   });
 
   if (state.phase === 'finalize' || state.nextTermIndex >= terms.length) {
-    state.phase = 'finalize';
+    state.phase = 'complete';
     state.discoveryComplete = true;
     state.completedAt ||= new Date().toISOString();
-
-    if (canFinalize()) {
-      await finalizeCountry(config, state, client);
-      state.phase = 'complete';
-      state.finalizedAt = new Date().toISOString();
-      state.updatedAt = state.finalizedAt;
-      await writeJson(statePath, state);
-      checkpoint.countryIndex += 1;
-      console.log(`[${code}] finalized; advancing to next country.`);
-      continue;
-    }
-
+    state.finalizedAt ||= state.completedAt;
+    state.updatedAt = new Date().toISOString();
     await writeJson(statePath, state);
-    advanceCountry(checkpoint, rolloutOrder.length);
+    checkpoint.countryIndex += 1;
+    console.log(
+      `[${code}] secondary owner-discovery coverage complete; public ranking remains owned by repository-first certification.`,
+    );
     continue;
   }
 
@@ -309,21 +297,11 @@ while (
   }
 
   if (state.nextTermIndex >= terms.length) {
-    state.phase = 'finalize';
+    state.phase = 'complete';
     state.discoveryComplete = true;
     state.completedAt ||= new Date().toISOString();
-    await writeJson(statePath, state);
-
-    if (canFinalize()) {
-      await finalizeCountry(config, state, client);
-      state.phase = 'complete';
-      state.finalizedAt = new Date().toISOString();
-      state.updatedAt = state.finalizedAt;
-      await writeJson(statePath, state);
-      checkpoint.countryIndex += 1;
-      continue;
-    }
-
+    state.finalizedAt ||= state.completedAt;
+    state.updatedAt = new Date().toISOString();
     await writeJson(statePath, state);
     checkpoint.countryIndex += 1;
     if (checkpoint.countryIndex >= rolloutOrder.length) {
@@ -349,82 +327,10 @@ checkpoint.lastRun = {
   runtimeSeconds: Math.round((Date.now() - startedAtMs) / 1000),
 };
 await writeJson(checkpointPath, checkpoint);
-await writeRankingsIndex();
 
 console.log(
   `Global discovery batch finished: round=${checkpoint.round || 1}, nextCountryIndex=${checkpoint.countryIndex}, requests=${requestsUsed}/${requestBudget}, countries=${countriesTouched}, stop=${checkpoint.lastRun.stopReason}.`,
 );
-
-async function finalizeCountry(config, state, client) {
-  console.log(
-    `[${config.code}] finalizing from safety pool of ${state.candidates.length} owner(s).`,
-  );
-
-  const collector = hydrateCollectorFromCandidates(config, state.candidates);
-  const poolOwners = [...collector.owners.values()].filter((owner) => owner.id);
-
-  await fetchRepositoriesForOwners({
-    client,
-    collector,
-    owners: poolOwners,
-    reposPerOwner: 1,
-    batchSize: 50,
-    stage: 'probe',
-    countryCode: config.code,
-    log: console,
-  });
-
-  const finalCandidates = selectCandidateOwners(collector, config.rankingLimit);
-
-  await fetchRepositoriesForOwners({
-    client,
-    collector,
-    owners: finalCandidates,
-    reposPerOwner: config.candidateRepositoriesPerOwner,
-    batchSize: 5,
-    stage: 'candidate',
-    countryCode: config.code,
-    log: console,
-  });
-
-  const ranking = buildRanking(collector);
-  ranking.methodologyVersion = '0.5.0-resumable-global-crawl';
-  ranking.coverage.status =
-    state.unresolvedShards.length === 0
-      ? 'global-geography-crawl'
-      : 'global-geography-crawl-with-gaps';
-  ranking.coverage.ownerMetricLabel = 'Retained candidate owners';
-  ranking.coverage.geography = {
-    source: config.geography?.source || null,
-    counts: config.geography?.counts || null,
-    termsTotal: state.geography.termsTotal,
-    termsProcessed: state.nextTermIndex,
-    crawlCycle: state.cycle,
-    crawlStartedAt: state.startedAt,
-    crawlCompletedAt: state.completedAt || new Date().toISOString(),
-    unresolvedShardCount: state.unresolvedShards.length,
-  };
-  ranking.coverage.candidateSafetyPool = {
-    retainedOwners: state.candidates.length,
-    configuredLimit: state.candidatePoolLimit || DEFAULT_CANDIDATE_POOL_LIMIT,
-    thresholdStars: state.candidatePoolThresholdStars,
-  };
-  ranking.coverage.discoveryTotals = state.stats;
-  ranking.coverage.unresolvedShards = state.unresolvedShards;
-  ranking.coverage.notes = [
-    'Country attribution uses the generated global country/city/admin geography index plus explicit country aliases.',
-    'Ambiguous city/admin names shared by multiple countries are not accepted as city-only evidence.',
-    'Broad GitHub user searches are deterministically sharded when they exceed GitHub search result windows.',
-    'Search shard queues and page cursors are persisted so large terms can resume across workflow runs.',
-    'The retained candidate safety pool is re-probed before publication; long crawl durations can still introduce temporal drift.',
-    ...ranking.coverage.notes,
-  ];
-
-  await writeOutputs(ranking);
-  console.log(
-    `[${config.code}] published ${ranking.repositories.length} repositories after complete geography-term crawl.`,
-  );
-}
 
 function buildDiscoveryTerms(config) {
   const ambiguous = config.ambiguousLocationTermLookup || new Set();
@@ -456,14 +362,6 @@ function trackRateLimit(state, rateLimit) {
     state.stats.minimumRateLimitRemaining,
     remaining,
   );
-}
-
-function canFinalize() {
-  const enoughRequests = requestBudget - requestsUsed >= 40;
-  const enoughRateLimit =
-    !Number.isFinite(minimumRateLimitRemaining) ||
-    minimumRateLimitRemaining >= rateLimitReserve;
-  return enoughRequests && enoughRateLimit && !runtimeExpired(8 * 60 * 1000);
 }
 
 function runtimeExpired(reserveMs = 0) {

@@ -14,7 +14,6 @@ on:
       - 'src/ranking.js'
       - 'src/config.js'
       - 'src/countries.js'
-      - 'src/output.js'
       - '.github/workflows/global-discovery.yml'
 
 permissions:
@@ -53,15 +52,15 @@ jobs:
           CANDIDATE_POOL_LIMIT: '500'
         run: npm run discover:global
 
-      - name: Commit discovery progress and completed rankings
+      - name: Commit secondary discovery state
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state/ data/ rankings/ README.md
+          git add state/discovery/ state/global-checkpoint.json
           if git diff --cached --quiet; then
-            echo "No discovery changes to commit."
+            echo "No secondary discovery changes to commit."
             exit 0
           fi
-          git commit -m "data: advance global discovery"
+          git commit -m "data: advance secondary owner discovery"
           git pull --rebase
           git push

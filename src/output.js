@@ -575,13 +575,13 @@ async function readRankingSummaries(dataDir) {
       const content = await readFile(path.join(dataDir, entry.name), 'utf8');
       const parsed = JSON.parse(content);
       if (parsed?.country?.code && parsed?.country?.name && parsed?.country?.slug) {
-        const repositoryFirst = String(parsed.methodologyVersion || '').includes('repository-first');
-        if (
-          repositoryFirst &&
-          parsed.methodologyVersion !== REPOSITORY_RANKING_METHODOLOGY_VERSION
-        ) {
-          continue;
-        }
+        const methodologyVersion = String(parsed.methodologyVersion || '');
+        const isCurrentRepositoryFirst =
+          methodologyVersion === REPOSITORY_RANKING_METHODOLOGY_VERSION;
+        const isSriLankaPoc =
+          parsed.country.code === 'LK' && methodologyVersion === '0.2.0-poc';
+
+        if (!isCurrentRepositoryFirst && !isSriLankaPoc) continue;
         summaries.push(parsed);
       }
     } catch {
