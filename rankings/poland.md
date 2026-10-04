@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **6**
-- Current global star frontier: **8,078**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **5,385**
 
 ### High-star verified preview
 
@@ -57,5 +57,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [BartoszJarocki/cv](https://github.com/BartoszJarocki/cv) | **9,675** | Wrocław, Poland |
 | [koral--/android-gif-drawable](https://github.com/koral--/android-gif-drawable) | **9,644** | Wrocław, Poland |
 | [SoftwareBrothers/adminjs](https://github.com/SoftwareBrothers/adminjs) | **8,994** | Wrocław, Poland |
+| [shentao/vue-multiselect](https://github.com/shentao/vue-multiselect) | **6,780** | Wrocław |
+| [nesbox/TIC-80](https://github.com/nesbox/TIC-80) | **6,151** | Wrocław, Poland |
+| [TheLastGimbus/GooglePhotosTakeoutHelper](https://github.com/TheLastGimbus/GooglePhotosTakeoutHelper) | **5,926** | Poland, Wrocław |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

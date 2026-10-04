@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 5,082**
 - Progress: **0%**
 - Retained high-potential owner candidates: **197**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,26 +24,26 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [avelino/awesome-go](https://github.com/avelino/awesome-go) | **186,692** | Brazil |
-| [Universidade-Livre/ciencia-da-computacao](https://github.com/Universidade-Livre/ciencia-da-computacao) | **20,883** | Brazil |
-| [brunodev85/winlator](https://github.com/brunodev85/winlator) | **19,282** | Brazil |
-| [gustavoguanabara/html-css](https://github.com/gustavoguanabara/html-css) | **16,579** | Rio de Janeiro, Brazil |
+| [avelino/awesome-go](https://github.com/avelino/awesome-go) | **186,797** | Brazil |
+| [Universidade-Livre/ciencia-da-computacao](https://github.com/Universidade-Livre/ciencia-da-computacao) | **20,889** | Brazil |
+| [brunodev85/winlator](https://github.com/brunodev85/winlator) | **19,294** | Brazil |
+| [gustavoguanabara/html-css](https://github.com/gustavoguanabara/html-css) | **16,580** | Rio de Janeiro, Brazil |
 | [arthurspk/guiadevbrasil](https://github.com/arthurspk/guiadevbrasil) | **15,795** | Alagoas, Brazil |
 | [frontendbr/vagas](https://github.com/frontendbr/vagas) | **15,427** | Brazil |
 | [felipefialho/frontend-challenges](https://github.com/felipefialho/frontend-challenges) | **15,032** | Sao Paulo - Brazil |
 | [jonataslaw/getx](https://github.com/jonataslaw/getx) | **11,198** | São Paulo, Brazil |
-| [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | **8,783** | Brazil |
-| [insidegui/VirtualBuddy](https://github.com/insidegui/VirtualBuddy) | **8,760** | Brazil |
-| [backend-br/vagas](https://github.com/backend-br/vagas) | **7,991** | Brazil |
+| [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory) | **8,811** | Brazil |
+| [insidegui/VirtualBuddy](https://github.com/insidegui/VirtualBuddy) | **8,762** | Brazil |
+| [backend-br/vagas](https://github.com/backend-br/vagas) | **7,992** | Brazil |
 | [EduardoPires/EquinoxProject](https://github.com/EduardoPires/EquinoxProject) | **6,776** | São Paulo - Brazil |
-| [caarlos0/env](https://github.com/caarlos0/env) | **6,323** | Brazil |
+| [caarlos0/env](https://github.com/caarlos0/env) | **6,325** | Brazil |
 | [cursoemvideo/cursoemvideo-html5](https://github.com/cursoemvideo/cursoemvideo-html5) | **2,978** | Brazil |
 | [rcaferati/react-awesome-slider](https://github.com/rcaferati/react-awesome-slider) | **2,975** | Brazil |
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **13**
-- Current global star frontier: **8,078**
+- Verified high-star candidates retained: **16**
+- Current global star frontier: **5,385**
 
 ### High-star verified preview
 
@@ -64,5 +64,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [thumbor/thumbor](https://github.com/thumbor/thumbor) | **10,521** | Rio de Janeiro, RJ, Brazil |
 | [wwmm/easyeffects](https://github.com/wwmm/easyeffects) | **10,293** | Rio de Janeiro |
 | [iuricode/padroes-de-commits](https://github.com/iuricode/padroes-de-commits) | **9,722** | Brasil |
+| [clappr/clappr](https://github.com/clappr/clappr) | **7,505** | Rio de Janeiro, RJ |
+| [filipedeschamps/tabnews.com.br](https://github.com/filipedeschamps/tabnews.com.br) | **6,385** | Brasil |
+| [ebertti/awesome-telegram](https://github.com/ebertti/awesome-telegram) | **5,907** | Rio de Janeiro, Rio de Janeiro, Brazil |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

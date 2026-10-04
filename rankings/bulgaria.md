@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **8,078**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **5,385**
 
 ### High-star verified preview
 
@@ -55,5 +55,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [erusev/parsedown](https://github.com/erusev/parsedown) | **15,054** | Sofia, Bulgaria |
 | [krasimir/react-in-patterns](https://github.com/krasimir/react-in-patterns) | **13,571** | Bulgaria |
 | [ggerganov/kbd-audio](https://github.com/ggerganov/kbd-audio) | **9,030** | Sofia, Bulgaria |
+| [ggerganov/ggwave](https://github.com/ggerganov/ggwave) | **7,888** | Sofia, Bulgaria |
+| [spantaleev/matrix-docker-ansible-deploy](https://github.com/spantaleev/matrix-docker-ansible-deploy) | **6,496** | Sofia, Bulgaria |
+| [petyosi/react-virtuoso](https://github.com/petyosi/react-virtuoso) | **6,462** | Sofia, Bulgaria |
+| [bobbyiliev/introduction-to-bash-scripting](https://github.com/bobbyiliev/introduction-to-bash-scripting) | **6,361** | Sofia, Bulgaria |
+| [HackSoftware/Django-Styleguide](https://github.com/HackSoftware/Django-Styleguide) | **6,301** | Sofia, Bulgaria |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

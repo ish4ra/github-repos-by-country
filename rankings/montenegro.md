@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **8,078**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **5,385**
 
 ### High-star verified preview
 
@@ -52,5 +52,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [Const-me/Whisper](https://github.com/Const-me/Whisper) | **10,674** | Tivat, Montenegro |
+| [gilbarbara/react-joyride](https://github.com/gilbarbara/react-joyride) | **7,871** | São Paulo, BR |
+| [gilbarbara/logos](https://github.com/gilbarbara/logos) | **6,838** | São Paulo, BR |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

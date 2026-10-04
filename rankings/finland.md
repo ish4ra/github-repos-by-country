@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **13**
-- Current global star frontier: **8,078**
+- Verified high-star candidates retained: **28**
+- Current global star frontier: **5,385**
 
 ### High-star verified preview
 
@@ -64,5 +64,12 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [nuejs/nue](https://github.com/nuejs/nue) | **8,816** | Finland |
 | [mxgmn/MarkovJunior](https://github.com/mxgmn/MarkovJunior) | **8,374** | Helsinki |
 | [TeamVanced/VancedManager](https://github.com/TeamVanced/VancedManager) | **8,139** | Finland |
+| [kimmobrunfeldt/progressbar.js](https://github.com/kimmobrunfeldt/progressbar.js) | **7,850** | Finland |
+| [agronholm/apscheduler](https://github.com/agronholm/apscheduler) | **7,646** | Nurmijärvi, Finland |
+| [tulir/whatsmeow](https://github.com/tulir/whatsmeow) | **7,480** | Finland |
+| [alvarcarto/url-to-pdf-api](https://github.com/alvarcarto/url-to-pdf-api) | **7,103** | Helsinki |
+| [masterking32/MasterDnsVPN](https://github.com/masterking32/MasterDnsVPN) | **7,063** | %tmp% |
+| [lhartikk/ArnoldC](https://github.com/lhartikk/ArnoldC) | **6,887** | Helsinki, Finland |
+| [jerry-git/learn-python3](https://github.com/jerry-git/learn-python3) | **6,858** | Helsinki, Finland |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

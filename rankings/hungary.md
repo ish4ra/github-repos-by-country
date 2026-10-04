@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **8,078**
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **5,385**
 
 ### High-star verified preview
 
@@ -54,5 +54,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [HelloZeroNet/ZeroNet](https://github.com/HelloZeroNet/ZeroNet) | **18,768** | Budapest, Hungary |
 | [asciimoo/wuzz](https://github.com/asciimoo/wuzz) | **10,737** | Budapest, Hungary |
 | [pqoqubbw/icons](https://github.com/pqoqubbw/icons) | **8,164** | Hungary, Budapest |
+| [milanvarady/Applite](https://github.com/milanvarady/Applite) | **7,065** | Budapest |
+| [asciimoo/hister](https://github.com/asciimoo/hister) | **5,874** | Budapest, Hungary |
+| [AppPear/ChartView](https://github.com/AppPear/ChartView) | **5,646** | Budapest |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

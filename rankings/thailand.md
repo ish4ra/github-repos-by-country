@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **8,078**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **5,385**
 
 ### High-star verified preview
 
@@ -56,5 +56,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [satnaing/shadcn-admin](https://github.com/satnaing/shadcn-admin) | **15,557** | Bangkok, Thailand |
 | [StockSharp/StockSharp](https://github.com/StockSharp/StockSharp) | **10,827** | Thailand |
 | [wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim) | **8,091** | Cambridge, MA, USA |
+| [jstedfast/MailKit](https://github.com/jstedfast/MailKit) | **6,859** | Boston, MA, USA |
+| [Aethersailor/Custom_OpenClash_Rules](https://github.com/Aethersailor/Custom_OpenClash_Rules) | **6,575** | Chiang Mai |
+| [quantopian/pyfolio](https://github.com/quantopian/pyfolio) | **6,426** | Boston, MA, USA |
+| [Aikoyori/ProgrammingVTuberLogos](https://github.com/Aikoyori/ProgrammingVTuberLogos) | **6,239** | Thailand |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

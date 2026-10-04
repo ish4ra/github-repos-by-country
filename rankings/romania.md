@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **8,078**
+- Verified high-star candidates retained: **13**
+- Current global star frontier: **5,385**
 
 ### High-star verified preview
 
@@ -60,5 +60,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [mishoo/UglifyJS](https://github.com/mishoo/UglifyJS) | **13,377** | Iasi, Romania |
 | [serbanghita/Mobile-Detect](https://github.com/serbanghita/Mobile-Detect) | **10,676** | Bucureşti, Romania |
 | [ionuttbara/windows-defender-remover](https://github.com/ionuttbara/windows-defender-remover) | **8,507** | Damuc, Romania |
+| [mishoo/UglifyJS-old](https://github.com/mishoo/UglifyJS-old) | **7,810** | Iasi, Romania |
+| [alin23/Lunar](https://github.com/alin23/Lunar) | **5,712** | Romania |
+| [soketi/soketi](https://github.com/soketi/soketi) | **5,633** | Romania |
+| [froala/wysiwyg-editor](https://github.com/froala/wysiwyg-editor) | **5,397** | Bucharest, Romania |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

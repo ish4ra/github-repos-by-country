@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 249**
 - Progress: **0%**
 - Retained high-potential owner candidates: **160**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [htr-tech/zphisher](https://github.com/htr-tech/zphisher) | **16,944** | Dhaka, Bangladesh |
+| [htr-tech/zphisher](https://github.com/htr-tech/zphisher) | **16,949** | Dhaka, Bangladesh |
 | [codewithsadee/vcard-personal-portfolio](https://github.com/codewithsadee/vcard-personal-portfolio) | **8,112** | Bangladesh |
 | [me-shaon/GLWTPL](https://github.com/me-shaon/GLWTPL) | **5,049** | Dhaka, Bangladesh |
 | [fhsinchy/docker-handbook-projects](https://github.com/fhsinchy/docker-handbook-projects) | **1,397** | Bangladesh |
@@ -34,9 +34,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [hasancse91/flutter_getx_template](https://github.com/hasancse91/flutter_getx_template) | **442** | Dhaka, Bangladesh |
 | [learnwithsumit/think-in-a-react-way](https://github.com/learnwithsumit/think-in-a-react-way) | **395** | Dhaka, Bangladesh |
 | [KasRoudra/KasRoudra](https://github.com/KasRoudra/KasRoudra) | **346** | Dhaka, Bangladesh |
-| [KRTirtho/flemozi](https://github.com/KRTirtho/flemozi) | **326** | Dhaka, Bangladesh |
+| [KRTirtho/flemozi](https://github.com/KRTirtho/flemozi) | **327** | Dhaka, Bangladesh |
 | [zonayedpca/js.zonayed.me](https://github.com/zonayedpca/js.zonayed.me) | **326** | Dhaka, Bangladesh |
-| [STLP-TEAM/FB-Brute](https://github.com/STLP-TEAM/FB-Brute) | **216** | BANGLADESH |
+| [STLP-TEAM/FB-Brute](https://github.com/STLP-TEAM/FB-Brute) | **217** | BANGLADESH |
 | [auvipy/celery-flower](https://github.com/auvipy/celery-flower) | **175** | Bangladesh |
 | [theanam/react-awesome-lightbox](https://github.com/theanam/react-awesome-lightbox) | **169** | Dhaka, Bangladesh |
 

@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [machour/yii2-notifications](https://github.com/machour/yii2-notifications) | **91** | Tunisia |
 | [OmaarElAmri/Blasa.v2](https://github.com/OmaarElAmri/Blasa.v2) | **55** | Tunisia |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **5,385**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [rayenghanmi/RyTuneX](https://github.com/rayenghanmi/RyTuneX) | **5,533** | Tunisia |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

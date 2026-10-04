@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 7%
+## Repository ranking status: Building 3%
 
-- Geography terms processed: **2 / 27**
-- Progress: **7%**
+- Geography terms processed: **1 / 27**
+- Progress: **3%**
 - Retained high-potential owner candidates: **209**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,7 +25,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [OwshenNetwork/owshen](https://github.com/OwshenNetwork/owshen) | **2,001** | Bermuda Triangle |
-| [DesktopECHO/Pi-hole-for-Android](https://github.com/DesktopECHO/Pi-hole-for-Android) | **653** | Hamilton, Bermuda |
+| [DesktopECHO/Pi-hole-for-Android](https://github.com/DesktopECHO/Pi-hole-for-Android) | **654** | Hamilton, Bermuda |
 | [404name/winter](https://github.com/404name/winter) | **449** |  Bermuda Triangle |
 | [raggi/async_sinatra](https://github.com/raggi/async_sinatra) | **434** | California or Bermuda |
 | [Pear1y/CVE-2022-26133](https://github.com/Pear1y/CVE-2022-26133) | **146** | Bermuda |

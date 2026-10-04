@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **8,078**
+- Verified high-star candidates retained: **14**
+- Current global star frontier: **5,385**
 
 ### High-star verified preview
 
@@ -60,5 +60,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Yalantis/uCrop](https://github.com/Yalantis/uCrop) | **12,074** | Ukraine, Dnipro |
 | [dimsemenov/Magnific-Popup](https://github.com/dimsemenov/Magnific-Popup) | **11,304** | Ukraine, Kyiv |
 | [vitalik/django-ninja](https://github.com/vitalik/django-ninja) | **9,205** | Ukraine, Kharkiv |
+| [glushchenko/fsnotes](https://github.com/glushchenko/fsnotes) | **7,519** | Ukraine, Kharkiv |
+| [olton/metroui](https://github.com/olton/metroui) | **7,086** | Kyiv, Ukraine |
+| [denysdovhan/bash-handbook](https://github.com/denysdovhan/bash-handbook) | **6,079** | Kyiv, Ukraine |
+| [Mak5er/AirCard](https://github.com/Mak5er/AirCard) | **5,975** | Lviv, Ukraine |
+| [Yalantis/Koloda](https://github.com/Yalantis/Koloda) | **5,388** | Ukraine, Dnipro |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

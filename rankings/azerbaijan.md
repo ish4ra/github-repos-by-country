@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 392**
 - Progress: **0%**
 - Retained high-potential owner candidates: **113**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,12 +24,12 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [al1abb/invoify](https://github.com/al1abb/invoify) | **6,361** | Azerbaijan |
+| [al1abb/invoify](https://github.com/al1abb/invoify) | **6,362** | Azerbaijan |
 | [sabuhish/fastapi-mail](https://github.com/sabuhish/fastapi-mail) | **1,013** | Baku Azerbaijan |
-| [theahmadov/slash](https://github.com/theahmadov/slash) | **748** | Azerbaijan |
+| [theahmadov/slash](https://github.com/theahmadov/slash) | **749** | Azerbaijan |
 | [martian56/redcell](https://github.com/martian56/redcell) | **328** | Azerbaijan |
 | [kamranbekirovyz/bunpod](https://github.com/kamranbekirovyz/bunpod) | **235** | Baku, Azerbaijan |
-| [nazarli-shabnam/clevis](https://github.com/nazarli-shabnam/clevis) | **162** | Azerbaijan |
+| [nazarli-shabnam/clevis](https://github.com/nazarli-shabnam/clevis) | **171** | Azerbaijan |
 | [MuradIsazade777/MuradIsazade777](https://github.com/MuradIsazade777/MuradIsazade777) | **88** | Baku, Azerbaijan |
 | [nihaddev/hastebin-site](https://github.com/nihaddev/hastebin-site) | **52** | Azerbaijan, Baku |
 | [huseynovvusal/spring-blog-api](https://github.com/huseynovvusal/spring-blog-api) | **49** | Azerbaijan |
@@ -39,5 +39,18 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [aliyevorkhan/FRI](https://github.com/aliyevorkhan/FRI) | **19** | Baku, Azerbaijan |
 | [raminorujov/hackerrank](https://github.com/raminorujov/hackerrank) | **18** | Baku, Azerbaijan |
 | [thisisyusub/tdd-learn-example](https://github.com/thisisyusub/tdd-learn-example) | **18** | Azerbaijan |
+
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **5,385**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [al1abb/invoify](https://github.com/al1abb/invoify) | **6,362** | Azerbaijan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

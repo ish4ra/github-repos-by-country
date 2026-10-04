@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 2,096**
 - Progress: **0%**
 - Retained high-potential owner candidates: **142**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,11 +24,11 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) | **60,164** | Belgium |
-| [odoo/odoo](https://github.com/odoo/odoo) | **54,810** | Belgium |
-| [JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) | **23,532** | Diest, Belgium |
-| [folke/lazy.nvim](https://github.com/folke/lazy.nvim) | **21,620** | Ghent, Belgium |
-| [spatie/laravel-permission](https://github.com/spatie/laravel-permission) | **12,968** | Antwerp, Belgium |
+| [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning) | **60,166** | Belgium |
+| [odoo/odoo](https://github.com/odoo/odoo) | **54,817** | Belgium |
+| [JanDeDobbeleer/oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh) | **23,534** | Diest, Belgium |
+| [folke/lazy.nvim](https://github.com/folke/lazy.nvim) | **21,621** | Ghent, Belgium |
+| [spatie/laravel-permission](https://github.com/spatie/laravel-permission) | **12,969** | Antwerp, Belgium |
 | [NielsRogge/Transformers-Tutorials](https://github.com/NielsRogge/Transformers-Tutorials) | **11,754** | Belgium |
 | [bendc/frontend-guidelines](https://github.com/bendc/frontend-guidelines) | **9,130** | Belgium |
 | [nWidart/laravel-modules](https://github.com/nWidart/laravel-modules) | **6,214** | Namur, Belgium |

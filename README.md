@@ -21,7 +21,7 @@
 
 ## Browse by country
 
-**250 indexed · 4 live · 249 building · 0 queued**
+**250 indexed · 6 live · 249 building · 0 queued**
 
 > 🟢 **Live** = published ranking · 🟡 **Building** = crawl in progress · ⚪ **Queued** = waiting for its first crawl
 
@@ -144,7 +144,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
       <td width="25%">🟡 <a href="./rankings/finland.md"><strong>🇫🇮 Finland</strong></a></td>
     </tr>
     <tr>
-      <td width="25%">🟡 <a href="./rankings/france.md"><strong>🇫🇷 France</strong></a></td>
+      <td width="25%">🟢 <a href="./rankings/france.md"><strong>🇫🇷 France</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/french-guiana.md"><strong>🇬🇫 French Guiana</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/french-polynesia.md"><strong>🇵🇫 French Polynesia</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/french-southern-territories.md"><strong>🇹🇫 French Southern Territories</strong></a></td>
@@ -195,7 +195,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
       <td width="25%">🟡 <a href="./rankings/israel.md"><strong>🇮🇱 Israel</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/italy.md"><strong>🇮🇹 Italy</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/jamaica.md"><strong>🇯🇲 Jamaica</strong></a></td>
-      <td width="25%">🟡 <a href="./rankings/japan.md"><strong>🇯🇵 Japan</strong></a></td>
+      <td width="25%">🟢 <a href="./rankings/japan.md"><strong>🇯🇵 Japan</strong></a></td>
     </tr>
     <tr>
       <td width="25%">🟡 <a href="./rankings/jersey.md"><strong>🇯🇪 Jersey</strong></a></td>

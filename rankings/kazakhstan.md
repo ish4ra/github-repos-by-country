@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **8,078**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **5,385**
 
 ### High-star verified preview
 
@@ -55,5 +55,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [henrypp/memreduct](https://github.com/henrypp/memreduct) | **10,703** | Almaty, Kazakhstan |
 | [henrypp/simplewall](https://github.com/henrypp/simplewall) | **9,099** | Almaty, Kazakhstan |
 | [MakazhanAlpamys/Soup](https://github.com/MakazhanAlpamys/Soup) | **8,073** | Astana, Kazakhstan |
+| [Hexlet/ru-test-assignments](https://github.com/Hexlet/ru-test-assignments) | **6,777** | Kazakhstan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

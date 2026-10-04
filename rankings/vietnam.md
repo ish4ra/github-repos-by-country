@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **8,078**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **5,385**
 
 ### High-star verified preview
 
@@ -54,5 +54,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [thangchung/awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-core) | **21,397** | Ho Chi Minh City, Vietnam |
 | [evolus/pencil](https://github.com/evolus/pencil) | **9,872** | Ho Chi Minh city, Vietnam |
 | [nhivp/Awesome-Embedded](https://github.com/nhivp/Awesome-Embedded) | **9,170** | Ho Chi Minh City, Vietnam |
+| [thangchung/clean-code-dotnet](https://github.com/thangchung/clean-code-dotnet) | **7,735** | Ho Chi Minh City, Vietnam |
+| [PokeAPI/pokeapi](https://github.com/PokeAPI/pokeapi) | **5,392** | Kanto |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

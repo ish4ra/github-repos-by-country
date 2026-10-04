@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **8**
-- Current global star frontier: **8,078**
+- Verified high-star candidates retained: **11**
+- Current global star frontier: **5,385**
 
 ### High-star verified preview
 
@@ -59,5 +59,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Intervention/image](https://github.com/Intervention/image) | **14,376** | International |
 | [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) | **12,298** | United Arab Emirates |
 | [atlas-engineer/nyxt](https://github.com/atlas-engineer/nyxt) | **11,028** | International |
+| [nannou-org/nannou](https://github.com/nannou-org/nannou) | **6,763** | International |
+| [jpuri/react-draft-wysiwyg](https://github.com/jpuri/react-draft-wysiwyg) | **6,458** | UAE |
+| [builderz-labs/mission-control](https://github.com/builderz-labs/mission-control) | **6,300** | United Arab Emirates |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

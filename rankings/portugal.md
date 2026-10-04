@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **8,078**
+- Verified high-star candidates retained: **10**
+- Current global star frontier: **5,385**
 
 ### High-star verified preview
 
@@ -56,5 +56,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Heroic-Games-Launcher/HeroicGamesLauncher](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher) | **12,340** | Portugal |
 | [dwyl/english-words](https://github.com/dwyl/english-words) | **12,300** | Portugal |
 | [mxssl/sre-interview-prep-guide](https://github.com/mxssl/sre-interview-prep-guide) | **9,205** | Portugal |
+| [andrew--r/frontend-case-studies](https://github.com/andrew--r/frontend-case-studies) | **7,430** | Lisbon, Portugal |
+| [jbaysolutions/vue-grid-layout](https://github.com/jbaysolutions/vue-grid-layout) | **7,405** | Portugal |
+| [vasturiano/3d-force-graph](https://github.com/vasturiano/3d-force-graph) | **6,432** | Lisbon, Portugal |
+| [nunomaduro/phpinsights](https://github.com/nunomaduro/phpinsights) | **5,637** | Portugal |
+| [pedrommcarrasco/Brooklyn](https://github.com/pedrommcarrasco/Brooklyn) | **5,615** | Porto, Portugal |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

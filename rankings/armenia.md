@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 614**
 - Progress: **0%**
 - Retained high-potential owner candidates: **334**
-- Search requests completed: **17**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -28,13 +28,13 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [suren-atoyan/monaco-react](https://github.com/suren-atoyan/monaco-react) | **4,749** | Yerevan, Armenia |
 | [ivbeg/awesome-status-pages](https://github.com/ivbeg/awesome-status-pages) | **3,820** | Armenia |
 | [screeps/screeps](https://github.com/screeps/screeps) | **3,351** | Armenia |
-| [khoren93/SwiftHub](https://github.com/khoren93/SwiftHub) | **3,113** | Yerevan, Armenia |
+| [khoren93/SwiftHub](https://github.com/khoren93/SwiftHub) | **3,114** | Yerevan, Armenia |
 | [NarHakobyan/awesome-nest-boilerplate](https://github.com/NarHakobyan/awesome-nest-boilerplate) | **2,829** | Armenia |
 | [ai-forever/Kandinsky-2](https://github.com/ai-forever/Kandinsky-2) | **2,811** | Armenia |
 | [vtereshkov/umka-lang](https://github.com/vtereshkov/umka-lang) | **2,108** | Yerevan, Armenia |
 | [armcha/Space-Navigation-View](https://github.com/armcha/Space-Navigation-View) | **1,973** | Armenia |
 | [robertlevonyan/material-chip-view](https://github.com/robertlevonyan/material-chip-view) | **1,334** | Yerevan, Armenia |
-| [shahen94/react-native-video-processing](https://github.com/shahen94/react-native-video-processing) | **1,287** | Yerevan, Armenia |
+| [shahen94/react-native-video-processing](https://github.com/shahen94/react-native-video-processing) | **1,288** | Yerevan, Armenia |
 | [dannote/figma-use](https://github.com/dannote/figma-use) | **606** | Armenia |
 | [vah13/extractTVpasswords](https://github.com/vah13/extractTVpasswords) | **464** | Armenia, Yerevan |
 | [Kaaveh/ComposeNews](https://github.com/Kaaveh/ComposeNews) | **378** | Yerevan, Armenia |

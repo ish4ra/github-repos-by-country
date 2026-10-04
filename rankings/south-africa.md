@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **8,078**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **5,385**
 
 ### High-star verified preview
 
@@ -53,5 +53,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering) | **11,412** | South Africa |
 | [olivernn/lunr.js](https://github.com/olivernn/lunr.js) | **9,202** | Cape Town |
+| [limbopro/Paolujichang](https://github.com/limbopro/Paolujichang) | **7,343** | South Africa |
+| [rizonesoft/Notepad3](https://github.com/rizonesoft/Notepad3) | **6,684** | South Africa |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

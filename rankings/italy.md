@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **6**
-- Current global star frontier: **8,078**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **5,385**
 
 ### High-star verified preview
 
@@ -57,5 +57,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [mcollina/autocannon](https://github.com/mcollina/autocannon) | **8,527** | Forlì, Italy |
 | [antirez/disque](https://github.com/antirez/disque) | **8,077** | Catania, Sicily, Italy |
 | [luruke/browser-2020](https://github.com/luruke/browser-2020) | **7,971** | Vicenza / Benevento |
+| [antirez/smallchat](https://github.com/antirez/smallchat) | **7,491** | Catania, Sicily, Italy |
+| [alexcasalboni/aws-lambda-power-tuning](https://github.com/alexcasalboni/aws-lambda-power-tuning) | **6,069** | Bologna, Italy |
+| [antirez/sds](https://github.com/antirez/sds) | **5,574** | Catania, Sicily, Italy |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

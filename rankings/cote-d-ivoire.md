@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **8,078**
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **5,385**
 
 ### High-star verified preview
 
@@ -55,5 +55,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists) | **15,983** | Korea, South |
 | [summernote/summernote](https://github.com/summernote/summernote) | **11,843** | Korea, South |
 | [brave-people/Dev-Event](https://github.com/brave-people/Dev-Event) | **8,847** | Korea, South |
+| [NomaDamas/k-skill](https://github.com/NomaDamas/k-skill) | **7,759** | Korea, South |
+| [BitterSecurity/Decepticon](https://github.com/BitterSecurity/Decepticon) | **5,654** | Korea, South |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

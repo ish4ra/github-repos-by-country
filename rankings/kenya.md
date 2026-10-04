@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [omololevy/omololevy](https://github.com/omololevy/omololevy) | **50** | Nairobi, Kenya |
 | [waynegakuo/portfolio](https://github.com/waynegakuo/portfolio) | **37** | Mombasa, Kenya  |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **5,385**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [dan1471/FREE-openai-api-keys](https://github.com/dan1471/FREE-openai-api-keys) | **5,749** | Nairobi |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

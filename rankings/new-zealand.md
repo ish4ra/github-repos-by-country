@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **10**
-- Current global star frontier: **8,078**
+- Verified high-star candidates retained: **14**
+- Current global star frontier: **5,385**
 
 ### High-star verified preview
 
@@ -61,5 +61,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [kyrolabs/awesome-langchain](https://github.com/kyrolabs/awesome-langchain) | **9,557** | New Zealand |
 | [ChenYilong/iOSInterviewQuestions](https://github.com/ChenYilong/iOSInterviewQuestions) | **9,551** | Auckland, New Zealand |
 | [Mooophy/Cpp-Primer](https://github.com/Mooophy/Cpp-Primer) | **8,288** | Auckland, New Zealand |
+| [ChenYilong/CYLTabBarController](https://github.com/ChenYilong/CYLTabBarController) | **7,035** | Auckland, New Zealand |
+| [urbanadventurer/WhatWeb](https://github.com/urbanadventurer/WhatWeb) | **6,871** | New Zealand |
+| [VeNoMouS/cloudscraper](https://github.com/VeNoMouS/cloudscraper) | **6,778** | New Zealand |
+| [executeautomation/mcp-playwright](https://github.com/executeautomation/mcp-playwright) | **5,661** | Auckland, NZ |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

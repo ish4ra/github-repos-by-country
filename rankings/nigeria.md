@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **5,385**
 
 ### High-star verified preview
 
@@ -52,5 +52,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [abiosoft/colima](https://github.com/abiosoft/colima) | **31,090** | Nigeria |
+| [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) | **5,785** | Lagos, Nigeria |
+| [cgzirim/seek-tune](https://github.com/cgzirim/seek-tune) | **5,602** | Abuja, Nigeria |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

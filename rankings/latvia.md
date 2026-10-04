@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **8,078**
+- Verified high-star candidates retained: **7**
+- Current global star frontier: **5,385**
 
 ### High-star verified preview
 
@@ -56,5 +56,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [healthchecks/healthchecks](https://github.com/healthchecks/healthchecks) | **10,381** | Valmiera, Latvia |
 | [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) | **9,904** | Riga |
 | [lauris/awesome-scala](https://github.com/lauris/awesome-scala) | **9,248** | Latvia |
+| [ONLYOFFICE/DocumentServer](https://github.com/ONLYOFFICE/DocumentServer) | **6,967** | Latvia |
+| [ONLYOFFICE/DesktopEditors](https://github.com/ONLYOFFICE/DesktopEditors) | **5,471** | Latvia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

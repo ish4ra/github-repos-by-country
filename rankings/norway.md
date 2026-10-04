@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **8**
-- Current global star frontier: **8,078**
+- Verified high-star candidates retained: **16**
+- Current global star frontier: **5,385**
 
 ### High-star verified preview
 
@@ -59,5 +59,13 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [prasmussen/gdrive](https://github.com/prasmussen/gdrive) | **8,947** | Oslo |
 | [asmvik/skhd](https://github.com/asmvik/skhd) | **8,135** | Stavanger, Norway |
 | [bensadeh/tailspin](https://github.com/bensadeh/tailspin) | **7,982** | Oslo, Norway |
+| [erikgrinaker/toydb](https://github.com/erikgrinaker/toydb) | **7,293** | Oslo, Norway |
+| [raphw/byte-buddy](https://github.com/raphw/byte-buddy) | **6,896** | Oslo, Norway |
+| [auduno/clmtrackr](https://github.com/auduno/clmtrackr) | **6,500** | Oslo, Norway |
+| [karlstav/cava](https://github.com/karlstav/cava) | **6,452** | oslo, norway |
+| [lervag/vimtex](https://github.com/lervag/vimtex) | **6,378** | Trondheim |
+| [sanity-io/sanity](https://github.com/sanity-io/sanity) | **6,349** | San Francisco / Oslo |
+| [mikaelbr/node-notifier](https://github.com/mikaelbr/node-notifier) | **5,845** | Molde, Norway |
+| [onmyway133/awesome-ios-animation](https://github.com/onmyway133/awesome-ios-animation) | **5,445** | Oslo, Norway |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **8,078**
+- Verified high-star candidates retained: **16**
+- Current global star frontier: **5,385**
 
 ### High-star verified preview
 
@@ -60,5 +60,12 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [oguzhaninan/Stacer](https://github.com/oguzhaninan/Stacer) | **9,328** | İstanbul, Turkey |
 | [mertJF/tailblocks](https://github.com/mertJF/tailblocks) | **8,881** | Turkey, İzmir |
 | [fatih/color](https://github.com/fatih/color) | **8,003** | Ankara, TR |
+| [arslanbilal/git-cheat-sheet](https://github.com/arslanbilal/git-cheat-sheet) | **7,464** | Istanbul |
+| [agmmnn/awesome-blender](https://github.com/agmmnn/awesome-blender) | **7,384** | Ankara |
+| [needim/noty](https://github.com/needim/noty) | **6,624** | Istanbul |
+| [sharpemu/sharpemu](https://github.com/sharpemu/sharpemu) | **5,767** | Türkiye |
+| [buger/jsonparser](https://github.com/buger/jsonparser) | **5,659** | Istanbul |
+| [obss/sahi](https://github.com/obss/sahi) | **5,528** | Istanbul |
+| [ardatan/graphql-tools](https://github.com/ardatan/graphql-tools) | **5,429** | Karşıyaka, İzmir, Türkiye |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **8,078**
+- Verified high-star candidates retained: **7**
+- Current global star frontier: **5,385**
 
 ### High-star verified preview
 
@@ -55,5 +55,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Unity-Technologies/UnityCsReference](https://github.com/Unity-Technologies/UnityCsReference) | **13,010** | Copenhagen, Denmark |
 | [Unity-Technologies/EntityComponentSystemSamples](https://github.com/Unity-Technologies/EntityComponentSystemSamples) | **8,192** | Copenhagen, Denmark |
 | [larsenwork/monoid](https://github.com/larsenwork/monoid) | **7,954** | Copenhagen, Denmark |
+| [michenriksen/gitrob](https://github.com/michenriksen/gitrob) | **6,196** | Copenhagen, Denmark |
+| [adamgiebl/neumorphism](https://github.com/adamgiebl/neumorphism) | **6,166** | Copenhagen, Denmark |
+| [michenriksen/aquatone](https://github.com/michenriksen/aquatone) | **5,956** | Copenhagen, Denmark |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

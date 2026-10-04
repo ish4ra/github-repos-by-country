@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **8,078**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **5,385**
 
 ### High-star verified preview
 
@@ -52,5 +52,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [stamparm/maltrail](https://github.com/stamparm/maltrail) | **8,614** | Croatia |
+| [vladmandic/sdnext](https://github.com/vladmandic/sdnext) | **7,354** | Miami, Florida / Rijeka, Croatia |
+| [adrianhajdin/project_3D_developer_portfolio](https://github.com/adrianhajdin/project_3D_developer_portfolio) | **7,131** | Croatia |
+| [ivpusic/react-native-image-crop-picker](https://github.com/ivpusic/react-native-image-crop-picker) | **6,351** | Zagreb, Croatia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

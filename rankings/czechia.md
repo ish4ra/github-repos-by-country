@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **8**
-- Current global star frontier: **8,078**
+- Verified high-star candidates retained: **17**
+- Current global star frontier: **5,385**
 
 ### High-star verified preview
 
@@ -59,5 +59,14 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [prusa3d/PrusaSlicer](https://github.com/prusa3d/PrusaSlicer) | **9,384** | Prague, Czech Republic |
 | [avast/retdec](https://github.com/avast/retdec) | **8,636** | Czech Republic |
 | [vrana/adminer](https://github.com/vrana/adminer) | **7,917** | Praha, Czechia |
+| [panva/jose](https://github.com/panva/jose) | **7,813** | Czech Republic |
+| [coells/100days](https://github.com/coells/100days) | **7,476** | Prague, Czech Republic |
+| [dbgate/dbgate](https://github.com/dbgate/dbgate) | **7,335** | Czech Republic |
+| [vavkamil/awesome-bugbounty-tools](https://github.com/vavkamil/awesome-bugbounty-tools) | **6,289** | Czechia |
+| [JakubOnderka/PHP-Console-Highlighter](https://github.com/JakubOnderka/PHP-Console-Highlighter) | **6,152** | Brno, Czechia |
+| [JakubOnderka/PHP-Console-Color](https://github.com/JakubOnderka/PHP-Console-Color) | **6,111** | Brno, Czechia |
+| [WeblateOrg/weblate](https://github.com/WeblateOrg/weblate) | **6,104** | Czech Republic |
+| [jindrapetrik/jpexs-decompiler](https://github.com/jindrapetrik/jpexs-decompiler) | **5,906** | Czech Republic |
+| [fikovnik/ShiftIt](https://github.com/fikovnik/ShiftIt) | **5,541** | Czech Republic |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

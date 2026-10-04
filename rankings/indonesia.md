@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **6**
-- Current global star frontier: **8,078**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **5,385**
 
 ### High-star verified preview
 
@@ -57,5 +57,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [infosecn1nja/Red-Teaming-Toolkit](https://github.com/infosecn1nja/Red-Teaming-Toolkit) | **10,758** | Jakarta, Indonesia |
 | [faisalman/ua-parser-js](https://github.com/faisalman/ua-parser-js) | **10,198** | Bandung, Indonesia |
 | [alsyundawy/Microsoft-Office-For-MacOS](https://github.com/alsyundawy/Microsoft-Office-For-MacOS) | **8,089** | DKI Jakarta , Indonesia |
+| [zetbaitsu/Compressor](https://github.com/zetbaitsu/Compressor) | **7,227** | Yogyakarta |
+| [daffainfo/AllAboutBugBounty](https://github.com/daffainfo/AllAboutBugBounty) | **6,915** | Indonesia |
+| [dwisiswant0/apkleaks](https://github.com/dwisiswant0/apkleaks) | **6,332** | Jakarta, Indonesia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

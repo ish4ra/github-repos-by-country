@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 3,298**
 - Progress: **0%**
 - Retained high-potential owner candidates: **148**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,26 +24,26 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [earendil-works/pi](https://github.com/earendil-works/pi) | **111,879** | Austria |
+| [earendil-works/pi](https://github.com/earendil-works/pi) | **112,204** | Austria |
 | [PhilJay/MPAndroidChart](https://github.com/PhilJay/MPAndroidChart) | **38,183** | Austria |
-| [m1k1o/neko](https://github.com/m1k1o/neko) | **22,442** | Vienna, Austria |
-| [sandboxie-plus/Sandboxie](https://github.com/sandboxie-plus/Sandboxie) | **19,591** | Austria |
+| [m1k1o/neko](https://github.com/m1k1o/neko) | **22,448** | Vienna, Austria |
+| [sandboxie-plus/Sandboxie](https://github.com/sandboxie-plus/Sandboxie) | **19,601** | Austria |
 | [enyo/dropzone](https://github.com/enyo/dropzone) | **18,399** | Vienna, Austria |
-| [safing/portmaster](https://github.com/safing/portmaster) | **13,866** | Austria |
+| [safing/portmaster](https://github.com/safing/portmaster) | **13,873** | Austria |
 | [imsnif/bandwhich](https://github.com/imsnif/bandwhich) | **11,993** | Vienna, Austria |
 | [alexjc/neural-enhance](https://github.com/alexjc/neural-enhance) | **11,865** | Vienna, Austria |
 | [mikepenz/MaterialDrawer](https://github.com/mikepenz/MaterialDrawer) | **11,642** | Linz, Austria |
 | [timolins/react-hot-toast](https://github.com/timolins/react-hot-toast) | **10,979** | Vienna, Austria |
 | [mherrmann/helium](https://github.com/mherrmann/helium) | **8,329** | Vienna, Austria |
-| [mfussenegger/nvim-dap](https://github.com/mfussenegger/nvim-dap) | **7,266** | Austria |
-| [gsantner/markor](https://github.com/gsantner/markor) | **6,211** | Austria |
+| [mfussenegger/nvim-dap](https://github.com/mfussenegger/nvim-dap) | **7,267** | Austria |
+| [gsantner/markor](https://github.com/gsantner/markor) | **6,214** | Austria |
 | [KrauseFx/TSMessages](https://github.com/KrauseFx/TSMessages) | **4,837** | Vienna, Austria |
 | [nefarius/ViGEmBus](https://github.com/nefarius/ViGEmBus) | **4,229** | Austria |
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **17**
-- Current global star frontier: **8,078**
+- Verified high-star candidates retained: **25**
+- Current global star frontier: **5,385**
 
 ### High-star verified preview
 
@@ -68,5 +68,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [AppHouseKitchen/AlDente-Battery_Care_and_Monitoring](https://github.com/AppHouseKitchen/AlDente-Battery_Care_and_Monitoring) | **9,200** | Austria |
 | [vendurehq/vendure](https://github.com/vendurehq/vendure) | **8,499** | Vienna, Austria |
 | [mherrmann/helium](https://github.com/mherrmann/helium) | **8,327** | Vienna, Austria |
+| [webmozarts/assert](https://github.com/webmozarts/assert) | **7,648** | Vienna, Austria |
+| [mfussenegger/nvim-dap](https://github.com/mfussenegger/nvim-dap) | **7,267** | Austria |
+| [Arthur-Ficial/apfel](https://github.com/Arthur-Ficial/apfel) | **6,453** | Vienna, Austria |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

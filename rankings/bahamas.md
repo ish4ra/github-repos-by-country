@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 9%
+## Repository ranking status: Building 0%
 
-- Geography terms processed: **6 / 63**
-- Progress: **9%**
+- Geography terms processed: **0 / 63**
+- Progress: **0%**
 - Retained high-potential owner candidates: **275**
-- Search requests completed: **16**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -28,7 +28,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ItsSim/fsolauncher](https://github.com/ItsSim/fsolauncher) | **32** | Bahamas |
 | [steveWDamesJr/html-css-js-capstone](https://github.com/steveWDamesJr/html-css-js-capstone) | **20** | The Bahamas |
 | [avantgardefinance/enzyme-bot](https://github.com/avantgardefinance/enzyme-bot) | **18** | Bahamas |
-| [SubTropica/SubTropica](https://github.com/SubTropica/SubTropica) | **17** | Bahamas |
+| [SubTropica/SubTropica](https://github.com/SubTropica/SubTropica) | **18** | Bahamas |
 | [Johndiddles/java-notes](https://github.com/Johndiddles/java-notes) | **11** | Nassau, Bahamas |
 | [PinePlatforms/Palladium](https://github.com/PinePlatforms/Palladium) | **10** | Bahamas |
 | [scott-mackenzie/Ubuntu2004-CIS](https://github.com/scott-mackenzie/Ubuntu2004-CIS) | **9** | Nassau, Bahamas |
