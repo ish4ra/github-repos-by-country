@@ -3,7 +3,7 @@ name: Repository-first ranking scan
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 * * * *'
+    - cron: '7,27,47 * * * *'
   push:
     branches: [main]
     paths:
@@ -47,8 +47,8 @@ jobs:
       - name: Advance repository-first scan
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPOSITORY_SCAN_REQUEST_LIMIT: '300'
-          REPOSITORY_SCAN_RUNTIME_MINUTES: '42'
+          REPOSITORY_SCAN_REQUEST_LIMIT: '50'
+          REPOSITORY_SCAN_RUNTIME_MINUTES: '12'
           REPOSITORY_CANDIDATE_LIMIT: '125'
           RATE_LIMIT_RESERVE: '120'
         run: npm run discover:repositories

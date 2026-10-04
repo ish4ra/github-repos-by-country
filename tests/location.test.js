@@ -112,3 +112,14 @@ test('ambiguous city without admin context remains rejected', () => {
   assert.equal(result.accepted, false);
   assert.equal(result.evidence, 'ambiguous-place');
 });
+
+
+test('generated US geography resolves Portland, OR as United States', async () => {
+  const usConfig = await loadCountryConfig('US');
+  const result = attributeLocation('Portland, OR', usConfig);
+
+  assert.equal(result.accepted, true);
+  assert.equal(result.countryCode, 'US');
+  assert.equal(result.confidence, 'high');
+  assert.equal(result.evidence, 'recognized-place-with-admin');
+});
