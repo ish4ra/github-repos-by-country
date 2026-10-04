@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "e19328b2fe561d7c935cb1ce0529e5c387bbaaac4bf0a2a40a225da005b9e2b7",
+    "sha256": "136a77e74c0a66df698a8b5ac5c89306ecaefb5cd6ebd0cba0bdc6e931bf8e50",
     "termsTotal": 392
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Azerbaijan",
     "queue": [
+      {
+        "query": "location:\"Azerbaijan\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
       {
         "query": "location:\"Azerbaijan\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
         "stage": "year:2013",
@@ -270,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:26:52.005Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-04T04:15:15.365Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 1284
+    "reportedCount": 1287
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:26:52.005Z",
-  "updatedAt": "2026-10-03T08:42:50.517Z",
+  "startedAt": "2026-10-04T04:15:15.365Z",
+  "updatedAt": "2026-10-04T04:15:30.149Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 202,
-    "acceptedOwnerHits": 199,
+    "rawOwnerHits": 201,
+    "acceptedOwnerHits": 198,
     "rejectedOwnerHits": 3,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4371
+    "minimumRateLimitRemaining": 4937
   },
   "unresolvedShards": [],
   "candidates": [
@@ -317,7 +324,7 @@
         "nameWithOwner": "al1abb/invoify",
         "url": "https://github.com/al1abb/invoify",
         "description": "An invoice generator app built using Next.js, Typescript, and Shadcn",
-        "stargazerCount": 6361,
+        "stargazerCount": 6362,
         "forkCount": 733,
         "isArchived": false,
         "isFork": false,
@@ -395,7 +402,7 @@
         "nameWithOwner": "theahmadov/slash",
         "url": "https://github.com/theahmadov/slash",
         "description": "The Slash OSINT Tool",
-        "stargazerCount": 748,
+        "stargazerCount": 749,
         "forkCount": 118,
         "isArchived": false,
         "isFork": false,
@@ -509,12 +516,12 @@
         "nameWithOwner": "nazarli-shabnam/clevis",
         "url": "https://github.com/nazarli-shabnam/clevis",
         "description": "Self-hosted GitHub security dashboard — tracks org security checks (MFA, branch protection, scanning) with score trends, plus automated Actions cache cleanup. FastAPI + Next.js + PostgreSQL.",
-        "stargazerCount": 162,
-        "forkCount": 136,
+        "stargazerCount": 171,
+        "forkCount": 145,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-03-24T11:29:48Z",
-        "pushedAt": "2026-10-02T12:44:13Z",
+        "pushedAt": "2026-10-04T00:43:37Z",
         "homepageUrl": "https://clevis.org",
         "primaryLanguage": {
           "name": "JavaScript"
@@ -619,7 +626,7 @@
         "url": "https://github.com/huseynovvusal/spring-blog-api",
         "description": "🤓 A RESTful blog API built with Java Spring Boot including features like JWTs, Spring Security, and more. 🌱 Perfect for learning, and we especially appreciate contributions from beginners!",
         "stargazerCount": 49,
-        "forkCount": 70,
+        "forkCount": 71,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-08-10T06:55:19Z",
@@ -1363,7 +1370,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2022-03-27T19:53:35Z",
-        "pushedAt": "2026-10-03T04:58:07Z",
+        "pushedAt": "2026-10-04T03:18:27Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null

@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "60f4beef7c21f461d939de2955254a45518aea5dea4fb68980e9a39db9859655",
+    "sha256": "366d97ac2f7659d8b3d2f08b7da394add5231613f39cb9ec72f1f7da33b860c2",
     "termsTotal": 2096
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Belgium",
     "queue": [
+      {
+        "query": "location:\"Belgium\" type:user followers:0 repos:1..4 created:2011-01-01..2011-12-31",
+        "stage": "year:2011",
+        "cursor": "Y3Vyc29yOjUw",
+        "pageNumber": 2,
+        "attempts": 0
+      },
       {
         "query": "location:\"Belgium\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
         "stage": "year:2012",
@@ -277,27 +284,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:27:12.760Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-04T04:17:01.203Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 6043
+    "reportedCount": 6047
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:27:12.760Z",
-  "updatedAt": "2026-10-03T11:52:39.773Z",
+  "startedAt": "2026-10-04T04:17:01.203Z",
+  "updatedAt": "2026-10-04T04:17:16.365Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 259,
-    "acceptedOwnerHits": 254,
+    "rawOwnerHits": 253,
+    "acceptedOwnerHits": 248,
     "rejectedOwnerHits": 5,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4730
+    "minimumRateLimitRemaining": 4864
   },
   "unresolvedShards": [],
   "candidates": [
@@ -324,8 +331,8 @@
         "nameWithOwner": "CorentinJ/Real-Time-Voice-Cloning",
         "url": "https://github.com/CorentinJ/Real-Time-Voice-Cloning",
         "description": "Clone a voice in 5 seconds to generate arbitrary speech in real-time",
-        "stargazerCount": 60164,
-        "forkCount": 9380,
+        "stargazerCount": 60166,
+        "forkCount": 9379,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2019-05-26T08:56:15Z",
@@ -363,12 +370,12 @@
         "nameWithOwner": "odoo/odoo",
         "url": "https://github.com/odoo/odoo",
         "description": "Odoo. Open Source Apps To Grow Your Business.",
-        "stargazerCount": 54810,
-        "forkCount": 33917,
+        "stargazerCount": 54817,
+        "forkCount": 33920,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2014-05-13T15:38:58Z",
-        "pushedAt": "2026-10-03T08:15:47Z",
+        "pushedAt": "2026-10-04T04:03:32Z",
         "homepageUrl": "https://www.odoo.com",
         "primaryLanguage": {
           "name": "Python"
@@ -402,7 +409,7 @@
         "nameWithOwner": "JanDeDobbeleer/oh-my-posh",
         "url": "https://github.com/JanDeDobbeleer/oh-my-posh",
         "description": "The most customisable and low-latency cross platform/shell prompt renderer",
-        "stargazerCount": 23532,
+        "stargazerCount": 23534,
         "forkCount": 2793,
         "isArchived": false,
         "isFork": false,
@@ -441,7 +448,7 @@
         "nameWithOwner": "folke/lazy.nvim",
         "url": "https://github.com/folke/lazy.nvim",
         "description": "💤 A modern plugin manager for Neovim",
-        "stargazerCount": 21620,
+        "stargazerCount": 21621,
         "forkCount": 597,
         "isArchived": false,
         "isFork": false,
@@ -480,7 +487,7 @@
         "nameWithOwner": "spatie/laravel-permission",
         "url": "https://github.com/spatie/laravel-permission",
         "description": "Associate users with roles and permissions",
-        "stargazerCount": 12968,
+        "stargazerCount": 12969,
         "forkCount": 1815,
         "isArchived": false,
         "isFork": false,
@@ -866,7 +873,7 @@
         "url": "https://github.com/Yenthe666/InstallScript",
         "description": "Odoo install script",
         "stargazerCount": 1439,
-        "forkCount": 1623,
+        "forkCount": 1622,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2015-08-11T12:33:42Z",
@@ -1444,7 +1451,7 @@
         "nameWithOwner": "yorikvanhavre/BIM_Workbench",
         "url": "https://github.com/yorikvanhavre/BIM_Workbench",
         "description": "A BIM Workbench for FreeCAD",
-        "stargazerCount": 405,
+        "stargazerCount": 406,
         "forkCount": 80,
         "isArchived": false,
         "isFork": false,

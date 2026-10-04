@@ -8,27 +8,44 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "3288c117a547afdb7d6c1e282007a7864ad4aebb840742ed8d0b3330b442a611",
+    "sha256": "baa6771b8a0cd80cd3d5fdc0e93ad1a518a744149eee472e5337234fa91d9210",
     "termsTotal": 63
   },
   "phase": "discovery",
-  "nextTermIndex": 6,
-  "activeTerm": null,
+  "nextTermIndex": 0,
+  "activeTerm": {
+    "index": 0,
+    "term": "Bahamas",
+    "queue": [
+      {
+        "query": "location:\"Bahamas\"",
+        "stage": "base",
+        "cursor": "Y3Vyc29yOjQwMA==",
+        "pageNumber": 9,
+        "attempts": 0
+      }
+    ],
+    "startedAt": "2026-10-04T04:15:30.155Z",
+    "requests": 8,
+    "leafPages": 8,
+    "shardExpansions": 0,
+    "reportedCount": null
+  },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:26:55.484Z",
-  "updatedAt": "2026-10-03T11:51:08.937Z",
+  "startedAt": "2026-10-04T04:15:30.155Z",
+  "updatedAt": "2026-10-04T04:15:49.202Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
-    "termsProcessed": 6,
-    "searchRequests": 16,
-    "leafPages": 16,
+    "termsProcessed": 0,
+    "searchRequests": 8,
+    "leafPages": 8,
     "shardExpansions": 0,
-    "rawOwnerHits": 505,
-    "acceptedOwnerHits": 498,
-    "rejectedOwnerHits": 7,
+    "rawOwnerHits": 400,
+    "acceptedOwnerHits": 394,
+    "rejectedOwnerHits": 6,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4364
+    "minimumRateLimitRemaining": 4925
   },
   "unresolvedShards": [],
   "candidates": [
@@ -208,7 +225,7 @@
         "nameWithOwner": "SubTropica/SubTropica",
         "url": "https://github.com/SubTropica/SubTropica",
         "description": "A Mathematica package for evaluating Euler integrals via tropical geometry",
-        "stargazerCount": 17,
+        "stargazerCount": 18,
         "forkCount": 1,
         "isArchived": false,
         "isFork": false,
@@ -4293,19 +4310,19 @@
         "Bahamas"
       ],
       "topRepository": {
-        "name": "bahamas-maritime-analytics",
-        "nameWithOwner": "brandanpratt/bahamas-maritime-analytics",
-        "url": "https://github.com/brandanpratt/bahamas-maritime-analytics",
+        "name": "personal-ai-assistant",
+        "nameWithOwner": "brandanpratt/personal-ai-assistant",
+        "url": "https://github.com/brandanpratt/personal-ai-assistant",
         "description": null,
         "stargazerCount": 0,
         "forkCount": 0,
         "isArchived": false,
         "isFork": false,
-        "createdAt": "2026-05-14T17:14:30Z",
-        "pushedAt": "2026-05-14T17:14:38Z",
+        "createdAt": "2026-10-03T23:58:02Z",
+        "pushedAt": "2026-10-03T23:58:06Z",
         "homepageUrl": null,
         "primaryLanguage": {
-          "name": "Python"
+          "name": "TypeScript"
         },
         "licenseInfo": null
       }
@@ -9224,7 +9241,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-05-03T18:48:15Z",
-        "pushedAt": "2026-10-03T04:31:21Z",
+        "pushedAt": "2026-10-03T15:57:12Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null

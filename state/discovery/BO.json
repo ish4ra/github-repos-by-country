@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "137e9711b15f18d39b288a89c07317344d273e88e0d4812123288d82183f1257",
+    "sha256": "cb2a1ae53c8326718e16b421891bf99bf4b6cca93926d038490afd88d1d39aa8",
     "termsTotal": 260
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Bolivia",
     "queue": [
+      {
+        "query": "location:\"Bolivia\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
       {
         "query": "location:\"Bolivia\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
         "stage": "year:2013",
@@ -270,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:27:27.963Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-04T04:18:39.369Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
     "reportedCount": 1398
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:27:27.963Z",
-  "updatedAt": "2026-10-03T11:54:17.362Z",
+  "startedAt": "2026-10-04T04:18:39.369Z",
+  "updatedAt": "2026-10-04T04:18:53.449Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 223,
-    "acceptedOwnerHits": 222,
+    "rawOwnerHits": 205,
+    "acceptedOwnerHits": 204,
     "rejectedOwnerHits": 1,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4725
+    "minimumRateLimitRemaining": 4819
   },
   "unresolvedShards": [],
   "candidates": [
@@ -400,7 +407,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2015-07-09T16:21:45Z",
-        "pushedAt": "2026-09-29T07:02:36Z",
+        "pushedAt": "2026-10-04T00:48:47Z",
         "homepageUrl": "https://camaleon.website",
         "primaryLanguage": {
           "name": "Ruby"
@@ -1035,7 +1042,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2024-05-18T00:10:02Z",
-        "pushedAt": "2026-10-03T03:31:10Z",
+        "pushedAt": "2026-10-04T03:59:38Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "C#"
@@ -1728,7 +1735,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2022-02-26T07:16:50Z",
-        "pushedAt": "2026-10-03T10:55:05Z",
+        "pushedAt": "2026-10-04T03:42:57Z",
         "homepageUrl": "",
         "primaryLanguage": null,
         "licenseInfo": {

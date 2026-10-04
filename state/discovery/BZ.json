@@ -8,27 +8,44 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "25b02bfc2c2fb0161ed9754bdaa4b31487657cf89a2474a5d3502bb9e09fe254",
+    "sha256": "5f5c695a23b9ce65897dae57ef912987ae203fa6162e38ffb4ab69ed2ee08ab9",
     "termsTotal": 93
   },
   "phase": "discovery",
-  "nextTermIndex": 1,
-  "activeTerm": null,
+  "nextTermIndex": 0,
+  "activeTerm": {
+    "index": 0,
+    "term": "Belize",
+    "queue": [
+      {
+        "query": "location:\"Belize\"",
+        "stage": "base",
+        "cursor": "Y3Vyc29yOjQwMA==",
+        "pageNumber": 9,
+        "attempts": 0
+      }
+    ],
+    "startedAt": "2026-10-04T04:17:16.371Z",
+    "requests": 8,
+    "leafPages": 8,
+    "shardExpansions": 0,
+    "reportedCount": null
+  },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:27:15.714Z",
-  "updatedAt": "2026-10-03T11:53:00.708Z",
+  "startedAt": "2026-10-04T04:17:16.371Z",
+  "updatedAt": "2026-10-04T04:17:37.407Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
-    "termsProcessed": 1,
-    "searchRequests": 9,
-    "leafPages": 9,
+    "termsProcessed": 0,
+    "searchRequests": 8,
+    "leafPages": 8,
     "shardExpansions": 0,
-    "rawOwnerHits": 421,
-    "acceptedOwnerHits": 417,
+    "rawOwnerHits": 400,
+    "acceptedOwnerHits": 396,
     "rejectedOwnerHits": 4,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4729
+    "minimumRateLimitRemaining": 4851
   },
   "unresolvedShards": [],
   "candidates": [
@@ -1441,7 +1458,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-02-01T03:05:53Z",
-        "pushedAt": "2026-10-02T17:31:24Z",
+        "pushedAt": "2026-10-03T21:13:07Z",
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "Rust"

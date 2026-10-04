@@ -8,27 +8,44 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "526d81fe6cc8d51ece7ecf8ee64997d9a5aa6e53f92e152af728a8aaff6ec066",
+    "sha256": "31db552d1139ed7f7d448fa933cca9ca71d7b517da20c4425fe48262e49fd557",
     "termsTotal": 22
   },
   "phase": "discovery",
-  "nextTermIndex": 1,
-  "activeTerm": null,
+  "nextTermIndex": 0,
+  "activeTerm": {
+    "index": 0,
+    "term": "Barbados",
+    "queue": [
+      {
+        "query": "location:\"Barbados\"",
+        "stage": "base",
+        "cursor": "Y3Vyc29yOjQwMA==",
+        "pageNumber": 9,
+        "attempts": 0
+      }
+    ],
+    "startedAt": "2026-10-04T04:16:27.120Z",
+    "requests": 8,
+    "leafPages": 8,
+    "shardExpansions": 0,
+    "reportedCount": null
+  },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:27:06.133Z",
-  "updatedAt": "2026-10-03T11:52:10.325Z",
+  "startedAt": "2026-10-04T04:16:27.120Z",
+  "updatedAt": "2026-10-04T04:16:46.649Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
-    "termsProcessed": 1,
-    "searchRequests": 9,
-    "leafPages": 9,
+    "termsProcessed": 0,
+    "searchRequests": 8,
+    "leafPages": 8,
     "shardExpansions": 0,
-    "rawOwnerHits": 423,
-    "acceptedOwnerHits": 418,
-    "rejectedOwnerHits": 5,
+    "rawOwnerHits": 400,
+    "acceptedOwnerHits": 396,
+    "rejectedOwnerHits": 4,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4732
+    "minimumRateLimitRemaining": 4888
   },
   "unresolvedShards": [],
   "candidates": [
@@ -1751,7 +1768,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-01-23T23:47:48Z",
-        "pushedAt": "2026-10-03T11:04:32Z",
+        "pushedAt": "2026-10-03T12:32:20Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "PHP"
@@ -4330,7 +4347,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-09-17T23:21:36Z",
-        "pushedAt": "2026-09-25T18:56:34Z",
+        "pushedAt": "2026-10-03T17:13:59Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Java"
@@ -5515,6 +5532,43 @@
           "name": "C++"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOClzjSw",
+      "login": "five92llc",
+      "name": "five92 LLC",
+      "type": "User",
+      "location": "Barbados",
+      "url": "https://github.com/five92llc",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/173859659?u=c4e5776a256d438889bca90fd0790d9202474301&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BB",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Barbados"
+      },
+      "discoveryTerms": [
+        "Barbados"
+      ],
+      "topRepository": {
+        "name": "Patchbay-releases",
+        "nameWithOwner": "five92llc/Patchbay-releases",
+        "url": "https://github.com/five92llc/Patchbay-releases",
+        "description": "PatchB@y for Mac: installers and release notes",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-03T15:14:34Z",
+        "pushedAt": "2026-10-03T23:49:40Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
       }
     },
     {

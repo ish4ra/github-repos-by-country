@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "a0f6d819b7e7d4de2268239e431e8bd47ed76ba037bed04ced6f4c4bab615a09",
+    "sha256": "d15b302092ebe6855697191bafc25845a9e53798337e0fcfe13193b5cb02bc69",
     "termsTotal": 467
   },
   "phase": "discovery",
@@ -20,8 +20,8 @@
       {
         "query": "location:\"Belarus\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
         "stage": "year:2012",
-        "cursor": "Y3Vyc29yOjUw",
-        "pageNumber": 2,
+        "cursor": null,
+        "pageNumber": 1,
         "attempts": 0
       },
       {
@@ -277,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:27:09.682Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-04T04:16:46.662Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 3585
+    "reportedCount": 3587
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:27:09.682Z",
-  "updatedAt": "2026-10-03T11:52:24.476Z",
+  "startedAt": "2026-10-04T04:16:46.661Z",
+  "updatedAt": "2026-10-04T04:17:01.180Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 266,
-    "acceptedOwnerHits": 265,
-    "rejectedOwnerHits": 1,
+    "rawOwnerHits": 216,
+    "acceptedOwnerHits": 216,
+    "rejectedOwnerHits": 0,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4731
+    "minimumRateLimitRemaining": 4876
   },
   "unresolvedShards": [],
   "candidates": [
@@ -407,49 +407,10 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2021-03-30T14:06:13Z",
-        "pushedAt": "2026-10-02T14:56:31Z",
+        "pushedAt": "2026-10-03T11:55:33Z",
         "homepageUrl": "http://youtube.com/c/YauhenKavalchuk/",
         "primaryLanguage": null,
         "licenseInfo": null
-      }
-    },
-    {
-      "id": "MDQ6VXNlcjU3MzEyMjY3",
-      "login": "BEPb",
-      "name": "Andrej Marinchenko",
-      "type": "User",
-      "location": "Belarus",
-      "url": "https://github.com/BEPb",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/57312267?u=9db0f9fd328dc2121df72d682df6aff3b5ec4d8d&v=4",
-      "attribution": {
-        "accepted": true,
-        "countryCode": "BY",
-        "confidence": "high",
-        "evidence": "explicit-country",
-        "matched": "Belarus"
-      },
-      "discoveryTerms": [
-        "Belarus"
-      ],
-      "topRepository": {
-        "name": "BEPb",
-        "nameWithOwner": "BEPb/BEPb",
-        "url": "https://github.com/BEPb/BEPb",
-        "description": "Config files for my GitHub profile.",
-        "stargazerCount": 3220,
-        "forkCount": 932,
-        "isArchived": false,
-        "isFork": false,
-        "createdAt": "2021-10-28T03:29:29Z",
-        "pushedAt": "2026-10-03T00:50:13Z",
-        "homepageUrl": "https://github.com/BEPb",
-        "primaryLanguage": {
-          "name": "Shell"
-        },
-        "licenseInfo": {
-          "name": "MIT License",
-          "spdxId": "MIT"
-        }
       }
     },
     {
@@ -475,12 +436,12 @@
         "nameWithOwner": "boykopovar/AnyPS5",
         "url": "https://github.com/boykopovar/AnyPS5",
         "description": "Tool for automatic PS5 executables porting to Linux and Windows",
-        "stargazerCount": 3109,
-        "forkCount": 263,
+        "stargazerCount": 3290,
+        "forkCount": 281,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-08-03T21:30:25Z",
-        "pushedAt": "2026-10-03T08:16:32Z",
+        "pushedAt": "2026-10-04T03:39:08Z",
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "C++"
@@ -488,6 +449,45 @@
         "licenseInfo": {
           "name": "GNU General Public License v2.0",
           "spdxId": "GPL-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU3MzEyMjY3",
+      "login": "BEPb",
+      "name": "Andrej Marinchenko",
+      "type": "User",
+      "location": "Belarus",
+      "url": "https://github.com/BEPb",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/57312267?u=9db0f9fd328dc2121df72d682df6aff3b5ec4d8d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Belarus"
+      },
+      "discoveryTerms": [
+        "Belarus"
+      ],
+      "topRepository": {
+        "name": "BEPb",
+        "nameWithOwner": "BEPb/BEPb",
+        "url": "https://github.com/BEPb/BEPb",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 3221,
+        "forkCount": 932,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-10-28T03:29:29Z",
+        "pushedAt": "2026-10-04T01:25:09Z",
+        "homepageUrl": "https://github.com/BEPb",
+        "primaryLanguage": {
+          "name": "Shell"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
         }
       }
     },
@@ -514,7 +514,7 @@
         "nameWithOwner": "nillerusr/source-engine",
         "url": "https://github.com/nillerusr/source-engine",
         "description": "Modified source engine (2017) developed by valve and leaked in 2020. Not for commercial purporses",
-        "stargazerCount": 2275,
+        "stargazerCount": 2276,
         "forkCount": 423,
         "isArchived": false,
         "isFork": false,
@@ -1010,7 +1010,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2021-03-31T21:42:08Z",
-        "pushedAt": "2026-04-28T16:21:37Z",
+        "pushedAt": "2026-10-03T19:44:43Z",
         "homepageUrl": "https://reactdev.ru/",
         "primaryLanguage": {
           "name": "Python"
@@ -1224,7 +1224,7 @@
         "nameWithOwner": "wobqqq/predator-sense",
         "url": "https://github.com/wobqqq/predator-sense",
         "description": "🐉 PredatorSense for Linux: turbo toggle, thermal profiles, fan control, RGB keyboard and battery health for Acer Predator laptops (DKMS driver + CLI)",
-        "stargazerCount": 89,
+        "stargazerCount": 90,
         "forkCount": 1,
         "isArchived": false,
         "isFork": false,
@@ -1525,7 +1525,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-03-07T15:18:00Z",
-        "pushedAt": "2026-10-03T11:45:32Z",
+        "pushedAt": "2026-10-03T12:22:47Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Python"
