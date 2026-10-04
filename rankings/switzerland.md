@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **8**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **34**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -59,5 +59,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Seldaek/monolog](https://github.com/Seldaek/monolog) | **21,401** | Zürich, Zurich, Switzerland |
 | [antonmedv/fx](https://github.com/antonmedv/fx) | **20,643** | Switzerland |
 | [paperjs/paper.js](https://github.com/paperjs/paper.js) | **15,081** | Switzerland |
+| [scala/scala](https://github.com/scala/scala) | **14,563** | Switzerland |
+| [FujiwaraChoki/MoneyPrinter](https://github.com/FujiwaraChoki/MoneyPrinter) | **14,020** | Zurich, Switzerland |
+| [chartist-js/chartist](https://github.com/chartist-js/chartist) | **13,389** | Switzerland |
+| [jwagner/smartcrop.js](https://github.com/jwagner/smartcrop.js) | **12,954** | Zurich, Switzerland |
+| [SonarSource/sonarqube](https://github.com/SonarSource/sonarqube) | **11,044** | Switzerland |
+| [jantimon/html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin) | **10,715** | Zurich |
+| [django-cms/django-cms](https://github.com/django-cms/django-cms) | **10,676** | Switzerland |
+| [CyberTimon/RapidRAW](https://github.com/CyberTimon/RapidRAW) | **10,307** | Switzerland |
+| [unit8co/darts](https://github.com/unit8co/darts) | **9,536** | Switzerland |
+| [hediet/vscode-drawio](https://github.com/hediet/vscode-drawio) | **9,495** | Zurich |
+| [ghostfolio/ghostfolio](https://github.com/ghostfolio/ghostfolio) | **9,395** | Switzerland |
+| [klaudiosinani/taskbook](https://github.com/klaudiosinani/taskbook) | **9,350** | Zurich, Switzerland |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

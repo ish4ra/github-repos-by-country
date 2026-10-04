@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **7**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **13**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -58,5 +58,11 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [mxgmn/WaveFunctionCollapse](https://github.com/mxgmn/WaveFunctionCollapse) | **25,377** | Helsinki |
 | [wekan/wekan](https://github.com/wekan/wekan) | **21,103** | Finland |
 | [petkaantonov/bluebird](https://github.com/petkaantonov/bluebird) | **20,472** | Helsinki, Finland |
+| [haltu/muuri](https://github.com/haltu/muuri) | **10,941** | Tampere, Finland |
+| [Atarity/deploy-your-own-saas](https://github.com/Atarity/deploy-your-own-saas) | **10,100** | Helsinki |
+| [friuns2/BlackFriday-GPTs-Prompts](https://github.com/friuns2/BlackFriday-GPTs-Prompts) | **9,794** | Finland/Vietnam |
+| [nuejs/nue](https://github.com/nuejs/nue) | **8,816** | Finland |
+| [mxgmn/MarkovJunior](https://github.com/mxgmn/MarkovJunior) | **8,374** | Helsinki |
+| [TeamVanced/VancedManager](https://github.com/TeamVanced/VancedManager) | **8,139** | Finland |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

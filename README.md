@@ -153,7 +153,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
       <td width="25%">🟡 <a href="./rankings/gabon.md"><strong>🇬🇦 Gabon</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/gambia.md"><strong>🇬🇲 Gambia</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/georgia.md"><strong>🇬🇪 Georgia</strong></a></td>
-      <td width="25%">🟡 <a href="./rankings/germany.md"><strong>🇩🇪 Germany</strong></a></td>
+      <td width="25%">🟢 <a href="./rankings/germany.md"><strong>🇩🇪 Germany</strong></a></td>
     </tr>
     <tr>
       <td width="25%">🟡 <a href="./rankings/ghana.md"><strong>🇬🇭 Ghana</strong></a></td>
@@ -249,7 +249,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
       <td width="25%">🟡 <a href="./rankings/monaco.md"><strong>🇲🇨 Monaco</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/mongolia.md"><strong>🇲🇳 Mongolia</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/montenegro.md"><strong>🇲🇪 Montenegro</strong></a></td>
-      <td width="25%">🟢 <a href="./rankings/montserrat.md"><strong>🇲🇸 Montserrat</strong></a></td>
+      <td width="25%">🟡 <a href="./rankings/montserrat.md"><strong>🇲🇸 Montserrat</strong></a></td>
     </tr>
     <tr>
       <td width="25%">🟡 <a href="./rankings/morocco.md"><strong>🇲🇦 Morocco</strong></a></td>

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -55,5 +55,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [saadeghi/daisyui](https://github.com/saadeghi/daisyui) | **42,529** | Istanbul |
 | [hasaneyldrm/exercises-dataset](https://github.com/hasaneyldrm/exercises-dataset) | **22,483** | Istanbul |
 | [fatih/vim-go](https://github.com/fatih/vim-go) | **16,220** | Ankara, TR |
+| [hakanyalcinkaya/kodluyoruz-frontend-101-egitimi](https://github.com/hakanyalcinkaya/kodluyoruz-frontend-101-egitimi) | **10,903** | Istanbul |
+| [gokcehan/lf](https://github.com/gokcehan/lf) | **9,531** | Istanbul, Turkey |
+| [oguzhaninan/Stacer](https://github.com/oguzhaninan/Stacer) | **9,328** | İstanbul, Turkey |
+| [mertJF/tailblocks](https://github.com/mertJF/tailblocks) | **8,881** | Turkey, İzmir |
+| [fatih/color](https://github.com/fatih/color) | **8,003** | Ankara, TR |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -53,5 +53,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [opendataloader-project/opendataloader-pdf](https://github.com/opendataloader-project/opendataloader-pdf) | **29,457** | Korea, South |
 | [public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists) | **15,983** | Korea, South |
+| [summernote/summernote](https://github.com/summernote/summernote) | **11,843** | Korea, South |
+| [brave-people/Dev-Event](https://github.com/brave-people/Dev-Event) | **8,847** | Korea, South |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | **68,837** | Iceland |
+| [sveinbjornt/Sloth](https://github.com/sveinbjornt/Sloth) | **8,965** | Reykjavík, Iceland |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

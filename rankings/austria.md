@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **6**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **17**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -57,5 +57,16 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [sandboxie-plus/Sandboxie](https://github.com/sandboxie-plus/Sandboxie) | **19,601** | Austria |
 | [enyo/dropzone](https://github.com/enyo/dropzone) | **18,399** | Vienna, Austria |
 | [janpaepke/ScrollMagic](https://github.com/janpaepke/ScrollMagic) | **14,957** | Vienna, Austria |
+| [safing/portmaster](https://github.com/safing/portmaster) | **13,873** | Austria |
+| [majodev/google-webfonts-helper](https://github.com/majodev/google-webfonts-helper) | **13,066** | Austria |
+| [imsnif/bandwhich](https://github.com/imsnif/bandwhich) | **11,993** | Vienna, Austria |
+| [alexjc/neural-enhance](https://github.com/alexjc/neural-enhance) | **11,865** | Vienna, Austria |
+| [mikepenz/MaterialDrawer](https://github.com/mikepenz/MaterialDrawer) | **11,642** | Linz, Austria |
+| [timolins/react-hot-toast](https://github.com/timolins/react-hot-toast) | **10,979** | Vienna, Austria |
+| [alexjc/neural-doodle](https://github.com/alexjc/neural-doodle) | **9,851** | Vienna, Austria |
+| [litedb-org/LiteDB](https://github.com/litedb-org/LiteDB) | **9,479** | Austria |
+| [AppHouseKitchen/AlDente-Battery_Care_and_Monitoring](https://github.com/AppHouseKitchen/AlDente-Battery_Care_and_Monitoring) | **9,200** | Austria |
+| [vendurehq/vendure](https://github.com/vendurehq/vendure) | **8,499** | Vienna, Austria |
+| [mherrmann/helium](https://github.com/mherrmann/helium) | **8,327** | Vienna, Austria |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **18**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **50**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -69,5 +69,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Mikubill/sd-webui-controlnet](https://github.com/Mikubill/sd-webui-controlnet) | **17,840** | Tokyo, Japan |
 | [rui314/mold](https://github.com/rui314/mold) | **17,290** | Tokyo |
 | [wkentaro/labelme](https://github.com/wkentaro/labelme) | **16,209** | Tokyo |
+| [SakanaAI/AI-Scientist](https://github.com/SakanaAI/AI-Scientist) | **14,651** | Tokyo |
+| [mame/quine-relay](https://github.com/mame/quine-relay) | **14,607** | Japan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -40,4 +40,18 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [audreyt/ethercalc](https://github.com/audreyt/ethercalc) | **3,052** | Taiwan |
 | [KohakuBlueleaf/LyCORIS](https://github.com/KohakuBlueleaf/LyCORIS) | **2,525** | Hsinchu, Taiwan |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **8,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [WongKinYiu/yolov7](https://github.com/WongKinYiu/yolov7) | **14,154** | TW |
+| [WongKinYiu/yolov9](https://github.com/WongKinYiu/yolov9) | **9,561** | TW |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **8**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -53,5 +53,11 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [asmvik/yabai](https://github.com/asmvik/yabai) | **29,700** | Stavanger, Norway |
 | [tipsy/profile-summary-for-github](https://github.com/tipsy/profile-summary-for-github) | **19,941** | Trondheim, Norway |
+| [Unleash/unleash](https://github.com/Unleash/unleash) | **13,854** | Oslo, Norway |
+| [gnab/remark](https://github.com/gnab/remark) | **13,006** | Tønsberg, Norway |
+| [kmaasrud/awesome-obsidian](https://github.com/kmaasrud/awesome-obsidian) | **9,435** | Oslo, Norway |
+| [prasmussen/gdrive](https://github.com/prasmussen/gdrive) | **8,947** | Oslo |
+| [asmvik/skhd](https://github.com/asmvik/skhd) | **8,135** | Stavanger, Norway |
+| [bensadeh/tailspin](https://github.com/bensadeh/tailspin) | **7,982** | Oslo, Norway |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

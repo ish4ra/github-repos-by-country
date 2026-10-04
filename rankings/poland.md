@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -52,5 +52,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [ochococo/Design-Patterns-In-Swift](https://github.com/ochococo/Design-Patterns-In-Swift) | **15,250** | Wrocław, Poland, Europe |
+| [tsayen/dom-to-image](https://github.com/tsayen/dom-to-image) | **10,774** | Wroclaw, Poland |
+| [tporadowski/redis](https://github.com/tporadowski/redis) | **10,271** | Bielsko-Biała, Poland |
+| [BartoszJarocki/cv](https://github.com/BartoszJarocki/cv) | **9,675** | Wrocław, Poland |
+| [koral--/android-gif-drawable](https://github.com/koral--/android-gif-drawable) | **9,644** | Wrocław, Poland |
+| [SoftwareBrothers/adminjs](https://github.com/SoftwareBrothers/adminjs) | **8,994** | Wrocław, Poland |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

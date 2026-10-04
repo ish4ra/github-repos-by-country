@@ -20,8 +20,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -31,5 +31,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [milanm/DevOps-Roadmap](https://github.com/milanm/DevOps-Roadmap) | **20,673** | Belgrade, Serbia |
 | [morhetz/gruvbox](https://github.com/morhetz/gruvbox) | **15,775** | Serbia, Belgrade |
+| [semaphoreui/semaphore](https://github.com/semaphoreui/semaphore) | **14,231** | Serbia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

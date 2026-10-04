@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [guillainbisimwa/bomoko-app](https://github.com/guillainbisimwa/bomoko-app) | **11** | DRC |
 | [kalemadaniel/gestion_stock_windev](https://github.com/kalemadaniel/gestion_stock_windev) | **11** | Democratic Republic of the Congo, Goma |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **8,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [cooderl/wewe-rss](https://github.com/cooderl/wewe-rss) | **9,657** | cd |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

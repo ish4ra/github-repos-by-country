@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **10**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **20**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -61,5 +61,15 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [gyoogle/tech-interview-for-developer](https://github.com/gyoogle/tech-interview-for-developer) | **17,601** | South Korea |
 | [lidge-jun/opencodex](https://github.com/lidge-jun/opencodex) | **16,880** | Seoul, South Korea |
 | [graykode/nlp-tutorial](https://github.com/graykode/nlp-tutorial) | **14,932** | Seoul, South Korea |
+| [davidshimjs/qrcodejs](https://github.com/davidshimjs/qrcodejs) | **14,315** | South Korea |
+| [abus-aikorea/voice-pro](https://github.com/abus-aikorea/voice-pro) | **12,969** | South Korea |
+| [gurugio/lowlevelprogramming-university](https://github.com/gurugio/lowlevelprogramming-university) | **12,754** | Seoul, South Korea |
+| [nhn/tui.calendar](https://github.com/nhn/tui.calendar) | **12,694** | Republic of Korea |
+| [0xk1h0/ChatGPT_DAN](https://github.com/0xk1h0/ChatGPT_DAN) | **12,540** | Daejeon, South Korea |
+| [toss/es-toolkit](https://github.com/toss/es-toolkit) | **11,357** | Seoul, South Korea |
+| [jojoldu/junior-recruit-scheduler](https://github.com/jojoldu/junior-recruit-scheduler) | **11,268** | Seoul |
+| [daybrush/moveable](https://github.com/daybrush/moveable) | **10,767** | Seongnam, Republic of Korea |
+| [revfactory/harness](https://github.com/revfactory/harness) | **9,114** | South Korea |
+| [utkuozbulak/pytorch-cnn-visualizations](https://github.com/utkuozbulak/pytorch-cnn-visualizations) | **8,236** | Incheon, South Korea |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **22**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -60,5 +60,16 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [cfenollosa/os-tutorial](https://github.com/cfenollosa/os-tutorial) | **30,743** | Barcelona, Spain |
 | [ai/nanoid](https://github.com/ai/nanoid) | **27,009** | Barcelona, Spain |
 | [Nyr/openvpn-install](https://github.com/Nyr/openvpn-install) | **20,648** | Spain |
+| [lgvalle/Material-Animations](https://github.com/lgvalle/Material-Animations) | **13,532** | Chiclana de la Frontera |
+| [LonamiWebs/Telethon](https://github.com/LonamiWebs/Telethon) | **12,063** | Spain |
+| [erikras/react-redux-universal-hot-example](https://github.com/erikras/react-redux-universal-hot-example) | **12,056** | Spain |
+| [mezod/awesome-indie](https://github.com/mezod/awesome-indie) | **11,839** | Barcelona, Catalonia |
+| [1995parham/github-do-not-ban-us](https://github.com/1995parham/github-do-not-ban-us) | **11,737** | Barcelona, Spain 🇪🇸  |
+| [kornia/kornia](https://github.com/kornia/kornia) | **11,398** | Spain |
+| [raulmur/ORB_SLAM2](https://github.com/raulmur/ORB_SLAM2) | **10,245** | Zaragoza, Spain |
+| [aliasrobotics/cai](https://github.com/aliasrobotics/cai) | **9,841** | Vitoria, Spain |
+| [erikras/ducks-modular-redux](https://github.com/erikras/ducks-modular-redux) | **9,536** | Spain |
+| [yagop/node-telegram-bot-api](https://github.com/yagop/node-telegram-bot-api) | **9,206** | Madrid, Spain |
+| [ai/easings.net](https://github.com/ai/easings.net) | **8,696** | Barcelona, Spain |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **17**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **45**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -68,5 +68,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [eriklindernoren/PyTorch-GAN](https://github.com/eriklindernoren/PyTorch-GAN) | **17,457** | Stockholm, Sweden |
 | [OptimalBits/bull](https://github.com/OptimalBits/bull) | **16,257** | Sweden |
 | [midday-ai/midday](https://github.com/midday-ai/midday) | **15,060** | Sweden |
+| [webrtc/samples](https://github.com/webrtc/samples) | **14,640** | Sweden |
+| [dexie/Dexie.js](https://github.com/dexie/Dexie.js) | **14,622** | Sweden |
+| [hrydgard/ppsspp](https://github.com/hrydgard/ppsspp) | **14,571** | Stockholm, Sweden |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

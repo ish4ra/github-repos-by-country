@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [tommcfarlin/WordPress-Widget-Boilerplate](https://github.com/tommcfarlin/WordPress-Widget-Boilerplate) | **996** | Atlanta, Georgia |
 | [secrary/InjectProc](https://github.com/secrary/InjectProc) | **992** | Georgia |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **8,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [databasus/databasus](https://github.com/databasus/databasus) | **8,735** | Tbilisi, Georgin |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

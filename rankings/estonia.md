@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -54,5 +54,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [AvaloniaUI/Avalonia](https://github.com/AvaloniaUI/Avalonia) | **31,619** | Estonia |
 | [nodemailer/nodemailer](https://github.com/nodemailer/nodemailer) | **17,684** | Tallinn, Estonia |
 | [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps) | **15,564** | Estonia |
+| [bxcodec/go-clean-arch](https://github.com/bxcodec/go-clean-arch) | **10,169** | Tallinn, Estonia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -52,5 +52,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [0xAX/linux-insides](https://github.com/0xAX/linux-insides) | **33,619** | Kazakhstan, Astana |
+| [henrypp/memreduct](https://github.com/henrypp/memreduct) | **10,703** | Almaty, Kazakhstan |
+| [henrypp/simplewall](https://github.com/henrypp/simplewall) | **9,099** | Almaty, Kazakhstan |
+| [MakazhanAlpamys/Soup](https://github.com/MakazhanAlpamys/Soup) | **8,073** | Astana, Kazakhstan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

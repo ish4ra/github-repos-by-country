@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -52,5 +52,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [HelloZeroNet/ZeroNet](https://github.com/HelloZeroNet/ZeroNet) | **18,768** | Budapest, Hungary |
+| [asciimoo/wuzz](https://github.com/asciimoo/wuzz) | **10,737** | Budapest, Hungary |
+| [pqoqubbw/icons](https://github.com/pqoqubbw/icons) | **8,164** | Hungary, Budapest |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

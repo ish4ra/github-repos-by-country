@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **18**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **45**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -69,5 +69,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) | **17,730** | Bangalore, India |
 | [The-Cool-Coders/Project-Ideas-And-Resources](https://github.com/The-Cool-Coders/Project-Ideas-And-Resources) | **16,886** | Bhubaneswar |
 | [hackiftekhar/IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager) | **16,624** | Chandametta, Madhya Pradesh, India |
+| [janishar/mit-deep-learning-book-pdf](https://github.com/janishar/mit-deep-learning-book-pdf) | **14,241** | New Delhi, India |
+| [originalankur/maptoposter](https://github.com/originalankur/maptoposter) | **14,178** | Bengaluru, India |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

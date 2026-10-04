@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [cloverstudio/Spika](https://github.com/cloverstudio/Spika) | **611** | Zagreb, Croatia |
 | [Martinsos/edlib](https://github.com/Martinsos/edlib) | **608** | Croatia |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **8,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [stamparm/maltrail](https://github.com/stamparm/maltrail) | **8,614** | Croatia |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

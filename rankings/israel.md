@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **11**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **26**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -62,5 +62,14 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [renovatebot/renovate](https://github.com/renovatebot/renovate) | **22,663** | Israel |
 | [teambit/bit](https://github.com/teambit/bit) | **18,493** | Israel |
 | [cool-RR/PySnooper](https://github.com/cool-RR/PySnooper) | **16,576** | Tel-Aviv, Israel |
+| [idank/explainshell](https://github.com/idank/explainshell) | **14,273** | Tel Aviv |
+| [yoavbls/pretty-ts-errors](https://github.com/yoavbls/pretty-ts-errors) | **14,096** | Israel |
+| [blaCCkHatHacEEkr/PENTESTING-BIBLE](https://github.com/blaCCkHatHacEEkr/PENTESTING-BIBLE) | **13,978** | israil |
+| [bolshchikov/js-must-watch](https://github.com/bolshchikov/js-must-watch) | **13,622** | Israel |
+| [jacobgil/pytorch-grad-cam](https://github.com/jacobgil/pytorch-grad-cam) | **12,990** | Israel |
+| [welldone-software/why-did-you-render](https://github.com/welldone-software/why-did-you-render) | **12,527** | Herzlia, Israel |
+| [elie222/inbox-zero](https://github.com/elie222/inbox-zero) | **12,404** | Tel Aviv, Israel |
+| [keephq/keep](https://github.com/keephq/keep) | **12,374** | Israel |
+| [hmemcpy/milewski-ctfp-pdf](https://github.com/hmemcpy/milewski-ctfp-pdf) | **11,695** | Israel |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

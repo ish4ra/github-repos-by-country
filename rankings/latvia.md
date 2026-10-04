@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -53,5 +53,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [ColorlibHQ/AdminLTE](https://github.com/ColorlibHQ/AdminLTE) | **45,635** | Latvia |
 | [ColorlibHQ/gentelella](https://github.com/ColorlibHQ/gentelella) | **21,534** | Latvia |
+| [healthchecks/healthchecks](https://github.com/healthchecks/healthchecks) | **10,381** | Valmiera, Latvia |
+| [wonderwhy-er/DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) | **9,904** | Riga |
+| [lauris/awesome-scala](https://github.com/lauris/awesome-scala) | **9,248** | Latvia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **8**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -56,5 +56,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Atlas-OS/Atlas](https://github.com/Atlas-OS/Atlas) | **21,745** | International |
 | [vxunderground/MalwareSourceCode](https://github.com/vxunderground/MalwareSourceCode) | **18,766** | International |
 | [audacity/audacity](https://github.com/audacity/audacity) | **18,642** | International |
+| [Intervention/image](https://github.com/Intervention/image) | **14,376** | International |
+| [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai) | **12,298** | United Arab Emirates |
+| [atlas-engineer/nyxt](https://github.com/atlas-engineer/nyxt) | **11,028** | International |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

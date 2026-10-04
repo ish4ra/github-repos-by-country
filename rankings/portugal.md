@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -52,5 +52,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [jonasschmedtmann/complete-javascript-course](https://github.com/jonasschmedtmann/complete-javascript-course) | **17,259** | Faro, Portugal |
+| [filp/whoops](https://github.com/filp/whoops) | **13,231** | Lisbon, Portugal |
+| [Heroic-Games-Launcher/HeroicGamesLauncher](https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher) | **12,340** | Portugal |
+| [dwyl/english-words](https://github.com/dwyl/english-words) | **12,300** | Portugal |
+| [mxssl/sre-interview-prep-guide](https://github.com/mxssl/sre-interview-prep-guide) | **9,205** | Portugal |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

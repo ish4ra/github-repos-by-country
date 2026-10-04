@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -53,5 +53,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [gto76/python-cheatsheet](https://github.com/gto76/python-cheatsheet) | **38,695** | Ljubljana |
 | [decaporg/decap-cms](https://github.com/decaporg/decap-cms) | **19,409** | Slovenia |
+| [aksonov/react-native-router-flux](https://github.com/aksonov/react-native-router-flux) | **8,913** | Koper, Slovenia |
+| [Niko1221/Strata](https://github.com/Niko1221/Strata) | **8,741** | Ljubljana, 🇸🇮 |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

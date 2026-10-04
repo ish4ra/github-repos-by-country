@@ -1,0 +1,3440 @@
+{
+  "schemaVersion": 1,
+  "methodologyVersion": "0.8.0-repository-first",
+  "generatedAt": "2026-10-04T04:17:35.006Z",
+  "country": {
+    "code": "DE",
+    "name": "Germany",
+    "slug": "germany"
+  },
+  "source": {
+    "provider": "GitHub GraphQL API",
+    "endpoint": "https://api.github.com/graphql",
+    "countryBasis": "public repository-owner profile location",
+    "discovery": "global repositories scanned by stars descending"
+  },
+  "coverage": {
+    "status": "repository-first-certified-by-star-frontier",
+    "exhaustive": false,
+    "rawOwnerHits": 7444,
+    "acceptedUniqueOwners": 93,
+    "ownerMetricLabel": "Unique owners in top ranking",
+    "repositoriesConsidered": 125,
+    "publishedRepositories": 100,
+    "candidateThresholdStars": 9745,
+    "rankingLimit": 100,
+    "cappedQueries": [],
+    "repositoryFirst": {
+      "scanFrontierStars": 8078,
+      "topObservedStars": 551406,
+      "repositoriesSeen": 7444,
+      "attributedRepositories": 2532,
+      "ambiguousLocations": 1021,
+      "unknownLocations": 3891,
+      "unresolvedStarCounts": []
+    },
+    "notes": [
+      "Repositories are scanned globally in descending star ranges, independently of owner follower count or owner-search ordering.",
+      "A country is certified only after its 100th repository has more stars than every unprocessed global star range.",
+      "Owner country is inferred from the owner public GitHub profile location using the global geography resolver.",
+      "Owners with missing or unresolved locations are excluded, so country attribution is not a citizenship or legal-incorporation claim.",
+      "Compound city/admin locations such as \"Portland, OR\" are resolved before ambiguous city-only names."
+    ]
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "n8n",
+      "nameWithOwner": "n8n-io/n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "stars": 206590,
+      "forks": 60988,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2019-06-22T09:24:21Z",
+      "pushedAt": "2026-10-03T22:16:11Z",
+      "homepageUrl": "https://n8n.io",
+      "archived": false,
+      "owner": {
+        "login": "n8n-io",
+        "name": "n8n - Workflow Automation",
+        "type": "Organization",
+        "url": "https://github.com/n8n-io",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45487711?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 2,
+      "name": "localsend",
+      "nameWithOwner": "localsend/localsend",
+      "url": "https://github.com/localsend/localsend",
+      "description": "An open-source cross-platform alternative to AirDrop",
+      "stars": 93291,
+      "forks": 5221,
+      "primaryLanguage": "Dart",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2022-12-16T00:46:07Z",
+      "pushedAt": "2026-10-03T01:39:52Z",
+      "homepageUrl": "https://localsend.org",
+      "archived": false,
+      "owner": {
+        "login": "localsend",
+        "name": "LocalSend",
+        "type": "Organization",
+        "url": "https://github.com/localsend",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/120677616?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 3,
+      "name": "taste-skill",
+      "nameWithOwner": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop ",
+      "stars": 92359,
+      "forks": 6268,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-02-19T21:44:05Z",
+      "pushedAt": "2026-09-26T09:01:50Z",
+      "homepageUrl": "https://tasteskill.dev",
+      "archived": false,
+      "owner": {
+        "login": "Leonxlnx",
+        "name": "Leon Lin",
+        "type": "User",
+        "url": "https://github.com/Leonxlnx",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/219127460?u=bbc1e8eb0abd903cb50f88b3418b64b34343c936&v=4",
+        "location": "Munich",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "munich"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 4,
+      "name": "FiraCode",
+      "nameWithOwner": "tonsky/FiraCode",
+      "url": "https://github.com/tonsky/FiraCode",
+      "description": "Free monospaced font with programming ligatures",
+      "stars": 82086,
+      "forks": 3189,
+      "primaryLanguage": "Clojure",
+      "license": {
+        "name": "SIL Open Font License 1.1",
+        "spdxId": "OFL-1.1"
+      },
+      "createdAt": "2014-11-11T19:32:38Z",
+      "pushedAt": "2026-07-28T17:02:16Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "tonsky",
+        "name": "Nikita Prokopov",
+        "type": "User",
+        "url": "https://github.com/tonsky",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/285292?u=54e5dcf881cd4df71c1dc13b61c840e95191ac34&v=4",
+        "location": "Berlin, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 5,
+      "name": "tabby",
+      "nameWithOwner": "Eugeny/tabby",
+      "url": "https://github.com/Eugeny/tabby",
+      "description": "A terminal for a more modern age",
+      "stars": 74794,
+      "forks": 4276,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-12-23T09:06:10Z",
+      "pushedAt": "2026-09-29T04:03:14Z",
+      "homepageUrl": "https://tabby.sh",
+      "archived": false,
+      "owner": {
+        "login": "Eugeny",
+        "name": "Eugene",
+        "type": "User",
+        "url": "https://github.com/Eugeny",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/161476?u=4604ee9193de2a5d7ec842bff0e1bce408d63a0a&v=4",
+        "location": "Düsseldorf, DE",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "dusseldorf"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 6,
+      "name": "stable-diffusion",
+      "nameWithOwner": "CompVis/stable-diffusion",
+      "url": "https://github.com/CompVis/stable-diffusion",
+      "description": "A latent text-to-image diffusion model",
+      "stars": 73491,
+      "forks": 10561,
+      "primaryLanguage": "Jupyter Notebook",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2022-08-10T14:36:44Z",
+      "pushedAt": "2024-06-18T01:53:49Z",
+      "homepageUrl": "https://ommer-lab.com/research/latent-diffusion-models/",
+      "archived": false,
+      "owner": {
+        "login": "CompVis",
+        "name": "CompVis - Computer Vision and Learning LMU Munich",
+        "type": "Organization",
+        "url": "https://github.com/CompVis",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30233788?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 7,
+      "name": "bat",
+      "nameWithOwner": "sharkdp/bat",
+      "url": "https://github.com/sharkdp/bat",
+      "description": "A cat(1) clone with wings.",
+      "stars": 60661,
+      "forks": 3256,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-04-21T10:52:23Z",
+      "pushedAt": "2026-10-01T02:13:11Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "sharkdp",
+        "name": "David Peter",
+        "type": "User",
+        "url": "https://github.com/sharkdp",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4209276?u=e6c4022c315b6cbecd5968ec256f4b02885eba41&v=4",
+        "location": "Stuttgart, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 8,
+      "name": "json",
+      "nameWithOwner": "nlohmann/json",
+      "url": "https://github.com/nlohmann/json",
+      "description": "JSON for Modern C++",
+      "stars": 50719,
+      "forks": 7510,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-07-04T08:47:49Z",
+      "pushedAt": "2026-10-03T07:11:02Z",
+      "homepageUrl": "https://json.nlohmann.me",
+      "archived": false,
+      "owner": {
+        "login": "nlohmann",
+        "name": "Niels Lohmann",
+        "type": "User",
+        "url": "https://github.com/nlohmann",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/159488?u=7d63c3efe48fc8c84dd1219413787f2acc8aab63&v=4",
+        "location": "Berlin, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 9,
+      "name": "mastodon",
+      "nameWithOwner": "mastodon/mastodon",
+      "url": "https://github.com/mastodon/mastodon",
+      "description": "Your self-hosted, globally interconnected microblogging community",
+      "stars": 50344,
+      "forks": 7504,
+      "primaryLanguage": "Ruby",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2016-02-22T15:01:25Z",
+      "pushedAt": "2026-10-04T00:24:12Z",
+      "homepageUrl": "https://joinmastodon.org",
+      "archived": false,
+      "owner": {
+        "login": "mastodon",
+        "name": "Mastodon",
+        "type": "Organization",
+        "url": "https://github.com/mastodon",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24979032?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 10,
+      "name": "awesome-react-components",
+      "nameWithOwner": "brillout/awesome-react-components",
+      "url": "https://github.com/brillout/awesome-react-components",
+      "description": "Curated List of React Components & Libraries.",
+      "stars": 48546,
+      "forks": 3851,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdxId": "CC0-1.0"
+      },
+      "createdAt": "2016-06-24T15:19:33Z",
+      "pushedAt": "2026-01-26T16:36:45Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "brillout",
+        "name": "Rom",
+        "type": "User",
+        "url": "https://github.com/brillout",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1005638?u=ab2e494458f2c4e810438e4250359146524b0376&v=4",
+        "location": "Germany, Munich",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 11,
+      "name": "fd",
+      "nameWithOwner": "sharkdp/fd",
+      "url": "https://github.com/sharkdp/fd",
+      "description": "A simple, fast and user-friendly alternative to 'find'",
+      "stars": 44631,
+      "forks": 1150,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2017-05-09T21:27:10Z",
+      "pushedAt": "2026-10-03T00:50:00Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "sharkdp",
+        "name": "David Peter",
+        "type": "User",
+        "url": "https://github.com/sharkdp",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4209276?u=e6c4022c315b6cbecd5968ec256f4b02885eba41&v=4",
+        "location": "Stuttgart, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 12,
+      "name": "photoprism",
+      "nameWithOwner": "photoprism/photoprism",
+      "url": "https://github.com/photoprism/photoprism",
+      "description": "AI-Powered Photos App 🌈💎✨",
+      "stars": 40271,
+      "forks": 2330,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2018-01-27T12:00:15Z",
+      "pushedAt": "2026-10-03T18:41:38Z",
+      "homepageUrl": "https://www.photoprism.app",
+      "archived": false,
+      "owner": {
+        "login": "photoprism",
+        "name": "PhotoPrism",
+        "type": "Organization",
+        "url": "https://github.com/photoprism",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32436079?v=4",
+        "location": "Berlin, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 13,
+      "name": "tiptap",
+      "nameWithOwner": "ueberdosis/tiptap",
+      "url": "https://github.com/ueberdosis/tiptap",
+      "description": "The headless rich text editor framework for web artisans.",
+      "stars": 38634,
+      "forks": 3146,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-08-20T19:58:58Z",
+      "pushedAt": "2026-10-02T15:22:30Z",
+      "homepageUrl": "https://tiptap.dev",
+      "archived": false,
+      "owner": {
+        "login": "ueberdosis",
+        "name": "Tiptap",
+        "type": "Organization",
+        "url": "https://github.com/ueberdosis",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16939337?v=4",
+        "location": "Berlin, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 14,
+      "name": "Open-Assistant",
+      "nameWithOwner": "LAION-AI/Open-Assistant",
+      "url": "https://github.com/LAION-AI/Open-Assistant",
+      "description": "OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so.",
+      "stars": 37387,
+      "forks": 3277,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2022-12-13T05:24:17Z",
+      "pushedAt": "2024-08-17T01:55:35Z",
+      "homepageUrl": "https://open-assistant.io",
+      "archived": false,
+      "owner": {
+        "login": "LAION-AI",
+        "name": "LAION AI",
+        "type": "Organization",
+        "url": "https://github.com/LAION-AI",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92627801?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 15,
+      "name": "qdrant",
+      "nameWithOwner": "qdrant/qdrant",
+      "url": "https://github.com/qdrant/qdrant",
+      "description": "Qdrant - High-performance, massive-scale Vector Database and Vector Search Engine for the next generation of AI. Also available in the cloud https://cloud.qdrant.io/",
+      "stars": 34921,
+      "forks": 2726,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2020-05-30T21:37:01Z",
+      "pushedAt": "2026-10-03T19:33:56Z",
+      "homepageUrl": "https://qdrant.tech",
+      "archived": false,
+      "owner": {
+        "login": "qdrant",
+        "name": "Qdrant",
+        "type": "Organization",
+        "url": "https://github.com/qdrant",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73504361?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 16,
+      "name": "spaCy",
+      "nameWithOwner": "explosion/spaCy",
+      "url": "https://github.com/explosion/spaCy",
+      "description": "💫 Industrial-strength Natural Language Processing (NLP) in Python",
+      "stars": 33935,
+      "forks": 4734,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-07-03T15:15:40Z",
+      "pushedAt": "2026-09-30T08:13:41Z",
+      "homepageUrl": "https://spacy.io",
+      "archived": false,
+      "owner": {
+        "login": "explosion",
+        "name": "Explosion",
+        "type": "Organization",
+        "url": "https://github.com/explosion",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20011530?v=4",
+        "location": "Berlin, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 17,
+      "name": "AI-Expert-Roadmap",
+      "nameWithOwner": "AMAI-GmbH/AI-Expert-Roadmap",
+      "url": "https://github.com/AMAI-GmbH/AI-Expert-Roadmap",
+      "description": "Roadmap to becoming an Artificial Intelligence Expert in 2022",
+      "stars": 31281,
+      "forks": 2587,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-10-24T21:49:40Z",
+      "pushedAt": "2025-09-12T14:59:30Z",
+      "homepageUrl": "https://i.am.ai/roadmap",
+      "archived": false,
+      "owner": {
+        "login": "AMAI-GmbH",
+        "name": "AMAI GmbH",
+        "type": "Organization",
+        "url": "https://github.com/AMAI-GmbH",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54247845?v=4",
+        "location": "Karlsruhe, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 18,
+      "name": "awesome-macos-command-line",
+      "nameWithOwner": "herrbischoff/awesome-macos-command-line",
+      "url": "https://github.com/herrbischoff/awesome-macos-command-line",
+      "description": "Use your macOS terminal shell to do awesome things.",
+      "stars": 30958,
+      "forks": 1426,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2015-09-22T19:37:55Z",
+      "pushedAt": "2026-03-04T11:01:49Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "herrbischoff",
+        "name": "Marcel Bischoff",
+        "type": "User",
+        "url": "https://github.com/herrbischoff",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8957346?v=4",
+        "location": "Hamburg, Germany, Earth (Sol)",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 19,
+      "name": "serena",
+      "nameWithOwner": "oraios/serena",
+      "url": "https://github.com/oraios/serena",
+      "description": "A powerful MCP toolkit for coding, providing semantic retrieval and editing capabilities  - the IDE for your agent",
+      "stars": 29967,
+      "forks": 2041,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2025-03-23T22:35:24Z",
+      "pushedAt": "2026-09-30T21:03:51Z",
+      "homepageUrl": "https://oraios.github.io/serena",
+      "archived": false,
+      "owner": {
+        "login": "oraios",
+        "name": "Oraios AI",
+        "type": "Organization",
+        "url": "https://github.com/oraios",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/181485370?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 20,
+      "name": "netbird",
+      "nameWithOwner": "netbirdio/netbird",
+      "url": "https://github.com/netbirdio/netbird",
+      "description": "Connect your devices, users, and agents into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.",
+      "stars": 29725,
+      "forks": 1729,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2021-04-14T12:27:20Z",
+      "pushedAt": "2026-10-03T11:04:11Z",
+      "homepageUrl": "https://netbird.io",
+      "archived": false,
+      "owner": {
+        "login": "netbirdio",
+        "name": "netbirdio",
+        "type": "Organization",
+        "url": "https://github.com/netbirdio",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/100464677?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 21,
+      "name": "composer",
+      "nameWithOwner": "composer/composer",
+      "url": "https://github.com/composer/composer",
+      "description": "Dependency Manager for PHP",
+      "stars": 29539,
+      "forks": 4843,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2011-06-08T08:53:00Z",
+      "pushedAt": "2026-10-03T20:27:53Z",
+      "homepageUrl": "https://getcomposer.org/",
+      "archived": false,
+      "owner": {
+        "login": "composer",
+        "name": "Composer",
+        "type": "Organization",
+        "url": "https://github.com/composer",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/837015?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 22,
+      "name": "hyperfine",
+      "nameWithOwner": "sharkdp/hyperfine",
+      "url": "https://github.com/sharkdp/hyperfine",
+      "description": "A command-line benchmarking tool",
+      "stars": 28939,
+      "forks": 516,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-01-13T15:49:54Z",
+      "pushedAt": "2026-10-02T10:22:29Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "sharkdp",
+        "name": "David Peter",
+        "type": "User",
+        "url": "https://github.com/sharkdp",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4209276?u=e6c4022c315b6cbecd5968ec256f4b02885eba41&v=4",
+        "location": "Stuttgart, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 23,
+      "name": "linkedin-skill-assessments-quizzes",
+      "nameWithOwner": "Ebazhanov/linkedin-skill-assessments-quizzes",
+      "url": "https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes",
+      "description": "Full reference of LinkedIn answers 2024 for skill assessments (aws-lambda, rest-api, javascript, react, git, html, jquery, mongodb, java, Go, python, machine-learning, power-point) linkedin excel test lösungen, linkedin machine learning test LinkedIn test questions and answers ",
+      "stars": 28854,
+      "forks": 12876,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2019-07-13T19:52:56Z",
+      "pushedAt": "2026-08-29T17:24:40Z",
+      "homepageUrl": "https://ebazhanov.github.io/linkedin-skill-assessments-quizzes/",
+      "archived": false,
+      "owner": {
+        "login": "Ebazhanov",
+        "name": "Evgenii Bazhanov",
+        "type": "User",
+        "url": "https://github.com/Ebazhanov",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13170022?u=fa0256f26c51ca42f0f69473b315f2f211902278&v=4",
+        "location": "Deutschland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "deutschland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 24,
+      "name": "dns-blocklists",
+      "nameWithOwner": "hagezi/dns-blocklists",
+      "url": "https://github.com/hagezi/dns-blocklists",
+      "description": "DNS-Blocklists: For a better internet - keep the internet clean!",
+      "stars": 27069,
+      "forks": 823,
+      "primaryLanguage": "Text",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2022-04-25T07:13:09Z",
+      "pushedAt": "2026-10-03T09:38:25Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "hagezi",
+        "name": "Gerd",
+        "type": "User",
+        "url": "https://github.com/hagezi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/104343908?u=6f359ce3f632143073ab24b3bc26f5f7ed0f5256&v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 25,
+      "name": "haystack",
+      "nameWithOwner": "deepset-ai/haystack",
+      "url": "https://github.com/deepset-ai/haystack",
+      "description": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.",
+      "stars": 26647,
+      "forks": 3228,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2019-11-14T09:05:28Z",
+      "pushedAt": "2026-10-02T15:30:35Z",
+      "homepageUrl": "https://haystack.deepset.ai",
+      "archived": false,
+      "owner": {
+        "login": "deepset-ai",
+        "name": "deepset",
+        "type": "Organization",
+        "url": "https://github.com/deepset-ai",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51827949?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 26,
+      "name": "modern-cpp-tutorial",
+      "nameWithOwner": "changkun/modern-cpp-tutorial",
+      "url": "https://github.com/changkun/modern-cpp-tutorial",
+      "description": "📚 Modern C++ Tutorial: C++11 to C++26 On the Fly | https://changkun.de/modern-cpp/",
+      "stars": 25863,
+      "forks": 3123,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-08-19T14:39:15Z",
+      "pushedAt": "2026-06-21T10:12:26Z",
+      "homepageUrl": "https://changkun.de/modern-cpp/",
+      "archived": false,
+      "owner": {
+        "login": "changkun",
+        "name": "Changkun Ou",
+        "type": "User",
+        "url": "https://github.com/changkun",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5498964?u=065ae5d22335867454a4677c5ded2ba1e061b764&v=4",
+        "location": "Munich, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 27,
+      "name": "pytorch_geometric",
+      "nameWithOwner": "pyg-team/pytorch_geometric",
+      "url": "https://github.com/pyg-team/pytorch_geometric",
+      "description": "Graph Neural Network Library for PyTorch",
+      "stars": 24104,
+      "forks": 4067,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-10-06T16:03:03Z",
+      "pushedAt": "2026-09-29T17:21:23Z",
+      "homepageUrl": "https://pyg.org",
+      "archived": false,
+      "owner": {
+        "login": "pyg-team",
+        "name": "PyG",
+        "type": "Organization",
+        "url": "https://github.com/pyg-team",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89995122?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 28,
+      "name": "slint",
+      "nameWithOwner": "slint-ui/slint",
+      "url": "https://github.com/slint-ui/slint",
+      "description": "Slint is an open-source declarative GUI toolkit to build native user interfaces for Rust, C++, JavaScript, or Python apps.",
+      "stars": 24052,
+      "forks": 1016,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2020-05-04T08:53:03Z",
+      "pushedAt": "2026-10-03T14:45:20Z",
+      "homepageUrl": "https://slint.dev",
+      "archived": false,
+      "owner": {
+        "login": "slint-ui",
+        "name": "Slint",
+        "type": "Organization",
+        "url": "https://github.com/slint-ui",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64742117?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 29,
+      "name": "rxdb",
+      "nameWithOwner": "pubkey/rxdb",
+      "url": "https://github.com/pubkey/rxdb",
+      "description": "The local-first database that runs on every JS runtime and replicates with your existing backend - no vendor, no lock-in - https://rxdb.info/",
+      "stars": 23398,
+      "forks": 1176,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2016-12-02T19:34:42Z",
+      "pushedAt": "2026-10-03T21:09:36Z",
+      "homepageUrl": "https://rxdb.info/",
+      "archived": false,
+      "owner": {
+        "login": "pubkey",
+        "name": "Daniel Meyer",
+        "type": "User",
+        "url": "https://github.com/pubkey",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8926560?u=1666a345553ac5ce9f5cca69146500229e552caf&v=4",
+        "location": "Stuttgart, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 30,
+      "name": "backtrader",
+      "nameWithOwner": "mementum/backtrader",
+      "url": "https://github.com/mementum/backtrader",
+      "description": "Python Backtesting library for trading strategies",
+      "stars": 23386,
+      "forks": 5295,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2015-01-10T07:14:52Z",
+      "pushedAt": "2024-08-19T17:47:36Z",
+      "homepageUrl": "https://www.backtrader.com",
+      "archived": false,
+      "owner": {
+        "login": "mementum",
+        "name": "DRo",
+        "type": "User",
+        "url": "https://github.com/mementum",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5713511?v=4",
+        "location": "Munich, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 31,
+      "name": "NLP-progress",
+      "nameWithOwner": "sebastianruder/NLP-progress",
+      "url": "https://github.com/sebastianruder/NLP-progress",
+      "description": "Repository to track the progress in Natural Language Processing (NLP), including the datasets and the current state-of-the-art for the most common NLP tasks.",
+      "stars": 22950,
+      "forks": 3592,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-06-22T17:43:55Z",
+      "pushedAt": "2024-07-28T00:44:25Z",
+      "homepageUrl": "https://nlpprogress.com/",
+      "archived": false,
+      "owner": {
+        "login": "sebastianruder",
+        "name": "Sebastian Ruder",
+        "type": "User",
+        "url": "https://github.com/sebastianruder",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6792642?u=e2cee389723f50613827b20e01dbf262646ab9bc&v=4",
+        "location": "Berlin, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 32,
+      "name": "yjs",
+      "nameWithOwner": "yjs/yjs",
+      "url": "https://github.com/yjs/yjs",
+      "description": "Shared data types for building collaborative software",
+      "stars": 22875,
+      "forks": 808,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2014-07-29T19:29:45Z",
+      "pushedAt": "2026-10-03T16:24:06Z",
+      "homepageUrl": "https://docs.yjs.dev",
+      "archived": false,
+      "owner": {
+        "login": "yjs",
+        "name": "Yjs",
+        "type": "Organization",
+        "url": "https://github.com/yjs",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45042178?v=4",
+        "location": "Germany, Berlin",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 33,
+      "name": "super-productivity",
+      "nameWithOwner": "super-productivity/super-productivity",
+      "url": "https://github.com/super-productivity/super-productivity",
+      "description": "Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities. It also comes with integrations for Jira, GitLab, GitHub and Open Project.",
+      "stars": 22521,
+      "forks": 2118,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-01-06T22:30:58Z",
+      "pushedAt": "2026-10-03T22:00:59Z",
+      "homepageUrl": "http://super-productivity.com?ref=github",
+      "archived": false,
+      "owner": {
+        "login": "super-productivity",
+        "name": "Super Productivity Org",
+        "type": "Organization",
+        "url": "https://github.com/super-productivity",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/215719836?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 34,
+      "name": "gitbutler",
+      "nameWithOwner": "gitbutlerapp/gitbutler",
+      "url": "https://github.com/gitbutlerapp/gitbutler",
+      "description": "The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte",
+      "stars": 21775,
+      "forks": 1026,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2023-01-31T14:56:22Z",
+      "pushedAt": "2026-10-04T02:36:30Z",
+      "homepageUrl": "https://gitbutler.com",
+      "archived": false,
+      "owner": {
+        "login": "gitbutlerapp",
+        "name": "GitButler",
+        "type": "Organization",
+        "url": "https://github.com/gitbutlerapp",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/123460877?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 35,
+      "name": "phpunit",
+      "nameWithOwner": "sebastianbergmann/phpunit",
+      "url": "https://github.com/sebastianbergmann/phpunit",
+      "description": "The PHP Unit Testing framework.",
+      "stars": 20062,
+      "forks": 2212,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2009-12-24T13:16:23Z",
+      "pushedAt": "2026-10-03T14:31:39Z",
+      "homepageUrl": "https://phpunit.de/",
+      "archived": false,
+      "owner": {
+        "login": "sebastianbergmann",
+        "name": "Sebastian Bergmann",
+        "type": "User",
+        "url": "https://github.com/sebastianbergmann",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25218?u=0014b08b5033eac3391c0a64e1ccdf91c5f54cfa&v=4",
+        "location": "Siegburg, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 36,
+      "name": "gallery-dl",
+      "nameWithOwner": "mikf/gallery-dl",
+      "url": "https://github.com/mikf/gallery-dl",
+      "description": "Command-line program to download image galleries and collections from several image hosting sites",
+      "stars": 19931,
+      "forks": 1499,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "spdxId": "GPL-2.0"
+      },
+      "createdAt": "2014-10-12T19:38:05Z",
+      "pushedAt": "2026-10-03T15:53:11Z",
+      "homepageUrl": "https://discord.gg/rSzQwRvGnE",
+      "archived": false,
+      "owner": {
+        "login": "mikf",
+        "name": "Mike Fährmann",
+        "type": "User",
+        "url": "https://github.com/mikf",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5375314?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 37,
+      "name": "skrollr",
+      "nameWithOwner": "Prinzhorn/skrollr",
+      "url": "https://github.com/Prinzhorn/skrollr",
+      "description": "Stand-alone parallax scrolling library for mobile (Android + iOS) and desktop. No jQuery. Just plain JavaScript (and some love).",
+      "stars": 18404,
+      "forks": 3384,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2012-03-18T15:41:35Z",
+      "pushedAt": "2018-01-23T20:05:59Z",
+      "homepageUrl": "http://prinzhorn.github.io/skrollr/",
+      "archived": true,
+      "owner": {
+        "login": "Prinzhorn",
+        "name": "Alexander Prinzhorn",
+        "type": "User",
+        "url": "https://github.com/Prinzhorn",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/679144?u=4d06474e4c8f395958438999aab2650951364aa9&v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 38,
+      "name": "dxvk",
+      "nameWithOwner": "doitsujin/dxvk",
+      "url": "https://github.com/doitsujin/dxvk",
+      "description": "Vulkan-based implementation of D3D8, 9, 10 and 11 for Linux / Wine",
+      "stars": 18211,
+      "forks": 1268,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "zlib License",
+        "spdxId": "Zlib"
+      },
+      "createdAt": "2017-10-11T13:34:29Z",
+      "pushedAt": "2026-10-02T14:38:24Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "doitsujin",
+        "name": "Philip Rebohle",
+        "type": "User",
+        "url": "https://github.com/doitsujin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25567304?u=e753c1eafb0e81504b6ab74883303565cdfa66b2&v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 39,
+      "name": "arnis",
+      "nameWithOwner": "louis-e/arnis",
+      "url": "https://github.com/louis-e/arnis",
+      "description": "Generate any location from the real world in Minecraft with a high level of detail.",
+      "stars": 18137,
+      "forks": 1518,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2022-09-10T13:42:29Z",
+      "pushedAt": "2026-10-03T22:34:57Z",
+      "homepageUrl": "https://arnismc.com/",
+      "archived": false,
+      "owner": {
+        "login": "louis-e",
+        "name": "Louis Erbkamm",
+        "type": "User",
+        "url": "https://github.com/louis-e",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44675238?u=146dd5650946a7b4adf60849b73182a11701d8e8&v=4",
+        "location": "Bavaria // Munich",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bavaria"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 40,
+      "name": "face-api.js",
+      "nameWithOwner": "justadudewhohacks/face-api.js",
+      "url": "https://github.com/justadudewhohacks/face-api.js",
+      "description": "JavaScript API for face detection and face recognition in the browser and nodejs with tensorflow.js",
+      "stars": 17974,
+      "forks": 3878,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-05-19T06:14:53Z",
+      "pushedAt": "2024-01-24T09:25:35Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "justadudewhohacks",
+        "name": "Vincent Mühler",
+        "type": "User",
+        "url": "https://github.com/justadudewhohacks",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31125521?u=680c04295f02652da4e5687017a7022d0c9adbae&v=4",
+        "location": "Berlin, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 41,
+      "name": "blog_os",
+      "nameWithOwner": "phil-opp/blog_os",
+      "url": "https://github.com/phil-opp/blog_os",
+      "description": "Writing an OS in Rust",
+      "stars": 17760,
+      "forks": 1205,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2015-07-23T15:23:54Z",
+      "pushedAt": "2026-08-07T16:50:50Z",
+      "homepageUrl": "http://os.phil-opp.com",
+      "archived": false,
+      "owner": {
+        "login": "phil-opp",
+        "name": "Philipp Oppermann",
+        "type": "User",
+        "url": "https://github.com/phil-opp",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1131315?v=4",
+        "location": "Karlsruhe, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 42,
+      "name": "hydra",
+      "nameWithOwner": "ory/hydra",
+      "url": "https://github.com/ory/hydra",
+      "description": "Internet-scale OpenID Certified™ OpenID Connect and OAuth2.1 provider that integrates with your user management through headless APIs. Solve OIDC/OAuth2 user cases over night. Consume as a service on Ory Network or self-host. Trusted by OpenAI and many others for scale and security. Written in Go.",
+      "stars": 17587,
+      "forks": 1607,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2015-05-22T12:42:08Z",
+      "pushedAt": "2026-07-29T09:30:11Z",
+      "homepageUrl": "https://www.ory.com/?utm_source=github&utm_medium=banner&utm_campaign=hydra",
+      "archived": false,
+      "owner": {
+        "login": "ory",
+        "name": "Ory",
+        "type": "Organization",
+        "url": "https://github.com/ory",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25334553?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 43,
+      "name": "PHP-Parser",
+      "nameWithOwner": "nikic/PHP-Parser",
+      "url": "https://github.com/nikic/PHP-Parser",
+      "description": "A PHP parser written in PHP",
+      "stars": 17469,
+      "forks": 1136,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2011-04-18T17:03:47Z",
+      "pushedAt": "2026-09-30T09:52:56Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "nikic",
+        "name": "Nikita Popov",
+        "type": "User",
+        "url": "https://github.com/nikic",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/216080?v=4",
+        "location": "Berlin, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 44,
+      "name": "httprouter",
+      "nameWithOwner": "julienschmidt/httprouter",
+      "url": "https://github.com/julienschmidt/httprouter",
+      "description": "A high performance HTTP request router that scales well",
+      "stars": 17133,
+      "forks": 1463,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2013-12-05T15:10:55Z",
+      "pushedAt": "2024-07-22T10:31:53Z",
+      "homepageUrl": "https://pkg.go.dev/github.com/julienschmidt/httprouter",
+      "archived": false,
+      "owner": {
+        "login": "julienschmidt",
+        "name": "Julien Schmidt",
+        "type": "User",
+        "url": "https://github.com/julienschmidt",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/944947?u=d89b2fb0f9341390f25aa1e3c988337ba81efb8f&v=4",
+        "location": "Cologne, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 45,
+      "name": "mustache.js",
+      "nameWithOwner": "janl/mustache.js",
+      "url": "https://github.com/janl/mustache.js",
+      "description": "Minimal templating with {{mustaches}} in JavaScript",
+      "stars": 16720,
+      "forks": 2340,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2009-10-04T23:41:19Z",
+      "pushedAt": "2024-06-14T19:54:48Z",
+      "homepageUrl": "https://mustache.github.io",
+      "archived": false,
+      "owner": {
+        "login": "janl",
+        "name": "Jan Lehnardt",
+        "type": "User",
+        "url": "https://github.com/janl",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11321?v=4",
+        "location": "Berlin, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 46,
+      "name": "LaTeX-OCR",
+      "nameWithOwner": "lukas-blecher/LaTeX-OCR",
+      "url": "https://github.com/lukas-blecher/LaTeX-OCR",
+      "description": "pix2tex: Using a ViT to convert images of equations into LaTeX code.",
+      "stars": 16580,
+      "forks": 1311,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-12-11T16:35:13Z",
+      "pushedAt": "2025-01-18T15:23:58Z",
+      "homepageUrl": "https://lukas-blecher.github.io/LaTeX-OCR/",
+      "archived": false,
+      "owner": {
+        "login": "lukas-blecher",
+        "name": "Lukas Blecher",
+        "type": "User",
+        "url": "https://github.com/lukas-blecher",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55287601?u=b3adaf47228e4dfa5b6a115c4763e59a556e3032&v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 47,
+      "name": "best-resume-ever",
+      "nameWithOwner": "salomonelli/best-resume-ever",
+      "url": "https://github.com/salomonelli/best-resume-ever",
+      "description": ":necktie: :briefcase: Build fast :rocket: and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.",
+      "stars": 16482,
+      "forks": 2264,
+      "primaryLanguage": "Vue",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-01-30T23:02:00Z",
+      "pushedAt": "2024-06-11T19:09:25Z",
+      "homepageUrl": "https://salomonelli.github.io/best-resume-ever",
+      "archived": false,
+      "owner": {
+        "login": "salomonelli",
+        "name": "Sara Steiert",
+        "type": "User",
+        "url": "https://github.com/salomonelli",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12084165?v=4",
+        "location": "Stuttgart, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 48,
+      "name": "crypto-js",
+      "nameWithOwner": "brix/crypto-js",
+      "url": "https://github.com/brix/crypto-js",
+      "description": "JavaScript library of crypto standards.",
+      "stars": 16407,
+      "forks": 2491,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2013-04-08T20:16:40Z",
+      "pushedAt": "2024-08-09T08:16:59Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "brix",
+        "name": "Brix",
+        "type": "Organization",
+        "url": "https://github.com/brix",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8963996?v=4",
+        "location": "Berlin, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 49,
+      "name": "nicegui",
+      "nameWithOwner": "zauberzeug/nicegui",
+      "url": "https://github.com/zauberzeug/nicegui",
+      "description": "Create web-based user interfaces with Python. The nice way.",
+      "stars": 16268,
+      "forks": 954,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-05-07T13:55:05Z",
+      "pushedAt": "2026-10-03T20:53:47Z",
+      "homepageUrl": "https://nicegui.io",
+      "archived": false,
+      "owner": {
+        "login": "zauberzeug",
+        "name": "Zauberzeug GmbH",
+        "type": "Organization",
+        "url": "https://github.com/zauberzeug",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2843826?v=4",
+        "location": "Münsterland, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 50,
+      "name": "cryptomator",
+      "nameWithOwner": "cryptomator/cryptomator",
+      "url": "https://github.com/cryptomator/cryptomator",
+      "description": "Cryptomator for Windows, macOS, and Linux: Secure client-side encryption for your cloud storage, ensuring privacy and control over your data.",
+      "stars": 16242,
+      "forks": 1546,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2014-02-02T00:43:47Z",
+      "pushedAt": "2026-10-01T04:09:00Z",
+      "homepageUrl": "https://cryptomator.org",
+      "archived": false,
+      "owner": {
+        "login": "cryptomator",
+        "name": "Cryptomator",
+        "type": "Organization",
+        "url": "https://github.com/cryptomator",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11850518?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 51,
+      "name": "docker-android",
+      "nameWithOwner": "budtmo/docker-android",
+      "url": "https://github.com/budtmo/docker-android",
+      "description": "Android in docker solution with noVNC supported, video recording, mcp server and AI-agent",
+      "stars": 15936,
+      "forks": 1759,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2016-12-22T13:02:48Z",
+      "pushedAt": "2026-10-02T11:20:25Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "budtmo",
+        "name": "Budi Utomo",
+        "type": "User",
+        "url": "https://github.com/budtmo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22218312?u=1dbbd1651c11749b1b8bd163400bb12b2934aa30&v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 52,
+      "name": "Android-CleanArchitecture",
+      "nameWithOwner": "android10/Android-CleanArchitecture",
+      "url": "https://github.com/android10/Android-CleanArchitecture",
+      "description": "This is a sample app that is part of a series of blog posts I have written about how to architect an android application using Uncle Bob's clean architecture approach.",
+      "stars": 15535,
+      "forks": 3262,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2014-08-19T14:09:26Z",
+      "pushedAt": "2023-04-28T06:54:52Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "android10",
+        "name": "Fernando Cejas",
+        "type": "User",
+        "url": "https://github.com/android10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1360604?u=982bd190b3101c9a73d7584a44be4d4a25571658&v=4",
+        "location": "Berlin, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 53,
+      "name": "self-hosted-ai-starter-kit",
+      "nameWithOwner": "n8n-io/self-hosted-ai-starter-kit",
+      "url": "https://github.com/n8n-io/self-hosted-ai-starter-kit",
+      "description": "The Self-hosted AI Starter Kit is an open-source template that quickly sets up a local AI environment. Curated by n8n, it provides essential tools for creating secure, self-hosted AI workflows.",
+      "stars": 15276,
+      "forks": 3809,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2024-02-23T13:56:32Z",
+      "pushedAt": "2026-07-23T11:28:09Z",
+      "homepageUrl": "https://n8n.io",
+      "archived": false,
+      "owner": {
+        "login": "n8n-io",
+        "name": "n8n - Workflow Automation",
+        "type": "Organization",
+        "url": "https://github.com/n8n-io",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45487711?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 54,
+      "name": "EverythingToolbar",
+      "nameWithOwner": "srwi/EverythingToolbar",
+      "url": "https://github.com/srwi/EverythingToolbar",
+      "description": "Everything integration for the Windows taskbar.",
+      "stars": 14841,
+      "forks": 565,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2020-09-13T17:20:21Z",
+      "pushedAt": "2026-09-28T17:55:31Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "srwi",
+        "name": "Stephan Rumswinkel",
+        "type": "User",
+        "url": "https://github.com/srwi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17520641?u=28a139600f4c8135501954c0c215637e266dad87&v=4",
+        "location": "Karlsruhe, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 55,
+      "name": "imgaug",
+      "nameWithOwner": "aleju/imgaug",
+      "url": "https://github.com/aleju/imgaug",
+      "description": "Image augmentation for machine learning experiments.",
+      "stars": 14744,
+      "forks": 2447,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-07-10T20:31:33Z",
+      "pushedAt": "2024-07-30T01:38:33Z",
+      "homepageUrl": "http://imgaug.readthedocs.io",
+      "archived": false,
+      "owner": {
+        "login": "aleju",
+        "name": "Alexander Jung",
+        "type": "User",
+        "url": "https://github.com/aleju",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11698516?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 56,
+      "name": "xpipe",
+      "nameWithOwner": "xpipe-io/xpipe",
+      "url": "https://github.com/xpipe-io/xpipe",
+      "description": "Access your entire server infrastructure from your local desktop",
+      "stars": 14570,
+      "forks": 567,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2023-01-27T02:25:38Z",
+      "pushedAt": "2026-10-03T19:14:19Z",
+      "homepageUrl": "https://xpipe.io",
+      "archived": false,
+      "owner": {
+        "login": "xpipe-io",
+        "name": "XPipe",
+        "type": "Organization",
+        "url": "https://github.com/xpipe-io",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93734037?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 57,
+      "name": "CircleImageView",
+      "nameWithOwner": "hdodenhof/CircleImageView",
+      "url": "https://github.com/hdodenhof/CircleImageView",
+      "description": "A circular ImageView for Android",
+      "stars": 14478,
+      "forks": 3076,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2014-01-17T16:44:46Z",
+      "pushedAt": "2024-05-03T11:20:49Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "hdodenhof",
+        "name": "Henning Dodenhof",
+        "type": "User",
+        "url": "https://github.com/hdodenhof",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1824223?u=aa6e9da381f52fe0fef2d3dc8e8b4b2f8911007f&v=4",
+        "location": "Hamburg, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 58,
+      "name": "awesome-mlops",
+      "nameWithOwner": "visenger/awesome-mlops",
+      "url": "https://github.com/visenger/awesome-mlops",
+      "description": "A curated list of references for MLOps ",
+      "stars": 14228,
+      "forks": 2123,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2020-03-03T11:37:19Z",
+      "pushedAt": "2024-11-21T14:45:11Z",
+      "homepageUrl": "https://ml-ops.org",
+      "archived": false,
+      "owner": {
+        "login": "visenger",
+        "name": "Dr. Larysa Visengeriyeva",
+        "type": "User",
+        "url": "https://github.com/visenger",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2014749?v=4",
+        "location": "Berlin, Germany ",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 59,
+      "name": "latent-diffusion",
+      "nameWithOwner": "CompVis/latent-diffusion",
+      "url": "https://github.com/CompVis/latent-diffusion",
+      "description": "High-Resolution Image Synthesis with Latent Diffusion Models",
+      "stars": 14162,
+      "forks": 1734,
+      "primaryLanguage": "Jupyter Notebook",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-12-20T16:56:18Z",
+      "pushedAt": "2024-02-29T05:29:47Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "CompVis",
+        "name": "CompVis - Computer Vision and Learning LMU Munich",
+        "type": "Organization",
+        "url": "https://github.com/CompVis",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30233788?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 60,
+      "name": "tview",
+      "nameWithOwner": "rivo/tview",
+      "url": "https://github.com/rivo/tview",
+      "description": "Terminal UI library with rich, interactive widgets — written in Golang",
+      "stars": 14121,
+      "forks": 690,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-12-15T14:28:14Z",
+      "pushedAt": "2026-08-11T19:38:45Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "rivo",
+        "name": "rivo",
+        "type": "User",
+        "url": "https://github.com/rivo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/480930?u=997fa500636c97f5eb6e049e1c4f5773e671b3c3&v=4",
+        "location": "Berlin, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 61,
+      "name": "automatisch",
+      "nameWithOwner": "automatisch/automatisch",
+      "url": "https://github.com/automatisch/automatisch",
+      "description": "The open source Zapier alternative. Build workflow automation without spending time and money.",
+      "stars": 13984,
+      "forks": 1062,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2021-09-30T20:28:16Z",
+      "pushedAt": "2026-02-11T19:53:04Z",
+      "homepageUrl": "https://automatisch.io",
+      "archived": false,
+      "owner": {
+        "login": "automatisch",
+        "name": "Automatisch",
+        "type": "Organization",
+        "url": "https://github.com/automatisch",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91699546?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 62,
+      "name": "kratos",
+      "nameWithOwner": "ory/kratos",
+      "url": "https://github.com/ory/kratos",
+      "description": "Headless cloud-native authentication and identity management written in Go. Scales to a billion+ users. Replace Homegrown, Auth0, Okta, Firebase with better UX and DX. Passkeys, Social Sign In, OIDC, Magic Link, Multi-Factor Auth, SMS, SAML, TOTP, and more. Runs everywhere, runs best on Ory Network. ",
+      "stars": 13906,
+      "forks": 1190,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-05-29T16:09:37Z",
+      "pushedAt": "2026-07-29T09:30:37Z",
+      "homepageUrl": "https://www.ory.com/?utm_source=github&utm_medium=banner&utm_campaign=kratos",
+      "archived": false,
+      "owner": {
+        "login": "ory",
+        "name": "Ory",
+        "type": "Organization",
+        "url": "https://github.com/ory",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25334553?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 63,
+      "name": "borg",
+      "nameWithOwner": "borgbackup/borg",
+      "url": "https://github.com/borgbackup/borg",
+      "description": "Deduplicating archiver with compression and authenticated encryption.",
+      "stars": 13805,
+      "forks": 875,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2015-05-12T23:10:47Z",
+      "pushedAt": "2026-10-03T23:03:25Z",
+      "homepageUrl": "https://www.borgbackup.org/",
+      "archived": false,
+      "owner": {
+        "login": "borgbackup",
+        "name": "BorgBackup",
+        "type": "Organization",
+        "url": "https://github.com/borgbackup",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12418060?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 64,
+      "name": "openhaystack",
+      "nameWithOwner": "seemoo-lab/openhaystack",
+      "url": "https://github.com/seemoo-lab/openhaystack",
+      "description": "Build your own 'AirTags' 🏷 today! Framework for tracking personal Bluetooth devices via Apple's massive Find My network.",
+      "stars": 13749,
+      "forks": 690,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2021-02-22T13:23:06Z",
+      "pushedAt": "2026-08-17T12:23:59Z",
+      "homepageUrl": "https://owlink.org",
+      "archived": false,
+      "owner": {
+        "login": "seemoo-lab",
+        "name": "Secure Mobile Networking Lab",
+        "type": "Organization",
+        "url": "https://github.com/seemoo-lab",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7370084?v=4",
+        "location": "Darmstadt, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 65,
+      "name": "Zettlr",
+      "nameWithOwner": "Zettlr/Zettlr",
+      "url": "https://github.com/Zettlr/Zettlr",
+      "description": "Your One-Stop Publication Workbench",
+      "stars": 13672,
+      "forks": 850,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2017-12-26T18:34:19Z",
+      "pushedAt": "2026-09-29T02:39:51Z",
+      "homepageUrl": "https://www.zettlr.com",
+      "archived": false,
+      "owner": {
+        "login": "Zettlr",
+        "name": "Zettlr",
+        "type": "Organization",
+        "url": "https://github.com/Zettlr",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19707815?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 66,
+      "name": "CustomTkinter",
+      "nameWithOwner": "TomSchimansky/CustomTkinter",
+      "url": "https://github.com/TomSchimansky/CustomTkinter",
+      "description": "A modern and customizable python UI-library based on Tkinter",
+      "stars": 13579,
+      "forks": 1163,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-03-04T17:24:00Z",
+      "pushedAt": "2026-06-24T20:09:20Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "TomSchimansky",
+        "name": "Tom Schimansky",
+        "type": "User",
+        "url": "https://github.com/TomSchimansky",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66446067?u=bf968427d91d7464eb6853cfd4878a54274763a0&v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 67,
+      "name": "mailcow-dockerized",
+      "nameWithOwner": "mailcow/mailcow-dockerized",
+      "url": "https://github.com/mailcow/mailcow-dockerized",
+      "description": "mailcow: dockerized - 🐮 + 🐋 = 💕",
+      "stars": 13555,
+      "forks": 1819,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2016-12-09T19:38:35Z",
+      "pushedAt": "2026-10-01T06:03:06Z",
+      "homepageUrl": "https://mailcow.email",
+      "archived": false,
+      "owner": {
+        "login": "mailcow",
+        "name": "mailcow",
+        "type": "Organization",
+        "url": "https://github.com/mailcow",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23747925?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 68,
+      "name": "assimp",
+      "nameWithOwner": "assimp/assimp",
+      "url": "https://github.com/assimp/assimp",
+      "description": "The official Open-Asset-Importer-Library Repository. Loads 40+ 3D-file-formats into one unified and clean data structure. ",
+      "stars": 13242,
+      "forks": 3249,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2010-05-05T12:53:45Z",
+      "pushedAt": "2026-10-03T19:44:57Z",
+      "homepageUrl": "https://www.assimp.org",
+      "archived": false,
+      "owner": {
+        "login": "assimp",
+        "name": "Open Asset Import Library",
+        "type": "Organization",
+        "url": "https://github.com/assimp",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/265533?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 69,
+      "name": "htaccess",
+      "nameWithOwner": "phanan/htaccess",
+      "url": "https://github.com/phanan/htaccess",
+      "description": "✂A collection of useful .htaccess snippets.",
+      "stars": 13178,
+      "forks": 1285,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2015-01-27T06:25:41Z",
+      "pushedAt": "2026-03-06T06:31:28Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "phanan",
+        "name": "Phan An",
+        "type": "User",
+        "url": "https://github.com/phanan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8056274?u=16baa02f164d426ddca7c4a8c659aef25cd9c2f4&v=4",
+        "location": "Munich",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "munich"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 70,
+      "name": "awesome-elixir",
+      "nameWithOwner": "h4cc/awesome-elixir",
+      "url": "https://github.com/h4cc/awesome-elixir",
+      "description": "A curated list of amazingly awesome Elixir and Erlang libraries, resources and shiny things. Updates:",
+      "stars": 13167,
+      "forks": 1190,
+      "primaryLanguage": "Elixir",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-07-01T21:12:03Z",
+      "pushedAt": "2025-10-12T18:06:13Z",
+      "homepageUrl": "https://twitter.com/AwesomeElixir",
+      "archived": false,
+      "owner": {
+        "login": "h4cc",
+        "name": "Julius Beckmann",
+        "type": "User",
+        "url": "https://github.com/h4cc",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2981491?u=9c19867798bbc2bd1241f0281232be340eae0b47&v=4",
+        "location": "Hamburg, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 71,
+      "name": "formbricks",
+      "nameWithOwner": "formbricks/formbricks",
+      "url": "https://github.com/formbricks/formbricks",
+      "description": "Open Source Qualtrics Alternative",
+      "stars": 13057,
+      "forks": 2558,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2022-06-06T04:25:21Z",
+      "pushedAt": "2026-10-03T09:14:02Z",
+      "homepageUrl": "https://formbricks.com",
+      "archived": false,
+      "owner": {
+        "login": "formbricks",
+        "name": "Formbricks",
+        "type": "Organization",
+        "url": "https://github.com/formbricks",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/105877416?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 72,
+      "name": "spring-boot-admin",
+      "nameWithOwner": "codecentric/spring-boot-admin",
+      "url": "https://github.com/codecentric/spring-boot-admin",
+      "description": "Admin UI for administration of spring boot applications",
+      "stars": 12853,
+      "forks": 3151,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2014-07-25T11:39:13Z",
+      "pushedAt": "2026-10-04T01:13:03Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "codecentric",
+        "name": "codecentric AG",
+        "type": "Organization",
+        "url": "https://github.com/codecentric",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1009716?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 73,
+      "name": "fashion-mnist",
+      "nameWithOwner": "zalandoresearch/fashion-mnist",
+      "url": "https://github.com/zalandoresearch/fashion-mnist",
+      "description": "A MNIST-like fashion product database. Benchmark :point_down: ",
+      "stars": 12842,
+      "forks": 3071,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-08-25T12:05:15Z",
+      "pushedAt": "2022-06-13T20:36:21Z",
+      "homepageUrl": "http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/",
+      "archived": false,
+      "owner": {
+        "login": "zalandoresearch",
+        "name": "Zalando Research",
+        "type": "Organization",
+        "url": "https://github.com/zalandoresearch",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30869512?v=4",
+        "location": "Berlin, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 74,
+      "name": "eww",
+      "nameWithOwner": "elkowar/eww",
+      "url": "https://github.com/elkowar/eww",
+      "description": "ElKowars wacky widgets",
+      "stars": 12701,
+      "forks": 540,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-09-19T20:07:39Z",
+      "pushedAt": "2026-07-17T07:29:44Z",
+      "homepageUrl": "https://elkowar.github.io/eww",
+      "archived": false,
+      "owner": {
+        "login": "elkowar",
+        "name": "ElKowar",
+        "type": "User",
+        "url": "https://github.com/elkowar",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5300871?u=12d6338537eafc715032719236ac2842582a8118&v=4",
+        "location": "Karlsruhe, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 75,
+      "name": "planka",
+      "nameWithOwner": "plankanban/planka",
+      "url": "https://github.com/plankanban/planka",
+      "description": "Elegant open source project tracking. Self-hosted Kanban for teams — free Community edition, with PLANKA Pro for organisations.",
+      "stars": 12601,
+      "forks": 1380,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2019-08-30T20:35:36Z",
+      "pushedAt": "2026-10-03T00:13:06Z",
+      "homepageUrl": "https://planka.app",
+      "archived": false,
+      "owner": {
+        "login": "plankanban",
+        "name": "PLANKA Software GmbH",
+        "type": "Organization",
+        "url": "https://github.com/plankanban",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64215741?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 76,
+      "name": "urh",
+      "nameWithOwner": "jopohl/urh",
+      "url": "https://github.com/jopohl/urh",
+      "description": "Universal Radio Hacker: Investigate Wireless Protocols Like A Boss",
+      "stars": 12579,
+      "forks": 1051,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2016-04-01T19:43:07Z",
+      "pushedAt": "2025-12-19T14:25:58Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "jopohl",
+        "name": "Dr.-Ing. Johannes Pohl",
+        "type": "User",
+        "url": "https://github.com/jopohl",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18219846?u=c68f1f17f7cc3e20f7f95f76f90c787758038987&v=4",
+        "location": "Warsaw, PL",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "pl"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 77,
+      "name": "SketchyBar",
+      "nameWithOwner": "FelixKratz/SketchyBar",
+      "url": "https://github.com/FelixKratz/SketchyBar",
+      "description": "A highly customizable macOS status bar replacement",
+      "stars": 12442,
+      "forks": 189,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2021-08-13T14:28:04Z",
+      "pushedAt": "2026-09-16T06:44:19Z",
+      "homepageUrl": "https://felixkratz.github.io/SketchyBar/",
+      "archived": false,
+      "owner": {
+        "login": "FelixKratz",
+        "name": "Felix Kratz",
+        "type": "User",
+        "url": "https://github.com/FelixKratz",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22680421?u=eee3b7e916807ea96107fd061395ce547ba536f1&v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 78,
+      "name": "awesome-android",
+      "nameWithOwner": "JStumpp/awesome-android",
+      "url": "https://github.com/JStumpp/awesome-android",
+      "description": "A curated list of awesome Android packages and resources.",
+      "stars": 12371,
+      "forks": 1787,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdxId": "CC0-1.0"
+      },
+      "createdAt": "2014-07-13T01:39:20Z",
+      "pushedAt": "2025-10-27T08:14:07Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "JStumpp",
+        "name": "Jürgen Stumpp",
+        "type": "User",
+        "url": "https://github.com/JStumpp",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4624747?u=ab3a710bda4c10e4ea5ef104c64519a7d5de1c42&v=4",
+        "location": "Karlsruhe, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 79,
+      "name": "git-cliff",
+      "nameWithOwner": "orhun/git-cliff",
+      "url": "https://github.com/orhun/git-cliff",
+      "description": "A highly customizable Changelog Generator that follows Conventional Commit specifications ⛰️ ",
+      "stars": 12284,
+      "forks": 332,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2021-05-30T11:11:58Z",
+      "pushedAt": "2026-09-18T23:39:10Z",
+      "homepageUrl": "https://git-cliff.org",
+      "archived": false,
+      "owner": {
+        "login": "orhun",
+        "name": "Orhun Parmaksız",
+        "type": "User",
+        "url": "https://github.com/orhun",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24392180?u=a03c0e87143d1858ca987adb07e72a521634395c&v=4",
+        "location": "Berlin, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 80,
+      "name": "genact",
+      "nameWithOwner": "svenstaro/genact",
+      "url": "https://github.com/svenstaro/genact",
+      "description": "🌀 A nonsense activity generator",
+      "stars": 12210,
+      "forks": 496,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2011-02-09T08:11:05Z",
+      "pushedAt": "2026-10-01T21:35:12Z",
+      "homepageUrl": "https://svenstaro.github.io/genact/",
+      "archived": false,
+      "owner": {
+        "login": "svenstaro",
+        "name": "Sven-Hendrik Haase",
+        "type": "User",
+        "url": "https://github.com/svenstaro",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1664?u=79d054c26a2b487173c52d342cd822884251bea7&v=4",
+        "location": "Germany, Hamburg",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 81,
+      "name": "Vulkan",
+      "nameWithOwner": "SaschaWillems/Vulkan",
+      "url": "https://github.com/SaschaWillems/Vulkan",
+      "description": "C++ examples for the Vulkan graphics API",
+      "stars": 12164,
+      "forks": 2238,
+      "primaryLanguage": "GLSL",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-06-21T18:48:22Z",
+      "pushedAt": "2026-09-20T07:01:11Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "SaschaWillems",
+        "name": "Sascha Willems",
+        "type": "User",
+        "url": "https://github.com/SaschaWillems",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10283127?u=40532c639243da23cf6f2eb25b5e3e8b6a622b73&v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 82,
+      "name": "obsidian-git",
+      "nameWithOwner": "Vinzent03/obsidian-git",
+      "url": "https://github.com/Vinzent03/obsidian-git",
+      "description": "Integrate Git version control with automatic commit-and-sync and other advanced features in Obsidian.md",
+      "stars": 12063,
+      "forks": 644,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-10-27T16:08:16Z",
+      "pushedAt": "2026-10-02T10:39:23Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Vinzent03",
+        "name": "Vinzent",
+        "type": "User",
+        "url": "https://github.com/Vinzent03",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63981639?u=0d13b5f15c463560f812096925b9db7adc27d0a0&v=4",
+        "location": "Aachen, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 83,
+      "name": "gitoxide",
+      "nameWithOwner": "GitoxideLabs/gitoxide",
+      "url": "https://github.com/GitoxideLabs/gitoxide",
+      "description": "An idiomatic, lean, fast & safe pure Rust implementation of Git",
+      "stars": 11995,
+      "forks": 555,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-06-07T17:33:00Z",
+      "pushedAt": "2026-10-04T04:09:16Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "GitoxideLabs",
+        "name": "GitoxideLabs",
+        "type": "Organization",
+        "url": "https://github.com/GitoxideLabs",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92279517?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 84,
+      "name": "rnote",
+      "nameWithOwner": "flxzt/rnote",
+      "url": "https://github.com/flxzt/rnote",
+      "description": "Sketch and take handwritten notes.",
+      "stars": 11726,
+      "forks": 509,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2021-08-05T13:04:32Z",
+      "pushedAt": "2026-10-03T07:36:01Z",
+      "homepageUrl": "https://rnote.flxzt.net",
+      "archived": false,
+      "owner": {
+        "login": "flxzt",
+        "name": "Felix Zwettler",
+        "type": "User",
+        "url": "https://github.com/flxzt",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19841886?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 85,
+      "name": "Detect-It-Easy",
+      "nameWithOwner": "horsicq/Detect-It-Easy",
+      "url": "https://github.com/horsicq/Detect-It-Easy",
+      "description": "Program for determining types of files for Windows, Linux and MacOS.",
+      "stars": 11630,
+      "forks": 961,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-06-01T21:37:32Z",
+      "pushedAt": "2026-10-03T18:31:35Z",
+      "homepageUrl": "http://ntinfo.biz",
+      "archived": false,
+      "owner": {
+        "login": "horsicq",
+        "name": "Hors",
+        "type": "User",
+        "url": "https://github.com/horsicq",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7762949?u=a504eab37e6aaa633e1c2aa59d265bd3c59d7218&v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 86,
+      "name": "awesome-c",
+      "nameWithOwner": "oz123/awesome-c",
+      "url": "https://github.com/oz123/awesome-c",
+      "description": "A curated list of awesome C frameworks, libraries, resources and other shiny things. Inspired by all the other awesome-... projects out there.",
+      "stars": 11588,
+      "forks": 950,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Creative Commons Attribution Share Alike 4.0 International",
+        "spdxId": "CC-BY-SA-4.0"
+      },
+      "createdAt": "2014-12-14T21:24:24Z",
+      "pushedAt": "2026-09-19T13:23:32Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "oz123",
+        "name": "Oz Tiram",
+        "type": "User",
+        "url": "https://github.com/oz123",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1083045?u=f5a1a090655ce7eca562bd4964e7a967826cead2&v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 87,
+      "name": "codeburn",
+      "nameWithOwner": "getagentseal/codeburn",
+      "url": "https://github.com/getagentseal/codeburn",
+      "description": "Free, local tool to track AI coding token usage and cost across 37 tools and agents (Claude Code, Cursor, Codex, Gemini and more), by model, project, and task. npx codeburn",
+      "stars": 11324,
+      "forks": 871,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-04-13T22:11:53Z",
+      "pushedAt": "2026-10-03T22:11:46Z",
+      "homepageUrl": "https://codeburn.app/",
+      "archived": false,
+      "owner": {
+        "login": "getagentseal",
+        "name": "Agentseal",
+        "type": "Organization",
+        "url": "https://github.com/getagentseal",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/277308000?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 88,
+      "name": "react-styleguidist",
+      "nameWithOwner": "styleguidist/react-styleguidist",
+      "url": "https://github.com/styleguidist/react-styleguidist",
+      "description": "Isolated React component development environment with a living style guide",
+      "stars": 11052,
+      "forks": 1408,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-09-07T05:30:30Z",
+      "pushedAt": "2025-01-07T10:44:29Z",
+      "homepageUrl": "https://react-styleguidist.js.org/",
+      "archived": false,
+      "owner": {
+        "login": "styleguidist",
+        "name": "Styleguidist",
+        "type": "Organization",
+        "url": "https://github.com/styleguidist",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23550189?v=4",
+        "location": "Berlin, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 89,
+      "name": "mac-mouse-fix",
+      "nameWithOwner": "noah-nuebling/mac-mouse-fix",
+      "url": "https://github.com/noah-nuebling/mac-mouse-fix",
+      "description": "Mac Mouse Fix - Make Your $10 Mouse Better Than an Apple Trackpad!",
+      "stars": 11023,
+      "forks": 437,
+      "primaryLanguage": "Objective-C",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2019-08-07T22:09:17Z",
+      "pushedAt": "2026-10-03T21:35:23Z",
+      "homepageUrl": "https://macmousefix.com/",
+      "archived": false,
+      "owner": {
+        "login": "noah-nuebling",
+        "name": "Noah Nuebling",
+        "type": "User",
+        "url": "https://github.com/noah-nuebling",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40808343?u=89f3a7a80c345bd95e34bba579462cb1c2edd29e&v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 90,
+      "name": "peek",
+      "nameWithOwner": "phw/peek",
+      "url": "https://github.com/phw/peek",
+      "description": "Simple animated GIF screen recorder with an easy to use interface",
+      "stars": 10552,
+      "forks": 337,
+      "primaryLanguage": "Vala",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2015-12-22T12:12:02Z",
+      "pushedAt": "2025-09-24T14:09:08Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "phw",
+        "name": "Philipp Wolfer",
+        "type": "User",
+        "url": "https://github.com/phw",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29852?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 91,
+      "name": "awesome-shizuku",
+      "nameWithOwner": "timschneeb/awesome-shizuku",
+      "url": "https://github.com/timschneeb/awesome-shizuku",
+      "description": "Curated list of awesome Android apps making use of Shizuku",
+      "stars": 10343,
+      "forks": 282,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2022-10-09T03:24:23Z",
+      "pushedAt": "2026-10-04T00:25:59Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "timschneeb",
+        "name": "Tim Schneeberger",
+        "type": "User",
+        "url": "https://github.com/timschneeb",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38386967?u=eada45382d0187b8e951af8ef816a289a6804b32&v=4",
+        "location": "Heidelberg, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 92,
+      "name": "hexyl",
+      "nameWithOwner": "sharkdp/hexyl",
+      "url": "https://github.com/sharkdp/hexyl",
+      "description": "A command-line hex viewer",
+      "stars": 10287,
+      "forks": 272,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-11-05T22:53:35Z",
+      "pushedAt": "2026-04-30T08:24:07Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "sharkdp",
+        "name": "David Peter",
+        "type": "User",
+        "url": "https://github.com/sharkdp",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4209276?u=e6c4022c315b6cbecd5968ec256f4b02885eba41&v=4",
+        "location": "Stuttgart, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 93,
+      "name": "data-science-interviews",
+      "nameWithOwner": "alexeygrigorev/data-science-interviews",
+      "url": "https://github.com/alexeygrigorev/data-science-interviews",
+      "description": "Data science interview questions and answers",
+      "stars": 10165,
+      "forks": 2156,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "Creative Commons Attribution 4.0 International",
+        "spdxId": "CC-BY-4.0"
+      },
+      "createdAt": "2020-03-02T19:06:53Z",
+      "pushedAt": "2026-09-26T02:59:47Z",
+      "homepageUrl": "https://alexeygrigorev.com/data-science-interviews/",
+      "archived": false,
+      "owner": {
+        "login": "alexeygrigorev",
+        "name": "Alexey Grigorev",
+        "type": "User",
+        "url": "https://github.com/alexeygrigorev",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/875246?u=031e07800caf3dd93e6c1de3e5e4f6c14d1140e5&v=4",
+        "location": "Berlin, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 94,
+      "name": "s-ui",
+      "nameWithOwner": "alireza0/s-ui",
+      "url": "https://github.com/alireza0/s-ui",
+      "description": "An advanced Web Panel • Built for SagerNet/Sing-Box",
+      "stars": 10001,
+      "forks": 1879,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2024-02-13T00:15:37Z",
+      "pushedAt": "2026-09-30T15:30:59Z",
+      "homepageUrl": "https://t.me/XrayUI",
+      "archived": false,
+      "owner": {
+        "login": "alireza0",
+        "name": "Alireza Ahmadi",
+        "type": "User",
+        "url": "https://github.com/alireza0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12573084?u=82204768787072967a3750cc84406c82553ea7cf&v=4",
+        "location": "Berlin, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 95,
+      "name": "gtop",
+      "nameWithOwner": "aksakalli/gtop",
+      "url": "https://github.com/aksakalli/gtop",
+      "description": "System monitoring dashboard for terminal",
+      "stars": 9936,
+      "forks": 338,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-08-09T15:12:28Z",
+      "pushedAt": "2025-11-06T13:55:02Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "aksakalli",
+        "name": "Can Güney Aksakalli",
+        "type": "User",
+        "url": "https://github.com/aksakalli",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1939193?u=bf9616f10e04a3f2145028a248df97d32fcc647a&v=4",
+        "location": "Berlin, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 96,
+      "name": "awesome-compilers",
+      "nameWithOwner": "aalhour/awesome-compilers",
+      "url": "https://github.com/aalhour/awesome-compilers",
+      "description": ":sunglasses: Curated list of awesome resources on Compilers, Interpreters and Runtimes",
+      "stars": 9921,
+      "forks": 712,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2016-07-13T20:54:48Z",
+      "pushedAt": "2024-05-26T14:07:19Z",
+      "homepageUrl": "http://aalhour.com/awesome-compilers",
+      "archived": false,
+      "owner": {
+        "login": "aalhour",
+        "name": "Ahmad Alhour",
+        "type": "User",
+        "url": "https://github.com/aalhour",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1282375?u=6b62723080163abfa72d0a50b2129a473be0dac2&v=4",
+        "location": "Munich, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 97,
+      "name": "ripgrep-all",
+      "nameWithOwner": "phiresky/ripgrep-all",
+      "url": "https://github.com/phiresky/ripgrep-all",
+      "description": "rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc.",
+      "stars": 9867,
+      "forks": 219,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2019-06-04T18:08:31Z",
+      "pushedAt": "2026-09-17T11:25:07Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "phiresky",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/phiresky",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2303841?u=fb5d5bdbe19bef6aa89831f869d184ef2d97966a&v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 98,
+      "name": "MahApps.Metro",
+      "nameWithOwner": "MahApps/MahApps.Metro",
+      "url": "https://github.com/MahApps/MahApps.Metro",
+      "description": "A framework that allows developers to cobble together a better UI for their own WPF applications with minimal effort.",
+      "stars": 9830,
+      "forks": 2421,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2011-10-16T04:16:10Z",
+      "pushedAt": "2026-10-03T11:26:10Z",
+      "homepageUrl": "https://mahapps.github.io/mahapps.com/",
+      "archived": false,
+      "owner": {
+        "login": "MahApps",
+        "name": "MahApps",
+        "type": "Organization",
+        "url": "https://github.com/MahApps",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1130789?v=4",
+        "location": "Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 99,
+      "name": "opendrop",
+      "nameWithOwner": "seemoo-lab/opendrop",
+      "url": "https://github.com/seemoo-lab/opendrop",
+      "description": "An open Apple AirDrop implementation written in Python",
+      "stars": 9760,
+      "forks": 313,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2019-05-14T08:07:50Z",
+      "pushedAt": "2026-08-17T12:18:16Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "seemoo-lab",
+        "name": "Secure Mobile Networking Lab",
+        "type": "Organization",
+        "url": "https://github.com/seemoo-lab",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7370084?v=4",
+        "location": "Darmstadt, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 100,
+      "name": "Valetudo",
+      "nameWithOwner": "Hypfer/Valetudo",
+      "url": "https://github.com/Hypfer/Valetudo",
+      "description": "Cloud replacement for vacuum robots enabling local-only operation",
+      "stars": 9745,
+      "forks": 512,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-07-12T07:07:43Z",
+      "pushedAt": "2026-09-25T18:33:22Z",
+      "homepageUrl": "https://valetudo.cloud",
+      "archived": false,
+      "owner": {
+        "login": "Hypfer",
+        "name": "Sören Beye",
+        "type": "User",
+        "url": "https://github.com/Hypfer",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/974410?u=4c3d3dc126321979fd60c8dca3e5dfd80970507b&v=4",
+        "location": "Nienburg/Weser, Germany",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "DE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "germany"
+        },
+        "discoveryTerms": []
+      }
+    }
+  ]
+}

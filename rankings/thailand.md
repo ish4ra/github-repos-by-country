@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -54,5 +54,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [quantopian/zipline](https://github.com/quantopian/zipline) | **20,137** | Boston, MA, USA |
 | [elysiajs/elysia](https://github.com/elysiajs/elysia) | **19,216** | Thailand |
 | [satnaing/shadcn-admin](https://github.com/satnaing/shadcn-admin) | **15,557** | Bangkok, Thailand |
+| [StockSharp/StockSharp](https://github.com/StockSharp/StockSharp) | **10,827** | Thailand |
+| [wbthomason/packer.nvim](https://github.com/wbthomason/packer.nvim) | **8,091** | Cambridge, MA, USA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **10**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **20**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -61,5 +61,15 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [wtfutil/wtf](https://github.com/wtfutil/wtf) | **17,112** | Vancouver, BC |
 | [NodeBB/NodeBB](https://github.com/NodeBB/NodeBB) | **15,229** | Toronto, ON |
 | [botpress/botpress](https://github.com/botpress/botpress) | **14,934** | Québec City |
+| [fkhadra/react-toastify](https://github.com/fkhadra/react-toastify) | **13,440** | Montréal, QC |
+| [alex000kim/nsfw_data_scraper](https://github.com/alex000kim/nsfw_data_scraper) | **12,598** | Montreal, QC |
+| [danluu/post-mortems](https://github.com/danluu/post-mortems) | **12,505** | Vancouver, BC |
+| [pressly/goose](https://github.com/pressly/goose) | **11,528** | Toronto, ON |
+| [nicobailon/visual-explainer](https://github.com/nicobailon/visual-explainer) | **10,235** | Vancouver, BC |
+| [xuebinqin/U-2-Net](https://github.com/xuebinqin/U-2-Net) | **9,875** | Edmonton, Alberta, Canada |
+| [garrettj403/SciencePlots](https://github.com/garrettj403/SciencePlots) | **9,269** | Vancouver, BC |
+| [Uberi/speech_recognition](https://github.com/Uberi/speech_recognition) | **8,994** | Waterloo, Ontario |
+| [rematch/rematch](https://github.com/rematch/rematch) | **8,395** | Vancouver, BC |
+| [brycedrennan/imaginAIry](https://github.com/brycedrennan/imaginAIry) | **8,189** | CA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

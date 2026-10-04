@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -52,5 +52,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [Unity-Technologies/ml-agents](https://github.com/Unity-Technologies/ml-agents) | **19,720** | Copenhagen, Denmark |
+| [Unity-Technologies/UnityCsReference](https://github.com/Unity-Technologies/UnityCsReference) | **13,010** | Copenhagen, Denmark |
+| [Unity-Technologies/EntityComponentSystemSamples](https://github.com/Unity-Technologies/EntityComponentSystemSamples) | **8,192** | Copenhagen, Denmark |
+| [larsenwork/monoid](https://github.com/larsenwork/monoid) | **7,954** | Copenhagen, Denmark |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

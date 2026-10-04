@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -53,5 +53,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [AdguardTeam/AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) | **37,194** | Cyprus |
 | [zloirock/core-js](https://github.com/zloirock/core-js) | **25,535** | Cyprus, Larnaca |
+| [zakirullin/cognitive-load](https://github.com/zakirullin/cognitive-load) | **12,514** | Limassol, Cyprus |
+| [centrifugal/centrifugo](https://github.com/centrifugal/centrifugo) | **10,828** | Cyprus |
+| [pikvm/pikvm](https://github.com/pikvm/pikvm) | **10,369** | Cyprus |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

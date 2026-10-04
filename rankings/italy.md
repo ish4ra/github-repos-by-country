@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -52,5 +52,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [antirez/ds4](https://github.com/antirez/ds4) | **23,204** | Catania, Sicily, Italy |
+| [meetecho/janus-gateway](https://github.com/meetecho/janus-gateway) | **9,178** | Napoli, Italy |
+| [antirez/kilo](https://github.com/antirez/kilo) | **9,160** | Catania, Sicily, Italy |
+| [mcollina/autocannon](https://github.com/mcollina/autocannon) | **8,527** | Forlì, Italy |
+| [antirez/disque](https://github.com/antirez/disque) | **8,077** | Catania, Sicily, Italy |
+| [luruke/browser-2020](https://github.com/luruke/browser-2020) | **7,971** | Vicenza / Benevento |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [hakluke/how-to-exit-vim](https://github.com/hakluke/how-to-exit-vim) | **7,194** | Australia |
 | [davecheney/httpstat](https://github.com/davecheney/httpstat) | **7,191** | Sydney, Australia |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **8,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [atomiks/tippyjs](https://github.com/atomiks/tippyjs) | **12,240** | Gold Coast, Australia |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [daviwil/emacs-from-scratch](https://github.com/daviwil/emacs-from-scratch) | **1,922** | Athens, Greece |
 | [XhmikosR/notepad2-mod](https://github.com/XhmikosR/notepad2-mod) | **1,469** | Greece |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **8,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [lipis/flag-icons](https://github.com/lipis/flag-icons) | **12,444** | Thessaloniki, Greece |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

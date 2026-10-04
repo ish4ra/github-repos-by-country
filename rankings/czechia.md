@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **8**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -52,5 +52,12 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [agent0ai/agent-zero](https://github.com/agent0ai/agent-zero) | **19,366** | Czech Republic |
+| [phpstan/phpstan](https://github.com/phpstan/phpstan) | **14,120** | Czech Republic |
+| [JosefNemec/Playnite](https://github.com/JosefNemec/Playnite) | **14,112** | Czech Republic |
+| [TheR1D/shell_gpt](https://github.com/TheR1D/shell_gpt) | **12,290** | Prague, Czech Republic |
+| [jnv/lists](https://github.com/jnv/lists) | **11,522** | Prague, Czech Republic |
+| [prusa3d/PrusaSlicer](https://github.com/prusa3d/PrusaSlicer) | **9,384** | Prague, Czech Republic |
+| [avast/retdec](https://github.com/avast/retdec) | **8,636** | Czech Republic |
+| [vrana/adminer](https://github.com/vrana/adminer) | **7,917** | Praha, Czechia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

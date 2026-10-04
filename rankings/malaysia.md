@@ -40,4 +40,18 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [syamilmj/Aqua-Resizer](https://github.com/syamilmj/Aqua-Resizer) | **500** | Kuala Lumpur, Malaysia |
 | [CITF-Malaysia/citf-public](https://github.com/CITF-Malaysia/citf-public) | **488** | Malaysia |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **8,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [MoonTechLab/LunaTV](https://github.com/MoonTechLab/LunaTV) | **10,589** | Malaysia |
+| [huseinzol05/Stock-Prediction-Models](https://github.com/huseinzol05/Stock-Prediction-Models) | **9,501** | Kedah, Malaysia |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **19**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **37**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -70,5 +70,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [dutchcoders/transfer.sh](https://github.com/dutchcoders/transfer.sh) | **15,896** | Netherlands |
 | [Koenkk/zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt) | **15,684** | The Netherlands, Helmond |
 | [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) | **14,970** | Noord-Brabant, the Netherlands |
+| [siteboon/claudecodeui](https://github.com/siteboon/claudecodeui) | **13,925** | Netherlands |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

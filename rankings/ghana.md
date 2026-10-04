@@ -40,4 +40,18 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Mmabiaa/Cpp-Beginner-Projects](https://github.com/Mmabiaa/Cpp-Beginner-Projects) | **27** | Ghana |
 | [tothepointcode/flower-crib](https://github.com/tothepointcode/flower-crib) | **27** | Ghana |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **8,078**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [sullo/nikto](https://github.com/sullo/nikto) | **10,752** | Richmond, VA, USA |
+| [dgkanatsios/CKAD-exercises](https://github.com/dgkanatsios/CKAD-exercises) | **10,154** | WA, USA |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

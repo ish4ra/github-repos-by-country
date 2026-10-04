@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **13**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -60,5 +60,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [gustavoguanabara/html-css](https://github.com/gustavoguanabara/html-css) | **16,580** | Rio de Janeiro, Brazil |
 | [arthurspk/guiadevbrasil](https://github.com/arthurspk/guiadevbrasil) | **15,795** | Alagoas, Brazil |
 | [KAYOKG/BibliotecaDev](https://github.com/KAYOKG/BibliotecaDev) | **14,991** | Belo Horizonte - MG |
+| [rafaballerini/GitTutorial](https://github.com/rafaballerini/GitTutorial) | **10,566** | Santa Catarina, Brasil |
+| [thumbor/thumbor](https://github.com/thumbor/thumbor) | **10,521** | Rio de Janeiro, RJ, Brazil |
+| [wwmm/easyeffects](https://github.com/wwmm/easyeffects) | **10,293** | Rio de Janeiro |
+| [iuricode/padroes-de-commits](https://github.com/iuricode/padroes-de-commits) | **9,722** | Brasil |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

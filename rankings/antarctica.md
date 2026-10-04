@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **8,078**
 
 ### High-star verified preview
 
@@ -52,5 +52,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [MarlinFirmware/Marlin](https://github.com/MarlinFirmware/Marlin) | **17,613** | Antarctica |
+| [adam-maj/tiny-gpu](https://github.com/adam-maj/tiny-gpu) | **13,048** | South Pole, Antarctica |
+| [r-lyeh/single_file_libs](https://github.com/r-lyeh/single_file_libs) | **10,022** | Vostok, Antarctica |
+| [ublue-os/bazzite](https://github.com/ublue-os/bazzite) | **9,137** | Antarctica |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
