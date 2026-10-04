@@ -23,7 +23,7 @@ test('country code suffix is accepted', () => {
   const result = attributeLocation('Colombo, LK', config);
   assert.equal(result.accepted, true);
   assert.equal(result.confidence, 'high');
-  assert.equal(result.evidence, 'country-code');
+  assert.equal(result.evidence, 'country-code-with-place');
 });
 
 test('missing and unrelated locations are rejected', () => {

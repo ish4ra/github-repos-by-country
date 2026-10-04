@@ -81,6 +81,21 @@ export function attributeLocation(location, config) {
     const exact = canonicalize(alias);
     return normalized === exact;
   });
+  const contextualCountryAlias = config.exactCountryAliases.find((alias) => {
+    const exact = canonicalize(alias);
+    const tokens = normalized.split(' ');
+    if (tokens.at(-1) !== exact || normalized === exact) return false;
+
+    return locationCandidates(raw)
+      .filter((candidate) => candidate !== exact && candidate !== normalized)
+      .some(
+        (candidate) =>
+          config.locationTermLookup?.has(candidate) ||
+          config.curatedLocationTerms?.some(
+            (term) => canonicalize(term) === candidate,
+          ),
+      );
+  });
   const foreignRegions = explicitForeignRegions(normalized, config.code);
 
   if ((explicitCountryAlias || exactCountryAlias) && foreignRegions.length > 0) {
@@ -113,16 +128,6 @@ export function attributeLocation(location, config) {
     };
   }
 
-  if (exactCountryAlias) {
-    return {
-      accepted: true,
-      countryCode: config.code,
-      confidence: 'high',
-      evidence: 'country-code',
-      matched: exactCountryAlias,
-    };
-  }
-
   if (config.compoundLocationTermLookup?.has(normalized)) {
     return {
       accepted: true,
@@ -130,6 +135,16 @@ export function attributeLocation(location, config) {
       confidence: 'high',
       evidence: 'recognized-place-with-admin',
       matched: normalized,
+    };
+  }
+
+  if (exactCountryAlias || contextualCountryAlias) {
+    return {
+      accepted: true,
+      countryCode: config.code,
+      confidence: 'high',
+      evidence: contextualCountryAlias ? 'country-code-with-place' : 'country-code',
+      matched: exactCountryAlias || contextualCountryAlias,
     };
   }
 
