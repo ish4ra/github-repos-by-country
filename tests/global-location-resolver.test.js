@@ -8,6 +8,8 @@ const countries = [
   { code: 'AU', name: 'Australia', aliases: [] },
   { code: 'GE', name: 'Georgia', aliases: [] },
   { code: 'GB', name: 'United Kingdom', aliases: ['UK'] },
+  { code: 'HK', name: 'Hong Kong', aliases: ['Hong Kong SAR'] },
+  { code: 'PR', name: 'Puerto Rico', aliases: [] },
 ];
 
 const indexes = [
@@ -34,6 +36,16 @@ const indexes = [
   {
     country: { code: 'GB' },
     attributionTerms: ['United Kingdom', 'London'],
+    compoundTerms: [],
+  },
+  {
+    country: { code: 'HK' },
+    attributionTerms: ['Hong Kong'],
+    compoundTerms: [],
+  },
+  {
+    country: { code: 'PR' },
+    attributionTerms: ['Puerto Rico'],
     compoundTerms: [],
   },
 ];
@@ -75,4 +87,20 @@ test('country alias disambiguates an otherwise common city', () => {
   assert.equal(result.accepted, true);
   assert.equal(result.countryCode, 'GB');
   assert.equal(result.confidence, 'high');
+});
+
+
+test('Hong Kong SAR is attributed to the HK territory, not mainland China geography', () => {
+  const result = resolver.resolve('Hong Kong SAR');
+  assert.equal(result.accepted, true);
+  assert.equal(result.countryCode, 'HK');
+  assert.equal(result.confidence, 'high');
+  assert.equal(result.evidence, 'explicit-territory');
+});
+
+test('exact Puerto Rico territory name wins over parent-country geography overlap', () => {
+  const result = resolver.resolve('Puerto Rico');
+  assert.equal(result.accepted, true);
+  assert.equal(result.countryCode, 'PR');
+  assert.equal(result.evidence, 'explicit-territory');
 });

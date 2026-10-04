@@ -3,10 +3,15 @@ import path from 'node:path';
 import { projectRoot } from '../src/config.js';
 import { getCountry } from '../src/countries.js';
 import { GitHubGraphQLClient } from '../src/github.js';
-import { loadGlobalLocationResolver } from '../src/global-location-resolver.js';
+import {
+  loadGlobalLocationResolver,
+  LOCATION_RESOLVER_VERSION,
+} from '../src/global-location-resolver.js';
 import {
   buildStarRangeQuery,
   candidateThreshold,
+  REPOSITORY_CANDIDATE_SCHEMA_VERSION,
+  REPOSITORY_RANKING_METHODOLOGY_VERSION,
   compareRepositories,
   mergeRepositoryCandidate,
   splitStarRange,
@@ -42,9 +47,14 @@ const client = new GitHubGraphQLClient({ token, requestDelayMs: 150 });
 const resolver = await loadGlobalLocationResolver();
 let state = await readJson(statePath, null);
 
-if (!state || state.schemaVersion !== 1) {
+if (
+  !state ||
+  state.schemaVersion !== REPOSITORY_CANDIDATE_SCHEMA_VERSION ||
+  state.locationResolverVersion !== LOCATION_RESOLVER_VERSION
+) {
   state = {
-    schemaVersion: 1,
+    schemaVersion: REPOSITORY_CANDIDATE_SCHEMA_VERSION,
+    locationResolverVersion: LOCATION_RESOLVER_VERSION,
     initialized: false,
     queue: [],
     unresolvedStarCounts: [],
@@ -235,8 +245,13 @@ async function getCandidateState(country) {
 
   const filePath = path.join(candidateDir, `${country.code}.json`);
   const existing = await readJson(filePath, null);
-  const value = existing || {
-    schemaVersion: 1,
+  const value =
+    existing?.schemaVersion === REPOSITORY_CANDIDATE_SCHEMA_VERSION &&
+    existing?.locationResolverVersion === LOCATION_RESOLVER_VERSION
+      ? existing
+      : {
+    schemaVersion: REPOSITORY_CANDIDATE_SCHEMA_VERSION,
+    locationResolverVersion: LOCATION_RESOLVER_VERSION,
     country: {
       code: country.code,
       name: country.name,
@@ -282,7 +297,7 @@ function buildCertifiedRanking(country, candidateState, scanState, frontier) {
 
   return {
     schemaVersion: 1,
-    methodologyVersion: '0.7.0-repository-first',
+    methodologyVersion: REPOSITORY_RANKING_METHODOLOGY_VERSION,
     generatedAt: new Date().toISOString(),
     country: {
       code: country.code,

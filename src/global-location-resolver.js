@@ -4,6 +4,27 @@ import { COUNTRIES } from './countries.js';
 import { projectRoot } from './config.js';
 import { normalizeLocationForComparison } from './location.js';
 
+export const LOCATION_RESOLVER_VERSION = 2;
+
+const STRONG_EXACT_REGION_ALIASES = new Map([
+  ['hong kong sar', 'HK'],
+  ['hong kong s a r', 'HK'],
+  ['hong kong sar china', 'HK'],
+  ['hong kong special administrative region', 'HK'],
+  ['macao', 'MO'],
+  ['macau', 'MO'],
+  ['macao sar', 'MO'],
+  ['macau sar', 'MO'],
+  ['macao sar china', 'MO'],
+  ['macao special administrative region', 'MO'],
+  ['puerto rico', 'PR'],
+  ['guam', 'GU'],
+  ['american samoa', 'AS'],
+  ['northern mariana islands', 'MP'],
+  ['u s virgin islands', 'VI'],
+  ['united states virgin islands', 'VI'],
+]);
+
 export async function loadGlobalLocationResolver() {
   const geographyDir = path.join(projectRoot(), 'geography');
   const entries = await readdir(geographyDir, { withFileTypes: true });
@@ -51,6 +72,14 @@ export function createGlobalLocationResolver({ countries, indexes }) {
       if (!raw) return unknown('missing-location');
 
       const normalized = normalizeLocationForComparison(raw);
+
+      for (const candidate of locationCandidates(raw)) {
+        const strongRegion = STRONG_EXACT_REGION_ALIASES.get(candidate);
+        if (strongRegion) {
+          return accepted(strongRegion, 'high', 'explicit-territory', candidate);
+        }
+      }
+
       const compoundCodes = compoundMap.get(normalized);
       if (compoundCodes?.size === 1) {
         const countryCode = [...compoundCodes][0];

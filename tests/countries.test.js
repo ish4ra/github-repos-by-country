@@ -39,3 +39,11 @@ test('common country aliases are available to global discovery config', async ()
   assert.ok(gb.countryAliases.includes('UK'));
   assert.ok(ae.countryAliases.includes('UAE'));
 });
+
+
+test('special administrative regions use concise public names and aliases', () => {
+  assert.equal(getCountry('HK')?.name, 'Hong Kong');
+  assert.ok(getCountry('HK')?.aliases.includes('Hong Kong SAR'));
+  assert.equal(getCountry('MO')?.name, 'Macao');
+  assert.ok(getCountry('MO')?.aliases.includes('Macau'));
+});

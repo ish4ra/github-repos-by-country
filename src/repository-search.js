@@ -1,3 +1,6 @@
+export const REPOSITORY_CANDIDATE_SCHEMA_VERSION = 2;
+export const REPOSITORY_RANKING_METHODOLOGY_VERSION = '0.8.0-repository-first';
+
 export const REPOSITORY_SEARCH_WINDOW = 1000;
 
 export function buildStarRangeQuery(minStars, maxStars) {

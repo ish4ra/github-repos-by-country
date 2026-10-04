@@ -2,6 +2,10 @@ import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { projectRoot } from './config.js';
 import { COUNTRIES, countryCodeToFlag } from './countries.js';
+import {
+  REPOSITORY_CANDIDATE_SCHEMA_VERSION,
+  REPOSITORY_RANKING_METHODOLOGY_VERSION,
+} from './repository-search.js';
 
 export async function writeOutputs(ranking) {
   const root = projectRoot();
@@ -524,7 +528,12 @@ async function readDiscoveryStates(stateDir) {
     try {
       const content = await readFile(path.join(stateDir, entry.name), 'utf8');
       const parsed = JSON.parse(content);
-      if (parsed?.country?.code) states.push(parsed);
+      if (
+        parsed?.country?.code &&
+        parsed?.schemaVersion === REPOSITORY_CANDIDATE_SCHEMA_VERSION
+      ) {
+        states.push(parsed);
+      }
     } catch {
       // A damaged progress file must not break the public country index.
     }
@@ -566,6 +575,13 @@ async function readRankingSummaries(dataDir) {
       const content = await readFile(path.join(dataDir, entry.name), 'utf8');
       const parsed = JSON.parse(content);
       if (parsed?.country?.code && parsed?.country?.name && parsed?.country?.slug) {
+        const repositoryFirst = String(parsed.methodologyVersion || '').includes('repository-first');
+        if (
+          repositoryFirst &&
+          parsed.methodologyVersion !== REPOSITORY_RANKING_METHODOLOGY_VERSION
+        ) {
+          continue;
+        }
         summaries.push(parsed);
       }
     } catch {
