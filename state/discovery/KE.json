@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "c587ed972f96aad8eecdfe55bdfa49dbe66dd03277752fca236cf86e88fec43b",
+    "sha256": "222bb2b31f79c435543e7e05267f439063a9651beb4e5efa388697c66d355d14",
     "termsTotal": 352
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Kenya",
     "queue": [
+      {
+        "query": "location:\"Kenya\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
       {
         "query": "location:\"Kenya\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
         "stage": "year:2013",
@@ -270,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:32:06.724Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-05T14:58:36.180Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 6693
+    "reportedCount": 6703
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:32:06.724Z",
-  "updatedAt": "2026-10-03T20:01:15.378Z",
+  "startedAt": "2026-10-05T14:58:36.180Z",
+  "updatedAt": "2026-10-05T14:58:57.553Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 220,
-    "acceptedOwnerHits": 219,
+    "rawOwnerHits": 205,
+    "acceptedOwnerHits": 204,
     "rejectedOwnerHits": 1,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4639
+    "minimumRateLimitRemaining": 4866
   },
   "unresolvedShards": [],
   "candidates": [
@@ -317,8 +324,8 @@
         "nameWithOwner": "Dark-Xploit/CypherX",
         "url": "https://github.com/Dark-Xploit/CypherX",
         "description": "𝙏𝙃𝙀 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇 𝘾𝙔𝙋𝙃𝙀𝙍 𝙓 𝙍𝙀𝙋𝙊𝙎𝙄𝙏𝙊𝙍𝙔.",
-        "stargazerCount": 2958,
-        "forkCount": 7818,
+        "stargazerCount": 2961,
+        "forkCount": 7822,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-01-09T21:18:19Z",
@@ -392,7 +399,7 @@
         "nameWithOwner": "alvin-tosh/Malware-Exhibit",
         "url": "https://github.com/alvin-tosh/Malware-Exhibit",
         "description": "🚀🚀 This is a 🎇🔥 REAL WORLD🔥 🎇 Malware Collection I have  Compiled & analysed by researchers🔥 to understand more about Malware threats😈, analysis and mitigation🧐.",
-        "stargazerCount": 1186,
+        "stargazerCount": 1187,
         "forkCount": 197,
         "isArchived": false,
         "isFork": false,
@@ -506,7 +513,7 @@
         "nameWithOwner": "JohnMwendwa/vet-management-system",
         "url": "https://github.com/JohnMwendwa/vet-management-system",
         "description": "This is an admin dashboard built for managing hospital/vet services",
-        "stargazerCount": 347,
+        "stargazerCount": 353,
         "forkCount": 43,
         "isArchived": false,
         "isFork": false,
@@ -850,7 +857,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2020-07-19T23:48:58Z",
-        "pushedAt": "2026-10-01T20:39:47Z",
+        "pushedAt": "2026-10-04T18:57:41Z",
         "homepageUrl": "https://waynegakuo.com",
         "primaryLanguage": {
           "name": "TypeScript"
@@ -1484,7 +1491,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2021-09-17T09:52:05Z",
-        "pushedAt": "2026-10-03T02:37:53Z",
+        "pushedAt": "2026-10-05T02:42:39Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -1737,7 +1744,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2022-09-04T18:52:41Z",
-        "pushedAt": "2026-10-03T19:39:34Z",
+        "pushedAt": "2026-10-05T08:51:37Z",
         "homepageUrl": "",
         "primaryLanguage": null,
         "licenseInfo": null

@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "37f808d592bc85297383897785a32a2185f79ac63e764aefea1c16257879c1b5",
+    "sha256": "c6f98648c39bb7880e83555bdd6d12af7b990b20465f1ec2dfb1c627046e0923",
     "termsTotal": 10957
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Italy",
     "queue": [
+      {
+        "query": "location:\"Italy\" type:user followers:0 repos:1..4 created:2011-01-01..2011-12-31",
+        "stage": "year:2011",
+        "cursor": "Y3Vyc29yOjUw",
+        "pageNumber": 2,
+        "attempts": 0
+      },
       {
         "query": "location:\"Italy\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
         "stage": "year:2012",
@@ -277,27 +284,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:31:46.974Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-05T14:55:52.669Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 13965
+    "reportedCount": 13988
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:31:46.974Z",
-  "updatedAt": "2026-10-03T16:43:25.901Z",
+  "startedAt": "2026-10-05T14:55:52.669Z",
+  "updatedAt": "2026-10-05T14:56:21.762Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 294,
-    "acceptedOwnerHits": 289,
+    "rawOwnerHits": 253,
+    "acceptedOwnerHits": 248,
     "rejectedOwnerHits": 5,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4644
+    "minimumRateLimitRemaining": 4914
   },
   "unresolvedShards": [],
   "candidates": [
@@ -324,7 +331,7 @@
         "nameWithOwner": "FiloSottile/mkcert",
         "url": "https://github.com/FiloSottile/mkcert",
         "description": "A simple zero-config tool to make locally trusted development certificates with any names you'd like.",
-        "stargazerCount": 59716,
+        "stargazerCount": 59722,
         "forkCount": 3139,
         "isArchived": false,
         "isFork": false,
@@ -363,12 +370,12 @@
         "nameWithOwner": "mudler/LocalAI",
         "url": "https://github.com/mudler/LocalAI",
         "description": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required.",
-        "stargazerCount": 49370,
-        "forkCount": 4483,
+        "stargazerCount": 49398,
+        "forkCount": 4482,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2023-03-18T22:58:02Z",
-        "pushedAt": "2026-10-03T06:29:23Z",
+        "pushedAt": "2026-10-05T13:57:19Z",
         "homepageUrl": "https://localai.io",
         "primaryLanguage": {
           "name": "Go"
@@ -402,12 +409,12 @@
         "nameWithOwner": "GyulyVGC/sniffnet",
         "url": "https://github.com/GyulyVGC/sniffnet",
         "description": "Comfortably monitor your network traffic 🕵️‍♂️",
-        "stargazerCount": 41319,
-        "forkCount": 1960,
+        "stargazerCount": 41336,
+        "forkCount": 1962,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2022-07-31T21:55:56Z",
-        "pushedAt": "2026-10-03T03:13:45Z",
+        "pushedAt": "2026-10-05T13:33:56Z",
         "homepageUrl": "https://sniffnet.app",
         "primaryLanguage": {
           "name": "Rust"
@@ -441,8 +448,8 @@
         "nameWithOwner": "antirez/ds4",
         "url": "https://github.com/antirez/ds4",
         "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
-        "stargazerCount": 23098,
-        "forkCount": 2222,
+        "stargazerCount": 23542,
+        "forkCount": 2263,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-05-06T17:17:05Z",
@@ -480,8 +487,8 @@
         "nameWithOwner": "Datalux/Osintgram",
         "url": "https://github.com/Datalux/Osintgram",
         "description": "Osintgram is a OSINT tool on Instagram. It offers an interactive shell to perform analysis on Instagram account of any users by its nickname",
-        "stargazerCount": 14760,
-        "forkCount": 3149,
+        "stargazerCount": 14788,
+        "forkCount": 3154,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2019-06-07T23:23:40Z",
@@ -519,8 +526,8 @@
         "nameWithOwner": "evilsocket/opensnitch",
         "url": "https://github.com/evilsocket/opensnitch",
         "description": "OpenSnitch is a GNU/Linux interactive application firewall inspired by Little Snitch.",
-        "stargazerCount": 14118,
-        "forkCount": 674,
+        "stargazerCount": 14122,
+        "forkCount": 673,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2017-04-16T14:02:50Z",
@@ -558,12 +565,12 @@
         "nameWithOwner": "skypjack/entt",
         "url": "https://github.com/skypjack/entt",
         "description": "Gaming meets modern C++ - a fast and reliable entity component system (ECS) and much more",
-        "stargazerCount": 13161,
+        "stargazerCount": 13164,
         "forkCount": 1117,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2017-03-27T13:15:36Z",
-        "pushedAt": "2026-10-02T13:47:12Z",
+        "pushedAt": "2026-10-05T12:16:48Z",
         "homepageUrl": "https://github.com/skypjack/entt/wiki",
         "primaryLanguage": {
           "name": "C++"
@@ -675,8 +682,8 @@
         "nameWithOwner": "edoardottt/awesome-hacker-search-engines",
         "url": "https://github.com/edoardottt/awesome-hacker-search-engines",
         "description": "A curated list of awesome search engines useful during Penetration testing, Vulnerability assessments, Red/Blue Team operations, Bug Bounty and more",
-        "stargazerCount": 11243,
-        "forkCount": 1083,
+        "stargazerCount": 11253,
+        "forkCount": 1085,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2022-06-20T10:00:02Z",
@@ -792,7 +799,7 @@
         "nameWithOwner": "lballabio/QuantLib",
         "url": "https://github.com/lballabio/QuantLib",
         "description": "The QuantLib C++ library",
-        "stargazerCount": 7645,
+        "stargazerCount": 7650,
         "forkCount": 2338,
         "isArchived": false,
         "isFork": false,
@@ -870,7 +877,7 @@
         "nameWithOwner": "andreamazz/AMScrollingNavbar",
         "url": "https://github.com/andreamazz/AMScrollingNavbar",
         "description": "Scrollable UINavigationBar that follows the scrolling of a UIScrollView",
-        "stargazerCount": 5988,
+        "stargazerCount": 5989,
         "forkCount": 627,
         "isArchived": false,
         "isFork": false,
@@ -984,7 +991,7 @@
         "nameWithOwner": "remorses/playwriter",
         "url": "https://github.com/remorses/playwriter",
         "description": "Chrome extension & CLI to let agents control your browser. Runs Playwright snippets in a stateful sandbox. Available as CLI or MCP",
-        "stargazerCount": 3961,
+        "stargazerCount": 3967,
         "forkCount": 187,
         "isArchived": false,
         "isFork": false,
@@ -1040,6 +1047,84 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM3MTkzMzAy",
+      "login": "enzomanuelmangano",
+      "name": "Enzo Manuel Mangano",
+      "type": "User",
+      "location": "Milan, Italy",
+      "url": "https://github.com/enzomanuelmangano",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/37193302?u=fd8acd1338ba8ef696c40fc23eec8fb846cf3f70&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "demos",
+        "nameWithOwner": "enzomanuelmangano/demos",
+        "url": "https://github.com/enzomanuelmangano/demos",
+        "description": "An ongoing collection of React Native animations crafted with Reanimated, Gesture Handler, and Skia.",
+        "stargazerCount": 3216,
+        "forkCount": 297,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-11-05T15:38:16Z",
+        "pushedAt": "2026-10-05T10:18:43Z",
+        "homepageUrl": "https://reactiive.io/demos",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjk1MzYzNTQ=",
+      "login": "mmazzarolo",
+      "name": "Matteo Mazzarolo",
+      "type": "User",
+      "location": "Italy (Padova)",
+      "url": "https://github.com/mmazzarolo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9536354?u=70d06bb078c7c50b0f291d1cf308d29429d56faa&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "react-native-modal-datetime-picker",
+        "nameWithOwner": "mmazzarolo/react-native-modal-datetime-picker",
+        "url": "https://github.com/mmazzarolo/react-native-modal-datetime-picker",
+        "description": "A React-Native datetime-picker for Android and iOS",
+        "stargazerCount": 3052,
+        "forkCount": 391,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-09-14T11:27:18Z",
+        "pushedAt": "2024-08-22T15:03:43Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI1MDA4NzM0",
       "login": "m4ll0k",
       "name": "m4ll0k (mallok)",
@@ -1062,8 +1147,8 @@
         "nameWithOwner": "m4ll0k/SecretFinder",
         "url": "https://github.com/m4ll0k/SecretFinder",
         "description": "SecretFinder - A python script for find sensitive data (apikeys, accesstoken,jwt,..) and search anything on javascript files ",
-        "stargazerCount": 2521,
-        "forkCount": 439,
+        "stargazerCount": 2522,
+        "forkCount": 438,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2020-06-08T10:50:12Z",
@@ -1101,12 +1186,12 @@
         "nameWithOwner": "OpenIPC/firmware",
         "url": "https://github.com/OpenIPC/firmware",
         "description": "Alternative IP Camera firmware from an open community",
-        "stargazerCount": 2224,
-        "forkCount": 488,
+        "stargazerCount": 2230,
+        "forkCount": 489,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2021-04-13T17:10:54Z",
-        "pushedAt": "2026-10-03T08:10:26Z",
+        "pushedAt": "2026-10-05T14:46:12Z",
         "homepageUrl": "https://openipc.org",
         "primaryLanguage": {
           "name": "C"
@@ -1257,8 +1342,8 @@
         "nameWithOwner": "bdamele/icmpsh",
         "url": "https://github.com/bdamele/icmpsh",
         "description": "Simple reverse ICMP shell",
-        "stargazerCount": 1625,
-        "forkCount": 416,
+        "stargazerCount": 1626,
+        "forkCount": 417,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2011-04-15T10:04:12Z",
@@ -1293,8 +1378,8 @@
         "nameWithOwner": "kristoff-it/zine",
         "url": "https://github.com/kristoff-it/zine",
         "description": "Fast, Scalable, Flexible Static Site Generator (SSG)",
-        "stargazerCount": 1596,
-        "forkCount": 105,
+        "stargazerCount": 1599,
+        "forkCount": 106,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2023-11-30T15:11:26Z",
@@ -1410,7 +1495,7 @@
         "nameWithOwner": "Domenicobrz/Blurry",
         "url": "https://github.com/Domenicobrz/Blurry",
         "description": "Simulating depth of field with particles on a shader",
-        "stargazerCount": 880,
+        "stargazerCount": 881,
         "forkCount": 69,
         "isArchived": false,
         "isFork": false,
@@ -1485,12 +1570,12 @@
         "nameWithOwner": "Rinnegatamante/vitaGL",
         "url": "https://github.com/Rinnegatamante/vitaGL",
         "description": "openGL wrapper for PSVITA.",
-        "stargazerCount": 637,
-        "forkCount": 83,
+        "stargazerCount": 638,
+        "forkCount": 82,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2017-12-30T20:35:21Z",
-        "pushedAt": "2026-10-03T16:30:03Z",
+        "pushedAt": "2026-10-05T14:42:35Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "C"
@@ -1499,6 +1584,42 @@
           "name": "GNU Lesser General Public License v3.0",
           "spdxId": "LGPL-3.0"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE5NzUxNjU2",
+      "login": "caveofprogramming",
+      "name": "Cave of Programming / John Purcell",
+      "type": "User",
+      "location": "Trieste, Italy",
+      "url": "https://github.com/caveofprogramming",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19751656?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "advanced-cplusplus",
+        "nameWithOwner": "caveofprogramming/advanced-cplusplus",
+        "url": "https://github.com/caveofprogramming/advanced-cplusplus",
+        "description": null,
+        "stargazerCount": 610,
+        "forkCount": 335,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-06-17T14:44:30Z",
+        "pushedAt": "2026-07-16T11:56:27Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -1687,6 +1808,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjUwODk=",
+      "login": "jodosha",
+      "name": "Luca Guidi",
+      "type": "User",
+      "location": "Rome, Italy",
+      "url": "https://github.com/jodosha",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5089?u=fd8839fca548996826c602e80f7b9430c6f27f91&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "vim-godebug",
+        "nameWithOwner": "jodosha/vim-godebug",
+        "url": "https://github.com/jodosha/vim-godebug",
+        "description": "Go debugging for Vim ",
+        "stargazerCount": 454,
+        "forkCount": 21,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-02-06T09:22:36Z",
+        "pushedAt": "2022-03-22T09:25:07Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Vim Script"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE1MDY3NzQx",
       "login": "GeoSn0w",
       "name": "GeoSn0w",
@@ -1765,6 +1925,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ5ODEwMDc1",
+      "login": "WillyJL",
+      "name": "WillyJL",
+      "type": "User",
+      "location": "Italy",
+      "url": "https://github.com/WillyJL",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/49810075?u=49ba804e547c314c1b1a77f1b38279bd7e154ba3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "F95Checker",
+        "nameWithOwner": "WillyJL/F95Checker",
+        "url": "https://github.com/WillyJL/F95Checker",
+        "description": null,
+        "stargazerCount": 236,
+        "forkCount": 46,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-03-05T16:36:44Z",
+        "pushedAt": "2026-09-27T18:41:57Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjg5OTkzMDk5",
       "login": "Berserk-hub150",
       "name": "BerserkTime",
@@ -1800,6 +1999,45 @@
         "licenseInfo": {
           "name": "GNU General Public License v3.0",
           "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ0Mjg0NA==",
+      "login": "ptkdev",
+      "name": "Patryk Rzucidło",
+      "type": "User",
+      "location": "Rome, Italy",
+      "url": "https://github.com/ptkdev",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/442844?u=0f043fd839a035587d4e7d8c2e763fdad90c0423&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "ptkdev-logger",
+        "nameWithOwner": "ptkdev/ptkdev-logger",
+        "url": "https://github.com/ptkdev/ptkdev-logger",
+        "description": "🦒 Beautiful Logger for Node.js: the best alternative to the console.log statement",
+        "stargazerCount": 184,
+        "forkCount": 8,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-02-14T13:14:22Z",
+        "pushedAt": "2023-10-08T14:33:45Z",
+        "homepageUrl": "https://npmjs.com/package/@ptkdev/logger",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
         }
       }
     },
@@ -1941,7 +2179,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2021-12-06T15:02:01Z",
-        "pushedAt": "2026-10-03T04:30:26Z",
+        "pushedAt": "2026-10-05T04:47:47Z",
         "homepageUrl": "https://github.com/somekindofwallflower/somekindofwallflower",
         "primaryLanguage": null,
         "licenseInfo": null
@@ -2203,6 +2441,45 @@
         "homepageUrl": "",
         "primaryLanguage": null,
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM5NjQ2OTI5",
+      "login": "silicia-apps",
+      "name": "Francesco Bozzotta",
+      "type": "User",
+      "location": "Italy",
+      "url": "https://github.com/silicia-apps",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39646929?u=ea4b0b7fb48f4edcb5862c9685b118fe4867835a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Italy"
+      },
+      "discoveryTerms": [
+        "Italy"
+      ],
+      "topRepository": {
+        "name": "sio",
+        "nameWithOwner": "silicia-apps/sio",
+        "url": "https://github.com/silicia-apps/sio",
+        "description": "Silicia Framework : a new framework based on ionic to accelerate the writing of hybrid apps and websites.  ",
+        "stargazerCount": 12,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-12-20T23:07:49Z",
+        "pushedAt": "2025-11-17T22:58:33Z",
+        "homepageUrl": "https://silicia-apps.github.io/sio/",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {

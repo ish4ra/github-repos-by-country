@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "b991a327a6a7f2f4b6bb69a97373cf31a71cfebdc361a99eb4606024b46221a1",
+    "sha256": "50c9494bf38daf7f8737b1176f3fb4ceee7e1253a28b6e594cdf8d6b26d00d2b",
     "termsTotal": 265
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Iraq",
     "queue": [
+      {
+        "query": "location:\"Iraq\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
       {
         "query": "location:\"Iraq\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
         "stage": "year:2013",
@@ -270,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:31:33.092Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-05T14:54:19.006Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 1689
+    "reportedCount": 1671
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:31:33.092Z",
-  "updatedAt": "2026-10-03T16:42:14.997Z",
+  "startedAt": "2026-10-05T14:54:19.005Z",
+  "updatedAt": "2026-10-05T14:54:39.820Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 204,
-    "acceptedOwnerHits": 202,
-    "rejectedOwnerHits": 2,
+    "rawOwnerHits": 200,
+    "acceptedOwnerHits": 197,
+    "rejectedOwnerHits": 3,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4649
+    "minimumRateLimitRemaining": 4946
   },
   "unresolvedShards": [],
   "candidates": [
@@ -395,7 +402,7 @@
         "nameWithOwner": "Ha3MrX/DDos-Attack",
         "url": "https://github.com/Ha3MrX/DDos-Attack",
         "description": "DDos-Attack Is A Python script online Attack",
-        "stargazerCount": 1806,
+        "stargazerCount": 1807,
         "forkCount": 928,
         "isArchived": false,
         "isFork": false,
@@ -470,7 +477,7 @@
         "nameWithOwner": "ayman708-UX/PlayTorrioV2",
         "url": "https://github.com/ayman708-UX/PlayTorrioV2",
         "description": null,
-        "stargazerCount": 485,
+        "stargazerCount": 486,
         "forkCount": 43,
         "isArchived": false,
         "isFork": false,
@@ -518,6 +525,45 @@
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE4MDg1NDky",
+      "login": "McDaived",
+      "name": "Daived",
+      "type": "User",
+      "location": "iraq",
+      "url": "https://github.com/McDaived",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18085492?u=ce6e64e9be593ddef3e6d4d32021252ea463e70b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IQ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iraq"
+      },
+      "discoveryTerms": [
+        "Iraq"
+      ],
+      "topRepository": {
+        "name": "AIMi",
+        "nameWithOwner": "McDaived/AIMi",
+        "url": "https://github.com/McDaived/AIMi",
+        "description": "AIMi its an AI aimbot, it work by real-time object detection with neural networks, and recognizes the patterns similar to human movements and human formation it will identify the head as a target .  It's an improved version of a very old version of YOLOv3",
+        "stargazerCount": 146,
+        "forkCount": 22,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-11-07T10:29:52Z",
+        "pushedAt": "2023-11-15T11:00:27Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -813,6 +859,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjgyNzMzNTg3",
+      "login": "RawandDev",
+      "name": "Rawand",
+      "type": "User",
+      "location": "Sulaymaniyah, Iraq",
+      "url": "https://github.com/RawandDev",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/82733587?u=80a358a44169937f1fd6c2346ba1287ec0a3df62&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IQ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iraq"
+      },
+      "discoveryTerms": [
+        "Iraq"
+      ],
+      "topRepository": {
+        "name": "simple-resume-builder",
+        "nameWithOwner": "RawandDev/simple-resume-builder",
+        "url": "https://github.com/RawandDev/simple-resume-builder",
+        "description": "Simple yet elegant resume builder.",
+        "stargazerCount": 23,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-08-04T11:04:46Z",
+        "pushedAt": "2023-08-12T18:07:51Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "U_kgDOBp1f3w",
       "login": "sajjad-salam",
       "name": "sajjad_salam",
@@ -957,6 +1042,42 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI1ODcxNjQy",
+      "login": "dashty94",
+      "name": "Dashty Frya",
+      "type": "User",
+      "location": "Iraq - Sulaimaiyah",
+      "url": "https://github.com/dashty94",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25871642?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IQ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iraq"
+      },
+      "discoveryTerms": [
+        "Iraq"
+      ],
+      "topRepository": {
+        "name": "mui-rhf-library",
+        "nameWithOwner": "dashty94/mui-rhf-library",
+        "url": "https://github.com/dashty94/mui-rhf-library",
+        "description": "A set of configured Material UI form inputs configured with React Hook Form and Yup.",
+        "stargazerCount": 16,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-02-08T11:55:46Z",
+        "pushedAt": "2026-10-04T10:37:05Z",
+        "homepageUrl": "https://mui-rhf-library.dashty.dev",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -1205,6 +1326,45 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Ruby"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUzNTc1Mjk=",
+      "login": "Gruce",
+      "name": "Hasan Alkarnosy",
+      "type": "User",
+      "location": "Iraq, Basra",
+      "url": "https://github.com/Gruce",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5357529?u=10070c8779d3502cac865071320e4826e47cbffa&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IQ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iraq"
+      },
+      "discoveryTerms": [
+        "Iraq"
+      ],
+      "topRepository": {
+        "name": "laravel-starter-template",
+        "nameWithOwner": "Gruce/laravel-starter-template",
+        "url": "https://github.com/Gruce/laravel-starter-template",
+        "description": "Laravel Starter Template",
+        "stargazerCount": 9,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-06-18T07:53:23Z",
+        "pushedAt": "2022-07-01T07:44:18Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "JavaScript"
         },
         "licenseInfo": {
           "name": "MIT License",
@@ -1536,7 +1696,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-02-27T05:35:24Z",
-        "pushedAt": "2026-09-12T08:37:18Z",
+        "pushedAt": "2026-10-05T08:47:52Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -1613,6 +1773,76 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Dart"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIxMjE3MDQy",
+      "login": "programmerfemo",
+      "name": "Programmer femo",
+      "type": "User",
+      "location": "Iraq",
+      "url": "https://github.com/programmerfemo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/21217042?u=073154e2e481e0f68b2194134e64fff3e9976cff&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IQ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iraq"
+      },
+      "discoveryTerms": [
+        "Iraq"
+      ],
+      "topRepository": {
+        "name": "MetroModernUI-CSharp",
+        "nameWithOwner": "programmerfemo/MetroModernUI-CSharp",
+        "url": "https://github.com/programmerfemo/MetroModernUI-CSharp",
+        "description": "Metro Modern UI in C# Application ",
+        "stargazerCount": 4,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-09-17T08:23:22Z",
+        "pushedAt": "2017-09-17T09:27:52Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMzMTc4NzQ1",
+      "login": "zeyadsharo",
+      "name": "Zeyad Khadeeda",
+      "type": "User",
+      "location": "iraq",
+      "url": "https://github.com/zeyadsharo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33178745?u=d322179a2f953597930434c062065e52cc77975f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IQ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iraq"
+      },
+      "discoveryTerms": [
+        "Iraq"
+      ],
+      "topRepository": {
+        "name": "Angular-practical-third-stage",
+        "nameWithOwner": "zeyadsharo/Angular-practical-third-stage",
+        "url": "https://github.com/zeyadsharo/Angular-practical-third-stage",
+        "description": null,
+        "stargazerCount": 4,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-10-31T22:07:32Z",
+        "pushedAt": "2024-02-23T10:13:44Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
         },
         "licenseInfo": null
       }
@@ -1726,6 +1956,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjIwMzgzMTcx",
+      "login": "fadiramzi",
+      "name": "Fadi Ramzi Mohammed",
+      "type": "User",
+      "location": "Iraq, Baghdad",
+      "url": "https://github.com/fadiramzi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/20383171?u=356a037af144cf4ff1d67f544eaf902e97233965&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IQ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iraq"
+      },
+      "discoveryTerms": [
+        "Iraq"
+      ],
+      "topRepository": {
+        "name": "giz-task07",
+        "nameWithOwner": "fadiramzi/giz-task07",
+        "url": "https://github.com/fadiramzi/giz-task07",
+        "description": "Product page",
+        "stargazerCount": 3,
+        "forkCount": 39,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-11-22T18:56:24Z",
+        "pushedAt": "2022-01-01T22:22:49Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjU4NTQ4MzAx",
       "login": "imjmakki",
       "name": "Mohamd J Alanbaki",
@@ -1834,6 +2098,42 @@
       }
     },
     {
+      "id": "U_kgDOBhNllA",
+      "login": "diyar214",
+      "name": "Diyar",
+      "type": "User",
+      "location": "Iraq, Baghdad",
+      "url": "https://github.com/diyar214",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/101934484?u=af6f721ac13c393fc59c4475ef21611a0f3a0471&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IQ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iraq"
+      },
+      "discoveryTerms": [
+        "Iraq"
+      ],
+      "topRepository": {
+        "name": "yalla_toure1.0",
+        "nameWithOwner": "diyar214/yalla_toure1.0",
+        "url": "https://github.com/diyar214/yalla_toure1.0",
+        "description": null,
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-07-03T18:16:09Z",
+        "pushedAt": "2024-10-03T10:31:24Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBgYr8A",
       "login": "RoaaK95",
       "name": "Roaa Khaldoon",
@@ -1902,6 +2202,40 @@
         "createdAt": "2021-09-28T06:55:04Z",
         "pushedAt": "2021-09-28T06:55:05Z",
         "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODLQQTA",
+      "login": "9gkc",
+      "name": "Ali Al-Karrar",
+      "type": "User",
+      "location": "Iraq, Basra",
+      "url": "https://github.com/9gkc",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/213127244?u=a719a61186a1d14eb3f5969907f18af4e6aac817&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IQ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iraq"
+      },
+      "discoveryTerms": [
+        "Iraq"
+      ],
+      "topRepository": {
+        "name": "cykun",
+        "nameWithOwner": "9gkc/cykun",
+        "url": "https://github.com/9gkc/cykun",
+        "description": "Arabic academic cybersecurity library for university students — structured study paths, numbered lectures, and verified Android releases.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-13T20:45:14Z",
+        "pushedAt": "2026-08-16T17:16:32Z",
+        "homepageUrl": "https://t.me/cys4ever",
         "primaryLanguage": null,
         "licenseInfo": null
       }
@@ -2180,6 +2514,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "C#"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQyOTQ2ODc1",
+      "login": "Mustafa-Ahmed1",
+      "name": "Mustafa Ahmed",
+      "type": "User",
+      "location": "Iraq, Misan",
+      "url": "https://github.com/Mustafa-Ahmed1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/42946875?u=c6242794c14a1237ce0e058cb90ba1b31da94dc9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IQ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iraq"
+      },
+      "discoveryTerms": [
+        "Iraq"
+      ],
+      "topRepository": {
+        "name": "WhoWantsToBeAMillionaire",
+        "nameWithOwner": "Mustafa-Ahmed1/WhoWantsToBeAMillionaire",
+        "url": "https://github.com/Mustafa-Ahmed1/WhoWantsToBeAMillionaire",
+        "description": "A trivia game that consists of 15 questions with different difficulties.",
+        "stargazerCount": 1,
+        "forkCount": 4,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-08-23T21:39:24Z",
+        "pushedAt": "2023-02-03T10:08:30Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Kotlin"
         },
         "licenseInfo": null
       }

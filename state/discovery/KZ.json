@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "6737e2ccca57ffe65fd1260117fc87b2a3c1c8ea876e5808f80cf67127522db5",
+    "sha256": "da584b34ffe89f5c0ad1515565486f85dd420a8c88650e935d352db47d489583",
     "termsTotal": 401
   },
   "phase": "discovery",
@@ -18,10 +18,52 @@
     "term": "Kazakhstan",
     "queue": [
       {
+        "query": "location:\"Kazakhstan\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Kazakhstan\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
+        "stage": "year:2013",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Kazakhstan\" type:user followers:0 repos:1..4 created:2014-01-01..2014-12-31",
+        "stage": "year:2014",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Kazakhstan\" type:user followers:0 repos:1..4 created:2015-01-01..2015-12-31",
+        "stage": "year:2015",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Kazakhstan\" type:user followers:0 repos:1..4 created:2016-01-01..2016-12-31",
+        "stage": "year:2016",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Kazakhstan\" type:user followers:0 repos:1..4 created:2017-01-01..2017-12-31",
+        "stage": "year:2017",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
         "query": "location:\"Kazakhstan\" type:user followers:0 repos:1..4 created:2018-01-01..2018-12-31",
         "stage": "year:2018",
-        "cursor": "Y3Vyc29yOjUw",
-        "pageNumber": 2,
+        "cursor": null,
+        "pageNumber": 1,
         "attempts": 0
       },
       {
@@ -235,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:32:03.392Z",
-    "requests": 17,
-    "leafPages": 13,
+    "startedAt": "2026-10-05T14:58:12.473Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 2158
+    "reportedCount": 2159
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:32:03.392Z",
-  "updatedAt": "2026-10-03T20:01:01.621Z",
+  "startedAt": "2026-10-05T14:58:12.473Z",
+  "updatedAt": "2026-10-05T14:58:36.169Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 17,
-    "leafPages": 13,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 551,
-    "acceptedOwnerHits": 547,
-    "rejectedOwnerHits": 4,
+    "rawOwnerHits": 204,
+    "acceptedOwnerHits": 203,
+    "rejectedOwnerHits": 1,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4604
+    "minimumRateLimitRemaining": 4874
   },
   "unresolvedShards": [],
   "candidates": [
@@ -282,12 +324,12 @@
         "nameWithOwner": "0xAX/linux-insides",
         "url": "https://github.com/0xAX/linux-insides",
         "description": "A book-in-progress about the Linux kernel and its insides.",
-        "stargazerCount": 33619,
-        "forkCount": 3568,
+        "stargazerCount": 33621,
+        "forkCount": 3567,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2015-01-03T18:44:57Z",
-        "pushedAt": "2026-10-03T15:15:42Z",
+        "pushedAt": "2026-10-04T14:34:07Z",
         "homepageUrl": "https://0xax.dev/books/linux-inside/",
         "primaryLanguage": {
           "name": "Python"
@@ -321,7 +363,7 @@
         "nameWithOwner": "henrypp/memreduct",
         "url": "https://github.com/henrypp/memreduct",
         "description": "Lightweight real-time memory management application to monitor and clean system memory on your computer.",
-        "stargazerCount": 10699,
+        "stargazerCount": 10716,
         "forkCount": 609,
         "isArchived": false,
         "isFork": false,
@@ -360,12 +402,12 @@
         "nameWithOwner": "MakazhanAlpamys/Soup",
         "url": "https://github.com/MakazhanAlpamys/Soup",
         "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
-        "stargazerCount": 8053,
-        "forkCount": 1295,
+        "stargazerCount": 8162,
+        "forkCount": 1310,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-02-20T11:05:01Z",
-        "pushedAt": "2026-10-02T18:22:47Z",
+        "pushedAt": "2026-10-05T13:20:27Z",
         "homepageUrl": "https://trysoup.dev",
         "primaryLanguage": {
           "name": "Python"
@@ -399,8 +441,8 @@
         "nameWithOwner": "Hexlet/ru-test-assignments",
         "url": "https://github.com/Hexlet/ru-test-assignments",
         "description": "Тестовые задания для самостоятельного выполнения от разных it компаний",
-        "stargazerCount": 6776,
-        "forkCount": 950,
+        "stargazerCount": 6780,
+        "forkCount": 951,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2017-03-30T11:45:15Z",
@@ -438,7 +480,7 @@
         "nameWithOwner": "adilkhash/Data-Engineering-HowTo",
         "url": "https://github.com/adilkhash/Data-Engineering-HowTo",
         "description": "A list of useful resources to learn Data Engineering from scratch",
-        "stargazerCount": 4028,
+        "stargazerCount": 4029,
         "forkCount": 573,
         "isArchived": false,
         "isFork": false,
@@ -589,7 +631,7 @@
         "nameWithOwner": "raindropio/app",
         "url": "https://github.com/raindropio/app",
         "description": "Source code of web app and browser extensions",
-        "stargazerCount": 1604,
+        "stargazerCount": 1606,
         "forkCount": 175,
         "isArchived": false,
         "isFork": false,
@@ -801,6 +843,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQzOTYzODg4",
+      "login": "shinovon",
+      "name": "Arman Jussupgaliyev",
+      "type": "User",
+      "location": "Kazakhstan",
+      "url": "https://github.com/shinovon",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43963888?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "KZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Kazakhstan"
+      },
+      "discoveryTerms": [
+        "Kazakhstan"
+      ],
+      "topRepository": {
+        "name": "KEmulator",
+        "nameWithOwner": "shinovon/KEmulator",
+        "url": "https://github.com/shinovon/KEmulator",
+        "description": "KEmulator nnmod",
+        "stargazerCount": 470,
+        "forkCount": 44,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-09-15T17:28:43Z",
+        "pushedAt": "2026-10-04T16:53:53Z",
+        "homepageUrl": "https://nnproject.cc/kem",
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQ1MzA4NTg2",
       "login": "onl1ner",
       "name": "Tamerlan Satualdypov",
@@ -837,42 +915,6 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
-      }
-    },
-    {
-      "id": "MDQ6VXNlcjQzOTYzODg4",
-      "login": "shinovon",
-      "name": "Arman Jussupgaliyev",
-      "type": "User",
-      "location": "Kazakhstan",
-      "url": "https://github.com/shinovon",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/43963888?v=4",
-      "attribution": {
-        "accepted": true,
-        "countryCode": "KZ",
-        "confidence": "high",
-        "evidence": "explicit-country",
-        "matched": "Kazakhstan"
-      },
-      "discoveryTerms": [
-        "Kazakhstan"
-      ],
-      "topRepository": {
-        "name": "KEmulator",
-        "nameWithOwner": "shinovon/KEmulator",
-        "url": "https://github.com/shinovon/KEmulator",
-        "description": "KEmulator nnmod",
-        "stargazerCount": 465,
-        "forkCount": 44,
-        "isArchived": false,
-        "isFork": false,
-        "createdAt": "2021-09-15T17:28:43Z",
-        "pushedAt": "2026-09-27T12:00:09Z",
-        "homepageUrl": "https://nnproject.cc/kem",
-        "primaryLanguage": {
-          "name": "Java"
-        },
-        "licenseInfo": null
       }
     },
     {
@@ -1083,8 +1125,8 @@
         "nameWithOwner": "IS2AI/Kazakh_TTS",
         "url": "https://github.com/IS2AI/Kazakh_TTS",
         "description": "An expanded version of the previously released Kazakh text-to-speech (KazakhTTS) synthesis corpus. In KazakhTTS2, the overall size has increased from 93 hours to 271 hours, the number of speakers has risen from two to five (three females and two males), and the topic coverage has been diversified.",
-        "stargazerCount": 159,
-        "forkCount": 27,
+        "stargazerCount": 160,
+        "forkCount": 28,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2021-04-18T17:16:19Z",
@@ -1272,10 +1314,49 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2015-02-24T15:00:33Z",
-        "pushedAt": "2026-10-03T07:34:08Z",
+        "pushedAt": "2026-10-05T08:59:37Z",
         "homepageUrl": "https://wirenboard.com/wiki/Wb-rules",
         "primaryLanguage": {
           "name": "Go"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgzMjYyMDE=",
+      "login": "arogachev",
+      "name": "Alexey Rogachev",
+      "type": "User",
+      "location": "Almaty, Kazakhstan ",
+      "url": "https://github.com/arogachev",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8326201?u=f764eaebd739e65f3c8bc28f680eca9d38bcd524&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "KZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Kazakhstan"
+      },
+      "discoveryTerms": [
+        "Kazakhstan"
+      ],
+      "topRepository": {
+        "name": "yii2-excel",
+        "nameWithOwner": "arogachev/yii2-excel",
+        "url": "https://github.com/arogachev/yii2-excel",
+        "description": "ActiveRecord import and export based on PHPExcel for Yii 2 framework",
+        "stargazerCount": 63,
+        "forkCount": 25,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-04-12T05:57:40Z",
+        "pushedAt": "2019-10-10T13:47:23Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "PHP"
         },
         "licenseInfo": {
           "name": "Other",
@@ -1624,6 +1705,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjE2NjM0MDg5",
+      "login": "alexeiva",
+      "name": "Alexei Vanyashin",
+      "type": "User",
+      "location": "Almaty, Kazakhstan",
+      "url": "https://github.com/alexeiva",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16634089?u=7ffbe7b10f638ecc7819dbb7d59032b0102c4a10&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "KZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Kazakhstan"
+      },
+      "discoveryTerms": [
+        "Kazakhstan"
+      ],
+      "topRepository": {
+        "name": "Arsenal",
+        "nameWithOwner": "alexeiva/Arsenal",
+        "url": "https://github.com/alexeiva/Arsenal",
+        "description": "Ukrainian Type: Arsenal by Andrij Shevchenko",
+        "stargazerCount": 17,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-09-20T11:48:00Z",
+        "pushedAt": "2017-06-26T13:06:16Z",
+        "homepageUrl": "http://www.ukrainian-type.com/",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": {
+          "name": "SIL Open Font License 1.1",
+          "spdxId": "OFL-1.1"
+        }
+      }
+    },
+    {
       "id": "U_kgDOBgWOdQ",
       "login": "marse11e",
       "name": "Marselle Naz 360°",
@@ -1811,7 +1931,7 @@
       "type": "User",
       "location": "Aktobe, Kazakhstan",
       "url": "https://github.com/Kairatzh",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/148870880?u=1e1f055d7ea65d0f95a5ef61f1b536f515ee6af5&v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/148870880?u=0f1be3dd3be15f513522b6b8684fbcfba0267aff&v=4",
       "attribution": {
         "accepted": true,
         "countryCode": "KZ",
@@ -1832,7 +1952,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-07-23T10:25:32Z",
-        "pushedAt": "2026-01-14T15:00:44Z",
+        "pushedAt": "2026-10-05T04:55:22Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -1979,6 +2099,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "C++"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBlNxGA",
+      "login": "VladimirDedov",
+      "name": "Vladimir",
+      "type": "User",
+      "location": "Petropavlovsk, Kazakhstan",
+      "url": "https://github.com/VladimirDedov",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/106131736?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "KZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Kazakhstan"
+      },
+      "discoveryTerms": [
+        "Kazakhstan"
+      ],
+      "topRepository": {
+        "name": "AutomationMeleniumSD",
+        "nameWithOwner": "VladimirDedov/AutomationMeleniumSD",
+        "url": "https://github.com/VladimirDedov/AutomationMeleniumSD",
+        "description": null,
+        "stargazerCount": 4,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-05-24T05:52:47Z",
+        "pushedAt": "2022-08-10T10:00:48Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
         },
         "licenseInfo": null
       }
@@ -7967,6 +8123,42 @@
       }
     },
     {
+      "id": "U_kgDOC935Cw",
+      "login": "gerichqq",
+      "name": "Aigerim Orazalina",
+      "type": "User",
+      "location": "Kazakhstan",
+      "url": "https://github.com/gerichqq",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/199096587?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "KZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Kazakhstan"
+      },
+      "discoveryTerms": [
+        "Kazakhstan"
+      ],
+      "topRepository": {
+        "name": "html-portfolio",
+        "nameWithOwner": "gerichqq/html-portfolio",
+        "url": "https://github.com/gerichqq/html-portfolio",
+        "description": "My personal profile created by using html",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-02-20T14:43:11Z",
+        "pushedAt": "2025-02-20T14:44:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjIwMzg0OTg5",
       "login": "GeyanPeaple",
       "name": "MaxVelin",
@@ -10897,6 +11089,40 @@
       }
     },
     {
+      "id": "U_kgDOBfcqyQ",
+      "login": "nilfgart",
+      "name": "Nursultan",
+      "type": "User",
+      "location": "Kazakhstan, Nur-Sultan",
+      "url": "https://github.com/nilfgart",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/100084425?u=d55d7c67bd79f667ac4d0676bc3c35b48c5ac7e1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "KZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Kazakhstan"
+      },
+      "discoveryTerms": [
+        "Kazakhstan"
+      ],
+      "topRepository": {
+        "name": "music_player",
+        "nameWithOwner": "nilfgart/music_player",
+        "url": "https://github.com/nilfgart/music_player",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-02-03T12:52:03Z",
+        "pushedAt": "2024-02-03T12:52:03Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQwNTE1NDI2",
       "login": "nnazym",
       "name": "Nazym Nurbek",
@@ -11387,6 +11613,42 @@
         "pushedAt": "2026-02-16T03:04:24Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODFbt1w",
+      "login": "Onlybtea",
+      "name": "Егор",
+      "type": "User",
+      "location": "Almaty, Kazakhstan",
+      "url": "https://github.com/Onlybtea",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/207023575?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "KZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Kazakhstan"
+      },
+      "discoveryTerms": [
+        "Kazakhstan"
+      ],
+      "topRepository": {
+        "name": "first",
+        "nameWithOwner": "Onlybtea/first",
+        "url": "https://github.com/Onlybtea/first",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-09-11T15:48:57Z",
+        "pushedAt": "2025-09-11T16:00:32Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
         "licenseInfo": null
       }
     },
@@ -14619,7 +14881,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2023-10-13T07:34:14Z",
-        "pushedAt": "2026-10-03T15:30:16Z",
+        "pushedAt": "2026-10-04T15:30:14Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "JavaScript"

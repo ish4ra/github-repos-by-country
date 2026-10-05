@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "2df9965d44a3f64e4cfe5f7c0e47e6f077f1c21dfb38d2c7352c22009c248db8",
+    "sha256": "ef497e15c3d1c7c0ff72a1b5df442c675c99df13f2f25361962b52150f7eee04",
     "termsTotal": 3616
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Iran",
     "queue": [
+      {
+        "query": "location:\"Iran\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
       {
         "query": "location:\"Iran\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
         "stage": "year:2013",
@@ -270,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:31:29.670Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-05T14:53:57.873Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 9687
+    "reportedCount": 9548
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:31:29.670Z",
-  "updatedAt": "2026-10-03T16:42:02.387Z",
+  "startedAt": "2026-10-05T14:53:57.873Z",
+  "updatedAt": "2026-10-05T14:54:18.996Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 240,
-    "acceptedOwnerHits": 239,
+    "rawOwnerHits": 204,
+    "acceptedOwnerHits": 203,
     "rejectedOwnerHits": 1,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4650
+    "minimumRateLimitRemaining": 4953
   },
   "unresolvedShards": [],
   "candidates": [
@@ -317,8 +324,8 @@
         "nameWithOwner": "IRNova/Nova-Proxy",
         "url": "https://github.com/IRNova/Nova-Proxy",
         "description": "یک پنل گرافیکی کاربردی برای ارائه اشتراک‌های Worker با پروکسی‌های ، Trojan و Warp به همراه زنجیره پروکسی، ارائه دهنده تنظیمات کامل DNS، IP تمیز و روتینگ پیشرفته برای کاربران تمامی پلتفرم‌ها با استفاده از هسته‌های Amnezia، Wireguard، Sing-box، Clash/Mihomo و Xray.",
-        "stargazerCount": 3306,
-        "forkCount": 759,
+        "stargazerCount": 3322,
+        "forkCount": 763,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-02-19T07:51:56Z",
@@ -356,7 +363,7 @@
         "nameWithOwner": "SharifiZarchi/Introduction_to_Machine_Learning",
         "url": "https://github.com/SharifiZarchi/Introduction_to_Machine_Learning",
         "description": "Machine Learning Course, Sharif University of Technology",
-        "stargazerCount": 2138,
+        "stargazerCount": 2139,
         "forkCount": 409,
         "isArchived": false,
         "isFork": false,
@@ -392,7 +399,7 @@
         "nameWithOwner": "The404Hacking/AndroRAT",
         "url": "https://github.com/The404Hacking/AndroRAT",
         "description": "AndroRAT | Remote Administrator Tool for Android OS Hacking",
-        "stargazerCount": 1729,
+        "stargazerCount": 1732,
         "forkCount": 383,
         "isArchived": false,
         "isFork": false,
@@ -523,6 +530,42 @@
       }
     },
     {
+      "id": "U_kgDOB60xow",
+      "login": "ircfspace",
+      "name": "IRCF",
+      "type": "User",
+      "location": "Iran",
+      "url": "https://github.com/ircfspace",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/128790947?u=19099a8be25e80b388c853392a5a1e90b1079e16&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iran"
+      },
+      "discoveryTerms": [
+        "Iran"
+      ],
+      "topRepository": {
+        "name": "tconfig",
+        "nameWithOwner": "ircfspace/tconfig",
+        "url": "https://github.com/ircfspace/tconfig",
+        "description": "Free V2RAY Proxy List",
+        "stargazerCount": 513,
+        "forkCount": 144,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-06-22T09:14:18Z",
+        "pushedAt": "2025-07-06T09:45:58Z",
+        "homepageUrl": "https://ircfspace.github.io/tconfig/",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE5MTQ1NTcz",
       "login": "AhmadRafiee",
       "name": "Ahmad_Rafiee",
@@ -559,42 +602,6 @@
           "name": "Apache License 2.0",
           "spdxId": "Apache-2.0"
         }
-      }
-    },
-    {
-      "id": "U_kgDOB60xow",
-      "login": "ircfspace",
-      "name": "IRCF",
-      "type": "User",
-      "location": "Iran",
-      "url": "https://github.com/ircfspace",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/128790947?u=19099a8be25e80b388c853392a5a1e90b1079e16&v=4",
-      "attribution": {
-        "accepted": true,
-        "countryCode": "IR",
-        "confidence": "high",
-        "evidence": "explicit-country",
-        "matched": "Iran"
-      },
-      "discoveryTerms": [
-        "Iran"
-      ],
-      "topRepository": {
-        "name": "tconfig",
-        "nameWithOwner": "ircfspace/tconfig",
-        "url": "https://github.com/ircfspace/tconfig",
-        "description": "Free V2RAY Proxy List",
-        "stargazerCount": 511,
-        "forkCount": 143,
-        "isArchived": false,
-        "isFork": false,
-        "createdAt": "2023-06-22T09:14:18Z",
-        "pushedAt": "2025-07-06T09:45:58Z",
-        "homepageUrl": "https://ircfspace.github.io/tconfig/",
-        "primaryLanguage": {
-          "name": "JavaScript"
-        },
-        "licenseInfo": null
       }
     },
     {
@@ -664,7 +671,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2023-11-12T00:48:10Z",
-        "pushedAt": "2026-10-03T16:14:15Z",
+        "pushedAt": "2026-10-05T14:48:56Z",
         "homepageUrl": "http://aliilapro.ir/v2rayNG-Config/",
         "primaryLanguage": {
           "name": "HTML"
@@ -698,7 +705,7 @@
         "nameWithOwner": "Ali-hey-0/ai-runtime-lab",
         "url": "https://github.com/Ali-hey-0/ai-runtime-lab",
         "description": "Engineering deterministic, production-grade systems around non-deterministic LLMs — FSM, durable execution, retries, DAGs, agent runtimes, model routing, edge inference, RAG, memory, multi-agent orchestration, security, and observability. 14 runnable proof-of-concept phases.",
-        "stargazerCount": 159,
+        "stargazerCount": 164,
         "forkCount": 4,
         "isArchived": false,
         "isFork": false,
@@ -734,7 +741,7 @@
         "nameWithOwner": "myaaghubi/PHP-Frameworks-Bench",
         "url": "https://github.com/myaaghubi/PHP-Frameworks-Bench",
         "description": "A library to make benchmarks from PHP frameworks.",
-        "stargazerCount": 136,
+        "stargazerCount": 137,
         "forkCount": 6,
         "isArchived": false,
         "isFork": false,
@@ -852,7 +859,7 @@
         "url": "https://github.com/VIDAKHOSHPEY22/Atari-Racer",
         "description": "A fast-paced 2D arcade racing game built with Python and Pygame. Enjoy!",
         "stargazerCount": 114,
-        "forkCount": 18,
+        "forkCount": 17,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-07-06T08:21:45Z",
@@ -934,7 +941,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-09-04T20:46:09Z",
-        "pushedAt": "2026-10-02T03:37:07Z",
+        "pushedAt": "2026-10-05T03:33:41Z",
         "homepageUrl": "",
         "primaryLanguage": null,
         "licenseInfo": {
@@ -1192,7 +1199,7 @@
         "nameWithOwner": "AhmadJeddi/Plant-Disease-Classification",
         "url": "https://github.com/AhmadJeddi/Plant-Disease-Classification",
         "description": "A ResNet50-DCBAM deep learning framework for plant disease classification using the PlantVillage dataset with reproducible training and evaluation pipelines.",
-        "stargazerCount": 45,
+        "stargazerCount": 46,
         "forkCount": 2,
         "isArchived": false,
         "isFork": false,
@@ -1249,7 +1256,7 @@
       "type": "User",
       "location": "The Islamic Republic of Iran",
       "url": "https://github.com/Wadan3",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/160777411?u=4a283756fa11b37c8ca4c8c08f933bd8fd2be7ba&v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/160777411?u=2b6453b2f103fdd281bfa8a73aff2fade1e47416&v=4",
       "attribution": {
         "accepted": true,
         "countryCode": "IR",
@@ -1270,7 +1277,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-01-12T16:23:49Z",
-        "pushedAt": "2026-10-03T15:27:03Z",
+        "pushedAt": "2026-10-05T03:11:31Z",
         "homepageUrl": "",
         "primaryLanguage": null,
         "licenseInfo": null
@@ -1520,7 +1527,7 @@
         "url": "https://github.com/abolfazl-shadrouh/cafe-menu",
         "description": "☕🍽️ Welcome to Cafe/Restaurant online! Explore our menu, make reservations, order online, and discover our cozy ambiance—all in one sleek and user-friendly website. Perfectly designed for food lovers who crave convenience and style.",
         "stargazerCount": 22,
-        "forkCount": 3,
+        "forkCount": 4,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-09-09T21:10:24Z",
@@ -1703,7 +1710,7 @@
         "url": "https://github.com/mohammadnabia/Multinomial-nb-Spam-Identifier",
         "description": "Identifying and distinguishing spam SMS and Email using the multinomial Naïve Bayes model. ",
         "stargazerCount": 18,
-        "forkCount": 2,
+        "forkCount": 3,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2022-11-20T17:12:21Z",
@@ -3968,6 +3975,40 @@
         "primaryLanguage": {
           "name": "CSS"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBbkzpA",
+      "login": "Makh1991",
+      "name": "maedeh khanifar",
+      "type": "User",
+      "location": "Iran",
+      "url": "https://github.com/Makh1991",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/96023460?u=18bb4833cd6925445dad72c51b72b386a8fdca50&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iran"
+      },
+      "discoveryTerms": [
+        "Iran"
+      ],
+      "topRepository": {
+        "name": "maedehkhanifar",
+        "nameWithOwner": "Makh1991/maedehkhanifar",
+        "url": "https://github.com/Makh1991/maedehkhanifar",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-12-12T20:08:28Z",
+        "pushedAt": "2021-12-12T20:21:57Z",
+        "homepageUrl": "https://github.com/maedehkhanifar",
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },

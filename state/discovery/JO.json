@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "69cca734db27a0d606b8e75e08f48100b4ef7b34b0d99ce5791a9341eebbac18",
+    "sha256": "aa2c1c01072e3b559c5b6c71cbc05049afbf1e174d6b5a0fe08c4110eb61d711",
     "termsTotal": 156
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Jordan",
     "queue": [
+      {
+        "query": "location:\"Jordan\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
       {
         "query": "location:\"Jordan\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
         "stage": "year:2013",
@@ -270,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:32:00.201Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-05T14:57:49.417Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 2130
+    "reportedCount": 2108
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:32:00.201Z",
-  "updatedAt": "2026-10-03T16:44:37.879Z",
+  "startedAt": "2026-10-05T14:57:49.417Z",
+  "updatedAt": "2026-10-05T14:58:12.460Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 221,
-    "acceptedOwnerHits": 211,
-    "rejectedOwnerHits": 10,
+    "rawOwnerHits": 205,
+    "acceptedOwnerHits": 197,
+    "rejectedOwnerHits": 8,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4612
+    "minimumRateLimitRemaining": 4882
   },
   "unresolvedShards": [],
   "candidates": [
@@ -356,8 +363,8 @@
         "nameWithOwner": "ShadowHackrs/gmail-account-creator",
         "url": "https://github.com/ShadowHackrs/gmail-account-creator",
         "description": "🚀 Advanced automated Gmail account creation tool with anti-detection, phone verification bypass, 5sim integration, and beautiful modern interface. Create Gmail accounts in bulk with ease.",
-        "stargazerCount": 5180,
-        "forkCount": 867,
+        "stargazerCount": 5185,
+        "forkCount": 869,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-01-14T18:42:23Z",
@@ -434,7 +441,7 @@
         "nameWithOwner": "ReSo7200/InstaEclipse",
         "url": "https://github.com/ReSo7200/InstaEclipse",
         "description": "An Instagram Xposed module with features like Developer Options, Ghost Mode, Ad-Free browsing, and Distraction-Free Mode.",
-        "stargazerCount": 1514,
+        "stargazerCount": 1518,
         "forkCount": 91,
         "isArchived": false,
         "isFork": false,
@@ -896,6 +903,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjMzNTg3NzI0",
+      "login": "IbraheemTuffaha",
+      "name": "Ibraheem Tuffaha",
+      "type": "User",
+      "location": "Jordan",
+      "url": "https://github.com/IbraheemTuffaha",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33587724?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JO",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jordan"
+      },
+      "discoveryTerms": [
+        "Jordan"
+      ],
+      "topRepository": {
+        "name": "python-fastapi-template",
+        "nameWithOwner": "IbraheemTuffaha/python-fastapi-template",
+        "url": "https://github.com/IbraheemTuffaha/python-fastapi-template",
+        "description": "A template for a Python FastAPI service with uv & Devcontainer",
+        "stargazerCount": 51,
+        "forkCount": 15,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-07-10T13:01:52Z",
+        "pushedAt": "2025-05-11T12:42:07Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjEzMTI2ODM=",
       "login": "muayyad-alsadi",
       "name": "Muayyad Alsadi",
@@ -1065,7 +1111,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-05-19T18:35:23Z",
-        "pushedAt": "2026-10-02T20:12:03Z",
+        "pushedAt": "2026-10-04T21:17:33Z",
         "homepageUrl": "https://hirael.com",
         "primaryLanguage": {
           "name": "TypeScript"
@@ -1703,6 +1749,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjMzMDU0Mzcw",
+      "login": "ameer2468",
+      "name": "Ameer Al Ashhab",
+      "type": "User",
+      "location": "Amman, Jordan",
+      "url": "https://github.com/ameer2468",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33054370?u=4042db2e0d2e52b82dee3a7134607305342d133d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JO",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jordan"
+      },
+      "discoveryTerms": [
+        "Jordan"
+      ],
+      "topRepository": {
+        "name": "invoiceproject",
+        "nameWithOwner": "ameer2468/invoiceproject",
+        "url": "https://github.com/ameer2468/invoiceproject",
+        "description": null,
+        "stargazerCount": 2,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-05-04T13:46:11Z",
+        "pushedAt": "2022-11-07T09:09:23Z",
+        "homepageUrl": "https://www.aashhab.design/",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBimSKQ",
       "login": "Ammar2000-Matarieh",
       "name": "Ammar Matarieh",
@@ -1843,6 +1925,42 @@
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBuHmHg",
+      "login": "se-abdallah",
+      "name": "Abdallah Al Magableh",
+      "type": "User",
+      "location": "Amman Jordan",
+      "url": "https://github.com/se-abdallah",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/115467806?u=a67d7cbec9b2e1887acecd6f3c53c808d6c7975b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JO",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jordan"
+      },
+      "discoveryTerms": [
+        "Jordan"
+      ],
+      "topRepository": {
+        "name": "ChatApp",
+        "nameWithOwner": "se-abdallah/ChatApp",
+        "url": "https://github.com/se-abdallah/ChatApp",
+        "description": "Real Time Chat web Application that developed from scratch using Dotnet & Angular Frameworks, Moreover it used SignalR for real time interactions, many other features (public version) ",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-10-10T21:09:40Z",
+        "pushedAt": "2023-04-03T21:56:33Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C#"
         },
         "licenseInfo": null
       }
