@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **11**
-- Current global star frontier: **2,121**
+- Verified high-star candidates retained: **14**
+- Current global star frontier: **1,885**
 
 ### High-star verified preview
 
@@ -62,5 +62,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [jamesflorentino/nanoScrollerJS](https://github.com/jamesflorentino/nanoScrollerJS) | **2,677** | Philippines |
 | [JaKooLit/Fedora-Hyprland](https://github.com/JaKooLit/Fedora-Hyprland) | **2,545** | Philippines / South Korea - Worldwide |
 | [benborla/mcp-server-mysql](https://github.com/benborla/mcp-server-mysql) | **2,141** | Philippines |
+| [lodev09/react-native-true-sheet](https://github.com/lodev09/react-native-true-sheet) | **2,068** | Philippines |
+| [ivanceras/sauron](https://github.com/ivanceras/sauron) | **2,065** | Cebu, Philippines |
+| [tyron12233/CodeAssist](https://github.com/tyron12233/CodeAssist) | **1,952** | Philippines |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

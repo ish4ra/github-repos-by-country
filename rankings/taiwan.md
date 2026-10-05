@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **2,828**
+- Verified high-star candidates retained: **8**
+- Current global star frontier: **1,885**
 
 ### High-star verified preview
 
@@ -55,5 +55,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [WongKinYiu/yolov9](https://github.com/WongKinYiu/yolov9) | **9,561** | TW |
 | [liangjingkanji/DrakeTyporaTheme](https://github.com/liangjingkanji/DrakeTyporaTheme) | **3,549** | 新竹市 |
 | [liangjingkanji/BRV](https://github.com/liangjingkanji/BRV) | **2,863** | 新竹市 |
+| [liangjingkanji/Net](https://github.com/liangjingkanji/Net) | **2,034** | 新竹市 |
+| [WongKinYiu/ScaledYOLOv4](https://github.com/WongKinYiu/ScaledYOLOv4) | **2,025** | TW |
+| [WongKinYiu/yolor](https://github.com/WongKinYiu/yolor) | **2,006** | TW |
+| [WongKinYiu/PyTorch_YOLOv4](https://github.com/WongKinYiu/PyTorch_YOLOv4) | **1,907** | TW |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

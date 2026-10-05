@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **2,424**
+- Verified high-star candidates retained: **10**
+- Current global star frontier: **1,885**
 
 ### High-star verified preview
 
@@ -60,5 +60,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [async-labs/builderbook](https://github.com/async-labs/builderbook) | **3,793** | WA |
 | [prabirshrestha/vim-lsp](https://github.com/prabirshrestha/vim-lsp) | **3,421** | WA |
 | [tgrosinger/advanced-tables-obsidian](https://github.com/tgrosinger/advanced-tables-obsidian) | **2,618** | WA |
+| [dovy/elusive-iconfont](https://github.com/dovy/elusive-iconfont) | **2,023** | Waterford, VA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

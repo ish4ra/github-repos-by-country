@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **2,121**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **1,885**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [gernest/utron](https://github.com/gernest/utron) | **2,212** | Arusha, Tanzania |
+| [vinceanalytics/vince](https://github.com/vinceanalytics/vince) | **2,014** | Tanzania |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

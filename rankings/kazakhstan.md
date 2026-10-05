@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **10**
-- Current global star frontier: **2,121**
+- Verified high-star candidates retained: **11**
+- Current global star frontier: **1,885**
 
 ### High-star verified preview
 
@@ -61,5 +61,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [artemnovichkov/iOS-11-by-Examples](https://github.com/artemnovichkov/iOS-11-by-Examples) | **3,282** | Almaty, Kazakhstan |
 | [fnc12/sqlite_orm](https://github.com/fnc12/sqlite_orm) | **2,695** | Almaty, Kazakhstan |
 | [kmmbvnr/django-fsm](https://github.com/kmmbvnr/django-fsm) | **2,347** | Qazaqstan, Astana |
+| [0xAX/go-algorithms](https://github.com/0xAX/go-algorithms) | **1,951** | Kazakhstan, Astana |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

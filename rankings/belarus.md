@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **11**
-- Current global star frontier: **2,121**
+- Verified high-star candidates retained: **13**
+- Current global star frontier: **1,885**
 
 ### High-star verified preview
 
@@ -62,5 +62,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [staniel359/muffon](https://github.com/staniel359/muffon) | **2,238** | Minsk, Belarus |
 | [arbox/machine-learning-with-ruby](https://github.com/arbox/machine-learning-with-ruby) | **2,228** | BY |
 | [DockStation/dockstation](https://github.com/DockStation/dockstation) | **2,158** | Minsk, Belarus |
+| [asaskevich/EventBus](https://github.com/asaskevich/EventBus) | **1,983** | Belarus |
+| [Mixaill/awesome-gog-galaxy](https://github.com/Mixaill/awesome-gog-galaxy) | **1,906** | Minsk, Belarus |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

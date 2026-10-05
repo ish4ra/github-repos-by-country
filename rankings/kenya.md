@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **2,424**
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **1,885**
 
 ### High-star verified preview
 
@@ -56,5 +56,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Dark-Xploit/CypherX](https://github.com/Dark-Xploit/CypherX) | **2,960** | Kenya |
 | [st3v3nmw/obsidian-spaced-repetition](https://github.com/st3v3nmw/obsidian-spaced-repetition) | **2,573** | Nairobi, Kenya |
 | [larymak/Python-project-Scripts](https://github.com/larymak/Python-project-Scripts) | **2,507** | Kenya |
+| [JohnTroony/php-webshells](https://github.com/JohnTroony/php-webshells) | **1,959** | Nairobi |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

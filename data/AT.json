@@ -1,14 +1,49 @@
 {
-  "schemaVersion": 2,
-  "locationResolverVersion": 2,
+  "schemaVersion": 1,
+  "methodologyVersion": "0.8.0-repository-first",
+  "generatedAt": "2026-10-05T15:04:56.027Z",
   "country": {
     "code": "AT",
     "name": "Austria",
     "slug": "austria"
   },
-  "source": "repository-first-stars-desc",
+  "source": {
+    "provider": "GitHub GraphQL API",
+    "endpoint": "https://api.github.com/graphql",
+    "countryBasis": "public repository-owner profile location",
+    "discovery": "global repositories scanned by stars descending"
+  },
+  "coverage": {
+    "status": "repository-first-certified-by-star-frontier",
+    "exhaustive": false,
+    "rawOwnerHits": 35864,
+    "acceptedUniqueOwners": 84,
+    "ownerMetricLabel": "Unique owners in top ranking",
+    "repositoriesConsidered": 100,
+    "publishedRepositories": 100,
+    "candidateThresholdStars": 1916,
+    "rankingLimit": 100,
+    "cappedQueries": [],
+    "repositoryFirst": {
+      "scanFrontierStars": 1885,
+      "topObservedStars": 551406,
+      "repositoriesSeen": 35864,
+      "attributedRepositories": 12672,
+      "ambiguousLocations": 5366,
+      "unknownLocations": 17826,
+      "unresolvedStarCounts": []
+    },
+    "notes": [
+      "Repositories are scanned globally in descending star ranges, independently of owner follower count or owner-search ordering.",
+      "A country is certified only after its 100th repository has more stars than every unprocessed global star range.",
+      "Owner country is inferred from the owner public GitHub profile location using the global geography resolver.",
+      "Owners with missing or unresolved locations are excluded, so country attribution is not a citizenship or legal-incorporation claim.",
+      "Compound city/admin locations such as \"Portland, OR\" are resolved before ambiguous city-only names."
+    ]
+  },
   "repositories": [
     {
+      "rank": 1,
       "name": "pi",
       "nameWithOwner": "earendil-works/pi",
       "url": "https://github.com/earendil-works/pi",
@@ -42,6 +77,7 @@
       }
     },
     {
+      "rank": 2,
       "name": "MPAndroidChart",
       "nameWithOwner": "PhilJay/MPAndroidChart",
       "url": "https://github.com/PhilJay/MPAndroidChart",
@@ -75,6 +111,7 @@
       }
     },
     {
+      "rank": 3,
       "name": "neko",
       "nameWithOwner": "m1k1o/neko",
       "url": "https://github.com/m1k1o/neko",
@@ -108,6 +145,7 @@
       }
     },
     {
+      "rank": 4,
       "name": "Sandboxie",
       "nameWithOwner": "sandboxie-plus/Sandboxie",
       "url": "https://github.com/sandboxie-plus/Sandboxie",
@@ -141,6 +179,7 @@
       }
     },
     {
+      "rank": 5,
       "name": "dropzone",
       "nameWithOwner": "enyo/dropzone",
       "url": "https://github.com/enyo/dropzone",
@@ -174,6 +213,7 @@
       }
     },
     {
+      "rank": 6,
       "name": "ScrollMagic",
       "nameWithOwner": "janpaepke/ScrollMagic",
       "url": "https://github.com/janpaepke/ScrollMagic",
@@ -207,6 +247,7 @@
       }
     },
     {
+      "rank": 7,
       "name": "portmaster",
       "nameWithOwner": "safing/portmaster",
       "url": "https://github.com/safing/portmaster",
@@ -240,6 +281,7 @@
       }
     },
     {
+      "rank": 8,
       "name": "google-webfonts-helper",
       "nameWithOwner": "majodev/google-webfonts-helper",
       "url": "https://github.com/majodev/google-webfonts-helper",
@@ -273,6 +315,7 @@
       }
     },
     {
+      "rank": 9,
       "name": "bandwhich",
       "nameWithOwner": "imsnif/bandwhich",
       "url": "https://github.com/imsnif/bandwhich",
@@ -306,6 +349,7 @@
       }
     },
     {
+      "rank": 10,
       "name": "neural-enhance",
       "nameWithOwner": "alexjc/neural-enhance",
       "url": "https://github.com/alexjc/neural-enhance",
@@ -339,6 +383,7 @@
       }
     },
     {
+      "rank": 11,
       "name": "MaterialDrawer",
       "nameWithOwner": "mikepenz/MaterialDrawer",
       "url": "https://github.com/mikepenz/MaterialDrawer",
@@ -372,6 +417,7 @@
       }
     },
     {
+      "rank": 12,
       "name": "react-hot-toast",
       "nameWithOwner": "timolins/react-hot-toast",
       "url": "https://github.com/timolins/react-hot-toast",
@@ -405,6 +451,7 @@
       }
     },
     {
+      "rank": 13,
       "name": "neural-doodle",
       "nameWithOwner": "alexjc/neural-doodle",
       "url": "https://github.com/alexjc/neural-doodle",
@@ -438,6 +485,7 @@
       }
     },
     {
+      "rank": 14,
       "name": "LiteDB",
       "nameWithOwner": "litedb-org/LiteDB",
       "url": "https://github.com/litedb-org/LiteDB",
@@ -471,6 +519,7 @@
       }
     },
     {
+      "rank": 15,
       "name": "AlDente-Battery_Care_and_Monitoring",
       "nameWithOwner": "AppHouseKitchen/AlDente-Battery_Care_and_Monitoring",
       "url": "https://github.com/AppHouseKitchen/AlDente-Battery_Care_and_Monitoring",
@@ -504,6 +553,7 @@
       }
     },
     {
+      "rank": 16,
       "name": "vendure",
       "nameWithOwner": "vendurehq/vendure",
       "url": "https://github.com/vendurehq/vendure",
@@ -537,6 +587,7 @@
       }
     },
     {
+      "rank": 17,
       "name": "helium",
       "nameWithOwner": "mherrmann/helium",
       "url": "https://github.com/mherrmann/helium",
@@ -570,6 +621,7 @@
       }
     },
     {
+      "rank": 18,
       "name": "assert",
       "nameWithOwner": "webmozarts/assert",
       "url": "https://github.com/webmozarts/assert",
@@ -603,6 +655,7 @@
       }
     },
     {
+      "rank": 19,
       "name": "nvim-dap",
       "nameWithOwner": "mfussenegger/nvim-dap",
       "url": "https://github.com/mfussenegger/nvim-dap",
@@ -636,6 +689,7 @@
       }
     },
     {
+      "rank": 20,
       "name": "apfel",
       "nameWithOwner": "Arthur-Ficial/apfel",
       "url": "https://github.com/Arthur-Ficial/apfel",
@@ -669,6 +723,7 @@
       }
     },
     {
+      "rank": 21,
       "name": "dehydrated",
       "nameWithOwner": "dehydrated-io/dehydrated",
       "url": "https://github.com/dehydrated-io/dehydrated",
@@ -702,6 +757,7 @@
       }
     },
     {
+      "rank": 22,
       "name": "markor",
       "nameWithOwner": "gsantner/markor",
       "url": "https://github.com/gsantner/markor",
@@ -735,6 +791,7 @@
       }
     },
     {
+      "rank": 23,
       "name": "Debloat-Windows-10",
       "nameWithOwner": "W4RH4WK/Debloat-Windows-10",
       "url": "https://github.com/W4RH4WK/Debloat-Windows-10",
@@ -768,6 +825,7 @@
       }
     },
     {
+      "rank": 24,
       "name": "QOwnNotes",
       "nameWithOwner": "pbek/QOwnNotes",
       "url": "https://github.com/pbek/QOwnNotes",
@@ -801,6 +859,7 @@
       }
     },
     {
+      "rank": 25,
       "name": "win-acme",
       "nameWithOwner": "win-acme/win-acme",
       "url": "https://github.com/win-acme/win-acme",
@@ -834,6 +893,7 @@
       }
     },
     {
+      "rank": 26,
       "name": "linux-sysadmin-interview-questions",
       "nameWithOwner": "chassing/linux-sysadmin-interview-questions",
       "url": "https://github.com/chassing/linux-sysadmin-interview-questions",
@@ -867,6 +927,7 @@
       }
     },
     {
+      "rank": 27,
       "name": "Android-Iconics",
       "nameWithOwner": "mikepenz/Android-Iconics",
       "url": "https://github.com/mikepenz/Android-Iconics",
@@ -900,6 +961,7 @@
       }
     },
     {
+      "rank": 28,
       "name": "OverlayScrollbars",
       "nameWithOwner": "KingSora/OverlayScrollbars",
       "url": "https://github.com/KingSora/OverlayScrollbars",
@@ -933,6 +995,7 @@
       }
     },
     {
+      "rank": 29,
       "name": "quaggaJS",
       "nameWithOwner": "serratus/quaggaJS",
       "url": "https://github.com/serratus/quaggaJS",
@@ -966,6 +1029,7 @@
       }
     },
     {
+      "rank": 30,
       "name": "Augmentor",
       "nameWithOwner": "mdbloice/Augmentor",
       "url": "https://github.com/mdbloice/Augmentor",
@@ -999,6 +1063,7 @@
       }
     },
     {
+      "rank": 31,
       "name": "kimai",
       "nameWithOwner": "kimai/kimai",
       "url": "https://github.com/kimai/kimai",
@@ -1032,6 +1097,7 @@
       }
     },
     {
+      "rank": 32,
       "name": "TSMessages",
       "nameWithOwner": "KrauseFx/TSMessages",
       "url": "https://github.com/KrauseFx/TSMessages",
@@ -1065,6 +1131,7 @@
       }
     },
     {
+      "rank": 33,
       "name": "awesome-jupyter",
       "nameWithOwner": "markusschanta/awesome-jupyter",
       "url": "https://github.com/markusschanta/awesome-jupyter",
@@ -1098,6 +1165,7 @@
       }
     },
     {
+      "rank": 34,
       "name": "vibetunnel",
       "nameWithOwner": "amantus-ai/vibetunnel",
       "url": "https://github.com/amantus-ai/vibetunnel",
@@ -1131,6 +1199,7 @@
       }
     },
     {
+      "rank": 35,
       "name": "datascience",
       "nameWithOwner": "r0f1/datascience",
       "url": "https://github.com/r0f1/datascience",
@@ -1164,6 +1233,7 @@
       }
     },
     {
+      "rank": 36,
       "name": "gocryptfs",
       "nameWithOwner": "rfjakob/gocryptfs",
       "url": "https://github.com/rfjakob/gocryptfs",
@@ -1197,6 +1267,7 @@
       }
     },
     {
+      "rank": 37,
       "name": "AboutLibraries",
       "nameWithOwner": "mikepenz/AboutLibraries",
       "url": "https://github.com/mikepenz/AboutLibraries",
@@ -1230,6 +1301,7 @@
       }
     },
     {
+      "rank": 38,
       "name": "next-intl",
       "nameWithOwner": "amannn/next-intl",
       "url": "https://github.com/amannn/next-intl",
@@ -1263,6 +1335,7 @@
       }
     },
     {
+      "rank": 39,
       "name": "earlyoom",
       "nameWithOwner": "rfjakob/earlyoom",
       "url": "https://github.com/rfjakob/earlyoom",
@@ -1296,6 +1369,7 @@
       }
     },
     {
+      "rank": 40,
       "name": "ViGEmBus",
       "nameWithOwner": "nefarius/ViGEmBus",
       "url": "https://github.com/nefarius/ViGEmBus",
@@ -1329,6 +1403,7 @@
       }
     },
     {
+      "rank": 41,
       "name": "meltdown",
       "nameWithOwner": "isec-tugraz/meltdown",
       "url": "https://github.com/isec-tugraz/meltdown",
@@ -1362,6 +1437,7 @@
       }
     },
     {
+      "rank": 42,
       "name": "lektor",
       "nameWithOwner": "lektor/lektor",
       "url": "https://github.com/lektor/lektor",
@@ -1395,6 +1471,7 @@
       }
     },
     {
+      "rank": 43,
       "name": "django-grappelli",
       "nameWithOwner": "sehmaschine/django-grappelli",
       "url": "https://github.com/sehmaschine/django-grappelli",
@@ -1428,6 +1505,7 @@
       }
     },
     {
+      "rank": 44,
       "name": "fbs",
       "nameWithOwner": "mherrmann/fbs",
       "url": "https://github.com/mherrmann/fbs",
@@ -1461,6 +1539,7 @@
       }
     },
     {
+      "rank": 45,
       "name": "FastAdapter",
       "nameWithOwner": "mikepenz/FastAdapter",
       "url": "https://github.com/mikepenz/FastAdapter",
@@ -1494,6 +1573,7 @@
       }
     },
     {
+      "rank": 46,
       "name": "pimcore",
       "nameWithOwner": "pimcore/pimcore",
       "url": "https://github.com/pimcore/pimcore",
@@ -1527,6 +1607,7 @@
       }
     },
     {
+      "rank": 47,
       "name": "jaq",
       "nameWithOwner": "01mf02/jaq",
       "url": "https://github.com/01mf02/jaq",
@@ -1560,6 +1641,7 @@
       }
     },
     {
+      "rank": 48,
       "name": "dashdot",
       "nameWithOwner": "MauriceNino/dashdot",
       "url": "https://github.com/MauriceNino/dashdot",
@@ -1593,6 +1675,7 @@
       }
     },
     {
+      "rank": 49,
       "name": "glasskube",
       "nameWithOwner": "glasskube/glasskube",
       "url": "https://github.com/glasskube/glasskube",
@@ -1626,6 +1709,7 @@
       }
     },
     {
+      "rank": 50,
       "name": "zap",
       "nameWithOwner": "zigzap/zap",
       "url": "https://github.com/zigzap/zap",
@@ -1659,6 +1743,7 @@
       }
     },
     {
+      "rank": 51,
       "name": "osxcross",
       "nameWithOwner": "tpoechtrager/osxcross",
       "url": "https://github.com/tpoechtrager/osxcross",
@@ -1692,6 +1777,7 @@
       }
     },
     {
+      "rank": 52,
       "name": "zathura",
       "nameWithOwner": "pwmt/zathura",
       "url": "https://github.com/pwmt/zathura",
@@ -1725,6 +1811,7 @@
       }
     },
     {
+      "rank": 53,
       "name": "Advanced-SQL-Injection-Cheatsheet",
       "nameWithOwner": "kleiton0x00/Advanced-SQL-Injection-Cheatsheet",
       "url": "https://github.com/kleiton0x00/Advanced-SQL-Injection-Cheatsheet",
@@ -1755,6 +1842,7 @@
       }
     },
     {
+      "rank": 54,
       "name": "ScpToolkit",
       "nameWithOwner": "nefarius/ScpToolkit",
       "url": "https://github.com/nefarius/ScpToolkit",
@@ -1788,6 +1876,7 @@
       }
     },
     {
+      "rank": 55,
       "name": "agent-stuff",
       "nameWithOwner": "mitsuhiko/agent-stuff",
       "url": "https://github.com/mitsuhiko/agent-stuff",
@@ -1821,6 +1910,7 @@
       }
     },
     {
+      "rank": 56,
       "name": "urlwatch",
       "nameWithOwner": "thp/urlwatch",
       "url": "https://github.com/thp/urlwatch",
@@ -1854,6 +1944,7 @@
       }
     },
     {
+      "rank": 57,
       "name": "systeminformation",
       "nameWithOwner": "sebhildebrandt/systeminformation",
       "url": "https://github.com/sebhildebrandt/systeminformation",
@@ -1887,6 +1978,7 @@
       }
     },
     {
+      "rank": 58,
       "name": "diskonaut",
       "nameWithOwner": "imsnif/diskonaut",
       "url": "https://github.com/imsnif/diskonaut",
@@ -1920,6 +2012,7 @@
       }
     },
     {
+      "rank": 59,
       "name": "Starling-Framework",
       "nameWithOwner": "Gamua/Starling-Framework",
       "url": "https://github.com/Gamua/Starling-Framework",
@@ -1953,6 +2046,7 @@
       }
     },
     {
+      "rank": 60,
       "name": "insta",
       "nameWithOwner": "mitsuhiko/insta",
       "url": "https://github.com/mitsuhiko/insta",
@@ -1986,6 +2080,7 @@
       }
     },
     {
+      "rank": 61,
       "name": "davx5-ose",
       "nameWithOwner": "bitfireAT/davx5-ose",
       "url": "https://github.com/bitfireAT/davx5-ose",
@@ -2019,6 +2114,7 @@
       }
     },
     {
+      "rank": 62,
       "name": "redux-undo",
       "nameWithOwner": "omnidan/redux-undo",
       "url": "https://github.com/omnidan/redux-undo",
@@ -2052,6 +2148,7 @@
       }
     },
     {
+      "rank": 63,
       "name": "authpass",
       "nameWithOwner": "authpass/authpass",
       "url": "https://github.com/authpass/authpass",
@@ -2085,6 +2182,7 @@
       }
     },
     {
+      "rank": 64,
       "name": "minijinja",
       "nameWithOwner": "mitsuhiko/minijinja",
       "url": "https://github.com/mitsuhiko/minijinja",
@@ -2118,6 +2216,7 @@
       }
     },
     {
+      "rank": 65,
       "name": "nvim-lint",
       "nameWithOwner": "mfussenegger/nvim-lint",
       "url": "https://github.com/mfussenegger/nvim-lint",
@@ -2151,6 +2250,7 @@
       }
     },
     {
+      "rank": 66,
       "name": "cachetools",
       "nameWithOwner": "tkem/cachetools",
       "url": "https://github.com/tkem/cachetools",
@@ -2184,6 +2284,7 @@
       }
     },
     {
+      "rank": 67,
       "name": "ZIPFoundation",
       "nameWithOwner": "weichsel/ZIPFoundation",
       "url": "https://github.com/weichsel/ZIPFoundation",
@@ -2217,6 +2318,7 @@
       }
     },
     {
+      "rank": 68,
       "name": "FluentResults",
       "nameWithOwner": "altmann/FluentResults",
       "url": "https://github.com/altmann/FluentResults",
@@ -2250,6 +2352,7 @@
       }
     },
     {
+      "rank": 69,
       "name": "scs",
       "nameWithOwner": "alexedwards/scs",
       "url": "https://github.com/alexedwards/scs",
@@ -2283,6 +2386,7 @@
       }
     },
     {
+      "rank": 70,
       "name": "sysreptor",
       "nameWithOwner": "Syslifters/sysreptor",
       "url": "https://github.com/Syslifters/sysreptor",
@@ -2316,6 +2420,7 @@
       }
     },
     {
+      "rank": 71,
       "name": "conditional-flow-matching",
       "nameWithOwner": "atong01/conditional-flow-matching",
       "url": "https://github.com/atong01/conditional-flow-matching",
@@ -2349,6 +2454,7 @@
       }
     },
     {
+      "rank": 72,
       "name": "selfie",
       "nameWithOwner": "cksystemsteaching/selfie",
       "url": "https://github.com/cksystemsteaching/selfie",
@@ -2382,6 +2488,7 @@
       }
     },
     {
+      "rank": 73,
       "name": "typesafe-i18n",
       "nameWithOwner": "codingcommons/typesafe-i18n",
       "url": "https://github.com/codingcommons/typesafe-i18n",
@@ -2415,6 +2522,7 @@
       }
     },
     {
+      "rank": 74,
       "name": "absurd",
       "nameWithOwner": "earendil-works/absurd",
       "url": "https://github.com/earendil-works/absurd",
@@ -2448,6 +2556,7 @@
       }
     },
     {
+      "rank": 75,
       "name": "wordlists",
       "nameWithOwner": "kkrypt0nn/wordlists",
       "url": "https://github.com/kkrypt0nn/wordlists",
@@ -2478,6 +2587,7 @@
       }
     },
     {
+      "rank": 76,
       "name": "geogebra",
       "nameWithOwner": "geogebra/geogebra",
       "url": "https://github.com/geogebra/geogebra",
@@ -2508,6 +2618,7 @@
       }
     },
     {
+      "rank": 77,
       "name": "restcountries",
       "nameWithOwner": "apilayer/restcountries",
       "url": "https://github.com/apilayer/restcountries",
@@ -2541,6 +2652,7 @@
       }
     },
     {
+      "rank": 78,
       "name": "gondolin",
       "nameWithOwner": "earendil-works/gondolin",
       "url": "https://github.com/earendil-works/gondolin",
@@ -2574,6 +2686,7 @@
       }
     },
     {
+      "rank": 79,
       "name": "xlstm",
       "nameWithOwner": "NX-AI/xlstm",
       "url": "https://github.com/NX-AI/xlstm",
@@ -2607,6 +2720,7 @@
       }
     },
     {
+      "rank": 80,
       "name": "SimpleHTR",
       "nameWithOwner": "githubharald/SimpleHTR",
       "url": "https://github.com/githubharald/SimpleHTR",
@@ -2640,6 +2754,7 @@
       }
     },
     {
+      "rank": 81,
       "name": "android-ui",
       "nameWithOwner": "markushi/android-ui",
       "url": "https://github.com/markushi/android-ui",
@@ -2673,6 +2788,7 @@
       }
     },
     {
+      "rank": 82,
       "name": "AndrOBD",
       "nameWithOwner": "fr3ts0n/AndrOBD",
       "url": "https://github.com/fr3ts0n/AndrOBD",
@@ -2706,6 +2822,7 @@
       }
     },
     {
+      "rank": 83,
       "name": "StatefulViewController",
       "nameWithOwner": "aschuch/StatefulViewController",
       "url": "https://github.com/aschuch/StatefulViewController",
@@ -2739,6 +2856,7 @@
       }
     },
     {
+      "rank": 84,
       "name": "react-countup",
       "nameWithOwner": "glennreyes/react-countup",
       "url": "https://github.com/glennreyes/react-countup",
@@ -2772,6 +2890,7 @@
       }
     },
     {
+      "rank": 85,
       "name": "fbs-tutorial",
       "nameWithOwner": "mherrmann/fbs-tutorial",
       "url": "https://github.com/mherrmann/fbs-tutorial",
@@ -2805,6 +2924,7 @@
       }
     },
     {
+      "rank": 86,
       "name": "wordpress-docker-compose",
       "nameWithOwner": "nezhar/wordpress-docker-compose",
       "url": "https://github.com/nezhar/wordpress-docker-compose",
@@ -2838,6 +2958,7 @@
       }
     },
     {
+      "rank": 87,
       "name": "angularUtils",
       "nameWithOwner": "michaelbromley/angularUtils",
       "url": "https://github.com/michaelbromley/angularUtils",
@@ -2871,6 +2992,7 @@
       }
     },
     {
+      "rank": 88,
       "name": "pipsi",
       "nameWithOwner": "mitsuhiko/pipsi",
       "url": "https://github.com/mitsuhiko/pipsi",
@@ -2904,6 +3026,7 @@
       }
     },
     {
+      "rank": 89,
       "name": "angular-oauth2-oidc",
       "nameWithOwner": "manfredsteyer/angular-oauth2-oidc",
       "url": "https://github.com/manfredsteyer/angular-oauth2-oidc",
@@ -2937,6 +3060,7 @@
       }
     },
     {
+      "rank": 90,
       "name": "opensheetmusicdisplay",
       "nameWithOwner": "opensheetmusicdisplay/opensheetmusicdisplay",
       "url": "https://github.com/opensheetmusicdisplay/opensheetmusicdisplay",
@@ -2970,6 +3094,7 @@
       }
     },
     {
+      "rank": 91,
       "name": "graphpack",
       "nameWithOwner": "glennreyes/graphpack",
       "url": "https://github.com/glennreyes/graphpack",
@@ -3003,6 +3128,7 @@
       }
     },
     {
+      "rank": 92,
       "name": "hopfield-layers",
       "nameWithOwner": "ml-jku/hopfield-layers",
       "url": "https://github.com/ml-jku/hopfield-layers",
@@ -3036,6 +3162,7 @@
       }
     },
     {
+      "rank": 93,
       "name": "rx-angular",
       "nameWithOwner": "rx-angular/rx-angular",
       "url": "https://github.com/rx-angular/rx-angular",
@@ -3069,6 +3196,7 @@
       }
     },
     {
+      "rank": 94,
       "name": "epdiy",
       "nameWithOwner": "vroland/epdiy",
       "url": "https://github.com/vroland/epdiy",
@@ -3102,6 +3230,7 @@
       }
     },
     {
+      "rank": 95,
       "name": "CSS-Minecraft",
       "nameWithOwner": "BenjaminAster/CSS-Minecraft",
       "url": "https://github.com/BenjaminAster/CSS-Minecraft",
@@ -3132,6 +3261,7 @@
       }
     },
     {
+      "rank": 96,
       "name": "skales",
       "nameWithOwner": "skalesapp/skales",
       "url": "https://github.com/skalesapp/skales",
@@ -3165,6 +3295,7 @@
       }
     },
     {
+      "rank": 97,
       "name": "ViVeTool-GUI",
       "nameWithOwner": "PeterStrick/ViVeTool-GUI",
       "url": "https://github.com/PeterStrick/ViVeTool-GUI",
@@ -3198,6 +3329,7 @@
       }
     },
     {
+      "rank": 98,
       "name": "rust-cache",
       "nameWithOwner": "Swatinem/rust-cache",
       "url": "https://github.com/Swatinem/rust-cache",
@@ -3231,6 +3363,7 @@
       }
     },
     {
+      "rank": 99,
       "name": "bayesian-machine-learning",
       "nameWithOwner": "krasserm/bayesian-machine-learning",
       "url": "https://github.com/krasserm/bayesian-machine-learning",
@@ -3264,6 +3397,7 @@
       }
     },
     {
+      "rank": 100,
       "name": "HeadsetControl",
       "nameWithOwner": "Sapd/HeadsetControl",
       "url": "https://github.com/Sapd/HeadsetControl",
@@ -3296,8 +3430,5 @@
         "discoveryTerms": []
       }
     }
-  ],
-  "scanFrontierStars": 1885,
-  "certifiedAt": "2026-10-05T15:04:56.027Z",
-  "updatedAt": "2026-10-05T15:04:56.027Z"
+  ]
 }

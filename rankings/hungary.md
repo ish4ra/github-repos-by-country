@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **19**
-- Current global star frontier: **2,121**
+- Verified high-star candidates retained: **24**
+- Current global star frontier: **1,885**
 
 ### High-star verified preview
 
@@ -70,5 +70,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [rdbende/Sun-Valley-ttk-theme](https://github.com/rdbende/Sun-Valley-ttk-theme) | **2,587** | Hungary |
 | [team-supercharge/ShimmerLayout](https://github.com/team-supercharge/ShimmerLayout) | **2,510** | Budapest |
 | [syslog-ng/syslog-ng](https://github.com/syslog-ng/syslog-ng) | **2,378** | Budapest, Hungary |
+| [patrikx3/onenote](https://github.com/patrikx3/onenote) | **2,079** | Hungary |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

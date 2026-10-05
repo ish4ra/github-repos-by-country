@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **11**
-- Current global star frontier: **2,121**
+- Verified high-star candidates retained: **12**
+- Current global star frontier: **1,885**
 
 ### High-star verified preview
 
@@ -62,5 +62,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [pluk-inc/markdown-preview](https://github.com/pluk-inc/markdown-preview) | **2,429** | Malaysia |
 | [EXALAB/AnLinux-App](https://github.com/EXALAB/AnLinux-App) | **2,340** | Malaysia |
 | [orchestral/testbench](https://github.com/orchestral/testbench) | **2,243** | Malaysia |
+| [slapperwan/gh4a](https://github.com/slapperwan/gh4a) | **2,003** | Kuala Lumpur, Malaysia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

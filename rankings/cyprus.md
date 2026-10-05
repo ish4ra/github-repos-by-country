@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **11**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **13**
+- Current global star frontier: **1,885**
 
 ### High-star verified preview
 
@@ -62,5 +62,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [zakirullin/files.md](https://github.com/zakirullin/files.md) | **4,156** | Limassol, Cyprus |
 | [TrustTunnel/TrustTunnel](https://github.com/TrustTunnel/TrustTunnel) | **3,505** | Cyprus |
 | [AdguardTeam/dnsproxy](https://github.com/AdguardTeam/dnsproxy) | **3,353** | Cyprus |
+| [pikvm/ustreamer](https://github.com/pikvm/ustreamer) | **2,035** | Cyprus |
+| [AdguardTeam/AdguardForAndroid](https://github.com/AdguardTeam/AdguardForAndroid) | **1,903** | Cyprus |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

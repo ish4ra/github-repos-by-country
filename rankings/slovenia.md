@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **11**
-- Current global star frontier: **2,121**
+- Verified high-star candidates retained: **16**
+- Current global star frontier: **1,885**
 
 ### High-star verified preview
 
@@ -62,5 +62,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [filips123/PWAsForFirefox](https://github.com/filips123/PWAsForFirefox) | **3,117** | Slovenia |
 | [matejlatin/Gutenberg](https://github.com/matejlatin/Gutenberg) | **2,845** | Slovenia |
 | [maticzav/nookies](https://github.com/maticzav/nookies) | **2,353** | Ljubljana, Slovenia |
+| [decaporg/gatsby-starter-decap-cms](https://github.com/decaporg/gatsby-starter-decap-cms) | **2,045** | Slovenia |
+| [CANopenNode/CANopenNode](https://github.com/CANopenNode/CANopenNode) | **2,020** | Slovenia |
+| [luksa/kubernetes-in-action](https://github.com/luksa/kubernetes-in-action) | **1,982** | Slovenia |
+| [ambrop72/badvpn](https://github.com/ambrop72/badvpn) | **1,932** | Slovenia |
+| [biokoda/actordb](https://github.com/biokoda/actordb) | **1,888** | Maribor, Slovenia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

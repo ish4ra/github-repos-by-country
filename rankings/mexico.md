@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **2,121**
+- Verified high-star candidates retained: **16**
+- Current global star frontier: **1,885**
 
 ### High-star verified preview
 
@@ -65,5 +65,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [d3mondev/puredns](https://github.com/d3mondev/puredns) | **2,241** | ::1 |
 | [alfonsobries/vue-tailwind](https://github.com/alfonsobries/vue-tailwind) | **2,158** | Mérida Yucatán |
 | [AdrMXR/KitHack](https://github.com/AdrMXR/KitHack) | **2,096** | MX |
+| [prettymuchbryce/easystarjs](https://github.com/prettymuchbryce/easystarjs) | **1,937** | ::1 |
+| [DanKE123abc/NoUnityCN](https://github.com/DanKE123abc/NoUnityCN) | **1,897** | [::1] |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

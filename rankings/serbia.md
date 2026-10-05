@@ -20,8 +20,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **2,121**
+- Verified high-star candidates retained: **16**
+- Current global star frontier: **1,885**
 
 ### High-star verified preview
 
@@ -43,5 +43,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [gen2brain/raylib-go](https://github.com/gen2brain/raylib-go) | **2,540** | Belgrade, Serbia |
 | [dreikanter/ruby-bookmarks](https://github.com/dreikanter/ruby-bookmarks) | **2,307** | Novi Sad, Serbia |
 | [nemanjarogic/DesignPatternsLibrary](https://github.com/nemanjarogic/DesignPatternsLibrary) | **2,135** | Serbia |
+| [kristijanhusak/vim-dadbod-ui](https://github.com/kristijanhusak/vim-dadbod-ui) | **2,052** | Subotica, Serbia |
+| [toorshia/justgage](https://github.com/toorshia/justgage) | **1,892** | Belgrade, Serbia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

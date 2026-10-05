@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **2,121**
+- Verified high-star candidates retained: **17**
+- Current global star frontier: **1,885**
 
 ### High-star verified preview
 
@@ -65,5 +65,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [botui/botui](https://github.com/botui/botui) | **2,900** | Islamabad, Pakistan |
 | [saifyxpro/HeadlessX](https://github.com/saifyxpro/HeadlessX) | **2,327** | Sukkur, Sindh |
 | [ammarahm-ed/react-native-actions-sheet](https://github.com/ammarahm-ed/react-native-actions-sheet) | **2,180** | Pakistan |
+| [mrsaeeddev/free-ai-resources](https://github.com/mrsaeeddev/free-ai-resources) | **2,005** | Pakistan |
+| [FareedKhan-dev/all-rl-algorithms](https://github.com/FareedKhan-dev/all-rl-algorithms) | **1,967** | Karachi, Pakistan |
+| [evildevill/instahack](https://github.com/evildevill/instahack) | **1,906** | Pakistan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

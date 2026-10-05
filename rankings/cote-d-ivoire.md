@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **19**
-- Current global star frontier: **2,121**
+- Verified high-star candidates retained: **21**
+- Current global star frontier: **1,885**
 
 ### High-star verified preview
 
@@ -70,5 +70,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Jongchan/attention-module](https://github.com/Jongchan/attention-module) | **2,236** | Korea |
 | [chris-chris/ml-engineer-roadmap](https://github.com/chris-chris/ml-engineer-roadmap) | **2,207** | Korea |
 | [esjeon/krohnkite](https://github.com/esjeon/krohnkite) | **2,180** | Korea |
+| [pocorall/scaloid](https://github.com/pocorall/scaloid) | **2,088** | Korea |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

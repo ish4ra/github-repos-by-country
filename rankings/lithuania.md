@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **10**
-- Current global star frontier: **2,121**
+- Verified high-star candidates retained: **11**
+- Current global star frontier: **1,885**
 
 ### High-star verified preview
 
@@ -61,5 +61,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [DarkaOnLine/L5-Swagger](https://github.com/DarkaOnLine/L5-Swagger) | **2,938** | Lithuania |
 | [ArnasDon/wacrm](https://github.com/ArnasDon/wacrm) | **2,497** | Kaunas |
 | [LiveHelperChat/livehelperchat](https://github.com/LiveHelperChat/livehelperchat) | **2,252** | Lithuania |
+| [sauliusgrigaitis/Swifton](https://github.com/sauliusgrigaitis/Swifton) | **1,950** | Lithuania |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
