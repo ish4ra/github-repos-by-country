@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "f55dd182db99aff8df00e6bc868a660cfb2166899fc2f6ade955139164357a27",
+    "sha256": "b1319e9140ed2fcdfc4550e3018afef637a92a416146263b14c5fc63b8a4b6b0",
     "termsTotal": 282
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Georgia",
     "queue": [
+      {
+        "query": "location:\"Georgia\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
       {
         "query": "location:\"Georgia\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
         "stage": "year:2013",
@@ -270,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:30:17.512Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-05T05:51:22.778Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 3418
+    "reportedCount": 3419
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:30:17.512Z",
-  "updatedAt": "2026-10-03T16:36:22.257Z",
+  "startedAt": "2026-10-05T05:51:22.778Z",
+  "updatedAt": "2026-10-05T05:51:38.435Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 265,
-    "acceptedOwnerHits": 234,
-    "rejectedOwnerHits": 31,
+    "rawOwnerHits": 217,
+    "acceptedOwnerHits": 193,
+    "rejectedOwnerHits": 24,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4672
+    "minimumRateLimitRemaining": 4952
   },
   "unresolvedShards": [],
   "candidates": [
@@ -353,12 +360,12 @@
         "nameWithOwner": "gokadzev/Musify",
         "url": "https://github.com/gokadzev/Musify",
         "description": "Unlock the full potential of music: Stream effortlessly with one app!",
-        "stargazerCount": 4292,
-        "forkCount": 396,
+        "stargazerCount": 4297,
+        "forkCount": 397,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2021-12-05T09:28:35Z",
-        "pushedAt": "2026-10-03T16:31:15Z",
+        "pushedAt": "2026-10-04T12:55:53Z",
         "homepageUrl": "https://gokadzev.github.io/Musify",
         "primaryLanguage": {
           "name": "Dart"
@@ -431,7 +438,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2016-10-21T00:51:45Z",
-        "pushedAt": "2026-09-20T16:45:48Z",
+        "pushedAt": "2026-10-05T00:46:58Z",
         "homepageUrl": "https://eval.ai",
         "primaryLanguage": {
           "name": "Python"
@@ -580,7 +587,7 @@
         "url": "https://github.com/wntrblm/nox",
         "description": "Flexible test automation for Python",
         "stargazerCount": 1563,
-        "forkCount": 199,
+        "forkCount": 200,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2016-02-24T04:02:58Z",
@@ -657,7 +664,7 @@
         "nameWithOwner": "DimiMikadze/orca",
         "url": "https://github.com/DimiMikadze/orca",
         "description": "AI agent for deep LinkedIn profile analysis.",
-        "stargazerCount": 1305,
+        "stargazerCount": 1306,
         "forkCount": 302,
         "isArchived": false,
         "isFork": false,
@@ -1009,7 +1016,7 @@
         "url": "https://github.com/h-mdm/hmdm-server",
         "description": "Mobile Device Management System for Android: web control panel. Manage Android devices, install and update apps, get device info. See website for more features!",
         "stargazerCount": 554,
-        "forkCount": 262,
+        "forkCount": 263,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2019-08-09T07:50:35Z",
@@ -1046,7 +1053,7 @@
         "name": "Mauth",
         "nameWithOwner": "X1nto/Mauth",
         "url": "https://github.com/X1nto/Mauth",
-        "description": "A Beautiful Two-factor Authentication app",
+        "description": "A Beautiful Two-factor Authentication App",
         "stargazerCount": 478,
         "forkCount": 24,
         "isArchived": false,
@@ -1164,7 +1171,7 @@
         "nameWithOwner": "SleepTheGod/iPhone-SSH-Backdoor",
         "url": "https://github.com/SleepTheGod/iPhone-SSH-Backdoor",
         "description": "This is a shell script that creates an SSH backdoor on an iPhone. By Taylor Christian Newsome.",
-        "stargazerCount": 231,
+        "stargazerCount": 232,
         "forkCount": 28,
         "isArchived": false,
         "isFork": false,

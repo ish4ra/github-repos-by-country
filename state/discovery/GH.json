@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "dce6c5eff2eea992826906e8b99860f34ccc3429fafd6ce523b63a6fa0b0e3b8",
+    "sha256": "0cb18b8bcd0a76dc9a20b5573a91f334543558b9dd4e1f0c4357ba3ea4c267c9",
     "termsTotal": 185
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Ghana",
     "queue": [
+      {
+        "query": "location:\"Ghana\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
       {
         "query": "location:\"Ghana\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
         "stage": "year:2013",
@@ -270,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:30:24.330Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-05T05:51:56.447Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 3610
+    "reportedCount": 3621
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:30:24.330Z",
-  "updatedAt": "2026-10-03T16:36:54.630Z",
+  "startedAt": "2026-10-05T05:51:56.447Z",
+  "updatedAt": "2026-10-05T05:52:13.858Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 216,
-    "acceptedOwnerHits": 214,
+    "rawOwnerHits": 206,
+    "acceptedOwnerHits": 204,
     "rejectedOwnerHits": 2,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4670
+    "minimumRateLimitRemaining": 4936
   },
   "unresolvedShards": [],
   "candidates": [
@@ -317,7 +324,7 @@
         "nameWithOwner": "emonney/QuickApp",
         "url": "https://github.com/emonney/QuickApp",
         "description": "AI-ready reference architecture for Angular / ASP.NET Core projects. A hardened foundation with secure authentication, authorization, role and user management, and consistent patterns designed to be safely extended by AI tools. Stop letting AI hallucinate your auth and DB logic - give it a production-grade foundation to build on.",
-        "stargazerCount": 1351,
+        "stargazerCount": 1352,
         "forkCount": 623,
         "isArchived": false,
         "isFork": false,
@@ -434,7 +441,7 @@
         "nameWithOwner": "iamEtornam/Tasky-Mobile-App",
         "url": "https://github.com/iamEtornam/Tasky-Mobile-App",
         "description": "A task manager built with Flutter, Serverless, Postgres, Firebase",
-        "stargazerCount": 295,
+        "stargazerCount": 296,
         "forkCount": 60,
         "isArchived": false,
         "isFork": false,
@@ -1286,7 +1293,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2022-01-06T21:11:54Z",
-        "pushedAt": "2026-10-03T15:27:56Z",
+        "pushedAt": "2026-10-05T03:14:29Z",
         "homepageUrl": "https://github.com/Burkifa23",
         "primaryLanguage": null,
         "licenseInfo": null
