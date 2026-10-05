@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **2,828**
+- Verified high-star candidates retained: **11**
+- Current global star frontier: **2,121**
 
 ### High-star verified preview
 
@@ -56,5 +56,11 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [YauhenKavalchuk/interview-questions](https://github.com/YauhenKavalchuk/interview-questions) | **4,546** | Belarus, Minsk |
 | [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) | **3,475** | Belarus |
 | [BEPb/BEPb](https://github.com/BEPb/BEPb) | **3,221** | Belarus |
+| [zhiburt/tabled](https://github.com/zhiburt/tabled) | **2,365** | Belarus |
+| [nillerusr/source-engine](https://github.com/nillerusr/source-engine) | **2,277** | Belarus |
+| [ermig1979/Simd](https://github.com/ermig1979/Simd) | **2,271** | Minsk, Belarus |
+| [staniel359/muffon](https://github.com/staniel359/muffon) | **2,238** | Minsk, Belarus |
+| [arbox/machine-learning-with-ruby](https://github.com/arbox/machine-learning-with-ruby) | **2,228** | BY |
+| [DockStation/dockstation](https://github.com/DockStation/dockstation) | **2,158** | Minsk, Belarus |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

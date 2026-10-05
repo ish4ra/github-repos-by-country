@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 282**
 - Progress: **0%**
 - Retained high-potential owner candidates: **141**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,7 +25,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [rlidwka/sinopia](https://github.com/rlidwka/sinopia) | **5,472** | Tbilisi, Georgia |
-| [gokadzev/Musify](https://github.com/gokadzev/Musify) | **4,292** | Tbilisi, Georgia |
+| [gokadzev/Musify](https://github.com/gokadzev/Musify) | **4,297** | Tbilisi, Georgia |
 | [thecodeholic/php-developer-roadmap](https://github.com/thecodeholic/php-developer-roadmap) | **3,657** | Tbilisi, Georgia |
 | [Cloud-CV/EvalAI](https://github.com/Cloud-CV/EvalAI) | **2,044** | Georgia Tech |
 | [lieff/minimp3](https://github.com/lieff/minimp3) | **1,963** | Georgia |
@@ -33,7 +33,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ChandlerBang/awesome-self-supervised-gnn](https://github.com/ChandlerBang/awesome-self-supervised-gnn) | **1,726** | Atlanta, Georgia |
 | [wntrblm/nox](https://github.com/wntrblm/nox) | **1,563** | Atlanta, Georgia |
 | [python273/vk_api](https://github.com/python273/vk_api) | **1,366** | Batumi, Georgia |
-| [DimiMikadze/orca](https://github.com/DimiMikadze/orca) | **1,305** | Tbilisi, Georgia |
+| [DimiMikadze/orca](https://github.com/DimiMikadze/orca) | **1,306** | Tbilisi, Georgia |
 | [bumbeishvili/org-chart](https://github.com/bumbeishvili/org-chart) | **1,213** | Tbilisi, Georgia |
 | [andreyvit/json-diff](https://github.com/andreyvit/json-diff) | **1,202** | Tbilisi, Georgia |
 | [theacodes/kicanvas](https://github.com/theacodes/kicanvas) | **1,146** | Atlanta, Georgia |
@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **2,121**
 
 ### High-star verified preview
 
@@ -55,5 +55,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [rlidwka/sinopia](https://github.com/rlidwka/sinopia) | **5,472** | Tbilisi, Georgia |
 | [gokadzev/Musify](https://github.com/gokadzev/Musify) | **4,293** | Tbilisi, Georgia |
 | [thecodeholic/php-developer-roadmap](https://github.com/thecodeholic/php-developer-roadmap) | **3,657** | Tbilisi, Georgia |
+| [samgozman/YoptaScript](https://github.com/samgozman/YoptaScript) | **2,251** | Tbilisi, Georgia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

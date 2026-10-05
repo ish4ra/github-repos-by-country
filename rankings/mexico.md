@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **2,424**
+- Verified high-star candidates retained: **14**
+- Current global star frontier: **2,121**
 
 ### High-star verified preview
 
@@ -60,5 +60,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [styfle/awesome-online-ide](https://github.com/styfle/awesome-online-ide) | **3,533** | ::1 |
 | [Mic92/sops-nix](https://github.com/Mic92/sops-nix) | **3,208** | ::1 |
 | [4ndersonLin/awesome-cloud-security](https://github.com/4ndersonLin/awesome-cloud-security) | **2,497** | ::1 |
+| [styfle/packagephobia](https://github.com/styfle/packagephobia) | **2,314** | ::1 |
+| [hhursev/recipe-scrapers](https://github.com/hhursev/recipe-scrapers) | **2,245** | ::1 |
+| [d3mondev/puredns](https://github.com/d3mondev/puredns) | **2,241** | ::1 |
+| [alfonsobries/vue-tailwind](https://github.com/alfonsobries/vue-tailwind) | **2,158** | Mérida Yucatán |
+| [AdrMXR/KitHack](https://github.com/AdrMXR/KitHack) | **2,096** | MX |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **2,121**
 
 ### High-star verified preview
 
@@ -54,5 +54,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [rayenghanmi/RyTuneX](https://github.com/rayenghanmi/RyTuneX) | **5,533** | Tunisia |
 | [Adembc/lazyssh](https://github.com/Adembc/lazyssh) | **3,966** | Tunisia |
 | [carthage-software/mago](https://github.com/carthage-software/mago) | **3,483** | Tunisia |
+| [anouarbensaad/vulnx](https://github.com/anouarbensaad/vulnx) | **2,149** | Tunisia |
+| [Fakerr/git-recall](https://github.com/Fakerr/git-recall) | **2,110** | Tunis, Tunisia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

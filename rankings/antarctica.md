@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **2,424**
+- Verified high-star candidates retained: **11**
+- Current global star frontier: **2,121**
 
 ### High-star verified preview
 
@@ -60,5 +60,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [lingdojo/kana-dojo](https://github.com/lingdojo/kana-dojo) | **3,562** | Antarctica |
 | [bestruirui/octopus](https://github.com/bestruirui/octopus) | **2,668** | Antarctica |
 | [ublue-os/bluefin](https://github.com/ublue-os/bluefin) | **2,616** | Antarctica |
+| [MarlinFirmware/Configurations](https://github.com/MarlinFirmware/Configurations) | **2,279** | Antarctica |
+| [bestruirui/BestSub](https://github.com/bestruirui/BestSub) | **2,141** | Antarctica |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

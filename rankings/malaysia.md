@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **2,424**
+- Verified high-star candidates retained: **11**
+- Current global star frontier: **2,121**
 
 ### High-star verified preview
 
@@ -60,5 +60,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [fathulfahmy/aio-usb-drive](https://github.com/fathulfahmy/aio-usb-drive) | **2,796** | Malaysia |
 | [MoonTechLab/Selene](https://github.com/MoonTechLab/Selene) | **2,557** | Malaysia |
 | [pluk-inc/markdown-preview](https://github.com/pluk-inc/markdown-preview) | **2,429** | Malaysia |
+| [EXALAB/AnLinux-App](https://github.com/EXALAB/AnLinux-App) | **2,340** | Malaysia |
+| [orchestral/testbench](https://github.com/orchestral/testbench) | **2,243** | Malaysia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

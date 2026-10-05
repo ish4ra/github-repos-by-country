@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 8%
+## Repository ranking status: Building 5%
 
-- Geography terms processed: **3 / 36**
-- Progress: **8%**
+- Geography terms processed: **2 / 36**
+- Progress: **5%**
 - Retained high-potential owner candidates: **165**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [iamcryptoki/snowden-archive](https://github.com/iamcryptoki/snowden-archive) | **1,412** | Guadeloupe |
+| [iamcryptoki/snowden-archive](https://github.com/iamcryptoki/snowden-archive) | **1,414** | Guadeloupe |
 | [sboli/twmn](https://github.com/sboli/twmn) | **533** | Guadeloupe |
 | [sarinkhan/openWheel](https://github.com/sarinkhan/openWheel) | **32** | Guadeloupe |
 | [teddy-dubal/weez-zpl](https://github.com/teddy-dubal/weez-zpl) | **26** | Guadeloupe |

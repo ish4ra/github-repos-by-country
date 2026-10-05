@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [carloscarcamo/aws-lambda-unzip-py](https://github.com/carloscarcamo/aws-lambda-unzip-py) | **51** | El Salvador |
 | [DanielRivera03/SistemaBancario](https://github.com/DanielRivera03/SistemaBancario) | **45** | San Salvador, El Salvador |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **2,121**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [deviantfero/wpgtk](https://github.com/deviantfero/wpgtk) | **2,193** | Santa Tecla, El Salvador |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

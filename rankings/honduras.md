@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 372**
 - Progress: **0%**
-- Retained high-potential owner candidates: **325**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **327**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -31,6 +31,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [andriksantos/keebox](https://github.com/andriksantos/keebox) | **63** | Honduras |
 | [DavidBrionesFF/punto-venta-csharp-sqlserver-crystal](https://github.com/DavidBrionesFF/punto-venta-csharp-sqlserver-crystal) | **26** | Tegucigalpa, Honduras, C,A |
 | [StarSheriff2/nextjs-pokemon-search-app](https://github.com/StarSheriff2/nextjs-pokemon-search-app) | **24** | Honduras |
+| [disturb16/go_examples](https://github.com/disturb16/go_examples) | **22** | Honduras |
 | [isinicolle/Jacket](https://github.com/isinicolle/Jacket) | **19** | Honduras |
 | [edsantoshn/Fibonacci](https://github.com/edsantoshn/Fibonacci) | **17** | Honduras |
 | [ajomuch92/ejercicios-c-sharp-40930](https://github.com/ajomuch92/ejercicios-c-sharp-40930) | **16** | Comayagua, Honduras |
@@ -38,6 +39,5 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [kosail/Aria](https://github.com/kosail/Aria) | **14** | Honduras |
 | [Turupawn/EcrecoverInclusionProof](https://github.com/Turupawn/EcrecoverInclusionProof) | **13** | San Pedro Sula, Honduras |
 | [YamilG/gamedev](https://github.com/YamilG/gamedev) | **12** | Tegucigalpa, Honduras |
-| [ideras/PSFEditor](https://github.com/ideras/PSFEditor) | **11** | Honduras |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 330**
 - Progress: **0%**
 - Retained high-potential owner candidates: **121**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,9 +25,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [robertodevs/flutter_ecommerce_template](https://github.com/robertodevs/flutter_ecommerce_template) | **1,585** | Guatemala |
-| [josejuanqm/docky](https://github.com/josejuanqm/docky) | **1,330** | Guatemala |
+| [josejuanqm/docky](https://github.com/josejuanqm/docky) | **1,334** | Guatemala |
 | [JPaulMora/Pyrit](https://github.com/JPaulMora/Pyrit) | **1,139** | Guatemala |
-| [eylles/pywal16](https://github.com/eylles/pywal16) | **811** | Guatemala |
+| [eylles/pywal16](https://github.com/eylles/pywal16) | **813** | Guatemala |
 | [RandolphVI/Multi-Label-Text-Classification](https://github.com/RandolphVI/Multi-Label-Text-Classification) | **562** | Guatemala |
 | [Guerra24/Firefox-UWP-Style](https://github.com/Guerra24/Firefox-UWP-Style) | **461** | Guatemala |
 | [ArielMejiaDev/larapex-charts](https://github.com/ArielMejiaDev/larapex-charts) | **303** | Guatemala |

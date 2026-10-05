@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **10**
-- Current global star frontier: **2,424**
+- Verified high-star candidates retained: **13**
+- Current global star frontier: **2,121**
 
 ### High-star verified preview
 
@@ -61,5 +61,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [limbopro/Profiles4limbo](https://github.com/limbopro/Profiles4limbo) | **3,523** | South Africa |
 | [Trixarian/NetherSX2-patch](https://github.com/Trixarian/NetherSX2-patch) | **2,661** | South Africa |
 | [mrackwitz/MRProgress](https://github.com/mrackwitz/MRProgress) | **2,524** | Remote \| Berlin \| Cape Town |
+| [TCNOco/TcNo-Acc-Switcher](https://github.com/TCNOco/TcNo-Acc-Switcher) | **2,374** | South Africa |
+| [snaplet/postgres-wasm](https://github.com/snaplet/postgres-wasm) | **2,320** | South Africa |
+| [vpavlenko/study-music](https://github.com/vpavlenko/study-music) | **2,301** | Tzaneen, South Africa |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

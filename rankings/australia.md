@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **15**
-- Current global star frontier: **2,424**
+- Verified high-star candidates retained: **16**
+- Current global star frontier: **2,121**
 
 ### High-star verified preview
 
@@ -66,5 +66,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [thepowersgang/mrustc](https://github.com/thepowersgang/mrustc) | **2,535** | Perth, Western Australia |
 | [JimBobSquarePants/ImageProcessor](https://github.com/JimBobSquarePants/ImageProcessor) | **2,491** | Sunshine Coast |
 | [iann0036/former2](https://github.com/iann0036/former2) | **2,415** | Sydney, NSW |
+| [timusus/Shuttle](https://github.com/timusus/Shuttle) | **2,173** | Hobart, Tasmania |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

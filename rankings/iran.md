@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **2,121**
 
 ### High-star verified preview
 
@@ -54,5 +54,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [MatrixTM/MHDDoS](https://github.com/MatrixTM/MHDDoS) | **16,780** | Iran |
 | [rzashakeri/beautify-github-profile](https://github.com/rzashakeri/beautify-github-profile) | **12,554** | Iran  |
 | [ultrasecurity/Storm-Breaker](https://github.com/ultrasecurity/Storm-Breaker) | **6,018** | Iran |
+| [Hameds/APIs-made-in-Iran](https://github.com/Hameds/APIs-made-in-Iran) | **2,157** | Iran |
+| [SharifiZarchi/Introduction_to_Machine_Learning](https://github.com/SharifiZarchi/Introduction_to_Machine_Learning) | **2,138** | Tehran, Iran |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

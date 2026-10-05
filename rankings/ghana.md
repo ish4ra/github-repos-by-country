@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 185**
 - Progress: **0%**
 - Retained high-potential owner candidates: **122**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,10 +24,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [emonney/QuickApp](https://github.com/emonney/QuickApp) | **1,351** | Ghana |
+| [emonney/QuickApp](https://github.com/emonney/QuickApp) | **1,352** | Ghana |
 | [blackmann/story_view](https://github.com/blackmann/story_view) | **471** | Ghana |
 | [Williano/Final-Senior-Year-Project-](https://github.com/Williano/Final-Senior-Year-Project-) | **338** | Kumasi, Ghana |
-| [iamEtornam/Tasky-Mobile-App](https://github.com/iamEtornam/Tasky-Mobile-App) | **295** | Accra, Ghana |
+| [iamEtornam/Tasky-Mobile-App](https://github.com/iamEtornam/Tasky-Mobile-App) | **296** | Accra, Ghana |
 | [KenBroTech/Django-Inventory-Management-System](https://github.com/KenBroTech/Django-Inventory-Management-System) | **148** | Ghana |
 | [eyedol/tools](https://github.com/eyedol/tools) | **90** | Accra, Ghana |
 | [lesliearkorful/juxtapose](https://github.com/lesliearkorful/juxtapose) | **80** | Accra, Ghana |

@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 12%
+## Repository ranking status: Building 6%
 
-- Geography terms processed: **2 / 16**
-- Progress: **12%**
+- Geography terms processed: **1 / 16**
+- Progress: **6%**
 - Retained high-potential owner candidates: **184**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,7 +25,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [TokenMarketNet/smart-contracts](https://github.com/TokenMarketNet/smart-contracts) | **1,325** | Gibraltar |
-| [gnosis/MultiSigWallet](https://github.com/gnosis/MultiSigWallet) | **1,100** | Gibraltar |
+| [gnosis/MultiSigWallet](https://github.com/gnosis/MultiSigWallet) | **1,101** | Gibraltar |
 | [ivpn/ios-app](https://github.com/ivpn/ios-app) | **573** | Gibraltar |
 | [PeterKottas/DotNetCore.WindowsService](https://github.com/PeterKottas/DotNetCore.WindowsService) | **568** | Gibraltar |
 | [miohtama/python-Levenshtein](https://github.com/miohtama/python-Levenshtein) | **392** | Gibraltar |

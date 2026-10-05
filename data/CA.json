@@ -1,14 +1,49 @@
 {
-  "schemaVersion": 2,
-  "locationResolverVersion": 2,
+  "schemaVersion": 1,
+  "methodologyVersion": "0.8.0-repository-first",
+  "generatedAt": "2026-10-05T06:20:07.436Z",
   "country": {
     "code": "CA",
     "name": "Canada",
     "slug": "canada"
   },
-  "source": "repository-first-stars-desc",
+  "source": {
+    "provider": "GitHub GraphQL API",
+    "endpoint": "https://api.github.com/graphql",
+    "countryBasis": "public repository-owner profile location",
+    "discovery": "global repositories scanned by stars descending"
+  },
+  "coverage": {
+    "status": "repository-first-certified-by-star-frontier",
+    "exhaustive": false,
+    "rawOwnerHits": 31935,
+    "acceptedUniqueOwners": 83,
+    "ownerMetricLabel": "Unique owners in top ranking",
+    "repositoriesConsidered": 117,
+    "publishedRepositories": 100,
+    "candidateThresholdStars": 2368,
+    "rankingLimit": 100,
+    "cappedQueries": [],
+    "repositoryFirst": {
+      "scanFrontierStars": 2121,
+      "topObservedStars": 551406,
+      "repositoriesSeen": 31935,
+      "attributedRepositories": 11226,
+      "ambiguousLocations": 4722,
+      "unknownLocations": 15987,
+      "unresolvedStarCounts": []
+    },
+    "notes": [
+      "Repositories are scanned globally in descending star ranges, independently of owner follower count or owner-search ordering.",
+      "A country is certified only after its 100th repository has more stars than every unprocessed global star range.",
+      "Owner country is inferred from the owner public GitHub profile location using the global geography resolver.",
+      "Owners with missing or unresolved locations are excluded, so country attribution is not a citizenship or legal-incorporation claim.",
+      "Compound city/admin locations such as \"Portland, OR\" are resolved before ambiguous city-only names."
+    ]
+  },
   "repositories": [
     {
+      "rank": 1,
       "name": "JavaScript30",
       "nameWithOwner": "wesbos/JavaScript30",
       "url": "https://github.com/wesbos/JavaScript30",
@@ -39,6 +74,7 @@
       }
     },
     {
+      "rank": 2,
       "name": "UniGetUI",
       "nameWithOwner": "Devolutions/UniGetUI",
       "url": "https://github.com/Devolutions/UniGetUI",
@@ -72,6 +108,7 @@
       }
     },
     {
+      "rank": 3,
       "name": "logrus",
       "nameWithOwner": "sirupsen/logrus",
       "url": "https://github.com/sirupsen/logrus",
@@ -105,6 +142,7 @@
       }
     },
     {
+      "rank": 4,
       "name": "spacemacs",
       "nameWithOwner": "syl20bnr/spacemacs",
       "url": "https://github.com/syl20bnr/spacemacs",
@@ -138,6 +176,7 @@
       }
     },
     {
+      "rank": 5,
       "name": "BlackHole",
       "nameWithOwner": "ExistentialAudio/BlackHole",
       "url": "https://github.com/ExistentialAudio/BlackHole",
@@ -171,6 +210,7 @@
       }
     },
     {
+      "rank": 6,
       "name": "CodeIgniter",
       "nameWithOwner": "bcit-ci/CodeIgniter",
       "url": "https://github.com/bcit-ci/CodeIgniter",
@@ -204,6 +244,7 @@
       }
     },
     {
+      "rank": 7,
       "name": "metrics",
       "nameWithOwner": "lowlighter/metrics",
       "url": "https://github.com/lowlighter/metrics",
@@ -237,6 +278,7 @@
       }
     },
     {
+      "rank": 8,
       "name": "wtf",
       "nameWithOwner": "wtfutil/wtf",
       "url": "https://github.com/wtfutil/wtf",
@@ -270,6 +312,7 @@
       }
     },
     {
+      "rank": 9,
       "name": "NodeBB",
       "nameWithOwner": "NodeBB/NodeBB",
       "url": "https://github.com/NodeBB/NodeBB",
@@ -303,6 +346,7 @@
       }
     },
     {
+      "rank": 10,
       "name": "botpress",
       "nameWithOwner": "botpress/botpress",
       "url": "https://github.com/botpress/botpress",
@@ -336,6 +380,7 @@
       }
     },
     {
+      "rank": 11,
       "name": "react-toastify",
       "nameWithOwner": "fkhadra/react-toastify",
       "url": "https://github.com/fkhadra/react-toastify",
@@ -369,6 +414,7 @@
       }
     },
     {
+      "rank": 12,
       "name": "nsfw_data_scraper",
       "nameWithOwner": "alex000kim/nsfw_data_scraper",
       "url": "https://github.com/alex000kim/nsfw_data_scraper",
@@ -402,6 +448,7 @@
       }
     },
     {
+      "rank": 13,
       "name": "post-mortems",
       "nameWithOwner": "danluu/post-mortems",
       "url": "https://github.com/danluu/post-mortems",
@@ -432,6 +479,7 @@
       }
     },
     {
+      "rank": 14,
       "name": "goose",
       "nameWithOwner": "pressly/goose",
       "url": "https://github.com/pressly/goose",
@@ -465,6 +513,7 @@
       }
     },
     {
+      "rank": 15,
       "name": "visual-explainer",
       "nameWithOwner": "nicobailon/visual-explainer",
       "url": "https://github.com/nicobailon/visual-explainer",
@@ -498,6 +547,7 @@
       }
     },
     {
+      "rank": 16,
       "name": "U-2-Net",
       "nameWithOwner": "xuebinqin/U-2-Net",
       "url": "https://github.com/xuebinqin/U-2-Net",
@@ -531,6 +581,7 @@
       }
     },
     {
+      "rank": 17,
       "name": "SciencePlots",
       "nameWithOwner": "garrettj403/SciencePlots",
       "url": "https://github.com/garrettj403/SciencePlots",
@@ -564,6 +615,7 @@
       }
     },
     {
+      "rank": 18,
       "name": "speech_recognition",
       "nameWithOwner": "Uberi/speech_recognition",
       "url": "https://github.com/Uberi/speech_recognition",
@@ -597,6 +649,7 @@
       }
     },
     {
+      "rank": 19,
       "name": "rematch",
       "nameWithOwner": "rematch/rematch",
       "url": "https://github.com/rematch/rematch",
@@ -630,6 +683,7 @@
       }
     },
     {
+      "rank": 20,
       "name": "imaginAIry",
       "nameWithOwner": "brycedrennan/imaginAIry",
       "url": "https://github.com/brycedrennan/imaginAIry",
@@ -663,6 +717,7 @@
       }
     },
     {
+      "rank": 21,
       "name": "awesome-unity",
       "nameWithOwner": "RyanNielson/awesome-unity",
       "url": "https://github.com/RyanNielson/awesome-unity",
@@ -696,6 +751,7 @@
       }
     },
     {
+      "rank": 22,
       "name": "100-days-of-code",
       "nameWithOwner": "kallaway/100-days-of-code",
       "url": "https://github.com/kallaway/100-days-of-code",
@@ -726,6 +782,7 @@
       }
     },
     {
+      "rank": 23,
       "name": "30-days-of-react-native",
       "nameWithOwner": "fangwei716/30-days-of-react-native",
       "url": "https://github.com/fangwei716/30-days-of-react-native",
@@ -756,6 +813,7 @@
       }
     },
     {
+      "rank": 24,
       "name": "beginner-javascript",
       "nameWithOwner": "wesbos/beginner-javascript",
       "url": "https://github.com/wesbos/beginner-javascript",
@@ -786,6 +844,7 @@
       }
     },
     {
+      "rank": 25,
       "name": "RealChar",
       "nameWithOwner": "Shaunwei/RealChar",
       "url": "https://github.com/Shaunwei/RealChar",
@@ -819,6 +878,7 @@
       }
     },
     {
+      "rank": 26,
       "name": "ssh-chat",
       "nameWithOwner": "shazow/ssh-chat",
       "url": "https://github.com/shazow/ssh-chat",
@@ -852,6 +912,7 @@
       }
     },
     {
+      "rank": 27,
       "name": "llama-swap",
       "nameWithOwner": "mostlygeek/llama-swap",
       "url": "https://github.com/mostlygeek/llama-swap",
@@ -885,6 +946,7 @@
       }
     },
     {
+      "rank": 28,
       "name": "napkin-math",
       "nameWithOwner": "sirupsen/napkin-math",
       "url": "https://github.com/sirupsen/napkin-math",
@@ -918,6 +980,7 @@
       }
     },
     {
+      "rank": 29,
       "name": "tilix",
       "nameWithOwner": "gnunn1/tilix",
       "url": "https://github.com/gnunn1/tilix",
@@ -951,6 +1014,7 @@
       }
     },
     {
+      "rank": 30,
       "name": "criterion.rs",
       "nameWithOwner": "bheisler/criterion.rs",
       "url": "https://github.com/bheisler/criterion.rs",
@@ -984,6 +1048,7 @@
       }
     },
     {
+      "rank": 31,
       "name": "claude-desktop-debian",
       "nameWithOwner": "aaddrick/claude-desktop-debian",
       "url": "https://github.com/aaddrick/claude-desktop-debian",
@@ -1017,6 +1082,7 @@
       }
     },
     {
+      "rank": 32,
       "name": "pinchflat",
       "nameWithOwner": "kieraneglin/pinchflat",
       "url": "https://github.com/kieraneglin/pinchflat",
@@ -1050,6 +1116,7 @@
       }
     },
     {
+      "rank": 33,
       "name": "awesome-uses",
       "nameWithOwner": "wesbos/awesome-uses",
       "url": "https://github.com/wesbos/awesome-uses",
@@ -1080,6 +1147,7 @@
       }
     },
     {
+      "rank": 34,
       "name": "overseerr",
       "nameWithOwner": "sct/overseerr",
       "url": "https://github.com/sct/overseerr",
@@ -1113,6 +1181,7 @@
       }
     },
     {
+      "rank": 35,
       "name": "bootstrap-modal",
       "nameWithOwner": "jschr/bootstrap-modal",
       "url": "https://github.com/jschr/bootstrap-modal",
@@ -1146,6 +1215,7 @@
       }
     },
     {
+      "rank": 36,
       "name": "html2pdf.js",
       "nameWithOwner": "eKoopmans/html2pdf.js",
       "url": "https://github.com/eKoopmans/html2pdf.js",
@@ -1179,6 +1249,7 @@
       }
     },
     {
+      "rank": 37,
       "name": "pivottable",
       "nameWithOwner": "nicolaskruchten/pivottable",
       "url": "https://github.com/nicolaskruchten/pivottable",
@@ -1212,6 +1283,7 @@
       }
     },
     {
+      "rank": 38,
       "name": "bazarr",
       "nameWithOwner": "morpheus65535/bazarr",
       "url": "https://github.com/morpheus65535/bazarr",
@@ -1245,6 +1317,7 @@
       }
     },
     {
+      "rank": 39,
       "name": "alertify.js",
       "nameWithOwner": "fabien-d/alertify.js",
       "url": "https://github.com/fabien-d/alertify.js",
@@ -1275,6 +1348,7 @@
       }
     },
     {
+      "rank": 40,
       "name": "ahey",
       "nameWithOwner": "vasanthv/ahey",
       "url": "https://github.com/vasanthv/ahey",
@@ -1308,6 +1382,7 @@
       }
     },
     {
+      "rank": 41,
       "name": "react-flip-move",
       "nameWithOwner": "joshwcomeau/react-flip-move",
       "url": "https://github.com/joshwcomeau/react-flip-move",
@@ -1341,6 +1416,7 @@
       }
     },
     {
+      "rank": 42,
       "name": "rtabmap",
       "nameWithOwner": "introlab/rtabmap",
       "url": "https://github.com/introlab/rtabmap",
@@ -1374,6 +1450,7 @@
       }
     },
     {
+      "rank": 43,
       "name": "src",
       "nameWithOwner": "openbsd/src",
       "url": "https://github.com/openbsd/src",
@@ -1404,6 +1481,7 @@
       }
     },
     {
+      "rank": 44,
       "name": "php-encryption",
       "nameWithOwner": "defuse/php-encryption",
       "url": "https://github.com/defuse/php-encryption",
@@ -1437,6 +1515,7 @@
       }
     },
     {
+      "rank": 45,
       "name": "ui-buttons",
       "nameWithOwner": "youneslaaroussi/ui-buttons",
       "url": "https://github.com/youneslaaroussi/ui-buttons",
@@ -1470,6 +1549,7 @@
       }
     },
     {
+      "rank": 46,
       "name": "debugging-stories",
       "nameWithOwner": "danluu/debugging-stories",
       "url": "https://github.com/danluu/debugging-stories",
@@ -1500,6 +1580,7 @@
       }
     },
     {
+      "rank": 47,
       "name": "pi-subagents",
       "nameWithOwner": "nicobailon/pi-subagents",
       "url": "https://github.com/nicobailon/pi-subagents",
@@ -1533,6 +1614,7 @@
       }
     },
     {
+      "rank": 48,
       "name": "textillate",
       "nameWithOwner": "jschr/textillate",
       "url": "https://github.com/jschr/textillate",
@@ -1566,6 +1648,7 @@
       }
     },
     {
+      "rank": 49,
       "name": "linux-android",
       "nameWithOwner": "mayukh4/linux-android",
       "url": "https://github.com/mayukh4/linux-android",
@@ -1599,6 +1682,7 @@
       }
     },
     {
+      "rank": 50,
       "name": "class-dump",
       "nameWithOwner": "nygard/class-dump",
       "url": "https://github.com/nygard/class-dump",
@@ -1629,6 +1713,7 @@
       }
     },
     {
+      "rank": 51,
       "name": "InputSourcePro",
       "nameWithOwner": "runjuu/InputSourcePro",
       "url": "https://github.com/runjuu/InputSourcePro",
@@ -1662,6 +1747,7 @@
       }
     },
     {
+      "rank": 52,
       "name": "Advanced-React",
       "nameWithOwner": "wesbos/Advanced-React",
       "url": "https://github.com/wesbos/Advanced-React",
@@ -1692,6 +1778,7 @@
       }
     },
     {
+      "rank": 53,
       "name": "SoundSwitch",
       "nameWithOwner": "Belphemur/SoundSwitch",
       "url": "https://github.com/Belphemur/SoundSwitch",
@@ -1725,6 +1812,7 @@
       }
     },
     {
+      "rank": 54,
       "name": "software-design-and-architecture-roadmap",
       "nameWithOwner": "stemmlerjs/software-design-and-architecture-roadmap",
       "url": "https://github.com/stemmlerjs/software-design-and-architecture-roadmap",
@@ -1755,6 +1843,7 @@
       }
     },
     {
+      "rank": 55,
       "name": "qlmarkdown",
       "nameWithOwner": "toland/qlmarkdown",
       "url": "https://github.com/toland/qlmarkdown",
@@ -1785,6 +1874,7 @@
       }
     },
     {
+      "rank": 56,
       "name": "guppy",
       "nameWithOwner": "joshwcomeau/guppy",
       "url": "https://github.com/joshwcomeau/guppy",
@@ -1818,6 +1908,7 @@
       }
     },
     {
+      "rank": 57,
       "name": "IronRDP",
       "nameWithOwner": "Devolutions/IronRDP",
       "url": "https://github.com/Devolutions/IronRDP",
@@ -1851,6 +1942,7 @@
       }
     },
     {
+      "rank": 58,
       "name": "ccat",
       "nameWithOwner": "owenthereal/ccat",
       "url": "https://github.com/owenthereal/ccat",
@@ -1884,6 +1976,7 @@
       }
     },
     {
+      "rank": 59,
       "name": "beatsync",
       "nameWithOwner": "freeman-jiang/beatsync",
       "url": "https://github.com/freeman-jiang/beatsync",
@@ -1917,6 +2010,7 @@
       }
     },
     {
+      "rank": 60,
       "name": "use-sound",
       "nameWithOwner": "joshwcomeau/use-sound",
       "url": "https://github.com/joshwcomeau/use-sound",
@@ -1950,6 +2044,7 @@
       }
     },
     {
+      "rank": 61,
       "name": "a-PyTorch-Tutorial-to-Object-Detection",
       "nameWithOwner": "sgrvinod/a-PyTorch-Tutorial-to-Object-Detection",
       "url": "https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Object-Detection",
@@ -1983,6 +2078,7 @@
       }
     },
     {
+      "rank": 62,
       "name": "jquery-focuspoint",
       "nameWithOwner": "jonom/jquery-focuspoint",
       "url": "https://github.com/jonom/jquery-focuspoint",
@@ -2016,6 +2112,7 @@
       }
     },
     {
+      "rank": 63,
       "name": "fastapi-realworld-example-app",
       "nameWithOwner": "nsidnev/fastapi-realworld-example-app",
       "url": "https://github.com/nsidnev/fastapi-realworld-example-app",
@@ -2049,6 +2146,7 @@
       }
     },
     {
+      "rank": 64,
       "name": "kube-monkey",
       "nameWithOwner": "asobti/kube-monkey",
       "url": "https://github.com/asobti/kube-monkey",
@@ -2082,6 +2180,7 @@
       }
     },
     {
+      "rank": 65,
       "name": "thread-pool",
       "nameWithOwner": "bshoshany/thread-pool",
       "url": "https://github.com/bshoshany/thread-pool",
@@ -2115,6 +2214,7 @@
       }
     },
     {
+      "rank": 66,
       "name": "rfid",
       "nameWithOwner": "miguelbalboa/rfid",
       "url": "https://github.com/miguelbalboa/rfid",
@@ -2148,6 +2248,7 @@
       }
     },
     {
+      "rank": 67,
       "name": "ChainForge",
       "nameWithOwner": "ianarawjo/ChainForge",
       "url": "https://github.com/ianarawjo/ChainForge",
@@ -2181,6 +2282,7 @@
       }
     },
     {
+      "rank": 68,
       "name": "bt",
       "nameWithOwner": "pmorissette/bt",
       "url": "https://github.com/pmorissette/bt",
@@ -2214,6 +2316,7 @@
       }
     },
     {
+      "rank": 69,
       "name": "react-native-background-geolocation",
       "nameWithOwner": "transistorsoft/react-native-background-geolocation",
       "url": "https://github.com/transistorsoft/react-native-background-geolocation",
@@ -2247,6 +2350,7 @@
       }
     },
     {
+      "rank": 70,
       "name": "React-For-Beginners-Starter-Files",
       "nameWithOwner": "wesbos/React-For-Beginners-Starter-Files",
       "url": "https://github.com/wesbos/React-For-Beginners-Starter-Files",
@@ -2277,6 +2381,7 @@
       }
     },
     {
+      "rank": 71,
       "name": "a-PyTorch-Tutorial-to-Image-Captioning",
       "nameWithOwner": "sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning",
       "url": "https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning",
@@ -2310,6 +2415,7 @@
       }
     },
     {
+      "rank": 72,
       "name": "ccs",
       "nameWithOwner": "kaitranntt/ccs",
       "url": "https://github.com/kaitranntt/ccs",
@@ -2343,6 +2449,7 @@
       }
     },
     {
+      "rank": 73,
       "name": "css-diner",
       "nameWithOwner": "flukeout/css-diner",
       "url": "https://github.com/flukeout/css-diner",
@@ -2376,6 +2483,7 @@
       }
     },
     {
+      "rank": 74,
       "name": "angular-local-storage",
       "nameWithOwner": "grevory/angular-local-storage",
       "url": "https://github.com/grevory/angular-local-storage",
@@ -2409,6 +2517,7 @@
       }
     },
     {
+      "rank": 75,
       "name": "CollectionViewPagingLayout",
       "nameWithOwner": "amirdew/CollectionViewPagingLayout",
       "url": "https://github.com/amirdew/CollectionViewPagingLayout",
@@ -2442,6 +2551,7 @@
       }
     },
     {
+      "rank": 76,
       "name": "barbar.nvim",
       "nameWithOwner": "romgrk/barbar.nvim",
       "url": "https://github.com/romgrk/barbar.nvim",
@@ -2472,6 +2582,7 @@
       }
     },
     {
+      "rank": 77,
       "name": "dad-jokes",
       "nameWithOwner": "wesbos/dad-jokes",
       "url": "https://github.com/wesbos/dad-jokes",
@@ -2502,6 +2613,7 @@
       }
     },
     {
+      "rank": 78,
       "name": "eslint-config-wesbos",
       "nameWithOwner": "wesbos/eslint-config-wesbos",
       "url": "https://github.com/wesbos/eslint-config-wesbos",
@@ -2532,6 +2644,7 @@
       }
     },
     {
+      "rank": 79,
       "name": "Play-",
       "nameWithOwner": "jpd002/Play-",
       "url": "https://github.com/jpd002/Play-",
@@ -2565,6 +2678,7 @@
       }
     },
     {
+      "rank": 80,
       "name": "youre-the-os",
       "nameWithOwner": "plbrault/youre-the-os",
       "url": "https://github.com/plbrault/youre-the-os",
@@ -2598,6 +2712,7 @@
       }
     },
     {
+      "rank": 81,
       "name": "apartment",
       "nameWithOwner": "influitive/apartment",
       "url": "https://github.com/influitive/apartment",
@@ -2628,6 +2743,7 @@
       }
     },
     {
+      "rank": 82,
       "name": "ffn",
       "nameWithOwner": "pmorissette/ffn",
       "url": "https://github.com/pmorissette/ffn",
@@ -2661,6 +2777,7 @@
       }
     },
     {
+      "rank": 83,
       "name": "flexmark-java",
       "nameWithOwner": "vsch/flexmark-java",
       "url": "https://github.com/vsch/flexmark-java",
@@ -2694,6 +2811,7 @@
       }
     },
     {
+      "rank": 84,
       "name": "tedukuri",
       "nameWithOwner": "lydrainbowcat/tedukuri",
       "url": "https://github.com/lydrainbowcat/tedukuri",
@@ -2724,6 +2842,7 @@
       }
     },
     {
+      "rank": 85,
       "name": "gTTS",
       "nameWithOwner": "pndurette/gTTS",
       "url": "https://github.com/pndurette/gTTS",
@@ -2757,6 +2876,7 @@
       }
     },
     {
+      "rank": 86,
       "name": "web-development-course-list",
       "nameWithOwner": "andrews1022/web-development-course-list",
       "url": "https://github.com/andrews1022/web-development-course-list",
@@ -2787,6 +2907,7 @@
       }
     },
     {
+      "rank": 87,
       "name": "DIS",
       "nameWithOwner": "xuebinqin/DIS",
       "url": "https://github.com/xuebinqin/DIS",
@@ -2820,6 +2941,7 @@
       }
     },
     {
+      "rank": 88,
       "name": "dex-ui",
       "nameWithOwner": "seenaburns/dex-ui",
       "url": "https://github.com/seenaburns/dex-ui",
@@ -2853,6 +2975,7 @@
       }
     },
     {
+      "rank": 89,
       "name": "stocksight",
       "nameWithOwner": "shirosaidev/stocksight",
       "url": "https://github.com/shirosaidev/stocksight",
@@ -2886,6 +3009,7 @@
       }
     },
     {
+      "rank": 90,
       "name": "errcheck",
       "nameWithOwner": "kisielk/errcheck",
       "url": "https://github.com/kisielk/errcheck",
@@ -2919,6 +3043,7 @@
       }
     },
     {
+      "rank": 91,
       "name": "Semantic-Segmentation-Suite",
       "nameWithOwner": "GeorgeSeif/Semantic-Segmentation-Suite",
       "url": "https://github.com/GeorgeSeif/Semantic-Segmentation-Suite",
@@ -2949,6 +3074,7 @@
       }
     },
     {
+      "rank": 92,
       "name": "sup",
       "nameWithOwner": "pressly/sup",
       "url": "https://github.com/pressly/sup",
@@ -2982,6 +3108,7 @@
       }
     },
     {
+      "rank": 93,
       "name": "V2ray-Config",
       "nameWithOwner": "barry-far/V2ray-Config",
       "url": "https://github.com/barry-far/V2ray-Config",
@@ -3015,6 +3142,7 @@
       }
     },
     {
+      "rank": 94,
       "name": "node-google-spreadsheet",
       "nameWithOwner": "theoephraim/node-google-spreadsheet",
       "url": "https://github.com/theoephraim/node-google-spreadsheet",
@@ -3048,6 +3176,7 @@
       }
     },
     {
+      "rank": 95,
       "name": "onedriver",
       "nameWithOwner": "jstaf/onedriver",
       "url": "https://github.com/jstaf/onedriver",
@@ -3081,6 +3210,7 @@
       }
     },
     {
+      "rank": 96,
       "name": "scryer-prolog",
       "nameWithOwner": "mthom/scryer-prolog",
       "url": "https://github.com/mthom/scryer-prolog",
@@ -3114,6 +3244,7 @@
       }
     },
     {
+      "rank": 97,
       "name": "brigadier",
       "nameWithOwner": "timsutton/brigadier",
       "url": "https://github.com/timsutton/brigadier",
@@ -3147,6 +3278,7 @@
       }
     },
     {
+      "rank": 98,
       "name": "teamocil",
       "nameWithOwner": "remi/teamocil",
       "url": "https://github.com/remi/teamocil",
@@ -3180,6 +3312,7 @@
       }
     },
     {
+      "rank": 99,
       "name": "php-html-parser",
       "nameWithOwner": "paquettg/php-html-parser",
       "url": "https://github.com/paquettg/php-html-parser",
@@ -3213,6 +3346,7 @@
       }
     },
     {
+      "rank": 100,
       "name": "CMSaasStarter",
       "nameWithOwner": "scosman/CMSaasStarter",
       "url": "https://github.com/scosman/CMSaasStarter",
@@ -3244,555 +3378,6 @@
         },
         "discoveryTerms": []
       }
-    },
-    {
-      "name": "Ligaturizer",
-      "nameWithOwner": "ToxicFrog/Ligaturizer",
-      "url": "https://github.com/ToxicFrog/Ligaturizer",
-      "description": "Programming Fonts with Ligatures added (& a script to add them to other fonts)",
-      "stars": 2365,
-      "forks": 127,
-      "primaryLanguage": "Python",
-      "license": {
-        "name": "GNU General Public License v3.0",
-        "spdxId": "GPL-3.0"
-      },
-      "createdAt": "2017-08-08T05:19:28Z",
-      "pushedAt": "2023-06-13T23:34:04Z",
-      "homepageUrl": null,
-      "archived": false,
-      "owner": {
-        "login": "ToxicFrog",
-        "name": "B. Kelly",
-        "type": "User",
-        "url": "https://github.com/ToxicFrog",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/90456?v=4",
-        "location": "Kitchener, Ontario",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "CA",
-          "confidence": "high",
-          "evidence": "recognized-place-with-admin",
-          "matched": "kitchener ontario"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "awesome-gan-for-medical-imaging",
-      "nameWithOwner": "xinario/awesome-gan-for-medical-imaging",
-      "url": "https://github.com/xinario/awesome-gan-for-medical-imaging",
-      "description": "Awesome GAN for Medical Imaging",
-      "stars": 2360,
-      "forks": 447,
-      "primaryLanguage": null,
-      "license": null,
-      "createdAt": "2017-08-23T20:38:25Z",
-      "pushedAt": "2022-05-29T21:59:19Z",
-      "homepageUrl": null,
-      "archived": false,
-      "owner": {
-        "login": "xinario",
-        "name": "Xin Yi",
-        "type": "User",
-        "url": "https://github.com/xinario",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/4955152?u=6c3b456750edf29fb648b39580ac9b5f2c1df75e&v=4",
-        "location": "Calgary, AB, CA",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "CA",
-          "confidence": "medium",
-          "evidence": "recognized-place",
-          "matched": "calgary"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "vim-gutentags",
-      "nameWithOwner": "ludovicchabant/vim-gutentags",
-      "url": "https://github.com/ludovicchabant/vim-gutentags",
-      "description": "A Vim plugin that manages your tag files",
-      "stars": 2343,
-      "forks": 177,
-      "primaryLanguage": "Vim Script",
-      "license": {
-        "name": "MIT License",
-        "spdxId": "MIT"
-      },
-      "createdAt": "2014-07-20T21:40:46Z",
-      "pushedAt": "2024-06-09T01:12:19Z",
-      "homepageUrl": "https://bolt80.com/gutentags/",
-      "archived": false,
-      "owner": {
-        "login": "ludovicchabant",
-        "name": "Ludovic Chabant",
-        "type": "User",
-        "url": "https://github.com/ludovicchabant",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/470376?v=4",
-        "location": "Vancouver, BC",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "CA",
-          "confidence": "high",
-          "evidence": "recognized-place-with-admin",
-          "matched": "vancouver bc"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "SublimePicker",
-      "nameWithOwner": "vikramkakkar/SublimePicker",
-      "url": "https://github.com/vikramkakkar/SublimePicker",
-      "description": "A material-styled android view that provisions picking of a date, time & recurrence option, all from a single user-interface. ",
-      "stars": 2289,
-      "forks": 409,
-      "primaryLanguage": "Java",
-      "license": {
-        "name": "Apache License 2.0",
-        "spdxId": "Apache-2.0"
-      },
-      "createdAt": "2015-05-24T14:51:50Z",
-      "pushedAt": "2023-01-14T05:42:32Z",
-      "homepageUrl": null,
-      "archived": false,
-      "owner": {
-        "login": "vikramkakkar",
-        "name": "Vikram",
-        "type": "User",
-        "url": "https://github.com/vikramkakkar",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/4239472?v=4",
-        "location": "Toronto, ON",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "CA",
-          "confidence": "high",
-          "evidence": "recognized-place-with-admin",
-          "matched": "toronto on"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "gemini-mcp-tool",
-      "nameWithOwner": "jamubc/gemini-mcp-tool",
-      "url": "https://github.com/jamubc/gemini-mcp-tool",
-      "description": "MCP server that enables AI assistants to interact with Google Gemini CLI, leveraging Gemini's massive token window for large file analysis and codebase understanding",
-      "stars": 2286,
-      "forks": 203,
-      "primaryLanguage": "TypeScript",
-      "license": {
-        "name": "Other",
-        "spdxId": "NOASSERTION"
-      },
-      "createdAt": "2025-06-29T06:45:11Z",
-      "pushedAt": "2026-07-21T23:37:16Z",
-      "homepageUrl": "https://jamubc.github.io/gemini-mcp-tool/",
-      "archived": false,
-      "owner": {
-        "login": "jamubc",
-        "name": null,
-        "type": "User",
-        "url": "https://github.com/jamubc",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/150970140?v=4",
-        "location": "Victoria, BC",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "CA",
-          "confidence": "high",
-          "evidence": "recognized-place-with-admin",
-          "matched": "victoria bc"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "generatedata",
-      "nameWithOwner": "benkeen/generatedata",
-      "url": "https://github.com/benkeen/generatedata",
-      "description": "A powerful, feature-rich, random test data generator.",
-      "stars": 2285,
-      "forks": 610,
-      "primaryLanguage": "TypeScript",
-      "license": {
-        "name": "GNU General Public License v3.0",
-        "spdxId": "GPL-3.0"
-      },
-      "createdAt": "2012-01-26T21:06:00Z",
-      "pushedAt": "2026-08-15T23:01:39Z",
-      "homepageUrl": "https://generatedata.com",
-      "archived": false,
-      "owner": {
-        "login": "benkeen",
-        "name": "Ben Keen",
-        "type": "User",
-        "url": "https://github.com/benkeen",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/512116?u=418e45ddff94b230012d214fa134d56236805edd&v=4",
-        "location": "Vancouver, BC",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "CA",
-          "confidence": "high",
-          "evidence": "recognized-place-with-admin",
-          "matched": "vancouver bc"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "thin",
-      "nameWithOwner": "macournoyer/thin",
-      "url": "https://github.com/macournoyer/thin",
-      "description": "A very fast & simple Ruby web server",
-      "stars": 2275,
-      "forks": 343,
-      "primaryLanguage": "Ruby",
-      "license": {
-        "name": "Other",
-        "spdxId": "NOASSERTION"
-      },
-      "createdAt": "2008-01-19T05:39:04Z",
-      "pushedAt": "2026-07-15T19:34:32Z",
-      "homepageUrl": "https://rubygems.org/gems/thin",
-      "archived": true,
-      "owner": {
-        "login": "macournoyer",
-        "name": "Marc-André Cournoyer",
-        "type": "User",
-        "url": "https://github.com/macournoyer",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/22?v=4",
-        "location": "Montreal, QC, Canada",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "CA",
-          "confidence": "medium",
-          "evidence": "recognized-place",
-          "matched": "qc"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "KMCGeigerCounter",
-      "nameWithOwner": "kconner/KMCGeigerCounter",
-      "url": "https://github.com/kconner/KMCGeigerCounter",
-      "description": "A framerate meter that clicks like a Geiger counter when your animation drops a frame",
-      "stars": 2245,
-      "forks": 270,
-      "primaryLanguage": "Objective-C",
-      "license": {
-        "name": "MIT License",
-        "spdxId": "MIT"
-      },
-      "createdAt": "2014-10-22T16:41:29Z",
-      "pushedAt": "2022-07-23T17:48:46Z",
-      "homepageUrl": null,
-      "archived": false,
-      "owner": {
-        "login": "kconner",
-        "name": "Kevin Conner",
-        "type": "User",
-        "url": "https://github.com/kconner",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/602569?u=599c6feac3711f11308ea7a48687389ec8359a36&v=4",
-        "location": "Vancouver, BC",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "CA",
-          "confidence": "high",
-          "evidence": "recognized-place-with-admin",
-          "matched": "vancouver bc"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "ambie",
-      "nameWithOwner": "jenius-apps/ambie",
-      "url": "https://github.com/jenius-apps/ambie",
-      "description": "An app that uses white noise, nature sounds, and focus features to boost your productivity.",
-      "stars": 2230,
-      "forks": 148,
-      "primaryLanguage": "C#",
-      "license": {
-        "name": "MIT License",
-        "spdxId": "MIT"
-      },
-      "createdAt": "2020-11-01T21:26:12Z",
-      "pushedAt": "2026-10-03T05:44:02Z",
-      "homepageUrl": "https://ambieapp.com",
-      "archived": false,
-      "owner": {
-        "login": "jenius-apps",
-        "name": "Jenius Apps",
-        "type": "Organization",
-        "url": "https://github.com/jenius-apps",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/49069850?v=4",
-        "location": "Vancouver, BC",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "CA",
-          "confidence": "high",
-          "evidence": "recognized-place-with-admin",
-          "matched": "vancouver bc"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "JobFunnel",
-      "nameWithOwner": "PaulMcInnis/JobFunnel",
-      "url": "https://github.com/PaulMcInnis/JobFunnel",
-      "description": "Scrape job websites into a single spreadsheet with no duplicates.",
-      "stars": 2192,
-      "forks": 263,
-      "primaryLanguage": "Python",
-      "license": {
-        "name": "MIT License",
-        "spdxId": "MIT"
-      },
-      "createdAt": "2017-08-25T00:51:25Z",
-      "pushedAt": "2025-12-10T03:01:02Z",
-      "homepageUrl": null,
-      "archived": true,
-      "owner": {
-        "login": "PaulMcInnis",
-        "name": "Paul McInnis",
-        "type": "User",
-        "url": "https://github.com/PaulMcInnis",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/3189865?u=767859298387eb53b4a771a021dfce7015728227&v=4",
-        "location": "Waterloo Ontario",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "CA",
-          "confidence": "high",
-          "evidence": "recognized-place-with-admin",
-          "matched": "waterloo ontario"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "theLMbook",
-      "nameWithOwner": "aburkov/theLMbook",
-      "url": "https://github.com/aburkov/theLMbook",
-      "description": "This is the official repository for The Hundred-Page Language Models Book by Andriy Burkov",
-      "stars": 2186,
-      "forks": 370,
-      "primaryLanguage": "Jupyter Notebook",
-      "license": null,
-      "createdAt": "2024-06-28T03:00:20Z",
-      "pushedAt": "2026-02-08T21:14:56Z",
-      "homepageUrl": "https://www.thelmbook.com",
-      "archived": false,
-      "owner": {
-        "login": "aburkov",
-        "name": "Andriy Burkov",
-        "type": "User",
-        "url": "https://github.com/aburkov",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/12722258?u=94cba1e6db2853fd1d4de5cf46ab80a9dd23a675&v=4",
-        "location": "Quebec City, Canada",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "CA",
-          "confidence": "medium",
-          "evidence": "recognized-place",
-          "matched": "quebec city"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "docker-compose-nas",
-      "nameWithOwner": "AdrienPoupa/docker-compose-nas",
-      "url": "https://github.com/AdrienPoupa/docker-compose-nas",
-      "description": "Simple Docker Compose NAS featuring Sonarr, Radarr, Prowlarr, Jellyfin, qBittorrent, PIA VPN and Traefik with SSL support",
-      "stars": 2151,
-      "forks": 262,
-      "primaryLanguage": "Shell",
-      "license": null,
-      "createdAt": "2022-02-19T22:17:15Z",
-      "pushedAt": "2026-09-08T19:50:07Z",
-      "homepageUrl": null,
-      "archived": false,
-      "owner": {
-        "login": "AdrienPoupa",
-        "name": "Adrien Poupa",
-        "type": "User",
-        "url": "https://github.com/AdrienPoupa",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/15086425?u=9a4570e32e389db246ea9db5631b10aba66ea118&v=4",
-        "location": "Montréal, QC, Canada",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "CA",
-          "confidence": "medium",
-          "evidence": "recognized-place",
-          "matched": "qc"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "css-grid",
-      "nameWithOwner": "wesbos/css-grid",
-      "url": "https://github.com/wesbos/css-grid",
-      "description": "Starter Files + Solutions to my CSSGrid.io Course",
-      "stars": 2148,
-      "forks": 2837,
-      "primaryLanguage": "HTML",
-      "license": null,
-      "createdAt": "2017-12-05T22:01:51Z",
-      "pushedAt": "2024-06-26T06:06:07Z",
-      "homepageUrl": null,
-      "archived": false,
-      "owner": {
-        "login": "wesbos",
-        "name": "Wes Bos",
-        "type": "User",
-        "url": "https://github.com/wesbos",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/176013?u=1d436e62dc32dbbf1bfefb4d658cd67553154c42&v=4",
-        "location": "Hamilton, Ontario",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "CA",
-          "confidence": "high",
-          "evidence": "recognized-place-with-admin",
-          "matched": "hamilton ontario"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "tinn",
-      "nameWithOwner": "glouw/tinn",
-      "url": "https://github.com/glouw/tinn",
-      "description": "A tiny neural network library",
-      "stars": 2135,
-      "forks": 188,
-      "primaryLanguage": "C",
-      "license": {
-        "name": "MIT License",
-        "spdxId": "MIT"
-      },
-      "createdAt": "2018-03-27T07:16:59Z",
-      "pushedAt": "2021-01-17T23:06:12Z",
-      "homepageUrl": null,
-      "archived": false,
-      "owner": {
-        "login": "glouw",
-        "name": "Gustav Louw",
-        "type": "User",
-        "url": "https://github.com/glouw",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/7000616?u=b19cca026c3b1b7746c6e1d776e9b0291bc3dd90&v=4",
-        "location": "Toronto, Ontario",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "CA",
-          "confidence": "high",
-          "evidence": "recognized-place-with-admin",
-          "matched": "toronto ontario"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "quaternion",
-      "nameWithOwner": "Krasjet/quaternion",
-      "url": "https://github.com/Krasjet/quaternion",
-      "description": "A brief introduction to the quaternions and its applications in 3D geometry.",
-      "stars": 2123,
-      "forks": 296,
-      "primaryLanguage": "HTML",
-      "license": null,
-      "createdAt": "2018-07-17T01:23:37Z",
-      "pushedAt": "2025-08-20T02:52:30Z",
-      "homepageUrl": "https://krasjet.github.io/quaternion/",
-      "archived": false,
-      "owner": {
-        "login": "Krasjet",
-        "name": "K.",
-        "type": "User",
-        "url": "https://github.com/Krasjet",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5229241?u=5a8e5337ddd177647006e8fe0b565c2849483c21&v=4",
-        "location": "Montréal, QC, Canada",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "CA",
-          "confidence": "medium",
-          "evidence": "recognized-place",
-          "matched": "qc"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "weron",
-      "nameWithOwner": "pojntfx/weron",
-      "url": "https://github.com/pojntfx/weron",
-      "description": "Overlay networks based on WebRTC.",
-      "stars": 2115,
-      "forks": 80,
-      "primaryLanguage": "Go",
-      "license": {
-        "name": "GNU Affero General Public License v3.0",
-        "spdxId": "AGPL-3.0"
-      },
-      "createdAt": "2022-02-28T20:58:50Z",
-      "pushedAt": "2025-04-22T00:29:26Z",
-      "homepageUrl": null,
-      "archived": false,
-      "owner": {
-        "login": "pojntfx",
-        "name": "Felicitas Pojtinger",
-        "type": "User",
-        "url": "https://github.com/pojntfx",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/28832235?u=f9d2b13fa3a3b957091e6232b0ec2f34a96ab053&v=4",
-        "location": "Vancouver, BC",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "CA",
-          "confidence": "high",
-          "evidence": "recognized-place-with-admin",
-          "matched": "vancouver bc"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "SwiftyCam",
-      "nameWithOwner": "Awalz/SwiftyCam",
-      "url": "https://github.com/Awalz/SwiftyCam",
-      "description": "A Snapchat Inspired iOS Camera Framework written in Swift",
-      "stars": 2112,
-      "forks": 331,
-      "primaryLanguage": "Swift",
-      "license": {
-        "name": "BSD 2-Clause \"Simplified\" License",
-        "spdxId": "BSD-2-Clause"
-      },
-      "createdAt": "2016-12-26T02:58:55Z",
-      "pushedAt": "2022-02-04T10:24:45Z",
-      "homepageUrl": null,
-      "archived": false,
-      "owner": {
-        "login": "Awalz",
-        "name": "Andrew Walz",
-        "type": "User",
-        "url": "https://github.com/Awalz",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/8753566?u=0480a3a1e8e0e826376e32cb96a2f1322760d4c1&v=4",
-        "location": "Vancouver, British Columbia",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "CA",
-          "confidence": "high",
-          "evidence": "recognized-place-with-admin",
-          "matched": "vancouver british columbia"
-        },
-        "discoveryTerms": []
-      }
     }
-  ],
-  "scanFrontierStars": 2121,
-  "certifiedAt": "2026-10-05T06:20:07.436Z",
-  "updatedAt": "2026-10-05T06:20:07.436Z"
+  ]
 }

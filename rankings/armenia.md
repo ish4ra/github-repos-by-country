@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **2,828**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **2,121**
 
 ### High-star verified preview
 
@@ -55,5 +55,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ashvardanian/StringZilla](https://github.com/ashvardanian/StringZilla) | **3,570** | London, San Francisco, Yerevan |
 | [khoren93/SwiftHub](https://github.com/khoren93/SwiftHub) | **3,114** | Yerevan, Armenia |
 | [modularcode/modular-admin-html](https://github.com/modularcode/modular-admin-html) | **2,972** | Yerevan |
+| [vtereshkov/umka-lang](https://github.com/vtereshkov/umka-lang) | **2,109** | Yerevan, Armenia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **8**
-- Current global star frontier: **2,424**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **2,121**
 
 ### High-star verified preview
 
@@ -59,5 +59,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [e-oj/Magic-Grid](https://github.com/e-oj/Magic-Grid) | **3,150** | Vancouver, BC \| Abuja, Nigeria |
 | [calistus-igwilo/nitda-blockchain-scholarship](https://github.com/calistus-igwilo/nitda-blockchain-scholarship) | **3,084** | Nigeria |
 | [ayoisaiah/f2](https://github.com/ayoisaiah/f2) | **2,453** | Abuja, Nigeria |
+| [BolajiAyodeji/awesome-technical-writing](https://github.com/BolajiAyodeji/awesome-technical-writing) | **2,313** | Abuja, Nigeria |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [rennf93/fastapi-guard](https://github.com/rennf93/fastapi-guard) | **823** | Argentina |
 | [dacap/clip](https://github.com/dacap/clip) | **706** | Argentina |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **2,121**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [alitto/pond](https://github.com/alitto/pond) | **2,197** | Azul, Argentina |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

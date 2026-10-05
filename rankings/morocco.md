@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **2,424**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **2,121**
 
 ### High-star verified preview
 
@@ -53,5 +53,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [benweet/stackedit](https://github.com/benweet/stackedit) | **23,097** | Marrakech, Morocco |
 | [wassim249/fastapi-langgraph-agent-production-ready-template](https://github.com/wassim249/fastapi-langgraph-agent-production-ready-template) | **2,690** | Kenitra , Morocco |
+| [winder/Universal-G-Code-Sender](https://github.com/winder/Universal-G-Code-Sender) | **2,266** | MA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

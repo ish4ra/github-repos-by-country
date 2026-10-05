@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **11**
-- Current global star frontier: **2,424**
+- Verified high-star candidates retained: **14**
+- Current global star frontier: **2,121**
 
 ### High-star verified preview
 
@@ -62,5 +62,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [pnnbao97/VieNeu-TTS](https://github.com/pnnbao97/VieNeu-TTS) | **2,752** | Ho Chi Minh City, Vietnam |
 | [hudy9x/namviek](https://github.com/hudy9x/namviek) | **2,556** | HaNoi |
 | [khang-nd/7.css](https://github.com/khang-nd/7.css) | **2,446** | Ho Chi Minh, Vietnam |
+| [ncdai/chanhdai.com](https://github.com/ncdai/chanhdai.com) | **2,364** | Ho Chi Minh City, Viet Nam |
+| [hunglc007/tensorflow-yolov4-tflite](https://github.com/hunglc007/tensorflow-yolov4-tflite) | **2,253** | Hanoi, VietNam |
+| [tuandm/laravue](https://github.com/tuandm/laravue) | **2,196** | HCMC |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

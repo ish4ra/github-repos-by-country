@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **2,424**
+- Verified high-star candidates retained: **19**
+- Current global star frontier: **2,121**
 
 ### High-star verified preview
 
@@ -65,5 +65,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [codingmonster-tv/Awesome_Resume_Portfolio](https://github.com/codingmonster-tv/Awesome_Resume_Portfolio) | **2,551** | korea, republic of  |
 | [cartesiancs/map3d](https://github.com/cartesiancs/map3d) | **2,438** | Korea, South |
 | [ndb796/python-for-coding-test](https://github.com/ndb796/python-for-coding-test) | **2,421** | Korea, Republic of |
+| [boost-devs/ai-tech-interview](https://github.com/boost-devs/ai-tech-interview) | **2,376** | Korea, South |
+| [pronist/hello](https://github.com/pronist/hello) | **2,256** | Korea, Republic of |
+| [Jongchan/attention-module](https://github.com/Jongchan/attention-module) | **2,236** | Korea |
+| [chris-chris/ml-engineer-roadmap](https://github.com/chris-chris/ml-engineer-roadmap) | **2,207** | Korea |
+| [esjeon/krohnkite](https://github.com/esjeon/krohnkite) | **2,180** | Korea |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

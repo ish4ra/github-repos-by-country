@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 45%
+## Repository ranking status: Building 40%
 
-- Geography terms processed: **9 / 20**
-- Progress: **45%**
+- Geography terms processed: **8 / 20**
+- Progress: **40%**
 - Retained high-potential owner candidates: **27**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,7 +25,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [WildChickenUniversity/WildChickenUniversity](https://github.com/WildChickenUniversity/WildChickenUniversity) | **126** | Heard and McDonald Islands |
-| [4wi/php_server_mapper](https://github.com/4wi/php_server_mapper) | **74** | Heard and McDonald Islands |
+| [4wi/php_server_mapper](https://github.com/4wi/php_server_mapper) | **75** | Heard and McDonald Islands |
 | [ilikeshiny/CHATAFT](https://github.com/ilikeshiny/CHATAFT) | **2** | Heard & McDonald Islands |
 | [ygbnocap/HEAR-ME-](https://github.com/ygbnocap/HEAR-ME-) | **2** | Heard & McDonald Islands |
 | [B9JagoNgadpro/PencarianFiltrasi](https://github.com/B9JagoNgadpro/PencarianFiltrasi) | **1** | Heard and McDonald Islands |

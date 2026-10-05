@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 133**
 - Progress: **0%**
 - Retained high-potential owner candidates: **343**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -37,7 +37,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [certilremy/moncash_ruby](https://github.com/certilremy/moncash_ruby) | **7** | Haiti |
 | [Lemayzeur/moncashify_sdk](https://github.com/Lemayzeur/moncashify_sdk) | **7** | Port-au-Prince - Haiti |
 | [DybyTechX/MEGALODON-MD](https://github.com/DybyTechX/MEGALODON-MD) | **5** | haiti |
+| [AnnLite/Annlite](https://github.com/AnnLite/Annlite) | **4** | Haiti |
 | [brucy34/Petite-Caisse](https://github.com/brucy34/Petite-Caisse) | **4** | Haiti |
-| [cterogene/NFTShowcase](https://github.com/cterogene/NFTShowcase) | **4** | Haiti |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

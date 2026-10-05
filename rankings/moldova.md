@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [nicubarbaros/youtube-tutorials-repo](https://github.com/nicubarbaros/youtube-tutorials-repo) | **148** | Moldova |
 | [vgaidarji/ci-matters](https://github.com/vgaidarji/ci-matters) | **131** | Moldova |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **2,121**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [Rudolf-Barbu/Ward](https://github.com/Rudolf-Barbu/Ward) | **2,316** | Chișinău, Moldova |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

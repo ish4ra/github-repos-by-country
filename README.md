@@ -21,7 +21,7 @@
 
 ## Browse by country
 
-**250 indexed · 15 live · 249 building · 0 queued**
+**250 indexed · 16 live · 249 building · 0 queued**
 
 > 🟢 **Live** = published ranking · 🟡 **Building** = crawl in progress · ⚪ **Queued** = waiting for its first crawl
 
@@ -87,7 +87,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
       <td width="25%">🟡 <a href="./rankings/burundi.md"><strong>🇧🇮 Burundi</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/cambodia.md"><strong>🇰🇭 Cambodia</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/cameroon.md"><strong>🇨🇲 Cameroon</strong></a></td>
-      <td width="25%">🟡 <a href="./rankings/canada.md"><strong>🇨🇦 Canada</strong></a></td>
+      <td width="25%">🟢 <a href="./rankings/canada.md"><strong>🇨🇦 Canada</strong></a></td>
     </tr>
     <tr>
       <td width="25%">🟡 <a href="./rankings/cape-verde.md"><strong>🇨🇻 Cape Verde</strong></a></td>

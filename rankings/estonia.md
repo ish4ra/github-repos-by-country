@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **13**
-- Current global star frontier: **2,424**
+- Verified high-star candidates retained: **20**
+- Current global star frontier: **2,121**
 
 ### High-star verified preview
 
@@ -64,5 +64,12 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [egonelbre/gophers](https://github.com/egonelbre/gophers) | **3,834** | Estonia, Tartu |
 | [Voog/wysihtml](https://github.com/Voog/wysihtml) | **3,348** | Tartu, Estonia |
 | [aerokube/selenoid](https://github.com/aerokube/selenoid) | **2,654** | Estonia |
+| [erengy/taiga](https://github.com/erengy/taiga) | **2,334** | Tallinn |
+| [joe-bell/plaiceholder](https://github.com/joe-bell/plaiceholder) | **2,315** | Tallinn, Estonia |
+| [Wirasm/prp](https://github.com/Wirasm/prp) | **2,255** | tallinn |
+| [postalsys/emailengine](https://github.com/postalsys/emailengine) | **2,236** | Tallinn |
+| [rebing/graphql-laravel](https://github.com/rebing/graphql-laravel) | **2,221** | Estonia |
+| [namespace-ee/react-calendar-timeline](https://github.com/namespace-ee/react-calendar-timeline) | **2,160** | Tallinn, Estonia |
+| [zone-eu/wildduck](https://github.com/zone-eu/wildduck) | **2,109** | Tallinn, Estonia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

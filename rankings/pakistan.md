@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **12**
-- Current global star frontier: **2,828**
+- Verified high-star candidates retained: **14**
+- Current global star frontier: **2,121**
 
 ### High-star verified preview
 
@@ -63,5 +63,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [tkarim45/Beginner-Data-Science-Projects](https://github.com/tkarim45/Beginner-Data-Science-Projects) | **3,257** | lahore |
 | [Ovi/DummyJSON](https://github.com/Ovi/DummyJSON) | **2,942** | Karachi, Pakistan |
 | [botui/botui](https://github.com/botui/botui) | **2,900** | Islamabad, Pakistan |
+| [saifyxpro/HeadlessX](https://github.com/saifyxpro/HeadlessX) | **2,327** | Sukkur, Sindh |
+| [ammarahm-ed/react-native-actions-sheet](https://github.com/ammarahm-ed/react-native-actions-sheet) | **2,180** | Pakistan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
