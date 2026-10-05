@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **8**
-- Current global star frontier: **2,828**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **2,424**
 
 ### High-star verified preview
 
@@ -59,5 +59,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [aras-p/UnityGaussianSplatting](https://github.com/aras-p/UnityGaussianSplatting) | **3,420** | Kaunas, Lithuania |
 | [justinas/alice](https://github.com/justinas/alice) | **3,368** | Vilnius, Lithuania |
 | [DarkaOnLine/L5-Swagger](https://github.com/DarkaOnLine/L5-Swagger) | **2,938** | Lithuania |
+| [ArnasDon/wacrm](https://github.com/ArnasDon/wacrm) | **2,497** | Kaunas |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

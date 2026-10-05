@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **2,828**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **2,424**
 
 ### High-star verified preview
 
@@ -54,5 +54,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [diegomura/react-pdf](https://github.com/diegomura/react-pdf) | **16,817** | Montevideo, Uruguay |
 | [davidmonterocrespo24/velxio](https://github.com/davidmonterocrespo24/velxio) | **3,022** | Uruguay |
 | [omab/python-social-auth](https://github.com/omab/python-social-auth) | **2,802** | Montevideo, Uruguay |
+| [omab/django-social-auth](https://github.com/omab/django-social-auth) | **2,650** | Montevideo, Uruguay |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

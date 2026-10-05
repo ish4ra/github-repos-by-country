@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **11**
-- Current global star frontier: **2,828**
+- Verified high-star candidates retained: **14**
+- Current global star frontier: **2,424**
 
 ### High-star verified preview
 
@@ -62,5 +62,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [leehosung/awesome-devteam](https://github.com/leehosung/awesome-devteam) | **3,396** | Korea |
 | [milooy/remote-or-flexible-work-company-in-korea](https://github.com/milooy/remote-or-flexible-work-company-in-korea) | **3,290** | Korea |
 | [what-studio/profiling](https://github.com/what-studio/profiling) | **2,933** | Korea |
+| [codingmonster-tv/Awesome_Resume_Portfolio](https://github.com/codingmonster-tv/Awesome_Resume_Portfolio) | **2,551** | korea, republic of  |
+| [cartesiancs/map3d](https://github.com/cartesiancs/map3d) | **2,438** | Korea, South |
+| [ndb796/python-for-coding-test](https://github.com/ndb796/python-for-coding-test) | **2,421** | Korea, Republic of |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **8**
-- Current global star frontier: **2,828**
+- Verified high-star candidates retained: **11**
+- Current global star frontier: **2,424**
 
 ### High-star verified preview
 
@@ -59,5 +59,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [thangchung/go-coffeeshop](https://github.com/thangchung/go-coffeeshop) | **4,356** | Ho Chi Minh City, Vietnam |
 | [tamnd/kage](https://github.com/tamnd/kage) | **3,460** | Ho Chi Minh City, Vietnam |
 | [duongductrong/Snapzy](https://github.com/duongductrong/Snapzy) | **3,298** | Ho Chi Minh City |
+| [pnnbao97/VieNeu-TTS](https://github.com/pnnbao97/VieNeu-TTS) | **2,752** | Ho Chi Minh City, Vietnam |
+| [hudy9x/namviek](https://github.com/hudy9x/namviek) | **2,556** | HaNoi |
+| [khang-nd/7.css](https://github.com/khang-nd/7.css) | **2,446** | Ho Chi Minh, Vietnam |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

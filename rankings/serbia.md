@@ -20,8 +20,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **11**
-- Current global star frontier: **2,828**
+- Verified high-star candidates retained: **12**
+- Current global star frontier: **2,424**
 
 ### High-star verified preview
 
@@ -40,5 +40,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ClusterM/hakchi2](https://github.com/ClusterM/hakchi2) | **2,928** | Serbia |
 | [orangehill/iseed](https://github.com/orangehill/iseed) | **2,894** | Belgrade, Serbia |
 | [s3rius/FastAPI-template](https://github.com/s3rius/FastAPI-template) | **2,834** | Serbia |
+| [gen2brain/raylib-go](https://github.com/gen2brain/raylib-go) | **2,540** | Belgrade, Serbia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

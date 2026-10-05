@@ -1,14 +1,49 @@
 {
-  "schemaVersion": 2,
-  "locationResolverVersion": 2,
+  "schemaVersion": 1,
+  "methodologyVersion": "0.8.0-repository-first",
+  "generatedAt": "2026-10-05T00:48:32.208Z",
   "country": {
     "code": "HK",
     "name": "Hong Kong",
     "slug": "hong-kong"
   },
-  "source": "repository-first-stars-desc",
+  "source": {
+    "provider": "GitHub GraphQL API",
+    "endpoint": "https://api.github.com/graphql",
+    "countryBasis": "public repository-owner profile location",
+    "discovery": "global repositories scanned by stars descending"
+  },
+  "coverage": {
+    "status": "repository-first-certified-by-star-frontier",
+    "exhaustive": false,
+    "rawOwnerHits": 28011,
+    "acceptedUniqueOwners": 64,
+    "ownerMetricLabel": "Unique owners in top ranking",
+    "repositoriesConsidered": 104,
+    "publishedRepositories": 100,
+    "candidateThresholdStars": 2444,
+    "rankingLimit": 100,
+    "cappedQueries": [],
+    "repositoryFirst": {
+      "scanFrontierStars": 2424,
+      "topObservedStars": 551406,
+      "repositoriesSeen": 28011,
+      "attributedRepositories": 9842,
+      "ambiguousLocations": 4085,
+      "unknownLocations": 14084,
+      "unresolvedStarCounts": []
+    },
+    "notes": [
+      "Repositories are scanned globally in descending star ranges, independently of owner follower count or owner-search ordering.",
+      "A country is certified only after its 100th repository has more stars than every unprocessed global star range.",
+      "Owner country is inferred from the owner public GitHub profile location using the global geography resolver.",
+      "Owners with missing or unresolved locations are excluded, so country attribution is not a citizenship or legal-incorporation claim.",
+      "Compound city/admin locations such as \"Portland, OR\" are resolved before ambiguous city-only names."
+    ]
+  },
   "repositories": [
     {
+      "rank": 1,
       "name": "HowToCook",
       "nameWithOwner": "Anduin2017/HowToCook",
       "url": "https://github.com/Anduin2017/HowToCook",
@@ -42,6 +77,7 @@
       }
     },
     {
+      "rank": 2,
       "name": "uptime-kuma",
       "nameWithOwner": "louislam/uptime-kuma",
       "url": "https://github.com/louislam/uptime-kuma",
@@ -75,6 +111,7 @@
       }
     },
     {
+      "rank": 3,
       "name": "up",
       "nameWithOwner": "byoungd/up",
       "url": "https://github.com/byoungd/up",
@@ -108,6 +145,7 @@
       }
     },
     {
+      "rank": 4,
       "name": "CLI-Anything",
       "nameWithOwner": "HKUDS/CLI-Anything",
       "url": "https://github.com/HKUDS/CLI-Anything",
@@ -141,6 +179,7 @@
       }
     },
     {
+      "rank": 5,
       "name": "nanobot",
       "nameWithOwner": "HKUDS/nanobot",
       "url": "https://github.com/HKUDS/nanobot",
@@ -174,6 +213,7 @@
       }
     },
     {
+      "rank": 6,
       "name": "DeepTutor",
       "nameWithOwner": "HKUDS/DeepTutor",
       "url": "https://github.com/HKUDS/DeepTutor",
@@ -207,6 +247,7 @@
       }
     },
     {
+      "rank": 7,
       "name": "LightRAG",
       "nameWithOwner": "HKUDS/LightRAG",
       "url": "https://github.com/HKUDS/LightRAG",
@@ -240,6 +281,7 @@
       }
     },
     {
+      "rank": 8,
       "name": "1Panel",
       "nameWithOwner": "1Panel-dev/1Panel",
       "url": "https://github.com/1Panel-dev/1Panel",
@@ -273,6 +315,7 @@
       }
     },
     {
+      "rank": 9,
       "name": "Vibe-Trading",
       "nameWithOwner": "HKUDS/Vibe-Trading",
       "url": "https://github.com/HKUDS/Vibe-Trading",
@@ -306,6 +349,7 @@
       }
     },
     {
+      "rank": 10,
       "name": "insightface",
       "nameWithOwner": "deepinsight/insightface",
       "url": "https://github.com/deepinsight/insightface",
@@ -336,6 +380,7 @@
       }
     },
     {
+      "rank": 11,
       "name": "dockge",
       "nameWithOwner": "louislam/dockge",
       "url": "https://github.com/louislam/dockge",
@@ -369,6 +414,7 @@
       }
     },
     {
+      "rank": 12,
       "name": "RAG-Anything",
       "nameWithOwner": "HKUDS/RAG-Anything",
       "url": "https://github.com/HKUDS/RAG-Anything",
@@ -402,6 +448,7 @@
       }
     },
     {
+      "rank": 13,
       "name": "MaxKB",
       "nameWithOwner": "1Panel-dev/MaxKB",
       "url": "https://github.com/1Panel-dev/MaxKB",
@@ -435,6 +482,7 @@
       }
     },
     {
+      "rank": 14,
       "name": "AI-Trader",
       "nameWithOwner": "HKUDS/AI-Trader",
       "url": "https://github.com/HKUDS/AI-Trader",
@@ -465,6 +513,7 @@
       }
     },
     {
+      "rank": 15,
       "name": "KernelSU",
       "nameWithOwner": "tiann/KernelSU",
       "url": "https://github.com/tiann/KernelSU",
@@ -498,6 +547,7 @@
       }
     },
     {
+      "rank": 16,
       "name": "game-programmer",
       "nameWithOwner": "miloyip/game-programmer",
       "url": "https://github.com/miloyip/game-programmer",
@@ -528,6 +578,7 @@
       }
     },
     {
+      "rank": 17,
       "name": "DeepCode",
       "nameWithOwner": "HKUDS/DeepCode",
       "url": "https://github.com/HKUDS/DeepCode",
@@ -561,6 +612,7 @@
       }
     },
     {
+      "rank": 18,
       "name": "Embodied-AI-Guide",
       "nameWithOwner": "TianxingChen/Embodied-AI-Guide",
       "url": "https://github.com/TianxingChen/Embodied-AI-Guide",
@@ -594,6 +646,7 @@
       }
     },
     {
+      "rank": 19,
       "name": "OpenHarness",
       "nameWithOwner": "HKUDS/OpenHarness",
       "url": "https://github.com/HKUDS/OpenHarness",
@@ -627,6 +680,7 @@
       }
     },
     {
+      "rank": 20,
       "name": "awesome-cloudflare",
       "nameWithOwner": "zhuima/awesome-cloudflare",
       "url": "https://github.com/zhuima/awesome-cloudflare",
@@ -657,6 +711,7 @@
       }
     },
     {
+      "rank": 21,
       "name": "SMSBoom",
       "nameWithOwner": "OpenEthan/SMSBoom",
       "url": "https://github.com/OpenEthan/SMSBoom",
@@ -690,6 +745,7 @@
       }
     },
     {
+      "rank": 22,
       "name": "PakePlus",
       "nameWithOwner": "Sjj1024/PakePlus",
       "url": "https://github.com/Sjj1024/PakePlus",
@@ -723,6 +779,7 @@
       }
     },
     {
+      "rank": 23,
       "name": "ViMax",
       "nameWithOwner": "HKUDS/ViMax",
       "url": "https://github.com/HKUDS/ViMax",
@@ -756,6 +813,7 @@
       }
     },
     {
+      "rank": 24,
       "name": "AnimateDiff",
       "nameWithOwner": "guoyww/AnimateDiff",
       "url": "https://github.com/guoyww/AnimateDiff",
@@ -789,6 +847,7 @@
       }
     },
     {
+      "rank": 25,
       "name": "BiliRoaming",
       "nameWithOwner": "yujincheng08/BiliRoaming",
       "url": "https://github.com/yujincheng08/BiliRoaming",
@@ -819,6 +878,7 @@
       }
     },
     {
+      "rank": 26,
       "name": "stylus",
       "nameWithOwner": "stylus/stylus",
       "url": "https://github.com/stylus/stylus",
@@ -852,6 +912,7 @@
       }
     },
     {
+      "rank": 27,
       "name": "machine-learning-notes",
       "nameWithOwner": "roboticcam/machine-learning-notes",
       "url": "https://github.com/roboticcam/machine-learning-notes",
@@ -882,6 +943,7 @@
       }
     },
     {
+      "rank": 28,
       "name": "PakePlus-Android",
       "nameWithOwner": "Sjj1024/PakePlus-Android",
       "url": "https://github.com/Sjj1024/PakePlus-Android",
@@ -915,6 +977,7 @@
       }
     },
     {
+      "rank": 29,
       "name": "AutoAgent",
       "nameWithOwner": "HKUDS/AutoAgent",
       "url": "https://github.com/HKUDS/AutoAgent",
@@ -948,6 +1011,7 @@
       }
     },
     {
+      "rank": 30,
       "name": "PakePlus-iOS",
       "nameWithOwner": "Sjj1024/PakePlus-iOS",
       "url": "https://github.com/Sjj1024/PakePlus-iOS",
@@ -981,6 +1045,7 @@
       }
     },
     {
+      "rank": 31,
       "name": "ccf-deadlines",
       "nameWithOwner": "ccfddl/ccf-deadlines",
       "url": "https://github.com/ccfddl/ccf-deadlines",
@@ -1014,6 +1079,7 @@
       }
     },
     {
+      "rank": 32,
       "name": "pdm",
       "nameWithOwner": "pdm-project/pdm",
       "url": "https://github.com/pdm-project/pdm",
@@ -1047,6 +1113,7 @@
       }
     },
     {
+      "rank": 33,
       "name": "ClawWork",
       "nameWithOwner": "HKUDS/ClawWork",
       "url": "https://github.com/HKUDS/ClawWork",
@@ -1080,6 +1147,7 @@
       }
     },
     {
+      "rank": 34,
       "name": "pokemon-cards-css",
       "nameWithOwner": "simeydotme/pokemon-cards-css",
       "url": "https://github.com/simeydotme/pokemon-cards-css",
@@ -1113,6 +1181,7 @@
       }
     },
     {
+      "rank": 35,
       "name": "opencart",
       "nameWithOwner": "opencart/opencart",
       "url": "https://github.com/opencart/opencart",
@@ -1146,6 +1215,7 @@
       }
     },
     {
+      "rank": 36,
       "name": "json-tutorial",
       "nameWithOwner": "miloyip/json-tutorial",
       "url": "https://github.com/miloyip/json-tutorial",
@@ -1176,6 +1246,7 @@
       }
     },
     {
+      "rank": 37,
       "name": "OpenSpace",
       "nameWithOwner": "HKUDS/OpenSpace",
       "url": "https://github.com/HKUDS/OpenSpace",
@@ -1209,6 +1280,7 @@
       }
     },
     {
+      "rank": 38,
       "name": "komga",
       "nameWithOwner": "gotson/komga",
       "url": "https://github.com/gotson/komga",
@@ -1242,6 +1314,7 @@
       }
     },
     {
+      "rank": 39,
       "name": "komari",
       "nameWithOwner": "komari-monitor/komari",
       "url": "https://github.com/komari-monitor/komari",
@@ -1275,6 +1348,7 @@
       }
     },
     {
+      "rank": 40,
       "name": "VINS-Mono",
       "nameWithOwner": "HKUST-Aerial-Robotics/VINS-Mono",
       "url": "https://github.com/HKUST-Aerial-Robotics/VINS-Mono",
@@ -1308,6 +1382,7 @@
       }
     },
     {
+      "rank": 41,
       "name": "AI-Researcher",
       "nameWithOwner": "HKUDS/AI-Researcher",
       "url": "https://github.com/HKUDS/AI-Researcher",
@@ -1338,6 +1413,7 @@
       }
     },
     {
+      "rank": 42,
       "name": "v2ray",
       "nameWithOwner": "free18/v2ray",
       "url": "https://github.com/free18/v2ray",
@@ -1368,6 +1444,7 @@
       }
     },
     {
+      "rank": 43,
       "name": "ClawTeam",
       "nameWithOwner": "HKUDS/ClawTeam",
       "url": "https://github.com/HKUDS/ClawTeam",
@@ -1401,6 +1478,7 @@
       }
     },
     {
+      "rank": 44,
       "name": "zoraxy",
       "nameWithOwner": "tobychui/zoraxy",
       "url": "https://github.com/tobychui/zoraxy",
@@ -1434,6 +1512,7 @@
       }
     },
     {
+      "rank": 45,
       "name": "qq-chat-exporter",
       "nameWithOwner": "shuakami/qq-chat-exporter",
       "url": "https://github.com/shuakami/qq-chat-exporter",
@@ -1467,6 +1546,7 @@
       }
     },
     {
+      "rank": 46,
       "name": "hapi",
       "nameWithOwner": "tiann/hapi",
       "url": "https://github.com/tiann/hapi",
@@ -1500,6 +1580,7 @@
       }
     },
     {
+      "rank": 47,
       "name": "python-cheatsheet",
       "nameWithOwner": "labex-labs/python-cheatsheet",
       "url": "https://github.com/labex-labs/python-cheatsheet",
@@ -1533,6 +1614,7 @@
       }
     },
     {
+      "rank": 48,
       "name": "UniAD",
       "nameWithOwner": "OpenDriveLab/UniAD",
       "url": "https://github.com/OpenDriveLab/UniAD",
@@ -1566,6 +1648,7 @@
       }
     },
     {
+      "rank": 49,
       "name": "VINS-Fusion",
       "nameWithOwner": "HKUST-Aerial-Robotics/VINS-Fusion",
       "url": "https://github.com/HKUST-Aerial-Robotics/VINS-Fusion",
@@ -1599,6 +1682,7 @@
       }
     },
     {
+      "rank": 50,
       "name": "baiduyun",
       "nameWithOwner": "syhyz1990/baiduyun",
       "url": "https://github.com/syhyz1990/baiduyun",
@@ -1632,6 +1716,7 @@
       }
     },
     {
+      "rank": 51,
       "name": "epic",
       "nameWithOwner": "tiann/epic",
       "url": "https://github.com/tiann/epic",
@@ -1665,6 +1750,7 @@
       }
     },
     {
+      "rank": 52,
       "name": "DeepLearningZeroToAll",
       "nameWithOwner": "hunkim/DeepLearningZeroToAll",
       "url": "https://github.com/hunkim/DeepLearningZeroToAll",
@@ -1695,6 +1781,7 @@
       }
     },
     {
+      "rank": 53,
       "name": "MODNet",
       "nameWithOwner": "ZHKKKe/MODNet",
       "url": "https://github.com/ZHKKKe/MODNet",
@@ -1728,6 +1815,7 @@
       }
     },
     {
+      "rank": 54,
       "name": "OmniGen",
       "nameWithOwner": "VectorSpaceLab/OmniGen",
       "url": "https://github.com/VectorSpaceLab/OmniGen",
@@ -1761,6 +1849,7 @@
       }
     },
     {
+      "rank": 55,
       "name": "PakePlus-Win7",
       "nameWithOwner": "Sjj1024/PakePlus-Win7",
       "url": "https://github.com/Sjj1024/PakePlus-Win7",
@@ -1791,6 +1880,7 @@
       }
     },
     {
+      "rank": 56,
       "name": "bug-bounty-reference",
       "nameWithOwner": "ngalongc/bug-bounty-reference",
       "url": "https://github.com/ngalongc/bug-bounty-reference",
@@ -1821,6 +1911,7 @@
       }
     },
     {
+      "rank": 57,
       "name": "Sensitive-lexicon",
       "nameWithOwner": "konsheng/Sensitive-lexicon",
       "url": "https://github.com/konsheng/Sensitive-lexicon",
@@ -1854,6 +1945,7 @@
       }
     },
     {
+      "rank": 58,
       "name": "godoxy",
       "nameWithOwner": "yusing/godoxy",
       "url": "https://github.com/yusing/godoxy",
@@ -1887,6 +1979,7 @@
       }
     },
     {
+      "rank": 59,
       "name": "OmniGen2",
       "nameWithOwner": "VectorSpaceLab/OmniGen2",
       "url": "https://github.com/VectorSpaceLab/OmniGen2",
@@ -1920,6 +2013,7 @@
       }
     },
     {
+      "rank": 60,
       "name": "imagor",
       "nameWithOwner": "cshum/imagor",
       "url": "https://github.com/cshum/imagor",
@@ -1953,6 +2047,7 @@
       }
     },
     {
+      "rank": 61,
       "name": "PyTorchZeroToAll",
       "nameWithOwner": "hunkim/PyTorchZeroToAll",
       "url": "https://github.com/hunkim/PyTorchZeroToAll",
@@ -1983,6 +2078,7 @@
       }
     },
     {
+      "rank": 62,
       "name": "codeapp",
       "nameWithOwner": "thebaselab/codeapp",
       "url": "https://github.com/thebaselab/codeapp",
@@ -2016,6 +2112,7 @@
       }
     },
     {
+      "rank": 63,
       "name": "stablediffusion-infinity",
       "nameWithOwner": "lkwq007/stablediffusion-infinity",
       "url": "https://github.com/lkwq007/stablediffusion-infinity",
@@ -2049,6 +2146,7 @@
       }
     },
     {
+      "rank": 64,
       "name": "simpleRL-reason",
       "nameWithOwner": "hkust-nlp/simpleRL-reason",
       "url": "https://github.com/hkust-nlp/simpleRL-reason",
@@ -2082,6 +2180,7 @@
       }
     },
     {
+      "rank": 65,
       "name": "Paper2Slides",
       "nameWithOwner": "HKUDS/Paper2Slides",
       "url": "https://github.com/HKUDS/Paper2Slides",
@@ -2115,6 +2214,7 @@
       }
     },
     {
+      "rank": 66,
       "name": "tproxy",
       "nameWithOwner": "kevwan/tproxy",
       "url": "https://github.com/kevwan/tproxy",
@@ -2148,6 +2248,7 @@
       }
     },
     {
+      "rank": 67,
       "name": "End-to-end-Autonomous-Driving",
       "nameWithOwner": "OpenDriveLab/End-to-end-Autonomous-Driving",
       "url": "https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving",
@@ -2181,6 +2282,7 @@
       }
     },
     {
+      "rank": 68,
       "name": "im-server",
       "nameWithOwner": "juggleim/im-server",
       "url": "https://github.com/juggleim/im-server",
@@ -2214,6 +2316,7 @@
       }
     },
     {
+      "rank": 69,
       "name": "Fast-Planner",
       "nameWithOwner": "HKUST-Aerial-Robotics/Fast-Planner",
       "url": "https://github.com/HKUST-Aerial-Robotics/Fast-Planner",
@@ -2247,6 +2350,7 @@
       }
     },
     {
+      "rank": 70,
       "name": "VideoRAG",
       "nameWithOwner": "HKUDS/VideoRAG",
       "url": "https://github.com/HKUDS/VideoRAG",
@@ -2280,6 +2384,7 @@
       }
     },
     {
+      "rank": 71,
       "name": "Icalingua-plus-plus",
       "nameWithOwner": "Icalingua-plus-plus/Icalingua-plus-plus",
       "url": "https://github.com/Icalingua-plus-plus/Icalingua-plus-plus",
@@ -2313,6 +2418,7 @@
       }
     },
     {
+      "rank": 72,
       "name": "AI-Video-Transcriber",
       "nameWithOwner": "wendy7756/AI-Video-Transcriber",
       "url": "https://github.com/wendy7756/AI-Video-Transcriber",
@@ -2346,6 +2452,7 @@
       }
     },
     {
+      "rank": 73,
       "name": "PixArt-alpha",
       "nameWithOwner": "PixArt-alpha/PixArt-alpha",
       "url": "https://github.com/PixArt-alpha/PixArt-alpha",
@@ -2379,6 +2486,7 @@
       }
     },
     {
+      "rank": 74,
       "name": "2d-gaussian-splatting",
       "nameWithOwner": "hbb1/2d-gaussian-splatting",
       "url": "https://github.com/hbb1/2d-gaussian-splatting",
@@ -2412,6 +2520,7 @@
       }
     },
     {
+      "rank": 75,
       "name": "KouriChat",
       "nameWithOwner": "KouriChat/KouriChat",
       "url": "https://github.com/KouriChat/KouriChat",
@@ -2445,6 +2554,7 @@
       }
     },
     {
+      "rank": 76,
       "name": "AgiBot-World",
       "nameWithOwner": "OpenDriveLab/AgiBot-World",
       "url": "https://github.com/OpenDriveLab/AgiBot-World",
@@ -2475,6 +2585,7 @@
       }
     },
     {
+      "rank": 77,
       "name": "TSFpaper",
       "nameWithOwner": "ddz16/TSFpaper",
       "url": "https://github.com/ddz16/TSFpaper",
@@ -2505,6 +2616,7 @@
       }
     },
     {
+      "rank": 78,
       "name": "FreeReflection",
       "nameWithOwner": "tiann/FreeReflection",
       "url": "https://github.com/tiann/FreeReflection",
@@ -2538,6 +2650,7 @@
       }
     },
     {
+      "rank": 79,
       "name": "goku_lite",
       "nameWithOwner": "eolinker/goku_lite",
       "url": "https://github.com/eolinker/goku_lite",
@@ -2571,6 +2684,7 @@
       }
     },
     {
+      "rank": 80,
       "name": "QuantumultX",
       "nameWithOwner": "KOP-XIAO/QuantumultX",
       "url": "https://github.com/KOP-XIAO/QuantumultX",
@@ -2601,6 +2715,7 @@
       }
     },
     {
+      "rank": 81,
       "name": "arozos",
       "nameWithOwner": "tobychui/arozos",
       "url": "https://github.com/tobychui/arozos",
@@ -2634,6 +2749,7 @@
       }
     },
     {
+      "rank": 82,
       "name": "KubePi",
       "nameWithOwner": "1Panel-dev/KubePi",
       "url": "https://github.com/1Panel-dev/KubePi",
@@ -2667,6 +2783,7 @@
       }
     },
     {
+      "rank": 83,
       "name": "awesome-git",
       "nameWithOwner": "dictcp/awesome-git",
       "url": "https://github.com/dictcp/awesome-git",
@@ -2700,6 +2817,7 @@
       }
     },
     {
+      "rank": 84,
       "name": "Bagels",
       "nameWithOwner": "EnhancedJax/Bagels",
       "url": "https://github.com/EnhancedJax/Bagels",
@@ -2733,6 +2851,7 @@
       }
     },
     {
+      "rank": 85,
       "name": "goku",
       "nameWithOwner": "Saiyan-World/goku",
       "url": "https://github.com/Saiyan-World/goku",
@@ -2763,6 +2882,7 @@
       }
     },
     {
+      "rank": 86,
       "name": "saasfly",
       "nameWithOwner": "nextify-limited/saasfly",
       "url": "https://github.com/nextify-limited/saasfly",
@@ -2796,6 +2916,7 @@
       }
     },
     {
+      "rank": 87,
       "name": "BootstrapAdmin",
       "nameWithOwner": "ArgoZhang/BootstrapAdmin",
       "url": "https://github.com/ArgoZhang/BootstrapAdmin",
@@ -2829,6 +2950,7 @@
       }
     },
     {
+      "rank": 88,
       "name": "CordysCRM",
       "nameWithOwner": "1Panel-dev/CordysCRM",
       "url": "https://github.com/1Panel-dev/CordysCRM",
@@ -2862,6 +2984,7 @@
       }
     },
     {
+      "rank": 89,
       "name": "Recent_SLAM_Research",
       "nameWithOwner": "YiChenCityU/Recent_SLAM_Research",
       "url": "https://github.com/YiChenCityU/Recent_SLAM_Research",
@@ -2892,6 +3015,7 @@
       }
     },
     {
+      "rank": 90,
       "name": "Awesome-GraphRAG",
       "nameWithOwner": "DEEP-PolyU/Awesome-GraphRAG",
       "url": "https://github.com/DEEP-PolyU/Awesome-GraphRAG",
@@ -2925,6 +3049,7 @@
       }
     },
     {
+      "rank": 91,
       "name": "understand-plugin-framework",
       "nameWithOwner": "tiann/understand-plugin-framework",
       "url": "https://github.com/tiann/understand-plugin-framework",
@@ -2958,6 +3083,7 @@
       }
     },
     {
+      "rank": 92,
       "name": "ShiroAttack2",
       "nameWithOwner": "SummerSec/ShiroAttack2",
       "url": "https://github.com/SummerSec/ShiroAttack2",
@@ -2991,6 +3117,7 @@
       }
     },
     {
+      "rank": 93,
       "name": "token-monitor",
       "nameWithOwner": "Javis603/token-monitor",
       "url": "https://github.com/Javis603/token-monitor",
@@ -3024,6 +3151,7 @@
       }
     },
     {
+      "rank": 94,
       "name": "conform",
       "nameWithOwner": "edmundhung/conform",
       "url": "https://github.com/edmundhung/conform",
@@ -3057,6 +3185,7 @@
       }
     },
     {
+      "rank": 95,
       "name": "Abracadabra",
       "nameWithOwner": "SheepChef/Abracadabra",
       "url": "https://github.com/SheepChef/Abracadabra",
@@ -3090,6 +3219,7 @@
       }
     },
     {
+      "rank": 96,
       "name": "Pokemon-Go-Controller",
       "nameWithOwner": "kahopoon/Pokemon-Go-Controller",
       "url": "https://github.com/kahopoon/Pokemon-Go-Controller",
@@ -3120,6 +3250,7 @@
       }
     },
     {
+      "rank": 97,
       "name": "app-monorepo",
       "nameWithOwner": "OneKeyHQ/app-monorepo",
       "url": "https://github.com/OneKeyHQ/app-monorepo",
@@ -3153,6 +3284,7 @@
       }
     },
     {
+      "rank": 98,
       "name": "WukongCRM-11.0-JAVA",
       "nameWithOwner": "WuKongOpenSource/WukongCRM-11.0-JAVA",
       "url": "https://github.com/WuKongOpenSource/WukongCRM-11.0-JAVA",
@@ -3186,6 +3318,7 @@
       }
     },
     {
+      "rank": 99,
       "name": "A-LOAM",
       "nameWithOwner": "HKUST-Aerial-Robotics/A-LOAM",
       "url": "https://github.com/HKUST-Aerial-Robotics/A-LOAM",
@@ -3219,6 +3352,7 @@
       }
     },
     {
+      "rank": 100,
       "name": "gpupixel",
       "nameWithOwner": "pixpark/gpupixel",
       "url": "https://github.com/pixpark/gpupixel",
@@ -3250,141 +3384,6 @@
         },
         "discoveryTerms": []
       }
-    },
-    {
-      "name": "MingLi-Bench",
-      "nameWithOwner": "DestinyLinker/MingLi-Bench",
-      "url": "https://github.com/DestinyLinker/MingLi-Bench",
-      "description": "A benchmark for evaluating LLMs on Chinese traditional fortune telling — Bazi (八字) and Ziwei Doushu (紫微斗数).",
-      "stars": 2434,
-      "forks": 351,
-      "primaryLanguage": "Python",
-      "license": {
-        "name": "MIT License",
-        "spdxId": "MIT"
-      },
-      "createdAt": "2026-04-22T15:32:29Z",
-      "pushedAt": "2026-05-09T17:49:34Z",
-      "homepageUrl": "https://destinyLinker.github.io/MingLi-Bench/",
-      "archived": false,
-      "owner": {
-        "login": "DestinyLinker",
-        "name": "Destinylinker",
-        "type": "Organization",
-        "url": "https://github.com/DestinyLinker",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/227604965?v=4",
-        "location": "Hong Kong",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "HK",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "hong kong"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "free_proxy_ss",
-      "nameWithOwner": "vxiaov/free_proxy_ss",
-      "url": "https://github.com/vxiaov/free_proxy_ss",
-      "description": "分享免费梯子/科学上网/代理/shadowsocks(SS)/ShadowsocksR(SSR)/V2ray(vmess)代理，2小时更新一次，分享Clash代理订阅源和配置文件订阅链接。",
-      "stars": 2431,
-      "forks": 432,
-      "primaryLanguage": null,
-      "license": {
-        "name": "GNU General Public License v3.0",
-        "spdxId": "GPL-3.0"
-      },
-      "createdAt": "2020-12-21T04:58:18Z",
-      "pushedAt": "2024-04-03T06:47:36Z",
-      "homepageUrl": "https://vlike.work",
-      "archived": false,
-      "owner": {
-        "login": "vxiaov",
-        "name": "xiaov's golang programs",
-        "type": "Organization",
-        "url": "https://github.com/vxiaov",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/133830273?v=4",
-        "location": "Hong Kong",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "HK",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "hong kong"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "opennews-mcp",
-      "nameWithOwner": "6551Team/opennews-mcp",
-      "url": "https://github.com/6551Team/opennews-mcp",
-      "description": "News Aggregation · AI Ratings · Trading Signals · Real-time Updates",
-      "stars": 2424,
-      "forks": 190,
-      "primaryLanguage": "Python",
-      "license": {
-        "name": "MIT License",
-        "spdxId": "MIT"
-      },
-      "createdAt": "2026-02-26T06:04:49Z",
-      "pushedAt": "2026-09-14T08:50:40Z",
-      "homepageUrl": "https://6551.io/mcp",
-      "archived": false,
-      "owner": {
-        "login": "6551Team",
-        "name": "6551",
-        "type": "Organization",
-        "url": "https://github.com/6551Team",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/176155065?v=4",
-        "location": "Hong Kong",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "HK",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "hong kong"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "telepot",
-      "nameWithOwner": "nickoala/telepot",
-      "url": "https://github.com/nickoala/telepot",
-      "description": "Python framework for Telegram Bot API",
-      "stars": 2412,
-      "forks": 457,
-      "primaryLanguage": "Python",
-      "license": {
-        "name": "MIT License",
-        "spdxId": "MIT"
-      },
-      "createdAt": "2015-07-09T03:06:53Z",
-      "pushedAt": "2021-03-09T06:27:24Z",
-      "homepageUrl": null,
-      "archived": true,
-      "owner": {
-        "login": "nickoala",
-        "name": "Nick Lee",
-        "type": "User",
-        "url": "https://github.com/nickoala",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/13035417?u=96b36fa7d1dccbc0a79cd3aeb875d210496867a3&v=4",
-        "location": "Hong Kong",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "HK",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "hong kong"
-        },
-        "discoveryTerms": []
-      }
     }
-  ],
-  "scanFrontierStars": 2424,
-  "certifiedAt": "2026-10-05T00:48:32.207Z",
-  "updatedAt": "2026-10-05T00:48:32.207Z"
+  ]
 }

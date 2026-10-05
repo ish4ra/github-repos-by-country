@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **12**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **13**
+- Current global star frontier: **2,424**
 
 ### High-star verified preview
 
@@ -63,5 +63,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [2ndalpha/gasmask](https://github.com/2ndalpha/gasmask) | **3,859** | Tartu, Estonia |
 | [egonelbre/gophers](https://github.com/egonelbre/gophers) | **3,834** | Estonia, Tartu |
 | [Voog/wysihtml](https://github.com/Voog/wysihtml) | **3,348** | Tartu, Estonia |
+| [aerokube/selenoid](https://github.com/aerokube/selenoid) | **2,654** | Estonia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

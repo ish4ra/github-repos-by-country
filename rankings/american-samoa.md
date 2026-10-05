@@ -20,8 +20,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **2,424**
 
 ### High-star verified preview
 
@@ -30,5 +30,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim) | **25,155** | American Samoa |
+| [FullAgent/fulling](https://github.com/FullAgent/fulling) | **2,446** | American Samoa |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **6**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **10**
+- Current global star frontier: **2,424**
 
 ### High-star verified preview
 
@@ -57,5 +57,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ivanceras/svgbob](https://github.com/ivanceras/svgbob) | **4,234** | Cebu, Philippines |
 | [JaKooLit/Hyprland-Dots](https://github.com/JaKooLit/Hyprland-Dots) | **3,580** | Philippines / South Korea - Worldwide |
 | [SeaDve/Kooha](https://github.com/SeaDve/Kooha) | **3,525** | Central Luzon, Philippines |
+| [junedomingo/react-native-rename](https://github.com/junedomingo/react-native-rename) | **2,777** | Ilagan City, Isabela, Philippines |
+| [eromatiya/the-glorious-dotfiles](https://github.com/eromatiya/the-glorious-dotfiles) | **2,684** | Philippines |
+| [jamesflorentino/nanoScrollerJS](https://github.com/jamesflorentino/nanoScrollerJS) | **2,677** | Philippines |
+| [JaKooLit/Fedora-Hyprland](https://github.com/JaKooLit/Fedora-Hyprland) | **2,545** | Philippines / South Korea - Worldwide |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

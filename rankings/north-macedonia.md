@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **2,424**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [MTrajK/coding-problems](https://github.com/MTrajK/coding-problems) | **3,402** | Skopje |
+| [Weilbyte/PVEDiscordDark](https://github.com/Weilbyte/PVEDiscordDark) | **2,541** | SKP |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

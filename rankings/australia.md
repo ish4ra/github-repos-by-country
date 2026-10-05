@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **2,828**
+- Verified high-star candidates retained: **15**
+- Current global star frontier: **2,424**
 
 ### High-star verified preview
 
@@ -60,5 +60,11 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [iann0036/iamlive](https://github.com/iann0036/iamlive) | **3,411** | Sydney, NSW |
 | [MewX/light-novel-library_Wenku8_Android](https://github.com/MewX/light-novel-library_Wenku8_Android) | **3,067** | Sydney, NSW |
 | [livinamuk/Hell2025](https://github.com/livinamuk/Hell2025) | **2,870** | Tasmania, Australia |
+| [humaan/Modaal](https://github.com/humaan/Modaal) | **2,688** | Perth, Western Australia |
+| [leandrowd/react-responsive-carousel](https://github.com/leandrowd/react-responsive-carousel) | **2,675** | Sunshine Coast, QLD |
+| [Rion-Wu-tech/wechat-intelligence-hub](https://github.com/Rion-Wu-tech/wechat-intelligence-hub) | **2,596** | Canberra,Australia |
+| [thepowersgang/mrustc](https://github.com/thepowersgang/mrustc) | **2,535** | Perth, Western Australia |
+| [JimBobSquarePants/ImageProcessor](https://github.com/JimBobSquarePants/ImageProcessor) | **2,491** | Sunshine Coast |
+| [iann0036/former2](https://github.com/iann0036/former2) | **2,415** | Sydney, NSW |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

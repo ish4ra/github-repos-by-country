@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **2,424**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [walidshaari/Kubernetes-Certified-Administrator](https://github.com/walidshaari/Kubernetes-Certified-Administrator) | **4,453** | Bahrain |
+| [venomous0x/WhatsAPI](https://github.com/venomous0x/WhatsAPI) | **2,619** | Bahrain |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

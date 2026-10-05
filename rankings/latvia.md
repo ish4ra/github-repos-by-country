@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **13**
-- Current global star frontier: **2,828**
+- Verified high-star candidates retained: **15**
+- Current global star frontier: **2,424**
 
 ### High-star verified preview
 
@@ -64,5 +64,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [arthepsy/ssh-audit](https://github.com/arthepsy/ssh-audit) | **3,003** | Latvia |
 | [tostercx/GTAO_Booster_PoC](https://github.com/tostercx/GTAO_Booster_PoC) | **2,868** | Riga, Latvia |
 | [puikinsh/Bootstrap-Admin-Template](https://github.com/puikinsh/Bootstrap-Admin-Template) | **2,849** | Riga, Latvia |
+| [YahnisElsts/plugin-update-checker](https://github.com/YahnisElsts/plugin-update-checker) | **2,567** | Latvia |
+| [ONLYOFFICE/Docker-DocumentServer](https://github.com/ONLYOFFICE/Docker-DocumentServer) | **2,464** | Latvia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
