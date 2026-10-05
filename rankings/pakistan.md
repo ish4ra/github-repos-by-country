@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **17**
-- Current global star frontier: **1,885**
+- Verified high-star candidates retained: **19**
+- Current global star frontier: **1,684**
 
 ### High-star verified preview
 
@@ -68,5 +68,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [mrsaeeddev/free-ai-resources](https://github.com/mrsaeeddev/free-ai-resources) | **2,005** | Pakistan |
 | [FareedKhan-dev/all-rl-algorithms](https://github.com/FareedKhan-dev/all-rl-algorithms) | **1,967** | Karachi, Pakistan |
 | [evildevill/instahack](https://github.com/evildevill/instahack) | **1,906** | Pakistan |
+| [ammarahm-ed/react-native-mmkv-storage](https://github.com/ammarahm-ed/react-native-mmkv-storage) | **1,752** | Pakistan |
+| [thecodrr/fdir](https://github.com/thecodrr/fdir) | **1,735** | Pakistan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

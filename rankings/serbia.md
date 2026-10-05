@@ -20,8 +20,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **16**
-- Current global star frontier: **1,885**
+- Verified high-star candidates retained: **19**
+- Current global star frontier: **1,684**
 
 ### High-star verified preview
 
@@ -45,5 +45,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [nemanjarogic/DesignPatternsLibrary](https://github.com/nemanjarogic/DesignPatternsLibrary) | **2,135** | Serbia |
 | [kristijanhusak/vim-dadbod-ui](https://github.com/kristijanhusak/vim-dadbod-ui) | **2,052** | Subotica, Serbia |
 | [toorshia/justgage](https://github.com/toorshia/justgage) | **1,892** | Belgrade, Serbia |
+| [morhetz/gruvbox-contrib](https://github.com/morhetz/gruvbox-contrib) | **1,776** | Serbia, Belgrade |
+| [gen2brain/beeep](https://github.com/gen2brain/beeep) | **1,770** | Belgrade, Serbia |
+| [kristijanhusak/laravel-form-builder](https://github.com/kristijanhusak/laravel-form-builder) | **1,715** | Subotica, Serbia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

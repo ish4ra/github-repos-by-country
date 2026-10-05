@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **2,424**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **1,684**
 
 ### High-star verified preview
 
@@ -53,5 +53,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [orangci/walls-catppuccin-mocha](https://github.com/orangci/walls-catppuccin-mocha) | **2,845** | Riyadh, Saudi Arabia |
 | [BandarHL/BHTwitter](https://github.com/BandarHL/BHTwitter) | **2,601** | Saudi Arabia |
+| [Matrix07ksa/Brute_Force](https://github.com/Matrix07ksa/Brute_Force) | **1,832** | Saudi arabia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 804**
 - Progress: **0%**
-- Retained high-potential owner candidates: **172**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **173**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,25 +25,25 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices) | **105,655** | Israel |
-| [DovAmir/awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns) | **49,185** | Israel |
-| [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app) | **36,643** | Israel |
-| [jondot/awesome-react-native](https://github.com/jondot/awesome-react-native) | **35,712** | Tel Aviv, Israel |
-| [kuchin/awesome-cto](https://github.com/kuchin/awesome-cto) | **35,544** | Israel |
-| [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) | **31,740** | Israel |
-| [gabime/spdlog](https://github.com/gabime/spdlog) | **29,650** | Israel |
-| [renovatebot/renovate](https://github.com/renovatebot/renovate) | **22,658** | Israel |
+| [DovAmir/awesome-design-patterns](https://github.com/DovAmir/awesome-design-patterns) | **49,216** | Israel |
+| [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app) | **36,707** | Israel |
+| [jondot/awesome-react-native](https://github.com/jondot/awesome-react-native) | **35,713** | Tel Aviv, Israel |
+| [kuchin/awesome-cto](https://github.com/kuchin/awesome-cto) | **35,545** | Israel |
+| [dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly) | **31,747** | Israel |
+| [gabime/spdlog](https://github.com/gabime/spdlog) | **29,662** | Israel |
+| [renovatebot/renovate](https://github.com/renovatebot/renovate) | **22,676** | Israel |
 | [cool-RR/PySnooper](https://github.com/cool-RR/PySnooper) | **16,575** | Tel-Aviv, Israel |
-| [jacobgil/pytorch-grad-cam](https://github.com/jacobgil/pytorch-grad-cam) | **12,988** | Israel |
-| [elie222/inbox-zero](https://github.com/elie222/inbox-zero) | **12,402** | Tel Aviv, Israel |
-| [hmemcpy/milewski-ctfp-pdf](https://github.com/hmemcpy/milewski-ctfp-pdf) | **11,695** | Israel |
-| [yairm210/Unciv](https://github.com/yairm210/Unciv) | **11,389** | Kerem Re'im, Israel  |
-| [Lightricks/LTX-Video](https://github.com/Lightricks/LTX-Video) | **11,007** | Jerusalem, Israel |
+| [jacobgil/pytorch-grad-cam](https://github.com/jacobgil/pytorch-grad-cam) | **12,990** | Israel |
+| [elie222/inbox-zero](https://github.com/elie222/inbox-zero) | **12,413** | Tel Aviv, Israel |
+| [hmemcpy/milewski-ctfp-pdf](https://github.com/hmemcpy/milewski-ctfp-pdf) | **11,696** | Israel |
+| [yairm210/Unciv](https://github.com/yairm210/Unciv) | **11,394** | Kerem Re'im, Israel  |
+| [Lightricks/LTX-Video](https://github.com/Lightricks/LTX-Video) | **11,020** | Jerusalem, Israel |
 | [snyk/cli](https://github.com/snyk/cli) | **5,670** | London/Israel |
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **79**
-- Current global star frontier: **1,885**
+- Verified high-star candidates retained: **85**
+- Current global star frontier: **1,684**
 
 ### High-star verified preview
 

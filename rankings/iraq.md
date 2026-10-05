@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 265**
 - Progress: **0%**
-- Retained high-potential owner candidates: **107**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **117**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -26,10 +26,11 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [PawanOsman/OpenCursor](https://github.com/PawanOsman/OpenCursor) | **6,029** | As Sulaymaniyah, Iraq |
 | [munafio/chatify](https://github.com/munafio/chatify) | **2,432** | Iraq |
-| [Ha3MrX/DDos-Attack](https://github.com/Ha3MrX/DDos-Attack) | **1,806** | Iraq |
+| [Ha3MrX/DDos-Attack](https://github.com/Ha3MrX/DDos-Attack) | **1,807** | Iraq |
 | [devmuaz/flutter-clean-architecture](https://github.com/devmuaz/flutter-clean-architecture) | **585** | Iraq, Baghdad |
-| [ayman708-UX/PlayTorrioV2](https://github.com/ayman708-UX/PlayTorrioV2) | **485** | iraq mosul |
+| [ayman708-UX/PlayTorrioV2](https://github.com/ayman708-UX/PlayTorrioV2) | **486** | iraq mosul |
 | [Lu3ky13/Search-for-all-leaked-keys-secrets-using-one-regex-](https://github.com/Lu3ky13/Search-for-all-leaked-keys-secrets-using-one-regex-) | **242** | iraq |
+| [McDaived/AIMi](https://github.com/McDaived/AIMi) | **146** | iraq |
 | [muhammedessa/Androidstudio](https://github.com/muhammedessa/Androidstudio) | **98** | IRAQ |
 | [engsafaaj/SMSystemProject](https://github.com/engsafaaj/SMSystemProject) | **86** | Iraq |
 | [IRAQ-hacker/hack-instagram](https://github.com/IRAQ-hacker/hack-instagram) | **65** | iraq |
@@ -38,7 +39,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [somarkn99/laravel-telegram-gateway](https://github.com/somarkn99/laravel-telegram-gateway) | **34** | Iraq, Erbil |
 | [abdulbasit-dev/laravel-windmill-dashboard](https://github.com/abdulbasit-dev/laravel-windmill-dashboard) | **33** | Iraq - Erbil |
 | [Aziz-AXG/Aziz-AXG](https://github.com/Aziz-AXG/Aziz-AXG) | **29** | Baghdad, Iraq |
-| [sajjad-salam/auto-follow-github](https://github.com/sajjad-salam/auto-follow-github) | **21** | iraq-baghdad |
 
 ## Repository-first scan
 

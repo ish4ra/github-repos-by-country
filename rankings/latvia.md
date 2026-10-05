@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 170**
 - Progress: **0%**
-- Retained high-potential owner candidates: **144**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **147**
+- Search requests completed: **4**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,10 +24,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [ColorlibHQ/AdminLTE](https://github.com/ColorlibHQ/AdminLTE) | **45,634** | Latvia |
+| [ColorlibHQ/AdminLTE](https://github.com/ColorlibHQ/AdminLTE) | **45,635** | Latvia |
 | [lauris/awesome-scala](https://github.com/lauris/awesome-scala) | **9,248** | Latvia |
-| [ONLYOFFICE/DocumentServer](https://github.com/ONLYOFFICE/DocumentServer) | **6,964** | Latvia |
-| [puikinsh/Adminator-admin-dashboard](https://github.com/puikinsh/Adminator-admin-dashboard) | **4,660** | Riga, Latvia |
+| [ONLYOFFICE/DocumentServer](https://github.com/ONLYOFFICE/DocumentServer) | **6,968** | Latvia |
+| [puikinsh/Adminator-admin-dashboard](https://github.com/puikinsh/Adminator-admin-dashboard) | **4,661** | Riga, Latvia |
 | [arthepsy/ssh-audit](https://github.com/arthepsy/ssh-audit) | **3,003** | Latvia |
 | [tostercx/GTAO_Booster_PoC](https://github.com/tostercx/GTAO_Booster_PoC) | **2,868** | Riga, Latvia |
 | [YahnisElsts/plugin-update-checker](https://github.com/YahnisElsts/plugin-update-checker) | **2,567** | Latvia |

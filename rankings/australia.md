@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **19**
-- Current global star frontier: **1,885**
+- Verified high-star candidates retained: **22**
+- Current global star frontier: **1,684**
 
 ### High-star verified preview
 
@@ -70,5 +70,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [agittins/bermuda](https://github.com/agittins/bermuda) | **2,076** | Byron Bay, Australia |
 | [rowanwins/vue-dropzone](https://github.com/rowanwins/vue-dropzone) | **2,003** | Canberra, Australia |
 | [Brendonovich/prisma-client-rust](https://github.com/Brendonovich/prisma-client-rust) | **1,917** | Western Australia |
+| [ozbillwang/terraform-best-practices](https://github.com/ozbillwang/terraform-best-practices) | **1,842** | Sydney, NSW |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

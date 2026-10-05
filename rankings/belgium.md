@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **12**
-- Current global star frontier: **1,885**
+- Verified high-star candidates retained: **14**
+- Current global star frontier: **1,684**
 
 ### High-star verified preview
 
@@ -63,5 +63,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [fniessen/org-html-themes](https://github.com/fniessen/org-html-themes) | **2,314** | Leuven, Belgium |
 | [probberechts/soccerdata](https://github.com/probberechts/soccerdata) | **2,097** | Leuven, Belgium |
 | [AndrewRadev/splitjoin.vim](https://github.com/AndrewRadev/splitjoin.vim) | **1,974** | Leuven, Belgium |
+| [emweb/wt](https://github.com/emweb/wt) | **1,855** | Herent, Belgium |
+| [crystalidea/macs-fan-control](https://github.com/crystalidea/macs-fan-control) | **1,685** | België |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

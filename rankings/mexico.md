@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **16**
-- Current global star frontier: **1,885**
+- Verified high-star candidates retained: **18**
+- Current global star frontier: **1,684**
 
 ### High-star verified preview
 
@@ -67,5 +67,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [AdrMXR/KitHack](https://github.com/AdrMXR/KitHack) | **2,096** | MX |
 | [prettymuchbryce/easystarjs](https://github.com/prettymuchbryce/easystarjs) | **1,937** | ::1 |
 | [DanKE123abc/NoUnityCN](https://github.com/DanKE123abc/NoUnityCN) | **1,897** | [::1] |
+| [georgewhewell/undervolt](https://github.com/georgewhewell/undervolt) | **1,740** | ::1 |
+| [sstephenson/eco](https://github.com/sstephenson/eco) | **1,694** | Ciudad de México |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

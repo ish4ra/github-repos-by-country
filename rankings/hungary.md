@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 1,488**
 - Progress: **0%**
-- Retained high-potential owner candidates: **155**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **156**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -26,8 +26,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [HelloZeroNet/ZeroNet](https://github.com/HelloZeroNet/ZeroNet) | **18,770** | Budapest, Hungary |
 | [asciimoo/wuzz](https://github.com/asciimoo/wuzz) | **10,737** | Budapest, Hungary |
-| [pqoqubbw/icons](https://github.com/pqoqubbw/icons) | **8,162** | Hungary, Budapest |
-| [kovacsv/Online3DViewer](https://github.com/kovacsv/Online3DViewer) | **3,707** | Budapest, Hungary |
+| [pqoqubbw/icons](https://github.com/pqoqubbw/icons) | **8,167** | Hungary, Budapest |
+| [kovacsv/Online3DViewer](https://github.com/kovacsv/Online3DViewer) | **3,712** | Budapest, Hungary |
 | [guildxyz/guild.xyz](https://github.com/guildxyz/guild.xyz) | **3,481** | Hungary |
 | [nxrighthere/UnrealCLR](https://github.com/nxrighthere/UnrealCLR) | **3,304** | Budapest, Hungary |
 | [Aylur/ags](https://github.com/Aylur/ags) | **3,106** | Hungary |
@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **24**
-- Current global star frontier: **1,885**
+- Verified high-star candidates retained: **28**
+- Current global star frontier: **1,684**
 
 ### High-star verified preview
 

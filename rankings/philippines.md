@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **1,885**
+- Verified high-star candidates retained: **15**
+- Current global star frontier: **1,684**
 
 ### High-star verified preview
 
@@ -65,5 +65,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [lodev09/react-native-true-sheet](https://github.com/lodev09/react-native-true-sheet) | **2,068** | Philippines |
 | [ivanceras/sauron](https://github.com/ivanceras/sauron) | **2,065** | Cebu, Philippines |
 | [tyron12233/CodeAssist](https://github.com/tyron12233/CodeAssist) | **1,952** | Philippines |
+| [junedomingo/movieapp](https://github.com/junedomingo/movieapp) | **1,827** | Ilagan City, Isabela, Philippines |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

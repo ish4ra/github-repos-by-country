@@ -1,14 +1,49 @@
 {
-  "schemaVersion": 2,
-  "locationResolverVersion": 2,
+  "schemaVersion": 1,
+  "methodologyVersion": "0.8.0-repository-first",
+  "generatedAt": "2026-10-05T22:01:25.080Z",
   "country": {
     "code": "FI",
     "name": "Finland",
     "slug": "finland"
   },
-  "source": "repository-first-stars-desc",
+  "source": {
+    "provider": "GitHub GraphQL API",
+    "endpoint": "https://api.github.com/graphql",
+    "countryBasis": "public repository-owner profile location",
+    "discovery": "global repositories scanned by stars descending"
+  },
+  "coverage": {
+    "status": "repository-first-certified-by-star-frontier",
+    "exhaustive": false,
+    "rawOwnerHits": 40166,
+    "acceptedUniqueOwners": 81,
+    "ownerMetricLabel": "Unique owners in top ranking",
+    "repositoriesConsidered": 111,
+    "publishedRepositories": 100,
+    "candidateThresholdStars": 1782,
+    "rankingLimit": 100,
+    "cappedQueries": [],
+    "repositoryFirst": {
+      "scanFrontierStars": 1684,
+      "topObservedStars": 551406,
+      "repositoriesSeen": 40166,
+      "attributedRepositories": 14274,
+      "ambiguousLocations": 6040,
+      "unknownLocations": 19852,
+      "unresolvedStarCounts": []
+    },
+    "notes": [
+      "Repositories are scanned globally in descending star ranges, independently of owner follower count or owner-search ordering.",
+      "A country is certified only after its 100th repository has more stars than every unprocessed global star range.",
+      "Owner country is inferred from the owner public GitHub profile location using the global geography resolver.",
+      "Owners with missing or unresolved locations are excluded, so country attribution is not a citizenship or legal-incorporation claim.",
+      "Compound city/admin locations such as \"Portland, OR\" are resolved before ambiguous city-only names."
+    ]
+  },
   "repositories": [
     {
+      "rank": 1,
       "name": "java-design-patterns",
       "nameWithOwner": "iluwatar/java-design-patterns",
       "url": "https://github.com/iluwatar/java-design-patterns",
@@ -42,6 +77,7 @@
       }
     },
     {
+      "rank": 2,
       "name": "30-Days-Of-Python",
       "nameWithOwner": "Asabeneh/30-Days-Of-Python",
       "url": "https://github.com/Asabeneh/30-Days-Of-Python",
@@ -72,6 +108,7 @@
       }
     },
     {
+      "rank": 3,
       "name": "30-Days-Of-JavaScript",
       "nameWithOwner": "Asabeneh/30-Days-Of-JavaScript",
       "url": "https://github.com/Asabeneh/30-Days-Of-JavaScript",
@@ -102,6 +139,7 @@
       }
     },
     {
+      "rank": 4,
       "name": "30-Days-Of-React",
       "nameWithOwner": "Asabeneh/30-Days-Of-React",
       "url": "https://github.com/Asabeneh/30-Days-Of-React",
@@ -132,6 +170,7 @@
       }
     },
     {
+      "rank": 5,
       "name": "WaveFunctionCollapse",
       "nameWithOwner": "mxgmn/WaveFunctionCollapse",
       "url": "https://github.com/mxgmn/WaveFunctionCollapse",
@@ -165,6 +204,7 @@
       }
     },
     {
+      "rank": 6,
       "name": "wekan",
       "nameWithOwner": "wekan/wekan",
       "url": "https://github.com/wekan/wekan",
@@ -198,6 +238,7 @@
       }
     },
     {
+      "rank": 7,
       "name": "bluebird",
       "nameWithOwner": "petkaantonov/bluebird",
       "url": "https://github.com/petkaantonov/bluebird",
@@ -231,6 +272,7 @@
       }
     },
     {
+      "rank": 8,
       "name": "muuri",
       "nameWithOwner": "haltu/muuri",
       "url": "https://github.com/haltu/muuri",
@@ -264,6 +306,7 @@
       }
     },
     {
+      "rank": 9,
       "name": "deploy-your-own-saas",
       "nameWithOwner": "Atarity/deploy-your-own-saas",
       "url": "https://github.com/Atarity/deploy-your-own-saas",
@@ -294,6 +337,7 @@
       }
     },
     {
+      "rank": 10,
       "name": "BlackFriday-GPTs-Prompts",
       "nameWithOwner": "friuns2/BlackFriday-GPTs-Prompts",
       "url": "https://github.com/friuns2/BlackFriday-GPTs-Prompts",
@@ -327,6 +371,7 @@
       }
     },
     {
+      "rank": 11,
       "name": "nue",
       "nameWithOwner": "nuejs/nue",
       "url": "https://github.com/nuejs/nue",
@@ -360,6 +405,7 @@
       }
     },
     {
+      "rank": 12,
       "name": "MarkovJunior",
       "nameWithOwner": "mxgmn/MarkovJunior",
       "url": "https://github.com/mxgmn/MarkovJunior",
@@ -393,6 +439,7 @@
       }
     },
     {
+      "rank": 13,
       "name": "VancedManager",
       "nameWithOwner": "TeamVanced/VancedManager",
       "url": "https://github.com/TeamVanced/VancedManager",
@@ -426,6 +473,7 @@
       }
     },
     {
+      "rank": 14,
       "name": "progressbar.js",
       "nameWithOwner": "kimmobrunfeldt/progressbar.js",
       "url": "https://github.com/kimmobrunfeldt/progressbar.js",
@@ -459,6 +507,7 @@
       }
     },
     {
+      "rank": 15,
       "name": "apscheduler",
       "nameWithOwner": "agronholm/apscheduler",
       "url": "https://github.com/agronholm/apscheduler",
@@ -492,6 +541,7 @@
       }
     },
     {
+      "rank": 16,
       "name": "whatsmeow",
       "nameWithOwner": "tulir/whatsmeow",
       "url": "https://github.com/tulir/whatsmeow",
@@ -525,6 +575,7 @@
       }
     },
     {
+      "rank": 17,
       "name": "url-to-pdf-api",
       "nameWithOwner": "alvarcarto/url-to-pdf-api",
       "url": "https://github.com/alvarcarto/url-to-pdf-api",
@@ -558,6 +609,7 @@
       }
     },
     {
+      "rank": 18,
       "name": "MasterDnsVPN",
       "nameWithOwner": "masterking32/MasterDnsVPN",
       "url": "https://github.com/masterking32/MasterDnsVPN",
@@ -591,6 +643,7 @@
       }
     },
     {
+      "rank": 19,
       "name": "ArnoldC",
       "nameWithOwner": "lhartikk/ArnoldC",
       "url": "https://github.com/lhartikk/ArnoldC",
@@ -624,6 +677,7 @@
       }
     },
     {
+      "rank": 20,
       "name": "learn-python3",
       "nameWithOwner": "jerry-git/learn-python3",
       "url": "https://github.com/jerry-git/learn-python3",
@@ -657,6 +711,7 @@
       }
     },
     {
+      "rank": 21,
       "name": "zsh-autocomplete",
       "nameWithOwner": "marlonrichert/zsh-autocomplete",
       "url": "https://github.com/marlonrichert/zsh-autocomplete",
@@ -690,6 +745,7 @@
       }
     },
     {
+      "rank": 22,
       "name": "ComfyUI-WanVideoWrapper",
       "nameWithOwner": "kijai/ComfyUI-WanVideoWrapper",
       "url": "https://github.com/kijai/ComfyUI-WanVideoWrapper",
@@ -723,6 +779,7 @@
       }
     },
     {
+      "rank": 23,
       "name": "progressive_growing_of_gans",
       "nameWithOwner": "tkarras/progressive_growing_of_gans",
       "url": "https://github.com/tkarras/progressive_growing_of_gans",
@@ -756,6 +813,7 @@
       }
     },
     {
+      "rank": 24,
       "name": "Data-Science-Interview-Questions-Answers",
       "nameWithOwner": "youssefHosni/Data-Science-Interview-Questions-Answers",
       "url": "https://github.com/youssefHosni/Data-Science-Interview-Questions-Answers",
@@ -786,6 +844,7 @@
       }
     },
     {
+      "rank": 25,
       "name": "nanovg",
       "nameWithOwner": "memononen/nanovg",
       "url": "https://github.com/memononen/nanovg",
@@ -819,6 +878,7 @@
       }
     },
     {
+      "rank": 26,
       "name": "Hasklig",
       "nameWithOwner": "i-tu/Hasklig",
       "url": "https://github.com/i-tu/Hasklig",
@@ -852,6 +912,7 @@
       }
     },
     {
+      "rank": 27,
       "name": "open-swiftui-animations",
       "nameWithOwner": "amosgyamfi/open-swiftui-animations",
       "url": "https://github.com/amosgyamfi/open-swiftui-animations",
@@ -885,6 +946,7 @@
       }
     },
     {
+      "rank": 28,
       "name": "github-contributions-chart",
       "nameWithOwner": "sallar/github-contributions-chart",
       "url": "https://github.com/sallar/github-contributions-chart",
@@ -918,6 +980,7 @@
       }
     },
     {
+      "rank": 29,
       "name": "naivechain",
       "nameWithOwner": "lhartikk/naivechain",
       "url": "https://github.com/lhartikk/naivechain",
@@ -951,6 +1014,7 @@
       }
     },
     {
+      "rank": 30,
       "name": "serverless-offline",
       "nameWithOwner": "dherault/serverless-offline",
       "url": "https://github.com/dherault/serverless-offline",
@@ -984,6 +1048,7 @@
       }
     },
     {
+      "rank": 31,
       "name": "microbin",
       "nameWithOwner": "szabodanika/microbin",
       "url": "https://github.com/szabodanika/microbin",
@@ -1017,6 +1082,7 @@
       }
     },
     {
+      "rank": 32,
       "name": "live-server",
       "nameWithOwner": "tapio/live-server",
       "url": "https://github.com/tapio/live-server",
@@ -1047,6 +1113,7 @@
       }
     },
     {
+      "rank": 33,
       "name": "phoenix",
       "nameWithOwner": "kasper/phoenix",
       "url": "https://github.com/kasper/phoenix",
@@ -1080,6 +1147,7 @@
       }
     },
     {
+      "rank": 34,
       "name": "electrino",
       "nameWithOwner": "pojala/electrino",
       "url": "https://github.com/pojala/electrino",
@@ -1113,6 +1181,7 @@
       }
     },
     {
+      "rank": 35,
       "name": "buttercup-desktop",
       "nameWithOwner": "buttercup/buttercup-desktop",
       "url": "https://github.com/buttercup/buttercup-desktop",
@@ -1146,6 +1215,7 @@
       }
     },
     {
+      "rank": 36,
       "name": "rxmarbles",
       "nameWithOwner": "staltz/rxmarbles",
       "url": "https://github.com/staltz/rxmarbles",
@@ -1179,6 +1249,7 @@
       }
     },
     {
+      "rank": 37,
       "name": "utoipa",
       "nameWithOwner": "juhaku/utoipa",
       "url": "https://github.com/juhaku/utoipa",
@@ -1212,6 +1283,7 @@
       }
     },
     {
+      "rank": 38,
       "name": "responsive-nav.js",
       "nameWithOwner": "arielsalminen/responsive-nav.js",
       "url": "https://github.com/arielsalminen/responsive-nav.js",
@@ -1242,6 +1314,7 @@
       }
     },
     {
+      "rank": 39,
       "name": "MasterHttpRelayVPN",
       "nameWithOwner": "masterking32/MasterHttpRelayVPN",
       "url": "https://github.com/masterking32/MasterHttpRelayVPN",
@@ -1275,6 +1348,7 @@
       }
     },
     {
+      "rank": 40,
       "name": "jswiki",
       "nameWithOwner": "bebraw/jswiki",
       "url": "https://github.com/bebraw/jswiki",
@@ -1305,6 +1379,7 @@
       }
     },
     {
+      "rank": 41,
       "name": "awesome-landing-page",
       "nameWithOwner": "nordicgiant2/awesome-landing-page",
       "url": "https://github.com/nordicgiant2/awesome-landing-page",
@@ -1335,6 +1410,7 @@
       }
     },
     {
+      "rank": 42,
       "name": "hetzner-k3s",
       "nameWithOwner": "vitobotta/hetzner-k3s",
       "url": "https://github.com/vitobotta/hetzner-k3s",
@@ -1368,6 +1444,7 @@
       }
     },
     {
+      "rank": 43,
       "name": "chainsaw",
       "nameWithOwner": "WithSecureOpenSource/chainsaw",
       "url": "https://github.com/WithSecureOpenSource/chainsaw",
@@ -1401,6 +1478,7 @@
       }
     },
     {
+      "rank": 44,
       "name": "html5-device-mockups",
       "nameWithOwner": "pixelsign/html5-device-mockups",
       "url": "https://github.com/pixelsign/html5-device-mockups",
@@ -1434,6 +1512,7 @@
       }
     },
     {
+      "rank": 45,
       "name": "mathematics-roadmap",
       "nameWithOwner": "TalalAlrawajfeh/mathematics-roadmap",
       "url": "https://github.com/TalalAlrawajfeh/mathematics-roadmap",
@@ -1464,6 +1543,7 @@
       }
     },
     {
+      "rank": 46,
       "name": "bash-completion",
       "nameWithOwner": "scop/bash-completion",
       "url": "https://github.com/scop/bash-completion",
@@ -1497,6 +1577,7 @@
       }
     },
     {
+      "rank": 47,
       "name": "retrolambda",
       "nameWithOwner": "luontola/retrolambda",
       "url": "https://github.com/luontola/retrolambda",
@@ -1530,6 +1611,7 @@
       }
     },
     {
+      "rank": 48,
       "name": "ResponsiveSlides.js",
       "nameWithOwner": "arielsalminen/ResponsiveSlides.js",
       "url": "https://github.com/arielsalminen/ResponsiveSlides.js",
@@ -1560,6 +1642,7 @@
       }
     },
     {
+      "rank": 49,
       "name": "jansson",
       "nameWithOwner": "akheron/jansson",
       "url": "https://github.com/akheron/jansson",
@@ -1593,6 +1676,7 @@
       }
     },
     {
+      "rank": 50,
       "name": "rocketry",
       "nameWithOwner": "Miksus/rocketry",
       "url": "https://github.com/Miksus/rocketry",
@@ -1626,6 +1710,7 @@
       }
     },
     {
+      "rank": 51,
       "name": "underscore.string",
       "nameWithOwner": "esamattis/underscore.string",
       "url": "https://github.com/esamattis/underscore.string",
@@ -1656,6 +1741,7 @@
       }
     },
     {
+      "rank": 52,
       "name": "ComfyUI-KJNodes",
       "nameWithOwner": "kijai/ComfyUI-KJNodes",
       "url": "https://github.com/kijai/ComfyUI-KJNodes",
@@ -1689,6 +1775,7 @@
       }
     },
     {
+      "rank": 53,
       "name": "react-native-reanimated-bottom-sheet",
       "nameWithOwner": "osdnk/react-native-reanimated-bottom-sheet",
       "url": "https://github.com/osdnk/react-native-reanimated-bottom-sheet",
@@ -1722,6 +1809,7 @@
       }
     },
     {
+      "rank": 54,
       "name": "humanify",
       "nameWithOwner": "jehna/humanify",
       "url": "https://github.com/jehna/humanify",
@@ -1755,6 +1843,7 @@
       }
     },
     {
+      "rank": 55,
       "name": "figma-linux",
       "nameWithOwner": "Figma-Linux/figma-linux",
       "url": "https://github.com/Figma-Linux/figma-linux",
@@ -1788,6 +1877,7 @@
       }
     },
     {
+      "rank": 56,
       "name": "learn",
       "nameWithOwner": "amosblomqvist/learn",
       "url": "https://github.com/amosblomqvist/learn",
@@ -1818,6 +1908,7 @@
       }
     },
     {
+      "rank": 57,
       "name": "awesome-web-effect",
       "nameWithOwner": "lindelof/awesome-web-effect",
       "url": "https://github.com/lindelof/awesome-web-effect",
@@ -1848,6 +1939,7 @@
       }
     },
     {
+      "rank": 58,
       "name": "feature.js",
       "nameWithOwner": "arielsalminen/feature.js",
       "url": "https://github.com/arielsalminen/feature.js",
@@ -1878,6 +1970,7 @@
       }
     },
     {
+      "rank": 59,
       "name": "level-ip",
       "nameWithOwner": "saminiir/level-ip",
       "url": "https://github.com/saminiir/level-ip",
@@ -1911,6 +2004,7 @@
       }
     },
     {
+      "rank": 60,
       "name": "llvm-mingw",
       "nameWithOwner": "mstorsjo/llvm-mingw",
       "url": "https://github.com/mstorsjo/llvm-mingw",
@@ -1944,6 +2038,7 @@
       }
     },
     {
+      "rank": 61,
       "name": "Battery-Emulator",
       "nameWithOwner": "dalathegreat/Battery-Emulator",
       "url": "https://github.com/dalathegreat/Battery-Emulator",
@@ -1977,6 +2072,7 @@
       }
     },
     {
+      "rank": 62,
       "name": "HackBGRT",
       "nameWithOwner": "Metabolix/HackBGRT",
       "url": "https://github.com/Metabolix/HackBGRT",
@@ -2010,6 +2106,7 @@
       }
     },
     {
+      "rank": 63,
       "name": "react-share",
       "nameWithOwner": "nygardk/react-share",
       "url": "https://github.com/nygardk/react-share",
@@ -2043,6 +2140,7 @@
       }
     },
     {
+      "rank": 64,
       "name": "workmux",
       "nameWithOwner": "raine/workmux",
       "url": "https://github.com/raine/workmux",
@@ -2076,6 +2174,7 @@
       }
     },
     {
+      "rank": 65,
       "name": "CalendarKit",
       "nameWithOwner": "richardtop/CalendarKit",
       "url": "https://github.com/richardtop/CalendarKit",
@@ -2109,6 +2208,7 @@
       }
     },
     {
+      "rank": 66,
       "name": "pakku.js",
       "nameWithOwner": "xmcp/pakku.js",
       "url": "https://github.com/xmcp/pakku.js",
@@ -2142,6 +2242,7 @@
       }
     },
     {
+      "rank": 67,
       "name": "robotics_essentials_ros2",
       "nameWithOwner": "henki-robotics/robotics_essentials_ros2",
       "url": "https://github.com/henki-robotics/robotics_essentials_ros2",
@@ -2172,6 +2273,7 @@
       }
     },
     {
+      "rank": 68,
       "name": "ComfyUI-HunyuanVideoWrapper",
       "nameWithOwner": "kijai/ComfyUI-HunyuanVideoWrapper",
       "url": "https://github.com/kijai/ComfyUI-HunyuanVideoWrapper",
@@ -2202,6 +2304,7 @@
       }
     },
     {
+      "rank": 69,
       "name": "Linear-Algebra-With-Python",
       "nameWithOwner": "weijie-chen/Linear-Algebra-With-Python",
       "url": "https://github.com/weijie-chen/Linear-Algebra-With-Python",
@@ -2235,6 +2338,7 @@
       }
     },
     {
+      "rank": 70,
       "name": "css-architecture",
       "nameWithOwner": "jareware/css-architecture",
       "url": "https://github.com/jareware/css-architecture",
@@ -2265,6 +2369,7 @@
       }
     },
     {
+      "rank": 71,
       "name": "anyio",
       "nameWithOwner": "agronholm/anyio",
       "url": "https://github.com/agronholm/anyio",
@@ -2298,6 +2403,7 @@
       }
     },
     {
+      "rank": 72,
       "name": "imnodes",
       "nameWithOwner": "Nelarius/imnodes",
       "url": "https://github.com/Nelarius/imnodes",
@@ -2331,6 +2437,7 @@
       }
     },
     {
+      "rank": 73,
       "name": "awesome-resty",
       "nameWithOwner": "bungle/awesome-resty",
       "url": "https://github.com/bungle/awesome-resty",
@@ -2361,6 +2468,7 @@
       }
     },
     {
+      "rank": 74,
       "name": "Leaked-GPTs",
       "nameWithOwner": "friuns2/Leaked-GPTs",
       "url": "https://github.com/friuns2/Leaked-GPTs",
@@ -2391,6 +2499,7 @@
       }
     },
     {
+      "rank": 75,
       "name": "sharetribe",
       "nameWithOwner": "sharetribe/sharetribe",
       "url": "https://github.com/sharetribe/sharetribe",
@@ -2424,6 +2533,7 @@
       }
     },
     {
+      "rank": 76,
       "name": "sqlacodegen",
       "nameWithOwner": "agronholm/sqlacodegen",
       "url": "https://github.com/agronholm/sqlacodegen",
@@ -2457,6 +2567,7 @@
       }
     },
     {
+      "rank": 77,
       "name": "xstream",
       "nameWithOwner": "staltz/xstream",
       "url": "https://github.com/staltz/xstream",
@@ -2490,6 +2601,7 @@
       }
     },
     {
+      "rank": 78,
       "name": "reiverr",
       "nameWithOwner": "aleksilassila/reiverr",
       "url": "https://github.com/aleksilassila/reiverr",
@@ -2523,6 +2635,7 @@
       }
     },
     {
+      "rank": 79,
       "name": "protontricks",
       "nameWithOwner": "Matoking/protontricks",
       "url": "https://github.com/Matoking/protontricks",
@@ -2556,6 +2669,7 @@
       }
     },
     {
+      "rank": 80,
       "name": "ComfyUI-SUPIR",
       "nameWithOwner": "kijai/ComfyUI-SUPIR",
       "url": "https://github.com/kijai/ComfyUI-SUPIR",
@@ -2589,6 +2703,7 @@
       }
     },
     {
+      "rank": 81,
       "name": "BDA_course_Aalto",
       "nameWithOwner": "avehtari/BDA_course_Aalto",
       "url": "https://github.com/avehtari/BDA_course_Aalto",
@@ -2619,6 +2734,7 @@
       }
     },
     {
+      "rank": 82,
       "name": "dnf",
       "nameWithOwner": "1995chen/dnf",
       "url": "https://github.com/1995chen/dnf",
@@ -2652,6 +2768,7 @@
       }
     },
     {
+      "rank": 83,
       "name": "Barotrauma",
       "nameWithOwner": "FakeFishGames/Barotrauma",
       "url": "https://github.com/FakeFishGames/Barotrauma",
@@ -2682,6 +2799,7 @@
       }
     },
     {
+      "rank": 84,
       "name": "birdnet-go",
       "nameWithOwner": "tphakala/birdnet-go",
       "url": "https://github.com/tphakala/birdnet-go",
@@ -2715,6 +2833,7 @@
       }
     },
     {
+      "rank": 85,
       "name": "ComfyUI-LivePortraitKJ",
       "nameWithOwner": "kijai/ComfyUI-LivePortraitKJ",
       "url": "https://github.com/kijai/ComfyUI-LivePortraitKJ",
@@ -2748,6 +2867,7 @@
       }
     },
     {
+      "rank": 86,
       "name": "vue-design-system",
       "nameWithOwner": "arielsalminen/vue-design-system",
       "url": "https://github.com/arielsalminen/vue-design-system",
@@ -2781,6 +2901,7 @@
       }
     },
     {
+      "rank": 87,
       "name": "MyBox",
       "nameWithOwner": "andrumak/MyBox",
       "url": "https://github.com/andrumak/MyBox",
@@ -2814,6 +2935,7 @@
       }
     },
     {
+      "rank": 88,
       "name": "soloud",
       "nameWithOwner": "jarikomppa/soloud",
       "url": "https://github.com/jarikomppa/soloud",
@@ -2847,6 +2969,7 @@
       }
     },
     {
+      "rank": 89,
       "name": "tomlplusplus",
       "nameWithOwner": "marzer/tomlplusplus",
       "url": "https://github.com/marzer/tomlplusplus",
@@ -2880,6 +3003,7 @@
       }
     },
     {
+      "rank": 90,
       "name": "nanosvg",
       "nameWithOwner": "memononen/nanosvg",
       "url": "https://github.com/memononen/nanosvg",
@@ -2913,6 +3037,7 @@
       }
     },
     {
+      "rank": 91,
       "name": "nbind",
       "nameWithOwner": "charto/nbind",
       "url": "https://github.com/charto/nbind",
@@ -2946,6 +3071,7 @@
       }
     },
     {
+      "rank": 92,
       "name": "vue-axios",
       "nameWithOwner": "imcvampire/vue-axios",
       "url": "https://github.com/imcvampire/vue-axios",
@@ -2979,6 +3105,7 @@
       }
     },
     {
+      "rank": 93,
       "name": "gnvim",
       "nameWithOwner": "vhakulinen/gnvim",
       "url": "https://github.com/vhakulinen/gnvim",
@@ -3012,6 +3139,7 @@
       }
     },
     {
+      "rank": 94,
       "name": "mcp-unity",
       "nameWithOwner": "CoderGamester/mcp-unity",
       "url": "https://github.com/CoderGamester/mcp-unity",
@@ -3045,6 +3173,7 @@
       }
     },
     {
+      "rank": 95,
       "name": "flowplayer",
       "nameWithOwner": "flowplayer/flowplayer",
       "url": "https://github.com/flowplayer/flowplayer",
@@ -3078,6 +3207,7 @@
       }
     },
     {
+      "rank": 96,
       "name": "arocc",
       "nameWithOwner": "Vexu/arocc",
       "url": "https://github.com/Vexu/arocc",
@@ -3111,6 +3241,7 @@
       }
     },
     {
+      "rank": 97,
       "name": "ganspace",
       "nameWithOwner": "harskish/ganspace",
       "url": "https://github.com/harskish/ganspace",
@@ -3144,6 +3275,7 @@
       }
     },
     {
+      "rank": 98,
       "name": "typeguard",
       "nameWithOwner": "agronholm/typeguard",
       "url": "https://github.com/agronholm/typeguard",
@@ -3177,6 +3309,7 @@
       }
     },
     {
+      "rank": 99,
       "name": "10-days-of-git-and-github",
       "nameWithOwner": "Asabeneh/10-days-of-git-and-github",
       "url": "https://github.com/Asabeneh/10-days-of-git-and-github",
@@ -3207,6 +3340,7 @@
       }
     },
     {
+      "rank": 100,
       "name": "vnstat",
       "nameWithOwner": "vergoh/vnstat",
       "url": "https://github.com/vergoh/vnstat",
@@ -3238,366 +3372,6 @@
         },
         "discoveryTerms": []
       }
-    },
-    {
-      "name": "jquerytools",
-      "nameWithOwner": "jquerytools/jquerytools",
-      "url": "https://github.com/jquerytools/jquerytools",
-      "description": "The missing UI library for the Web",
-      "stars": 1775,
-      "forks": 510,
-      "primaryLanguage": "JavaScript",
-      "license": null,
-      "createdAt": "2009-10-04T08:14:05Z",
-      "pushedAt": "2017-09-18T07:44:50Z",
-      "homepageUrl": "http://jquerytools.org",
-      "archived": false,
-      "owner": {
-        "login": "jquerytools",
-        "name": "jQuery Tools",
-        "type": "Organization",
-        "url": "https://github.com/jquerytools",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/134790?v=4",
-        "location": "Helsinki, Finland",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "FI",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "finland"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "zoomooz",
-      "nameWithOwner": "jaukia/zoomooz",
-      "url": "https://github.com/jaukia/zoomooz",
-      "description": "An easy-to-use jQuery plugin for making zooming web pages.",
-      "stars": 1772,
-      "forks": 266,
-      "primaryLanguage": "JavaScript",
-      "license": null,
-      "createdAt": "2010-05-07T14:31:23Z",
-      "pushedAt": "2017-03-12T18:48:04Z",
-      "homepageUrl": "http://janne.aukia.com/zoomooz/",
-      "archived": false,
-      "owner": {
-        "login": "jaukia",
-        "name": "Janne Aukia",
-        "type": "User",
-        "url": "https://github.com/jaukia",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/270490?v=4",
-        "location": "Helsinki, Finland",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "FI",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "finland"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "malli",
-      "nameWithOwner": "metosin/malli",
-      "url": "https://github.com/metosin/malli",
-      "description": "High-performance data-driven data specification library for Clojure/Script.",
-      "stars": 1769,
-      "forks": 245,
-      "primaryLanguage": "Clojure",
-      "license": {
-        "name": "Eclipse Public License 2.0",
-        "spdxId": "EPL-2.0"
-      },
-      "createdAt": "2019-05-17T19:21:51Z",
-      "pushedAt": "2026-09-25T12:33:31Z",
-      "homepageUrl": null,
-      "archived": false,
-      "owner": {
-        "login": "metosin",
-        "name": "Metosin",
-        "type": "Organization",
-        "url": "https://github.com/metosin",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1569418?v=4",
-        "location": "Tampere, Helsinki, Finland",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "FI",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "finland"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "ComfyUI-Florence2",
-      "nameWithOwner": "kijai/ComfyUI-Florence2",
-      "url": "https://github.com/kijai/ComfyUI-Florence2",
-      "description": "Inference Microsoft Florence2 VLM",
-      "stars": 1754,
-      "forks": 140,
-      "primaryLanguage": "Python",
-      "license": {
-        "name": "MIT License",
-        "spdxId": "MIT"
-      },
-      "createdAt": "2024-06-19T17:58:14Z",
-      "pushedAt": "2026-05-06T09:00:47Z",
-      "homepageUrl": null,
-      "archived": false,
-      "owner": {
-        "login": "kijai",
-        "name": "Jukka Seppänen",
-        "type": "User",
-        "url": "https://github.com/kijai",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/40791699?u=af81854e7c6b824bbcfb3fb8fcf2e2fe32c8c61f&v=4",
-        "location": "Finland",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "FI",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "finland"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "react-native-svg-transformer",
-      "nameWithOwner": "kristerkari/react-native-svg-transformer",
-      "url": "https://github.com/kristerkari/react-native-svg-transformer",
-      "description": "Import SVG files in your React Native project the same way that you would in a Web application.",
-      "stars": 1739,
-      "forks": 123,
-      "primaryLanguage": "JavaScript",
-      "license": {
-        "name": "MIT License",
-        "spdxId": "MIT"
-      },
-      "createdAt": "2018-08-02T19:29:21Z",
-      "pushedAt": "2026-09-26T13:22:47Z",
-      "homepageUrl": null,
-      "archived": false,
-      "owner": {
-        "login": "kristerkari",
-        "name": "Krister Kari",
-        "type": "User",
-        "url": "https://github.com/kristerkari",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/993108?v=4",
-        "location": "Helsinki, Finland",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "FI",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "finland"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "date-picker",
-      "nameWithOwner": "duetds/date-picker",
-      "url": "https://github.com/duetds/date-picker",
-      "description": "Duet Date Picker is an open source version of Duet Design System’s accessible date picker. Try live example at https://duetds.github.io/date-picker/",
-      "stars": 1719,
-      "forks": 73,
-      "primaryLanguage": "TypeScript",
-      "license": {
-        "name": "MIT License",
-        "spdxId": "MIT"
-      },
-      "createdAt": "2020-08-12T04:20:53Z",
-      "pushedAt": "2024-03-19T15:57:33Z",
-      "homepageUrl": "https://www.duetds.com",
-      "archived": true,
-      "owner": {
-        "login": "duetds",
-        "name": "Duet Design System",
-        "type": "Organization",
-        "url": "https://github.com/duetds",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/59133187?v=4",
-        "location": "Finland",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "FI",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "finland"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "mu",
-      "nameWithOwner": "djcb/mu",
-      "url": "https://github.com/djcb/mu",
-      "description": "maildir indexer/searcher + emacs mail client + guile bindings",
-      "stars": 1718,
-      "forks": 410,
-      "primaryLanguage": "C++",
-      "license": {
-        "name": "GNU General Public License v3.0",
-        "spdxId": "GPL-3.0"
-      },
-      "createdAt": "2012-01-06T10:42:29Z",
-      "pushedAt": "2026-10-02T18:30:39Z",
-      "homepageUrl": "http://www.djcbsoftware.nl/code/mu",
-      "archived": false,
-      "owner": {
-        "login": "djcb",
-        "name": "Dirk-Jan C. Binnema",
-        "type": "User",
-        "url": "https://github.com/djcb",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/199741?u=6b1da0ce9bea13993dbb2b9bf2257aa0ae00d54f&v=4",
-        "location": "Helsinki, Finland",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "FI",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "finland"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "AADInternals",
-      "nameWithOwner": "Gerenios/AADInternals",
-      "url": "https://github.com/Gerenios/AADInternals",
-      "description": "AADInternals PowerShell module for administering Azure AD and Office 365",
-      "stars": 1702,
-      "forks": 255,
-      "primaryLanguage": "PowerShell",
-      "license": {
-        "name": "MIT License",
-        "spdxId": "MIT"
-      },
-      "createdAt": "2018-10-25T17:35:16Z",
-      "pushedAt": "2025-09-30T18:30:24Z",
-      "homepageUrl": "http://aadinternals.com/aadinternals",
-      "archived": false,
-      "owner": {
-        "login": "Gerenios",
-        "name": "Gerenios Ltd",
-        "type": "Organization",
-        "url": "https://github.com/Gerenios",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/31915208?v=4",
-        "location": "Tampere, Finland",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "FI",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "finland"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "yaml",
-      "nameWithOwner": "eemeli/yaml",
-      "url": "https://github.com/eemeli/yaml",
-      "description": "YAML parser and serialiser for JavaScript",
-      "stars": 1693,
-      "forks": 181,
-      "primaryLanguage": "TypeScript",
-      "license": {
-        "name": "ISC License",
-        "spdxId": "ISC"
-      },
-      "createdAt": "2018-01-29T20:45:06Z",
-      "pushedAt": "2026-09-23T03:13:23Z",
-      "homepageUrl": "https://eemeli.org/yaml",
-      "archived": false,
-      "owner": {
-        "login": "eemeli",
-        "name": "Eemeli Aro",
-        "type": "User",
-        "url": "https://github.com/eemeli",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/617000?u=444f1f3af7f90878cc20be018673336add943dd7&v=4",
-        "location": "Helsinki, Finland",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "FI",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "finland"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "ComfyUI-FramePackWrapper",
-      "nameWithOwner": "kijai/ComfyUI-FramePackWrapper",
-      "url": "https://github.com/kijai/ComfyUI-FramePackWrapper",
-      "description": null,
-      "stars": 1684,
-      "forks": 125,
-      "primaryLanguage": "Python",
-      "license": {
-        "name": "Apache License 2.0",
-        "spdxId": "Apache-2.0"
-      },
-      "createdAt": "2025-04-17T12:20:59Z",
-      "pushedAt": "2026-01-13T21:34:04Z",
-      "homepageUrl": null,
-      "archived": false,
-      "owner": {
-        "login": "kijai",
-        "name": "Jukka Seppänen",
-        "type": "User",
-        "url": "https://github.com/kijai",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/40791699?u=af81854e7c6b824bbcfb3fb8fcf2e2fe32c8c61f&v=4",
-        "location": "Finland",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "FI",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "finland"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "mean-teacher",
-      "nameWithOwner": "CuriousAI/mean-teacher",
-      "url": "https://github.com/CuriousAI/mean-teacher",
-      "description": "A state-of-the-art semi-supervised method for image recognition",
-      "stars": 1680,
-      "forks": 343,
-      "primaryLanguage": "Python",
-      "license": {
-        "name": "Other",
-        "spdxId": "NOASSERTION"
-      },
-      "createdAt": "2017-05-15T09:29:00Z",
-      "pushedAt": "2020-10-08T12:48:09Z",
-      "homepageUrl": "https://arxiv.org/abs/1703.01780",
-      "archived": false,
-      "owner": {
-        "login": "CuriousAI",
-        "name": "Curious AI",
-        "type": "Organization",
-        "url": "https://github.com/CuriousAI",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/15262694?v=4",
-        "location": "Helsinki, Finland",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "FI",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "finland"
-        },
-        "discoveryTerms": []
-      }
     }
-  ],
-  "scanFrontierStars": 1684,
-  "certifiedAt": "2026-10-05T22:01:25.080Z",
-  "updatedAt": "2026-10-05T22:01:25.080Z"
+  ]
 }

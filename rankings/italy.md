@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 10,957**
 - Progress: **0%**
-- Retained high-potential owner candidates: **170**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **177**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,26 +24,26 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [FiloSottile/mkcert](https://github.com/FiloSottile/mkcert) | **59,716** | Rome, Italy |
-| [mudler/LocalAI](https://github.com/mudler/LocalAI) | **49,370** | Italy |
-| [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) | **41,319** | Italy |
-| [antirez/ds4](https://github.com/antirez/ds4) | **23,098** | Catania, Sicily, Italy |
-| [Datalux/Osintgram](https://github.com/Datalux/Osintgram) | **14,760** | Italy |
-| [evilsocket/opensnitch](https://github.com/evilsocket/opensnitch) | **14,118** | Italy |
-| [skypjack/entt](https://github.com/skypjack/entt) | **13,161** | Florence, Italy |
+| [FiloSottile/mkcert](https://github.com/FiloSottile/mkcert) | **59,722** | Rome, Italy |
+| [mudler/LocalAI](https://github.com/mudler/LocalAI) | **49,398** | Italy |
+| [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet) | **41,336** | Italy |
+| [antirez/ds4](https://github.com/antirez/ds4) | **23,542** | Catania, Sicily, Italy |
+| [Datalux/Osintgram](https://github.com/Datalux/Osintgram) | **14,788** | Italy |
+| [evilsocket/opensnitch](https://github.com/evilsocket/opensnitch) | **14,122** | Italy |
+| [skypjack/entt](https://github.com/skypjack/entt) | **13,164** | Florence, Italy |
 | [cubiq/iscroll](https://github.com/cubiq/iscroll) | **12,790** | Florence, Italy |
 | [gcanti/fp-ts](https://github.com/gcanti/fp-ts) | **11,550** | Milan, Italy |
-| [edoardottt/awesome-hacker-search-engines](https://github.com/edoardottt/awesome-hacker-search-engines) | **11,243** | Italy |
+| [edoardottt/awesome-hacker-search-engines](https://github.com/edoardottt/awesome-hacker-search-engines) | **11,253** | Italy |
 | [mcollina/autocannon](https://github.com/mcollina/autocannon) | **8,527** | Forlì, Italy |
 | [malcommac/SwiftDate](https://github.com/malcommac/SwiftDate) | **7,692** | Rome, Italy |
-| [lballabio/QuantLib](https://github.com/lballabio/QuantLib) | **7,645** | Milan, Italy |
+| [lballabio/QuantLib](https://github.com/lballabio/QuantLib) | **7,650** | Milan, Italy |
 | [johnno1962/injectionforxcode](https://github.com/johnno1962/injectionforxcode) | **6,534** | Italy (VT) |
-| [andreamazz/AMScrollingNavbar](https://github.com/andreamazz/AMScrollingNavbar) | **5,988** | Italy |
+| [andreamazz/AMScrollingNavbar](https://github.com/andreamazz/AMScrollingNavbar) | **5,989** | Italy |
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **37**
-- Current global star frontier: **1,885**
+- Verified high-star candidates retained: **44**
+- Current global star frontier: **1,684**
 
 ### High-star verified preview
 

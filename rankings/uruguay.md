@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **2,121**
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **1,684**
 
 ### High-star verified preview
 
@@ -56,5 +56,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [omab/python-social-auth](https://github.com/omab/python-social-auth) | **2,802** | Montevideo, Uruguay |
 | [omab/django-social-auth](https://github.com/omab/django-social-auth) | **2,650** | Montevideo, Uruguay |
 | [titoBouzout/SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements) | **2,223** | Montevideo, Uruguay |
+| [itaybre/CameraController](https://github.com/itaybre/CameraController) | **1,762** | Montevideo, Uruguay |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

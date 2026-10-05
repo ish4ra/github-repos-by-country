@@ -21,7 +21,7 @@
 
 ## Browse by country
 
-**250 indexed · 18 live · 249 building · 0 queued**
+**250 indexed · 19 live · 249 building · 0 queued**
 
 > 🟢 **Live** = published ranking · 🟡 **Building** = crawl in progress · ⚪ **Queued** = waiting for its first crawl
 
@@ -141,7 +141,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
       <td width="25%">🟡 <a href="./rankings/falkland-islands.md"><strong>🇫🇰 Falkland Islands</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/faroe-islands.md"><strong>🇫🇴 Faroe Islands</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/fiji.md"><strong>🇫🇯 Fiji</strong></a></td>
-      <td width="25%">🟡 <a href="./rankings/finland.md"><strong>🇫🇮 Finland</strong></a></td>
+      <td width="25%">🟢 <a href="./rankings/finland.md"><strong>🇫🇮 Finland</strong></a></td>
     </tr>
     <tr>
       <td width="25%">🟢 <a href="./rankings/france.md"><strong>🇫🇷 France</strong></a></td>

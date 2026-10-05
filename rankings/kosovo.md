@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 78**
 - Progress: **0%**
-- Retained high-potential owner candidates: **256**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **260**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -32,12 +32,12 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [gentritabazi/vue-lumen-starter](https://github.com/gentritabazi/vue-lumen-starter) | **162** | Kosovo, Mitrovice |
 | [vjanz/python-asynchronous-tasks](https://github.com/vjanz/python-asynchronous-tasks) | **87** | Prishtina, Kosovo |
 | [ledjon-behluli/OrleanSpaces](https://github.com/ledjon-behluli/OrleanSpaces) | **69** | Kosovo |
+| [Korabi-dev/VelocityFixer](https://github.com/Korabi-dev/VelocityFixer) | **64** | Gjilan, Kosovo. |
 | [altinthaqi/next-elysia-template](https://github.com/altinthaqi/next-elysia-template) | **55** | Kosovo |
 | [edongashi/WpfMaterialForms](https://github.com/edongashi/WpfMaterialForms) | **52** | Kosovo |
 | [BetimShala/quran-images-api](https://github.com/BetimShala/quran-images-api) | **50** | Kosovo |
 | [egzonpllana/interactive-image-view-ios](https://github.com/egzonpllana/interactive-image-view-ios) | **49** | Prishtina, Kosovo |
 | [omermaksutii/mnemo](https://github.com/omermaksutii/mnemo) | **44** | Kosovo |
 | [lorentsinani/16bitCPU-Verilog](https://github.com/lorentsinani/16bitCPU-Verilog) | **23** | Mitrovica, Kosovo |
-| [altinukshini/pfstats](https://github.com/altinukshini/pfstats) | **22** | Pristina, Kosovo |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

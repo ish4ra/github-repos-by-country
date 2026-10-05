@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **6**
-- Current global star frontier: **1,885**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **1,684**
 
 ### High-star verified preview
 
@@ -57,5 +57,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [thecodeholic/php-developer-roadmap](https://github.com/thecodeholic/php-developer-roadmap) | **3,657** | Tbilisi, Georgia |
 | [samgozman/YoptaScript](https://github.com/samgozman/YoptaScript) | **2,251** | Tbilisi, Georgia |
 | [Stichoza/google-translate-php](https://github.com/Stichoza/google-translate-php) | **1,942** | Tbilisi, Georgia |
+| [malbiruk/driftwm](https://github.com/malbiruk/driftwm) | **1,765** | Tbilisi, Georgia |
+| [Giorgi/EntityFramework.Exceptions](https://github.com/Giorgi/EntityFramework.Exceptions) | **1,737** | Tbilisi |
+| [n7olkachev/imgdiff](https://github.com/n7olkachev/imgdiff) | **1,706** | Georgia, Batumi |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

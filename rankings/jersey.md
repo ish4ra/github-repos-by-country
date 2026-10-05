@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 67**
 - Progress: **0%**
-- Retained high-potential owner candidates: **132**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **141**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,10 +25,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [kenwheeler/slick](https://github.com/kenwheeler/slick) | **28,535** | Jersey Shore |
-| [jquense/yup](https://github.com/jquense/yup) | **23,659** | New Jersey |
-| [kevin-wayne/algs4](https://github.com/kevin-wayne/algs4) | **7,515** | Princeton, New Jersey |
+| [jquense/yup](https://github.com/jquense/yup) | **23,660** | New Jersey |
+| [kevin-wayne/algs4](https://github.com/kevin-wayne/algs4) | **7,516** | Princeton, New Jersey |
 | [AdminTurnedDevOps/DevOps-The-Hard-Way-AWS](https://github.com/AdminTurnedDevOps/DevOps-The-Hard-Way-AWS) | **2,432** | New Jersey |
-| [rorysroes/SGX-Full-OrderBook-Tick-Data-Trading-Strategy](https://github.com/rorysroes/SGX-Full-OrderBook-Tick-Data-Trading-Strategy) | **2,349** | Jersey City |
+| [rorysroes/SGX-Full-OrderBook-Tick-Data-Trading-Strategy](https://github.com/rorysroes/SGX-Full-OrderBook-Tick-Data-Trading-Strategy) | **2,352** | Jersey City |
 | [spikebrehm/isomorphic-tutorial](https://github.com/spikebrehm/isomorphic-tutorial) | **1,333** | Brooklyn & Jersey Shore |
 | [structurizr/java](https://github.com/structurizr/java) | **1,135** | Jersey, Channel Islands |
 | [flavorjones/loofah](https://github.com/flavorjones/loofah) | **1,000** | New York City / New Jersey |

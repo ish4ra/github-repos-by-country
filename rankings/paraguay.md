@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [juancarlosmiranda/azure_kinect_notes](https://github.com/juancarlosmiranda/azure_kinect_notes) | **42** | Encarnación - Paraguay |
 | [jvcjunior/login-react-redux](https://github.com/jvcjunior/login-react-redux) | **40** | Santa Rita, Paraguay |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **1,684**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [tchx84/Flatseal](https://github.com/tchx84/Flatseal) | **1,789** | Paraguay |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

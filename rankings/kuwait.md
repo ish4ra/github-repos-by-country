@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 46**
 - Progress: **0%**
 - Retained high-potential owner candidates: **302**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,8 +25,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [obytes/react-native-template-obytes](https://github.com/obytes/react-native-template-obytes) | **4,349** | Kuwait |
-| [NYAN-x-CAT/AsyncRAT-C-Sharp](https://github.com/NYAN-x-CAT/AsyncRAT-C-Sharp) | **3,030** | Kuwait |
-| [arabcoders/watchstate](https://github.com/arabcoders/watchstate) | **1,573** | Kuwait |
+| [NYAN-x-CAT/AsyncRAT-C-Sharp](https://github.com/NYAN-x-CAT/AsyncRAT-C-Sharp) | **3,032** | Kuwait |
+| [arabcoders/watchstate](https://github.com/arabcoders/watchstate) | **1,574** | Kuwait |
 | [aesmail/kaffy](https://github.com/aesmail/kaffy) | **1,417** | Kuwait |
 | [Voulnet/barq](https://github.com/Voulnet/barq) | **386** | Kuwait, Kuwait City |
 | [MaaSTaaR/539kernel](https://github.com/MaaSTaaR/539kernel) | **257** | Kuwait |

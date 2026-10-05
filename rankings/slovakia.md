@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **12**
-- Current global star frontier: **1,885**
+- Verified high-star candidates retained: **13**
+- Current global star frontier: **1,684**
 
 ### High-star verified preview
 
@@ -63,5 +63,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [darsain/sly](https://github.com/darsain/sly) | **2,839** | Slovakia |
 | [michalmalik/linux-re-101](https://github.com/michalmalik/linux-re-101) | **2,081** | Bratislava, Slovakia |
 | [JurajNyiri/HomeAssistant-Tapo-Control](https://github.com/JurajNyiri/HomeAssistant-Tapo-Control) | **2,010** | Slovakia |
+| [michalmalik/osx-re-101](https://github.com/michalmalik/osx-re-101) | **1,732** | Bratislava, Slovakia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

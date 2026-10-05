@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 401**
 - Progress: **0%**
-- Retained high-potential owner candidates: **415**
-- Search requests completed: **17**
+- Retained high-potential owner candidates: **421**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,26 +24,26 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [0xAX/linux-insides](https://github.com/0xAX/linux-insides) | **33,619** | Kazakhstan, Astana |
-| [henrypp/memreduct](https://github.com/henrypp/memreduct) | **10,699** | Almaty, Kazakhstan |
-| [MakazhanAlpamys/Soup](https://github.com/MakazhanAlpamys/Soup) | **8,053** | Astana, Kazakhstan |
-| [Hexlet/ru-test-assignments](https://github.com/Hexlet/ru-test-assignments) | **6,776** | Kazakhstan |
-| [adilkhash/Data-Engineering-HowTo](https://github.com/adilkhash/Data-Engineering-HowTo) | **4,028** | Astana, Kazakhstan |
+| [0xAX/linux-insides](https://github.com/0xAX/linux-insides) | **33,621** | Kazakhstan, Astana |
+| [henrypp/memreduct](https://github.com/henrypp/memreduct) | **10,716** | Almaty, Kazakhstan |
+| [MakazhanAlpamys/Soup](https://github.com/MakazhanAlpamys/Soup) | **8,162** | Astana, Kazakhstan |
+| [Hexlet/ru-test-assignments](https://github.com/Hexlet/ru-test-assignments) | **6,780** | Kazakhstan |
+| [adilkhash/Data-Engineering-HowTo](https://github.com/adilkhash/Data-Engineering-HowTo) | **4,029** | Astana, Kazakhstan |
 | [artemnovichkov/iOS-11-by-Examples](https://github.com/artemnovichkov/iOS-11-by-Examples) | **3,282** | Almaty, Kazakhstan |
 | [fnc12/sqlite_orm](https://github.com/fnc12/sqlite_orm) | **2,696** | Almaty, Kazakhstan |
 | [kefir500/apk-editor-studio](https://github.com/kefir500/apk-editor-studio) | **1,668** | Almaty, Kazakhstan |
-| [raindropio/app](https://github.com/raindropio/app) | **1,604** | Kazakhstan |
+| [raindropio/app](https://github.com/raindropio/app) | **1,606** | Kazakhstan |
 | [icerockdev/moko-resources](https://github.com/icerockdev/moko-resources) | **1,350** | Kazakhstan |
 | [aitemr/awesome-git-hooks](https://github.com/aitemr/awesome-git-hooks) | **979** | Almaty, Kazakhstan |
 | [Sh3lldon/FullBypass](https://github.com/Sh3lldon/FullBypass) | **819** | Kazakhstan |
 | [zerobias/telegram-mtproto](https://github.com/zerobias/telegram-mtproto) | **629** | Kazakhstan |
 | [Nai64/Nai64Patches](https://github.com/Nai64/Nai64Patches) | **605** | Kazakhstan |
-| [onl1ner/TabBar](https://github.com/onl1ner/TabBar) | **469** | Astana, Kazakhstan |
+| [shinovon/KEmulator](https://github.com/shinovon/KEmulator) | **470** | Kazakhstan |
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **11**
-- Current global star frontier: **1,885**
+- Verified high-star candidates retained: **12**
+- Current global star frontier: **1,684**
 
 ### High-star verified preview
 
@@ -62,5 +62,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [fnc12/sqlite_orm](https://github.com/fnc12/sqlite_orm) | **2,695** | Almaty, Kazakhstan |
 | [kmmbvnr/django-fsm](https://github.com/kmmbvnr/django-fsm) | **2,347** | Qazaqstan, Astana |
 | [0xAX/go-algorithms](https://github.com/0xAX/go-algorithms) | **1,951** | Kazakhstan, Astana |
+| [roxy-wi/roxy-wi](https://github.com/roxy-wi/roxy-wi) | **1,828** | Kazakhstan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

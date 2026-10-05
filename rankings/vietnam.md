@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **15**
-- Current global star frontier: **1,885**
+- Verified high-star candidates retained: **20**
+- Current global star frontier: **1,684**
 
 ### High-star verified preview
 
@@ -66,5 +66,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [hunglc007/tensorflow-yolov4-tflite](https://github.com/hunglc007/tensorflow-yolov4-tflite) | **2,253** | Hanoi, VietNam |
 | [tuandm/laravue](https://github.com/tuandm/laravue) | **2,196** | HCMC |
 | [tungbq/devops-basics](https://github.com/tungbq/devops-basics) | **1,882** | Ho Chi Minh City, Vietnam |
+| [hnvn/flutter_shimmer](https://github.com/hnvn/flutter_shimmer) | **1,860** | Hanoi, Vietnam |
+| [anhskohbo/no-captcha](https://github.com/anhskohbo/no-captcha) | **1,848** | Ha Noi, Viet Nam |
+| [thanglequoc/vietnamese-provinces-database](https://github.com/thanglequoc/vietnamese-provinces-database) | **1,818** | Ho Chi Minh city, Vietnam |
+| [ken107/read-aloud](https://github.com/ken107/read-aloud) | **1,757** | Vung Tau, Vietnam |
+| [PokeAPI/sprites](https://github.com/PokeAPI/sprites) | **1,707** | Kanto |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

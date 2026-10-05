@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **13**
-- Current global star frontier: **1,885**
+- Verified high-star candidates retained: **15**
+- Current global star frontier: **1,684**
 
 ### High-star verified preview
 
@@ -64,5 +64,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [AdguardTeam/dnsproxy](https://github.com/AdguardTeam/dnsproxy) | **3,353** | Cyprus |
 | [pikvm/ustreamer](https://github.com/pikvm/ustreamer) | **2,035** | Cyprus |
 | [AdguardTeam/AdguardForAndroid](https://github.com/AdguardTeam/AdguardForAndroid) | **1,903** | Cyprus |
+| [GreenmaskIO/greenmask](https://github.com/GreenmaskIO/greenmask) | **1,777** | Cyprus |
+| [AdguardTeam/AdguardForiOS](https://github.com/AdguardTeam/AdguardForiOS) | **1,711** | Cyprus |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

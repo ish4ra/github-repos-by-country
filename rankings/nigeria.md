@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **2,121**
+- Verified high-star candidates retained: **12**
+- Current global star frontier: **1,684**
 
 ### High-star verified preview
 
@@ -60,5 +60,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [calistus-igwilo/nitda-blockchain-scholarship](https://github.com/calistus-igwilo/nitda-blockchain-scholarship) | **3,084** | Nigeria |
 | [ayoisaiah/f2](https://github.com/ayoisaiah/f2) | **2,453** | Abuja, Nigeria |
 | [BolajiAyodeji/awesome-technical-writing](https://github.com/BolajiAyodeji/awesome-technical-writing) | **2,313** | Abuja, Nigeria |
+| [abiosoft/ishell](https://github.com/abiosoft/ishell) | **1,759** | Nigeria |
+| [classroomio/classroomio](https://github.com/classroomio/classroomio) | **1,710** | Nigeria |
+| [panshak/accountill](https://github.com/panshak/accountill) | **1,696** | Nigeria |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

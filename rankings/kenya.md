@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 352**
 - Progress: **0%**
 - Retained high-potential owner candidates: **134**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,12 +24,12 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [Dark-Xploit/CypherX](https://github.com/Dark-Xploit/CypherX) | **2,958** | Kenya |
+| [Dark-Xploit/CypherX](https://github.com/Dark-Xploit/CypherX) | **2,961** | Kenya |
 | [larymak/Python-project-Scripts](https://github.com/larymak/Python-project-Scripts) | **2,508** | Kenya |
-| [alvin-tosh/Malware-Exhibit](https://github.com/alvin-tosh/Malware-Exhibit) | **1,186** | Nairobi, Kenya |
+| [alvin-tosh/Malware-Exhibit](https://github.com/alvin-tosh/Malware-Exhibit) | **1,187** | Nairobi, Kenya |
 | [joelkanyi/FocusBloom](https://github.com/joelkanyi/FocusBloom) | **587** | Nairobi, Kenya |
 | [fbiego/esp32-c3-mini](https://github.com/fbiego/esp32-c3-mini) | **541** | Kenya |
-| [JohnMwendwa/vet-management-system](https://github.com/JohnMwendwa/vet-management-system) | **347** | Nairobi, Kenya |
+| [JohnMwendwa/vet-management-system](https://github.com/JohnMwendwa/vet-management-system) | **353** | Nairobi, Kenya |
 | [kn9ts/project-mulla](https://github.com/kn9ts/project-mulla) | **299** | Nairobi, Kenya |
 | [jumaallan/android-mpesa-api](https://github.com/jumaallan/android-mpesa-api) | **213** | Nairobi Kenya |
 | [kelvinndmo/ke-accountability](https://github.com/kelvinndmo/ke-accountability) | **204** | Nairobi,Kenya |
@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **6**
-- Current global star frontier: **1,885**
+- Verified high-star candidates retained: **8**
+- Current global star frontier: **1,684**
 
 ### High-star verified preview
 
@@ -57,5 +57,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [st3v3nmw/obsidian-spaced-repetition](https://github.com/st3v3nmw/obsidian-spaced-repetition) | **2,573** | Nairobi, Kenya |
 | [larymak/Python-project-Scripts](https://github.com/larymak/Python-project-Scripts) | **2,507** | Kenya |
 | [JohnTroony/php-webshells](https://github.com/JohnTroony/php-webshells) | **1,959** | Nairobi |
+| [franceking1/Flash-Md-V3](https://github.com/franceking1/Flash-Md-V3) | **1,775** | Nairobi  |
+| [JifuZhao/DS-Take-Home](https://github.com/JifuZhao/DS-Take-Home) | **1,718** | Urbana, IL, USA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

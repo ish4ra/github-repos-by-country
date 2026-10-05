@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 137**
 - Progress: **0%**
-- Retained high-potential owner candidates: **340**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **342**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -26,7 +26,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [eszdman/PhotonCamera](https://github.com/eszdman/PhotonCamera) | **1,114** | Kyrgyzstan |
 | [dontsovcmc/waterius](https://github.com/dontsovcmc/waterius) | **679** | Bishkek, Kyrgyzstan |
-| [teimurjan/blazediff](https://github.com/teimurjan/blazediff) | **346** | Bishkek, Kyrgyzstan |
+| [teimurjan/blazediff](https://github.com/teimurjan/blazediff) | **348** | Bishkek, Kyrgyzstan |
 | [bashu/django-tracking](https://github.com/bashu/django-tracking) | **225** | Bishkek, Kyrgyzstan |
 | [CyberLight/caninclude](https://github.com/CyberLight/caninclude) | **191** | Kyrgyzstan |
 | [spacegangster/page-renderer](https://github.com/spacegangster/page-renderer) | **117** | Kyrgyzstan |

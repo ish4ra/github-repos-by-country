@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **13**
-- Current global star frontier: **2,121**
+- Verified high-star candidates retained: **15**
+- Current global star frontier: **1,684**
 
 ### High-star verified preview
 
@@ -64,5 +64,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [TCNOco/TcNo-Acc-Switcher](https://github.com/TCNOco/TcNo-Acc-Switcher) | **2,374** | South Africa |
 | [snaplet/postgres-wasm](https://github.com/snaplet/postgres-wasm) | **2,320** | South Africa |
 | [vpavlenko/study-music](https://github.com/vpavlenko/study-music) | **2,301** | Tzaneen, South Africa |
+| [alexmojaki/heartrate](https://github.com/alexmojaki/heartrate) | **1,844** | South Africa |
+| [alexmojaki/birdseye](https://github.com/alexmojaki/birdseye) | **1,772** | South Africa |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

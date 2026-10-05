@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **13**
-- Current global star frontier: **1,885**
+- Verified high-star candidates retained: **15**
+- Current global star frontier: **1,684**
 
 ### High-star verified preview
 
@@ -64,5 +64,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [DockStation/dockstation](https://github.com/DockStation/dockstation) | **2,158** | Minsk, Belarus |
 | [asaskevich/EventBus](https://github.com/asaskevich/EventBus) | **1,983** | Belarus |
 | [Mixaill/awesome-gog-galaxy](https://github.com/Mixaill/awesome-gog-galaxy) | **1,906** | Minsk, Belarus |
+| [barbushin/php-imap](https://github.com/barbushin/php-imap) | **1,699** | Belarus |
+| [ermig1979/AntiDupl](https://github.com/ermig1979/AntiDupl) | **1,682** | Minsk, Belarus |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

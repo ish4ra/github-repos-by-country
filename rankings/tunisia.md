@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **6**
-- Current global star frontier: **1,885**
+- Verified high-star candidates retained: **8**
+- Current global star frontier: **1,684**
 
 ### High-star verified preview
 
@@ -57,5 +57,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [anouarbensaad/vulnx](https://github.com/anouarbensaad/vulnx) | **2,149** | Tunisia |
 | [Fakerr/git-recall](https://github.com/Fakerr/git-recall) | **2,110** | Tunis, Tunisia |
 | [Cyb0r9/SocialBox](https://github.com/Cyb0r9/SocialBox) | **2,060** | Tunisia |
+| [MohamedRejeb/compose-rich-editor](https://github.com/MohamedRejeb/compose-rich-editor) | **1,858** | Tunisia |
+| [MohamedRejeb/Calf](https://github.com/MohamedRejeb/Calf) | **1,727** | Tunisia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

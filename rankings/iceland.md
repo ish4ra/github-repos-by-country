@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 172**
 - Progress: **0%**
-- Retained high-potential owner candidates: **308**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **310**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,13 +24,13 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | **68,815** | Iceland |
+| [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks) | **68,944** | Iceland |
 | [lss233/kirara-ai](https://github.com/lss233/kirara-ai) | **19,061** | Iceland III |
-| [sveinbjornt/Sloth](https://github.com/sveinbjornt/Sloth) | **8,965** | Reykjavík, Iceland |
-| [imbue-bit/AlphaGPT](https://github.com/imbue-bit/AlphaGPT) | **3,161** | Iceland |
+| [sveinbjornt/Sloth](https://github.com/sveinbjornt/Sloth) | **8,966** | Reykjavík, Iceland |
+| [imbue-bit/AlphaGPT](https://github.com/imbue-bit/AlphaGPT) | **3,164** | Iceland |
 | [jeremybarbet/react-native-modalize](https://github.com/jeremybarbet/react-native-modalize) | **2,880** | Reykjavík, Iceland |
-| [HermannBjorgvin/Clawdmeter](https://github.com/HermannBjorgvin/Clawdmeter) | **2,229** | Reykjavík, Iceland |
-| [einaregilsson/Redirector](https://github.com/einaregilsson/Redirector) | **2,092** | Iceland |
+| [HermannBjorgvin/Clawdmeter](https://github.com/HermannBjorgvin/Clawdmeter) | **2,233** | Reykjavík, Iceland |
+| [einaregilsson/Redirector](https://github.com/einaregilsson/Redirector) | **2,093** | Iceland |
 | [birkir/prime](https://github.com/birkir/prime) | **1,717** | Reykjavík, Iceland |
 | [SuprDewd/T-414-AFLV](https://github.com/SuprDewd/T-414-AFLV) | **911** | Iceland |
 | [pagekite/PyPagekite](https://github.com/pagekite/PyPagekite) | **751** | Reykjavik, Iceland |
@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **7**
-- Current global star frontier: **1,885**
+- Verified high-star candidates retained: **8**
+- Current global star frontier: **1,684**
 
 ### High-star verified preview
 
@@ -58,5 +58,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [jeremybarbet/react-native-modalize](https://github.com/jeremybarbet/react-native-modalize) | **2,880** | Reykjavík, Iceland |
 | [HermannBjorgvin/Clawdmeter](https://github.com/HermannBjorgvin/Clawdmeter) | **2,231** | Reykjavík, Iceland |
 | [einaregilsson/Redirector](https://github.com/einaregilsson/Redirector) | **2,093** | Iceland |
+| [birkir/prime](https://github.com/birkir/prime) | **1,717** | Reykjavík, Iceland |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
