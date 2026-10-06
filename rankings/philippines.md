@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 3,436**
 - Progress: **0%**
-- Retained high-potential owner candidates: **152**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **155**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,13 +25,13 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [yajra/laravel-datatables](https://github.com/yajra/laravel-datatables) | **4,872** | Philippines |
-| [ivanceras/svgbob](https://github.com/ivanceras/svgbob) | **4,234** | Cebu, Philippines |
-| [xiv3r/Burpsuite-Professional](https://github.com/xiv3r/Burpsuite-Professional) | **3,162** | Malaybalay City Philippines |
-| [tyron12233/CodeAssist](https://github.com/tyron12233/CodeAssist) | **1,947** | Philippines |
+| [ivanceras/svgbob](https://github.com/ivanceras/svgbob) | **4,235** | Cebu, Philippines |
+| [xiv3r/Burpsuite-Professional](https://github.com/xiv3r/Burpsuite-Professional) | **3,173** | Malaybalay City Philippines |
+| [tyron12233/CodeAssist](https://github.com/tyron12233/CodeAssist) | **1,958** | Philippines |
 | [AeolusUX/ArkOS-R3XS](https://github.com/AeolusUX/ArkOS-R3XS) | **1,596** | Philippines |
 | [jgudo/ecommerce-react](https://github.com/jgudo/ecommerce-react) | **1,347** | Philippines |
-| [bryllim/workout-guide](https://github.com/bryllim/workout-guide) | **1,324** | Manila, Philippines |
-| [roatienza/Deep-Learning-Experiments](https://github.com/roatienza/Deep-Learning-Experiments) | **1,201** | Philippines |
+| [bryllim/workout-guide](https://github.com/bryllim/workout-guide) | **1,330** | Manila, Philippines |
+| [roatienza/Deep-Learning-Experiments](https://github.com/roatienza/Deep-Learning-Experiments) | **1,203** | Philippines |
 | [smoochiee/Bluetooth-jammer-esp32](https://github.com/smoochiee/Bluetooth-jammer-esp32) | **1,072** | philippines |
 | [lxsmnsyc/seroval](https://github.com/lxsmnsyc/seroval) | **731** | Philippines |
 | [joshuadeguzman/flutter-examples](https://github.com/joshuadeguzman/flutter-examples) | **625** | Philippines |
@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **24**
-- Current global star frontier: **1,280**
+- Verified high-star candidates retained: **26**
+- Current global star frontier: **1,179**
 
 ### High-star verified preview
 

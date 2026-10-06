@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 607**
 - Progress: **0%**
-- Retained high-potential owner candidates: **189**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **191**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,9 +24,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | **67,038** | Karachi, Pakistan |
-| [farhanashrafdev/90DaysOfCyberSecurity](https://github.com/farhanashrafdev/90DaysOfCyberSecurity) | **19,773** | Lahore, Pakistan |
-| [FareedKhan-dev/train-llm-from-scratch](https://github.com/FareedKhan-dev/train-llm-from-scratch) | **11,945** | Karachi, Pakistan |
+| [shanraisshan/claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | **67,181** | Karachi, Pakistan |
+| [farhanashrafdev/90DaysOfCyberSecurity](https://github.com/farhanashrafdev/90DaysOfCyberSecurity) | **19,808** | Lahore, Pakistan |
+| [FareedKhan-dev/train-llm-from-scratch](https://github.com/FareedKhan-dev/train-llm-from-scratch) | **11,991** | Karachi, Pakistan |
 | [r0oth3x49/udemy-dl](https://github.com/r0oth3x49/udemy-dl) | **4,950** | Pakistan |
 | [evildevill/instahack](https://github.com/evildevill/instahack) | **1,908** | Pakistan |
 | [wajahatkarim3/EasyFlipView](https://github.com/wajahatkarim3/EasyFlipView) | **1,376** | Karachi, Pakistan |
@@ -37,13 +37,13 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [AsharibAli/100-days-of-code](https://github.com/AsharibAli/100-days-of-code) | **192** | Pakistan |
 | [ghousahmed/modern-web-and-app-development](https://github.com/ghousahmed/modern-web-and-app-development) | **148** | Karachi,Pakistan |
 | [rashidwassan/My-Ultimate-OSINT-Arsenal](https://github.com/rashidwassan/My-Ultimate-OSINT-Arsenal) | **141** | Karachi, Sindh, Pakistan |
-| [EimanTahir027/Python-Programming-Basics-For-Artificial-Intelligence](https://github.com/EimanTahir027/Python-Programming-Basics-For-Artificial-Intelligence) | **123** | Islamabad,Pakistan |
+| [EimanTahir027/Python-Programming-Basics-For-Artificial-Intelligence](https://github.com/EimanTahir027/Python-Programming-Basics-For-Artificial-Intelligence) | **132** | Pakistan |
 | [MuhammadMohsin/PanacloudBootcamp2020](https://github.com/MuhammadMohsin/PanacloudBootcamp2020) | **105** | Karachi, Pakistan |
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **25**
-- Current global star frontier: **1,280**
+- Verified high-star candidates retained: **26**
+- Current global star frontier: **1,179**
 
 ### High-star verified preview
 

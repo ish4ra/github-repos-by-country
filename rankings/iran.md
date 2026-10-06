@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **12**
-- Current global star frontier: **1,280**
+- Verified high-star candidates retained: **18**
+- Current global star frontier: **1,179**
 
 ### High-star verified preview
 
@@ -63,5 +63,11 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [easy-team/egg-vue-webpack-boilerplate](https://github.com/easy-team/egg-vue-webpack-boilerplate) | **1,358** | GZ |
 | [seramo/v2ray-config-modifier](https://github.com/seramo/v2ray-config-modifier) | **1,326** | Mashhad, Iran |
 | [ghost1372/HandyControls](https://github.com/ghost1372/HandyControls) | **1,310** | Qeydar, Iran |
+| [barnamenevisi/free-resources](https://github.com/barnamenevisi/free-resources) | **1,277** | Iran |
+| [f4rih/websploit](https://github.com/f4rih/websploit) | **1,253** | Iran, Tehran |
+| [KaisenAmin/c_std](https://github.com/KaisenAmin/c_std) | **1,251** | Tehran |
+| [HirbodBehnam/MTProtoProxyInstaller](https://github.com/HirbodBehnam/MTProtoProxyInstaller) | **1,216** | Tehran |
+| [persian-tools/persian-tools](https://github.com/persian-tools/persian-tools) | **1,215** | Iran |
+| [FDX100/Auto_Tor_IP_changer](https://github.com/FDX100/Auto_Tor_IP_changer) | **1,179** | Kurdistan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

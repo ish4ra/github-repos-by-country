@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **19**
-- Current global star frontier: **1,280**
+- Verified high-star candidates retained: **20**
+- Current global star frontier: **1,179**
 
 ### High-star verified preview
 
@@ -70,5 +70,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [androidbroadcast/ViewBindingPropertyDelegate](https://github.com/androidbroadcast/ViewBindingPropertyDelegate) | **1,473** | Belarus |
 | [barbushin/php-console](https://github.com/barbushin/php-console) | **1,331** | Belarus |
 | [Stiffstream/restinio](https://github.com/Stiffstream/restinio) | **1,305** | Belarus |
+| [ptrofimov/beanstalk_console](https://github.com/ptrofimov/beanstalk_console) | **1,267** | Беларусь, Минск |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

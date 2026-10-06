@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **16**
-- Current global star frontier: **1,398**
+- Verified high-star candidates retained: **19**
+- Current global star frontier: **1,179**
 
 ### High-star verified preview
 
@@ -67,5 +67,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [crystalidea/macs-fan-control](https://github.com/crystalidea/macs-fan-control) | **1,685** | België |
 | [iongion/container-desktop](https://github.com/iongion/container-desktop) | **1,638** | Louvain-la-Neuve |
 | [erickok/transdroid](https://github.com/erickok/transdroid) | **1,435** | Leuven, Belgium |
+| [wannesm/dtaidistance](https://github.com/wannesm/dtaidistance) | **1,248** | Leuven, Belgium |
+| [jovandeginste/workout-tracker](https://github.com/jovandeginste/workout-tracker) | **1,247** | Rotselaar, Belgium |
+| [Tim-Maes/Facet](https://github.com/Tim-Maes/Facet) | **1,209** | Harelbeke, Belgium |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

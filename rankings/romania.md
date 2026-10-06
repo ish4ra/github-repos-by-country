@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 8,412**
 - Progress: **0%**
 - Retained high-potential owner candidates: **175**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,15 +24,15 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas) | **97,927** | Romania |
+| [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas) | **97,971** | Romania |
 | [eugenp/tutorials](https://github.com/eugenp/tutorials) | **37,329** | Bucharest, Romania |
-| [valinet/ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) | **34,017** | Bucharest, Romania |
-| [ntdevlabs/tiny11builder](https://github.com/ntdevlabs/tiny11builder) | **19,713** | Romania |
+| [valinet/ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) | **34,036** | Bucharest, Romania |
+| [ntdevlabs/tiny11builder](https://github.com/ntdevlabs/tiny11builder) | **19,730** | Romania |
 | [mishoo/UglifyJS](https://github.com/mishoo/UglifyJS) | **13,377** | Iasi, Romania |
-| [serbanghita/Mobile-Detect](https://github.com/serbanghita/Mobile-Detect) | **10,676** | Bucureşti, Romania |
-| [ionuttbara/windows-defender-remover](https://github.com/ionuttbara/windows-defender-remover) | **8,505** | Damuc, Romania |
-| [alin23/Lunar](https://github.com/alin23/Lunar) | **5,711** | Romania |
-| [Bogdanp/dramatiq](https://github.com/Bogdanp/dramatiq) | **5,325** | Cluj-Napoca, Romania |
+| [serbanghita/Mobile-Detect](https://github.com/serbanghita/Mobile-Detect) | **10,677** | Bucureşti, Romania |
+| [ionuttbara/windows-defender-remover](https://github.com/ionuttbara/windows-defender-remover) | **8,512** | Damuc, Romania |
+| [alin23/Lunar](https://github.com/alin23/Lunar) | **5,716** | Romania |
+| [Bogdanp/dramatiq](https://github.com/Bogdanp/dramatiq) | **5,326** | Cluj-Napoca, Romania |
 | [cristianbote/goober](https://github.com/cristianbote/goober) | **3,274** | Cluj-Napoca, Romania |
 | [iRaul/creative-portfolios](https://github.com/iRaul/creative-portfolios) | **2,880** | Romania, Arad |
 | [ovidiuch/illustrated-algorithms](https://github.com/ovidiuch/illustrated-algorithms) | **2,760** | Cluj-Napoca, Romania |
@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **59**
-- Current global star frontier: **1,280**
+- Verified high-star candidates retained: **63**
+- Current global star frontier: **1,179**
 
 ### High-star verified preview
 

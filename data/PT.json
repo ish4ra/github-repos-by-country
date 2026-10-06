@@ -1,14 +1,49 @@
 {
-  "schemaVersion": 2,
-  "locationResolverVersion": 2,
+  "schemaVersion": 1,
+  "methodologyVersion": "0.8.0-repository-first",
+  "generatedAt": "2026-10-06T20:58:37.839Z",
   "country": {
     "code": "PT",
     "name": "Portugal",
     "slug": "portugal"
   },
-  "source": "repository-first-stars-desc",
+  "source": {
+    "provider": "GitHub GraphQL API",
+    "endpoint": "https://api.github.com/graphql",
+    "countryBasis": "public repository-owner profile location",
+    "discovery": "global repositories scanned by stars descending"
+  },
+  "coverage": {
+    "status": "repository-first-certified-by-star-frontier",
+    "exhaustive": false,
+    "rawOwnerHits": 56564,
+    "acceptedUniqueOwners": 63,
+    "ownerMetricLabel": "Unique owners in top ranking",
+    "repositoriesConsidered": 111,
+    "publishedRepositories": 100,
+    "candidateThresholdStars": 1263,
+    "rankingLimit": 100,
+    "cappedQueries": [],
+    "repositoryFirst": {
+      "scanFrontierStars": 1179,
+      "topObservedStars": 551406,
+      "repositoriesSeen": 56564,
+      "attributedRepositories": 20433,
+      "ambiguousLocations": 8692,
+      "unknownLocations": 27439,
+      "unresolvedStarCounts": []
+    },
+    "notes": [
+      "Repositories are scanned globally in descending star ranges, independently of owner follower count or owner-search ordering.",
+      "A country is certified only after its 100th repository has more stars than every unprocessed global star range.",
+      "Owner country is inferred from the owner public GitHub profile location using the global geography resolver.",
+      "Owners with missing or unresolved locations are excluded, so country attribution is not a citizenship or legal-incorporation claim.",
+      "Compound city/admin locations such as \"Portland, OR\" are resolved before ambiguous city-only names."
+    ]
+  },
   "repositories": [
     {
+      "rank": 1,
       "name": "complete-javascript-course",
       "nameWithOwner": "jonasschmedtmann/complete-javascript-course",
       "url": "https://github.com/jonasschmedtmann/complete-javascript-course",
@@ -39,6 +74,7 @@
       }
     },
     {
+      "rank": 2,
       "name": "whoops",
       "nameWithOwner": "filp/whoops",
       "url": "https://github.com/filp/whoops",
@@ -72,6 +108,7 @@
       }
     },
     {
+      "rank": 3,
       "name": "HeroicGamesLauncher",
       "nameWithOwner": "Heroic-Games-Launcher/HeroicGamesLauncher",
       "url": "https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher",
@@ -105,6 +142,7 @@
       }
     },
     {
+      "rank": 4,
       "name": "english-words",
       "nameWithOwner": "dwyl/english-words",
       "url": "https://github.com/dwyl/english-words",
@@ -138,6 +176,7 @@
       }
     },
     {
+      "rank": 5,
       "name": "sre-interview-prep-guide",
       "nameWithOwner": "mxssl/sre-interview-prep-guide",
       "url": "https://github.com/mxssl/sre-interview-prep-guide",
@@ -168,6 +207,7 @@
       }
     },
     {
+      "rank": 6,
       "name": "frontend-case-studies",
       "nameWithOwner": "andrew--r/frontend-case-studies",
       "url": "https://github.com/andrew--r/frontend-case-studies",
@@ -198,6 +238,7 @@
       }
     },
     {
+      "rank": 7,
       "name": "vue-grid-layout",
       "nameWithOwner": "jbaysolutions/vue-grid-layout",
       "url": "https://github.com/jbaysolutions/vue-grid-layout",
@@ -231,6 +272,7 @@
       }
     },
     {
+      "rank": 8,
       "name": "3d-force-graph",
       "nameWithOwner": "vasturiano/3d-force-graph",
       "url": "https://github.com/vasturiano/3d-force-graph",
@@ -264,6 +306,7 @@
       }
     },
     {
+      "rank": 9,
       "name": "phpinsights",
       "nameWithOwner": "nunomaduro/phpinsights",
       "url": "https://github.com/nunomaduro/phpinsights",
@@ -297,6 +340,7 @@
       }
     },
     {
+      "rank": 10,
       "name": "Brooklyn",
       "nameWithOwner": "pedrommcarrasco/Brooklyn",
       "url": "https://github.com/pedrommcarrasco/Brooklyn",
@@ -330,6 +374,7 @@
       }
     },
     {
+      "rank": 11,
       "name": "Flask-AppBuilder",
       "nameWithOwner": "dpgaspar/Flask-AppBuilder",
       "url": "https://github.com/dpgaspar/Flask-AppBuilder",
@@ -363,6 +408,7 @@
       }
     },
     {
+      "rank": 12,
       "name": "dockerode",
       "nameWithOwner": "apocas/dockerode",
       "url": "https://github.com/apocas/dockerode",
@@ -396,6 +442,7 @@
       }
     },
     {
+      "rank": 13,
       "name": "advanced-css-course",
       "nameWithOwner": "jonasschmedtmann/advanced-css-course",
       "url": "https://github.com/jonasschmedtmann/advanced-css-course",
@@ -426,6 +473,7 @@
       }
     },
     {
+      "rank": 14,
       "name": "collision",
       "nameWithOwner": "nunomaduro/collision",
       "url": "https://github.com/nunomaduro/collision",
@@ -459,6 +507,7 @@
       }
     },
     {
+      "rank": 15,
       "name": "ultimate-react-course",
       "nameWithOwner": "jonasschmedtmann/ultimate-react-course",
       "url": "https://github.com/jonasschmedtmann/ultimate-react-course",
@@ -489,6 +538,7 @@
       }
     },
     {
+      "rank": 16,
       "name": "channels",
       "nameWithOwner": "andrew--r/channels",
       "url": "https://github.com/andrew--r/channels",
@@ -519,6 +569,7 @@
       }
     },
     {
+      "rank": 17,
       "name": "learn-json-web-tokens",
       "nameWithOwner": "dwyl/learn-json-web-tokens",
       "url": "https://github.com/dwyl/learn-json-web-tokens",
@@ -552,6 +603,7 @@
       }
     },
     {
+      "rank": 18,
       "name": "chatgpt-telegram",
       "nameWithOwner": "m1guelpf/chatgpt-telegram",
       "url": "https://github.com/m1guelpf/chatgpt-telegram",
@@ -585,6 +637,7 @@
       }
     },
     {
+      "rank": 19,
       "name": "scraperjs",
       "nameWithOwner": "ruipgil/scraperjs",
       "url": "https://github.com/ruipgil/scraperjs",
@@ -618,6 +671,7 @@
       }
     },
     {
+      "rank": 20,
       "name": "macshot",
       "nameWithOwner": "sw33tLie/macshot",
       "url": "https://github.com/sw33tLie/macshot",
@@ -651,6 +705,7 @@
       }
     },
     {
+      "rank": 21,
       "name": "logos",
       "nameWithOwner": "maciejhirsz/logos",
       "url": "https://github.com/maciejhirsz/logos",
@@ -684,6 +739,7 @@
       }
     },
     {
+      "rank": 22,
       "name": "complete-node-bootcamp",
       "nameWithOwner": "jonasschmedtmann/complete-node-bootcamp",
       "url": "https://github.com/jonasschmedtmann/complete-node-bootcamp",
@@ -714,6 +770,7 @@
       }
     },
     {
+      "rank": 23,
       "name": "Music-Player",
       "nameWithOwner": "andremion/Music-Player",
       "url": "https://github.com/andremion/Music-Player",
@@ -747,6 +804,7 @@
       }
     },
     {
+      "rank": 24,
       "name": "compose-destinations",
       "nameWithOwner": "raamcosta/compose-destinations",
       "url": "https://github.com/raamcosta/compose-destinations",
@@ -780,6 +838,7 @@
       }
     },
     {
+      "rank": 25,
       "name": "react-force-graph",
       "nameWithOwner": "vasturiano/react-force-graph",
       "url": "https://github.com/vasturiano/react-force-graph",
@@ -813,6 +872,7 @@
       }
     },
     {
+      "rank": 26,
       "name": "chrome-aws-lambda",
       "nameWithOwner": "alixaxel/chrome-aws-lambda",
       "url": "https://github.com/alixaxel/chrome-aws-lambda",
@@ -846,6 +906,7 @@
       }
     },
     {
+      "rank": 27,
       "name": "ChipsLayoutManager",
       "nameWithOwner": "Oleg-Beloy/ChipsLayoutManager",
       "url": "https://github.com/Oleg-Beloy/ChipsLayoutManager",
@@ -879,6 +940,7 @@
       }
     },
     {
+      "rank": 28,
       "name": "learn-to-send-email-via-google-script-html-no-server",
       "nameWithOwner": "dwyl/learn-to-send-email-via-google-script-html-no-server",
       "url": "https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server",
@@ -912,6 +974,7 @@
       }
     },
     {
+      "rank": 29,
       "name": "globe.gl",
       "nameWithOwner": "vasturiano/globe.gl",
       "url": "https://github.com/vasturiano/globe.gl",
@@ -945,6 +1008,7 @@
       }
     },
     {
+      "rank": 30,
       "name": "awesome-osint-arsenal",
       "nameWithOwner": "rawfilejson/awesome-osint-arsenal",
       "url": "https://github.com/rawfilejson/awesome-osint-arsenal",
@@ -978,6 +1042,7 @@
       }
     },
     {
+      "rank": 31,
       "name": "kill-the-newsletter",
       "nameWithOwner": "leafac/kill-the-newsletter",
       "url": "https://github.com/leafac/kill-the-newsletter",
@@ -1011,6 +1076,7 @@
       }
     },
     {
+      "rank": 32,
       "name": "html-css-course",
       "nameWithOwner": "jonasschmedtmann/html-css-course",
       "url": "https://github.com/jonasschmedtmann/html-css-course",
@@ -1041,6 +1107,7 @@
       }
     },
     {
+      "rank": 33,
       "name": "yasnippet",
       "nameWithOwner": "joaotavora/yasnippet",
       "url": "https://github.com/joaotavora/yasnippet",
@@ -1071,6 +1138,7 @@
       }
     },
     {
+      "rank": 34,
       "name": "react-kawaii",
       "nameWithOwner": "elizabetdev/react-kawaii",
       "url": "https://github.com/elizabetdev/react-kawaii",
@@ -1104,6 +1172,7 @@
       }
     },
     {
+      "rank": 35,
       "name": "repo-badges",
       "nameWithOwner": "dwyl/repo-badges",
       "url": "https://github.com/dwyl/repo-badges",
@@ -1134,6 +1203,7 @@
       }
     },
     {
+      "rank": 36,
       "name": "laravel-gitscrum",
       "nameWithOwner": "gitscrum-core/laravel-gitscrum",
       "url": "https://github.com/gitscrum-core/laravel-gitscrum",
@@ -1167,6 +1237,7 @@
       }
     },
     {
+      "rank": 37,
       "name": "blowfish",
       "nameWithOwner": "nunocoracao/blowfish",
       "url": "https://github.com/nunocoracao/blowfish",
@@ -1200,6 +1271,7 @@
       }
     },
     {
+      "rank": 38,
       "name": "MachOView",
       "nameWithOwner": "gdbinit/MachOView",
       "url": "https://github.com/gdbinit/MachOView",
@@ -1233,6 +1305,7 @@
       }
     },
     {
+      "rank": 39,
       "name": "learn-tdd",
       "nameWithOwner": "dwyl/learn-tdd",
       "url": "https://github.com/dwyl/learn-tdd",
@@ -1266,6 +1339,7 @@
       }
     },
     {
+      "rank": 40,
       "name": "js-spark-md5",
       "nameWithOwner": "satazor/js-spark-md5",
       "url": "https://github.com/satazor/js-spark-md5",
@@ -1299,6 +1373,7 @@
       }
     },
     {
+      "rank": 41,
       "name": "eglot",
       "nameWithOwner": "joaotavora/eglot",
       "url": "https://github.com/joaotavora/eglot",
@@ -1332,6 +1407,7 @@
       }
     },
     {
+      "rank": 42,
       "name": "react-morph",
       "nameWithOwner": "brunnolou/react-morph",
       "url": "https://github.com/brunnolou/react-morph",
@@ -1362,6 +1438,7 @@
       }
     },
     {
+      "rank": 43,
       "name": "termwind",
       "nameWithOwner": "nunomaduro/termwind",
       "url": "https://github.com/nunomaduro/termwind",
@@ -1395,6 +1472,7 @@
       }
     },
     {
+      "rank": 44,
       "name": "swiper",
       "nameWithOwner": "abo-abo/swiper",
       "url": "https://github.com/abo-abo/swiper",
@@ -1425,6 +1503,7 @@
       }
     },
     {
+      "rank": 45,
       "name": "Calendr",
       "nameWithOwner": "pakerwreah/Calendr",
       "url": "https://github.com/pakerwreah/Calendr",
@@ -1458,6 +1537,7 @@
       }
     },
     {
+      "rank": 46,
       "name": "django-ecommerce",
       "nameWithOwner": "justdjango/django-ecommerce",
       "url": "https://github.com/justdjango/django-ecommerce",
@@ -1491,6 +1571,7 @@
       }
     },
     {
+      "rank": 47,
       "name": "PageTransitions",
       "nameWithOwner": "codrops/PageTransitions",
       "url": "https://github.com/codrops/PageTransitions",
@@ -1521,6 +1602,7 @@
       }
     },
     {
+      "rank": 48,
       "name": "teach_yourself_demoscene_in_14_days",
       "nameWithOwner": "psenough/teach_yourself_demoscene_in_14_days",
       "url": "https://github.com/psenough/teach_yourself_demoscene_in_14_days",
@@ -1554,6 +1636,7 @@
       }
     },
     {
+      "rank": 49,
       "name": "auto-subtitle",
       "nameWithOwner": "m1guelpf/auto-subtitle",
       "url": "https://github.com/m1guelpf/auto-subtitle",
@@ -1587,6 +1670,7 @@
       }
     },
     {
+      "rank": 50,
       "name": "nunuStudio",
       "nameWithOwner": "tentone/nunuStudio",
       "url": "https://github.com/tentone/nunuStudio",
@@ -1620,6 +1704,7 @@
       }
     },
     {
+      "rank": 51,
       "name": "endurain",
       "nameWithOwner": "endurain-project/endurain",
       "url": "https://github.com/endurain-project/endurain",
@@ -1653,6 +1738,7 @@
       }
     },
     {
+      "rank": 52,
       "name": "force-graph",
       "nameWithOwner": "vasturiano/force-graph",
       "url": "https://github.com/vasturiano/force-graph",
@@ -1686,6 +1772,7 @@
       }
     },
     {
+      "rank": 53,
       "name": "py2rs",
       "nameWithOwner": "rochacbruno/py2rs",
       "url": "https://github.com/rochacbruno/py2rs",
@@ -1719,6 +1806,7 @@
       }
     },
     {
+      "rank": 54,
       "name": "avy",
       "nameWithOwner": "abo-abo/avy",
       "url": "https://github.com/abo-abo/avy",
@@ -1749,6 +1837,7 @@
       }
     },
     {
+      "rank": 55,
       "name": "hydra",
       "nameWithOwner": "abo-abo/hydra",
       "url": "https://github.com/abo-abo/hydra",
@@ -1779,6 +1868,7 @@
       }
     },
     {
+      "rank": 56,
       "name": "en-croissant",
       "nameWithOwner": "franciscoBSalgueiro/en-croissant",
       "url": "https://github.com/franciscoBSalgueiro/en-croissant",
@@ -1812,6 +1902,7 @@
       }
     },
     {
+      "rank": 57,
       "name": "yake",
       "nameWithOwner": "INESCTEC/yake",
       "url": "https://github.com/INESCTEC/yake",
@@ -1845,6 +1936,7 @@
       }
     },
     {
+      "rank": 58,
       "name": "start-here",
       "nameWithOwner": "dwyl/start-here",
       "url": "https://github.com/dwyl/start-here",
@@ -1875,6 +1967,7 @@
       }
     },
     {
+      "rank": 59,
       "name": "vscode-icons",
       "nameWithOwner": "dhanishgajjar/vscode-icons",
       "url": "https://github.com/dhanishgajjar/vscode-icons",
@@ -1908,6 +2001,7 @@
       }
     },
     {
+      "rank": 60,
       "name": "python-week-2022",
       "nameWithOwner": "rochacbruno/python-week-2022",
       "url": "https://github.com/rochacbruno/python-week-2022",
@@ -1941,6 +2035,7 @@
       }
     },
     {
+      "rank": 61,
       "name": "Gdbinit",
       "nameWithOwner": "gdbinit/Gdbinit",
       "url": "https://github.com/gdbinit/Gdbinit",
@@ -1971,6 +2066,7 @@
       }
     },
     {
+      "rank": 62,
       "name": "RainEffect",
       "nameWithOwner": "codrops/RainEffect",
       "url": "https://github.com/codrops/RainEffect",
@@ -2001,6 +2097,7 @@
       }
     },
     {
+      "rank": 63,
       "name": "rpds",
       "nameWithOwner": "orium/rpds",
       "url": "https://github.com/orium/rpds",
@@ -2034,6 +2131,7 @@
       }
     },
     {
+      "rank": 64,
       "name": "rtl8821ce",
       "nameWithOwner": "tomaspinho/rtl8821ce",
       "url": "https://github.com/tomaspinho/rtl8821ce",
@@ -2067,6 +2165,7 @@
       }
     },
     {
+      "rank": 65,
       "name": "tsdproxy",
       "nameWithOwner": "almeidapaulopt/tsdproxy",
       "url": "https://github.com/almeidapaulopt/tsdproxy",
@@ -2100,6 +2199,7 @@
       }
     },
     {
+      "rank": 66,
       "name": "learn-elixir",
       "nameWithOwner": "dwyl/learn-elixir",
       "url": "https://github.com/dwyl/learn-elixir",
@@ -2130,6 +2230,7 @@
       }
     },
     {
+      "rank": 67,
       "name": "moovie.js",
       "nameWithOwner": "BMSVieira/moovie.js",
       "url": "https://github.com/BMSVieira/moovie.js",
@@ -2163,6 +2264,7 @@
       }
     },
     {
+      "rank": 68,
       "name": "github-automated-repos",
       "nameWithOwner": "digoarthur/github-automated-repos",
       "url": "https://github.com/digoarthur/github-automated-repos",
@@ -2196,6 +2298,7 @@
       }
     },
     {
+      "rank": 69,
       "name": "melonDS-android",
       "nameWithOwner": "rafaelvcaetano/melonDS-android",
       "url": "https://github.com/rafaelvcaetano/melonDS-android",
@@ -2229,6 +2332,7 @@
       }
     },
     {
+      "rank": 70,
       "name": "NetSonar",
       "nameWithOwner": "sn4k3/NetSonar",
       "url": "https://github.com/sn4k3/NetSonar",
@@ -2262,6 +2366,7 @@
       }
     },
     {
+      "rank": 71,
       "name": "SidebarTransitions",
       "nameWithOwner": "codrops/SidebarTransitions",
       "url": "https://github.com/codrops/SidebarTransitions",
@@ -2292,6 +2397,7 @@
       }
     },
     {
+      "rank": 72,
       "name": "HoverEffectIdeas",
       "nameWithOwner": "codrops/HoverEffectIdeas",
       "url": "https://github.com/codrops/HoverEffectIdeas",
@@ -2322,6 +2428,7 @@
       }
     },
     {
+      "rank": 73,
       "name": "three-globe",
       "nameWithOwner": "vasturiano/three-globe",
       "url": "https://github.com/vasturiano/three-globe",
@@ -2355,6 +2462,7 @@
       }
     },
     {
+      "rank": 74,
       "name": "bloomberg-terminal",
       "nameWithOwner": "feremabraz/bloomberg-terminal",
       "url": "https://github.com/feremabraz/bloomberg-terminal",
@@ -2385,6 +2493,7 @@
       }
     },
     {
+      "rank": 75,
       "name": "UVtools",
       "nameWithOwner": "sn4k3/UVtools",
       "url": "https://github.com/sn4k3/UVtools",
@@ -2418,6 +2527,7 @@
       }
     },
     {
+      "rank": 76,
       "name": "android-parallax-recyclerview",
       "nameWithOwner": "kanytu/android-parallax-recyclerview",
       "url": "https://github.com/kanytu/android-parallax-recyclerview",
@@ -2451,6 +2561,7 @@
       }
     },
     {
+      "rank": 77,
       "name": "plz-cli",
       "nameWithOwner": "m1guelpf/plz-cli",
       "url": "https://github.com/m1guelpf/plz-cli",
@@ -2484,6 +2595,7 @@
       }
     },
     {
+      "rank": 78,
       "name": "Outline-Effect",
       "nameWithOwner": "cakeslice/Outline-Effect",
       "url": "https://github.com/cakeslice/Outline-Effect",
@@ -2517,6 +2629,7 @@
       }
     },
     {
+      "rank": 79,
       "name": "updateMe-Mobile",
       "nameWithOwner": "anfreire/updateMe-Mobile",
       "url": "https://github.com/anfreire/updateMe-Mobile",
@@ -2550,6 +2663,7 @@
       }
     },
     {
+      "rank": 80,
       "name": "dl-visuals",
       "nameWithOwner": "dvgodoy/dl-visuals",
       "url": "https://github.com/dvgodoy/dl-visuals",
@@ -2583,6 +2697,7 @@
       }
     },
     {
+      "rank": 81,
       "name": "Animocons",
       "nameWithOwner": "codrops/Animocons",
       "url": "https://github.com/codrops/Animocons",
@@ -2613,6 +2728,7 @@
       }
     },
     {
+      "rank": 82,
       "name": "Microsoft-Integration-and-Azure-Stencils-Pack-for-Visio",
       "nameWithOwner": "sandroasp/Microsoft-Integration-and-Azure-Stencils-Pack-for-Visio",
       "url": "https://github.com/sandroasp/Microsoft-Integration-and-Azure-Stencils-Pack-for-Visio",
@@ -2646,6 +2762,7 @@
       }
     },
     {
+      "rank": 83,
       "name": "sharkord",
       "nameWithOwner": "Sharkord/sharkord",
       "url": "https://github.com/Sharkord/sharkord",
@@ -2679,6 +2796,7 @@
       }
     },
     {
+      "rank": 84,
       "name": "tech-companies-in-portugal",
       "nameWithOwner": "marmelo/tech-companies-in-portugal",
       "url": "https://github.com/marmelo/tech-companies-in-portugal",
@@ -2712,6 +2830,7 @@
       }
     },
     {
+      "rank": 85,
       "name": "chirpstack-network-server",
       "nameWithOwner": "brocaar/chirpstack-network-server",
       "url": "https://github.com/brocaar/chirpstack-network-server",
@@ -2745,6 +2864,7 @@
       }
     },
     {
+      "rank": 86,
       "name": "kubernetes-elasticsearch-cluster",
       "nameWithOwner": "pires/kubernetes-elasticsearch-cluster",
       "url": "https://github.com/pires/kubernetes-elasticsearch-cluster",
@@ -2778,6 +2898,7 @@
       }
     },
     {
+      "rank": 87,
       "name": "PyTorchStepByStep",
       "nameWithOwner": "dvgodoy/PyTorchStepByStep",
       "url": "https://github.com/dvgodoy/PyTorchStepByStep",
@@ -2811,6 +2932,7 @@
       }
     },
     {
+      "rank": 88,
       "name": "google-libphonenumber",
       "nameWithOwner": "ruimarinho/google-libphonenumber",
       "url": "https://github.com/ruimarinho/google-libphonenumber",
@@ -2844,6 +2966,7 @@
       }
     },
     {
+      "rank": 89,
       "name": "ShellPop",
       "nameWithOwner": "0x00-0x00/ShellPop",
       "url": "https://github.com/0x00-0x00/ShellPop",
@@ -2877,6 +3000,7 @@
       }
     },
     {
+      "rank": 90,
       "name": "react-globe.gl",
       "nameWithOwner": "vasturiano/react-globe.gl",
       "url": "https://github.com/vasturiano/react-globe.gl",
@@ -2910,6 +3034,7 @@
       }
     },
     {
+      "rank": 91,
       "name": "bbscope",
       "nameWithOwner": "sw33tLie/bbscope",
       "url": "https://github.com/sw33tLie/bbscope",
@@ -2943,6 +3068,7 @@
       }
     },
     {
+      "rank": 92,
       "name": "yt-whisper",
       "nameWithOwner": "m1guelpf/yt-whisper",
       "url": "https://github.com/m1guelpf/yt-whisper",
@@ -2976,6 +3102,7 @@
       }
     },
     {
+      "rank": 93,
       "name": "sly",
       "nameWithOwner": "joaotavora/sly",
       "url": "https://github.com/joaotavora/sly",
@@ -3006,6 +3133,7 @@
       }
     },
     {
+      "rank": 94,
       "name": "crunz",
       "nameWithOwner": "lavary/crunz",
       "url": "https://github.com/lavary/crunz",
@@ -3039,6 +3167,7 @@
       }
     },
     {
+      "rank": 95,
       "name": "CameraManager",
       "nameWithOwner": "imaginary-cloud/CameraManager",
       "url": "https://github.com/imaginary-cloud/CameraManager",
@@ -3072,6 +3201,7 @@
       }
     },
     {
+      "rank": 96,
       "name": "recollapse",
       "nameWithOwner": "0xacb/recollapse",
       "url": "https://github.com/0xacb/recollapse",
@@ -3105,6 +3235,7 @@
       }
     },
     {
+      "rank": 97,
       "name": "ComfyUI_Comfyroll_CustomNodes",
       "nameWithOwner": "Suzie1/ComfyUI_Comfyroll_CustomNodes",
       "url": "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes",
@@ -3135,6 +3266,7 @@
       }
     },
     {
+      "rank": 98,
       "name": "lispy",
       "nameWithOwner": "abo-abo/lispy",
       "url": "https://github.com/abo-abo/lispy",
@@ -3165,6 +3297,7 @@
       }
     },
     {
+      "rank": 99,
       "name": "Floating-Navigation-View",
       "nameWithOwner": "andremion/Floating-Navigation-View",
       "url": "https://github.com/andremion/Floating-Navigation-View",
@@ -3198,6 +3331,7 @@
       }
     },
     {
+      "rank": 100,
       "name": "ParticleEffectsButtons",
       "nameWithOwner": "codrops/ParticleEffectsButtons",
       "url": "https://github.com/codrops/ParticleEffectsButtons",
@@ -3226,360 +3360,6 @@
         },
         "discoveryTerms": []
       }
-    },
-    {
-      "name": "arc-export",
-      "nameWithOwner": "ivnvxd/arc-export",
-      "url": "https://github.com/ivnvxd/arc-export",
-      "description": "Export pinned Arc Browser tabs for importing bookmarks into other browsers",
-      "stars": 1261,
-      "forks": 94,
-      "primaryLanguage": "Python",
-      "license": {
-        "name": "MIT License",
-        "spdxId": "MIT"
-      },
-      "createdAt": "2023-10-18T10:55:20Z",
-      "pushedAt": "2025-02-06T19:21:35Z",
-      "homepageUrl": null,
-      "archived": false,
-      "owner": {
-        "login": "ivnvxd",
-        "name": "Andrey Ivanov",
-        "type": "User",
-        "url": "https://github.com/ivnvxd",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/97749666?u=929167205d9ef2f73d35455c40ae0a7207c2ae20&v=4",
-        "location": "Lisbon, Portugal",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "PT",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "portugal"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "HCSStarRatingView",
-      "nameWithOwner": "hsousa/HCSStarRatingView",
-      "url": "https://github.com/hsousa/HCSStarRatingView",
-      "description": "Simple star rating view for iOS written in Objective-C",
-      "stars": 1260,
-      "forks": 193,
-      "primaryLanguage": "Objective-C",
-      "license": {
-        "name": "MIT License",
-        "spdxId": "MIT"
-      },
-      "createdAt": "2015-02-10T15:16:22Z",
-      "pushedAt": "2023-04-03T15:37:41Z",
-      "homepageUrl": null,
-      "archived": false,
-      "owner": {
-        "login": "hsousa",
-        "name": "Hugo Sousa",
-        "type": "User",
-        "url": "https://github.com/hsousa",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2064882?v=4",
-        "location": "Lisbon, Portugal",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "PT",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "portugal"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "essentials",
-      "nameWithOwner": "nunomaduro/essentials",
-      "url": "https://github.com/nunomaduro/essentials",
-      "description": "Just better defaults for your Laravel projects.",
-      "stars": 1244,
-      "forks": 75,
-      "primaryLanguage": "PHP",
-      "license": {
-        "name": "MIT License",
-        "spdxId": "MIT"
-      },
-      "createdAt": "2025-04-11T20:24:18Z",
-      "pushedAt": "2026-07-22T16:35:22Z",
-      "homepageUrl": "https://youtube.com/@nunomaduro?sub_confirmation=1",
-      "archived": false,
-      "owner": {
-        "login": "nunomaduro",
-        "name": "nunomaduro",
-        "type": "User",
-        "url": "https://github.com/nunomaduro",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5457236?u=a9b18ba8f2235155d82b44c554b6be4c20dce091&v=4",
-        "location": "Portugal",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "PT",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "portugal"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "learn-travis",
-      "nameWithOwner": "dwyl/learn-travis",
-      "url": "https://github.com/dwyl/learn-travis",
-      "description": ":sunglasses: A quick Travis CI (Continuous Integration) Tutorial for Node.js developers",
-      "stars": 1227,
-      "forks": 333,
-      "primaryLanguage": "JavaScript",
-      "license": {
-        "name": "MIT License",
-        "spdxId": "MIT"
-      },
-      "createdAt": "2013-10-18T10:26:37Z",
-      "pushedAt": "2022-03-24T12:06:38Z",
-      "homepageUrl": null,
-      "archived": false,
-      "owner": {
-        "login": "dwyl",
-        "name": "dwyl",
-        "type": "Organization",
-        "url": "https://github.com/dwyl",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/11708465?v=4",
-        "location": "Portugal",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "PT",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "portugal"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "org-download",
-      "nameWithOwner": "abo-abo/org-download",
-      "url": "https://github.com/abo-abo/org-download",
-      "description": "Drag and drop images to Emacs org-mode",
-      "stars": 1227,
-      "forks": 87,
-      "primaryLanguage": "Emacs Lisp",
-      "license": null,
-      "createdAt": "2013-10-16T14:53:11Z",
-      "pushedAt": "2024-11-18T18:46:13Z",
-      "homepageUrl": null,
-      "archived": false,
-      "owner": {
-        "login": "abo-abo",
-        "name": "Oleh Krehel",
-        "type": "User",
-        "url": "https://github.com/abo-abo",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2937359?u=e6ef55f2c196413dc7e690a7321523055e6241ab&v=4",
-        "location": "Matosinhos, Portugal",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "PT",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "portugal"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "Javascript-the-Good-Parts-notes",
-      "nameWithOwner": "dwyl/Javascript-the-Good-Parts-notes",
-      "url": "https://github.com/dwyl/Javascript-the-Good-Parts-notes",
-      "description": ":book: Notes on the seminal \"JavaScript the Good Parts: by Douglas Crockford",
-      "stars": 1222,
-      "forks": 232,
-      "primaryLanguage": null,
-      "license": null,
-      "createdAt": "2014-04-07T11:40:30Z",
-      "pushedAt": "2023-06-05T09:02:23Z",
-      "homepageUrl": null,
-      "archived": false,
-      "owner": {
-        "login": "dwyl",
-        "name": "dwyl",
-        "type": "Organization",
-        "url": "https://github.com/dwyl",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/11708465?v=4",
-        "location": "Portugal",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "PT",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "portugal"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "python-project-template",
-      "nameWithOwner": "rochacbruno/python-project-template",
-      "url": "https://github.com/rochacbruno/python-project-template",
-      "description": "This template is **archived**.   > UV can now [generate a sample project](https://docs.astral.sh/uv/guides/projects/#creating-a-new-project)   > I recommend using **UV** to bootstrap your peojects.   > [Copier](https://github.com/copier-org/copier) is a tools that can bootstrap projects from templates.  ",
-      "stars": 1221,
-      "forks": 179,
-      "primaryLanguage": "Makefile",
-      "license": {
-        "name": "The Unlicense",
-        "spdxId": "Unlicense"
-      },
-      "createdAt": "2021-08-14T01:11:39Z",
-      "pushedAt": "2025-05-26T09:28:50Z",
-      "homepageUrl": "https://github.com/rochacbruno/python-project-template/generate",
-      "archived": true,
-      "owner": {
-        "login": "rochacbruno",
-        "name": "Bruno Rocha",
-        "type": "User",
-        "url": "https://github.com/rochacbruno",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/458654?u=efa3b748f27fa3f3ac6bc6b0d16cc9221b44670b&v=4",
-        "location": "Viana do Castelo, Portugal",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "PT",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "portugal"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "auto-commit",
-      "nameWithOwner": "m1guelpf/auto-commit",
-      "url": "https://github.com/m1guelpf/auto-commit",
-      "description": "A CLI tool that automatically writes commit messages for you.",
-      "stars": 1215,
-      "forks": 60,
-      "primaryLanguage": "Rust",
-      "license": {
-        "name": "MIT License",
-        "spdxId": "MIT"
-      },
-      "createdAt": "2022-10-30T17:09:58Z",
-      "pushedAt": "2024-03-15T00:41:30Z",
-      "homepageUrl": null,
-      "archived": false,
-      "owner": {
-        "login": "m1guelpf",
-        "name": "Miguel Piedrafita",
-        "type": "User",
-        "url": "https://github.com/m1guelpf",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/23558090?u=8033dca78038cf5ea97779318407f3408d181430&v=4",
-        "location": "Lisbon, Portugal",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "PT",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "portugal"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "power-flow-card-plus",
-      "nameWithOwner": "flixlix/power-flow-card-plus",
-      "url": "https://github.com/flixlix/power-flow-card-plus",
-      "description": "A power distribution card inspired by the official Energy Distribution card for Home Assistant",
-      "stars": 1191,
-      "forks": 186,
-      "primaryLanguage": null,
-      "license": null,
-      "createdAt": "2023-03-23T18:01:32Z",
-      "pushedAt": "2026-04-28T20:50:52Z",
-      "homepageUrl": "https://cards.flixlix.com/power-flow-card-plus",
-      "archived": false,
-      "owner": {
-        "login": "flixlix",
-        "name": "Luca Félix",
-        "type": "User",
-        "url": "https://github.com/flixlix",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/61006057?u=f24b6b3d355d00ca71debc78c8a20271f0e0ec27&v=4",
-        "location": "Lisbon, Portugal",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "PT",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "portugal"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "org-noter",
-      "nameWithOwner": "weirdNox/org-noter",
-      "url": "https://github.com/weirdNox/org-noter",
-      "description": "Emacs document annotator, using Org-mode",
-      "stars": 1188,
-      "forks": 110,
-      "primaryLanguage": "Emacs Lisp",
-      "license": {
-        "name": "GNU General Public License v3.0",
-        "spdxId": "GPL-3.0"
-      },
-      "createdAt": "2017-10-11T19:36:53Z",
-      "pushedAt": "2024-06-02T17:48:02Z",
-      "homepageUrl": null,
-      "archived": false,
-      "owner": {
-        "login": "weirdNox",
-        "name": "Gonçalo Santos",
-        "type": "User",
-        "url": "https://github.com/weirdNox",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/3155049?u=286743060fba402419ead3b5ac90abde963610fc&v=4",
-        "location": "Porto, Portugal",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "PT",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "portugal"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "SeatPreview",
-      "nameWithOwner": "codrops/SeatPreview",
-      "url": "https://github.com/codrops/SeatPreview",
-      "description": "An experimental demo where a 3D perspective preview is shown for a selected seat in a cinema room.",
-      "stars": 1186,
-      "forks": 193,
-      "primaryLanguage": "HTML",
-      "license": null,
-      "createdAt": "2016-01-12T10:09:27Z",
-      "pushedAt": "2016-01-21T02:26:48Z",
-      "homepageUrl": "http://tympanus.net/Development/SeatPreview/",
-      "archived": false,
-      "owner": {
-        "login": "codrops",
-        "name": "Codrops",
-        "type": "Organization",
-        "url": "https://github.com/codrops",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/310036?v=4",
-        "location": "Portugal",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "PT",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "portugal"
-        },
-        "discoveryTerms": []
-      }
     }
-  ],
-  "scanFrontierStars": 1179,
-  "certifiedAt": "2026-10-06T20:58:37.839Z",
-  "updatedAt": "2026-10-06T20:58:37.839Z"
+  ]
 }

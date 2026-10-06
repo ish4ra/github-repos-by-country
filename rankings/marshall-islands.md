@@ -40,4 +40,18 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Chemix-Eco/ChemixLaunch](https://github.com/Chemix-Eco/ChemixLaunch) | **1** | Marshall Islands |
 | [deltav-deltaverse/DeltaVerse](https://github.com/deltav-deltaverse/DeltaVerse) | **1** | Marshall Islands |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **1,179**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [hashgraph-online/standards-sdk](https://github.com/hashgraph-online/standards-sdk) | **1,247** | Marshall Islands |
+| [hashgraph-online/awesome-codex-plugins](https://github.com/hashgraph-online/awesome-codex-plugins) | **1,230** | Marshall Islands |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

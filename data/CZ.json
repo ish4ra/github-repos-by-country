@@ -1,14 +1,49 @@
 {
-  "schemaVersion": 2,
-  "locationResolverVersion": 2,
+  "schemaVersion": 1,
+  "methodologyVersion": "0.8.0-repository-first",
+  "generatedAt": "2026-10-06T20:58:37.790Z",
   "country": {
     "code": "CZ",
     "name": "Czechia",
     "slug": "czechia"
   },
-  "source": "repository-first-stars-desc",
+  "source": {
+    "provider": "GitHub GraphQL API",
+    "endpoint": "https://api.github.com/graphql",
+    "countryBasis": "public repository-owner profile location",
+    "discovery": "global repositories scanned by stars descending"
+  },
+  "coverage": {
+    "status": "repository-first-certified-by-star-frontier",
+    "exhaustive": false,
+    "rawOwnerHits": 56564,
+    "acceptedUniqueOwners": 80,
+    "ownerMetricLabel": "Unique owners in top ranking",
+    "repositoriesConsidered": 102,
+    "publishedRepositories": 100,
+    "candidateThresholdStars": 1209,
+    "rankingLimit": 100,
+    "cappedQueries": [],
+    "repositoryFirst": {
+      "scanFrontierStars": 1179,
+      "topObservedStars": 551406,
+      "repositoriesSeen": 56564,
+      "attributedRepositories": 20433,
+      "ambiguousLocations": 8692,
+      "unknownLocations": 27439,
+      "unresolvedStarCounts": []
+    },
+    "notes": [
+      "Repositories are scanned globally in descending star ranges, independently of owner follower count or owner-search ordering.",
+      "A country is certified only after its 100th repository has more stars than every unprocessed global star range.",
+      "Owner country is inferred from the owner public GitHub profile location using the global geography resolver.",
+      "Owners with missing or unresolved locations are excluded, so country attribution is not a citizenship or legal-incorporation claim.",
+      "Compound city/admin locations such as \"Portland, OR\" are resolved before ambiguous city-only names."
+    ]
+  },
   "repositories": [
     {
+      "rank": 1,
       "name": "agent-zero",
       "nameWithOwner": "agent0ai/agent-zero",
       "url": "https://github.com/agent0ai/agent-zero",
@@ -42,6 +77,7 @@
       }
     },
     {
+      "rank": 2,
       "name": "phpstan",
       "nameWithOwner": "phpstan/phpstan",
       "url": "https://github.com/phpstan/phpstan",
@@ -75,6 +111,7 @@
       }
     },
     {
+      "rank": 3,
       "name": "Playnite",
       "nameWithOwner": "JosefNemec/Playnite",
       "url": "https://github.com/JosefNemec/Playnite",
@@ -108,6 +145,7 @@
       }
     },
     {
+      "rank": 4,
       "name": "shell_gpt",
       "nameWithOwner": "TheR1D/shell_gpt",
       "url": "https://github.com/TheR1D/shell_gpt",
@@ -141,6 +179,7 @@
       }
     },
     {
+      "rank": 5,
       "name": "lists",
       "nameWithOwner": "jnv/lists",
       "url": "https://github.com/jnv/lists",
@@ -174,6 +213,7 @@
       }
     },
     {
+      "rank": 6,
       "name": "PrusaSlicer",
       "nameWithOwner": "prusa3d/PrusaSlicer",
       "url": "https://github.com/prusa3d/PrusaSlicer",
@@ -207,6 +247,7 @@
       }
     },
     {
+      "rank": 7,
       "name": "retdec",
       "nameWithOwner": "avast/retdec",
       "url": "https://github.com/avast/retdec",
@@ -240,6 +281,7 @@
       }
     },
     {
+      "rank": 8,
       "name": "adminer",
       "nameWithOwner": "vrana/adminer",
       "url": "https://github.com/vrana/adminer",
@@ -273,6 +315,7 @@
       }
     },
     {
+      "rank": 9,
       "name": "jose",
       "nameWithOwner": "panva/jose",
       "url": "https://github.com/panva/jose",
@@ -306,6 +349,7 @@
       }
     },
     {
+      "rank": 10,
       "name": "100days",
       "nameWithOwner": "coells/100days",
       "url": "https://github.com/coells/100days",
@@ -336,6 +380,7 @@
       }
     },
     {
+      "rank": 11,
       "name": "dbgate",
       "nameWithOwner": "dbgate/dbgate",
       "url": "https://github.com/dbgate/dbgate",
@@ -369,6 +414,7 @@
       }
     },
     {
+      "rank": 12,
       "name": "awesome-bugbounty-tools",
       "nameWithOwner": "vavkamil/awesome-bugbounty-tools",
       "url": "https://github.com/vavkamil/awesome-bugbounty-tools",
@@ -402,6 +448,7 @@
       }
     },
     {
+      "rank": 13,
       "name": "PHP-Console-Highlighter",
       "nameWithOwner": "JakubOnderka/PHP-Console-Highlighter",
       "url": "https://github.com/JakubOnderka/PHP-Console-Highlighter",
@@ -435,6 +482,7 @@
       }
     },
     {
+      "rank": 14,
       "name": "PHP-Console-Color",
       "nameWithOwner": "JakubOnderka/PHP-Console-Color",
       "url": "https://github.com/JakubOnderka/PHP-Console-Color",
@@ -468,6 +516,7 @@
       }
     },
     {
+      "rank": 15,
       "name": "weblate",
       "nameWithOwner": "WeblateOrg/weblate",
       "url": "https://github.com/WeblateOrg/weblate",
@@ -501,6 +550,7 @@
       }
     },
     {
+      "rank": 16,
       "name": "jpexs-decompiler",
       "nameWithOwner": "jindrapetrik/jpexs-decompiler",
       "url": "https://github.com/jindrapetrik/jpexs-decompiler",
@@ -534,6 +584,7 @@
       }
     },
     {
+      "rank": 17,
       "name": "ShiftIt",
       "nameWithOwner": "fikovnik/ShiftIt",
       "url": "https://github.com/fikovnik/ShiftIt",
@@ -564,6 +615,7 @@
       }
     },
     {
+      "rank": 18,
       "name": "magnum",
       "nameWithOwner": "mosra/magnum",
       "url": "https://github.com/mosra/magnum",
@@ -597,6 +649,7 @@
       }
     },
     {
+      "rank": 19,
       "name": "mapdb",
       "nameWithOwner": "jankotek/mapdb",
       "url": "https://github.com/jankotek/mapdb",
@@ -630,6 +683,7 @@
       }
     },
     {
+      "rank": 20,
       "name": "msdfgen",
       "nameWithOwner": "Chlumsky/msdfgen",
       "url": "https://github.com/Chlumsky/msdfgen",
@@ -663,6 +717,7 @@
       }
     },
     {
+      "rank": 21,
       "name": "Win10-Initial-Setup-Script",
       "nameWithOwner": "Disassembler0/Win10-Initial-Setup-Script",
       "url": "https://github.com/Disassembler0/Win10-Initial-Setup-Script",
@@ -696,6 +751,7 @@
       }
     },
     {
+      "rank": 22,
       "name": "hstr",
       "nameWithOwner": "dvorka/hstr",
       "url": "https://github.com/dvorka/hstr",
@@ -729,6 +785,7 @@
       }
     },
     {
+      "rank": 23,
       "name": "tolgee-platform",
       "nameWithOwner": "tolgee/tolgee-platform",
       "url": "https://github.com/tolgee/tolgee-platform",
@@ -762,6 +819,7 @@
       }
     },
     {
+      "rank": 24,
       "name": "vm2",
       "nameWithOwner": "patriksimek/vm2",
       "url": "https://github.com/patriksimek/vm2",
@@ -795,6 +853,7 @@
       }
     },
     {
+      "rank": 25,
       "name": "compile-time-regular-expressions",
       "nameWithOwner": "hanickadot/compile-time-regular-expressions",
       "url": "https://github.com/hanickadot/compile-time-regular-expressions",
@@ -828,6 +887,7 @@
       }
     },
     {
+      "rank": 26,
       "name": "node-oidc-provider",
       "nameWithOwner": "panva/node-oidc-provider",
       "url": "https://github.com/panva/node-oidc-provider",
@@ -861,6 +921,7 @@
       }
     },
     {
+      "rank": 27,
       "name": "react-native-material-ui",
       "nameWithOwner": "xotahal/react-native-material-ui",
       "url": "https://github.com/xotahal/react-native-material-ui",
@@ -894,6 +955,7 @@
       }
     },
     {
+      "rank": 28,
       "name": "whisper_streaming",
       "nameWithOwner": "ufal/whisper_streaming",
       "url": "https://github.com/ufal/whisper_streaming",
@@ -927,6 +989,7 @@
       }
     },
     {
+      "rank": 29,
       "name": "schemathesis",
       "nameWithOwner": "schemathesis/schemathesis",
       "url": "https://github.com/schemathesis/schemathesis",
@@ -960,6 +1023,7 @@
       }
     },
     {
+      "rank": 30,
       "name": "IdentityServer4.Admin",
       "nameWithOwner": "skoruba/IdentityServer4.Admin",
       "url": "https://github.com/skoruba/IdentityServer4.Admin",
@@ -993,6 +1057,7 @@
       }
     },
     {
+      "rank": 31,
       "name": "android-butterknife-zelezny",
       "nameWithOwner": "avast/android-butterknife-zelezny",
       "url": "https://github.com/avast/android-butterknife-zelezny",
@@ -1026,6 +1091,7 @@
       }
     },
     {
+      "rank": 32,
       "name": "chrome-cdp-skill",
       "nameWithOwner": "pasky/chrome-cdp-skill",
       "url": "https://github.com/pasky/chrome-cdp-skill",
@@ -1059,6 +1125,7 @@
       }
     },
     {
+      "rank": 33,
       "name": "Yoopta-Editor",
       "nameWithOwner": "yoopta-editor/Yoopta-Editor",
       "url": "https://github.com/yoopta-editor/Yoopta-Editor",
@@ -1092,6 +1159,7 @@
       }
     },
     {
+      "rank": 34,
       "name": "hardware-effects",
       "nameWithOwner": "Kobzol/hardware-effects",
       "url": "https://github.com/Kobzol/hardware-effects",
@@ -1125,6 +1193,7 @@
       }
     },
     {
+      "rank": 35,
       "name": "SpaceEngineers",
       "nameWithOwner": "KeenSoftwareHouse/SpaceEngineers",
       "url": "https://github.com/KeenSoftwareHouse/SpaceEngineers",
@@ -1155,6 +1224,7 @@
       }
     },
     {
+      "rank": 36,
       "name": "retry-go",
       "nameWithOwner": "avast/retry-go",
       "url": "https://github.com/avast/retry-go",
@@ -1188,6 +1258,7 @@
       }
     },
     {
+      "rank": 37,
       "name": "rssguard",
       "nameWithOwner": "martinrotter/rssguard",
       "url": "https://github.com/martinrotter/rssguard",
@@ -1221,6 +1292,7 @@
       }
     },
     {
+      "rank": 38,
       "name": "pspg",
       "nameWithOwner": "okbob/pspg",
       "url": "https://github.com/okbob/pspg",
@@ -1254,6 +1326,7 @@
       }
     },
     {
+      "rank": 39,
       "name": "mindforger",
       "nameWithOwner": "dvorka/mindforger",
       "url": "https://github.com/dvorka/mindforger",
@@ -1287,6 +1360,7 @@
       }
     },
     {
+      "rank": 40,
       "name": "Player",
       "nameWithOwner": "moneytoo/Player",
       "url": "https://github.com/moneytoo/Player",
@@ -1320,6 +1394,7 @@
       }
     },
     {
+      "rank": 41,
       "name": "SofleKeyboard",
       "nameWithOwner": "josefadamcik/SofleKeyboard",
       "url": "https://github.com/josefadamcik/SofleKeyboard",
@@ -1353,6 +1428,7 @@
       }
     },
     {
+      "rank": 42,
       "name": "openid-client",
       "nameWithOwner": "panva/openid-client",
       "url": "https://github.com/panva/openid-client",
@@ -1386,6 +1462,7 @@
       }
     },
     {
+      "rank": 43,
       "name": "react-render-tracker",
       "nameWithOwner": "lahmatiy/react-render-tracker",
       "url": "https://github.com/lahmatiy/react-render-tracker",
@@ -1419,6 +1496,7 @@
       }
     },
     {
+      "rank": 44,
       "name": "malware_showcase",
       "nameWithOwner": "PatrikH0lop/malware_showcase",
       "url": "https://github.com/PatrikH0lop/malware_showcase",
@@ -1452,6 +1530,7 @@
       }
     },
     {
+      "rank": 45,
       "name": "search",
       "nameWithOwner": "lapism/search",
       "url": "https://github.com/lapism/search",
@@ -1485,6 +1564,7 @@
       }
     },
     {
+      "rank": 46,
       "name": "ApiGen",
       "nameWithOwner": "ApiGen/ApiGen",
       "url": "https://github.com/ApiGen/ApiGen",
@@ -1518,6 +1598,7 @@
       }
     },
     {
+      "rank": 47,
       "name": "lesshat",
       "nameWithOwner": "madebysource/lesshat",
       "url": "https://github.com/madebysource/lesshat",
@@ -1551,6 +1632,7 @@
       }
     },
     {
+      "rank": 48,
       "name": "android-styled-dialogs",
       "nameWithOwner": "avast/android-styled-dialogs",
       "url": "https://github.com/avast/android-styled-dialogs",
@@ -1584,6 +1666,7 @@
       }
     },
     {
+      "rank": 49,
       "name": "Prusa-Firmware",
       "nameWithOwner": "prusa3d/Prusa-Firmware",
       "url": "https://github.com/prusa3d/Prusa-Firmware",
@@ -1617,6 +1700,7 @@
       }
     },
     {
+      "rank": 50,
       "name": "OpenTLD",
       "nameWithOwner": "zk00006/OpenTLD",
       "url": "https://github.com/zk00006/OpenTLD",
@@ -1650,6 +1734,7 @@
       }
     },
     {
+      "rank": 51,
       "name": "react-native-motion",
       "nameWithOwner": "xotahal/react-native-motion",
       "url": "https://github.com/xotahal/react-native-motion",
@@ -1683,6 +1768,7 @@
       }
     },
     {
+      "rank": 52,
       "name": "KiKit",
       "nameWithOwner": "yaqwsx/KiKit",
       "url": "https://github.com/yaqwsx/KiKit",
@@ -1716,6 +1802,7 @@
       }
     },
     {
+      "rank": 53,
       "name": "DSInternals",
       "nameWithOwner": "MichaelGrafnetter/DSInternals",
       "url": "https://github.com/MichaelGrafnetter/DSInternals",
@@ -1749,6 +1836,7 @@
       }
     },
     {
+      "rank": 54,
       "name": "langdetect",
       "nameWithOwner": "Mimino666/langdetect",
       "url": "https://github.com/Mimino666/langdetect",
@@ -1782,6 +1870,7 @@
       }
     },
     {
+      "rank": 55,
       "name": "retire",
       "nameWithOwner": "karmi/retire",
       "url": "https://github.com/karmi/retire",
@@ -1815,6 +1904,7 @@
       }
     },
     {
+      "rank": 56,
       "name": "trezor-firmware",
       "nameWithOwner": "trezor/trezor-firmware",
       "url": "https://github.com/trezor/trezor-firmware",
@@ -1848,6 +1938,7 @@
       }
     },
     {
+      "rank": 57,
       "name": "locatorjs",
       "nameWithOwner": "infi-pc/locatorjs",
       "url": "https://github.com/infi-pc/locatorjs",
@@ -1878,6 +1969,7 @@
       }
     },
     {
+      "rank": 58,
       "name": "Sketchbook",
       "nameWithOwner": "swift502/Sketchbook",
       "url": "https://github.com/swift502/Sketchbook",
@@ -1911,6 +2003,7 @@
       }
     },
     {
+      "rank": 59,
       "name": "Cuckoo",
       "nameWithOwner": "Brightify/Cuckoo",
       "url": "https://github.com/Brightify/Cuckoo",
@@ -1944,6 +2037,7 @@
       }
     },
     {
+      "rank": 60,
       "name": "Original-Prusa-i3",
       "nameWithOwner": "prusa3d/Original-Prusa-i3",
       "url": "https://github.com/prusa3d/Original-Prusa-i3",
@@ -1977,6 +2071,7 @@
       }
     },
     {
+      "rank": 61,
       "name": "tiktokenizer",
       "nameWithOwner": "dqbd/tiktokenizer",
       "url": "https://github.com/dqbd/tiktokenizer",
@@ -2010,6 +2105,7 @@
       }
     },
     {
+      "rank": 62,
       "name": "slips",
       "nameWithOwner": "satoshilabs/slips",
       "url": "https://github.com/satoshilabs/slips",
@@ -2043,6 +2139,7 @@
       }
     },
     {
+      "rank": 63,
       "name": "vivify",
       "nameWithOwner": "Martz90/vivify",
       "url": "https://github.com/Martz90/vivify",
@@ -2076,6 +2173,7 @@
       }
     },
     {
+      "rank": 64,
       "name": "react-native-background-timer",
       "nameWithOwner": "ocetnik/react-native-background-timer",
       "url": "https://github.com/ocetnik/react-native-background-timer",
@@ -2109,6 +2207,7 @@
       }
     },
     {
+      "rank": 65,
       "name": "ecs",
       "nameWithOwner": "ecsphp/ecs",
       "url": "https://github.com/ecsphp/ecs",
@@ -2142,6 +2241,7 @@
       }
     },
     {
+      "rank": 66,
       "name": "Prusa-Firmware-Buddy",
       "nameWithOwner": "prusa3d/Prusa-Firmware-Buddy",
       "url": "https://github.com/prusa3d/Prusa-Firmware-Buddy",
@@ -2175,6 +2275,7 @@
       }
     },
     {
+      "rank": 67,
       "name": "Shrine",
       "nameWithOwner": "minexew/Shrine",
       "url": "https://github.com/minexew/Shrine",
@@ -2208,6 +2309,7 @@
       }
     },
     {
+      "rank": 68,
       "name": "phpdoc-parser",
       "nameWithOwner": "phpstan/phpdoc-parser",
       "url": "https://github.com/phpstan/phpdoc-parser",
@@ -2241,6 +2343,7 @@
       }
     },
     {
+      "rank": 69,
       "name": "Windows11Upgrade",
       "nameWithOwner": "coofcookie/Windows11Upgrade",
       "url": "https://github.com/coofcookie/Windows11Upgrade",
@@ -2274,6 +2377,7 @@
       }
     },
     {
+      "rank": 70,
       "name": "PDF4QT",
       "nameWithOwner": "JakubMelka/PDF4QT",
       "url": "https://github.com/JakubMelka/PDF4QT",
@@ -2307,6 +2411,7 @@
       }
     },
     {
+      "rank": 71,
       "name": "awesome-vulnerable-apps",
       "nameWithOwner": "vavkamil/awesome-vulnerable-apps",
       "url": "https://github.com/vavkamil/awesome-vulnerable-apps",
@@ -2340,6 +2445,7 @@
       }
     },
     {
+      "rank": 72,
       "name": "argbash",
       "nameWithOwner": "matejak/argbash",
       "url": "https://github.com/matejak/argbash",
@@ -2373,6 +2479,7 @@
       }
     },
     {
+      "rank": 73,
       "name": "node-pg-migrate",
       "nameWithOwner": "salsita/node-pg-migrate",
       "url": "https://github.com/salsita/node-pg-migrate",
@@ -2406,6 +2513,7 @@
       }
     },
     {
+      "rank": 74,
       "name": "iOSLocalizationEditor",
       "nameWithOwner": "igorkulman/iOSLocalizationEditor",
       "url": "https://github.com/igorkulman/iOSLocalizationEditor",
@@ -2439,6 +2547,7 @@
       }
     },
     {
+      "rank": 75,
       "name": "dox",
       "nameWithOwner": "agent0ai/dox",
       "url": "https://github.com/agent0ai/dox",
@@ -2472,6 +2581,7 @@
       }
     },
     {
+      "rank": 76,
       "name": "coding-standard",
       "nameWithOwner": "slevomat/coding-standard",
       "url": "https://github.com/slevomat/coding-standard",
@@ -2505,6 +2615,7 @@
       }
     },
     {
+      "rank": 77,
       "name": "Systemizer",
       "nameWithOwner": "honzaap/Systemizer",
       "url": "https://github.com/honzaap/Systemizer",
@@ -2538,6 +2649,7 @@
       }
     },
     {
+      "rank": 78,
       "name": "md4c",
       "nameWithOwner": "mity/md4c",
       "url": "https://github.com/mity/md4c",
@@ -2571,6 +2683,7 @@
       }
     },
     {
+      "rank": 79,
       "name": "qspectrumanalyzer",
       "nameWithOwner": "xmikos/qspectrumanalyzer",
       "url": "https://github.com/xmikos/qspectrumanalyzer",
@@ -2604,6 +2717,7 @@
       }
     },
     {
+      "rank": 80,
       "name": "book-cpp-algorithms",
       "nameWithOwner": "HappyCerberus/book-cpp-algorithms",
       "url": "https://github.com/HappyCerberus/book-cpp-algorithms",
@@ -2637,6 +2751,7 @@
       }
     },
     {
+      "rank": 81,
       "name": "orbit",
       "nameWithOwner": "kiwicom/orbit",
       "url": "https://github.com/kiwicom/orbit",
@@ -2670,6 +2785,7 @@
       }
     },
     {
+      "rank": 82,
       "name": "PcbDraw",
       "nameWithOwner": "yaqwsx/PcbDraw",
       "url": "https://github.com/yaqwsx/PcbDraw",
@@ -2703,6 +2819,7 @@
       }
     },
     {
+      "rank": 83,
       "name": "vim-nerdtree-tabs",
       "nameWithOwner": "jistr/vim-nerdtree-tabs",
       "url": "https://github.com/jistr/vim-nerdtree-tabs",
@@ -2736,6 +2853,7 @@
       }
     },
     {
+      "rank": 84,
       "name": "DCA",
       "nameWithOwner": "Evalle/DCA",
       "url": "https://github.com/Evalle/DCA",
@@ -2769,6 +2887,7 @@
       }
     },
     {
+      "rank": 85,
       "name": "space-agent",
       "nameWithOwner": "agent0ai/space-agent",
       "url": "https://github.com/agent0ai/space-agent",
@@ -2802,6 +2921,7 @@
       }
     },
     {
+      "rank": 86,
       "name": "CrewAI-Studio",
       "nameWithOwner": "strnad/CrewAI-Studio",
       "url": "https://github.com/strnad/CrewAI-Studio",
@@ -2835,6 +2955,7 @@
       }
     },
     {
+      "rank": 87,
       "name": "hvpp",
       "nameWithOwner": "wbenny/hvpp",
       "url": "https://github.com/wbenny/hvpp",
@@ -2868,6 +2989,7 @@
       }
     },
     {
+      "rank": 88,
       "name": "msdf-atlas-gen",
       "nameWithOwner": "Chlumsky/msdf-atlas-gen",
       "url": "https://github.com/Chlumsky/msdf-atlas-gen",
@@ -2901,6 +3023,7 @@
       }
     },
     {
+      "rank": 89,
       "name": "json-machine",
       "nameWithOwner": "halaxa/json-machine",
       "url": "https://github.com/halaxa/json-machine",
@@ -2934,6 +3057,7 @@
       }
     },
     {
+      "rank": 90,
       "name": "bigdesk",
       "nameWithOwner": "lukas-vlcek/bigdesk",
       "url": "https://github.com/lukas-vlcek/bigdesk",
@@ -2967,6 +3091,7 @@
       }
     },
     {
+      "rank": 91,
       "name": "injdrv",
       "nameWithOwner": "wbenny/injdrv",
       "url": "https://github.com/wbenny/injdrv",
@@ -3000,6 +3125,7 @@
       }
     },
     {
+      "rank": 92,
       "name": "GithubCity",
       "nameWithOwner": "honzaap/GithubCity",
       "url": "https://github.com/honzaap/GithubCity",
@@ -3033,6 +3159,7 @@
       }
     },
     {
+      "rank": 93,
       "name": "omniauth-facebook",
       "nameWithOwner": "simi/omniauth-facebook",
       "url": "https://github.com/simi/omniauth-facebook",
@@ -3063,6 +3190,7 @@
       }
     },
     {
+      "rank": 94,
       "name": "speedread",
       "nameWithOwner": "pasky/speedread",
       "url": "https://github.com/pasky/speedread",
@@ -3096,6 +3224,7 @@
       }
     },
     {
+      "rank": 95,
       "name": "exifr",
       "nameWithOwner": "MikeKovarik/exifr",
       "url": "https://github.com/MikeKovarik/exifr",
@@ -3129,6 +3258,7 @@
       }
     },
     {
+      "rank": 96,
       "name": "GPXSee",
       "nameWithOwner": "tumic0/GPXSee",
       "url": "https://github.com/tumic0/GPXSee",
@@ -3162,6 +3292,7 @@
       }
     },
     {
+      "rank": 97,
       "name": "Laurine",
       "nameWithOwner": "JiriTrecak/Laurine",
       "url": "https://github.com/JiriTrecak/Laurine",
@@ -3195,6 +3326,7 @@
       }
     },
     {
+      "rank": 98,
       "name": "typescript-generator",
       "nameWithOwner": "vojtechhabarta/typescript-generator",
       "url": "https://github.com/vojtechhabarta/typescript-generator",
@@ -3228,6 +3360,7 @@
       }
     },
     {
+      "rank": 99,
       "name": "CWR",
       "nameWithOwner": "BohemiaInteractive/CWR",
       "url": "https://github.com/BohemiaInteractive/CWR",
@@ -3261,6 +3394,7 @@
       }
     },
     {
+      "rank": 100,
       "name": "LanguageBreak",
       "nameWithOwner": "notmarek/LanguageBreak",
       "url": "https://github.com/notmarek/LanguageBreak",
@@ -3289,75 +3423,6 @@
         },
         "discoveryTerms": []
       }
-    },
-    {
-      "name": "ShellGhost",
-      "nameWithOwner": "lem0nSec/ShellGhost",
-      "url": "https://github.com/lem0nSec/ShellGhost",
-      "description": "A memory-based evasion technique which makes shellcode invisible from process start to end.",
-      "stars": 1198,
-      "forks": 138,
-      "primaryLanguage": "C",
-      "license": {
-        "name": "GNU General Public License v3.0",
-        "spdxId": "GPL-3.0"
-      },
-      "createdAt": "2023-07-01T16:56:58Z",
-      "pushedAt": "2023-10-16T06:40:24Z",
-      "homepageUrl": null,
-      "archived": false,
-      "owner": {
-        "login": "lem0nSec",
-        "name": "Angelo Frasca Caccia",
-        "type": "User",
-        "url": "https://github.com/lem0nSec",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/98479572?u=e4a50d5506ece9f7b4c1c083d914e732d95ad912&v=4",
-        "location": "Czechia",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "CZ",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "czechia"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "almostnode",
-      "nameWithOwner": "macaly/almostnode",
-      "url": "https://github.com/macaly/almostnode",
-      "description": "Node.js in your browser. Just like that.",
-      "stars": 1182,
-      "forks": 104,
-      "primaryLanguage": "TypeScript",
-      "license": {
-        "name": "MIT License",
-        "spdxId": "MIT"
-      },
-      "createdAt": "2026-01-29T19:39:09Z",
-      "pushedAt": "2026-02-14T22:28:55Z",
-      "homepageUrl": "http://almostnode.dev/",
-      "archived": false,
-      "owner": {
-        "login": "macaly",
-        "name": "Macaly",
-        "type": "Organization",
-        "url": "https://github.com/macaly",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/209610769?v=4",
-        "location": "Czech Republic",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "CZ",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "czech republic"
-        },
-        "discoveryTerms": []
-      }
     }
-  ],
-  "scanFrontierStars": 1179,
-  "certifiedAt": "2026-10-06T20:58:37.790Z",
-  "updatedAt": "2026-10-06T20:58:37.790Z"
+  ]
 }

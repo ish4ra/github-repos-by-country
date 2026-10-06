@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 581**
 - Progress: **0%**
 - Retained high-potential owner candidates: **326**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [jbrodriguez/unbalance](https://github.com/jbrodriguez/unbalance) | **255** | Panama City |
+| [jbrodriguez/unbalance](https://github.com/jbrodriguez/unbalance) | **256** | Panama City |
 | [calvinfroedge/codeigniter-payments](https://github.com/calvinfroedge/codeigniter-payments) | **244** | Panama |
 | [ahmedrangel/instagram-media-scraper](https://github.com/ahmedrangel/instagram-media-scraper) | **185** | Panama |
 | [jebberjeb/specviz](https://github.com/jebberjeb/specviz) | **133** | Panama City, FL |

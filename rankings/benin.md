@@ -20,8 +20,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **1,684**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **1,179**
 
 ### High-star verified preview
 
@@ -32,5 +32,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [JideGuru/FlutterEbookApp](https://github.com/JideGuru/FlutterEbookApp) | **3,333** | Cotonou, Benin. |
 | [JideGuru/FlutterSocialAppUIKit](https://github.com/JideGuru/FlutterSocialAppUIKit) | **1,984** | Cotonou, Benin. |
 | [JideGuru/FlutterFoodybite](https://github.com/JideGuru/FlutterFoodybite) | **1,715** | Cotonou, Benin. |
+| [JideGuru/FlutterTravel](https://github.com/JideGuru/FlutterTravel) | **1,198** | Cotonou, Benin. |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

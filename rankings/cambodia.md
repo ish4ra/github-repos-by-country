@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [len/korg-prologue](https://github.com/len/korg-prologue) | **66** | Cambodia |
 | [tfd-ed/tfd-nest-boilerplate](https://github.com/tfd-ed/tfd-nest-boilerplate) | **58** | Phnom Penh, Cambodia |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **1,179**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [nysamnang/react-native-raw-bottom-sheet](https://github.com/nysamnang/react-native-raw-bottom-sheet) | **1,202** | Phnom Penh, Cambodia |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

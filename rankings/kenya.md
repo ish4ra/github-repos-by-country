@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **10**
-- Current global star frontier: **1,398**
+- Verified high-star candidates retained: **12**
+- Current global star frontier: **1,179**
 
 ### High-star verified preview
 
@@ -61,5 +61,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [JifuZhao/DS-Take-Home](https://github.com/JifuZhao/DS-Take-Home) | **1,718** | Urbana, IL, USA |
 | [Benexl/yt-x](https://github.com/Benexl/yt-x) | **1,668** | Nairobi, Kenya |
 | [ranjian0/building_tools](https://github.com/ranjian0/building_tools) | **1,509** | Nairobi, Kenya |
+| [alvin-tosh/Malware-Exhibit](https://github.com/alvin-tosh/Malware-Exhibit) | **1,189** | Nairobi, Kenya |
+| [NetLogo/NetLogo](https://github.com/NetLogo/NetLogo) | **1,187** | Evanston, IL, USA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

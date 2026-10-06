@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 60**
 - Progress: **0%**
-- Retained high-potential owner candidates: **310**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **311**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -31,11 +31,11 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [myofficework000/Jetpack-Compose-All-in-one-Guide](https://github.com/myofficework000/Jetpack-Compose-All-in-one-Guide) | **288** | Doha, Qatar |
 | [vahid-nejad/next-auth-fullstack](https://github.com/vahid-nejad/next-auth-fullstack) | **221** | Qatar |
 | [atick-faisal/Jetpack-Android-Starter](https://github.com/atick-faisal/Jetpack-Android-Starter) | **210** | Doha, Qatar |
-| [qcri/codebadger](https://github.com/qcri/codebadger) | **172** | Doha, Qatar |
+| [qcri/codebadger](https://github.com/qcri/codebadger) | **173** | Doha, Qatar |
 | [alotaiba/FlyJSONP](https://github.com/alotaiba/FlyJSONP) | **160** | Qatar |
 | [ZahraShahid/MyRealEstateWebsite](https://github.com/ZahraShahid/MyRealEstateWebsite) | **119** | Doha, Qatar |
 | [rithinskaria/AZ-104](https://github.com/rithinskaria/AZ-104) | **101** | Doha, Qatar |
-| [d7omdev/clipse-gui](https://github.com/d7omdev/clipse-gui) | **77** | Qatar |
+| [d7omdev/clipse-gui](https://github.com/d7omdev/clipse-gui) | **78** | Qatar |
 | [Sakib1263/NABNet](https://github.com/Sakib1263/NABNet) | **53** | Al Wakra, Qatar |
 | [nirzaf/merconiq](https://github.com/nirzaf/merconiq) | **52** | Doha - Qatar |
 | [akhalil-qa/SecurityPlus](https://github.com/akhalil-qa/SecurityPlus) | **41** | Qatar |

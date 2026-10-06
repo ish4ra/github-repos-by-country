@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **1,885**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **1,179**
 
 ### High-star verified preview
 
@@ -53,5 +53,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [SCUTlihaoyu/open-chat-video-editor](https://github.com/SCUTlihaoyu/open-chat-video-editor) | **2,815** | SZ |
 | [chaos-zhu/easynode](https://github.com/chaos-zhu/easynode) | **2,013** | SZ |
+| [FaceAISDK/FaceAISDK_Android](https://github.com/FaceAISDK/FaceAISDK_Android) | **1,273** | SZ |
+| [dee1024/pytorch-captcha-recognition](https://github.com/dee1024/pytorch-captcha-recognition) | **1,220** | SZ |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 65**
 - Progress: **0%**
-- Retained high-potential owner candidates: **322**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **323**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,7 +25,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [sanjeed5/awesome-cursor-rules-mdc](https://github.com/sanjeed5/awesome-cursor-rules-mdc) | **3,575** | Bangalore / Oman  |
-| [Zerx0r/Kage](https://github.com/Zerx0r/Kage) | **1,235** | Oman, Muscat |
+| [Zerx0r/Kage](https://github.com/Zerx0r/Kage) | **1,236** | Oman, Muscat |
 | [AhmedBafkir/DLiPA](https://github.com/AhmedBafkir/DLiPA) | **985** | Oman |
 | [HosseinShabani/react-native-modern-datepicker](https://github.com/HosseinShabani/react-native-modern-datepicker) | **711** | Oman |
 | [pylover/khayyam](https://github.com/pylover/khayyam) | **150** | Muscat, Oman |
@@ -39,5 +39,18 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [zidhuss/neotest-minitest](https://github.com/zidhuss/neotest-minitest) | **27** | Oman |
 | [0xmahdirostami/audits](https://github.com/0xmahdirostami/audits) | **19** | Oman |
 | [sajadevo/material-ripple-effects](https://github.com/sajadevo/material-ripple-effects) | **19** | Muscat, Oman |
+
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **1,179**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [Zerx0r/Kage](https://github.com/Zerx0r/Kage) | **1,236** | Oman, Muscat |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

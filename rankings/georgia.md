@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **15**
-- Current global star frontier: **1,280**
+- Verified high-star candidates retained: **17**
+- Current global star frontier: **1,179**
 
 ### High-star verified preview
 
@@ -66,5 +66,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [bonlime/keras-deeplab-v3-plus](https://github.com/bonlime/keras-deeplab-v3-plus) | **1,374** | Tbilisi |
 | [python273/vk_api](https://github.com/python273/vk_api) | **1,365** | Batumi, Georgia |
 | [DimiMikadze/orca](https://github.com/DimiMikadze/orca) | **1,306** | Tbilisi, Georgia |
+| [bumbeishvili/org-chart](https://github.com/bumbeishvili/org-chart) | **1,213** | Tbilisi, Georgia |
+| [andreyvit/json-diff](https://github.com/andreyvit/json-diff) | **1,202** | Tbilisi, Georgia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

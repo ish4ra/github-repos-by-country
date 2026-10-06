@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **16**
-- Current global star frontier: **1,398**
+- Verified high-star candidates retained: **18**
+- Current global star frontier: **1,179**
 
 ### High-star verified preview
 
@@ -67,5 +67,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [appcypher/awesome-wasm-runtimes](https://github.com/appcypher/awesome-wasm-runtimes) | **1,560** | Lagos, Nigeria |
 | [olayemii/flutter-ui-kits](https://github.com/olayemii/flutter-ui-kits) | **1,483** | Nigeria |
 | [damms005/devdb-vscode](https://github.com/damms005/devdb-vscode) | **1,447** | Nigeria |
+| [FeezyHendrix/Insta-mass-account-creator](https://github.com/FeezyHendrix/Insta-mass-account-creator) | **1,203** | Lagos, Nigeria. |
+| [JayWebtech/autoshorts](https://github.com/JayWebtech/autoshorts) | **1,188** | Nigeria |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

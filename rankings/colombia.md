@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **2,828**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **1,179**
 
 ### High-star verified preview
 
@@ -53,5 +53,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [neonbjb/tortoise-tts](https://github.com/neonbjb/tortoise-tts) | **14,877** | CO |
 | [UN-GCPDS/qt-material](https://github.com/UN-GCPDS/qt-material) | **2,864** | Manizales, Colombia |
+| [sdkcarlos/artyom.js](https://github.com/sdkcarlos/artyom.js) | **1,268** | Bucaramanga, Colombia. |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

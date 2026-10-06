@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **7**
-- Current global star frontier: **1,398**
+- Verified high-star candidates retained: **8**
+- Current global star frontier: **1,179**
 
 ### High-star verified preview
 
@@ -58,5 +58,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [xandemon/developer-icons](https://github.com/xandemon/developer-icons) | **2,659** | Kathmandu, Nepal |
 | [prajwalch/TorrentSearch](https://github.com/prajwalch/TorrentSearch) | **2,172** | Damak, Jhapa, Nepal |
 | [Subash/Prepros](https://github.com/Subash/Prepros) | **1,475** | Nepal |
+| [casualsnek/onthespot](https://github.com/casualsnek/onthespot) | **1,255** | Nepal |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

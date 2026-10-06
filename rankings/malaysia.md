@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **16**
-- Current global star frontier: **1,280**
+- Verified high-star candidates retained: **20**
+- Current global star frontier: **1,179**
 
 ### High-star verified preview
 
@@ -67,5 +67,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [salimi-my/shadcn-ui-sidebar](https://github.com/salimi-my/shadcn-ui-sidebar) | **1,802** | Malaysia |
 | [mesolitica/NLP-Models-Tensorflow](https://github.com/mesolitica/NLP-Models-Tensorflow) | **1,780** | Kuala Lumpur, Malaysia |
 | [rocketscream/Low-Power](https://github.com/rocketscream/Low-Power) | **1,314** | Malaysia |
+| [asyraffff/Open-Source-Ruby-and-Rails-Apps](https://github.com/asyraffff/Open-Source-Ruby-and-Rails-Apps) | **1,262** | Malaysia |
+| [lamarios/clipious](https://github.com/lamarios/clipious) | **1,260** | Kuala Lumpur, Malaysia |
+| [EXALAB/Anlinux-Resources](https://github.com/EXALAB/Anlinux-Resources) | **1,203** | Malaysia |
+| [RamadhanAmizudin/malware](https://github.com/RamadhanAmizudin/malware) | **1,193** | Malaysia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

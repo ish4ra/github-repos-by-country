@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 26**
 - Progress: **0%**
 - Retained high-potential owner candidates: **278**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [edouard-claude/snip](https://github.com/edouard-claude/snip) | **461** | La Réunion |
+| [edouard-claude/snip](https://github.com/edouard-claude/snip) | **464** | La Réunion |
 | [PhilDL/react-router-gospel-stack](https://github.com/PhilDL/react-router-gospel-stack) | **229** | Réunion |
 | [fvsch/remarkdown](https://github.com/fvsch/remarkdown) | **155** | Réunion |
 | [Stirito/N8N_Workflow_Template](https://github.com/Stirito/N8N_Workflow_Template) | **113** | La Réunion |

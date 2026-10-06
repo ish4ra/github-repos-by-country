@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **18**
-- Current global star frontier: **1,280**
+- Verified high-star candidates retained: **21**
+- Current global star frontier: **1,179**
 
 ### High-star verified preview
 
@@ -69,5 +69,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [aivarsk/scrapy-proxies](https://github.com/aivarsk/scrapy-proxies) | **1,666** | Jelgava, Latvia |
 | [nezvers/Godot-GameTemplate](https://github.com/nezvers/Godot-GameTemplate) | **1,658** | Riga, Latvia |
 | [martinsbalodis/web-scraper-chrome-extension](https://github.com/martinsbalodis/web-scraper-chrome-extension) | **1,363** | Rīga, Latvia |
+| [joomcode/errorx](https://github.com/joomcode/errorx) | **1,270** | Latvia |
+| [ColorlibHQ/email-templates](https://github.com/ColorlibHQ/email-templates) | **1,241** | Latvia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
