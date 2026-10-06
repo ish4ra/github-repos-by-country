@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [DannyFeliz/Datos-Rep-Dom](https://github.com/DannyFeliz/Datos-Rep-Dom) | **52** | Santo Domingo, Dominican Republic |
 | [GlitchyPSIX/VEGASRPC](https://github.com/GlitchyPSIX/VEGASRPC) | **51** | Dominican Republic |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **1,398**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [adonismendozaperez/33-js-conceptos](https://github.com/adonismendozaperez/33-js-conceptos) | **1,452** | Dominican Republic |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

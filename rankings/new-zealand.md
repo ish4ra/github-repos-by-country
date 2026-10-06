@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 540**
 - Progress: **0%**
 - Retained high-potential owner candidates: **157**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,12 +24,12 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [portainer/portainer](https://github.com/portainer/portainer) | **38,616** | Auckland, New Zealand |
-| [deviantony/docker-elk](https://github.com/deviantony/docker-elk) | **18,390** | Auckland, New Zealand |
-| [acaudwell/Gource](https://github.com/acaudwell/Gource) | **13,157** | New Zealand |
-| [ChenYilong/iOSInterviewQuestions](https://github.com/ChenYilong/iOSInterviewQuestions) | **9,551** | Auckland, New Zealand |
+| [portainer/portainer](https://github.com/portainer/portainer) | **38,621** | Auckland, New Zealand |
+| [deviantony/docker-elk](https://github.com/deviantony/docker-elk) | **18,392** | Auckland, New Zealand |
+| [acaudwell/Gource](https://github.com/acaudwell/Gource) | **13,161** | New Zealand |
+| [ChenYilong/iOSInterviewQuestions](https://github.com/ChenYilong/iOSInterviewQuestions) | **9,552** | Auckland, New Zealand |
 | [Mooophy/Cpp-Primer](https://github.com/Mooophy/Cpp-Primer) | **8,288** | Auckland, New Zealand |
-| [urbanadventurer/WhatWeb](https://github.com/urbanadventurer/WhatWeb) | **6,869** | New Zealand |
+| [urbanadventurer/WhatWeb](https://github.com/urbanadventurer/WhatWeb) | **6,876** | New Zealand |
 | [RichardLitt/standard-readme](https://github.com/RichardLitt/standard-readme) | **6,372** | Pōneke Wellington, Aotearoa New Zealand |
 | [brentvollebregt/auto-py-to-exe](https://github.com/brentvollebregt/auto-py-to-exe) | **4,990** | Wellington, New Zealand |
 | [cortesi/devd](https://github.com/cortesi/devd) | **3,474** | Dunedin, New Zealand |
@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **66**
-- Current global star frontier: **1,516**
+- Verified high-star candidates retained: **75**
+- Current global star frontier: **1,398**
 
 ### High-star verified preview
 

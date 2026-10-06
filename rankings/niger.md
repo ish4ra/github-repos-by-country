@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 113**
 - Progress: **0%**
 - Retained high-potential owner candidates: **276**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [kodjodevf/mangayomi](https://github.com/kodjodevf/mangayomi) | **3,852** | Niamey,Niger |
+| [kodjodevf/mangayomi](https://github.com/kodjodevf/mangayomi) | **3,947** | Niamey,Niger |
 | [dpnspn/aiomax](https://github.com/dpnspn/aiomax) | **42** | Niger |
 | [ab3masta/oppo_color_os_launcher](https://github.com/ab3masta/oppo_color_os_launcher) | **33** | Niamey-Niger |
 | [petrozavodsky/ImageProxy](https://github.com/petrozavodsky/ImageProxy) | **22** | Niger |

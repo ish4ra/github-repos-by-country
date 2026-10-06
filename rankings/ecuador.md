@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **2,121**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **1,398**
 
 ### High-star verified preview
 
@@ -53,5 +53,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [eythaann/Seelen-UI](https://github.com/eythaann/Seelen-UI) | **17,942** | Ecuador |
 | [Carlos487/awesome-wpf](https://github.com/Carlos487/awesome-wpf) | **2,170** | Quito, Ecuador |
+| [jxlarrea/kiosk-satellite](https://github.com/jxlarrea/kiosk-satellite) | **1,481** | Ecuador |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

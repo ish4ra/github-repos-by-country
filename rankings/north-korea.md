@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 182**
 - Progress: **0%**
 - Retained high-potential owner candidates: **197**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -26,10 +26,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [VisionVerse/RemoteSensing-Restoration-Survey](https://github.com/VisionVerse/RemoteSensing-Restoration-Survey) | **254** | North Korea |
 | [0x4f53/Wristkey](https://github.com/0x4f53/Wristkey) | **222** | 🇰🇵 Pyongyang, North Korea |
-| [QinAnze/zmd-charge](https://github.com/QinAnze/zmd-charge) | **101** | North Korea |
+| [QinAnze/zmd-charge](https://github.com/QinAnze/zmd-charge) | **107** | North Korea |
 | [chihongze/girlfriend](https://github.com/chihongze/girlfriend) | **87** |  P'yŏngyang, North Korea |
 | [norksec/usbwatchdog](https://github.com/norksec/usbwatchdog) | **49** | Pyongyang, North Korea |
-| [PookiePepelsss/MultiRoblox-RAM](https://github.com/PookiePepelsss/MultiRoblox-RAM) | **43** | North Korea |
+| [PookiePepelsss/MultiRoblox-RAM](https://github.com/PookiePepelsss/MultiRoblox-RAM) | **44** | North Korea |
 | [tsung-sc/JDPurchaser](https://github.com/tsung-sc/JDPurchaser) | **41** | Pyongyang,North Korea |
 | [Duzopy/VRChat-Crasher](https://github.com/Duzopy/VRChat-Crasher) | **14** | North Korea |
 | [sunyuchentrx/xiaov2bclient](https://github.com/sunyuchentrx/xiaov2bclient) | **14** | North Korea/Pyongyang |

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **7**
-- Current global star frontier: **1,684**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **1,398**
 
 ### High-star verified preview
 
@@ -58,5 +58,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [SharifiZarchi/Introduction_to_Machine_Learning](https://github.com/SharifiZarchi/Introduction_to_Machine_Learning) | **2,138** | Tehran, Iran |
 | [The404Hacking/AndroRAT](https://github.com/The404Hacking/AndroRAT) | **1,732** | Iran, Mazandaran, Mahmudabad |
 | [bezzad/Downloader](https://github.com/bezzad/Downloader) | **1,719** | Tehran |
+| [oneHamidreza/MeowBottomNavigation](https://github.com/oneHamidreza/MeowBottomNavigation) | **1,438** | Isfahan, Iran |
+| [vfarid/v2ray-worker](https://github.com/vfarid/v2ray-worker) | **1,423** | Tehran |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

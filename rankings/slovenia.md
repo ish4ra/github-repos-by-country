@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **19**
-- Current global star frontier: **1,516**
+- Verified high-star candidates retained: **22**
+- Current global star frontier: **1,398**
 
 ### High-star verified preview
 
@@ -70,5 +70,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [iredmail/iRedMail](https://github.com/iredmail/iRedMail) | **1,846** | China, Slovenia |
 | [pavlin-policar/openTSNE](https://github.com/pavlin-policar/openTSNE) | **1,623** | Slovenia |
 | [andrejbauer/plzoo](https://github.com/andrejbauer/plzoo) | **1,594** | Slovenia |
+| [MatejKustec/SpinThatShit](https://github.com/MatejKustec/SpinThatShit) | **1,463** | Slovenia, Ljubljana |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

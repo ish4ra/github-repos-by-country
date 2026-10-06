@@ -10,10 +10,10 @@
 
 ## Repository ranking status: Building 0%
 
-- Geography terms processed: **3 / 608**
+- Geography terms processed: **2 / 608**
 - Progress: **0%**
-- Retained high-potential owner candidates: **160**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **162**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [r1skkam/Some-cheatsheets-notes-and-resources-for-AWS-SAA-C03-exam](https://github.com/r1skkam/Some-cheatsheets-notes-and-resources-for-AWS-SAA-C03-exam) | **76** | Yangon, Myanmar (Burma) |
+| [r1skkam/Some-cheatsheets-notes-and-resources-for-AWS-SAA-C03-exam](https://github.com/r1skkam/Some-cheatsheets-notes-and-resources-for-AWS-SAA-C03-exam) | **77** | Yangon, Myanmar (Burma) |
 | [thitlwincoder/direct_link](https://github.com/thitlwincoder/direct_link) | **36** | Yangon, Myanmar(Burma) |
 | [etherealTech/fuse-angular-demo](https://github.com/etherealTech/fuse-angular-demo) | **18** | Yangon, Myanmar (Burma) |
 | [GoLangsam/pipe](https://github.com/GoLangsam/pipe) | **8** | Anisakhan, Pyin Oo Lwin, Mandalay District, Myanmar / Burma |

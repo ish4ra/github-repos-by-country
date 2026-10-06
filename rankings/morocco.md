@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 607**
 - Progress: **0%**
 - Retained high-potential owner candidates: **125**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,13 +24,13 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [NawfalMotii79/PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR) | **26,614** | Casablanca, MOROCCO |
-| [benweet/stackedit](https://github.com/benweet/stackedit) | **23,096** | Marrakech, Morocco |
+| [NawfalMotii79/PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR) | **26,711** | Casablanca, MOROCCO |
+| [benweet/stackedit](https://github.com/benweet/stackedit) | **23,098** | Marrakech, Morocco |
 | [medyo/android-about-page](https://github.com/medyo/android-about-page) | **2,026** | Morocco |
 | [yjose/reactjs-popup](https://github.com/yjose/reactjs-popup) | **1,804** | Casablanca, Morocco |
 | [yezz123/authx](https://github.com/yezz123/authx) | **1,203** | Morocco |
-| [ZeroMemoryEx/Chaos-Rootkit](https://github.com/ZeroMemoryEx/Chaos-Rootkit) | **1,069** | Morocco |
-| [SaadAhla/FilelessPELoader](https://github.com/SaadAhla/FilelessPELoader) | **1,041** | Morocco |
+| [ZeroMemoryEx/Chaos-Rootkit](https://github.com/ZeroMemoryEx/Chaos-Rootkit) | **1,071** | Morocco |
+| [SaadAhla/FilelessPELoader](https://github.com/SaadAhla/FilelessPELoader) | **1,042** | Morocco |
 | [geeksblabla/awesome-morocco](https://github.com/geeksblabla/awesome-morocco) | **751** | Morocco |
 | [seuros/capistrano-puma](https://github.com/seuros/capistrano-puma) | **623** | Tangier, Morocco |
 | [yelouafi/petit-dom](https://github.com/yelouafi/petit-dom) | **506** | Morocco |

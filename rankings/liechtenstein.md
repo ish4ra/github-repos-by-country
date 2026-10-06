@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ixoworld/bonds](https://github.com/ixoworld/bonds) | **41** | Liechtenstein |
 | [pitschr/knx-core](https://github.com/pitschr/knx-core) | **38** | Liechtenstein |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **1,398**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [msanft/CVE-2025-55182](https://github.com/msanft/CVE-2025-55182) | **1,429** | Liechtenstein |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

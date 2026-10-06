@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 922**
 - Progress: **0%**
 - Retained high-potential owner candidates: **141**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,12 +24,12 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [abiosoft/colima](https://github.com/abiosoft/colima) | **31,088** | Nigeria |
-| [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) | **5,785** | Lagos, Nigeria |
-| [cgzirim/seek-tune](https://github.com/cgzirim/seek-tune) | **5,602** | Abuja, Nigeria |
+| [abiosoft/colima](https://github.com/abiosoft/colima) | **31,105** | Nigeria |
+| [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers) | **5,788** | Lagos, Nigeria |
+| [cgzirim/seek-tune](https://github.com/cgzirim/seek-tune) | **5,603** | Abuja, Nigeria |
 | [calistus-igwilo/nitda-blockchain-scholarship](https://github.com/calistus-igwilo/nitda-blockchain-scholarship) | **3,084** | Nigeria |
-| [ayoisaiah/f2](https://github.com/ayoisaiah/f2) | **2,452** | Abuja, Nigeria |
-| [BolajiAyodeji/awesome-technical-writing](https://github.com/BolajiAyodeji/awesome-technical-writing) | **2,313** | Abuja, Nigeria |
+| [ayoisaiah/f2](https://github.com/ayoisaiah/f2) | **2,453** | Abuja, Nigeria |
+| [BolajiAyodeji/awesome-technical-writing](https://github.com/BolajiAyodeji/awesome-technical-writing) | **2,314** | Abuja, Nigeria |
 | [xt42io/avnac](https://github.com/xt42io/avnac) | **1,568** | Nigeria |
 | [adeolaadeoti/adeolaadeoti-portfolio](https://github.com/adeolaadeoti/adeolaadeoti-portfolio) | **363** | Lagos, Nigeria |
 | [davepartner/pmanager](https://github.com/davepartner/pmanager) | **272** | Nigeria |
@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **1,516**
+- Verified high-star candidates retained: **16**
+- Current global star frontier: **1,398**
 
 ### High-star verified preview
 
@@ -65,5 +65,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [panshak/accountill](https://github.com/panshak/accountill) | **1,696** | Nigeria |
 | [xt42io/avnac](https://github.com/xt42io/avnac) | **1,567** | Nigeria |
 | [appcypher/awesome-wasm-runtimes](https://github.com/appcypher/awesome-wasm-runtimes) | **1,560** | Lagos, Nigeria |
+| [olayemii/flutter-ui-kits](https://github.com/olayemii/flutter-ui-kits) | **1,483** | Nigeria |
+| [damms005/devdb-vscode](https://github.com/damms005/devdb-vscode) | **1,447** | Nigeria |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

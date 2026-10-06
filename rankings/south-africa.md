@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **16**
-- Current global star frontier: **1,516**
+- Verified high-star candidates retained: **17**
+- Current global star frontier: **1,398**
 
 ### High-star verified preview
 
@@ -67,5 +67,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [alexmojaki/heartrate](https://github.com/alexmojaki/heartrate) | **1,844** | South Africa |
 | [alexmojaki/birdseye](https://github.com/alexmojaki/birdseye) | **1,772** | South Africa |
 | [alexmojaki/futurecoder](https://github.com/alexmojaki/futurecoder) | **1,537** | South Africa |
+| [alexmojaki/snoop](https://github.com/alexmojaki/snoop) | **1,461** | South Africa |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

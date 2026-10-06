@@ -10,10 +10,10 @@
 
 ## Repository ranking status: Building 0%
 
-- Geography terms processed: **2 / 402**
+- Geography terms processed: **0 / 402**
 - Progress: **0%**
 - Retained high-potential owner candidates: **569**
-- Search requests completed: **17**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.

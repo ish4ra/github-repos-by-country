@@ -1,14 +1,49 @@
 {
-  "schemaVersion": 2,
-  "locationResolverVersion": 2,
+  "schemaVersion": 1,
+  "methodologyVersion": "0.8.0-repository-first",
+  "generatedAt": "2026-10-06T09:11:46.552Z",
   "country": {
     "code": "BR",
     "name": "Brazil",
     "slug": "brazil"
   },
-  "source": "repository-first-stars-desc",
+  "source": {
+    "provider": "GitHub GraphQL API",
+    "endpoint": "https://api.github.com/graphql",
+    "countryBasis": "public repository-owner profile location",
+    "discovery": "global repositories scanned by stars descending"
+  },
+  "coverage": {
+    "status": "repository-first-certified-by-star-frontier",
+    "exhaustive": false,
+    "rawOwnerHits": 48354,
+    "acceptedUniqueOwners": 71,
+    "ownerMetricLabel": "Unique owners in top ranking",
+    "repositoriesConsidered": 100,
+    "publishedRepositories": 100,
+    "candidateThresholdStars": 1402,
+    "rankingLimit": 100,
+    "cappedQueries": [],
+    "repositoryFirst": {
+      "scanFrontierStars": 1398,
+      "topObservedStars": 551406,
+      "repositoriesSeen": 48354,
+      "attributedRepositories": 17395,
+      "ambiguousLocations": 7346,
+      "unknownLocations": 23613,
+      "unresolvedStarCounts": []
+    },
+    "notes": [
+      "Repositories are scanned globally in descending star ranges, independently of owner follower count or owner-search ordering.",
+      "A country is certified only after its 100th repository has more stars than every unprocessed global star range.",
+      "Owner country is inferred from the owner public GitHub profile location using the global geography resolver.",
+      "Owners with missing or unresolved locations are excluded, so country attribution is not a citizenship or legal-incorporation claim.",
+      "Compound city/admin locations such as \"Portland, OR\" are resolved before ambiguous city-only names."
+    ]
+  },
   "repositories": [
     {
+      "rank": 1,
       "name": "book-to-skill",
       "nameWithOwner": "virgiliojr94/book-to-skill",
       "url": "https://github.com/virgiliojr94/book-to-skill",
@@ -42,6 +77,7 @@
       }
     },
     {
+      "rank": 2,
       "name": "ScreenToGif",
       "nameWithOwner": "NickeManarin/ScreenToGif",
       "url": "https://github.com/NickeManarin/ScreenToGif",
@@ -75,6 +111,7 @@
       }
     },
     {
+      "rank": 3,
       "name": "rembg",
       "nameWithOwner": "danielgatis/rembg",
       "url": "https://github.com/danielgatis/rembg",
@@ -108,6 +145,7 @@
       }
     },
     {
+      "rank": 4,
       "name": "docz",
       "nameWithOwner": "pedronauck/docz",
       "url": "https://github.com/pedronauck/docz",
@@ -141,6 +179,7 @@
       }
     },
     {
+      "rank": 5,
       "name": "PhotoGIMP",
       "nameWithOwner": "Diolinux/PhotoGIMP",
       "url": "https://github.com/Diolinux/PhotoGIMP",
@@ -174,6 +213,7 @@
       }
     },
     {
+      "rank": 6,
       "name": "magictools",
       "nameWithOwner": "ellisonleao/magictools",
       "url": "https://github.com/ellisonleao/magictools",
@@ -207,6 +247,7 @@
       }
     },
     {
+      "rank": 7,
       "name": "html-css",
       "nameWithOwner": "gustavoguanabara/html-css",
       "url": "https://github.com/gustavoguanabara/html-css",
@@ -240,6 +281,7 @@
       }
     },
     {
+      "rank": 8,
       "name": "guiadevbrasil",
       "nameWithOwner": "arthurspk/guiadevbrasil",
       "url": "https://github.com/arthurspk/guiadevbrasil",
@@ -273,6 +315,7 @@
       }
     },
     {
+      "rank": 9,
       "name": "BibliotecaDev",
       "nameWithOwner": "KAYOKG/BibliotecaDev",
       "url": "https://github.com/KAYOKG/BibliotecaDev",
@@ -306,6 +349,7 @@
       }
     },
     {
+      "rank": 10,
       "name": "GitTutorial",
       "nameWithOwner": "rafaballerini/GitTutorial",
       "url": "https://github.com/rafaballerini/GitTutorial",
@@ -336,6 +380,7 @@
       }
     },
     {
+      "rank": 11,
       "name": "thumbor",
       "nameWithOwner": "thumbor/thumbor",
       "url": "https://github.com/thumbor/thumbor",
@@ -369,6 +414,7 @@
       }
     },
     {
+      "rank": 12,
       "name": "easyeffects",
       "nameWithOwner": "wwmm/easyeffects",
       "url": "https://github.com/wwmm/easyeffects",
@@ -402,6 +448,7 @@
       }
     },
     {
+      "rank": 13,
       "name": "padroes-de-commits",
       "nameWithOwner": "iuricode/padroes-de-commits",
       "url": "https://github.com/iuricode/padroes-de-commits",
@@ -435,6 +482,7 @@
       }
     },
     {
+      "rank": 14,
       "name": "clappr",
       "nameWithOwner": "clappr/clappr",
       "url": "https://github.com/clappr/clappr",
@@ -468,6 +516,7 @@
       }
     },
     {
+      "rank": 15,
       "name": "tabnews.com.br",
       "nameWithOwner": "filipedeschamps/tabnews.com.br",
       "url": "https://github.com/filipedeschamps/tabnews.com.br",
@@ -501,6 +550,7 @@
       }
     },
     {
+      "rank": 16,
       "name": "awesome-telegram",
       "nameWithOwner": "ebertti/awesome-telegram",
       "url": "https://github.com/ebertti/awesome-telegram",
@@ -531,6 +581,7 @@
       }
     },
     {
+      "rank": 17,
       "name": "awesome-vibe-coding",
       "nameWithOwner": "filipecalegario/awesome-vibe-coding",
       "url": "https://github.com/filipecalegario/awesome-vibe-coding",
@@ -564,6 +615,7 @@
       }
     },
     {
+      "rank": 18,
       "name": "readme-template",
       "nameWithOwner": "iuricode/readme-template",
       "url": "https://github.com/iuricode/readme-template",
@@ -597,6 +649,7 @@
       }
     },
     {
+      "rank": 19,
       "name": "FigmaToCode",
       "nameWithOwner": "bernaferrari/FigmaToCode",
       "url": "https://github.com/bernaferrari/FigmaToCode",
@@ -630,6 +683,7 @@
       }
     },
     {
+      "rank": 20,
       "name": "recursos-gratuitos",
       "nameWithOwner": "iuricode/recursos-gratuitos",
       "url": "https://github.com/iuricode/recursos-gratuitos",
@@ -663,6 +717,7 @@
       }
     },
     {
+      "rank": 21,
       "name": "clean-code-javascript",
       "nameWithOwner": "felipe-augusto/clean-code-javascript",
       "url": "https://github.com/felipe-augusto/clean-code-javascript",
@@ -696,6 +751,7 @@
       }
     },
     {
+      "rank": 22,
       "name": "gustavoguanabara.github.io",
       "nameWithOwner": "gustavoguanabara/gustavoguanabara.github.io",
       "url": "https://github.com/gustavoguanabara/gustavoguanabara.github.io",
@@ -729,6 +785,7 @@
       }
     },
     {
+      "rank": 23,
       "name": "serenata-de-amor",
       "nameWithOwner": "okfn-brasil/serenata-de-amor",
       "url": "https://github.com/okfn-brasil/serenata-de-amor",
@@ -762,6 +819,7 @@
       }
     },
     {
+      "rank": 24,
       "name": "l5-repository",
       "nameWithOwner": "andersao/l5-repository",
       "url": "https://github.com/andersao/l5-repository",
@@ -795,6 +853,7 @@
       }
     },
     {
+      "rank": 25,
       "name": "javascript",
       "nameWithOwner": "gustavoguanabara/javascript",
       "url": "https://github.com/gustavoguanabara/javascript",
@@ -828,6 +887,7 @@
       }
     },
     {
+      "rank": 26,
       "name": "v8n",
       "nameWithOwner": "imbrn/v8n",
       "url": "https://github.com/imbrn/v8n",
@@ -861,6 +921,7 @@
       }
     },
     {
+      "rank": 27,
       "name": "reminders-menubar",
       "nameWithOwner": "DamascenoRafael/reminders-menubar",
       "url": "https://github.com/DamascenoRafael/reminders-menubar",
@@ -894,6 +955,7 @@
       }
     },
     {
+      "rank": 28,
       "name": "OSCE3-Complete-Guide",
       "nameWithOwner": "JoasASantos/OSCE3-Complete-Guide",
       "url": "https://github.com/JoasASantos/OSCE3-Complete-Guide",
@@ -924,6 +986,7 @@
       }
     },
     {
+      "rank": 29,
       "name": "aura-theme",
       "nameWithOwner": "daltonmenezes/aura-theme",
       "url": "https://github.com/daltonmenezes/aura-theme",
@@ -957,6 +1020,7 @@
       }
     },
     {
+      "rank": 30,
       "name": "awesome-generative-ai",
       "nameWithOwner": "filipecalegario/awesome-generative-ai",
       "url": "https://github.com/filipecalegario/awesome-generative-ai",
@@ -990,6 +1054,7 @@
       }
     },
     {
+      "rank": 31,
       "name": "dirtycow.github.io",
       "nameWithOwner": "dirtycow/dirtycow.github.io",
       "url": "https://github.com/dirtycow/dirtycow.github.io",
@@ -1020,6 +1085,7 @@
       }
     },
     {
+      "rank": 32,
       "name": "awesome-open-source-games",
       "nameWithOwner": "michelpereira/awesome-open-source-games",
       "url": "https://github.com/michelpereira/awesome-open-source-games",
@@ -1053,6 +1119,7 @@
       }
     },
     {
+      "rank": 33,
       "name": "curso-typescript-zero-to-hero",
       "nameWithOwner": "glaucia86/curso-typescript-zero-to-hero",
       "url": "https://github.com/glaucia86/curso-typescript-zero-to-hero",
@@ -1086,6 +1153,7 @@
       }
     },
     {
+      "rank": 34,
       "name": "WiFi-Pumpkin-deprecated",
       "nameWithOwner": "P0cL4bs/WiFi-Pumpkin-deprecated",
       "url": "https://github.com/P0cL4bs/WiFi-Pumpkin-deprecated",
@@ -1116,6 +1184,7 @@
       }
     },
     {
+      "rank": 35,
       "name": "hugo-coder",
       "nameWithOwner": "luizdepra/hugo-coder",
       "url": "https://github.com/luizdepra/hugo-coder",
@@ -1149,6 +1218,7 @@
       }
     },
     {
+      "rank": 36,
       "name": "vagas-junior-estagio",
       "nameWithOwner": "alinebastos/vagas-junior-estagio",
       "url": "https://github.com/alinebastos/vagas-junior-estagio",
@@ -1182,6 +1252,7 @@
       }
     },
     {
+      "rank": 37,
       "name": "IPED",
       "nameWithOwner": "sepinf-inc/IPED",
       "url": "https://github.com/sepinf-inc/IPED",
@@ -1215,6 +1286,7 @@
       }
     },
     {
+      "rank": 38,
       "name": "Inspeckage",
       "nameWithOwner": "ac-pm/Inspeckage",
       "url": "https://github.com/ac-pm/Inspeckage",
@@ -1248,6 +1320,7 @@
       }
     },
     {
+      "rank": 39,
       "name": "git-github",
       "nameWithOwner": "gustavoguanabara/git-github",
       "url": "https://github.com/gustavoguanabara/git-github",
@@ -1281,6 +1354,7 @@
       }
     },
     {
+      "rank": 40,
       "name": "guiadofrontend",
       "nameWithOwner": "arthurspk/guiadofrontend",
       "url": "https://github.com/arthurspk/guiadofrontend",
@@ -1314,6 +1388,7 @@
       }
     },
     {
+      "rank": 41,
       "name": "go-concurrency-guide",
       "nameWithOwner": "luk4z7/go-concurrency-guide",
       "url": "https://github.com/luk4z7/go-concurrency-guide",
@@ -1344,6 +1419,7 @@
       }
     },
     {
+      "rank": 42,
       "name": "nginx-proxy-automation",
       "nameWithOwner": "evertramos/nginx-proxy-automation",
       "url": "https://github.com/evertramos/nginx-proxy-automation",
@@ -1377,6 +1453,7 @@
       }
     },
     {
+      "rank": 43,
       "name": "IAMDinosaur",
       "nameWithOwner": "ivanseidel/IAMDinosaur",
       "url": "https://github.com/ivanseidel/IAMDinosaur",
@@ -1410,6 +1487,7 @@
       }
     },
     {
+      "rank": 44,
       "name": "indigo",
       "nameWithOwner": "sergiokopplin/indigo",
       "url": "https://github.com/sergiokopplin/indigo",
@@ -1440,6 +1518,7 @@
       }
     },
     {
+      "rank": 45,
       "name": "rafaballerini",
       "nameWithOwner": "rafaballerini/rafaballerini",
       "url": "https://github.com/rafaballerini/rafaballerini",
@@ -1470,6 +1549,7 @@
       }
     },
     {
+      "rank": 46,
       "name": "Functional-Programming",
       "nameWithOwner": "caiorss/Functional-Programming",
       "url": "https://github.com/caiorss/Functional-Programming",
@@ -1503,6 +1583,7 @@
       }
     },
     {
+      "rank": 47,
       "name": "vscode-project-manager",
       "nameWithOwner": "alefragnani/vscode-project-manager",
       "url": "https://github.com/alefragnani/vscode-project-manager",
@@ -1536,6 +1617,7 @@
       }
     },
     {
+      "rank": 48,
       "name": "gamdl",
       "nameWithOwner": "glomatico/gamdl",
       "url": "https://github.com/glomatico/gamdl",
@@ -1569,6 +1651,7 @@
       }
     },
     {
+      "rank": 49,
       "name": "gruvbox.nvim",
       "nameWithOwner": "ellisonleao/gruvbox.nvim",
       "url": "https://github.com/ellisonleao/gruvbox.nvim",
@@ -1602,6 +1685,7 @@
       }
     },
     {
+      "rank": 50,
       "name": "jexboss",
       "nameWithOwner": "joaomatosf/jexboss",
       "url": "https://github.com/joaomatosf/jexboss",
@@ -1635,6 +1719,7 @@
       }
     },
     {
+      "rank": 51,
       "name": "wifipumpkin3",
       "nameWithOwner": "P0cL4bs/wifipumpkin3",
       "url": "https://github.com/P0cL4bs/wifipumpkin3",
@@ -1668,6 +1753,7 @@
       }
     },
     {
+      "rank": 52,
       "name": "video-maker",
       "nameWithOwner": "filipedeschamps/video-maker",
       "url": "https://github.com/filipedeschamps/video-maker",
@@ -1701,6 +1787,7 @@
       }
     },
     {
+      "rank": 53,
       "name": "SimCLR",
       "nameWithOwner": "sthalles/SimCLR",
       "url": "https://github.com/sthalles/SimCLR",
@@ -1734,6 +1821,7 @@
       }
     },
     {
+      "rank": 54,
       "name": "guiadecybersecurity",
       "nameWithOwner": "arthurspk/guiadecybersecurity",
       "url": "https://github.com/arthurspk/guiadecybersecurity",
@@ -1767,6 +1855,7 @@
       }
     },
     {
+      "rank": 55,
       "name": "datascience-pizza",
       "nameWithOwner": "PizzaDeDados/datascience-pizza",
       "url": "https://github.com/PizzaDeDados/datascience-pizza",
@@ -1800,6 +1889,7 @@
       }
     },
     {
+      "rank": 56,
       "name": "guiadobackend",
       "nameWithOwner": "arthurspk/guiadobackend",
       "url": "https://github.com/arthurspk/guiadobackend",
@@ -1833,6 +1923,7 @@
       }
     },
     {
+      "rank": 57,
       "name": "blackhat-python3",
       "nameWithOwner": "EONRaider/blackhat-python3",
       "url": "https://github.com/EONRaider/blackhat-python3",
@@ -1863,6 +1954,7 @@
       }
     },
     {
+      "rank": 58,
       "name": "express-rest-boilerplate",
       "nameWithOwner": "danielfsousa/express-rest-boilerplate",
       "url": "https://github.com/danielfsousa/express-rest-boilerplate",
@@ -1896,6 +1988,7 @@
       }
     },
     {
+      "rank": 59,
       "name": "m3u8",
       "nameWithOwner": "globocom/m3u8",
       "url": "https://github.com/globocom/m3u8",
@@ -1929,6 +2022,7 @@
       }
     },
     {
+      "rank": 60,
       "name": "Tasks.md",
       "nameWithOwner": "BaldissaraMatheus/Tasks.md",
       "url": "https://github.com/BaldissaraMatheus/Tasks.md",
@@ -1962,6 +2056,7 @@
       }
     },
     {
+      "rank": 61,
       "name": "vscode-bookmarks",
       "nameWithOwner": "alefragnani/vscode-bookmarks",
       "url": "https://github.com/alefragnani/vscode-bookmarks",
@@ -1995,6 +2090,7 @@
       }
     },
     {
+      "rank": 62,
       "name": "awesome-games-of-coding",
       "nameWithOwner": "michelpereira/awesome-games-of-coding",
       "url": "https://github.com/michelpereira/awesome-games-of-coding",
@@ -2028,6 +2124,7 @@
       }
     },
     {
+      "rank": 63,
       "name": "nginx-ignition",
       "nameWithOwner": "lucasdillmann/nginx-ignition",
       "url": "https://github.com/lucasdillmann/nginx-ignition",
@@ -2061,6 +2158,7 @@
       }
     },
     {
+      "rank": 64,
       "name": "SOpt",
       "nameWithOwner": "maniero/SOpt",
       "url": "https://github.com/maniero/SOpt",
@@ -2094,6 +2192,7 @@
       }
     },
     {
+      "rank": 65,
       "name": "opensquad",
       "nameWithOwner": "renatoasse/opensquad",
       "url": "https://github.com/renatoasse/opensquad",
@@ -2124,6 +2223,7 @@
       }
     },
     {
+      "rank": 66,
       "name": "sharer.js",
       "nameWithOwner": "ellisonleao/sharer.js",
       "url": "https://github.com/ellisonleao/sharer.js",
@@ -2157,6 +2257,7 @@
       }
     },
     {
+      "rank": 67,
       "name": "ress",
       "nameWithOwner": "filipelinhares/ress",
       "url": "https://github.com/filipelinhares/ress",
@@ -2190,6 +2291,7 @@
       }
     },
     {
+      "rank": 68,
       "name": "UWPHook",
       "nameWithOwner": "BrianLima/UWPHook",
       "url": "https://github.com/BrianLima/UWPHook",
@@ -2223,6 +2325,7 @@
       }
     },
     {
+      "rank": 69,
       "name": "curso-js",
       "nameWithOwner": "luizomf/curso-js",
       "url": "https://github.com/luizomf/curso-js",
@@ -2253,6 +2356,7 @@
       }
     },
     {
+      "rank": 70,
       "name": "curriculo",
       "nameWithOwner": "engenheiracoelho/curriculo",
       "url": "https://github.com/engenheiracoelho/curriculo",
@@ -2283,6 +2387,7 @@
       }
     },
     {
+      "rank": 71,
       "name": "clean-ts-api",
       "nameWithOwner": "rmanguinho/clean-ts-api",
       "url": "https://github.com/rmanguinho/clean-ts-api",
@@ -2316,6 +2421,7 @@
       }
     },
     {
+      "rank": 72,
       "name": "OptMem",
       "nameWithOwner": "VictorTaelin/OptMem",
       "url": "https://github.com/VictorTaelin/OptMem",
@@ -2346,6 +2452,7 @@
       }
     },
     {
+      "rank": 73,
       "name": "authentication-zero",
       "nameWithOwner": "lazaronixon/authentication-zero",
       "url": "https://github.com/lazaronixon/authentication-zero",
@@ -2379,6 +2486,7 @@
       }
     },
     {
+      "rank": 74,
       "name": "styleguide",
       "nameWithOwner": "hugeinc/styleguide",
       "url": "https://github.com/hugeinc/styleguide",
@@ -2412,6 +2520,7 @@
       }
     },
     {
+      "rank": 75,
       "name": "Awesome-Red-Team-Operations",
       "nameWithOwner": "JoasASantos/Awesome-Red-Team-Operations",
       "url": "https://github.com/JoasASantos/Awesome-Red-Team-Operations",
@@ -2442,6 +2551,7 @@
       }
     },
     {
+      "rank": 76,
       "name": "Programming-Books",
       "nameWithOwner": "CodesdaLu/Programming-Books",
       "url": "https://github.com/CodesdaLu/Programming-Books",
@@ -2472,6 +2582,7 @@
       }
     },
     {
+      "rank": 77,
       "name": "chrome-extension-webpack-boilerplate",
       "nameWithOwner": "samuelsimoes/chrome-extension-webpack-boilerplate",
       "url": "https://github.com/samuelsimoes/chrome-extension-webpack-boilerplate",
@@ -2505,6 +2616,7 @@
       }
     },
     {
+      "rank": 78,
       "name": "react-adopt",
       "nameWithOwner": "pedronauck/react-adopt",
       "url": "https://github.com/pedronauck/react-adopt",
@@ -2538,6 +2650,7 @@
       }
     },
     {
+      "rank": 79,
       "name": "vue-api-query",
       "nameWithOwner": "robsontenorio/vue-api-query",
       "url": "https://github.com/robsontenorio/vue-api-query",
@@ -2571,6 +2684,7 @@
       }
     },
     {
+      "rank": 80,
       "name": "clumsy-bird",
       "nameWithOwner": "ellisonleao/clumsy-bird",
       "url": "https://github.com/ellisonleao/clumsy-bird",
@@ -2604,6 +2718,7 @@
       }
     },
     {
+      "rank": 81,
       "name": "ngTagsInput",
       "nameWithOwner": "mbenford/ngTagsInput",
       "url": "https://github.com/mbenford/ngTagsInput",
@@ -2637,6 +2752,7 @@
       }
     },
     {
+      "rank": 82,
       "name": "java-concurrency-patterns",
       "nameWithOwner": "LeonardoZ/java-concurrency-patterns",
       "url": "https://github.com/LeonardoZ/java-concurrency-patterns",
@@ -2670,6 +2786,7 @@
       }
     },
     {
+      "rank": 83,
       "name": "react-native-masked-text",
       "nameWithOwner": "bhrott/react-native-masked-text",
       "url": "https://github.com/bhrott/react-native-masked-text",
@@ -2703,6 +2820,7 @@
       }
     },
     {
+      "rank": 84,
       "name": "dev-practice",
       "nameWithOwner": "alinebastos/dev-practice",
       "url": "https://github.com/alinebastos/dev-practice",
@@ -2736,6 +2854,7 @@
       }
     },
     {
+      "rank": 85,
       "name": "sped-nfe",
       "nameWithOwner": "nfephp-org/sped-nfe",
       "url": "https://github.com/nfephp-org/sped-nfe",
@@ -2769,6 +2888,7 @@
       }
     },
     {
+      "rank": 86,
       "name": "OpenNoteScanner",
       "nameWithOwner": "allgood/OpenNoteScanner",
       "url": "https://github.com/allgood/OpenNoteScanner",
@@ -2802,6 +2922,7 @@
       }
     },
     {
+      "rank": 87,
       "name": "react-native-flash-message",
       "nameWithOwner": "lucasferreira/react-native-flash-message",
       "url": "https://github.com/lucasferreira/react-native-flash-message",
@@ -2835,6 +2956,7 @@
       }
     },
     {
+      "rank": 88,
       "name": "Elixir-Code-Smells",
       "nameWithOwner": "lucasvegi/Elixir-Code-Smells",
       "url": "https://github.com/lucasvegi/Elixir-Code-Smells",
@@ -2868,6 +2990,7 @@
       }
     },
     {
+      "rank": 89,
       "name": "flash-calendar",
       "nameWithOwner": "MarceloPrado/flash-calendar",
       "url": "https://github.com/MarceloPrado/flash-calendar",
@@ -2901,6 +3024,7 @@
       }
     },
     {
+      "rank": 90,
       "name": "10ProjetosHTMLeCSS",
       "nameWithOwner": "rafaballerini/10ProjetosHTMLeCSS",
       "url": "https://github.com/rafaballerini/10ProjetosHTMLeCSS",
@@ -2931,6 +3055,7 @@
       }
     },
     {
+      "rank": 91,
       "name": "mary",
       "nameWithOwner": "robsontenorio/mary",
       "url": "https://github.com/robsontenorio/mary",
@@ -2964,6 +3089,7 @@
       }
     },
     {
+      "rank": 92,
       "name": "clean-react",
       "nameWithOwner": "rmanguinho/clean-react",
       "url": "https://github.com/rmanguinho/clean-react",
@@ -2997,6 +3123,7 @@
       }
     },
     {
+      "rank": 93,
       "name": "awesome-ai-web-search",
       "nameWithOwner": "felladrin/awesome-ai-web-search",
       "url": "https://github.com/felladrin/awesome-ai-web-search",
@@ -3030,6 +3157,7 @@
       }
     },
     {
+      "rank": 94,
       "name": "reworm",
       "nameWithOwner": "pedronauck/reworm",
       "url": "https://github.com/pedronauck/reworm",
@@ -3063,6 +3191,7 @@
       }
     },
     {
+      "rank": 95,
       "name": "WebMonkeys",
       "nameWithOwner": "VictorTaelin/WebMonkeys",
       "url": "https://github.com/VictorTaelin/WebMonkeys",
@@ -3096,6 +3225,7 @@
       }
     },
     {
+      "rank": 96,
       "name": "doom-fire-algorithm",
       "nameWithOwner": "filipedeschamps/doom-fire-algorithm",
       "url": "https://github.com/filipedeschamps/doom-fire-algorithm",
@@ -3129,6 +3259,7 @@
       }
     },
     {
+      "rank": 97,
       "name": "NeuroSploit",
       "nameWithOwner": "JoasASantos/NeuroSploit",
       "url": "https://github.com/JoasASantos/NeuroSploit",
@@ -3162,6 +3293,7 @@
       }
     },
     {
+      "rank": 98,
       "name": "Guide-CEH-Practical-Master",
       "nameWithOwner": "JoasASantos/Guide-CEH-Practical-Master",
       "url": "https://github.com/JoasASantos/Guide-CEH-Practical-Master",
@@ -3192,6 +3324,7 @@
       }
     },
     {
+      "rank": 99,
       "name": "loops-e-arrays",
       "nameWithOwner": "cami-la/loops-e-arrays",
       "url": "https://github.com/cami-la/loops-e-arrays",
@@ -3222,6 +3355,7 @@
       }
     },
     {
+      "rank": 100,
       "name": "querido-diario",
       "nameWithOwner": "okfn-brasil/querido-diario",
       "url": "https://github.com/okfn-brasil/querido-diario",
@@ -3254,8 +3388,5 @@
         "discoveryTerms": []
       }
     }
-  ],
-  "scanFrontierStars": 1398,
-  "certifiedAt": "2026-10-06T09:11:46.552Z",
-  "updatedAt": "2026-10-06T09:11:46.552Z"
+  ]
 }

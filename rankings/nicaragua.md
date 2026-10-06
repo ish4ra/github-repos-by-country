@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 153**
 - Progress: **0%**
-- Retained high-potential owner candidates: **341**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **342**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -38,6 +38,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [luismejiadev/survey](https://github.com/luismejiadev/survey) | **24** | Managua, Nicaragua |
 | [altmas5/claro-wifi-pass-solver](https://github.com/altmas5/claro-wifi-pass-solver) | **17** | Diriamba, Nicaragua |
 | [reymundotenorio/ConsultorioMedico](https://github.com/reymundotenorio/ConsultorioMedico) | **17** | Nicaragua |
-| [CrisLottz/workforce-management](https://github.com/CrisLottz/workforce-management) | **14** | Nicaragua |
+| [CrisLottz/workforce-management](https://github.com/CrisLottz/workforce-management) | **15** | Nicaragua |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 144**
 - Progress: **0%**
 - Retained high-potential owner candidates: **126**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,9 +25,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [lohanidamodar/flutter_ui_challenges](https://github.com/lohanidamodar/flutter_ui_challenges) | **4,749** | Kathmandu, Nepal |
-| [casualsnek/waydroid_script](https://github.com/casualsnek/waydroid_script) | **3,814** | Nepal |
+| [casualsnek/waydroid_script](https://github.com/casualsnek/waydroid_script) | **3,820** | Nepal |
 | [erluxman/awesomefluttertips](https://github.com/erluxman/awesomefluttertips) | **2,941** | Kathmandu Nepal |
-| [Prajwal100/Complete-Ecommerce-in-laravel-10](https://github.com/Prajwal100/Complete-Ecommerce-in-laravel-10) | **1,017** | Kathmandu, Nepal |
+| [Prajwal100/Complete-Ecommerce-in-laravel-10](https://github.com/Prajwal100/Complete-Ecommerce-in-laravel-10) | **1,018** | Kathmandu, Nepal |
 | [ghimiresunil/Top-AI-Tools](https://github.com/ghimiresunil/Top-AI-Tools) | **947** | Kathmandu, Nepal |
 | [sarbagyastha/youtube_player_flutter](https://github.com/sarbagyastha/youtube_player_flutter) | **809** | Kathmandu, Nepal |
 | [moest-np/center-randomize](https://github.com/moest-np/center-randomize) | **726** | Nepal |
@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **6**
-- Current global star frontier: **2,121**
+- Verified high-star candidates retained: **7**
+- Current global star frontier: **1,398**
 
 ### High-star verified preview
 
@@ -57,5 +57,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [codse/animata](https://github.com/codse/animata) | **2,815** | Pokhara, Nepal |
 | [xandemon/developer-icons](https://github.com/xandemon/developer-icons) | **2,659** | Kathmandu, Nepal |
 | [prajwalch/TorrentSearch](https://github.com/prajwalch/TorrentSearch) | **2,172** | Damak, Jhapa, Nepal |
+| [Subash/Prepros](https://github.com/Subash/Prepros) | **1,475** | Nepal |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

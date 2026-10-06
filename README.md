@@ -21,7 +21,7 @@
 
 ## Browse by country
 
-**250 indexed · 19 live · 249 building · 0 queued**
+**250 indexed · 20 live · 250 building · 0 queued**
 
 > 🟢 **Live** = published ranking · 🟡 **Building** = crawl in progress · ⚪ **Queued** = waiting for its first crawl
 
@@ -74,7 +74,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
     <tr>
       <td width="25%">🟡 <a href="./rankings/botswana.md"><strong>🇧🇼 Botswana</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/bouvet-island.md"><strong>🇧🇻 Bouvet Island</strong></a></td>
-      <td width="25%">🟡 <a href="./rankings/brazil.md"><strong>🇧🇷 Brazil</strong></a></td>
+      <td width="25%">🟢 <a href="./rankings/brazil.md"><strong>🇧🇷 Brazil</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/british-indian-ocean-territory.md"><strong>🇮🇴 British Indian Ocean Territory</strong></a></td>
     </tr>
     <tr>

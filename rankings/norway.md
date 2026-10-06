@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 917**
 - Progress: **0%**
-- Retained high-potential owner candidates: **148**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **150**
+- Search requests completed: **4**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,26 +24,26 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | **93,166** | Norway |
-| [mifi/lossless-cut](https://github.com/mifi/lossless-cut) | **44,248** | Norway |
-| [asmvik/yabai](https://github.com/asmvik/yabai) | **29,698** | Stavanger, Norway |
+| [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | **93,302** | Norway |
+| [mifi/lossless-cut](https://github.com/mifi/lossless-cut) | **44,298** | Norway |
+| [asmvik/yabai](https://github.com/asmvik/yabai) | **29,710** | Stavanger, Norway |
 | [tipsy/profile-summary-for-github](https://github.com/tipsy/profile-summary-for-github) | **19,942** | Trondheim, Norway |
-| [AndyMik90/Aperant](https://github.com/AndyMik90/Aperant) | **14,578** | Norway |
-| [erikgrinaker/toydb](https://github.com/erikgrinaker/toydb) | **7,292** | Oslo, Norway |
-| [raphw/byte-buddy](https://github.com/raphw/byte-buddy) | **6,895** | Oslo, Norway |
-| [auduno/clmtrackr](https://github.com/auduno/clmtrackr) | **6,499** | Oslo, Norway |
+| [AndyMik90/Aperant](https://github.com/AndyMik90/Aperant) | **14,581** | Norway |
+| [erikgrinaker/toydb](https://github.com/erikgrinaker/toydb) | **7,296** | Oslo, Norway |
+| [raphw/byte-buddy](https://github.com/raphw/byte-buddy) | **6,897** | Oslo, Norway |
+| [auduno/clmtrackr](https://github.com/auduno/clmtrackr) | **6,500** | Oslo, Norway |
 | [onmyway133/awesome-ios-animation](https://github.com/onmyway133/awesome-ios-animation) | **5,445** | Oslo, Norway |
 | [danielzeller/Depth-LIB-Android-](https://github.com/danielzeller/Depth-LIB-Android-) | **4,516** | Norway |
-| [khellang/Scrutor](https://github.com/khellang/Scrutor) | **4,348** | Stavanger, Norway |
+| [khellang/Scrutor](https://github.com/khellang/Scrutor) | **4,349** | Stavanger, Norway |
 | [sdushantha/tmpmail](https://github.com/sdushantha/tmpmail) | **4,186** | Norway |
-| [antonbabenko/pre-commit-terraform](https://github.com/antonbabenko/pre-commit-terraform) | **3,783** | Oslo, Norway |
-| [zenangst/Hue](https://github.com/zenangst/Hue) | **3,545** | Oslo, Norway |
-| [HansKristian-Work/vkd3d-proton](https://github.com/HansKristian-Work/vkd3d-proton) | **2,988** | Trondheim, Norway |
+| [antonbabenko/pre-commit-terraform](https://github.com/antonbabenko/pre-commit-terraform) | **3,784** | Oslo, Norway |
+| [zenangst/Hue](https://github.com/zenangst/Hue) | **3,546** | Oslo, Norway |
+| [HansKristian-Work/vkd3d-proton](https://github.com/HansKristian-Work/vkd3d-proton) | **2,991** | Trondheim, Norway |
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **83**
-- Current global star frontier: **1,516**
+- Verified high-star candidates retained: **93**
+- Current global star frontier: **1,398**
 
 ### High-star verified preview
 

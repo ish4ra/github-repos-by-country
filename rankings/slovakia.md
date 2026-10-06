@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **16**
-- Current global star frontier: **1,516**
+- Verified high-star candidates retained: **19**
+- Current global star frontier: **1,398**
 
 ### High-star verified preview
 
@@ -67,5 +67,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [adrianmihalko/ch340g-ch34g-ch34x-mac-os-x-driver](https://github.com/adrianmihalko/ch340g-ch34g-ch34x-mac-os-x-driver) | **1,646** | Slovakia |
 | [ckissi/Learn-by-projects](https://github.com/ckissi/Learn-by-projects) | **1,640** | Slovakia |
 | [SimpleMobileTools/Simple-File-Manager](https://github.com/SimpleMobileTools/Simple-File-Manager) | **1,583** | Slovakia |
+| [hotovo/aider-desk](https://github.com/hotovo/aider-desk) | **1,452** | Slovakia |
+| [SimpleMobileTools/Simple-Music-Player](https://github.com/SimpleMobileTools/Simple-Music-Player) | **1,396** | Slovakia |
+| [acoustid/chromaprint](https://github.com/acoustid/chromaprint) | **1,393** | Slovakia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

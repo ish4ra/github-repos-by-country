@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **16**
-- Current global star frontier: **1,516**
+- Verified high-star candidates retained: **17**
+- Current global star frontier: **1,398**
 
 ### High-star verified preview
 
@@ -67,5 +67,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [barbushin/php-imap](https://github.com/barbushin/php-imap) | **1,699** | Belarus |
 | [ermig1979/AntiDupl](https://github.com/ermig1979/AntiDupl) | **1,682** | Minsk, Belarus |
 | [alexzhirkevich/compose-cupertino](https://github.com/alexzhirkevich/compose-cupertino) | **1,659** | Belarus, Minsk |
+| [androidbroadcast/ViewBindingPropertyDelegate](https://github.com/androidbroadcast/ViewBindingPropertyDelegate) | **1,473** | Belarus |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

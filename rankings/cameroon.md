@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **1,398**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [ln-dev7/circle](https://github.com/ln-dev7/circle) | **4,557** | Cameroon |
+| [atoum/atoum](https://github.com/atoum/atoum) | **1,440** | Noun |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

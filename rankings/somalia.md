@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Mohamedali678/crypto-wallet](https://github.com/Mohamedali678/crypto-wallet) | **13** | Mogadishu, Somalia |
 | [abdinasir-Tman/shaqo-sahal](https://github.com/abdinasir-Tman/shaqo-sahal) | **12** | Mogadishu, Somalia |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **1,398**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [theironcook/Backbone.ModelBinder](https://github.com/theironcook/Backbone.ModelBinder) | **1,409** | 'merca |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

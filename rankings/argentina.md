@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **1,684**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **1,398**
 
 ### High-star verified preview
 
@@ -53,5 +53,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [alitto/pond](https://github.com/alitto/pond) | **2,197** | Azul, Argentina |
 | [goncy/interview-challenges](https://github.com/goncy/interview-challenges) | **1,765** | Quilmes, Buenos Aires, Argentina |
+| [epidemian/snake](https://github.com/epidemian/snake) | **1,396** | Bariloche, Argentina |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

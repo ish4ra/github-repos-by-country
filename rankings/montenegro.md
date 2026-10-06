@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 97**
 - Progress: **0%**
-- Retained high-potential owner candidates: **220**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **222**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [Const-me/Whisper](https://github.com/Const-me/Whisper) | **10,674** | Tivat, Montenegro |
+| [Const-me/Whisper](https://github.com/Const-me/Whisper) | **10,675** | Tivat, Montenegro |
 | [dchest/captcha](https://github.com/dchest/captcha) | **2,064** | Montenegro |
 | [mifth/mifthtools](https://github.com/mifth/mifthtools) | **928** | Montenegro |
 | [cblp/yaml-sucks](https://github.com/cblp/yaml-sucks) | **654** | Montenegro |
@@ -32,7 +32,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [olegkoval/magento2-regenerate_url_rewrites](https://github.com/olegkoval/magento2-regenerate_url_rewrites) | **444** | Bar, Montenegro |
 | [kostafey/ejc-sql](https://github.com/kostafey/ejc-sql) | **321** | Podgorica, Montenegro |
 | [M1ck0/adskipper-extension](https://github.com/M1ck0/adskipper-extension) | **229** | Podgorica, Montenegro |
-| [vladignatyev/crx-extractor](https://github.com/vladignatyev/crx-extractor) | **228** | Montenegro |
+| [vladignatyev/crx-extractor](https://github.com/vladignatyev/crx-extractor) | **229** | Montenegro |
 | [mladenrakonjac/ModernAndroidApp](https://github.com/mladenrakonjac/ModernAndroidApp) | **203** | Montenegro |
 | [vovkasm/input-source-switcher](https://github.com/vovkasm/input-source-switcher) | **147** | Budva, Montenegro |
 | [hedza06/spring-boot-otp](https://github.com/hedza06/spring-boot-otp) | **116** | Montenegro, Podgorica |
@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **1,398**
 
 ### High-star verified preview
 
@@ -54,5 +54,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Const-me/Whisper](https://github.com/Const-me/Whisper) | **10,674** | Tivat, Montenegro |
 | [gilbarbara/react-joyride](https://github.com/gilbarbara/react-joyride) | **7,871** | São Paulo, BR |
 | [gilbarbara/logos](https://github.com/gilbarbara/logos) | **6,838** | São Paulo, BR |
+| [joaokristani/Discord-Server-Cloner-2x](https://github.com/joaokristani/Discord-Server-Cloner-2x) | **1,474** | SP, BR |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

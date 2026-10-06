@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **5,385**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **1,398**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [al1abb/invoify](https://github.com/al1abb/invoify) | **6,362** | Azerbaijan |
+| [mearashadowfax/ScrewFast](https://github.com/mearashadowfax/ScrewFast) | **1,422** | Baku, Azerbaijan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

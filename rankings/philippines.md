@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **17**
-- Current global star frontier: **1,516**
+- Verified high-star candidates retained: **19**
+- Current global star frontier: **1,398**
 
 ### High-star verified preview
 
@@ -68,5 +68,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [junedomingo/movieapp](https://github.com/junedomingo/movieapp) | **1,827** | Ilagan City, Isabela, Philippines |
 | [JaKooLit/Ubuntu-Hyprland](https://github.com/JaKooLit/Ubuntu-Hyprland) | **1,603** | Philippines / South Korea - Worldwide |
 | [AeolusUX/ArkOS-R3XS](https://github.com/AeolusUX/ArkOS-R3XS) | **1,595** | Philippines |
+| [JaKooLit/Debian-Hyprland](https://github.com/JaKooLit/Debian-Hyprland) | **1,407** | Philippines / South Korea - Worldwide |
+| [darryldecode/laravelshoppingcart](https://github.com/darryldecode/laravelshoppingcart) | **1,406** | Davao City, Philippines |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
