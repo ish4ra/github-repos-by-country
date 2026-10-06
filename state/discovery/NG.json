@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "500cef3aa42d5abaca46e31403ed06e28f152fca7fd6b82b4f9abb6a3fefe528",
+    "sha256": "570dc3ff1d271a8f2652d6f81e543b383b2a8ee5a85cf3aa184dfdab16f8cfa8",
     "termsTotal": 922
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Nigeria",
     "queue": [
+      {
+        "query": "location:\"Nigeria\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
       {
         "query": "location:\"Nigeria\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
         "stage": "year:2013",
@@ -270,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:34:23.514Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-06T06:34:32.685Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 19439
+    "reportedCount": 19464
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:34:23.514Z",
-  "updatedAt": "2026-10-03T20:14:02.127Z",
+  "startedAt": "2026-10-06T06:34:32.685Z",
+  "updatedAt": "2026-10-06T06:34:49.647Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 242,
-    "acceptedOwnerHits": 234,
-    "rejectedOwnerHits": 8,
+    "rawOwnerHits": 213,
+    "acceptedOwnerHits": 208,
+    "rejectedOwnerHits": 5,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4595
+    "minimumRateLimitRemaining": 4864
   },
   "unresolvedShards": [],
   "candidates": [
@@ -317,8 +324,8 @@
         "nameWithOwner": "abiosoft/colima",
         "url": "https://github.com/abiosoft/colima",
         "description": "Container runtimes on macOS (and Linux) with minimal setup",
-        "stargazerCount": 31088,
-        "forkCount": 622,
+        "stargazerCount": 31105,
+        "forkCount": 624,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2021-09-04T09:52:22Z",
@@ -356,8 +363,8 @@
         "nameWithOwner": "appcypher/awesome-mcp-servers",
         "url": "https://github.com/appcypher/awesome-mcp-servers",
         "description": "Awesome MCP Servers - A curated list of Model Context Protocol servers",
-        "stargazerCount": 5785,
-        "forkCount": 2456,
+        "stargazerCount": 5788,
+        "forkCount": 2467,
         "isArchived": true,
         "isFork": false,
         "createdAt": "2024-11-28T23:53:45Z",
@@ -390,7 +397,7 @@
         "nameWithOwner": "cgzirim/seek-tune",
         "url": "https://github.com/cgzirim/seek-tune",
         "description": "An implementation of Shazam's song recognition algorithm.",
-        "stargazerCount": 5602,
+        "stargazerCount": 5603,
         "forkCount": 615,
         "isArchived": false,
         "isFork": false,
@@ -465,12 +472,12 @@
         "nameWithOwner": "ayoisaiah/f2",
         "url": "https://github.com/ayoisaiah/f2",
         "description": "F2 is a cross-platform command-line tool for batch renaming files and directories quickly and safely. Written in Go!",
-        "stargazerCount": 2452,
+        "stargazerCount": 2453,
         "forkCount": 66,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2020-04-28T00:20:46Z",
-        "pushedAt": "2026-09-24T21:21:42Z",
+        "pushedAt": "2026-10-04T13:45:53Z",
         "homepageUrl": "https://f2.freshman.tech",
         "primaryLanguage": {
           "name": "Go"
@@ -504,7 +511,7 @@
         "nameWithOwner": "BolajiAyodeji/awesome-technical-writing",
         "url": "https://github.com/BolajiAyodeji/awesome-technical-writing",
         "description": ":books: A curated list of awesome resources: articles, books, videos, tools, podcasts about technical writing.",
-        "stargazerCount": 2313,
+        "stargazerCount": 2314,
         "forkCount": 378,
         "isArchived": false,
         "isFork": false,

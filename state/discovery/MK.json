@@ -8,27 +8,44 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "d98d519e742a4173e21d38239b738a36439614e4297ec07c45c682318d818bdb",
+    "sha256": "7d940c7e507ca5c63899f45617024a19317836846ccaafc52a7bb2580974fe7c",
     "termsTotal": 402
   },
   "phase": "discovery",
-  "nextTermIndex": 2,
-  "activeTerm": null,
+  "nextTermIndex": 0,
+  "activeTerm": {
+    "index": 0,
+    "term": "North Macedonia",
+    "queue": [
+      {
+        "query": "location:\"North Macedonia\"",
+        "stage": "base",
+        "cursor": "Y3Vyc29yOjQwMA==",
+        "pageNumber": 9,
+        "attempts": 0
+      }
+    ],
+    "startedAt": "2026-10-06T06:35:25.194Z",
+    "requests": 8,
+    "leafPages": 8,
+    "shardExpansions": 0,
+    "reportedCount": null
+  },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:34:33.052Z",
-  "updatedAt": "2026-10-03T23:10:55.407Z",
+  "startedAt": "2026-10-06T06:35:25.194Z",
+  "updatedAt": "2026-10-06T06:35:52.245Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
-    "termsProcessed": 2,
-    "searchRequests": 17,
-    "leafPages": 17,
+    "termsProcessed": 0,
+    "searchRequests": 8,
+    "leafPages": 8,
     "shardExpansions": 0,
-    "rawOwnerHits": 784,
-    "acceptedOwnerHits": 782,
-    "rejectedOwnerHits": 2,
+    "rawOwnerHits": 400,
+    "acceptedOwnerHits": 400,
+    "rejectedOwnerHits": 0,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4591
+    "minimumRateLimitRemaining": 4832
   },
   "unresolvedShards": [],
   "candidates": [
@@ -56,7 +73,7 @@
         "url": "https://github.com/eritislami/evobot",
         "description": "🤖 EvoBot is a Discord Music Bot built with TypeScript + Discord.js, includes Docker builds & localization in 20+ languages",
         "stargazerCount": 1871,
-        "forkCount": 1973,
+        "forkCount": 1971,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2019-05-15T14:19:37Z",
@@ -2828,6 +2845,42 @@
       }
     },
     {
+      "id": "U_kgDOB3yBqg",
+      "login": "Accordion-77",
+      "name": "Vasko Davkov",
+      "type": "User",
+      "location": "Skopje,North Macedonia",
+      "url": "https://github.com/Accordion-77",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/125600170?u=769d4b49f20ddbdd36db67b7f9f346def6c8904b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "North Macedonia"
+      },
+      "discoveryTerms": [
+        "North Macedonia"
+      ],
+      "topRepository": {
+        "name": "Elementary-all",
+        "nameWithOwner": "Accordion-77/Elementary-all",
+        "url": "https://github.com/Accordion-77/Elementary-all",
+        "description": "html elementory",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-02-20T08:28:17Z",
+        "pushedAt": "2023-02-20T08:28:26Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjc2ODc0NTgx",
       "login": "aesbube",
       "name": "bube",
@@ -4045,7 +4098,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-07-22T13:26:35Z",
-        "pushedAt": "2026-10-03T14:26:06Z",
+        "pushedAt": "2026-10-04T19:05:17Z",
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "Rust"
@@ -4554,7 +4607,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-07-07T10:58:39Z",
-        "pushedAt": "2026-10-03T18:41:19Z",
+        "pushedAt": "2026-10-05T16:01:00Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "PHP"
@@ -6369,42 +6422,6 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
-      }
-    },
-    {
-      "id": "U_kgDOB3yBqg",
-      "login": "Accordion-77",
-      "name": "Vasko Davkov",
-      "type": "User",
-      "location": "Skopje,North Macedonia",
-      "url": "https://github.com/Accordion-77",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/125600170?u=769d4b49f20ddbdd36db67b7f9f346def6c8904b&v=4",
-      "attribution": {
-        "accepted": true,
-        "countryCode": "MK",
-        "confidence": "high",
-        "evidence": "explicit-country",
-        "matched": "North Macedonia"
-      },
-      "discoveryTerms": [
-        "North Macedonia"
-      ],
-      "topRepository": {
-        "name": "projectkrojaceva",
-        "nameWithOwner": "Accordion-77/projectkrojaceva",
-        "url": "https://github.com/Accordion-77/projectkrojaceva",
-        "description": "web project",
-        "stargazerCount": 0,
-        "forkCount": 0,
-        "isArchived": false,
-        "isFork": false,
-        "createdAt": "2023-03-09T10:36:51Z",
-        "pushedAt": "2023-03-09T10:39:17Z",
-        "homepageUrl": null,
-        "primaryLanguage": {
-          "name": "HTML"
-        },
-        "licenseInfo": null
       }
     },
     {
@@ -10384,21 +10401,24 @@
         "North Macedonia"
       ],
       "topRepository": {
-        "name": "kepler-orrery",
-        "nameWithOwner": "efealtiparmakoglu/kepler-orrery",
-        "url": "https://github.com/efealtiparmakoglu/kepler-orrery",
-        "description": "Blender add-on: brass orrery driven by the real Kepler equation / Kepler denkleminin gerçek çözümüyle pirinç orrery",
+        "name": "dosyaisler",
+        "nameWithOwner": "efealtiparmakoglu/dosyaisler",
+        "url": "https://github.com/efealtiparmakoglu/dosyaisler",
+        "description": null,
         "stargazerCount": 0,
         "forkCount": 0,
         "isArchived": false,
         "isFork": false,
-        "createdAt": "2026-09-29T22:19:28Z",
-        "pushedAt": "2026-10-01T16:08:36Z",
+        "createdAt": "2026-10-05T06:56:09Z",
+        "pushedAt": "2026-10-05T06:56:17Z",
         "homepageUrl": null,
         "primaryLanguage": {
-          "name": "Python"
+          "name": "Rust"
         },
-        "licenseInfo": null
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -13320,7 +13340,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-09-17T22:21:44Z",
-        "pushedAt": "2026-10-03T18:41:28Z",
+        "pushedAt": "2026-10-06T02:07:38Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "TypeScript"
@@ -17476,7 +17496,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-09-20T09:59:58Z",
-        "pushedAt": "2026-10-03T13:54:43Z",
+        "pushedAt": "2026-10-05T23:25:25Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Python"

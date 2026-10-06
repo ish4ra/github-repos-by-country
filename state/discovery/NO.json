@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "75fb771064aa116ac464c2311ae05784f866afd627d4f6170eb6cbc4952048e8",
+    "sha256": "029717d069969190fc398888cb22814e0f4122df8723ad3a3e1f64487adbcd2d",
     "termsTotal": 917
   },
   "phase": "discovery",
@@ -17,6 +17,34 @@
     "index": 0,
     "term": "Norway",
     "queue": [
+      {
+        "query": "location:\"Norway\" type:user followers:0 repos:1..4 created:2008-01-01..2008-12-31",
+        "stage": "year:2008",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Norway\" type:user followers:0 repos:1..4 created:2009-01-01..2009-12-31",
+        "stage": "year:2009",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Norway\" type:user followers:0 repos:1..4 created:2010-01-01..2010-12-31",
+        "stage": "year:2010",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Norway\" type:user followers:0 repos:1..4 created:2011-01-01..2011-12-31",
+        "stage": "year:2011",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
       {
         "query": "location:\"Norway\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
         "stage": "year:2012",
@@ -277,27 +305,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:34:38.042Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-06T06:35:58.776Z",
+    "requests": 4,
+    "leafPages": 0,
     "shardExpansions": 4,
-    "reportedCount": 5172
+    "reportedCount": 5191
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:34:38.042Z",
-  "updatedAt": "2026-10-03T23:11:16.045Z",
+  "startedAt": "2026-10-06T06:35:58.776Z",
+  "updatedAt": "2026-10-06T06:36:14.640Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 4,
+    "leafPages": 0,
     "shardExpansions": 4,
-    "rawOwnerHits": 259,
-    "acceptedOwnerHits": 257,
+    "rawOwnerHits": 200,
+    "acceptedOwnerHits": 198,
     "rejectedOwnerHits": 2,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4589
+    "minimumRateLimitRemaining": 4820
   },
   "unresolvedShards": [],
   "candidates": [
@@ -324,12 +352,12 @@
         "nameWithOwner": "sherlock-project/sherlock",
         "url": "https://github.com/sherlock-project/sherlock",
         "description": "Hunt down social media accounts by username across social networks",
-        "stargazerCount": 93166,
-        "forkCount": 10999,
+        "stargazerCount": 93302,
+        "forkCount": 11019,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2018-12-24T14:30:48Z",
-        "pushedAt": "2026-10-03T05:16:49Z",
+        "pushedAt": "2026-10-06T05:17:51Z",
         "homepageUrl": "https://sherlockproject.xyz",
         "primaryLanguage": {
           "name": "Python"
@@ -363,8 +391,8 @@
         "nameWithOwner": "mifi/lossless-cut",
         "url": "https://github.com/mifi/lossless-cut",
         "description": "The swiss army knife of lossless video/audio editing",
-        "stargazerCount": 44248,
-        "forkCount": 2193,
+        "stargazerCount": 44298,
+        "forkCount": 2200,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2016-10-30T10:49:56Z",
@@ -402,8 +430,8 @@
         "nameWithOwner": "asmvik/yabai",
         "url": "https://github.com/asmvik/yabai",
         "description": "A tiling window manager for macOS based on binary space partitioning",
-        "stargazerCount": 29698,
-        "forkCount": 777,
+        "stargazerCount": 29710,
+        "forkCount": 778,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2019-05-04T15:00:50Z",
@@ -480,8 +508,8 @@
         "nameWithOwner": "AndyMik90/Aperant",
         "url": "https://github.com/AndyMik90/Aperant",
         "description": "Autonomous multi-session AI coding",
-        "stargazerCount": 14578,
-        "forkCount": 1908,
+        "stargazerCount": 14581,
+        "forkCount": 1905,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-12-04T22:10:37Z",
@@ -519,8 +547,8 @@
         "nameWithOwner": "erikgrinaker/toydb",
         "url": "https://github.com/erikgrinaker/toydb",
         "description": "Distributed SQL database in Rust, written as an educational project",
-        "stargazerCount": 7292,
-        "forkCount": 624,
+        "stargazerCount": 7296,
+        "forkCount": 623,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2019-04-28T16:02:59Z",
@@ -558,7 +586,7 @@
         "nameWithOwner": "raphw/byte-buddy",
         "url": "https://github.com/raphw/byte-buddy",
         "description": "Runtime code generation for the Java virtual machine.",
-        "stargazerCount": 6895,
+        "stargazerCount": 6897,
         "forkCount": 854,
         "isArchived": false,
         "isFork": false,
@@ -597,8 +625,8 @@
         "nameWithOwner": "auduno/clmtrackr",
         "url": "https://github.com/auduno/clmtrackr",
         "description": "Javascript library for precise tracking of facial features via Constrained Local Models",
-        "stargazerCount": 6499,
-        "forkCount": 1132,
+        "stargazerCount": 6500,
+        "forkCount": 1131,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2012-08-18T12:24:43Z",
@@ -712,7 +740,7 @@
         "nameWithOwner": "khellang/Scrutor",
         "url": "https://github.com/khellang/Scrutor",
         "description": "Assembly scanning and decoration extensions for Microsoft.Extensions.DependencyInjection",
-        "stargazerCount": 4348,
+        "stargazerCount": 4349,
         "forkCount": 279,
         "isArchived": false,
         "isFork": false,
@@ -790,12 +818,12 @@
         "nameWithOwner": "antonbabenko/pre-commit-terraform",
         "url": "https://github.com/antonbabenko/pre-commit-terraform",
         "description": "pre-commit git hooks to take care of Terraform configurations 🇺🇦",
-        "stargazerCount": 3783,
+        "stargazerCount": 3784,
         "forkCount": 586,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2016-09-27T17:37:42Z",
-        "pushedAt": "2026-10-02T11:45:28Z",
+        "pushedAt": "2026-10-06T05:04:22Z",
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "Shell"
@@ -829,7 +857,7 @@
         "nameWithOwner": "zenangst/Hue",
         "url": "https://github.com/zenangst/Hue",
         "description": ":art: Hue is the all-in-one coloring utility that you'll ever need.",
-        "stargazerCount": 3545,
+        "stargazerCount": 3546,
         "forkCount": 223,
         "isArchived": false,
         "isFork": false,
@@ -868,12 +896,12 @@
         "nameWithOwner": "HansKristian-Work/vkd3d-proton",
         "url": "https://github.com/HansKristian-Work/vkd3d-proton",
         "description": "Fork of VKD3D. Development branches for Proton's Direct3D 12 implementation.",
-        "stargazerCount": 2988,
-        "forkCount": 331,
+        "stargazerCount": 2991,
+        "forkCount": 332,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2019-09-19T10:37:39Z",
-        "pushedAt": "2026-10-02T14:41:02Z",
+        "pushedAt": "2026-10-05T19:18:31Z",
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "C"
@@ -907,12 +935,12 @@
         "nameWithOwner": "Flangvik/SharpCollection",
         "url": "https://github.com/Flangvik/SharpCollection",
         "description": "Nightly builds of common C# offensive tools, fresh from their respective master branches built and released in a CDI fashion using Azure DevOps release pipelines.",
-        "stargazerCount": 2985,
+        "stargazerCount": 2986,
         "forkCount": 396,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2020-06-05T12:50:00Z",
-        "pushedAt": "2026-10-03T05:03:19Z",
+        "pushedAt": "2026-10-06T05:04:14Z",
         "homepageUrl": "",
         "primaryLanguage": null,
         "licenseInfo": null
@@ -1055,7 +1083,7 @@
         "nameWithOwner": "jonhoo/left-right",
         "url": "https://github.com/jonhoo/left-right",
         "description": "A lock-free, read-optimized, concurrency primitive.",
-        "stargazerCount": 2292,
+        "stargazerCount": 2294,
         "forkCount": 114,
         "isArchived": false,
         "isFork": false,
@@ -1094,7 +1122,7 @@
         "nameWithOwner": "Foxboron/sbctl",
         "url": "https://github.com/Foxboron/sbctl",
         "description": ":computer: :lock: :key: Secure Boot key manager",
-        "stargazerCount": 2273,
+        "stargazerCount": 2276,
         "forkCount": 109,
         "isArchived": false,
         "isFork": false,
@@ -1172,7 +1200,7 @@
         "nameWithOwner": "Themaister/Granite",
         "url": "https://github.com/Themaister/Granite",
         "description": "My personal Vulkan renderer",
-        "stargazerCount": 1962,
+        "stargazerCount": 1963,
         "forkCount": 168,
         "isArchived": false,
         "isFork": false,
@@ -1250,12 +1278,12 @@
         "nameWithOwner": "nrfconnect/sdk-nrf",
         "url": "https://github.com/nrfconnect/sdk-nrf",
         "description": "nRF Connect SDK main repository",
-        "stargazerCount": 1430,
+        "stargazerCount": 1431,
         "forkCount": 1583,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2018-02-14T13:50:55Z",
-        "pushedAt": "2026-10-02T17:28:27Z",
+        "pushedAt": "2026-10-05T15:08:34Z",
         "homepageUrl": "https://nrfconnectdocs.nordicsemi.com/ncs/latest/nrf/",
         "primaryLanguage": {
           "name": "C"
@@ -1289,8 +1317,8 @@
         "nameWithOwner": "MCUdude/MiniCore",
         "url": "https://github.com/MCUdude/MiniCore",
         "description": "Arduino hardware package for ATmega8, ATmega48, ATmega88, ATmega168, ATmega328 and ATmega328PB",
-        "stargazerCount": 1152,
-        "forkCount": 273,
+        "stargazerCount": 1153,
+        "forkCount": 272,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2016-07-02T20:28:41Z",
@@ -1367,7 +1395,7 @@
         "nameWithOwner": "judofyr/spice",
         "url": "https://github.com/judofyr/spice",
         "description": "Fine-grained parallelism with sub-nanosecond overhead in Zig",
-        "stargazerCount": 972,
+        "stargazerCount": 973,
         "forkCount": 24,
         "isArchived": false,
         "isFork": false,
@@ -1442,7 +1470,7 @@
         "nameWithOwner": "scrimba/community",
         "url": "https://github.com/scrimba/community",
         "description": "Repository for public issue-tracking and discussions",
-        "stargazerCount": 918,
+        "stargazerCount": 919,
         "forkCount": 79,
         "isArchived": false,
         "isFork": false,
@@ -1593,12 +1621,12 @@
         "nameWithOwner": "ludeeus/integration_blueprint",
         "url": "https://github.com/ludeeus/integration_blueprint",
         "description": "Blueprint for custom_component developers.",
-        "stargazerCount": 607,
-        "forkCount": 213,
+        "stargazerCount": 608,
+        "forkCount": 212,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2019-03-06T16:00:21Z",
-        "pushedAt": "2026-10-01T13:13:09Z",
+        "pushedAt": "2026-10-04T21:42:07Z",
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "Python"
@@ -2013,7 +2041,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-05-24T12:09:24Z",
-        "pushedAt": "2026-07-06T07:35:26Z",
+        "pushedAt": "2026-10-05T14:30:40Z",
         "homepageUrl": "https://clicklight.dev",
         "primaryLanguage": {
           "name": "Swift"
@@ -3790,6 +3818,42 @@
       }
     },
     {
+      "id": "U_kgDOCtidfA",
+      "login": "fente-it",
+      "name": "Fente IT development",
+      "type": "User",
+      "location": "Norway",
+      "url": "https://github.com/fente-it",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/181968252?u=f9f9c5ffe45f34d8f9c637e4afedd4f61374cc64&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NO",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Norway"
+      },
+      "discoveryTerms": [
+        "Norway"
+      ],
+      "topRepository": {
+        "name": "mkdocs-learning",
+        "nameWithOwner": "fente-it/mkdocs-learning",
+        "url": "https://github.com/fente-it/mkdocs-learning",
+        "description": "Learning mkdocs",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-10-04T07:26:31Z",
+        "pushedAt": "2025-03-22T08:11:40Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBZojYw",
       "login": "fhauff",
       "name": "Frederik Balthazar Hauff",
@@ -4680,6 +4744,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCqiTow",
+      "login": "Maryna-Kolomiichuk",
+      "name": "Maryna Kolomiichuk",
+      "type": "User",
+      "location": "Porsgrunn, Norway",
+      "url": "https://github.com/Maryna-Kolomiichuk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/178820003?u=5765e1adcb50bbeedc9bdcc9132b8845d5a3c213&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NO",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Norway"
+      },
+      "discoveryTerms": [
+        "Norway"
+      ],
+      "topRepository": {
+        "name": "MyWork",
+        "nameWithOwner": "Maryna-Kolomiichuk/MyWork",
+        "url": "https://github.com/Maryna-Kolomiichuk/MyWork",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-12T12:03:34Z",
+        "pushedAt": "2024-09-12T12:03:40Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C"
         },
         "licenseInfo": null
       }

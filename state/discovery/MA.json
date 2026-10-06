@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "9ba1c169e74dfd88a2715fc1c455babe41e94839e6b6c8cf5cb52d70e5e98722",
+    "sha256": "680cd811d4859fc53ff48f3e34e2ec56c019ea101112b673945042db82c60230",
     "termsTotal": 607
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Morocco",
     "queue": [
+      {
+        "query": "location:\"Morocco\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
       {
         "query": "location:\"Morocco\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
         "stage": "year:2013",
@@ -270,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:33:50.799Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-06T06:30:58.756Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 3400
+    "reportedCount": 3414
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:33:50.799Z",
-  "updatedAt": "2026-10-03T20:10:59.764Z",
+  "startedAt": "2026-10-06T06:30:58.755Z",
+  "updatedAt": "2026-10-06T06:31:14.622Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 227,
-    "acceptedOwnerHits": 226,
+    "rawOwnerHits": 206,
+    "acceptedOwnerHits": 205,
     "rejectedOwnerHits": 1,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4606
+    "minimumRateLimitRemaining": 4952
   },
   "unresolvedShards": [],
   "candidates": [
@@ -317,8 +324,8 @@
         "nameWithOwner": "NawfalMotii79/PLFM_RADAR",
         "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
         "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
-        "stargazerCount": 26614,
-        "forkCount": 6012,
+        "stargazerCount": 26711,
+        "forkCount": 6022,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-03-08T23:20:58Z",
@@ -356,8 +363,8 @@
         "nameWithOwner": "benweet/stackedit",
         "url": "https://github.com/benweet/stackedit",
         "description": "In-browser Markdown editor",
-        "stargazerCount": 23096,
-        "forkCount": 2810,
+        "stargazerCount": 23098,
+        "forkCount": 2808,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2013-03-24T13:46:06Z",
@@ -475,7 +482,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2021-08-23T16:18:04Z",
-        "pushedAt": "2026-10-01T17:54:57Z",
+        "pushedAt": "2026-10-06T01:01:39Z",
         "homepageUrl": "https://authx.yezz.me/",
         "primaryLanguage": {
           "name": "Python"
@@ -509,7 +516,7 @@
         "nameWithOwner": "ZeroMemoryEx/Chaos-Rootkit",
         "url": "https://github.com/ZeroMemoryEx/Chaos-Rootkit",
         "description": "Now You See Me, Now You Don't ",
-        "stargazerCount": 1069,
+        "stargazerCount": 1071,
         "forkCount": 160,
         "isArchived": false,
         "isFork": false,
@@ -545,7 +552,7 @@
         "nameWithOwner": "SaadAhla/FilelessPELoader",
         "url": "https://github.com/SaadAhla/FilelessPELoader",
         "description": "Loading Remote AES Encrypted PE in memory , Decrypted it and run it ",
-        "stargazerCount": 1041,
+        "stargazerCount": 1042,
         "forkCount": 194,
         "isArchived": false,
         "isFork": false,
@@ -1001,7 +1008,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2023-12-07T22:33:43Z",
-        "pushedAt": "2026-10-03T15:30:51Z",
+        "pushedAt": "2026-10-06T06:06:33Z",
         "homepageUrl": "http://walidbosso.byethost12.com",
         "primaryLanguage": null,
         "licenseInfo": {
@@ -1033,7 +1040,7 @@
         "nameWithOwner": "alaesic/deeproulette",
         "url": "https://github.com/alaesic/deeproulette",
         "description": "AI roulette predictor — 3-layer LSTM, live WebSocket feed, 5 betting strategies, real-time online learning, and Rich terminal UI.",
-        "stargazerCount": 46,
+        "stargazerCount": 47,
         "forkCount": 3,
         "isArchived": false,
         "isFork": false,
@@ -1109,7 +1116,7 @@
         "nameWithOwner": "jamaoui/School-management",
         "url": "https://github.com/jamaoui/School-management",
         "description": "Laravel/Reactjs school management",
-        "stargazerCount": 27,
+        "stargazerCount": 28,
         "forkCount": 8,
         "isArchived": false,
         "isFork": false,
@@ -1417,7 +1424,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2023-11-05T02:05:14Z",
-        "pushedAt": "2026-10-03T03:54:58Z",
+        "pushedAt": "2026-10-06T05:02:09Z",
         "homepageUrl": "https://github.com/Safae26",
         "primaryLanguage": null,
         "licenseInfo": null
@@ -2073,7 +2080,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-01-26T00:42:09Z",
-        "pushedAt": "2026-10-03T04:36:24Z",
+        "pushedAt": "2026-10-06T05:40:12Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
