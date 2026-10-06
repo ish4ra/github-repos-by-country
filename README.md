@@ -21,7 +21,7 @@
 
 ## Browse by country
 
-**250 indexed · 20 live · 250 building · 0 queued**
+**250 indexed · 22 live · 250 building · 0 queued**
 
 > 🟢 **Live** = published ranking · 🟡 **Building** = crawl in progress · ⚪ **Queued** = waiting for its first crawl
 
@@ -192,7 +192,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
       <td width="25%">🟡 <a href="./rankings/isle-of-man.md"><strong>🇮🇲 Isle of Man</strong></a></td>
     </tr>
     <tr>
-      <td width="25%">🟡 <a href="./rankings/israel.md"><strong>🇮🇱 Israel</strong></a></td>
+      <td width="25%">🟢 <a href="./rankings/israel.md"><strong>🇮🇱 Israel</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/italy.md"><strong>🇮🇹 Italy</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/jamaica.md"><strong>🇯🇲 Jamaica</strong></a></td>
       <td width="25%">🟢 <a href="./rankings/japan.md"><strong>🇯🇵 Japan</strong></a></td>
@@ -381,7 +381,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
       <td width="25%">🟡 <a href="./rankings/u-s-outlying-islands.md"><strong>🇺🇲 U.S. Outlying Islands</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/u-s-virgin-islands.md"><strong>🇻🇮 U.S. Virgin Islands</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/uganda.md"><strong>🇺🇬 Uganda</strong></a></td>
-      <td width="25%">🟡 <a href="./rankings/ukraine.md"><strong>🇺🇦 Ukraine</strong></a></td>
+      <td width="25%">🟢 <a href="./rankings/ukraine.md"><strong>🇺🇦 Ukraine</strong></a></td>
     </tr>
     <tr>
       <td width="25%">🟡 <a href="./rankings/united-arab-emirates.md"><strong>🇦🇪 United Arab Emirates</strong></a></td>

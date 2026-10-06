@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **8**
-- Current global star frontier: **1,684**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **1,280**
 
 ### High-star verified preview
 
@@ -59,5 +59,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [HermannBjorgvin/Clawdmeter](https://github.com/HermannBjorgvin/Clawdmeter) | **2,231** | Reykjavík, Iceland |
 | [einaregilsson/Redirector](https://github.com/einaregilsson/Redirector) | **2,093** | Iceland |
 | [birkir/prime](https://github.com/birkir/prime) | **1,717** | Reykjavík, Iceland |
+| [gunnartorfis/sonner-native-toasts](https://github.com/gunnartorfis/sonner-native-toasts) | **1,357** | Reykjavik, Iceland |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

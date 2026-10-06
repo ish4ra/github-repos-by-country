@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **19**
-- Current global star frontier: **1,398**
+- Verified high-star candidates retained: **21**
+- Current global star frontier: **1,280**
 
 ### High-star verified preview
 
@@ -70,5 +70,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [hotovo/aider-desk](https://github.com/hotovo/aider-desk) | **1,452** | Slovakia |
 | [SimpleMobileTools/Simple-Music-Player](https://github.com/SimpleMobileTools/Simple-Music-Player) | **1,396** | Slovakia |
 | [acoustid/chromaprint](https://github.com/acoustid/chromaprint) | **1,393** | Slovakia |
+| [mauron85/react-native-background-geolocation](https://github.com/mauron85/react-native-background-geolocation) | **1,354** | Slovakia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

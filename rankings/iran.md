@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **1,398**
+- Verified high-star candidates retained: **12**
+- Current global star frontier: **1,280**
 
 ### High-star verified preview
 
@@ -60,5 +60,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [bezzad/Downloader](https://github.com/bezzad/Downloader) | **1,719** | Tehran |
 | [oneHamidreza/MeowBottomNavigation](https://github.com/oneHamidreza/MeowBottomNavigation) | **1,438** | Isfahan, Iran |
 | [vfarid/v2ray-worker](https://github.com/vfarid/v2ray-worker) | **1,423** | Tehran |
+| [easy-team/egg-vue-webpack-boilerplate](https://github.com/easy-team/egg-vue-webpack-boilerplate) | **1,358** | GZ |
+| [seramo/v2ray-config-modifier](https://github.com/seramo/v2ray-config-modifier) | **1,326** | Mashhad, Iran |
+| [ghost1372/HandyControls](https://github.com/ghost1372/HandyControls) | **1,310** | Qeydar, Iran |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **15**
-- Current global star frontier: **1,684**
+- Verified high-star candidates retained: **16**
+- Current global star frontier: **1,280**
 
 ### High-star verified preview
 
@@ -66,5 +66,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [efemkay/obsidian-modular-css-layout](https://github.com/efemkay/obsidian-modular-css-layout) | **1,821** | Kuala Lumpur, Malaysia |
 | [salimi-my/shadcn-ui-sidebar](https://github.com/salimi-my/shadcn-ui-sidebar) | **1,802** | Malaysia |
 | [mesolitica/NLP-Models-Tensorflow](https://github.com/mesolitica/NLP-Models-Tensorflow) | **1,780** | Kuala Lumpur, Malaysia |
+| [rocketscream/Low-Power](https://github.com/rocketscream/Low-Power) | **1,314** | Malaysia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

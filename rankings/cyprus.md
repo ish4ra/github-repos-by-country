@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **19**
-- Current global star frontier: **1,398**
+- Verified high-star candidates retained: **21**
+- Current global star frontier: **1,280**
 
 ### High-star verified preview
 
@@ -70,5 +70,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [iamolegga/nestjs-pino](https://github.com/iamolegga/nestjs-pino) | **1,542** | Λεμεσός, Κύπρος |
 | [centrifugal/centrifuge](https://github.com/centrifugal/centrifuge) | **1,484** | Cyprus |
 | [bjornd/jvectormap](https://github.com/bjornd/jvectormap) | **1,394** | Cyprus |
+| [AdguardTeam/AdGuardSDNSFilter](https://github.com/AdguardTeam/AdGuardSDNSFilter) | **1,387** | Cyprus |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **1,516**
+- Verified high-star candidates retained: **17**
+- Current global star frontier: **1,280**
 
 ### High-star verified preview
 
@@ -65,5 +65,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [roxy-wi/roxy-wi](https://github.com/roxy-wi/roxy-wi) | **1,828** | Kazakhstan |
 | [kefir500/apk-editor-studio](https://github.com/kefir500/apk-editor-studio) | **1,666** | Almaty, Kazakhstan |
 | [raindropio/app](https://github.com/raindropio/app) | **1,606** | Kazakhstan |
+| [icerockdev/moko-resources](https://github.com/icerockdev/moko-resources) | **1,350** | Kazakhstan |
+| [bivlked/amneziawg-installer](https://github.com/bivlked/amneziawg-installer) | **1,347** | Kazakhstan |
+| [HmnDev-Tech/shevery](https://github.com/HmnDev-Tech/shevery) | **1,299** | Kazakhstan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

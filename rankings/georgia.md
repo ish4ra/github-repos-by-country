@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **12**
-- Current global star frontier: **1,516**
+- Verified high-star candidates retained: **15**
+- Current global star frontier: **1,280**
 
 ### High-star verified preview
 
@@ -63,5 +63,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Paxa/postbird](https://github.com/Paxa/postbird) | **1,635** | Batumi |
 | [ViktorUJ/cks](https://github.com/ViktorUJ/cks) | **1,625** | Tbilisi  |
 | [enoch3712/ExtractThinker](https://github.com/enoch3712/ExtractThinker) | **1,600** | Lisbon \| Warsaw \| Tbilisi |
+| [bonlime/keras-deeplab-v3-plus](https://github.com/bonlime/keras-deeplab-v3-plus) | **1,374** | Tbilisi |
+| [python273/vk_api](https://github.com/python273/vk_api) | **1,365** | Batumi, Georgia |
+| [DimiMikadze/orca](https://github.com/DimiMikadze/orca) | **1,306** | Tbilisi, Georgia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

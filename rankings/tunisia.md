@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **1,516**
+- Verified high-star candidates retained: **10**
+- Current global star frontier: **1,280**
 
 ### High-star verified preview
 
@@ -60,5 +60,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [MohamedRejeb/compose-rich-editor](https://github.com/MohamedRejeb/compose-rich-editor) | **1,858** | Tunisia |
 | [MohamedRejeb/Calf](https://github.com/MohamedRejeb/Calf) | **1,727** | Tunisia |
 | [Ademking/MD-This-Page](https://github.com/Ademking/MD-This-Page) | **1,598** | Tunisia |
+| [OussamaMater/Laravel-Tips](https://github.com/OussamaMater/Laravel-Tips) | **1,317** | Tunis, Tunisia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

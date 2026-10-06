@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **12**
-- Current global star frontier: **1,398**
+- Verified high-star candidates retained: **15**
+- Current global star frontier: **1,280**
 
 ### High-star verified preview
 
@@ -63,5 +63,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [dovy/elusive-iconfont](https://github.com/dovy/elusive-iconfont) | **2,023** | Waterford, VA |
 | [skyzh/type-exercise-in-rust](https://github.com/skyzh/type-exercise-in-rust) | **1,513** | Bellevue, WA, USA ⇌ Shanghai, China |
 | [Chris-Annin/AR2](https://github.com/Chris-Annin/AR2) | **1,457** | USA, WA |
+| [mmozeiko/RcloneBrowser](https://github.com/mmozeiko/RcloneBrowser) | **1,361** | WA |
+| [emonney/QuickApp](https://github.com/emonney/QuickApp) | **1,352** | Ghana |
+| [mmozeiko/wcap](https://github.com/mmozeiko/wcap) | **1,321** | WA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

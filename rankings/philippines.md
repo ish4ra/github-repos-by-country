@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **19**
-- Current global star frontier: **1,398**
+- Verified high-star candidates retained: **24**
+- Current global star frontier: **1,280**
 
 ### High-star verified preview
 
@@ -70,5 +70,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [AeolusUX/ArkOS-R3XS](https://github.com/AeolusUX/ArkOS-R3XS) | **1,595** | Philippines |
 | [JaKooLit/Debian-Hyprland](https://github.com/JaKooLit/Debian-Hyprland) | **1,407** | Philippines / South Korea - Worldwide |
 | [darryldecode/laravelshoppingcart](https://github.com/darryldecode/laravelshoppingcart) | **1,406** | Davao City, Philippines |
+| [nextacular/nextacular](https://github.com/nextacular/nextacular) | **1,390** | Philippines |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

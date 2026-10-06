@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **16**
-- Current global star frontier: **1,516**
+- Verified high-star candidates retained: **17**
+- Current global star frontier: **1,280**
 
 ### High-star verified preview
 
@@ -67,5 +67,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [justinas/nosurf](https://github.com/justinas/nosurf) | **1,753** | Vilnius, Lithuania |
 | [rkkr/simple-keyboard](https://github.com/rkkr/simple-keyboard) | **1,593** | Kaunas, Lithuania |
 | [Almantask/CSharp-From-Zero-To-Hero](https://github.com/Almantask/CSharp-From-Zero-To-Hero) | **1,570** | Lithuania |
+| [p12tic/libsimdpp](https://github.com/p12tic/libsimdpp) | **1,304** | Lithuania |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

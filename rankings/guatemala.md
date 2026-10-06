@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **1,516**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **1,280**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [robertodevs/flutter_ecommerce_template](https://github.com/robertodevs/flutter_ecommerce_template) | **1,585** | Guatemala |
+| [josejuanqm/docky](https://github.com/josejuanqm/docky) | **1,344** | Guatemala |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

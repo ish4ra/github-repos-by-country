@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **1,398**
+- Verified high-star candidates retained: **11**
+- Current global star frontier: **1,280**
 
 ### High-star verified preview
 
@@ -60,5 +60,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ashvardanian/NumKong](https://github.com/ashvardanian/NumKong) | **1,898** | London, San Francisco, Yerevan |
 | [Vagr9K/gatsby-advanced-starter](https://github.com/Vagr9K/gatsby-advanced-starter) | **1,557** | Yerevan, Armenia |
 | [khanamiryan/php-qrcode-detector-decoder](https://github.com/khanamiryan/php-qrcode-detector-decoder) | **1,413** | Yerevan |
+| [robertlevonyan/material-chip-view](https://github.com/robertlevonyan/material-chip-view) | **1,334** | Yerevan, Armenia |
+| [shahen94/react-native-video-processing](https://github.com/shahen94/react-native-video-processing) | **1,288** | Yerevan, Armenia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
