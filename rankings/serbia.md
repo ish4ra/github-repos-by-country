@@ -20,8 +20,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **19**
-- Current global star frontier: **1,684**
+- Verified high-star candidates retained: **22**
+- Current global star frontier: **1,516**
 
 ### High-star verified preview
 
@@ -48,5 +48,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [morhetz/gruvbox-contrib](https://github.com/morhetz/gruvbox-contrib) | **1,776** | Serbia, Belgrade |
 | [gen2brain/beeep](https://github.com/gen2brain/beeep) | **1,770** | Belgrade, Serbia |
 | [kristijanhusak/laravel-form-builder](https://github.com/kristijanhusak/laravel-form-builder) | **1,715** | Subotica, Serbia |
+| [nklmilojevic/sofka](https://github.com/nklmilojevic/sofka) | **1,654** | Belgrade, Serbia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

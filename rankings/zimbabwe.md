@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [TaqsBlaze/amen-cli](https://github.com/TaqsBlaze/amen-cli) | **17** | Zimbabwe |
 | [Amen-Musingarimi/todo-app](https://github.com/Amen-Musingarimi/todo-app) | **16** | Harare, Zimbabwe |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **1,516**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [XdKing2/MALVIN-XD](https://github.com/XdKing2/MALVIN-XD) | **1,582** | Zimbabwe |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

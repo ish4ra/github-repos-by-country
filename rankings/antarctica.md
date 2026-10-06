@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **12**
-- Current global star frontier: **1,684**
+- Verified high-star candidates retained: **13**
+- Current global star frontier: **1,516**
 
 ### High-star verified preview
 
@@ -63,5 +63,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [MarlinFirmware/Configurations](https://github.com/MarlinFirmware/Configurations) | **2,279** | Antarctica |
 | [bestruirui/BestSub](https://github.com/bestruirui/BestSub) | **2,141** | Antarctica |
 | [Amog-OS/AmogOS](https://github.com/Amog-OS/AmogOS) | **1,816** | Antarctica |
+| [adam-maj/deep-learning](https://github.com/adam-maj/deep-learning) | **1,581** | South Pole, Antarctica |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

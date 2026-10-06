@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 6%
+## Repository ranking status: Building 3%
 
-- Geography terms processed: **2 / 29**
-- Progress: **6%**
+- Geography terms processed: **1 / 29**
+- Progress: **3%**
 - Retained high-potential owner candidates: **185**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -31,11 +31,11 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [danheron/Heron.MudCalendar](https://github.com/danheron/Heron.MudCalendar) | **332** | Liechtenstein |
 | [Hilti-Research/hilti-trimble-slam-challenge-2026](https://github.com/Hilti-Research/hilti-trimble-slam-challenge-2026) | **209** | Liechtenstein |
 | [vodtv/api](https://github.com/vodtv/api) | **161** | Liechtenstein |
-| [niklasfrick/spark-dashboard](https://github.com/niklasfrick/spark-dashboard) | **128** | Liechtenstein |
+| [niklasfrick/spark-dashboard](https://github.com/niklasfrick/spark-dashboard) | **129** | Liechtenstein |
 | [IDNI/TML](https://github.com/IDNI/TML) | **125** | Liechtenstein |
 | [teamniteo/handbook](https://github.com/teamniteo/handbook) | **110** | Liechtenstein |
 | [anondotli/awesome-privacy-tools](https://github.com/anondotli/awesome-privacy-tools) | **75** | Liechtenstein |
-| [oscardvs/zoteus](https://github.com/oscardvs/zoteus) | **51** | Liechtenstein |
+| [oscardvs/zoteus](https://github.com/oscardvs/zoteus) | **53** | Liechtenstein |
 | [ixofoundation/ixo-blockchain](https://github.com/ixofoundation/ixo-blockchain) | **44** | Liechtenstein |
 | [ixoworld/bonds](https://github.com/ixoworld/bonds) | **41** | Liechtenstein |
 | [pitschr/knx-core](https://github.com/pitschr/knx-core) | **38** | Liechtenstein |

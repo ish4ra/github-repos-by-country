@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 2%
+## Repository ranking status: Building 1%
 
-- Geography terms processed: **3 / 149**
-- Progress: **2%**
-- Retained high-potential owner candidates: **208**
-- Search requests completed: **9**
+- Geography terms processed: **2 / 149**
+- Progress: **1%**
+- Retained high-potential owner candidates: **210**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -37,7 +37,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [LhacenMed/Sona](https://github.com/LhacenMed/Sona) | **9** | Nouakchott, Mauritania |
 | [medbbh/vizo](https://github.com/medbbh/vizo) | **9** | Nouakchott-Mauritania |
 | [SmellyArmure/pandas_exercices_guipsamora](https://github.com/SmellyArmure/pandas_exercices_guipsamora) | **9** | Nouakchott (Mauritania) |
-| [Mauritania-Programmers-Community/demo-repository](https://github.com/Mauritania-Programmers-Community/demo-repository) | **7** | Mauritania |
+| [Mauritania-Programmers-Community/demo-repository](https://github.com/Mauritania-Programmers-Community/demo-repository) | **8** | Mauritania |
 | [mbareck7/server_hardening](https://github.com/mbareck7/server_hardening) | **6** | Mauritania, Nouakchott |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

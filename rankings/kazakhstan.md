@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **12**
-- Current global star frontier: **1,684**
+- Verified high-star candidates retained: **14**
+- Current global star frontier: **1,516**
 
 ### High-star verified preview
 
@@ -63,5 +63,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [kmmbvnr/django-fsm](https://github.com/kmmbvnr/django-fsm) | **2,347** | Qazaqstan, Astana |
 | [0xAX/go-algorithms](https://github.com/0xAX/go-algorithms) | **1,951** | Kazakhstan, Astana |
 | [roxy-wi/roxy-wi](https://github.com/roxy-wi/roxy-wi) | **1,828** | Kazakhstan |
+| [kefir500/apk-editor-studio](https://github.com/kefir500/apk-editor-studio) | **1,666** | Almaty, Kazakhstan |
+| [raindropio/app](https://github.com/raindropio/app) | **1,606** | Kazakhstan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

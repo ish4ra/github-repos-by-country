@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 78**
 - Progress: **0%**
-- Retained high-potential owner candidates: **107**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **108**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,10 +25,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [anasty17/mirror-leech-telegram-bot](https://github.com/anasty17/mirror-leech-telegram-bot) | **4,320** | Saida, Lebanon |
-| [FouadRaheb/Watusi-for-WhatsApp](https://github.com/FouadRaheb/Watusi-for-WhatsApp) | **1,991** | Lebanon |
+| [FouadRaheb/Watusi-for-WhatsApp](https://github.com/FouadRaheb/Watusi-for-WhatsApp) | **1,993** | Lebanon |
 | [shahednasser/awesome-resources](https://github.com/shahednasser/awesome-resources) | **1,965** | Aaramoun, Lebanon |
-| [KABBOUCHI/vue-tippy](https://github.com/KABBOUCHI/vue-tippy) | **789** | Lebanon |
-| [aub-mind/arabert](https://github.com/aub-mind/arabert) | **733** | Beirut, Lebanon |
+| [KABBOUCHI/vue-tippy](https://github.com/KABBOUCHI/vue-tippy) | **790** | Lebanon |
+| [aub-mind/arabert](https://github.com/aub-mind/arabert) | **734** | Beirut, Lebanon |
 | [V-i-x-x/AMSI-WRITE-RAID-BYPASS](https://github.com/V-i-x-x/AMSI-WRITE-RAID-BYPASS) | **336** | Lebanon |
 | [hadiidbouk/ChartProgressBar-Android](https://github.com/hadiidbouk/ChartProgressBar-Android) | **248** | Lebanon |
 | [jihadkhawaja/Egroo](https://github.com/jihadkhawaja/Egroo) | **178** | Lebanon |

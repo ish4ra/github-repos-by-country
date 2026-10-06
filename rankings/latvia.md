@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 170**
 - Progress: **0%**
-- Retained high-potential owner candidates: **147**
-- Search requests completed: **4**
+- Retained high-potential owner candidates: **490**
+- Search requests completed: **12**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **15**
-- Current global star frontier: **2,424**
+- Verified high-star candidates retained: **17**
+- Current global star frontier: **1,516**
 
 ### High-star verified preview
 
@@ -66,5 +66,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [puikinsh/Bootstrap-Admin-Template](https://github.com/puikinsh/Bootstrap-Admin-Template) | **2,849** | Riga, Latvia |
 | [YahnisElsts/plugin-update-checker](https://github.com/YahnisElsts/plugin-update-checker) | **2,567** | Latvia |
 | [ONLYOFFICE/Docker-DocumentServer](https://github.com/ONLYOFFICE/Docker-DocumentServer) | **2,464** | Latvia |
+| [aivarsk/scrapy-proxies](https://github.com/aivarsk/scrapy-proxies) | **1,666** | Jelgava, Latvia |
+| [nezvers/Godot-GameTemplate](https://github.com/nezvers/Godot-GameTemplate) | **1,658** | Riga, Latvia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

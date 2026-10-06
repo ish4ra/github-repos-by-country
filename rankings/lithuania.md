@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 184**
 - Progress: **0%**
-- Retained high-potential owner candidates: **144**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **145**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,26 +24,26 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [viliusle/miniPaint](https://github.com/viliusle/miniPaint) | **3,469** | Lithuania |
+| [viliusle/miniPaint](https://github.com/viliusle/miniPaint) | **3,472** | Lithuania |
 | [aras-p/UnityGaussianSplatting](https://github.com/aras-p/UnityGaussianSplatting) | **3,420** | Kaunas, Lithuania |
-| [justinas/alice](https://github.com/justinas/alice) | **3,368** | Vilnius, Lithuania |
+| [justinas/alice](https://github.com/justinas/alice) | **3,369** | Vilnius, Lithuania |
 | [Almantask/CSharp-From-Zero-To-Hero](https://github.com/Almantask/CSharp-From-Zero-To-Hero) | **1,570** | Lithuania |
 | [p12tic/libsimdpp](https://github.com/p12tic/libsimdpp) | **1,305** | Lithuania |
-| [Decodo/Decodo](https://github.com/Decodo/Decodo) | **1,245** | Lithuania |
+| [Decodo/Decodo](https://github.com/Decodo/Decodo) | **1,247** | Lithuania |
 | [bring-shrubbery/SVG-to-SwiftUI](https://github.com/bring-shrubbery/SVG-to-SwiftUI) | **1,119** | Vilnius, Lithuania |
 | [mgedmin/objgraph](https://github.com/mgedmin/objgraph) | **841** | Lithuania |
-| [mvarnagiris/financius](https://github.com/mvarnagiris/financius) | **624** | Vilnius, Lithuania |
+| [mvarnagiris/financius](https://github.com/mvarnagiris/financius) | **625** | Vilnius, Lithuania |
 | [Insality/druid](https://github.com/Insality/druid) | **597** | Lithuania |
 | [remrc/Self-Balancing-Cube](https://github.com/remrc/Self-Balancing-Cube) | **544** | Lithuania |
-| [if-not-nil/revo](https://github.com/if-not-nil/revo) | **464** | Vilnius, Lithuania |
+| [if-not-nil/revo](https://github.com/if-not-nil/revo) | **469** | Vilnius, Lithuania |
 | [Pawka/phrozn](https://github.com/Pawka/phrozn) | **451** | Lithuania |
-| [nicegram/Nicegram-Android](https://github.com/nicegram/Nicegram-Android) | **407** | Lithuania |
+| [nicegram/Nicegram-Android](https://github.com/nicegram/Nicegram-Android) | **410** | Lithuania |
 | [it-incubator/musicfun-react-all-stacks](https://github.com/it-incubator/musicfun-react-all-stacks) | **399** | Lithuania |
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **1,684**
+- Verified high-star candidates retained: **16**
+- Current global star frontier: **1,516**
 
 ### High-star verified preview
 
@@ -65,5 +65,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [mkobuolys/flutter-design-patterns](https://github.com/mkobuolys/flutter-design-patterns) | **1,843** | Kaunas |
 | [aras-p/glsl-optimizer](https://github.com/aras-p/glsl-optimizer) | **1,789** | Kaunas, Lithuania |
 | [justinas/nosurf](https://github.com/justinas/nosurf) | **1,753** | Vilnius, Lithuania |
+| [rkkr/simple-keyboard](https://github.com/rkkr/simple-keyboard) | **1,593** | Kaunas, Lithuania |
+| [Almantask/CSharp-From-Zero-To-Hero](https://github.com/Almantask/CSharp-From-Zero-To-Hero) | **1,570** | Lithuania |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 13%
+## Repository ranking status: Building 10%
 
-- Geography terms processed: **5 / 37**
-- Progress: **13%**
+- Geography terms processed: **4 / 37**
+- Progress: **10%**
 - Retained high-potential owner candidates: **123**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [blazux/qwen3.8-Flash-DGX](https://github.com/blazux/qwen3.8-Flash-DGX) | **389** | Martinique |
+| [blazux/qwen3.8-Flash-DGX](https://github.com/blazux/qwen3.8-Flash-DGX) | **398** | Martinique |
 | [alexandreelise/j4x-api-collection](https://github.com/alexandreelise/j4x-api-collection) | **72** | Martinique |
 | [diasjorge/redmine-cli](https://github.com/diasjorge/redmine-cli) | **67** | Martinique |
 | [thetispro/laravel5-setting](https://github.com/thetispro/laravel5-setting) | **24** | Martinique |

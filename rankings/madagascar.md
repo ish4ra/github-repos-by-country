@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 162**
 - Progress: **0%**
 - Retained high-potential owner candidates: **340**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [RivoLink/leaf](https://github.com/RivoLink/leaf) | **2,097** | Antananarivo - Madagascar |
+| [RivoLink/leaf](https://github.com/RivoLink/leaf) | **2,109** | Antananarivo - Madagascar |
 | [luckasRanarison/tailwind-tools.nvim](https://github.com/luckasRanarison/tailwind-tools.nvim) | **587** | Antananarivo, Madagascar |
 | [tsirysndr/music-player](https://github.com/tsirysndr/music-player) | **525** | Antananarivo / Madagascar |
 | [RajaRakoto/cntemad-repository](https://github.com/RajaRakoto/cntemad-repository) | **77** | Antananarivo Madagascar |

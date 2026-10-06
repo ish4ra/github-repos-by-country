@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 12,887**
 - Progress: **0%**
-- Retained high-potential owner candidates: **181**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **182**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -26,14 +26,14 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [JuanCrg90/Clean-Code-Notes](https://github.com/JuanCrg90/Clean-Code-Notes) | **6,120** | Leon, Gto. Mexico |
 | [gh0stzk/dotfiles](https://github.com/gh0stzk/dotfiles) | **4,750** | Mexico City |
-| [EliverLara/Nordic](https://github.com/EliverLara/Nordic) | **2,735** | Mexico |
+| [EliverLara/Nordic](https://github.com/EliverLara/Nordic) | **2,736** | Mexico |
 | [nanochess/bootOS](https://github.com/nanochess/bootOS) | **2,142** | Mexico |
 | [Elteoremadebeethoven/AnimationsWithManim](https://github.com/Elteoremadebeethoven/AnimationsWithManim) | **1,235** | Mexico City |
 | [cldrn/nmap-nse-scripts](https://github.com/cldrn/nmap-nse-scripts) | **994** | Mexico city |
 | [christianroman/CRGradientNavigationBar](https://github.com/christianroman/CRGradientNavigationBar) | **904** | Mexico |
 | [obie/claude-on-rails](https://github.com/obie/claude-on-rails) | **814** | Mexico City |
 | [marcosrivasr/Curso-PHP-MySQL](https://github.com/marcosrivasr/Curso-PHP-MySQL) | **705** | Mexico |
-| [ivam3/i-Haklab](https://github.com/ivam3/i-Haklab) | **634** | Mexico |
+| [ivam3/i-Haklab](https://github.com/ivam3/i-Haklab) | **635** | Mexico |
 | [josejesusguzman/acordeon-az900-innovaccion](https://github.com/josejesusguzman/acordeon-az900-innovaccion) | **470** | Ciudad de Mexico |
 | [coderdiaz/vue-datasource](https://github.com/coderdiaz/vue-datasource) | **408** | Mexico City |
 | [LaunchX-InnovaccionVirtual/onboarding-github-launchx](https://github.com/LaunchX-InnovaccionVirtual/onboarding-github-launchx) | **399** | Mexico |
@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **18**
-- Current global star frontier: **1,684**
+- Verified high-star candidates retained: **21**
+- Current global star frontier: **1,516**
 
 ### High-star verified preview
 
@@ -69,5 +69,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [DanKE123abc/NoUnityCN](https://github.com/DanKE123abc/NoUnityCN) | **1,897** | [::1] |
 | [georgewhewell/undervolt](https://github.com/georgewhewell/undervolt) | **1,740** | ::1 |
 | [sstephenson/eco](https://github.com/sstephenson/eco) | **1,694** | Ciudad de México |
+| [NotAShelf/nvf](https://github.com/NotAShelf/nvf) | **1,644** | [::1] |
+| [stark0de/nginxpwner](https://github.com/stark0de/nginxpwner) | **1,594** | ::1 |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 89**
 - Progress: **0%**
-- Retained high-potential owner candidates: **329**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **331**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [seerr-team/seerr](https://github.com/seerr-team/seerr) | **12,777** | Maldives |
+| [seerr-team/seerr](https://github.com/seerr-team/seerr) | **12,811** | Maldives |
 | [Raais/ImStudio](https://github.com/Raais/ImStudio) | **927** | Malé, Maldives |
 | [Z3d0X/filament-logger](https://github.com/Z3d0X/filament-logger) | **389** | Maldives |
 | [raftalks/ravel](https://github.com/raftalks/ravel) | **212** | Maldives |

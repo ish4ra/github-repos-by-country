@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **1,684**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **1,516**
 
 ### High-star verified preview
 
@@ -54,5 +54,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [zacharee/InstallWithOptions](https://github.com/zacharee/InstallWithOptions) | **3,301** | PA |
 | [J-D-K/JKSV](https://github.com/J-D-K/JKSV) | **1,920** | PA |
 | [zacharee/Tweaker](https://github.com/zacharee/Tweaker) | **1,748** | PA |
+| [zacharee/Bifrost](https://github.com/zacharee/Bifrost) | **1,614** | PA |
+| [headzoo/surf](https://github.com/headzoo/surf) | **1,545** | PA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

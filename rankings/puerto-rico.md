@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **1,684**
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **1,516**
 
 ### High-star verified preview
 
@@ -56,5 +56,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [josean-dev/dev-environment-files](https://github.com/josean-dev/dev-environment-files) | **4,128** | Puerto Rico |
 | [darkoperator/dnsrecon](https://github.com/darkoperator/dnsrecon) | **3,076** | Puerto Rico |
 | [EsotericSoftware/kryonet](https://github.com/EsotericSoftware/kryonet) | **1,852** | Puerto Rico |
+| [EsotericSoftware/reflectasm](https://github.com/EsotericSoftware/reflectasm) | **1,539** | Puerto Rico |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

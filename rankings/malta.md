@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 121**
 - Progress: **0%**
-- Retained high-potential owner candidates: **308**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **310**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,12 +24,12 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | **139,119** | Malta |
-| [mbj/mutant](https://github.com/mbj/mutant) | **2,204** | Malta |
+| [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) | **139,227** | Malta |
+| [mbj/mutant](https://github.com/mbj/mutant) | **2,206** | Malta |
 | [xiaocong/uiautomator](https://github.com/xiaocong/uiautomator) | **2,097** | Malta |
-| [dalerank/imspinner](https://github.com/dalerank/imspinner) | **600** | Sliema, Malta |
+| [dalerank/imspinner](https://github.com/dalerank/imspinner) | **601** | Sliema, Malta |
 | [ChintanTrivedi/DeepGamingAI_FIFA](https://github.com/ChintanTrivedi/DeepGamingAI_FIFA) | **514** | University of Malta |
-| [crabnebula-dev/cargo-packager](https://github.com/crabnebula-dev/cargo-packager) | **486** | Malta |
+| [crabnebula-dev/cargo-packager](https://github.com/crabnebula-dev/cargo-packager) | **487** | Malta |
 | [nathan-abela/HackerRank-Solutions](https://github.com/nathan-abela/HackerRank-Solutions) | **467** | Malta |
 | [marian2js/opengoat](https://github.com/marian2js/opengoat) | **426** | Malta |
 | [ianharrigan/haxeui](https://github.com/ianharrigan/haxeui) | **391** | Malta |

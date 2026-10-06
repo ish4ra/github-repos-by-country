@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **17**
-- Current global star frontier: **1,684**
+- Verified high-star candidates retained: **19**
+- Current global star frontier: **1,516**
 
 ### High-star verified preview
 
@@ -68,5 +68,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ambrop72/badvpn](https://github.com/ambrop72/badvpn) | **1,932** | Slovenia |
 | [biokoda/actordb](https://github.com/biokoda/actordb) | **1,888** | Maribor, Slovenia |
 | [iredmail/iRedMail](https://github.com/iredmail/iRedMail) | **1,846** | China, Slovenia |
+| [pavlin-policar/openTSNE](https://github.com/pavlin-policar/openTSNE) | **1,623** | Slovenia |
+| [andrejbauer/plzoo](https://github.com/andrejbauer/plzoo) | **1,594** | Slovenia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

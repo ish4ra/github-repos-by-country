@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **1,684**
+- Verified high-star candidates retained: **12**
+- Current global star frontier: **1,516**
 
 ### High-star verified preview
 
@@ -60,5 +60,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [malbiruk/driftwm](https://github.com/malbiruk/driftwm) | **1,765** | Tbilisi, Georgia |
 | [Giorgi/EntityFramework.Exceptions](https://github.com/Giorgi/EntityFramework.Exceptions) | **1,737** | Tbilisi |
 | [n7olkachev/imgdiff](https://github.com/n7olkachev/imgdiff) | **1,706** | Georgia, Batumi |
+| [Paxa/postbird](https://github.com/Paxa/postbird) | **1,635** | Batumi |
+| [ViktorUJ/cks](https://github.com/ViktorUJ/cks) | **1,625** | Tbilisi  |
+| [enoch3712/ExtractThinker](https://github.com/enoch3712/ExtractThinker) | **1,600** | Lisbon \| Warsaw \| Tbilisi |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

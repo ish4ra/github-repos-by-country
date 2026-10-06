@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **12**
-- Current global star frontier: **1,684**
+- Verified high-star candidates retained: **14**
+- Current global star frontier: **1,516**
 
 ### High-star verified preview
 
@@ -63,5 +63,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [abiosoft/ishell](https://github.com/abiosoft/ishell) | **1,759** | Nigeria |
 | [classroomio/classroomio](https://github.com/classroomio/classroomio) | **1,710** | Nigeria |
 | [panshak/accountill](https://github.com/panshak/accountill) | **1,696** | Nigeria |
+| [xt42io/avnac](https://github.com/xt42io/avnac) | **1,567** | Nigeria |
+| [appcypher/awesome-wasm-runtimes](https://github.com/appcypher/awesome-wasm-runtimes) | **1,560** | Lagos, Nigeria |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

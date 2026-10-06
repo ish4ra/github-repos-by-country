@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 52%
+## Repository ranking status: Building 4%
 
-- Geography terms processed: **9 / 17**
-- Progress: **52%**
-- Retained high-potential owner candidates: **3**
-- Search requests completed: **9**
+- Geography terms processed: **1 / 22**
+- Progress: **4%**
+- Retained high-potential owner candidates: **196**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,9 +24,21 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [longchihang/dpSniffino](https://github.com/longchihang/dpSniffino) | **3** | Macau S.A.R |
-| [lyk7539511/zotero-better-notes-template](https://github.com/lyk7539511/zotero-better-notes-template) | **1** | Macau S.A.R. |
-| [Reformatsky/reformatsky.github.io](https://github.com/Reformatsky/reformatsky.github.io) | **0** | Macau S.A.R |
+| [spiritLHLS/ecs](https://github.com/spiritLHLS/ecs) | **7,230** | Macau |
+| [ken0225/RIS-Codes-Collection](https://github.com/ken0225/RIS-Codes-Collection) | **1,507** | Macau |
+| [1595901624/gpt-aggregated-edition](https://github.com/1595901624/gpt-aggregated-edition) | **714** | Macau |
+| [sou350121/VLA-Handbook](https://github.com/sou350121/VLA-Handbook) | **675** | Macau |
+| [greatzh/Papers](https://github.com/greatzh/Papers) | **571** | macao |
+| [Boom5426/Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) | **548** | Macau |
+| [changanmoon/UninstallMAU](https://github.com/changanmoon/UninstallMAU) | **392** | Hong Kong & Macao |
+| [DoongLi/ICRA2025-Paper-List](https://github.com/DoongLi/ICRA2025-Paper-List) | **356** | Taipa, Macau |
+| [jarvisaoieong/redux-architecture](https://github.com/jarvisaoieong/redux-architecture) | **262** | Macau |
+| [clinplayer/Point2Skeleton](https://github.com/clinplayer/Point2Skeleton) | **242** | Macau |
+| [EthanChan050430/Saki-Panel](https://github.com/EthanChan050430/Saki-Panel) | **197** | Macao |
+| [makzan/Sketch-Plugin-Scripts](https://github.com/makzan/Sketch-Plugin-Scripts) | **189** | Macao |
+| [walkdoer/Life-Time-Tracker](https://github.com/walkdoer/Life-Time-Tracker) | **180** | Macau |
+| [dainachiba/RiichiBooks](https://github.com/dainachiba/RiichiBooks) | **169** | Macao |
+| [yczhou001/Awesome-Diffusion-LLM](https://github.com/yczhou001/Awesome-Diffusion-LLM) | **169** | Macau  |
 
 ## Repository-first scan
 

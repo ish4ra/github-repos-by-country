@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **8**
-- Current global star frontier: **1,684**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **1,516**
 
 ### High-star verified preview
 
@@ -59,5 +59,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [JohnTroony/php-webshells](https://github.com/JohnTroony/php-webshells) | **1,959** | Nairobi |
 | [franceking1/Flash-Md-V3](https://github.com/franceking1/Flash-Md-V3) | **1,775** | Nairobi  |
 | [JifuZhao/DS-Take-Home](https://github.com/JifuZhao/DS-Take-Home) | **1,718** | Urbana, IL, USA |
+| [Benexl/yt-x](https://github.com/Benexl/yt-x) | **1,668** | Nairobi, Kenya |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

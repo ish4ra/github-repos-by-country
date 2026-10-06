@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 765**
 - Progress: **0%**
 - Retained high-potential owner candidates: **162**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,15 +24,15 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [MoonTechLab/LunaTV](https://github.com/MoonTechLab/LunaTV) | **10,584** | Malaysia |
+| [MoonTechLab/LunaTV](https://github.com/MoonTechLab/LunaTV) | **10,596** | Malaysia |
 | [huseinzol05/Stock-Prediction-Models](https://github.com/huseinzol05/Stock-Prediction-Models) | **9,502** | Kedah, Malaysia |
-| [EXALAB/AnLinux-App](https://github.com/EXALAB/AnLinux-App) | **2,337** | Malaysia |
+| [EXALAB/AnLinux-App](https://github.com/EXALAB/AnLinux-App) | **2,341** | Malaysia |
 | [slapperwan/gh4a](https://github.com/slapperwan/gh4a) | **2,003** | Kuala Lumpur, Malaysia |
 | [mesolitica/NLP-Models-Tensorflow](https://github.com/mesolitica/NLP-Models-Tensorflow) | **1,780** | Kuala Lumpur, Malaysia |
-| [RamadhanAmizudin/malware](https://github.com/RamadhanAmizudin/malware) | **1,193** | Malaysia |
+| [RamadhanAmizudin/malware](https://github.com/RamadhanAmizudin/malware) | **1,194** | Malaysia |
 | [Zeyad-Azima/Offensive-Resources](https://github.com/Zeyad-Azima/Offensive-Resources) | **1,173** | Malaysia |
 | [Anime4000/RTL960x](https://github.com/Anime4000/RTL960x) | **1,048** | Malaysia |
-| [MoH-Malaysia/covid19-public](https://github.com/MoH-Malaysia/covid19-public) | **971** | Putrajaya, Malaysia |
+| [MoH-Malaysia/covid19-public](https://github.com/MoH-Malaysia/covid19-public) | **972** | Putrajaya, Malaysia |
 | [zernonia/supabase-schema](https://github.com/zernonia/supabase-schema) | **863** | Malaysia |
 | [cs-chan/Total-Text-Dataset](https://github.com/cs-chan/Total-Text-Dataset) | **772** | Malaysia |
 | [mfrashad/text2art](https://github.com/mfrashad/text2art) | **771** | Malaysia |

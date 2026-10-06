@@ -13,7 +13,7 @@
 - Geography terms processed: **4 / 56**
 - Progress: **7%**
 - Retained high-potential owner candidates: **44**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [hashgraph-online/standards-sdk](https://github.com/hashgraph-online/standards-sdk) | **1,236** | Marshall Islands |
+| [hashgraph-online/standards-sdk](https://github.com/hashgraph-online/standards-sdk) | **1,244** | Marshall Islands |
 | [P20-ORG/P-20-Blockchain](https://github.com/P20-ORG/P-20-Blockchain) | **430** | Marshall Islands  |
 | [Charles-Hello/-228-](https://github.com/Charles-Hello/-228-) | **169** | 10327 ,Reynolds Meadows ,West Ilana ,Wyoming ,Marshall Islands |
 | [portable-lce/portable-lce](https://github.com/portable-lce/portable-lce) | **165** | Marshall Islands |

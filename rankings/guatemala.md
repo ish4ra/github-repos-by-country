@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [cms/domready](https://github.com/cms/domready) | **40** | Guatemala |
 | [ykro/android-chat-firebase](https://github.com/ykro/android-chat-firebase) | **37** | Guatemala |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **1,516**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [robertodevs/flutter_ecommerce_template](https://github.com/robertodevs/flutter_ecommerce_template) | **1,585** | Guatemala |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

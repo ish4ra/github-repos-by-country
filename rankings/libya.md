@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 162**
 - Progress: **0%**
-- Retained high-potential owner candidates: **239**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **240**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,10 +24,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [mohn93/AdvancedPageControl](https://github.com/mohn93/AdvancedPageControl) | **653** | Libya |
+| [mohn93/AdvancedPageControl](https://github.com/mohn93/AdvancedPageControl) | **654** | Libya |
 | [tahaak67/Farhan](https://github.com/tahaak67/Farhan) | **214** | Libya |
 | [absholi7ly/POC-CVE-2025-24813](https://github.com/absholi7ly/POC-CVE-2025-24813) | **197** | Libya |
-| [qw46478/BlackHacker](https://github.com/qw46478/BlackHacker) | **142** | Libya |
+| [qw46478/BlackHacker](https://github.com/qw46478/BlackHacker) | **143** | Libya |
 | [Mahamed-Belkheir/qufl](https://github.com/Mahamed-Belkheir/qufl) | **53** | Libya, Benghazi |
 | [torgodly/Html2Media](https://github.com/torgodly/Html2Media) | **48** | libya |
 | [KhawlahElshah/dynamic-relations-includes](https://github.com/KhawlahElshah/dynamic-relations-includes) | **28** | Tripoli, Libya |

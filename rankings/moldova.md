@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 93**
 - Progress: **0%**
 - Retained high-potential owner candidates: **338**
-- Search requests completed: **9**
+- Search requests completed: **4**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -28,9 +28,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [vmihailenco/msgpack](https://github.com/vmihailenco/msgpack) | **2,676** | Moldova |
 | [face-hh/griddycode](https://github.com/face-hh/griddycode) | **2,202** | Moldova |
 | [CyberShadow/aconfmgr](https://github.com/CyberShadow/aconfmgr) | **1,673** | Moldova, Eastern Europe |
-| [sighook/pixload](https://github.com/sighook/pixload) | **1,302** | Moldova |
-| [AddictedCS/soundfingerprinting](https://github.com/AddictedCS/soundfingerprinting) | **1,037** | Chisinau, Moldova |
-| [rurre/PumkinsAvatarTools](https://github.com/rurre/PumkinsAvatarTools) | **824** | Moldova |
+| [sighook/pixload](https://github.com/sighook/pixload) | **1,303** | Moldova |
+| [AddictedCS/soundfingerprinting](https://github.com/AddictedCS/soundfingerprinting) | **1,038** | Chisinau, Moldova |
+| [rurre/PumkinsAvatarTools](https://github.com/rurre/PumkinsAvatarTools) | **825** | Moldova |
 | [alisnic/nyny](https://github.com/alisnic/nyny) | **316** | Chisinau, Moldova |
 | [vova07/yii2-start](https://github.com/vova07/yii2-start) | **268** | Chișinău, Moldova |
 | [andrei-zgirvaci/Arbitrage-Bot](https://github.com/andrei-zgirvaci/Arbitrage-Bot) | **248** | Chișinău, Moldova |

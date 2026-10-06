@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 55**
 - Progress: **0%**
 - Retained high-potential owner candidates: **323**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [tshakalekholoane/bat](https://github.com/tshakalekholoane/bat) | **374** | Maseru, Lesotho |
+| [tshakalekholoane/bat](https://github.com/tshakalekholoane/bat) | **375** | Maseru, Lesotho |
 | [ramoletane/real_estate](https://github.com/ramoletane/real_estate) | **26** | Maseru, Lesotho |
 | [MissPurrple/claw-code-swipe](https://github.com/MissPurrple/claw-code-swipe) | **20** | Lesotho  |
 | [nkalait/mamela-audiobook-player-open](https://github.com/nkalait/mamela-audiobook-player-open) | **7** | Maseru, Lesotho |
