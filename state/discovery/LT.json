@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "29cbd13e7fbed4363ccb1bf422750581d30ee94ef77e477576c60fe21bbae0da",
+    "sha256": "380df86a1a6718ff75db44d2d0f363c17d33704ea75433efc808a9ec17a1636f",
     "termsTotal": 184
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Lithuania",
     "queue": [
+      {
+        "query": "location:\"Lithuania\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
       {
         "query": "location:\"Lithuania\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
         "stage": "year:2013",
@@ -270,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:32:44.495Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-06T00:09:56.939Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 1676
+    "reportedCount": 1678
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:32:44.495Z",
-  "updatedAt": "2026-10-03T20:04:52.847Z",
+  "startedAt": "2026-10-06T00:09:56.939Z",
+  "updatedAt": "2026-10-06T00:10:14.075Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 258,
-    "acceptedOwnerHits": 252,
+    "rawOwnerHits": 220,
+    "acceptedOwnerHits": 214,
     "rejectedOwnerHits": 6,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4627
+    "minimumRateLimitRemaining": 4945
   },
   "unresolvedShards": [],
   "candidates": [
@@ -317,8 +324,8 @@
         "nameWithOwner": "viliusle/miniPaint",
         "url": "https://github.com/viliusle/miniPaint",
         "description": "online image editor",
-        "stargazerCount": 3469,
-        "forkCount": 794,
+        "stargazerCount": 3472,
+        "forkCount": 795,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2013-07-30T14:11:26Z",
@@ -395,7 +402,7 @@
         "nameWithOwner": "justinas/alice",
         "url": "https://github.com/justinas/alice",
         "description": "Painless middleware chaining for Go",
-        "stargazerCount": 3368,
+        "stargazerCount": 3369,
         "forkCount": 153,
         "isArchived": false,
         "isFork": false,
@@ -512,7 +519,7 @@
         "nameWithOwner": "Decodo/Decodo",
         "url": "https://github.com/Decodo/Decodo",
         "description": "HTTP(S)/SOCKS5 rotating residential proxies - code examples & general information.",
-        "stargazerCount": 1245,
+        "stargazerCount": 1247,
         "forkCount": 59,
         "isArchived": false,
         "isFork": false,
@@ -629,7 +636,7 @@
         "nameWithOwner": "mvarnagiris/financius",
         "url": "https://github.com/mvarnagiris/financius",
         "description": "Personal expense manager",
-        "stargazerCount": 624,
+        "stargazerCount": 625,
         "forkCount": 252,
         "isArchived": false,
         "isFork": false,
@@ -743,12 +750,12 @@
         "nameWithOwner": "if-not-nil/revo",
         "url": "https://github.com/if-not-nil/revo",
         "description": "a dynamic language for the joy of programming",
-        "stargazerCount": 464,
-        "forkCount": 18,
+        "stargazerCount": 469,
+        "forkCount": 19,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-05-07T14:18:56Z",
-        "pushedAt": "2026-10-02T20:36:33Z",
+        "pushedAt": "2026-10-05T18:45:46Z",
         "homepageUrl": "https://revo.lung.fyi",
         "primaryLanguage": {
           "name": "Zig"
@@ -821,7 +828,7 @@
         "nameWithOwner": "nicegram/Nicegram-Android",
         "url": "https://github.com/nicegram/Nicegram-Android",
         "description": "Nicegram for Android — an independent Telegram client with Nicegram-specific integrations.",
-        "stargazerCount": 407,
+        "stargazerCount": 410,
         "forkCount": 83,
         "isArchived": false,
         "isFork": false,
@@ -1049,7 +1056,7 @@
         "nameWithOwner": "kronihias/ambix",
         "url": "https://github.com/kronihias/ambix",
         "description": "cross-platform Ambisonic VST, LV2 plug-ins with variable order for use in Digital Audio Workstations like Reaper or Ardour or as Jack standalone applications",
-        "stargazerCount": 274,
+        "stargazerCount": 276,
         "forkCount": 35,
         "isArchived": false,
         "isFork": false,
@@ -1202,7 +1209,7 @@
         "nameWithOwner": "hostinger/fireactions",
         "url": "https://github.com/hostinger/fireactions",
         "description": "BYOM (Bring Your Own Metal) and run self-hosted GitHub runners in ephemeral, fast and secure Firecracker based virtual machines.",
-        "stargazerCount": 191,
+        "stargazerCount": 192,
         "forkCount": 22,
         "isArchived": false,
         "isFork": false,
@@ -3365,6 +3372,42 @@
         "pushedAt": "2026-06-17T17:12:55Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCiUDRg",
+      "login": "Dara0002",
+      "name": "Grafas",
+      "type": "User",
+      "location": "Lithuania",
+      "url": "https://github.com/Dara0002",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/170197830?u=4355177c42f3347e08d535f31894046b22485689&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LT",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Lithuania"
+      },
+      "discoveryTerms": [
+        "Lithuania"
+      ],
+      "topRepository": {
+        "name": "ObjectPool",
+        "nameWithOwner": "Dara0002/ObjectPool",
+        "url": "https://github.com/Dara0002/ObjectPool",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-23T19:23:10Z",
+        "pushedAt": "2026-05-24T12:41:54Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Luau"
+        },
         "licenseInfo": null
       }
     },

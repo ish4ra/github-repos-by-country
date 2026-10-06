@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "da764662aa25ef9fe9f8678c1e6b057aab8f5c01e926e896df303684eae96779",
+    "sha256": "dae30e22335c2c3a02958ed21b8709a539f2f3f0bdefdb9961f5a1d8990b3dec",
     "termsTotal": 164
   },
   "phase": "discovery",
@@ -18,10 +18,59 @@
     "term": "Mauritius",
     "queue": [
       {
-        "query": "location:\"Mauritius\" type:user followers:0",
-        "stage": "followers",
-        "cursor": "Y3Vyc29yOjM1MA==",
-        "pageNumber": 8,
+        "query": "location:\"Mauritius\" type:user followers:0 repos:1..4",
+        "stage": "repos",
+        "cursor": "Y3Vyc29yOjI1MA==",
+        "pageNumber": 6,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Mauritius\" type:user followers:0 repos:5..9",
+        "stage": "repos",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Mauritius\" type:user followers:0 repos:10..24",
+        "stage": "repos",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Mauritius\" type:user followers:0 repos:25..49",
+        "stage": "repos",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Mauritius\" type:user followers:0 repos:50..99",
+        "stage": "repos",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Mauritius\" type:user followers:0 repos:100..249",
+        "stage": "repos",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Mauritius\" type:user followers:0 repos:250..499",
+        "stage": "repos",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Mauritius\" type:user followers:0 repos:>=500",
+        "stage": "repos",
+        "cursor": null,
+        "pageNumber": 1,
         "attempts": 0
       },
       {
@@ -130,27 +179,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:33:23.979Z",
-    "requests": 9,
-    "leafPages": 7,
-    "shardExpansions": 2,
-    "reportedCount": 1761
+    "startedAt": "2026-10-06T00:14:19.396Z",
+    "requests": 8,
+    "leafPages": 5,
+    "shardExpansions": 3,
+    "reportedCount": 1002
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:33:23.979Z",
-  "updatedAt": "2026-10-03T20:08:39.490Z",
+  "startedAt": "2026-10-06T00:14:19.396Z",
+  "updatedAt": "2026-10-06T00:14:44.908Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 7,
-    "shardExpansions": 2,
-    "rawOwnerHits": 450,
-    "acceptedOwnerHits": 446,
-    "rejectedOwnerHits": 4,
+    "searchRequests": 8,
+    "leafPages": 5,
+    "shardExpansions": 3,
+    "rawOwnerHits": 400,
+    "acceptedOwnerHits": 398,
+    "rejectedOwnerHits": 2,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4615
+    "minimumRateLimitRemaining": 4849
   },
   "unresolvedShards": [],
   "candidates": [
@@ -673,7 +722,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2016-10-30T13:58:02Z",
-        "pushedAt": "2026-10-03T12:16:14Z",
+        "pushedAt": "2026-10-05T05:25:04Z",
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "Shell"
@@ -784,7 +833,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2022-03-09T15:30:42Z",
-        "pushedAt": "2026-10-03T18:31:24Z",
+        "pushedAt": "2026-10-05T12:53:29Z",
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "TypeScript"
@@ -1586,6 +1635,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjc5MTQ3NjM0",
+      "login": "Virgo-Alpha",
+      "name": "Benson King'ori",
+      "type": "User",
+      "location": "Vacoas, Mauritius",
+      "url": "https://github.com/Virgo-Alpha",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/79147634?u=c72cdbdffa1606de7695a44990e09175c48195ac&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "Frisque",
+        "nameWithOwner": "Virgo-Alpha/Frisque",
+        "url": "https://github.com/Virgo-Alpha/Frisque",
+        "description": "Frisque (Faux risque) - AI Powered due diligence platform",
+        "stargazerCount": 4,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-06-04T17:24:41Z",
+        "pushedAt": "2025-06-24T14:31:00Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjExODI2",
       "login": "avinash",
       "name": "Avinash Meetoo",
@@ -1766,45 +1854,6 @@
         "licenseInfo": {
           "name": "GNU General Public License v3.0",
           "spdxId": "GPL-3.0"
-        }
-      }
-    },
-    {
-      "id": "MDQ6VXNlcjc5MTQ3NjM0",
-      "login": "Virgo-Alpha",
-      "name": "Benson King'ori",
-      "type": "User",
-      "location": "Vacoas, Mauritius",
-      "url": "https://github.com/Virgo-Alpha",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/79147634?u=c72cdbdffa1606de7695a44990e09175c48195ac&v=4",
-      "attribution": {
-        "accepted": true,
-        "countryCode": "MU",
-        "confidence": "high",
-        "evidence": "explicit-country",
-        "matched": "Mauritius"
-      },
-      "discoveryTerms": [
-        "Mauritius"
-      ],
-      "topRepository": {
-        "name": "Frisque",
-        "nameWithOwner": "Virgo-Alpha/Frisque",
-        "url": "https://github.com/Virgo-Alpha/Frisque",
-        "description": "Frisque (Faux risque) - AI Powered due diligence platform",
-        "stargazerCount": 3,
-        "forkCount": 1,
-        "isArchived": false,
-        "isFork": false,
-        "createdAt": "2025-06-04T17:24:41Z",
-        "pushedAt": "2025-06-24T14:31:00Z",
-        "homepageUrl": "",
-        "primaryLanguage": {
-          "name": "Jupyter Notebook"
-        },
-        "licenseInfo": {
-          "name": "MIT License",
-          "spdxId": "MIT"
         }
       }
     },
@@ -2029,6 +2078,42 @@
       }
     },
     {
+      "id": "U_kgDOCOCvzA",
+      "login": "AnsaarNathire",
+      "name": "Ansaar Nathire",
+      "type": "User",
+      "location": "Port-Louis, Mauritius",
+      "url": "https://github.com/AnsaarNathire",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/148942796?u=c6bf6c019e7b66564cd97c350b3021894323fa96&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "ansaar-nathire.github.io",
+        "nameWithOwner": "AnsaarNathire/ansaar-nathire.github.io",
+        "url": "https://github.com/AnsaarNathire/ansaar-nathire.github.io",
+        "description": "Portfolio",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-18T09:25:02Z",
+        "pushedAt": "2026-07-31T15:22:37Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE2ODI1OTA=",
       "login": "ARISTOTYS",
       "name": "GHUNSHYAM KUMAR ROGBEER",
@@ -2058,6 +2143,40 @@
         "createdAt": "2017-09-07T16:27:59Z",
         "pushedAt": "2017-09-07T16:27:59Z",
         "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEzMzEzNTI=",
+      "login": "ashvinramanjooloo",
+      "name": "Ashvin",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/ashvinramanjooloo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1331352?u=c3d7fc7552046ef7feb58a259462084880754576&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "incubator",
+        "nameWithOwner": "ashvinramanjooloo/incubator",
+        "url": "https://github.com/ashvinramanjooloo/incubator",
+        "description": "For learning and testing new technologies",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2012-01-15T09:52:03Z",
+        "pushedAt": null,
+        "homepageUrl": "",
         "primaryLanguage": null,
         "licenseInfo": null
       }
@@ -2497,6 +2616,42 @@
       }
     },
     {
+      "id": "U_kgDOESK72w",
+      "login": "pse-wtag",
+      "name": "Pranav Seewoodharry",
+      "type": "User",
+      "location": "Mauritius La Promenade, MU, Moka 80829",
+      "url": "https://github.com/pse-wtag",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/287488987?u=7eb60bd69eccd169e562efd260ad2a38ad35e55f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "spring-modular-monolith-starter",
+        "nameWithOwner": "pse-wtag/spring-modular-monolith-starter",
+        "url": "https://github.com/pse-wtag/spring-modular-monolith-starter",
+        "description": "Spring Boot / Java Modular monolith starter with layered architecture and Keycloak authenitcation",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-27T06:01:09Z",
+        "pushedAt": "2026-10-05T13:13:45Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI5NjU4Nzk2",
       "login": "RamahefanimananaDomoina",
       "name": "Domoina Ramahefanimanana",
@@ -2529,6 +2684,40 @@
         "primaryLanguage": {
           "name": "C#"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODNGhUQ",
+      "login": "vi-b-18",
+      "name": "vib18",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/vi-b-18",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/215064913?u=23faed9182939f54238ae625e37f00ab49c8a433&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "Exchange-rate",
+        "nameWithOwner": "vi-b-18/Exchange-rate",
+        "url": "https://github.com/vi-b-18/Exchange-rate",
+        "description": "Simple webapp to give info and conversion of different currency rates",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-07-11T18:46:38Z",
+        "pushedAt": "2025-07-11T18:46:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -2644,6 +2833,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM1NzU2Njkx",
+      "login": "yashna06",
+      "name": "Yashna Mahabul",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/yashna06",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/35756691?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "sodebo-psd",
+        "nameWithOwner": "yashna06/sodebo-psd",
+        "url": "https://github.com/yashna06/sodebo-psd",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-02-05T05:47:12Z",
+        "pushedAt": "2018-02-06T11:35:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjY2NjIyNDc0",
       "login": "yusrap",
       "name": "Yusra Patel",
@@ -2745,6 +2970,40 @@
         "isFork": false,
         "createdAt": "2020-02-20T09:41:06Z",
         "pushedAt": "2020-02-20T09:41:07Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYzNzI3NTAw",
+      "login": "0xkakash1",
+      "name": "0xkakashi",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/0xkakash1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/63727500?u=8b51716258c530ea3e367c0005ef483cf68612c0&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "zz-scratch-test-echo",
+        "nameWithOwner": "0xkakash1/zz-scratch-test-echo",
+        "url": "https://github.com/0xkakash1/zz-scratch-test-echo",
+        "description": "scratch test",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-07T18:15:09Z",
+        "pushedAt": "2026-07-07T18:19:08Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -2970,6 +3229,113 @@
       }
     },
     {
+      "id": "U_kgDOD1PDig",
+      "login": "adiyenp26-code",
+      "name": "Adiyen",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/adiyenp26-code",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/257147786?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "ECG-Arrhythmia-Classification-1D-CNN",
+        "nameWithOwner": "adiyenp26-code/ECG-Arrhythmia-Classification-1D-CNN",
+        "url": "https://github.com/adiyenp26-code/ECG-Arrhythmia-Classification-1D-CNN",
+        "description": "Deep learning for AAMI 5-class ECG arrhythmia detection on MIT-BIH: High V-beat sensitivity via 1D-CNN. Preprocessing, training, and inference scripts included.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-02-12T14:12:55Z",
+        "pushedAt": "2026-02-12T14:32:44Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOBc8wtw",
+      "login": "Adrien-7",
+      "name": "Adrien Alassoo",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/Adrien-7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/97464503?u=3aafc2b58979d1ab9a7a1ea52d7376a80844f368&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "Adrien-7",
+        "nameWithOwner": "Adrien-7/Adrien-7",
+        "url": "https://github.com/Adrien-7/Adrien-7",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-07-23T06:26:57Z",
+        "pushedAt": "2025-07-23T06:37:23Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCPZfxg",
+      "login": "Adrienlkh19",
+      "name": "Adrien Lam Kwoh Hing",
+      "type": "User",
+      "location": "Rose Hill, Mauritius",
+      "url": "https://github.com/Adrienlkh19",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/150364102?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "Adrienlkh19",
+        "nameWithOwner": "Adrienlkh19/Adrienlkh19",
+        "url": "https://github.com/Adrienlkh19/Adrienlkh19",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-11-09T15:14:12Z",
+        "pushedAt": "2024-11-08T16:08:18Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDODPqjOA",
       "login": "aetherium124",
       "name": "Aetherium_innovations",
@@ -3072,6 +3438,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgzNjY3ODA0",
+      "login": "Akveer1809",
+      "name": "Akveer",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/Akveer1809",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/83667804?u=48cfa0ce1a01ef3031dd75338c1110ba15a32f21&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "FurryPalace",
+        "nameWithOwner": "Akveer1809/FurryPalace",
+        "url": "https://github.com/Akveer1809/FurryPalace",
+        "description": "Final Year Project",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-09-26T06:33:29Z",
+        "pushedAt": "2022-09-26T06:34:18Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "CSS"
         },
         "licenseInfo": null
       }
@@ -3253,6 +3655,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjI1OTQ4MDAy",
+      "login": "Andr126",
+      "name": "Andriano",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/Andr126",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25948002?u=05d477af4b119f689d64d3d411ac2690c0cc4589&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "hello-world",
+        "nameWithOwner": "Andr126/hello-world",
+        "url": "https://github.com/Andr126/hello-world",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-02-22T07:42:22Z",
+        "pushedAt": "2017-02-23T03:30:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjIwNzcwNDE4",
       "login": "aneessia",
       "name": "Aneessia Ghoorhoa",
@@ -3425,6 +3861,43 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjE0MzI2Mzg3",
+      "login": "ashwin2011",
+      "name": "Kamal Shewnarain",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/ashwin2011",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/14326387?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "Java",
+        "nameWithOwner": "ashwin2011/Java",
+        "url": "https://github.com/ashwin2011/Java",
+        "description": "Java quick code",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-04-20T20:22:14Z",
+        "pushedAt": "2020-04-20T21:59:44Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjgxMjA3MjQ0",
       "login": "Asibinde15",
       "name": "Amancio Sibinde",
@@ -3454,6 +3927,76 @@
         "createdAt": "2021-03-23T03:27:05Z",
         "pushedAt": "2021-03-23T03:27:05Z",
         "homepageUrl": "https://github.com/Asibinde15",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMzMDg3NDM=",
+      "login": "AugustaKing",
+      "name": "Augusta King",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/AugustaKing",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3308743?u=0008a26320cece94d5fbf8b2a6582c2a8cd66b27&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "vertex1",
+        "nameWithOwner": "AugustaKing/vertex1",
+        "url": "https://github.com/AugustaKing/vertex1",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-12-07T19:14:38Z",
+        "pushedAt": "2025-12-07T19:32:11Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOClHxJQ",
+      "login": "AurianeNina",
+      "name": "Auriane Nina",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/AurianeNina",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/173142309?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "AurianeNina",
+        "nameWithOwner": "AurianeNina/AurianeNina",
+        "url": "https://github.com/AurianeNina/AurianeNina",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-06-18T08:18:18Z",
+        "pushedAt": "2024-06-18T08:25:54Z",
+        "homepageUrl": "https://github.com/AurianeNina",
         "primaryLanguage": null,
         "licenseInfo": null
       }
@@ -3527,6 +4070,40 @@
       }
     },
     {
+      "id": "U_kgDOE_9fAA",
+      "login": "bilalghanty",
+      "name": "Bilal Ghanty",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/bilalghanty",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/335503104?u=eeca8c94b1c2a0457dcbd37479de807dc597ab5c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "bilalghanty",
+        "nameWithOwner": "bilalghanty/bilalghanty",
+        "url": "https://github.com/bilalghanty/bilalghanty",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-01T10:29:16Z",
+        "pushedAt": "2026-10-01T10:30:08Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjU0Njk3MDE=",
       "login": "BlackBanner",
       "name": "Muhammad Ajmal Aumeeruddy",
@@ -3559,6 +4136,40 @@
         "primaryLanguage": {
           "name": "JavaScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOD1KiKQ",
+      "login": "BlueprintStudioDevs",
+      "name": "Blueprint Studio",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/BlueprintStudioDevs",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/257073705?u=8af59b5485653291b3646b2cc022c313d07fa59d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "CHATPGT",
+        "nameWithOwner": "BlueprintStudioDevs/CHATPGT",
+        "url": "https://github.com/BlueprintStudioDevs/CHATPGT",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-02-04T20:49:55Z",
+        "pushedAt": "2026-02-04T20:49:56Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -3774,6 +4385,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjYwODcwODUy",
+      "login": "cloudtac",
+      "name": "CloudBrewery",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/cloudtac",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/60870852?u=1f4b1d05f90781e0b22b7b6eae71fd9f48f0c394&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "cloudbrewery-ml-k-nearest-neighbour",
+        "nameWithOwner": "cloudtac/cloudbrewery-ml-k-nearest-neighbour",
+        "url": "https://github.com/cloudtac/cloudbrewery-ml-k-nearest-neighbour",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-04-25T14:58:23Z",
+        "pushedAt": "2025-04-25T14:58:24Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjIyNzczNjQy",
       "login": "company-pear",
       "name": "Pear Incorporate",
@@ -3838,6 +4483,40 @@
         "isFork": false,
         "createdAt": "2017-01-26T17:20:50Z",
         "pushedAt": "2017-01-26T17:20:50Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIyNzI3NzQ1",
+      "login": "cultivium",
+      "name": "Aspiring digital spartans",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/cultivium",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/22727745?u=33bbb32f82ebaa93f2ecaca26026b652d165c1b7&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "cultivium",
+        "nameWithOwner": "cultivium/cultivium",
+        "url": "https://github.com/cultivium/cultivium",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-10-10T00:28:56Z",
+        "pushedAt": "2016-10-10T00:28:56Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -4099,6 +4778,84 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM0MTM5Nzc2",
+      "login": "Diamondkesh",
+      "name": "Hemkesh Molla",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/Diamondkesh",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/34139776?u=1430568b147e5d1559469bcc67e0977c8816b303&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "Art-Project",
+        "nameWithOwner": "Diamondkesh/Art-Project",
+        "url": "https://github.com/Diamondkesh/Art-Project",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-06-06T17:34:15Z",
+        "pushedAt": "2018-06-13T20:05:57Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v2.0",
+          "spdxId": "GPL-2.0"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOCTf8oA",
+      "login": "digitalconceptsmu",
+      "name": "Digital Concepts",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/digitalconceptsmu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/154664096?u=18615b675362d06dbf261363741dd87bfe179c27&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "symfony-template",
+        "nameWithOwner": "digitalconceptsmu/symfony-template",
+        "url": "https://github.com/digitalconceptsmu/symfony-template",
+        "description": "Symfony 8 boilerplate with Docker, authentication, modern dev tooling, and Claude integration.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-02-18T15:20:00Z",
+        "pushedAt": "2026-02-05T14:53:37Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjM0MTgwOTI4",
       "login": "Dilshad27",
       "name": null,
@@ -4128,6 +4885,40 @@
         "createdAt": "2021-11-12T21:56:33Z",
         "pushedAt": "2021-11-12T21:57:23Z",
         "homepageUrl": "https://github.com/Dilshad27",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE3MjY1NzIy",
+      "login": "distish91",
+      "name": "Distish Pothanah",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/distish91",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17265722?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "hello-world",
+        "nameWithOwner": "distish91/hello-world",
+        "url": "https://github.com/distish91/hello-world",
+        "description": "Test project for tutorial",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-02-16T06:28:28Z",
+        "pushedAt": "2016-02-16T06:36:46Z",
+        "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
       }
@@ -4339,6 +5130,40 @@
         "primaryLanguage": {
           "name": "JavaScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg1MTY2OTQz",
+      "login": "EllipsysMarkets",
+      "name": "Ellipsys",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/EllipsysMarkets",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/85166943?u=169ebf9026a5efebf5cad1f953e829f8478e208d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "EllipsysMarkets",
+        "nameWithOwner": "EllipsysMarkets/EllipsysMarkets",
+        "url": "https://github.com/EllipsysMarkets/EllipsysMarkets",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-06-01T10:59:16Z",
+        "pushedAt": "2021-06-01T11:00:55Z",
+        "homepageUrl": "https://github.com/EllipsysMarkets",
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -4720,7 +5545,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-10-03T17:00:20Z",
-        "pushedAt": "2026-10-03T19:36:57Z",
+        "pushedAt": "2026-10-05T19:42:11Z",
         "homepageUrl": "https://pdf-quote-extractor.vercel.app",
         "primaryLanguage": {
           "name": "TypeScript"
@@ -5264,6 +6089,78 @@
       }
     },
     {
+      "id": "U_kgDODGmo8A",
+      "login": "JDeanology",
+      "name": "Jeffrey Dean LCL",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/JDeanology",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/208251120?u=eedd44d9dd079ce4c25cf0b4f511230c137a043e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "Simple-JavaScript-Calculator",
+        "nameWithOwner": "JDeanology/Simple-JavaScript-Calculator",
+        "url": "https://github.com/JDeanology/Simple-JavaScript-Calculator",
+        "description": "Simple JavaScript Calculator",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-28T18:39:33Z",
+        "pushedAt": "2026-05-28T18:40:49Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBdFYbg",
+      "login": "jdm-esokia",
+      "name": "JDavid Moutoussamy",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/jdm-esokia",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/97605742?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "formation-php",
+        "nameWithOwner": "jdm-esokia/formation-php",
+        "url": "https://github.com/jdm-esokia/formation-php",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-03-18T10:21:33Z",
+        "pushedAt": "2024-04-30T05:17:11Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBkm4JA",
       "login": "jeshina013",
       "name": "Nandini Mungah",
@@ -5296,6 +6193,40 @@
         "primaryLanguage": {
           "name": "JavaScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI4Njc0MDY5",
+      "login": "jimmy-large",
+      "name": "Jimmy Large",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/jimmy-large",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/28674069?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "tutorial",
+        "nameWithOwner": "jimmy-large/tutorial",
+        "url": "https://github.com/jimmy-large/tutorial",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-05-19T10:45:30Z",
+        "pushedAt": "2017-05-19T10:46:35Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -5551,6 +6482,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjYzNjUzNTYz",
+      "login": "Judi1808",
+      "name": "Judi",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/Judi1808",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/63653563?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "project0",
+        "nameWithOwner": "Judi1808/project0",
+        "url": "https://github.com/Judi1808/project0",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-05-01T07:28:33Z",
+        "pushedAt": "2020-05-10T17:17:21Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDODJVaXQ",
       "login": "k4vi811",
       "name": "Kaviraj Teeluck",
@@ -5621,6 +6588,146 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjc4NzUzMTc4",
+      "login": "kehn33y",
+      "name": "Kenneth Igwe",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/kehn33y",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/78753178?u=6e5c9f6f6eda15e9b08575fd3f84e3ae568b3746&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "IDX-API",
+        "nameWithOwner": "kehn33y/IDX-API",
+        "url": "https://github.com/kehn33y/IDX-API",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-07T22:33:11Z",
+        "pushedAt": "2026-03-07T22:40:02Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBsWI_g",
+      "login": "KenanLSA",
+      "name": "draken",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/KenanLSA",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/113608958?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "automoto-stock-api",
+        "nameWithOwner": "KenanLSA/automoto-stock-api",
+        "url": "https://github.com/KenanLSA/automoto-stock-api",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-16T11:15:07Z",
+        "pushedAt": "2026-07-17T12:36:36Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgyODYzNjkw",
+      "login": "keny29",
+      "name": "Keny Poisson",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/keny29",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/82863690?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "Facial-Voice-Recognition-doorlock-using-Raspberry-pi",
+        "nameWithOwner": "keny29/Facial-Voice-Recognition-doorlock-using-Raspberry-pi",
+        "url": "https://github.com/keny29/Facial-Voice-Recognition-doorlock-using-Raspberry-pi",
+        "description": "Hello people, I am currently posting this here this was my final year project as an Applied computing student in the year 2022. Hope this can help you for your future projects ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-05-09T15:31:53Z",
+        "pushedAt": "2022-05-09T15:31:55Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIwNzcwNDUy",
+      "login": "ketnav",
+      "name": "Ketnav Hemkesh",
+      "type": "User",
+      "location": "Mauritius ",
+      "url": "https://github.com/ketnav",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/20770452?u=d48dfe01dc1f7c00f0ae5ba34374199d5dd321a3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "Test",
+        "nameWithOwner": "ketnav/Test",
+        "url": "https://github.com/ketnav/Test",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-03-24T09:27:34Z",
+        "pushedAt": "2019-03-24T09:35:16Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjU5OTk2Mzkw",
       "login": "kevin-appadoo",
       "name": "Kevin  Appadoo",
@@ -5653,6 +6760,40 @@
         "primaryLanguage": {
           "name": "JavaScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE4MDI0NDQz",
+      "login": "kevRima",
+      "name": "Jacques D. L. Rima",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/kevRima",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18024443?u=72c64eb21265f615fa93e28a98f486a081e393aa&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "ACTIVIMMO",
+        "nameWithOwner": "kevRima/ACTIVIMMO",
+        "url": "https://github.com/kevRima/ACTIVIMMO",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-03-20T12:55:59Z",
+        "pushedAt": "2017-03-20T12:55:59Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -5696,6 +6837,76 @@
       }
     },
     {
+      "id": "U_kgDOB8gaGA",
+      "login": "Kishan-1000101",
+      "name": "Kishan Sobhee",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/Kishan-1000101",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/130554392?u=c44cf6c7994d184f12bd9bc857e36d3242f687f0&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "portfolio",
+        "nameWithOwner": "Kishan-1000101/portfolio",
+        "url": "https://github.com/Kishan-1000101/portfolio",
+        "description": "Editorial portfolio — Kishan Sobhee",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-08T19:04:14Z",
+        "pushedAt": "2026-09-09T23:08:56Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjczNjA1Mzg=",
+      "login": "kmadub01",
+      "name": "Kunal Madub",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/kmadub01",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7360538?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "angular-test",
+        "nameWithOwner": "kmadub01/angular-test",
+        "url": "https://github.com/kmadub01/angular-test",
+        "description": "Me playing with Angular",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-06-21T09:42:16Z",
+        "pushedAt": "2018-06-21T09:42:17Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOEcnztw",
       "login": "kndedekojo-CS",
       "name": "KORKOR NDEDE KOJO",
@@ -5729,6 +6940,45 @@
           "name": "Python"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYwOTIwMDQ=",
+      "login": "kumaren",
+      "name": "kumaren",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/kumaren",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6092004?u=5f7c4a8b207519715805c28e3acbaddda32c7cb0&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "drupalOne",
+        "nameWithOwner": "kumaren/drupalOne",
+        "url": "https://github.com/kumaren/drupalOne",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-12-18T10:14:15Z",
+        "pushedAt": "2014-02-04T12:59:34Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v2.0",
+          "spdxId": "GPL-2.0"
+        }
       }
     },
     {
@@ -5983,6 +7233,40 @@
       }
     },
     {
+      "id": "U_kgDOB_vLkw",
+      "login": "LuqmanE12",
+      "name": "Luqman",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/LuqmanE12",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/133942163?u=6a207e2c894853ff8c38e9f8cdd89764303fa159&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "LuqmanE12",
+        "nameWithOwner": "LuqmanE12/LuqmanE12",
+        "url": "https://github.com/LuqmanE12/LuqmanE12",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-10-30T07:55:25Z",
+        "pushedAt": "2023-10-30T07:55:33Z",
+        "homepageUrl": "https://github.com/LuqmanE12",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCoA4PQ",
       "login": "mafengjay",
       "name": "Mafeng Pam",
@@ -6011,6 +7295,40 @@
         "isFork": false,
         "createdAt": "2025-07-13T15:06:55Z",
         "pushedAt": "2025-07-13T15:11:19Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOELDEgw",
+      "login": "marcotonta8097-debug",
+      "name": "Marco Tonta",
+      "type": "User",
+      "location": "Mauritius ",
+      "url": "https://github.com/marcotonta8097-debug",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/280020099?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "deliverplus",
+        "nameWithOwner": "marcotonta8097-debug/deliverplus",
+        "url": "https://github.com/marcotonta8097-debug/deliverplus",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-20T10:51:08Z",
+        "pushedAt": "2026-05-20T10:51:08Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -6046,6 +7364,74 @@
         "createdAt": "2025-06-09T08:02:55Z",
         "pushedAt": "2026-02-26T21:16:04Z",
         "homepageUrl": "https://github.com/MasterAkram786",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUyOTUyOTI4",
+      "login": "MatthieuZuel",
+      "name": "Matthieu Zuël",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/MatthieuZuel",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/52952928?u=91883b3f482f351f2e7f578294cfe9adcd2153ef&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "MatthieuZuel",
+        "nameWithOwner": "MatthieuZuel/MatthieuZuel",
+        "url": "https://github.com/MatthieuZuel/MatthieuZuel",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-11-25T16:37:02Z",
+        "pushedAt": "2025-11-25T16:37:02Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMxMjA4OTQ3",
+      "login": "MeeraBoykunt",
+      "name": "Meera",
+      "type": "User",
+      "location": "Reduit, Mauritius",
+      "url": "https://github.com/MeeraBoykunt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/31208947?u=a4f19c360ab86651af0ffb74f4d5301701e62b41&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "Web_dev",
+        "nameWithOwner": "MeeraBoykunt/Web_dev",
+        "url": "https://github.com/MeeraBoykunt/Web_dev",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-07-04T18:15:23Z",
+        "pushedAt": "2018-07-04T18:15:24Z",
+        "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
       }
@@ -6189,6 +7575,40 @@
       }
     },
     {
+      "id": "U_kgDOEUgVRg",
+      "login": "mjpas",
+      "name": "Perly",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/mjpas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/289936710?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "Python-Beginner-Projects",
+        "nameWithOwner": "mjpas/Python-Beginner-Projects",
+        "url": "https://github.com/mjpas/Python-Beginner-Projects",
+        "description": "Implementing simple projects for practice",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-05T12:32:18Z",
+        "pushedAt": "2026-09-05T12:32:18Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjUzMTU4ODEz",
       "login": "MKtradepro",
       "name": "MKtradePROSYSTEM",
@@ -6251,6 +7671,110 @@
         "isFork": false,
         "createdAt": "2015-05-20T09:52:52Z",
         "pushedAt": "2015-05-20T09:52:52Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCtKDkQ",
+      "login": "modhopmpozitivik",
+      "name": null,
+      "type": "User",
+      "location": "Mauritius (MU)",
+      "url": "https://github.com/modhopmpozitivik",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/181568401?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "modhopmpozitivik",
+        "nameWithOwner": "modhopmpozitivik/modhopmpozitivik",
+        "url": "https://github.com/modhopmpozitivik/modhopmpozitivik",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-14T11:39:47Z",
+        "pushedAt": "2024-09-14T11:39:57Z",
+        "homepageUrl": "https://github.com/modhopmpozitivik",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ1OTExMjU4",
+      "login": "Mooazzama",
+      "name": "Ramjean Bibi Oumme Mooazzama",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/Mooazzama",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/45911258?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "oop",
+        "nameWithOwner": "Mooazzama/oop",
+        "url": "https://github.com/Mooazzama/oop",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-04-05T09:20:16Z",
+        "pushedAt": "2020-04-05T16:13:34Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE0MjQ3ODg2",
+      "login": "Mr-Narcotics",
+      "name": "Narcotics",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/Mr-Narcotics",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/14247886?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "narcotics",
+        "nameWithOwner": "Mr-Narcotics/narcotics",
+        "url": "https://github.com/Mr-Narcotics/narcotics",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-09-12T11:08:49Z",
+        "pushedAt": "2015-09-12T11:08:49Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -6439,6 +7963,76 @@
       }
     },
     {
+      "id": "U_kgDOCFZKLQ",
+      "login": "nanduvgrd",
+      "name": "Nanjundeswaran Raman",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/nanduvgrd",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/139872813?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "nanduvgrd",
+        "nameWithOwner": "nanduvgrd/nanduvgrd",
+        "url": "https://github.com/nanduvgrd/nanduvgrd",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-07-21T11:35:46Z",
+        "pushedAt": "2023-07-21T11:36:31Z",
+        "homepageUrl": "https://github.com/nanduvgrd",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMwNDI5ODI2",
+      "login": "nash1095",
+      "name": "Nasher Surfooddeen",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/nash1095",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/30429826?u=9e5a383d25b2d07f8795598d0b3b7f580ea8137d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "TestRepo",
+        "nameWithOwner": "nash1095/TestRepo",
+        "url": "https://github.com/nash1095/TestRepo",
+        "description": "Testing Repository",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-08-30T05:58:12Z",
+        "pushedAt": "2017-08-30T06:53:41Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "CSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjg4Mzk5ODM0",
       "login": "natemilien1580",
       "name": null,
@@ -6541,6 +8135,149 @@
       }
     },
     {
+      "id": "U_kgDOBcq1BA",
+      "login": "NeeshithaRamneehorah",
+      "name": "NisiX",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/NeeshithaRamneehorah",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/97170692?u=c124d6653e7330d18441a07d685e1f9f0ec02ac1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "Vending-Machine-Project",
+        "nameWithOwner": "NeeshithaRamneehorah/Vending-Machine-Project",
+        "url": "https://github.com/NeeshithaRamneehorah/Vending-Machine-Project",
+        "description": "A soda vending machine, which is a customer service automated, machine that operates without the aid of human intervention. It provides different beverages to  customers, after the customer inserts cash or a debit/credit card into the machine using  extremely simple steps. It is controlled through a control system which provides a main  module, a payment system, a user interface system(Tkinter) using, a stock  system and a communication system.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-01-06T09:57:05Z",
+        "pushedAt": "2022-01-06T10:10:19Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYzOTQ3MTg3",
+      "login": "NehaBancharam",
+      "name": "Neha Bancharam",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/NehaBancharam",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/63947187?u=82e621d1725a78ab6909e2e41650c37c6020a275&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "ShineUser",
+        "nameWithOwner": "NehaBancharam/ShineUser",
+        "url": "https://github.com/NehaBancharam/ShineUser",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-12-19T06:24:25Z",
+        "pushedAt": "2021-01-07T06:03:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYwODA1MTMy",
+      "login": "Nehela",
+      "name": "Nehela Patel",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/Nehela",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/60805132?u=a0d6b54ef42032b0dbc5088630cc29336d334385&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "game-site",
+        "nameWithOwner": "Nehela/game-site",
+        "url": "https://github.com/Nehela/game-site",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-06-05T14:43:00Z",
+        "pushedAt": "2020-06-05T15:00:24Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOCf_WtA",
+      "login": "Nikesh-Ramsaha",
+      "name": "Nikesh Ramsaha",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/Nikesh-Ramsaha",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/167761588?u=41b0f25a320e6326103c48c2bc4888a3bdd7a278&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "ML-Generic-Project-KN",
+        "nameWithOwner": "Nikesh-Ramsaha/ML-Generic-Project-KN",
+        "url": "https://github.com/Nikesh-Ramsaha/ML-Generic-Project-KN",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-04-22T10:15:57Z",
+        "pushedAt": "2024-04-22T10:15:57Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE5OTk5MDA0",
       "login": "Nikhil2912",
       "name": "Nikhil Babooram",
@@ -6569,6 +8306,74 @@
         "isFork": false,
         "createdAt": "2016-06-17T17:14:35Z",
         "pushedAt": "2016-06-17T17:22:19Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIzMTI0NzM4",
+      "login": "nishzone",
+      "name": "Nisha",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/nishzone",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/23124738?u=ec542f1ea7864899bc33506d0ec0e91a86a3c3d4&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "FreeCodeCamp",
+        "nameWithOwner": "nishzone/FreeCodeCamp",
+        "url": "https://github.com/nishzone/FreeCodeCamp",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-11-18T08:04:36Z",
+        "pushedAt": "2016-11-18T08:04:37Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUyMzE4NTQw",
+      "login": "nita-unipro",
+      "name": "Nita Koolwant",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/nita-unipro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/52318540?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "hello-world",
+        "nameWithOwner": "nita-unipro/hello-world",
+        "url": "https://github.com/nita-unipro/hello-world",
+        "description": "This is a first test",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-07-04T06:10:37Z",
+        "pushedAt": "2019-07-08T06:19:17Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -6645,6 +8450,43 @@
       }
     },
     {
+      "id": "U_kgDODdGqsA",
+      "login": "noor-ladoo",
+      "name": "Ladoo Noor-E-Faatimah Zahra Sahela",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/noor-ladoo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/231844528?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "Thisisatest",
+        "nameWithOwner": "noor-ladoo/Thisisatest",
+        "url": "https://github.com/noor-ladoo/Thisisatest",
+        "description": "getting used to things",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-09-15T07:52:57Z",
+        "pushedAt": "2025-11-13T04:19:06Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjYyNTg4ODkz",
       "login": "noorjahankadel",
       "name": "noorjahan kadel",
@@ -6713,6 +8555,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ2MDMzMjYz",
+      "login": "Nundoochan",
+      "name": "akshay",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/Nundoochan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/46033263?u=ed1cdbd9120247518dd46f562790b30733f72d76&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "nundoochan",
+        "nameWithOwner": "Nundoochan/nundoochan",
+        "url": "https://github.com/Nundoochan/nundoochan",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-28T01:16:03Z",
+        "pushedAt": "2026-09-28T01:21:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjcwMTE5NTg=",
       "login": "oliviersfl",
       "name": "Olivier Sin Fai Lam",
@@ -6744,6 +8620,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "C#"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOB5rhkQ",
+      "login": "painfulpastime",
+      "name": "Mwaura Simon",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/painfulpastime",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/127590801?u=94487f72e516c5aa35b767b8b0330c32f2a6474b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "MyUndergradThesis",
+        "nameWithOwner": "painfulpastime/MyUndergradThesis",
+        "url": "https://github.com/painfulpastime/MyUndergradThesis",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-07-29T19:37:01Z",
+        "pushedAt": "2024-07-29T19:41:09Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
         },
         "licenseInfo": null
       }
@@ -6816,6 +8728,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOEZgZuA",
+      "login": "pilotpageiot-lab",
+      "name": "Page Pilot",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/pilotpageiot-lab",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/295180728?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "ReactCMS---PagePilot",
+        "nameWithOwner": "pilotpageiot-lab/ReactCMS---PagePilot",
+        "url": "https://github.com/pilotpageiot-lab/ReactCMS---PagePilot",
+        "description": "Website Content Manager for Client Websites ⭐⭐⭐⭐⭐ You already asked about clients changing website content without touching code.  Problem: Small businesses pay developers every time they want to change text or images.  Solution: A CMS that can be attached to any React website.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-06-19T17:04:22Z",
+        "pushedAt": "2026-07-07T21:19:41Z",
+        "homepageUrl": "https://reactcms-dashboard.vercel.app",
+        "primaryLanguage": {
+          "name": "TypeScript"
         },
         "licenseInfo": null
       }
@@ -6932,6 +8880,74 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjE1MzIwNDQw",
+      "login": "PreetamGoteea",
+      "name": "Preetam Goteea",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/PreetamGoteea",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/15320440?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "hello-world",
+        "nameWithOwner": "PreetamGoteea/hello-world",
+        "url": "https://github.com/PreetamGoteea/hello-world",
+        "description": "Touring github again.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-10-26T08:52:08Z",
+        "pushedAt": "2015-10-26T09:01:54Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCLApCw",
+      "login": "PrithivirajAuckloo",
+      "name": null,
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/PrithivirajAuckloo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/145762571?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "PosLoader",
+        "nameWithOwner": "PrithivirajAuckloo/PosLoader",
+        "url": "https://github.com/PrithivirajAuckloo/PosLoader",
+        "description": "This is the repository for PosLoader C# application",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-03-25T09:49:59Z",
+        "pushedAt": "2025-03-25T09:50:00Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI0OTEwNzQ3",
       "login": "rahajas",
       "name": "Rivo Hermann",
@@ -6994,6 +9010,76 @@
         "isFork": false,
         "createdAt": "2021-01-26T11:04:02Z",
         "pushedAt": "2021-01-26T16:48:55Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBYDKIQ",
+      "login": "RawL0604",
+      "name": "Mandalorian.L",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/RawL0604",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/92326433?u=0c00948bcd4a1fca038ee1402fe06860af31594b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "green_energy",
+        "nameWithOwner": "RawL0604/green_energy",
+        "url": "https://github.com/RawL0604/green_energy",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-11-16T18:03:41Z",
+        "pushedAt": "2021-12-15T19:13:00Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOFCad2Q",
+      "login": "Rayzen-Tech",
+      "name": "Rayan",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/Rayzen-Tech",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/338075097?u=73e382afa30e629c1741782acd37ab1e2bf8f593&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "Rayzen-Tech",
+        "nameWithOwner": "Rayzen-Tech/Rayzen-Tech",
+        "url": "https://github.com/Rayzen-Tech/Rayzen-Tech",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-05T10:32:29Z",
+        "pushedAt": "2026-10-05T10:32:31Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -7100,6 +9186,42 @@
         "pushedAt": "2026-01-27T06:39:15Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCLNhfg",
+      "login": "rickycl",
+      "name": "Patrick Yeung Che Leung",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/rickycl",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/145973630?u=0afb70b7936cad2f801daa0980887f71c4b0b392&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "PySpark",
+        "nameWithOwner": "rickycl/PySpark",
+        "url": "https://github.com/rickycl/PySpark",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-12-06T11:49:45Z",
+        "pushedAt": "2024-02-02T08:10:37Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
         "licenseInfo": null
       }
     },
@@ -7249,6 +9371,42 @@
       }
     },
     {
+      "id": "U_kgDOCZQzxg",
+      "login": "Roshan-Oozeer",
+      "name": "Roshan Oozeer",
+      "type": "User",
+      "location": "Port Louis, Mauritius",
+      "url": "https://github.com/Roshan-Oozeer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/160707526?u=d2ed8de662c575ceccda8890b6a81c4fd06d5cb3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "om-challenge-flag-explorer",
+        "nameWithOwner": "Roshan-Oozeer/om-challenge-flag-explorer",
+        "url": "https://github.com/Roshan-Oozeer/om-challenge-flag-explorer",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2025-03-25T09:58:48Z",
+        "pushedAt": "2025-03-27T11:01:12Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCguXlg",
       "login": "Rushil0501",
       "name": "Rushil K. Ramdawor",
@@ -7352,6 +9510,45 @@
           "name": "Python"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ0MDU3OTQw",
+      "login": "Saahir777",
+      "name": "Saahir Jeewooth",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/Saahir777",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/44057940?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "OriginalLineBot",
+        "nameWithOwner": "Saahir777/OriginalLineBot",
+        "url": "https://github.com/Saahir777/OriginalLineBot",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-10-17T07:57:39Z",
+        "pushedAt": "2018-10-17T07:58:11Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
       }
     },
     {
@@ -7607,6 +9804,74 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjExODUxMzk5",
+      "login": "seevenamic",
+      "name": "Seeven Amic",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/seevenamic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11851399?u=b6962794ca920513fd5504fb3107bcfc291fe862&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "dataStructures",
+        "nameWithOwner": "seevenamic/dataStructures",
+        "url": "https://github.com/seevenamic/dataStructures",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-06-04T18:55:26Z",
+        "pushedAt": "2018-06-04T18:55:26Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYyOTkwMzM0",
+      "login": "Sehal913",
+      "name": null,
+      "type": "User",
+      "location": "mauritius",
+      "url": "https://github.com/Sehal913",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/62990334?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "https-dashboard.balena-cloud.com-apps-1636139",
+        "nameWithOwner": "Sehal913/https-dashboard.balena-cloud.com-apps-1636139",
+        "url": "https://github.com/Sehal913/https-dashboard.balena-cloud.com-apps-1636139",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-04-10T11:13:09Z",
+        "pushedAt": "2020-04-10T11:13:10Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDODXz7Kg",
       "login": "sewkumardh",
       "name": "sewkumar",
@@ -7675,6 +9940,40 @@
         "primaryLanguage": {
           "name": "Dockerfile"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOFA_ukQ",
+      "login": "shamimah45",
+      "name": "Shamimah KARIM",
+      "type": "User",
+      "location": "Mauritius ",
+      "url": "https://github.com/shamimah45",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/336588433?u=91832810ff66bda00ae4e1cbe071e0873fad7896&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "shamimah45",
+        "nameWithOwner": "shamimah45/shamimah45",
+        "url": "https://github.com/shamimah45/shamimah45",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-01T21:57:53Z",
+        "pushedAt": "2026-10-02T05:27:41Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -7961,6 +10260,42 @@
       }
     },
     {
+      "id": "U_kgDOB6qHzw",
+      "login": "siddhartha-rs",
+      "name": "Siddhartha",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/siddhartha-rs",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/128616399?u=4c5b604206caffdb7bc3c2f4bb2fed3dfd057cd3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "gameverse",
+        "nameWithOwner": "siddhartha-rs/gameverse",
+        "url": "https://github.com/siddhartha-rs/gameverse",
+        "description": "A free, browser-based gaming website where users can play a variety of games instantly. Built for speed, accessibility, and a seamless gaming experience.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-08-24T11:42:38Z",
+        "pushedAt": "2025-08-28T14:00:06Z",
+        "homepageUrl": "https://gameverse1.netlify.app/",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjU5MDQyNzY0",
       "login": "sk-400",
       "name": "Sureshkumar Paramasivam",
@@ -8215,6 +10550,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjExODk3OTQ0",
+      "login": "SurajMotee",
+      "name": "Suraj Motee",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/SurajMotee",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11897944?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "lp.github.io",
+        "nameWithOwner": "SurajMotee/lp.github.io",
+        "url": "https://github.com/SurajMotee/lp.github.io",
+        "description": "Create QUAID based lesson plans",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-05-19T12:20:39Z",
+        "pushedAt": "2024-05-19T12:33:53Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjc2NzkwNDY4",
       "login": "teelock",
       "name": " TΞΞL❍CK M!th\\lesh",
@@ -8246,6 +10617,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOEcIwSw",
+      "login": "tokiniaina-dev",
+      "name": "Tokiniaina Randrianarimanana",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/tokiniaina-dev",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/297939019?u=1ea6bcb0e9a2faa4e3da053079668b64da486928&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "DecisionFlow",
+        "nameWithOwner": "tokiniaina-dev/DecisionFlow",
+        "url": "https://github.com/tokiniaina-dev/DecisionFlow",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-06-30T19:48:42Z",
+        "pushedAt": "2026-08-05T17:55:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C#"
         },
         "licenseInfo": null
       }
@@ -8602,6 +11009,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjg1MjE1NzQz",
+      "login": "Vashist-Chumun",
+      "name": "Vashist Chumun",
+      "type": "User",
+      "location": "Riviere Du Rempart, Mauritius",
+      "url": "https://github.com/Vashist-Chumun",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/85215743?u=77989eaff52f30763e7a2340341f2525ca645cb9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "JAVA-GUI-Application",
+        "nameWithOwner": "Vashist-Chumun/JAVA-GUI-Application",
+        "url": "https://github.com/Vashist-Chumun/JAVA-GUI-Application",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-09-17T16:24:01Z",
+        "pushedAt": "2022-09-17T16:30:01Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjc2NjE4OTk2",
       "login": "VidZ-Exe",
       "name": "VidZ",
@@ -8668,6 +11111,182 @@
         "primaryLanguage": {
           "name": "Ruby"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCOQyDQ",
+      "login": "Vishesh5812",
+      "name": "Vishesh5812",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/Vishesh5812",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/149172749?u=3f18b25d93f21a41d96bac3af57c6e8f01d90067&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "BlackBox-testing-",
+        "nameWithOwner": "Vishesh5812/BlackBox-testing-",
+        "url": "https://github.com/Vishesh5812/BlackBox-testing-",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-08-18T07:10:50Z",
+        "pushedAt": "2024-09-22T22:33:27Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI1ODkzOTY2",
+      "login": "VMcGSmith",
+      "name": "Victoria Smith ",
+      "type": "User",
+      "location": "Mauritius ",
+      "url": "https://github.com/VMcGSmith",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25893966?u=98745c6dfb57b3279190ae55d9e44ca062af15d2&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "hello-world",
+        "nameWithOwner": "VMcGSmith/hello-world",
+        "url": "https://github.com/VMcGSmith/hello-world",
+        "description": "crispy-duck",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-02-20T07:47:29Z",
+        "pushedAt": "2017-02-20T08:33:08Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCcxktg",
+      "login": "w1llyard",
+      "name": "Willyard Jeanneton",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/w1llyard",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/164390070?u=c9dea85bedfb2e6abecacdadd26b2505befa7a52&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "rag-saas",
+        "nameWithOwner": "w1llyard/rag-saas",
+        "url": "https://github.com/w1llyard/rag-saas",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-25T13:21:39Z",
+        "pushedAt": "2026-03-25T13:53:02Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjcyNDgzNzY4",
+      "login": "waciylinformatics",
+      "name": "WACIYL INFORMATICS ",
+      "type": "User",
+      "location": "Mauritius ",
+      "url": "https://github.com/waciylinformatics",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/72483768?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "HTML-",
+        "nameWithOwner": "waciylinformatics/HTML-",
+        "url": "https://github.com/waciylinformatics/HTML-",
+        "description": "Practical Class Demo ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-07-10T16:35:43Z",
+        "pushedAt": "2023-07-10T16:45:37Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM0MTgwNzg4",
+      "login": "warnEr15A",
+      "name": "Ashley",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/warnEr15A",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/34180788?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "my-first-extension",
+        "nameWithOwner": "warnEr15A/my-first-extension",
+        "url": "https://github.com/warnEr15A/my-first-extension",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-12-02T06:53:19Z",
+        "pushedAt": "2017-12-02T06:53:19Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -8878,6 +11497,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjEwNDk4MTI4",
+      "login": "Yash047",
+      "name": "Yashtir Gopee",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/Yash047",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10498128?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "web",
+        "nameWithOwner": "Yash047/web",
+        "url": "https://github.com/Yash047/web",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-03-25T10:38:20Z",
+        "pushedAt": "2016-03-25T11:23:20Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQ1OTExMDc2",
       "login": "yashp03",
       "name": "jashveer paltan",
@@ -8908,6 +11561,42 @@
         "pushedAt": "2019-12-03T16:45:44Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIyMjUzMjg0",
+      "login": "yog-b",
+      "name": null,
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/yog-b",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/22253284?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "my-app",
+        "nameWithOwner": "yog-b/my-app",
+        "url": "https://github.com/yog-b/my-app",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-02-08T18:46:05Z",
+        "pushedAt": "2021-02-08T19:10:04Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
         "licenseInfo": null
       }
     },
@@ -9193,6 +11882,40 @@
       }
     },
     {
+      "id": "U_kgDODugXZw",
+      "login": "zahra-sumun17",
+      "name": "Zahra Sumun ",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/zahra-sumun17",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/250091367?u=b04500f0556ab659fde02c4d16402e04b538cf47&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "Windows_Networking-Learning-Notes-Lab-",
+        "nameWithOwner": "zahra-sumun17/Windows_Networking-Learning-Notes-Lab-",
+        "url": "https://github.com/zahra-sumun17/Windows_Networking-Learning-Notes-Lab-",
+        "description": "A collection of windows networking commands with explanations and relevant observations",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-09T07:45:26Z",
+        "pushedAt": "2026-08-16T18:33:53Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjIzMzk4NTEx",
       "login": "zamb10",
       "name": "Zameer Mohamed Hossenee",
@@ -9259,6 +11982,76 @@
         "primaryLanguage": {
           "name": "HTML"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI2ODcwNDA4",
+      "login": "zcool29",
+      "name": "Jeremy Louis",
+      "type": "User",
+      "location": "Mauritius",
+      "url": "https://github.com/zcool29",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/26870408?u=c2c7b8cfca4fbb577a45e91fcdd7dc5e4b420ebe&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "hello-world",
+        "nameWithOwner": "zcool29/hello-world",
+        "url": "https://github.com/zcool29/hello-world",
+        "description": "Just another repository",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-04-04T12:26:08Z",
+        "pushedAt": "2017-04-05T08:36:26Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBYBi9A",
+      "login": "ZethAdmin",
+      "name": "Zethical Ltd",
+      "type": "User",
+      "location": "Port Louis, Mauritius",
+      "url": "https://github.com/ZethAdmin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/92300020?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "MU",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mauritius"
+      },
+      "discoveryTerms": [
+        "Mauritius"
+      ],
+      "topRepository": {
+        "name": "Enhanced_PBG",
+        "nameWithOwner": "ZethAdmin/Enhanced_PBG",
+        "url": "https://github.com/ZethAdmin/Enhanced_PBG",
+        "description": "New development",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-05-06T08:02:12Z",
+        "pushedAt": "2024-05-06T08:02:13Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     }
