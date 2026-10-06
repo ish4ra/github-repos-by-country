@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "6e4f2402af96121ca6b9304901a286dcb21892152d4a02fa4b80407fdd471eef",
+    "sha256": "7ed994c21b5080a5df65233f88528818955bbb0904ef8ed1bead009e831e5e7d",
     "termsTotal": 3826
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Poland",
     "queue": [
+      {
+        "query": "location:\"Poland\" type:user followers:0 repos:1..4 created:2011-01-01..2011-12-31",
+        "stage": "year:2011",
+        "cursor": "Y3Vyc29yOjUw",
+        "pageNumber": 2,
+        "attempts": 0
+      },
       {
         "query": "location:\"Poland\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
         "stage": "year:2012",
@@ -277,27 +284,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:35:10.339Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-06T18:31:11.390Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 15880
+    "reportedCount": 15048
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:35:10.339Z",
-  "updatedAt": "2026-10-03T23:14:25.680Z",
+  "startedAt": "2026-10-06T18:31:11.389Z",
+  "updatedAt": "2026-10-06T18:31:31.640Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 282,
-    "acceptedOwnerHits": 280,
+    "rawOwnerHits": 251,
+    "acceptedOwnerHits": 249,
     "rejectedOwnerHits": 2,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4578
+    "minimumRateLimitRemaining": 4906
   },
   "unresolvedShards": [],
   "candidates": [
@@ -324,8 +331,8 @@
         "nameWithOwner": "trimstray/the-book-of-secret-knowledge",
         "url": "https://github.com/trimstray/the-book-of-secret-knowledge",
         "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
-        "stargazerCount": 247679,
-        "forkCount": 14445,
+        "stargazerCount": 248268,
+        "forkCount": 14457,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2018-06-23T10:43:14Z",
@@ -361,12 +368,12 @@
         "nameWithOwner": "exelban/stats",
         "url": "https://github.com/exelban/stats",
         "description": "macOS system monitor in your menu bar",
-        "stargazerCount": 42295,
-        "forkCount": 1558,
+        "stargazerCount": 42337,
+        "forkCount": 1557,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2019-05-29T19:24:56Z",
-        "pushedAt": "2026-10-03T17:20:53Z",
+        "pushedAt": "2026-10-06T15:36:33Z",
         "homepageUrl": "https://mac-stats.com",
         "primaryLanguage": {
           "name": "Swift"
@@ -400,12 +407,12 @@
         "nameWithOwner": "tabler/tabler",
         "url": "https://github.com/tabler/tabler",
         "description": "Tabler is free and open-source HTML Dashboard UI Kit built on Bootstrap",
-        "stargazerCount": 41809,
-        "forkCount": 4434,
+        "stargazerCount": 41821,
+        "forkCount": 4431,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2018-02-01T09:08:59Z",
-        "pushedAt": "2026-10-02T11:22:23Z",
+        "pushedAt": "2026-10-06T16:31:33Z",
         "homepageUrl": "https://tabler.io",
         "primaryLanguage": {
           "name": "Astro"
@@ -439,8 +446,8 @@
         "nameWithOwner": "qarmin/czkawka",
         "url": "https://github.com/qarmin/czkawka",
         "description": "Multi functional app to find duplicates, empty folders, similar images etc.",
-        "stargazerCount": 33888,
-        "forkCount": 1194,
+        "stargazerCount": 33936,
+        "forkCount": 1195,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2020-09-01T17:37:29Z",
@@ -479,7 +486,7 @@
         "url": "https://github.com/piotrwitek/react-redux-typescript-guide",
         "description": "The complete guide to static typing in \"React & Redux\" apps using TypeScript",
         "stargazerCount": 13257,
-        "forkCount": 1098,
+        "forkCount": 1099,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2016-12-20T22:35:36Z",
@@ -517,8 +524,8 @@
         "nameWithOwner": "mrexodia/ida-pro-mcp",
         "url": "https://github.com/mrexodia/ida-pro-mcp",
         "description": "AI-powered reverse engineering assistant that bridges IDA Pro with language models through MCP.",
-        "stargazerCount": 12458,
-        "forkCount": 1475,
+        "stargazerCount": 12492,
+        "forkCount": 1478,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-03-25T22:23:41Z",
@@ -595,12 +602,12 @@
         "nameWithOwner": "software-mansion/react-native-reanimated",
         "url": "https://github.com/software-mansion/react-native-reanimated",
         "description": "React Native's Animated library reimplemented",
-        "stargazerCount": 11019,
-        "forkCount": 1523,
+        "stargazerCount": 11020,
+        "forkCount": 1526,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2018-04-25T06:35:29Z",
-        "pushedAt": "2026-10-02T14:00:21Z",
+        "pushedAt": "2026-10-06T18:12:20Z",
         "homepageUrl": "http://docs.swmansion.com/react-native-reanimated/",
         "primaryLanguage": {
           "name": "TypeScript"
@@ -634,8 +641,8 @@
         "nameWithOwner": "juliocesarfort/public-pentesting-reports",
         "url": "https://github.com/juliocesarfort/public-pentesting-reports",
         "description": "A list of public penetration test reports published by several consulting firms and academic security groups.",
-        "stargazerCount": 9745,
-        "forkCount": 2185,
+        "stargazerCount": 9747,
+        "forkCount": 2188,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2016-08-05T13:11:22Z",
@@ -670,7 +677,7 @@
         "nameWithOwner": "MichalLytek/type-graphql",
         "url": "https://github.com/MichalLytek/type-graphql",
         "description": "Create GraphQL schema and resolvers with TypeScript, using classes and decorators!",
-        "stargazerCount": 8088,
+        "stargazerCount": 8089,
         "forkCount": 668,
         "isArchived": false,
         "isFork": false,
@@ -748,12 +755,12 @@
         "nameWithOwner": "Blaizzy/mlx-audio",
         "url": "https://github.com/Blaizzy/mlx-audio",
         "description": "A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple's MLX framework, providing efficient speech analysis on Apple Silicon.",
-        "stargazerCount": 7979,
-        "forkCount": 737,
+        "stargazerCount": 7999,
+        "forkCount": 741,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2024-11-27T21:14:34Z",
-        "pushedAt": "2026-10-03T21:57:21Z",
+        "pushedAt": "2026-10-05T18:30:34Z",
         "homepageUrl": "https://blaizzy.github.io/mlx-audio/",
         "primaryLanguage": {
           "name": "Python"
@@ -787,12 +794,12 @@
         "nameWithOwner": "Azgaar/Fantasy-Map-Generator",
         "url": "https://github.com/Azgaar/Fantasy-Map-Generator",
         "description": "Web application generating interactive and highly customizable maps",
-        "stargazerCount": 6045,
-        "forkCount": 1016,
+        "stargazerCount": 6056,
+        "forkCount": 1020,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2017-03-16T20:59:50Z",
-        "pushedAt": "2026-10-03T08:03:44Z",
+        "pushedAt": "2026-10-06T17:00:25Z",
         "homepageUrl": "https://azgaar.github.io/Fantasy-Map-Generator",
         "primaryLanguage": {
           "name": "HTML"
@@ -905,7 +912,7 @@
         "url": "https://github.com/hasherezade/pe-sieve",
         "description": "Scans a given process. Recognizes and dumps a variety of potentially malicious implants (replaced/injected PEs, shellcodes, hooks, in-memory patches).",
         "stargazerCount": 3907,
-        "forkCount": 494,
+        "forkCount": 493,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2017-08-22T01:33:00Z",
@@ -943,12 +950,12 @@
         "nameWithOwner": "rolling-scopes-school/tasks",
         "url": "https://github.com/rolling-scopes-school/tasks",
         "description": null,
-        "stargazerCount": 3350,
-        "forkCount": 4691,
+        "stargazerCount": 3351,
+        "forkCount": 4686,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2015-09-16T10:21:19Z",
-        "pushedAt": "2026-09-28T16:45:00Z",
+        "pushedAt": "2026-10-04T19:58:06Z",
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "JavaScript"
@@ -1019,7 +1026,7 @@
         "nameWithOwner": "mgeeky/Penetration-Testing-Tools",
         "url": "https://github.com/mgeeky/Penetration-Testing-Tools",
         "description": "A collection of more than 170+ tools, scripts, cheatsheets and other loots that I've developed over years for Red Teaming/Pentesting/IT Security audits purposes.",
-        "stargazerCount": 3021,
+        "stargazerCount": 3022,
         "forkCount": 545,
         "isArchived": false,
         "isFork": false,
@@ -1250,12 +1257,12 @@
         "nameWithOwner": "wojtekmach/req",
         "url": "https://github.com/wojtekmach/req",
         "description": "Req is a batteries-included HTTP client for Elixir.",
-        "stargazerCount": 1332,
+        "stargazerCount": 1333,
         "forkCount": 174,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2021-03-28T16:59:50Z",
-        "pushedAt": "2026-08-27T10:46:40Z",
+        "pushedAt": "2026-10-06T12:40:56Z",
         "homepageUrl": "https://hexdocs.pm/req",
         "primaryLanguage": {
           "name": "Elixir"
@@ -1289,7 +1296,7 @@
         "nameWithOwner": "CookiePLMonster/SilentPatch",
         "url": "https://github.com/CookiePLMonster/SilentPatch",
         "description": "SilentPatch for GTA III, Vice City, and San Andreas",
-        "stargazerCount": 1197,
+        "stargazerCount": 1200,
         "forkCount": 58,
         "isArchived": false,
         "isFork": false,
@@ -1411,7 +1418,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2017-03-30T20:35:39Z",
-        "pushedAt": "2026-10-03T20:47:29Z",
+        "pushedAt": "2026-10-06T15:10:10Z",
         "homepageUrl": "https://thymikee.github.io/jest-preset-angular/",
         "primaryLanguage": {
           "name": "TypeScript"
@@ -1712,7 +1719,7 @@
         "nameWithOwner": "bartaz/ieee754-visualization",
         "url": "https://github.com/bartaz/ieee754-visualization",
         "description": "IEEE 754 Double Precision Floating Point Visualization",
-        "stargazerCount": 307,
+        "stargazerCount": 308,
         "forkCount": 31,
         "isArchived": false,
         "isFork": false,
@@ -1787,7 +1794,7 @@
         "nameWithOwner": "ambv/bitrot",
         "url": "https://github.com/ambv/bitrot",
         "description": "Detects bit rotten files on the hard drive to save your precious photo and music collection from slow decay.",
-        "stargazerCount": 257,
+        "stargazerCount": 258,
         "forkCount": 39,
         "isArchived": false,
         "isFork": false,
@@ -2093,6 +2100,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjMwMTk1Njg0",
+      "login": "tstamborski",
+      "name": "telex operator",
+      "type": "User",
+      "location": "Poland",
+      "url": "https://github.com/tstamborski",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/30195684?u=8f423abde5ef8772ba59c2eb96355c09651096ae&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "PL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Poland"
+      },
+      "discoveryTerms": [
+        "Poland"
+      ],
+      "topRepository": {
+        "name": "sprite-studio-64",
+        "nameWithOwner": "tstamborski/sprite-studio-64",
+        "url": "https://github.com/tstamborski/sprite-studio-64",
+        "description": "Native sprite editor for Commodore 64. Pocket knife among sprite editors.",
+        "stargazerCount": 58,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-10-08T22:01:20Z",
+        "pushedAt": "2026-04-17T15:38:03Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Assembly"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjExNzA4MzQ=",
       "login": "victorlevandovski",
       "name": "Victor Levandovski",
@@ -2321,6 +2367,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjEyMDEzODM=",
+      "login": "bnkwsk",
+      "name": "Piotr Bieńkowski",
+      "type": "User",
+      "location": "Warsaw, Poland",
+      "url": "https://github.com/bnkwsk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1201383?u=c83cbf506b78a17e833864402acd741d385eb127&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "PL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Poland"
+      },
+      "discoveryTerms": [
+        "Poland"
+      ],
+      "topRepository": {
+        "name": "ode-ampsim",
+        "nameWithOwner": "bnkwsk/ode-ampsim",
+        "url": "https://github.com/bnkwsk/ode-ampsim",
+        "description": "A guitar amplifier simulator that solves ordinary differential equations",
+        "stargazerCount": 4,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-05-28T18:45:17Z",
+        "pushedAt": "2013-06-03T17:24:46Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Fortran"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjg5MzU1Mjgy",
       "login": "jarek-pacocha",
       "name": "Jarek Pacocha",
@@ -2352,42 +2434,6 @@
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "Python"
-        },
-        "licenseInfo": null
-      }
-    },
-    {
-      "id": "MDQ6VXNlcjEyMDEzODM=",
-      "login": "bnkwsk",
-      "name": "Piotr Bieńkowski",
-      "type": "User",
-      "location": "Warsaw, Poland",
-      "url": "https://github.com/bnkwsk",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1201383?u=c83cbf506b78a17e833864402acd741d385eb127&v=4",
-      "attribution": {
-        "accepted": true,
-        "countryCode": "PL",
-        "confidence": "high",
-        "evidence": "explicit-country",
-        "matched": "Poland"
-      },
-      "discoveryTerms": [
-        "Poland"
-      ],
-      "topRepository": {
-        "name": "ode-ampsim",
-        "nameWithOwner": "bnkwsk/ode-ampsim",
-        "url": "https://github.com/bnkwsk/ode-ampsim",
-        "description": "A guitar amplifier simulator that solves ordinary differential equations",
-        "stargazerCount": 3,
-        "forkCount": 0,
-        "isArchived": false,
-        "isFork": false,
-        "createdAt": "2013-05-28T18:45:17Z",
-        "pushedAt": "2013-06-03T17:24:46Z",
-        "homepageUrl": null,
-        "primaryLanguage": {
-          "name": "Fortran"
         },
         "licenseInfo": null
       }
@@ -3878,6 +3924,42 @@
       }
     },
     {
+      "id": "U_kgDOBxO9iQ",
+      "login": "burda-osowiecki",
+      "name": "Tomasz Osowiecki",
+      "type": "User",
+      "location": "Warsaw, Poland",
+      "url": "https://github.com/burda-osowiecki",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/118734217?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "PL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Poland"
+      },
+      "discoveryTerms": [
+        "Poland"
+      ],
+      "topRepository": {
+        "name": "nuxt-memory-leak-server-routes-fetch",
+        "nameWithOwner": "burda-osowiecki/nuxt-memory-leak-server-routes-fetch",
+        "url": "https://github.com/burda-osowiecki/nuxt-memory-leak-server-routes-fetch",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-05-04T18:49:49Z",
+        "pushedAt": "2023-05-04T18:55:22Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCW2UCw",
       "login": "CatUnderTheWater",
       "name": "Dominik Kowalski",
@@ -4084,6 +4166,42 @@
         "pushedAt": "2024-01-31T21:08:43Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBwd7IA",
+      "login": "DenizXYZ",
+      "name": "Deniz",
+      "type": "User",
+      "location": "Warsaw, Poland",
+      "url": "https://github.com/DenizXYZ",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/117930784?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "PL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Poland"
+      },
+      "discoveryTerms": [
+        "Poland"
+      ],
+      "topRepository": {
+        "name": "Internship",
+        "nameWithOwner": "DenizXYZ/Internship",
+        "url": "https://github.com/DenizXYZ/Internship",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-05-25T07:42:58Z",
+        "pushedAt": "2023-05-25T17:47:08Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
         "licenseInfo": null
       }
     },
@@ -6196,6 +6314,45 @@
           "name": "Ruby"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCPokuQ",
+      "login": "xahio",
+      "name": "Mike Fabisz",
+      "type": "User",
+      "location": "Poland",
+      "url": "https://github.com/xahio",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/150611129?u=a561920a9479bd0af74fcd74d53004205749370d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "PL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Poland"
+      },
+      "discoveryTerms": [
+        "Poland"
+      ],
+      "topRepository": {
+        "name": "adusiek-website",
+        "nameWithOwner": "xahio/adusiek-website",
+        "url": "https://github.com/xahio/adusiek-website",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-06-12T00:07:13Z",
+        "pushedAt": "2024-06-12T19:48:55Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
       }
     },
     {

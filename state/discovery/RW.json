@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "005588a01ddf1b845bf6a49d2d42423ac466dc4962c5a7fd5f01f204458cafd2",
+    "sha256": "a44eaeec625a08110a3cebba267e70a01b6b0821e1c7ec3d03173d88faf4a8c0",
     "termsTotal": 59
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Rwanda",
     "queue": [
+      {
+        "query": "location:\"Rwanda\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
       {
         "query": "location:\"Rwanda\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
         "stage": "year:2013",
@@ -270,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:35:36.145Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-06T18:34:07.380Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 1230
+    "reportedCount": 1231
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:35:36.145Z",
-  "updatedAt": "2026-10-03T23:16:47.016Z",
+  "startedAt": "2026-10-06T18:34:07.380Z",
+  "updatedAt": "2026-10-06T18:34:25.304Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
     "rawOwnerHits": 200,
     "acceptedOwnerHits": 200,
     "rejectedOwnerHits": 0,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4570
+    "minimumRateLimitRemaining": 4842
   },
   "unresolvedShards": [],
   "candidates": [
@@ -598,6 +605,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU2ODg2MDY0",
+      "login": "descholar-ceo",
+      "name": "Mugirase Emmanuel",
+      "type": "User",
+      "location": "Kigali, Rwanda",
+      "url": "https://github.com/descholar-ceo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/56886064?u=7a353d96929d2e4cc1c0a60cae8b2aed3862191f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "RW",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Rwanda"
+      },
+      "discoveryTerms": [
+        "Rwanda"
+      ],
+      "topRepository": {
+        "name": "boiler",
+        "nameWithOwner": "descholar-ceo/boiler",
+        "url": "https://github.com/descholar-ceo/boiler",
+        "description": "boiler is an application that helps you to generate a project's boilerplate very easily. You don't need to waste your first hours of development in setting up the project. It gives you the first setup of your project so that you can focus on writing your codes.",
+        "stargazerCount": 22,
+        "forkCount": 2,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2020-08-22T12:50:46Z",
+        "pushedAt": "2020-10-20T08:33:34Z",
+        "homepageUrl": "https://github.com/descholar-ceo/boiler#boiler",
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": {
+          "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+          "spdxId": "BSD-3-Clause"
+        }
+      }
+    },
+    {
       "id": "U_kgDOBa3m8w",
       "login": "jazzybruno",
       "name": "Jazzy Bruno",
@@ -634,45 +680,6 @@
       }
     },
     {
-      "id": "MDQ6VXNlcjU2ODg2MDY0",
-      "login": "descholar-ceo",
-      "name": "Mugirase Emmanuel",
-      "type": "User",
-      "location": "Kigali, Rwanda",
-      "url": "https://github.com/descholar-ceo",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/56886064?u=7a353d96929d2e4cc1c0a60cae8b2aed3862191f&v=4",
-      "attribution": {
-        "accepted": true,
-        "countryCode": "RW",
-        "confidence": "high",
-        "evidence": "explicit-country",
-        "matched": "Rwanda"
-      },
-      "discoveryTerms": [
-        "Rwanda"
-      ],
-      "topRepository": {
-        "name": "boiler",
-        "nameWithOwner": "descholar-ceo/boiler",
-        "url": "https://github.com/descholar-ceo/boiler",
-        "description": "boiler is an application that helps you to generate a project's boilerplate very easily. You don't need to waste your first hours of development in setting up the project. It gives you the first setup of your project so that you can focus on writing your codes.",
-        "stargazerCount": 21,
-        "forkCount": 2,
-        "isArchived": true,
-        "isFork": false,
-        "createdAt": "2020-08-22T12:50:46Z",
-        "pushedAt": "2020-10-20T08:33:34Z",
-        "homepageUrl": "https://github.com/descholar-ceo/boiler#boiler",
-        "primaryLanguage": {
-          "name": "Go"
-        },
-        "licenseInfo": {
-          "name": "BSD 3-Clause \"New\" or \"Revised\" License",
-          "spdxId": "BSD-3-Clause"
-        }
-      }
-    },
-    {
       "id": "MDQ6VXNlcjQ5NTEyNzU1",
       "login": "emjjkk",
       "name": "Thursday",
@@ -695,7 +702,7 @@
         "nameWithOwner": "emjjkk/beat-detection",
         "url": "https://github.com/emjjkk/beat-detection",
         "description": "A basic beat and onset detection script to generate timestamps and .edl marker files for use with Davinci Resolve, Adobe Premiere Pro, etc.",
-        "stargazerCount": 18,
+        "stargazerCount": 19,
         "forkCount": 2,
         "isArchived": false,
         "isFork": false,
@@ -740,6 +747,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCt7J9w",
+      "login": "Edouard144",
+      "name": "Edouard",
+      "type": "User",
+      "location": "Kigali, Rwanda",
+      "url": "https://github.com/Edouard144",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/182372855?u=9b4d20ff5fc38ad410900e534e83861e55622645&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "RW",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Rwanda"
+      },
+      "discoveryTerms": [
+        "Rwanda"
+      ],
+      "topRepository": {
+        "name": "StayAwake",
+        "nameWithOwner": "Edouard144/StayAwake",
+        "url": "https://github.com/Edouard144/StayAwake",
+        "description": "This helps to always ping your site, mainly helping the free teer hosted sites not to sleep.",
+        "stargazerCount": 17,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-11T09:46:33Z",
+        "pushedAt": "2026-03-12T09:14:18Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
         },
         "licenseInfo": null
       }
@@ -818,42 +861,6 @@
       }
     },
     {
-      "id": "U_kgDOCt7J9w",
-      "login": "Edouard144",
-      "name": "Edouard",
-      "type": "User",
-      "location": "Kigali, Rwanda",
-      "url": "https://github.com/Edouard144",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/182372855?u=9b4d20ff5fc38ad410900e534e83861e55622645&v=4",
-      "attribution": {
-        "accepted": true,
-        "countryCode": "RW",
-        "confidence": "high",
-        "evidence": "explicit-country",
-        "matched": "Rwanda"
-      },
-      "discoveryTerms": [
-        "Rwanda"
-      ],
-      "topRepository": {
-        "name": "StayAwake",
-        "nameWithOwner": "Edouard144/StayAwake",
-        "url": "https://github.com/Edouard144/StayAwake",
-        "description": "This helps to always ping your site, mainly helping the free teer hosted sites not to sleep.",
-        "stargazerCount": 16,
-        "forkCount": 1,
-        "isArchived": false,
-        "isFork": false,
-        "createdAt": "2026-03-11T09:46:33Z",
-        "pushedAt": "2026-03-12T09:14:18Z",
-        "homepageUrl": null,
-        "primaryLanguage": {
-          "name": "JavaScript"
-        },
-        "licenseInfo": null
-      }
-    },
-    {
       "id": "U_kgDOBnaGWA",
       "login": "habibundayishimiye",
       "name": "SPM_Habibu",
@@ -915,7 +922,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2024-04-06T12:26:05Z",
-        "pushedAt": "2026-10-03T02:39:51Z",
+        "pushedAt": "2026-10-06T03:37:06Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -2753,6 +2760,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOD0EcjA",
+      "login": "Cylacon-Rda",
+      "name": "Cylacon_Inc.",
+      "type": "User",
+      "location": "Kigali, Rwanda",
+      "url": "https://github.com/Cylacon-Rda",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/255925388?u=5c14cfe526a5f17f74756720e607e3bbc5c779f0&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "RW",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Rwanda"
+      },
+      "discoveryTerms": [
+        "Rwanda"
+      ],
+      "topRepository": {
+        "name": "financial-model",
+        "nameWithOwner": "Cylacon-Rda/financial-model",
+        "url": "https://github.com/Cylacon-Rda/financial-model",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-30T18:36:00Z",
+        "pushedAt": "2026-01-30T18:36:10Z",
+        "homepageUrl": "https://financial-model-mu.vercel.app",
+        "primaryLanguage": {
+          "name": "TypeScript"
         },
         "licenseInfo": null
       }

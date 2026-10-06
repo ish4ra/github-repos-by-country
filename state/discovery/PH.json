@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "5db251931bac2f27e7c705fbda0ff06b3c541a964e83897ec4bfb59bd0881e07",
+    "sha256": "3818c7cbda77fc9f4608160e41e274b768771e0f53b2f2eaef49c3545ceffbd2",
     "termsTotal": 3436
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Philippines",
     "queue": [
+      {
+        "query": "location:\"Philippines\" type:user followers:0 repos:1..4 created:2011-01-01..2011-12-31",
+        "stage": "year:2011",
+        "cursor": "Y3Vyc29yOjUw",
+        "pageNumber": 2,
+        "attempts": 0
+      },
       {
         "query": "location:\"Philippines\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
         "stage": "year:2012",
@@ -277,27 +284,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:35:06.238Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-06T18:30:42.297Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 12012
+    "reportedCount": 11155
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:35:06.238Z",
-  "updatedAt": "2026-10-03T23:14:05.025Z",
+  "startedAt": "2026-10-06T18:30:42.297Z",
+  "updatedAt": "2026-10-06T18:31:06.447Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 254,
-    "acceptedOwnerHits": 246,
-    "rejectedOwnerHits": 8,
+    "rawOwnerHits": 250,
+    "acceptedOwnerHits": 243,
+    "rejectedOwnerHits": 7,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4580
+    "minimumRateLimitRemaining": 4922
   },
   "unresolvedShards": [],
   "candidates": [
@@ -363,7 +370,7 @@
         "nameWithOwner": "ivanceras/svgbob",
         "url": "https://github.com/ivanceras/svgbob",
         "description": "Convert your ascii diagram scribbles into happy little SVG",
-        "stargazerCount": 4234,
+        "stargazerCount": 4235,
         "forkCount": 127,
         "isArchived": false,
         "isFork": false,
@@ -402,8 +409,8 @@
         "nameWithOwner": "xiv3r/Burpsuite-Professional",
         "url": "https://github.com/xiv3r/Burpsuite-Professional",
         "description": "Burpsuite Professional Latest Version 2026",
-        "stargazerCount": 3162,
-        "forkCount": 746,
+        "stargazerCount": 3173,
+        "forkCount": 750,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2023-05-28T05:36:18Z",
@@ -438,12 +445,12 @@
         "nameWithOwner": "tyron12233/CodeAssist",
         "url": "https://github.com/tyron12233/CodeAssist",
         "description": "An IDE for building Android applicatons on Android.",
-        "stargazerCount": 1947,
-        "forkCount": 409,
+        "stargazerCount": 1958,
+        "forkCount": 410,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2021-08-16T11:30:27Z",
-        "pushedAt": "2026-10-02T19:43:19Z",
+        "pushedAt": "2026-10-05T05:16:11Z",
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "Kotlin"
@@ -552,8 +559,8 @@
         "nameWithOwner": "bryllim/workout-guide",
         "url": "https://github.com/bryllim/workout-guide",
         "description": "302 open exercise illustrations and a framework-neutral npm package by Bryl Lim",
-        "stargazerCount": 1324,
-        "forkCount": 195,
+        "stargazerCount": 1330,
+        "forkCount": 197,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-08-24T02:14:20Z",
@@ -591,7 +598,7 @@
         "nameWithOwner": "roatienza/Deep-Learning-Experiments",
         "url": "https://github.com/roatienza/Deep-Learning-Experiments",
         "description": "Videos, notes and experiments to understand deep learning",
-        "stargazerCount": 1201,
+        "stargazerCount": 1203,
         "forkCount": 767,
         "isArchived": false,
         "isFork": false,
@@ -631,7 +638,7 @@
         "url": "https://github.com/smoochiee/Bluetooth-jammer-esp32",
         "description": "Bluetooth jamming esp32 with nrf24l01",
         "stargazerCount": 1072,
-        "forkCount": 228,
+        "forkCount": 229,
         "isArchived": true,
         "isFork": false,
         "createdAt": "2024-03-06T05:53:34Z",
@@ -674,7 +681,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2023-02-05T17:52:28Z",
-        "pushedAt": "2026-10-03T15:16:04Z",
+        "pushedAt": "2026-10-05T06:46:42Z",
         "homepageUrl": "https://seroval.vercel.app",
         "primaryLanguage": {
           "name": "TypeScript"
@@ -1200,7 +1207,7 @@
         "url": "https://github.com/six519/PastebinPython",
         "description": "A complete pastebin.com API wrapper for Python",
         "stargazerCount": 89,
-        "forkCount": 45,
+        "forkCount": 46,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2013-02-15T00:29:48Z",
@@ -1235,12 +1242,12 @@
         "nameWithOwner": "Evolution-X/manifest",
         "url": "https://github.com/Evolution-X/manifest",
         "description": "Repo manifest for syncing source",
-        "stargazerCount": 83,
-        "forkCount": 80,
+        "stargazerCount": 84,
+        "forkCount": 82,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2024-04-01T08:59:54Z",
-        "pushedAt": "2026-10-01T08:32:49Z",
+        "pushedAt": "2026-10-06T12:37:01Z",
         "homepageUrl": "",
         "primaryLanguage": null,
         "licenseInfo": null
@@ -1347,7 +1354,7 @@
         "nameWithOwner": "xchanmolx/E-CommerceApp",
         "url": "https://github.com/xchanmolx/E-CommerceApp",
         "description": "E-Commerce Application, using .net 5 web api and angular 11",
-        "stargazerCount": 48,
+        "stargazerCount": 49,
         "forkCount": 2,
         "isArchived": false,
         "isFork": false,
@@ -1647,7 +1654,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2024-08-01T04:15:16Z",
-        "pushedAt": "2026-10-03T16:05:59Z",
+        "pushedAt": "2026-10-06T18:15:12Z",
         "homepageUrl": "",
         "primaryLanguage": null,
         "licenseInfo": null
@@ -1722,6 +1729,74 @@
         "primaryLanguage": {
           "name": "JavaScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCQuMOw",
+      "login": "lucifron28",
+      "name": "Ron Vincent Cada",
+      "type": "User",
+      "location": "Lucena - Quezon Province, Philippines",
+      "url": "https://github.com/lucifron28",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/151751739?u=0805e8fd14c962cbc38ba25a94fe33c4dbff4863&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "PH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Philippines"
+      },
+      "discoveryTerms": [
+        "Philippines"
+      ],
+      "topRepository": {
+        "name": "lucifron28",
+        "nameWithOwner": "lucifron28/lucifron28",
+        "url": "https://github.com/lucifron28/lucifron28",
+        "description": null,
+        "stargazerCount": 10,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-08-23T00:11:43Z",
+        "pushedAt": "2026-08-07T11:45:31Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBtKITA",
+      "login": "Dojikooo",
+      "name": "Dojikooo",
+      "type": "User",
+      "location": "Philippines",
+      "url": "https://github.com/Dojikooo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/114460748?u=a509d51383c98b60e4e75b6afb544646f555a4f4&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "PH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Philippines"
+      },
+      "discoveryTerms": [
+        "Philippines"
+      ],
+      "topRepository": {
+        "name": "Badges",
+        "nameWithOwner": "Dojikooo/Badges",
+        "url": "https://github.com/Dojikooo/Badges",
+        "description": null,
+        "stargazerCount": 9,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-07-20T06:51:29Z",
+        "pushedAt": "2024-07-21T12:04:59Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -1832,6 +1907,42 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM1NjI2NzQ0",
+      "login": "mjoshua97241",
+      "name": "Michael Joshua Vargas",
+      "type": "User",
+      "location": "Philippines",
+      "url": "https://github.com/mjoshua97241",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/35626744?u=6e8fcd75d502be6edc702a709af8cc6af838bf13&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "PH",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Philippines"
+      },
+      "discoveryTerms": [
+        "Philippines"
+      ],
+      "topRepository": {
+        "name": "finstream-market-risk-data-platform",
+        "nameWithOwner": "mjoshua97241/finstream-market-risk-data-platform",
+        "url": "https://github.com/mjoshua97241/finstream-market-risk-data-platform",
+        "description": null,
+        "stargazerCount": 7,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-02T13:42:58Z",
+        "pushedAt": "2026-03-14T04:40:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -3631,7 +3742,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2023-08-18T16:42:59Z",
-        "pushedAt": "2026-10-03T18:55:49Z",
+        "pushedAt": "2026-10-06T14:38:03Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": {
