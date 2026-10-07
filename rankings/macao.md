@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **1,398**
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **1,010**
 
 ### High-star verified preview
 
@@ -56,5 +56,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [vczero/react-native-lesson](https://github.com/vczero/react-native-lesson) | **4,045** | Macau, China |
 | [spiritLHLS/Oracle-server-keep-alive-script](https://github.com/spiritLHLS/Oracle-server-keep-alive-script) | **2,392** | Macau |
 | [ken0225/RIS-Codes-Collection](https://github.com/ken0225/RIS-Codes-Collection) | **1,507** | Macau |
+| [ALTaleX531/TranslucentFlyouts](https://github.com/ALTaleX531/TranslucentFlyouts) | **1,048** | Macau, China |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Turupawn/EcrecoverInclusionProof](https://github.com/Turupawn/EcrecoverInclusionProof) | **13** | San Pedro Sula, Honduras |
 | [YamilG/gamedev](https://github.com/YamilG/gamedev) | **12** | Tegucigalpa, Honduras |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **1,010**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [Siumauricio/rippleui](https://github.com/Siumauricio/rippleui) | **1,040** | Honduras, San Pedro Sula |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

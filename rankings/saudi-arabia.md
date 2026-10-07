@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 463**
 - Progress: **0%**
-- Retained high-potential owner candidates: **135**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **138**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,26 +24,26 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [orangci/walls-catppuccin-mocha](https://github.com/orangci/walls-catppuccin-mocha) | **2,841** | Riyadh, Saudi Arabia |
-| [BandarHL/BHTwitter](https://github.com/BandarHL/BHTwitter) | **2,601** | Saudi Arabia |
+| [orangci/walls-catppuccin-mocha](https://github.com/orangci/walls-catppuccin-mocha) | **2,852** | Riyadh, Saudi Arabia |
+| [BandarHL/BHTwitter](https://github.com/BandarHL/BHTwitter) | **2,602** | Saudi Arabia |
 | [Matrix07ksa/Brute_Force](https://github.com/Matrix07ksa/Brute_Force) | **1,832** | Saudi arabia |
 | [ialhashim/DenseDepth](https://github.com/ialhashim/DenseDepth) | **1,607** | Saudi Arabia |
-| [0xfff0800/Brute-force-Instagram-2025](https://github.com/0xfff0800/Brute-force-Instagram-2025) | **900** | Saudi Arabia |
-| [REVENGE977/stremio-enhanced](https://github.com/REVENGE977/stremio-enhanced) | **839** | Kingdom of Saudi Arabia |
+| [0xfff0800/Brute-force-Instagram-2025](https://github.com/0xfff0800/Brute-force-Instagram-2025) | **902** | Saudi Arabia |
+| [REVENGE977/stremio-enhanced](https://github.com/REVENGE977/stremio-enhanced) | **840** | Kingdom of Saudi Arabia |
 | [vinayakumarr/Network-Intrusion-Detection](https://github.com/vinayakumarr/Network-Intrusion-Detection) | **773** | Khobar, Saudi Arabia |
 | [KarimEbrahemAbdelaziz/SwiftyMenu](https://github.com/KarimEbrahemAbdelaziz/SwiftyMenu) | **579** | Riyadh, Saudi Arabia |
 | [BotolMehedi/battack](https://github.com/BotolMehedi/battack) | **455** | Riyadh, Saudi Arabia |
 | [M4DM0e/DirDar](https://github.com/M4DM0e/DirDar) | **453** | Riyadh, Saudi Arabia |
 | [aniskoubaa/rosgpt](https://github.com/aniskoubaa/rosgpt) | **452** | Saudi Arabia |
 | [YazeedAlKhalaf/Flutter_Installer](https://github.com/YazeedAlKhalaf/Flutter_Installer) | **451** | Riyadh, Saudi Arabia |
-| [KAUST-Academy/Artificial-Intelligence-Courses](https://github.com/KAUST-Academy/Artificial-Intelligence-Courses) | **417** | Saudi Arabia |
+| [KAUST-Academy/Artificial-Intelligence-Courses](https://github.com/KAUST-Academy/Artificial-Intelligence-Courses) | **418** | Saudi Arabia |
 | [singer-yang/awesome-deep-optics](https://github.com/singer-yang/awesome-deep-optics) | **395** | Thuwal, Saudi Arabia |
 | [yazeed44/MultiImagePicker](https://github.com/yazeed44/MultiImagePicker) | **383** | Saudi Arabia |
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **1,094**
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **1,010**
 
 ### High-star verified preview
 
@@ -56,5 +56,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Matrix07ksa/Brute_Force](https://github.com/Matrix07ksa/Brute_Force) | **1,832** | Saudi arabia |
 | [ialhashim/DenseDepth](https://github.com/ialhashim/DenseDepth) | **1,607** | Saudi Arabia |
 | [awssat/tailwindo](https://github.com/awssat/tailwindo) | **1,116** | Saudi Arabia |
+| [zhyever/PatchFusion](https://github.com/zhyever/PatchFusion) | **1,024** | SA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Gecka-Apps/Gecka-Terms-Ordering](https://github.com/Gecka-Apps/Gecka-Terms-Ordering) | **9** | New Caledonia |
 | [PacificCommunity/seapodym-codebase](https://github.com/PacificCommunity/seapodym-codebase) | **8** | New Caledonia |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **1,010**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [darwiin/yaac-another-awesome-cv](https://github.com/darwiin/yaac-another-awesome-cv) | **1,043** | New Caledonia |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

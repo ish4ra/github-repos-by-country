@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 50%
+## Repository ranking status: Building 44%
 
-- Geography terms processed: **9 / 18**
-- Progress: **50%**
+- Geography terms processed: **8 / 18**
+- Progress: **44%**
 - Retained high-potential owner candidates: **23**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **1,684**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **1,010**
 
 ### High-star verified preview
 
@@ -53,5 +53,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [iChochy/NCE](https://github.com/iChochy/NCE) | **3,901** | SH |
 | [xiekw2010/react-native-gitfeed](https://github.com/xiekw2010/react-native-gitfeed) | **1,701** | SH |
+| [Xchat1/cursor2api-go](https://github.com/Xchat1/cursor2api-go) | **1,056** | SH |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

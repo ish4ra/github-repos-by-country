@@ -21,7 +21,7 @@
 
 ## Browse by country
 
-**250 indexed · 26 live · 250 building · 0 queued**
+**250 indexed · 28 live · 250 building · 0 queued**
 
 > 🟢 **Live** = published ranking · 🟡 **Building** = crawl in progress · ⚪ **Queued** = waiting for its first crawl
 
@@ -117,7 +117,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
       <td width="25%">🟡 <a href="./rankings/curacao.md"><strong>🇨🇼 Curaçao</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/cyprus.md"><strong>🇨🇾 Cyprus</strong></a></td>
       <td width="25%">🟢 <a href="./rankings/czechia.md"><strong>🇨🇿 Czechia</strong></a></td>
-      <td width="25%">🟡 <a href="./rankings/denmark.md"><strong>🇩🇰 Denmark</strong></a></td>
+      <td width="25%">🟢 <a href="./rankings/denmark.md"><strong>🇩🇰 Denmark</strong></a></td>
     </tr>
     <tr>
       <td width="25%">🟡 <a href="./rankings/djibouti.md"><strong>🇩🇯 Djibouti</strong></a></td>
@@ -264,7 +264,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
       <td width="25%">🟡 <a href="./rankings/new-caledonia.md"><strong>🇳🇨 New Caledonia</strong></a></td>
     </tr>
     <tr>
-      <td width="25%">🟡 <a href="./rankings/new-zealand.md"><strong>🇳🇿 New Zealand</strong></a></td>
+      <td width="25%">🟢 <a href="./rankings/new-zealand.md"><strong>🇳🇿 New Zealand</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/nicaragua.md"><strong>🇳🇮 Nicaragua</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/niger.md"><strong>🇳🇪 Niger</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/nigeria.md"><strong>🇳🇬 Nigeria</strong></a></td>

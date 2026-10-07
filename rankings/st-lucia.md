@@ -10,10 +10,10 @@
 
 ## Repository ranking status: Building 1%
 
-- Geography terms processed: **7 / 418**
+- Geography terms processed: **6 / 418**
 - Progress: **1%**
 - Retained high-potential owner candidates: **60**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -30,9 +30,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [uqleiguo/NN-DBIM](https://github.com/uqleiguo/NN-DBIM) | **7** | St Lucia, Brisbane |
 | [uqmars/MARS-Subject-Guide](https://github.com/uqmars/MARS-Subject-Guide) | **6** | St Lucia Campus, QLD 4072 |
 | [YapengLang/cogent3-ete3](https://github.com/YapengLang/cogent3-ete3) | **6** | St. Lucia |
+| [arangutambo/democratised-read-it-later](https://github.com/arangutambo/democratised-read-it-later) | **3** | 280-284 Sir Fred Schonell Dr, St Lucia QLD 4067 |
 | [DavidPacio/PacioDAICO](https://github.com/DavidPacio/PacioDAICO) | **3** | St Lucia |
 | [uqroboticsclub/Projects2025](https://github.com/uqroboticsclub/Projects2025) | **3** | Brisbane St Lucia, The University of Queensland |
-| [arangutambo/democratised-read-it-later](https://github.com/arangutambo/democratised-read-it-later) | **2** | 280-284 Sir Fred Schonell Dr, St Lucia QLD 4067 |
 | [Ojasva77/MicoudSec](https://github.com/Ojasva77/MicoudSec) | **2** | St. Lucia |
 | [autoabacus/CrowdFunding](https://github.com/autoabacus/CrowdFunding) | **1** | St Lucia |
 | [Calixte-Williams/set08803_gw](https://github.com/Calixte-Williams/set08803_gw) | **1** | St. Lucia |

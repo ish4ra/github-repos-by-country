@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **6**
-- Current global star frontier: **1,094**
+- Verified high-star candidates retained: **7**
+- Current global star frontier: **1,010**
 
 ### High-star verified preview
 
@@ -57,5 +57,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [arabcoders/watchstate](https://github.com/arabcoders/watchstate) | **1,574** | Kuwait |
 | [aesmail/kaffy](https://github.com/aesmail/kaffy) | **1,417** | Kuwait |
 | [NYAN-x-CAT/Lime-RAT](https://github.com/NYAN-x-CAT/Lime-RAT) | **1,137** | Kuwait |
+| [arabcoders/ytptube](https://github.com/arabcoders/ytptube) | **1,033** | Kuwait |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

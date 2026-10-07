@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 176**
 - Progress: **0%**
-- Retained high-potential owner candidates: **302**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **303**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,8 +24,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [iib0011/omni-tools](https://github.com/iib0011/omni-tools) | **10,279** | Senegal |
-| [aimerou/awesome-ai-papers](https://github.com/aimerou/awesome-ai-papers) | **1,313** | Senegal |
+| [iib0011/omni-tools](https://github.com/iib0011/omni-tools) | **10,289** | Senegal |
+| [aimerou/awesome-ai-papers](https://github.com/aimerou/awesome-ai-papers) | **1,314** | Senegal |
 | [ibrahima92/pwa-with-vanilla-js](https://github.com/ibrahima92/pwa-with-vanilla-js) | **275** | Senegal |
 | [GalsenDev221/made.in.senegal](https://github.com/GalsenDev221/made.in.senegal) | **106** | Senegal |
 | [PapiHack/document-templating-service](https://github.com/PapiHack/document-templating-service) | **65** | Dakar, Senegal |

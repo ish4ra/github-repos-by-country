@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **7**
-- Current global star frontier: **1,684**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **1,010**
 
 ### High-star verified preview
 
@@ -58,5 +58,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [mp3guy/ElasticFusion](https://github.com/mp3guy/ElasticFusion) | **1,930** | Cork, Ireland |
 | [walterhiggins/ScriptCraft](https://github.com/walterhiggins/ScriptCraft) | **1,897** | Cork, Ireland |
 | [boramalper/himawaripy](https://github.com/boramalper/himawaripy) | **1,683** | Cork, Ireland |
+| [ned14/llfio](https://github.com/ned14/llfio) | **1,053** | Cork, Ireland |
+| [jucasoliveira/terminalGPT](https://github.com/jucasoliveira/terminalGPT) | **1,023** | Irlanda |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -1,14 +1,49 @@
 {
-  "schemaVersion": 2,
-  "locationResolverVersion": 2,
+  "schemaVersion": 1,
+  "methodologyVersion": "0.8.0-repository-first",
+  "generatedAt": "2026-10-07T06:33:17.285Z",
   "country": {
     "code": "DK",
     "name": "Denmark",
     "slug": "denmark"
   },
-  "source": "repository-first-stars-desc",
+  "source": {
+    "provider": "GitHub GraphQL API",
+    "endpoint": "https://api.github.com/graphql",
+    "countryBasis": "public repository-owner profile location",
+    "discovery": "global repositories scanned by stars descending"
+  },
+  "coverage": {
+    "status": "repository-first-certified-by-star-frontier",
+    "exhaustive": false,
+    "rawOwnerHits": 64879,
+    "acceptedUniqueOwners": 55,
+    "ownerMetricLabel": "Unique owners in top ranking",
+    "repositoriesConsidered": 101,
+    "publishedRepositories": 100,
+    "candidateThresholdStars": 1017,
+    "rankingLimit": 100,
+    "cappedQueries": [],
+    "repositoryFirst": {
+      "scanFrontierStars": 1010,
+      "topObservedStars": 551406,
+      "repositoriesSeen": 64879,
+      "attributedRepositories": 23444,
+      "ambiguousLocations": 10033,
+      "unknownLocations": 31402,
+      "unresolvedStarCounts": []
+    },
+    "notes": [
+      "Repositories are scanned globally in descending star ranges, independently of owner follower count or owner-search ordering.",
+      "A country is certified only after its 100th repository has more stars than every unprocessed global star range.",
+      "Owner country is inferred from the owner public GitHub profile location using the global geography resolver.",
+      "Owners with missing or unresolved locations are excluded, so country attribution is not a citizenship or legal-incorporation claim.",
+      "Compound city/admin locations such as \"Portland, OR\" are resolved before ambiguous city-only names."
+    ]
+  },
   "repositories": [
     {
+      "rank": 1,
       "name": "ml-agents",
       "nameWithOwner": "Unity-Technologies/ml-agents",
       "url": "https://github.com/Unity-Technologies/ml-agents",
@@ -42,6 +77,7 @@
       }
     },
     {
+      "rank": 2,
       "name": "UnityCsReference",
       "nameWithOwner": "Unity-Technologies/UnityCsReference",
       "url": "https://github.com/Unity-Technologies/UnityCsReference",
@@ -75,6 +111,7 @@
       }
     },
     {
+      "rank": 3,
       "name": "EntityComponentSystemSamples",
       "nameWithOwner": "Unity-Technologies/EntityComponentSystemSamples",
       "url": "https://github.com/Unity-Technologies/EntityComponentSystemSamples",
@@ -108,6 +145,7 @@
       }
     },
     {
+      "rank": 4,
       "name": "monoid",
       "nameWithOwner": "larsenwork/monoid",
       "url": "https://github.com/larsenwork/monoid",
@@ -138,6 +176,7 @@
       }
     },
     {
+      "rank": 5,
       "name": "gitrob",
       "nameWithOwner": "michenriksen/gitrob",
       "url": "https://github.com/michenriksen/gitrob",
@@ -171,6 +210,7 @@
       }
     },
     {
+      "rank": 6,
       "name": "neumorphism",
       "nameWithOwner": "adamgiebl/neumorphism",
       "url": "https://github.com/adamgiebl/neumorphism",
@@ -204,6 +244,7 @@
       }
     },
     {
+      "rank": 7,
       "name": "aquatone",
       "nameWithOwner": "michenriksen/aquatone",
       "url": "https://github.com/michenriksen/aquatone",
@@ -237,6 +278,7 @@
       }
     },
     {
+      "rank": 8,
       "name": "FPSSample",
       "nameWithOwner": "Unity-Technologies/FPSSample",
       "url": "https://github.com/Unity-Technologies/FPSSample",
@@ -270,6 +312,7 @@
       }
     },
     {
+      "rank": 9,
       "name": "resumable.js",
       "nameWithOwner": "23/resumable.js",
       "url": "https://github.com/23/resumable.js",
@@ -303,6 +346,7 @@
       }
     },
     {
+      "rank": 10,
       "name": "Consent-O-Matic",
       "nameWithOwner": "cavi-au/Consent-O-Matic",
       "url": "https://github.com/cavi-au/Consent-O-Matic",
@@ -336,6 +380,7 @@
       }
     },
     {
+      "rank": 11,
       "name": "unveil",
       "nameWithOwner": "luis-almeida/unveil",
       "url": "https://github.com/luis-almeida/unveil",
@@ -366,6 +411,7 @@
       }
     },
     {
+      "rank": 12,
       "name": "PostProcessing",
       "nameWithOwner": "Unity-Technologies/PostProcessing",
       "url": "https://github.com/Unity-Technologies/PostProcessing",
@@ -399,6 +445,7 @@
       }
     },
     {
+      "rank": 13,
       "name": "Certipy",
       "nameWithOwner": "ly4k/Certipy",
       "url": "https://github.com/ly4k/Certipy",
@@ -432,6 +479,7 @@
       }
     },
     {
+      "rank": 14,
       "name": "PicView",
       "nameWithOwner": "Ruben2776/PicView",
       "url": "https://github.com/Ruben2776/PicView",
@@ -465,6 +513,7 @@
       }
     },
     {
+      "rank": 15,
       "name": "cpp-cheatsheet",
       "nameWithOwner": "mortennobel/cpp-cheatsheet",
       "url": "https://github.com/mortennobel/cpp-cheatsheet",
@@ -495,6 +544,7 @@
       }
     },
     {
+      "rank": 16,
       "name": "chatgpt-telegram-bot",
       "nameWithOwner": "n3d1117/chatgpt-telegram-bot",
       "url": "https://github.com/n3d1117/chatgpt-telegram-bot",
@@ -528,6 +578,7 @@
       }
     },
     {
+      "rank": 17,
       "name": "Ripes",
       "nameWithOwner": "mortbopet/Ripes",
       "url": "https://github.com/mortbopet/Ripes",
@@ -561,6 +612,7 @@
       }
     },
     {
+      "rank": 18,
       "name": "arfoundation-samples",
       "nameWithOwner": "Unity-Technologies/arfoundation-samples",
       "url": "https://github.com/Unity-Technologies/arfoundation-samples",
@@ -594,6 +646,7 @@
       }
     },
     {
+      "rank": 19,
       "name": "NavMeshComponents",
       "nameWithOwner": "Unity-Technologies/NavMeshComponents",
       "url": "https://github.com/Unity-Technologies/NavMeshComponents",
@@ -627,6 +680,7 @@
       }
     },
     {
+      "rank": 20,
       "name": "Awesome-Microservices-DotNet",
       "nameWithOwner": "mjebrahimi/Awesome-Microservices-DotNet",
       "url": "https://github.com/mjebrahimi/Awesome-Microservices-DotNet",
@@ -660,6 +714,7 @@
       }
     },
     {
+      "rank": 21,
       "name": "Graphics",
       "nameWithOwner": "Unity-Technologies/Graphics",
       "url": "https://github.com/Unity-Technologies/Graphics",
@@ -693,6 +748,7 @@
       }
     },
     {
+      "rank": 22,
       "name": "awesome-computer-history",
       "nameWithOwner": "watson/awesome-computer-history",
       "url": "https://github.com/watson/awesome-computer-history",
@@ -723,6 +779,7 @@
       }
     },
     {
+      "rank": 23,
       "name": "schema",
       "nameWithOwner": "keleshev/schema",
       "url": "https://github.com/keleshev/schema",
@@ -756,6 +813,7 @@
       }
     },
     {
+      "rank": 24,
       "name": "futhark",
       "nameWithOwner": "diku-dk/futhark",
       "url": "https://github.com/diku-dk/futhark",
@@ -789,6 +847,7 @@
       }
     },
     {
+      "rank": 25,
       "name": "BoatAttack",
       "nameWithOwner": "Unity-Technologies/BoatAttack",
       "url": "https://github.com/Unity-Technologies/BoatAttack",
@@ -822,6 +881,7 @@
       }
     },
     {
+      "rank": 26,
       "name": "pdf-bot",
       "nameWithOwner": "esbenp/pdf-bot",
       "url": "https://github.com/esbenp/pdf-bot",
@@ -855,6 +915,7 @@
       }
     },
     {
+      "rank": 27,
       "name": "Unity-Robotics-Hub",
       "nameWithOwner": "Unity-Technologies/Unity-Robotics-Hub",
       "url": "https://github.com/Unity-Technologies/Unity-Robotics-Hub",
@@ -888,6 +949,7 @@
       }
     },
     {
+      "rank": 28,
       "name": "art",
       "nameWithOwner": "sepandhaghighi/art",
       "url": "https://github.com/sepandhaghighi/art",
@@ -921,6 +983,7 @@
       }
     },
     {
+      "rank": 29,
       "name": "learn-tt",
       "nameWithOwner": "jozefg/learn-tt",
       "url": "https://github.com/jozefg/learn-tt",
@@ -951,6 +1014,7 @@
       }
     },
     {
+      "rank": 30,
       "name": "AssetBundles-Browser",
       "nameWithOwner": "Unity-Technologies/AssetBundles-Browser",
       "url": "https://github.com/Unity-Technologies/AssetBundles-Browser",
@@ -984,6 +1048,7 @@
       }
     },
     {
+      "rank": 31,
       "name": "quickadd",
       "nameWithOwner": "chhoumann/quickadd",
       "url": "https://github.com/chhoumann/quickadd",
@@ -1017,6 +1082,7 @@
       }
     },
     {
+      "rank": 32,
       "name": "AutoAWQ",
       "nameWithOwner": "casper-hansen/AutoAWQ",
       "url": "https://github.com/casper-hansen/AutoAWQ",
@@ -1050,6 +1116,7 @@
       }
     },
     {
+      "rank": 33,
       "name": "com.unity.netcode.gameobjects",
       "nameWithOwner": "Unity-Technologies/com.unity.netcode.gameobjects",
       "url": "https://github.com/Unity-Technologies/com.unity.netcode.gameobjects",
@@ -1083,6 +1150,7 @@
       }
     },
     {
+      "rank": 34,
       "name": "UniversalRenderingExamples",
       "nameWithOwner": "Unity-Technologies/UniversalRenderingExamples",
       "url": "https://github.com/Unity-Technologies/UniversalRenderingExamples",
@@ -1113,6 +1181,7 @@
       }
     },
     {
+      "rank": 35,
       "name": "BluetoothKit",
       "nameWithOwner": "rhummelmose/BluetoothKit",
       "url": "https://github.com/rhummelmose/BluetoothKit",
@@ -1146,6 +1215,7 @@
       }
     },
     {
+      "rank": 36,
       "name": "awesome-streamlit",
       "nameWithOwner": "MarcSkovMadsen/awesome-streamlit",
       "url": "https://github.com/MarcSkovMadsen/awesome-streamlit",
@@ -1179,6 +1249,7 @@
       }
     },
     {
+      "rank": 37,
       "name": "homeshick",
       "nameWithOwner": "andsens/homeshick",
       "url": "https://github.com/andsens/homeshick",
@@ -1212,6 +1283,7 @@
       }
     },
     {
+      "rank": 38,
       "name": "neural_artistic_style",
       "nameWithOwner": "andersbll/neural_artistic_style",
       "url": "https://github.com/andersbll/neural_artistic_style",
@@ -1245,6 +1317,7 @@
       }
     },
     {
+      "rank": 39,
       "name": "VisualEffectGraph-Samples",
       "nameWithOwner": "Unity-Technologies/VisualEffectGraph-Samples",
       "url": "https://github.com/Unity-Technologies/VisualEffectGraph-Samples",
@@ -1278,6 +1351,7 @@
       }
     },
     {
+      "rank": 40,
       "name": "Fluidbox",
       "nameWithOwner": "terrymun/Fluidbox",
       "url": "https://github.com/terrymun/Fluidbox",
@@ -1311,6 +1385,7 @@
       }
     },
     {
+      "rank": 41,
       "name": "FFMpegCore",
       "nameWithOwner": "rosenbjerg/FFMpegCore",
       "url": "https://github.com/rosenbjerg/FFMpegCore",
@@ -1344,6 +1419,7 @@
       }
     },
     {
+      "rank": 42,
       "name": "insert_dylib",
       "nameWithOwner": "tyilo/insert_dylib",
       "url": "https://github.com/tyilo/insert_dylib",
@@ -1374,6 +1450,7 @@
       }
     },
     {
+      "rank": 43,
       "name": "StyleableToast",
       "nameWithOwner": "Muddz/StyleableToast",
       "url": "https://github.com/Muddz/StyleableToast",
@@ -1407,6 +1484,7 @@
       }
     },
     {
+      "rank": 44,
       "name": "AutoLOD",
       "nameWithOwner": "Unity-Technologies/AutoLOD",
       "url": "https://github.com/Unity-Technologies/AutoLOD",
@@ -1440,6 +1518,7 @@
       }
     },
     {
+      "rank": 45,
       "name": "com.unity.multiplayer.samples.coop",
       "nameWithOwner": "Unity-Technologies/com.unity.multiplayer.samples.coop",
       "url": "https://github.com/Unity-Technologies/com.unity.multiplayer.samples.coop",
@@ -1473,6 +1552,7 @@
       }
     },
     {
+      "rank": 46,
       "name": "Gidole",
       "nameWithOwner": "larsenwork/Gidole",
       "url": "https://github.com/larsenwork/Gidole",
@@ -1503,6 +1583,7 @@
       }
     },
     {
+      "rank": 47,
       "name": "gomponents",
       "nameWithOwner": "maragudk/gomponents",
       "url": "https://github.com/maragudk/gomponents",
@@ -1536,6 +1617,7 @@
       }
     },
     {
+      "rank": 48,
       "name": "graphql-sequelize",
       "nameWithOwner": "mickhansen/graphql-sequelize",
       "url": "https://github.com/mickhansen/graphql-sequelize",
@@ -1569,6 +1651,7 @@
       }
     },
     {
+      "rank": 49,
       "name": "VolumetricLighting",
       "nameWithOwner": "Unity-Technologies/VolumetricLighting",
       "url": "https://github.com/Unity-Technologies/VolumetricLighting",
@@ -1602,6 +1685,7 @@
       }
     },
     {
+      "rank": 50,
       "name": "video-compare",
       "nameWithOwner": "pixop/video-compare",
       "url": "https://github.com/pixop/video-compare",
@@ -1635,6 +1719,7 @@
       }
     },
     {
+      "rank": 51,
       "name": "OpenXLSX",
       "nameWithOwner": "troldal/OpenXLSX",
       "url": "https://github.com/troldal/OpenXLSX",
@@ -1668,6 +1753,7 @@
       }
     },
     {
+      "rank": 52,
       "name": "Animation-Instancing",
       "nameWithOwner": "Unity-Technologies/Animation-Instancing",
       "url": "https://github.com/Unity-Technologies/Animation-Instancing",
@@ -1701,6 +1787,7 @@
       }
     },
     {
+      "rank": 53,
       "name": "CoreWCF",
       "nameWithOwner": "CoreWCF/CoreWCF",
       "url": "https://github.com/CoreWCF/CoreWCF",
@@ -1734,6 +1821,7 @@
       }
     },
     {
+      "rank": 54,
       "name": "game-programming-patterns-demo",
       "nameWithOwner": "Unity-Technologies/game-programming-patterns-demo",
       "url": "https://github.com/Unity-Technologies/game-programming-patterns-demo",
@@ -1764,6 +1852,7 @@
       }
     },
     {
+      "rank": 55,
       "name": "fb-sleep-stats",
       "nameWithOwner": "sorenlouv/fb-sleep-stats",
       "url": "https://github.com/sorenlouv/fb-sleep-stats",
@@ -1797,6 +1886,7 @@
       }
     },
     {
+      "rank": 56,
       "name": "create-elm-app",
       "nameWithOwner": "halfzebra/create-elm-app",
       "url": "https://github.com/halfzebra/create-elm-app",
@@ -1830,6 +1920,7 @@
       }
     },
     {
+      "rank": 57,
       "name": "DOTS-training-samples",
       "nameWithOwner": "Unity-Technologies/DOTS-training-samples",
       "url": "https://github.com/Unity-Technologies/DOTS-training-samples",
@@ -1863,6 +1954,7 @@
       }
     },
     {
+      "rank": 58,
       "name": "subfont",
       "nameWithOwner": "Munter/subfont",
       "url": "https://github.com/Munter/subfont",
@@ -1896,6 +1988,7 @@
       }
     },
     {
+      "rank": 59,
       "name": "2d-extras",
       "nameWithOwner": "Unity-Technologies/2d-extras",
       "url": "https://github.com/Unity-Technologies/2d-extras",
@@ -1929,6 +2022,7 @@
       }
     },
     {
+      "rank": 60,
       "name": "AirTrail",
       "nameWithOwner": "johanohly/AirTrail",
       "url": "https://github.com/johanohly/AirTrail",
@@ -1962,6 +2056,7 @@
       }
     },
     {
+      "rank": 61,
       "name": "CyberSecurity",
       "nameWithOwner": "Berkanktk/CyberSecurity",
       "url": "https://github.com/Berkanktk/CyberSecurity",
@@ -1992,6 +2087,7 @@
       }
     },
     {
+      "rank": 62,
       "name": "com.unity.toonshader",
       "nameWithOwner": "Unity-Technologies/com.unity.toonshader",
       "url": "https://github.com/Unity-Technologies/com.unity.toonshader",
@@ -2025,6 +2121,7 @@
       }
     },
     {
+      "rank": 63,
       "name": "uGUI",
       "nameWithOwner": "Unity-Technologies/uGUI",
       "url": "https://github.com/Unity-Technologies/uGUI",
@@ -2055,6 +2152,7 @@
       }
     },
     {
+      "rank": 64,
       "name": "flyd",
       "nameWithOwner": "paldepind/flyd",
       "url": "https://github.com/paldepind/flyd",
@@ -2088,6 +2186,7 @@
       }
     },
     {
+      "rank": 65,
       "name": "InputSystem",
       "nameWithOwner": "Unity-Technologies/InputSystem",
       "url": "https://github.com/Unity-Technologies/InputSystem",
@@ -2121,6 +2220,7 @@
       }
     },
     {
+      "rank": 66,
       "name": "pycm",
       "nameWithOwner": "sepandhaghighi/pycm",
       "url": "https://github.com/sepandhaghighi/pycm",
@@ -2154,6 +2254,7 @@
       }
     },
     {
+      "rank": 67,
       "name": "UnityRenderStreaming",
       "nameWithOwner": "Unity-Technologies/UnityRenderStreaming",
       "url": "https://github.com/Unity-Technologies/UnityRenderStreaming",
@@ -2187,6 +2288,7 @@
       }
     },
     {
+      "rank": 68,
       "name": "Addressables-Sample",
       "nameWithOwner": "Unity-Technologies/Addressables-Sample",
       "url": "https://github.com/Unity-Technologies/Addressables-Sample",
@@ -2217,6 +2319,7 @@
       }
     },
     {
+      "rank": 69,
       "name": "Unity.Mathematics",
       "nameWithOwner": "Unity-Technologies/Unity.Mathematics",
       "url": "https://github.com/Unity-Technologies/Unity.Mathematics",
@@ -2250,6 +2353,7 @@
       }
     },
     {
+      "rank": 70,
       "name": "functional-frontend-architecture",
       "nameWithOwner": "paldepind/functional-frontend-architecture",
       "url": "https://github.com/paldepind/functional-frontend-architecture",
@@ -2283,6 +2387,7 @@
       }
     },
     {
+      "rank": 71,
       "name": "teoria",
       "nameWithOwner": "saebekassebil/teoria",
       "url": "https://github.com/saebekassebil/teoria",
@@ -2316,6 +2421,7 @@
       }
     },
     {
+      "rank": 72,
       "name": "deeppy",
       "nameWithOwner": "andersbll/deeppy",
       "url": "https://github.com/andersbll/deeppy",
@@ -2349,6 +2455,7 @@
       }
     },
     {
+      "rank": 73,
       "name": "selectToAutocomplete",
       "nameWithOwner": "jamieholst/selectToAutocomplete",
       "url": "https://github.com/jamieholst/selectToAutocomplete",
@@ -2379,6 +2486,7 @@
       }
     },
     {
+      "rank": 74,
       "name": "PwnKit",
       "nameWithOwner": "ly4k/PwnKit",
       "url": "https://github.com/ly4k/PwnKit",
@@ -2412,6 +2520,7 @@
       }
     },
     {
+      "rank": 75,
       "name": "XR-Interaction-Toolkit-Examples",
       "nameWithOwner": "Unity-Technologies/XR-Interaction-Toolkit-Examples",
       "url": "https://github.com/Unity-Technologies/XR-Interaction-Toolkit-Examples",
@@ -2445,6 +2554,7 @@
       }
     },
     {
+      "rank": 76,
       "name": "multiplayer",
       "nameWithOwner": "Unity-Technologies/multiplayer",
       "url": "https://github.com/Unity-Technologies/multiplayer",
@@ -2475,6 +2585,7 @@
       }
     },
     {
+      "rank": 77,
       "name": "Crinkler",
       "nameWithOwner": "runestubbe/Crinkler",
       "url": "https://github.com/runestubbe/Crinkler",
@@ -2508,6 +2619,7 @@
       }
     },
     {
+      "rank": 78,
       "name": "python-digitalocean",
       "nameWithOwner": "koalalorenzo/python-digitalocean",
       "url": "https://github.com/koalalorenzo/python-digitalocean",
@@ -2541,6 +2653,7 @@
       }
     },
     {
+      "rank": 79,
       "name": "rust-for-js-peeps",
       "nameWithOwner": "yoshuawuyts/rust-for-js-peeps",
       "url": "https://github.com/yoshuawuyts/rust-for-js-peeps",
@@ -2574,6 +2687,7 @@
       }
     },
     {
+      "rank": 80,
       "name": "VFXToolbox",
       "nameWithOwner": "Unity-Technologies/VFXToolbox",
       "url": "https://github.com/Unity-Technologies/VFXToolbox",
@@ -2607,6 +2721,7 @@
       }
     },
     {
+      "rank": 81,
       "name": "react-native-clean-project",
       "nameWithOwner": "pmadruga/react-native-clean-project",
       "url": "https://github.com/pmadruga/react-native-clean-project",
@@ -2640,6 +2755,7 @@
       }
     },
     {
+      "rank": 82,
       "name": "ShaderGraph",
       "nameWithOwner": "Unity-Technologies/ShaderGraph",
       "url": "https://github.com/Unity-Technologies/ShaderGraph",
@@ -2673,6 +2789,7 @@
       }
     },
     {
+      "rank": 83,
       "name": "hashi-ui",
       "nameWithOwner": "jippi/hashi-ui",
       "url": "https://github.com/jippi/hashi-ui",
@@ -2706,6 +2823,7 @@
       }
     },
     {
+      "rank": 84,
       "name": "vscode-power-mode",
       "nameWithOwner": "hoovercj/vscode-power-mode",
       "url": "https://github.com/hoovercj/vscode-power-mode",
@@ -2739,6 +2857,7 @@
       }
     },
     {
+      "rank": 85,
       "name": "SpaceshipDemo",
       "nameWithOwner": "Unity-Technologies/SpaceshipDemo",
       "url": "https://github.com/Unity-Technologies/SpaceshipDemo",
@@ -2772,6 +2891,7 @@
       }
     },
     {
+      "rank": 86,
       "name": "vmd",
       "nameWithOwner": "yoshuawuyts/vmd",
       "url": "https://github.com/yoshuawuyts/vmd",
@@ -2805,6 +2925,7 @@
       }
     },
     {
+      "rank": 87,
       "name": "samila",
       "nameWithOwner": "sepandhaghighi/samila",
       "url": "https://github.com/sepandhaghighi/samila",
@@ -2838,6 +2959,7 @@
       }
     },
     {
+      "rank": 88,
       "name": "UnityRoyale-Public",
       "nameWithOwner": "ciro-unity/UnityRoyale-Public",
       "url": "https://github.com/ciro-unity/UnityRoyale-Public",
@@ -2868,6 +2990,7 @@
       }
     },
     {
+      "rank": 89,
       "name": "megacity-metro",
       "nameWithOwner": "Unity-Technologies/megacity-metro",
       "url": "https://github.com/Unity-Technologies/megacity-metro",
@@ -2901,6 +3024,7 @@
       }
     },
     {
+      "rank": 90,
       "name": "FontainebleauDemo",
       "nameWithOwner": "Unity-Technologies/FontainebleauDemo",
       "url": "https://github.com/Unity-Technologies/FontainebleauDemo",
@@ -2931,6 +3055,7 @@
       }
     },
     {
+      "rank": 91,
       "name": "AssetGraph",
       "nameWithOwner": "Unity-Technologies/AssetGraph",
       "url": "https://github.com/Unity-Technologies/AssetGraph",
@@ -2964,6 +3089,7 @@
       }
     },
     {
+      "rank": 92,
       "name": "notejam",
       "nameWithOwner": "komarserjio/notejam",
       "url": "https://github.com/komarserjio/notejam",
@@ -2997,6 +3123,7 @@
       }
     },
     {
+      "rank": 93,
       "name": "sonar",
       "nameWithOwner": "raskrebs/sonar",
       "url": "https://github.com/raskrebs/sonar",
@@ -3030,6 +3157,7 @@
       }
     },
     {
+      "rank": 94,
       "name": "dotfiles",
       "nameWithOwner": "max-baz/dotfiles",
       "url": "https://github.com/max-baz/dotfiles",
@@ -3063,6 +3191,7 @@
       }
     },
     {
+      "rank": 95,
       "name": "SwiftyFORM",
       "nameWithOwner": "neoneye/SwiftyFORM",
       "url": "https://github.com/neoneye/SwiftyFORM",
@@ -3096,6 +3225,7 @@
       }
     },
     {
+      "rank": 96,
       "name": "C5",
       "nameWithOwner": "sestoft/C5",
       "url": "https://github.com/sestoft/C5",
@@ -3129,6 +3259,7 @@
       }
     },
     {
+      "rank": 97,
       "name": "objc2",
       "nameWithOwner": "madsmtm/objc2",
       "url": "https://github.com/madsmtm/objc2",
@@ -3162,6 +3293,7 @@
       }
     },
     {
+      "rank": 98,
       "name": "skills",
       "nameWithOwner": "Unity-Technologies/skills",
       "url": "https://github.com/Unity-Technologies/skills",
@@ -3195,6 +3327,7 @@
       }
     },
     {
+      "rank": 99,
       "name": "DOTSSample",
       "nameWithOwner": "Unity-Technologies/DOTSSample",
       "url": "https://github.com/Unity-Technologies/DOTSSample",
@@ -3228,6 +3361,7 @@
       }
     },
     {
+      "rank": 100,
       "name": "2d-techdemos",
       "nameWithOwner": "Unity-Technologies/2d-techdemos",
       "url": "https://github.com/Unity-Technologies/2d-techdemos",
@@ -3259,42 +3393,6 @@
         },
         "discoveryTerms": []
       }
-    },
-    {
-      "name": "kShading",
-      "nameWithOwner": "Kink3d/kShading",
-      "url": "https://github.com/Kink3d/kShading",
-      "description": "Shading models for Unity’s Universal Render Pipeline.",
-      "stars": 1013,
-      "forks": 125,
-      "primaryLanguage": "C#",
-      "license": {
-        "name": "MIT License",
-        "spdxId": "MIT"
-      },
-      "createdAt": "2017-08-15T23:07:30Z",
-      "pushedAt": "2024-11-28T08:22:08Z",
-      "homepageUrl": null,
-      "archived": false,
-      "owner": {
-        "login": "Kink3d",
-        "name": "Matt Dean",
-        "type": "User",
-        "url": "https://github.com/Kink3d",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/11135817?u=c42f69767191af191754a59f30a72b1fea63bcb3&v=4",
-        "location": "Copenhagen, Denmark",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "DK",
-          "confidence": "high",
-          "evidence": "recognized-place-with-admin",
-          "matched": "copenhagen denmark"
-        },
-        "discoveryTerms": []
-      }
     }
-  ],
-  "scanFrontierStars": 1010,
-  "certifiedAt": "2026-10-07T06:33:17.285Z",
-  "updatedAt": "2026-10-07T06:33:17.285Z"
+  ]
 }

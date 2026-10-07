@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 112**
 - Progress: **0%**
-- Retained high-potential owner candidates: **348**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **350**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,7 +25,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [soplang/soplang](https://github.com/soplang/soplang) | **229** | Somalia |
-| [somastllc/Jun-ds-ml-bootcamp-2026](https://github.com/somastllc/Jun-ds-ml-bootcamp-2026) | **195** | Somalia |
+| [somastllc/Jun-ds-ml-bootcamp-2026](https://github.com/somastllc/Jun-ds-ml-bootcamp-2026) | **196** | Somalia |
 | [abdorizak/Expense-Tracker-App](https://github.com/abdorizak/Expense-Tracker-App) | **171** | Mogadisho,Somalia |
 | [ahmedibra28/NEXTjs-boilerplate](https://github.com/ahmedibra28/NEXTjs-boilerplate) | **75** | Mogadishu - Somalia |
 | [omartood/python-course-dugsiiye](https://github.com/omartood/python-course-dugsiiye) | **41** | Somalia |

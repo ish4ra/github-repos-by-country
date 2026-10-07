@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **2,121**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **1,010**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [Rudolf-Barbu/Ward](https://github.com/Rudolf-Barbu/Ward) | **2,316** | Chișinău, Moldova |
+| [AddictedCS/soundfingerprinting](https://github.com/AddictedCS/soundfingerprinting) | **1,038** | Chisinau, Moldova |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
