@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "79a0fd2cc7b18def6c7655d5141b99d1eba0c49bdda9fd5db29bb14ee9f2a5c7",
+    "sha256": "960b02c2376624ca922af674c44ba092022178a8e3ea9354ee80fa3bba9ff17f",
     "termsTotal": 4814
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Türkiye",
     "queue": [
+      {
+        "query": "location:\"Türkiye\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
       {
         "query": "location:\"Türkiye\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
         "stage": "year:2013",
@@ -270,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:37:38.399Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-07T13:39:50.183Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 4263
+    "reportedCount": 4285
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:37:38.399Z",
-  "updatedAt": "2026-10-04T02:49:23.848Z",
+  "startedAt": "2026-10-07T13:39:50.183Z",
+  "updatedAt": "2026-10-07T13:40:11.436Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 214,
-    "acceptedOwnerHits": 214,
+    "rawOwnerHits": 206,
+    "acceptedOwnerHits": 206,
     "rejectedOwnerHits": 0,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4527
+    "minimumRateLimitRemaining": 4852
   },
   "unresolvedShards": [],
   "candidates": [
@@ -356,12 +363,12 @@
         "nameWithOwner": "frknkrc44/HMA-OSS",
         "url": "https://github.com/frknkrc44/HMA-OSS",
         "description": "A Zygisk module to hide your app list, settings, package installers and more. It is a fork of Hide My Applist project, but LSPosed dependency is replaced with Zygisk.",
-        "stargazerCount": 3429,
-        "forkCount": 226,
+        "stargazerCount": 3486,
+        "forkCount": 233,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-09-05T20:21:21Z",
-        "pushedAt": "2026-10-03T18:49:46Z",
+        "pushedAt": "2026-10-07T04:41:08Z",
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "Kotlin"
@@ -395,7 +402,7 @@
         "nameWithOwner": "huseyinbabal/taws",
         "url": "https://github.com/huseyinbabal/taws",
         "description": "Terminal UI for AWS (taws) - A terminal-based AWS resource viewer and manager",
-        "stargazerCount": 2261,
+        "stargazerCount": 2263,
         "forkCount": 71,
         "isArchived": false,
         "isFork": false,
@@ -434,7 +441,7 @@
         "nameWithOwner": "alerque/libertinus",
         "url": "https://github.com/alerque/libertinus",
         "description": "The Libertinus font family",
-        "stargazerCount": 1420,
+        "stargazerCount": 1421,
         "forkCount": 66,
         "isArchived": false,
         "isFork": false,
@@ -512,8 +519,8 @@
         "nameWithOwner": "arasgungore/arasgungore-CV",
         "url": "https://github.com/arasgungore/arasgungore-CV",
         "description": "My curriculum vitae (CV) written using LaTeX.",
-        "stargazerCount": 955,
-        "forkCount": 276,
+        "stargazerCount": 956,
+        "forkCount": 275,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2022-02-22T13:59:45Z",
@@ -660,12 +667,12 @@
         "nameWithOwner": "husamql3/db-studio",
         "url": "https://github.com/husamql3/db-studio",
         "description": "The modern pgAdmin alternative that works with every database.",
-        "stargazerCount": 268,
+        "stargazerCount": 269,
         "forkCount": 24,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-12-03T07:32:40Z",
-        "pushedAt": "2026-09-28T17:50:32Z",
+        "pushedAt": "2026-10-04T21:59:23Z",
         "homepageUrl": "https://dbstudio.sh",
         "primaryLanguage": {
           "name": "TypeScript"
@@ -1300,7 +1307,7 @@
       "type": "User",
       "location": "İstanbul , Türkiye",
       "url": "https://github.com/hwpplayer1",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/9614451?u=750a0794ce630e311979d04a947fd021b6f5e259&v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9614451?u=b39412c5fef17acbb225991f6458e17f6590652f&v=4",
       "attribution": {
         "accepted": true,
         "countryCode": "TR",
@@ -1697,7 +1704,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-08-13T18:00:02Z",
-        "pushedAt": "2026-10-03T20:08:10Z",
+        "pushedAt": "2026-10-07T11:48:12Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "HTML"

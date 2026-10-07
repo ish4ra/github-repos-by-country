@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "1ea5ecbc76186695cce233cb57350a5e26071ad264ab3fdfc4b856f7247b711f",
+    "sha256": "5f5d331ee52c5e6493d26b8d3707ceac8df9d9188cf83503709eaf55d5f46020",
     "termsTotal": 357
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Tanzania",
     "queue": [
+      {
+        "query": "location:\"Tanzania\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
       {
         "query": "location:\"Tanzania\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
         "stage": "year:2013",
@@ -270,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:37:14.215Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-07T13:37:01.212Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 1520
+    "reportedCount": 1455
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:37:14.215Z",
-  "updatedAt": "2026-10-04T02:47:40.730Z",
+  "startedAt": "2026-10-07T13:37:01.212Z",
+  "updatedAt": "2026-10-07T13:37:22.789Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 209,
-    "acceptedOwnerHits": 209,
+    "rawOwnerHits": 202,
+    "acceptedOwnerHits": 202,
     "rejectedOwnerHits": 0,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4535
+    "minimumRateLimitRemaining": 4915
   },
   "unresolvedShards": [],
   "candidates": [
@@ -553,7 +560,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-05-11T13:00:07Z",
-        "pushedAt": "2026-10-01T14:29:28Z",
+        "pushedAt": "2026-10-06T13:11:09Z",
         "homepageUrl": "https://bmbtech.zone.id",
         "primaryLanguage": {
           "name": "JavaScript"
@@ -4128,7 +4135,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-06-19T13:23:56Z",
-        "pushedAt": "2026-10-04T00:15:58Z",
+        "pushedAt": "2026-10-07T06:43:59Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "HTML"
