@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **7**
-- Current global star frontier: **943**
+- Verified high-star candidates retained: **8**
+- Current global star frontier: **893**
 
 ### High-star verified preview
 
@@ -58,5 +58,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [gakonst/ethers-rs](https://github.com/gakonst/ethers-rs) | **2,505** | Thessaloniki, Greece |
 | [skorokithakis/shortuuid](https://github.com/skorokithakis/shortuuid) | **2,198** | Thessaloniki, Greece |
 | [FORTH-ModelBasedTracker/MocapNET](https://github.com/FORTH-ModelBasedTracker/MocapNET) | **955** | Heraklion, Crete, Greece |
+| [skorokithakis/django-annoying](https://github.com/skorokithakis/django-annoying) | **926** | Thessaloniki, Greece |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

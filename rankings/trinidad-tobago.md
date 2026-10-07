@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **893**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [trinib/Linux-Bash-Commands](https://github.com/trinib/Linux-Bash-Commands) | **4,147** | ❤Trinidad & Tobago❤ |
+| [trinib/AdGuard-WireGuard-Unbound-DNScrypt](https://github.com/trinib/AdGuard-WireGuard-Unbound-DNScrypt) | **907** | ❤Trinidad & Tobago❤ |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

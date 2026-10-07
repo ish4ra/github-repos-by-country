@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **10**
-- Current global star frontier: **943**
+- Verified high-star candidates retained: **11**
+- Current global star frontier: **893**
 
 ### High-star verified preview
 
@@ -61,5 +61,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ned14/llfio](https://github.com/ned14/llfio) | **1,053** | Cork, Ireland |
 | [jucasoliveira/terminalGPT](https://github.com/jucasoliveira/terminalGPT) | **1,023** | Irlanda |
 | [mp3guy/Kintinuous](https://github.com/mp3guy/Kintinuous) | **954** | Cork, Ireland |
+| [gfranko/jquery.tocify.js](https://github.com/gfranko/jquery.tocify.js) | **914** | Wexford, PA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

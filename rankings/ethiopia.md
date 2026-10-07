@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **943**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **893**
 
 ### High-star verified preview
 
@@ -54,5 +54,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ahmetbersoz/chatgpt-prompts-for-academic-writing](https://github.com/ahmetbersoz/chatgpt-prompts-for-academic-writing) | **4,961** | METU/Turkey |
 | [frectonz/sql-studio](https://github.com/frectonz/sql-studio) | **3,691** | Ethiopia, Addis Abeba |
 | [devefy/Flutter-Story-App-UI](https://github.com/devefy/Flutter-Story-App-UI) | **955** | Ethiopia, Adama |
+| [Esubaalew/run](https://github.com/Esubaalew/run) | **941** | Addis Ababa, Ethiopia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

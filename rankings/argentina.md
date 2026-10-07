@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **1,280**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **893**
 
 ### High-star verified preview
 
@@ -55,5 +55,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [goncy/interview-challenges](https://github.com/goncy/interview-challenges) | **1,765** | Quilmes, Buenos Aires, Argentina |
 | [epidemian/snake](https://github.com/epidemian/snake) | **1,396** | Bariloche, Argentina |
 | [leandr0ck/phaser-es6-webpack](https://github.com/leandr0ck/phaser-es6-webpack) | **1,282** | Tandil, Buenos Aires, Argentina |
+| [elmasse/nextein](https://github.com/elmasse/nextein) | **886** | La Plata, Buenos Aires. |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

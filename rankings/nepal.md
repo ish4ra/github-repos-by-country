@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **12**
-- Current global star frontier: **943**
+- Verified high-star candidates retained: **13**
+- Current global star frontier: **893**
 
 ### High-star verified preview
 
@@ -63,5 +63,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [bishwaghimire/ai-learning-roadmaps](https://github.com/bishwaghimire/ai-learning-roadmaps) | **1,103** | Butwal, Nepal |
 | [Prajwal100/Complete-Ecommerce-in-laravel-10](https://github.com/Prajwal100/Complete-Ecommerce-in-laravel-10) | **1,018** | Kathmandu, Nepal |
 | [ghimiresunil/Top-AI-Tools](https://github.com/ghimiresunil/Top-AI-Tools) | **947** | Kathmandu, Nepal |
+| [dondai1234/master-fetch](https://github.com/dondai1234/master-fetch) | **888** | Nepal |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
