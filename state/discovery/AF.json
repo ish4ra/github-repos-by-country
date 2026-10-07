@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "cd6ec48b47fed76a4c7014a281d967bc9d6cb94067ba8c23968d50596cd87c8a",
+    "sha256": "bf6da521c08e02c784eec888068e160266769f34a900ef133809fa3563908d09",
     "termsTotal": 369
   },
   "phase": "discovery",
@@ -18,10 +18,108 @@
     "term": "Afghanistan",
     "queue": [
       {
-        "query": "location:\"Afghanistan\" type:user followers:0 repos:1..4",
-        "stage": "repos",
-        "cursor": "Y3Vyc29yOjcwMA==",
-        "pageNumber": 15,
+        "query": "location:\"Afghanistan\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Afghanistan\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
+        "stage": "year:2013",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Afghanistan\" type:user followers:0 repos:1..4 created:2014-01-01..2014-12-31",
+        "stage": "year:2014",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Afghanistan\" type:user followers:0 repos:1..4 created:2015-01-01..2015-12-31",
+        "stage": "year:2015",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Afghanistan\" type:user followers:0 repos:1..4 created:2016-01-01..2016-12-31",
+        "stage": "year:2016",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Afghanistan\" type:user followers:0 repos:1..4 created:2017-01-01..2017-12-31",
+        "stage": "year:2017",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Afghanistan\" type:user followers:0 repos:1..4 created:2018-01-01..2018-12-31",
+        "stage": "year:2018",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Afghanistan\" type:user followers:0 repos:1..4 created:2019-01-01..2019-12-31",
+        "stage": "year:2019",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Afghanistan\" type:user followers:0 repos:1..4 created:2020-01-01..2020-12-31",
+        "stage": "year:2020",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Afghanistan\" type:user followers:0 repos:1..4 created:2021-01-01..2021-12-31",
+        "stage": "year:2021",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Afghanistan\" type:user followers:0 repos:1..4 created:2022-01-01..2022-12-31",
+        "stage": "year:2022",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Afghanistan\" type:user followers:0 repos:1..4 created:2023-01-01..2023-12-31",
+        "stage": "year:2023",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Afghanistan\" type:user followers:0 repos:1..4 created:2024-01-01..2024-12-31",
+        "stage": "year:2024",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Afghanistan\" type:user followers:0 repos:1..4 created:2025-01-01..2025-12-31",
+        "stage": "year:2025",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Afghanistan\" type:user followers:0 repos:1..4 created:2026-01-01..2026-12-31",
+        "stage": "year:2026",
+        "cursor": null,
+        "pageNumber": 1,
         "attempts": 0
       },
       {
@@ -179,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:26:04.903Z",
-    "requests": 17,
-    "leafPages": 14,
-    "shardExpansions": 3,
-    "reportedCount": 2051
+    "startedAt": "2026-10-07T23:15:41.574Z",
+    "requests": 8,
+    "leafPages": 4,
+    "shardExpansions": 4,
+    "reportedCount": 1008
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:26:04.902Z",
-  "updatedAt": "2026-10-04T02:54:27.375Z",
+  "startedAt": "2026-10-07T23:15:41.574Z",
+  "updatedAt": "2026-10-07T23:15:58.262Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 17,
-    "leafPages": 14,
-    "shardExpansions": 3,
-    "rawOwnerHits": 850,
-    "acceptedOwnerHits": 846,
-    "rejectedOwnerHits": 4,
+    "searchRequests": 8,
+    "leafPages": 4,
+    "shardExpansions": 4,
+    "rawOwnerHits": 201,
+    "acceptedOwnerHits": 201,
+    "rejectedOwnerHits": 0,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4491
+    "minimumRateLimitRemaining": 4832
   },
   "unresolvedShards": [],
   "candidates": [
@@ -340,7 +438,7 @@
         "nameWithOwner": "shayanheidari01/ShineNETVPN",
         "url": "https://github.com/shayanheidari01/ShineNETVPN",
         "description": "ShineNET - Android Open-Source VPN",
-        "stargazerCount": 134,
+        "stargazerCount": 135,
         "forkCount": 14,
         "isArchived": false,
         "isFork": false,
@@ -656,6 +754,45 @@
         "licenseInfo": {
           "name": "Other",
           "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ3MjE3MzU=",
+      "login": "mustafaaloko",
+      "name": "Mustafa Ehsan Alokozay",
+      "type": "User",
+      "location": "Kabul, Afghanistan",
+      "url": "https://github.com/mustafaaloko",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4721735?u=c57f8595556328d9bcb6de5967e6c3b3406dfa48&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AF",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Afghanistan"
+      },
+      "discoveryTerms": [
+        "Afghanistan"
+      ],
+      "topRepository": {
+        "name": "elasticquent5",
+        "nameWithOwner": "mustafaaloko/elasticquent5",
+        "url": "https://github.com/mustafaaloko/elasticquent5",
+        "description": "Elasticquent for Laravel 5 - Access Elasticsearch types through Laravel models eloquently",
+        "stargazerCount": 21,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-11-01T05:58:55Z",
+        "pushedAt": "2015-12-24T20:05:56Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
         }
       }
     },
@@ -1456,6 +1593,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU4MTY4NzM5",
+      "login": "snavid-dev",
+      "name": "Sayed Navid Azimi",
+      "type": "User",
+      "location": "Afghanistan",
+      "url": "https://github.com/snavid-dev",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58168739?u=79f7e96d5304b2e8f0d500425ae20651f30d5540&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AF",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Afghanistan"
+      },
+      "discoveryTerms": [
+        "Afghanistan"
+      ],
+      "topRepository": {
+        "name": "Ehya-Reactjs",
+        "nameWithOwner": "snavid-dev/Ehya-Reactjs",
+        "url": "https://github.com/snavid-dev/Ehya-Reactjs",
+        "description": null,
+        "stargazerCount": 5,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-02-18T09:31:38Z",
+        "pushedAt": "2026-02-18T09:32:07Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCu2EOA",
       "login": "starkbaknet",
       "name": "StarkBak",
@@ -1492,6 +1663,42 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM0Nzc5OTI4",
+      "login": "aimalamiri",
+      "name": "Aimal Amiri",
+      "type": "User",
+      "location": "Kabul, Afghanistan",
+      "url": "https://github.com/aimalamiri",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/34779928?u=2a5d283798916ec0c5fdcec26383df6a05787553&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AF",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Afghanistan"
+      },
+      "discoveryTerms": [
+        "Afghanistan"
+      ],
+      "topRepository": {
+        "name": "CoWorking-Space",
+        "nameWithOwner": "aimalamiri/CoWorking-Space",
+        "url": "https://github.com/aimalamiri/CoWorking-Space",
+        "description": "Coworking Space is a two-page HTML template developed with HTML, CSS, Bootstrap 5, and JavaScript.",
+        "stargazerCount": 4,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-04-11T21:43:15Z",
+        "pushedAt": "2024-10-18T11:04:12Z",
+        "homepageUrl": "https://aimalamiri.github.io/CoWorking-Space/",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
       }
     },
     {

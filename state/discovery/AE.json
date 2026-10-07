@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "7e821b2a9443e213c3064407bc8df856b777bb5c76df21c059e1dc0c167f40f3",
+    "sha256": "5a91f076a17b1df1df1f1496c18678188a5925a394759b567157290fc87e7401",
     "termsTotal": 150
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "United Arab Emirates",
     "queue": [
+      {
+        "query": "location:\"United Arab Emirates\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
       {
         "query": "location:\"United Arab Emirates\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
         "stage": "year:2013",
@@ -270,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:37:58.975Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-07T23:10:36.132Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 1939
+    "reportedCount": 1860
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:37:58.975Z",
-  "updatedAt": "2026-10-04T02:50:47.168Z",
+  "startedAt": "2026-10-07T23:10:36.132Z",
+  "updatedAt": "2026-10-07T23:10:54.961Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 214,
-    "acceptedOwnerHits": 213,
+    "rawOwnerHits": 200,
+    "acceptedOwnerHits": 199,
     "rejectedOwnerHits": 1,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4519
+    "minimumRateLimitRemaining": 4960
   },
   "unresolvedShards": [],
   "candidates": [
@@ -317,12 +324,12 @@
         "nameWithOwner": "vxcontrol/pentagi",
         "url": "https://github.com/vxcontrol/pentagi",
         "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
-        "stargazerCount": 25206,
-        "forkCount": 3239,
+        "stargazerCount": 25310,
+        "forkCount": 3245,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-01-06T22:22:48Z",
-        "pushedAt": "2026-10-02T21:15:32Z",
+        "pushedAt": "2026-10-05T06:59:49Z",
         "homepageUrl": "https://pentagi.com",
         "primaryLanguage": {
           "name": "Go"
@@ -356,8 +363,8 @@
         "nameWithOwner": "0x4m4/hexstrike-ai",
         "url": "https://github.com/0x4m4/hexstrike-ai",
         "description": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. Seamlessly bridge LLMs with real-world offensive security capabilities.",
-        "stargazerCount": 12298,
-        "forkCount": 2501,
+        "stargazerCount": 12510,
+        "forkCount": 2544,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-07-10T17:53:18Z",
@@ -395,12 +402,12 @@
         "nameWithOwner": "Gaurav-Gosain/tuios",
         "url": "https://github.com/Gaurav-Gosain/tuios",
         "description": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent.",
-        "stargazerCount": 4629,
-        "forkCount": 205,
+        "stargazerCount": 5006,
+        "forkCount": 223,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-09-06T18:13:51Z",
-        "pushedAt": "2026-10-04T00:27:20Z",
+        "pushedAt": "2026-10-07T23:04:12Z",
         "homepageUrl": "https://tuios.dev",
         "primaryLanguage": {
           "name": "Go"
@@ -434,7 +441,7 @@
         "nameWithOwner": "fityanos/awesome-quality-assurance-roadmap",
         "url": "https://github.com/fityanos/awesome-quality-assurance-roadmap",
         "description": ":books: The starting point of your career as a Software Quality Assurance Engineer | Quality Automation Engineer :books:",
-        "stargazerCount": 2186,
+        "stargazerCount": 2190,
         "forkCount": 366,
         "isArchived": false,
         "isFork": false,
@@ -471,12 +478,12 @@
         "nameWithOwner": "VILA-Lab/Dive-into-Claude-Code",
         "url": "https://github.com/VILA-Lab/Dive-into-Claude-Code",
         "description": "A Systematic Analysis and Discussion of Claude Code for Designing Today's and Future AI Agent Systems",
-        "stargazerCount": 2145,
-        "forkCount": 322,
+        "stargazerCount": 2152,
+        "forkCount": 323,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-04-11T09:05:43Z",
-        "pushedAt": "2026-09-30T15:21:32Z",
+        "pushedAt": "2026-10-06T17:25:59Z",
         "homepageUrl": "https://arxiv.org/abs/2604.14228",
         "primaryLanguage": null,
         "licenseInfo": {
@@ -508,7 +515,7 @@
         "nameWithOwner": "leap71/PicoGK",
         "url": "https://github.com/leap71/PicoGK",
         "description": "PicoGK is a compact and robust geometry kernel for Computational Engineering",
-        "stargazerCount": 1124,
+        "stargazerCount": 1130,
         "forkCount": 189,
         "isArchived": false,
         "isFork": false,
@@ -620,8 +627,8 @@
         "nameWithOwner": "2captcha/2captcha-python",
         "url": "https://github.com/2captcha/2captcha-python",
         "description": "Python 3 package for easy integration with the API of 2captcha captcha solving service to bypass recaptcha, сloudflare turnstile, funcaptcha, geetest and solve any other captchas.",
-        "stargazerCount": 801,
-        "forkCount": 143,
+        "stargazerCount": 802,
+        "forkCount": 142,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2020-05-15T11:43:30Z",
@@ -664,7 +671,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2019-12-30T13:09:08Z",
-        "pushedAt": "2026-09-28T03:50:26Z",
+        "pushedAt": "2026-10-05T03:54:02Z",
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "C#"
@@ -827,6 +834,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjE0Mjc0ODUy",
+      "login": "Abedalkareem",
+      "name": "Abedalkareem Omreyh",
+      "type": "User",
+      "location": "Dubai, United Arab Emirates",
+      "url": "https://github.com/Abedalkareem",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/14274852?u=ca165992d8aa84bdd062069099bb043a457c518d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "United Arab Emirates"
+      },
+      "discoveryTerms": [
+        "United Arab Emirates"
+      ],
+      "topRepository": {
+        "name": "LanguageManager-iOS",
+        "nameWithOwner": "Abedalkareem/LanguageManager-iOS",
+        "url": "https://github.com/Abedalkareem/LanguageManager-iOS",
+        "description": "A Language manager to handle changing app language without restarting the app. It supports iOS and tvOS.",
+        "stargazerCount": 399,
+        "forkCount": 66,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-04-09T08:29:16Z",
+        "pushedAt": "2024-11-27T06:44:10Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Swift"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "O_kgDOBjQVow",
       "login": "venom-blockchain",
       "name": "Venom Blockchain",
@@ -891,7 +937,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2020-03-30T23:19:02Z",
-        "pushedAt": "2026-10-04T00:49:53Z",
+        "pushedAt": "2026-10-07T14:06:22Z",
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "TypeScript"
@@ -923,11 +969,11 @@
         "url": "https://github.com/haseeb-heaven/open-agent",
         "description": "Open-source AI agent that brings the power of open models directly into your terminal.",
         "stargazerCount": 278,
-        "forkCount": 43,
+        "forkCount": 44,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2023-10-06T04:08:43Z",
-        "pushedAt": "2026-10-03T15:04:03Z",
+        "pushedAt": "2026-10-06T07:50:50Z",
         "homepageUrl": "https://www.npmjs.com/package/@haseeb_heaven/open-agent",
         "primaryLanguage": {
           "name": "TypeScript"
@@ -1731,7 +1777,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2020-04-22T20:06:36Z",
-        "pushedAt": "2026-10-01T07:26:11Z",
+        "pushedAt": "2026-10-06T06:44:26Z",
         "homepageUrl": "https://tschm.github.io/pyhrp",
         "primaryLanguage": {
           "name": "Python"
@@ -1770,7 +1816,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2021-11-24T07:42:03Z",
-        "pushedAt": "2026-10-03T07:16:01Z",
+        "pushedAt": "2026-10-06T19:12:00Z",
         "homepageUrl": "https://www.mintlayer.org",
         "primaryLanguage": {
           "name": "Rust"
@@ -2119,6 +2165,42 @@
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "Dart"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg1ODM2NzAy",
+      "login": "NdekoCode",
+      "name": "Arick B",
+      "type": "User",
+      "location": "Kigali, Kinshasa, Dubai, United Arab Emirates",
+      "url": "https://github.com/NdekoCode",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/85836702?u=7f74e0cfc1c5b50005251ea8675801e503be43e7&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "United Arab Emirates"
+      },
+      "discoveryTerms": [
+        "United Arab Emirates"
+      ],
+      "topRepository": {
+        "name": "spotify-app",
+        "nameWithOwner": "NdekoCode/spotify-app",
+        "url": "https://github.com/NdekoCode/spotify-app",
+        "description": "A music application using the Spotify API to achieve serving as project of the month in the GDA academy",
+        "stargazerCount": 16,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-09-06T18:31:21Z",
+        "pushedAt": "2022-09-14T18:41:34Z",
+        "homepageUrl": "https://spotify-app-gda.netlify.app",
+        "primaryLanguage": {
+          "name": "JavaScript"
         },
         "licenseInfo": null
       }
@@ -2702,6 +2784,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc3MTk2Njc3",
+      "login": "Ramahadam",
+      "name": "Mohamed Adam",
+      "type": "User",
+      "location": "Dubai - United Arab Emirates",
+      "url": "https://github.com/Ramahadam",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/77196677?u=41a72e3e50cff4bf10b21f51a88a9353303e788c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "United Arab Emirates"
+      },
+      "discoveryTerms": [
+        "United Arab Emirates"
+      ],
+      "topRepository": {
+        "name": "the-natours",
+        "nameWithOwner": "Ramahadam/the-natours",
+        "url": "https://github.com/Ramahadam/the-natours",
+        "description": "A full-stack tour booking web application built with Node.js, Express, MongoDB, and Pug.   It simulates a real-world travel platform with authentication, bookings, payments, and role-based access control.",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-05-11T07:59:30Z",
+        "pushedAt": "2026-06-25T13:40:54Z",
+        "homepageUrl": "https://the-natours-one.vercel.app",
+        "primaryLanguage": {
+          "name": "JavaScript"
         },
         "licenseInfo": null
       }

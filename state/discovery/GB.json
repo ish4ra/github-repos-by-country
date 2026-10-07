@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "1bd359b322bf17a2aa5f4bca13bd3ef4a056089cc2b15b38080cd985bbb5a76b",
+    "sha256": "4eff825a432b6abe366f68421ead2c7bb049c5e96cfadcacc77879fbbcd9253e",
     "termsTotal": 4975
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "United Kingdom",
     "queue": [
+      {
+        "query": "location:\"United Kingdom\" type:user followers:0 repos:1..4 created:2011-01-01..2011-12-31",
+        "stage": "year:2011",
+        "cursor": "Y3Vyc29yOjUw",
+        "pageNumber": 2,
+        "attempts": 0
+      },
       {
         "query": "location:\"United Kingdom\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
         "stage": "year:2012",
@@ -277,27 +284,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:38:02.348Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-07T23:10:55.038Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 16906
+    "reportedCount": 16966
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:38:02.348Z",
-  "updatedAt": "2026-10-04T02:51:02.194Z",
+  "startedAt": "2026-10-07T23:10:55.038Z",
+  "updatedAt": "2026-10-07T23:11:14.577Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 281,
+    "rawOwnerHits": 253,
     "acceptedOwnerHits": 0,
-    "rejectedOwnerHits": 281,
+    "rejectedOwnerHits": 253,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4518
+    "minimumRateLimitRemaining": 4953
   },
   "unresolvedShards": [],
   "candidates": [],

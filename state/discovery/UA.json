@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "bb18d3a3bcd2be660634c18faf6fb1a4b723cb0932f74e8b680704883f873faa",
+    "sha256": "8451bc25073541ca93ce19a44821310beb13aeafacab84b88513f86650a2d516",
     "termsTotal": 5081
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Ukraine",
     "queue": [
+      {
+        "query": "location:\"Ukraine\" type:user followers:0 repos:1..4 created:2011-01-01..2011-12-31",
+        "stage": "year:2011",
+        "cursor": "Y3Vyc29yOjUw",
+        "pageNumber": 2,
+        "attempts": 0
+      },
       {
         "query": "location:\"Ukraine\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
         "stage": "year:2012",
@@ -277,27 +284,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:37:55.248Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-07T23:10:15.735Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 16587
+    "reportedCount": 16612
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:37:55.248Z",
-  "updatedAt": "2026-10-04T02:50:35.092Z",
+  "startedAt": "2026-10-07T23:10:15.735Z",
+  "updatedAt": "2026-10-07T23:10:36.121Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 279,
-    "acceptedOwnerHits": 275,
+    "rawOwnerHits": 252,
+    "acceptedOwnerHits": 248,
     "rejectedOwnerHits": 4,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4520
+    "minimumRateLimitRemaining": 4968
   },
   "unresolvedShards": [],
   "candidates": [
@@ -324,8 +331,8 @@
         "nameWithOwner": "serhii-londar/open-source-mac-os-apps",
         "url": "https://github.com/serhii-londar/open-source-mac-os-apps",
         "description": "🚀 Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps",
-        "stargazerCount": 50628,
-        "forkCount": 2878,
+        "stargazerCount": 50679,
+        "forkCount": 2903,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2017-11-03T02:35:33Z",
@@ -361,8 +368,8 @@
         "nameWithOwner": "vadimdemedes/ink",
         "url": "https://github.com/vadimdemedes/ink",
         "description": "🌈 React for interactive command-line apps",
-        "stargazerCount": 40027,
-        "forkCount": 1058,
+        "stargazerCount": 40066,
+        "forkCount": 1059,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2017-06-12T06:12:28Z",
@@ -400,12 +407,12 @@
         "nameWithOwner": "denysdovhan/wtfjs",
         "url": "https://github.com/denysdovhan/wtfjs",
         "description": "🤪 A list of funny and tricky JavaScript examples",
-        "stargazerCount": 37684,
-        "forkCount": 2676,
+        "stargazerCount": 37690,
+        "forkCount": 2679,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2017-07-14T15:42:12Z",
-        "pushedAt": "2026-07-03T09:48:44Z",
+        "pushedAt": "2026-10-05T18:17:43Z",
         "homepageUrl": "http://bit.ly/wtfjavascript",
         "primaryLanguage": {
           "name": "JavaScript"
@@ -478,8 +485,8 @@
         "nameWithOwner": "Tyrrrz/YoutubeDownloader",
         "url": "https://github.com/Tyrrrz/YoutubeDownloader",
         "description": "Downloads videos and playlists from YouTube",
-        "stargazerCount": 16348,
-        "forkCount": 2071,
+        "stargazerCount": 16362,
+        "forkCount": 2076,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2018-11-16T11:30:50Z",
@@ -517,8 +524,8 @@
         "nameWithOwner": "platformio/platformio-core",
         "url": "https://github.com/platformio/platformio-core",
         "description": "Your Gateway to Embedded Software Development Excellence :alien:",
-        "stargazerCount": 9499,
-        "forkCount": 909,
+        "stargazerCount": 9509,
+        "forkCount": 910,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2014-05-09T09:38:42Z",
@@ -595,8 +602,8 @@
         "nameWithOwner": "mishakorzik/AllHackingTools",
         "url": "https://github.com/mishakorzik/AllHackingTools",
         "description": " All-in-One Hacking Tools For Hackers! And more hacking tools! For termux.",
-        "stargazerCount": 6283,
-        "forkCount": 1029,
+        "stargazerCount": 6302,
+        "forkCount": 1031,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2021-05-09T20:07:47Z",
@@ -671,12 +678,12 @@
         "nameWithOwner": "mourner/suncalc",
         "url": "https://github.com/mourner/suncalc",
         "description": "A tiny JavaScript library for calculating sun/moon positions and phases.",
-        "stargazerCount": 3488,
+        "stargazerCount": 3490,
         "forkCount": 438,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2011-08-25T11:40:01Z",
-        "pushedAt": "2026-10-01T16:07:58Z",
+        "pushedAt": "2026-10-05T17:04:12Z",
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "JavaScript"
@@ -710,7 +717,7 @@
         "nameWithOwner": "divan/txqr",
         "url": "https://github.com/divan/txqr",
         "description": "Transfer data via animated QR codes",
-        "stargazerCount": 3250,
+        "stargazerCount": 3253,
         "forkCount": 196,
         "isArchived": false,
         "isFork": false,
@@ -749,7 +756,7 @@
         "nameWithOwner": "LimerBoy/Impulse",
         "url": "https://github.com/LimerBoy/Impulse",
         "description": ":bomb: Impulse Denial-of-service ToolKit",
-        "stargazerCount": 2855,
+        "stargazerCount": 2859,
         "forkCount": 534,
         "isArchived": false,
         "isFork": false,
@@ -788,7 +795,7 @@
         "nameWithOwner": "RazrFalcon/cargo-bloat",
         "url": "https://github.com/RazrFalcon/cargo-bloat",
         "description": "Find out what takes most of the space in your executable.",
-        "stargazerCount": 2772,
+        "stargazerCount": 2774,
         "forkCount": 59,
         "isArchived": false,
         "isFork": false,
@@ -827,8 +834,8 @@
         "nameWithOwner": "le0pard/pgtune",
         "url": "https://github.com/le0pard/pgtune",
         "description": "Pgtune - tuning PostgreSQL config by your hardware",
-        "stargazerCount": 2744,
-        "forkCount": 249,
+        "stargazerCount": 2745,
+        "forkCount": 248,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2014-03-21T13:29:14Z",
@@ -866,8 +873,8 @@
         "nameWithOwner": "vshymanskyy/TinyGSM",
         "url": "https://github.com/vshymanskyy/TinyGSM",
         "description": "A small Arduino library for GSM modules, that just works",
-        "stargazerCount": 2220,
-        "forkCount": 795,
+        "stargazerCount": 2221,
+        "forkCount": 797,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2016-12-01T11:51:00Z",
@@ -944,7 +951,7 @@
         "nameWithOwner": "MasterDevX/Termux-ADB",
         "url": "https://github.com/MasterDevX/Termux-ADB",
         "description": "Install ADB & FastBoot Tools in Termux!",
-        "stargazerCount": 2163,
+        "stargazerCount": 2168,
         "forkCount": 333,
         "isArchived": false,
         "isFork": false,
@@ -989,6 +996,45 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI0MjkyOTg=",
+      "login": "mervick",
+      "name": "Andrey Izman",
+      "type": "User",
+      "location": "Kyiv, Ukraine",
+      "url": "https://github.com/mervick",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2429298?u=2456253170129fc96a6a70a362c97e962b8af90d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "UA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Ukraine"
+      },
+      "discoveryTerms": [
+        "Ukraine"
+      ],
+      "topRepository": {
+        "name": "emojionearea",
+        "nameWithOwner": "mervick/emojionearea",
+        "url": "https://github.com/mervick/emojionearea",
+        "description": "Emoji Picker Plugin for jQuery",
+        "stargazerCount": 940,
+        "forkCount": 254,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-09-12T10:36:39Z",
+        "pushedAt": "2022-10-14T14:03:07Z",
+        "homepageUrl": "https://jsfiddle.net/mervick/0ypdxzwj/",
+        "primaryLanguage": {
+          "name": "JavaScript"
         },
         "licenseInfo": {
           "name": "MIT License",
@@ -1359,7 +1405,7 @@
         "nameWithOwner": "the-dise/Mir-Pay-Wallet",
         "url": "https://github.com/the-dise/Mir-Pay-Wallet",
         "description": "Mir Pay Wallet app for Wear OS",
-        "stargazerCount": 215,
+        "stargazerCount": 216,
         "forkCount": 11,
         "isArchived": false,
         "isFork": false,
@@ -1403,7 +1449,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2020-07-12T17:35:51Z",
-        "pushedAt": "2026-09-27T09:51:54Z",
+        "pushedAt": "2026-10-04T11:36:52Z",
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "Lua"
@@ -1624,7 +1670,7 @@
         "nameWithOwner": "stryker-project/monitorer",
         "url": "https://github.com/stryker-project/monitorer",
         "description": "4 in 1 open-source multitool for your device wifi! ",
-        "stargazerCount": 74,
+        "stargazerCount": 75,
         "forkCount": 12,
         "isArchived": false,
         "isFork": false,
@@ -1637,6 +1683,45 @@
         "licenseInfo": {
           "name": "GNU Affero General Public License v3.0",
           "spdxId": "AGPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE4NDUxNDQ=",
+      "login": "foxanna",
+      "name": "Anna Leushchenko",
+      "type": "User",
+      "location": "Ukraine",
+      "url": "https://github.com/foxanna",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1845144?u=702173894f54d922393a6505cf60fa798fa8f7b1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "UA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Ukraine"
+      },
+      "discoveryTerms": [
+        "Ukraine"
+      ],
+      "topRepository": {
+        "name": "tests_assertions_cheat_sheet",
+        "nameWithOwner": "foxanna/tests_assertions_cheat_sheet",
+        "url": "https://github.com/foxanna/tests_assertions_cheat_sheet",
+        "description": "Assertions In Dart and Flutter tests: an ultimate cheat sheet",
+        "stargazerCount": 72,
+        "forkCount": 10,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-02-02T14:15:33Z",
+        "pushedAt": "2023-02-05T12:40:39Z",
+        "homepageUrl": "https://medium.com/@foxanna/f6d91510fe6b",
+        "primaryLanguage": {
+          "name": "Dart"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
         }
       }
     },
@@ -1939,6 +2024,40 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "U_kgDOB33MGQ",
+      "login": "amx122",
+      "name": "Amx122",
+      "type": "User",
+      "location": "Ukraine",
+      "url": "https://github.com/amx122",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/125684761?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "UA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Ukraine"
+      },
+      "discoveryTerms": [
+        "Ukraine"
+      ],
+      "topRepository": {
+        "name": "amx122",
+        "nameWithOwner": "amx122/amx122",
+        "url": "https://github.com/amx122/amx122",
+        "description": null,
+        "stargazerCount": 14,
+        "forkCount": 6,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-04-22T10:12:33Z",
+        "pushedAt": "2026-01-14T20:08:14Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
       }
     },
     {
@@ -2263,7 +2382,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2020-07-02T20:03:34Z",
-        "pushedAt": "2026-10-02T13:33:43Z",
+        "pushedAt": "2026-10-07T11:05:51Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null

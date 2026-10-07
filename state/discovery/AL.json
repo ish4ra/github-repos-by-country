@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "72e11889d9670127957bb185e03fd4692632b00a3b5cad42817ee37ffd4da450",
+    "sha256": "63c03c388450a37136c09a6da9194684653d6f63ec748826a5eda10333f22ff7",
     "termsTotal": 468
   },
   "phase": "discovery",
@@ -18,10 +18,24 @@
     "term": "Albania",
     "queue": [
       {
+        "query": "location:\"Albania\" type:user followers:0 repos:1..4",
+        "stage": "repos",
+        "cursor": "Y3Vyc29yOjI1MA==",
+        "pageNumber": 6,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Albania\" type:user followers:0 repos:5..9",
+        "stage": "repos",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
         "query": "location:\"Albania\" type:user followers:0 repos:10..24",
         "stage": "repos",
-        "cursor": "Y3Vyc29yOjUw",
-        "pageNumber": 2,
+        "cursor": null,
+        "pageNumber": 1,
         "attempts": 0
       },
       {
@@ -165,27 +179,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:26:10.654Z",
-    "requests": 17,
-    "leafPages": 14,
+    "startedAt": "2026-10-07T23:16:05.090Z",
+    "requests": 8,
+    "leafPages": 5,
     "shardExpansions": 3,
-    "reportedCount": 1193
+    "reportedCount": 1196
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:26:10.654Z",
-  "updatedAt": "2026-10-04T02:54:52.765Z",
+  "startedAt": "2026-10-07T23:16:05.090Z",
+  "updatedAt": "2026-10-07T23:16:34.903Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 17,
-    "leafPages": 14,
+    "searchRequests": 8,
+    "leafPages": 5,
     "shardExpansions": 3,
-    "rawOwnerHits": 812,
-    "acceptedOwnerHits": 805,
-    "rejectedOwnerHits": 7,
+    "rawOwnerHits": 400,
+    "acceptedOwnerHits": 397,
+    "rejectedOwnerHits": 3,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4475
+    "minimumRateLimitRemaining": 4816
   },
   "unresolvedShards": [],
   "candidates": [
@@ -552,7 +566,7 @@
         "nameWithOwner": "orgito1015/free-cybersecurity-certifications",
         "url": "https://github.com/orgito1015/free-cybersecurity-certifications",
         "description": "In this repository, you will find a collection of free cybersecurity courses, each offering a certificate upon completion.",
-        "stargazerCount": 38,
+        "stargazerCount": 39,
         "forkCount": 3,
         "isArchived": false,
         "isFork": false,
@@ -1259,7 +1273,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2024-09-08T10:46:19Z",
-        "pushedAt": "2025-01-27T19:42:31Z",
+        "pushedAt": "2026-10-04T19:19:28Z",
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "HTML"
@@ -7870,19 +7884,19 @@
         "Albania"
       ],
       "topRepository": {
-        "name": "verdict-goods-preview",
-        "nameWithOwner": "boldcrest/verdict-goods-preview",
-        "url": "https://github.com/boldcrest/verdict-goods-preview",
-        "description": null,
+        "name": "Selmani-Shpk",
+        "nameWithOwner": "boldcrest/Selmani-Shpk",
+        "url": "https://github.com/boldcrest/Selmani-Shpk",
+        "description": "The Selmani Shpk Website",
         "stargazerCount": 0,
         "forkCount": 0,
         "isArchived": false,
         "isFork": false,
-        "createdAt": "2026-07-24T10:01:12Z",
-        "pushedAt": "2026-08-06T14:26:50Z",
-        "homepageUrl": null,
+        "createdAt": "2026-08-14T09:40:46Z",
+        "pushedAt": "2026-10-05T08:37:59Z",
+        "homepageUrl": "https://selmani-shpk.vercel.app",
         "primaryLanguage": {
-          "name": "HTML"
+          "name": "TypeScript"
         },
         "licenseInfo": null
       }
@@ -10542,20 +10556,18 @@
         "Albania"
       ],
       "topRepository": {
-        "name": "Cube-Color",
-        "nameWithOwner": "eltonheta/Cube-Color",
-        "url": "https://github.com/eltonheta/Cube-Color",
+        "name": "PMS-Hotel",
+        "nameWithOwner": "eltonheta/PMS-Hotel",
+        "url": "https://github.com/eltonheta/PMS-Hotel",
         "description": null,
         "stargazerCount": 0,
         "forkCount": 0,
         "isArchived": false,
         "isFork": false,
-        "createdAt": "2023-06-27T10:06:36Z",
-        "pushedAt": "2023-06-27T10:10:11Z",
+        "createdAt": "2026-10-05T10:52:27Z",
+        "pushedAt": "2026-10-05T10:52:29Z",
         "homepageUrl": null,
-        "primaryLanguage": {
-          "name": "HTML"
-        },
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -13364,7 +13376,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-08-27T09:12:04Z",
-        "pushedAt": "2026-10-02T10:10:35Z",
+        "pushedAt": "2026-10-07T09:54:33Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "TypeScript"
@@ -13787,7 +13799,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-10-01T10:40:32Z",
-        "pushedAt": "2026-10-01T13:44:27Z",
+        "pushedAt": "2026-10-07T13:25:26Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Python"

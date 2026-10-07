@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "84133d0a9821bec98f770f13aff837343e7e25fde6da88611bed1047e9048871",
+    "sha256": "b8a4705cc59b726fb8a31ddaf572a362b8cee6c50c0e2736c8ba11b17abde28b",
     "termsTotal": 273
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Uganda",
     "queue": [
+      {
+        "query": "location:\"Uganda\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
       {
         "query": "location:\"Uganda\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
         "stage": "year:2013",
@@ -270,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:37:51.997Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-07T23:09:59.362Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 2063
+    "reportedCount": 2074
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:37:51.997Z",
-  "updatedAt": "2026-10-04T02:50:20.523Z",
+  "startedAt": "2026-10-07T23:09:59.362Z",
+  "updatedAt": "2026-10-07T23:10:15.622Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 211,
-    "acceptedOwnerHits": 209,
+    "rawOwnerHits": 203,
+    "acceptedOwnerHits": 201,
     "rejectedOwnerHits": 2,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4521
+    "minimumRateLimitRemaining": 4976
   },
   "unresolvedShards": [],
   "candidates": [
@@ -431,12 +438,12 @@
         "nameWithOwner": "MUKE-coder/grit",
         "url": "https://github.com/MUKE-coder/grit",
         "description": "The Laravel + Filament experience for Go and React. One command scaffolds a production-ready monorepo (API, web, admin, mobile, desktop) with auth, 2FA, passkeys, jobs, mail, storage, AI and a verifiable audit log already wired.",
-        "stargazerCount": 137,
+        "stargazerCount": 140,
         "forkCount": 17,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-02-11T03:12:03Z",
-        "pushedAt": "2026-10-03T23:48:00Z",
+        "pushedAt": "2026-10-07T19:38:25Z",
         "homepageUrl": "https://gritframework.dev",
         "primaryLanguage": {
           "name": "Go"
@@ -657,11 +664,11 @@
         "url": "https://github.com/Ronlin1/2026",
         "description": "2026 Opportunities",
         "stargazerCount": 23,
-        "forkCount": 7,
+        "forkCount": 8,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-01-06T11:54:21Z",
-        "pushedAt": "2026-10-03T18:49:22Z",
+        "pushedAt": "2026-10-07T20:45:37Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Python"
@@ -1415,6 +1422,45 @@
       }
     },
     {
+      "id": "U_kgDOEf7bJA",
+      "login": "zielinskikrzysz",
+      "name": "Mugisha",
+      "type": "User",
+      "location": "Kampala, Uganda",
+      "url": "https://github.com/zielinskikrzysz",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/301914916?u=128fc0b840b6a2578abd9f178f7b284cf0160b23&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "UG",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Uganda"
+      },
+      "discoveryTerms": [
+        "Uganda"
+      ],
+      "topRepository": {
+        "name": "DecentroBridge",
+        "nameWithOwner": "zielinskikrzysz/DecentroBridge",
+        "url": "https://github.com/zielinskikrzysz/DecentroBridge",
+        "description": "Adaptive Real-time Processing Hub facilitating Secure, Scalable Payment Transactions and Performance Insights Core.",
+        "stargazerCount": 5,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-10T05:17:43Z",
+        "pushedAt": "2026-07-10T05:18:38Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQ4MDg4NjIy",
       "login": "PerezChris99",
       "name": "Perez Chris",
@@ -1433,24 +1479,21 @@
         "Uganda"
       ],
       "topRepository": {
-        "name": "FullStack-Forge",
-        "nameWithOwner": "PerezChris99/FullStack-Forge",
-        "url": "https://github.com/PerezChris99/FullStack-Forge",
-        "description": "Your journey to fullstack web dev",
+        "name": "Job-Listings-API-NodeJs",
+        "nameWithOwner": "PerezChris99/Job-Listings-API-NodeJs",
+        "url": "https://github.com/PerezChris99/Job-Listings-API-NodeJs",
+        "description": "This robust and scalable Node.js API serves as a foundational backend solution for managing and distributing job opportunities. Designed with developers and recruitment platforms in mind, it provides a comprehensive suite of endpoints to handle the full lifecycle of job postings, from creation and management to dynamic searching and filtering",
         "stargazerCount": 4,
         "forkCount": 0,
         "isArchived": false,
         "isFork": false,
-        "createdAt": "2025-02-18T12:48:08Z",
-        "pushedAt": "2025-03-31T17:47:32Z",
+        "createdAt": "2024-05-30T08:41:20Z",
+        "pushedAt": "2025-12-12T18:26:02Z",
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "JavaScript"
         },
-        "licenseInfo": {
-          "name": "MIT License",
-          "spdxId": "MIT"
-        }
+        "licenseInfo": null
       }
     },
     {
@@ -1951,16 +1994,16 @@
         "Uganda"
       ],
       "topRepository": {
-        "name": "currency_converter",
-        "nameWithOwner": "veritasndiema-ctrl/currency_converter",
-        "url": "https://github.com/veritasndiema-ctrl/currency_converter",
-        "description": null,
+        "name": "Scientific-Java-Calculator",
+        "nameWithOwner": "veritasndiema-ctrl/Scientific-Java-Calculator",
+        "url": "https://github.com/veritasndiema-ctrl/Scientific-Java-Calculator",
+        "description": "Java-based scientific calculator with a GUI built using Swing. Supports basic and advanced math operations including trigonometry, logarithms, and powers. Structured using OOP principles with separate logic and UI components.",
         "stargazerCount": 2,
-        "forkCount": 0,
+        "forkCount": 1,
         "isArchived": false,
         "isFork": false,
-        "createdAt": "2026-09-14T11:12:44Z",
-        "pushedAt": "2026-09-16T05:58:09Z",
+        "createdAt": "2026-05-05T06:30:33Z",
+        "pushedAt": "2026-05-05T07:35:52Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Java"
@@ -2100,7 +2143,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-05-06T18:55:59Z",
-        "pushedAt": "2026-10-03T02:39:47Z",
+        "pushedAt": "2026-10-07T03:03:36Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null

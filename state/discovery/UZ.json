@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "4b280abdf6e905bc414e6a673ab40c0d5debe7233492fd8308f49ccf4feeb881",
+    "sha256": "b210df9051685b59653e9ba33e61e6b0b837774aa0149bc3598993cd19513e37",
     "termsTotal": 279
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Uzbekistan",
     "queue": [
+      {
+        "query": "location:\"Uzbekistan\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
       {
         "query": "location:\"Uzbekistan\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
         "stage": "year:2013",
@@ -270,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:38:15.693Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-07T23:12:13.841Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 2913
+    "reportedCount": 2918
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:38:15.693Z",
-  "updatedAt": "2026-10-04T02:51:44.781Z",
+  "startedAt": "2026-10-07T23:12:13.841Z",
+  "updatedAt": "2026-10-07T23:12:31.937Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 206,
-    "acceptedOwnerHits": 203,
-    "rejectedOwnerHits": 3,
+    "rawOwnerHits": 201,
+    "acceptedOwnerHits": 197,
+    "rejectedOwnerHits": 4,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4783
+    "minimumRateLimitRemaining": 4919
   },
   "unresolvedShards": [],
   "candidates": [
@@ -317,8 +324,8 @@
         "nameWithOwner": "smixs/pohuy",
         "url": "https://github.com/smixs/pohuy",
         "description": "Режим идиоматического русского мата для AI-агентов. Короче, душевнее, эффективнее. 18+",
-        "stargazerCount": 1294,
-        "forkCount": 31,
+        "stargazerCount": 1319,
+        "forkCount": 33,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-07-17T15:22:53Z",
@@ -586,11 +593,11 @@
         "url": "https://github.com/hayase-app/interface",
         "description": null,
         "stargazerCount": 47,
-        "forkCount": 24,
+        "forkCount": 25,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-10-23T20:52:20Z",
-        "pushedAt": "2026-09-14T11:39:58Z",
+        "pushedAt": "2026-10-05T10:27:47Z",
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "Svelte"
@@ -1203,7 +1210,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-09-30T10:58:40Z",
-        "pushedAt": "2026-10-03T03:34:20Z",
+        "pushedAt": "2026-10-07T04:01:53Z",
         "homepageUrl": "https://m-ibragimov.netlify.app/",
         "primaryLanguage": null,
         "licenseInfo": null
@@ -1413,7 +1420,7 @@
         "url": "https://github.com/uzinfocom-org/webhook",
         "description": "✈️ | GitHub to Telegram push [maintainer=@orzklv]",
         "stargazerCount": 12,
-        "forkCount": 21,
+        "forkCount": 23,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2022-09-06T08:56:37Z",
@@ -1529,7 +1536,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2023-02-05T00:18:07Z",
-        "pushedAt": "2026-10-02T21:27:40Z",
+        "pushedAt": "2026-10-07T05:12:03Z",
         "homepageUrl": "https://codeberg.org/shakhzodkudratov/blazingly-fast",
         "primaryLanguage": {
           "name": "Nix"
@@ -1999,6 +2006,43 @@
         "createdAt": "2023-02-14T12:50:51Z",
         "pushedAt": "2024-01-25T09:20:57Z",
         "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOCzdRaw",
+      "login": "Abduep53",
+      "name": "Yusufbek Abdurakhimov",
+      "type": "User",
+      "location": "Tashkent, Uzbekistan",
+      "url": "https://github.com/Abduep53",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/188174699?u=ebd664d4b91d95b755597c2329d4f0cf5b58194b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "UZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Uzbekistan"
+      },
+      "discoveryTerms": [
+        "Uzbekistan"
+      ],
+      "topRepository": {
+        "name": "Neuro-Quiz",
+        "nameWithOwner": "Abduep53/Neuro-Quiz",
+        "url": "https://github.com/Abduep53/Neuro-Quiz",
+        "description": null,
+        "stargazerCount": 3,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-09-28T15:59:36Z",
+        "pushedAt": "2025-09-28T15:59:36Z",
+        "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": {
           "name": "MIT License",
@@ -3033,6 +3077,40 @@
       }
     },
     {
+      "id": "U_kgDOBbukDg",
+      "login": "BoburDev-1",
+      "name": "Bobur",
+      "type": "User",
+      "location": "Uzbekistan",
+      "url": "https://github.com/BoburDev-1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/96183310?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "UZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Uzbekistan"
+      },
+      "discoveryTerms": [
+        "Uzbekistan"
+      ],
+      "topRepository": {
+        "name": "PHP-8-Store-market",
+        "nameWithOwner": "BoburDev-1/PHP-8-Store-market",
+        "url": "https://github.com/BoburDev-1/PHP-8-Store-market",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-07-20T14:10:41Z",
+        "pushedAt": "2022-07-20T14:13:50Z",
+        "homepageUrl": "https://aligator.uz/",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCgilHw",
       "login": "bunyodakhramov",
       "name": "BUNYOD",
@@ -3444,6 +3522,40 @@
         "createdAt": "2022-01-16T10:31:28Z",
         "pushedAt": "2022-01-16T10:32:44Z",
         "homepageUrl": "https://github.com/iclomic",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCrEbaw",
+      "login": "Indolik",
+      "name": "Adilbek",
+      "type": "User",
+      "location": "Uzbekistan, Qaraqalpaqstan",
+      "url": "https://github.com/Indolik",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/179379051?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "UZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Uzbekistan"
+      },
+      "discoveryTerms": [
+        "Uzbekistan"
+      ],
+      "topRepository": {
+        "name": "Mening-darsliklarim-adik",
+        "nameWithOwner": "Indolik/Mening-darsliklarim-adik",
+        "url": "https://github.com/Indolik/Mening-darsliklarim-adik",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-11-18T14:09:42Z",
+        "pushedAt": "2024-11-18T14:09:42Z",
+        "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
       }

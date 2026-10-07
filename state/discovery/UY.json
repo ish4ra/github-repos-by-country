@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "d9af3e29347b0c38f18bd303c2dd887ccb28783fc77f626aa9a74f0c8c04af45",
+    "sha256": "07f671062400e9980bfdf6caeccf8bc05e38a27df0db5c5f0c66426db7413fd2",
     "termsTotal": 1537
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Uruguay",
     "queue": [
+      {
+        "query": "location:\"Uruguay\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
       {
         "query": "location:\"Uruguay\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
         "stage": "year:2013",
@@ -270,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:38:11.597Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-07T23:11:56.232Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 2262
+    "reportedCount": 2264
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:38:11.597Z",
-  "updatedAt": "2026-10-04T02:51:31.965Z",
+  "startedAt": "2026-10-07T23:11:56.232Z",
+  "updatedAt": "2026-10-07T23:12:13.830Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 248,
-    "acceptedOwnerHits": 241,
-    "rejectedOwnerHits": 7,
+    "rawOwnerHits": 211,
+    "acceptedOwnerHits": 205,
+    "rejectedOwnerHits": 6,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4516
+    "minimumRateLimitRemaining": 4927
   },
   "unresolvedShards": [],
   "candidates": [
@@ -318,11 +325,11 @@
         "url": "https://github.com/diegomura/react-pdf",
         "description": "📄  Create PDF files using React",
         "stargazerCount": 16817,
-        "forkCount": 1345,
+        "forkCount": 1346,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2016-10-18T21:33:58Z",
-        "pushedAt": "2026-09-23T10:24:26Z",
+        "pushedAt": "2026-10-07T12:14:09Z",
         "homepageUrl": "https://react-pdf.org",
         "primaryLanguage": {
           "name": "TypeScript"
@@ -356,12 +363,12 @@
         "nameWithOwner": "davidmonterocrespo24/velxio",
         "url": "https://github.com/davidmonterocrespo24/velxio",
         "description": "Emulate Arduino, ESP32 & Raspberry Pi. in your browser. Write code, compile, and run on 19 real boards — Arduino Uno, ESP32, ESP32-C3, Raspberry Pi Pico, Raspberry Pi 3, and more. No hardware, no cloud, no limits.. Discord: https://discord.gg/3mARjJrh4E",
-        "stargazerCount": 3016,
-        "forkCount": 303,
+        "stargazerCount": 3074,
+        "forkCount": 314,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-03-03T23:12:53Z",
-        "pushedAt": "2026-10-02T20:49:02Z",
+        "pushedAt": "2026-10-05T21:57:04Z",
         "homepageUrl": "https://velxio.dev",
         "primaryLanguage": {
           "name": "TypeScript"
@@ -396,7 +403,7 @@
         "url": "https://github.com/omab/python-social-auth",
         "description": "Social auth made simple",
         "stargazerCount": 2802,
-        "forkCount": 1064,
+        "forkCount": 1063,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2012-12-12T16:08:42Z",
@@ -548,8 +555,8 @@
         "nameWithOwner": "gmonce/scikit-learn-book",
         "url": "https://github.com/gmonce/scikit-learn-book",
         "description": "Source code for the \"Learning scikit-learn: Machine Learning in Python\"",
-        "stargazerCount": 854,
-        "forkCount": 323,
+        "stargazerCount": 860,
+        "forkCount": 326,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2013-12-30T19:06:43Z",
@@ -624,7 +631,7 @@
         "url": "https://github.com/yetanotherco/aligned_layer",
         "description": "Aligned builds the tools that turn Ethereum into the world’s financial backend. One-click solution for wallets, rollups, interoperability and ZK services",
         "stargazerCount": 314,
-        "forkCount": 401,
+        "forkCount": 400,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2024-04-16T12:43:46Z",
@@ -929,8 +936,8 @@
         "nameWithOwner": "santimattius/structured-coroutines",
         "url": "https://github.com/santimattius/structured-coroutines",
         "description": "The definitive toolkit for enforcing safety, predictability, and efficiency in Kotlin Coroutines.",
-        "stargazerCount": 155,
-        "forkCount": 2,
+        "stargazerCount": 156,
+        "forkCount": 3,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-01-16T23:29:42Z",
@@ -1118,7 +1125,7 @@
         "nameWithOwner": "cancerberoSgx/magica",
         "url": "https://github.com/cancerberoSgx/magica",
         "description": "ImageMagick for browser and Node.js, easy setup, high level API and Command Line Interface",
-        "stargazerCount": 106,
+        "stargazerCount": 107,
         "forkCount": 18,
         "isArchived": false,
         "isFork": false,
@@ -1977,7 +1984,7 @@
         "nameWithOwner": "Maypoo/KnowMe",
         "url": "https://github.com/Maypoo/KnowMe",
         "description": "Red social para conocer gente (React + Vite + Tailwind CSS + Tauri + Node.js + Express + Socket.io + Supabase + WebRTC)",
-        "stargazerCount": 5,
+        "stargazerCount": 6,
         "forkCount": 0,
         "isArchived": false,
         "isFork": false,
@@ -2090,7 +2097,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-04-18T16:58:51Z",
-        "pushedAt": "2026-10-03T15:39:01Z",
+        "pushedAt": "2026-10-07T21:38:32Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "C++"
@@ -2752,6 +2759,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOEOTe0w",
+      "login": "axonintelia",
+      "name": "Cristian Silva",
+      "type": "User",
+      "location": "Uruguay",
+      "url": "https://github.com/axonintelia",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/283434707?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "UY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Uruguay"
+      },
+      "discoveryTerms": [
+        "Uruguay"
+      ],
+      "topRepository": {
+        "name": "axon-pymes",
+        "nameWithOwner": "axonintelia/axon-pymes",
+        "url": "https://github.com/axonintelia/axon-pymes",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-12T20:53:06Z",
+        "pushedAt": "2026-05-12T20:54:01Z",
+        "homepageUrl": "https://axon-pymes.vercel.app",
+        "primaryLanguage": {
+          "name": "HTML"
         },
         "licenseInfo": null
       }
