@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "4a302ea90ffc5820fb0cfc3f79b4fca20687b33bf71e441eb3652d1f4c8d7750",
+    "sha256": "f610bb63376ef6f4a75c3407fd3e119ee0233a7e8c533a7fc6fbd332839c3f1f",
     "termsTotal": 873
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Slovakia",
     "queue": [
+      {
+        "query": "location:\"Slovakia\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
       {
         "query": "location:\"Slovakia\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
         "stage": "year:2013",
@@ -270,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:36:08.822Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-07T06:10:19.482Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 1621
+    "reportedCount": 1624
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:36:08.822Z",
-  "updatedAt": "2026-10-03T23:19:15.767Z",
+  "startedAt": "2026-10-07T06:10:19.482Z",
+  "updatedAt": "2026-10-07T06:10:36.179Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 252,
-    "acceptedOwnerHits": 248,
+    "rawOwnerHits": 218,
+    "acceptedOwnerHits": 214,
     "rejectedOwnerHits": 4,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4559
+    "minimumRateLimitRemaining": 4928
   },
   "unresolvedShards": [],
   "candidates": [
@@ -434,7 +441,7 @@
         "nameWithOwner": "totaljs/framework",
         "url": "https://github.com/totaljs/framework",
         "description": "Node.js framework",
-        "stargazerCount": 4356,
+        "stargazerCount": 4357,
         "forkCount": 437,
         "isArchived": false,
         "isFork": false,
@@ -473,8 +480,8 @@
         "nameWithOwner": "SimpleMobileTools/Simple-Gallery",
         "url": "https://github.com/SimpleMobileTools/Simple-Gallery",
         "description": "A premium app for managing and editing your photos, videos, GIFs without ads",
-        "stargazerCount": 4023,
-        "forkCount": 801,
+        "stargazerCount": 4027,
+        "forkCount": 800,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2016-02-16T21:17:13Z",
@@ -512,12 +519,12 @@
         "nameWithOwner": "nem0/LumixEngine",
         "url": "https://github.com/nem0/LumixEngine",
         "description": "3D C++ Game Engine - yet another open source game engine",
-        "stargazerCount": 3891,
-        "forkCount": 444,
+        "stargazerCount": 3894,
+        "forkCount": 445,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2013-11-21T14:43:55Z",
-        "pushedAt": "2026-10-03T21:30:09Z",
+        "pushedAt": "2026-10-05T23:19:02Z",
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "C++"
@@ -587,7 +594,7 @@
         "nameWithOwner": "michalmalik/linux-re-101",
         "url": "https://github.com/michalmalik/linux-re-101",
         "description": "A collection of resources for linux reverse engineering ",
-        "stargazerCount": 2081,
+        "stargazerCount": 2082,
         "forkCount": 365,
         "isArchived": false,
         "isFork": false,
@@ -621,7 +628,7 @@
         "nameWithOwner": "ckissi/Learn-by-projects",
         "url": "https://github.com/ckissi/Learn-by-projects",
         "description": "Programming tutorials for C, C#, Python, Javascript, Typescript, React, Go, HTML/CSS, Java. PHP and more",
-        "stargazerCount": 1639,
+        "stargazerCount": 1640,
         "forkCount": 191,
         "isArchived": false,
         "isFork": false,
@@ -659,7 +666,7 @@
         "url": "https://github.com/mauron85/react-native-background-geolocation",
         "description": "Background and foreground geolocation plugin for React Native. Tracks user when app is running in background.",
         "stargazerCount": 1354,
-        "forkCount": 560,
+        "forkCount": 559,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2016-05-31T22:09:08Z",
@@ -736,12 +743,12 @@
         "nameWithOwner": "lalinsky/zio",
         "url": "https://github.com/lalinsky/zio",
         "description": "Async I/O framework for Zig",
-        "stargazerCount": 630,
-        "forkCount": 40,
+        "stargazerCount": 632,
+        "forkCount": 42,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-09-16T12:12:46Z",
-        "pushedAt": "2026-10-03T20:07:45Z",
+        "pushedAt": "2026-10-06T18:37:38Z",
         "homepageUrl": "https://lalinsky.github.io/zio/",
         "primaryLanguage": {
           "name": "Zig"
@@ -819,7 +826,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2022-06-11T21:23:19Z",
-        "pushedAt": "2026-10-02T10:28:46Z",
+        "pushedAt": "2026-10-06T11:16:02Z",
         "homepageUrl": "https://mrshu.github.io/github-statuses/",
         "primaryLanguage": {
           "name": "JavaScript"
@@ -1006,7 +1013,7 @@
         "nameWithOwner": "xhyrom/zed-discord-presence",
         "url": "https://github.com/xhyrom/zed-discord-presence",
         "description": "extension for zed that adds support for discord rich presence using lsp",
-        "stargazerCount": 465,
+        "stargazerCount": 467,
         "forkCount": 42,
         "isArchived": false,
         "isFork": false,
@@ -1045,7 +1052,7 @@
         "nameWithOwner": "Electry/VitaGrafix",
         "url": "https://github.com/Electry/VitaGrafix",
         "description": "VitaGrafix - taiHEN plugin that allows you to change resolution and FPS cap of PS Vita games",
-        "stargazerCount": 445,
+        "stargazerCount": 446,
         "forkCount": 27,
         "isArchived": false,
         "isFork": false,
@@ -1163,7 +1170,7 @@
         "url": "https://github.com/pylerSM/YouTubeBackgroundPlayback",
         "description": "[Xposed module] Enable background playback in YouTube",
         "stargazerCount": 315,
-        "forkCount": 77,
+        "forkCount": 78,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2015-02-06T13:15:59Z",
@@ -1372,6 +1379,45 @@
       }
     },
     {
+      "id": "U_kgDOBX0KCQ",
+      "login": "amoledwatchfaces",
+      "name": "Tomas Marcincin",
+      "type": "User",
+      "location": "Bratislava, Slovakia",
+      "url": "https://github.com/amoledwatchfaces",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/92080649?u=00f0e8aa724390072cc38c7ad6c34aafac803d55&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "Complications-Suite-Wear-OS",
+        "nameWithOwner": "amoledwatchfaces/Complications-Suite-Wear-OS",
+        "url": "https://github.com/amoledwatchfaces/Complications-Suite-Wear-OS",
+        "description": "Complications Suite - Wear OS app",
+        "stargazerCount": 130,
+        "forkCount": 11,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-11-29T09:09:20Z",
+        "pushedAt": "2026-09-05T06:54:41Z",
+        "homepageUrl": "https://play.google.com/store/apps/details?id=com.weartools.weekdayutccomp",
+        "primaryLanguage": {
+          "name": "Kotlin"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjUxMTU4MDU=",
       "login": "deathbeam",
       "name": "Tomas Slusny",
@@ -1399,7 +1445,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2016-07-19T15:42:27Z",
-        "pushedAt": "2026-10-03T18:18:31Z",
+        "pushedAt": "2026-10-05T21:43:51Z",
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "GLSL"
@@ -1434,7 +1480,7 @@
         "url": "https://github.com/Jerga99/portfolio-jerga",
         "description": "Course on how to create a portfolio app with Next JS",
         "stargazerCount": 100,
-        "forkCount": 46,
+        "forkCount": 45,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2018-11-07T11:56:05Z",
@@ -3220,6 +3266,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjIxMTc2NzI4",
+      "login": "borisburger",
+      "name": "Boris Burger",
+      "type": "User",
+      "location": "Bratislava, Slovakia",
+      "url": "https://github.com/borisburger",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/21176728?u=d7392769fed2355e870f282e9a78b16eddc7b06a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "SK",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Slovakia"
+      },
+      "discoveryTerms": [
+        "Slovakia"
+      ],
+      "topRepository": {
+        "name": "SlalomTools",
+        "nameWithOwner": "borisburger/SlalomTools",
+        "url": "https://github.com/borisburger/SlalomTools",
+        "description": "Application that helps to manage freestyle slalom sports competitions.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-05-27T18:49:33Z",
+        "pushedAt": "2026-05-25T20:16:11Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjYzMjUxNDA3",
       "login": "botmedia",
       "name": "bot.media",
@@ -4875,7 +4960,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-06-24T06:38:37Z",
-        "pushedAt": "2026-10-03T23:05:04Z",
+        "pushedAt": "2026-10-07T06:05:05Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null

@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "e680ee6c89b2ba258d68a8217b288ddf762ee27a8aee63937a143b7907344495",
+    "sha256": "054f5b6d64da5d85d6461339d51922475feb888ed02e7c634ab6b06bd44b5fee",
     "termsTotal": 8323
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Spain",
     "queue": [
+      {
+        "query": "location:\"Spain\" type:user followers:0 repos:1..4 created:2011-01-01..2011-12-31",
+        "stage": "year:2011",
+        "cursor": "Y3Vyc29yOjUw",
+        "pageNumber": 2,
+        "attempts": 0
+      },
       {
         "query": "location:\"Spain\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
         "stage": "year:2012",
@@ -277,27 +284,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:36:33.390Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-07T06:12:36.842Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 15536
+    "reportedCount": 15584
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:36:33.390Z",
-  "updatedAt": "2026-10-03T23:21:21.560Z",
+  "startedAt": "2026-10-07T06:12:36.842Z",
+  "updatedAt": "2026-10-07T06:12:55.469Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 299,
-    "acceptedOwnerHits": 293,
-    "rejectedOwnerHits": 6,
+    "rawOwnerHits": 253,
+    "acceptedOwnerHits": 248,
+    "rejectedOwnerHits": 5,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4551
+    "minimumRateLimitRemaining": 4865
   },
   "unresolvedShards": [],
   "candidates": [
@@ -324,8 +331,8 @@
         "nameWithOwner": "x1xhlol/system-prompts-and-models-of-ai-tools",
         "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
         "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
-        "stargazerCount": 144010,
-        "forkCount": 34799,
+        "stargazerCount": 144066,
+        "forkCount": 34785,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-03-05T16:38:29Z",
@@ -361,12 +368,12 @@
         "nameWithOwner": "dani-garcia/vaultwarden",
         "url": "https://github.com/dani-garcia/vaultwarden",
         "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
-        "stargazerCount": 68474,
-        "forkCount": 3280,
+        "stargazerCount": 68634,
+        "forkCount": 3286,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2018-02-17T22:40:20Z",
-        "pushedAt": "2026-10-03T21:05:58Z",
+        "pushedAt": "2026-10-06T22:56:03Z",
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "Rust"
@@ -439,12 +446,12 @@
         "nameWithOwner": "ngosang/trackerslist",
         "url": "https://github.com/ngosang/trackerslist",
         "description": "Updated list of public BitTorrent trackers",
-        "stargazerCount": 55264,
-        "forkCount": 6579,
+        "stargazerCount": 55285,
+        "forkCount": 6578,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2016-04-24T11:57:57Z",
-        "pushedAt": "2026-10-03T22:09:31Z",
+        "pushedAt": "2026-10-06T22:09:41Z",
         "homepageUrl": "https://ngosang.github.io/trackerslist/",
         "primaryLanguage": null,
         "licenseInfo": {
@@ -476,8 +483,8 @@
         "nameWithOwner": "LeCoupa/awesome-cheatsheets",
         "url": "https://github.com/LeCoupa/awesome-cheatsheets",
         "description": "👩‍💻👨‍💻 Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everything you should know in one single file.",
-        "stargazerCount": 46533,
-        "forkCount": 6686,
+        "stargazerCount": 46536,
+        "forkCount": 6688,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2017-11-09T02:47:15Z",
@@ -515,8 +522,8 @@
         "nameWithOwner": "mouredev/Hello-Python",
         "url": "https://github.com/mouredev/Hello-Python",
         "description": "Curso para aprender el lenguaje de programación Python desde cero y para principiantes. 100 clases, 44 horas en vídeo, código, proyectos y grupo de chat. Fundamentos, frontend, backend, testing, IA...",
-        "stargazerCount": 37639,
-        "forkCount": 2343,
+        "stargazerCount": 37673,
+        "forkCount": 2340,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2022-08-03T17:14:53Z",
@@ -554,12 +561,12 @@
         "nameWithOwner": "ai/nanoid",
         "url": "https://github.com/ai/nanoid",
         "description": "A tiny (118 bytes), secure, URL-friendly, unique string ID generator for JavaScript",
-        "stargazerCount": 27003,
-        "forkCount": 882,
+        "stargazerCount": 27099,
+        "forkCount": 893,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2017-08-05T05:24:35Z",
-        "pushedAt": "2026-09-23T21:58:22Z",
+        "pushedAt": "2026-10-05T21:16:46Z",
         "homepageUrl": "https://zelark.github.io/nano-id-cc/",
         "primaryLanguage": {
           "name": "JavaScript"
@@ -707,8 +714,8 @@
         "nameWithOwner": "six2dez/reconftw",
         "url": "https://github.com/six2dez/reconftw",
         "description": "reconFTW is a tool designed to perform automated recon on a target domain by running the best set of tools to perform scanning and finding out vulnerabilities",
-        "stargazerCount": 8167,
-        "forkCount": 1238,
+        "stargazerCount": 8168,
+        "forkCount": 1236,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2020-12-30T23:52:52Z",
@@ -746,7 +753,7 @@
         "nameWithOwner": "antoniolg/androidmvp",
         "url": "https://github.com/antoniolg/androidmvp",
         "description": "MVP Android Example",
-        "stargazerCount": 5894,
+        "stargazerCount": 5895,
         "forkCount": 1551,
         "isArchived": true,
         "isFork": false,
@@ -821,7 +828,7 @@
         "nameWithOwner": "pwntester/ysoserial.net",
         "url": "https://github.com/pwntester/ysoserial.net",
         "description": "Deserialization payload generator for a variety of .NET formatters",
-        "stargazerCount": 3795,
+        "stargazerCount": 3797,
         "forkCount": 528,
         "isArchived": false,
         "isFork": false,
@@ -861,7 +868,7 @@
         "url": "https://github.com/krakjoe/pthreads",
         "description": "Threading for PHP - Share Nothing, Do Everything :)",
         "stargazerCount": 3445,
-        "forkCount": 495,
+        "forkCount": 494,
         "isArchived": true,
         "isFork": false,
         "createdAt": "2012-08-28T17:57:40Z",
@@ -974,7 +981,7 @@
         "nameWithOwner": "Kikobeats/awesome-api",
         "url": "https://github.com/Kikobeats/awesome-api",
         "description": "A curated list of awesome resources for design and implement RESTful API's.",
-        "stargazerCount": 2981,
+        "stargazerCount": 2982,
         "forkCount": 251,
         "isArchived": false,
         "isFork": false,
@@ -1047,7 +1054,7 @@
         "nameWithOwner": "vmayoral/ros-robotics-companies",
         "url": "https://github.com/vmayoral/ros-robotics-companies",
         "description": "A list of robotics companies using the Robot Operating System (ROS and ROS 2). ",
-        "stargazerCount": 1886,
+        "stargazerCount": 1887,
         "forkCount": 236,
         "isArchived": false,
         "isFork": false,
@@ -1124,7 +1131,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2022-05-17T08:11:38Z",
-        "pushedAt": "2026-10-03T23:02:05Z",
+        "pushedAt": "2026-10-06T23:17:44Z",
         "homepageUrl": "https://webperf-snippets.nucliweb.net",
         "primaryLanguage": {
           "name": "JavaScript"
@@ -1159,7 +1166,7 @@
         "url": "https://github.com/carlosazaustre/tenacitOS",
         "description": "OpenClaw Mission Control Dashboard",
         "stargazerCount": 1255,
-        "forkCount": 238,
+        "forkCount": 236,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-02-21T12:35:26Z",
@@ -1312,7 +1319,7 @@
         "url": "https://github.com/santifer/cv-santiago",
         "description": "Interactive CV with AI chat integration. Built with React 19, TypeScript, Claude API. Chat with my AI avatar about my experience.",
         "stargazerCount": 850,
-        "forkCount": 281,
+        "forkCount": 282,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-01-23T18:38:48Z",
@@ -1384,7 +1391,7 @@
         "nameWithOwner": "woliveiras/front-end-career",
         "url": "https://github.com/woliveiras/front-end-career",
         "description": "A career guide to Front End Developers",
-        "stargazerCount": 762,
+        "stargazerCount": 763,
         "forkCount": 89,
         "isArchived": false,
         "isFork": false,
@@ -1462,8 +1469,8 @@
         "nameWithOwner": "noahgift/Python-MLOps-Cookbook",
         "url": "https://github.com/noahgift/Python-MLOps-Cookbook",
         "description": "This is an example of a Containerized Flask Application that can deploy to many target environments including:  AWS, GCP and Azure.",
-        "stargazerCount": 435,
-        "forkCount": 329,
+        "stargazerCount": 436,
+        "forkCount": 330,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2021-03-11T00:44:28Z",
@@ -1632,6 +1639,45 @@
       }
     },
     {
+      "id": "O_kgDOEO2Q7Q",
+      "login": "SantanderAI",
+      "name": "Santander AI Open Source",
+      "type": "Organization",
+      "location": "Spain",
+      "url": "https://github.com/SantanderAI",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/284004589?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ES",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Spain"
+      },
+      "discoveryTerms": [
+        "Spain"
+      ],
+      "topRepository": {
+        "name": "gen-fraud-graph",
+        "nameWithOwner": "SantanderAI/gen-fraud-graph",
+        "url": "https://github.com/SantanderAI/gen-fraud-graph",
+        "description": "Synthetic fraud graph generator for benchmarking graph-based fraud detection models in financial services.",
+        "stargazerCount": 287,
+        "forkCount": 81,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-25T15:23:17Z",
+        "pushedAt": "2026-10-01T04:22:43Z",
+        "homepageUrl": "https://pypi.org/project/gen-fraud-graph/",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI3Njg0MTU=",
       "login": "wlsf82",
       "name": "Walmyr",
@@ -1671,45 +1717,6 @@
       }
     },
     {
-      "id": "O_kgDOEO2Q7Q",
-      "login": "SantanderAI",
-      "name": "Santander AI Open Source",
-      "type": "Organization",
-      "location": "Spain",
-      "url": "https://github.com/SantanderAI",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/284004589?v=4",
-      "attribution": {
-        "accepted": true,
-        "countryCode": "ES",
-        "confidence": "high",
-        "evidence": "explicit-country",
-        "matched": "Spain"
-      },
-      "discoveryTerms": [
-        "Spain"
-      ],
-      "topRepository": {
-        "name": "gen-fraud-graph",
-        "nameWithOwner": "SantanderAI/gen-fraud-graph",
-        "url": "https://github.com/SantanderAI/gen-fraud-graph",
-        "description": "Synthetic fraud graph generator for benchmarking graph-based fraud detection models in financial services.",
-        "stargazerCount": 285,
-        "forkCount": 81,
-        "isArchived": false,
-        "isFork": false,
-        "createdAt": "2026-05-25T15:23:17Z",
-        "pushedAt": "2026-10-01T04:22:43Z",
-        "homepageUrl": "https://pypi.org/project/gen-fraud-graph/",
-        "primaryLanguage": {
-          "name": "Python"
-        },
-        "licenseInfo": {
-          "name": "Apache License 2.0",
-          "spdxId": "Apache-2.0"
-        }
-      }
-    },
-    {
       "id": "MDQ6VXNlcjEyNzM3OQ==",
       "login": "manucorporat",
       "name": "Manu MA",
@@ -1733,7 +1740,7 @@
         "url": "https://github.com/manucorporat/sse",
         "description": "Server-Sent Events implementation in Go. Used by the Gin Framework.",
         "stargazerCount": 282,
-        "forkCount": 62,
+        "forkCount": 63,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2015-05-13T17:57:31Z",

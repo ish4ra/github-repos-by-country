@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "8db00ab8e0312776a93d9d64baac06be7a5dea85f0858227a0a1e5f640bbceee",
+    "sha256": "d2b6e100eb07dd6fe6881d560f5edfedc406d3a7863608c1f96d050068a72604",
     "termsTotal": 512
   },
   "phase": "discovery",
@@ -17,6 +17,13 @@
     "index": 0,
     "term": "Serbia",
     "queue": [
+      {
+        "query": "location:\"Serbia\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
       {
         "query": "location:\"Serbia\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
         "stage": "year:2013",
@@ -270,27 +277,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:35:53.368Z",
-    "requests": 9,
-    "leafPages": 5,
+    "startedAt": "2026-10-07T06:08:58.780Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 3517
+    "reportedCount": 3539
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:35:53.368Z",
-  "updatedAt": "2026-10-03T23:18:05.091Z",
+  "startedAt": "2026-10-07T06:08:58.780Z",
+  "updatedAt": "2026-10-07T06:09:14.753Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 9,
-    "leafPages": 5,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 264,
+    "rawOwnerHits": 221,
     "acceptedOwnerHits": 0,
-    "rejectedOwnerHits": 264,
+    "rejectedOwnerHits": 221,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4564
+    "minimumRateLimitRemaining": 4968
   },
   "unresolvedShards": [],
   "candidates": [],
