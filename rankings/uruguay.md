@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **10**
-- Current global star frontier: **1,280**
+- Verified high-star candidates retained: **14**
+- Current global star frontier: **1,094**
 
 ### High-star verified preview
 
@@ -61,5 +61,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [titoBouzout/Dictionaries](https://github.com/titoBouzout/Dictionaries) | **1,594** | Montevideo, Uruguay |
 | [ElMassimo/vite_ruby](https://github.com/ElMassimo/vite_ruby) | **1,590** | Colonia del Sacramento |
 | [SongTube/SongTube-App](https://github.com/SongTube/SongTube-App) | **1,386** | Neptunia |
+| [pote/gpm](https://github.com/pote/gpm) | **1,173** | Montevideo, Uruguay |
+| [ElMassimo/iles](https://github.com/ElMassimo/iles) | **1,162** | Colonia del Sacramento |
+| [marcosfede/algorithms](https://github.com/marcosfede/algorithms) | **1,129** | Uruguay |
+| [hernansartorio/react-nice-dates](https://github.com/hernansartorio/react-nice-dates) | **1,096** | Uruguay |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **12**
-- Current global star frontier: **1,179**
+- Verified high-star candidates retained: **14**
+- Current global star frontier: **1,094**
 
 ### High-star verified preview
 
@@ -63,5 +63,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ranjian0/building_tools](https://github.com/ranjian0/building_tools) | **1,509** | Nairobi, Kenya |
 | [alvin-tosh/Malware-Exhibit](https://github.com/alvin-tosh/Malware-Exhibit) | **1,189** | Nairobi, Kenya |
 | [NetLogo/NetLogo](https://github.com/NetLogo/NetLogo) | **1,187** | Evanston, IL, USA |
+| [xtiankisutsa/awesome-mobile-CTF](https://github.com/xtiankisutsa/awesome-mobile-CTF) | **1,161** | Nairobi, Kenya |
+| [Dark-Xploit/SPACE-MD](https://github.com/Dark-Xploit/SPACE-MD) | **1,101** | Kenya |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

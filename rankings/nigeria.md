@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **18**
-- Current global star frontier: **1,179**
+- Verified high-star candidates retained: **19**
+- Current global star frontier: **1,094**
 
 ### High-star verified preview
 
@@ -69,5 +69,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [damms005/devdb-vscode](https://github.com/damms005/devdb-vscode) | **1,447** | Nigeria |
 | [FeezyHendrix/Insta-mass-account-creator](https://github.com/FeezyHendrix/Insta-mass-account-creator) | **1,203** | Lagos, Nigeria. |
 | [JayWebtech/autoshorts](https://github.com/JayWebtech/autoshorts) | **1,188** | Nigeria |
+| [goodnesskay/Laravel-Open-Source-Projects](https://github.com/goodnesskay/Laravel-Open-Source-Projects) | **1,168** | Abuja,Nigeria |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

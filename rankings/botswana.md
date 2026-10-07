@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [mitp0sh/gath](https://github.com/mitp0sh/gath) | **3** | Botswana |
 | [WyvernPirate/Employee-Training-Portal](https://github.com/WyvernPirate/Employee-Training-Portal) | **3** | Maun, Botswana |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **1,094**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [darula-hpp/shimmer-from-structure](https://github.com/darula-hpp/shimmer-from-structure) | **1,122** | Gaborone |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

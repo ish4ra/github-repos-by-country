@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **17**
-- Current global star frontier: **1,280**
+- Verified high-star candidates retained: **19**
+- Current global star frontier: **1,094**
 
 ### High-star verified preview
 
@@ -68,5 +68,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [icerockdev/moko-resources](https://github.com/icerockdev/moko-resources) | **1,350** | Kazakhstan |
 | [bivlked/amneziawg-installer](https://github.com/bivlked/amneziawg-installer) | **1,347** | Kazakhstan |
 | [HmnDev-Tech/shevery](https://github.com/HmnDev-Tech/shevery) | **1,299** | Kazakhstan |
+| [0xAX/erlang-bookmarks](https://github.com/0xAX/erlang-bookmarks) | **1,156** | Kazakhstan, Astana |
+| [icerockdev/moko-mvvm](https://github.com/icerockdev/moko-mvvm) | **1,096** | Kazakhstan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

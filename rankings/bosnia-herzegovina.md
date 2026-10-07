@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **1,280**
+- Verified high-star candidates retained: **10**
+- Current global star frontier: **1,094**
 
 ### High-star verified preview
 
@@ -60,5 +60,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Kodiqa-Solutions/VaultS3](https://github.com/Kodiqa-Solutions/VaultS3) | **1,622** | Bosnia and Herzegovina |
 | [ribice/gorsk](https://github.com/ribice/gorsk) | **1,504** | Sarajevo |
 | [berbicanes/apiark](https://github.com/berbicanes/apiark) | **1,284** | Sarajevo |
+| [marko-cerovac/material.nvim](https://github.com/marko-cerovac/material.nvim) | **1,093** | Banja Luka, Bosnia and Herzegovina |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

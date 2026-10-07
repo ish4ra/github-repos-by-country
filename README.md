@@ -21,7 +21,7 @@
 
 ## Browse by country
 
-**250 indexed · 25 live · 250 building · 0 queued**
+**250 indexed · 26 live · 250 building · 0 queued**
 
 > 🟢 **Live** = published ranking · 🟡 **Building** = crawl in progress · ⚪ **Queued** = waiting for its first crawl
 
@@ -372,7 +372,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
       <td width="25%">🟡 <a href="./rankings/tunisia.md"><strong>🇹🇳 Tunisia</strong></a></td>
     </tr>
     <tr>
-      <td width="25%">🟡 <a href="./rankings/turkiye.md"><strong>🇹🇷 Türkiye</strong></a></td>
+      <td width="25%">🟢 <a href="./rankings/turkiye.md"><strong>🇹🇷 Türkiye</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/turkmenistan.md"><strong>🇹🇲 Turkmenistan</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/turks-caicos-islands.md"><strong>🇹🇨 Turks &amp; Caicos Islands</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/tuvalu.md"><strong>🇹🇻 Tuvalu</strong></a></td>

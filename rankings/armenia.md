@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **11**
-- Current global star frontier: **1,280**
+- Verified high-star candidates retained: **12**
+- Current global star frontier: **1,094**
 
 ### High-star verified preview
 
@@ -62,5 +62,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [khanamiryan/php-qrcode-detector-decoder](https://github.com/khanamiryan/php-qrcode-detector-decoder) | **1,413** | Yerevan |
 | [robertlevonyan/material-chip-view](https://github.com/robertlevonyan/material-chip-view) | **1,334** | Yerevan, Armenia |
 | [shahen94/react-native-video-processing](https://github.com/shahen94/react-native-video-processing) | **1,288** | Yerevan, Armenia |
+| [sergeyksv/tingodb](https://github.com/sergeyksv/tingodb) | **1,158** | Yerevan, Armenia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

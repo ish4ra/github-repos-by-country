@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **1,516**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **1,094**
 
 ### High-star verified preview
 
@@ -55,5 +55,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [BandarHL/BHTwitter](https://github.com/BandarHL/BHTwitter) | **2,601** | Saudi Arabia |
 | [Matrix07ksa/Brute_Force](https://github.com/Matrix07ksa/Brute_Force) | **1,832** | Saudi arabia |
 | [ialhashim/DenseDepth](https://github.com/ialhashim/DenseDepth) | **1,607** | Saudi Arabia |
+| [awssat/tailwindo](https://github.com/awssat/tailwindo) | **1,116** | Saudi Arabia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
