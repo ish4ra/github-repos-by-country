@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 53**
 - Progress: **0%**
-- Retained high-potential owner candidates: **340**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **342**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -29,7 +29,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [callmenick/Animating-Hamburger-Icons](https://github.com/callmenick/Animating-Hamburger-Icons) | **485** | Trinidad & Tobago |
 | [creativenull/efmls-configs-nvim](https://github.com/creativenull/efmls-configs-nvim) | **319** | Trinidad and Tobago |
 | [godlyranchdressing/United-GNOME](https://github.com/godlyranchdressing/United-GNOME) | **306** | Trinidad & Tobago |
-| [foohyfooh/PKHeXPluginPile](https://github.com/foohyfooh/PKHeXPluginPile) | **103** | Trinidad and Tobago |
+| [foohyfooh/PKHeXPluginPile](https://github.com/foohyfooh/PKHeXPluginPile) | **104** | Trinidad and Tobago |
 | [dwayne/haskell-programming](https://github.com/dwayne/haskell-programming) | **93** | Trinidad & Tobago |
 | [triniwiz/nativescript-pager](https://github.com/triniwiz/nativescript-pager) | **88** | Trinidad & Tobago |
 | [ArmstrongSubero/PIC16-Projects](https://github.com/ArmstrongSubero/PIC16-Projects) | **85** | Moruga, Trinidad and Tobago |

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **18**
-- Current global star frontier: **1,179**
+- Verified high-star candidates retained: **23**
+- Current global star frontier: **943**
 
 ### High-star verified preview
 
@@ -69,5 +69,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [HirbodBehnam/MTProtoProxyInstaller](https://github.com/HirbodBehnam/MTProtoProxyInstaller) | **1,216** | Tehran |
 | [persian-tools/persian-tools](https://github.com/persian-tools/persian-tools) | **1,215** | Iran |
 | [FDX100/Auto_Tor_IP_changer](https://github.com/FDX100/Auto_Tor_IP_changer) | **1,179** | Kurdistan |
+| [xpleaf/Blog_mini](https://github.com/xpleaf/Blog_mini) | **982** | GZ |
+| [smarteist/Android-Image-Slider](https://github.com/smarteist/Android-Image-Slider) | **974** | Iran, Tehran, Sharif University of Technology |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

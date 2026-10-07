@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 13%
+## Repository ranking status: Building 12%
 
-- Geography terms processed: **8 / 58**
-- Progress: **13%**
-- Retained high-potential owner candidates: **43**
-- Search requests completed: **9**
+- Geography terms processed: **7 / 58**
+- Progress: **12%**
+- Retained high-potential owner candidates: **44**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -36,8 +36,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [taufa/COMP9321](https://github.com/taufa/COMP9321) | **1** | Tongatapu, Tonga |
 | [The-Kids-Hub/the-kids-hub-fe](https://github.com/The-Kids-Hub/the-kids-hub-fe) | **1** | Tonga |
 | [brobertson89/blog](https://github.com/brobertson89/blog) | **0** | Birdhaven, Tonga |
+| [byte315/namecheap-](https://github.com/byte315/namecheap-) | **0** | Tonga |
 | [click-mouse/python](https://github.com/click-mouse/python) | **0** | 42640 ,Orn Forest ,Lake Irwinside ,Kansas ,Tonga |
 | [CookieDogxox/PullZoomView](https://github.com/CookieDogxox/PullZoomView) | **0** | Tonga |
-| [Digital-Transformation-Tonga/public-resources](https://github.com/Digital-Transformation-Tonga/public-resources) | **0** | Tonga |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 357**
 - Progress: **0%**
 - Retained high-potential owner candidates: **111**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **1,885**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **943**
 
 ### High-star verified preview
 
@@ -53,5 +53,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [gernest/utron](https://github.com/gernest/utron) | **2,212** | Arusha, Tanzania |
 | [vinceanalytics/vince](https://github.com/vinceanalytics/vince) | **2,014** | Tanzania |
+| [spidersuite/SpiderSuite](https://github.com/spidersuite/SpiderSuite) | **982** | Tanzania |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

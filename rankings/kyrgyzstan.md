@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **1,094**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **943**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [eszdman/PhotonCamera](https://github.com/eszdman/PhotonCamera) | **1,113** | Kyrgyzstan |
+| [artur-shaik/vim-javacomplete2](https://github.com/artur-shaik/vim-javacomplete2) | **961** | Bishkek, KG |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

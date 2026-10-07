@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **1,280**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **943**
 
 ### High-star verified preview
 
@@ -55,5 +55,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Weilbyte/PVEDiscordDark](https://github.com/Weilbyte/PVEDiscordDark) | **2,541** | SKP |
 | [eritislami/evobot](https://github.com/eritislami/evobot) | **1,871** | Struga, North Macedonia |
 | [ZoranPandovski/al-go-rithms](https://github.com/ZoranPandovski/al-go-rithms) | **1,373** | Bitola, North Macedonia |
+| [sasojadrovski/SJFluidSegmentedControl](https://github.com/sasojadrovski/SJFluidSegmentedControl) | **961** | Skopje, Macedonia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

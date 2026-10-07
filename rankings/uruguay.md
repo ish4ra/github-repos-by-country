@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **1,094**
+- Verified high-star candidates retained: **15**
+- Current global star frontier: **943**
 
 ### High-star verified preview
 
@@ -65,5 +65,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ElMassimo/iles](https://github.com/ElMassimo/iles) | **1,162** | Colonia del Sacramento |
 | [marcosfede/algorithms](https://github.com/marcosfede/algorithms) | **1,129** | Uruguay |
 | [hernansartorio/react-nice-dates](https://github.com/hernansartorio/react-nice-dates) | **1,096** | Uruguay |
+| [hernansartorio/jquery-nice-select](https://github.com/hernansartorio/jquery-nice-select) | **954** | Uruguay |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

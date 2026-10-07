@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **6**
-- Current global star frontier: **1,010**
+- Verified high-star candidates retained: **7**
+- Current global star frontier: **943**
 
 ### High-star verified preview
 
@@ -57,5 +57,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [vargasjona/fastapi-alembic-sqlmodel-async](https://github.com/vargasjona/fastapi-alembic-sqlmodel-async) | **1,266** | Quito, Ecuador |
 | [AngelJumbo/gruvbox-wallpapers](https://github.com/AngelJumbo/gruvbox-wallpapers) | **1,245** | Ecuador |
 | [sauljabin/kaskade](https://github.com/sauljabin/kaskade) | **1,041** | Quito, Ecuador |
+| [asantibanez/livewire-calendar](https://github.com/asantibanez/livewire-calendar) | **971** | Guayaquil, Ecuador |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

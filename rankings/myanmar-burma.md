@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [heinzawaung-hack/BEP-20-Standard-Token](https://github.com/heinzawaung-hack/BEP-20-Standard-Token) | **3** | MayMyo,Myanmar(Burma) |
 | [Linzarnishwe/super-giggle](https://github.com/Linzarnishwe/super-giggle) | **3** | Naung Yoe Street 12/5A Power Building Thaketa Yangon Myanmar(Burma)11231 |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **943**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [KhunHtetzNaing/ADB-OTG](https://github.com/KhunHtetzNaing/ADB-OTG) | **986** | HsiHseng, Myanmar |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

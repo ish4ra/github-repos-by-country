@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **18**
-- Current global star frontier: **1,010**
+- Verified high-star candidates retained: **19**
+- Current global star frontier: **943**
 
 ### High-star verified preview
 
@@ -69,5 +69,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [bumbeishvili/org-chart](https://github.com/bumbeishvili/org-chart) | **1,213** | Tbilisi, Georgia |
 | [andreyvit/json-diff](https://github.com/andreyvit/json-diff) | **1,202** | Tbilisi, Georgia |
 | [shalva97/kde-configuration-files](https://github.com/shalva97/kde-configuration-files) | **1,066** | Tbilisi |
+| [lukakldiashvili/Unified-Universal-Blur](https://github.com/lukakldiashvili/Unified-Universal-Blur) | **979** | Tbilisi, Georgia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

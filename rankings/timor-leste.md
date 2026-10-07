@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 5%
+## Repository ranking status: Building 4%
 
-- Geography terms processed: **5 / 91**
-- Progress: **5%**
+- Geography terms processed: **4 / 91**
+- Progress: **4%**
 - Retained high-potential owner candidates: **13**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,9 +24,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
+| [Celio-err/Team-Project-SJD](https://github.com/Celio-err/Team-Project-SJD) | **1** | Dili, East Timor |
 | [marobo/project_hub](https://github.com/marobo/project_hub) | **1** | Dili, East Timor |
 | [ajesantos/ajesantos](https://github.com/ajesantos/ajesantos) | **0** | Aileu, Aitoin-Mantane |
-| [Celio-err/website_apftl](https://github.com/Celio-err/website_apftl) | **0** | Dili, East Timor |
 | [jaimitoxavierguterresdasilva/jaimitoxavierguterresdasilva](https://github.com/jaimitoxavierguterresdasilva/jaimitoxavierguterresdasilva) | **0** | Dili, East Timor |
 | [JoelGomesTavares/JoelGomesTavares](https://github.com/JoelGomesTavares/JoelGomesTavares) | **0** | Dili, East Timor |
 | [lospalos123/first_app](https://github.com/lospalos123/first_app) | **0** | East Timor |

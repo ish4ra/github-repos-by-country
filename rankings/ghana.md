@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **16**
-- Current global star frontier: **1,094**
+- Verified high-star candidates retained: **18**
+- Current global star frontier: **943**
 
 ### High-star verified preview
 
@@ -67,5 +67,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [emonney/QuickApp](https://github.com/emonney/QuickApp) | **1,352** | Ghana |
 | [mmozeiko/wcap](https://github.com/mmozeiko/wcap) | **1,321** | WA |
 | [mmozeiko/aes-finder](https://github.com/mmozeiko/aes-finder) | **1,087** | WA |
+| [prabirshrestha/asyncomplete.vim](https://github.com/prabirshrestha/asyncomplete.vim) | **983** | WA |
+| [jwyang/fpn.pytorch](https://github.com/jwyang/fpn.pytorch) | **969** | WA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

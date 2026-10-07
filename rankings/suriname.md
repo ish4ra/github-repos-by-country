@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 30%
+## Repository ranking status: Building 7%
 
-- Geography terms processed: **12 / 40**
-- Progress: **30%**
+- Geography terms processed: **3 / 40**
+- Progress: **7%**
 - Retained high-potential owner candidates: **168**
-- Search requests completed: **17**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [giannisanni/pulsar](https://github.com/giannisanni/pulsar) | **224** | Paramaribo, Suriname |
+| [giannisanni/pulsar](https://github.com/giannisanni/pulsar) | **226** | Paramaribo, Suriname |
 | [kareldonk/QuantumGate](https://github.com/kareldonk/QuantumGate) | **117** | Suriname |
 | [extensionsapp/translatte](https://github.com/extensionsapp/translatte) | **97** | Paramaribo, Suriname |
 | [divengine/div](https://github.com/divengine/div) | **28** | Suriname |

@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 44**
 - Progress: **0%**
-- Retained high-potential owner candidates: **286**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **287**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,7 +25,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [agnilondapakou/helloWorld](https://github.com/agnilondapakou/helloWorld) | **52** | Lome, Togo |
-| [gsmadjaa05/BYPASS-HELLO-NO-NEED-CHANGE-SN](https://github.com/gsmadjaa05/BYPASS-HELLO-NO-NEED-CHANGE-SN) | **50** | Togo |
+| [gsmadjaa05/BYPASS-HELLO-NO-NEED-CHANGE-SN](https://github.com/gsmadjaa05/BYPASS-HELLO-NO-NEED-CHANGE-SN) | **51** | Togo |
 | [omarfarouk228/togolm](https://github.com/omarfarouk228/togolm) | **39** | Togo |
 | [Docteur-Parfait/os228](https://github.com/Docteur-Parfait/os228) | **28** | Lomé, Togo |
 | [gausoft/flutter-mvc-s-riverpod-example](https://github.com/gausoft/flutter-mvc-s-riverpod-example) | **23** | Lomé, Togo |

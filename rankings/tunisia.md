@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 342**
 - Progress: **0%**
 - Retained high-potential owner candidates: **125**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -26,14 +26,14 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [anouarbensaad/vulnx](https://github.com/anouarbensaad/vulnx) | **2,149** | Tunisia |
 | [Cyb0r9/SocialBox](https://github.com/Cyb0r9/SocialBox) | **2,059** | Tunisia |
-| [MohamedRejeb/compose-rich-editor](https://github.com/MohamedRejeb/compose-rich-editor) | **1,858** | Tunisia |
-| [Ademking/MD-This-Page](https://github.com/Ademking/MD-This-Page) | **1,590** | Tunisia |
+| [MohamedRejeb/compose-rich-editor](https://github.com/MohamedRejeb/compose-rich-editor) | **1,859** | Tunisia |
+| [Ademking/MD-This-Page](https://github.com/Ademking/MD-This-Page) | **1,600** | Tunisia |
 | [hamedbaatour/minimus](https://github.com/hamedbaatour/minimus) | **628** | Tunis, Tunisia |
-| [Loukious/StreamLabsTikTokStreamKeyGenerator](https://github.com/Loukious/StreamLabsTikTokStreamKeyGenerator) | **416** | Tunisia |
+| [Loukious/StreamLabsTikTokStreamKeyGenerator](https://github.com/Loukious/StreamLabsTikTokStreamKeyGenerator) | **418** | Tunisia |
 | [X-SLAYER/Website-Cloner](https://github.com/X-SLAYER/Website-Cloner) | **365** | Tunisia |
-| [SelimHorri/ecommerce-microservice-backend-app](https://github.com/SelimHorri/ecommerce-microservice-backend-app) | **314** | Tunisia |
+| [SelimHorri/ecommerce-microservice-backend-app](https://github.com/SelimHorri/ecommerce-microservice-backend-app) | **315** | Tunisia |
 | [Afif13/CSS-Pattern](https://github.com/Afif13/CSS-Pattern) | **240** | Tunisia |
-| [mn-youssef/state-municipality-tunisia](https://github.com/mn-youssef/state-municipality-tunisia) | **158** | tunisia |
+| [mn-youssef/state-municipality-tunisia](https://github.com/mn-youssef/state-municipality-tunisia) | **159** | tunisia |
 | [abdennour/certified-kubernetes-security-specialist](https://github.com/abdennour/certified-kubernetes-security-specialist) | **149** | Tunisia |
 | [azizamari/Ncodi](https://github.com/azizamari/Ncodi) | **117** | Tunisia |
 | [azjezz/assess](https://github.com/azjezz/assess) | **108** | Tunisia |
@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **10**
-- Current global star frontier: **1,280**
+- Verified high-star candidates retained: **11**
+- Current global star frontier: **943**
 
 ### High-star verified preview
 
@@ -61,5 +61,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [MohamedRejeb/Calf](https://github.com/MohamedRejeb/Calf) | **1,727** | Tunisia |
 | [Ademking/MD-This-Page](https://github.com/Ademking/MD-This-Page) | **1,598** | Tunisia |
 | [OussamaMater/Laravel-Tips](https://github.com/OussamaMater/Laravel-Tips) | **1,317** | Tunis, Tunisia |
+| [Zephkek/Asus-ROG-Aml-Deep-Dive](https://github.com/Zephkek/Asus-ROG-Aml-Deep-Dive) | **1,001** | Tunisia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
