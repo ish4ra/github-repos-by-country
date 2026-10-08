@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **12**
-- Current global star frontier: **842**
+- Verified high-star candidates retained: **14**
+- Current global star frontier: **800**
 
 ### High-star verified preview
 
@@ -63,5 +63,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [mp3guy/Kintinuous](https://github.com/mp3guy/Kintinuous) | **954** | Cork, Ireland |
 | [gfranko/jquery.tocify.js](https://github.com/gfranko/jquery.tocify.js) | **914** | Wexford, PA |
 | [gfranko/jquery.selectBoxIt.js](https://github.com/gfranko/jquery.selectBoxIt.js) | **845** | Wexford, PA |
+| [davej/angular-classy](https://github.com/davej/angular-classy) | **804** | Cork, Ireland |
+| [ned14/outcome](https://github.com/ned14/outcome) | **801** | Cork, Ireland |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

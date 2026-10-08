@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **12**
-- Current global star frontier: **893**
+- Verified high-star candidates retained: **13**
+- Current global star frontier: **800**
 
 ### High-star verified preview
 
@@ -63,5 +63,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [valtyr/prisma-kysely](https://github.com/valtyr/prisma-kysely) | **1,187** | Reykjavík, Iceland |
 | [getsling/GVUserDefaults](https://github.com/getsling/GVUserDefaults) | **947** | Reykjavik, Iceland |
 | [SuprDewd/T-414-AFLV](https://github.com/SuprDewd/T-414-AFLV) | **911** | Iceland |
+| [birkir/react-native-carplay](https://github.com/birkir/react-native-carplay) | **808** | Reykjavík, Iceland |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **1,094**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **800**
 
 ### High-star verified preview
 
@@ -54,5 +54,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [HotCakeX/Harden-Windows-Security](https://github.com/HotCakeX/Harden-Windows-Security) | **4,772** | Silent Hill |
 | [ntfargo/Relapse-Exploit](https://github.com/ntfargo/Relapse-Exploit) | **1,759** | Silent Hill |
 | [marchof/java-almanac](https://github.com/marchof/java-almanac) | **1,149** | Alps |
+| [stefanocudini/leaflet-search](https://github.com/stefanocudini/leaflet-search) | **815** | Alps |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

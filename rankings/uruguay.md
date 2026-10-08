@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **16**
-- Current global star frontier: **842**
+- Verified high-star candidates retained: **17**
+- Current global star frontier: **800**
 
 ### High-star verified preview
 
@@ -67,5 +67,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [hernansartorio/react-nice-dates](https://github.com/hernansartorio/react-nice-dates) | **1,096** | Uruguay |
 | [hernansartorio/jquery-nice-select](https://github.com/hernansartorio/jquery-nice-select) | **954** | Uruguay |
 | [gmonce/scikit-learn-book](https://github.com/gmonce/scikit-learn-book) | **860** | Montevideo, Uruguay |
+| [Vextil/Wwise-Unpacker](https://github.com/Vextil/Wwise-Unpacker) | **800** | Montevideo, Uruguay |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -40,4 +40,18 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [BounkhongDev/go-generator](https://github.com/BounkhongDev/go-generator) | **3** | Vientiane, laos |
 | [drquackky/global-amr-burden-analysis](https://github.com/drquackky/global-amr-burden-analysis) | **3** | Laos |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **800**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [DerrickXuNu/OpenCOOD](https://github.com/DerrickXuNu/OpenCOOD) | **834** | LA |
+| [Heerozh/spectre](https://github.com/Heerozh/spectre) | **828** | LA |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **6**
-- Current global star frontier: **893**
+- Verified high-star candidates retained: **7**
+- Current global star frontier: **800**
 
 ### High-star verified preview
 
@@ -57,5 +57,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ZoranPandovski/al-go-rithms](https://github.com/ZoranPandovski/al-go-rithms) | **1,373** | Bitola, North Macedonia |
 | [sasojadrovski/SJFluidSegmentedControl](https://github.com/sasojadrovski/SJFluidSegmentedControl) | **961** | Skopje, Macedonia |
 | [sAleksovski/react-native-android-widget](https://github.com/sAleksovski/react-native-android-widget) | **900** | Kumanovo, Macedonia |
+| [ViksaaSkool/AwesomeSplash](https://github.com/ViksaaSkool/AwesomeSplash) | **801** | Skopje, Macedonia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **17**
-- Current global star frontier: **842**
+- Verified high-star candidates retained: **19**
+- Current global star frontier: **800**
 
 ### High-star verified preview
 
@@ -68,5 +68,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [sedmelluq/lavaplayer](https://github.com/sedmelluq/lavaplayer) | **1,003** | Antarctica |
 | [ublue-os/image-template](https://github.com/ublue-os/image-template) | **877** | Antarctica |
 | [state-machines/state_machines](https://github.com/state-machines/state_machines) | **872** | Antarctica |
+| [ublue-os/fleek](https://github.com/ublue-os/fleek) | **816** | Antarctica |
+| [ublue-os/aurora](https://github.com/ublue-os/aurora) | **801** | Antarctica |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
