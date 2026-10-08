@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 2,096**
 - Progress: **0%**
-- Retained high-potential owner candidates: **142**
-- Search requests completed: **8**
+- Retained high-potential owner candidates: **360**
+- Search requests completed: **16**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **25**
-- Current global star frontier: **800**
+- Verified high-star candidates retained: **27**
+- Current global star frontier: **758**
 
 ### High-star verified preview
 

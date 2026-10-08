@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 392**
 - Progress: **0%**
-- Retained high-potential owner candidates: **113**
-- Search requests completed: **8**
+- Retained high-potential owner candidates: **260**
+- Search requests completed: **16**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **943**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **758**
 
 ### High-star verified preview
 
@@ -54,5 +54,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [al1abb/invoify](https://github.com/al1abb/invoify) | **6,362** | Azerbaijan |
 | [mearashadowfax/ScrewFast](https://github.com/mearashadowfax/ScrewFast) | **1,422** | Baku, Azerbaijan |
 | [Theyka/Turnstile-Solver](https://github.com/Theyka/Turnstile-Solver) | **947** | Azerbaijan |
+| [theahmadov/slash](https://github.com/theahmadov/slash) | **752** | Azerbaijan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 1,144**
 - Progress: **0%**
-- Retained high-potential owner candidates: **466**
-- Search requests completed: **17**
+- Retained high-potential owner candidates: **467**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,26 +24,26 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [aseprite/aseprite](https://github.com/aseprite/aseprite) | **39,852** | Argentina |
-| [bevacqua/dragula](https://github.com/bevacqua/dragula) | **22,127** | Buenos Aires, Argentina |
-| [maurosoria/dirsearch](https://github.com/maurosoria/dirsearch) | **14,917** | Argentina |
-| [facundoolano/software-papers](https://github.com/facundoolano/software-papers) | **6,599** | Argentina |
-| [sammwyy/MikuMikuBeam](https://github.com/sammwyy/MikuMikuBeam) | **5,867** | Argentina |
-| [andresriancho/w3af](https://github.com/andresriancho/w3af) | **4,911** | Buenos Aires, Argentina |
-| [pazguille/offline-first](https://github.com/pazguille/offline-first) | **3,325** | Buenos Aires, Argentina |
+| [aseprite/aseprite](https://github.com/aseprite/aseprite) | **39,942** | Argentina |
+| [bevacqua/dragula](https://github.com/bevacqua/dragula) | **22,135** | Buenos Aires, Argentina |
+| [maurosoria/dirsearch](https://github.com/maurosoria/dirsearch) | **14,931** | Argentina |
+| [facundoolano/software-papers](https://github.com/facundoolano/software-papers) | **6,600** | Argentina |
+| [sammwyy/MikuMikuBeam](https://github.com/sammwyy/MikuMikuBeam) | **5,870** | Argentina |
+| [andresriancho/w3af](https://github.com/andresriancho/w3af) | **4,914** | Buenos Aires, Argentina |
+| [pazguille/offline-first](https://github.com/pazguille/offline-first) | **3,326** | Buenos Aires, Argentina |
 | [goncy/interview-challenges](https://github.com/goncy/interview-challenges) | **1,765** | Quilmes, Buenos Aires, Argentina |
-| [chinoogawa/fbht](https://github.com/chinoogawa/fbht) | **1,614** | Argentina, Buenos Aires |
+| [chinoogawa/fbht](https://github.com/chinoogawa/fbht) | **1,615** | Argentina, Buenos Aires |
 | [valpackett/awesome-gtk](https://github.com/valpackett/awesome-gtk) | **1,267** | Argentina ⭐⭐⭐ |
-| [soyHenry/Python-Prep](https://github.com/soyHenry/Python-Prep) | **972** | Buenos Aires, Argentina |
-| [lambdaclass/ethrex](https://github.com/lambdaclass/ethrex) | **901** | Buenos Aires, Argentina |
+| [soyHenry/Python-Prep](https://github.com/soyHenry/Python-Prep) | **973** | Buenos Aires, Argentina |
+| [lambdaclass/ethrex](https://github.com/lambdaclass/ethrex) | **903** | Buenos Aires, Argentina |
 | [manoloide/AllSketchs](https://github.com/manoloide/AllSketchs) | **884** | Argentina |
 | [rennf93/fastapi-guard](https://github.com/rennf93/fastapi-guard) | **823** | Argentina |
 | [dacap/clip](https://github.com/dacap/clip) | **706** | Argentina |
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **893**
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **758**
 
 ### High-star verified preview
 
@@ -56,5 +56,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [epidemian/snake](https://github.com/epidemian/snake) | **1,396** | Bariloche, Argentina |
 | [leandr0ck/phaser-es6-webpack](https://github.com/leandr0ck/phaser-es6-webpack) | **1,282** | Tandil, Buenos Aires, Argentina |
 | [elmasse/nextein](https://github.com/elmasse/nextein) | **886** | La Plata, Buenos Aires. |
+| [silvestreh/onScreen](https://github.com/silvestreh/onScreen) | **754** | El Bolsón, Argentina |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

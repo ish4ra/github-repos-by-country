@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **10**
-- Current global star frontier: **842**
+- Verified high-star candidates retained: **12**
+- Current global star frontier: **758**
 
 ### High-star verified preview
 
@@ -61,5 +61,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [asantibanez/livewire-charts](https://github.com/asantibanez/livewire-charts) | **899** | Guayaquil, Ecuador |
 | [jxlarrea/voice-satellite-card-integration](https://github.com/jxlarrea/voice-satellite-card-integration) | **881** | Ecuador |
 | [xavysp/DexiNed](https://github.com/xavysp/DexiNed) | **863** | Ecuador |
+| [mikehardy/jetifier](https://github.com/mikehardy/jetifier) | **792** | Cuenca, Ecuador |
+| [Eddycrack864/UVR5-UI](https://github.com/Eddycrack864/UVR5-UI) | **777** | Guayaquil, Ecuador |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

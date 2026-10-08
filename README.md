@@ -21,7 +21,7 @@
 
 ## Browse by country
 
-**250 indexed · 30 live · 250 building · 0 queued**
+**250 indexed · 34 live · 250 building · 0 queued**
 
 > 🟢 **Live** = published ranking · 🟡 **Building** = crawl in progress · ⚪ **Queued** = waiting for its first crawl
 
@@ -110,7 +110,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
     <tr>
       <td width="25%">🟡 <a href="./rankings/costa-rica.md"><strong>🇨🇷 Costa Rica</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/cote-d-ivoire.md"><strong>🇨🇮 Côte d&#39;Ivoire</strong></a></td>
-      <td width="25%">🟡 <a href="./rankings/croatia.md"><strong>🇭🇷 Croatia</strong></a></td>
+      <td width="25%">🟢 <a href="./rankings/croatia.md"><strong>🇭🇷 Croatia</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/cuba.md"><strong>🇨🇺 Cuba</strong></a></td>
     </tr>
     <tr>
@@ -193,7 +193,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
     </tr>
     <tr>
       <td width="25%">🟢 <a href="./rankings/israel.md"><strong>🇮🇱 Israel</strong></a></td>
-      <td width="25%">🟡 <a href="./rankings/italy.md"><strong>🇮🇹 Italy</strong></a></td>
+      <td width="25%">🟢 <a href="./rankings/italy.md"><strong>🇮🇹 Italy</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/jamaica.md"><strong>🇯🇲 Jamaica</strong></a></td>
       <td width="25%">🟢 <a href="./rankings/japan.md"><strong>🇯🇵 Japan</strong></a></td>
     </tr>
@@ -302,7 +302,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
     <tr>
       <td width="25%">🟡 <a href="./rankings/republic-of-the-congo.md"><strong>🇨🇬 Republic of the Congo</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/reunion.md"><strong>🇷🇪 Réunion</strong></a></td>
-      <td width="25%">🟡 <a href="./rankings/romania.md"><strong>🇷🇴 Romania</strong></a></td>
+      <td width="25%">🟢 <a href="./rankings/romania.md"><strong>🇷🇴 Romania</strong></a></td>
       <td width="25%">🟢 <a href="./rankings/russia.md"><strong>🇷🇺 Russia</strong></a></td>
     </tr>
     <tr>
@@ -361,7 +361,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
     </tr>
     <tr>
       <td width="25%">🟡 <a href="./rankings/tanzania.md"><strong>🇹🇿 Tanzania</strong></a></td>
-      <td width="25%">🟡 <a href="./rankings/thailand.md"><strong>🇹🇭 Thailand</strong></a></td>
+      <td width="25%">🟢 <a href="./rankings/thailand.md"><strong>🇹🇭 Thailand</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/timor-leste.md"><strong>🇹🇱 Timor-Leste</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/togo.md"><strong>🇹🇬 Togo</strong></a></td>
     </tr>

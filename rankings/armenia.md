@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 614**
 - Progress: **0%**
 - Retained high-potential owner candidates: **334**
-- Search requests completed: **8**
+- Search requests completed: **16**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **13**
-- Current global star frontier: **893**
+- Verified high-star candidates retained: **14**
+- Current global star frontier: **758**
 
 ### High-star verified preview
 
@@ -64,5 +64,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [shahen94/react-native-video-processing](https://github.com/shahen94/react-native-video-processing) | **1,288** | Yerevan, Armenia |
 | [sergeyksv/tingodb](https://github.com/sergeyksv/tingodb) | **1,158** | Yerevan, Armenia |
 | [YerevaNN/mimic3-benchmarks](https://github.com/YerevaNN/mimic3-benchmarks) | **892** | Yerevan, Armenia |
+| [JaneySprings/DotRush](https://github.com/JaneySprings/DotRush) | **778** | Yerevan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

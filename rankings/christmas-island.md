@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **1,280**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **758**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [MateriiApps/OpenCord](https://github.com/MateriiApps/OpenCord) | **1,310** | Christmas Island |
+| [MateriiApps/Gloom](https://github.com/MateriiApps/Gloom) | **790** | Christmas Island |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

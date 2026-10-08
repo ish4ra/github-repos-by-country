@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **893**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **758**
 
 ### High-star verified preview
 
@@ -53,5 +53,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [darwiin/yaac-another-awesome-cv](https://github.com/darwiin/yaac-another-awesome-cv) | **1,043** | New Caledonia |
 | [aksiksi/compose2nix](https://github.com/aksiksi/compose2nix) | **908** | NC |
+| [kjhealy/pandoc-templates](https://github.com/kjhealy/pandoc-templates) | **754** | NC |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

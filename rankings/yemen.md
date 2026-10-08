@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Salimer/RLCS-event-landing-page](https://github.com/Salimer/RLCS-event-landing-page) | **20** | Mukalla, Yemen |
 | [akramghaleb/Route-Rider-System](https://github.com/akramghaleb/Route-Rider-System) | **18** | Yemen |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **758**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [AhmedSaadi0/NibrasShell](https://github.com/AhmedSaadi0/NibrasShell) | **773** | Sanaa, Yemen |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
