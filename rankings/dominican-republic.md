@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **758**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **713**
 
 ### High-star verified preview
 
@@ -53,5 +53,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [adonismendozaperez/33-js-conceptos](https://github.com/adonismendozaperez/33-js-conceptos) | **1,452** | Dominican Republic |
 | [javisperez/tailwindcolorshades](https://github.com/javisperez/tailwindcolorshades) | **764** | Dominican Republic |
+| [crewdevio/Trex](https://github.com/crewdevio/Trex) | **726** | Dominican Republic |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

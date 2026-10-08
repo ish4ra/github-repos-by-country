@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **8**
-- Current global star frontier: **758**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **713**
 
 ### High-star verified preview
 
@@ -59,5 +59,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ALTaleX531/TranslucentFlyouts](https://github.com/ALTaleX531/TranslucentFlyouts) | **1,048** | Macau, China |
 | [godbout/kindaVim.blahblah](https://github.com/godbout/kindaVim.blahblah) | **1,005** | Macao/South China/Hong Kong/France |
 | [ALTaleX531/OpenGlass](https://github.com/ALTaleX531/OpenGlass) | **753** | Macau, China |
+| [1595901624/gpt-aggregated-edition](https://github.com/1595901624/gpt-aggregated-edition) | **714** | Macau |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

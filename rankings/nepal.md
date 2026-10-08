@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **800**
+- Verified high-star candidates retained: **17**
+- Current global star frontier: **713**
 
 ### High-star verified preview
 
@@ -65,5 +65,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ghimiresunil/Top-AI-Tools](https://github.com/ghimiresunil/Top-AI-Tools) | **947** | Kathmandu, Nepal |
 | [dondai1234/master-fetch](https://github.com/dondai1234/master-fetch) | **888** | Nepal |
 | [sarbagyastha/youtube_player_flutter](https://github.com/sarbagyastha/youtube_player_flutter) | **809** | Kathmandu, Nepal |
+| [bhimrazy/receipt-ocr](https://github.com/bhimrazy/receipt-ocr) | **738** | Kathmandu,NP |
+| [ghimiresunil/LLM-PowerHouse-A-Curated-Guide-for-Large-Language-Models-with-Custom-Training-and-Inferencing](https://github.com/ghimiresunil/LLM-PowerHouse-A-Curated-Guide-for-Large-Language-Models-with-Custom-Training-and-Inferencing) | **732** | Kathmandu, Nepal |
+| [moest-np/center-randomize](https://github.com/moest-np/center-randomize) | **726** | Nepal |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

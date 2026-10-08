@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **758**
+- Verified high-star candidates retained: **15**
+- Current global star frontier: **713**
 
 ### High-star verified preview
 
@@ -65,5 +65,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [sergeyksv/tingodb](https://github.com/sergeyksv/tingodb) | **1,158** | Yerevan, Armenia |
 | [YerevaNN/mimic3-benchmarks](https://github.com/YerevaNN/mimic3-benchmarks) | **892** | Yerevan, Armenia |
 | [JaneySprings/DotRush](https://github.com/JaneySprings/DotRush) | **778** | Yerevan |
+| [suren-atoyan/react-pwa](https://github.com/suren-atoyan/react-pwa) | **719** | Yerevan, Armenia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

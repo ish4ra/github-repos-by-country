@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **15**
-- Current global star frontier: **758**
+- Verified high-star candidates retained: **16**
+- Current global star frontier: **713**
 
 ### High-star verified preview
 
@@ -66,5 +66,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [davej/angular-classy](https://github.com/davej/angular-classy) | **804** | Cork, Ireland |
 | [ned14/outcome](https://github.com/ned14/outcome) | **801** | Cork, Ireland |
 | [KarimElghamry/chillify](https://github.com/KarimElghamry/chillify) | **756** | Cork, Ireland |
+| [mp3guy/ICPCUDA](https://github.com/mp3guy/ICPCUDA) | **721** | Cork, Ireland |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

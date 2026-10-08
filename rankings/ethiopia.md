@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **800**
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **713**
 
 ### High-star verified preview
 
@@ -56,5 +56,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [devefy/Flutter-Story-App-UI](https://github.com/devefy/Flutter-Story-App-UI) | **955** | Ethiopia, Adama |
 | [Esubaalew/run](https://github.com/Esubaalew/run) | **941** | Addis Ababa, Ethiopia |
 | [frectonz/pglite-fusion](https://github.com/frectonz/pglite-fusion) | **834** | Ethiopia, Addis Abeba |
+| [adilmohak/django-lms](https://github.com/adilmohak/django-lms) | **730** | Addis ababa, Ethiopia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

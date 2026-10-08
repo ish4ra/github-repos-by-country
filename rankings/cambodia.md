@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **842**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **713**
 
 ### High-star verified preview
 
@@ -54,5 +54,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [nysamnang/react-native-raw-bottom-sheet](https://github.com/nysamnang/react-native-raw-bottom-sheet) | **1,202** | Phnom Penh, Cambodia |
 | [theachoem/storypad](https://github.com/theachoem/storypad) | **970** | Phnom Penh, Cambodia |
 | [dwilkie/carrierwave_direct](https://github.com/dwilkie/carrierwave_direct) | **837** | Phnom Penh, Cambodia |
+| [amosjyng/langchain-visualizer](https://github.com/amosjyng/langchain-visualizer) | **737** | Siem Reap, Cambodia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **1,010**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **713**
 
 ### High-star verified preview
 
@@ -54,5 +54,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [iChochy/NCE](https://github.com/iChochy/NCE) | **3,901** | SH |
 | [xiekw2010/react-native-gitfeed](https://github.com/xiekw2010/react-native-gitfeed) | **1,701** | SH |
 | [Xchat1/cursor2api-go](https://github.com/Xchat1/cursor2api-go) | **1,056** | SH |
+| [jjcheer/ocrcn_tf2](https://github.com/jjcheer/ocrcn_tf2) | **736** | SH |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

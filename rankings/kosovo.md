@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [omermaksutii/mnemo](https://github.com/omermaksutii/mnemo) | **44** | Kosovo |
 | [lorentsinani/16bitCPU-Verilog](https://github.com/lorentsinani/16bitCPU-Verilog) | **23** | Mitrovica, Kosovo |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **713**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [kujtimiihoxha/kit](https://github.com/kujtimiihoxha/kit) | **725** | Prishtina, Kosovo |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

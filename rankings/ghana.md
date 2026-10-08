@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **19**
-- Current global star frontier: **800**
+- Verified high-star candidates retained: **21**
+- Current global star frontier: **713**
 
 ### High-star verified preview
 
@@ -70,5 +70,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [prabirshrestha/asyncomplete.vim](https://github.com/prabirshrestha/asyncomplete.vim) | **983** | WA |
 | [jwyang/fpn.pytorch](https://github.com/jwyang/fpn.pytorch) | **969** | WA |
 | [skyzh/vector-db-from-scratch](https://github.com/skyzh/vector-db-from-scratch) | **807** | Bellevue, WA, USA ⇌ Shanghai, China |
+| [jwyang/graph-rcnn.pytorch](https://github.com/jwyang/graph-rcnn.pytorch) | **749** | WA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
