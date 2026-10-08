@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 121**
 - Progress: **0%**
-- Retained high-potential owner candidates: **341**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **342**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -33,7 +33,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [phoscoder/uncle-spufus](https://github.com/phoscoder/uncle-spufus) | **62** | Zimbabwe |
 | [DonnC/log_book](https://github.com/DonnC/log_book) | **60** | Harare, Zimbabwe |
 | [zinyando/crewai_conversational_chatbot](https://github.com/zinyando/crewai_conversational_chatbot) | **50** | Harare, Zimbabwe |
-| [paynow/Paynow-NodeJS-SDK](https://github.com/paynow/Paynow-NodeJS-SDK) | **39** | Harare, Zimbabwe |
+| [paynow/Paynow-NodeJS-SDK](https://github.com/paynow/Paynow-NodeJS-SDK) | **40** | Harare, Zimbabwe |
 | [alistairholmes/flutter_login_kit](https://github.com/alistairholmes/flutter_login_kit) | **33** | Bulawayo, Zimbabwe |
 | [sehmaluva/student-fest](https://github.com/sehmaluva/student-fest) | **28** | Harare, Zimbabwe |
 | [michaeldera/edliz](https://github.com/michaeldera/edliz) | **27** | Bulawayo, Zimbabwe  |

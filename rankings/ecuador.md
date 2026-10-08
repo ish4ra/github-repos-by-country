@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **8**
-- Current global star frontier: **893**
+- Verified high-star candidates retained: **10**
+- Current global star frontier: **842**
 
 ### High-star verified preview
 
@@ -59,5 +59,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [sauljabin/kaskade](https://github.com/sauljabin/kaskade) | **1,041** | Quito, Ecuador |
 | [asantibanez/livewire-calendar](https://github.com/asantibanez/livewire-calendar) | **971** | Guayaquil, Ecuador |
 | [asantibanez/livewire-charts](https://github.com/asantibanez/livewire-charts) | **899** | Guayaquil, Ecuador |
+| [jxlarrea/voice-satellite-card-integration](https://github.com/jxlarrea/voice-satellite-card-integration) | **881** | Ecuador |
+| [xavysp/DexiNed](https://github.com/xavysp/DexiNed) | **863** | Ecuador |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

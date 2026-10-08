@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 26%
+## Repository ranking status: Building 23%
 
-- Geography terms processed: **8 / 30**
-- Progress: **26%**
-- Retained high-potential owner candidates: **14**
-- Search requests completed: **9**
+- Geography terms processed: **7 / 30**
+- Progress: **23%**
+- Retained high-potential owner candidates: **15**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -33,6 +33,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [JohnRains/Topic-QA-Automation](https://github.com/JohnRains/Topic-QA-Automation) | **0** | Christiansted, US Virgin Islands |
 | [Kareema007799/Learn-to-Engage-audiences-](https://github.com/Kareema007799/Learn-to-Engage-audiences-) | **0** | Christiansted, VI |
 | [MrHappyNSad/MrHappyNSad](https://github.com/MrHappyNSad/MrHappyNSad) | **0** | U.S. Virgin Islands |
+| [nnLabs-ProjectAlpha/.github](https://github.com/nnLabs-ProjectAlpha/.github) | **0** | Christiansted, St. Croix, U.S. Virgin Islands |
 | [Photoflicks/flicks](https://github.com/Photoflicks/flicks) | **0** | U.S. Virgin Islands |
 | [RareBirdsLLC/rarebirds](https://github.com/RareBirdsLLC/rarebirds) | **0** | Christiansted, Virgin Islands |
 | [Rotgarg/lazyUpdatellama](https://github.com/Rotgarg/lazyUpdatellama) | **0** | Little Saint James, U.S. Virgin Islands |

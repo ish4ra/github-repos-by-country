@@ -21,7 +21,7 @@
 
 ## Browse by country
 
-**250 indexed · 29 live · 250 building · 0 queued**
+**250 indexed · 30 live · 250 building · 0 queued**
 
 > 🟢 **Live** = published ranking · 🟡 **Building** = crawl in progress · ⚪ **Queued** = waiting for its first crawl
 
@@ -183,7 +183,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
       <td width="25%">🟡 <a href="./rankings/hungary.md"><strong>🇭🇺 Hungary</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/iceland.md"><strong>🇮🇸 Iceland</strong></a></td>
       <td width="25%">🟢 <a href="./rankings/india.md"><strong>🇮🇳 India</strong></a></td>
-      <td width="25%">🟡 <a href="./rankings/indonesia.md"><strong>🇮🇩 Indonesia</strong></a></td>
+      <td width="25%">🟢 <a href="./rankings/indonesia.md"><strong>🇮🇩 Indonesia</strong></a></td>
     </tr>
     <tr>
       <td width="25%">🟡 <a href="./rankings/iran.md"><strong>🇮🇷 Iran</strong></a></td>

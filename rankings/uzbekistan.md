@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 279**
 - Progress: **0%**
-- Retained high-potential owner candidates: **122**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **125**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [smixs/pohuy](https://github.com/smixs/pohuy) | **1,294** | Tashkent, Uzbekistan |
+| [smixs/pohuy](https://github.com/smixs/pohuy) | **1,319** | Tashkent, Uzbekistan |
 | [Davronov-Alimardon/canva-clone](https://github.com/Davronov-Alimardon/canva-clone) | **528** | Uzbekistan |
 | [bexgboost/tricking-data-science](https://github.com/bexgboost/tricking-data-science) | **169** | Uzbekistan |
 | [ismoilovdevml/devops-journey](https://github.com/ismoilovdevml/devops-journey) | **143** | Tashkent, Uzbekistan |

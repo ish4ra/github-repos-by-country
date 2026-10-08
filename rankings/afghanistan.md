@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 369**
 - Progress: **0%**
-- Retained high-potential owner candidates: **731**
-- Search requests completed: **17**
+- Retained high-potential owner candidates: **734**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -27,7 +27,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [openlibrecommunity/olcrtc](https://github.com/openlibrecommunity/olcrtc) | **2,027** | Afghanistan |
 | [afgprogrammer/Flutter-Complete-e-commerce](https://github.com/afgprogrammer/Flutter-Complete-e-commerce) | **564** |  Kabul, Afghanistan |
 | [habibmhamadi/multi-select-tag](https://github.com/habibmhamadi/multi-select-tag) | **166** | Kabul, Afghanistan |
-| [shayanheidari01/ShineNETVPN](https://github.com/shayanheidari01/ShineNETVPN) | **134** | Afghanistan/Kabul |
+| [shayanheidari01/ShineNETVPN](https://github.com/shayanheidari01/ShineNETVPN) | **135** | Afghanistan/Kabul |
 | [shahghasiadil/laravel-clean-architecture-ddd-cqrs](https://github.com/shahghasiadil/laravel-clean-architecture-ddd-cqrs) | **120** | Afghanistan |
 | [ahmadjoya/typescript-express-mongoose-starter](https://github.com/ahmadjoya/typescript-express-mongoose-starter) | **102** | Afghanistan |
 | [ShafiqSadat/HamsterKeyGenWeb](https://github.com/ShafiqSadat/HamsterKeyGenWeb) | **86** | Afghanistan |
@@ -36,9 +36,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Mohammadjan1122/love_akm](https://github.com/Mohammadjan1122/love_akm) | **30** | Mazar sharif afghanistan |
 | [ab-noori/Portfolio](https://github.com/ab-noori/Portfolio) | **28** | Afghanistan |
 | [TheHadiAhmadi/site-builder](https://github.com/TheHadiAhmadi/site-builder) | **27** | Kabul, Afghanistan |
+| [mustafaaloko/elasticquent5](https://github.com/mustafaaloko/elasticquent5) | **21** | Kabul, Afghanistan |
 | [SaadullahKarimi/Database_Concept_Course](https://github.com/SaadullahKarimi/Database_Concept_Course) | **18** | Kabul, Afghanistan |
 | [mahdijafaridev/fastapi-middlewares](https://github.com/mahdijafaridev/fastapi-middlewares) | **17** | Kabul, Afghanistan |
-| [MastooraTurkmen/Quizzical-app](https://github.com/MastooraTurkmen/Quizzical-app) | **12** | Kabul, Afghanistan |
 
 ## Repository-first scan
 

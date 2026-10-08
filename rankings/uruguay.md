@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 1,537**
 - Progress: **0%**
-- Retained high-potential owner candidates: **135**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **136**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,12 +25,12 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [diegomura/react-pdf](https://github.com/diegomura/react-pdf) | **16,817** | Montevideo, Uruguay |
-| [davidmonterocrespo24/velxio](https://github.com/davidmonterocrespo24/velxio) | **3,016** | Uruguay |
+| [davidmonterocrespo24/velxio](https://github.com/davidmonterocrespo24/velxio) | **3,074** | Uruguay |
 | [omab/python-social-auth](https://github.com/omab/python-social-auth) | **2,802** | Montevideo, Uruguay |
 | [titoBouzout/SideBarEnhancements](https://github.com/titoBouzout/SideBarEnhancements) | **2,223** | Montevideo, Uruguay |
 | [itaybre/CameraController](https://github.com/itaybre/CameraController) | **1,762** | Montevideo, Uruguay |
 | [pote/gpm](https://github.com/pote/gpm) | **1,173** | Montevideo, Uruguay |
-| [gmonce/scikit-learn-book](https://github.com/gmonce/scikit-learn-book) | **854** | Montevideo, Uruguay |
+| [gmonce/scikit-learn-book](https://github.com/gmonce/scikit-learn-book) | **860** | Montevideo, Uruguay |
 | [acoppes/unity-history-window](https://github.com/acoppes/unity-history-window) | **352** | Uruguay |
 | [yetanotherco/aligned_layer](https://github.com/yetanotherco/aligned_layer) | **314** | Uruguay |
 | [devnacho/mountain_view](https://github.com/devnacho/mountain_view) | **274** | Montevideo, Uruguay |
@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **15**
-- Current global star frontier: **943**
+- Verified high-star candidates retained: **16**
+- Current global star frontier: **842**
 
 ### High-star verified preview
 
@@ -66,5 +66,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [marcosfede/algorithms](https://github.com/marcosfede/algorithms) | **1,129** | Uruguay |
 | [hernansartorio/react-nice-dates](https://github.com/hernansartorio/react-nice-dates) | **1,096** | Uruguay |
 | [hernansartorio/jquery-nice-select](https://github.com/hernansartorio/jquery-nice-select) | **954** | Uruguay |
+| [gmonce/scikit-learn-book](https://github.com/gmonce/scikit-learn-book) | **860** | Montevideo, Uruguay |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 273**
 - Progress: **0%**
-- Retained high-potential owner candidates: **115**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **116**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -27,7 +27,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [has2k1/plotnine](https://github.com/has2k1/plotnine) | **4,770** | Kampala, Uganda |
 | [jod35/fastapi-beyond-CRUD](https://github.com/jod35/fastapi-beyond-CRUD) | **475** | Bombo Uganda |
 | [mtvbrianking/multi-auth](https://github.com/mtvbrianking/multi-auth) | **180** | Kampala, Uganda |
-| [MUKE-coder/grit](https://github.com/MUKE-coder/grit) | **137** | KAMPALA -UGANDA |
+| [MUKE-coder/grit](https://github.com/MUKE-coder/grit) | **140** | KAMPALA -UGANDA |
 | [codebender828/breadstick](https://github.com/codebender828/breadstick) | **116** | Kampala, Uganda |
 | [jokamjohn/bucket_api](https://github.com/jokamjohn/bucket_api) | **88** | Kampala, Uganda |
 | [ace411/bingo-functional](https://github.com/ace411/bingo-functional) | **69** | Kampala, Uganda |

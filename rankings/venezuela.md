@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 334**
 - Progress: **0%**
 - Retained high-potential owner candidates: **166**
-- Search requests completed: **9**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,8 +25,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [VonHeikemen/lsp-zero.nvim](https://github.com/VonHeikemen/lsp-zero.nvim) | **3,974** | Venezuela |
-| [samuelmarina/is-even](https://github.com/samuelmarina/is-even) | **2,229** | Venezuela |
-| [mardous/BoomingMusic](https://github.com/mardous/BoomingMusic) | **543** | Venezuela |
+| [samuelmarina/is-even](https://github.com/samuelmarina/is-even) | **2,230** | Venezuela |
+| [mardous/BoomingMusic](https://github.com/mardous/BoomingMusic) | **550** | Venezuela |
 | [alexanyernas/Ejercicios-Practicos](https://github.com/alexanyernas/Ejercicios-Practicos) | **410** | Venezuela |
 | [NTBBloodbath/cheovim](https://github.com/NTBBloodbath/cheovim) | **348** | Caracas, Venezuela |
 | [DtxdF/AppJail](https://github.com/DtxdF/AppJail) | **237** | Venezuela |

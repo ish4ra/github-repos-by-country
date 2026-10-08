@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 107**
 - Progress: **0%**
-- Retained high-potential owner candidates: **336**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **343**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [malgamves/CommunityWriterPrograms](https://github.com/malgamves/CommunityWriterPrograms) | **4,185** | Lusaka, Zambia |
+| [malgamves/CommunityWriterPrograms](https://github.com/malgamves/CommunityWriterPrograms) | **4,186** | Lusaka, Zambia |
 | [rly0nheart/thedevilseye](https://github.com/rly0nheart/thedevilseye) | **267** | Zambia |
 | [chandachewe10/loan-management-system](https://github.com/chandachewe10/loan-management-system) | **148** | Zambia |
 | [engineervix/cv](https://github.com/engineervix/cv) | **54** | Lusaka, Zambia |

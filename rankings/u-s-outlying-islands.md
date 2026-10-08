@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 14%
+## Repository ranking status: Building 42%
 
-- Geography terms processed: **4 / 28**
-- Progress: **14%**
-- Retained high-potential owner candidates: **2**
-- Search requests completed: **4**
+- Geography terms processed: **12 / 28**
+- Progress: **42%**
+- Retained high-potential owner candidates: **3**
+- Search requests completed: **12**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,6 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
+| [realjarvis69/NintenDeck](https://github.com/realjarvis69/NintenDeck) | **21** | Jarvis Island |
 | [BakingLiberteZ/tui_tools](https://github.com/BakingLiberteZ/tui_tools) | **4** | Baker Island |
 | [RanchoSM/CTSDirectlinkLibrary](https://github.com/RanchoSM/CTSDirectlinkLibrary) | **1** | U.S. Outlying Islands |
 

@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 1,373**
 - Progress: **0%**
-- Retained high-potential owner candidates: **164**
-- Search requests completed: **9**
+- Retained high-potential owner candidates: **166**
+- Search requests completed: **8**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,26 +24,26 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | **132,638** | Vietnam |
-| [ZuzooVn/machine-learning-for-software-engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers) | **28,870** | Vietnam |
-| [thangchung/awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-core) | **21,398** | Ho Chi Minh City, Vietnam |
-| [tuhdo/os01](https://github.com/tuhdo/os01) | **13,719** | Vietnam |
-| [maxrave-dev/SimpMusic](https://github.com/maxrave-dev/SimpMusic) | **11,692** | Vietnam |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | **133,825** | Vietnam |
+| [ZuzooVn/machine-learning-for-software-engineers](https://github.com/ZuzooVn/machine-learning-for-software-engineers) | **28,872** | Vietnam |
+| [thangchung/awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-core) | **21,399** | Ho Chi Minh City, Vietnam |
+| [tuhdo/os01](https://github.com/tuhdo/os01) | **13,727** | Vietnam |
+| [maxrave-dev/SimpMusic](https://github.com/maxrave-dev/SimpMusic) | **11,778** | Vietnam |
 | [trungdq88/Awesome-Black-Friday-Cyber-Monday](https://github.com/trungdq88/Awesome-Black-Friday-Cyber-Monday) | **7,489** | Vietnam |
-| [hathach/tinyusb](https://github.com/hathach/tinyusb) | **7,168** | Vietnam 🇻🇳 |
-| [rey5137/material](https://github.com/rey5137/material) | **5,944** | Vietnam |
-| [vietanhdev/anylabeling](https://github.com/vietanhdev/anylabeling) | **3,492** | Vietnam |
+| [hathach/tinyusb](https://github.com/hathach/tinyusb) | **7,182** | Vietnam 🇻🇳 |
+| [rey5137/material](https://github.com/rey5137/material) | **5,945** | Vietnam |
+| [vietanhdev/anylabeling](https://github.com/vietanhdev/anylabeling) | **3,493** | Vietnam |
 | [nvh95/jest-preview](https://github.com/nvh95/jest-preview) | **2,389** | Vietnam |
-| [mrgoonie/claudekit-skills](https://github.com/mrgoonie/claudekit-skills) | **2,225** | Vietnam |
+| [mrgoonie/claudekit-skills](https://github.com/mrgoonie/claudekit-skills) | **2,227** | Vietnam |
 | [hnvn/flutter_shimmer](https://github.com/hnvn/flutter_shimmer) | **1,860** | Hanoi, Vietnam |
 | [duytq94/flutter-chat-demo](https://github.com/duytq94/flutter-chat-demo) | **1,829** | Vietnam |
-| [hoangvvo/next-connect](https://github.com/hoangvvo/next-connect) | **1,651** | Vietnam |
-| [aiko-chan-ai/DiscordBotClient](https://github.com/aiko-chan-ai/DiscordBotClient) | **1,476** | Vietnam (Elysia Realm) |
+| [hoangvvo/next-connect](https://github.com/hoangvvo/next-connect) | **1,653** | Vietnam |
+| [aiko-chan-ai/DiscordBotClient](https://github.com/aiko-chan-ai/DiscordBotClient) | **1,478** | Vietnam (Elysia Realm) |
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **40**
-- Current global star frontier: **893**
+- Verified high-star candidates retained: **43**
+- Current global star frontier: **842**
 
 ### High-star verified preview
 
