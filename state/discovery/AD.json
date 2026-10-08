@@ -8,27 +8,44 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "942ec065d50c200998964d3c91d7843b01b14fd8fa78e2023bde5aba50a914dc",
+    "sha256": "163fff246ad35544baa077b155cd8d2b1f0898f37a5b9c01f288f13ae30e9205",
     "termsTotal": 28
   },
   "phase": "discovery",
-  "nextTermIndex": 5,
-  "activeTerm": null,
+  "nextTermIndex": 0,
+  "activeTerm": {
+    "index": 0,
+    "term": "Andorra",
+    "queue": [
+      {
+        "query": "location:\"Andorra\"",
+        "stage": "base",
+        "cursor": "Y3Vyc29yOjQwMA==",
+        "pageNumber": 9,
+        "attempts": 0
+      }
+    ],
+    "startedAt": "2026-10-08T06:14:35.335Z",
+    "requests": 8,
+    "leafPages": 8,
+    "shardExpansions": 0,
+    "reportedCount": null
+  },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:26:19.495Z",
-  "updatedAt": "2026-10-04T02:55:29.793Z",
+  "startedAt": "2026-10-08T06:14:35.335Z",
+  "updatedAt": "2026-10-08T06:15:04.963Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
-    "termsProcessed": 5,
-    "searchRequests": 17,
-    "leafPages": 17,
+    "termsProcessed": 0,
+    "searchRequests": 8,
+    "leafPages": 8,
     "shardExpansions": 0,
-    "rawOwnerHits": 701,
-    "acceptedOwnerHits": 691,
-    "rejectedOwnerHits": 10,
+    "rawOwnerHits": 400,
+    "acceptedOwnerHits": 394,
+    "rejectedOwnerHits": 6,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4451
+    "minimumRateLimitRemaining": 4976
   },
   "unresolvedShards": [],
   "candidates": [
@@ -211,12 +228,12 @@
         "nameWithOwner": "jmpsec/osctrl",
         "url": "https://github.com/jmpsec/osctrl",
         "description": "Fast and efficient osquery management",
-        "stargazerCount": 534,
+        "stargazerCount": 535,
         "forkCount": 71,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2018-12-17T22:33:34Z",
-        "pushedAt": "2026-10-02T19:48:36Z",
+        "pushedAt": "2026-10-05T21:26:42Z",
         "homepageUrl": "https://osctrl.net",
         "primaryLanguage": {
           "name": "Go"
@@ -289,7 +306,7 @@
         "nameWithOwner": "Danziger/slotjs",
         "url": "https://github.com/Danziger/slotjs",
         "description": "🎰 Circular slot machine mobile-first SPA built using JavaScript, CSS variables and Emojis!",
-        "stargazerCount": 372,
+        "stargazerCount": 373,
         "forkCount": 108,
         "isArchived": false,
         "isFork": false,
@@ -457,6 +474,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjIwMTY0NTkw",
+      "login": "ericrisco",
+      "name": "Eric Risco de la Torre",
+      "type": "User",
+      "location": "Andorra",
+      "url": "https://github.com/ericrisco",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/20164590?u=46ae6af4530ef90ae233c36f2513c7c2dd3eb9e1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Andorra"
+      },
+      "discoveryTerms": [
+        "Andorra"
+      ],
+      "topRepository": {
+        "name": "rsc-harness",
+        "nameWithOwner": "ericrisco/rsc-harness",
+        "url": "https://github.com/ericrisco/rsc-harness",
+        "description": "Your agent invents things because it has no memory, and can't touch your database because it has no arms. rsc is the meta-harness that gives it both, plus the trade to know the job and the reflexes to not break your repo. For Claude Code, Codex and 15 more.",
+        "stargazerCount": 167,
+        "forkCount": 12,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-31T08:00:19Z",
+        "pushedAt": "2026-10-07T22:42:41Z",
+        "homepageUrl": "https://ericrisco.github.io/rsc-harness/",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDEyOk9yZ2FuaXphdGlvbjI1Nzg4NDAy",
       "login": "viewstools",
       "name": "Views Framework",
@@ -490,45 +546,6 @@
           "name": "JavaScript"
         },
         "licenseInfo": null
-      }
-    },
-    {
-      "id": "MDQ6VXNlcjIwMTY0NTkw",
-      "login": "ericrisco",
-      "name": "Eric Risco de la Torre",
-      "type": "User",
-      "location": "Andorra",
-      "url": "https://github.com/ericrisco",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/20164590?u=46ae6af4530ef90ae233c36f2513c7c2dd3eb9e1&v=4",
-      "attribution": {
-        "accepted": true,
-        "countryCode": "AD",
-        "confidence": "high",
-        "evidence": "explicit-country",
-        "matched": "Andorra"
-      },
-      "discoveryTerms": [
-        "Andorra"
-      ],
-      "topRepository": {
-        "name": "rsc-harness",
-        "nameWithOwner": "ericrisco/rsc-harness",
-        "url": "https://github.com/ericrisco/rsc-harness",
-        "description": "Your agent invents things because it has no memory, and can't touch your database because it has no arms. rsc is the meta-harness that gives it both, plus the trade to know the job and the reflexes to not break your repo. For Claude Code, Codex and 15 more.",
-        "stargazerCount": 141,
-        "forkCount": 11,
-        "isArchived": false,
-        "isFork": false,
-        "createdAt": "2026-05-31T08:00:19Z",
-        "pushedAt": "2026-10-02T18:43:07Z",
-        "homepageUrl": "https://ericrisco.github.io/rsc-harness/",
-        "primaryLanguage": {
-          "name": "JavaScript"
-        },
-        "licenseInfo": {
-          "name": "MIT License",
-          "spdxId": "MIT"
-        }
       }
     },
     {
@@ -1255,6 +1272,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQxMDQ1MDk=",
+      "login": "acastellana",
+      "name": "Albert Castellana",
+      "type": "User",
+      "location": "Andorra",
+      "url": "https://github.com/acastellana",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4104509?u=007eda1e25a421608bb2caf5cfc74296bc74c3cb&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Andorra"
+      },
+      "discoveryTerms": [
+        "Andorra"
+      ],
+      "topRepository": {
+        "name": "marble-curriculum",
+        "nameWithOwner": "acastellana/marble-curriculum",
+        "url": "https://github.com/acastellana/marble-curriculum",
+        "description": "Marble Skill Taxonomy as a read-only GenSwarms object (curriculum graph: topics, prerequisites, learning frontier)",
+        "stargazerCount": 24,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-08T21:04:52Z",
+        "pushedAt": "2026-07-08T22:23:06Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Elixir"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjUxNzI0MjU=",
       "login": "madmongo1",
       "name": "Richard Hodges",
@@ -1290,45 +1346,6 @@
         "licenseInfo": {
           "name": "Boost Software License 1.0",
           "spdxId": "BSL-1.0"
-        }
-      }
-    },
-    {
-      "id": "MDQ6VXNlcjQxMDQ1MDk=",
-      "login": "acastellana",
-      "name": "Albert Castellana",
-      "type": "User",
-      "location": "Andorra",
-      "url": "https://github.com/acastellana",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4104509?u=007eda1e25a421608bb2caf5cfc74296bc74c3cb&v=4",
-      "attribution": {
-        "accepted": true,
-        "countryCode": "AD",
-        "confidence": "high",
-        "evidence": "explicit-country",
-        "matched": "Andorra"
-      },
-      "discoveryTerms": [
-        "Andorra"
-      ],
-      "topRepository": {
-        "name": "marble-curriculum",
-        "nameWithOwner": "acastellana/marble-curriculum",
-        "url": "https://github.com/acastellana/marble-curriculum",
-        "description": "Marble Skill Taxonomy as a read-only GenSwarms object (curriculum graph: topics, prerequisites, learning frontier)",
-        "stargazerCount": 22,
-        "forkCount": 2,
-        "isArchived": false,
-        "isFork": false,
-        "createdAt": "2026-07-08T21:04:52Z",
-        "pushedAt": "2026-07-08T22:23:06Z",
-        "homepageUrl": null,
-        "primaryLanguage": {
-          "name": "Elixir"
-        },
-        "licenseInfo": {
-          "name": "MIT License",
-          "spdxId": "MIT"
         }
       }
     },
@@ -1428,7 +1445,7 @@
         "nameWithOwner": "AdrianMastronardi/bookwright",
         "url": "https://github.com/AdrianMastronardi/bookwright",
         "description": "A six-phase pipeline for long-form nonfiction writing, packaged as a Claude Code skill",
-        "stargazerCount": 18,
+        "stargazerCount": 19,
         "forkCount": 1,
         "isArchived": false,
         "isFork": false,
@@ -1478,6 +1495,45 @@
           "name": "PHP"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjkwNzgyMzg1",
+      "login": "insanerask77",
+      "name": "Rafa Madolell Vargas",
+      "type": "User",
+      "location": "Andorra",
+      "url": "https://github.com/insanerask77",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/90782385?u=610958ff0ba3170d0a22ccfea5f9ce5f8af91804&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Andorra"
+      },
+      "discoveryTerms": [
+        "Andorra"
+      ],
+      "topRepository": {
+        "name": "headscale-easy",
+        "nameWithOwner": "insanerask77/headscale-easy",
+        "url": "https://github.com/insanerask77/headscale-easy",
+        "description": "A simple, self-hosted way to deploy and manage Headscale — with a web UI, authentication, HTTPS, DNS, ACLs, backups, and more.",
+        "stargazerCount": 16,
+        "forkCount": 4,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-24T09:00:52Z",
+        "pushedAt": "2026-10-06T22:25:25Z",
+        "homepageUrl": "https://insanerask77.github.io/headscale-easy/",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -1598,45 +1654,6 @@
       }
     },
     {
-      "id": "MDQ6VXNlcjkwNzgyMzg1",
-      "login": "insanerask77",
-      "name": "Rafa Madolell Vargas",
-      "type": "User",
-      "location": "Andorra",
-      "url": "https://github.com/insanerask77",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/90782385?u=610958ff0ba3170d0a22ccfea5f9ce5f8af91804&v=4",
-      "attribution": {
-        "accepted": true,
-        "countryCode": "AD",
-        "confidence": "high",
-        "evidence": "explicit-country",
-        "matched": "Andorra"
-      },
-      "discoveryTerms": [
-        "Andorra"
-      ],
-      "topRepository": {
-        "name": "headscale-easy",
-        "nameWithOwner": "insanerask77/headscale-easy",
-        "url": "https://github.com/insanerask77/headscale-easy",
-        "description": "A simple, self-hosted way to deploy and manage Headscale — with a web UI, authentication, HTTPS, DNS, ACLs, backups, and more.",
-        "stargazerCount": 13,
-        "forkCount": 4,
-        "isArchived": false,
-        "isFork": false,
-        "createdAt": "2026-09-24T09:00:52Z",
-        "pushedAt": "2026-10-03T08:40:10Z",
-        "homepageUrl": "https://insanerask77.github.io/headscale-easy/",
-        "primaryLanguage": {
-          "name": "Python"
-        },
-        "licenseInfo": {
-          "name": "MIT License",
-          "spdxId": "MIT"
-        }
-      }
-    },
-    {
       "id": "MDQ6VXNlcjg1MzAxNDI=",
       "login": "pedro-seo",
       "name": "Pedro SEO",
@@ -1659,7 +1676,7 @@
         "nameWithOwner": "pedro-seo/skills-seo-claude",
         "url": "https://github.com/pedro-seo/skills-seo-claude",
         "description": "Skills de SEO para Claude",
-        "stargazerCount": 10,
+        "stargazerCount": 11,
         "forkCount": 3,
         "isArchived": false,
         "isFork": false,
@@ -1987,7 +2004,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2024-07-20T06:39:16Z",
-        "pushedAt": "2026-09-28T03:37:22Z",
+        "pushedAt": "2026-10-05T04:01:58Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Scala"
@@ -2428,11 +2445,11 @@
         "url": "https://github.com/Empostor/Empostor",
         "description": "The First Dynamic Ports and Authentication supported Opensource Among Us private server",
         "stargazerCount": 6,
-        "forkCount": 6,
+        "forkCount": 5,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-05-16T23:14:43Z",
-        "pushedAt": "2026-10-02T15:18:20Z",
+        "pushedAt": "2026-10-07T02:43:52Z",
         "homepageUrl": "https://empostor.github.io",
         "primaryLanguage": {
           "name": "C#"
@@ -5640,21 +5657,24 @@
         "Andorra"
       ],
       "topRepository": {
-        "name": "Gothenburg-gitops",
-        "nameWithOwner": "AdamBaali/Gothenburg-gitops",
-        "url": "https://github.com/AdamBaali/Gothenburg-gitops",
-        "description": null,
+        "name": "fleet.mpc.ad-gitops",
+        "nameWithOwner": "AdamBaali/fleet.mpc.ad-gitops",
+        "url": "https://github.com/AdamBaali/fleet.mpc.ad-gitops",
+        "description": "Best practice for using Fleet with a GitOps workflow",
         "stargazerCount": 0,
         "forkCount": 0,
         "isArchived": false,
         "isFork": false,
-        "createdAt": "2026-09-28T12:03:21Z",
-        "pushedAt": "2026-09-28T14:41:58Z",
-        "homepageUrl": null,
+        "createdAt": "2026-05-12T08:59:17Z",
+        "pushedAt": "2026-10-08T00:13:48Z",
+        "homepageUrl": "",
         "primaryLanguage": {
           "name": "Shell"
         },
-        "licenseInfo": null
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
       }
     },
     {
@@ -5969,7 +5989,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-10-01T08:04:35Z",
-        "pushedAt": "2026-10-01T08:05:45Z",
+        "pushedAt": "2026-10-05T14:32:22Z",
         "homepageUrl": "https://parcomms.com",
         "primaryLanguage": null,
         "licenseInfo": null
@@ -7801,7 +7821,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-06-07T10:20:18Z",
-        "pushedAt": "2026-06-07T10:29:35Z",
+        "pushedAt": "2026-10-07T13:55:32Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Shell"
@@ -10840,7 +10860,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-09-28T20:04:00Z",
-        "pushedAt": "2026-10-02T11:04:06Z",
+        "pushedAt": "2026-10-07T19:40:09Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Python"
@@ -11952,6 +11972,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjIxNDAwNDA=",
+      "login": "Smokanci",
+      "name": null,
+      "type": "User",
+      "location": "Andorra",
+      "url": "https://github.com/Smokanci",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2140040?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Andorra"
+      },
+      "discoveryTerms": [
+        "Andorra"
+      ],
+      "topRepository": {
+        "name": "FigCommander-Releases",
+        "nameWithOwner": "Smokanci/FigCommander-Releases",
+        "url": "https://github.com/Smokanci/FigCommander-Releases",
+        "description": "Keyboard-driven dual-pane file manager for macOS, in the spirit of Total Commander. Downloads only.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-03T19:56:14Z",
+        "pushedAt": "2026-10-08T05:45:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "O_kgDOCU5Q3Q",
       "login": "SniderFilmsSL",
       "name": "Filmsdle",
@@ -12836,6 +12890,40 @@
         "primaryLanguage": {
           "name": "HTML"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg5MDQ5Ng==",
+      "login": "vlatynski",
+      "name": "Vlad",
+      "type": "User",
+      "location": "Andorra la Vella",
+      "url": "https://github.com/vlatynski",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/890496?u=dea6e0035d31605f0eb186ae91671bf873799074&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AD",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Andorra"
+      },
+      "discoveryTerms": [
+        "Andorra"
+      ],
+      "topRepository": {
+        "name": "vlatynski.github.io",
+        "nameWithOwner": "vlatynski/vlatynski.github.io",
+        "url": "https://github.com/vlatynski/vlatynski.github.io",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-11-07T12:55:40Z",
+        "pushedAt": "2023-11-07T12:55:40Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },

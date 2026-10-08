@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "c48697c3f1077e546226d8389a16c8e509438d8c816396569664593f91494551",
+    "sha256": "aaf783de85f9ce1210b7955fd17f1bc0e5c4f4baf5329b62f23469c3f2373ed6",
     "termsTotal": 1144
   },
   "phase": "discovery",
@@ -18,10 +18,24 @@
     "term": "Argentina",
     "queue": [
       {
+        "query": "location:\"Argentina\" type:user followers:0 repos:1..4 created:2011-01-01..2011-12-31",
+        "stage": "year:2011",
+        "cursor": "Y3Vyc29yOjUw",
+        "pageNumber": 2,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Argentina\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
+        "stage": "year:2012",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
         "query": "location:\"Argentina\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
         "stage": "year:2013",
-        "cursor": "Y3Vyc29yOjIwMA==",
-        "pageNumber": 5,
+        "cursor": null,
+        "pageNumber": 1,
         "attempts": 0
       },
       {
@@ -270,27 +284,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:26:34.702Z",
-    "requests": 17,
-    "leafPages": 13,
+    "startedAt": "2026-10-08T06:16:02.892Z",
+    "requests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "reportedCount": 19276
+    "reportedCount": 19330
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:26:34.702Z",
-  "updatedAt": "2026-10-04T02:56:37.097Z",
+  "startedAt": "2026-10-08T06:16:02.892Z",
+  "updatedAt": "2026-10-08T06:16:21.900Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 17,
-    "leafPages": 13,
+    "searchRequests": 8,
+    "leafPages": 4,
     "shardExpansions": 4,
-    "rawOwnerHits": 665,
-    "acceptedOwnerHits": 660,
-    "rejectedOwnerHits": 5,
+    "rawOwnerHits": 251,
+    "acceptedOwnerHits": 247,
+    "rejectedOwnerHits": 4,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4411
+    "minimumRateLimitRemaining": 4937
   },
   "unresolvedShards": [],
   "candidates": [
@@ -317,12 +331,12 @@
         "nameWithOwner": "aseprite/aseprite",
         "url": "https://github.com/aseprite/aseprite",
         "description": "Animated sprite editor & pixel art tool (Windows, macOS, Linux)",
-        "stargazerCount": 39852,
-        "forkCount": 9159,
+        "stargazerCount": 39942,
+        "forkCount": 9189,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2014-08-19T23:44:50Z",
-        "pushedAt": "2026-09-30T21:40:51Z",
+        "pushedAt": "2026-10-07T11:19:13Z",
         "homepageUrl": "https://www.aseprite.org",
         "primaryLanguage": {
           "name": "C++"
@@ -353,8 +367,8 @@
         "nameWithOwner": "bevacqua/dragula",
         "url": "https://github.com/bevacqua/dragula",
         "description": ":ok_hand: Drag and drop so simple it hurts",
-        "stargazerCount": 22127,
-        "forkCount": 1918,
+        "stargazerCount": 22135,
+        "forkCount": 1917,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2015-04-13T21:35:38Z",
@@ -392,12 +406,12 @@
         "nameWithOwner": "maurosoria/dirsearch",
         "url": "https://github.com/maurosoria/dirsearch",
         "description": "Web path scanner",
-        "stargazerCount": 14917,
-        "forkCount": 2453,
+        "stargazerCount": 14931,
+        "forkCount": 2454,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2013-04-30T15:57:40Z",
-        "pushedAt": "2026-10-03T07:28:43Z",
+        "pushedAt": "2026-10-07T09:24:23Z",
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "Python"
@@ -428,12 +442,12 @@
         "nameWithOwner": "facundoolano/software-papers",
         "url": "https://github.com/facundoolano/software-papers",
         "description": "📚 A curated list of papers for Software Engineers",
-        "stargazerCount": 6599,
+        "stargazerCount": 6600,
         "forkCount": 339,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2022-07-04T00:01:33Z",
-        "pushedAt": "2026-05-07T13:58:35Z",
+        "pushedAt": "2026-10-04T16:06:13Z",
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "Python"
@@ -467,8 +481,8 @@
         "nameWithOwner": "sammwyy/MikuMikuBeam",
         "url": "https://github.com/sammwyy/MikuMikuBeam",
         "description": "An open-source network stresser tool but it's Hatsune Miku",
-        "stargazerCount": 5867,
-        "forkCount": 537,
+        "stargazerCount": 5870,
+        "forkCount": 538,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-01-20T02:45:30Z",
@@ -506,7 +520,7 @@
         "nameWithOwner": "andresriancho/w3af",
         "url": "https://github.com/andresriancho/w3af",
         "description": "w3af: web application attack and audit framework, the open source web vulnerability scanner.",
-        "stargazerCount": 4911,
+        "stargazerCount": 4914,
         "forkCount": 1237,
         "isArchived": false,
         "isFork": false,
@@ -542,8 +556,8 @@
         "nameWithOwner": "pazguille/offline-first",
         "url": "https://github.com/pazguille/offline-first",
         "description": ":electric_plug: Everything you need to know to create offline-first web apps.",
-        "stargazerCount": 3325,
-        "forkCount": 196,
+        "stargazerCount": 3326,
+        "forkCount": 195,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2014-08-07T03:14:24Z",
@@ -615,8 +629,8 @@
         "nameWithOwner": "chinoogawa/fbht",
         "url": "https://github.com/chinoogawa/fbht",
         "description": "Facebook Hacking Tool",
-        "stargazerCount": 1614,
-        "forkCount": 496,
+        "stargazerCount": 1615,
+        "forkCount": 495,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2013-12-16T06:27:55Z",
@@ -659,7 +673,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2018-03-24T21:32:30Z",
-        "pushedAt": "2026-09-29T23:27:34Z",
+        "pushedAt": "2026-10-04T00:35:04Z",
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "Python"
@@ -693,8 +707,8 @@
         "nameWithOwner": "soyHenry/Python-Prep",
         "url": "https://github.com/soyHenry/Python-Prep",
         "description": null,
-        "stargazerCount": 972,
-        "forkCount": 15171,
+        "stargazerCount": 973,
+        "forkCount": 15167,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2022-01-11T18:05:17Z",
@@ -729,12 +743,12 @@
         "nameWithOwner": "lambdaclass/ethrex",
         "url": "https://github.com/lambdaclass/ethrex",
         "description": "Minimalist, stable, modular, fast, and ZK native implementation of the Ethereum protocol in Rust. L1 and L2 execution client.",
-        "stargazerCount": 901,
-        "forkCount": 238,
+        "stargazerCount": 903,
+        "forkCount": 240,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2024-05-30T18:00:35Z",
-        "pushedAt": "2026-10-02T18:09:56Z",
+        "pushedAt": "2026-10-08T02:37:42Z",
         "homepageUrl": "http://docs.ethrex.xyz/",
         "primaryLanguage": {
           "name": "Rust"
@@ -1074,7 +1088,7 @@
         "url": "https://github.com/pablokbs/plex-rpi",
         "description": null,
         "stargazerCount": 253,
-        "forkCount": 139,
+        "forkCount": 140,
         "isArchived": true,
         "isFork": false,
         "createdAt": "2018-10-20T16:03:17Z",
@@ -1217,7 +1231,7 @@
         "nameWithOwner": "datosgobar/georef-ar-api",
         "url": "https://github.com/datosgobar/georef-ar-api",
         "description": "API del Servicio de Normalización de Datos Geográficos de Argentina.",
-        "stargazerCount": 178,
+        "stargazerCount": 179,
         "forkCount": 41,
         "isArchived": false,
         "isFork": false,
@@ -1400,7 +1414,7 @@
         "url": "https://github.com/octaviovillegas/CursoIngresoJS",
         "description": "Curso de ingreso con JavaScript",
         "stargazerCount": 121,
-        "forkCount": 3922,
+        "forkCount": 3920,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2015-08-06T23:04:12Z",
@@ -1727,8 +1741,8 @@
         "nameWithOwner": "mateolafalce/topic2manim",
         "url": "https://github.com/mateolafalce/topic2manim",
         "description": "Automatic educational video generator using AI and Manim. Converts any topic into a professional animated video with narration and mathematical visualizations.",
-        "stargazerCount": 35,
-        "forkCount": 7,
+        "stargazerCount": 37,
+        "forkCount": 8,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-01-10T00:24:51Z",
@@ -2133,7 +2147,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2019-11-15T08:37:59Z",
-        "pushedAt": "2026-09-24T22:57:37Z",
+        "pushedAt": "2026-10-05T13:34:04Z",
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "HTML"
@@ -2355,7 +2369,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2022-07-20T12:06:45Z",
-        "pushedAt": "2026-10-03T07:03:18Z",
+        "pushedAt": "2026-10-08T03:06:48Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -14540,7 +14554,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-08-16T01:25:22Z",
-        "pushedAt": "2026-09-28T10:54:28Z",
+        "pushedAt": "2026-10-07T13:54:36Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Python"
@@ -16440,6 +16454,40 @@
         "isFork": false,
         "createdAt": "2019-11-14T13:09:44Z",
         "pushedAt": "2019-11-14T16:24:22Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOB1JGkQ",
+      "login": "VeronicaSena",
+      "name": "Verónica Sena",
+      "type": "User",
+      "location": "CABA, Buenos Aires, Argentina",
+      "url": "https://github.com/VeronicaSena",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/122832529?u=d8a9558fa49a5ba7dbc62ffa3bf3297881616e91&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AR",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Argentina"
+      },
+      "discoveryTerms": [
+        "Argentina"
+      ],
+      "topRepository": {
+        "name": "prueba_ejemplo",
+        "nameWithOwner": "VeronicaSena/prueba_ejemplo",
+        "url": "https://github.com/VeronicaSena/prueba_ejemplo",
+        "description": "primer prueba",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-01-17T00:10:35Z",
+        "pushedAt": "2023-01-17T00:10:35Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null

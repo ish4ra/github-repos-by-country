@@ -8,7 +8,7 @@
   },
   "geography": {
     "release": "v3.2-export.8",
-    "sha256": "73df3fe7b54c0efe7778f44c22ce83704ebb83ea040e7956a63a574406584681",
+    "sha256": "765fb169b1a6ea346112df7ef4038e924396f5dde5a0eee7ea07330c92452de2",
     "termsTotal": 15
   },
   "phase": "discovery",
@@ -18,10 +18,17 @@
     "term": "Antarctica",
     "queue": [
       {
+        "query": "location:\"Antarctica\" type:user followers:0",
+        "stage": "followers",
+        "cursor": "Y3Vyc29yOjMwMA==",
+        "pageNumber": 7,
+        "attempts": 0
+      },
+      {
         "query": "location:\"Antarctica\" type:user followers:1..4",
         "stage": "followers",
-        "cursor": "Y3Vyc29yOjE1MA==",
-        "pageNumber": 4,
+        "cursor": null,
+        "pageNumber": 1,
         "attempts": 0
       },
       {
@@ -123,27 +130,27 @@
         "attempts": 0
       }
     ],
-    "startedAt": "2026-10-03T08:26:28.660Z",
-    "requests": 17,
-    "leafPages": 15,
+    "startedAt": "2026-10-08T06:15:28.499Z",
+    "requests": 8,
+    "leafPages": 6,
     "shardExpansions": 2,
-    "reportedCount": 1067
+    "reportedCount": 1071
   },
   "discoveryComplete": false,
-  "startedAt": "2026-10-03T08:26:28.660Z",
-  "updatedAt": "2026-10-04T02:56:07.383Z",
+  "startedAt": "2026-10-08T06:15:28.499Z",
+  "updatedAt": "2026-10-08T06:15:53.193Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 17,
-    "leafPages": 15,
+    "searchRequests": 8,
+    "leafPages": 6,
     "shardExpansions": 2,
-    "rawOwnerHits": 802,
-    "acceptedOwnerHits": 800,
-    "rejectedOwnerHits": 2,
+    "rawOwnerHits": 400,
+    "acceptedOwnerHits": 399,
+    "rejectedOwnerHits": 1,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4427
+    "minimumRateLimitRemaining": 4952
   },
   "unresolvedShards": [],
   "candidates": [
@@ -170,12 +177,12 @@
         "nameWithOwner": "MarlinFirmware/Marlin",
         "url": "https://github.com/MarlinFirmware/Marlin",
         "description": "Marlin is a firmware for RepRap 3D printers optimized for both 8 and 32 bit microcontrollers.  Marlin supports all common platforms.   Many commercial 3D printers come with Marlin installed.  Check with your vendor if you need source code for your specific machine.",
-        "stargazerCount": 17613,
-        "forkCount": 19724,
+        "stargazerCount": 17617,
+        "forkCount": 19721,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2011-08-13T08:07:20Z",
-        "pushedAt": "2026-10-03T02:17:01Z",
+        "pushedAt": "2026-10-08T00:52:36Z",
         "homepageUrl": "https://marlinfw.org",
         "primaryLanguage": {
           "name": "C++"
@@ -209,8 +216,8 @@
         "nameWithOwner": "adam-maj/tiny-gpu",
         "url": "https://github.com/adam-maj/tiny-gpu",
         "description": "A minimal GPU design in Verilog to learn how GPUs work from the ground up",
-        "stargazerCount": 13048,
-        "forkCount": 1254,
+        "stargazerCount": 13054,
+        "forkCount": 1257,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2024-04-09T20:33:50Z",
@@ -245,7 +252,7 @@
         "nameWithOwner": "r-lyeh/single_file_libs",
         "url": "https://github.com/r-lyeh/single_file_libs",
         "description": "List of single-file C/C++ libraries, with emphasis on clause-less licenses.",
-        "stargazerCount": 10021,
+        "stargazerCount": 10022,
         "forkCount": 649,
         "isArchived": false,
         "isFork": false,
@@ -279,12 +286,12 @@
         "nameWithOwner": "ublue-os/bazzite",
         "url": "https://github.com/ublue-os/bazzite",
         "description": "Bazzite makes gaming and everyday use smoother and simpler across desktop PCs, handhelds, tablets, and home theater PCs.",
-        "stargazerCount": 9135,
-        "forkCount": 1122,
+        "stargazerCount": 9155,
+        "forkCount": 1126,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2023-02-09T19:05:47Z",
-        "pushedAt": "2026-10-02T22:50:47Z",
+        "pushedAt": "2026-10-08T05:49:34Z",
         "homepageUrl": "https://bazzite.gg",
         "primaryLanguage": {
           "name": "Just"
@@ -357,12 +364,12 @@
         "nameWithOwner": "FxEmbed/FxEmbed",
         "url": "https://github.com/FxEmbed/FxEmbed",
         "description": "Fix X/Twitter and Bluesky embeds! Use multiple images, videos, polls, translations and more on Discord, Telegram and others",
-        "stargazerCount": 5647,
-        "forkCount": 268,
+        "stargazerCount": 5670,
+        "forkCount": 271,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2022-07-13T23:59:04Z",
-        "pushedAt": "2026-10-01T15:49:23Z",
+        "pushedAt": "2026-10-08T05:58:40Z",
         "homepageUrl": "https://docs.fxembed.com",
         "primaryLanguage": {
           "name": "TypeScript"
@@ -396,12 +403,12 @@
         "nameWithOwner": "bestruirui/octopus",
         "url": "https://github.com/bestruirui/octopus",
         "description": "One Hub All LLMs For You | 为个人打造的 LLM API 聚合网关",
-        "stargazerCount": 2667,
-        "forkCount": 437,
+        "stargazerCount": 2683,
+        "forkCount": 439,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-11-18T01:41:03Z",
-        "pushedAt": "2026-09-30T07:20:44Z",
+        "pushedAt": "2026-10-07T08:38:09Z",
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "TypeScript"
@@ -436,11 +443,11 @@
         "url": "https://github.com/Washi1337/AsmResolver",
         "description": "A library for creating, reading and editing PE files and .NET modules.",
         "stargazerCount": 1125,
-        "forkCount": 155,
+        "forkCount": 154,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2013-02-20T14:07:25Z",
-        "pushedAt": "2026-09-29T13:59:34Z",
+        "pushedAt": "2026-10-03T16:40:10Z",
         "homepageUrl": "https://docs.washi.dev/asmresolver/",
         "primaryLanguage": {
           "name": "C#"
@@ -474,8 +481,8 @@
         "nameWithOwner": "sedmelluq/lavaplayer",
         "url": "https://github.com/sedmelluq/lavaplayer",
         "description": "Audio player library for Discord",
-        "stargazerCount": 1002,
-        "forkCount": 246,
+        "stargazerCount": 1003,
+        "forkCount": 245,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2016-10-02T06:20:22Z",
@@ -513,7 +520,7 @@
         "nameWithOwner": "pygame-web/pygbag",
         "url": "https://github.com/pygame-web/pygbag",
         "description": "python and pygame wasm for everyone ( packager + test server + simulator )",
-        "stargazerCount": 519,
+        "stargazerCount": 521,
         "forkCount": 59,
         "isArchived": false,
         "isFork": false,
@@ -552,12 +559,12 @@
         "nameWithOwner": "TerraFirmaGreg-Team/Modpack-Modern",
         "url": "https://github.com/TerraFirmaGreg-Team/Modpack-Modern",
         "description": "An innovative modpack that contains GregTech and TerraFirmaCraft on 1.20.x.",
-        "stargazerCount": 515,
-        "forkCount": 258,
+        "stargazerCount": 520,
+        "forkCount": 260,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2022-09-13T01:02:35Z",
-        "pushedAt": "2026-10-02T23:01:19Z",
+        "pushedAt": "2026-10-07T20:20:46Z",
         "homepageUrl": "https://www.curseforge.com/minecraft/modpacks/terrafirmagreg-modern",
         "primaryLanguage": {
           "name": "JavaScript"
@@ -596,7 +603,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2024-03-28T20:19:33Z",
-        "pushedAt": "2026-10-03T08:25:47Z",
+        "pushedAt": "2026-10-06T10:35:51Z",
         "homepageUrl": "https://github.com/orgs/home-operations/packages?repo_name=containers",
         "primaryLanguage": {
           "name": "Dockerfile"
@@ -669,7 +676,7 @@
         "nameWithOwner": "sympa-community/sympa",
         "url": "https://github.com/sympa-community/sympa",
         "description": "Sympa, Mailing List Management Software",
-        "stargazerCount": 316,
+        "stargazerCount": 318,
         "forkCount": 145,
         "isArchived": false,
         "isFork": false,
@@ -708,8 +715,8 @@
         "nameWithOwner": "TheProjectLumina/LuminaClient",
         "url": "https://github.com/TheProjectLumina/LuminaClient",
         "description": "Lumina Client For Android With Cross Platform Proxy Support",
-        "stargazerCount": 243,
-        "forkCount": 57,
+        "stargazerCount": 244,
+        "forkCount": 60,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-05-07T19:05:42Z",
@@ -786,7 +793,7 @@
         "nameWithOwner": "mesqme/infinite-terrain",
         "url": "https://github.com/mesqme/infinite-terrain",
         "description": "Infinite golf field",
-        "stargazerCount": 207,
+        "stargazerCount": 210,
         "forkCount": 41,
         "isArchived": false,
         "isFork": false,
@@ -898,12 +905,12 @@
         "nameWithOwner": "projectbluefin/dakota",
         "url": "https://github.com/projectbluefin/dakota",
         "description": "The buildstream for making Bluefin.",
-        "stargazerCount": 172,
-        "forkCount": 33,
+        "stargazerCount": 177,
+        "forkCount": 37,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-11-16T03:53:14Z",
-        "pushedAt": "2026-10-02T19:23:19Z",
+        "pushedAt": "2026-10-07T18:26:55Z",
         "homepageUrl": "https://projectbluefin.io",
         "primaryLanguage": {
           "name": "Python"
@@ -990,6 +997,45 @@
       }
     },
     {
+      "id": "O_kgDODb-09g",
+      "login": "bootcrew",
+      "name": "Bootcrew",
+      "type": "Organization",
+      "location": "Antarctica",
+      "url": "https://github.com/bootcrew",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/230667510?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AQ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Antarctica"
+      },
+      "discoveryTerms": [
+        "Antarctica"
+      ],
+      "topRepository": {
+        "name": "mono",
+        "nameWithOwner": "bootcrew/mono",
+        "url": "https://github.com/bootcrew/mono",
+        "description": "Mono repository for all bootcrew images",
+        "stargazerCount": 127,
+        "forkCount": 22,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-19T05:50:48Z",
+        "pushedAt": "2026-07-27T17:40:34Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Dockerfile"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjY1OTM0MzU=",
       "login": "0x92",
       "name": "Private Use",
@@ -1026,45 +1072,6 @@
       }
     },
     {
-      "id": "O_kgDODb-09g",
-      "login": "bootcrew",
-      "name": "Bootcrew",
-      "type": "Organization",
-      "location": "Antarctica",
-      "url": "https://github.com/bootcrew",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/230667510?v=4",
-      "attribution": {
-        "accepted": true,
-        "countryCode": "AQ",
-        "confidence": "high",
-        "evidence": "explicit-country",
-        "matched": "Antarctica"
-      },
-      "discoveryTerms": [
-        "Antarctica"
-      ],
-      "topRepository": {
-        "name": "mono",
-        "nameWithOwner": "bootcrew/mono",
-        "url": "https://github.com/bootcrew/mono",
-        "description": "Mono repository for all bootcrew images",
-        "stargazerCount": 126,
-        "forkCount": 22,
-        "isArchived": false,
-        "isFork": false,
-        "createdAt": "2026-03-19T05:50:48Z",
-        "pushedAt": "2026-07-27T17:40:34Z",
-        "homepageUrl": null,
-        "primaryLanguage": {
-          "name": "Dockerfile"
-        },
-        "licenseInfo": {
-          "name": "Other",
-          "spdxId": "NOASSERTION"
-        }
-      }
-    },
-    {
       "id": "MDQ6VXNlcjkxMDI3NDky",
       "login": "SevenworksDev",
       "name": "Sevenworks",
@@ -1088,7 +1095,7 @@
         "url": "https://github.com/SevenworksDev/stop-using-this",
         "description": "🚀 tProxy | Working unblocker for schools worldwide.",
         "stargazerCount": 124,
-        "forkCount": 841,
+        "forkCount": 843,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2022-03-16T00:15:14Z",
@@ -1201,8 +1208,8 @@
         "nameWithOwner": "walterwhite-69/Anivexa-API",
         "url": "https://github.com/walterwhite-69/Anivexa-API",
         "description": "Anime streaming aggregator API — episodes & stream links from multiple providers via a single AniList ID.",
-        "stargazerCount": 89,
-        "forkCount": 120,
+        "stargazerCount": 94,
+        "forkCount": 122,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-06-03T06:00:37Z",
@@ -1237,7 +1244,7 @@
         "nameWithOwner": "jeet-ganguly/birdy-edwards",
         "url": "https://github.com/jeet-ganguly/birdy-edwards",
         "description": "Automated AI powered Facebook intelligence tool for target profiling, network analysis and threat reporting. Runs entirely on-device via Ollama. Anyone wants to use lite version check the link below.",
-        "stargazerCount": 87,
+        "stargazerCount": 88,
         "forkCount": 12,
         "isArchived": false,
         "isFork": false,
@@ -1352,7 +1359,7 @@
         "url": "https://github.com/ethicnology/dart-nostr",
         "description": "nostr library in dart",
         "stargazerCount": 71,
-        "forkCount": 15,
+        "forkCount": 14,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2022-12-27T07:37:16Z",
@@ -1662,6 +1669,42 @@
       }
     },
     {
+      "id": "O_kgDOBgQppw",
+      "login": "BredOS",
+      "name": "BredOS",
+      "type": "Organization",
+      "location": "Antarctica",
+      "url": "https://github.com/BredOS",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/100936103?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AQ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Antarctica"
+      },
+      "discoveryTerms": [
+        "Antarctica"
+      ],
+      "topRepository": {
+        "name": "images",
+        "nameWithOwner": "BredOS/images",
+        "url": "https://github.com/BredOS/images",
+        "description": null,
+        "stargazerCount": 42,
+        "forkCount": 6,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-07-12T21:04:48Z",
+        "pushedAt": "2026-02-24T15:36:33Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Shell"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI0NDc0NTMx",
       "login": "IcingTomato",
       "name": "icing@tomato:~#",
@@ -1698,42 +1741,6 @@
           "name": "GNU Affero General Public License v3.0",
           "spdxId": "AGPL-3.0"
         }
-      }
-    },
-    {
-      "id": "O_kgDOBgQppw",
-      "login": "BredOS",
-      "name": "BredOS",
-      "type": "Organization",
-      "location": "Antarctica",
-      "url": "https://github.com/BredOS",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/100936103?v=4",
-      "attribution": {
-        "accepted": true,
-        "countryCode": "AQ",
-        "confidence": "high",
-        "evidence": "explicit-country",
-        "matched": "Antarctica"
-      },
-      "discoveryTerms": [
-        "Antarctica"
-      ],
-      "topRepository": {
-        "name": "images",
-        "nameWithOwner": "BredOS/images",
-        "url": "https://github.com/BredOS/images",
-        "description": null,
-        "stargazerCount": 41,
-        "forkCount": 6,
-        "isArchived": false,
-        "isFork": false,
-        "createdAt": "2023-07-12T21:04:48Z",
-        "pushedAt": "2026-02-24T15:36:33Z",
-        "homepageUrl": "",
-        "primaryLanguage": {
-          "name": "Shell"
-        },
-        "licenseInfo": null
       }
     },
     {
@@ -1954,12 +1961,12 @@
         "nameWithOwner": "icecube/pisa",
         "url": "https://github.com/icecube/pisa",
         "description": "Monte Carlo-based data analysis",
-        "stargazerCount": 24,
+        "stargazerCount": 25,
         "forkCount": 57,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2016-03-17T20:42:05Z",
-        "pushedAt": "2026-10-02T11:59:51Z",
+        "pushedAt": "2026-10-06T14:18:25Z",
         "homepageUrl": "http://icecube.github.io/pisa/docs",
         "primaryLanguage": {
           "name": "Jupyter Notebook"
@@ -2653,6 +2660,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM1MDA1NDc2",
+      "login": "TheRealKamisama",
+      "name": null,
+      "type": "User",
+      "location": "Antarctica",
+      "url": "https://github.com/TheRealKamisama",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/35005476?u=093ab8b541850ee04b51e09499b2768a1dd61e7f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AQ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Antarctica"
+      },
+      "discoveryTerms": [
+        "Antarctica"
+      ],
+      "topRepository": {
+        "name": "Funs",
+        "nameWithOwner": "TheRealKamisama/Funs",
+        "url": "https://github.com/TheRealKamisama/Funs",
+        "description": "乐子的存储库",
+        "stargazerCount": 8,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-07-21T15:46:17Z",
+        "pushedAt": "2022-11-28T01:23:13Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBZb_Bg",
       "login": "FreshPenguin112",
       "name": "FreshPenguin112",
@@ -2716,7 +2757,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-06-24T12:17:42Z",
-        "pushedAt": "2026-09-27T08:39:16Z",
+        "pushedAt": "2026-10-04T08:51:54Z",
         "homepageUrl": "",
         "primaryLanguage": null,
         "licenseInfo": null
@@ -5571,6 +5612,42 @@
       }
     },
     {
+      "id": "U_kgDOEiKZUw",
+      "login": "Main155",
+      "name": "Cain Jude",
+      "type": "User",
+      "location": "Antarctica",
+      "url": "https://github.com/Main155",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/304257363?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AQ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Antarctica"
+      },
+      "discoveryTerms": [
+        "Antarctica"
+      ],
+      "topRepository": {
+        "name": "sandbox",
+        "nameWithOwner": "Main155/sandbox",
+        "url": "https://github.com/Main155/sandbox",
+        "description": "A modular, extensible terminal command system built in C++",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-25T12:35:32Z",
+        "pushedAt": "2026-10-06T02:32:39Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDODwiFrA",
       "login": "marwan343343chif-debug",
       "name": "Sartre",
@@ -7582,7 +7659,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-09-13T08:29:54Z",
-        "pushedAt": "2026-10-03T04:35:50Z",
+        "pushedAt": "2026-10-08T05:20:31Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -9610,7 +9687,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-09-05T21:35:25Z",
-        "pushedAt": "2026-10-02T03:01:13Z",
+        "pushedAt": "2026-10-06T23:31:18Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Kotlin"
@@ -10336,7 +10413,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-09-09T13:31:06Z",
-        "pushedAt": "2026-09-29T16:28:30Z",
+        "pushedAt": "2026-10-03T18:26:18Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "C"
@@ -10689,7 +10766,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-01-08T03:41:56Z",
-        "pushedAt": "2026-09-07T23:32:02Z",
+        "pushedAt": "2026-10-08T00:42:36Z",
         "homepageUrl": "https://gpmc-math.github.io/GPMC-Website/",
         "primaryLanguage": {
           "name": "HTML"
