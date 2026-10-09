@@ -40,4 +40,18 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [stanlin21/8b8tSMP](https://github.com/stanlin21/8b8tSMP) | **2** | Vatican City |
 | [B00Mjack/PyVanguard](https://github.com/B00Mjack/PyVanguard) | **1** | Vatican City Città del Vaticano 00120 Vatican City |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **624**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [Penetrum-Security/Security-List](https://github.com/Penetrum-Security/Security-List) | **647** | VA |
+| [openconstruct/Peersuite](https://github.com/openconstruct/Peersuite) | **629** | VA |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

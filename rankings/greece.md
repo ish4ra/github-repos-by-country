@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **679**
+- Verified high-star candidates retained: **16**
+- Current global star frontier: **624**
 
 ### High-star verified preview
 
@@ -65,5 +65,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [d3vilh/openvpn-ui](https://github.com/d3vilh/openvpn-ui) | **746** | Grece |
 | [makdosx/mip22](https://github.com/makdosx/mip22) | **693** | Patras, Greece |
 | [AmmarkoV/SAM3DBody-cpp](https://github.com/AmmarkoV/SAM3DBody-cpp) | **684** | Heraklion, Crete, Greece |
+| [bergercookie/asm-lsp](https://github.com/bergercookie/asm-lsp) | **647** | Thessaloniki, Greece |
+| [bergercookie/syncall](https://github.com/bergercookie/syncall) | **621** | Thessaloniki, Greece |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

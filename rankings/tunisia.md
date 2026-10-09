@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **15**
-- Current global star frontier: **679**
+- Verified high-star candidates retained: **16**
+- Current global star frontier: **624**
 
 ### High-star verified preview
 
@@ -66,5 +66,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [sigmaSd/IRust](https://github.com/sigmaSd/IRust) | **718** | Tunisia |
 | [omarabid/rust-companies](https://github.com/omarabid/rust-companies) | **716** | Tunis, Tunisia |
 | [ahmedmani/pairipfix](https://github.com/ahmedmani/pairipfix) | **687** | Tunisia |
+| [hamedbaatour/minimus](https://github.com/hamedbaatour/minimus) | **628** | Tunis, Tunisia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

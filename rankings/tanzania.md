@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **943**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **624**
 
 ### High-star verified preview
 
@@ -54,5 +54,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [gernest/utron](https://github.com/gernest/utron) | **2,212** | Arusha, Tanzania |
 | [vinceanalytics/vince](https://github.com/vinceanalytics/vince) | **2,014** | Tanzania |
 | [spidersuite/SpiderSuite](https://github.com/spidersuite/SpiderSuite) | **982** | Tanzania |
+| [yezyilomo/django-restql](https://github.com/yezyilomo/django-restql) | **623** | Dar es salaam, Tanzania |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

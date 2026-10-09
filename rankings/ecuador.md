@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **13**
-- Current global star frontier: **679**
+- Verified high-star candidates retained: **14**
+- Current global star frontier: **624**
 
 ### High-star verified preview
 
@@ -64,5 +64,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [mikehardy/jetifier](https://github.com/mikehardy/jetifier) | **792** | Cuenca, Ecuador |
 | [Eddycrack864/UVR5-UI](https://github.com/Eddycrack864/UVR5-UI) | **777** | Guayaquil, Ecuador |
 | [GataNina-Li/GataBot-MD](https://github.com/GataNina-Li/GataBot-MD) | **679** | Ecuador |
+| [AngelJumbo/lavat](https://github.com/AngelJumbo/lavat) | **622** | Ecuador |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

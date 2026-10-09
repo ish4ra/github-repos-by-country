@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **679**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **624**
 
 ### High-star verified preview
 
@@ -55,5 +55,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Heerozh/spectre](https://github.com/Heerozh/spectre) | **828** | LA |
 | [natefaubion/matches.js](https://github.com/natefaubion/matches.js) | **769** | LA |
 | [natefaubion/sparkler](https://github.com/natefaubion/sparkler) | **691** | LA |
+| [haradakashiwa/ternssh](https://github.com/haradakashiwa/ternssh) | **628** | LA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
