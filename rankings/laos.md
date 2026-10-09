@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **6**
-- Current global star frontier: **595**
+- Verified high-star candidates retained: **7**
+- Current global star frontier: **573**
 
 ### High-star verified preview
 
@@ -57,5 +57,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [natefaubion/sparkler](https://github.com/natefaubion/sparkler) | **691** | LA |
 | [haradakashiwa/ternssh](https://github.com/haradakashiwa/ternssh) | **628** | LA |
 | [haradakashiwa/FreeGFW](https://github.com/haradakashiwa/FreeGFW) | **613** | LA |
+| [jichangzhu/JichangTuijian](https://github.com/jichangzhu/JichangTuijian) | **580** | LA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

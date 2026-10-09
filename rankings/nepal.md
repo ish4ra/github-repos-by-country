@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **17**
-- Current global star frontier: **713**
+- Verified high-star candidates retained: **20**
+- Current global star frontier: **573**
 
 ### High-star verified preview
 
@@ -68,5 +68,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [bhimrazy/receipt-ocr](https://github.com/bhimrazy/receipt-ocr) | **738** | Kathmandu,NP |
 | [ghimiresunil/LLM-PowerHouse-A-Curated-Guide-for-Large-Language-Models-with-Custom-Training-and-Inferencing](https://github.com/ghimiresunil/LLM-PowerHouse-A-Curated-Guide-for-Large-Language-Models-with-Custom-Training-and-Inferencing) | **732** | Kathmandu, Nepal |
 | [moest-np/center-randomize](https://github.com/moest-np/center-randomize) | **726** | Nepal |
+| [ThinamXx/300Days__MachineLearningDeepLearning](https://github.com/ThinamXx/300Days__MachineLearningDeepLearning) | **592** | Kathmandu, Nepal |
+| [Saran-pariyar/100_Days_Of_Frontend_Interview_Questions](https://github.com/Saran-pariyar/100_Days_Of_Frontend_Interview_Questions) | **590** | Ilam,Nepal |
+| [Dovakiin0/Kitsune](https://github.com/Dovakiin0/Kitsune) | **576** | Kathmandu, Nepal |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

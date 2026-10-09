@@ -1,14 +1,49 @@
 {
-  "schemaVersion": 2,
-  "locationResolverVersion": 2,
+  "schemaVersion": 1,
+  "methodologyVersion": "0.8.0-repository-first",
+  "generatedAt": "2026-10-09T22:59:33.018Z",
   "country": {
     "code": "HU",
     "name": "Hungary",
     "slug": "hungary"
   },
-  "source": "repository-first-stars-desc",
+  "source": {
+    "provider": "GitHub GraphQL API",
+    "endpoint": "https://api.github.com/graphql",
+    "countryBasis": "public repository-owner profile location",
+    "discovery": "global repositories scanned by stars descending"
+  },
+  "coverage": {
+    "status": "repository-first-certified-by-star-frontier",
+    "exhaustive": false,
+    "rawOwnerHits": 110007,
+    "acceptedUniqueOwners": 78,
+    "ownerMetricLabel": "Unique owners in top ranking",
+    "repositoriesConsidered": 102,
+    "publishedRepositories": 100,
+    "candidateThresholdStars": 594,
+    "rankingLimit": 100,
+    "cappedQueries": [],
+    "repositoryFirst": {
+      "scanFrontierStars": 573,
+      "topObservedStars": 551406,
+      "repositoriesSeen": 110007,
+      "attributedRepositories": 40321,
+      "ambiguousLocations": 17389,
+      "unknownLocations": 52297,
+      "unresolvedStarCounts": []
+    },
+    "notes": [
+      "Repositories are scanned globally in descending star ranges, independently of owner follower count or owner-search ordering.",
+      "A country is certified only after its 100th repository has more stars than every unprocessed global star range.",
+      "Owner country is inferred from the owner public GitHub profile location using the global geography resolver.",
+      "Owners with missing or unresolved locations are excluded, so country attribution is not a citizenship or legal-incorporation claim.",
+      "Compound city/admin locations such as \"Portland, OR\" are resolved before ambiguous city-only names."
+    ]
+  },
   "repositories": [
     {
+      "rank": 1,
       "name": "ZeroNet",
       "nameWithOwner": "HelloZeroNet/ZeroNet",
       "url": "https://github.com/HelloZeroNet/ZeroNet",
@@ -42,6 +77,7 @@
       }
     },
     {
+      "rank": 2,
       "name": "wuzz",
       "nameWithOwner": "asciimoo/wuzz",
       "url": "https://github.com/asciimoo/wuzz",
@@ -75,6 +111,7 @@
       }
     },
     {
+      "rank": 3,
       "name": "icons",
       "nameWithOwner": "pqoqubbw/icons",
       "url": "https://github.com/pqoqubbw/icons",
@@ -108,6 +145,7 @@
       }
     },
     {
+      "rank": 4,
       "name": "Applite",
       "nameWithOwner": "milanvarady/Applite",
       "url": "https://github.com/milanvarady/Applite",
@@ -141,6 +179,7 @@
       }
     },
     {
+      "rank": 5,
       "name": "hister",
       "nameWithOwner": "asciimoo/hister",
       "url": "https://github.com/asciimoo/hister",
@@ -174,6 +213,7 @@
       }
     },
     {
+      "rank": 6,
       "name": "ChartView",
       "nameWithOwner": "AppPear/ChartView",
       "url": "https://github.com/AppPear/ChartView",
@@ -207,6 +247,7 @@
       }
     },
     {
+      "rank": 7,
       "name": "Messenger",
       "nameWithOwner": "relatedcode/Messenger",
       "url": "https://github.com/relatedcode/Messenger",
@@ -237,6 +278,7 @@
       }
     },
     {
+      "rank": 8,
       "name": "Online3DViewer",
       "nameWithOwner": "kovacsv/Online3DViewer",
       "url": "https://github.com/kovacsv/Online3DViewer",
@@ -270,6 +312,7 @@
       }
     },
     {
+      "rank": 9,
       "name": "guild.xyz",
       "nameWithOwner": "guildxyz/guild.xyz",
       "url": "https://github.com/guildxyz/guild.xyz",
@@ -300,6 +343,7 @@
       }
     },
     {
+      "rank": 10,
       "name": "garmin-grafana",
       "nameWithOwner": "arpanghosh8453/garmin-grafana",
       "url": "https://github.com/arpanghosh8453/garmin-grafana",
@@ -333,6 +377,7 @@
       }
     },
     {
+      "rank": 11,
       "name": "UnrealCLR",
       "nameWithOwner": "nxrighthere/UnrealCLR",
       "url": "https://github.com/nxrighthere/UnrealCLR",
@@ -366,6 +411,7 @@
       }
     },
     {
+      "rank": 12,
       "name": "drawille",
       "nameWithOwner": "asciimoo/drawille",
       "url": "https://github.com/asciimoo/drawille",
@@ -399,6 +445,7 @@
       }
     },
     {
+      "rank": 13,
       "name": "ags",
       "nameWithOwner": "Aylur/ags",
       "url": "https://github.com/Aylur/ags",
@@ -432,6 +479,7 @@
       }
     },
     {
+      "rank": 14,
       "name": "dotfiles",
       "nameWithOwner": "Aylur/dotfiles",
       "url": "https://github.com/Aylur/dotfiles",
@@ -465,6 +513,7 @@
       }
     },
     {
+      "rank": 15,
       "name": "ProgressHUD",
       "nameWithOwner": "relatedcode/ProgressHUD",
       "url": "https://github.com/relatedcode/ProgressHUD",
@@ -498,6 +547,7 @@
       }
     },
     {
+      "rank": 16,
       "name": "vue-express-mongo-boilerplate",
       "nameWithOwner": "icebob/vue-express-mongo-boilerplate",
       "url": "https://github.com/icebob/vue-express-mongo-boilerplate",
@@ -528,6 +578,7 @@
       }
     },
     {
+      "rank": 17,
       "name": "Sun-Valley-ttk-theme",
       "nameWithOwner": "rdbende/Sun-Valley-ttk-theme",
       "url": "https://github.com/rdbende/Sun-Valley-ttk-theme",
@@ -561,6 +612,7 @@
       }
     },
     {
+      "rank": 18,
       "name": "ShimmerLayout",
       "nameWithOwner": "team-supercharge/ShimmerLayout",
       "url": "https://github.com/team-supercharge/ShimmerLayout",
@@ -594,6 +646,7 @@
       }
     },
     {
+      "rank": 19,
       "name": "syslog-ng",
       "nameWithOwner": "syslog-ng/syslog-ng",
       "url": "https://github.com/syslog-ng/syslog-ng",
@@ -627,6 +680,7 @@
       }
     },
     {
+      "rank": 20,
       "name": "onenote",
       "nameWithOwner": "patrikx3/onenote",
       "url": "https://github.com/patrikx3/onenote",
@@ -660,6 +714,7 @@
       }
     },
     {
+      "rank": 21,
       "name": "vizzu-lib",
       "nameWithOwner": "vizzuhq/vizzu-lib",
       "url": "https://github.com/vizzuhq/vizzu-lib",
@@ -693,6 +748,7 @@
       }
     },
     {
+      "rank": 22,
       "name": "modern-go-application",
       "nameWithOwner": "sagikazarmark/modern-go-application",
       "url": "https://github.com/sagikazarmark/modern-go-application",
@@ -726,6 +782,7 @@
       }
     },
     {
+      "rank": 23,
       "name": "pegasus-frontend",
       "nameWithOwner": "mmatyas/pegasus-frontend",
       "url": "https://github.com/mmatyas/pegasus-frontend",
@@ -759,6 +816,7 @@
       }
     },
     {
+      "rank": 24,
       "name": "urlcat",
       "nameWithOwner": "balazsbotond/urlcat",
       "url": "https://github.com/balazsbotond/urlcat",
@@ -792,6 +850,7 @@
       }
     },
     {
+      "rank": 25,
       "name": "dyrectorio",
       "nameWithOwner": "dyrector-io/dyrectorio",
       "url": "https://github.com/dyrector-io/dyrectorio",
@@ -825,6 +884,7 @@
       }
     },
     {
+      "rank": 26,
       "name": "yarle",
       "nameWithOwner": "akosbalasko/yarle",
       "url": "https://github.com/akosbalasko/yarle",
@@ -858,6 +918,7 @@
       }
     },
     {
+      "rank": 27,
       "name": "node-http2",
       "nameWithOwner": "molnarg/node-http2",
       "url": "https://github.com/molnarg/node-http2",
@@ -891,6 +952,7 @@
       }
     },
     {
+      "rank": 28,
       "name": "awesome-dbt",
       "nameWithOwner": "Hiflylabs/awesome-dbt",
       "url": "https://github.com/Hiflylabs/awesome-dbt",
@@ -924,6 +986,7 @@
       }
     },
     {
+      "rank": 29,
       "name": "awesome-vue-3",
       "nameWithOwner": "gs00s/awesome-vue-3",
       "url": "https://github.com/gs00s/awesome-vue-3",
@@ -957,6 +1020,7 @@
       }
     },
     {
+      "rank": 30,
       "name": "RelatedChat",
       "nameWithOwner": "relatedcode/RelatedChat",
       "url": "https://github.com/relatedcode/RelatedChat",
@@ -987,6 +1051,7 @@
       }
     },
     {
+      "rank": 31,
       "name": "NoCoin",
       "nameWithOwner": "keraf/NoCoin",
       "url": "https://github.com/keraf/NoCoin",
@@ -1020,6 +1085,7 @@
       }
     },
     {
+      "rank": 32,
       "name": "open-dronelog",
       "nameWithOwner": "arpanghosh8453/open-dronelog",
       "url": "https://github.com/arpanghosh8453/open-dronelog",
@@ -1053,6 +1119,7 @@
       }
     },
     {
+      "rank": 33,
       "name": "pipeline",
       "nameWithOwner": "banzaicloud/pipeline",
       "url": "https://github.com/banzaicloud/pipeline",
@@ -1086,6 +1153,7 @@
       }
     },
     {
+      "rank": 34,
       "name": "Bonzomatic",
       "nameWithOwner": "Gargaj/Bonzomatic",
       "url": "https://github.com/Gargaj/Bonzomatic",
@@ -1119,6 +1187,7 @@
       }
     },
     {
+      "rank": 35,
       "name": "fastest-validator",
       "nameWithOwner": "icebob/fastest-validator",
       "url": "https://github.com/icebob/fastest-validator",
@@ -1152,6 +1221,7 @@
       }
     },
     {
+      "rank": 36,
       "name": "simple-stack",
       "nameWithOwner": "Zhuinden/simple-stack",
       "url": "https://github.com/Zhuinden/simple-stack",
@@ -1185,6 +1255,7 @@
       }
     },
     {
+      "rank": 37,
       "name": "awesome-lidar",
       "nameWithOwner": "szenergy/awesome-lidar",
       "url": "https://github.com/szenergy/awesome-lidar",
@@ -1218,6 +1289,7 @@
       }
     },
     {
+      "rank": 38,
       "name": "XOutput",
       "nameWithOwner": "csutorasa/XOutput",
       "url": "https://github.com/csutorasa/XOutput",
@@ -1251,6 +1323,7 @@
       }
     },
     {
+      "rank": 39,
       "name": "guide-to-kotlin",
       "nameWithOwner": "Zhuinden/guide-to-kotlin",
       "url": "https://github.com/Zhuinden/guide-to-kotlin",
@@ -1284,6 +1357,7 @@
       }
     },
     {
+      "rank": 40,
       "name": "SDLPoP",
       "nameWithOwner": "NagyD/SDLPoP",
       "url": "https://github.com/NagyD/SDLPoP",
@@ -1317,6 +1391,7 @@
       }
     },
     {
+      "rank": 41,
       "name": "macmediakeyforwarder",
       "nameWithOwner": "milgra/macmediakeyforwarder",
       "url": "https://github.com/milgra/macmediakeyforwarder",
@@ -1350,6 +1425,7 @@
       }
     },
     {
+      "rank": 42,
       "name": "hadoop-docker",
       "nameWithOwner": "sequenceiq/hadoop-docker",
       "url": "https://github.com/sequenceiq/hadoop-docker",
@@ -1383,6 +1459,7 @@
       }
     },
     {
+      "rank": 43,
       "name": "capacitor",
       "nameWithOwner": "gimlet-io/capacitor",
       "url": "https://github.com/gimlet-io/capacitor",
@@ -1416,6 +1493,7 @@
       }
     },
     {
+      "rank": 44,
       "name": "browser-detect",
       "nameWithOwner": "hisorange/browser-detect",
       "url": "https://github.com/hisorange/browser-detect",
@@ -1449,6 +1527,7 @@
       }
     },
     {
+      "rank": 45,
       "name": "matter",
       "nameWithOwner": "finnhvman/matter",
       "url": "https://github.com/finnhvman/matter",
@@ -1482,6 +1561,7 @@
       }
     },
     {
+      "rank": 46,
       "name": "Bolero",
       "nameWithOwner": "fsbolero/Bolero",
       "url": "https://github.com/fsbolero/Bolero",
@@ -1515,6 +1595,7 @@
       }
     },
     {
+      "rank": 47,
       "name": "netfox",
       "nameWithOwner": "foxssake/netfox",
       "url": "https://github.com/foxssake/netfox",
@@ -1548,6 +1629,7 @@
       }
     },
     {
+      "rank": 48,
       "name": "stunner",
       "nameWithOwner": "l7mp/stunner",
       "url": "https://github.com/l7mp/stunner",
@@ -1581,6 +1663,7 @@
       }
     },
     {
+      "rank": 49,
       "name": "node-drawille",
       "nameWithOwner": "madbence/node-drawille",
       "url": "https://github.com/madbence/node-drawille",
@@ -1614,6 +1697,7 @@
       }
     },
     {
+      "rank": 50,
       "name": "astal",
       "nameWithOwner": "Aylur/astal",
       "url": "https://github.com/Aylur/astal",
@@ -1647,6 +1731,7 @@
       }
     },
     {
+      "rank": 51,
       "name": "ipyvizzu",
       "nameWithOwner": "vizzuhq/ipyvizzu",
       "url": "https://github.com/vizzuhq/ipyvizzu",
@@ -1680,6 +1765,7 @@
       }
     },
     {
+      "rank": 52,
       "name": "exrex",
       "nameWithOwner": "asciimoo/exrex",
       "url": "https://github.com/asciimoo/exrex",
@@ -1713,6 +1799,7 @@
       }
     },
     {
+      "rank": 53,
       "name": "kanban.bash",
       "nameWithOwner": "coderofsalvation/kanban.bash",
       "url": "https://github.com/coderofsalvation/kanban.bash",
@@ -1746,6 +1833,7 @@
       }
     },
     {
+      "rank": 54,
       "name": "cameractrls",
       "nameWithOwner": "soyersoyer/cameractrls",
       "url": "https://github.com/soyersoyer/cameractrls",
@@ -1779,6 +1867,7 @@
       }
     },
     {
+      "rank": 55,
       "name": "fitbit-grafana",
       "nameWithOwner": "arpanghosh8453/fitbit-grafana",
       "url": "https://github.com/arpanghosh8453/fitbit-grafana",
@@ -1812,6 +1901,7 @@
       }
     },
     {
+      "rank": 56,
       "name": "elm-ui",
       "nameWithOwner": "gdotdesign/elm-ui",
       "url": "https://github.com/gdotdesign/elm-ui",
@@ -1845,6 +1935,7 @@
       }
     },
     {
+      "rank": 57,
       "name": "lfk",
       "nameWithOwner": "janosmiko/lfk",
       "url": "https://github.com/janosmiko/lfk",
@@ -1878,6 +1969,7 @@
       }
     },
     {
+      "rank": 58,
       "name": "ENet-CSharp",
       "nameWithOwner": "nxrighthere/ENet-CSharp",
       "url": "https://github.com/nxrighthere/ENet-CSharp",
@@ -1911,6 +2003,7 @@
       }
     },
     {
+      "rank": 59,
       "name": "ggthemr",
       "nameWithOwner": "Mikata-Project/ggthemr",
       "url": "https://github.com/Mikata-Project/ggthemr",
@@ -1941,6 +2034,7 @@
       }
     },
     {
+      "rank": 60,
       "name": "json-schema",
       "nameWithOwner": "everit-org/json-schema",
       "url": "https://github.com/everit-org/json-schema",
@@ -1974,6 +2068,7 @@
       }
     },
     {
+      "rank": 61,
       "name": "bitrise",
       "nameWithOwner": "bitrise-io/bitrise",
       "url": "https://github.com/bitrise-io/bitrise",
@@ -2007,6 +2102,7 @@
       }
     },
     {
+      "rank": 62,
       "name": "RxJavaInterop",
       "nameWithOwner": "akarnokd/RxJavaInterop",
       "url": "https://github.com/akarnokd/RxJavaInterop",
@@ -2040,6 +2136,7 @@
       }
     },
     {
+      "rank": 63,
       "name": "react-scrollbars-custom",
       "nameWithOwner": "xobotyi/react-scrollbars-custom",
       "url": "https://github.com/xobotyi/react-scrollbars-custom",
@@ -2073,6 +2170,7 @@
       }
     },
     {
+      "rank": 64,
       "name": "Azure-ttk-theme",
       "nameWithOwner": "rdbende/Azure-ttk-theme",
       "url": "https://github.com/rdbende/Azure-ttk-theme",
@@ -2106,6 +2204,7 @@
       }
     },
     {
+      "rank": 65,
       "name": "education-agent-skills",
       "nameWithOwner": "GarethManning/education-agent-skills",
       "url": "https://github.com/GarethManning/education-agent-skills",
@@ -2139,6 +2238,7 @@
       }
     },
     {
+      "rank": 66,
       "name": "injection",
       "nameWithOwner": "theevilbit/injection",
       "url": "https://github.com/theevilbit/injection",
@@ -2169,6 +2269,7 @@
       }
     },
     {
+      "rank": 67,
       "name": "GRU4Rec",
       "nameWithOwner": "hidasib/GRU4Rec",
       "url": "https://github.com/hidasib/GRU4Rec",
@@ -2202,6 +2303,7 @@
       }
     },
     {
+      "rank": 68,
       "name": "redis-ui",
       "nameWithOwner": "patrikx3/redis-ui",
       "url": "https://github.com/patrikx3/redis-ui",
@@ -2235,6 +2337,7 @@
       }
     },
     {
+      "rank": 69,
       "name": "jsonui",
       "nameWithOwner": "gulyasm/jsonui",
       "url": "https://github.com/gulyasm/jsonui",
@@ -2268,6 +2371,7 @@
       }
     },
     {
+      "rank": 70,
       "name": "zircon",
       "nameWithOwner": "Hexworks/zircon",
       "url": "https://github.com/Hexworks/zircon",
@@ -2301,6 +2405,7 @@
       }
     },
     {
+      "rank": 71,
       "name": "koperator",
       "nameWithOwner": "banzaicloud/koperator",
       "url": "https://github.com/banzaicloud/koperator",
@@ -2334,6 +2439,7 @@
       }
     },
     {
+      "rank": 72,
       "name": "node-tmp",
       "nameWithOwner": "raszi/node-tmp",
       "url": "https://github.com/raszi/node-tmp",
@@ -2367,6 +2473,7 @@
       }
     },
     {
+      "rank": 73,
       "name": "cssplot",
       "nameWithOwner": "asciimoo/cssplot",
       "url": "https://github.com/asciimoo/cssplot",
@@ -2400,6 +2507,7 @@
       }
     },
     {
+      "rank": 74,
       "name": "agent",
       "nameWithOwner": "UltimateHackingKeyboard/agent",
       "url": "https://github.com/UltimateHackingKeyboard/agent",
@@ -2433,6 +2541,7 @@
       }
     },
     {
+      "rank": 75,
       "name": "omnetpp",
       "nameWithOwner": "omnetpp/omnetpp",
       "url": "https://github.com/omnetpp/omnetpp",
@@ -2463,6 +2572,7 @@
       }
     },
     {
+      "rank": 76,
       "name": "docker-spark",
       "nameWithOwner": "sequenceiq/docker-spark",
       "url": "https://github.com/sequenceiq/docker-spark",
@@ -2496,6 +2606,7 @@
       }
     },
     {
+      "rank": 77,
       "name": "SwiftUI-Flow",
       "nameWithOwner": "tevelee/SwiftUI-Flow",
       "url": "https://github.com/tevelee/SwiftUI-Flow",
@@ -2529,6 +2640,7 @@
       }
     },
     {
+      "rank": 78,
       "name": "SwCrypt",
       "nameWithOwner": "soyersoyer/SwCrypt",
       "url": "https://github.com/soyersoyer/SwCrypt",
@@ -2562,6 +2674,7 @@
       }
     },
     {
+      "rank": 79,
       "name": "react-gsap-enhancer",
       "nameWithOwner": "azazdeaz/react-gsap-enhancer",
       "url": "https://github.com/azazdeaz/react-gsap-enhancer",
@@ -2595,6 +2708,7 @@
       }
     },
     {
+      "rank": 80,
       "name": "rtsp-stream",
       "nameWithOwner": "Roverr/rtsp-stream",
       "url": "https://github.com/Roverr/rtsp-stream",
@@ -2628,6 +2742,7 @@
       }
     },
     {
+      "rank": 81,
       "name": "wheelnav",
       "nameWithOwner": "softwaretailoring/wheelnav",
       "url": "https://github.com/softwaretailoring/wheelnav",
@@ -2661,6 +2776,7 @@
       }
     },
     {
+      "rank": 82,
       "name": "xy-VSFilter",
       "nameWithOwner": "pinterf/xy-VSFilter",
       "url": "https://github.com/pinterf/xy-VSFilter",
@@ -2694,6 +2810,7 @@
       }
     },
     {
+      "rank": 83,
       "name": "stm32_graphics_display_drivers",
       "nameWithOwner": "RobertoBenjami/stm32_graphics_display_drivers",
       "url": "https://github.com/RobertoBenjami/stm32_graphics_display_drivers",
@@ -2724,6 +2841,7 @@
       }
     },
     {
+      "rank": 84,
       "name": "stream-m",
       "nameWithOwner": "vbence/stream-m",
       "url": "https://github.com/vbence/stream-m",
@@ -2757,6 +2875,7 @@
       }
     },
     {
+      "rank": 85,
       "name": "luxbar",
       "nameWithOwner": "balzss/luxbar",
       "url": "https://github.com/balzss/luxbar",
@@ -2790,6 +2909,7 @@
       }
     },
     {
+      "rank": 86,
       "name": "canDrive",
       "nameWithOwner": "adamtheone/canDrive",
       "url": "https://github.com/adamtheone/canDrive",
@@ -2823,6 +2943,7 @@
       }
     },
     {
+      "rank": 87,
       "name": "use-resize-observer",
       "nameWithOwner": "ZeeCoder/use-resize-observer",
       "url": "https://github.com/ZeeCoder/use-resize-observer",
@@ -2856,6 +2977,7 @@
       }
     },
     {
+      "rank": 88,
       "name": "RxJavaExtensions",
       "nameWithOwner": "akarnokd/RxJavaExtensions",
       "url": "https://github.com/akarnokd/RxJavaExtensions",
@@ -2889,6 +3011,7 @@
       }
     },
     {
+      "rank": 89,
       "name": "omnom",
       "nameWithOwner": "asciimoo/omnom",
       "url": "https://github.com/asciimoo/omnom",
@@ -2922,6 +3045,7 @@
       }
     },
     {
+      "rank": 90,
       "name": "KMPNotifier",
       "nameWithOwner": "mirzemehdi/KMPNotifier",
       "url": "https://github.com/mirzemehdi/KMPNotifier",
@@ -2955,6 +3079,7 @@
       }
     },
     {
+      "rank": 91,
       "name": "private-bower",
       "nameWithOwner": "Hacklone/private-bower",
       "url": "https://github.com/Hacklone/private-bower",
@@ -2988,6 +3113,7 @@
       }
     },
     {
+      "rank": 92,
       "name": "JSModeler",
       "nameWithOwner": "kovacsv/JSModeler",
       "url": "https://github.com/kovacsv/JSModeler",
@@ -3021,6 +3147,7 @@
       }
     },
     {
+      "rank": 93,
       "name": "awesome-dos",
       "nameWithOwner": "balintkissdev/awesome-dos",
       "url": "https://github.com/balintkissdev/awesome-dos",
@@ -3054,6 +3181,7 @@
       }
     },
     {
+      "rank": 94,
       "name": "axodox-machinelearning",
       "nameWithOwner": "axodox/axodox-machinelearning",
       "url": "https://github.com/axodox/axodox-machinelearning",
@@ -3087,6 +3215,7 @@
       }
     },
     {
+      "rank": 95,
       "name": "bootstrap-duallistbox",
       "nameWithOwner": "istvan-ujjmeszaros/bootstrap-duallistbox",
       "url": "https://github.com/istvan-ujjmeszaros/bootstrap-duallistbox",
@@ -3120,6 +3249,7 @@
       }
     },
     {
+      "rank": 96,
       "name": "otion",
       "nameWithOwner": "kripod/otion",
       "url": "https://github.com/kripod/otion",
@@ -3153,6 +3283,7 @@
       }
     },
     {
+      "rank": 97,
       "name": "php-malware-scanner",
       "nameWithOwner": "scr34m/php-malware-scanner",
       "url": "https://github.com/scr34m/php-malware-scanner",
@@ -3186,6 +3317,7 @@
       }
     },
     {
+      "rank": 98,
       "name": "nest-mini-drop-in-pcb",
       "nameWithOwner": "iMike78/nest-mini-drop-in-pcb",
       "url": "https://github.com/iMike78/nest-mini-drop-in-pcb",
@@ -3219,6 +3351,7 @@
       }
     },
     {
+      "rank": 99,
       "name": "mstch",
       "nameWithOwner": "no1msd/mstch",
       "url": "https://github.com/no1msd/mstch",
@@ -3252,6 +3385,7 @@
       }
     },
     {
+      "rank": 100,
       "name": "Cavern",
       "nameWithOwner": "VoidXH/Cavern",
       "url": "https://github.com/VoidXH/Cavern",
@@ -3283,75 +3417,6 @@
         },
         "discoveryTerms": []
       }
-    },
-    {
-      "name": "JwtAuditor",
-      "nameWithOwner": "dr34mhacks/JwtAuditor",
-      "url": "https://github.com/dr34mhacks/JwtAuditor",
-      "description": "JWT Auditor – Analyze, break, and understand your tokens like a pro.",
-      "stars": 593,
-      "forks": 93,
-      "primaryLanguage": "HTML",
-      "license": {
-        "name": "Apache License 2.0",
-        "spdxId": "Apache-2.0"
-      },
-      "createdAt": "2025-07-08T07:56:26Z",
-      "pushedAt": "2026-07-11T16:35:42Z",
-      "homepageUrl": "https://jwtauditor.com/",
-      "archived": false,
-      "owner": {
-        "login": "dr34mhacks",
-        "name": "Siddharth Joshi",
-        "type": "User",
-        "url": "https://github.com/dr34mhacks",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/135737668?u=c3215dbc9f699ab839e49ae20b7912aa25802aa1&v=4",
-        "location": "Desk",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "HU",
-          "confidence": "medium",
-          "evidence": "recognized-place",
-          "matched": "desk"
-        },
-        "discoveryTerms": []
-      }
-    },
-    {
-      "name": "IotWebConf",
-      "nameWithOwner": "prampec/IotWebConf",
-      "url": "https://github.com/prampec/IotWebConf",
-      "description": "ESP8266/ESP32 non-blocking WiFi/AP web configuration Arduino library",
-      "stars": 578,
-      "forks": 145,
-      "primaryLanguage": "C++",
-      "license": {
-        "name": "MIT License",
-        "spdxId": "MIT"
-      },
-      "createdAt": "2016-12-10T15:50:57Z",
-      "pushedAt": "2025-03-14T21:41:00Z",
-      "homepageUrl": null,
-      "archived": false,
-      "owner": {
-        "login": "prampec",
-        "name": "Balázs Kelemen",
-        "type": "User",
-        "url": "https://github.com/prampec",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/10376327?u=2887b74d607ca3304fc5db64c6af3ca155283395&v=4",
-        "location": "Hungary",
-        "attribution": {
-          "accepted": true,
-          "countryCode": "HU",
-          "confidence": "high",
-          "evidence": "explicit-country",
-          "matched": "hungary"
-        },
-        "discoveryTerms": []
-      }
     }
-  ],
-  "scanFrontierStars": 573,
-  "certifiedAt": "2026-10-09T22:59:33.018Z",
-  "updatedAt": "2026-10-09T22:59:33.018Z"
+  ]
 }

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **19**
-- Current global star frontier: **595**
+- Verified high-star candidates retained: **20**
+- Current global star frontier: **573**
 
 ### High-star verified preview
 
@@ -70,5 +70,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [vmasto/express-babel](https://github.com/vmasto/express-babel) | **611** | Thessaloniki, Greece |
 | [Gpower2/gMKVExtractGUI](https://github.com/Gpower2/gMKVExtractGUI) | **597** | Greece/Thessaloniki |
 | [sdroege/gstreamer-rs](https://github.com/sdroege/gstreamer-rs) | **596** | Thessaloniki, Greece |
+| [SudoPlz/sp-react-native-in-app-updates](https://github.com/SudoPlz/sp-react-native-in-app-updates) | **583** | Thessaloniki, Greece |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [LizkaRyan/WinterFramework](https://github.com/LizkaRyan/WinterFramework) | **15** | Antananarivo, Madagascar |
 | [judicaelandria/miro-like](https://github.com/judicaelandria/miro-like) | **14** | Madagascar |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **573**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [luckasRanarison/tailwind-tools.nvim](https://github.com/luckasRanarison/tailwind-tools.nvim) | **587** | Antananarivo, Madagascar |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **595**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **573**
 
 ### High-star verified preview
 
@@ -53,5 +53,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [TheBlewish/Automated-AI-Web-Researcher-Ollama](https://github.com/TheBlewish/Automated-AI-Web-Researcher-Ollama) | **3,019** | QLD, Australia |
 | [sahlberg/libnfs](https://github.com/sahlberg/libnfs) | **603** | MooreParkBeach/QLD/AU |
+| [ipenywis/react-solid](https://github.com/ipenywis/react-solid) | **590** | Setif, Algeria |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

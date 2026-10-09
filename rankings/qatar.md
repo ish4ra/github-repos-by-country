@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [nirzaf/merconiq](https://github.com/nirzaf/merconiq) | **52** | Doha - Qatar |
 | [akhalil-qa/SecurityPlus](https://github.com/akhalil-qa/SecurityPlus) | **41** | Qatar |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **573**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [Offensive-Panda/ShadowDumper](https://github.com/Offensive-Panda/ShadowDumper) | **588** | Qatar |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
