@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **713**
+- Verified high-star candidates retained: **11**
+- Current global star frontier: **679**
 
 ### High-star verified preview
 
@@ -60,5 +60,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [godbout/kindaVim.blahblah](https://github.com/godbout/kindaVim.blahblah) | **1,005** | Macao/South China/Hong Kong/France |
 | [ALTaleX531/OpenGlass](https://github.com/ALTaleX531/OpenGlass) | **753** | Macau, China |
 | [1595901624/gpt-aggregated-edition](https://github.com/1595901624/gpt-aggregated-edition) | **714** | Macau |
+| [layumi/University1652-Baseline](https://github.com/layumi/University1652-Baseline) | **688** | Macau, China |
+| [sou350121/VLA-Handbook](https://github.com/sou350121/VLA-Handbook) | **685** | Macau |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

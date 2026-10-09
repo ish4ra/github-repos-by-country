@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **800**
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **679**
 
 ### High-star verified preview
 
@@ -56,5 +56,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [JPaulMora/Pyrit](https://github.com/JPaulMora/Pyrit) | **1,139** | Guatemala |
 | [josejuanqm/VersaPlayer](https://github.com/josejuanqm/VersaPlayer) | **817** | Guatemala |
 | [eylles/pywal16](https://github.com/eylles/pywal16) | **814** | Guatemala |
+| [TaTo30/vue-pdf](https://github.com/TaTo30/vue-pdf) | **692** | Guatemala |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

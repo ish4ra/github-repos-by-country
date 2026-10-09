@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **12**
-- Current global star frontier: **713**
+- Verified high-star candidates retained: **14**
+- Current global star frontier: **679**
 
 ### High-star verified preview
 
@@ -63,5 +63,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [gakonst/solidity-book](https://github.com/gakonst/solidity-book) | **837** | Thessaloniki, Greece |
 | [ThanosFisherman/WifiUtils](https://github.com/ThanosFisherman/WifiUtils) | **798** | Thessaloniki, Greece |
 | [d3vilh/openvpn-ui](https://github.com/d3vilh/openvpn-ui) | **746** | Grece |
+| [makdosx/mip22](https://github.com/makdosx/mip22) | **693** | Patras, Greece |
+| [AmmarkoV/SAM3DBody-cpp](https://github.com/AmmarkoV/SAM3DBody-cpp) | **684** | Heraklion, Crete, Greece |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -20,8 +20,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **758**
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **679**
 
 ### High-star verified preview
 
@@ -34,5 +34,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [JideGuru/FlutterFoodybite](https://github.com/JideGuru/FlutterFoodybite) | **1,715** | Cotonou, Benin. |
 | [JideGuru/FlutterTravel](https://github.com/JideGuru/FlutterTravel) | **1,198** | Cotonou, Benin. |
 | [DIY-green/AndroidStudyDemo](https://github.com/DIY-green/AndroidStudyDemo) | **775** | BJ |
+| [ColZer/DigAndBuried](https://github.com/ColZer/DigAndBuried) | **682** | bj |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

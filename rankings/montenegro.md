@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **1,280**
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **679**
 
 ### High-star verified preview
 
@@ -56,5 +56,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [gilbarbara/logos](https://github.com/gilbarbara/logos) | **6,838** | São Paulo, BR |
 | [joaokristani/Discord-Server-Cloner-2x](https://github.com/joaokristani/Discord-Server-Cloner-2x) | **1,474** | SP, BR |
 | [gilbarbara/react-inlinesvg](https://github.com/gilbarbara/react-inlinesvg) | **1,322** | São Paulo, BR |
+| [arthurhenrique/cookiecutter-fastapi](https://github.com/arthurhenrique/cookiecutter-fastapi) | **707** | são paulo, br |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

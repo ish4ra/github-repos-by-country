@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **758**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **679**
 
 ### High-star verified preview
 
@@ -55,5 +55,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [mearashadowfax/ScrewFast](https://github.com/mearashadowfax/ScrewFast) | **1,422** | Baku, Azerbaijan |
 | [Theyka/Turnstile-Solver](https://github.com/Theyka/Turnstile-Solver) | **947** | Azerbaijan |
 | [theahmadov/slash](https://github.com/theahmadov/slash) | **752** | Azerbaijan |
+| [rasadov/EcommerceAPI](https://github.com/rasadov/EcommerceAPI) | **696** | Azerbaijan, Baku |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **943**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **679**
 
 ### High-star verified preview
 
@@ -53,5 +53,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [Zerx0r/Kage](https://github.com/Zerx0r/Kage) | **1,236** | Oman, Muscat |
 | [AhmedBafkir/DLiPA](https://github.com/AhmedBafkir/DLiPA) | **989** | Oman |
+| [HosseinShabani/react-native-modern-datepicker](https://github.com/HosseinShabani/react-native-modern-datepicker) | **711** | Oman |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

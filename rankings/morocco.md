@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **1,010**
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **679**
 
 ### High-star verified preview
 
@@ -56,5 +56,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [winder/Universal-G-Code-Sender](https://github.com/winder/Universal-G-Code-Sender) | **2,266** | MA |
 | [benweet/stackedit.js](https://github.com/benweet/stackedit.js) | **1,167** | Marrakech, Morocco |
 | [meel-hd/lofi-engine](https://github.com/meel-hd/lofi-engine) | **1,029** | Meknes, Morocco  |
+| [scottaohara/accessible_components](https://github.com/scottaohara/accessible_components) | **697** | MA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

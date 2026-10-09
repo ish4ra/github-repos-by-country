@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **758**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **679**
 
 ### High-star verified preview
 
@@ -54,5 +54,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [DerrickXuNu/OpenCOOD](https://github.com/DerrickXuNu/OpenCOOD) | **834** | LA |
 | [Heerozh/spectre](https://github.com/Heerozh/spectre) | **828** | LA |
 | [natefaubion/matches.js](https://github.com/natefaubion/matches.js) | **769** | LA |
+| [natefaubion/sparkler](https://github.com/natefaubion/sparkler) | **691** | LA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

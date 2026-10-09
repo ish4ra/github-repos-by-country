@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **17**
-- Current global star frontier: **713**
+- Verified high-star candidates retained: **18**
+- Current global star frontier: **679**
 
 ### High-star verified preview
 
@@ -68,5 +68,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [KhamisiKibet/QT-PyQt-PySide-Custom-Widgets](https://github.com/KhamisiKibet/QT-PyQt-PySide-Custom-Widgets) | **994** | Nairobi, Kenya |
 | [Bananz0/GalaxyBookEnabler](https://github.com/Bananz0/GalaxyBookEnabler) | **751** | Kenya |
 | [merlos/iOS-Open-GPX-Tracker](https://github.com/merlos/iOS-Open-GPX-Tracker) | **720** | Nairobi |
+| [VictorKabata/Notflix](https://github.com/VictorKabata/Notflix) | **682** | Nairobi, Kenya |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
