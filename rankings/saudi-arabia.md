@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **13**
-- Current global star frontier: **650**
+- Verified high-star candidates retained: **14**
+- Current global star frontier: **595**
 
 ### High-star verified preview
 
@@ -64,5 +64,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [vinayakumarr/Network-Intrusion-Detection](https://github.com/vinayakumarr/Network-Intrusion-Detection) | **773** | Khobar, Saudi Arabia |
 | [zaidalyafeai/ml-projects](https://github.com/zaidalyafeai/ml-projects) | **664** | Dhahran |
 | [paulgavrikov/visualkeras](https://github.com/paulgavrikov/visualkeras) | **661** | Saudi Arabia |
+| [xlmnxp/blue-recorder](https://github.com/xlmnxp/blue-recorder) | **596** | Saudi Arabia, Riyadh |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

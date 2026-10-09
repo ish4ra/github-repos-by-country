@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **679**
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **595**
 
 ### High-star verified preview
 
@@ -56,5 +56,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Theyka/Turnstile-Solver](https://github.com/Theyka/Turnstile-Solver) | **947** | Azerbaijan |
 | [theahmadov/slash](https://github.com/theahmadov/slash) | **752** | Azerbaijan |
 | [rasadov/EcommerceAPI](https://github.com/rasadov/EcommerceAPI) | **696** | Azerbaijan, Baku |
+| [nerdyslacker/desktop-web-browsers](https://github.com/nerdyslacker/desktop-web-browsers) | **615** | Hadrut, Armenia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

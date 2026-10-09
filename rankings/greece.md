@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **16**
-- Current global star frontier: **624**
+- Verified high-star candidates retained: **19**
+- Current global star frontier: **595**
 
 ### High-star verified preview
 
@@ -67,5 +67,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [AmmarkoV/SAM3DBody-cpp](https://github.com/AmmarkoV/SAM3DBody-cpp) | **684** | Heraklion, Crete, Greece |
 | [bergercookie/asm-lsp](https://github.com/bergercookie/asm-lsp) | **647** | Thessaloniki, Greece |
 | [bergercookie/syncall](https://github.com/bergercookie/syncall) | **621** | Thessaloniki, Greece |
+| [vmasto/express-babel](https://github.com/vmasto/express-babel) | **611** | Thessaloniki, Greece |
+| [Gpower2/gMKVExtractGUI](https://github.com/Gpower2/gMKVExtractGUI) | **597** | Greece/Thessaloniki |
+| [sdroege/gstreamer-rs](https://github.com/sdroege/gstreamer-rs) | **596** | Thessaloniki, Greece |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

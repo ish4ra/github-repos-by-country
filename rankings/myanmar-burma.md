@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **624**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **595**
 
 ### High-star verified preview
 
@@ -55,5 +55,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [netgoat-xyz/netgoat](https://github.com/netgoat-xyz/netgoat) | **903** | Myanmar |
 | [ronaldaug/gramateria](https://github.com/ronaldaug/gramateria) | **679** | Taunggyi, Myanmar |
 | [sailay1996/UAC_Bypass_In_The_Wild](https://github.com/sailay1996/UAC_Bypass_In_The_Wild) | **635** | Myanmar |
+| [sailay1996/awesome_windows_logical_bugs](https://github.com/sailay1996/awesome_windows_logical_bugs) | **601** | Myanmar |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **8**
-- Current global star frontier: **758**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **595**
 
 ### High-star verified preview
 
@@ -59,5 +59,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [AHEKOT/ComfyUI_VNCCS_Utils](https://github.com/AHEKOT/ComfyUI_VNCCS_Utils) | **1,107** | Uzbekistan |
 | [Maxmudjon/Get_MiHome_devices_token](https://github.com/Maxmudjon/Get_MiHome_devices_token) | **787** | Uzbekistan, Tashkent |
 | [selectel/pyte](https://github.com/selectel/pyte) | **755** | Uzbekistan |
+| [ramziddin/solid-skills](https://github.com/ramziddin/solid-skills) | **608** | Uzbekistan, Tashkent |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

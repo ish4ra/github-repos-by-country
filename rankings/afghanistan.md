@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **679**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **595**
 
 ### High-star verified preview
 
@@ -53,5 +53,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [openlibrecommunity/olcrtc](https://github.com/openlibrecommunity/olcrtc) | **2,025** | Afghanistan |
 | [AntiCope/meteor-rejects](https://github.com/AntiCope/meteor-rejects) | **681** | Afghanistan |
+| [tlzzu/SoDiaoEditor](https://github.com/tlzzu/SoDiaoEditor) | **614** | Titan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

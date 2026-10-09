@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **16**
-- Current global star frontier: **650**
+- Verified high-star candidates retained: **18**
+- Current global star frontier: **595**
 
 ### High-star verified preview
 
@@ -67,5 +67,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [esensar/nvim-dev-container](https://github.com/esensar/nvim-dev-container) | **738** | Sarajevo, Bosnia and Herzegovina |
 | [nenadg/traquer](https://github.com/nenadg/traquer) | **717** | Banja Luka, Bosnia and Herzegovina |
 | [MS-WEB-BN/h4rpy](https://github.com/MS-WEB-BN/h4rpy) | **664** | Bijeljina, Bosnia and Herzegovina |
+| [AleksaMCode/WiFi-password-stealer](https://github.com/AleksaMCode/WiFi-password-stealer) | **606** | Banja Luka, Bosnia and Herzegovina |
+| [nadirbad/VerticalSliceArchitecture](https://github.com/nadirbad/VerticalSliceArchitecture) | **604** | Sarajevo |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

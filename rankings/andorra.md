@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **1,094**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **595**
 
 ### High-star verified preview
 
@@ -53,5 +53,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [AlexAltea/orbital](https://github.com/AlexAltea/orbital) | **3,649** | Les Escaldes, Andorra |
 | [jorge07/symfony-7-es-cqrs-boilerplate](https://github.com/jorge07/symfony-7-es-cqrs-boilerplate) | **1,088** | Escaldes, Andorra |
+| [AlexAltea/unicorn.js](https://github.com/AlexAltea/unicorn.js) | **603** | Les Escaldes, Andorra |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
