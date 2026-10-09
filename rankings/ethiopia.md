@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **6**
-- Current global star frontier: **713**
+- Verified high-star candidates retained: **7**
+- Current global star frontier: **650**
 
 ### High-star verified preview
 
@@ -57,5 +57,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Esubaalew/run](https://github.com/Esubaalew/run) | **941** | Addis Ababa, Ethiopia |
 | [frectonz/pglite-fusion](https://github.com/frectonz/pglite-fusion) | **834** | Ethiopia, Addis Abeba |
 | [adilmohak/django-lms](https://github.com/adilmohak/django-lms) | **730** | Addis ababa, Ethiopia |
+| [SkyCascade/SkyLearn](https://github.com/SkyCascade/SkyLearn) | **661** | Ethiopia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

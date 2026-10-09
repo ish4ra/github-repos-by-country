@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **713**
+- Verified high-star candidates retained: **16**
+- Current global star frontier: **650**
 
 ### High-star verified preview
 
@@ -65,5 +65,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [SuprDewd/T-414-AFLV](https://github.com/SuprDewd/T-414-AFLV) | **911** | Iceland |
 | [birkir/react-native-carplay](https://github.com/birkir/react-native-carplay) | **808** | Reykjavík, Iceland |
 | [pagekite/PyPagekite](https://github.com/pagekite/PyPagekite) | **751** | Reykjavik, Iceland |
+| [sveinbjornt/hear](https://github.com/sveinbjornt/hear) | **670** | Reykjavík, Iceland |
+| [einaregilsson/beanstalk-deploy](https://github.com/einaregilsson/beanstalk-deploy) | **667** | Iceland |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **11**
-- Current global star frontier: **679**
+- Verified high-star candidates retained: **12**
+- Current global star frontier: **650**
 
 ### High-star verified preview
 
@@ -62,5 +62,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [1595901624/gpt-aggregated-edition](https://github.com/1595901624/gpt-aggregated-edition) | **714** | Macau |
 | [layumi/University1652-Baseline](https://github.com/layumi/University1652-Baseline) | **688** | Macau, China |
 | [sou350121/VLA-Handbook](https://github.com/sou350121/VLA-Handbook) | **685** | Macau |
+| [yingpengma/Awesome-Story-Generation](https://github.com/yingpengma/Awesome-Story-Generation) | **662** | Macau SAR, China |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

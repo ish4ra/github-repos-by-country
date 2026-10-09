@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [mfielding92/ClawedBack](https://github.com/mfielding92/ClawedBack) | **23** | Bermuda Triangle |
 | [HamiltonInsurance/outlook_msg](https://github.com/HamiltonInsurance/outlook_msg) | **21** | Hamilton, Bermuda |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **650**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [DesktopECHO/Pi-hole-for-Android](https://github.com/DesktopECHO/Pi-hole-for-Android) | **656** | Hamilton, Bermuda |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

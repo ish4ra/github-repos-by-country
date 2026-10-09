@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **758**
+- Verified high-star candidates retained: **10**
+- Current global star frontier: **650**
 
 ### High-star verified preview
 
@@ -60,5 +60,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [darkoperator/Posh-SSH](https://github.com/darkoperator/Posh-SSH) | **1,058** | Puerto Rico |
 | [jgmdev/ddos-deflate](https://github.com/jgmdev/ddos-deflate) | **860** | Puerto Rico |
 | [FrenzyExists/wallpapers](https://github.com/FrenzyExists/wallpapers) | **777** | Aguadilla, Puerto Rico |
+| [elving/swag](https://github.com/elving/swag) | **672** | Puerto Rico |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

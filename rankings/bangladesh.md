@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **679**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **650**
 
 ### High-star verified preview
 
@@ -55,5 +55,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [neurobin/shc](https://github.com/neurobin/shc) | **2,251** | Chuadanga, Bangladesh |
 | [lahin31/system-design-bangla](https://github.com/lahin31/system-design-bangla) | **1,250** | Sylhet, Bangladesh |
 | [farukalamai/advanced-machine-learning-engineer-roadmap-2024](https://github.com/farukalamai/advanced-machine-learning-engineer-roadmap-2024) | **703** | Rangamati, Bangladesh |
+| [mdgaziur/findex](https://github.com/mdgaziur/findex) | **666** | Sylhet, Bangladesh |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

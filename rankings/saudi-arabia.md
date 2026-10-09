@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **11**
-- Current global star frontier: **758**
+- Verified high-star candidates retained: **13**
+- Current global star frontier: **650**
 
 ### High-star verified preview
 
@@ -62,5 +62,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [0xfff0800/Brute-force-Instagram-2025](https://github.com/0xfff0800/Brute-force-Instagram-2025) | **902** | Saudi Arabia |
 | [abarrak/linux-sysops-handbook](https://github.com/abarrak/linux-sysops-handbook) | **842** | Saudi Arabia |
 | [vinayakumarr/Network-Intrusion-Detection](https://github.com/vinayakumarr/Network-Intrusion-Detection) | **773** | Khobar, Saudi Arabia |
+| [zaidalyafeai/ml-projects](https://github.com/zaidalyafeai/ml-projects) | **664** | Dhahran |
+| [paulgavrikov/visualkeras](https://github.com/paulgavrikov/visualkeras) | **661** | Saudi Arabia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
