@@ -20,8 +20,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **11**
-- Current global star frontier: **509**
+- Verified high-star candidates retained: **12**
+- Current global star frontier: **489**
 
 ### High-star verified preview
 
@@ -40,5 +40,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [o8oo8o/WebCurl](https://github.com/o8oo8o/WebCurl) | **609** | BJ |
 | [chengda/popular-fonts](https://github.com/chengda/popular-fonts) | **523** | BJ |
 | [JideGuru/FlutterFurnitureAppUI](https://github.com/JideGuru/FlutterFurnitureAppUI) | **511** | Cotonou, Benin. |
+| [Chanzi-keji/chanzi](https://github.com/Chanzi-keji/chanzi) | **489** | bj |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

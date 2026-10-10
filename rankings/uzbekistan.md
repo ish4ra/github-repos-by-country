@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **11**
-- Current global star frontier: **509**
+- Verified high-star candidates retained: **12**
+- Current global star frontier: **489**
 
 ### High-star verified preview
 
@@ -62,5 +62,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ramziddin/solid-skills](https://github.com/ramziddin/solid-skills) | **608** | Uzbekistan, Tashkent |
 | [Davronov-Alimardon/canva-clone](https://github.com/Davronov-Alimardon/canva-clone) | **529** | Uzbekistan |
 | [shrubb/box-convolutions](https://github.com/shrubb/box-convolutions) | **508** | Tashkent, Uzbekistan |
+| [smixs/visual-skills](https://github.com/smixs/visual-skills) | **499** | Tashkent, Uzbekistan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

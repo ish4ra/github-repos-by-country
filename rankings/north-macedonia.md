@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **8**
-- Current global star frontier: **713**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **489**
 
 ### High-star verified preview
 
@@ -59,5 +59,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [sAleksovski/react-native-android-widget](https://github.com/sAleksovski/react-native-android-widget) | **900** | Kumanovo, Macedonia |
 | [ViksaaSkool/AwesomeSplash](https://github.com/ViksaaSkool/AwesomeSplash) | **801** | Skopje, Macedonia |
 | [AdaptiveScale/lxdui](https://github.com/AdaptiveScale/lxdui) | **742** | Tetovo, Macedonia |
+| [yoshimkd/swift-auto-diagram](https://github.com/yoshimkd/swift-auto-diagram) | **496** | Skopje, North Macedonia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

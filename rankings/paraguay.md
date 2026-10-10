@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **1,280**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **489**
 
 ### High-star verified preview
 
@@ -53,5 +53,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [tchx84/Flatseal](https://github.com/tchx84/Flatseal) | **1,789** | Paraguay |
 | [matiasinsaurralde/facebook-tunnel](https://github.com/matiasinsaurralde/facebook-tunnel) | **1,289** | Paraguay |
+| [matiasinsaurralde/go-dotnet](https://github.com/matiasinsaurralde/go-dotnet) | **494** | Paraguay |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

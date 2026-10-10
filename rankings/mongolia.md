@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **1,885**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **489**
 
 ### High-star verified preview
 
@@ -53,5 +53,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [tortuvshin/open-apps](https://github.com/tortuvshin/open-apps) | **4,358** | Mongolia |
 | [chris1610/pbpython](https://github.com/chris1610/pbpython) | **1,992** | MN |
+| [flow-mn/flow](https://github.com/flow-mn/flow) | **499** | Mongolia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
