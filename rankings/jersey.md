@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **1,094**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **548**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [structurizr/java](https://github.com/structurizr/java) | **1,135** | Jersey, Channel Islands |
+| [structurizr/cli](https://github.com/structurizr/cli) | **565** | Jersey, Channel Islands |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

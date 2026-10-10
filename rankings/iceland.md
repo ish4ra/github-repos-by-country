@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **16**
-- Current global star frontier: **650**
+- Verified high-star candidates retained: **17**
+- Current global star frontier: **548**
 
 ### High-star verified preview
 
@@ -67,5 +67,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [pagekite/PyPagekite](https://github.com/pagekite/PyPagekite) | **751** | Reykjavik, Iceland |
 | [sveinbjornt/hear](https://github.com/sveinbjornt/hear) | **670** | Reykjavík, Iceland |
 | [einaregilsson/beanstalk-deploy](https://github.com/einaregilsson/beanstalk-deploy) | **667** | Iceland |
+| [SuprDewd/CompetitiveProgramming](https://github.com/SuprDewd/CompetitiveProgramming) | **564** | Iceland |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

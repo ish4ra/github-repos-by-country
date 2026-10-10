@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **1,280**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **548**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [kaku2015/ColorfulNews](https://github.com/kaku2015/ColorfulNews) | **1,298** | Barbados |
+| [kaku2015/WeatherAlarmClock](https://github.com/kaku2015/WeatherAlarmClock) | **547** | Barbados |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

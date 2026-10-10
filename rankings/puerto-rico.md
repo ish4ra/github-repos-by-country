@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **11**
-- Current global star frontier: **595**
+- Verified high-star candidates retained: **14**
+- Current global star frontier: **548**
 
 ### High-star verified preview
 
@@ -62,5 +62,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [FrenzyExists/wallpapers](https://github.com/FrenzyExists/wallpapers) | **777** | Aguadilla, Puerto Rico |
 | [elving/swag](https://github.com/elving/swag) | **672** | Puerto Rico |
 | [Cuperino/QPrompt-Teleprompter](https://github.com/Cuperino/QPrompt-Teleprompter) | **610** | Puerto Rico |
+| [EsotericSoftware/yamlbeans](https://github.com/EsotericSoftware/yamlbeans) | **568** | Puerto Rico |
+| [gcollazo/Fabulous](https://github.com/gcollazo/Fabulous) | **566** | Puerto Rico |
+| [gcollazo/BrowserRefresh-Sublime](https://github.com/gcollazo/BrowserRefresh-Sublime) | **560** | Puerto Rico |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

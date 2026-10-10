@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **6**
-- Current global star frontier: **624**
+- Verified high-star candidates retained: **8**
+- Current global star frontier: **548**
 
 ### High-star verified preview
 
@@ -57,5 +57,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [dee1024/pytorch-captcha-recognition](https://github.com/dee1024/pytorch-captcha-recognition) | **1,220** | SZ |
 | [XWHQSJ/ebooks](https://github.com/XWHQSJ/ebooks) | **1,035** | SZ |
 | [ChileWang0228/Deep-Learning-With-Python](https://github.com/ChileWang0228/Deep-Learning-With-Python) | **641** | SZ |
+| [dicallc/ionic3_angular4_JD](https://github.com/dicallc/ionic3_angular4_JD) | **570** | SZ |
+| [FaceAISDK/FaceRecognition_ReactNative](https://github.com/FaceAISDK/FaceRecognition_ReactNative) | **563** | SZ |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

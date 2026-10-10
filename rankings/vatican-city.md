@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **624**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **548**
 
 ### High-star verified preview
 
@@ -53,5 +53,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [Penetrum-Security/Security-List](https://github.com/Penetrum-Security/Security-List) | **647** | VA |
 | [openconstruct/Peersuite](https://github.com/openconstruct/Peersuite) | **629** | VA |
+| [sergiocorreia/panflute](https://github.com/sergiocorreia/panflute) | **553** | VA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

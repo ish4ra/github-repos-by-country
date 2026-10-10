@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **573**
+- Verified high-star candidates retained: **16**
+- Current global star frontier: **548**
 
 ### High-star verified preview
 
@@ -65,5 +65,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [yingpengma/Awesome-Story-Generation](https://github.com/yingpengma/Awesome-Story-Generation) | **662** | Macau SAR, China |
 | [spiritLHLS/Hang-up-items](https://github.com/spiritLHLS/Hang-up-items) | **646** | Macau |
 | [greatzh/Papers](https://github.com/greatzh/Papers) | **571** | macao |
+| [Boom5426/Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) | **563** | Macau |
+| [spiritLHLS/one-click-installation-script](https://github.com/spiritLHLS/one-click-installation-script) | **558** | Macau |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

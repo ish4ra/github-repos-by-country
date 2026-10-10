@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **19**
-- Current global star frontier: **573**
+- Verified high-star candidates retained: **20**
+- Current global star frontier: **548**
 
 ### High-star verified preview
 
@@ -70,5 +70,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [AleksaMCode/WiFi-password-stealer](https://github.com/AleksaMCode/WiFi-password-stealer) | **606** | Banja Luka, Bosnia and Herzegovina |
 | [nadirbad/VerticalSliceArchitecture](https://github.com/nadirbad/VerticalSliceArchitecture) | **604** | Sarajevo |
 | [komljen/dockerfile-examples](https://github.com/komljen/dockerfile-examples) | **587** | Sarajevo |
+| [xiprox/ErrorView](https://github.com/xiprox/ErrorView) | **560** | Sarajevo |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [tuto1902/filament-pet-clinic](https://github.com/tuto1902/filament-pet-clinic) | **91** | Costa Rica |
 | [brolag/30DaysOfReact](https://github.com/brolag/30DaysOfReact) | **73** | Costa Rica |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **548**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [labexp/osmtracker-android](https://github.com/labexp/osmtracker-android) | **563** | Alajuela |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

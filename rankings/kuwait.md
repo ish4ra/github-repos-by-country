@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **8**
-- Current global star frontier: **624**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **548**
 
 ### High-star verified preview
 
@@ -59,5 +59,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [NYAN-x-CAT/Lime-RAT](https://github.com/NYAN-x-CAT/Lime-RAT) | **1,137** | Kuwait |
 | [arabcoders/ytptube](https://github.com/arabcoders/ytptube) | **1,033** | Kuwait |
 | [telly/MrVector](https://github.com/telly/MrVector) | **644** | Kuwait |
+| [NYAN-x-CAT/Lime-Crypter](https://github.com/NYAN-x-CAT/Lime-Crypter) | **555** | Kuwait |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
