@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **18**
-- Current global star frontier: **527**
+- Verified high-star candidates retained: **19**
+- Current global star frontier: **509**
 
 ### High-star verified preview
 
@@ -69,5 +69,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [hamedbaatour/minimus](https://github.com/hamedbaatour/minimus) | **628** | Tunis, Tunisia |
 | [x3omdax/PenBox](https://github.com/x3omdax/PenBox) | **538** | Tunisia |
 | [Ademking/BetterViewer](https://github.com/Ademking/BetterViewer) | **535** | Tunisia |
+| [MohamedRejeb/compose-dnd](https://github.com/MohamedRejeb/compose-dnd) | **510** | Tunisia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

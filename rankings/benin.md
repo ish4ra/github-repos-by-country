@@ -20,8 +20,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **595**
+- Verified high-star candidates retained: **11**
+- Current global star frontier: **509**
 
 ### High-star verified preview
 
@@ -38,5 +38,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [imlifengfeng/FFToast](https://github.com/imlifengfeng/FFToast) | **630** | BJ |
 | [onesine/react-tailwindcss-datepicker](https://github.com/onesine/react-tailwindcss-datepicker) | **609** | Cotonou, Bénin |
 | [o8oo8o/WebCurl](https://github.com/o8oo8o/WebCurl) | **609** | BJ |
+| [chengda/popular-fonts](https://github.com/chengda/popular-fonts) | **523** | BJ |
+| [JideGuru/FlutterFurnitureAppUI](https://github.com/JideGuru/FlutterFurnitureAppUI) | **511** | Cotonou, Benin. |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

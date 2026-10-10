@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **595**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **509**
 
 ### High-star verified preview
 
@@ -55,5 +55,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [atoum/atoum](https://github.com/atoum/atoum) | **1,440** | Noun |
 | [RMPR/atbswp](https://github.com/RMPR/atbswp) | **742** | Cameroon |
 | [dekusms/DekuSMS-Android](https://github.com/dekusms/DekuSMS-Android) | **599** | Cameroon |
+| [yunweneric/flutter-open-ui](https://github.com/yunweneric/flutter-open-ui) | **524** | Douala, Cameroon |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **16**
-- Current global star frontier: **650**
+- Verified high-star candidates retained: **18**
+- Current global star frontier: **509**
 
 ### High-star verified preview
 
@@ -67,5 +67,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [JaneySprings/DotRush](https://github.com/JaneySprings/DotRush) | **778** | Yerevan |
 | [suren-atoyan/react-pwa](https://github.com/suren-atoyan/react-pwa) | **719** | Yerevan, Armenia |
 | [vpashkov/awesome-nim](https://github.com/vpashkov/awesome-nim) | **651** | Yerevan |
+| [arutar/FrankenDriver](https://github.com/arutar/FrankenDriver) | **515** | Yerevan |
+| [Vagr9K/gatsby-material-starter](https://github.com/Vagr9K/gatsby-material-starter) | **507** | Yerevan, Armenia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **6**
-- Current global star frontier: **548**
+- Verified high-star candidates retained: **8**
+- Current global star frontier: **509**
 
 ### High-star verified preview
 
@@ -57,5 +57,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [jjcheer/ocrcn_tf2](https://github.com/jjcheer/ocrcn_tf2) | **736** | SH |
 | [xiekw2010/DXPopover](https://github.com/xiekw2010/DXPopover) | **706** | SH |
 | [willianfu/wflow](https://github.com/willianfu/wflow) | **560** | sh |
+| [stbui/angular-material-app](https://github.com/stbui/angular-material-app) | **513** | sh |
+| [halsay/ASR-TTS-paper-daily](https://github.com/halsay/ASR-TTS-paper-daily) | **513** | SH |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

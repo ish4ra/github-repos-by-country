@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **573**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **509**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [luckasRanarison/tailwind-tools.nvim](https://github.com/luckasRanarison/tailwind-tools.nvim) | **587** | Antananarivo, Madagascar |
+| [tsirysndr/music-player](https://github.com/tsirysndr/music-player) | **525** | Antananarivo / Madagascar |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

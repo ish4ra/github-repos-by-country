@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **16**
-- Current global star frontier: **548**
+- Verified high-star candidates retained: **17**
+- Current global star frontier: **509**
 
 ### High-star verified preview
 
@@ -67,5 +67,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [greatzh/Papers](https://github.com/greatzh/Papers) | **571** | macao |
 | [Boom5426/Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) | **563** | Macau |
 | [spiritLHLS/one-click-installation-script](https://github.com/spiritLHLS/one-click-installation-script) | **558** | Macau |
+| [layumi/Vehicle_reID-Collection](https://github.com/layumi/Vehicle_reID-Collection) | **515** | Macau, China |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
