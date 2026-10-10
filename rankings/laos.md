@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **8**
-- Current global star frontier: **548**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **527**
 
 ### High-star verified preview
 
@@ -59,5 +59,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [haradakashiwa/FreeGFW](https://github.com/haradakashiwa/FreeGFW) | **613** | LA |
 | [jichangzhu/JichangTuijian](https://github.com/jichangzhu/JichangTuijian) | **580** | LA |
 | [DerrickXuNu/Learn-Carla](https://github.com/DerrickXuNu/Learn-Carla) | **548** | LA |
+| [songrun/SeamAwareDecimater](https://github.com/songrun/SeamAwareDecimater) | **536** | LA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

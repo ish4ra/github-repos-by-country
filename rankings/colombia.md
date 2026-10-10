@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **650**
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **527**
 
 ### High-star verified preview
 
@@ -56,5 +56,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [sdkcarlos/artyom.js](https://github.com/sdkcarlos/artyom.js) | **1,268** | Bucaramanga, Colombia. |
 | [jahirfiquitiva/Blueprint](https://github.com/jahirfiquitiva/Blueprint) | **939** | Duitama, Colombia |
 | [jahirfiquitiva/Frames](https://github.com/jahirfiquitiva/Frames) | **652** | Duitama, Colombia |
+| [DragonJAR/n8n-workflows-esp](https://github.com/DragonJAR/n8n-workflows-esp) | **529** | Manizales, Caldas, Colombia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

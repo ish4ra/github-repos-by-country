@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **15**
-- Current global star frontier: **548**
+- Verified high-star candidates retained: **17**
+- Current global star frontier: **527**
 
 ### High-star verified preview
 
@@ -66,5 +66,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [GataNina-Li/GataBot-MD](https://github.com/GataNina-Li/GataBot-MD) | **679** | Ecuador |
 | [AngelJumbo/lavat](https://github.com/AngelJumbo/lavat) | **622** | Ecuador |
 | [asantibanez/laravel-eloquent-state-machines](https://github.com/asantibanez/laravel-eloquent-state-machines) | **567** | Guayaquil, Ecuador |
+| [Darkmux/SETSMS](https://github.com/Darkmux/SETSMS) | **540** | Ecuador |
+| [r1vs3c/auto-bspwm](https://github.com/r1vs3c/auto-bspwm) | **527** | Ecuador |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **17**
-- Current global star frontier: **573**
+- Verified high-star candidates retained: **19**
+- Current global star frontier: **527**
 
 ### High-star verified preview
 
@@ -68,5 +68,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [omarcusdev/zap-gpt-free](https://github.com/omarcusdev/zap-gpt-free) | **583** | Brazil, RS, Porto Alegre |
 | [KarimEbrahemAbdelaziz/SwiftyMenu](https://github.com/KarimEbrahemAbdelaziz/SwiftyMenu) | **579** | Riyadh, Saudi Arabia |
 | [BandarHL/BHInstagram](https://github.com/BandarHL/BHInstagram) | **572** | Saudi Arabia |
+| [cc1a2b/JShunter](https://github.com/cc1a2b/JShunter) | **541** | Saudi Arabia, Riyadh |
+| [0xfff0800/Brute-force-gmail](https://github.com/0xfff0800/Brute-force-gmail) | **533** | Saudi Arabia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

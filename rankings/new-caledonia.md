@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **679**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **527**
 
 ### High-star verified preview
 
@@ -55,5 +55,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [aksiksi/compose2nix](https://github.com/aksiksi/compose2nix) | **908** | NC |
 | [kjhealy/pandoc-templates](https://github.com/kjhealy/pandoc-templates) | **754** | NC |
 | [OneOhCloud/OneBox](https://github.com/OneOhCloud/OneBox) | **701** | WY, USA |
+| [akonwi/git-plus](https://github.com/akonwi/git-plus) | **533** | NC |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

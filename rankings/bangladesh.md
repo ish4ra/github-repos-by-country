@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **6**
-- Current global star frontier: **573**
+- Verified high-star candidates retained: **8**
+- Current global star frontier: **527**
 
 ### High-star verified preview
 
@@ -57,5 +57,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [farukalamai/advanced-machine-learning-engineer-roadmap-2024](https://github.com/farukalamai/advanced-machine-learning-engineer-roadmap-2024) | **703** | Rangamati, Bangladesh |
 | [mdgaziur/findex](https://github.com/mdgaziur/findex) | **666** | Sylhet, Bangladesh |
 | [bitzhuwei/CSharpGL](https://github.com/bitzhuwei/CSharpGL) | **592** | BD |
+| [Rafiquzzaman420/Free-Programming-Books](https://github.com/Rafiquzzaman420/Free-Programming-Books) | **545** | Pabna |
+| [devxhub/awesome-book-collection](https://github.com/devxhub/awesome-book-collection) | **538** | Rajshahi, Bangladesh |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

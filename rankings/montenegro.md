@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **7**
-- Current global star frontier: **595**
+- Verified high-star candidates retained: **8**
+- Current global star frontier: **527**
 
 ### High-star verified preview
 
@@ -58,5 +58,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [gilbarbara/react-inlinesvg](https://github.com/gilbarbara/react-inlinesvg) | **1,322** | São Paulo, BR |
 | [arthurhenrique/cookiecutter-fastapi](https://github.com/arthurhenrique/cookiecutter-fastapi) | **707** | são paulo, br |
 | [gilbarbara/react-redux-saga-boilerplate](https://github.com/gilbarbara/react-redux-saga-boilerplate) | **616** | São Paulo, BR |
+| [IvanDrokin/torch-conv-kan](https://github.com/IvanDrokin/torch-conv-kan) | **532** | Budva |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

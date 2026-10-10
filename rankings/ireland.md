@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **17**
-- Current global star frontier: **624**
+- Verified high-star candidates retained: **18**
+- Current global star frontier: **527**
 
 ### High-star verified preview
 
@@ -68,5 +68,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [KarimElghamry/chillify](https://github.com/KarimElghamry/chillify) | **756** | Cork, Ireland |
 | [mp3guy/ICPCUDA](https://github.com/mp3guy/ICPCUDA) | **721** | Cork, Ireland |
 | [boramalper/pydis](https://github.com/boramalper/pydis) | **637** | Cork, Ireland |
+| [techfort/pycv](https://github.com/techfort/pycv) | **543** | Cork, Ireland |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **548**
+- Verified high-star candidates retained: **15**
+- Current global star frontier: **527**
 
 ### High-star verified preview
 
@@ -65,5 +65,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [EsotericSoftware/yamlbeans](https://github.com/EsotericSoftware/yamlbeans) | **568** | Puerto Rico |
 | [gcollazo/Fabulous](https://github.com/gcollazo/Fabulous) | **566** | Puerto Rico |
 | [gcollazo/BrowserRefresh-Sublime](https://github.com/gcollazo/BrowserRefresh-Sublime) | **560** | Puerto Rico |
+| [gcollazo/mongodbapp](https://github.com/gcollazo/mongodbapp) | **535** | Puerto Rico |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

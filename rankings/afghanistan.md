@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **548**
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **527**
 
 ### High-star verified preview
 
@@ -55,5 +55,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [AntiCope/meteor-rejects](https://github.com/AntiCope/meteor-rejects) | **681** | Afghanistan |
 | [tlzzu/SoDiaoEditor](https://github.com/tlzzu/SoDiaoEditor) | **614** | Titan |
 | [afgprogrammer/Flutter-Complete-e-commerce](https://github.com/afgprogrammer/Flutter-Complete-e-commerce) | **564** |  Kabul, Afghanistan |
+| [afgprogrammer/Flutter-examples](https://github.com/afgprogrammer/Flutter-examples) | **539** |  Kabul, Afghanistan |
+| [AryanpurTech/BlueEngine](https://github.com/AryanpurTech/BlueEngine) | **529** | Afghanistan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
