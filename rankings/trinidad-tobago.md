@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **509**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **472**
 
 ### High-star verified preview
 
@@ -55,5 +55,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [trinib/AdGuard-WireGuard-Unbound-DNScrypt](https://github.com/trinib/AdGuard-WireGuard-Unbound-DNScrypt) | **907** | ❤Trinidad & Tobago❤ |
 | [chrisdev/django-pandas](https://github.com/chrisdev/django-pandas) | **806** | Trinidad & Tobago |
 | [trinib/trinib](https://github.com/trinib/trinib) | **509** | ❤Trinidad & Tobago❤ |
+| [callmenick/Animating-Hamburger-Icons](https://github.com/callmenick/Animating-Hamburger-Icons) | **485** | Trinidad & Tobago |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

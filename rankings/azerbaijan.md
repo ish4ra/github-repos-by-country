@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **7**
-- Current global star frontier: **527**
+- Verified high-star candidates retained: **8**
+- Current global star frontier: **472**
 
 ### High-star verified preview
 
@@ -58,5 +58,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [rasadov/EcommerceAPI](https://github.com/rasadov/EcommerceAPI) | **696** | Azerbaijan, Baku |
 | [nerdyslacker/desktop-web-browsers](https://github.com/nerdyslacker/desktop-web-browsers) | **615** | Hadrut, Armenia |
 | [r14dd/patent](https://github.com/r14dd/patent) | **534** | Baku, Azerbaijan |
+| [theahmadov/NIVOS](https://github.com/theahmadov/NIVOS) | **481** | Azerbaijan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

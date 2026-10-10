@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **595**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **472**
 
 ### High-star verified preview
 
@@ -53,5 +53,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [luisespinoza/LEColorPicker](https://github.com/luisespinoza/LEColorPicker) | **645** | Quilpué, Chile |
 | [madkote/fastapi-plugins](https://github.com/madkote/fastapi-plugins) | **609** | Santiago de Chile |
+| [rodyherrera/Quantum](https://github.com/rodyherrera/Quantum) | **475** | Chile, Talca |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

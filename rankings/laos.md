@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **10**
-- Current global star frontier: **509**
+- Verified high-star candidates retained: **11**
+- Current global star frontier: **472**
 
 ### High-star verified preview
 
@@ -61,5 +61,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [DerrickXuNu/Learn-Carla](https://github.com/DerrickXuNu/Learn-Carla) | **548** | LA |
 | [songrun/SeamAwareDecimater](https://github.com/songrun/SeamAwareDecimater) | **536** | LA |
 | [Ink-Osier/PandoraToV1Api](https://github.com/Ink-Osier/PandoraToV1Api) | **513** | LA |
+| [thmsbfft/oryoki](https://github.com/thmsbfft/oryoki) | **483** | LA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

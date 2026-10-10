@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **7**
-- Current global star frontier: **548**
+- Verified high-star candidates retained: **8**
+- Current global star frontier: **472**
 
 ### High-star verified preview
 
@@ -58,5 +58,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [eylles/pywal16](https://github.com/eylles/pywal16) | **814** | Guatemala |
 | [TaTo30/vue-pdf](https://github.com/TaTo30/vue-pdf) | **692** | Guatemala |
 | [RandolphVI/Multi-Label-Text-Classification](https://github.com/RandolphVI/Multi-Label-Text-Classification) | **562** | Guatemala |
+| [deivuh/DODropletManager-OSX](https://github.com/deivuh/DODropletManager-OSX) | **488** | Guatemala |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

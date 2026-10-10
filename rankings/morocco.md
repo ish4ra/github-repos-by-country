@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **7**
-- Current global star frontier: **595**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **472**
 
 ### High-star verified preview
 
@@ -58,5 +58,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [meel-hd/lofi-engine](https://github.com/meel-hd/lofi-engine) | **1,029** | Meknes, Morocco  |
 | [scottaohara/accessible_components](https://github.com/scottaohara/accessible_components) | **697** | MA |
 | [wassim249/YT-Navigator](https://github.com/wassim249/YT-Navigator) | **603** | Kenitra , Morocco |
+| [AmineSoukara/amazon-music](https://github.com/AmineSoukara/amazon-music) | **480** | Fez, Morocco |
+| [scottaohara/a11y_styled_form_controls](https://github.com/scottaohara/a11y_styled_form_controls) | **472** | MA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

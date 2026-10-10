@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **19**
-- Current global star frontier: **509**
+- Verified high-star candidates retained: **20**
+- Current global star frontier: **472**
 
 ### High-star verified preview
 
@@ -70,5 +70,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [boramalper/pydis](https://github.com/boramalper/pydis) | **637** | Cork, Ireland |
 | [techfort/pycv](https://github.com/techfort/pycv) | **543** | Cork, Ireland |
 | [exuanbo/assembler-simulator](https://github.com/exuanbo/assembler-simulator) | **508** | Cork, Ireland |
+| [knobiknows/all-the-bufo](https://github.com/knobiknows/all-the-bufo) | **476** | Cork, Ireland |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -1,0 +1,3413 @@
+{
+  "schemaVersion": 1,
+  "methodologyVersion": "0.8.0-repository-first",
+  "generatedAt": "2026-10-10T22:28:38.667Z",
+  "country": {
+    "code": "EE",
+    "name": "Estonia",
+    "slug": "estonia"
+  },
+  "source": {
+    "provider": "GitHub GraphQL API",
+    "endpoint": "https://api.github.com/graphql",
+    "countryBasis": "public repository-owner profile location",
+    "discovery": "global repositories scanned by stars descending"
+  },
+  "coverage": {
+    "status": "repository-first-certified-by-star-frontier",
+    "exhaustive": false,
+    "rawOwnerHits": 130509,
+    "acceptedUniqueOwners": 73,
+    "ownerMetricLabel": "Unique owners in top ranking",
+    "repositoriesConsidered": 102,
+    "publishedRepositories": 100,
+    "candidateThresholdStars": 482,
+    "rankingLimit": 100,
+    "cappedQueries": [],
+    "repositoryFirst": {
+      "scanFrontierStars": 472,
+      "topObservedStars": 551406,
+      "repositoriesSeen": 130509,
+      "attributedRepositories": 48136,
+      "ambiguousLocations": 20686,
+      "unknownLocations": 61687,
+      "unresolvedStarCounts": []
+    },
+    "notes": [
+      "Repositories are scanned globally in descending star ranges, independently of owner follower count or owner-search ordering.",
+      "A country is certified only after its 100th repository has more stars than every unprocessed global star range.",
+      "Owner country is inferred from the owner public GitHub profile location using the global geography resolver.",
+      "Owners with missing or unresolved locations are excluded, so country attribution is not a citizenship or legal-incorporation claim.",
+      "Compound city/admin locations such as \"Portland, OR\" are resolved before ambiguous city-only names."
+    ]
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "Avalonia",
+      "nameWithOwner": "AvaloniaUI/Avalonia",
+      "url": "https://github.com/AvaloniaUI/Avalonia",
+      "description": "Develop Desktop, Embedded, Mobile and WebAssembly apps with C# and XAML. The future of .NET UI",
+      "stars": 31619,
+      "forks": 2835,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-12-05T20:13:21Z",
+      "pushedAt": "2026-10-01T14:18:30Z",
+      "homepageUrl": "https://avaloniaui.net",
+      "archived": false,
+      "owner": {
+        "login": "AvaloniaUI",
+        "name": "Avalonia UI",
+        "type": "Organization",
+        "url": "https://github.com/AvaloniaUI",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14075148?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 2,
+      "name": "nodemailer",
+      "nameWithOwner": "nodemailer/nodemailer",
+      "url": "https://github.com/nodemailer/nodemailer",
+      "description": "✉️ Send e-mails with Node.JS – easy as cake!",
+      "stars": 17684,
+      "forks": 1433,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2011-01-19T21:17:36Z",
+      "pushedAt": "2026-10-03T13:43:42Z",
+      "homepageUrl": "http://nodemailer.com/",
+      "archived": false,
+      "owner": {
+        "login": "nodemailer",
+        "name": "nodemailer",
+        "type": "Organization",
+        "url": "https://github.com/nodemailer",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16486629?v=4",
+        "location": "Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 3,
+      "name": "organicmaps",
+      "nameWithOwner": "organicmaps/organicmaps",
+      "url": "https://github.com/organicmaps/organicmaps",
+      "description": "🍃 Organic Maps is a free Android & iOS offline maps app for more than 6M travelers, tourists, hikers, and cyclists. It uses crowd-sourced OpenStreetMap data and is developed with love by the community. No ads, no tracking, no data collection, no crapware. Please donate to support the development!",
+      "stars": 15564,
+      "forks": 1622,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2020-12-27T19:02:26Z",
+      "pushedAt": "2026-10-03T18:06:49Z",
+      "homepageUrl": "https://organicmaps.app",
+      "archived": false,
+      "owner": {
+        "login": "organicmaps",
+        "name": "Organic Maps",
+        "type": "Organization",
+        "url": "https://github.com/organicmaps",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76659619?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 4,
+      "name": "go-clean-arch",
+      "nameWithOwner": "bxcodec/go-clean-arch",
+      "url": "https://github.com/bxcodec/go-clean-arch",
+      "description": "Go (Golang) Clean Architecture based on Reading Uncle Bob's Clean Architecture",
+      "stars": 10169,
+      "forks": 1317,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-06-09T02:04:22Z",
+      "pushedAt": "2024-04-24T04:15:38Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "bxcodec",
+        "name": "Iman Tumorang",
+        "type": "User",
+        "url": "https://github.com/bxcodec",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11002383?v=4",
+        "location": "Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 5,
+      "name": "cva",
+      "nameWithOwner": "joe-bell/cva",
+      "url": "https://github.com/joe-bell/cva",
+      "description": "Class Variance Authority",
+      "stars": 6904,
+      "forks": 140,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2022-01-02T10:00:57Z",
+      "pushedAt": "2026-10-03T08:38:16Z",
+      "homepageUrl": "https://cva.style",
+      "archived": false,
+      "owner": {
+        "login": "joe-bell",
+        "name": "Joe Bell",
+        "type": "User",
+        "url": "https://github.com/joe-bell",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7349341?u=39b89f03544a60616f7426972b1519b235e4d629&v=4",
+        "location": "Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 6,
+      "name": "iconify",
+      "nameWithOwner": "iconify/iconify",
+      "url": "https://github.com/iconify/iconify",
+      "description": "Universal icon framework. One syntax for FontAwesome, Material Design Icons, DashIcons, Feather Icons, EmojiOne, Noto Emoji and many other open source icon sets (over 200 icon sets and ~300k icons). SVG framework, React, Vue and Svelte components!",
+      "stars": 6354,
+      "forks": 207,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-02-22T15:23:59Z",
+      "pushedAt": "2026-10-01T03:43:29Z",
+      "homepageUrl": "https://iconify.design/",
+      "archived": false,
+      "owner": {
+        "login": "iconify",
+        "name": "Iconify",
+        "type": "Organization",
+        "url": "https://github.com/iconify",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50354982?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 7,
+      "name": "awesome-swift",
+      "nameWithOwner": "Wolg/awesome-swift",
+      "url": "https://github.com/Wolg/awesome-swift",
+      "description": "A curated list of awesome Swift frameworks, libraries and software.",
+      "stars": 5893,
+      "forks": 530,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2014-07-12T17:08:44Z",
+      "pushedAt": "2026-04-12T14:34:57Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Wolg",
+        "name": "Stanislav Chistenko",
+        "type": "User",
+        "url": "https://github.com/Wolg",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/538630?v=4",
+        "location": "Tallinn",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "tallinn"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 8,
+      "name": "survey-library",
+      "nameWithOwner": "surveyjs/survey-library",
+      "url": "https://github.com/surveyjs/survey-library",
+      "description": "Open-source JavaScript form library for React, Angular, Vue, and plain JavaScript. Render dynamic JSON-driven forms, multi-step form wizards, surveys, quizzes, and other data-entry tools.",
+      "stars": 4887,
+      "forks": 926,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-08-14T08:53:22Z",
+      "pushedAt": "2026-10-02T18:41:40Z",
+      "homepageUrl": "https://surveyjs.io/form-library",
+      "archived": false,
+      "owner": {
+        "login": "surveyjs",
+        "name": "SurveyJS",
+        "type": "Organization",
+        "url": "https://github.com/surveyjs",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25198306?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 9,
+      "name": "java-developer-roadmap",
+      "nameWithOwner": "s4kibs4mi/java-developer-roadmap",
+      "url": "https://github.com/s4kibs4mi/java-developer-roadmap",
+      "description": "Roadmap to becoming a Java developer in 2026",
+      "stars": 4548,
+      "forks": 565,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-04-23T06:42:13Z",
+      "pushedAt": "2026-03-15T18:46:28Z",
+      "homepageUrl": "https://qrcn.link/sakib?utm_source=github-s4kibs4mi",
+      "archived": false,
+      "owner": {
+        "login": "s4kibs4mi",
+        "name": "Sakib Sami",
+        "type": "User",
+        "url": "https://github.com/s4kibs4mi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5650785?u=4968d36e099f4e2fdcde75481e87dedbb37ed9b1&v=4",
+        "location": "Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 10,
+      "name": "gasmask",
+      "nameWithOwner": "2ndalpha/gasmask",
+      "url": "https://github.com/2ndalpha/gasmask",
+      "description": "Hosts file manager for macOS",
+      "stars": 3859,
+      "forks": 260,
+      "primaryLanguage": "Objective-C",
+      "license": null,
+      "createdAt": "2013-08-27T18:19:46Z",
+      "pushedAt": "2026-03-01T18:09:56Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "2ndalpha",
+        "name": "Siim Raud",
+        "type": "User",
+        "url": "https://github.com/2ndalpha",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2319203?v=4",
+        "location": "Tartu, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 11,
+      "name": "gophers",
+      "nameWithOwner": "egonelbre/gophers",
+      "url": "https://github.com/egonelbre/gophers",
+      "description": "Free gophers",
+      "stars": 3834,
+      "forks": 182,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdxId": "CC0-1.0"
+      },
+      "createdAt": "2015-06-03T06:34:42Z",
+      "pushedAt": "2022-07-06T06:41:07Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "egonelbre",
+        "name": "Egon Elbre",
+        "type": "User",
+        "url": "https://github.com/egonelbre",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/192964?u=c91ce1b8b67fac5928e527d2f0a9555307040e54&v=4",
+        "location": "Estonia, Tartu",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 12,
+      "name": "wysihtml",
+      "nameWithOwner": "Voog/wysihtml",
+      "url": "https://github.com/Voog/wysihtml",
+      "description": "Open source rich text editor for the modern web",
+      "stars": 3348,
+      "forks": 332,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-08-29T12:28:44Z",
+      "pushedAt": "2019-06-22T15:05:10Z",
+      "homepageUrl": "http://wysihtml.com",
+      "archived": false,
+      "owner": {
+        "login": "Voog",
+        "name": "Voog",
+        "type": "Organization",
+        "url": "https://github.com/Voog",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9587285?v=4",
+        "location": "Tartu, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 13,
+      "name": "selenoid",
+      "nameWithOwner": "aerokube/selenoid",
+      "url": "https://github.com/aerokube/selenoid",
+      "description": "Selenium Hub successor running browsers within containers. Scalable, immutable, self hosted Selenium-Grid on any platform with single binary.",
+      "stars": 2654,
+      "forks": 363,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2016-08-22T09:11:16Z",
+      "pushedAt": "2024-12-17T12:13:37Z",
+      "homepageUrl": "https://aerokube.com/selenoid/latest/",
+      "archived": true,
+      "owner": {
+        "login": "aerokube",
+        "name": "Aerokube",
+        "type": "Organization",
+        "url": "https://github.com/aerokube",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26328913?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 14,
+      "name": "taiga",
+      "nameWithOwner": "erengy/taiga",
+      "url": "https://github.com/erengy/taiga",
+      "description": "A lightweight anime tracker for Windows",
+      "stars": 2334,
+      "forks": 254,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2013-11-17T23:19:44Z",
+      "pushedAt": "2026-09-27T00:18:01Z",
+      "homepageUrl": "https://taiga.moe",
+      "archived": false,
+      "owner": {
+        "login": "erengy",
+        "name": "Eren Okka",
+        "type": "User",
+        "url": "https://github.com/erengy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1078430?v=4",
+        "location": "Tallinn",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "tallinn"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 15,
+      "name": "plaiceholder",
+      "nameWithOwner": "joe-bell/plaiceholder",
+      "url": "https://github.com/joe-bell/plaiceholder",
+      "description": "Beautiful image placeholders, without the hassle.",
+      "stars": 2315,
+      "forks": 74,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2020-10-28T09:16:34Z",
+      "pushedAt": "2026-09-28T16:51:55Z",
+      "homepageUrl": "https://plaiceholder.co",
+      "archived": true,
+      "owner": {
+        "login": "joe-bell",
+        "name": "Joe Bell",
+        "type": "User",
+        "url": "https://github.com/joe-bell",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7349341?u=39b89f03544a60616f7426972b1519b235e4d629&v=4",
+        "location": "Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 16,
+      "name": "prp",
+      "nameWithOwner": "Wirasm/prp",
+      "url": "https://github.com/Wirasm/prp",
+      "description": "Prompts, workflows and more for agentic engineering ",
+      "stars": 2255,
+      "forks": 604,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-06-21T07:13:38Z",
+      "pushedAt": "2026-10-02T06:09:53Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Wirasm",
+        "name": "Rasmus Widing",
+        "type": "User",
+        "url": "https://github.com/Wirasm",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/152263317?u=028826bd2aef067a4521dd58cd2562e667bf9178&v=4",
+        "location": "tallinn",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "tallinn"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 17,
+      "name": "emailengine",
+      "nameWithOwner": "postalsys/emailengine",
+      "url": "https://github.com/postalsys/emailengine",
+      "description": "Headless email client",
+      "stars": 2236,
+      "forks": 229,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2020-02-28T17:17:44Z",
+      "pushedAt": "2026-10-03T20:06:32Z",
+      "homepageUrl": "https://emailengine.app/",
+      "archived": false,
+      "owner": {
+        "login": "postalsys",
+        "name": "Postal Systems",
+        "type": "Organization",
+        "url": "https://github.com/postalsys",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65603654?v=4",
+        "location": "Tallinn",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "tallinn"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 18,
+      "name": "graphql-laravel",
+      "nameWithOwner": "rebing/graphql-laravel",
+      "url": "https://github.com/rebing/graphql-laravel",
+      "description": "Laravel wrapper for Facebook's GraphQL",
+      "stars": 2221,
+      "forks": 271,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-09-19T10:28:28Z",
+      "pushedAt": "2026-10-01T10:11:14Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "rebing",
+        "name": "Mikk Mihkel Nurges",
+        "type": "User",
+        "url": "https://github.com/rebing",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8533161?u=aafff7d7e8d250b7ce632ad4a87c98ea018edfab&v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 19,
+      "name": "react-calendar-timeline",
+      "nameWithOwner": "namespace-ee/react-calendar-timeline",
+      "url": "https://github.com/namespace-ee/react-calendar-timeline",
+      "description": "A modern and responsive react timeline component.",
+      "stars": 2160,
+      "forks": 678,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-12-14T10:07:15Z",
+      "pushedAt": "2026-07-24T09:36:24Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "namespace-ee",
+        "name": "Namespace OÜ",
+        "type": "Organization",
+        "url": "https://github.com/namespace-ee",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9548946?v=4",
+        "location": "Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 20,
+      "name": "wildduck",
+      "nameWithOwner": "zone-eu/wildduck",
+      "url": "https://github.com/zone-eu/wildduck",
+      "description": "Opinionated email server",
+      "stars": 2109,
+      "forks": 281,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "European Union Public License 1.2",
+        "spdxId": "EUPL-1.2"
+      },
+      "createdAt": "2017-03-05T21:23:24Z",
+      "pushedAt": "2026-10-05T02:30:23Z",
+      "homepageUrl": "https://wildduck.email/",
+      "archived": false,
+      "owner": {
+        "login": "zone-eu",
+        "name": "Zone.eu",
+        "type": "Organization",
+        "url": "https://github.com/zone-eu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6511453?v=4",
+        "location": "Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 21,
+      "name": "faker",
+      "nameWithOwner": "bxcodec/faker",
+      "url": "https://github.com/bxcodec/faker",
+      "description": "Go (Golang)  Fake Data  Generator for Struct. [Notes]This repository is archived, moved to the new repository https://github.com/go-faker/faker",
+      "stars": 2079,
+      "forks": 144,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-06-22T09:08:40Z",
+      "pushedAt": "2022-12-08T09:23:48Z",
+      "homepageUrl": "https://pkg.go.dev/github.com/bxcodec/faker/v4",
+      "archived": true,
+      "owner": {
+        "login": "bxcodec",
+        "name": "Iman Tumorang",
+        "type": "User",
+        "url": "https://github.com/bxcodec",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11002383?v=4",
+        "location": "Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 22,
+      "name": "Explo",
+      "nameWithOwner": "LumePart/Explo",
+      "url": "https://github.com/LumePart/Explo",
+      "description": "Spotify's \"Discover Weekly\" for self-hosted music systems",
+      "stars": 2012,
+      "forks": 51,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-11-10T10:24:46Z",
+      "pushedAt": "2026-09-09T15:15:01Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "LumePart",
+        "name": "Markus Kuuse",
+        "type": "User",
+        "url": "https://github.com/LumePart",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46826542?u=766ccaf5b721a4ef584557d4c227103ffc4dec87&v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 23,
+      "name": "ProxyAI",
+      "nameWithOwner": "carlrobertoh/ProxyAI",
+      "url": "https://github.com/carlrobertoh/ProxyAI",
+      "description": "The leading open-source AI copilot for JetBrains. Connect to any model in any environment, and customize your coding experience in any way you like.",
+      "stars": 1935,
+      "forks": 397,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2023-02-15T11:27:51Z",
+      "pushedAt": "2026-05-28T01:54:14Z",
+      "homepageUrl": "https://tryproxy.io",
+      "archived": false,
+      "owner": {
+        "login": "carlrobertoh",
+        "name": "Carl-Robert Linnupuu",
+        "type": "User",
+        "url": "https://github.com/carlrobertoh",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15891408?u=c88c11a429b5665289d229672bbe44810f950c85&v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 24,
+      "name": "toggldesktop",
+      "nameWithOwner": "toggl-open-source/toggldesktop",
+      "url": "https://github.com/toggl-open-source/toggldesktop",
+      "description": "Toggl Desktop app for Windows, Mac and Linux",
+      "stars": 1869,
+      "forks": 283,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2014-02-10T17:50:41Z",
+      "pushedAt": "2023-06-22T11:56:54Z",
+      "homepageUrl": "https://toggl.github.io/toggldesktop/",
+      "archived": true,
+      "owner": {
+        "login": "toggl-open-source",
+        "name": "Toggl Open Source",
+        "type": "Organization",
+        "url": "https://github.com/toggl-open-source",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57740864?v=4",
+        "location": "Tornimäe 5, Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 25,
+      "name": "DeepMind-Atari-Deep-Q-Learner",
+      "nameWithOwner": "kuz/DeepMind-Atari-Deep-Q-Learner",
+      "url": "https://github.com/kuz/DeepMind-Atari-Deep-Q-Learner",
+      "description": "The original code from the DeepMind article + my tweaks",
+      "stars": 1830,
+      "forks": 527,
+      "primaryLanguage": "Lua",
+      "license": null,
+      "createdAt": "2015-02-26T23:12:07Z",
+      "pushedAt": "2018-01-23T03:06:50Z",
+      "homepageUrl": "http://www.nature.com/nature/journal/v518/n7540/full/nature14236.html",
+      "archived": false,
+      "owner": {
+        "login": "kuz",
+        "name": "Ilya Kuzovkin",
+        "type": "User",
+        "url": "https://github.com/kuz",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1081145?u=03379277736a401bd27ef66dc6c178cf6dca67bc&v=4",
+        "location": "Sydney, Australia | Tartu, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 26,
+      "name": "mailparser",
+      "nameWithOwner": "nodemailer/mailparser",
+      "url": "https://github.com/nodemailer/mailparser",
+      "description": "Decode mime formatted e-mails",
+      "stars": 1670,
+      "forks": 289,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2010-10-07T14:05:03Z",
+      "pushedAt": "2026-10-05T11:59:13Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "nodemailer",
+        "name": "nodemailer",
+        "type": "Organization",
+        "url": "https://github.com/nodemailer",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16486629?v=4",
+        "location": "Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 27,
+      "name": "libchaos",
+      "nameWithOwner": "maciejczyzewski/libchaos",
+      "url": "https://github.com/maciejczyzewski/libchaos",
+      "description": "Advanced library for randomization, hashing and statistical analysis (devoted to chaos machines). :microscope:",
+      "stars": 1597,
+      "forks": 157,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2014-01-26T10:40:03Z",
+      "pushedAt": "2019-11-02T22:59:13Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "maciejczyzewski",
+        "name": "Maciej A. Czyzewski",
+        "type": "User",
+        "url": "https://github.com/maciejczyzewski",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1976088?u=da3fc3c0dd84953663aaade7d1451d0aba3214da&v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 28,
+      "name": "jStorage",
+      "nameWithOwner": "andris9/jStorage",
+      "url": "https://github.com/andris9/jStorage",
+      "description": "jStorage is a simple key/value database to store data on browser side",
+      "stars": 1524,
+      "forks": 262,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "The Unlicense",
+        "spdxId": "Unlicense"
+      },
+      "createdAt": "2010-03-19T19:47:24Z",
+      "pushedAt": "2020-05-16T21:46:48Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "andris9",
+        "name": "Andris Reinman",
+        "type": "User",
+        "url": "https://github.com/andris9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/132242?u=47268e9092f5517bb4ac985efea75e4953e8d908&v=4",
+        "location": "Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 29,
+      "name": "flutter_ui_challenges",
+      "nameWithOwner": "tomialagbe/flutter_ui_challenges",
+      "url": "https://github.com/tomialagbe/flutter_ui_challenges",
+      "description": "Flutter UI Challenges",
+      "stars": 1512,
+      "forks": 281,
+      "primaryLanguage": "Dart",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-02-27T12:22:21Z",
+      "pushedAt": "2019-11-14T14:30:01Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "tomialagbe",
+        "name": "Tomi Alagbe",
+        "type": "User",
+        "url": "https://github.com/tomialagbe",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5705923?u=abdffe6be35b7573eb0aa21d44d3d139dd472d69&v=4",
+        "location": "Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 30,
+      "name": "cron-parser",
+      "nameWithOwner": "harrisiirak/cron-parser",
+      "url": "https://github.com/harrisiirak/cron-parser",
+      "description": "Typescript library for parsing crontab instructions",
+      "stars": 1496,
+      "forks": 172,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2012-12-26T19:52:17Z",
+      "pushedAt": "2026-10-03T03:41:36Z",
+      "homepageUrl": "http://harrisiirak.github.io/cron-parser/",
+      "archived": false,
+      "owner": {
+        "login": "harrisiirak",
+        "name": "Harri Siirak",
+        "type": "User",
+        "url": "https://github.com/harrisiirak",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/185315?u=8197cb1f48eefce3360c050ab85b700dbd12ee62&v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 31,
+      "name": "dockovpn",
+      "nameWithOwner": "dockovpn/dockovpn",
+      "url": "https://github.com/dockovpn/dockovpn",
+      "description": "🔐 Out of the box stateless openvpn-server docker image which starts in less than 2 seconds",
+      "stars": 1427,
+      "forks": 278,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "spdxId": "GPL-2.0"
+      },
+      "createdAt": "2019-04-11T21:36:01Z",
+      "pushedAt": "2024-06-30T10:38:41Z",
+      "homepageUrl": "https://dockovpn.io",
+      "archived": false,
+      "owner": {
+        "login": "dockovpn",
+        "name": "Dockovpn",
+        "type": "Organization",
+        "url": "https://github.com/dockovpn",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52662196?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 32,
+      "name": "js--interview-questions",
+      "nameWithOwner": "vvscode/js--interview-questions",
+      "url": "https://github.com/vvscode/js--interview-questions",
+      "description": ":grey_question::question::grey_question: Notes from technical (javascript) interviews. Tasks and quiz for different topics to discuss on interview / check self skills in javascript",
+      "stars": 1417,
+      "forks": 272,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2015-12-13T18:05:08Z",
+      "pushedAt": "2022-10-27T10:52:08Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "vvscode",
+        "name": "Vasiliy Vanchuk",
+        "type": "User",
+        "url": "https://github.com/vvscode",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6904368?u=56f6bb015bc4705082de7440b59f00d6a7f826ff&v=4",
+        "location": "Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 33,
+      "name": "toggl_api_docs",
+      "nameWithOwner": "toggl/toggl_api_docs",
+      "url": "https://github.com/toggl/toggl_api_docs",
+      "description": "Documentation for the Toggl API",
+      "stars": 1391,
+      "forks": 229,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2013-02-22T14:31:43Z",
+      "pushedAt": "2022-11-28T12:22:01Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "toggl",
+        "name": "Toggl",
+        "type": "Organization",
+        "url": "https://github.com/toggl",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/316475?v=4",
+        "location": "Tornimäe 5, Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 34,
+      "name": "zt-zip",
+      "nameWithOwner": "zeroturnaround/zt-zip",
+      "url": "https://github.com/zeroturnaround/zt-zip",
+      "description": "ZeroTurnaround ZIP Library",
+      "stars": 1385,
+      "forks": 253,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2011-11-22T15:26:37Z",
+      "pushedAt": "2026-10-06T06:50:58Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "zeroturnaround",
+        "name": "ZeroTurnaround",
+        "type": "Organization",
+        "url": "https://github.com/zeroturnaround",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1213260?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 35,
+      "name": "nvim-ts-context-commentstring",
+      "nameWithOwner": "JoosepAlviste/nvim-ts-context-commentstring",
+      "url": "https://github.com/JoosepAlviste/nvim-ts-context-commentstring",
+      "description": "Neovim treesitter plugin for setting the commentstring based on the cursor location in a file.",
+      "stars": 1302,
+      "forks": 48,
+      "primaryLanguage": "Lua",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-02-24T19:33:53Z",
+      "pushedAt": "2026-04-04T17:55:53Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "JoosepAlviste",
+        "name": "Joosep Alviste",
+        "type": "User",
+        "url": "https://github.com/JoosepAlviste",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9450943?u=fe52d065569c202b6f967b42bca11b150e00c332&v=4",
+        "location": "Tallinn",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "tallinn"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 36,
+      "name": "survey-creator",
+      "nameWithOwner": "surveyjs/survey-creator",
+      "url": "https://github.com/surveyjs/survey-creator",
+      "description": "Embeddable JSON form builder for React, Angular, Vue, and plain JavaScript. Drag-and-drop UI, your backend.",
+      "stars": 1285,
+      "forks": 463,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2015-12-22T07:21:28Z",
+      "pushedAt": "2026-10-06T14:36:43Z",
+      "homepageUrl": "https://surveyjs.io/survey-creator/documentation/overview",
+      "archived": false,
+      "owner": {
+        "login": "surveyjs",
+        "name": "SurveyJS",
+        "type": "Organization",
+        "url": "https://github.com/surveyjs",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25198306?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 37,
+      "name": "Avalonia.Samples",
+      "nameWithOwner": "AvaloniaUI/Avalonia.Samples",
+      "url": "https://github.com/AvaloniaUI/Avalonia.Samples",
+      "description": "Avalonia.Samples aims to provide some minimal samples focusing on a particular issue at a time. This should help getting new users started.",
+      "stars": 1163,
+      "forks": 220,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-07-30T17:07:38Z",
+      "pushedAt": "2026-10-05T02:44:49Z",
+      "homepageUrl": "https://avaloniaui.github.io/Avalonia.Samples/",
+      "archived": false,
+      "owner": {
+        "login": "AvaloniaUI",
+        "name": "Avalonia UI",
+        "type": "Organization",
+        "url": "https://github.com/AvaloniaUI",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14075148?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 38,
+      "name": "track-extension",
+      "nameWithOwner": "toggl/track-extension",
+      "url": "https://github.com/toggl/track-extension",
+      "description": "Toggl Track browser extension for Chrome and Firefox",
+      "stars": 1150,
+      "forks": 563,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2013-06-03T10:33:23Z",
+      "pushedAt": "2026-09-10T17:00:53Z",
+      "homepageUrl": "http://toggl.github.io/track-extension",
+      "archived": false,
+      "owner": {
+        "login": "toggl",
+        "name": "Toggl",
+        "type": "Organization",
+        "url": "https://github.com/toggl",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/316475?v=4",
+        "location": "Tornimäe 5, Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 39,
+      "name": "xikipedia",
+      "nameWithOwner": "rebane2001/xikipedia",
+      "url": "https://github.com/rebane2001/xikipedia",
+      "description": "Wikipedia as a social media feed",
+      "stars": 1139,
+      "forks": 75,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2026-02-01T22:03:29Z",
+      "pushedAt": "2026-05-27T07:21:34Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "rebane2001",
+        "name": "Lyra Rebane",
+        "type": "User",
+        "url": "https://github.com/rebane2001",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6316541?u=cf281778c50611e18fbd64b4092c8f5efb0f3efa&v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 40,
+      "name": "AvaloniaEdit",
+      "nameWithOwner": "AvaloniaUI/AvaloniaEdit",
+      "url": "https://github.com/AvaloniaUI/AvaloniaEdit",
+      "description": "Avalonia-based text editor (port of AvalonEdit)",
+      "stars": 1136,
+      "forks": 235,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-04-22T12:54:31Z",
+      "pushedAt": "2026-08-28T11:43:15Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "AvaloniaUI",
+        "name": "Avalonia UI",
+        "type": "Organization",
+        "url": "https://github.com/AvaloniaUI",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14075148?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 41,
+      "name": "AudioSwitch",
+      "nameWithOwner": "sirWest/AudioSwitch",
+      "url": "https://github.com/sirWest/AudioSwitch",
+      "description": "Switch between default audio input or output + change volume",
+      "stars": 1117,
+      "forks": 90,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2015-04-11T23:18:06Z",
+      "pushedAt": "2026-10-06T20:54:03Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "sirWest",
+        "name": "Tanel T",
+        "type": "User",
+        "url": "https://github.com/sirWest",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1524316?v=4",
+        "location": "Estonia, Tallinn",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 42,
+      "name": "crw",
+      "nameWithOwner": "fastcrw/crw",
+      "url": "https://github.com/fastcrw/crw",
+      "description": "Fast, lightweight Firecrawl/Tavily alternative in Rust. Web scraper, crawler & search API with MCP server for AI agents. Drop-in Firecrawl-compatible API (/scrape, /crawl, /search). 2.3x faster than Tavily, 1.5x faster than Firecrawl in 1K-URL benchmarks. 6 MB RAM, single binary. Self-host or use managed cloud.",
+      "stars": 1105,
+      "forks": 91,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2026-03-02T19:51:43Z",
+      "pushedAt": "2026-10-07T00:12:26Z",
+      "homepageUrl": "https://fastcrw.com",
+      "archived": false,
+      "owner": {
+        "login": "fastcrw",
+        "name": "fastCRW",
+        "type": "Organization",
+        "url": "https://github.com/fastcrw",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/332239579?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 43,
+      "name": "tockler",
+      "nameWithOwner": "MayGo/tockler",
+      "url": "https://github.com/MayGo/tockler",
+      "description": "An application that tracks your time by monitoring your active window title and idle time.",
+      "stars": 1074,
+      "forks": 121,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "spdxId": "GPL-2.0"
+      },
+      "createdAt": "2016-02-28T08:32:04Z",
+      "pushedAt": "2026-04-08T05:10:39Z",
+      "homepageUrl": "https://tockler.trimatech.dev",
+      "archived": false,
+      "owner": {
+        "login": "MayGo",
+        "name": "Maigo Erit",
+        "type": "User",
+        "url": "https://github.com/MayGo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1929299?u=f46428e52585b338dfce3b5c668f7e4309fca7ad&v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 44,
+      "name": "icon-sets",
+      "nameWithOwner": "iconify/icon-sets",
+      "url": "https://github.com/iconify/icon-sets",
+      "description": "200+ open source icon sets. Icons are validated, cleaned up, optimised, ready to render as SVG. Updated automatically several times a week.",
+      "stars": 1060,
+      "forks": 95,
+      "primaryLanguage": "TypeScript",
+      "license": null,
+      "createdAt": "2018-10-21T11:19:50Z",
+      "pushedAt": "2026-10-05T20:58:16Z",
+      "homepageUrl": "https://icon-sets.iconify.design/",
+      "archived": false,
+      "owner": {
+        "login": "iconify",
+        "name": "Iconify",
+        "type": "Organization",
+        "url": "https://github.com/iconify",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50354982?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 45,
+      "name": "GlobalPlatformPro",
+      "nameWithOwner": "martinpaljak/GlobalPlatformPro",
+      "url": "https://github.com/martinpaljak/GlobalPlatformPro",
+      "description": "Manage applets and keys on JavaCard-s like a pro 🌐 🔐",
+      "stars": 948,
+      "forks": 258,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "GNU Lesser General Public License v3.0",
+        "spdxId": "LGPL-3.0"
+      },
+      "createdAt": "2014-01-15T15:34:22Z",
+      "pushedAt": "2026-09-29T04:38:48Z",
+      "homepageUrl": "https://javacard.pro/globalplatform",
+      "archived": false,
+      "owner": {
+        "login": "martinpaljak",
+        "name": "Martin Paljak",
+        "type": "User",
+        "url": "https://github.com/martinpaljak",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46006?u=984499a027c282356bb9478d7deee19050003add&v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 46,
+      "name": "x86CSS",
+      "nameWithOwner": "rebane2001/x86CSS",
+      "url": "https://github.com/rebane2001/x86CSS",
+      "description": "x86CSS is a working CSS-only x86 CPU/emulator/computer. No JavaScript required.",
+      "stars": 931,
+      "forks": 24,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2026-02-24T01:45:57Z",
+      "pushedAt": "2026-06-03T16:45:10Z",
+      "homepageUrl": "https://lyra.horse/x86css/",
+      "archived": false,
+      "owner": {
+        "login": "rebane2001",
+        "name": "Lyra Rebane",
+        "type": "User",
+        "url": "https://github.com/rebane2001",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6316541?u=cf281778c50611e18fbd64b4092c8f5efb0f3efa&v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 47,
+      "name": "zt-exec",
+      "nameWithOwner": "zeroturnaround/zt-exec",
+      "url": "https://github.com/zeroturnaround/zt-exec",
+      "description": "ZeroTurnaround Process Executor",
+      "stars": 919,
+      "forks": 110,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2013-05-24T13:06:36Z",
+      "pushedAt": "2026-10-06T20:59:40Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "zeroturnaround",
+        "name": "ZeroTurnaround",
+        "type": "Organization",
+        "url": "https://github.com/zeroturnaround",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1213260?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 48,
+      "name": "smtp-server",
+      "nameWithOwner": "nodemailer/smtp-server",
+      "url": "https://github.com/nodemailer/smtp-server",
+      "description": "Create custom SMTP servers on the fly",
+      "stars": 915,
+      "forks": 153,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2015-02-16T16:15:33Z",
+      "pushedAt": "2026-10-03T20:01:30Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "nodemailer",
+        "name": "nodemailer",
+        "type": "Organization",
+        "url": "https://github.com/nodemailer",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16486629?v=4",
+        "location": "Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 49,
+      "name": "ZendOptimizerPlus",
+      "nameWithOwner": "zendtech/ZendOptimizerPlus",
+      "url": "https://github.com/zendtech/ZendOptimizerPlus",
+      "description": null,
+      "stars": 910,
+      "forks": 142,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2013-02-13T12:23:34Z",
+      "pushedAt": "2016-01-10T10:35:16Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "zendtech",
+        "name": "Zend Technologies",
+        "type": "Organization",
+        "url": "https://github.com/zendtech",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1488179?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 50,
+      "name": "jpmml-evaluator",
+      "nameWithOwner": "jpmml/jpmml-evaluator",
+      "url": "https://github.com/jpmml/jpmml-evaluator",
+      "description": "Java Evaluator API for PMML",
+      "stars": 906,
+      "forks": 254,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2014-02-25T21:07:42Z",
+      "pushedAt": "2026-10-04T19:39:28Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "jpmml",
+        "name": "Java PMML API",
+        "type": "Organization",
+        "url": "https://github.com/jpmml",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3713638?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 51,
+      "name": "hyhyhy",
+      "nameWithOwner": "maciejczyzewski/hyhyhy",
+      "url": "https://github.com/maciejczyzewski/hyhyhy",
+      "description": "A tool for creating nice looking HTML5 presentations. :trollface:",
+      "stars": 896,
+      "forks": 55,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-05-28T18:24:10Z",
+      "pushedAt": "2017-09-28T10:34:37Z",
+      "homepageUrl": "http://maciejczyzewski.github.io/hyhyhy/",
+      "archived": false,
+      "owner": {
+        "login": "maciejczyzewski",
+        "name": "Maciej A. Czyzewski",
+        "type": "User",
+        "url": "https://github.com/maciejczyzewski",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1976088?u=da3fc3c0dd84953663aaade7d1451d0aba3214da&v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 52,
+      "name": "X-Road",
+      "nameWithOwner": "nordic-institute/X-Road",
+      "url": "https://github.com/nordic-institute/X-Road",
+      "description": "Source code of the X-Road® data exchange layer software",
+      "stars": 862,
+      "forks": 267,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2018-05-20T11:06:37Z",
+      "pushedAt": "2026-10-07T19:58:05Z",
+      "homepageUrl": "https://x-road.global",
+      "archived": false,
+      "owner": {
+        "login": "nordic-institute",
+        "name": "Nordic Institute for Interoperability Solutions",
+        "type": "Organization",
+        "url": "https://github.com/nordic-institute",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35002399?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 53,
+      "name": "GeoLite2-City",
+      "nameWithOwner": "wp-statistics/GeoLite2-City",
+      "url": "https://github.com/wp-statistics/GeoLite2-City",
+      "description": "Free MaxMind GeoLite2-City database for IP geolocation. Auto-updated, served via jsDelivr CDN. No API keys required.",
+      "stars": 856,
+      "forks": 99,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2018-10-29T07:48:47Z",
+      "pushedAt": "2026-10-06T12:20:33Z",
+      "homepageUrl": "https://geo.wp-statistics.com",
+      "archived": false,
+      "owner": {
+        "login": "wp-statistics",
+        "name": "WP Statistics",
+        "type": "Organization",
+        "url": "https://github.com/wp-statistics",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27062177?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 54,
+      "name": "OpenAI-Unity",
+      "nameWithOwner": "srcnalt/OpenAI-Unity",
+      "url": "https://github.com/srcnalt/OpenAI-Unity",
+      "description": "An unofficial OpenAI Unity Package that aims to help you use OpenAI API directly in Unity Game engine.",
+      "stars": 843,
+      "forks": 172,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-01-07T21:18:17Z",
+      "pushedAt": "2024-11-27T20:01:07Z",
+      "homepageUrl": "https://neocortex.link",
+      "archived": false,
+      "owner": {
+        "login": "srcnalt",
+        "name": "Sercan (Sarge) Altundas",
+        "type": "User",
+        "url": "https://github.com/srcnalt",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3163281?u=aa08aaa27edb86ec06f45fe81b4ad7a3656569bb&v=4",
+        "location": "Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 55,
+      "name": "tonl",
+      "nameWithOwner": "tonl-dev/tonl",
+      "url": "https://github.com/tonl-dev/tonl",
+      "description": "TONL (Token-Optimized Notation Language)",
+      "stars": 831,
+      "forks": 34,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-11-03T10:39:08Z",
+      "pushedAt": "2026-08-07T20:07:32Z",
+      "homepageUrl": "https://tonl.dev",
+      "archived": false,
+      "owner": {
+        "login": "tonl-dev",
+        "name": "TONL",
+        "type": "Organization",
+        "url": "https://github.com/tonl-dev",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/244153031?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 56,
+      "name": "tania-core",
+      "nameWithOwner": "usetania/tania-core",
+      "url": "https://github.com/usetania/tania-core",
+      "description": "Tania is a farm management software for the hobbyist and smallholder farmer.",
+      "stars": 821,
+      "forks": 169,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2017-12-18T08:13:27Z",
+      "pushedAt": "2026-03-03T15:02:58Z",
+      "homepageUrl": "https://usetania.org",
+      "archived": false,
+      "owner": {
+        "login": "usetania",
+        "name": "Tania",
+        "type": "Organization",
+        "url": "https://github.com/usetania",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22819487?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 57,
+      "name": "The-API-Book",
+      "nameWithOwner": "twirl/The-API-Book",
+      "url": "https://github.com/twirl/The-API-Book",
+      "description": "‘The API’ book by Sergey Konstantinov",
+      "stars": 807,
+      "forks": 49,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2014-09-18T20:41:34Z",
+      "pushedAt": "2026-06-14T18:35:46Z",
+      "homepageUrl": "https://twirl.github.io/The-API-Book/",
+      "archived": false,
+      "owner": {
+        "login": "twirl",
+        "name": "Sergey Konstantinov",
+        "type": "User",
+        "url": "https://github.com/twirl",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/221392?v=4",
+        "location": "Tallinn",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "tallinn"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 58,
+      "name": "vim-node",
+      "nameWithOwner": "moll/vim-node",
+      "url": "https://github.com/moll/vim-node",
+      "description": "Tools and environment to make Vim superb for developing with Node.js. Like Rails.vim for Node.",
+      "stars": 799,
+      "forks": 58,
+      "primaryLanguage": "Ruby",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2013-07-28T11:29:15Z",
+      "pushedAt": "2025-07-22T04:29:05Z",
+      "homepageUrl": "http://www.vim.org/scripts/script.php?script_id=4674",
+      "archived": false,
+      "owner": {
+        "login": "moll",
+        "name": "Andri Möll",
+        "type": "User",
+        "url": "https://github.com/moll",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/156837?v=4",
+        "location": "Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 59,
+      "name": "instadate",
+      "nameWithOwner": "Teamweek/instadate",
+      "url": "https://github.com/Teamweek/instadate",
+      "description": "A minimal high performance date library for Node.js and Browser",
+      "stars": 786,
+      "forks": 30,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-01-18T09:54:26Z",
+      "pushedAt": "2019-05-10T08:11:03Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Teamweek",
+        "name": "Toggl Plan",
+        "type": "Organization",
+        "url": "https://github.com/Teamweek",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7113421?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 60,
+      "name": "claudekit",
+      "nameWithOwner": "carlrannaberg/claudekit",
+      "url": "https://github.com/carlrannaberg/claudekit",
+      "description": "A toolkit of custom commands, hooks, and utilities for Claude Code",
+      "stars": 765,
+      "forks": 117,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-07-11T19:09:58Z",
+      "pushedAt": "2026-03-31T20:45:06Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "carlrannaberg",
+        "name": "Carl Rannaberg",
+        "type": "User",
+        "url": "https://github.com/carlrannaberg",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2211224?u=a78aa098bb54d1b3d6cb5431af13ef9a39d84052&v=4",
+        "location": "Tallinn",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "tallinn"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 61,
+      "name": "docker-postgresql-multiple-databases",
+      "nameWithOwner": "mrts/docker-postgresql-multiple-databases",
+      "url": "https://github.com/mrts/docker-postgresql-multiple-databases",
+      "description": "Using multiple databases with the official PostgreSQL Docker image",
+      "stars": 748,
+      "forks": 265,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-07-30T17:14:14Z",
+      "pushedAt": "2023-12-02T06:49:32Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "mrts",
+        "name": "Mart Sõmermaa",
+        "type": "User",
+        "url": "https://github.com/mrts",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44880?u=97e92444d8fced033b89a6783621c37b5ad0d323&v=4",
+        "location": "Tallinn, Estonia (EET,  UTC +2 hours)",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "tallinn"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 62,
+      "name": "node-ddd-boilerplate",
+      "nameWithOwner": "joshuaalpuerto/node-ddd-boilerplate",
+      "url": "https://github.com/joshuaalpuerto/node-ddd-boilerplate",
+      "description": "Node DDD Boilerplate",
+      "stars": 746,
+      "forks": 144,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2017-09-20T09:42:44Z",
+      "pushedAt": "2026-09-29T06:49:57Z",
+      "homepageUrl": "https://joshuaalpuerto.github.io/node-ddd-boilerplate/#/",
+      "archived": false,
+      "owner": {
+        "login": "joshuaalpuerto",
+        "name": "Joshua Alpuerto",
+        "type": "User",
+        "url": "https://github.com/joshuaalpuerto",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7126484?u=2ecde30fb8f93f134b9cb7e6cc67fe7764a4dd4f&v=4",
+        "location": "Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 63,
+      "name": "fable5-world-demo",
+      "nameWithOwner": "Braffolk/fable5-world-demo",
+      "url": "https://github.com/Braffolk/fable5-world-demo",
+      "description": "Laas: 3D world built by Claude Fable 5 to test its capabilities using three.js",
+      "stars": 724,
+      "forks": 113,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-06-12T08:37:32Z",
+      "pushedAt": "2026-07-25T14:54:17Z",
+      "homepageUrl": "https://dc5fzrbo8ssfx.cloudfront.net/laas/",
+      "archived": false,
+      "owner": {
+        "login": "Braffolk",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/Braffolk",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7544836?u=e2bd13b36b1991d89fe56b63a704f0f6a8676c0c&v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 64,
+      "name": "sklearn2pmml",
+      "nameWithOwner": "jpmml/sklearn2pmml",
+      "url": "https://github.com/jpmml/sklearn2pmml",
+      "description": "Python library for converting Scikit-Learn pipelines to PMML",
+      "stars": 705,
+      "forks": 111,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2015-11-10T11:12:55Z",
+      "pushedAt": "2026-08-30T20:35:35Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "jpmml",
+        "name": "Java PMML API",
+        "type": "Organization",
+        "url": "https://github.com/jpmml",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3713638?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 65,
+      "name": "vim-bbye",
+      "nameWithOwner": "moll/vim-bbye",
+      "url": "https://github.com/moll/vim-bbye",
+      "description": "Delete buffers and close files in Vim without closing your windows or messing up your layout. Like Bclose.vim, but rewritten and well maintained.",
+      "stars": 687,
+      "forks": 38,
+      "primaryLanguage": "Vim Script",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2013-07-20T23:18:26Z",
+      "pushedAt": "2024-05-31T18:24:13Z",
+      "homepageUrl": "http://www.vim.org/scripts/script.php?script_id=4664",
+      "archived": false,
+      "owner": {
+        "login": "moll",
+        "name": "Andri Möll",
+        "type": "User",
+        "url": "https://github.com/moll",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/156837?v=4",
+        "location": "Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 66,
+      "name": "collection-view-layouts",
+      "nameWithOwner": "rubygarage/collection-view-layouts",
+      "url": "https://github.com/rubygarage/collection-view-layouts",
+      "description": "A library that implements custom flow layouts for iOS apps",
+      "stars": 685,
+      "forks": 86,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-03-30T08:32:43Z",
+      "pushedAt": "2020-10-03T19:07:13Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "rubygarage",
+        "name": "Ruby Garage",
+        "type": "Organization",
+        "url": "https://github.com/rubygarage",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2300590?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 67,
+      "name": "zone-mta",
+      "nameWithOwner": "zone-eu/zone-mta",
+      "url": "https://github.com/zone-eu/zone-mta",
+      "description": "📤 Modern outbound MTA cross platform and extendable server application",
+      "stars": 672,
+      "forks": 111,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "European Union Public License 1.2",
+        "spdxId": "EUPL-1.2"
+      },
+      "createdAt": "2016-09-06T06:57:24Z",
+      "pushedAt": "2026-10-07T16:35:47Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "zone-eu",
+        "name": "Zone.eu",
+        "type": "Organization",
+        "url": "https://github.com/zone-eu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6511453?v=4",
+        "location": "Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 68,
+      "name": "Avalonia.Templates",
+      "nameWithOwner": "AvaloniaUI/Avalonia.Templates",
+      "url": "https://github.com/AvaloniaUI/Avalonia.Templates",
+      "description": "Avalonia Templates for `dotnet new`",
+      "stars": 671,
+      "forks": 99,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-05-04T22:34:17Z",
+      "pushedAt": "2026-09-22T17:19:57Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "AvaloniaUI",
+        "name": "Avalonia UI",
+        "type": "Organization",
+        "url": "https://github.com/AvaloniaUI",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14075148?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 69,
+      "name": "pingo",
+      "nameWithOwner": "dullgiulio/pingo",
+      "url": "https://github.com/dullgiulio/pingo",
+      "description": "Plugins for Go",
+      "stars": 667,
+      "forks": 42,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-04-27T11:45:23Z",
+      "pushedAt": "2021-08-09T00:59:30Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "dullgiulio",
+        "name": "Giulio Iotti",
+        "type": "User",
+        "url": "https://github.com/dullgiulio",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/578051?v=4",
+        "location": "Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 70,
+      "name": "awesome-drones",
+      "nameWithOwner": "janesmae/awesome-drones",
+      "url": "https://github.com/janesmae/awesome-drones",
+      "description": "A curated list of Awesome Drones resources",
+      "stars": 666,
+      "forks": 89,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdxId": "CC0-1.0"
+      },
+      "createdAt": "2018-02-09T22:06:53Z",
+      "pushedAt": "2026-09-01T20:20:40Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "janesmae",
+        "name": "Jaan Jänesmäe",
+        "type": "User",
+        "url": "https://github.com/janesmae",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2997606?u=ac8773fc4e287d5d585168e0b6255c904ffffa6e&v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 71,
+      "name": "pipelinewise",
+      "nameWithOwner": "transferwise/pipelinewise",
+      "url": "https://github.com/transferwise/pipelinewise",
+      "description": "Data Pipeline Framework using the singer.io spec",
+      "stars": 661,
+      "forks": 138,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-09-04T08:42:05Z",
+      "pushedAt": "2026-10-08T19:43:36Z",
+      "homepageUrl": "https://transferwise.github.io/pipelinewise",
+      "archived": false,
+      "owner": {
+        "login": "transferwise",
+        "name": "Wise",
+        "type": "Organization",
+        "url": "https://github.com/transferwise",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9465219?v=4",
+        "location": "Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 72,
+      "name": "node-mitm",
+      "nameWithOwner": "moll/node-mitm",
+      "url": "https://github.com/moll/node-mitm",
+      "description": "Intercept and mock outgoing Node.js network TCP connections and HTTP requests for testing. Intercepts and gives you a Net.Socket, Http.IncomingMessage and Http.ServerResponse to test and respond with. Super useful when testing code that hits remote servers.",
+      "stars": 659,
+      "forks": 50,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2014-05-04T20:23:36Z",
+      "pushedAt": "2024-08-26T05:13:24Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "moll",
+        "name": "Andri Möll",
+        "type": "User",
+        "url": "https://github.com/moll",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/156837?v=4",
+        "location": "Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 73,
+      "name": "knboard",
+      "nameWithOwner": "rrebase/knboard",
+      "url": "https://github.com/rrebase/knboard",
+      "description": "Kanban boards with React & Django.",
+      "stars": 658,
+      "forks": 181,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-03-07T13:09:09Z",
+      "pushedAt": "2022-06-11T19:45:41Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "rrebase",
+        "name": "Ragnar Rebase",
+        "type": "User",
+        "url": "https://github.com/rrebase",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23059874?u=a220f87af715d6b9a4fcc5c2aa936cc68392bef3&v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 74,
+      "name": "trolol",
+      "nameWithOwner": "ukupat/trolol",
+      "url": "https://github.com/ukupat/trolol",
+      "description": "Troll your friends with simple commands AS QUICKLY AS POSSIBLE",
+      "stars": 653,
+      "forks": 13,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-11-11T15:45:43Z",
+      "pushedAt": "2016-12-09T09:37:36Z",
+      "homepageUrl": "https://www.npmjs.com/package/trolol",
+      "archived": false,
+      "owner": {
+        "login": "ukupat",
+        "name": "Uku Pattak",
+        "type": "User",
+        "url": "https://github.com/ukupat",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4997766?u=99b8d87bf5e8900feff85c1ea10819465c94f40e&v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 75,
+      "name": "vits2",
+      "nameWithOwner": "daniilrobnikov/vits2",
+      "url": "https://github.com/daniilrobnikov/vits2",
+      "description": "VITS2: Improving Quality and Efficiency of Single-Stage Text-to-Speech with Adversarial Learning and Architecture Design",
+      "stars": 646,
+      "forks": 74,
+      "primaryLanguage": "Jupyter Notebook",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-07-29T20:56:12Z",
+      "pushedAt": "2023-09-11T21:39:22Z",
+      "homepageUrl": "https://vits-2.github.io/demo/",
+      "archived": false,
+      "owner": {
+        "login": "daniilrobnikov",
+        "name": "Daniil Robnikov",
+        "type": "User",
+        "url": "https://github.com/daniilrobnikov",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91742765?u=6c364fa4d74aa1c1eef624e8ebcbc1c721e1313a&v=4",
+        "location": "Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 76,
+      "name": "joke-dataset",
+      "nameWithOwner": "taivop/joke-dataset",
+      "url": "https://github.com/taivop/joke-dataset",
+      "description": "A dataset of 200k English plaintext jokes.",
+      "stars": 630,
+      "forks": 120,
+      "primaryLanguage": "Python",
+      "license": null,
+      "createdAt": "2017-02-14T12:29:36Z",
+      "pushedAt": "2022-12-16T10:22:00Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "taivop",
+        "name": "Taivo Pungas",
+        "type": "User",
+        "url": "https://github.com/taivop",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5147210?u=74071a7af0a53890c562dff974752e7fb688e912&v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 77,
+      "name": "windows-11-debloat",
+      "nameWithOwner": "teeotsa/windows-11-debloat",
+      "url": "https://github.com/teeotsa/windows-11-debloat",
+      "description": "Script to optimize your installation of Windows 11.",
+      "stars": 619,
+      "forks": 57,
+      "primaryLanguage": "PowerShell",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-10-11T17:48:22Z",
+      "pushedAt": "2023-09-25T21:22:55Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "teeotsa",
+        "name": "Teeotsa",
+        "type": "User",
+        "url": "https://github.com/teeotsa",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78772453?u=eca2fad19287bd06424f869e8c65e95470c5e30b&v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 78,
+      "name": "awesome-data-annotation",
+      "nameWithOwner": "taivop/awesome-data-annotation",
+      "url": "https://github.com/taivop/awesome-data-annotation",
+      "description": "A list of tools for annotating data, managing annotations, etc.",
+      "stars": 612,
+      "forks": 70,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2018-11-08T08:37:21Z",
+      "pushedAt": "2024-08-01T12:45:30Z",
+      "homepageUrl": "https://github.com/taivop/awesome-data-annotation",
+      "archived": true,
+      "owner": {
+        "login": "taivop",
+        "name": "Taivo Pungas",
+        "type": "User",
+        "url": "https://github.com/taivop",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5147210?u=74071a7af0a53890c562dff974752e7fb688e912&v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 79,
+      "name": "az-iranian-bank-gateways",
+      "nameWithOwner": "ali-zahedi/az-iranian-bank-gateways",
+      "url": "https://github.com/ali-zahedi/az-iranian-bank-gateways",
+      "description": "درگاه اتصال به بانک های ایرانی ( درگاه پرداخت بانک ملی ایران،بانک سامان، بانک ملت، درگاه پرداخت زرین پال و ... ) با استفاده از پایتون",
+      "stars": 605,
+      "forks": 109,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-12-05T18:15:16Z",
+      "pushedAt": "2026-02-20T09:42:44Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ali-zahedi",
+        "name": "Ali Zahedigol",
+        "type": "User",
+        "url": "https://github.com/ali-zahedi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5299864?u=3dde99c29a6d80f10436faa99dbba089452027de&v=4",
+        "location": "Tallinn",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "tallinn"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 80,
+      "name": "validates_url",
+      "nameWithOwner": "perfectline/validates_url",
+      "url": "https://github.com/perfectline/validates_url",
+      "description": "URL Validation for Rails",
+      "stars": 600,
+      "forks": 111,
+      "primaryLanguage": "Ruby",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2010-09-08T12:10:17Z",
+      "pushedAt": "2025-03-18T06:12:39Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "perfectline",
+        "name": "PerfectLine",
+        "type": "Organization",
+        "url": "https://github.com/perfectline",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75787?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 81,
+      "name": "Citrus.Avalonia",
+      "nameWithOwner": "AvaloniaUI/Citrus.Avalonia",
+      "url": "https://github.com/AvaloniaUI/Citrus.Avalonia",
+      "description": "Modern styles for Avalonia controls.",
+      "stars": 597,
+      "forks": 39,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-02-02T21:54:48Z",
+      "pushedAt": "2024-01-10T20:31:35Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "AvaloniaUI",
+        "name": "Avalonia UI",
+        "type": "Organization",
+        "url": "https://github.com/AvaloniaUI",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14075148?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 82,
+      "name": "openscoring",
+      "nameWithOwner": "openscoring/openscoring",
+      "url": "https://github.com/openscoring/openscoring",
+      "description": "REST web service for the true real-time scoring (<1 ms) of Scikit-Learn, R and Apache Spark models",
+      "stars": 587,
+      "forks": 171,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2013-04-02T19:44:04Z",
+      "pushedAt": "2026-02-02T20:58:15Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "openscoring",
+        "name": "Openscoring REST API",
+        "type": "Organization",
+        "url": "https://github.com/openscoring",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6747004?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 83,
+      "name": "imapflow",
+      "nameWithOwner": "postalsys/imapflow",
+      "url": "https://github.com/postalsys/imapflow",
+      "description": "IMAP Client library for EmailEngine Email API (https://emailengine.app)",
+      "stars": 570,
+      "forks": 85,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2020-01-14T09:45:06Z",
+      "pushedAt": "2026-10-09T01:38:33Z",
+      "homepageUrl": "https://imapflow.com",
+      "archived": false,
+      "owner": {
+        "login": "postalsys",
+        "name": "Postal Systems",
+        "type": "Organization",
+        "url": "https://github.com/postalsys",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65603654?v=4",
+        "location": "Tallinn",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "tallinn"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 84,
+      "name": "every_door",
+      "nameWithOwner": "Zverik/every_door",
+      "url": "https://github.com/Zverik/every_door",
+      "description": "A dedicated app for collecting thousands of POI for OpenStreetMap",
+      "stars": 559,
+      "forks": 55,
+      "primaryLanguage": "Dart",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2022-03-25T06:58:50Z",
+      "pushedAt": "2026-04-19T19:33:31Z",
+      "homepageUrl": "https://every-door.app",
+      "archived": false,
+      "owner": {
+        "login": "Zverik",
+        "name": "Ilya Zverev",
+        "type": "User",
+        "url": "https://github.com/Zverik",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/766031?v=4",
+        "location": "Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 85,
+      "name": "json-stringify-safe",
+      "nameWithOwner": "moll/json-stringify-safe",
+      "url": "https://github.com/moll/json-stringify-safe",
+      "description": "Like JSON.stringify, but doesn't throw on circular references",
+      "stars": 554,
+      "forks": 55,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "ISC License",
+        "spdxId": "ISC"
+      },
+      "createdAt": "2013-02-19T19:01:30Z",
+      "pushedAt": "2024-07-25T15:46:34Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "moll",
+        "name": "Andri Möll",
+        "type": "User",
+        "url": "https://github.com/moll",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/156837?v=4",
+        "location": "Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 86,
+      "name": "postal-mime",
+      "nameWithOwner": "postalsys/postal-mime",
+      "url": "https://github.com/postalsys/postal-mime",
+      "description": "Email parser for browser and serverless environments",
+      "stars": 551,
+      "forks": 45,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2021-01-15T07:56:37Z",
+      "pushedAt": "2026-10-07T13:26:10Z",
+      "homepageUrl": "https://postal-mime.postalsys.com",
+      "archived": false,
+      "owner": {
+        "login": "postalsys",
+        "name": "Postal Systems",
+        "type": "Organization",
+        "url": "https://github.com/postalsys",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65603654?v=4",
+        "location": "Tallinn",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "tallinn"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 87,
+      "name": "tania",
+      "nameWithOwner": "usetania/tania",
+      "url": "https://github.com/usetania/tania",
+      "description": "A PHP based, free, and open source farming management system.",
+      "stars": 543,
+      "forks": 86,
+      "primaryLanguage": "CSS",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2017-06-02T21:40:33Z",
+      "pushedAt": "2018-04-13T02:12:47Z",
+      "homepageUrl": "http://gettania.org",
+      "archived": true,
+      "owner": {
+        "login": "usetania",
+        "name": "Tania",
+        "type": "Organization",
+        "url": "https://github.com/usetania",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22819487?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 88,
+      "name": "jpmml-sklearn",
+      "nameWithOwner": "jpmml/jpmml-sklearn",
+      "url": "https://github.com/jpmml/jpmml-sklearn",
+      "description": "Java library and command-line application for converting Scikit-Learn pipelines to PMML",
+      "stars": 541,
+      "forks": 116,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2015-09-20T17:15:13Z",
+      "pushedAt": "2026-08-30T11:13:35Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "jpmml",
+        "name": "Java PMML API",
+        "type": "Organization",
+        "url": "https://github.com/jpmml",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3713638?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 89,
+      "name": "claude-skills-founder",
+      "nameWithOwner": "emotixco/claude-skills-founder",
+      "url": "https://github.com/emotixco/claude-skills-founder",
+      "description": "Claude Code skills for startup founders — product briefs, competitor analysis, pricing strategy, pitch decks, and GTM plans from your terminal",
+      "stars": 540,
+      "forks": 41,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-03-10T16:03:11Z",
+      "pushedAt": "2026-10-07T16:03:22Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "emotixco",
+        "name": "Emotix",
+        "type": "Organization",
+        "url": "https://github.com/emotixco",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/227661848?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 90,
+      "name": "lumexui",
+      "nameWithOwner": "LumexUI/lumexui",
+      "url": "https://github.com/LumexUI/lumexui",
+      "description": "🚀 A versatile Blazor UI library built using Tailwind CSS.",
+      "stars": 535,
+      "forks": 30,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2024-02-16T19:19:58Z",
+      "pushedAt": "2026-06-21T11:33:01Z",
+      "homepageUrl": "https://lumexui.org",
+      "archived": false,
+      "owner": {
+        "login": "LumexUI",
+        "name": "Lumex",
+        "type": "Organization",
+        "url": "https://github.com/LumexUI",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/160276099?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 91,
+      "name": "web-client",
+      "nameWithOwner": "cryptee/web-client",
+      "url": "https://github.com/cryptee/web-client",
+      "description": "Cryptee's web client source code for all platforms.",
+      "stars": 533,
+      "forks": 27,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2018-06-12T12:44:39Z",
+      "pushedAt": "2026-08-03T11:02:37Z",
+      "homepageUrl": "https://crypt.ee",
+      "archived": false,
+      "owner": {
+        "login": "cryptee",
+        "name": "Cryptee",
+        "type": "Organization",
+        "url": "https://github.com/cryptee",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40204093?v=4",
+        "location": "Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 92,
+      "name": "PETOOH",
+      "nameWithOwner": "Perdolique/PETOOH",
+      "url": "https://github.com/Perdolique/PETOOH",
+      "description": "( a fundamentally new programming language )>🐓",
+      "stars": 522,
+      "forks": 41,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2012-06-06T07:31:49Z",
+      "pushedAt": "2023-12-04T15:43:36Z",
+      "homepageUrl": "http://ky6uk.github.io/PETOOH/",
+      "archived": false,
+      "owner": {
+        "login": "Perdolique",
+        "name": "Pier Dolique",
+        "type": "User",
+        "url": "https://github.com/Perdolique",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/161577745?u=c4d7e304adc265f02b42346bd8e51a9302def9fe&v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 93,
+      "name": "matterport-dl",
+      "nameWithOwner": "rebane2001/matterport-dl",
+      "url": "https://github.com/rebane2001/matterport-dl",
+      "description": "A downloader for matterport virtual tours",
+      "stars": 521,
+      "forks": 141,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "The Unlicense",
+        "spdxId": "Unlicense"
+      },
+      "createdAt": "2021-06-12T17:51:35Z",
+      "pushedAt": "2026-02-14T12:09:29Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "rebane2001",
+        "name": "Lyra Rebane",
+        "type": "User",
+        "url": "https://github.com/rebane2001",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6316541?u=cf281778c50611e18fbd64b4092c8f5efb0f3efa&v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 94,
+      "name": "AvaloniaVS",
+      "nameWithOwner": "AvaloniaUI/AvaloniaVS",
+      "url": "https://github.com/AvaloniaUI/AvaloniaVS",
+      "description": "Visual Studio Extension for Avalonia",
+      "stars": 520,
+      "forks": 138,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2015-08-28T14:07:18Z",
+      "pushedAt": "2026-09-24T14:24:51Z",
+      "homepageUrl": "https://marketplace.visualstudio.com/items?itemName=AvaloniaTeam.AvaloniaVS",
+      "archived": true,
+      "owner": {
+        "login": "AvaloniaUI",
+        "name": "Avalonia UI",
+        "type": "Organization",
+        "url": "https://github.com/AvaloniaUI",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14075148?v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 95,
+      "name": "nomeroff-net",
+      "nameWithOwner": "ria-com/nomeroff-net",
+      "url": "https://github.com/ria-com/nomeroff-net",
+      "description": "Nomeroff Net. Automatic numberplate recognition system.",
+      "stars": 517,
+      "forks": 167,
+      "primaryLanguage": "Jupyter Notebook",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2018-12-10T13:56:51Z",
+      "pushedAt": "2026-09-10T14:34:49Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ria-com",
+        "name": "RIA.com",
+        "type": "Organization",
+        "url": "https://github.com/ria-com",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7766037?v=4",
+        "location": "RANNASALU TEE, 13 KATASE KYLA, ALAJOE VALD, HARJUMAA, ESTONIA",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 96,
+      "name": "gitflow-maven-plugin",
+      "nameWithOwner": "aleksandr-m/gitflow-maven-plugin",
+      "url": "https://github.com/aleksandr-m/gitflow-maven-plugin",
+      "description": "The Git-Flow Maven Plugin supports various Git workflows, including GitFlow and GitHub Flow. This plugin runs Git and Maven commands from the command line.",
+      "stars": 508,
+      "forks": 184,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2014-04-29T18:35:29Z",
+      "pushedAt": "2026-03-27T22:51:47Z",
+      "homepageUrl": "https://aleksandr-m.github.io/gitflow-maven-plugin/",
+      "archived": false,
+      "owner": {
+        "login": "aleksandr-m",
+        "name": "Aleksandr Mashchenko",
+        "type": "User",
+        "url": "https://github.com/aleksandr-m",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5055566?u=25ac94cb1f3a57903a2e5ffdf800d791722efd91&v=4",
+        "location": "Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 97,
+      "name": "dom",
+      "nameWithOwner": "dennwc/dom",
+      "url": "https://github.com/dennwc/dom",
+      "description": "DOM library for Go and WASM",
+      "stars": 508,
+      "forks": 57,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-06-30T18:37:35Z",
+      "pushedAt": "2019-09-26T14:33:41Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "dennwc",
+        "name": "Denys Smirnov",
+        "type": "User",
+        "url": "https://github.com/dennwc",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/676724?v=4",
+        "location": "Tallinn",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "tallinn"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 98,
+      "name": "django-rest-framework-rusdoc",
+      "nameWithOwner": "ilyachch/django-rest-framework-rusdoc",
+      "url": "https://github.com/ilyachch/django-rest-framework-rusdoc",
+      "description": "Russian Translation of official Django REST Framework documentation / Русский перевод документации Django REST Framework",
+      "stars": 491,
+      "forks": 162,
+      "primaryLanguage": "Python",
+      "license": null,
+      "createdAt": "2017-08-20T03:53:41Z",
+      "pushedAt": "2026-10-02T21:55:29Z",
+      "homepageUrl": "https://ilyachch.gitbook.io/django-rest-framework-russian-documentation/",
+      "archived": false,
+      "owner": {
+        "login": "ilyachch",
+        "name": "Ilya Chichak",
+        "type": "User",
+        "url": "https://github.com/ilyachch",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1570221?u=cd7fb891c5c7ecf0c67125fdb8f76d8425535d1c&v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 99,
+      "name": "VueNode",
+      "nameWithOwner": "zhaoyiming0803/VueNode",
+      "url": "https://github.com/zhaoyiming0803/VueNode",
+      "description": "VueNode is a project of front and backend separation that building on TypeScript + Vue3.x + Node.js + MySQL + TypeORM",
+      "stars": 484,
+      "forks": 151,
+      "primaryLanguage": "Vue",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-09-17T15:29:36Z",
+      "pushedAt": "2024-09-05T12:58:43Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "zhaoyiming0803",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/zhaoyiming0803",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25874685?u=c849844dfec45d14c2c86fffa68667e25dbf2261&v=4",
+        "location": "Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 100,
+      "name": "sequence-layout",
+      "nameWithOwner": "transferwise/sequence-layout",
+      "url": "https://github.com/transferwise/sequence-layout",
+      "description": "A vertical sequence UI component for Android",
+      "stars": 482,
+      "forks": 57,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-03-19T11:38:50Z",
+      "pushedAt": "2026-08-31T09:10:14Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "transferwise",
+        "name": "Wise",
+        "type": "Organization",
+        "url": "https://github.com/transferwise",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9465219?v=4",
+        "location": "Tallinn, Estonia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "EE",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "estonia"
+        },
+        "discoveryTerms": []
+      }
+    }
+  ]
+}

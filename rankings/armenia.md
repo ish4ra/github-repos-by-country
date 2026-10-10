@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **18**
-- Current global star frontier: **509**
+- Verified high-star candidates retained: **20**
+- Current global star frontier: **472**
 
 ### High-star verified preview
 
@@ -69,5 +69,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [vpashkov/awesome-nim](https://github.com/vpashkov/awesome-nim) | **651** | Yerevan |
 | [arutar/FrankenDriver](https://github.com/arutar/FrankenDriver) | **515** | Yerevan |
 | [Vagr9K/gatsby-material-starter](https://github.com/Vagr9K/gatsby-material-starter) | **507** | Yerevan, Armenia |
+| [maloyan/manim-web](https://github.com/maloyan/manim-web) | **485** | Yerevan |
+| [donbarbos/telegram-bot-template](https://github.com/donbarbos/telegram-bot-template) | **480** | Yerevan, Armenia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
