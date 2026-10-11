@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **1,094**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **456**
 
 ### High-star verified preview
 
@@ -53,5 +53,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [msanft/CVE-2025-55182](https://github.com/msanft/CVE-2025-55182) | **1,429** | Liechtenstein |
 | [aeternity/aeternity](https://github.com/aeternity/aeternity) | **1,086** | Liechtenstein |
+| [ParetoSecurity/pareto-mac](https://github.com/ParetoSecurity/pareto-mac) | **458** | Liechtenstein |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

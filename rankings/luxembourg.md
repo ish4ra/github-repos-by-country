@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [barnumbirr/coinmarketcap](https://github.com/barnumbirr/coinmarketcap) | **435** | Luxembourg |
 | [SvenGDK/PS-Multi-Tools](https://github.com/SvenGDK/PS-Multi-Tools) | **398** | Luxembourg |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **456**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [lalabuy948/PhoenixAnalytics](https://github.com/lalabuy948/PhoenixAnalytics) | **457** | Luxembourg, Luxembourg |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

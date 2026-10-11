@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **19**
-- Current global star frontier: **509**
+- Verified high-star candidates retained: **21**
+- Current global star frontier: **456**
 
 ### High-star verified preview
 
@@ -70,5 +70,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [SuprDewd/CompetitiveProgramming](https://github.com/SuprDewd/CompetitiveProgramming) | **564** | Iceland |
 | [sverrirs/jekyll-paginate-v2](https://github.com/sverrirs/jekyll-paginate-v2) | **535** | Reykjavík, Iceland |
 | [birkir/react-three-gui](https://github.com/birkir/react-three-gui) | **526** | Reykjavík, Iceland |
+| [carbonengine/trinity](https://github.com/carbonengine/trinity) | **462** | Iceland |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

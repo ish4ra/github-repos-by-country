@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **10**
-- Current global star frontier: **573**
+- Verified high-star candidates retained: **11**
+- Current global star frontier: **456**
 
 ### High-star verified preview
 
@@ -61,5 +61,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [fjvallarino/monomer](https://github.com/fjvallarino/monomer) | **668** | Ciudad Autónoma de Buenos Aires, Argentina |
 | [janoamaral/tokyo-night-tmux](https://github.com/janoamaral/tokyo-night-tmux) | **578** | San Carlos de Bolívar |
 | [goncy/nextjs-course](https://github.com/goncy/nextjs-course) | **575** | Quilmes, Buenos Aires, Argentina |
+| [elamperti/OpenWebScrobbler](https://github.com/elamperti/OpenWebScrobbler) | **467** | Bariloche, Argentina |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **573**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **456**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [Offensive-Panda/ShadowDumper](https://github.com/Offensive-Panda/ShadowDumper) | **588** | Qatar |
+| [Offensive-Panda/ProcessInjectionTechniques](https://github.com/Offensive-Panda/ProcessInjectionTechniques) | **467** | Qatar |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **489**
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **456**
 
 ### High-star verified preview
 
@@ -56,5 +56,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ipenywis/react-solid](https://github.com/ipenywis/react-solid) | **590** | Setif, Algeria |
 | [01walid/awesome-arabic](https://github.com/01walid/awesome-arabic) | **561** | Annaba, Algeria |
 | [linuxscout/pyarabic](https://github.com/linuxscout/pyarabic) | **494** | Bouira, Algeria |
+| [willthames/ansible-inventory-grapher](https://github.com/willthames/ansible-inventory-grapher) | **469** | Brisbane, QLD, Australia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
