@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Shadow-Government/MinestomLauncher](https://github.com/Shadow-Government/MinestomLauncher) | **24** | Virgin Islands, British |
 | [0xHashstack/whitepaper](https://github.com/0xHashstack/whitepaper) | **10** | Virgin Islands, British |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **414**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [justmoon/node-bignum](https://github.com/justmoon/node-bignum) | **417** | British Virgin Islands |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

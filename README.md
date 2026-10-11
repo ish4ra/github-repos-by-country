@@ -21,7 +21,7 @@
 
 ## Browse by country
 
-**250 indexed · 39 live · 250 building · 0 queued**
+**250 indexed · 41 live · 250 building · 0 queued**
 
 > 🟢 **Live** = published ranking · 🟡 **Building** = crawl in progress · ⚪ **Queued** = waiting for its first crawl
 
@@ -314,7 +314,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
     <tr>
       <td width="25%">🟡 <a href="./rankings/saudi-arabia.md"><strong>🇸🇦 Saudi Arabia</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/senegal.md"><strong>🇸🇳 Senegal</strong></a></td>
-      <td width="25%">🟡 <a href="./rankings/serbia.md"><strong>🇷🇸 Serbia</strong></a></td>
+      <td width="25%">🟢 <a href="./rankings/serbia.md"><strong>🇷🇸 Serbia</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/seychelles.md"><strong>🇸🇨 Seychelles</strong></a></td>
     </tr>
     <tr>
@@ -396,7 +396,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
       <td width="25%">🟡 <a href="./rankings/venezuela.md"><strong>🇻🇪 Venezuela</strong></a></td>
     </tr>
     <tr>
-      <td width="25%">🟡 <a href="./rankings/vietnam.md"><strong>🇻🇳 Vietnam</strong></a></td>
+      <td width="25%">🟢 <a href="./rankings/vietnam.md"><strong>🇻🇳 Vietnam</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/wallis-futuna.md"><strong>🇼🇫 Wallis &amp; Futuna</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/western-sahara.md"><strong>🇪🇭 Western Sahara</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/yemen.md"><strong>🇾🇪 Yemen</strong></a></td>

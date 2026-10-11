@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **10**
-- Current global star frontier: **427**
+- Verified high-star candidates retained: **11**
+- Current global star frontier: **414**
 
 ### High-star verified preview
 
@@ -61,5 +61,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [M1Lr05/IsTheApp](https://github.com/M1Lr05/IsTheApp) | **479** | Valledupar, Colombia |
 | [shontauro-zz/android-pulltorefresh-and-loadmore](https://github.com/shontauro-zz/android-pulltorefresh-and-loadmore) | **442** | Bogota D.C |
 | [Cyber-note/Full-Bug-Bounty-Hunting-Methodology-2026](https://github.com/Cyber-note/Full-Bug-Bounty-Hunting-Methodology-2026) | **427** | Colombia, Barranquilla |
+| [yesidlazaro/BadgedImageview](https://github.com/yesidlazaro/BadgedImageview) | **425** | Corozal ,Sucre |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

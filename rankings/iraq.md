@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **573**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **414**
 
 ### High-star verified preview
 
@@ -55,5 +55,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [alexcorvi/heic2any](https://github.com/alexcorvi/heic2any) | **891** | Mosul |
 | [Xoshbin/asyar](https://github.com/Xoshbin/asyar) | **880** | Slemani |
 | [alexcorvi/anchorme.js](https://github.com/alexcorvi/anchorme.js) | **570** | Mosul |
+| [PawanOsman/GoogleBard](https://github.com/PawanOsman/GoogleBard) | **419** | As Sulaymaniyah, Iraq |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

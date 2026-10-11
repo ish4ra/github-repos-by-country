@@ -1,0 +1,3401 @@
+{
+  "schemaVersion": 1,
+  "methodologyVersion": "0.8.0-repository-first",
+  "generatedAt": "2026-10-11T18:49:41.188Z",
+  "country": {
+    "code": "VN",
+    "name": "Vietnam",
+    "slug": "vietnam"
+  },
+  "source": {
+    "provider": "GitHub GraphQL API",
+    "endpoint": "https://api.github.com/graphql",
+    "countryBasis": "public repository-owner profile location",
+    "discovery": "global repositories scanned by stars descending"
+  },
+  "coverage": {
+    "status": "repository-first-certified-by-star-frontier",
+    "exhaustive": false,
+    "rawOwnerHits": 146596,
+    "acceptedUniqueOwners": 80,
+    "ownerMetricLabel": "Unique owners in top ranking",
+    "repositoriesConsidered": 106,
+    "publishedRepositories": 100,
+    "candidateThresholdStars": 422,
+    "rankingLimit": 100,
+    "cappedQueries": [],
+    "repositoryFirst": {
+      "scanFrontierStars": 414,
+      "topObservedStars": 551406,
+      "repositoriesSeen": 146596,
+      "attributedRepositories": 54184,
+      "ambiguousLocations": 23320,
+      "unknownLocations": 69092,
+      "unresolvedStarCounts": []
+    },
+    "notes": [
+      "Repositories are scanned globally in descending star ranges, independently of owner follower count or owner-search ordering.",
+      "A country is certified only after its 100th repository has more stars than every unprocessed global star range.",
+      "Owner country is inferred from the owner public GitHub profile location using the global geography resolver.",
+      "Owners with missing or unresolved locations are excluded, so country attribution is not a citizenship or legal-incorporation claim.",
+      "Compound city/admin locations such as \"Portland, OR\" are resolved before ambiguous city-only names."
+    ]
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "awesome-dotnet-core",
+      "nameWithOwner": "thangchung/awesome-dotnet-core",
+      "url": "https://github.com/thangchung/awesome-dotnet-core",
+      "description": ":honeybee: A collection of awesome .NET core libraries, tools, frameworks and software",
+      "stars": 21397,
+      "forks": 2956,
+      "primaryLanguage": "C#",
+      "license": null,
+      "createdAt": "2016-03-17T03:52:09Z",
+      "pushedAt": "2026-02-27T03:26:22Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "thangchung",
+        "name": "Thang Chung",
+        "type": "User",
+        "url": "https://github.com/thangchung",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/422341?u=b24af4c3b730fe4554fac2408390b646294facdc&v=4",
+        "location": "Ho Chi Minh City, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 2,
+      "name": "pencil",
+      "nameWithOwner": "evolus/pencil",
+      "url": "https://github.com/evolus/pencil",
+      "description": "The Pencil Project's unique mission is to build a free and opensource tool for making diagrams and GUI prototyping that everyone can use. ",
+      "stars": 9872,
+      "forks": 792,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "spdxId": "GPL-2.0"
+      },
+      "createdAt": "2014-06-19T06:23:06Z",
+      "pushedAt": "2026-10-04T01:34:26Z",
+      "homepageUrl": "http://pencil.evolus.vn",
+      "archived": false,
+      "owner": {
+        "login": "evolus",
+        "name": "Evolus Vietnam",
+        "type": "Organization",
+        "url": "https://github.com/evolus",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19740693?v=4",
+        "location": "Ho Chi Minh city, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 3,
+      "name": "Awesome-Embedded",
+      "nameWithOwner": "nhivp/Awesome-Embedded",
+      "url": "https://github.com/nhivp/Awesome-Embedded",
+      "description": "A curated list of awesome embedded programming.",
+      "stars": 9170,
+      "forks": 1214,
+      "primaryLanguage": null,
+      "license": {
+        "name": "The Unlicense",
+        "spdxId": "Unlicense"
+      },
+      "createdAt": "2017-09-24T02:23:36Z",
+      "pushedAt": "2026-09-06T05:27:33Z",
+      "homepageUrl": "https://nhivp.github.io/Awesome-Embedded/",
+      "archived": false,
+      "owner": {
+        "login": "nhivp",
+        "name": "Nhi Pham",
+        "type": "User",
+        "url": "https://github.com/nhivp",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16060675?u=d3cb1a47bac8c066c394215f20219b10a94c644a&v=4",
+        "location": "Ho Chi Minh City, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 4,
+      "name": "clean-code-dotnet",
+      "nameWithOwner": "thangchung/clean-code-dotnet",
+      "url": "https://github.com/thangchung/clean-code-dotnet",
+      "description": ":bathtub:  Clean Code concepts and tools adapted for .NET ",
+      "stars": 7735,
+      "forks": 1141,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-09-11T03:43:01Z",
+      "pushedAt": "2026-02-27T03:58:00Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "thangchung",
+        "name": "Thang Chung",
+        "type": "User",
+        "url": "https://github.com/thangchung",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/422341?u=b24af4c3b730fe4554fac2408390b646294facdc&v=4",
+        "location": "Ho Chi Minh City, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 5,
+      "name": "pokeapi",
+      "nameWithOwner": "PokeAPI/pokeapi",
+      "url": "https://github.com/PokeAPI/pokeapi",
+      "description": "The Pokémon API",
+      "stars": 5392,
+      "forks": 1176,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2014-12-04T10:17:17Z",
+      "pushedAt": "2026-09-30T07:16:11Z",
+      "homepageUrl": "https://pokeapi.co",
+      "archived": false,
+      "owner": {
+        "login": "PokeAPI",
+        "name": "PokéAPI",
+        "type": "Organization",
+        "url": "https://github.com/PokeAPI",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19692032?v=4",
+        "location": "Kanto",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "kanto"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 6,
+      "name": "go-coffeeshop",
+      "nameWithOwner": "thangchung/go-coffeeshop",
+      "url": "https://github.com/thangchung/go-coffeeshop",
+      "description": "☕ A practical event-driven microservices demo built with Golang. Nomad, Consul Connect, Vault, and Terraform for deployment",
+      "stars": 4356,
+      "forks": 455,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-09-18T14:10:42Z",
+      "pushedAt": "2023-05-10T01:17:45Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "thangchung",
+        "name": "Thang Chung",
+        "type": "User",
+        "url": "https://github.com/thangchung",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/422341?u=b24af4c3b730fe4554fac2408390b646294facdc&v=4",
+        "location": "Ho Chi Minh City, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 7,
+      "name": "kage",
+      "nameWithOwner": "tamnd/kage",
+      "url": "https://github.com/tamnd/kage",
+      "description": "Shadow any website for offline viewing, with the JavaScript stripped out",
+      "stars": 3460,
+      "forks": 134,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-06-14T11:21:55Z",
+      "pushedAt": "2026-08-10T11:59:54Z",
+      "homepageUrl": "https://kage.tamnd.com",
+      "archived": false,
+      "owner": {
+        "login": "tamnd",
+        "name": "Tam Nguyen Duc",
+        "type": "User",
+        "url": "https://github.com/tamnd",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1218621?v=4",
+        "location": "Ho Chi Minh City, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 8,
+      "name": "Snapzy",
+      "nameWithOwner": "duongductrong/Snapzy",
+      "url": "https://github.com/duongductrong/Snapzy",
+      "description": "An open-source native macOS screenshot and screen recording app. A CleanShot X alternative.",
+      "stars": 3298,
+      "forks": 187,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2026-01-15T19:29:33Z",
+      "pushedAt": "2026-10-03T17:10:17Z",
+      "homepageUrl": "https://snapzy.app",
+      "archived": false,
+      "owner": {
+        "login": "duongductrong",
+        "name": "Trong Duong",
+        "type": "User",
+        "url": "https://github.com/duongductrong",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39333905?u=9c22be3543672f60bd11d861acf3f5a6a03b2b57&v=4",
+        "location": "Ho Chi Minh City",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 9,
+      "name": "VieNeu-TTS",
+      "nameWithOwner": "pnnbao97/VieNeu-TTS",
+      "url": "https://github.com/pnnbao97/VieNeu-TTS",
+      "description": "Vietnamese TTS with instant voice cloning • On-device • Real-time CPU inference • 48kHz audio quality • Chuyển văn bản thành giọng nói tiếng Việt • Text to speech tiếng Việt • TTS tiếng Việt ",
+      "stars": 2752,
+      "forks": 852,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2025-10-28T14:07:23Z",
+      "pushedAt": "2026-09-30T04:05:35Z",
+      "homepageUrl": "https://www.vieneu.io",
+      "archived": false,
+      "owner": {
+        "login": "pnnbao97",
+        "name": "Pham Nguyen Ngoc Bao",
+        "type": "User",
+        "url": "https://github.com/pnnbao97",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/179232022?u=6f7c3a4ca99a552cf8bb64d9778980efcb73e483&v=4",
+        "location": "Ho Chi Minh City, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 10,
+      "name": "namviek",
+      "nameWithOwner": "hudy9x/namviek",
+      "url": "https://github.com/hudy9x/namviek",
+      "description": "The open-source project management tool for tiny teams",
+      "stars": 2556,
+      "forks": 301,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2023-05-23T04:04:25Z",
+      "pushedAt": "2026-05-25T03:24:19Z",
+      "homepageUrl": "https://namviek.com",
+      "archived": false,
+      "owner": {
+        "login": "hudy9x",
+        "name": "hudy9x",
+        "type": "User",
+        "url": "https://github.com/hudy9x",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95471659?u=b45ecc2e52f137b69e8d50b6646112570bb92bcd&v=4",
+        "location": "HaNoi",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 11,
+      "name": "7.css",
+      "nameWithOwner": "khang-nd/7.css",
+      "url": "https://github.com/khang-nd/7.css",
+      "description": "A JS-independent, tree-shakeable CSS framework for building faithful recreations of the Windows 7 UI.",
+      "stars": 2446,
+      "forks": 123,
+      "primaryLanguage": "SCSS",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-12-30T03:45:16Z",
+      "pushedAt": "2026-09-30T13:11:28Z",
+      "homepageUrl": "https://khang-nd.github.io/7.css/",
+      "archived": false,
+      "owner": {
+        "login": "khang-nd",
+        "name": "Khang",
+        "type": "User",
+        "url": "https://github.com/khang-nd",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55619201?u=e5c1232f7ec6a67e088ea01bc1a91b8a8116bf5b&v=4",
+        "location": "Ho Chi Minh, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 12,
+      "name": "chanhdai.com",
+      "nameWithOwner": "ncdai/chanhdai.com",
+      "url": "https://github.com/ncdai/chanhdai.com",
+      "description": "A pixel-perfect dev portfolio and shadcn registry.",
+      "stars": 2364,
+      "forks": 328,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-08-20T15:34:19Z",
+      "pushedAt": "2026-09-26T19:05:08Z",
+      "homepageUrl": "https://chanhdai.com",
+      "archived": false,
+      "owner": {
+        "login": "ncdai",
+        "name": "Chánh Đại",
+        "type": "User",
+        "url": "https://github.com/ncdai",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10192821?u=9e7e385e2eb0c7c24c03c5ad3f294ad7a777d2df&v=4",
+        "location": "Ho Chi Minh City, Viet Nam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 13,
+      "name": "tensorflow-yolov4-tflite",
+      "nameWithOwner": "hunglc007/tensorflow-yolov4-tflite",
+      "url": "https://github.com/hunglc007/tensorflow-yolov4-tflite",
+      "description": "YOLOv4, YOLOv4-tiny, YOLOv3, YOLOv3-tiny Implemented in Tensorflow 2.0, Android. Convert YOLO v4 .weights tensorflow, tensorrt and tflite",
+      "stars": 2253,
+      "forks": 1218,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-04-24T10:22:52Z",
+      "pushedAt": "2024-05-12T16:19:31Z",
+      "homepageUrl": "https://hunglc007.github.io/tensorflow-yolov4-tflite/",
+      "archived": false,
+      "owner": {
+        "login": "hunglc007",
+        "name": "Việt Hùng",
+        "type": "User",
+        "url": "https://github.com/hunglc007",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15844077?v=4",
+        "location": "Hanoi, VietNam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 14,
+      "name": "laravue",
+      "nameWithOwner": "tuandm/laravue",
+      "url": "https://github.com/tuandm/laravue",
+      "description": "Admin dashboard for enterprise Laravel applications built by VueJS and Element UI https://laravue.dev",
+      "stars": 2196,
+      "forks": 630,
+      "primaryLanguage": "Vue",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-01-27T14:10:01Z",
+      "pushedAt": "2023-04-19T19:50:20Z",
+      "homepageUrl": "https://laravue.dev",
+      "archived": false,
+      "owner": {
+        "login": "tuandm",
+        "name": "Tuan Duong",
+        "type": "User",
+        "url": "https://github.com/tuandm",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/490446?v=4",
+        "location": "HCMC",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hcmc"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 15,
+      "name": "devops-basics",
+      "nameWithOwner": "tungbq/devops-basics",
+      "url": "https://github.com/tungbq/devops-basics",
+      "description": "🚀 Practical and document place for DevOps toolchain",
+      "stars": 1882,
+      "forks": 212,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2022-09-10T06:41:18Z",
+      "pushedAt": "2026-09-13T05:21:08Z",
+      "homepageUrl": "https://devops-basics.thedevopshub.org",
+      "archived": false,
+      "owner": {
+        "login": "tungbq",
+        "name": "Tung Leo",
+        "type": "User",
+        "url": "https://github.com/tungbq",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85242618?u=0d464d73a441883e68bcd46b7aafaaea5b586ff0&v=4",
+        "location": "Ho Chi Minh City, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 16,
+      "name": "flutter_shimmer",
+      "nameWithOwner": "hnvn/flutter_shimmer",
+      "url": "https://github.com/hnvn/flutter_shimmer",
+      "description": "A package provides an easy way to add shimmer effect in Flutter project",
+      "stars": 1860,
+      "forks": 205,
+      "primaryLanguage": "Dart",
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2018-06-06T08:29:18Z",
+      "pushedAt": "2026-08-25T01:15:07Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "hnvn",
+        "name": "HungHD",
+        "type": "User",
+        "url": "https://github.com/hnvn",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5468513?u=5cae8f51b50594edb37c4436c03ac4bdccf8cdcc&v=4",
+        "location": "Hanoi, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 17,
+      "name": "no-captcha",
+      "nameWithOwner": "anhskohbo/no-captcha",
+      "url": "https://github.com/anhskohbo/no-captcha",
+      "description": "No CAPTCHA reCAPTCHA For Laravel.",
+      "stars": 1848,
+      "forks": 229,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-12-03T23:26:56Z",
+      "pushedAt": "2026-04-01T07:56:36Z",
+      "homepageUrl": "https://packagist.org/packages/anhskohbo/no-captcha",
+      "archived": false,
+      "owner": {
+        "login": "anhskohbo",
+        "name": "Van",
+        "type": "User",
+        "url": "https://github.com/anhskohbo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1529454?u=0eb59cccdd35f56f1e1cbb489e3ad639f87d5472&v=4",
+        "location": "Ha Noi, Viet Nam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ha noi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 18,
+      "name": "vietnamese-provinces-database",
+      "nameWithOwner": "thanglequoc/vietnamese-provinces-database",
+      "url": "https://github.com/thanglequoc/vietnamese-provinces-database",
+      "description": "Comprehensive SQL and GIS datasets for Vietnamese administrative units, including provinces, districts, wards, postal codes, and geospatial boundaries.",
+      "stars": 1818,
+      "forks": 432,
+      "primaryLanguage": "PLpgSQL",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-11-06T11:08:07Z",
+      "pushedAt": "2026-09-22T14:39:49Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "thanglequoc",
+        "name": "Thang Le Quoc",
+        "type": "User",
+        "url": "https://github.com/thanglequoc",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20574640?u=1bd869d6ee2356e809ddc06e382b77fb067b13a2&v=4",
+        "location": "Ho Chi Minh city, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 19,
+      "name": "read-aloud",
+      "nameWithOwner": "ken107/read-aloud",
+      "url": "https://github.com/ken107/read-aloud",
+      "description": "An awesome browser extension that reads aloud webpage content with one click",
+      "stars": 1757,
+      "forks": 307,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-10-13T15:20:16Z",
+      "pushedAt": "2026-09-24T04:00:03Z",
+      "homepageUrl": "https://readaloud.app",
+      "archived": false,
+      "owner": {
+        "login": "ken107",
+        "name": "Hai Phan",
+        "type": "User",
+        "url": "https://github.com/ken107",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1976032?v=4",
+        "location": "Vung Tau, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "vung tau"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 20,
+      "name": "sprites",
+      "nameWithOwner": "PokeAPI/sprites",
+      "url": "https://github.com/PokeAPI/sprites",
+      "description": "Repository containing many Pokémon sprites",
+      "stars": 1707,
+      "forks": 377,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2016-08-13T15:29:48Z",
+      "pushedAt": "2026-10-04T13:31:57Z",
+      "homepageUrl": "https://pokeapi.github.io/sprites/",
+      "archived": false,
+      "owner": {
+        "login": "PokeAPI",
+        "name": "PokéAPI",
+        "type": "Organization",
+        "url": "https://github.com/PokeAPI",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19692032?v=4",
+        "location": "Kanto",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "kanto"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 21,
+      "name": "de4js",
+      "nameWithOwner": "lelinhtinh/de4js",
+      "url": "https://github.com/lelinhtinh/de4js",
+      "description": "JavaScript Deobfuscator and Unpacker",
+      "stars": 1579,
+      "forks": 361,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-09-21T13:07:06Z",
+      "pushedAt": "2021-11-12T01:47:34Z",
+      "homepageUrl": "https://lelinhtinh.github.io/de4js/",
+      "archived": true,
+      "owner": {
+        "login": "lelinhtinh",
+        "name": "Thành Thân Thiện",
+        "type": "User",
+        "url": "https://github.com/lelinhtinh",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5460915?u=83dc439898cf5e254377f208a6f728bdecd36da5&v=4",
+        "location": "Da nang, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "da nang"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 22,
+      "name": "arkon",
+      "nameWithOwner": "nduckmink/arkon",
+      "url": "https://github.com/nduckmink/arkon",
+      "description": "Arkon: Enterprise AI Knowledge Hub & MCP Server. Self-hosted knowledge base for teams to manage RAG contexts, access policies, and AI skills. Connect Claude and other LLMs via Model Context Protocol (MCP) for automated, secure organizational knowledge integration.",
+      "stars": 1486,
+      "forks": 294,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2026-04-30T15:11:39Z",
+      "pushedAt": "2026-06-03T18:41:48Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "nduckmink",
+        "name": "Duc Minh, Nguyen",
+        "type": "User",
+        "url": "https://github.com/nduckmink",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/250913026?u=7bad5923b5ba9aef3bb9e76a5346a796fca49b7a&v=4",
+        "location": "Hanoi",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 23,
+      "name": "vnstock",
+      "nameWithOwner": "thinh-vu/vnstock",
+      "url": "https://github.com/thinh-vu/vnstock",
+      "description": "A beginner-friendly yet powerful Python toolkit for financial analysis and automation — built to make modern investing accessible to everyone",
+      "stars": 1412,
+      "forks": 295,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2022-02-27T02:44:34Z",
+      "pushedAt": "2026-09-27T02:04:52Z",
+      "homepageUrl": "https://vnstocks.com",
+      "archived": false,
+      "owner": {
+        "login": "thinh-vu",
+        "name": "Thinh Vu",
+        "type": "User",
+        "url": "https://github.com/thinh-vu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39723360?u=9b03d6e786883b07bb45d9bd74c29e372332afeb&v=4",
+        "location": "Ho Chi Minh City, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 24,
+      "name": "android-flat-button",
+      "nameWithOwner": "hoang8f/android-flat-button",
+      "url": "https://github.com/hoang8f/android-flat-button",
+      "description": "FButton - a flat button library for Android",
+      "stars": 1390,
+      "forks": 319,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2014-05-10T05:10:10Z",
+      "pushedAt": "2018-10-25T12:22:08Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "hoang8f",
+        "name": "Le Van Hoang",
+        "type": "User",
+        "url": "https://github.com/hoang8f",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/319726?v=4",
+        "location": "Hà Nội",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ha noi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 25,
+      "name": "nestjs-graphql-best-practice",
+      "nameWithOwner": "chnirt/nestjs-graphql-best-practice",
+      "url": "https://github.com/chnirt/nestjs-graphql-best-practice",
+      "description": "NestJS (Express + TypeORM + GraphQL + MongoDB) codebase containing real world examples (CRUD, auth, advanced patterns, etc).",
+      "stars": 1372,
+      "forks": 241,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-09-07T06:03:22Z",
+      "pushedAt": "2026-02-14T14:07:36Z",
+      "homepageUrl": "https://github.com/chnirt/nestjs-graphql-best-practice",
+      "archived": false,
+      "owner": {
+        "login": "chnirt",
+        "name": "Chnirt",
+        "type": "User",
+        "url": "https://github.com/chnirt",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35022967?u=ef3e98d5354005f01a0b02cce8be13a1db17e47d&v=4",
+        "location": "Ho Chi Minh City",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 26,
+      "name": "clean-architecture-dotnet",
+      "nameWithOwner": "thangchung/clean-architecture-dotnet",
+      "url": "https://github.com/thangchung/clean-architecture-dotnet",
+      "description": "🕸 Yet Another .NET Clean Architecture, but for Microservices project. It uses Minimal Clean Architecture with DDD-lite, CQRS-lite, and just enough Cloud-native patterns apply on the simple eCommerce sample and run on Tye with Dapr extension 🍻",
+      "stars": 1361,
+      "forks": 289,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-01-12T03:43:41Z",
+      "pushedAt": "2023-04-27T20:23:43Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "thangchung",
+        "name": "Thang Chung",
+        "type": "User",
+        "url": "https://github.com/thangchung",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/422341?u=b24af4c3b730fe4554fac2408390b646294facdc&v=4",
+        "location": "Ho Chi Minh City, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 27,
+      "name": "Complex-YOLOv4-Pytorch",
+      "nameWithOwner": "maudzung/Complex-YOLOv4-Pytorch",
+      "url": "https://github.com/maudzung/Complex-YOLOv4-Pytorch",
+      "description": "The PyTorch Implementation based on YOLOv4 of the paper: \"Complex-YOLO: Real-time 3D Object Detection on Point Clouds\"",
+      "stars": 1332,
+      "forks": 267,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2020-07-03T23:39:23Z",
+      "pushedAt": "2024-08-30T23:53:42Z",
+      "homepageUrl": "https://arxiv.org/pdf/1803.06199.pdf",
+      "archived": false,
+      "owner": {
+        "login": "maudzung",
+        "name": "Nguyen Mau Dzung",
+        "type": "User",
+        "url": "https://github.com/maudzung",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15675550?u=25474f09cbdfe3ca86a710f71dcf12f3713e94d8&v=4",
+        "location": "Hanoi, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 28,
+      "name": "protoc-go-inject-tag",
+      "nameWithOwner": "favadi/protoc-go-inject-tag",
+      "url": "https://github.com/favadi/protoc-go-inject-tag",
+      "description": "Inject custom tags to protobuf golang struct",
+      "stars": 1265,
+      "forks": 161,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "spdxId": "BSD-2-Clause"
+      },
+      "createdAt": "2016-04-06T04:56:08Z",
+      "pushedAt": "2025-11-14T09:09:54Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "favadi",
+        "name": "Diep Pham",
+        "type": "User",
+        "url": "https://github.com/favadi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/782760?u=dc27b11b3b4723642315f6aeb9bb46c298c99818&v=4",
+        "location": "Hanoi, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 29,
+      "name": "Cantonese",
+      "nameWithOwner": "StepfenShawn/Cantonese",
+      "url": "https://github.com/StepfenShawn/Cantonese",
+      "description": "粤语編程語言.The Cantonese programming language.",
+      "stars": 1194,
+      "forks": 48,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-12-20T08:30:23Z",
+      "pushedAt": "2026-09-23T09:48:00Z",
+      "homepageUrl": "https://cantonese-community.github.io/",
+      "archived": false,
+      "owner": {
+        "login": "StepfenShawn",
+        "name": "🍌Shawn",
+        "type": "User",
+        "url": "https://github.com/StepfenShawn",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44727245?u=44156889de857c852648cec4757f1703fe7a4431&v=4",
+        "location": "Saigon, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "saigon"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 30,
+      "name": "frida-ios-hook",
+      "nameWithOwner": "yazgx97/frida-ios-hook",
+      "url": "https://github.com/yazgx97/frida-ios-hook",
+      "description": "A tool that helps you easy trace classes, functions, and modify the return values of methods on iOS platform",
+      "stars": 1187,
+      "forks": 175,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-10-28T10:21:52Z",
+      "pushedAt": "2026-05-05T11:03:25Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "yazgx97",
+        "name": "Yang",
+        "type": "User",
+        "url": "https://github.com/yazgx97",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31820707?u=d2bf336505c6817f9d1504573cce6f1e92a03559&v=4",
+        "location": "VN",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "high",
+          "evidence": "country-code",
+          "matched": "VN"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 31,
+      "name": "simutil",
+      "nameWithOwner": "dungngminh/simutil",
+      "url": "https://github.com/dungngminh/simutil",
+      "description": "It's not just a cross-platform TUI app that quickly opens Android & iOS emulators/simulators ",
+      "stars": 1174,
+      "forks": 132,
+      "primaryLanguage": "Dart",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-02-19T06:18:15Z",
+      "pushedAt": "2026-10-04T11:24:40Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "dungngminh",
+        "name": "Dzung Nguyen Minh",
+        "type": "User",
+        "url": "https://github.com/dungngminh",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63831488?u=e08076007b29433270431b8a60456b71c9d7f069&v=4",
+        "location": "Da Nang, Viet Nam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "da nang"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 32,
+      "name": "esp_mqtt",
+      "nameWithOwner": "tuanpmt/esp_mqtt",
+      "url": "https://github.com/tuanpmt/esp_mqtt",
+      "description": " MQTT client library for ESP8266",
+      "stars": 1171,
+      "forks": 398,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-12-26T07:24:17Z",
+      "pushedAt": "2020-12-22T11:05:45Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "tuanpmt",
+        "name": "Tuan",
+        "type": "User",
+        "url": "https://github.com/tuanpmt",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1904924?u=c49171be7e8964f239e094289051fae3da7d6ed2&v=4",
+        "location": "Ho Chi Minh, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 33,
+      "name": "SFA3D",
+      "nameWithOwner": "maudzung/SFA3D",
+      "url": "https://github.com/maudzung/SFA3D",
+      "description": "Super Fast and Accurate 3D Object Detection based on 3D LiDAR Point Clouds (The PyTorch implementation)",
+      "stars": 1130,
+      "forks": 279,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-08-24T14:16:33Z",
+      "pushedAt": "2023-09-17T01:57:42Z",
+      "homepageUrl": "https://github.com/maudzung/Super-Fast-Accurate-3D-Object-Detection",
+      "archived": false,
+      "owner": {
+        "login": "maudzung",
+        "name": "Nguyen Mau Dzung",
+        "type": "User",
+        "url": "https://github.com/maudzung",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15675550?u=25474f09cbdfe3ca86a710f71dcf12f3713e94d8&v=4",
+        "location": "Hanoi, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 34,
+      "name": "obsidian-template",
+      "nameWithOwner": "tuan3w/obsidian-template",
+      "url": "https://github.com/tuan3w/obsidian-template",
+      "description": "Starter templates for Obsidian",
+      "stars": 1127,
+      "forks": 150,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-08-29T02:30:50Z",
+      "pushedAt": "2026-03-21T08:16:11Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "tuan3w",
+        "name": "Tuan Nguyen",
+        "type": "User",
+        "url": "https://github.com/tuan3w",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2762678?u=59e157905831ba6033165917e4a127a3a8a43d53&v=4",
+        "location": "Hanoi",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 35,
+      "name": "MVI-Coroutines-Flow",
+      "nameWithOwner": "Kotlin-Android-Open-Source/MVI-Coroutines-Flow",
+      "url": "https://github.com/Kotlin-Android-Open-Source/MVI-Coroutines-Flow",
+      "description": "Play MVI with Kotlin Coroutines Flow | MVI pattern on Android using Kotlin Coroutines Flow | Dagger Hilt DI | Koin DI | SharedFlow | StateFlow | Arrow.kt Android Sample",
+      "stars": 1114,
+      "forks": 117,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-11-10T11:27:42Z",
+      "pushedAt": "2026-09-29T20:16:19Z",
+      "homepageUrl": "https://github.com/hoc081098",
+      "archived": false,
+      "owner": {
+        "login": "Kotlin-Android-Open-Source",
+        "name": "Kotlin Android Open Source",
+        "type": "Organization",
+        "url": "https://github.com/Kotlin-Android-Open-Source",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57870173?v=4",
+        "location": "Da Nang, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "da nang"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 36,
+      "name": "flutter_image_cropper",
+      "nameWithOwner": "hnvn/flutter_image_cropper",
+      "url": "https://github.com/hnvn/flutter_image_cropper",
+      "description": "A Flutter plugin for Android and iOS supports cropping images",
+      "stars": 1056,
+      "forks": 481,
+      "primaryLanguage": "Dart",
+      "license": null,
+      "createdAt": "2018-06-27T09:22:55Z",
+      "pushedAt": "2026-07-30T09:46:51Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "hnvn",
+        "name": "HungHD",
+        "type": "User",
+        "url": "https://github.com/hnvn",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5468513?u=5cae8f51b50594edb37c4436c03ac4bdccf8cdcc&v=4",
+        "location": "Hanoi, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 37,
+      "name": "The-complete-guide-to-modern-JavaScript",
+      "nameWithOwner": "AlbertoMontalesi/The-complete-guide-to-modern-JavaScript",
+      "url": "https://github.com/AlbertoMontalesi/The-complete-guide-to-modern-JavaScript",
+      "description": "A comprehensive, easy-to-follow ebook to learn everything from the basics of JavaScript to ES2022. Read more on my blog https://inspiredwebdev.com or buy it here https://www.amazon.com/dp/B09FNNVY1Y?ref=inspiredwebde-20. Get the course here https://www.educative.io/courses/complete-guide-to-modern-javascript?aff=BqmB",
+      "stars": 1054,
+      "forks": 166,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2018-04-25T08:36:01Z",
+      "pushedAt": "2022-05-22T02:59:18Z",
+      "homepageUrl": "https://www.educative.io/courses/complete-guide-to-modern-javascript?aff=BqmB",
+      "archived": false,
+      "owner": {
+        "login": "AlbertoMontalesi",
+        "name": "AlbertoM",
+        "type": "User",
+        "url": "https://github.com/AlbertoMontalesi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23130353?u=83b42ea8d19201b2ef93c2696c1c709c22bc552e&v=4",
+        "location": "Ho Chi Minh City",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 38,
+      "name": "salad_ui",
+      "nameWithOwner": "bluzky/salad_ui",
+      "url": "https://github.com/bluzky/salad_ui",
+      "description": "Phoenix Liveview component library inspired by shadcn UI",
+      "stars": 1054,
+      "forks": 73,
+      "primaryLanguage": "Elixir",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2024-05-25T04:51:21Z",
+      "pushedAt": "2026-08-11T15:53:40Z",
+      "homepageUrl": "https://salad-storybook.fly.dev/welcome",
+      "archived": false,
+      "owner": {
+        "login": "bluzky",
+        "name": "Dung Nguyen",
+        "type": "User",
+        "url": "https://github.com/bluzky",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6194779?u=85c4745d11abfedf3423b8dc7dfe1f960dd13ab3&v=4",
+        "location": "Ho Chi Minh, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 39,
+      "name": "clean-code",
+      "nameWithOwner": "jnguyen095/clean-code",
+      "url": "https://github.com/jnguyen095/clean-code",
+      "description": "Book review: A Handbook of Agile Software Craftsmanship",
+      "stars": 900,
+      "forks": 219,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2017-07-04T07:49:26Z",
+      "pushedAt": "2017-07-10T06:17:36Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "jnguyen095",
+        "name": "Khang Nguyen",
+        "type": "User",
+        "url": "https://github.com/jnguyen095",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5355877?u=0b3f7fa9d305d67661c7bfb44d2207bc625a05e8&v=4",
+        "location": "Ho Chi Minh City, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 40,
+      "name": "euphonica",
+      "nameWithOwner": "htkhiem/euphonica",
+      "url": "https://github.com/htkhiem/euphonica",
+      "description": "An MPD client with delusions of grandeur, made with Rust, GTK and Libadwaita.",
+      "stars": 892,
+      "forks": 31,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2024-06-16T06:21:04Z",
+      "pushedAt": "2026-10-04T10:29:35Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "htkhiem",
+        "name": "Huỳnh Thiện Khiêm",
+        "type": "User",
+        "url": "https://github.com/htkhiem",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42716602?v=4",
+        "location": "Hồ Chí Minh City, Việt Nam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 41,
+      "name": "AspNetCore-DDD",
+      "nameWithOwner": "ntxinh/AspNetCore-DDD",
+      "url": "https://github.com/ntxinh/AspNetCore-DDD",
+      "description": "Full ASP.NET Core 10.0 LTS application with DDD, CQRS and Event Sourcing",
+      "stars": 885,
+      "forks": 155,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-11-10T15:55:55Z",
+      "pushedAt": "2025-12-28T15:20:51Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ntxinh",
+        "name": "Xinh Nguyen",
+        "type": "User",
+        "url": "https://github.com/ntxinh",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14963070?u=c97ec9efbbcca44f2ed7376d144b51d89520f24e&v=4",
+        "location": "Ho Chi Minh, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 42,
+      "name": "next-shopify-storefront",
+      "nameWithOwner": "VienDinhCom/next-shopify-storefront",
+      "url": "https://github.com/VienDinhCom/next-shopify-storefront",
+      "description": "A modern Shopping Cart built with ESMate, Next.js, React.js, ShadCN, ESLint, Prettier, GraphQL, and Shopify Hydrogen.",
+      "stars": 870,
+      "forks": 146,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-05-08T09:42:33Z",
+      "pushedAt": "2026-06-11T14:17:06Z",
+      "homepageUrl": "https://next-shopify-storefront.vercel.app",
+      "archived": false,
+      "owner": {
+        "login": "VienDinhCom",
+        "name": "Viễn Đinh",
+        "type": "User",
+        "url": "https://github.com/VienDinhCom",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1142799?u=b2f9e0deddf1227e0758b9f6195bc1a65c5a2fe4&v=4",
+        "location": "Da Nang, Viet Nam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "da nang"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 43,
+      "name": "VTCode",
+      "nameWithOwner": "vinhnx/VTCode",
+      "url": "https://github.com/vinhnx/VTCode",
+      "description": "VT Code is an open-source Rust terminal coding agent.",
+      "stars": 867,
+      "forks": 89,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2025-08-29T09:01:48Z",
+      "pushedAt": "2026-10-07T19:08:52Z",
+      "homepageUrl": "https://vtcode.vinhnx.chatgpt.site/",
+      "archived": false,
+      "owner": {
+        "login": "vinhnx",
+        "name": "Vinh Nguyen",
+        "type": "User",
+        "url": "https://github.com/vinhnx",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1097578?u=0fb2e2ea33635f8c4e437c5ed123c99c1477cd4f&v=4",
+        "location": "Chau Doc, An Giang. Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "chau doc"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 44,
+      "name": "Unity-SRP-VXGI",
+      "nameWithOwner": "Looooong/Unity-SRP-VXGI",
+      "url": "https://github.com/Looooong/Unity-SRP-VXGI",
+      "description": "Voxel-based Global Illumination using Unity Scriptable Render Pipeline",
+      "stars": 824,
+      "forks": 64,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-02-03T07:19:01Z",
+      "pushedAt": "2022-09-20T07:49:26Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Looooong",
+        "name": "Nguyễn Đức Long",
+        "type": "User",
+        "url": "https://github.com/Looooong",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8206622?u=aa59c0ac0fac4137a43af3de816bc42186db9312&v=4",
+        "location": "Ho Chi Minh City, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 45,
+      "name": "PhoBERT",
+      "nameWithOwner": "VinAIResearch/PhoBERT",
+      "url": "https://github.com/VinAIResearch/PhoBERT",
+      "description": "PhoBERT: Pre-trained language models for Vietnamese (EMNLP-2020 Findings)",
+      "stars": 809,
+      "forks": 113,
+      "primaryLanguage": null,
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-03-03T10:29:48Z",
+      "pushedAt": "2026-08-04T00:51:02Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "VinAIResearch",
+        "name": "VinAI Research",
+        "type": "Organization",
+        "url": "https://github.com/VinAIResearch",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53032212?v=4",
+        "location": "Hanoi, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 46,
+      "name": "awesome-tech-rss",
+      "nameWithOwner": "tuan3w/awesome-tech-rss",
+      "url": "https://github.com/tuan3w/awesome-tech-rss",
+      "description": "List of awesome RSS channels related to startup, science and technology.",
+      "stars": 805,
+      "forks": 49,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdxId": "CC0-1.0"
+      },
+      "createdAt": "2022-02-12T10:48:23Z",
+      "pushedAt": "2026-03-18T14:36:11Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "tuan3w",
+        "name": "Tuan Nguyen",
+        "type": "User",
+        "url": "https://github.com/tuan3w",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2762678?u=59e157905831ba6033165917e4a127a3a8a43d53&v=4",
+        "location": "Hanoi",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 47,
+      "name": "Overused-Grotesk",
+      "nameWithOwner": "RandomMaerks/Overused-Grotesk",
+      "url": "https://github.com/RandomMaerks/Overused-Grotesk",
+      "description": "A variable sans serif typeface inspired by the classic neo-grotesk Swiss design",
+      "stars": 797,
+      "forks": 26,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "SIL Open Font License 1.1",
+        "spdxId": "OFL-1.1"
+      },
+      "createdAt": "2023-07-28T11:19:29Z",
+      "pushedAt": "2026-03-28T12:17:24Z",
+      "homepageUrl": "https://randommaerks.github.io/typefaces/overused-grotesk",
+      "archived": false,
+      "owner": {
+        "login": "RandomMaerks",
+        "name": "RandomMaerks",
+        "type": "User",
+        "url": "https://github.com/RandomMaerks",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109415614?u=e01e65474777bd883e5947bcc7a5608f8f23f1d4&v=4",
+        "location": "Hanoi, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 48,
+      "name": "PhoGPT",
+      "nameWithOwner": "VinAIResearch/PhoGPT",
+      "url": "https://github.com/VinAIResearch/PhoGPT",
+      "description": "PhoGPT: Generative Pre-training for Vietnamese (2023)",
+      "stars": 796,
+      "forks": 75,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2023-11-06T03:58:10Z",
+      "pushedAt": "2024-11-12T07:40:32Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "VinAIResearch",
+        "name": "VinAI Research",
+        "type": "Organization",
+        "url": "https://github.com/VinAIResearch",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53032212?v=4",
+        "location": "Hanoi, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 49,
+      "name": "react-wheel-picker",
+      "nameWithOwner": "ncdai/react-wheel-picker",
+      "url": "https://github.com/ncdai/react-wheel-picker",
+      "description": "iOS-like wheel picker for React with smooth inertia scrolling and infinite loop support. / Backed by ▲ Vercel OSS Program",
+      "stars": 778,
+      "forks": 27,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-05-15T09:15:12Z",
+      "pushedAt": "2026-09-01T00:43:25Z",
+      "homepageUrl": "https://react-wheel-picker.chanhdai.com",
+      "archived": false,
+      "owner": {
+        "login": "ncdai",
+        "name": "Chánh Đại",
+        "type": "User",
+        "url": "https://github.com/ncdai",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10192821?u=9e7e385e2eb0c7c24c03c5ad3f294ad7a777d2df&v=4",
+        "location": "Ho Chi Minh City, Viet Nam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 50,
+      "name": "nport",
+      "nameWithOwner": "tuanngocptn/nport",
+      "url": "https://github.com/tuanngocptn/nport",
+      "description": "NPort is a powerful, lightweight ngrok alternative that creates secure HTTP/HTTPS tunnels from your localhost to public URLs using Cloudflare's global edge network. No configuration, no accounts, just instant tunnels with custom subdomains!",
+      "stars": 769,
+      "forks": 135,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2024-12-16T07:23:08Z",
+      "pushedAt": "2026-08-12T04:42:42Z",
+      "homepageUrl": "http://nport.link",
+      "archived": false,
+      "owner": {
+        "login": "tuanngocptn",
+        "name": "Nick Pham",
+        "type": "User",
+        "url": "https://github.com/tuanngocptn",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22292704?u=8cf7a1828bb93625de76b438a07307e82bfa608e&v=4",
+        "location": "Ho Chi Minh",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 51,
+      "name": "TTNet-Real-time-Analysis-System-for-Table-Tennis-Pytorch",
+      "nameWithOwner": "maudzung/TTNet-Real-time-Analysis-System-for-Table-Tennis-Pytorch",
+      "url": "https://github.com/maudzung/TTNet-Real-time-Analysis-System-for-Table-Tennis-Pytorch",
+      "description": "Unofficial implementation of \"TTNet: Real-time temporal and spatial video analysis of table tennis\" (CVPR 2020)",
+      "stars": 765,
+      "forks": 197,
+      "primaryLanguage": "Python",
+      "license": null,
+      "createdAt": "2020-05-12T07:58:14Z",
+      "pushedAt": "2024-08-02T11:46:28Z",
+      "homepageUrl": "https://arxiv.org/pdf/2004.09927.pdf",
+      "archived": false,
+      "owner": {
+        "login": "maudzung",
+        "name": "Nguyen Mau Dzung",
+        "type": "User",
+        "url": "https://github.com/maudzung",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15675550?u=25474f09cbdfe3ca86a710f71dcf12f3713e94d8&v=4",
+        "location": "Hanoi, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 52,
+      "name": "gonhanh.org",
+      "nameWithOwner": "khaphanspace/gonhanh.org",
+      "url": "https://github.com/khaphanspace/gonhanh.org",
+      "description": "Gõ Nhanh - Bộ gõ tiếng Việt hiện đại, hiệu suất cao dành cho macOS.",
+      "stars": 763,
+      "forks": 105,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2025-12-06T11:18:15Z",
+      "pushedAt": "2026-10-08T13:27:36Z",
+      "homepageUrl": "https://gonhanh.org/",
+      "archived": false,
+      "owner": {
+        "login": "khaphanspace",
+        "name": "Whoosh",
+        "type": "User",
+        "url": "https://github.com/khaphanspace",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16458012?u=10e5d58bf979aeba73f1302e537921879dc4f19a&v=4",
+        "location": "Saigon",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "saigon"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 53,
+      "name": "reactjs-tiptap-editor",
+      "nameWithOwner": "hunghg255/reactjs-tiptap-editor",
+      "url": "https://github.com/hunghg255/reactjs-tiptap-editor",
+      "description": "A modern WYSIWYG rich text editor based on tiptap and shadcn ui for Reactjs",
+      "stars": 746,
+      "forks": 162,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2024-08-09T11:19:25Z",
+      "pushedAt": "2026-10-06T00:36:43Z",
+      "homepageUrl": "https://reactjs-tiptap-editor.vercel.app/",
+      "archived": false,
+      "owner": {
+        "login": "hunghg255",
+        "name": "Hung Hoang",
+        "type": "User",
+        "url": "https://github.com/hunghg255",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42096908?u=d366a3e242b790d9f1aacab22fe2028ccce0f44d&v=4",
+        "location": "Hanoi, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 54,
+      "name": "Clendar",
+      "nameWithOwner": "vinhnx/Clendar",
+      "url": "https://github.com/vinhnx/Clendar",
+      "description": "Clendar - Minimal Calendar app. Written in SwiftUI.",
+      "stars": 733,
+      "forks": 93,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-03-23T14:48:23Z",
+      "pushedAt": "2026-09-27T10:29:46Z",
+      "homepageUrl": "https://apps.apple.com/app/clendar-a-calendar-app/id1548102041",
+      "archived": false,
+      "owner": {
+        "login": "vinhnx",
+        "name": "Vinh Nguyen",
+        "type": "User",
+        "url": "https://github.com/vinhnx",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1097578?u=0fb2e2ea33635f8c4e437c5ed123c99c1477cd4f&v=4",
+        "location": "Chau Doc, An Giang. Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "chau doc"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 55,
+      "name": "monokai-pro.nvim",
+      "nameWithOwner": "loctvl842/monokai-pro.nvim",
+      "url": "https://github.com/loctvl842/monokai-pro.nvim",
+      "description": "Monokai Pro theme for Neovim written in Lua, with multiple filters: Pro, Classic, Machine, Octagon, Ristretto, Spectrum",
+      "stars": 726,
+      "forks": 78,
+      "primaryLanguage": "Lua",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-11-20T15:47:26Z",
+      "pushedAt": "2026-05-15T04:39:47Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "loctvl842",
+        "name": "ON NO",
+        "type": "User",
+        "url": "https://github.com/loctvl842",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80513079?u=785851db5253baf1ea774dd43350b9280f2daf42&v=4",
+        "location": "Ho Chi Minh City",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 56,
+      "name": "HybridNets",
+      "nameWithOwner": "datvuthanh/HybridNets",
+      "url": "https://github.com/datvuthanh/HybridNets",
+      "description": "HybridNets: End-to-End Perception Network",
+      "stars": 689,
+      "forks": 135,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-12-23T08:44:13Z",
+      "pushedAt": "2023-12-01T04:45:28Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "datvuthanh",
+        "name": "Thanh Dat Vu",
+        "type": "User",
+        "url": "https://github.com/datvuthanh",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44630913?u=20eadf6213caeee04a32fbaec60d0df14d39f53d&v=4",
+        "location": "Hanoi",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 57,
+      "name": "rag-chatbot",
+      "nameWithOwner": "datvodinh/rag-chatbot",
+      "url": "https://github.com/datvodinh/rag-chatbot",
+      "description": " Chat with multiple PDFs locally",
+      "stars": 688,
+      "forks": 109,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2024-03-16T14:05:28Z",
+      "pushedAt": "2025-10-23T02:41:40Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "datvodinh",
+        "name": "Dat Vo Dinh",
+        "type": "User",
+        "url": "https://github.com/datvodinh",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90944231?u=25d4b80caf32510168a0e8d5ac747c9db10f8f0d&v=4",
+        "location": "Hanoi, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 58,
+      "name": "ezyfox-server",
+      "nameWithOwner": "youngmonkeys/ezyfox-server",
+      "url": "https://github.com/youngmonkeys/ezyfox-server",
+      "description": "A socket server (include SSL) supports realtime application, realtime game, MMORPG, messaging, chat and streaming data with TCP, UDP and Websocket",
+      "stars": 683,
+      "forks": 113,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2017-02-14T09:25:49Z",
+      "pushedAt": "2026-09-17T08:39:39Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "youngmonkeys",
+        "name": "Young Monkeys",
+        "type": "Organization",
+        "url": "https://github.com/youngmonkeys",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18701486?v=4",
+        "location": "Ha Noi",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ha noi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 59,
+      "name": "programing-best-practices",
+      "nameWithOwner": "dereknguyen269/programing-best-practices",
+      "url": "https://github.com/dereknguyen269/programing-best-practices",
+      "description": "Awesome Programming Best Practices for Beginners",
+      "stars": 674,
+      "forks": 98,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "The Unlicense",
+        "spdxId": "Unlicense"
+      },
+      "createdAt": "2017-06-14T03:19:06Z",
+      "pushedAt": "2026-09-27T02:20:42Z",
+      "homepageUrl": "https://dereknguyen269.github.io/programing-best-practices/",
+      "archived": false,
+      "owner": {
+        "login": "dereknguyen269",
+        "name": "Derek",
+        "type": "User",
+        "url": "https://github.com/dereknguyen269",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9989471?u=0c0d7bb714ca488089babcef6a9da81228883fef&v=4",
+        "location": "Ho Chi Minh City, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 60,
+      "name": "react-native-calendar-kit",
+      "nameWithOwner": "howljs/react-native-calendar-kit",
+      "url": "https://github.com/howljs/react-native-calendar-kit",
+      "description": "React Native Calendar Kit is a powerful and flexible calendar component for React Native applications. It provides a customizable and feature-rich calendar view with support for various functionalities",
+      "stars": 659,
+      "forks": 102,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-11-04T05:06:01Z",
+      "pushedAt": "2025-10-10T05:53:28Z",
+      "homepageUrl": "https://howljs.github.io/react-native-calendar-kit/docs/intro/",
+      "archived": false,
+      "owner": {
+        "login": "howljs",
+        "name": "Lê Hậu",
+        "type": "User",
+        "url": "https://github.com/howljs",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33460888?u=cc3b6321cc34529b421a382e9fccab212aa4d914&v=4",
+        "location": "Ho Chi Minh city, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 61,
+      "name": "frida-android-hook",
+      "nameWithOwner": "yazgx97/frida-android-hook",
+      "url": "https://github.com/yazgx97/frida-android-hook",
+      "description": "A tool that helps you work with frida easily for Android platform",
+      "stars": 654,
+      "forks": 86,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-07-27T03:02:50Z",
+      "pushedAt": "2024-11-15T11:11:11Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "yazgx97",
+        "name": "Yang",
+        "type": "User",
+        "url": "https://github.com/yazgx97",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31820707?u=d2bf336505c6817f9d1504573cce6f1e92a03559&v=4",
+        "location": "VN",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "high",
+          "evidence": "country-code",
+          "matched": "VN"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 62,
+      "name": "JSshell",
+      "nameWithOwner": "shelld3v/JSshell",
+      "url": "https://github.com/shelld3v/JSshell",
+      "description": "JSshell - JavaScript reverse/remote shell",
+      "stars": 633,
+      "forks": 110,
+      "primaryLanguage": "Python",
+      "license": null,
+      "createdAt": "2020-04-09T08:53:25Z",
+      "pushedAt": "2022-12-20T14:43:53Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "shelld3v",
+        "name": "Pham Sy Minh",
+        "type": "User",
+        "url": "https://github.com/shelld3v",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59408894?u=fcb180b6e5dcc5236c00d981ca60b87fb0699ad6&v=4",
+        "location": "Hanoi, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 63,
+      "name": "largescaleJS_ru",
+      "nameWithOwner": "A/largescaleJS_ru",
+      "url": "https://github.com/A/largescaleJS_ru",
+      "description": "Russian translation of Addy Osmani book.",
+      "stars": 626,
+      "forks": 91,
+      "primaryLanguage": "Stylus",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2013-12-25T12:14:31Z",
+      "pushedAt": "2021-03-25T12:21:18Z",
+      "homepageUrl": "largescalejs.ru",
+      "archived": true,
+      "owner": {
+        "login": "A",
+        "name": "Anton",
+        "type": "User",
+        "url": "https://github.com/A",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1410106?u=33e416fb9551313cab3d4e9a87fcf073211ab28a&v=4",
+        "location": "Ho Chi Minh, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 64,
+      "name": "docx",
+      "nameWithOwner": "nguyenthenguyen/docx",
+      "url": "https://github.com/nguyenthenguyen/docx",
+      "description": "Simple Google Go (Golang) library for replacing text in Microsoft Word (.docx) file",
+      "stars": 619,
+      "forks": 143,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-10-09T19:24:50Z",
+      "pushedAt": "2024-07-29T10:30:49Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "nguyenthenguyen",
+        "name": "Nguyễn Thế Nguyên",
+        "type": "User",
+        "url": "https://github.com/nguyenthenguyen",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8535630?u=7cbac39c2bac0b49f8a654ef3ca9a2a3f6197843&v=4",
+        "location": "Ho chi minh city, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 65,
+      "name": "flutter_flip_panel",
+      "nameWithOwner": "hnvn/flutter_flip_panel",
+      "url": "https://github.com/hnvn/flutter_flip_panel",
+      "description": "A package for flip panel with built-in animation",
+      "stars": 616,
+      "forks": 84,
+      "primaryLanguage": "Dart",
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2018-06-19T07:15:27Z",
+      "pushedAt": "2022-04-02T07:24:43Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "hnvn",
+        "name": "HungHD",
+        "type": "User",
+        "url": "https://github.com/hnvn",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5468513?u=5cae8f51b50594edb37c4436c03ac4bdccf8cdcc&v=4",
+        "location": "Hanoi, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 66,
+      "name": "BERTweet",
+      "nameWithOwner": "VinAIResearch/BERTweet",
+      "url": "https://github.com/VinAIResearch/BERTweet",
+      "description": "BERTweet: A pre-trained language model for English Tweets (EMNLP-2020)",
+      "stars": 610,
+      "forks": 55,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-05-06T17:17:10Z",
+      "pushedAt": "2024-07-22T12:54:26Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "VinAIResearch",
+        "name": "VinAI Research",
+        "type": "Organization",
+        "url": "https://github.com/VinAIResearch",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53032212?v=4",
+        "location": "Hanoi, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 67,
+      "name": "kompad",
+      "nameWithOwner": "hudy9x/kompad",
+      "url": "https://github.com/hudy9x/kompad",
+      "description": "Open source note-taking app for geeks that supports desktop, web, mobile web versions",
+      "stars": 578,
+      "forks": 47,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-05-20T06:52:30Z",
+      "pushedAt": "2024-10-22T14:27:29Z",
+      "homepageUrl": "https://kompad.hudy9x.com",
+      "archived": false,
+      "owner": {
+        "login": "hudy9x",
+        "name": "hudy9x",
+        "type": "User",
+        "url": "https://github.com/hudy9x",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95471659?u=b45ecc2e52f137b69e8d50b6646112570bb92bcd&v=4",
+        "location": "HaNoi",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 68,
+      "name": "Human-Segmentation-PyTorch",
+      "nameWithOwner": "thuyngch/Human-Segmentation-PyTorch",
+      "url": "https://github.com/thuyngch/Human-Segmentation-PyTorch",
+      "description": "Human segmentation models, training/inference code, and trained weights, implemented in PyTorch",
+      "stars": 574,
+      "forks": 112,
+      "primaryLanguage": "Jupyter Notebook",
+      "license": null,
+      "createdAt": "2019-03-10T15:46:19Z",
+      "pushedAt": "2022-11-22T03:45:10Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "thuyngch",
+        "name": "Thuy Ng",
+        "type": "User",
+        "url": "https://github.com/thuyngch",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18340814?u=f02de7b0b46f36074bc24e401ce627384cd9b53f&v=4",
+        "location": "Ho Chi Minh city",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 69,
+      "name": "Parallel-Computing-Cuda-C",
+      "nameWithOwner": "CisMine/Parallel-Computing-Cuda-C",
+      "url": "https://github.com/CisMine/Parallel-Computing-Cuda-C",
+      "description": "CUDA Learning guide",
+      "stars": 571,
+      "forks": 72,
+      "primaryLanguage": "Cuda",
+      "license": null,
+      "createdAt": "2023-07-12T04:45:04Z",
+      "pushedAt": "2024-06-20T16:39:18Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "CisMine",
+        "name": "Huy Ngo",
+        "type": "User",
+        "url": "https://github.com/CisMine",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/122800932?u=441d7f96c9cc852ac9ae982d329cb636efe41548&v=4",
+        "location": "Ho Chi Minh, Viet Nam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 70,
+      "name": "actix-web-rest-api-with-jwt",
+      "nameWithOwner": "SakaDream/actix-web-rest-api-with-jwt",
+      "url": "https://github.com/SakaDream/actix-web-rest-api-with-jwt",
+      "description": "A simple CRUD backend app using Actix-web, Diesel and JWT",
+      "stars": 564,
+      "forks": 111,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-05-04T06:51:39Z",
+      "pushedAt": "2024-11-15T03:54:09Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "SakaDream",
+        "name": "Hai Phan",
+        "type": "User",
+        "url": "https://github.com/SakaDream",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16135427?v=4",
+        "location": "Ho Chi Minh City, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 71,
+      "name": "mongodb-cluster-docker-compose",
+      "nameWithOwner": "minhhungit/mongodb-cluster-docker-compose",
+      "url": "https://github.com/minhhungit/mongodb-cluster-docker-compose",
+      "description": "docker-compose for mongodb cluster sharded with replication",
+      "stars": 558,
+      "forks": 222,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-07-24T23:52:30Z",
+      "pushedAt": "2025-05-23T18:37:56Z",
+      "homepageUrl": "https://deepwiki.com/minhhungit/mongodb-cluster-docker-compose",
+      "archived": false,
+      "owner": {
+        "login": "minhhungit",
+        "name": "Jin",
+        "type": "User",
+        "url": "https://github.com/minhhungit",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2279508?u=e537977b2a02123d2bf5654d26ba7e733a4a85d7&v=4",
+        "location": "Ho Chi Minh City, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 72,
+      "name": "pokedex-promise-v2",
+      "nameWithOwner": "PokeAPI/pokedex-promise-v2",
+      "url": "https://github.com/PokeAPI/pokedex-promise-v2",
+      "description": "An easy way to use pokeapi v2 with promises in node.js",
+      "stars": 557,
+      "forks": 95,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-02-07T23:26:58Z",
+      "pushedAt": "2026-07-26T02:12:14Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "PokeAPI",
+        "name": "PokéAPI",
+        "type": "Organization",
+        "url": "https://github.com/PokeAPI",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19692032?v=4",
+        "location": "Kanto",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "kanto"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 73,
+      "name": "fast",
+      "nameWithOwner": "ddo/fast",
+      "url": "https://github.com/ddo/fast",
+      "description": "Minimal zero-dependency utility for testing your internet download speed from terminal",
+      "stars": 536,
+      "forks": 48,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-07-18T13:23:28Z",
+      "pushedAt": "2023-03-31T18:59:11Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ddo",
+        "name": "Ddo",
+        "type": "User",
+        "url": "https://github.com/ddo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1265628?u=a0bf3fc780e7eb659be3519fc4b1209d160dcd9e&v=4",
+        "location": "Ho chi minh city",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 74,
+      "name": "GPABookmarklet",
+      "nameWithOwner": "dtrung98/GPABookmarklet",
+      "url": "https://github.com/dtrung98/GPABookmarklet",
+      "description": "Add a feature to Hcmus Portal, calculate and show your GPA",
+      "stars": 528,
+      "forks": 14,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2019-08-17T13:43:23Z",
+      "pushedAt": "2024-03-06T15:29:14Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "dtrung98",
+        "name": "Le Dinh Trung",
+        "type": "User",
+        "url": "https://github.com/dtrung98",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33343210?u=69e4c1317ba816c480bd3a7cdcbac30f24a64b8a&v=4",
+        "location": "HCMC, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hcmc"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 75,
+      "name": "PyrateLimiter",
+      "nameWithOwner": "vutran1710/PyrateLimiter",
+      "url": "https://github.com/vutran1710/PyrateLimiter",
+      "description": "⚔️Python Rate-Limiter using Leaky-Bucket Algorithm Family",
+      "stars": 526,
+      "forks": 52,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-11-23T11:30:56Z",
+      "pushedAt": "2026-09-23T04:34:44Z",
+      "homepageUrl": "https://pyratelimiter.readthedocs.io",
+      "archived": false,
+      "owner": {
+        "login": "vutran1710",
+        "name": "Vu Tran",
+        "type": "User",
+        "url": "https://github.com/vutran1710",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27060690?u=4e940a66385934539c68c225a0f1a36e862ad7cb&v=4",
+        "location": "Vietnam, Hanoi",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 76,
+      "name": "photo-editor-luts-swiftui",
+      "nameWithOwner": "khanhuitse05/photo-editor-luts-swiftui",
+      "url": "https://github.com/khanhuitse05/photo-editor-luts-swiftui",
+      "description": "🎨 An image editor using SwifUI & muukii/Pixel",
+      "stars": 525,
+      "forks": 59,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-08-13T03:47:04Z",
+      "pushedAt": "2026-06-12T04:16:42Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "khanhuitse05",
+        "name": "Khánh Tô",
+        "type": "User",
+        "url": "https://github.com/khanhuitse05",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9074095?u=5c81a237aa52dde379195c502b16f0c1064ed0a4&v=4",
+        "location": "Ho Chi Minh City",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 77,
+      "name": "xkey",
+      "nameWithOwner": "xmannv/xkey",
+      "url": "https://github.com/xmannv/xkey",
+      "description": "Vietnamese Input for macOS - Bộ gõ Tiếng Việt mã nguồn mở cho macOS",
+      "stars": 521,
+      "forks": 67,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-12-16T01:07:48Z",
+      "pushedAt": "2026-10-03T09:03:14Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "xmannv",
+        "name": "X",
+        "type": "User",
+        "url": "https://github.com/xmannv",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6252311?v=4",
+        "location": "Ho Chi Minh City",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 78,
+      "name": "tai-lieu-lap-trinh-tieng-viet-mien-phi",
+      "nameWithOwner": "tmsanghoclaptrinh/tai-lieu-lap-trinh-tieng-viet-mien-phi",
+      "url": "https://github.com/tmsanghoclaptrinh/tai-lieu-lap-trinh-tieng-viet-mien-phi",
+      "description": "Repo này tổng hợp rất nhiều video và tài liệu học lập trình miễn phí bằng tiếng Việt",
+      "stars": 520,
+      "forks": 207,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2025-04-19T10:57:25Z",
+      "pushedAt": "2025-08-25T12:44:37Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "tmsanghoclaptrinh",
+        "name": "Trần Minh Sáng",
+        "type": "User",
+        "url": "https://github.com/tmsanghoclaptrinh",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28320282?u=24d830f7acae0968d4200d39ef847726ffabd1a0&v=4",
+        "location": "Hanoi, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 79,
+      "name": "Agent-Skills-4-Vibe-Coding-CLI",
+      "nameWithOwner": "Dokhacgiakhoa/Agent-Skills-4-Vibe-Coding-CLI",
+      "url": "https://github.com/Dokhacgiakhoa/Agent-Skills-4-Vibe-Coding-CLI",
+      "description": null,
+      "stars": 508,
+      "forks": 143,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2026-01-27T21:22:16Z",
+      "pushedAt": "2026-06-11T05:08:42Z",
+      "homepageUrl": "https://agent-skills-setup-for-antigravity.vercel.app/",
+      "archived": false,
+      "owner": {
+        "login": "Dokhacgiakhoa",
+        "name": "Đỗ Khắc Gia Khoa",
+        "type": "User",
+        "url": "https://github.com/Dokhacgiakhoa",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/129754311?u=dff855ac05d84897f21b64ab066afb0d836ca9d1&v=4",
+        "location": "Hanoi",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 80,
+      "name": "gemini-web-to-api",
+      "nameWithOwner": "ntthanh2603/gemini-web-to-api",
+      "url": "https://github.com/ntthanh2603/gemini-web-to-api",
+      "description": "✨Reverse-engineered API for Gemini web app. It can be used as a genuine API key from OpenAI, Gemini, and Claude.",
+      "stars": 506,
+      "forks": 120,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-12-31T04:01:00Z",
+      "pushedAt": "2026-10-08T05:08:08Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ntthanh2603",
+        "name": "Nguyễn Tuấn Thành",
+        "type": "User",
+        "url": "https://github.com/ntthanh2603",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/179988526?u=cca0383d15ee40e2cdcd403090840b5e57fc85a1&v=4",
+        "location": "Ha Noi, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ha noi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 81,
+      "name": "BookWorm",
+      "nameWithOwner": "foxminchan/BookWorm",
+      "url": "https://github.com/foxminchan/BookWorm",
+      "description": "An Aspire reference architecture for cloud-native microservices and agentic AI with MCP, A2A & AG-UI",
+      "stars": 506,
+      "forks": 67,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2024-07-16T11:32:29Z",
+      "pushedAt": "2026-10-09T11:19:23Z",
+      "homepageUrl": "https://foxminchan.github.io/BookWorm/",
+      "archived": false,
+      "owner": {
+        "login": "foxminchan",
+        "name": "Nhan Nguyen",
+        "type": "User",
+        "url": "https://github.com/foxminchan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56079798?u=f0c42e0dad62e8ebf350678cc5cc4a5179323e59&v=4",
+        "location": "Ho Chi Minh City, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 82,
+      "name": "MusicPlayer",
+      "nameWithOwner": "dtrung98/MusicPlayer",
+      "url": "https://github.com/dtrung98/MusicPlayer",
+      "description": "A music player with pretty ui/ux design.",
+      "stars": 501,
+      "forks": 177,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2017-11-03T08:17:33Z",
+      "pushedAt": "2022-06-19T02:59:50Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "dtrung98",
+        "name": "Le Dinh Trung",
+        "type": "User",
+        "url": "https://github.com/dtrung98",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33343210?u=69e4c1317ba816c480bd3a7cdcbac30f24a64b8a&v=4",
+        "location": "HCMC, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hcmc"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 83,
+      "name": "DisTube",
+      "nameWithOwner": "skick1234/DisTube",
+      "url": "https://github.com/skick1234/DisTube",
+      "description": "A comprehensive Discord music bot library built for Discord.js, offering simplified music commands, effortless playback from diverse sources, and integrated audio filters.",
+      "stars": 481,
+      "forks": 98,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-07-08T10:27:05Z",
+      "pushedAt": "2025-12-22T18:54:55Z",
+      "homepageUrl": "https://deepwiki.com/skick1234/DisTube",
+      "archived": false,
+      "owner": {
+        "login": "skick1234",
+        "name": "Skick",
+        "type": "User",
+        "url": "https://github.com/skick1234",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11555687?u=73eb2a79852f9fdaaba1e4fa3e82a965952148f8&v=4",
+        "location": "Hanoi",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 84,
+      "name": "machine-learning-notes-and-code",
+      "nameWithOwner": "TruongDat05/machine-learning-notes-and-code",
+      "url": "https://github.com/TruongDat05/machine-learning-notes-and-code",
+      "description": "Machine Learning Specialization - Study Notes & Labs",
+      "stars": 475,
+      "forks": 80,
+      "primaryLanguage": "Jupyter Notebook",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-01-16T07:35:23Z",
+      "pushedAt": "2026-07-29T02:29:22Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "TruongDat05",
+        "name": "Truong Dat",
+        "type": "User",
+        "url": "https://github.com/TruongDat05",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92071300?u=aaf322c68f4f056060f185de429087d61633b77c&v=4",
+        "location": "Ha Noi",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ha noi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 85,
+      "name": "HTB-Certified-Penetration-Testing-Specialist",
+      "nameWithOwner": "0x1ceKing/HTB-Certified-Penetration-Testing-Specialist",
+      "url": "https://github.com/0x1ceKing/HTB-Certified-Penetration-Testing-Specialist",
+      "description": null,
+      "stars": 472,
+      "forks": 84,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2025-01-11T17:01:03Z",
+      "pushedAt": "2025-02-14T08:14:20Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "0x1ceKing",
+        "name": "Thien Dang Ky",
+        "type": "User",
+        "url": "https://github.com/0x1ceKing",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/187486697?u=943fd021686b10287b3713c9f42c1ed1ac8052b7&v=4",
+        "location": "Ho Chi Minh City, Viet Nam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 86,
+      "name": "kerminal",
+      "nameWithOwner": "klpod221/kerminal",
+      "url": "https://github.com/klpod221/kerminal",
+      "description": "// Modern Terminal Emulator & SSH Manager",
+      "stars": 464,
+      "forks": 46,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2025-08-21T09:08:50Z",
+      "pushedAt": "2026-10-09T17:31:09Z",
+      "homepageUrl": "http://klpod221.com/kerminal/",
+      "archived": false,
+      "owner": {
+        "login": "klpod221",
+        "name": "Bùi Thanh Xuân",
+        "type": "User",
+        "url": "https://github.com/klpod221",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62713126?u=1ec48e5a6be8bd68b5613b8a15e770034a3db669&v=4",
+        "location": "Hà Nội",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ha noi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 87,
+      "name": "The-Movie-DB-Kotlin",
+      "nameWithOwner": "dangquanuet/The-Movie-DB-Kotlin",
+      "url": "https://github.com/dangquanuet/The-Movie-DB-Kotlin",
+      "description": "The Movie DB app using Kotlin with updated Android features",
+      "stars": 459,
+      "forks": 102,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-04-02T07:00:06Z",
+      "pushedAt": "2024-11-14T03:51:34Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "dangquanuet",
+        "name": "Anh Quân",
+        "type": "User",
+        "url": "https://github.com/dangquanuet",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5498994?u=175f669528c40fefd5d43cafa2b70bb9bfb9cfd4&v=4",
+        "location": "Hanoi, VIetnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 88,
+      "name": "manga-repo",
+      "nameWithOwner": "cuong-tran/manga-repo",
+      "url": "https://github.com/cuong-tran/manga-repo",
+      "description": "Extensions for Komikku / Mihon & forks.",
+      "stars": 458,
+      "forks": 34,
+      "primaryLanguage": "HTML",
+      "license": null,
+      "createdAt": "2024-02-22T13:24:33Z",
+      "pushedAt": "2026-10-10T14:23:55Z",
+      "homepageUrl": "https://yuzono.github.io",
+      "archived": false,
+      "owner": {
+        "login": "cuong-tran",
+        "name": "Cuong-Tran",
+        "type": "User",
+        "url": "https://github.com/cuong-tran",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16017808?u=4574e44910994813ffdd7e95b6f2b159a7149c22&v=4",
+        "location": "Hanoi, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 89,
+      "name": "slp2-pdf",
+      "nameWithOwner": "rain1024/slp2-pdf",
+      "url": "https://github.com/rain1024/slp2-pdf",
+      "description": "Speech and Language Processing, 2nd Edition in PDF format",
+      "stars": 456,
+      "forks": 134,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2018-01-16T10:01:07Z",
+      "pushedAt": "2018-01-16T11:43:41Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "rain1024",
+        "name": "Vu Anh",
+        "type": "User",
+        "url": "https://github.com/rain1024",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1780281?v=4",
+        "location": "Hanoi, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 90,
+      "name": "go-ethereum-code-analysis",
+      "nameWithOwner": "agiletechvn/go-ethereum-code-analysis",
+      "url": "https://github.com/agiletechvn/go-ethereum-code-analysis",
+      "description": "English version",
+      "stars": 455,
+      "forks": 92,
+      "primaryLanguage": "TeX",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-11-08T12:59:57Z",
+      "pushedAt": "2023-12-05T03:16:24Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "agiletechvn",
+        "name": "Agiletech Viet Nam",
+        "type": "Organization",
+        "url": "https://github.com/agiletechvn",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44864544?v=4",
+        "location": "Hà Nội",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ha noi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 91,
+      "name": "solid-php-example",
+      "nameWithOwner": "wataridori/solid-php-example",
+      "url": "https://github.com/wataridori/solid-php-example",
+      "description": "Some examples about SOLID Design Principles in PHP",
+      "stars": 451,
+      "forks": 130,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-04-19T03:25:07Z",
+      "pushedAt": "2022-10-30T11:19:42Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "wataridori",
+        "name": "Tran Duc Thang",
+        "type": "User",
+        "url": "https://github.com/wataridori",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1189893?u=4a2427c29c0becbeeb2e2873a060d16166aa6ec3&v=4",
+        "location": "Hanoi, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 92,
+      "name": "fireverse",
+      "nameWithOwner": "phongna07/fireverse",
+      "url": "https://github.com/phongna07/fireverse",
+      "description": "A chat app made with react, typescript, firebase, tailwind",
+      "stars": 446,
+      "forks": 75,
+      "primaryLanguage": "TypeScript",
+      "license": null,
+      "createdAt": "2022-01-27T09:22:42Z",
+      "pushedAt": "2025-05-06T14:03:34Z",
+      "homepageUrl": "https://fireverse.pages.dev",
+      "archived": false,
+      "owner": {
+        "login": "phongna07",
+        "name": "Nguyen Anh Phong",
+        "type": "User",
+        "url": "https://github.com/phongna07",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74483690?u=a13a4ee45ce6a537df0bc0d2bfdedf539f8ee8b6&v=4",
+        "location": "Hanoi, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 93,
+      "name": "do-not-merge-wip-for-github",
+      "nameWithOwner": "sanemat/do-not-merge-wip-for-github",
+      "url": "https://github.com/sanemat/do-not-merge-wip-for-github",
+      "description": "Do Not Merge WIP for GitHub",
+      "stars": 446,
+      "forks": 33,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-02-15T11:18:01Z",
+      "pushedAt": "2024-07-22T22:08:37Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "sanemat",
+        "name": "Matt Murahashi Kenichi",
+        "type": "User",
+        "url": "https://github.com/sanemat",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75448?u=3799b5e298ef8846ae61a106d05ff8ad28df2b10&v=4",
+        "location": "Ho Chi Minh City, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 94,
+      "name": "task-spooler",
+      "nameWithOwner": "justanhduc/task-spooler",
+      "url": "https://github.com/justanhduc/task-spooler",
+      "description": "A scheduler for GPU/CPU tasks",
+      "stars": 442,
+      "forks": 43,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "spdxId": "GPL-2.0"
+      },
+      "createdAt": "2020-10-29T08:06:29Z",
+      "pushedAt": "2024-03-06T11:07:52Z",
+      "homepageUrl": "https://justanhduc.github.io/2021/02/03/Task-Spooler.html",
+      "archived": false,
+      "owner": {
+        "login": "justanhduc",
+        "name": "Duc Nguyen",
+        "type": "User",
+        "url": "https://github.com/justanhduc",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15206627?u=ff1c4e847bac99c345539f77725ad5290860822f&v=4",
+        "location": "Hanoi",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 95,
+      "name": "visual_search",
+      "nameWithOwner": "tuan3w/visual_search",
+      "url": "https://github.com/tuan3w/visual_search",
+      "description": "A visual search engine based on Elasticsearch and Tensorflow",
+      "stars": 441,
+      "forks": 122,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-03-10T18:02:24Z",
+      "pushedAt": "2020-09-25T22:20:15Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "tuan3w",
+        "name": "Tuan Nguyen",
+        "type": "User",
+        "url": "https://github.com/tuan3w",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2762678?u=59e157905831ba6033165917e4a127a3a8a43d53&v=4",
+        "location": "Hanoi",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 96,
+      "name": "WaveDiff",
+      "nameWithOwner": "VinAIResearch/WaveDiff",
+      "url": "https://github.com/VinAIResearch/WaveDiff",
+      "description": "Official Pytorch Implementation of the paper: Wavelet Diffusion Models are fast and scalable Image Generators (CVPR'23)",
+      "stars": 441,
+      "forks": 39,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2022-11-21T11:40:13Z",
+      "pushedAt": "2024-07-23T02:20:20Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "VinAIResearch",
+        "name": "VinAI Research",
+        "type": "Organization",
+        "url": "https://github.com/VinAIResearch",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53032212?v=4",
+        "location": "Hanoi, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 97,
+      "name": "e-commerce-app-react-native",
+      "nameWithOwner": "anhquan291/e-commerce-app-react-native",
+      "url": "https://github.com/anhquan291/e-commerce-app-react-native",
+      "description": "E-commerce App UI. React native, Expo managed flow, React navigation v5, Notification.",
+      "stars": 437,
+      "forks": 162,
+      "primaryLanguage": "JavaScript",
+      "license": null,
+      "createdAt": "2020-08-12T07:37:37Z",
+      "pushedAt": "2022-04-16T11:48:40Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "anhquan291",
+        "name": "Quan Nguyen",
+        "type": "User",
+        "url": "https://github.com/anhquan291",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17813202?u=10456a6e532da14c64e9fb1744050be9b67e29e8&v=4",
+        "location": "Ho Chi Minh City",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 98,
+      "name": "tmsang-hoc-thuat-toan",
+      "nameWithOwner": "tmsanghoclaptrinh/tmsang-hoc-thuat-toan",
+      "url": "https://github.com/tmsanghoclaptrinh/tmsang-hoc-thuat-toan",
+      "description": "Danh sách những tài liệu hay về Thuật toán và Lập trình thi đấu",
+      "stars": 435,
+      "forks": 71,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2024-08-04T06:08:46Z",
+      "pushedAt": "2025-04-20T12:29:23Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "tmsanghoclaptrinh",
+        "name": "Trần Minh Sáng",
+        "type": "User",
+        "url": "https://github.com/tmsanghoclaptrinh",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28320282?u=24d830f7acae0968d4200d39ef847726ffabd1a0&v=4",
+        "location": "Hanoi, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 99,
+      "name": "claude-code-cli-ui",
+      "nameWithOwner": "Ngxba/claude-code-cli-ui",
+      "url": "https://github.com/Ngxba/claude-code-cli-ui",
+      "description": "An intuitive interface to create, orchestrate, and monitor Claude-based code agents for automated development workflows.",
+      "stars": 433,
+      "forks": 150,
+      "primaryLanguage": "Vue",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-03-25T15:48:11Z",
+      "pushedAt": "2026-05-09T11:43:08Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Ngxba",
+        "name": "Tùng Lâm Nguyễn Bá",
+        "type": "User",
+        "url": "https://github.com/Ngxba",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43348465?u=f8f9aa38669de95fbd4e1410f075ab008ab7fdf3&v=4",
+        "location": "Hanoi, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "hanoi"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 100,
+      "name": "PHAirViewController",
+      "nameWithOwner": "TaPhuocHai/PHAirViewController",
+      "url": "https://github.com/TaPhuocHai/PHAirViewController",
+      "description": "Menu like airbnb app",
+      "stars": 422,
+      "forks": 76,
+      "primaryLanguage": "Objective-C",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-02-11T13:24:23Z",
+      "pushedAt": "2015-07-24T02:49:25Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "TaPhuocHai",
+        "name": "Ta Phuoc Hai",
+        "type": "User",
+        "url": "https://github.com/TaPhuocHai",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1428095?v=4",
+        "location": "Ho Chi Minh City, Vietnam",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "VN",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ho chi minh city"
+        },
+        "discoveryTerms": []
+      }
+    }
+  ]
+}

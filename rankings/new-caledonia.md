@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **7**
-- Current global star frontier: **509**
+- Verified high-star candidates retained: **8**
+- Current global star frontier: **414**
 
 ### High-star verified preview
 
@@ -58,5 +58,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [akonwi/git-plus](https://github.com/akonwi/git-plus) | **533** | NC |
 | [corpetty/py-etherscan-api](https://github.com/corpetty/py-etherscan-api) | **517** | NC |
 | [cohesivestack/valgo](https://github.com/cohesivestack/valgo) | **508** | WY, USA |
+| [oftheheadland/Colorblindly](https://github.com/oftheheadland/Colorblindly) | **416** | NC |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

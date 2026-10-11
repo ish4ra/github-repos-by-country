@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [kenessajr/react-with-actions](https://github.com/kenessajr/react-with-actions) | **17** | Kigali Rwanda |
 | [Mucyo-chris/dart-mobile-app](https://github.com/Mucyo-chris/dart-mobile-app) | **17** | KIGALI-RWANDA |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **414**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [DivinPrince/quickinbox](https://github.com/DivinPrince/quickinbox) | **419** | Rwanda |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
