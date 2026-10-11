@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **8**
-- Current global star frontier: **472**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **442**
 
 ### High-star verified preview
 
@@ -59,5 +59,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [DragonJAR/n8n-workflows-esp](https://github.com/DragonJAR/n8n-workflows-esp) | **529** | Manizales, Caldas, Colombia |
 | [judero01col/GMap.NET](https://github.com/judero01col/GMap.NET) | **513** | Barranquilla, Colombia |
 | [M1Lr05/IsTheApp](https://github.com/M1Lr05/IsTheApp) | **479** | Valledupar, Colombia |
+| [shontauro-zz/android-pulltorefresh-and-loadmore](https://github.com/shontauro-zz/android-pulltorefresh-and-loadmore) | **442** | Bogota D.C |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

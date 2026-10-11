@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **595**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **442**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [dalerank/imspinner](https://github.com/dalerank/imspinner) | **602** | Sliema, Malta |
+| [dalerank/nanogui-sdl](https://github.com/dalerank/nanogui-sdl) | **454** | Sliema, Malta |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

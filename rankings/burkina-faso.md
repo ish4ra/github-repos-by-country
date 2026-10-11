@@ -20,8 +20,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **472**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **442**
 
 ### High-star verified preview
 
@@ -30,5 +30,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [AppleIntelWifi/adapter](https://github.com/AppleIntelWifi/adapter) | **475** | xnu |
+| [ModernPwner/cicuta_virosa](https://github.com/ModernPwner/cicuta_virosa) | **445** | XNU |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
