@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **10**
-- Current global star frontier: **509**
+- Verified high-star candidates retained: **11**
+- Current global star frontier: **427**
 
 ### High-star verified preview
 
@@ -61,5 +61,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [devxhub/awesome-book-collection](https://github.com/devxhub/awesome-book-collection) | **538** | Rajshahi, Bangladesh |
 | [Rafiquzzaman420/Math-Books](https://github.com/Rafiquzzaman420/Math-Books) | **517** | Pabna |
 | [wasi-master/wmkeyboard](https://github.com/wasi-master/wmkeyboard) | **509** | Pabna, Bangladesh |
+| [Quincunx33/Ai-jailbreak](https://github.com/Quincunx33/Ai-jailbreak) | **437** | Khulna,Bangladesh |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

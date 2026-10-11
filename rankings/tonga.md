@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [click-mouse/python](https://github.com/click-mouse/python) | **0** | 42640 ,Orn Forest ,Lake Irwinside ,Kansas ,Tonga |
 | [CookieDogxox/PullZoomView](https://github.com/CookieDogxox/PullZoomView) | **0** | Tonga |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **427**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [aplotor/expanse](https://github.com/aplotor/expanse) | **430** | TO |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

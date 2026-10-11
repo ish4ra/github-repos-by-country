@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **442**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **427**
 
 ### High-star verified preview
 
@@ -55,5 +55,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [chris1610/pbpython](https://github.com/chris1610/pbpython) | **1,992** | MN |
 | [flow-mn/flow](https://github.com/flow-mn/flow) | **499** | Mongolia |
 | [clearflask/clearflask](https://github.com/clearflask/clearflask) | **451** | Mongolia |
+| [intelligo-dev/intelligo](https://github.com/intelligo-dev/intelligo) | **432** | Ulaanbaatar, Mongolia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
