@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **19**
-- Current global star frontier: **472**
+- Verified high-star candidates retained: **20**
+- Current global star frontier: **403**
 
 ### High-star verified preview
 
@@ -70,5 +70,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [r1vs3c/auto-bspwm](https://github.com/r1vs3c/auto-bspwm) | **527** | Ecuador |
 | [asantibanez/livewire-select](https://github.com/asantibanez/livewire-select) | **515** | Guayaquil, Ecuador |
 | [DevCoreXOfficial/core-termux](https://github.com/DevCoreXOfficial/core-termux) | **479** | Ecuador |
+| [asantibanez/laravel-blade-sortable](https://github.com/asantibanez/laravel-blade-sortable) | **411** | Guayaquil, Ecuador |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

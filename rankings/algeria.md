@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **7**
-- Current global star frontier: **427**
+- Verified high-star candidates retained: **8**
+- Current global star frontier: **403**
 
 ### High-star verified preview
 
@@ -58,5 +58,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [linuxscout/pyarabic](https://github.com/linuxscout/pyarabic) | **494** | Bouira, Algeria |
 | [willthames/ansible-inventory-grapher](https://github.com/willthames/ansible-inventory-grapher) | **469** | Brisbane, QLD, Australia |
 | [sahlberg/libsmb2](https://github.com/sahlberg/libsmb2) | **432** | MooreParkBeach/QLD/AU |
+| [ipenywis/react-nestjs-full-web-app](https://github.com/ipenywis/react-nestjs-full-web-app) | **408** | Setif, Algeria |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

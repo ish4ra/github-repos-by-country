@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **10**
-- Current global star frontier: **442**
+- Verified high-star candidates retained: **11**
+- Current global star frontier: **403**
 
 ### High-star verified preview
 
@@ -61,5 +61,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [AmineSoukara/amazon-music](https://github.com/AmineSoukara/amazon-music) | **480** | Fez, Morocco |
 | [scottaohara/a11y_styled_form_controls](https://github.com/scottaohara/a11y_styled_form_controls) | **472** | MA |
 | [wrongbaud/hackaday-u](https://github.com/wrongbaud/hackaday-u) | **448** | MA |
+| [yoeunes/toastr](https://github.com/yoeunes/toastr) | **407** | Marrakech, Morocco |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
