@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **62**
-- Current global star frontier: **389**
+- Verified high-star candidates retained: **64**
+- Current global star frontier: **377**
 
 ### High-star verified preview
 

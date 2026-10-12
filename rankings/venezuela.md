@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **943**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **377**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [Dump-GUY/Malware-analysis-and-Reverse-engineering](https://github.com/Dump-GUY/Malware-analysis-and-Reverse-engineering) | **964** | CZE |
+| [easyCZ/grpc-web-hacker-news](https://github.com/easyCZ/grpc-web-hacker-news) | **389** | Prague, CZE |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

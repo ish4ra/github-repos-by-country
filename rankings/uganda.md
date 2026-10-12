@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **4,174**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **377**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [has2k1/plotnine](https://github.com/has2k1/plotnine) | **4,770** | Kampala, Uganda |
+| [nmmapper/dnsdumpster](https://github.com/nmmapper/dnsdumpster) | **379** | Kampala |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

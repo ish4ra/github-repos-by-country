@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **389**
+- Verified high-star candidates retained: **16**
+- Current global star frontier: **377**
 
 ### High-star verified preview
 
@@ -65,5 +65,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [haruncpi/laravel-user-activity](https://github.com/haruncpi/laravel-user-activity) | **425** | Chittagong, Bangladesh |
 | [problemsolvewithridoy/Phone-number-location-tracker-using-python](https://github.com/problemsolvewithridoy/Phone-number-location-tracker-using-python) | **411** | Jhenaidah, Dakha, Bangladesh |
 | [SharifClick/svelte-swipe](https://github.com/SharifClick/svelte-swipe) | **391** | Sylhet, Bangladesh |
+| [azminewasi/Machine-Learning-AndrewNg-DeepLearning.AI](https://github.com/azminewasi/Machine-Learning-AndrewNg-DeepLearning.AI) | **381** | Comilla, Bangladesh |
+| [haruncpi/laravel-log-reader](https://github.com/haruncpi/laravel-log-reader) | **381** | Chittagong, Bangladesh |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

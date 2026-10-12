@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **893**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **377**
 
 ### High-star verified preview
 
@@ -53,5 +53,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [seerr-team/seerr](https://github.com/seerr-team/seerr) | **12,788** | Maldives |
 | [Raais/ImStudio](https://github.com/Raais/ImStudio) | **927** | Malé, Maldives |
+| [Z3d0X/filament-logger](https://github.com/Z3d0X/filament-logger) | **388** | Maldives |
+| [Z3d0X/filament-fabricator](https://github.com/Z3d0X/filament-fabricator) | **387** | Maldives |
+| [seerr-team/mobile-app](https://github.com/seerr-team/mobile-app) | **381** | Maldives |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
