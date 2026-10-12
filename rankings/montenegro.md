@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **403**
+- Verified high-star candidates retained: **10**
+- Current global star frontier: **368**
 
 ### High-star verified preview
 
@@ -60,5 +60,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [gilbarbara/react-redux-saga-boilerplate](https://github.com/gilbarbara/react-redux-saga-boilerplate) | **616** | São Paulo, BR |
 | [IvanDrokin/torch-conv-kan](https://github.com/IvanDrokin/torch-conv-kan) | **532** | Budva |
 | [matheuspelegrino/tiktok-clone](https://github.com/matheuspelegrino/tiktok-clone) | **406** | Teresópolis - RJ, BR |
+| [viniciusmo/VMaskTextField](https://github.com/viniciusmo/VMaskTextField) | **377** | São Paulo, BR |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

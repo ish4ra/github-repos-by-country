@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **11**
-- Current global star frontier: **389**
+- Verified high-star candidates retained: **12**
+- Current global star frontier: **368**
 
 ### High-star verified preview
 
@@ -62,5 +62,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [yoshimkd/swift-auto-diagram](https://github.com/yoshimkd/swift-auto-diagram) | **496** | Skopje, North Macedonia |
 | [Weilbyte/tiktok-tts](https://github.com/Weilbyte/tiktok-tts) | **422** | SKP |
 | [ZoranPandovski/design-patterns](https://github.com/ZoranPandovski/design-patterns) | **392** | Bitola, North Macedonia |
+| [ZoranPandovski/awesome-testing-tools](https://github.com/ZoranPandovski/awesome-testing-tools) | **375** | Bitola, North Macedonia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **377**
+- Verified high-star candidates retained: **12**
+- Current global star frontier: **368**
 
 ### High-star verified preview
 
@@ -60,5 +60,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [rmariuzzo/Laravel-JS-Localization](https://github.com/rmariuzzo/Laravel-JS-Localization) | **606** | Dominican Republic |
 | [rmariuzzo/react-new-window](https://github.com/rmariuzzo/react-new-window) | **461** | Dominican Republic |
 | [CrossGeeks/FirebasePushNotificationPlugin](https://github.com/CrossGeeks/FirebasePushNotificationPlugin) | **387** | Dominican Republic |
+| [sgermosen/DocumentosUniversitarios](https://github.com/sgermosen/DocumentosUniversitarios) | **376** | Santo Domingo, Republica Dominicana |
+| [edwin170/downr1n](https://github.com/edwin170/downr1n) | **373** | Dominican Republic |
+| [wilmerterrero/Avatartion](https://github.com/wilmerterrero/Avatartion) | **370** | Dominican Republic |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **7**
-- Current global star frontier: **377**
+- Verified high-star candidates retained: **8**
+- Current global star frontier: **368**
 
 ### High-star verified preview
 
@@ -58,5 +58,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [superfluid-org/protocol-monorepo](https://github.com/superfluid-org/protocol-monorepo) | **903** | Cayman Islands |
 | [guhhhhaa/4675-scifi](https://github.com/guhhhhaa/4675-scifi) | **478** | Cayman Islands |
 | [gitcoinco/code_fund_ads](https://github.com/gitcoinco/code_fund_ads) | **383** | Cayman Islands |
+| [OceanTroop/orca-one](https://github.com/OceanTroop/orca-one) | **372** | Cayman Islands |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

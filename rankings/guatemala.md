@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **10**
-- Current global star frontier: **442**
+- Verified high-star candidates retained: **11**
+- Current global star frontier: **368**
 
 ### High-star verified preview
 
@@ -61,5 +61,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [deivuh/DODropletManager-OSX](https://github.com/deivuh/DODropletManager-OSX) | **488** | Guatemala |
 | [Guerra24/Firefox-UWP-Style](https://github.com/Guerra24/Firefox-UWP-Style) | **461** | Guatemala |
 | [andrescv/jupiter](https://github.com/andrescv/jupiter) | **446** | Guatemala |
+| [wuelnerdotexe/vim-enfocado](https://github.com/wuelnerdotexe/vim-enfocado) | **368** | Guatemala |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

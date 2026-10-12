@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [khobatha/CS3520](https://github.com/khobatha/CS3520) | **2** | Maseru, Roma, Lesotho |
 | [MapLesotho/lesotho_laa_data](https://github.com/MapLesotho/lesotho_laa_data) | **2** | Lesotho |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **368**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [tshakalekholoane/bat](https://github.com/tshakalekholoane/bat) | **376** | Maseru, Lesotho |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

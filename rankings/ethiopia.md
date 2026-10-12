@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **573**
+- Verified high-star candidates retained: **10**
+- Current global star frontier: **368**
 
 ### High-star verified preview
 
@@ -60,5 +60,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [SkyCascade/SkyLearn](https://github.com/SkyCascade/SkyLearn) | **661** | Ethiopia |
 | [Eul45/omni-search](https://github.com/Eul45/omni-search) | **607** | Ethiopia, Addis Ababa |
 | [noahabe/database_system_concepts_answers](https://github.com/noahabe/database_system_concepts_answers) | **594** | Addis Ababa, Ethiopia |
+| [devefy/Flutter-Adidas-Shoes-Ecommerce-App-UI](https://github.com/devefy/Flutter-Adidas-Shoes-Ecommerce-App-UI) | **375** | Ethiopia, Adama |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
