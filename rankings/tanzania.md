@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **8**
-- Current global star frontier: **509**
+- Verified high-star candidates retained: **10**
+- Current global star frontier: **389**
 
 ### High-star verified preview
 
@@ -59,5 +59,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ringlesoft/laravel-process-approval](https://github.com/ringlesoft/laravel-process-approval) | **554** | Tanzania |
 | [Neurotech-HQ/heyoo](https://github.com/Neurotech-HQ/heyoo) | **513** | Dar Es Salaam, TZ |
 | [gernest/wow](https://github.com/gernest/wow) | **509** | Arusha, Tanzania |
+| [Kingjux/Venocyber-md](https://github.com/Kingjux/Venocyber-md) | **398** | Dar es Salaam, Tanzania |
+| [Kalebu/alright](https://github.com/Kalebu/alright) | **393** | Dar es Salaam , Tanzania |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

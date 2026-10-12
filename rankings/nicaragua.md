@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **403**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **389**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [miaru3d/FacebookBot](https://github.com/miaru3d/FacebookBot) | **409** | Nicaragua |
+| [franccesco/getaltname](https://github.com/franccesco/getaltname) | **390** | Nicaragua |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

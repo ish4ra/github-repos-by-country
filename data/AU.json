@@ -1,0 +1,3380 @@
+{
+  "schemaVersion": 1,
+  "methodologyVersion": "0.8.0-repository-first",
+  "generatedAt": "2026-10-12T01:51:33.359Z",
+  "country": {
+    "code": "AU",
+    "name": "Australia",
+    "slug": "australia"
+  },
+  "source": {
+    "provider": "GitHub GraphQL API",
+    "endpoint": "https://api.github.com/graphql",
+    "countryBasis": "public repository-owner profile location",
+    "discovery": "global repositories scanned by stars descending"
+  },
+  "coverage": {
+    "status": "repository-first-certified-by-star-frontier",
+    "exhaustive": false,
+    "rawOwnerHits": 154683,
+    "acceptedUniqueOwners": 76,
+    "ownerMetricLabel": "Unique owners in top ranking",
+    "repositoriesConsidered": 102,
+    "publishedRepositories": 100,
+    "candidateThresholdStars": 396,
+    "rankingLimit": 100,
+    "cappedQueries": [],
+    "repositoryFirst": {
+      "scanFrontierStars": 389,
+      "topObservedStars": 551406,
+      "repositoriesSeen": 154683,
+      "attributedRepositories": 57207,
+      "ambiguousLocations": 24622,
+      "unknownLocations": 72854,
+      "unresolvedStarCounts": []
+    },
+    "notes": [
+      "Repositories are scanned globally in descending star ranges, independently of owner follower count or owner-search ordering.",
+      "A country is certified only after its 100th repository has more stars than every unprocessed global star range.",
+      "Owner country is inferred from the owner public GitHub profile location using the global geography resolver.",
+      "Owners with missing or unresolved locations are excluded, so country attribution is not a citizenship or legal-incorporation claim.",
+      "Compound city/admin locations such as \"Portland, OR\" are resolved before ambiguous city-only names."
+    ]
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "tippyjs",
+      "nameWithOwner": "atomiks/tippyjs",
+      "url": "https://github.com/atomiks/tippyjs",
+      "description": "Tooltip, popover, dropdown, and menu library",
+      "stars": 12240,
+      "forks": 539,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-04-01T06:51:35Z",
+      "pushedAt": "2024-05-27T19:00:23Z",
+      "homepageUrl": "https://atomiks.github.io/tippyjs/",
+      "archived": true,
+      "owner": {
+        "login": "atomiks",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/atomiks",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22450188?u=34468c8ba8dc419f952724da66f7ede0dcc4d54d&v=4",
+        "location": "Gold Coast, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "gold coast"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 2,
+      "name": "how-to-build-a-coding-agent",
+      "nameWithOwner": "ghuntley/how-to-build-a-coding-agent",
+      "url": "https://github.com/ghuntley/how-to-build-a-coding-agent",
+      "description": "A workshop that teaches you how to build your own coding agent. Similar to Roo code, Cline, Amp, Cursor, Windsurf or OpenCode.",
+      "stars": 5859,
+      "forks": 657,
+      "primaryLanguage": "Go",
+      "license": null,
+      "createdAt": "2025-07-24T03:56:29Z",
+      "pushedAt": "2026-10-02T03:54:34Z",
+      "homepageUrl": "https://ghuntley.com/agent/",
+      "archived": false,
+      "owner": {
+        "login": "ghuntley",
+        "name": "Geoffrey Huntley",
+        "type": "User",
+        "url": "https://github.com/ghuntley",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127353?u=022d367a948fba3cfe178424b404ac8f2a28412e&v=4",
+        "location": "Kangaroo Island, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "kangaroo island"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 3,
+      "name": "skills-manager",
+      "nameWithOwner": "xingkongliang/skills-manager",
+      "url": "https://github.com/xingkongliang/skills-manager",
+      "description": "A lightweight desktop app to manage, sync, and organize AI agent skills across 50+ coding tools — Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "stars": 5442,
+      "forks": 467,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-03-02T00:38:18Z",
+      "pushedAt": "2026-10-01T14:56:16Z",
+      "homepageUrl": "https://skillsmanager.dev",
+      "archived": false,
+      "owner": {
+        "login": "xingkongliang",
+        "name": "Jay.TL",
+        "type": "User",
+        "url": "https://github.com/xingkongliang",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8827798?u=6080a642cce5cfefde9dca1f71b5fe81c4430e42&v=4",
+        "location": "Canberra",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "canberra"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 4,
+      "name": "velociraptor",
+      "nameWithOwner": "Velocidex/velociraptor",
+      "url": "https://github.com/Velocidex/velociraptor",
+      "description": "Digging Deeper....",
+      "stars": 4291,
+      "forks": 662,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2018-03-24T07:39:32Z",
+      "pushedAt": "2026-10-04T09:50:46Z",
+      "homepageUrl": "https://docs.velociraptor.app/",
+      "archived": false,
+      "owner": {
+        "login": "Velocidex",
+        "name": "Velocidex",
+        "type": "Organization",
+        "url": "https://github.com/Velocidex",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36671444?v=4",
+        "location": "Gold Coast, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "gold coast"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 5,
+      "name": "soda-theme",
+      "nameWithOwner": "buymeasoda/soda-theme",
+      "url": "https://github.com/buymeasoda/soda-theme",
+      "description": "Dark and light custom UI themes for Sublime Text",
+      "stars": 4288,
+      "forks": 499,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2011-07-17T13:48:14Z",
+      "pushedAt": "2021-02-24T05:49:29Z",
+      "homepageUrl": "https://buymeasoda.github.io/soda-theme/",
+      "archived": false,
+      "owner": {
+        "login": "buymeasoda",
+        "name": "Ian Hill",
+        "type": "User",
+        "url": "https://github.com/buymeasoda",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44082?u=17af7762bfef84ad1972340c54f71e3830d31d01&v=4",
+        "location": "Sunshine Coast, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "sunshine coast"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 6,
+      "name": "wemux",
+      "nameWithOwner": "zolrath/wemux",
+      "url": "https://github.com/zolrath/wemux",
+      "description": "Multi-User Tmux Made Easy",
+      "stars": 3691,
+      "forks": 143,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2012-03-07T03:23:41Z",
+      "pushedAt": "2022-10-03T08:50:52Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "zolrath",
+        "name": "Matt Furden",
+        "type": "User",
+        "url": "https://github.com/zolrath",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/454563?v=4",
+        "location": "Central Coast, CA",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "central coast"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 7,
+      "name": "iamlive",
+      "nameWithOwner": "iann0036/iamlive",
+      "url": "https://github.com/iann0036/iamlive",
+      "description": "Generate an IAM policy from AWS, Azure, or Google Cloud (GCP) calls using client-side monitoring (CSM) or embedded proxy",
+      "stars": 3411,
+      "forks": 119,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-02-04T10:57:02Z",
+      "pushedAt": "2026-04-19T06:45:59Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "iann0036",
+        "name": "Ian Mckay",
+        "type": "User",
+        "url": "https://github.com/iann0036",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4401744?u=45422070013372017ff27019ebf9d830e273d617&v=4",
+        "location": "Sydney, NSW",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "sydney nsw"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 8,
+      "name": "light-novel-library_Wenku8_Android",
+      "nameWithOwner": "MewX/light-novel-library_Wenku8_Android",
+      "url": "https://github.com/MewX/light-novel-library_Wenku8_Android",
+      "description": "[CASUALLY MAINTAINED] 轻小说文库 (Wenku8.com) 安卓版第三方公益App，始于2014年的初版Material Design风格、非盈利、Play Store上安装包最小的轻小说阅读器 (light novel reader)。目前网站的API由于被大量滥用，已更新成我自己架的 Cloudflare Worker API 中继节点，不然的话网站关闭API就全军覆没了。",
+      "stars": 3067,
+      "forks": 318,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "spdxId": "GPL-2.0"
+      },
+      "createdAt": "2014-10-10T05:07:14Z",
+      "pushedAt": "2026-09-05T10:00:18Z",
+      "homepageUrl": "https://wenku8.mewx.org",
+      "archived": false,
+      "owner": {
+        "login": "MewX",
+        "name": "MewX",
+        "type": "User",
+        "url": "https://github.com/MewX",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5752560?v=4",
+        "location": "Sydney, NSW",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "sydney nsw"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 9,
+      "name": "Hell2025",
+      "nameWithOwner": "livinamuk/Hell2025",
+      "url": "https://github.com/livinamuk/Hell2025",
+      "description": null,
+      "stars": 2870,
+      "forks": 138,
+      "primaryLanguage": "C++",
+      "license": null,
+      "createdAt": "2023-09-03T12:40:48Z",
+      "pushedAt": "2026-09-01T08:29:30Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "livinamuk",
+        "name": "Chris Burrows",
+        "type": "User",
+        "url": "https://github.com/livinamuk",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7821313?u=de0ad648f5a7a6b12e0013c0812e35087f4b7d3b&v=4",
+        "location": "Tasmania, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "tasmania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 10,
+      "name": "Modaal",
+      "nameWithOwner": "humaan/Modaal",
+      "url": "https://github.com/humaan/Modaal",
+      "description": "An accessible dialog window library for all humans.",
+      "stars": 2688,
+      "forks": 179,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-04-18T02:56:42Z",
+      "pushedAt": "2020-11-27T07:19:10Z",
+      "homepageUrl": "http://humaan.com/modaal/",
+      "archived": true,
+      "owner": {
+        "login": "humaan",
+        "name": "Humaan",
+        "type": "Organization",
+        "url": "https://github.com/humaan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1941007?v=4",
+        "location": "Perth, Western Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "perth western australia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 11,
+      "name": "react-responsive-carousel",
+      "nameWithOwner": "leandrowd/react-responsive-carousel",
+      "url": "https://github.com/leandrowd/react-responsive-carousel",
+      "description": "React.js Responsive Carousel (with Swipe)",
+      "stars": 2675,
+      "forks": 619,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-02-08T10:59:28Z",
+      "pushedAt": "2026-10-03T15:17:50Z",
+      "homepageUrl": "http://leandrowd.github.io/react-responsive-carousel/",
+      "archived": false,
+      "owner": {
+        "login": "leandrowd",
+        "name": "Leandro Lemos",
+        "type": "User",
+        "url": "https://github.com/leandrowd",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/165005?v=4",
+        "location": "Sunshine Coast, QLD",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "sunshine coast qld"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 12,
+      "name": "wechat-intelligence-hub",
+      "nameWithOwner": "Rion-Wu-tech/wechat-intelligence-hub",
+      "url": "https://github.com/Rion-Wu-tech/wechat-intelligence-hub",
+      "description": "Local-first WeChat intelligence system with a read-only CLI, Codex skills, searchable chat history, daily briefings, follow-ups and opportunity tracking.",
+      "stars": 2596,
+      "forks": 2735,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2026-09-04T15:00:53Z",
+      "pushedAt": "2026-09-29T23:21:32Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Rion-Wu-tech",
+        "name": "Rion Wu",
+        "type": "User",
+        "url": "https://github.com/Rion-Wu-tech",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/184370191?u=a67e483a9ba45e7aeb512a77c1c292d938bb37cf&v=4",
+        "location": "Canberra,Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "canberra"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 13,
+      "name": "mrustc",
+      "nameWithOwner": "thepowersgang/mrustc",
+      "url": "https://github.com/thepowersgang/mrustc",
+      "description": "Alternative rust compiler (re-implementation)",
+      "stars": 2535,
+      "forks": 142,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-11-28T13:47:44Z",
+      "pushedAt": "2026-09-28T10:53:19Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "thepowersgang",
+        "name": "John Hodge (Mutabah)",
+        "type": "User",
+        "url": "https://github.com/thepowersgang",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/955596?v=4",
+        "location": "Perth, Western Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "perth western australia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 14,
+      "name": "ImageProcessor",
+      "nameWithOwner": "JimBobSquarePants/ImageProcessor",
+      "url": "https://github.com/JimBobSquarePants/ImageProcessor",
+      "description": ":camera: A fluent wrapper around System.Drawing for the processing of image files.",
+      "stars": 2491,
+      "forks": 488,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2012-05-28T14:11:35Z",
+      "pushedAt": "2023-09-06T04:52:51Z",
+      "homepageUrl": "https://jimbobsquarepants.github.io/ImageProcessor/",
+      "archived": true,
+      "owner": {
+        "login": "JimBobSquarePants",
+        "name": "James Jackson-South",
+        "type": "User",
+        "url": "https://github.com/JimBobSquarePants",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/385879?u=9ba4c7b1cfad18f5028e76ac704dcecbae372d4c&v=4",
+        "location": "Sunshine Coast",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "sunshine coast"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 15,
+      "name": "former2",
+      "nameWithOwner": "iann0036/former2",
+      "url": "https://github.com/iann0036/former2",
+      "description": "Generate CloudFormation / Terraform / Troposphere templates from your existing AWS resources.",
+      "stars": 2415,
+      "forks": 295,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-03-01T12:06:47Z",
+      "pushedAt": "2026-07-07T22:53:58Z",
+      "homepageUrl": "https://former2.com",
+      "archived": false,
+      "owner": {
+        "login": "iann0036",
+        "name": "Ian Mckay",
+        "type": "User",
+        "url": "https://github.com/iann0036",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4401744?u=45422070013372017ff27019ebf9d830e273d617&v=4",
+        "location": "Sydney, NSW",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "sydney nsw"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 16,
+      "name": "Shuttle",
+      "nameWithOwner": "timusus/Shuttle",
+      "url": "https://github.com/timusus/Shuttle",
+      "description": "Shuttle Music Player",
+      "stars": 2173,
+      "forks": 483,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2017-02-21T11:06:23Z",
+      "pushedAt": "2022-12-28T23:40:53Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "timusus",
+        "name": "Tim Malseed",
+        "type": "User",
+        "url": "https://github.com/timusus",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4422616?u=9d6c0772c452a9d8b5ef8a9794dc3dda75925bb2&v=4",
+        "location": "Hobart, Tasmania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "hobart tasmania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 17,
+      "name": "bermuda",
+      "nameWithOwner": "agittins/bermuda",
+      "url": "https://github.com/agittins/bermuda",
+      "description": "Bermuda Bluetooth/BLE Triangulation / Trilateration for HomeAssistant",
+      "stars": 2076,
+      "forks": 79,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-08-08T12:15:09Z",
+      "pushedAt": "2026-10-05T06:34:02Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "agittins",
+        "name": "Ashley Gittins",
+        "type": "User",
+        "url": "https://github.com/agittins",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/752405?v=4",
+        "location": "Byron Bay, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "byron bay"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 18,
+      "name": "vue-dropzone",
+      "nameWithOwner": "rowanwins/vue-dropzone",
+      "url": "https://github.com/rowanwins/vue-dropzone",
+      "description": "A Vue.js component for Dropzone.js - a drag’n’drop file uploads utility with image previews",
+      "stars": 2003,
+      "forks": 1344,
+      "primaryLanguage": "Vue",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-07-28T03:04:13Z",
+      "pushedAt": "2024-03-28T02:06:09Z",
+      "homepageUrl": "https://rowanwins.github.io/vue-dropzone/docs/dist",
+      "archived": false,
+      "owner": {
+        "login": "rowanwins",
+        "name": "Rowan Winsemius",
+        "type": "User",
+        "url": "https://github.com/rowanwins",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6735870?v=4",
+        "location": "Canberra, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "canberra"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 19,
+      "name": "prisma-client-rust",
+      "nameWithOwner": "Brendonovich/prisma-client-rust",
+      "url": "https://github.com/Brendonovich/prisma-client-rust",
+      "description": "Type-safe database access for Rust",
+      "stars": 1917,
+      "forks": 123,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2021-05-25T03:17:21Z",
+      "pushedAt": "2025-03-12T08:19:17Z",
+      "homepageUrl": "https://prisma.brendonovich.dev",
+      "archived": true,
+      "owner": {
+        "login": "Brendonovich",
+        "name": "Brendan Allan",
+        "type": "User",
+        "url": "https://github.com/Brendonovich",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14191578?u=754cb88a1ea65648439ac0a7bc76022391a1931e&v=4",
+        "location": "Western Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "western australia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 20,
+      "name": "terraform-best-practices",
+      "nameWithOwner": "ozbillwang/terraform-best-practices",
+      "url": "https://github.com/ozbillwang/terraform-best-practices",
+      "description": "Terraform Best Practices for AWS users",
+      "stars": 1842,
+      "forks": 364,
+      "primaryLanguage": "HCL",
+      "license": null,
+      "createdAt": "2017-06-19T04:49:23Z",
+      "pushedAt": "2024-12-20T00:40:37Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ozbillwang",
+        "name": "Bill Wang",
+        "type": "User",
+        "url": "https://github.com/ozbillwang",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8954908?u=01fa1ddf0b607f18977c2ed2d1ff17579c783f4b&v=4",
+        "location": "Sydney, NSW",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "sydney nsw"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 21,
+      "name": "tippyjs-react",
+      "nameWithOwner": "atomiks/tippyjs-react",
+      "url": "https://github.com/atomiks/tippyjs-react",
+      "description": "React component for Tippy.js (official)",
+      "stars": 1804,
+      "forks": 98,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-08-24T09:23:47Z",
+      "pushedAt": "2024-05-28T10:36:58Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "atomiks",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/atomiks",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22450188?u=34468c8ba8dc419f952724da66f7ede0dcc4d54d&v=4",
+        "location": "Gold Coast, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "gold coast"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 22,
+      "name": "awesome-devsecops",
+      "nameWithOwner": "jakob-pennington/awesome-devsecops",
+      "url": "https://github.com/jakob-pennington/awesome-devsecops",
+      "description": "Curating the best DevSecOps resources and tooling.",
+      "stars": 1744,
+      "forks": 254,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdxId": "CC0-1.0"
+      },
+      "createdAt": "2020-03-01T06:19:18Z",
+      "pushedAt": "2024-08-02T12:52:41Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "jakob-pennington",
+        "name": "Jakob Pennington",
+        "type": "User",
+        "url": "https://github.com/jakob-pennington",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21337744?u=432819271ec6e16e3b4e706e7cc348207d5e604b&v=4",
+        "location": "Adelaide, South Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "adelaide south australia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 23,
+      "name": "iSpy",
+      "nameWithOwner": "ispysoftware/iSpy",
+      "url": "https://github.com/ispysoftware/iSpy",
+      "description": "Open source surveillance software",
+      "stars": 1625,
+      "forks": 581,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2015-08-30T06:35:12Z",
+      "pushedAt": "2026-02-13T02:39:43Z",
+      "homepageUrl": "http://www.ispyconnect.com",
+      "archived": false,
+      "owner": {
+        "login": "ispysoftware",
+        "name": "sean t",
+        "type": "User",
+        "url": "https://github.com/ispysoftware",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/800093?u=a60fd54d28021a862d8777c29f02277caa093524&v=4",
+        "location": "Western Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "western australia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 24,
+      "name": "floating-ui",
+      "nameWithOwner": "atomiks/floating-ui",
+      "url": "https://github.com/atomiks/floating-ui",
+      "description": "JavaScript positioning library for tooltips, popovers, dropdowns, and more",
+      "stars": 1530,
+      "forks": 21,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-11-28T17:35:14Z",
+      "pushedAt": "2021-12-08T14:27:50Z",
+      "homepageUrl": "https://floating-ui.com",
+      "archived": true,
+      "owner": {
+        "login": "atomiks",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/atomiks",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22450188?u=34468c8ba8dc419f952724da66f7ede0dcc4d54d&v=4",
+        "location": "Gold Coast, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "gold coast"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 25,
+      "name": "AWSConsoleRecorder",
+      "nameWithOwner": "iann0036/AWSConsoleRecorder",
+      "url": "https://github.com/iann0036/AWSConsoleRecorder",
+      "description": "Records actions made in the AWS Management Console and outputs the equivalent CLI/SDK commands and CloudFormation/Terraform templates.",
+      "stars": 1418,
+      "forks": 89,
+      "primaryLanguage": "CSS",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-10-02T00:40:14Z",
+      "pushedAt": "2021-01-24T03:25:22Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "iann0036",
+        "name": "Ian Mckay",
+        "type": "User",
+        "url": "https://github.com/iann0036",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4401744?u=45422070013372017ff27019ebf9d830e273d617&v=4",
+        "location": "Sydney, NSW",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "sydney nsw"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 26,
+      "name": "RecyclerView-FastScroll",
+      "nameWithOwner": "timusus/RecyclerView-FastScroll",
+      "url": "https://github.com/timusus/RecyclerView-FastScroll",
+      "description": "A simple FastScroller for Android's RecyclerView",
+      "stars": 1401,
+      "forks": 185,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2016-01-13T01:35:25Z",
+      "pushedAt": "2023-08-13T14:12:22Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "timusus",
+        "name": "Tim Malseed",
+        "type": "User",
+        "url": "https://github.com/timusus",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4422616?u=9d6c0772c452a9d8b5ef8a9794dc3dda75925bb2&v=4",
+        "location": "Hobart, Tasmania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "hobart tasmania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 27,
+      "name": "loom",
+      "nameWithOwner": "ghuntley/loom",
+      "url": "https://github.com/ghuntley/loom",
+      "description": "if your name is not Geoffrey Huntley then do not use loom",
+      "stars": 1378,
+      "forks": 208,
+      "primaryLanguage": "Rust",
+      "license": null,
+      "createdAt": "2025-12-18T10:34:50Z",
+      "pushedAt": "2026-04-10T19:15:00Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ghuntley",
+        "name": "Geoffrey Huntley",
+        "type": "User",
+        "url": "https://github.com/ghuntley",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127353?u=022d367a948fba3cfe178424b404ac8f2a28412e&v=4",
+        "location": "Kangaroo Island, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "kangaroo island"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 28,
+      "name": "Home-Assistant-Config",
+      "nameWithOwner": "JamesMcCarthy79/Home-Assistant-Config",
+      "url": "https://github.com/JamesMcCarthy79/Home-Assistant-Config",
+      "description": "Home Assistant Configuration & Documentation for my Smart House.",
+      "stars": 1337,
+      "forks": 152,
+      "primaryLanguage": "HTML",
+      "license": null,
+      "createdAt": "2018-05-24T20:08:01Z",
+      "pushedAt": "2020-10-01T14:04:47Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "JamesMcCarthy79",
+        "name": "James McCarthy",
+        "type": "User",
+        "url": "https://github.com/JamesMcCarthy79",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34696670?u=b2c7e752927813c82a9a8eed370094999b5921bb&v=4",
+        "location": "Gold Coast, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "gold coast"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 29,
+      "name": "zed-windows-builds",
+      "nameWithOwner": "deevus/zed-windows-builds",
+      "url": "https://github.com/deevus/zed-windows-builds",
+      "description": "Unofficial nightly builds of the Zed editor for Windows",
+      "stars": 1330,
+      "forks": 87,
+      "primaryLanguage": "Shell",
+      "license": null,
+      "createdAt": "2024-07-20T02:39:30Z",
+      "pushedAt": "2026-10-06T07:25:54Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "deevus",
+        "name": "Simon Hartcher",
+        "type": "User",
+        "url": "https://github.com/deevus",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/856194?u=21d56c3acfc25572fd36db9fe748bf2fc96d096b&v=4",
+        "location": "Wollongong, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "wollongong"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 30,
+      "name": "git-wrapped-api",
+      "nameWithOwner": "gabriel-pineda/git-wrapped-api",
+      "url": "https://github.com/gabriel-pineda/git-wrapped-api",
+      "description": null,
+      "stars": 1298,
+      "forks": 23,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2024-12-21T11:31:21Z",
+      "pushedAt": "2024-12-21T12:07:32Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "gabriel-pineda",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/gabriel-pineda",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98309935?u=b0a53e54ce936884a0f5aece37b83ae0cae53cdc&v=4",
+        "location": "Melbourne, VIC",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "melbourne vic"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 31,
+      "name": "spf-dkim-dmarc-simplified",
+      "nameWithOwner": "nicanorflavier/spf-dkim-dmarc-simplified",
+      "url": "https://github.com/nicanorflavier/spf-dkim-dmarc-simplified",
+      "description": "Email security is a key part of internet communication. But what are SPF, DKIM, and DMARC, and how do they work? This guide will explain it all in simple terms to make these concepts clearer.",
+      "stars": 1245,
+      "forks": 35,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2024-06-17T14:19:46Z",
+      "pushedAt": "2024-06-21T18:09:12Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "nicanorflavier",
+        "name": "nicanorflavier",
+        "type": "User",
+        "url": "https://github.com/nicanorflavier",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33926963?u=ab4155609af954a549ae5c6f8dc45f713e6b5258&v=4",
+        "location": "Melbourne Victoria",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "melbourne victoria"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 32,
+      "name": "rtree",
+      "nameWithOwner": "davidmoten/rtree",
+      "url": "https://github.com/davidmoten/rtree",
+      "description": "Immutable in-memory R-tree and R*-tree implementations in Java with reactive api",
+      "stars": 1143,
+      "forks": 219,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2014-08-26T12:29:14Z",
+      "pushedAt": "2026-09-21T11:22:34Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "davidmoten",
+        "name": "Dave Moten",
+        "type": "User",
+        "url": "https://github.com/davidmoten",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/318187?u=baf23f16412ad44c031572eb51e52d5f3eeccd2b&v=4",
+        "location": "Canberra, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "canberra"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 33,
+      "name": "full-stack-interview-questions",
+      "nameWithOwner": "aershov24/full-stack-interview-questions",
+      "url": "https://github.com/aershov24/full-stack-interview-questions",
+      "description": "🔴 More than ~3877 Full Stack, Coding & System Design Interview Questions And Answers sourced from all around the Internet to help you to prepare to an interview, conduct one, mock your lead dev or completely ignore. Find more questions and answers on 👉  ",
+      "stars": 1132,
+      "forks": 305,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2018-09-17T00:53:51Z",
+      "pushedAt": "2021-08-26T09:57:13Z",
+      "homepageUrl": "https://www.fullstack.cafe",
+      "archived": false,
+      "owner": {
+        "login": "aershov24",
+        "name": "Alex Ershov",
+        "type": "User",
+        "url": "https://github.com/aershov24",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13550565?u=224542b7dfdd82e4cfc74bf123f138f80ca416f5&v=4",
+        "location": "Melbourne, VIC",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "melbourne vic"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 34,
+      "name": "Neural-PDE-Solver",
+      "nameWithOwner": "bitzhangcy/Neural-PDE-Solver",
+      "url": "https://github.com/bitzhangcy/Neural-PDE-Solver",
+      "description": null,
+      "stars": 1125,
+      "forks": 141,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2022-11-04T14:39:53Z",
+      "pushedAt": "2026-09-13T11:15:33Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "bitzhangcy",
+        "name": "Chunyang Zhang",
+        "type": "User",
+        "url": "https://github.com/bitzhangcy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44028660?u=d4a7440e4503c494a9e3ae29c0d132a04ffc3ea4&v=4",
+        "location": "Canberra, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "canberra"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 35,
+      "name": "WinPmem",
+      "nameWithOwner": "Velocidex/WinPmem",
+      "url": "https://github.com/Velocidex/WinPmem",
+      "description": "The multi-platform memory acquisition tool.",
+      "stars": 1057,
+      "forks": 149,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2019-05-17T05:10:59Z",
+      "pushedAt": "2025-10-14T14:13:22Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Velocidex",
+        "name": "Velocidex",
+        "type": "Organization",
+        "url": "https://github.com/Velocidex",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36671444?v=4",
+        "location": "Gold Coast, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "gold coast"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 36,
+      "name": "Time-Series-Works-Conferences",
+      "nameWithOwner": "lixus7/Time-Series-Works-Conferences",
+      "url": "https://github.com/lixus7/Time-Series-Works-Conferences",
+      "description": "Time-Series Work Summary in CS Top Conferences (NIPS, ICML, ICLR, KDD, AAAI, WWW, IJCAI, CIKM, ICDM, ICDE, etc.)",
+      "stars": 1039,
+      "forks": 99,
+      "primaryLanguage": null,
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-03-24T06:59:12Z",
+      "pushedAt": "2026-09-29T11:59:09Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "lixus7",
+        "name": "Du",
+        "type": "User",
+        "url": "https://github.com/lixus7",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49853448?u=60a5ab37589486765b64829629c958b054fe9433&v=4",
+        "location": "Sydney, NSW",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "sydney nsw"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 37,
+      "name": "MacYTDL",
+      "nameWithOwner": "section83/MacYTDL",
+      "url": "https://github.com/section83/MacYTDL",
+      "description": "A macOS GUI front-end for the YT-DLP video downloader",
+      "stars": 1025,
+      "forks": 46,
+      "primaryLanguage": "AppleScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2019-08-22T04:05:24Z",
+      "pushedAt": "2026-09-03T06:42:00Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "section83",
+        "name": "Vincentius",
+        "type": "User",
+        "url": "https://github.com/section83",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7471595?u=418fecfb1131f04578ead0df7042a969ca253322&v=4",
+        "location": "Canberra",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "canberra"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 38,
+      "name": "typescript-transformer-handbook",
+      "nameWithOwner": "itsdouges/typescript-transformer-handbook",
+      "url": "https://github.com/itsdouges/typescript-transformer-handbook",
+      "description": "📘 A comprehensive handbook on how to create transformers for TypeScript with code examples.",
+      "stars": 1020,
+      "forks": 33,
+      "primaryLanguage": "TypeScript",
+      "license": null,
+      "createdAt": "2019-12-28T23:23:56Z",
+      "pushedAt": "2025-02-14T07:06:22Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "itsdouges",
+        "name": "mike douges",
+        "type": "User",
+        "url": "https://github.com/itsdouges",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6801309?u=bd0933a65a08d88ae3d9b11ae9e5b323c986b412&v=4",
+        "location": "Canberra, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "canberra"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 39,
+      "name": "claude-code-source-code-deobfuscation",
+      "nameWithOwner": "ghuntley/claude-code-source-code-deobfuscation",
+      "url": "https://github.com/ghuntley/claude-code-source-code-deobfuscation",
+      "description": "This is a cleanroom deobfuscation of the official Claude Code npm package.",
+      "stars": 991,
+      "forks": 548,
+      "primaryLanguage": "TypeScript",
+      "license": null,
+      "createdAt": "2025-03-01T05:56:40Z",
+      "pushedAt": "2025-03-01T15:22:16Z",
+      "homepageUrl": "https://ghuntley.com/tradecraft",
+      "archived": true,
+      "owner": {
+        "login": "ghuntley",
+        "name": "Geoffrey Huntley",
+        "type": "User",
+        "url": "https://github.com/ghuntley",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127353?u=022d367a948fba3cfe178424b404ac8f2a28412e&v=4",
+        "location": "Kangaroo Island, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "kangaroo island"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 40,
+      "name": "webify",
+      "nameWithOwner": "beefsack/webify",
+      "url": "https://github.com/beefsack/webify",
+      "description": "Turn shell commands into web services",
+      "stars": 962,
+      "forks": 36,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-08-25T02:56:38Z",
+      "pushedAt": "2020-09-27T00:12:40Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "beefsack",
+        "name": "Michael Alexander",
+        "type": "User",
+        "url": "https://github.com/beefsack",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/232322?u=4d2e96e3544bb2f67f978b7d140e8d784816e4d0&v=4",
+        "location": "Canberra, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "canberra"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 41,
+      "name": "datapasta",
+      "nameWithOwner": "MilesMcBain/datapasta",
+      "url": "https://github.com/MilesMcBain/datapasta",
+      "description": "On top of spaghetti, all covered in cheese....",
+      "stars": 924,
+      "forks": 63,
+      "primaryLanguage": "R",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2016-09-25T13:48:36Z",
+      "pushedAt": "2025-12-07T02:22:19Z",
+      "homepageUrl": "https://milesmcbain.github.io/datapasta/",
+      "archived": false,
+      "owner": {
+        "login": "MilesMcBain",
+        "name": "Miles McBain",
+        "type": "User",
+        "url": "https://github.com/MilesMcBain",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9996346?v=4",
+        "location": "Brisbane, Queensland",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "brisbane queensland"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 42,
+      "name": "react-weather",
+      "nameWithOwner": "stage88/react-weather",
+      "url": "https://github.com/stage88/react-weather",
+      "description": "A simple weather app built with React Native and Realm",
+      "stars": 916,
+      "forks": 235,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-05-03T11:28:38Z",
+      "pushedAt": "2016-07-12T14:15:23Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "stage88",
+        "name": "Sam Ilic",
+        "type": "User",
+        "url": "https://github.com/stage88",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9906800?u=2c25b91c46096c4616b66e941b7612235ee6deb1&v=4",
+        "location": "Canberra, AU",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "canberra"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 43,
+      "name": "awesome-ios-animation",
+      "nameWithOwner": "jzau/awesome-ios-animation",
+      "url": "https://github.com/jzau/awesome-ios-animation",
+      "description": "Curated list of iOS Animation libraries",
+      "stars": 890,
+      "forks": 149,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2014-08-30T12:09:24Z",
+      "pushedAt": "2017-04-17T08:15:48Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "jzau",
+        "name": "Jie Zhang",
+        "type": "User",
+        "url": "https://github.com/jzau",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2881736?u=21b22072957e13692c5a5fec2108517ef4d53862&v=4",
+        "location": "Sydney, NSW",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "sydney nsw"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 44,
+      "name": "DeviceId",
+      "nameWithOwner": "MatthewKing/DeviceId",
+      "url": "https://github.com/MatthewKing/DeviceId",
+      "description": "A simple library providing functionality to generate a 'device ID' that can be used to uniquely identify a computer.",
+      "stars": 879,
+      "forks": 127,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-02-21T08:00:28Z",
+      "pushedAt": "2026-03-12T09:08:46Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "MatthewKing",
+        "name": "Matthew King",
+        "type": "User",
+        "url": "https://github.com/MatthewKing",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1918523?v=4",
+        "location": "Perth, Western Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "perth western australia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 45,
+      "name": "gocov",
+      "nameWithOwner": "axw/gocov",
+      "url": "https://github.com/axw/gocov",
+      "description": "Coverage testing tool for The Go Programming Language",
+      "stars": 879,
+      "forks": 116,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2012-06-29T12:10:43Z",
+      "pushedAt": "2024-10-11T09:25:28Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "axw",
+        "name": "Andrew Wilkins",
+        "type": "User",
+        "url": "https://github.com/axw",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/843579?u=6a21bbd8a03e4ad971b14f82837f2364ae562c2c&v=4",
+        "location": "Perth, Western Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "perth western australia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 46,
+      "name": "roy",
+      "nameWithOwner": "puffnfresh/roy",
+      "url": "https://github.com/puffnfresh/roy",
+      "description": "Small functional language that compiles to JavaScript.",
+      "stars": 840,
+      "forks": 69,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2011-11-24T21:56:31Z",
+      "pushedAt": "2014-03-16T20:22:09Z",
+      "homepageUrl": "http://roy.brianmckenna.org/",
+      "archived": true,
+      "owner": {
+        "login": "puffnfresh",
+        "name": "Brian McKenna",
+        "type": "User",
+        "url": "https://github.com/puffnfresh",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37715?v=4",
+        "location": "Tasmania, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "tasmania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 47,
+      "name": "rust_os",
+      "nameWithOwner": "thepowersgang/rust_os",
+      "url": "https://github.com/thepowersgang/rust_os",
+      "description": "An OS kernel written in rust. Non POSIX",
+      "stars": 815,
+      "forks": 50,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2014-09-06T04:36:09Z",
+      "pushedAt": "2026-04-21T14:28:10Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "thepowersgang",
+        "name": "John Hodge (Mutabah)",
+        "type": "User",
+        "url": "https://github.com/thepowersgang",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/955596?v=4",
+        "location": "Perth, Western Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "perth western australia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 48,
+      "name": "r_tips",
+      "nameWithOwner": "erikaduan/r_tips",
+      "url": "https://github.com/erikaduan/r_tips",
+      "description": "R programming tips for data cleaning, data visualisation, statistical modelling and machine learning",
+      "stars": 810,
+      "forks": 205,
+      "primaryLanguage": "R",
+      "license": {
+        "name": "Creative Commons Attribution Share Alike 4.0 International",
+        "spdxId": "CC-BY-SA-4.0"
+      },
+      "createdAt": "2018-10-09T05:21:07Z",
+      "pushedAt": "2025-07-16T03:24:25Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "erikaduan",
+        "name": "Erika Duan",
+        "type": "User",
+        "url": "https://github.com/erikaduan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34994264?u=54d32ba570ed4e734ba2b170a61a3630a255f09f&v=4",
+        "location": "Canberra, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "canberra"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 49,
+      "name": "json-parser",
+      "nameWithOwner": "cerbero90/json-parser",
+      "url": "https://github.com/cerbero90/json-parser",
+      "description": "🧩 Zero-dependencies lazy parser to read JSON of any dimension and from any source in a memory-efficient way.",
+      "stars": 809,
+      "forks": 14,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-09-15T21:17:49Z",
+      "pushedAt": "2025-01-17T18:41:09Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "cerbero90",
+        "name": "Andrea Marco Sartori",
+        "type": "User",
+        "url": "https://github.com/cerbero90",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5838106?u=f34de8d57f6dc37757e781348cf73a36d0560763&v=4",
+        "location": "Australia, Queensland, Gold Coast",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "gold coast"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 50,
+      "name": "element-motion",
+      "nameWithOwner": "itsdouges/element-motion",
+      "url": "https://github.com/itsdouges/element-motion",
+      "description": "Tween between view states with declarative zero configuration element motions for React",
+      "stars": 803,
+      "forks": 13,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-06-13T02:36:40Z",
+      "pushedAt": "2020-04-14T07:55:24Z",
+      "homepageUrl": "https://elementmotion.com",
+      "archived": true,
+      "owner": {
+        "login": "itsdouges",
+        "name": "mike douges",
+        "type": "User",
+        "url": "https://github.com/itsdouges",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6801309?u=bd0933a65a08d88ae3d9b11ae9e5b323c986b412&v=4",
+        "location": "Canberra, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "canberra"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 51,
+      "name": "rxjava-jdbc",
+      "nameWithOwner": "davidmoten/rxjava-jdbc",
+      "url": "https://github.com/davidmoten/rxjava-jdbc",
+      "description": "Efficient execution and functional composition of database calls using jdbc and RxJava Observables",
+      "stars": 801,
+      "forks": 113,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2014-02-09T08:07:31Z",
+      "pushedAt": "2026-09-30T00:32:34Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "davidmoten",
+        "name": "Dave Moten",
+        "type": "User",
+        "url": "https://github.com/davidmoten",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/318187?u=baf23f16412ad44c031572eb51e52d5f3eeccd2b&v=4",
+        "location": "Canberra, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "canberra"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 52,
+      "name": "emacs-writing-studio",
+      "nameWithOwner": "pprevos/emacs-writing-studio",
+      "url": "https://github.com/pprevos/emacs-writing-studio",
+      "description": "Emacs configuration for authors who research, write and publish articles, books and websites.",
+      "stars": 766,
+      "forks": 54,
+      "primaryLanguage": "Emacs Lisp",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2018-08-05T05:29:45Z",
+      "pushedAt": "2026-05-24T04:43:54Z",
+      "homepageUrl": "https://lucidmanager.org/tags/emacs/",
+      "archived": false,
+      "owner": {
+        "login": "pprevos",
+        "name": "Peter Prevos",
+        "type": "User",
+        "url": "https://github.com/pprevos",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8123361?u=bdfbad364c29e3978c69db635d8386721b375da1&v=4",
+        "location": "Kangaroo Flat, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "kangaroo flat"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 53,
+      "name": "Webduino",
+      "nameWithOwner": "sirleech/Webduino",
+      "url": "https://github.com/sirleech/Webduino",
+      "description": "Arduino WebServer library",
+      "stars": 742,
+      "forks": 254,
+      "primaryLanguage": "Arduino",
+      "license": null,
+      "createdAt": "2011-07-06T12:58:28Z",
+      "pushedAt": "2020-07-11T15:46:03Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "sirleech",
+        "name": "Christopher Lee",
+        "type": "User",
+        "url": "https://github.com/sirleech",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/680844?u=264f084ffd4fc58c57ecb295b4e0b4d3aca5184e&v=4",
+        "location": "Canberra, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "canberra"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 54,
+      "name": "moonlight-vscode-theme",
+      "nameWithOwner": "atomiks/moonlight-vscode-theme",
+      "url": "https://github.com/atomiks/moonlight-vscode-theme",
+      "description": "A VS Code theme with bubblegum colors on a moonlit background",
+      "stars": 741,
+      "forks": 33,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-12-10T14:53:35Z",
+      "pushedAt": "2024-01-16T10:46:21Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "atomiks",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/atomiks",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22450188?u=34468c8ba8dc419f952724da66f7ede0dcc4d54d&v=4",
+        "location": "Gold Coast, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "gold coast"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 55,
+      "name": "AlignLLMHumanSurvey",
+      "nameWithOwner": "GaryYufei/AlignLLMHumanSurvey",
+      "url": "https://github.com/GaryYufei/AlignLLMHumanSurvey",
+      "description": "Aligning Large Language Models with Human: A Survey",
+      "stars": 738,
+      "forks": 31,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2023-07-23T06:41:56Z",
+      "pushedAt": "2026-09-08T07:59:06Z",
+      "homepageUrl": "https://arxiv.org/abs/2307.12966",
+      "archived": false,
+      "owner": {
+        "login": "GaryYufei",
+        "name": "Yufei Wang",
+        "type": "User",
+        "url": "https://github.com/GaryYufei",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8288965?u=2437af5320250f7210d7277aebf0f58472cd8ae7&v=4",
+        "location": "澳大利亚",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "澳大利亚"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 56,
+      "name": "ghost",
+      "nameWithOwner": "bjeanes/ghost",
+      "url": "https://github.com/bjeanes/ghost",
+      "description": "Create, list, delete, and modify /etc/hosts entries with ease...",
+      "stars": 724,
+      "forks": 43,
+      "primaryLanguage": "Ruby",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2008-08-19T01:16:17Z",
+      "pushedAt": "2014-07-06T23:51:57Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "bjeanes",
+        "name": "Bo Jeanes",
+        "type": "User",
+        "url": "https://github.com/bjeanes",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2560?v=4",
+        "location": "Bendigo, VIC, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bendigo"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 57,
+      "name": "signal-back",
+      "nameWithOwner": "xeals/signal-back",
+      "url": "https://github.com/xeals/signal-back",
+      "description": "Decrypt Signal encrypted backups outside the app",
+      "stars": 720,
+      "forks": 72,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-04-02T10:56:40Z",
+      "pushedAt": "2019-10-28T13:48:56Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "xeals",
+        "name": "Alex Smith",
+        "type": "User",
+        "url": "https://github.com/xeals",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21125058?v=4",
+        "location": "Canberra, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "canberra"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 58,
+      "name": "liquid_glass_widgets",
+      "nameWithOwner": "sdegenaar/liquid_glass_widgets",
+      "url": "https://github.com/sdegenaar/liquid_glass_widgets",
+      "description": "Flutter UI kit implementing Apple's iOS 26 Liquid Glass design language - a comprehensive glass widget library with real shader-based blur, physics-driven jelly animations, and dynamic lighting. Works on every platform out of the box.",
+      "stars": 716,
+      "forks": 105,
+      "primaryLanguage": "Dart",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-12-12T04:35:48Z",
+      "pushedAt": "2026-10-08T07:52:15Z",
+      "homepageUrl": "pixel-innovations.com",
+      "archived": false,
+      "owner": {
+        "login": "sdegenaar",
+        "name": "Sebastian Degenaar",
+        "type": "User",
+        "url": "https://github.com/sdegenaar",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2247107?u=87c78ca61f8445ef47461e07e147e878e2be455a&v=4",
+        "location": "Perth, WA",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "perth wa"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 59,
+      "name": "rxjs-spy",
+      "nameWithOwner": "cartant/rxjs-spy",
+      "url": "https://github.com/cartant/rxjs-spy",
+      "description": "A debugging library for RxJS",
+      "stars": 704,
+      "forks": 24,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-05-13T22:30:40Z",
+      "pushedAt": "2023-04-18T12:15:01Z",
+      "homepageUrl": "https://cartant.github.io/rxjs-spy/",
+      "archived": false,
+      "owner": {
+        "login": "cartant",
+        "name": "Nicholas Jamieson",
+        "type": "User",
+        "url": "https://github.com/cartant",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3878593?v=4",
+        "location": "Toowoomba, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "toowoomba"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 60,
+      "name": "detect-browser",
+      "nameWithOwner": "DamonOehlman/detect-browser",
+      "url": "https://github.com/DamonOehlman/detect-browser",
+      "description": "Unpack a browser type and version from the useragent string",
+      "stars": 700,
+      "forks": 101,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-06-29T11:10:27Z",
+      "pushedAt": "2024-08-20T21:50:05Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "DamonOehlman",
+        "name": "Damon Oehlman",
+        "type": "User",
+        "url": "https://github.com/DamonOehlman",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/609693?u=407710d57077032bde0759c03835d81f0bcd4229&v=4",
+        "location": "Gold Coast, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "gold coast"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 61,
+      "name": "obsidian-auto-link-title",
+      "nameWithOwner": "zolrath/obsidian-auto-link-title",
+      "url": "https://github.com/zolrath/obsidian-auto-link-title",
+      "description": "Automatically fetch the titles of pasted links",
+      "stars": 698,
+      "forks": 90,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-04-15T05:04:38Z",
+      "pushedAt": "2024-12-15T20:27:57Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "zolrath",
+        "name": "Matt Furden",
+        "type": "User",
+        "url": "https://github.com/zolrath",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/454563?v=4",
+        "location": "Central Coast, CA",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "central coast"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 62,
+      "name": "FeatureToggle",
+      "nameWithOwner": "jason-roberts/FeatureToggle",
+      "url": "https://github.com/jason-roberts/FeatureToggle",
+      "description": "Simple, reliable feature toggles in .NET",
+      "stars": 695,
+      "forks": 105,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2012-02-25T08:20:49Z",
+      "pushedAt": "2021-07-15T14:46:25Z",
+      "homepageUrl": "http://dontcodetired.com/blog/?tag=/featuretoggle",
+      "archived": false,
+      "owner": {
+        "login": "jason-roberts",
+        "name": "Jason Roberts",
+        "type": "User",
+        "url": "https://github.com/jason-roberts",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1472335?v=4",
+        "location": "Western Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "western australia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 63,
+      "name": "discord-rpc-csharp",
+      "nameWithOwner": "Lachee/discord-rpc-csharp",
+      "url": "https://github.com/Lachee/discord-rpc-csharp",
+      "description": "C# custom implementation for Discord Rich Presence. Not deprecated and still available! ",
+      "stars": 694,
+      "forks": 121,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-01-18T06:09:41Z",
+      "pushedAt": "2025-12-08T00:23:11Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Lachee",
+        "name": "Lake",
+        "type": "User",
+        "url": "https://github.com/Lachee",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1355848?u=ccad01159a478150129cc70b9ec5cd99b951fe5d&v=4",
+        "location": "Tasmania, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "tasmania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 64,
+      "name": "clinker",
+      "nameWithOwner": "gamcil/clinker",
+      "url": "https://github.com/gamcil/clinker",
+      "description": "Gene cluster comparison figure generator",
+      "stars": 655,
+      "forks": 80,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-06-21T03:11:36Z",
+      "pushedAt": "2026-10-07T07:54:08Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "gamcil",
+        "name": "Cameron Gilchrist",
+        "type": "User",
+        "url": "https://github.com/gamcil",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29793242?v=4",
+        "location": "Perth, Western Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "perth western australia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 65,
+      "name": "cursed",
+      "nameWithOwner": "ghuntley/cursed",
+      "url": "https://github.com/ghuntley/cursed",
+      "description": "the 💀 cursed programming language: programming, but make it gen z",
+      "stars": 653,
+      "forks": 38,
+      "primaryLanguage": "Zig",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-03-26T11:24:35Z",
+      "pushedAt": "2025-11-16T10:40:58Z",
+      "homepageUrl": "https://cursed-lang.org",
+      "archived": false,
+      "owner": {
+        "login": "ghuntley",
+        "name": "Geoffrey Huntley",
+        "type": "User",
+        "url": "https://github.com/ghuntley",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127353?u=022d367a948fba3cfe178424b404ac8f2a28412e&v=4",
+        "location": "Kangaroo Island, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "kangaroo island"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 66,
+      "name": "stretto",
+      "nameWithOwner": "benkaiser/stretto",
+      "url": "https://github.com/benkaiser/stretto",
+      "description": "Beautiful web-based music player",
+      "stars": 635,
+      "forks": 96,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-12-17T08:29:31Z",
+      "pushedAt": "2026-07-09T23:04:13Z",
+      "homepageUrl": "https://next.kaiserapps.com",
+      "archived": false,
+      "owner": {
+        "login": "benkaiser",
+        "name": "Benjamin Kaiser",
+        "type": "User",
+        "url": "https://github.com/benkaiser",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/608054?u=9fbc49400f678dc170eef4b4e3f27da6c5ee99cf&v=4",
+        "location": "Gold Coast, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "gold coast"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 67,
+      "name": "go-astar",
+      "nameWithOwner": "beefsack/go-astar",
+      "url": "https://github.com/beefsack/go-astar",
+      "description": "Go implementation of the A* search algorithm",
+      "stars": 630,
+      "forks": 84,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-05-28T02:00:03Z",
+      "pushedAt": "2022-01-27T15:08:37Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "beefsack",
+        "name": "Michael Alexander",
+        "type": "User",
+        "url": "https://github.com/beefsack",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/232322?u=4d2e96e3544bb2f67f978b7d140e8d784816e4d0&v=4",
+        "location": "Canberra, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "canberra"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 68,
+      "name": "rim",
+      "nameWithOwner": "mathall/rim",
+      "url": "https://github.com/mathall/rim",
+      "description": "Aspiring vim-like text editor",
+      "stars": 628,
+      "forks": 36,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Mozilla Public License 2.0",
+        "spdxId": "MPL-2.0"
+      },
+      "createdAt": "2015-01-29T11:36:38Z",
+      "pushedAt": "2021-01-16T07:50:16Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "mathall",
+        "name": "Mathias Hällman",
+        "type": "User",
+        "url": "https://github.com/mathall",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1748675?u=c4efede81db04dc65135cbd94880e6c908fda263&v=4",
+        "location": "Sydney, NSW",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "sydney nsw"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 69,
+      "name": "RegexKitLite",
+      "nameWithOwner": "wezm/RegexKitLite",
+      "url": "https://github.com/wezm/RegexKitLite",
+      "description": "Git mirror of RegexKitLite SVN repo",
+      "stars": 606,
+      "forks": 130,
+      "primaryLanguage": "Objective-C",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2010-10-07T00:58:21Z",
+      "pushedAt": "2011-02-24T16:01:56Z",
+      "homepageUrl": "http://regexkit.sourceforge.net/",
+      "archived": true,
+      "owner": {
+        "login": "wezm",
+        "name": "Wesley Moore",
+        "type": "User",
+        "url": "https://github.com/wezm",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21787?u=38fe6c25c7d2b214482cf5801230b208e1416e9e&v=4",
+        "location": "Sunshine Coast, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "sunshine coast"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 70,
+      "name": "react-snowfall",
+      "nameWithOwner": "cahilfoley/react-snowfall",
+      "url": "https://github.com/cahilfoley/react-snowfall",
+      "description": "A high performance, canvas based react component that creates a snowfall effect",
+      "stars": 602,
+      "forks": 44,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-12-06T13:10:47Z",
+      "pushedAt": "2025-12-01T10:08:13Z",
+      "homepageUrl": "https://cahilfoley.github.io/react-snowfall/",
+      "archived": false,
+      "owner": {
+        "login": "cahilfoley",
+        "name": "Cahil Foley",
+        "type": "User",
+        "url": "https://github.com/cahilfoley",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14274957?u=7ce5c0b370ec31bd88f1e4360d8977ca4222e635&v=4",
+        "location": "Perth, Western Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "perth western australia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 71,
+      "name": "fimap",
+      "nameWithOwner": "kurobeats/fimap",
+      "url": "https://github.com/kurobeats/fimap",
+      "description": "fimap is a little python tool which can find, prepare, audit, exploit and even google automatically for local and remote file inclusion bugs in webapps.",
+      "stars": 598,
+      "forks": 101,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "spdxId": "GPL-2.0"
+      },
+      "createdAt": "2015-03-27T06:11:25Z",
+      "pushedAt": "2026-07-12T10:39:25Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "kurobeats",
+        "name": "Anthony Cozamanis",
+        "type": "User",
+        "url": "https://github.com/kurobeats",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4091936?u=e312fe1d956cbbd78dddc8b3db50eede11423cf7&v=4",
+        "location": "Perth, Western Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "perth western australia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 72,
+      "name": "basic_model_scratch",
+      "nameWithOwner": "anhquan0412/basic_model_scratch",
+      "url": "https://github.com/anhquan0412/basic_model_scratch",
+      "description": "Implementation of some classic Machine Learning model from scratch and benchmarking against popular ML library",
+      "stars": 594,
+      "forks": 163,
+      "primaryLanguage": "Jupyter Notebook",
+      "license": null,
+      "createdAt": "2018-03-14T03:58:06Z",
+      "pushedAt": "2019-12-15T19:32:17Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "anhquan0412",
+        "name": "Quan Anh Tran",
+        "type": "User",
+        "url": "https://github.com/anhquan0412",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7062037?u=882d2cfe185124178ce78a99fc8a71b589efa3d8&v=4",
+        "location": "Perth, WA",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "perth wa"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 73,
+      "name": "WireMCP",
+      "nameWithOwner": "0xKoda/WireMCP",
+      "url": "https://github.com/0xKoda/WireMCP",
+      "description": "An MCP for WireShark (tshark). Empower LLM's with realtime network traffic analysis capability",
+      "stars": 591,
+      "forks": 64,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-03-28T00:03:31Z",
+      "pushedAt": "2025-07-09T20:28:22Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "0xKoda",
+        "name": "Koda",
+        "type": "User",
+        "url": "https://github.com/0xKoda",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88812262?u=6637ff697e1dc0c15f0c88e83b489091d911e275&v=4",
+        "location": "au ",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "country-code",
+          "matched": "au"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 74,
+      "name": "ArGue",
+      "nameWithOwner": "xytian1008/ArGue",
+      "url": "https://github.com/xytian1008/ArGue",
+      "description": "The official repository for ArGue: Attribute-Guided Prompt Tuning For Vision-Language Models (CVPR 2024)",
+      "stars": 588,
+      "forks": 19,
+      "primaryLanguage": "Python",
+      "license": null,
+      "createdAt": "2024-03-25T02:13:32Z",
+      "pushedAt": "2026-04-18T08:41:58Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "xytian1008",
+        "name": "Xinyu Tian",
+        "type": "User",
+        "url": "https://github.com/xytian1008",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/119284988?u=28e687ff60d8b16fe90feeb92ccba0f469e97eb2&v=4",
+        "location": "Canberra, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "canberra"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 75,
+      "name": "bilby.js",
+      "nameWithOwner": "puffnfresh/bilby.js",
+      "url": "https://github.com/puffnfresh/bilby.js",
+      "description": "Serious functional programming library for JavaScript.",
+      "stars": 588,
+      "forks": 15,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2012-09-08T02:11:24Z",
+      "pushedAt": "2014-08-20T09:29:15Z",
+      "homepageUrl": "http://bilby.brianmckenna.org/",
+      "archived": false,
+      "owner": {
+        "login": "puffnfresh",
+        "name": "Brian McKenna",
+        "type": "User",
+        "url": "https://github.com/puffnfresh",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37715?v=4",
+        "location": "Tasmania, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "tasmania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 76,
+      "name": "noyaml",
+      "nameWithOwner": "ghuntley/noyaml",
+      "url": "https://github.com/ghuntley/noyaml",
+      "description": "A silly emotional rant about the state of devops tooling/the infrastructure sector in 2018. #noyaml.com",
+      "stars": 567,
+      "forks": 37,
+      "primaryLanguage": "CSS",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2018-06-19T06:53:31Z",
+      "pushedAt": "2026-08-31T23:37:24Z",
+      "homepageUrl": "https://noyaml.com",
+      "archived": false,
+      "owner": {
+        "login": "ghuntley",
+        "name": "Geoffrey Huntley",
+        "type": "User",
+        "url": "https://github.com/ghuntley",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127353?u=022d367a948fba3cfe178424b404ac8f2a28412e&v=4",
+        "location": "Kangaroo Island, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "kangaroo island"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 77,
+      "name": "uni_links",
+      "nameWithOwner": "avioli/uni_links",
+      "url": "https://github.com/avioli/uni_links",
+      "description": "Flutter plugin for accepting incoming links.",
+      "stars": 566,
+      "forks": 461,
+      "primaryLanguage": "Dart",
+      "license": {
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "spdxId": "BSD-2-Clause"
+      },
+      "createdAt": "2018-05-31T01:56:49Z",
+      "pushedAt": "2024-05-19T06:09:10Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "avioli",
+        "name": "Evo Stamatov",
+        "type": "User",
+        "url": "https://github.com/avioli",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/524259?v=4",
+        "location": "Hobart, Tasmania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "hobart tasmania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 78,
+      "name": "dea-notebooks",
+      "nameWithOwner": "GeoscienceAustralia/dea-notebooks",
+      "url": "https://github.com/GeoscienceAustralia/dea-notebooks",
+      "description": "Open-source Jupyter Notebooks and Python tools for geospatial analysis with Digital Earth Australia, Open Data Cube, and Xarray",
+      "stars": 540,
+      "forks": 143,
+      "primaryLanguage": "Jupyter Notebook",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-02-27T08:26:30Z",
+      "pushedAt": "2026-09-15T03:44:35Z",
+      "homepageUrl": "https://knowledge.dea.ga.gov.au/dea-notebooks/",
+      "archived": false,
+      "owner": {
+        "login": "GeoscienceAustralia",
+        "name": "Geoscience Australia",
+        "type": "Organization",
+        "url": "https://github.com/GeoscienceAustralia",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4704285?v=4",
+        "location": "Canberra, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "canberra"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 79,
+      "name": "BananaPhone",
+      "nameWithOwner": "C-Sto/BananaPhone",
+      "url": "https://github.com/C-Sto/BananaPhone",
+      "description": "It's a go variant of Hells gate! (directly calling windows kernel functions, but from Go!)",
+      "stars": 532,
+      "forks": 54,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-06-27T08:09:42Z",
+      "pushedAt": "2022-10-12T12:47:29Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "C-Sto",
+        "name": "C_Sto",
+        "type": "User",
+        "url": "https://github.com/C-Sto",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7466346?u=2c088b1cd971ce8f78dec4c7d3de8bdd0b3ac19a&v=4",
+        "location": "Perth, WA",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "perth wa"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 80,
+      "name": "todotxt.net",
+      "nameWithOwner": "benrhughes/todotxt.net",
+      "url": "https://github.com/benrhughes/todotxt.net",
+      "description": "An implementation of todo.txt for Windows using the .NET framework",
+      "stars": 529,
+      "forks": 129,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2011-04-14T12:18:58Z",
+      "pushedAt": "2025-10-15T10:44:28Z",
+      "homepageUrl": "http://benrhughes.github.io/todotxt.net/",
+      "archived": false,
+      "owner": {
+        "login": "benrhughes",
+        "name": "Ben Hughes",
+        "type": "User",
+        "url": "https://github.com/benrhughes",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/234545?v=4",
+        "location": "Canberra, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "canberra"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 81,
+      "name": "OTGMessenger",
+      "nameWithOwner": "TrevorAttema/OTGMessenger",
+      "url": "https://github.com/TrevorAttema/OTGMessenger",
+      "description": "Off The Grid Messenger",
+      "stars": 527,
+      "forks": 21,
+      "primaryLanguage": "C",
+      "license": null,
+      "createdAt": "2021-06-20T04:54:28Z",
+      "pushedAt": "2021-07-12T09:33:03Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "TrevorAttema",
+        "name": "Trevor Attema",
+        "type": "User",
+        "url": "https://github.com/TrevorAttema",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36169982?u=485152a9e71697dd2f6ff6a5a182d857341f9d65&v=4",
+        "location": "Gold Coast, Queensland, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "gold coast"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 82,
+      "name": "Phishious",
+      "nameWithOwner": "CanIPhish/Phishious",
+      "url": "https://github.com/CanIPhish/Phishious",
+      "description": "An open-source Secure Email Gateway (SEG) evaluation toolkit designed for red-teamers.",
+      "stars": 517,
+      "forks": 72,
+      "primaryLanguage": "C#",
+      "license": null,
+      "createdAt": "2021-07-06T00:24:11Z",
+      "pushedAt": "2023-04-15T10:52:35Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "CanIPhish",
+        "name": "CanIPhish",
+        "type": "User",
+        "url": "https://github.com/CanIPhish",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5109530?u=9925a7d7276f18d90b1f1e09f0f1898906360d8d&v=4",
+        "location": "New South Wales, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "new south wales"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 83,
+      "name": "MicrosoftHostsPicker",
+      "nameWithOwner": "ButaiKirin/MicrosoftHostsPicker",
+      "url": "https://github.com/ButaiKirin/MicrosoftHostsPicker",
+      "description": "A lightweight Python script to help you select the fastest IP addresses for Microsoft services.",
+      "stars": 509,
+      "forks": 44,
+      "primaryLanguage": "CSS",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-06-26T14:42:58Z",
+      "pushedAt": "2024-10-18T15:33:05Z",
+      "homepageUrl": "https://mshost.hee.ink",
+      "archived": false,
+      "owner": {
+        "login": "ButaiKirin",
+        "name": "Konnyaku",
+        "type": "User",
+        "url": "https://github.com/ButaiKirin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22572927?u=f20f3f3583ce1c2d157cfcb0b469e91faf28b910&v=4",
+        "location": "Canberra, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "canberra"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 84,
+      "name": "ElectronPlayer",
+      "nameWithOwner": "oscartbeaumont/ElectronPlayer",
+      "url": "https://github.com/oscartbeaumont/ElectronPlayer",
+      "description": "An Electron Based Web Video Services Player. Supporting Netflix, Youtube, Twitch, Floatplane, Hulu And More",
+      "stars": 505,
+      "forks": 96,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-01-21T09:43:56Z",
+      "pushedAt": "2021-11-08T06:40:11Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "oscartbeaumont",
+        "name": "Oscar Beaumont",
+        "type": "User",
+        "url": "https://github.com/oscartbeaumont",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21004798?u=cb424a67be6049361d289fd028333f7c0c054ba0&v=4",
+        "location": "Western Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "western australia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 85,
+      "name": "hickle",
+      "nameWithOwner": "telegraphic/hickle",
+      "url": "https://github.com/telegraphic/hickle",
+      "description": "a HDF5-based python pickle replacement",
+      "stars": 503,
+      "forks": 71,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2012-05-28T09:04:16Z",
+      "pushedAt": "2026-08-06T02:54:35Z",
+      "homepageUrl": "http://telegraphic.github.io/hickle/",
+      "archived": false,
+      "owner": {
+        "login": "telegraphic",
+        "name": "Danny Price",
+        "type": "User",
+        "url": "https://github.com/telegraphic",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/713251?u=4251e0baf90796ab98b929acaf5aea2c9389eb87&v=4",
+        "location": "Perth, WA",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "perth wa"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 86,
+      "name": "NX-Activity-Log",
+      "nameWithOwner": "tallbl0nde/NX-Activity-Log",
+      "url": "https://github.com/tallbl0nde/NX-Activity-Log",
+      "description": "Homebrew application for the Nintendo Switch which displays play activity with more accuracy",
+      "stars": 503,
+      "forks": 40,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-10-02T02:20:50Z",
+      "pushedAt": "2023-12-27T15:51:13Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "tallbl0nde",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/tallbl0nde",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40382856?u=2fb5f6c8f71af3e832ab4f142433902b339d861b&v=4",
+        "location": "Adelaide, South Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "adelaide south australia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 87,
+      "name": "duckdb_engine",
+      "nameWithOwner": "Mause/duckdb_engine",
+      "url": "https://github.com/Mause/duckdb_engine",
+      "description": "SQLAlchemy driver for DuckDB",
+      "stars": 497,
+      "forks": 72,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-09-28T07:09:14Z",
+      "pushedAt": "2026-10-06T00:24:03Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Mause",
+        "name": "Elliana May",
+        "type": "User",
+        "url": "https://github.com/Mause",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1405026?v=4",
+        "location": "Perth, Western Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "perth western australia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 88,
+      "name": "mdbook-epub",
+      "nameWithOwner": "Michael-F-Bryan/mdbook-epub",
+      "url": "https://github.com/Michael-F-Bryan/mdbook-epub",
+      "description": "An experimental mdbook backend for creating EPUB documents.",
+      "stars": 496,
+      "forks": 62,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Mozilla Public License 2.0",
+        "spdxId": "MPL-2.0"
+      },
+      "createdAt": "2017-12-12T02:45:38Z",
+      "pushedAt": "2026-08-09T09:40:20Z",
+      "homepageUrl": "https://michael-f-bryan.github.io/mdbook-epub/",
+      "archived": false,
+      "owner": {
+        "login": "Michael-F-Bryan",
+        "name": "Michael Bryan",
+        "type": "User",
+        "url": "https://github.com/Michael-F-Bryan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17380079?u=dda78e55f994abb5d7aa15983133e66a3cdc07ca&v=4",
+        "location": "Western Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "western australia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 89,
+      "name": "opencode-skills",
+      "nameWithOwner": "malhashemi/opencode-skills",
+      "url": "https://github.com/malhashemi/opencode-skills",
+      "description": null,
+      "stars": 492,
+      "forks": 30,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-10-18T01:13:35Z",
+      "pushedAt": "2025-12-23T02:52:52Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "malhashemi",
+        "name": "M. Adel Alhashemi",
+        "type": "User",
+        "url": "https://github.com/malhashemi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64827602?u=efeb6226e6d378c8e261659810cbc36600bc8f18&v=4",
+        "location": "Perth, WA",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "perth wa"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 90,
+      "name": "ss.conf-for-surge",
+      "nameWithOwner": "R0uter/ss.conf-for-surge",
+      "url": "https://github.com/R0uter/ss.conf-for-surge",
+      "description": "Generate ss.conf for Surge ",
+      "stars": 475,
+      "forks": 146,
+      "primaryLanguage": "Python",
+      "license": null,
+      "createdAt": "2015-11-03T08:41:21Z",
+      "pushedAt": "2024-07-24T01:57:46Z",
+      "homepageUrl": "https://www.logcg.com/archives/1355.html",
+      "archived": false,
+      "owner": {
+        "login": "R0uter",
+        "name": "R0uter",
+        "type": "User",
+        "url": "https://github.com/R0uter",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12182983?v=4",
+        "location": "AU",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "country-code",
+          "matched": "AU"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 91,
+      "name": "geo",
+      "nameWithOwner": "davidmoten/geo",
+      "url": "https://github.com/davidmoten/geo",
+      "description": "Geohash utitlies in java",
+      "stars": 434,
+      "forks": 94,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2013-06-19T23:52:17Z",
+      "pushedAt": "2026-10-02T17:16:17Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "davidmoten",
+        "name": "Dave Moten",
+        "type": "User",
+        "url": "https://github.com/davidmoten",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/318187?u=baf23f16412ad44c031572eb51e52d5f3eeccd2b&v=4",
+        "location": "Canberra, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "canberra"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 92,
+      "name": "iPhoneMoCapiOS",
+      "nameWithOwner": "johnjcsmith/iPhoneMoCapiOS",
+      "url": "https://github.com/johnjcsmith/iPhoneMoCapiOS",
+      "description": null,
+      "stars": 416,
+      "forks": 67,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-11-22T04:54:27Z",
+      "pushedAt": "2017-12-09T09:04:18Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "johnjcsmith",
+        "name": "John Smith",
+        "type": "User",
+        "url": "https://github.com/johnjcsmith",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9162298?v=4",
+        "location": "Adelaide, South Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "adelaide south australia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 93,
+      "name": "rsspls",
+      "nameWithOwner": "wezm/rsspls",
+      "url": "https://github.com/wezm/rsspls",
+      "description": "Generate RSS feeds from websites",
+      "stars": 413,
+      "forks": 15,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2022-07-01T23:44:09Z",
+      "pushedAt": "2026-07-28T12:48:30Z",
+      "homepageUrl": "https://rsspls.7bit.org/",
+      "archived": false,
+      "owner": {
+        "login": "wezm",
+        "name": "Wesley Moore",
+        "type": "User",
+        "url": "https://github.com/wezm",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21787?u=38fe6c25c7d2b214482cf5801230b208e1416e9e&v=4",
+        "location": "Sunshine Coast, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "sunshine coast"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 94,
+      "name": "WWDCTV",
+      "nameWithOwner": "azzoor/WWDCTV",
+      "url": "https://github.com/azzoor/WWDCTV",
+      "description": "Watch WWDC and Tech Talk Videos on your Apple TV, tvOS App.",
+      "stars": 412,
+      "forks": 30,
+      "primaryLanguage": "Objective-C",
+      "license": null,
+      "createdAt": "2015-11-17T06:14:31Z",
+      "pushedAt": "2016-07-12T05:53:50Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "azzoor",
+        "name": "Aaron Stephenson",
+        "type": "User",
+        "url": "https://github.com/azzoor",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/635751?u=0ec9cd0866e482dc431914013c1cabdd73e89595&v=4",
+        "location": "Central Coast, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "central coast"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 95,
+      "name": "toggle-osx-shadows",
+      "nameWithOwner": "puffnfresh/toggle-osx-shadows",
+      "url": "https://github.com/puffnfresh/toggle-osx-shadows",
+      "description": "Tiny tool to toggle window shadows on OS X",
+      "stars": 409,
+      "forks": 26,
+      "primaryLanguage": "C",
+      "license": null,
+      "createdAt": "2012-11-13T03:00:11Z",
+      "pushedAt": "2015-09-10T01:37:11Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "puffnfresh",
+        "name": "Brian McKenna",
+        "type": "User",
+        "url": "https://github.com/puffnfresh",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37715?v=4",
+        "location": "Tasmania, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "tasmania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 96,
+      "name": "gosecretsdump",
+      "nameWithOwner": "C-Sto/gosecretsdump",
+      "url": "https://github.com/C-Sto/gosecretsdump",
+      "description": "Dump ntds.dit really fast",
+      "stars": 407,
+      "forks": 54,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2018-12-24T05:54:19Z",
+      "pushedAt": "2021-10-01T09:11:33Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "C-Sto",
+        "name": "C_Sto",
+        "type": "User",
+        "url": "https://github.com/C-Sto",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7466346?u=2c088b1cd971ce8f78dec4c7d3de8bdd0b3ac19a&v=4",
+        "location": "Perth, WA",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "perth wa"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 97,
+      "name": "groundhog",
+      "nameWithOwner": "ghuntley/groundhog",
+      "url": "https://github.com/ghuntley/groundhog",
+      "description": "Groundhog's primary purpose is to teach people how Cursor and all these other coding agents work under the hood. If you understand how these coding assistants work from first principles, then you can drive these tools harder (or perhaps make your own!).",
+      "stars": 406,
+      "forks": 20,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2025-03-03T11:08:25Z",
+      "pushedAt": "2025-08-20T01:41:23Z",
+      "homepageUrl": "https://ghuntley.com/specs",
+      "archived": false,
+      "owner": {
+        "login": "ghuntley",
+        "name": "Geoffrey Huntley",
+        "type": "User",
+        "url": "https://github.com/ghuntley",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127353?u=022d367a948fba3cfe178424b404ac8f2a28412e&v=4",
+        "location": "Kangaroo Island, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "kangaroo island"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 98,
+      "name": "Book-Catalogue",
+      "nameWithOwner": "eleybourn/Book-Catalogue",
+      "url": "https://github.com/eleybourn/Book-Catalogue",
+      "description": "A book cataloging tool for Android phones. ",
+      "stars": 404,
+      "forks": 185,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2010-04-17T04:00:16Z",
+      "pushedAt": "2026-08-24T07:38:59Z",
+      "homepageUrl": "https://github.com/eleybourn/Book-Catalogue/wiki",
+      "archived": false,
+      "owner": {
+        "login": "eleybourn",
+        "name": "Evan Leybourn",
+        "type": "User",
+        "url": "https://github.com/eleybourn",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/236568?v=4",
+        "location": "Canberra, ACT",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "canberra act"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 99,
+      "name": "go-rate",
+      "nameWithOwner": "beefsack/go-rate",
+      "url": "https://github.com/beefsack/go-rate",
+      "description": "A timed rate limiter for Go",
+      "stars": 404,
+      "forks": 35,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-08-25T04:42:34Z",
+      "pushedAt": "2022-02-14T23:34:05Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "beefsack",
+        "name": "Michael Alexander",
+        "type": "User",
+        "url": "https://github.com/beefsack",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/232322?u=4d2e96e3544bb2f67f978b7d140e8d784816e4d0&v=4",
+        "location": "Canberra, Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "canberra"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 100,
+      "name": "include_dir",
+      "nameWithOwner": "Michael-F-Bryan/include_dir",
+      "url": "https://github.com/Michael-F-Bryan/include_dir",
+      "description": "The logical evolution of the include_str macro for embedding a directory tree into your binary.",
+      "stars": 396,
+      "forks": 56,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-06-07T01:47:20Z",
+      "pushedAt": "2024-07-05T12:01:32Z",
+      "homepageUrl": "https://michael-f-bryan.github.io/include_dir",
+      "archived": false,
+      "owner": {
+        "login": "Michael-F-Bryan",
+        "name": "Michael Bryan",
+        "type": "User",
+        "url": "https://github.com/Michael-F-Bryan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17380079?u=dda78e55f994abb5d7aa15983133e66a3cdc07ca&v=4",
+        "location": "Western Australia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "AU",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "western australia"
+        },
+        "discoveryTerms": []
+      }
+    }
+  ]
+}

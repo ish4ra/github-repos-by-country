@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **456**
+- Verified high-star candidates retained: **16**
+- Current global star frontier: **389**
 
 ### High-star verified preview
 
@@ -65,5 +65,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [smixs/visual-skills](https://github.com/smixs/visual-skills) | **499** | Tashkent, Uzbekistan |
 | [iota-uz/iota-sdk](https://github.com/iota-uz/iota-sdk) | **471** | Uzbekistan |
 | [KazanExpress/vue-simple-suggest](https://github.com/KazanExpress/vue-simple-suggest) | **457** | Uzbekistan |
+| [romankh3/image-comparison](https://github.com/romankh3/image-comparison) | **401** | Tashkent |
+| [smixs/agent-second-brain](https://github.com/smixs/agent-second-brain) | **398** | Tashkent, Uzbekistan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

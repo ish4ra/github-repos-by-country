@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **509**
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **389**
 
 ### High-star verified preview
 
@@ -56,5 +56,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [dwilkie/carrierwave_direct](https://github.com/dwilkie/carrierwave_direct) | **837** | Phnom Penh, Cambodia |
 | [amosjyng/langchain-visualizer](https://github.com/amosjyng/langchain-visualizer) | **737** | Siem Reap, Cambodia |
 | [angkosal/laravel-pos](https://github.com/angkosal/laravel-pos) | **509** | Cambodia |
+| [0x1iii1ii/PPPwn-Luckfox](https://github.com/0x1iii1ii/PPPwn-Luckfox) | **391** | Cambodia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

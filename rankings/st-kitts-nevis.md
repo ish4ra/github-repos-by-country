@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **1,179**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **389**
 
 ### High-star verified preview
 
@@ -54,5 +54,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [cake-tech/cake_wallet](https://github.com/cake-tech/cake_wallet) | **1,951** | Saint Kitts and Nevis |
 | [RaoFoundation/bittensor](https://github.com/RaoFoundation/bittensor) | **1,470** | Saint Kitts and Nevis |
 | [haydenjames/bench-scripts](https://github.com/haydenjames/bench-scripts) | **1,194** | Saint Kitts |
+| [RaoFoundation/subtensor](https://github.com/RaoFoundation/subtensor) | **393** | Saint Kitts and Nevis |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

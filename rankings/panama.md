@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **10**
-- Current global star frontier: **509**
+- Verified high-star candidates retained: **11**
+- Current global star frontier: **389**
 
 ### High-star verified preview
 
@@ -61,5 +61,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [CircuitSetup/Expandable-6-Channel-ESP32-Energy-Meter](https://github.com/CircuitSetup/Expandable-6-Channel-ESP32-Energy-Meter) | **695** | PA |
 | [zacharee/LockscreenWidgets](https://github.com/zacharee/LockscreenWidgets) | **575** | PA |
 | [headzoo/react-moment](https://github.com/headzoo/react-moment) | **514** | PA |
+| [J-D-K/JKSM](https://github.com/J-D-K/JKSM) | **398** | PA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

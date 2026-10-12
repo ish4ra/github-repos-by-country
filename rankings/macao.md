@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **18**
-- Current global star frontier: **456**
+- Verified high-star candidates retained: **19**
+- Current global star frontier: **389**
 
 ### High-star verified preview
 
@@ -69,5 +69,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [spiritLHLS/one-click-installation-script](https://github.com/spiritLHLS/one-click-installation-script) | **558** | Macau |
 | [layumi/Vehicle_reID-Collection](https://github.com/layumi/Vehicle_reID-Collection) | **515** | Macau, China |
 | [layumi/AICIty-reID-2020](https://github.com/layumi/AICIty-reID-2020) | **464** | Macau, China |
+| [layumi/Seg-Uncertainty](https://github.com/layumi/Seg-Uncertainty) | **397** | Macau, China |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

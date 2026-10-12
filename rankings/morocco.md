@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **11**
-- Current global star frontier: **403**
+- Verified high-star candidates retained: **12**
+- Current global star frontier: **389**
 
 ### High-star verified preview
 
@@ -62,5 +62,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [scottaohara/a11y_styled_form_controls](https://github.com/scottaohara/a11y_styled_form_controls) | **472** | MA |
 | [wrongbaud/hackaday-u](https://github.com/wrongbaud/hackaday-u) | **448** | MA |
 | [yoeunes/toastr](https://github.com/yoeunes/toastr) | **407** | Marrakech, Morocco |
+| [scottaohara/accessibility_interview_questions](https://github.com/scottaohara/accessibility_interview_questions) | **397** | MA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
