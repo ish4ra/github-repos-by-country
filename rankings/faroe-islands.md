@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [BergurDavidsen/GoProjects](https://github.com/BergurDavidsen/GoProjects) | **5** | Faroe Islands |
 | [Sprotin/translations](https://github.com/Sprotin/translations) | **5** | Faroe Islands |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **357**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [kruseio/hygg](https://github.com/kruseio/hygg) | **360** | Faroe Islands |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

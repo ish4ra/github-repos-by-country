@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **427**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **357**
 
 ### High-star verified preview
 
@@ -53,5 +53,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [DesktopECHO/Pi-hole-for-Android](https://github.com/DesktopECHO/Pi-hole-for-Android) | **656** | Hamilton, Bermuda |
 | [DesktopECHO/Pi-Hole-for-WSL1](https://github.com/DesktopECHO/Pi-Hole-for-WSL1) | **439** | Hamilton, Bermuda |
+| [DesktopECHO/xWSL](https://github.com/DesktopECHO/xWSL) | **363** | Hamilton, Bermuda |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

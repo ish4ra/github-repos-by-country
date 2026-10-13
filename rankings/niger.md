@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **3,366**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **357**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [kodjodevf/mangayomi](https://github.com/kodjodevf/mangayomi) | **3,883** | Niamey,Niger |
+| [kodjodevf/mangayomi-extensions](https://github.com/kodjodevf/mangayomi-extensions) | **358** | Niamey,Niger |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

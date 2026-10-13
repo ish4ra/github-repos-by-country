@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **16**
-- Current global star frontier: **377**
+- Verified high-star candidates retained: **17**
+- Current global star frontier: **357**
 
 ### High-star verified preview
 
@@ -67,5 +67,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [SharifClick/svelte-swipe](https://github.com/SharifClick/svelte-swipe) | **391** | Sylhet, Bangladesh |
 | [azminewasi/Machine-Learning-AndrewNg-DeepLearning.AI](https://github.com/azminewasi/Machine-Learning-AndrewNg-DeepLearning.AI) | **381** | Comilla, Bangladesh |
 | [haruncpi/laravel-log-reader](https://github.com/haruncpi/laravel-log-reader) | **381** | Chittagong, Bangladesh |
+| [0xSaikat/findme](https://github.com/0xSaikat/findme) | **358** | Khulna, Bangladesh  |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

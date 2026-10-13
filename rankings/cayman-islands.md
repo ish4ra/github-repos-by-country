@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **8**
-- Current global star frontier: **368**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **357**
 
 ### High-star verified preview
 
@@ -59,5 +59,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [guhhhhaa/4675-scifi](https://github.com/guhhhhaa/4675-scifi) | **478** | Cayman Islands |
 | [gitcoinco/code_fund_ads](https://github.com/gitcoinco/code_fund_ads) | **383** | Cayman Islands |
 | [OceanTroop/orca-one](https://github.com/OceanTroop/orca-one) | **372** | Cayman Islands |
+| [samsouder/reggy](https://github.com/samsouder/reggy) | **358** | KY |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
