@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **414**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **338**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [justmoon/node-bignum](https://github.com/justmoon/node-bignum) | **417** | British Virgin Islands |
+| [justmoon/node-extend](https://github.com/justmoon/node-extend) | **342** | British Virgin Islands |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

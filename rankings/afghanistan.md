@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **10**
-- Current global star frontier: **389**
+- Verified high-star candidates retained: **12**
+- Current global star frontier: **338**
 
 ### High-star verified preview
 
@@ -61,5 +61,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [openlibrecommunity/twl](https://github.com/openlibrecommunity/twl) | **409** | Afghanistan |
 | [openlibrecommunity/olcng](https://github.com/openlibrecommunity/olcng) | **392** | Afghanistan |
 | [afgprogrammer/Flutter-food-delivery-app-ui](https://github.com/afgprogrammer/Flutter-food-delivery-app-ui) | **390** |  Kabul, Afghanistan |
+| [afgprogrammer/Flutter-Shoes-Shop-App](https://github.com/afgprogrammer/Flutter-Shoes-Shop-App) | **344** |  Kabul, Afghanistan |
+| [afgprogrammer/Flutter-Splash-Screen-Animation](https://github.com/afgprogrammer/Flutter-Splash-Screen-Animation) | **341** |  Kabul, Afghanistan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

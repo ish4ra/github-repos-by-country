@@ -1,0 +1,3389 @@
+{
+  "schemaVersion": 1,
+  "methodologyVersion": "0.8.0-repository-first",
+  "generatedAt": "2026-10-13T15:56:14.688Z",
+  "country": {
+    "code": "SK",
+    "name": "Slovakia",
+    "slug": "slovakia"
+  },
+  "source": {
+    "provider": "GitHub GraphQL API",
+    "endpoint": "https://api.github.com/graphql",
+    "countryBasis": "public repository-owner profile location",
+    "discovery": "global repositories scanned by stars descending"
+  },
+  "coverage": {
+    "status": "repository-first-certified-by-star-frontier",
+    "exhaustive": false,
+    "rawOwnerHits": 175492,
+    "acceptedUniqueOwners": 68,
+    "ownerMetricLabel": "Unique owners in top ranking",
+    "repositoriesConsidered": 100,
+    "publishedRepositories": 100,
+    "candidateThresholdStars": 342,
+    "rankingLimit": 100,
+    "cappedQueries": [],
+    "repositoryFirst": {
+      "scanFrontierStars": 338,
+      "topObservedStars": 551406,
+      "repositoriesSeen": 175492,
+      "attributedRepositories": 64988,
+      "ambiguousLocations": 27988,
+      "unknownLocations": 82516,
+      "unresolvedStarCounts": []
+    },
+    "notes": [
+      "Repositories are scanned globally in descending star ranges, independently of owner follower count or owner-search ordering.",
+      "A country is certified only after its 100th repository has more stars than every unprocessed global star range.",
+      "Owner country is inferred from the owner public GitHub profile location using the global geography resolver.",
+      "Owners with missing or unresolved locations are excluded, so country attribution is not a citizenship or legal-incorporation claim.",
+      "Compound city/admin locations such as \"Portland, OR\" are resolved before ambiguous city-only names."
+    ]
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "go-callvis",
+      "nameWithOwner": "ondrajz/go-callvis",
+      "url": "https://github.com/ondrajz/go-callvis",
+      "description": "Visualize call graph of a Go program using Graphviz",
+      "stars": 6528,
+      "forks": 428,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-09-03T11:31:46Z",
+      "pushedAt": "2026-03-30T16:22:18Z",
+      "homepageUrl": "https://ondrajz.github.io/go-callvis/",
+      "archived": false,
+      "owner": {
+        "login": "ondrajz",
+        "name": "Ondrej Fabry",
+        "type": "User",
+        "url": "https://github.com/ondrajz",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1229233?u=be1150aa94261c5d8f241e322a740d616700c10e&v=4",
+        "location": "Bratislava, Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 2,
+      "name": "clockwork",
+      "nameWithOwner": "itsgoingd/clockwork",
+      "url": "https://github.com/itsgoingd/clockwork",
+      "description": "Clockwork - php dev tools in your browser - server-side component",
+      "stars": 5953,
+      "forks": 333,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-06-21T23:57:05Z",
+      "pushedAt": "2026-08-29T01:55:47Z",
+      "homepageUrl": "https://underground.works/clockwork",
+      "archived": false,
+      "owner": {
+        "login": "itsgoingd",
+        "name": "its",
+        "type": "User",
+        "url": "https://github.com/itsgoingd",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/821582?u=b9558d572c0022ae29d9284c0764cd2c6e013eaf&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 3,
+      "name": "design-patterns-cpp",
+      "nameWithOwner": "JakubVojvoda/design-patterns-cpp",
+      "url": "https://github.com/JakubVojvoda/design-patterns-cpp",
+      "description": "C++ Design Patterns",
+      "stars": 4564,
+      "forks": 969,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-09-04T21:14:09Z",
+      "pushedAt": "2024-05-12T03:24:20Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "JakubVojvoda",
+        "name": "Jakub Vojvoda",
+        "type": "User",
+        "url": "https://github.com/JakubVojvoda",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15220932?u=7a9c199c721c85d07a62b8837b3c0dc70bf76c74&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 4,
+      "name": "framework",
+      "nameWithOwner": "totaljs/framework",
+      "url": "https://github.com/totaljs/framework",
+      "description": "Node.js framework",
+      "stars": 4357,
+      "forks": 437,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2012-12-16T13:12:02Z",
+      "pushedAt": "2024-03-22T08:28:40Z",
+      "homepageUrl": "http://www.totaljs.com",
+      "archived": false,
+      "owner": {
+        "login": "totaljs",
+        "name": "Total.js Platform",
+        "type": "Organization",
+        "url": "https://github.com/totaljs",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6499216?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 5,
+      "name": "Simple-Gallery",
+      "nameWithOwner": "SimpleMobileTools/Simple-Gallery",
+      "url": "https://github.com/SimpleMobileTools/Simple-Gallery",
+      "description": "A premium app for managing and editing your photos, videos, GIFs without ads",
+      "stars": 4026,
+      "forks": 800,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2016-02-16T21:17:13Z",
+      "pushedAt": "2024-08-18T04:23:47Z",
+      "homepageUrl": "https://www.simplemobiletools.com",
+      "archived": false,
+      "owner": {
+        "login": "SimpleMobileTools",
+        "name": "Simple Mobile Tools",
+        "type": "Organization",
+        "url": "https://github.com/SimpleMobileTools",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16476257?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 6,
+      "name": "LumixEngine",
+      "nameWithOwner": "nem0/LumixEngine",
+      "url": "https://github.com/nem0/LumixEngine",
+      "description": "3D C++ Game Engine - yet another open source game engine",
+      "stars": 3894,
+      "forks": 445,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-11-21T14:43:55Z",
+      "pushedAt": "2026-10-04T14:34:33Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "nem0",
+        "name": "Mikulas Florek",
+        "type": "User",
+        "url": "https://github.com/nem0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/153526?u=66416808837783b88217ede23a3f0f34cc11c45d&v=4",
+        "location": "Slovakia, Bratislava",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 7,
+      "name": "Simple-Calendar",
+      "nameWithOwner": "SimpleMobileTools/Simple-Calendar",
+      "url": "https://github.com/SimpleMobileTools/Simple-Calendar",
+      "description": "A simple calendar with events, tasks, customizable colors, widgets and no ads.",
+      "stars": 3651,
+      "forks": 1165,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2016-01-26T21:02:54Z",
+      "pushedAt": "2024-06-26T15:37:04Z",
+      "homepageUrl": "https://www.simplemobiletools.com",
+      "archived": false,
+      "owner": {
+        "login": "SimpleMobileTools",
+        "name": "Simple Mobile Tools",
+        "type": "Organization",
+        "url": "https://github.com/SimpleMobileTools",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16476257?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 8,
+      "name": "uosc",
+      "nameWithOwner": "tomasklaen/uosc",
+      "url": "https://github.com/tomasklaen/uosc",
+      "description": "Feature-rich minimalist proximity-based UI for MPV player.",
+      "stars": 3434,
+      "forks": 111,
+      "primaryLanguage": "Lua",
+      "license": {
+        "name": "GNU Lesser General Public License v2.1",
+        "spdxId": "LGPL-2.1"
+      },
+      "createdAt": "2020-03-02T17:57:36Z",
+      "pushedAt": "2026-08-30T08:47:37Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "tomasklaen",
+        "name": "Tomas Klaen",
+        "type": "User",
+        "url": "https://github.com/tomasklaen",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47283320?u=39b71901b18190231b92c1169a8024ad25585001&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 9,
+      "name": "paths-filter",
+      "nameWithOwner": "dorny/paths-filter",
+      "url": "https://github.com/dorny/paths-filter",
+      "description": "Conditionally run actions based on files modified by PR, feature branch or pushed commits",
+      "stars": 3350,
+      "forks": 387,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-05-20T15:03:07Z",
+      "pushedAt": "2026-09-27T22:03:36Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "dorny",
+        "name": "Michal Dorner",
+        "type": "User",
+        "url": "https://github.com/dorny",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1588572?u=e0e6f802d9f6975bf4f2b25703dd17be167bf8e3&v=4",
+        "location": "Bratislava, Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 10,
+      "name": "sly",
+      "nameWithOwner": "darsain/sly",
+      "url": "https://github.com/darsain/sly",
+      "description": "JavaScript library for one-directional scrolling with item based navigation support.",
+      "stars": 2839,
+      "forks": 480,
+      "primaryLanguage": "JavaScript",
+      "license": null,
+      "createdAt": "2012-02-13T12:53:54Z",
+      "pushedAt": "2020-09-07T21:59:30Z",
+      "homepageUrl": "http://darsa.in/sly",
+      "archived": false,
+      "owner": {
+        "login": "darsain",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/darsain",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/538801?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 11,
+      "name": "linux-re-101",
+      "nameWithOwner": "michalmalik/linux-re-101",
+      "url": "https://github.com/michalmalik/linux-re-101",
+      "description": "A collection of resources for linux reverse engineering ",
+      "stars": 2081,
+      "forks": 365,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2015-01-04T18:33:20Z",
+      "pushedAt": "2022-06-02T17:39:32Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "michalmalik",
+        "name": "Michal Malik",
+        "type": "User",
+        "url": "https://github.com/michalmalik",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1903285?v=4",
+        "location": "Bratislava, Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 12,
+      "name": "HomeAssistant-Tapo-Control",
+      "nameWithOwner": "JurajNyiri/HomeAssistant-Tapo-Control",
+      "url": "https://github.com/JurajNyiri/HomeAssistant-Tapo-Control",
+      "description": "Control for Tapo cameras as a Home Assistant component",
+      "stars": 2010,
+      "forks": 160,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2020-10-01T17:08:12Z",
+      "pushedAt": "2026-10-05T13:25:20Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "JurajNyiri",
+        "name": "Juraj Nyíri",
+        "type": "User",
+        "url": "https://github.com/JurajNyiri",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5785999?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 13,
+      "name": "osx-re-101",
+      "nameWithOwner": "michalmalik/osx-re-101",
+      "url": "https://github.com/michalmalik/osx-re-101",
+      "description": "A collection of resources for OSX/iOS reverse engineering.",
+      "stars": 1732,
+      "forks": 243,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2015-07-13T10:40:28Z",
+      "pushedAt": "2019-12-19T17:32:48Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "michalmalik",
+        "name": "Michal Malik",
+        "type": "User",
+        "url": "https://github.com/michalmalik",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1903285?v=4",
+        "location": "Bratislava, Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 14,
+      "name": "ch340g-ch34g-ch34x-mac-os-x-driver",
+      "nameWithOwner": "adrianmihalko/ch340g-ch34g-ch34x-mac-os-x-driver",
+      "url": "https://github.com/adrianmihalko/ch340g-ch34g-ch34x-mac-os-x-driver",
+      "description": "CH340G CH34G CH34X Mac OS X driver",
+      "stars": 1646,
+      "forks": 227,
+      "primaryLanguage": "Ruby",
+      "license": null,
+      "createdAt": "2016-09-26T12:02:57Z",
+      "pushedAt": "2023-05-15T18:34:33Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "adrianmihalko",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/adrianmihalko",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/733361?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 15,
+      "name": "Learn-by-projects",
+      "nameWithOwner": "ckissi/Learn-by-projects",
+      "url": "https://github.com/ckissi/Learn-by-projects",
+      "description": "Programming tutorials for C, C#, Python, Javascript, Typescript, React, Go, HTML/CSS, Java. PHP and more",
+      "stars": 1640,
+      "forks": 191,
+      "primaryLanguage": null,
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-10-12T13:31:45Z",
+      "pushedAt": "2025-10-12T19:44:34Z",
+      "homepageUrl": "https://csabakissi.com",
+      "archived": false,
+      "owner": {
+        "login": "ckissi",
+        "name": "Csaba Kissi",
+        "type": "User",
+        "url": "https://github.com/ckissi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5107590?u=21ceae6bec94b2c42c12b8be5d6cf9725c6431d6&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 16,
+      "name": "Simple-File-Manager",
+      "nameWithOwner": "SimpleMobileTools/Simple-File-Manager",
+      "url": "https://github.com/SimpleMobileTools/Simple-File-Manager",
+      "description": "Easy app for managing your files without ads, respecting your privacy & security",
+      "stars": 1583,
+      "forks": 389,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2016-07-12T20:06:21Z",
+      "pushedAt": "2024-06-11T09:59:37Z",
+      "homepageUrl": "https://www.simplemobiletools.com",
+      "archived": false,
+      "owner": {
+        "login": "SimpleMobileTools",
+        "name": "Simple Mobile Tools",
+        "type": "Organization",
+        "url": "https://github.com/SimpleMobileTools",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16476257?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 17,
+      "name": "aider-desk",
+      "nameWithOwner": "hotovo/aider-desk",
+      "url": "https://github.com/hotovo/aider-desk",
+      "description": "Platform for AI-powered software engineers",
+      "stars": 1452,
+      "forks": 132,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2025-01-07T22:08:01Z",
+      "pushedAt": "2026-10-06T07:17:45Z",
+      "homepageUrl": "https://aiderdesk.hotovo.com",
+      "archived": false,
+      "owner": {
+        "login": "hotovo",
+        "name": "Hotovo",
+        "type": "Organization",
+        "url": "https://github.com/hotovo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2045570?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 18,
+      "name": "Simple-Music-Player",
+      "nameWithOwner": "SimpleMobileTools/Simple-Music-Player",
+      "url": "https://github.com/SimpleMobileTools/Simple-Music-Player",
+      "description": "A clean music player with a customizable widget, stylish interface and no ads.",
+      "stars": 1396,
+      "forks": 425,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2016-01-10T12:21:23Z",
+      "pushedAt": "2024-06-11T10:00:51Z",
+      "homepageUrl": "https://www.simplemobiletools.com",
+      "archived": false,
+      "owner": {
+        "login": "SimpleMobileTools",
+        "name": "Simple Mobile Tools",
+        "type": "Organization",
+        "url": "https://github.com/SimpleMobileTools",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16476257?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 19,
+      "name": "chromaprint",
+      "nameWithOwner": "acoustid/chromaprint",
+      "url": "https://github.com/acoustid/chromaprint",
+      "description": "C library for generating audio fingerprints used by AcoustID",
+      "stars": 1393,
+      "forks": 177,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2011-04-17T09:23:10Z",
+      "pushedAt": "2026-07-28T06:14:29Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "acoustid",
+        "name": "AcoustID",
+        "type": "Organization",
+        "url": "https://github.com/acoustid",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19508937?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 20,
+      "name": "react-native-background-geolocation",
+      "nameWithOwner": "mauron85/react-native-background-geolocation",
+      "url": "https://github.com/mauron85/react-native-background-geolocation",
+      "description": "Background and foreground geolocation plugin for React Native. Tracks user when app is running in background.",
+      "stars": 1354,
+      "forks": 560,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2016-05-31T22:09:08Z",
+      "pushedAt": "2024-08-20T03:31:58Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "mauron85",
+        "name": "Marián Hello",
+        "type": "User",
+        "url": "https://github.com/mauron85",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/359450?u=d49fdfcee47356975981ea6f3ad3e7a71bc29bf0&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 21,
+      "name": "OpenFBX",
+      "nameWithOwner": "nem0/OpenFBX",
+      "url": "https://github.com/nem0/OpenFBX",
+      "description": "Lightweight open source FBX importer",
+      "stars": 1351,
+      "forks": 154,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-06-27T11:52:04Z",
+      "pushedAt": "2026-05-16T12:02:07Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "nem0",
+        "name": "Mikulas Florek",
+        "type": "User",
+        "url": "https://github.com/nem0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/153526?u=66416808837783b88217ede23a3f0f34cc11c45d&v=4",
+        "location": "Slovakia, Bratislava",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 22,
+      "name": "vim-ai",
+      "nameWithOwner": "madox2/vim-ai",
+      "url": "https://github.com/madox2/vim-ai",
+      "description": "AI-powered code assistant for Vim. OpenAI and ChatGPT plugin for Vim and Neovim.",
+      "stars": 1187,
+      "forks": 111,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-02-27T20:23:49Z",
+      "pushedAt": "2026-03-11T23:10:05Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "madox2",
+        "name": "Martin Bielik",
+        "type": "User",
+        "url": "https://github.com/madox2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15847857?u=7d9c09d956dfdf6cd66af3aef96f36961aaa985f&v=4",
+        "location": "Bratislava",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bratislava"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 23,
+      "name": "test-reporter",
+      "nameWithOwner": "dorny/test-reporter",
+      "url": "https://github.com/dorny/test-reporter",
+      "description": "Displays test results from popular testing frameworks directly in GitHub",
+      "stars": 1185,
+      "forks": 303,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-10-01T20:53:23Z",
+      "pushedAt": "2026-10-03T12:50:23Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "dorny",
+        "name": "Michal Dorner",
+        "type": "User",
+        "url": "https://github.com/dorny",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1588572?u=e0e6f802d9f6975bf4f2b25703dd17be167bf8e3&v=4",
+        "location": "Bratislava, Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 24,
+      "name": "AndroLua",
+      "nameWithOwner": "mkottman/AndroLua",
+      "url": "https://github.com/mkottman/AndroLua",
+      "description": "Lua and LuaJava ported to Android",
+      "stars": 1113,
+      "forks": 301,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2011-02-04T00:49:44Z",
+      "pushedAt": "2016-08-17T03:56:17Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "mkottman",
+        "name": "Michal Kottman",
+        "type": "User",
+        "url": "https://github.com/mkottman",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/144990?v=4",
+        "location": "Bratislava, Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 25,
+      "name": "dnsgen",
+      "nameWithOwner": "AlephNullSK/dnsgen",
+      "url": "https://github.com/AlephNullSK/dnsgen",
+      "description": "DNSGen is a powerful and flexible DNS name permutation tool designed for security researchers and penetration testers. It generates intelligent domain name variations to assist in subdomain discovery and security assessments.",
+      "stars": 1079,
+      "forks": 131,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-09-24T18:27:27Z",
+      "pushedAt": "2025-01-03T20:34:39Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "AlephNullSK",
+        "name": "Aleph Null s.r.o.",
+        "type": "Organization",
+        "url": "https://github.com/AlephNullSK",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55762167?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 26,
+      "name": "EasyNotes",
+      "nameWithOwner": "Kin69/EasyNotes",
+      "url": "https://github.com/Kin69/EasyNotes",
+      "description": "EasyNotes: Jetpack Compose MVVM for seamless note-taking. Effortless creation, editing, and organization.",
+      "stars": 1065,
+      "forks": 71,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2024-05-16T18:20:05Z",
+      "pushedAt": "2026-01-25T17:09:47Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Kin69",
+        "name": "Kin",
+        "type": "User",
+        "url": "https://github.com/Kin69",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109698804?u=b1cec65d6c19b7950b0a77e457f688e32acdf528&v=4",
+        "location": "Slovakia, Bratislava",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 27,
+      "name": "homeassistant-frosted-glass-themes",
+      "nameWithOwner": "wessamlauf/homeassistant-frosted-glass-themes",
+      "url": "https://github.com/wessamlauf/homeassistant-frosted-glass-themes",
+      "description": "✨ Beautiful and modern Theme for Home Assistant ",
+      "stars": 1028,
+      "forks": 26,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-07-02T13:50:17Z",
+      "pushedAt": "2026-10-04T10:52:34Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "wessamlauf",
+        "name": "Wessam Lauf",
+        "type": "User",
+        "url": "https://github.com/wessamlauf",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/198474966?u=f220c89ecee84468747b90d9d8ec3a24d7a96df3&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 28,
+      "name": "python-project-blueprint",
+      "nameWithOwner": "MartinHeinz/python-project-blueprint",
+      "url": "https://github.com/MartinHeinz/python-project-blueprint",
+      "description": "Blueprint/Boilerplate For Python Projects",
+      "stars": 973,
+      "forks": 227,
+      "primaryLanguage": "Makefile",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-12-26T14:12:11Z",
+      "pushedAt": "2023-05-01T21:23:23Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "MartinHeinz",
+        "name": "Martin Heinz",
+        "type": "User",
+        "url": "https://github.com/MartinHeinz",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11890454?u=c850e6b11dc34444b41aad971f75ceb60b514953&v=4",
+        "location": "Bratislava",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bratislava"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 29,
+      "name": "redux-axios-middleware",
+      "nameWithOwner": "svrcekmichal/redux-axios-middleware",
+      "url": "https://github.com/svrcekmichal/redux-axios-middleware",
+      "description": "Redux middleware for fetching data with axios HTTP client",
+      "stars": 907,
+      "forks": 93,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-02-08T12:59:59Z",
+      "pushedAt": "2022-12-06T15:48:57Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "svrcekmichal",
+        "name": "Michal Svrček",
+        "type": "User",
+        "url": "https://github.com/svrcekmichal",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9148702?u=b2abd98e3f6ab72eae0b645b16b5493b6e67a284&v=4",
+        "location": "Bratislava, Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 30,
+      "name": "Simple-Notes",
+      "nameWithOwner": "SimpleMobileTools/Simple-Notes",
+      "url": "https://github.com/SimpleMobileTools/Simple-Notes",
+      "description": "A simple textfield for adding quick notes without ads.",
+      "stars": 871,
+      "forks": 282,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2016-02-13T20:00:54Z",
+      "pushedAt": "2024-06-11T10:01:54Z",
+      "homepageUrl": "https://www.simplemobiletools.com",
+      "archived": false,
+      "owner": {
+        "login": "SimpleMobileTools",
+        "name": "Simple Mobile Tools",
+        "type": "Organization",
+        "url": "https://github.com/SimpleMobileTools",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16476257?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 31,
+      "name": "raspberrypiwireguard",
+      "nameWithOwner": "adrianmihalko/raspberrypiwireguard",
+      "url": "https://github.com/adrianmihalko/raspberrypiwireguard",
+      "description": "Install and configure WireGuard on Raspberry Pi (and others)",
+      "stars": 856,
+      "forks": 76,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2017-09-27T20:47:39Z",
+      "pushedAt": "2023-03-04T18:56:05Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "adrianmihalko",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/adrianmihalko",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/733361?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 32,
+      "name": "Simple-Contacts",
+      "nameWithOwner": "SimpleMobileTools/Simple-Contacts",
+      "url": "https://github.com/SimpleMobileTools/Simple-Contacts",
+      "description": "Easy and quick contact management with no ads, handles groups and favorites too.",
+      "stars": 829,
+      "forks": 258,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2017-12-10T09:07:15Z",
+      "pushedAt": "2024-06-11T09:57:49Z",
+      "homepageUrl": "https://www.simplemobiletools.com",
+      "archived": false,
+      "owner": {
+        "login": "SimpleMobileTools",
+        "name": "Simple Mobile Tools",
+        "type": "Organization",
+        "url": "https://github.com/SimpleMobileTools",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16476257?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 33,
+      "name": "DiscordChatExporter-frontend",
+      "nameWithOwner": "slatinsky/DiscordChatExporter-frontend",
+      "url": "https://github.com/slatinsky/DiscordChatExporter-frontend",
+      "description": "Browse json files exported by Tyrrrz/DiscordChatExporter in familiar discord like user interface",
+      "stars": 829,
+      "forks": 48,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2022-10-10T18:03:08Z",
+      "pushedAt": "2026-05-27T00:22:50Z",
+      "homepageUrl": "https://dcef.slada.sk",
+      "archived": false,
+      "owner": {
+        "login": "slatinsky",
+        "name": "Adam Slatinský",
+        "type": "User",
+        "url": "https://github.com/slatinsky",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43640724?v=4",
+        "location": "Bratislava, Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 34,
+      "name": "Simple-Camera",
+      "nameWithOwner": "SimpleMobileTools/Simple-Camera",
+      "url": "https://github.com/SimpleMobileTools/Simple-Camera",
+      "description": "Quick photo and video camera with a flash, customizable aspect ratio.",
+      "stars": 807,
+      "forks": 288,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2016-04-12T20:26:05Z",
+      "pushedAt": "2024-06-11T09:57:23Z",
+      "homepageUrl": "https://www.simplemobiletools.com",
+      "archived": false,
+      "owner": {
+        "login": "SimpleMobileTools",
+        "name": "Simple Mobile Tools",
+        "type": "Organization",
+        "url": "https://github.com/SimpleMobileTools",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16476257?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 35,
+      "name": "obelisk",
+      "nameWithOwner": "obeli-sk/obelisk",
+      "url": "https://github.com/obeli-sk/obelisk",
+      "description": "Durable & Deterministic Workflow Engine",
+      "stars": 759,
+      "forks": 19,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2024-04-25T16:21:43Z",
+      "pushedAt": "2026-10-08T06:30:39Z",
+      "homepageUrl": "https://obeli.sk",
+      "archived": false,
+      "owner": {
+        "login": "obeli-sk",
+        "name": "obeli-sk",
+        "type": "Organization",
+        "url": "https://github.com/obeli-sk",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/144059715?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 36,
+      "name": "awesome-js-tooling-not-in-js",
+      "nameWithOwner": "RobinCsl/awesome-js-tooling-not-in-js",
+      "url": "https://github.com/RobinCsl/awesome-js-tooling-not-in-js",
+      "description": "A curated list of JavaScript tooling not written in JavaScript",
+      "stars": 751,
+      "forks": 17,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2021-04-14T06:30:31Z",
+      "pushedAt": "2023-09-03T08:08:31Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "RobinCsl",
+        "name": "Robin Cussol",
+        "type": "User",
+        "url": "https://github.com/RobinCsl",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22741774?u=3707238a404334df016744f0a0247c92fdbecb19&v=4",
+        "location": "Trenčín, Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 37,
+      "name": "motio",
+      "nameWithOwner": "darsain/motio",
+      "url": "https://github.com/darsain/motio",
+      "description": "Small JavaScript library for sprite based animations and panning.",
+      "stars": 748,
+      "forks": 86,
+      "primaryLanguage": "JavaScript",
+      "license": null,
+      "createdAt": "2012-05-25T16:34:38Z",
+      "pushedAt": "2020-03-05T14:43:41Z",
+      "homepageUrl": "http://darsa.in/motio",
+      "archived": false,
+      "owner": {
+        "login": "darsain",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/darsain",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/538801?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 38,
+      "name": "Athena",
+      "nameWithOwner": "Kin69/Athena",
+      "url": "https://github.com/Kin69/Athena",
+      "description": "Athena is a Material You (Material 3) firewall and ad blocker that works seamlessly on both rooted and non-rooted devices.",
+      "stars": 719,
+      "forks": 40,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2025-03-14T08:56:31Z",
+      "pushedAt": "2026-01-26T17:17:59Z",
+      "homepageUrl": "https://easyapps.me",
+      "archived": false,
+      "owner": {
+        "login": "Kin69",
+        "name": "Kin",
+        "type": "User",
+        "url": "https://github.com/Kin69",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/109698804?u=b1cec65d6c19b7950b0a77e457f688e32acdf528&v=4",
+        "location": "Slovakia, Bratislava",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 39,
+      "name": "Simple-Dialer",
+      "nameWithOwner": "SimpleMobileTools/Simple-Dialer",
+      "url": "https://github.com/SimpleMobileTools/Simple-Dialer",
+      "description": "A handy phone call manager with phonebook, number blocking and multi-SIM support",
+      "stars": 701,
+      "forks": 276,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2020-05-06T18:49:03Z",
+      "pushedAt": "2024-06-11T09:59:14Z",
+      "homepageUrl": "https://www.simplemobiletools.com/",
+      "archived": false,
+      "owner": {
+        "login": "SimpleMobileTools",
+        "name": "Simple Mobile Tools",
+        "type": "Organization",
+        "url": "https://github.com/SimpleMobileTools",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16476257?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 40,
+      "name": "Simple-SMS-Messenger",
+      "nameWithOwner": "SimpleMobileTools/Simple-SMS-Messenger",
+      "url": "https://github.com/SimpleMobileTools/Simple-SMS-Messenger",
+      "description": "An easy and quick way of managing SMS and MMS messages without ads.",
+      "stars": 670,
+      "forks": 230,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2020-04-03T07:56:58Z",
+      "pushedAt": "2024-06-11T10:02:12Z",
+      "homepageUrl": "https://www.simplemobiletools.com",
+      "archived": false,
+      "owner": {
+        "login": "SimpleMobileTools",
+        "name": "Simple Mobile Tools",
+        "type": "Organization",
+        "url": "https://github.com/SimpleMobileTools",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16476257?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 41,
+      "name": "PhoneProfilesPlus",
+      "nameWithOwner": "henrichg/PhoneProfilesPlus",
+      "url": "https://github.com/henrichg/PhoneProfilesPlus",
+      "description": "Profile manager for Android - event triggered",
+      "stars": 659,
+      "forks": 35,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2015-01-28T17:07:31Z",
+      "pushedAt": "2025-09-29T17:05:45Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "henrichg",
+        "name": "Henrich Gron",
+        "type": "User",
+        "url": "https://github.com/henrichg",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4045914?u=3d11a116a39f4d1ccee4ef1108cd1d81a8ad2d55&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 42,
+      "name": "zio",
+      "nameWithOwner": "lalinsky/zio",
+      "url": "https://github.com/lalinsky/zio",
+      "description": "Async I/O framework for Zig",
+      "stars": 640,
+      "forks": 43,
+      "primaryLanguage": "Zig",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2025-09-16T12:12:46Z",
+      "pushedAt": "2026-10-08T18:34:57Z",
+      "homepageUrl": "https://lalinsky.github.io/zio/",
+      "archived": false,
+      "owner": {
+        "login": "lalinsky",
+        "name": "Lukáš Lalinský",
+        "type": "User",
+        "url": "https://github.com/lalinsky",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/220839?u=76f817358cb458727e81dd4ec11188d343becc9e&v=4",
+        "location": "Trenčín, Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 43,
+      "name": "Simple-Clock",
+      "nameWithOwner": "SimpleMobileTools/Simple-Clock",
+      "url": "https://github.com/SimpleMobileTools/Simple-Clock",
+      "description": "Combination of a beautiful clock with widget, alarm, stopwatch & timer, no ads",
+      "stars": 625,
+      "forks": 227,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2018-02-27T22:29:23Z",
+      "pushedAt": "2024-06-11T09:57:37Z",
+      "homepageUrl": "https://www.simplemobiletools.com",
+      "archived": false,
+      "owner": {
+        "login": "SimpleMobileTools",
+        "name": "Simple Mobile Tools",
+        "type": "Organization",
+        "url": "https://github.com/SimpleMobileTools",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16476257?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 44,
+      "name": "flow",
+      "nameWithOwner": "totaljs/flow",
+      "url": "https://github.com/totaljs/flow",
+      "description": "Visual Programming Interface",
+      "stars": 604,
+      "forks": 138,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-03-30T11:08:41Z",
+      "pushedAt": "2026-09-29T07:27:00Z",
+      "homepageUrl": "https://www.totaljs.com/flow/",
+      "archived": false,
+      "owner": {
+        "login": "totaljs",
+        "name": "Total.js Platform",
+        "type": "Organization",
+        "url": "https://github.com/totaljs",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6499216?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 45,
+      "name": "kinetics",
+      "nameWithOwner": "ckissi/kinetics",
+      "url": "https://github.com/ckissi/kinetics",
+      "description": "A library of interface animations built on spring physics instead of fixed-duration easing.",
+      "stars": 604,
+      "forks": 57,
+      "primaryLanguage": "HTML",
+      "license": null,
+      "createdAt": "2026-06-24T10:37:25Z",
+      "pushedAt": "2026-09-01T16:27:26Z",
+      "homepageUrl": "https://kinetics.colorion.co",
+      "archived": false,
+      "owner": {
+        "login": "ckissi",
+        "name": "Csaba Kissi",
+        "type": "User",
+        "url": "https://github.com/ckissi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5107590?u=21ceae6bec94b2c42c12b8be5d6cf9725c6431d6&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 46,
+      "name": "LA104",
+      "nameWithOwner": "gabonator/LA104",
+      "url": "https://github.com/gabonator/LA104",
+      "description": "LA104 logic analyser alternative firmware and experiments",
+      "stars": 597,
+      "forks": 92,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-11-01T03:54:21Z",
+      "pushedAt": "2025-01-29T22:34:46Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "gabonator",
+        "name": "Gabriel Valky",
+        "type": "User",
+        "url": "https://github.com/gabonator",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1020041?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 47,
+      "name": "Simple-Calculator",
+      "nameWithOwner": "SimpleMobileTools/Simple-Calculator",
+      "url": "https://github.com/SimpleMobileTools/Simple-Calculator",
+      "description": "A calculator for quick simple calculations with a nice user interface and no ads",
+      "stars": 596,
+      "forks": 406,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2015-12-24T11:03:10Z",
+      "pushedAt": "2024-06-11T09:56:53Z",
+      "homepageUrl": "https://www.simplemobiletools.com",
+      "archived": false,
+      "owner": {
+        "login": "SimpleMobileTools",
+        "name": "Simple Mobile Tools",
+        "type": "Organization",
+        "url": "https://github.com/SimpleMobileTools",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16476257?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 48,
+      "name": "Quartzmin",
+      "nameWithOwner": "jlucansky/Quartzmin",
+      "url": "https://github.com/jlucansky/Quartzmin",
+      "description": "Quartzmin is powerful, easy to use web management tool for Quartz.NET",
+      "stars": 590,
+      "forks": 187,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-12-28T15:28:02Z",
+      "pushedAt": "2023-11-14T14:34:03Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "jlucansky",
+        "name": "Jan Lucansky",
+        "type": "User",
+        "url": "https://github.com/jlucansky",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20298238?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 49,
+      "name": "fpsmeter",
+      "nameWithOwner": "darsain/fpsmeter",
+      "url": "https://github.com/darsain/fpsmeter",
+      "description": "Sexy, fast, and themable FPS meter.",
+      "stars": 581,
+      "forks": 46,
+      "primaryLanguage": "JavaScript",
+      "license": null,
+      "createdAt": "2013-04-10T19:56:37Z",
+      "pushedAt": "2020-03-05T14:43:34Z",
+      "homepageUrl": "http://darsa.in/fpsmeter",
+      "archived": false,
+      "owner": {
+        "login": "darsain",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/darsain",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/538801?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 50,
+      "name": "awesome-steam",
+      "nameWithOwner": "scholtzm/awesome-steam",
+      "url": "https://github.com/scholtzm/awesome-steam",
+      "description": "😎 A curated list of packages and resources regarding Steam development",
+      "stars": 572,
+      "forks": 43,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2016-05-25T18:44:19Z",
+      "pushedAt": "2026-04-02T20:46:48Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "scholtzm",
+        "name": "Michael Scholtz",
+        "type": "User",
+        "url": "https://github.com/scholtzm",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2640934?u=3eb240c9d11aea1069ecc4cf4cd89a87bcbe2dce&v=4",
+        "location": "Bratislava, Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 51,
+      "name": "github-statuses",
+      "nameWithOwner": "mrshu/github-statuses",
+      "url": "https://github.com/mrshu/github-statuses",
+      "description": "The \"Missing GitHub Status Page\" -- a Flat Data attempt at historically documenting GitHub statuses",
+      "stars": 568,
+      "forks": 26,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-06-11T21:23:19Z",
+      "pushedAt": "2026-10-09T11:17:53Z",
+      "homepageUrl": "https://mrshu.github.io/github-statuses/",
+      "archived": false,
+      "owner": {
+        "login": "mrshu",
+        "name": "Marek Šuppa",
+        "type": "User",
+        "url": "https://github.com/mrshu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/461491?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 52,
+      "name": "claude-elixir-phoenix",
+      "nameWithOwner": "oliver-kriska/claude-elixir-phoenix",
+      "url": "https://github.com/oliver-kriska/claude-elixir-phoenix",
+      "description": "Claude Code plugin for Elixir/Phoenix/LiveView — 26 specialist agents, Iron Laws enforcement, and Tidewave MCP integration. Plan features with parallel research agents, execute with automatic verification, review with 4-agent parallel audits, and capture learnings as reusable knowledge.",
+      "stars": 565,
+      "forks": 45,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-02-12T10:09:18Z",
+      "pushedAt": "2026-10-05T17:58:38Z",
+      "homepageUrl": "https://phxagents.dev",
+      "archived": false,
+      "owner": {
+        "login": "oliver-kriska",
+        "name": "Oliver Kriska",
+        "type": "User",
+        "url": "https://github.com/oliver-kriska",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39122854?u=3ffd0f50c30712189923868baacdadc42a019b08&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 53,
+      "name": "xcframeworks",
+      "nameWithOwner": "bielikb/xcframeworks",
+      "url": "https://github.com/bielikb/xcframeworks",
+      "description": "Demonstration of creating and integrating xcframeworks and their co-op with static libraries and Swift packages",
+      "stars": 556,
+      "forks": 47,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-06-25T10:26:59Z",
+      "pushedAt": "2022-11-04T18:05:16Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "bielikb",
+        "name": "Boris Bielik",
+        "type": "User",
+        "url": "https://github.com/bielikb",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4924709?u=5e47781ebe8c77be36e36f28c38b441648440162&v=4",
+        "location": "Bratislava, Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 54,
+      "name": "OlliteRT",
+      "nameWithOwner": "NightMean/OlliteRT",
+      "url": "https://github.com/NightMean/OlliteRT",
+      "description": "Turn your Android phone into an OpenAI-compatible LLM inference server - Fully local, private and Open Source",
+      "stars": 555,
+      "forks": 77,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2026-04-06T18:29:37Z",
+      "pushedAt": "2026-10-08T03:38:15Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "NightMean",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/NightMean",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5726996?u=eeef36f0c88605e805941a0d6932ef40cf411df0&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 55,
+      "name": "Simple-Draw",
+      "nameWithOwner": "SimpleMobileTools/Simple-Draw",
+      "url": "https://github.com/SimpleMobileTools/Simple-Draw",
+      "description": "A canvas you can draw on with different colors.",
+      "stars": 535,
+      "forks": 182,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2016-02-14T20:55:43Z",
+      "pushedAt": "2024-06-11T09:59:27Z",
+      "homepageUrl": "https://www.simplemobiletools.com",
+      "archived": false,
+      "owner": {
+        "login": "SimpleMobileTools",
+        "name": "Simple Mobile Tools",
+        "type": "Organization",
+        "url": "https://github.com/SimpleMobileTools",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16476257?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 56,
+      "name": "ArduinoOTA",
+      "nameWithOwner": "JAndrassy/ArduinoOTA",
+      "url": "https://github.com/JAndrassy/ArduinoOTA",
+      "description": "Arduino library to upload sketch over network to Arduino board with WiFi or Ethernet libraries",
+      "stars": 534,
+      "forks": 95,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "GNU Lesser General Public License v2.1",
+        "spdxId": "LGPL-2.1"
+      },
+      "createdAt": "2018-12-16T19:56:59Z",
+      "pushedAt": "2026-03-24T18:43:18Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "JAndrassy",
+        "name": "Juraj Andrássy",
+        "type": "User",
+        "url": "https://github.com/JAndrassy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10706773?u=1724ce638b7e43a99c78489853163d01cbcc05b7&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 57,
+      "name": "Knapsack",
+      "nameWithOwner": "DusanKasan/Knapsack",
+      "url": "https://github.com/DusanKasan/Knapsack",
+      "description": "Collection pipeline library for PHP",
+      "stars": 534,
+      "forks": 60,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-07-05T21:13:30Z",
+      "pushedAt": "2026-08-08T08:56:32Z",
+      "homepageUrl": "http://dusankasan.github.io/Knapsack/",
+      "archived": false,
+      "owner": {
+        "login": "DusanKasan",
+        "name": "Dušan Kasan",
+        "type": "User",
+        "url": "https://github.com/DusanKasan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4658499?u=78eaf6f1eca086c7328fb51bd219f44a93ef056f&v=4",
+        "location": "Bratislava, Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 58,
+      "name": "Simple-Voice-Recorder",
+      "nameWithOwner": "SimpleMobileTools/Simple-Voice-Recorder",
+      "url": "https://github.com/SimpleMobileTools/Simple-Voice-Recorder",
+      "description": "An easy way of recording any discussion or sounds without ads or internet access",
+      "stars": 533,
+      "forks": 153,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2020-03-28T16:06:38Z",
+      "pushedAt": "2024-06-11T09:55:33Z",
+      "homepageUrl": "https://www.simplemobiletools.com",
+      "archived": false,
+      "owner": {
+        "login": "SimpleMobileTools",
+        "name": "Simple Mobile Tools",
+        "type": "Organization",
+        "url": "https://github.com/SimpleMobileTools",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16476257?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 59,
+      "name": "the-blockchain-bar",
+      "nameWithOwner": "web3coach/the-blockchain-bar",
+      "url": "https://github.com/web3coach/the-blockchain-bar",
+      "description": "The source-code for: \"Build a Blockchain from Scratch in Go\" eBook.",
+      "stars": 521,
+      "forks": 185,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "GNU Lesser General Public License v3.0",
+        "spdxId": "LGPL-3.0"
+      },
+      "createdAt": "2020-04-18T09:07:59Z",
+      "pushedAt": "2025-05-29T18:42:47Z",
+      "homepageUrl": "https://web3.coach",
+      "archived": true,
+      "owner": {
+        "login": "web3coach",
+        "name": "Lukas Lukac",
+        "type": "User",
+        "url": "https://github.com/web3coach",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54218031?u=372de0ce1333af399d6ed0e45fb24adcd99038fa&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 60,
+      "name": "cs50",
+      "nameWithOwner": "mareksuscak/cs50",
+      "url": "https://github.com/mareksuscak/cs50",
+      "description": "🎓 Harvard CS50x — 2018 solutions 👨‍🏫",
+      "stars": 520,
+      "forks": 406,
+      "primaryLanguage": "C",
+      "license": null,
+      "createdAt": "2018-04-05T11:10:17Z",
+      "pushedAt": "2021-06-10T09:04:12Z",
+      "homepageUrl": "https://cs50.harvard.edu/x/2020/",
+      "archived": false,
+      "owner": {
+        "login": "mareksuscak",
+        "name": "Marek Suscak",
+        "type": "User",
+        "url": "https://github.com/mareksuscak",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/613647?u=404f61e24b7dc124697d9d0209d24bfce127b434&v=4",
+        "location": "Kosice, Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 61,
+      "name": "sockjs-go",
+      "nameWithOwner": "igm/sockjs-go",
+      "url": "https://github.com/igm/sockjs-go",
+      "description": "WebSocket emulation - Go server library",
+      "stars": 506,
+      "forks": 99,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2012-11-23T11:43:21Z",
+      "pushedAt": "2023-11-08T07:15:41Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "igm",
+        "name": "Igor Mihalik",
+        "type": "User",
+        "url": "https://github.com/igm",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/152321?u=3500783be4865c0f458c056507672c6c14ef9fb7&v=4",
+        "location": "Bratislava, Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 62,
+      "name": "BetterPushbackC",
+      "nameWithOwner": "skiselkov/BetterPushbackC",
+      "url": "https://github.com/skiselkov/BetterPushbackC",
+      "description": "This is the BetterPushback plugin for X-Plane 11 and X-Plane 12",
+      "stars": 502,
+      "forks": 140,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2017-06-18T11:56:27Z",
+      "pushedAt": "2024-04-12T14:38:26Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "skiselkov",
+        "name": "Saso Kiselkov",
+        "type": "User",
+        "url": "https://github.com/skiselkov",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3300688?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 63,
+      "name": "go-project-blueprint",
+      "nameWithOwner": "MartinHeinz/go-project-blueprint",
+      "url": "https://github.com/MartinHeinz/go-project-blueprint",
+      "description": "Blueprint/Boilerplate For Golang Projects",
+      "stars": 500,
+      "forks": 103,
+      "primaryLanguage": "Makefile",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-09-08T11:14:26Z",
+      "pushedAt": "2023-01-06T10:04:35Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "MartinHeinz",
+        "name": "Martin Heinz",
+        "type": "User",
+        "url": "https://github.com/MartinHeinz",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11890454?u=c850e6b11dc34444b41aad971f75ceb60b514953&v=4",
+        "location": "Bratislava",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bratislava"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 64,
+      "name": "oglplus",
+      "nameWithOwner": "matus-chochlik/oglplus",
+      "url": "https://github.com/matus-chochlik/oglplus",
+      "description": "OGLplus is a collection of open-source, cross-platform libraries which implement an object-oriented facade over the OpenGL® (version 3 and higher) and also OpenAL® (version 1.1) and EGL (version 1.4) C-language APIs. It provides wrappers which automate resource and object management and make the use of these libraries in C++ safer and more convenient.",
+      "stars": 497,
+      "forks": 70,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Boost Software License 1.0",
+        "spdxId": "BSL-1.0"
+      },
+      "createdAt": "2013-03-19T17:52:30Z",
+      "pushedAt": "2021-10-26T06:11:56Z",
+      "homepageUrl": "http://oglplus.org/",
+      "archived": false,
+      "owner": {
+        "login": "matus-chochlik",
+        "name": "Matus Chochlik",
+        "type": "User",
+        "url": "https://github.com/matus-chochlik",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1516057?u=70061d1b2fa121bca2e387f4564234c8536627f9&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 65,
+      "name": "aura",
+      "nameWithOwner": "SourceCode-AI/aura",
+      "url": "https://github.com/SourceCode-AI/aura",
+      "description": "Python source code auditing and static analysis on a large scale",
+      "stars": 493,
+      "forks": 28,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2020-09-23T17:04:46Z",
+      "pushedAt": "2023-10-03T13:54:35Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "SourceCode-AI",
+        "name": "SourceCode.AI",
+        "type": "Organization",
+        "url": "https://github.com/SourceCode-AI",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71327854?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 66,
+      "name": "zenpower",
+      "nameWithOwner": "ocerman/zenpower",
+      "url": "https://github.com/ocerman/zenpower",
+      "description": "Zenpower is Linux kernel driver for reading temperature, voltage(SVI2), current(SVI2) and power(SVI2) for AMD Zen family CPUs.",
+      "stars": 489,
+      "forks": 63,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "spdxId": "GPL-2.0"
+      },
+      "createdAt": "2018-11-10T22:07:01Z",
+      "pushedAt": "2022-08-03T14:46:52Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ocerman",
+        "name": "Ondrej Čerman",
+        "type": "User",
+        "url": "https://github.com/ocerman",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10187350?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 67,
+      "name": "pytapo",
+      "nameWithOwner": "JurajNyiri/pytapo",
+      "url": "https://github.com/JurajNyiri/pytapo",
+      "description": "Python library for communication with Tapo Cameras",
+      "stars": 478,
+      "forks": 96,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-10-01T16:26:43Z",
+      "pushedAt": "2026-09-28T13:15:04Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "JurajNyiri",
+        "name": "Juraj Nyíri",
+        "type": "User",
+        "url": "https://github.com/JurajNyiri",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5785999?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 68,
+      "name": "IL2CPP_Resolver",
+      "nameWithOwner": "sneakyevil/IL2CPP_Resolver",
+      "url": "https://github.com/sneakyevil/IL2CPP_Resolver",
+      "description": "A run-time API resolver for IL2CPP Unity.",
+      "stars": 475,
+      "forks": 90,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "The Unlicense",
+        "spdxId": "Unlicense"
+      },
+      "createdAt": "2021-08-21T02:35:15Z",
+      "pushedAt": "2024-07-30T07:49:52Z",
+      "homepageUrl": "https://sneakyevil.gitbook.io/il2cpp-resolver/",
+      "archived": false,
+      "owner": {
+        "login": "sneakyevil",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/sneakyevil",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29150970?u=35fa71e8bc7b1267264087866e8ece1ec6f74a25&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 69,
+      "name": "zed-discord-presence",
+      "nameWithOwner": "xhyrom/zed-discord-presence",
+      "url": "https://github.com/xhyrom/zed-discord-presence",
+      "description": "extension for zed that adds support for discord rich presence using lsp",
+      "stars": 467,
+      "forks": 42,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2024-07-18T22:06:38Z",
+      "pushedAt": "2026-08-12T20:39:34Z",
+      "homepageUrl": "https://git.sr.ht/~hyro/zed-discord-presence",
+      "archived": false,
+      "owner": {
+        "login": "xhyrom",
+        "name": "Jozef Steinhübl",
+        "type": "User",
+        "url": "https://github.com/xhyrom",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56601352?u=0b74fa9bc9ffa612af43a04239e8f22801070e78&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 70,
+      "name": "sjasmplus",
+      "nameWithOwner": "z00m128/sjasmplus",
+      "url": "https://github.com/z00m128/sjasmplus",
+      "description": "Command-line cross-compiler of assembly language for Z80 CPU.",
+      "stars": 462,
+      "forks": 69,
+      "primaryLanguage": "Assembly",
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2016-05-05T20:00:31Z",
+      "pushedAt": "2026-09-27T22:04:05Z",
+      "homepageUrl": "http://z00m128.github.io/sjasmplus/",
+      "archived": false,
+      "owner": {
+        "login": "z00m128",
+        "name": "z00m",
+        "type": "User",
+        "url": "https://github.com/z00m128",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18407946?u=fb9cac2d960790bfc36084b0dd2327562f7c7e36&v=4",
+        "location": "Smolenice",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "smolenice"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 71,
+      "name": "bubbles",
+      "nameWithOwner": "Stiivi/bubbles",
+      "url": "https://github.com/Stiivi/bubbles",
+      "description": "[NOT MAINTAINED] Bubbles – Python ETL framework",
+      "stars": 460,
+      "forks": 80,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2013-05-02T16:50:08Z",
+      "pushedAt": "2017-10-04T20:32:10Z",
+      "homepageUrl": "http://bubbles.databrewery.org",
+      "archived": false,
+      "owner": {
+        "login": "Stiivi",
+        "name": "Stefan Urbanek",
+        "type": "User",
+        "url": "https://github.com/Stiivi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71105?v=4",
+        "location": "Bratislava",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bratislava"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 72,
+      "name": "aws-lambda-graphql",
+      "nameWithOwner": "michalkvasnicak/aws-lambda-graphql",
+      "url": "https://github.com/michalkvasnicak/aws-lambda-graphql",
+      "description": "Use AWS Lambda + AWS API Gateway v2 for GraphQL subscriptions over WebSocket and AWS API Gateway v1 for HTTP",
+      "stars": 458,
+      "forks": 93,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-01-13T18:26:39Z",
+      "pushedAt": "2023-03-06T17:27:55Z",
+      "homepageUrl": "https://chat-example-app.netlify.com",
+      "archived": false,
+      "owner": {
+        "login": "michalkvasnicak",
+        "name": "Michal Kvasničák",
+        "type": "User",
+        "url": "https://github.com/michalkvasnicak",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/174716?u=845a101157d2ec3cbf074f15cc41c2a2af9c101a&v=4",
+        "location": "Trnava, Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 73,
+      "name": "Simple-App-Launcher",
+      "nameWithOwner": "SimpleMobileTools/Simple-App-Launcher",
+      "url": "https://github.com/SimpleMobileTools/Simple-App-Launcher",
+      "description": "A simple holder for favourite apps for quick & easy app launcher icon management",
+      "stars": 456,
+      "forks": 163,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2016-08-06T19:39:16Z",
+      "pushedAt": "2024-06-11T09:56:41Z",
+      "homepageUrl": "https://www.simplemobiletools.com",
+      "archived": false,
+      "owner": {
+        "login": "SimpleMobileTools",
+        "name": "Simple Mobile Tools",
+        "type": "Organization",
+        "url": "https://github.com/SimpleMobileTools",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16476257?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 74,
+      "name": "responsive-html-email-templates",
+      "nameWithOwner": "ckissi/responsive-html-email-templates",
+      "url": "https://github.com/ckissi/responsive-html-email-templates",
+      "description": "Collection of Free responsive HTML templates for Startups",
+      "stars": 455,
+      "forks": 108,
+      "primaryLanguage": "HTML",
+      "license": null,
+      "createdAt": "2019-03-27T10:08:48Z",
+      "pushedAt": "2019-04-09T15:48:38Z",
+      "homepageUrl": "https://www.htmlemailtemplates.net/free-stuff/free-html-email-templates/",
+      "archived": false,
+      "owner": {
+        "login": "ckissi",
+        "name": "Csaba Kissi",
+        "type": "User",
+        "url": "https://github.com/ckissi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5107590?u=21ceae6bec94b2c42c12b8be5d6cf9725c6431d6&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 75,
+      "name": "examples",
+      "nameWithOwner": "totaljs/examples",
+      "url": "https://github.com/totaljs/examples",
+      "description": "Total.js examples",
+      "stars": 451,
+      "forks": 293,
+      "primaryLanguage": "JavaScript",
+      "license": null,
+      "createdAt": "2014-01-25T21:25:20Z",
+      "pushedAt": "2024-06-19T04:38:36Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "totaljs",
+        "name": "Total.js Platform",
+        "type": "Organization",
+        "url": "https://github.com/totaljs",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6499216?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 76,
+      "name": "phpCacheAdmin",
+      "nameWithOwner": "RobiNN1/phpCacheAdmin",
+      "url": "https://github.com/RobiNN1/phpCacheAdmin",
+      "description": "Web GUI for managing Redis, Memcached, APCu, OPCache and Realpath with data management.",
+      "stars": 448,
+      "forks": 20,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-06-26T19:20:14Z",
+      "pushedAt": "2026-09-23T17:36:30Z",
+      "homepageUrl": "https://phpcacheadmin.com/",
+      "archived": false,
+      "owner": {
+        "login": "RobiNN1",
+        "name": "Róbert Kelčák",
+        "type": "User",
+        "url": "https://github.com/RobiNN1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11664877?u=80a860aae705011521e3ed7e532109403ad955a7&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 77,
+      "name": "speak-gpt",
+      "nameWithOwner": "AndraxDev/speak-gpt",
+      "url": "https://github.com/AndraxDev/speak-gpt",
+      "description": "Your personal voice assistant based on OpenAI ChatGPT.",
+      "stars": 446,
+      "forks": 80,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2023-03-02T18:35:16Z",
+      "pushedAt": "2026-09-15T15:12:24Z",
+      "homepageUrl": "https://play.google.com/store/apps/details?id=org.teslasoft.assistant",
+      "archived": false,
+      "owner": {
+        "login": "AndraxDev",
+        "name": "AndraxDev",
+        "type": "User",
+        "url": "https://github.com/AndraxDev",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43646136?u=112f3bd5f09cc67bb2e90004270237165810bee9&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 78,
+      "name": "VitaGrafix",
+      "nameWithOwner": "Electry/VitaGrafix",
+      "url": "https://github.com/Electry/VitaGrafix",
+      "description": "VitaGrafix - taiHEN plugin that allows you to change resolution and FPS cap of PS Vita games",
+      "stars": 446,
+      "forks": 27,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2018-08-07T22:19:43Z",
+      "pushedAt": "2026-09-03T15:46:38Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Electry",
+        "name": "Michal Chvila",
+        "type": "User",
+        "url": "https://github.com/Electry",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12598379?u=edf954684da9597681101ef070bd6cc88d43edfd&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 79,
+      "name": "MartinHeinz",
+      "nameWithOwner": "MartinHeinz/MartinHeinz",
+      "url": "https://github.com/MartinHeinz/MartinHeinz",
+      "description": "My GitHub Profile README. Don't just fork, star it, so others can find it too! 👀",
+      "stars": 442,
+      "forks": 990,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2020-07-20T17:26:57Z",
+      "pushedAt": "2026-09-21T03:57:25Z",
+      "homepageUrl": "https://martinheinz.dev/",
+      "archived": false,
+      "owner": {
+        "login": "MartinHeinz",
+        "name": "Martin Heinz",
+        "type": "User",
+        "url": "https://github.com/MartinHeinz",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11890454?u=c850e6b11dc34444b41aad971f75ceb60b514953&v=4",
+        "location": "Bratislava",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bratislava"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 80,
+      "name": "foundation-datepicker",
+      "nameWithOwner": "najlepsiwebdesigner/foundation-datepicker",
+      "url": "https://github.com/najlepsiwebdesigner/foundation-datepicker",
+      "description": "Foundation datepicker jQuery plugin",
+      "stars": 437,
+      "forks": 259,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2013-01-29T12:43:26Z",
+      "pushedAt": "2022-11-01T15:42:31Z",
+      "homepageUrl": "http://foundation-datepicker.peterbeno.com",
+      "archived": false,
+      "owner": {
+        "login": "najlepsiwebdesigner",
+        "name": "Peter Beňo",
+        "type": "User",
+        "url": "https://github.com/najlepsiwebdesigner",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1616695?u=685f038508802ac03e7aef33e9a2e9fc3bc1a622&v=4",
+        "location": "Bratislava",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bratislava"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 81,
+      "name": "one-node-flux-2-klein",
+      "nameWithOwner": "yanokusnir-ai/one-node-flux-2-klein",
+      "url": "https://github.com/yanokusnir-ai/one-node-flux-2-klein",
+      "description": "ComfyUI custom node for Flux 2 Klein: image generation, image editing, inpainting, outpainting, faceswap and more. All in a single self-contained UI widget.",
+      "stars": 415,
+      "forks": 30,
+      "primaryLanguage": "JavaScript",
+      "license": null,
+      "createdAt": "2026-05-20T21:55:04Z",
+      "pushedAt": "2026-08-06T20:47:12Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "yanokusnir-ai",
+        "name": "Ján Kušnír",
+        "type": "User",
+        "url": "https://github.com/yanokusnir-ai",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/183913056?u=e04763616bf8692b90abba3239350d9619271573&v=4",
+        "location": "Slovakia, Bratislava",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 82,
+      "name": "X1nput",
+      "nameWithOwner": "araghon007/X1nput",
+      "url": "https://github.com/araghon007/X1nput",
+      "description": "Xinput hook for Impulse Trigger emulation",
+      "stars": 411,
+      "forks": 39,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-03-13T00:15:00Z",
+      "pushedAt": "2025-01-14T21:51:11Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "araghon007",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/araghon007",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10870921?u=ae524760570ac2518ada6e7b1222f15f33a5fcaa&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 83,
+      "name": "clockwork-chrome",
+      "nameWithOwner": "itsgoingd/clockwork-chrome",
+      "url": "https://github.com/itsgoingd/clockwork-chrome",
+      "description": "Clockwork - php dev tools integrated to your browser - Chrome extension",
+      "stars": 409,
+      "forks": 24,
+      "primaryLanguage": "CSS",
+      "license": null,
+      "createdAt": "2013-06-24T21:55:38Z",
+      "pushedAt": "2019-07-10T21:16:10Z",
+      "homepageUrl": "https://underground.works/clockwork",
+      "archived": true,
+      "owner": {
+        "login": "itsgoingd",
+        "name": "its",
+        "type": "User",
+        "url": "https://github.com/itsgoingd",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/821582?u=b9558d572c0022ae29d9284c0764cd2c6e013eaf&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 84,
+      "name": "AngularJS-Boilerplate",
+      "nameWithOwner": "jbutko/AngularJS-Boilerplate",
+      "url": "https://github.com/jbutko/AngularJS-Boilerplate",
+      "description": "Simple AngularJS Boilerplate to kick start your new project with SASS support and Gulp watch/build tasks",
+      "stars": 402,
+      "forks": 152,
+      "primaryLanguage": "CSS",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-03-22T16:25:42Z",
+      "pushedAt": "2024-04-17T17:41:13Z",
+      "homepageUrl": "http://www.jozefbutko.com/angularjs-boilerplate/",
+      "archived": false,
+      "owner": {
+        "login": "jbutko",
+        "name": "Jozef Butko",
+        "type": "User",
+        "url": "https://github.com/jbutko",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4448836?u=b7c04d8d9ca54a5c92c35cf0bc473b097cccba6d&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 85,
+      "name": "StaticDataTableViewController",
+      "nameWithOwner": "peterpaulis/StaticDataTableViewController",
+      "url": "https://github.com/peterpaulis/StaticDataTableViewController",
+      "description": "Enables animated hide/show of static cells and sections",
+      "stars": 396,
+      "forks": 44,
+      "primaryLanguage": "Objective-C",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2013-01-31T15:37:52Z",
+      "pushedAt": "2018-06-27T13:18:19Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "peterpaulis",
+        "name": "Peter Paulis",
+        "type": "User",
+        "url": "https://github.com/peterpaulis",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1956972?v=4",
+        "location": "Bratislava, Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 86,
+      "name": "EMVemulator",
+      "nameWithOwner": "MatusKysel/EMVemulator",
+      "url": "https://github.com/MatusKysel/EMVemulator",
+      "description": "This Android app collects Mag-Stripe data and CVC3 codes from PayPass cards and emulates that information.  ",
+      "stars": 395,
+      "forks": 103,
+      "primaryLanguage": "Java",
+      "license": null,
+      "createdAt": "2014-04-03T18:21:02Z",
+      "pushedAt": "2022-12-08T08:37:39Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "MatusKysel",
+        "name": "Matus Kysel",
+        "type": "User",
+        "url": "https://github.com/MatusKysel",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6115866?u=b0ea0001e07b29956a81d64008e02037e6f98f30&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 87,
+      "name": "SingleRowCalendar",
+      "nameWithOwner": "misosvec/SingleRowCalendar",
+      "url": "https://github.com/misosvec/SingleRowCalendar",
+      "description": "Android library for horizontal single row calendar. With this library, you aren't attached to library built-in UI. You can create really beautiful and customizable UI and use selection features without hands getting dirty with RecyclerView and SelectionTracker.",
+      "stars": 381,
+      "forks": 55,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2019-09-28T19:55:20Z",
+      "pushedAt": "2022-06-17T14:48:41Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "misosvec",
+        "name": "Michal Švec",
+        "type": "User",
+        "url": "https://github.com/misosvec",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49341112?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 88,
+      "name": "Simple-Commons",
+      "nameWithOwner": "SimpleMobileTools/Simple-Commons",
+      "url": "https://github.com/SimpleMobileTools/Simple-Commons",
+      "description": "Some helper functions and shared resources to be used only by the simple apps suite.",
+      "stars": 375,
+      "forks": 365,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2016-12-10T22:54:44Z",
+      "pushedAt": "2023-12-09T12:04:37Z",
+      "homepageUrl": "https://www.simplemobiletools.com",
+      "archived": false,
+      "owner": {
+        "login": "SimpleMobileTools",
+        "name": "Simple Mobile Tools",
+        "type": "Organization",
+        "url": "https://github.com/SimpleMobileTools",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16476257?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 89,
+      "name": "Bulk-Bing-Image-downloader",
+      "nameWithOwner": "ostrolucky/Bulk-Bing-Image-downloader",
+      "url": "https://github.com/ostrolucky/Bulk-Bing-Image-downloader",
+      "description": "Download full sized images returned from bing image search",
+      "stars": 374,
+      "forks": 109,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "spdxId": "GPL-2.0"
+      },
+      "createdAt": "2014-06-06T21:10:56Z",
+      "pushedAt": "2022-07-06T21:33:36Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ostrolucky",
+        "name": "Gabriel Ostrolucký",
+        "type": "User",
+        "url": "https://github.com/ostrolucky",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/496233?u=3923b137381024a414a3decf606889c920b7655e&v=4",
+        "location": "Brezno, Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 90,
+      "name": "MMLib.SwaggerForOcelot",
+      "nameWithOwner": "Burgyn/MMLib.SwaggerForOcelot",
+      "url": "https://github.com/Burgyn/MMLib.SwaggerForOcelot",
+      "description": "This repo contains swagger extension for ocelot.",
+      "stars": 373,
+      "forks": 98,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-11-26T18:32:50Z",
+      "pushedAt": "2026-08-27T11:31:12Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Burgyn",
+        "name": "Miňo Martiniak",
+        "type": "User",
+        "url": "https://github.com/Burgyn",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5930822?u=abc10e23d2c70c07c4a963d7f91063c942f62f10&v=4",
+        "location": "Žilina, Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 91,
+      "name": "Simple-Flashlight",
+      "nameWithOwner": "SimpleMobileTools/Simple-Flashlight",
+      "url": "https://github.com/SimpleMobileTools/Simple-Flashlight",
+      "description": "A simple modern flashlight with SOS, stroboscope & bright display, has no ads.",
+      "stars": 369,
+      "forks": 178,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2016-01-06T12:32:04Z",
+      "pushedAt": "2024-06-11T09:59:57Z",
+      "homepageUrl": "https://www.simplemobiletools.com",
+      "archived": false,
+      "owner": {
+        "login": "SimpleMobileTools",
+        "name": "Simple Mobile Tools",
+        "type": "Organization",
+        "url": "https://github.com/SimpleMobileTools",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16476257?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 92,
+      "name": "github-vscode-icons",
+      "nameWithOwner": "dderevjanik/github-vscode-icons",
+      "url": "https://github.com/dderevjanik/github-vscode-icons",
+      "description": "📦 vscode-icons for github, nearly 1000 file/folder icons",
+      "stars": 367,
+      "forks": 28,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-10-03T18:41:25Z",
+      "pushedAt": "2024-06-26T10:24:13Z",
+      "homepageUrl": "https://chrome.google.com/webstore/detail/vscode-github-icons/hoccpcefjcgnabbmojbfoflggkecmpgd?utm_source=github",
+      "archived": false,
+      "owner": {
+        "login": "dderevjanik",
+        "name": "Daniel Derevjanik",
+        "type": "User",
+        "url": "https://github.com/dderevjanik",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4524497?u=bd9dc98699aadc5304821c1dde8bade4cadda252&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 93,
+      "name": "WiFiEspAT",
+      "nameWithOwner": "JAndrassy/WiFiEspAT",
+      "url": "https://github.com/JAndrassy/WiFiEspAT",
+      "description": "Arduino networking library. Standard Arduino WiFi networking API over ESP8266 or ESP32 AT commands.",
+      "stars": 360,
+      "forks": 49,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "GNU Lesser General Public License v2.1",
+        "spdxId": "LGPL-2.1"
+      },
+      "createdAt": "2019-08-12T12:00:10Z",
+      "pushedAt": "2026-05-22T11:05:04Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "JAndrassy",
+        "name": "Juraj Andrássy",
+        "type": "User",
+        "url": "https://github.com/JAndrassy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10706773?u=1724ce638b7e43a99c78489853163d01cbcc05b7&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 94,
+      "name": "uPyLoader",
+      "nameWithOwner": "BetaRavener/uPyLoader",
+      "url": "https://github.com/BetaRavener/uPyLoader",
+      "description": "File transfer and communication tool for MicroPython boards",
+      "stars": 358,
+      "forks": 79,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-08-11T00:06:32Z",
+      "pushedAt": "2024-03-08T21:00:25Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "BetaRavener",
+        "name": "BetaRavener",
+        "type": "User",
+        "url": "https://github.com/BetaRavener",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1514221?u=7aa2c03c19671bbcc009f9c646f8c004d4c05556&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 95,
+      "name": "Simple-Keyboard",
+      "nameWithOwner": "SimpleMobileTools/Simple-Keyboard",
+      "url": "https://github.com/SimpleMobileTools/Simple-Keyboard",
+      "description": "Easy keyboard for inserting all kinds of texts, special characters and numbers.",
+      "stars": 357,
+      "forks": 122,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2022-01-03T22:05:58Z",
+      "pushedAt": "2024-06-11T10:00:20Z",
+      "homepageUrl": "https://www.simplemobiletools.com",
+      "archived": false,
+      "owner": {
+        "login": "SimpleMobileTools",
+        "name": "Simple Mobile Tools",
+        "type": "Organization",
+        "url": "https://github.com/SimpleMobileTools",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16476257?v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 96,
+      "name": "TinyORM",
+      "nameWithOwner": "silverqx/TinyORM",
+      "url": "https://github.com/silverqx/TinyORM",
+      "description": "Modern C++ ORM library",
+      "stars": 353,
+      "forks": 37,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-01-14T18:44:42Z",
+      "pushedAt": "2025-04-02T13:50:31Z",
+      "homepageUrl": "https://www.tinyorm.org",
+      "archived": false,
+      "owner": {
+        "login": "silverqx",
+        "name": "Silver Zachara",
+        "type": "User",
+        "url": "https://github.com/silverqx",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86900?u=d7885affd22d390bb64b995437fdf82ad493573e&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 97,
+      "name": "AWS-Solutions-Architect-Associate-Exam-2026",
+      "nameWithOwner": "sv222/AWS-Solutions-Architect-Associate-Exam-2026",
+      "url": "https://github.com/sv222/AWS-Solutions-Architect-Associate-Exam-2026",
+      "description": "This repository contains a cheatsheet with key information to help you prepare for the AWS Certified Solutions Architect Associate (SAA-C03) exam.",
+      "stars": 352,
+      "forks": 97,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2023-10-15T13:50:52Z",
+      "pushedAt": "2026-09-08T10:22:55Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "sv222",
+        "name": "Stanislav",
+        "type": "User",
+        "url": "https://github.com/sv222",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97960236?u=ed6a4fd0903861b1121506c204a47be3d7c416f2&v=4",
+        "location": "Bratislava",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "bratislava"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 98,
+      "name": "rext",
+      "nameWithOwner": "j91321/rext",
+      "url": "https://github.com/j91321/rext",
+      "description": "Router EXploitation Toolkit - small toolkit for easy creation and usage of various python scripts that work with embedded devices.",
+      "stars": 349,
+      "forks": 103,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2015-05-31T19:43:33Z",
+      "pushedAt": "2016-12-25T18:55:52Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "j91321",
+        "name": "Ján Trenčanský",
+        "type": "User",
+        "url": "https://github.com/j91321",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10012872?u=cdb1ec0562a22d9bb7079361e5488e8006842e87&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 99,
+      "name": "z-schema",
+      "nameWithOwner": "zaggino/z-schema",
+      "url": "https://github.com/zaggino/z-schema",
+      "description": "JSON Schema validator written in JavaScript for NodeJS and Browsers",
+      "stars": 349,
+      "forks": 91,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2013-07-23T02:13:35Z",
+      "pushedAt": "2026-10-08T12:34:26Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "zaggino",
+        "name": "Martin Zagora",
+        "type": "User",
+        "url": "https://github.com/zaggino",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1067319?u=782b4bcb5540489355bf521f22bcc1e91b41850f&v=4",
+        "location": "Trnava, Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 100,
+      "name": "WinNT4",
+      "nameWithOwner": "ZoloZiak/WinNT4",
+      "url": "https://github.com/ZoloZiak/WinNT4",
+      "description": "Windows NT4 Kernel Source code",
+      "stars": 342,
+      "forks": 203,
+      "primaryLanguage": "C",
+      "license": null,
+      "createdAt": "2014-12-05T09:38:49Z",
+      "pushedAt": "2011-09-24T15:20:57Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ZoloZiak",
+        "name": "Zoltán Žiak",
+        "type": "User",
+        "url": "https://github.com/ZoloZiak",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8522518?u=157de5a9490f7777e86285811551d28a5d111a2b&v=4",
+        "location": "Slovakia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SK",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovakia"
+        },
+        "discoveryTerms": []
+      }
+    }
+  ]
+}

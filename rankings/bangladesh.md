@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **17**
-- Current global star frontier: **357**
+- Verified high-star candidates retained: **20**
+- Current global star frontier: **338**
 
 ### High-star verified preview
 
@@ -68,5 +68,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [azminewasi/Machine-Learning-AndrewNg-DeepLearning.AI](https://github.com/azminewasi/Machine-Learning-AndrewNg-DeepLearning.AI) | **381** | Comilla, Bangladesh |
 | [haruncpi/laravel-log-reader](https://github.com/haruncpi/laravel-log-reader) | **381** | Chittagong, Bangladesh |
 | [0xSaikat/findme](https://github.com/0xSaikat/findme) | **358** | Khulna, Bangladesh  |
+| [shajidhasan/spoilerjs](https://github.com/shajidhasan/spoilerjs) | **346** | Mymensingh, Bangladesh |
+| [TufayelLUS/TikTok-Video-Downloader-PHP](https://github.com/TufayelLUS/TikTok-Video-Downloader-PHP) | **344** | Sylhet |
+| [shajidhasan/batname](https://github.com/shajidhasan/batname) | **344** | Mymensingh, Bangladesh |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
