@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **13**
-- Current global star frontier: **338**
+- Verified high-star candidates retained: **14**
+- Current global star frontier: **328**
 
 ### High-star verified preview
 
@@ -64,5 +64,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [J-D-K/JKSM](https://github.com/J-D-K/JKSM) | **398** | PA |
 | [zacharee/SystemUITunerSystemSettings](https://github.com/zacharee/SystemUITunerSystemSettings) | **371** | PA |
 | [zacharee/HINTControl](https://github.com/zacharee/HINTControl) | **340** | PA |
+| [zacharee/SystemUITunerRedesign](https://github.com/zacharee/SystemUITunerRedesign) | **333** | PA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **338**
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **328**
 
 ### High-star verified preview
 
@@ -56,5 +56,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [rodyherrera/Quantum](https://github.com/rodyherrera/Quantum) | **475** | Chile, Talca |
 | [jakeajames/rootlessJB3](https://github.com/jakeajames/rootlessJB3) | **362** | Antartica  |
 | [felipeleivav/yboard](https://github.com/felipeleivav/yboard) | **344** | Temuco |
+| [CoffeSiberian/truck-tools](https://github.com/CoffeSiberian/truck-tools) | **337** | Chile, Villa Alegre |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

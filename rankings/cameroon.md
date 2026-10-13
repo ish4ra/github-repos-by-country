@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **7**
-- Current global star frontier: **357**
+- Verified high-star candidates retained: **8**
+- Current global star frontier: **328**
 
 ### High-star verified preview
 
@@ -58,5 +58,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [yunweneric/flutter-open-ui](https://github.com/yunweneric/flutter-open-ui) | **524** | Douala, Cameroon |
 | [Hubertformin/electron-pos-printer](https://github.com/Hubertformin/electron-pos-printer) | **403** | Yaounde, Cameroon |
 | [Leoneldev532/Free-Ui-game](https://github.com/Leoneldev532/Free-Ui-game) | **365** | Cameroun |
+| [djantche/site-du-zero-old-pdf](https://github.com/djantche/site-du-zero-old-pdf) | **336** | Yaoundé, Cameroon. |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

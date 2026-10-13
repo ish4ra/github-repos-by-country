@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **13**
-- Current global star frontier: **347**
+- Verified high-star candidates retained: **14**
+- Current global star frontier: **328**
 
 ### High-star verified preview
 
@@ -64,5 +64,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [elamperti/OpenWebScrobbler](https://github.com/elamperti/OpenWebScrobbler) | **467** | Bariloche, Argentina |
 | [sberoch/RickAndMorty-AndroidArchitectureSample](https://github.com/sberoch/RickAndMorty-AndroidArchitectureSample) | **442** | Zarate, Buenos Aires, Argentina |
 | [jhewt/gumer-psn](https://github.com/jhewt/gumer-psn) | **348** | San Carlos de Bariloche, Argentina |
+| [leotorrez/LeoTools](https://github.com/leotorrez/LeoTools) | **335** | Santiago del Estero, Argentina |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

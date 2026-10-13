@@ -21,7 +21,7 @@
 
 ## Browse by country
 
-**250 indexed · 45 live · 250 building · 0 queued**
+**250 indexed · 46 live · 250 building · 0 queued**
 
 > 🟢 **Live** = published ranking · 🟡 **Building** = crawl in progress · ⚪ **Queued** = waiting for its first crawl
 
@@ -279,7 +279,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
       <td width="25%">🟡 <a href="./rankings/northern-mariana-islands.md"><strong>🇲🇵 Northern Mariana Islands</strong></a></td>
       <td width="25%">🟢 <a href="./rankings/norway.md"><strong>🇳🇴 Norway</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/oman.md"><strong>🇴🇲 Oman</strong></a></td>
-      <td width="25%">🟡 <a href="./rankings/pakistan.md"><strong>🇵🇰 Pakistan</strong></a></td>
+      <td width="25%">🟢 <a href="./rankings/pakistan.md"><strong>🇵🇰 Pakistan</strong></a></td>
     </tr>
     <tr>
       <td width="25%">🟡 <a href="./rankings/palau.md"><strong>🇵🇼 Palau</strong></a></td>

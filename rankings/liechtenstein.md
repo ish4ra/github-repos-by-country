@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **427**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **328**
 
 ### High-star verified preview
 
@@ -55,5 +55,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [aeternity/aeternity](https://github.com/aeternity/aeternity) | **1,086** | Liechtenstein |
 | [ParetoSecurity/pareto-mac](https://github.com/ParetoSecurity/pareto-mac) | **458** | Liechtenstein |
 | [byteball/obyte-gui-wallet](https://github.com/byteball/obyte-gui-wallet) | **429** | Liechtenstein |
+| [danheron/Heron.MudCalendar](https://github.com/danheron/Heron.MudCalendar) | **332** | Liechtenstein |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

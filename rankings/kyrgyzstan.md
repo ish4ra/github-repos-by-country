@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **347**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **328**
 
 ### High-star verified preview
 
@@ -55,5 +55,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [artur-shaik/vim-javacomplete2](https://github.com/artur-shaik/vim-javacomplete2) | **961** | Bishkek, KG |
 | [dontsovcmc/waterius](https://github.com/dontsovcmc/waterius) | **680** | Bishkek, Kyrgyzstan |
 | [teimurjan/blazediff](https://github.com/teimurjan/blazediff) | **352** | Bishkek, Kyrgyzstan |
+| [buzzySmile/qBreakpad](https://github.com/buzzySmile/qBreakpad) | **330** | Bishkek City, Kyrgyzstan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
