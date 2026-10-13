@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **456**
+- Verified high-star candidates retained: **10**
+- Current global star frontier: **347**
 
 ### High-star verified preview
 
@@ -60,5 +60,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [dicallc/ionic3_angular4_JD](https://github.com/dicallc/ionic3_angular4_JD) | **570** | SZ |
 | [FaceAISDK/FaceRecognition_ReactNative](https://github.com/FaceAISDK/FaceRecognition_ReactNative) | **563** | SZ |
 | [kaylorchen/rk3588-yolo-demo](https://github.com/kaylorchen/rk3588-yolo-demo) | **461** | SZ |
+| [FaceAISDK/FaceAISDK_iOS](https://github.com/FaceAISDK/FaceAISDK_iOS) | **351** | SZ |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

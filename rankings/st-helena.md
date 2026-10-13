@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **10**
-- Current global star frontier: **357**
+- Verified high-star candidates retained: **11**
+- Current global star frontier: **347**
 
 ### High-star verified preview
 
@@ -61,5 +61,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [halsay/ASR-TTS-paper-daily](https://github.com/halsay/ASR-TTS-paper-daily) | **513** | SH |
 | [greatyao/v2ex-android](https://github.com/greatyao/v2ex-android) | **499** | SH |
 | [LuoDi-Nate/financial-management](https://github.com/LuoDi-Nate/financial-management) | **363** | sh |
+| [wangzaiplus/springboot](https://github.com/wangzaiplus/springboot) | **349** | sh |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -1,0 +1,3395 @@
+{
+  "schemaVersion": 1,
+  "methodologyVersion": "0.8.0-repository-first",
+  "generatedAt": "2026-10-13T07:54:56.815Z",
+  "country": {
+    "code": "PH",
+    "name": "Philippines",
+    "slug": "philippines"
+  },
+  "source": {
+    "provider": "GitHub GraphQL API",
+    "endpoint": "https://api.github.com/graphql",
+    "countryBasis": "public repository-owner profile location",
+    "discovery": "global repositories scanned by stars descending"
+  },
+  "coverage": {
+    "status": "repository-first-certified-by-star-frontier",
+    "exhaustive": false,
+    "rawOwnerHits": 171446,
+    "acceptedUniqueOwners": 79,
+    "ownerMetricLabel": "Unique owners in top ranking",
+    "repositoriesConsidered": 101,
+    "publishedRepositories": 100,
+    "candidateThresholdStars": 350,
+    "rankingLimit": 100,
+    "cappedQueries": [],
+    "repositoryFirst": {
+      "scanFrontierStars": 347,
+      "topObservedStars": 551406,
+      "repositoriesSeen": 171446,
+      "attributedRepositories": 63450,
+      "ambiguousLocations": 27367,
+      "unknownLocations": 80629,
+      "unresolvedStarCounts": []
+    },
+    "notes": [
+      "Repositories are scanned globally in descending star ranges, independently of owner follower count or owner-search ordering.",
+      "A country is certified only after its 100th repository has more stars than every unprocessed global star range.",
+      "Owner country is inferred from the owner public GitHub profile location using the global geography resolver.",
+      "Owners with missing or unresolved locations are excluded, so country attribution is not a citizenship or legal-incorporation claim.",
+      "Compound city/admin locations such as \"Portland, OR\" are resolved before ambiguous city-only names."
+    ]
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "sutskever-30-implementations",
+      "nameWithOwner": "pageman/sutskever-30-implementations",
+      "url": "https://github.com/pageman/sutskever-30-implementations",
+      "description": "Sutskever 30 implementations inspired by https://papercode.vercel.app/ | For Agents, use https://github.com/pageman/Sutskever-Agent | Polyglot / Multi-Backed version at https://github.com/pageman/sutskever-30-beyond-numpy",
+      "stars": 5188,
+      "forks": 664,
+      "primaryLanguage": "Jupyter Notebook",
+      "license": null,
+      "createdAt": "2025-12-06T03:08:41Z",
+      "pushedAt": "2026-03-15T22:54:50Z",
+      "homepageUrl": "https://pageman.gumroad.com/l/sutskever30colabcode",
+      "archived": false,
+      "owner": {
+        "login": "pageman",
+        "name": "Paul Pajo",
+        "type": "User",
+        "url": "https://github.com/pageman",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24869?v=4",
+        "location": "Manila, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 2,
+      "name": "laravel-datatables",
+      "nameWithOwner": "yajra/laravel-datatables",
+      "url": "https://github.com/yajra/laravel-datatables",
+      "description": "jQuery DataTables API for Laravel",
+      "stars": 4872,
+      "forks": 853,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-11-27T02:31:18Z",
+      "pushedAt": "2026-09-15T10:33:55Z",
+      "homepageUrl": "https://yajrabox.com/docs/laravel-datatables",
+      "archived": false,
+      "owner": {
+        "login": "yajra",
+        "name": "Arjay Angeles",
+        "type": "User",
+        "url": "https://github.com/yajra",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2687997?v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 3,
+      "name": "Arch-Hyprland",
+      "nameWithOwner": "JaKooLit/Arch-Hyprland",
+      "url": "https://github.com/JaKooLit/Arch-Hyprland",
+      "description": "For automated installation of Hyprland on Arch Linux or any Arch Linux-based distros",
+      "stars": 4583,
+      "forks": 361,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2023-10-26T02:00:02Z",
+      "pushedAt": "2026-02-22T15:38:26Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "JaKooLit",
+        "name": "Ja.KooLit",
+        "type": "User",
+        "url": "https://github.com/JaKooLit",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85185940?u=ef87f8b470f535e5a8175b31df0345ac283670d5&v=4",
+        "location": "Philippines / South Korea - Worldwide",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 4,
+      "name": "svgbob",
+      "nameWithOwner": "ivanceras/svgbob",
+      "url": "https://github.com/ivanceras/svgbob",
+      "description": "Convert your ascii diagram scribbles into happy little SVG",
+      "stars": 4234,
+      "forks": 127,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2016-10-09T06:33:27Z",
+      "pushedAt": "2026-04-22T23:09:36Z",
+      "homepageUrl": "http://ivanceras.github.io/svgbob-editor/",
+      "archived": false,
+      "owner": {
+        "login": "ivanceras",
+        "name": "Jovansonlee Cesar",
+        "type": "User",
+        "url": "https://github.com/ivanceras",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7972655?u=305c09efcc84f8f3ff45803c9e606133018740c3&v=4",
+        "location": "Cebu, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 5,
+      "name": "Hyprland-Dots",
+      "nameWithOwner": "JaKooLit/Hyprland-Dots",
+      "url": "https://github.com/JaKooLit/Hyprland-Dots",
+      "description": "Hyprland configuration files or dotfiles - This repo is used as main repo for all my Distro-Hyprland Install Scripts. See the readme",
+      "stars": 3580,
+      "forks": 342,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2023-10-22T03:45:25Z",
+      "pushedAt": "2026-02-22T15:37:12Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "JaKooLit",
+        "name": "Ja.KooLit",
+        "type": "User",
+        "url": "https://github.com/JaKooLit",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85185940?u=ef87f8b470f535e5a8175b31df0345ac283670d5&v=4",
+        "location": "Philippines / South Korea - Worldwide",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 6,
+      "name": "Kooha",
+      "nameWithOwner": "SeaDve/Kooha",
+      "url": "https://github.com/SeaDve/Kooha",
+      "description": "Elegantly record your screen",
+      "stars": 3525,
+      "forks": 101,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2021-03-04T08:45:11Z",
+      "pushedAt": "2026-10-02T21:23:08Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "SeaDve",
+        "name": "Dave Patrick",
+        "type": "User",
+        "url": "https://github.com/SeaDve",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64297935?u=5bc67aca72df20ac182904c56a759fe9f6f849c6&v=4",
+        "location": "Central Luzon, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 7,
+      "name": "react-native-rename",
+      "nameWithOwner": "junedomingo/react-native-rename",
+      "url": "https://github.com/junedomingo/react-native-rename",
+      "description": "Rename react-native app with just one command",
+      "stars": 2777,
+      "forks": 266,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-09-20T12:46:31Z",
+      "pushedAt": "2026-08-04T03:09:16Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "junedomingo",
+        "name": "June Domingo",
+        "type": "User",
+        "url": "https://github.com/junedomingo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5106887?u=16658a0768e3c765eef71486b5b5a71525cfc8d9&v=4",
+        "location": "Ilagan City, Isabela, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 8,
+      "name": "the-glorious-dotfiles",
+      "nameWithOwner": "eromatiya/the-glorious-dotfiles",
+      "url": "https://github.com/eromatiya/the-glorious-dotfiles",
+      "description": "A glorified personal dot files",
+      "stars": 2684,
+      "forks": 145,
+      "primaryLanguage": "Lua",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2019-09-27T03:02:04Z",
+      "pushedAt": "2023-02-22T20:45:43Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "eromatiya",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/eromatiya",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40349590?u=b2d0114f5b97ccc2085ad4616559109598e77965&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 9,
+      "name": "nanoScrollerJS",
+      "nameWithOwner": "jamesflorentino/nanoScrollerJS",
+      "url": "https://github.com/jamesflorentino/nanoScrollerJS",
+      "description": "A jQuery plugin that offers a simplistic way of implementing Lion OS scrollbars.",
+      "stars": 2677,
+      "forks": 491,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2011-12-06T15:49:50Z",
+      "pushedAt": "2018-11-06T16:43:30Z",
+      "homepageUrl": "http://jamesflorentino.github.com/nanoScrollerJS/",
+      "archived": false,
+      "owner": {
+        "login": "jamesflorentino",
+        "name": "James F",
+        "type": "User",
+        "url": "https://github.com/jamesflorentino",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/458310?u=1383c68633a5bf88b2585e043f37c81b8d921ad7&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 10,
+      "name": "Fedora-Hyprland",
+      "nameWithOwner": "JaKooLit/Fedora-Hyprland",
+      "url": "https://github.com/JaKooLit/Fedora-Hyprland",
+      "description": "For automated installation of Hyprland on Fedora (latest release) or any Fedora based distros",
+      "stars": 2545,
+      "forks": 142,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2023-09-22T14:34:13Z",
+      "pushedAt": "2026-02-22T15:39:55Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "JaKooLit",
+        "name": "Ja.KooLit",
+        "type": "User",
+        "url": "https://github.com/JaKooLit",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85185940?u=ef87f8b470f535e5a8175b31df0345ac283670d5&v=4",
+        "location": "Philippines / South Korea - Worldwide",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 11,
+      "name": "mcp-server-mysql",
+      "nameWithOwner": "benborla/mcp-server-mysql",
+      "url": "https://github.com/benborla/mcp-server-mysql",
+      "description": "A Model Context Protocol server that provides read-only access to MySQL databases. This server enables LLMs to inspect database schemas and execute read-only queries.",
+      "stars": 2141,
+      "forks": 253,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2024-12-09T14:02:55Z",
+      "pushedAt": "2026-07-27T13:36:52Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "benborla",
+        "name": "Ben Borla",
+        "type": "User",
+        "url": "https://github.com/benborla",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22745294?u=99efe4e5b221eef4d05be425ea8b02239c692a69&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 12,
+      "name": "react-native-true-sheet",
+      "nameWithOwner": "lodev09/react-native-true-sheet",
+      "url": "https://github.com/lodev09/react-native-true-sheet",
+      "description": "The true native bottom sheet experience 💩",
+      "stars": 2068,
+      "forks": 109,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2024-03-23T03:42:14Z",
+      "pushedAt": "2026-10-02T16:56:24Z",
+      "homepageUrl": "https://sheet.lodev09.com",
+      "archived": false,
+      "owner": {
+        "login": "lodev09",
+        "name": "Jovanni Lo",
+        "type": "User",
+        "url": "https://github.com/lodev09",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6686328?u=4e1b47656bd98f83eea262f3f09750c6c3df674a&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 13,
+      "name": "sauron",
+      "nameWithOwner": "ivanceras/sauron",
+      "url": "https://github.com/ivanceras/sauron",
+      "description": "A versatile web framework and library for building client-side and server-side web applications",
+      "stars": 2065,
+      "forks": 61,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-04-15T15:21:54Z",
+      "pushedAt": "2025-01-27T11:51:25Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ivanceras",
+        "name": "Jovansonlee Cesar",
+        "type": "User",
+        "url": "https://github.com/ivanceras",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7972655?u=305c09efcc84f8f3ff45803c9e606133018740c3&v=4",
+        "location": "Cebu, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 14,
+      "name": "CodeAssist",
+      "nameWithOwner": "tyron12233/CodeAssist",
+      "url": "https://github.com/tyron12233/CodeAssist",
+      "description": "An IDE for building Android applicatons on Android.",
+      "stars": 1952,
+      "forks": 409,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2021-08-16T11:30:27Z",
+      "pushedAt": "2026-10-05T05:16:11Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "tyron12233",
+        "name": "tyron",
+        "type": "User",
+        "url": "https://github.com/tyron12233",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/74818961?u=1b9a8d8710630461ca48b95ddf0c67e78f1e4952&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 15,
+      "name": "movieapp",
+      "nameWithOwner": "junedomingo/movieapp",
+      "url": "https://github.com/junedomingo/movieapp",
+      "description": "Discover Movies and TV shows -  React Native ",
+      "stars": 1827,
+      "forks": 460,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-10-10T11:54:33Z",
+      "pushedAt": "2021-11-03T06:42:42Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "junedomingo",
+        "name": "June Domingo",
+        "type": "User",
+        "url": "https://github.com/junedomingo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5106887?u=16658a0768e3c765eef71486b5b5a71525cfc8d9&v=4",
+        "location": "Ilagan City, Isabela, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 16,
+      "name": "Ubuntu-Hyprland",
+      "nameWithOwner": "JaKooLit/Ubuntu-Hyprland",
+      "url": "https://github.com/JaKooLit/Ubuntu-Hyprland",
+      "description": "Automated Hyprland installer for Ubuntu. NOTE: Repo Branches as per Ubuntu Versions",
+      "stars": 1603,
+      "forks": 99,
+      "primaryLanguage": null,
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2024-08-23T14:03:33Z",
+      "pushedAt": "2026-02-22T15:42:55Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "JaKooLit",
+        "name": "Ja.KooLit",
+        "type": "User",
+        "url": "https://github.com/JaKooLit",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85185940?u=ef87f8b470f535e5a8175b31df0345ac283670d5&v=4",
+        "location": "Philippines / South Korea - Worldwide",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 17,
+      "name": "ArkOS-R3XS",
+      "nameWithOwner": "AeolusUX/ArkOS-R3XS",
+      "url": "https://github.com/AeolusUX/ArkOS-R3XS",
+      "description": "Community Maintained Image of ArkOS for the RetroBox Console / Game Station / Game Consoie R35S / R36S / PowKiddy RGB20S",
+      "stars": 1595,
+      "forks": 77,
+      "primaryLanguage": "HTML",
+      "license": null,
+      "createdAt": "2024-01-31T14:54:59Z",
+      "pushedAt": "2026-06-09T07:47:29Z",
+      "homepageUrl": "https://aeolusux.github.io/ArkOS-R3XS/",
+      "archived": true,
+      "owner": {
+        "login": "AeolusUX",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/AeolusUX",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/153573107?u=12f6d7ca744cdbb550458ab4a318ca94d72f0d8b&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 18,
+      "name": "Debian-Hyprland",
+      "nameWithOwner": "JaKooLit/Debian-Hyprland",
+      "url": "https://github.com/JaKooLit/Debian-Hyprland",
+      "description": "For automated installation of Hyprland on Debian 13 Trixie (Testing) and Debian SiD (Unstable)",
+      "stars": 1407,
+      "forks": 124,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2023-10-12T07:14:56Z",
+      "pushedAt": "2026-02-22T15:41:53Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "JaKooLit",
+        "name": "Ja.KooLit",
+        "type": "User",
+        "url": "https://github.com/JaKooLit",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85185940?u=ef87f8b470f535e5a8175b31df0345ac283670d5&v=4",
+        "location": "Philippines / South Korea - Worldwide",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 19,
+      "name": "laravelshoppingcart",
+      "nameWithOwner": "darryldecode/laravelshoppingcart",
+      "url": "https://github.com/darryldecode/laravelshoppingcart",
+      "description": "Shopping Cart Implementation for Laravel Framework",
+      "stars": 1406,
+      "forks": 490,
+      "primaryLanguage": "PHP",
+      "license": null,
+      "createdAt": "2015-01-16T13:05:09Z",
+      "pushedAt": "2026-04-03T22:06:23Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "darryldecode",
+        "name": "darryl fernandez",
+        "type": "User",
+        "url": "https://github.com/darryldecode",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5498919?u=bd8af27a970ff3a21dcb133ef9cb421728a8ba55&v=4",
+        "location": "Davao City, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 20,
+      "name": "nextacular",
+      "nameWithOwner": "nextacular/nextacular",
+      "url": "https://github.com/nextacular/nextacular",
+      "description": "An open-source starter kit that will help you build full-stack multi-tenant SaaS platforms efficiently and help you focus on developing your core SaaS features. Built on top of popular and modern technologies such as Next JS, Tailwind, Prisma, and Stripe.",
+      "stars": 1390,
+      "forks": 244,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-01-07T01:12:41Z",
+      "pushedAt": "2026-05-30T12:31:52Z",
+      "homepageUrl": "https://nextacular.co",
+      "archived": false,
+      "owner": {
+        "login": "nextacular",
+        "name": "Nextacular",
+        "type": "Organization",
+        "url": "https://github.com/nextacular",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/102165522?v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 21,
+      "name": "cove",
+      "nameWithOwner": "mugnavo/cove",
+      "url": "https://github.com/mugnavo/cove",
+      "description": "The Cove Stack: 🏝️ minimal TanStack Start template with Vite+, Better Auth, Drizzle ORM, shadcn/ui",
+      "stars": 1390,
+      "forks": 88,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "The Unlicense",
+        "spdxId": "Unlicense"
+      },
+      "createdAt": "2024-08-23T05:08:16Z",
+      "pushedAt": "2026-10-03T16:54:18Z",
+      "homepageUrl": "https://cove.mugnavo.com",
+      "archived": false,
+      "owner": {
+        "login": "mugnavo",
+        "name": "Mugnavo",
+        "type": "Organization",
+        "url": "https://github.com/mugnavo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/139675665?v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 22,
+      "name": "ecommerce-react",
+      "nameWithOwner": "jgudo/ecommerce-react",
+      "url": "https://github.com/jgudo/ecommerce-react",
+      "description": "eCommerce web application using React, Redux, Redux-Saga, Firebase and SASS. ",
+      "stars": 1346,
+      "forks": 709,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2019-08-05T02:08:01Z",
+      "pushedAt": "2024-07-22T17:06:40Z",
+      "homepageUrl": "https://salinaka-ecommerce.web.app",
+      "archived": false,
+      "owner": {
+        "login": "jgudo",
+        "name": "Julius Guevarra",
+        "type": "User",
+        "url": "https://github.com/jgudo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30772059?u=9ed183eb2c5688a8172eacce02a797bbea31c5dd&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 23,
+      "name": "workout-guide",
+      "nameWithOwner": "bryllim/workout-guide",
+      "url": "https://github.com/bryllim/workout-guide",
+      "description": "302 open exercise illustrations and a framework-neutral npm package by Bryl Lim",
+      "stars": 1330,
+      "forks": 196,
+      "primaryLanguage": "Astro",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-08-24T02:14:20Z",
+      "pushedAt": "2026-08-26T16:05:37Z",
+      "homepageUrl": "https://bryllim.github.io/workout-guide/",
+      "archived": false,
+      "owner": {
+        "login": "bryllim",
+        "name": "Bryl Lim",
+        "type": "User",
+        "url": "https://github.com/bryllim",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37092544?u=9e30e372ca4de841a4f42e1931625c9ff46a2991&v=4",
+        "location": "Manila, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 24,
+      "name": "evilportals",
+      "nameWithOwner": "kleo/evilportals",
+      "url": "https://github.com/kleo/evilportals",
+      "description": "A collection of captive portals for phishing using a WiFi Pineapple ",
+      "stars": 1294,
+      "forks": 222,
+      "primaryLanguage": "CSS",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2016-12-13T08:32:30Z",
+      "pushedAt": "2026-05-04T17:49:49Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "kleo",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/kleo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13497504?u=8d999b7490130e65c71304cb9cc748ec5f6a6b10&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 25,
+      "name": "Mousai",
+      "nameWithOwner": "SeaDve/Mousai",
+      "url": "https://github.com/SeaDve/Mousai",
+      "description": "Identify songs in seconds",
+      "stars": 1221,
+      "forks": 57,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2021-03-29T05:23:41Z",
+      "pushedAt": "2026-09-26T05:51:33Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "SeaDve",
+        "name": "Dave Patrick",
+        "type": "User",
+        "url": "https://github.com/SeaDve",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64297935?u=5bc67aca72df20ac182904c56a759fe9f6f849c6&v=4",
+        "location": "Central Luzon, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 26,
+      "name": "Deep-Learning-Experiments",
+      "nameWithOwner": "roatienza/Deep-Learning-Experiments",
+      "url": "https://github.com/roatienza/Deep-Learning-Experiments",
+      "description": "Videos, notes and experiments to understand deep learning",
+      "stars": 1203,
+      "forks": 767,
+      "primaryLanguage": "Jupyter Notebook",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-01-10T01:31:13Z",
+      "pushedAt": "2026-09-26T03:21:19Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "roatienza",
+        "name": "Rowel Atienza",
+        "type": "User",
+        "url": "https://github.com/roatienza",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8848769?u=7a21b4207647a0bdd960bd8807b65d2d41c4e064&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 27,
+      "name": "PSn00bSDK",
+      "nameWithOwner": "Lameguy64/PSn00bSDK",
+      "url": "https://github.com/Lameguy64/PSn00bSDK",
+      "description": "The most powerful open source SDK for the PS1 (as far as open source PS1 SDKs go). Not recommended for beginner use.",
+      "stars": 1138,
+      "forks": 85,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2019-04-06T02:09:25Z",
+      "pushedAt": "2025-01-28T13:42:53Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Lameguy64",
+        "name": "John \"Lameguy\" Wilbert Villamor",
+        "type": "User",
+        "url": "https://github.com/Lameguy64",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10251759?u=ee57f286d558ca87c421a9726391b02737b425c0&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 28,
+      "name": "vue-stripe",
+      "nameWithOwner": "vue-stripe/vue-stripe",
+      "url": "https://github.com/vue-stripe/vue-stripe",
+      "description": "Stripe Checkout & Elements for Vue.js",
+      "stars": 1125,
+      "forks": 140,
+      "primaryLanguage": "Vue",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-09-27T07:22:52Z",
+      "pushedAt": "2026-10-06T00:54:31Z",
+      "homepageUrl": "https://vuestripe.com",
+      "archived": false,
+      "owner": {
+        "login": "vue-stripe",
+        "name": "Vue Stripe",
+        "type": "Organization",
+        "url": "https://github.com/vue-stripe",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72558505?v=4",
+        "location": "Manila, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 29,
+      "name": "Bluetooth-jammer-esp32",
+      "nameWithOwner": "smoochiee/Bluetooth-jammer-esp32",
+      "url": "https://github.com/smoochiee/Bluetooth-jammer-esp32",
+      "description": "Bluetooth jamming esp32 with nrf24l01",
+      "stars": 1072,
+      "forks": 229,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2024-03-06T05:53:34Z",
+      "pushedAt": "2024-11-04T11:16:24Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "smoochiee",
+        "name": "IAm Smoochiee",
+        "type": "User",
+        "url": "https://github.com/smoochiee",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30816448?u=b66e38477bfdfe291a7cb3b41b84f1dc618b3bf6&v=4",
+        "location": "philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 30,
+      "name": "AdoBot",
+      "nameWithOwner": "adonespitogo/AdoBot",
+      "url": "https://github.com/adonespitogo/AdoBot",
+      "description": "Open-source android spyware",
+      "stars": 1052,
+      "forks": 323,
+      "primaryLanguage": "Java",
+      "license": null,
+      "createdAt": "2017-02-17T16:14:24Z",
+      "pushedAt": "2026-10-02T22:30:46Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "adonespitogo",
+        "name": "Adones Pitogo",
+        "type": "User",
+        "url": "https://github.com/adonespitogo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3839684?v=4",
+        "location": "Cebu City, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 31,
+      "name": "dotfiles",
+      "nameWithOwner": "janleigh/dotfiles",
+      "url": "https://github.com/janleigh/dotfiles",
+      "description": "My desktop configuration files.",
+      "stars": 935,
+      "forks": 30,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "GNU Lesser General Public License v3.0",
+        "spdxId": "LGPL-3.0"
+      },
+      "createdAt": "2021-03-14T00:42:33Z",
+      "pushedAt": "2023-02-03T23:56:41Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "janleigh",
+        "name": "Jan Leigh Muñoz",
+        "type": "User",
+        "url": "https://github.com/janleigh",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40911019?u=69756c96685af4b18adae1c06509f88585f61e72&v=4",
+        "location": "Aklan, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 32,
+      "name": "blurredfox",
+      "nameWithOwner": "eromatiya/blurredfox",
+      "url": "https://github.com/eromatiya/blurredfox",
+      "description": "A sleek, modern and elegant Firefox CSS theme",
+      "stars": 926,
+      "forks": 43,
+      "primaryLanguage": "CSS",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-05-20T05:12:16Z",
+      "pushedAt": "2023-06-27T10:12:27Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "eromatiya",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/eromatiya",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40349590?u=b2d0114f5b97ccc2085ad4616559109598e77965&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 33,
+      "name": "laravel-angular-admin",
+      "nameWithOwner": "silverbux/laravel-angular-admin",
+      "url": "https://github.com/silverbux/laravel-angular-admin",
+      "description": "Laravel + Angularjs + Bootstrap + AdminLTE binded by Gulp workflow Admin Dashboard Boilerplate / Starter. ",
+      "stars": 919,
+      "forks": 403,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-04-18T10:17:57Z",
+      "pushedAt": "2017-11-27T08:38:04Z",
+      "homepageUrl": "http://silverbux.github.io/laravel-angular-admin/",
+      "archived": true,
+      "owner": {
+        "login": "silverbux",
+        "name": "Alex Quiambao",
+        "type": "User",
+        "url": "https://github.com/silverbux",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1888261?u=70bd2504075394048a1cf988116ff2f132d782b9&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 34,
+      "name": "Wallpaper-Bank",
+      "nameWithOwner": "JaKooLit/Wallpaper-Bank",
+      "url": "https://github.com/JaKooLit/Wallpaper-Bank",
+      "description": "Additional wallpapers which will be offered to users for my hyprland scripts",
+      "stars": 878,
+      "forks": 119,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2023-12-02T00:58:44Z",
+      "pushedAt": "2025-12-21T20:16:19Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "JaKooLit",
+        "name": "Ja.KooLit",
+        "type": "User",
+        "url": "https://github.com/JaKooLit",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85185940?u=ef87f8b470f535e5a8175b31df0345ac283670d5&v=4",
+        "location": "Philippines / South Korea - Worldwide",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 35,
+      "name": "laravel-oci8",
+      "nameWithOwner": "yajra/laravel-oci8",
+      "url": "https://github.com/yajra/laravel-oci8",
+      "description": "Oracle DB driver for Laravel via OCI8",
+      "stars": 873,
+      "forks": 250,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-11-23T06:01:37Z",
+      "pushedAt": "2026-09-15T04:33:40Z",
+      "homepageUrl": "https://yajrabox.com/docs/laravel-oci8",
+      "archived": false,
+      "owner": {
+        "login": "yajra",
+        "name": "Arjay Angeles",
+        "type": "User",
+        "url": "https://github.com/yajra",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2687997?v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 36,
+      "name": "mechabar",
+      "nameWithOwner": "sejjy/mechabar",
+      "url": "https://github.com/sejjy/mechabar",
+      "description": "A modular Waybar configuration",
+      "stars": 871,
+      "forks": 77,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2024-08-20T05:52:04Z",
+      "pushedAt": "2026-09-23T23:53:29Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "sejjy",
+        "name": "Jesse Mirabel",
+        "type": "User",
+        "url": "https://github.com/sejjy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/158748436?u=08b6f62483e0ce908714033e44df82fefa9c734d&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 37,
+      "name": "grafika",
+      "nameWithOwner": "kosinix/grafika",
+      "url": "https://github.com/kosinix/grafika",
+      "description": "An image processing library for PHP",
+      "stars": 868,
+      "forks": 93,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-04-04T06:03:54Z",
+      "pushedAt": "2023-10-09T07:24:33Z",
+      "homepageUrl": "https://kosinix.github.io/grafika",
+      "archived": false,
+      "owner": {
+        "login": "kosinix",
+        "name": "Kosinix",
+        "type": "User",
+        "url": "https://github.com/kosinix",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1096465?u=24598870ff0d8d5f6c449f602ee927aa9aa87793&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 38,
+      "name": "onchange",
+      "nameWithOwner": "Qard/onchange",
+      "url": "https://github.com/Qard/onchange",
+      "description": "Use glob patterns to watch file sets and run a command when anything is added, changed or deleted.",
+      "stars": 825,
+      "forks": 48,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-01-18T08:50:47Z",
+      "pushedAt": "2026-06-18T20:53:10Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Qard",
+        "name": "Stephen Belanger",
+        "type": "User",
+        "url": "https://github.com/Qard",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/205482?u=de3265fd6a286e3e51965136cbe7a04bb9ec051a&v=4",
+        "location": "Vancouver, BC, Canada/Manila, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 39,
+      "name": "htmx-go",
+      "nameWithOwner": "angelofallars/htmx-go",
+      "url": "https://github.com/angelofallars/htmx-go",
+      "description": "</> Build awesome HTMX + Go projects faster.",
+      "stars": 808,
+      "forks": 22,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-11-22T02:18:44Z",
+      "pushedAt": "2024-11-30T02:48:07Z",
+      "homepageUrl": "https://pkg.go.dev/github.com/angelofallars/htmx-go?tab=doc",
+      "archived": false,
+      "owner": {
+        "login": "angelofallars",
+        "name": "angelo",
+        "type": "User",
+        "url": "https://github.com/angelofallars",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39676098?u=492e6d5f54f5befa6a69544ba415009a738bb8f0&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 40,
+      "name": "conf",
+      "nameWithOwner": "qxb3/conf",
+      "url": "https://github.com/qxb3/conf",
+      "description": "My hyprland configurations",
+      "stars": 807,
+      "forks": 17,
+      "primaryLanguage": null,
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-03-15T20:06:30Z",
+      "pushedAt": "2026-03-14T11:01:17Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "qxb3",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/qxb3",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59109346?u=83590dcac1ac1698dd63fcb15c03efb0d6b513f8&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 41,
+      "name": "livewire-alert",
+      "nameWithOwner": "jantinnerezo/livewire-alert",
+      "url": "https://github.com/jantinnerezo/livewire-alert",
+      "description": "SweetAlert2 integration for Livewire",
+      "stars": 806,
+      "forks": 91,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-06-14T04:12:10Z",
+      "pushedAt": "2026-05-20T11:01:42Z",
+      "homepageUrl": "https://livewire-alert.jantinnerezo.me",
+      "archived": false,
+      "owner": {
+        "login": "jantinnerezo",
+        "name": "Jantinn Erezo",
+        "type": "User",
+        "url": "https://github.com/jantinnerezo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29738837?u=6122ea74349f4bcb46d7d292dc62c01eadda7565&v=4",
+        "location": "Cebu City, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 42,
+      "name": "Noisy-boy-esp32-Bluetooth-jammer",
+      "nameWithOwner": "smoochiee/Noisy-boy-esp32-Bluetooth-jammer",
+      "url": "https://github.com/smoochiee/Noisy-boy-esp32-Bluetooth-jammer",
+      "description": "Bluetooth jammer using esp32 with webserver",
+      "stars": 799,
+      "forks": 86,
+      "primaryLanguage": "HTML",
+      "license": null,
+      "createdAt": "2024-09-12T10:40:46Z",
+      "pushedAt": "2025-01-21T15:36:34Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "smoochiee",
+        "name": "IAm Smoochiee",
+        "type": "User",
+        "url": "https://github.com/smoochiee",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30816448?u=b66e38477bfdfe291a7cb3b41b84f1dc618b3bf6&v=4",
+        "location": "philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 43,
+      "name": "librefind",
+      "nameWithOwner": "jksalcedo/librefind",
+      "url": "https://github.com/jksalcedo/librefind",
+      "description": "Discover and replace proprietary apps with FOSS alternatives",
+      "stars": 795,
+      "forks": 20,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2026-01-07T12:13:40Z",
+      "pushedAt": "2026-10-07T10:51:37Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "jksalcedo",
+        "name": "Jaressen Kyle Salcedo",
+        "type": "User",
+        "url": "https://github.com/jksalcedo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/196589192?u=0298670a159cb3ef0b28fe781c60cd681a698efe&v=4",
+        "location": "Camarines Sur, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 44,
+      "name": "parseq",
+      "nameWithOwner": "baudm/parseq",
+      "url": "https://github.com/baudm/parseq",
+      "description": "Scene Text Recognition with Permuted Autoregressive Sequence Models (ECCV 2022)",
+      "stars": 743,
+      "forks": 163,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2021-11-24T02:48:36Z",
+      "pushedAt": "2024-05-29T02:02:27Z",
+      "homepageUrl": "https://huggingface.co/spaces/baudm/PARSeq-OCR",
+      "archived": false,
+      "owner": {
+        "login": "baudm",
+        "name": "Darwin",
+        "type": "User",
+        "url": "https://github.com/baudm",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1025433?v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 45,
+      "name": "Counter-Up",
+      "nameWithOwner": "bfintal/Counter-Up",
+      "url": "https://github.com/bfintal/Counter-Up",
+      "description": "Counter-Up is a lightweight jQuery plugin that counts up to a targeted number when the number becomes visible.",
+      "stars": 737,
+      "forks": 688,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "spdxId": "GPL-2.0"
+      },
+      "createdAt": "2013-11-25T16:54:52Z",
+      "pushedAt": "2021-08-22T12:06:19Z",
+      "homepageUrl": "http://bfintal.github.io/Counter-Up/demo/demo.html",
+      "archived": true,
+      "owner": {
+        "login": "bfintal",
+        "name": "Benjamin Intal",
+        "type": "User",
+        "url": "https://github.com/bfintal",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1033611?v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 46,
+      "name": "seroval",
+      "nameWithOwner": "lxsmnsyc/seroval",
+      "url": "https://github.com/lxsmnsyc/seroval",
+      "description": "Stringify JS values",
+      "stars": 732,
+      "forks": 18,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-02-05T17:52:28Z",
+      "pushedAt": "2026-10-05T06:46:42Z",
+      "homepageUrl": "https://seroval.vercel.app",
+      "archived": false,
+      "owner": {
+        "login": "lxsmnsyc",
+        "name": "Alexis H. Munsayac",
+        "type": "User",
+        "url": "https://github.com/lxsmnsyc",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4783372?u=d2703898b986d28943660920e134c8df47e676da&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 47,
+      "name": "chatgpt-prompts",
+      "nameWithOwner": "pacholoamit/chatgpt-prompts",
+      "url": "https://github.com/pacholoamit/chatgpt-prompts",
+      "description": "A NodeJS ChatGPT prompts library that contains more than 140+ awesome prompts",
+      "stars": 714,
+      "forks": 81,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-02-06T03:45:14Z",
+      "pushedAt": "2025-01-13T16:33:37Z",
+      "homepageUrl": "https://www.npmjs.com/package/chatgpt-prompts",
+      "archived": false,
+      "owner": {
+        "login": "pacholoamit",
+        "name": "Pacholo Amit",
+        "type": "User",
+        "url": "https://github.com/pacholoamit",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69985528?u=96b08ef973aa6c63fdc06138c46c3df30f2757cc&v=4",
+        "location": "Cebu City, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 48,
+      "name": "terracotta",
+      "nameWithOwner": "lxsmnsyc/terracotta",
+      "url": "https://github.com/lxsmnsyc/terracotta",
+      "description": "Headless UI for SolidJS",
+      "stars": 706,
+      "forks": 19,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-08-19T12:46:08Z",
+      "pushedAt": "2026-10-07T06:52:58Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "lxsmnsyc",
+        "name": "Alexis H. Munsayac",
+        "type": "User",
+        "url": "https://github.com/lxsmnsyc",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4783372?u=d2703898b986d28943660920e134c8df47e676da&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 49,
+      "name": "react-native-ios-context-menu",
+      "nameWithOwner": "dominicstop/react-native-ios-context-menu",
+      "url": "https://github.com/dominicstop/react-native-ios-context-menu",
+      "description": "A react-native component to use context menu's (UIMenu) on iOS 13/14+",
+      "stars": 700,
+      "forks": 46,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-10-24T07:20:41Z",
+      "pushedAt": "2026-04-17T16:55:38Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "dominicstop",
+        "name": "Dominic Go",
+        "type": "User",
+        "url": "https://github.com/dominicstop",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18517029?u=25f7288f7b4113035b868df13d44fea150ea0aad&v=4",
+        "location": "Philippines ",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 50,
+      "name": "ffi-overhead",
+      "nameWithOwner": "dyu/ffi-overhead",
+      "url": "https://github.com/dyu/ffi-overhead",
+      "description": "comparing the c ffi (foreign function interface) overhead on various programming languages",
+      "stars": 698,
+      "forks": 45,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2013-09-23T13:40:03Z",
+      "pushedAt": "2023-07-12T14:43:22Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "dyu",
+        "name": "David Yu",
+        "type": "User",
+        "url": "https://github.com/dyu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79355?v=4",
+        "location": "Cebu, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 51,
+      "name": "api-guard",
+      "nameWithOwner": "chrisbjr/api-guard",
+      "url": "https://github.com/chrisbjr/api-guard",
+      "description": "A simple way of authenticating your RESTful APIs with API keys using Laravel",
+      "stars": 693,
+      "forks": 139,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-06-13T09:21:06Z",
+      "pushedAt": "2020-11-18T09:29:23Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "chrisbjr",
+        "name": "Chris Bautista",
+        "type": "User",
+        "url": "https://github.com/chrisbjr",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/571279?u=c3b1df814fed0cd723dadd9f7551c7e337764db3&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 52,
+      "name": "search-light",
+      "nameWithOwner": "icedman/search-light",
+      "url": "https://github.com/icedman/search-light",
+      "description": "Gnome Extension to bring macOS's Spotlight functionality",
+      "stars": 684,
+      "forks": 74,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2022-07-29T03:31:27Z",
+      "pushedAt": "2026-05-09T10:04:50Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "icedman",
+        "name": "icedman",
+        "type": "User",
+        "url": "https://github.com/icedman",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/529886?u=ece252d7ddef535509f716975af67fd64d829aba&v=4",
+        "location": "Cebu, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 53,
+      "name": "Flexigrid",
+      "nameWithOwner": "paulopmx/Flexigrid",
+      "url": "https://github.com/paulopmx/Flexigrid",
+      "description": "Lightweight but rich data grid with resizable columns and a scrolling data to match the headers, plus an ability to connect to an xml/json based data source using Ajax to load the content.",
+      "stars": 681,
+      "forks": 521,
+      "primaryLanguage": "JavaScript",
+      "license": null,
+      "createdAt": "2010-07-19T23:59:31Z",
+      "pushedAt": "2017-04-29T08:00:43Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "paulopmx",
+        "name": "Paulo Marinas",
+        "type": "User",
+        "url": "https://github.com/paulopmx",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/337992?u=a51bd7c8c7a0b761b6f5a7d7fa1079cd2943b24c&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 54,
+      "name": "lightdm-webkit2-theme-glorious",
+      "nameWithOwner": "eromatiya/lightdm-webkit2-theme-glorious",
+      "url": "https://github.com/eromatiya/lightdm-webkit2-theme-glorious",
+      "description": "A sleek, modern and glorified LightDM webkit2 theme",
+      "stars": 647,
+      "forks": 55,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2020-06-19T10:39:09Z",
+      "pushedAt": "2024-04-06T19:45:44Z",
+      "homepageUrl": "https://manilarome.github.io/lightdm-webkit2-theme-glorious/",
+      "archived": false,
+      "owner": {
+        "login": "eromatiya",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/eromatiya",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40349590?u=b2d0114f5b97ccc2085ad4616559109598e77965&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 55,
+      "name": "MLResources",
+      "nameWithOwner": "dlsucomet/MLResources",
+      "url": "https://github.com/dlsucomet/MLResources",
+      "description": "Repository for Machine Learning resources, frameworks, and projects. Managed by the DLSU Machine Learning Group.",
+      "stars": 645,
+      "forks": 271,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2018-09-14T16:57:22Z",
+      "pushedAt": "2019-04-08T08:49:44Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "dlsucomet",
+        "name": "DLSU Human-X Interactions Lab",
+        "type": "Organization",
+        "url": "https://github.com/dlsucomet",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13333586?v=4",
+        "location": "Manila, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 56,
+      "name": "vscode-settings-json",
+      "nameWithOwner": "glennraya/vscode-settings-json",
+      "url": "https://github.com/glennraya/vscode-settings-json",
+      "description": "VS Code settings JSON, CSS, and JS files for IDE minimalist.",
+      "stars": 644,
+      "forks": 182,
+      "primaryLanguage": "JavaScript",
+      "license": null,
+      "createdAt": "2024-05-17T08:33:32Z",
+      "pushedAt": "2025-05-14T00:19:14Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "glennraya",
+        "name": "Glenn Raya",
+        "type": "User",
+        "url": "https://github.com/glennraya",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16377598?u=b21ebce5221cae59b0bd2353ec152d7dc2cd40f0&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 57,
+      "name": "sauron-native",
+      "nameWithOwner": "ivanceras/sauron-native",
+      "url": "https://github.com/ivanceras/sauron-native",
+      "description": "Truly cross platform, truly native. multiple backend GUI for rust",
+      "stars": 625,
+      "forks": 14,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2019-07-25T23:31:19Z",
+      "pushedAt": "2021-04-09T04:31:51Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ivanceras",
+        "name": "Jovansonlee Cesar",
+        "type": "User",
+        "url": "https://github.com/ivanceras",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7972655?u=305c09efcc84f8f3ff45803c9e606133018740c3&v=4",
+        "location": "Cebu, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 58,
+      "name": "flutter-examples",
+      "nameWithOwner": "joshuadeguzman/flutter-examples",
+      "url": "https://github.com/joshuadeguzman/flutter-examples",
+      "description": "Personal collection of Flutter apps.",
+      "stars": 624,
+      "forks": 122,
+      "primaryLanguage": null,
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2019-04-19T13:31:05Z",
+      "pushedAt": "2023-07-12T13:07:37Z",
+      "homepageUrl": "https://joshuamdeguzman.com",
+      "archived": false,
+      "owner": {
+        "login": "joshuadeguzman",
+        "name": "Joshua de Guzman",
+        "type": "User",
+        "url": "https://github.com/joshuadeguzman",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20706361?u=f73d5abfa24055f11de9e9a8eba3acbcd114ce0a&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 59,
+      "name": "cs2-server-picker",
+      "nameWithOwner": "FN-FAL113/cs2-server-picker",
+      "url": "https://github.com/FN-FAL113/cs2-server-picker",
+      "description": "A portable and lightweight server picker windows app for Counter Strike 2 or even Deadlock! (Legacy)",
+      "stars": 621,
+      "forks": 29,
+      "primaryLanguage": "Visual Basic .NET",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2023-06-04T14:51:50Z",
+      "pushedAt": "2026-03-14T14:22:09Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "FN-FAL113",
+        "name": "Jeff",
+        "type": "User",
+        "url": "https://github.com/FN-FAL113",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88238718?u=42d2b645855de4ad8208a86ee5ae40999bedd4d6&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 60,
+      "name": "paloma",
+      "nameWithOwner": "kbparagua/paloma",
+      "url": "https://github.com/kbparagua/paloma",
+      "description": "page-specific javascript for Rails done right",
+      "stars": 600,
+      "forks": 82,
+      "primaryLanguage": "Ruby",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2012-12-17T07:11:02Z",
+      "pushedAt": "2017-05-30T23:00:21Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "kbparagua",
+        "name": "Karl Bryan Paragua",
+        "type": "User",
+        "url": "https://github.com/kbparagua",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/821989?u=74bebf9284d046d60e7eeaf48f8b212fe8cf3fc0&v=4",
+        "location": "Laguna, Philippines ",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 61,
+      "name": "clashX",
+      "nameWithOwner": "alvincrisuy/clashX",
+      "url": "https://github.com/alvincrisuy/clashX",
+      "description": "A rule based shadowsocks  proxy with GUI for Mac base on clash.",
+      "stars": 592,
+      "forks": 4691,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-08-08T05:57:49Z",
+      "pushedAt": "2024-04-09T01:27:06Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "alvincrisuy",
+        "name": "Alvin Cris Uy",
+        "type": "User",
+        "url": "https://github.com/alvincrisuy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7260700?u=f829c079a6b63bf1be85147ad3012d765901b0a0&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 62,
+      "name": "FUGU-ARDUINO-MPPT-FIRMWARE",
+      "nameWithOwner": "AngeloCasi/FUGU-ARDUINO-MPPT-FIRMWARE",
+      "url": "https://github.com/AngeloCasi/FUGU-ARDUINO-MPPT-FIRMWARE",
+      "description": "An open source Arduino ESP32 MPPT Charger firmware equipped with charging algorithms, WiFi, LCD menus & more!",
+      "stars": 588,
+      "forks": 175,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdxId": "CC0-1.0"
+      },
+      "createdAt": "2021-08-22T09:42:34Z",
+      "pushedAt": "2022-10-16T05:54:02Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "AngeloCasi",
+        "name": "TechBuilder",
+        "type": "User",
+        "url": "https://github.com/AngeloCasi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89338379?u=cf52e159949600c08e4e3b8f5fa86467be5ba849&v=4",
+        "location": "Metro Manila, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 63,
+      "name": "LavaLust",
+      "nameWithOwner": "ronmarasigan/LavaLust",
+      "url": "https://github.com/ronmarasigan/LavaLust",
+      "description": "LavaLust is a lightweight Web Framework - (using MVC pattern) - for people who are developing web sites using PHP. It helps you write code easily using Object-Oriented Approach. It also provides set of libraries for commonly needed tasks, as well as a helper functions to minimize the amount of time coding.",
+      "stars": 580,
+      "forks": 326,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-03-19T15:57:42Z",
+      "pushedAt": "2026-10-09T09:02:37Z",
+      "homepageUrl": "https://ronmarasigan.github.io",
+      "archived": false,
+      "owner": {
+        "login": "ronmarasigan",
+        "name": "Ron Marasigan",
+        "type": "User",
+        "url": "https://github.com/ronmarasigan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52983006?u=cece85b5250b4e450b1546cc93036753d91c4b63&v=4",
+        "location": "Calapan City, Oriental Mindoro",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "calapan city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 64,
+      "name": "slippers",
+      "nameWithOwner": "mixxorz/slippers",
+      "url": "https://github.com/mixxorz/slippers",
+      "description": "A UI component framework for Django. Built on top of Django Template Language.",
+      "stars": 578,
+      "forks": 42,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-07-11T06:59:23Z",
+      "pushedAt": "2026-08-13T10:23:43Z",
+      "homepageUrl": "https://mitchel.me/slippers/",
+      "archived": false,
+      "owner": {
+        "login": "mixxorz",
+        "name": "Mitchel Cabuloy",
+        "type": "User",
+        "url": "https://github.com/mixxorz",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3102758?u=c842deb5f420b77af2c1ec154dd8bf2a1618c896&v=4",
+        "location": "Metro Manila, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 65,
+      "name": "shad-ui",
+      "nameWithOwner": "accntech/shad-ui",
+      "url": "https://github.com/accntech/shad-ui",
+      "description": "Avalonia-based UI Library inspired by shadcn and Suki UI Library",
+      "stars": 562,
+      "forks": 57,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-01-08T02:15:26Z",
+      "pushedAt": "2026-07-19T08:03:51Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "accntech",
+        "name": "Accountech",
+        "type": "User",
+        "url": "https://github.com/accntech",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/167454317?u=5c70faee3f22d7a6f5fb6bc72ef5ae8415cf200a&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 66,
+      "name": "bettergov",
+      "nameWithOwner": "bettergovph/bettergov",
+      "url": "https://github.com/bettergovph/bettergov",
+      "description": "Building a better Philippines' national website https://bettergov.ph",
+      "stars": 539,
+      "forks": 272,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdxId": "CC0-1.0"
+      },
+      "createdAt": "2025-06-02T21:28:30Z",
+      "pushedAt": "2026-10-01T18:46:28Z",
+      "homepageUrl": "https://bettergov.ph",
+      "archived": false,
+      "owner": {
+        "login": "bettergovph",
+        "name": "BetterGov.ph",
+        "type": "Organization",
+        "url": "https://github.com/bettergovph",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/215033165?v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 67,
+      "name": "codex-multi-auth",
+      "nameWithOwner": "ndycode/codex-multi-auth",
+      "url": "https://github.com/ndycode/codex-multi-auth",
+      "description": "Codex CLI multi-account OAuth manager with account switching, health checks, runtime rotation, diagnostics, and recovery tools for @openai/codex",
+      "stars": 536,
+      "forks": 68,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-02-22T22:37:04Z",
+      "pushedAt": "2026-10-06T13:30:30Z",
+      "homepageUrl": "https://www.npmjs.com/package/codex-multi-auth",
+      "archived": false,
+      "owner": {
+        "login": "ndycode",
+        "name": "Neil Daquioag",
+        "type": "User",
+        "url": "https://github.com/ndycode",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/405533?u=1ea1752e119d6d8b77804997ffa1c40ca5b07368&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 68,
+      "name": "vignette",
+      "nameWithOwner": "vignetteapp/vignette",
+      "url": "https://github.com/vignetteapp/vignette",
+      "description": "The open source VTuber software. ❤",
+      "stars": 522,
+      "forks": 35,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2020-08-03T15:38:10Z",
+      "pushedAt": "2023-07-28T05:25:28Z",
+      "homepageUrl": "https://www.vignetteapp.org",
+      "archived": false,
+      "owner": {
+        "login": "vignetteapp",
+        "name": "Vignette",
+        "type": "Organization",
+        "url": "https://github.com/vignetteapp",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69518398?v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 69,
+      "name": "imprecv",
+      "nameWithOwner": "jskherman/imprecv",
+      "url": "https://github.com/jskherman/imprecv",
+      "description": "A no-frills curriculum vitae (CV) template using Typst and YAML to version control CV data.",
+      "stars": 514,
+      "forks": 80,
+      "primaryLanguage": "Typst",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2023-06-20T10:41:42Z",
+      "pushedAt": "2024-12-31T08:58:37Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "jskherman",
+        "name": "Je Sian Keith Herman",
+        "type": "User",
+        "url": "https://github.com/jskherman",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68434444?u=bdcd030c2ad3d8d2a03be18b55c3c220107ec750&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 70,
+      "name": "pdf2image",
+      "nameWithOwner": "yakovmeister/pdf2image",
+      "url": "https://github.com/yakovmeister/pdf2image",
+      "description": "A utility for converting pdf to image and base64 format.",
+      "stars": 507,
+      "forks": 150,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-10-11T03:40:03Z",
+      "pushedAt": "2026-06-07T23:55:41Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "yakovmeister",
+        "name": "Jacob",
+        "type": "User",
+        "url": "https://github.com/yakovmeister",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4578523?u=0c01b1ed41cdcf8b81115b652f061c6f83fbb112&v=4",
+        "location": "Cebu",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "cebu"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 71,
+      "name": "tensor_stream",
+      "nameWithOwner": "jedld/tensor_stream",
+      "url": "https://github.com/jedld/tensor_stream",
+      "description": "A ground-up and standalone reimplementation of TensorFlow for ruby. Comes with a pure ruby and OpenCL opcode evaluator",
+      "stars": 504,
+      "forks": 16,
+      "primaryLanguage": "Ruby",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-05-11T11:25:15Z",
+      "pushedAt": "2020-12-26T21:59:58Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "jedld",
+        "name": "Joseph Emmanuel Dayo",
+        "type": "User",
+        "url": "https://github.com/jedld",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/949459?v=4",
+        "location": "Manila, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 72,
+      "name": "markamd",
+      "nameWithOwner": "mattenarle10/markamd",
+      "url": "https://github.com/mattenarle10/markamd",
+      "description": "local-first markdown editor with live preview, reading mode, diagrams, themes, and context bundles.",
+      "stars": 493,
+      "forks": 34,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-05-13T09:19:55Z",
+      "pushedAt": "2026-10-06T16:43:29Z",
+      "homepageUrl": "https://markamd.vercel.app",
+      "archived": false,
+      "owner": {
+        "login": "mattenarle10",
+        "name": "Matthew Enarle",
+        "type": "User",
+        "url": "https://github.com/mattenarle10",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89822774?u=190ffa9a8882360d2f754298f670fecb251eb356&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 73,
+      "name": "roro",
+      "nameWithOwner": "arviedelgado/roro",
+      "url": "https://github.com/arviedelgado/roro",
+      "description": "roro is a free, open-source robotic process automation software",
+      "stars": 492,
+      "forks": 208,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "spdxId": "BSD-2-Clause"
+      },
+      "createdAt": "2015-10-30T18:21:27Z",
+      "pushedAt": "2021-05-30T01:49:38Z",
+      "homepageUrl": "https://arviedelgado.github.io/roro",
+      "archived": true,
+      "owner": {
+        "login": "arviedelgado",
+        "name": "Arvie Delgado",
+        "type": "User",
+        "url": "https://github.com/arviedelgado",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11804514?u=32882a9713e855b07a940a22064e7e40b8423411&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 74,
+      "name": "UberDDR3",
+      "nameWithOwner": "AngeloJacobo/UberDDR3",
+      "url": "https://github.com/AngeloJacobo/UberDDR3",
+      "description": "Opensource DDR3 Controller",
+      "stars": 485,
+      "forks": 80,
+      "primaryLanguage": "Verilog",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2023-03-02T11:44:58Z",
+      "pushedAt": "2026-09-12T06:24:01Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "AngeloJacobo",
+        "name": "Angelo Jacobo",
+        "type": "User",
+        "url": "https://github.com/AngeloJacobo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87559347?u=3fe280a07b12571463b2f61f2de5612756bb2fe3&v=4",
+        "location": "Bulacan, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 75,
+      "name": "Cloudflared-web",
+      "nameWithOwner": "WisdomSky/Cloudflared-web",
+      "url": "https://github.com/WisdomSky/Cloudflared-web",
+      "description": "Cloudflared-web is a docker image that packages both cloudflared cli and a simple Web UI to easily start or stop remotely-managed Cloudflare tunnel.",
+      "stars": 468,
+      "forks": 53,
+      "primaryLanguage": "Vue",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "spdxId": "GPL-2.0"
+      },
+      "createdAt": "2023-05-27T20:35:45Z",
+      "pushedAt": "2026-10-06T07:30:02Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "WisdomSky",
+        "name": "Pao Dayag",
+        "type": "User",
+        "url": "https://github.com/WisdomSky",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6792172?u=e6380e9fefba0489cd6b627aa81c9f53d97169d6&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 76,
+      "name": "road-to-being-master-rustacean",
+      "nameWithOwner": "rustaccato/road-to-being-master-rustacean",
+      "url": "https://github.com/rustaccato/road-to-being-master-rustacean",
+      "description": null,
+      "stars": 459,
+      "forks": 117,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2022-07-05T22:58:15Z",
+      "pushedAt": "2022-07-05T23:34:48Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "rustaccato",
+        "name": "Uriah G.",
+        "type": "User",
+        "url": "https://github.com/rustaccato",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/108769183?v=4",
+        "location": "Olongapo,Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 77,
+      "name": "LinuxServer-AppStore",
+      "nameWithOwner": "WisdomSky/LinuxServer-AppStore",
+      "url": "https://github.com/WisdomSky/LinuxServer-AppStore",
+      "description": "A CasaOS and ZimaOS custom Appstore containing over 100+ LinuxServer.io images.",
+      "stars": 450,
+      "forks": 65,
+      "primaryLanguage": null,
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2023-05-26T17:09:52Z",
+      "pushedAt": "2026-10-10T16:11:25Z",
+      "homepageUrl": "https://paodayag.dev/linuxserver",
+      "archived": false,
+      "owner": {
+        "login": "WisdomSky",
+        "name": "Pao Dayag",
+        "type": "User",
+        "url": "https://github.com/WisdomSky",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6792172?u=e6380e9fefba0489cd6b627aa81c9f53d97169d6&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 78,
+      "name": "dalelarroder",
+      "nameWithOwner": "dlarroder/dalelarroder",
+      "url": "https://github.com/dlarroder/dalelarroder",
+      "description": "⚡️ My website built with Next.js, TypeScript, Tailwind, MDX",
+      "stars": 445,
+      "forks": 68,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-04-09T12:05:04Z",
+      "pushedAt": "2026-10-09T01:24:15Z",
+      "homepageUrl": "https://www.dalelarroder.com",
+      "archived": false,
+      "owner": {
+        "login": "dlarroder",
+        "name": "Dale Larroder",
+        "type": "User",
+        "url": "https://github.com/dlarroder",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52998821?u=da5563fd9cf277a6af234947ecab875b4d962ed6&v=4",
+        "location": "Metro Manila, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 79,
+      "name": "accountgo",
+      "nameWithOwner": "AccountGo/accountgo",
+      "url": "https://github.com/AccountGo/accountgo",
+      "description": "Accounting System built in ASP.NET DotNetCore, ReactJS, MobX. Don't forget to click STAR if you like this project.",
+      "stars": 440,
+      "forks": 319,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-01-25T07:33:43Z",
+      "pushedAt": "2026-02-19T20:36:44Z",
+      "homepageUrl": "http://accountgo.net",
+      "archived": false,
+      "owner": {
+        "login": "AccountGo",
+        "name": "AccountGo",
+        "type": "Organization",
+        "url": "https://github.com/AccountGo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17235626?v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 80,
+      "name": "kalendaryo",
+      "nameWithOwner": "geeofree/kalendaryo",
+      "url": "https://github.com/geeofree/kalendaryo",
+      "description": "An unopinionated React date component :atom_symbol: + :date:fns",
+      "stars": 425,
+      "forks": 29,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-05-14T08:10:24Z",
+      "pushedAt": "2022-12-08T18:54:08Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "geeofree",
+        "name": "Geo Galagaran",
+        "type": "User",
+        "url": "https://github.com/geeofree",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17492631?u=a1538eea3620f4a245727220d2b40d5ad5dce379&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 81,
+      "name": "supabase-go",
+      "nameWithOwner": "nedpals/supabase-go",
+      "url": "https://github.com/nedpals/supabase-go",
+      "description": "Unofficial Supabase client library for Go.",
+      "stars": 417,
+      "forks": 75,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-05-21T13:28:52Z",
+      "pushedAt": "2025-12-15T00:24:23Z",
+      "homepageUrl": "https://pkg.go.dev/github.com/nedpals/supabase-go",
+      "archived": false,
+      "owner": {
+        "login": "nedpals",
+        "name": "Ned",
+        "type": "User",
+        "url": "https://github.com/nedpals",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7358345?u=7a0cc14c61670eff3747f547e1e5e76f5abd2957&v=4",
+        "location": "Davao City, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 82,
+      "name": "DSA",
+      "nameWithOwner": "codeitlikemiley/DSA",
+      "url": "https://github.com/codeitlikemiley/DSA",
+      "description": "Free Premium Books For Learning Data Structure and Algorithm",
+      "stars": 407,
+      "forks": 214,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2021-04-22T00:54:46Z",
+      "pushedAt": "2024-12-19T10:07:57Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "codeitlikemiley",
+        "name": "Uriah Galang",
+        "type": "User",
+        "url": "https://github.com/codeitlikemiley",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28816690?u=fb7ec99f4556e7aaad8c3ec372e3f3c3457c1ad7&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 83,
+      "name": "desktop-waifu",
+      "nameWithOwner": "AlizerUncaged/desktop-waifu",
+      "url": "https://github.com/AlizerUncaged/desktop-waifu",
+      "description": "Desktop Waifu!",
+      "stars": 403,
+      "forks": 57,
+      "primaryLanguage": "JavaScript",
+      "license": null,
+      "createdAt": "2023-04-19T15:24:53Z",
+      "pushedAt": "2024-02-28T05:09:18Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "AlizerUncaged",
+        "name": "Alizer",
+        "type": "User",
+        "url": "https://github.com/AlizerUncaged",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86959368?u=c4f1afd176560c9e70f04364ec8e1a3d53216b2a&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 84,
+      "name": "eden",
+      "nameWithOwner": "Sterling-Technologies/eden",
+      "url": "https://github.com/Sterling-Technologies/eden",
+      "description": "Eden PHP library",
+      "stars": 398,
+      "forks": 100,
+      "primaryLanguage": "PHP",
+      "license": null,
+      "createdAt": "2012-08-13T11:27:55Z",
+      "pushedAt": "2013-09-17T08:12:34Z",
+      "homepageUrl": "http://eden.openovate.com/",
+      "archived": false,
+      "owner": {
+        "login": "Sterling-Technologies",
+        "name": "Sterling Openovate Corporation",
+        "type": "Organization",
+        "url": "https://github.com/Sterling-Technologies",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37245599?v=4",
+        "location": "Manila, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 85,
+      "name": "cami.js",
+      "nameWithOwner": "kennyfrc/cami.js",
+      "url": "https://github.com/kennyfrc/cami.js",
+      "description": "Cami.js is a simple yet powerful toolkit for interactive islands in web applications. No build step required.",
+      "stars": 397,
+      "forks": 6,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-10-17T15:51:47Z",
+      "pushedAt": "2026-07-28T13:43:02Z",
+      "homepageUrl": "http://camijs.com/",
+      "archived": false,
+      "owner": {
+        "login": "kennyfrc",
+        "name": "Kenn Costales",
+        "type": "User",
+        "url": "https://github.com/kennyfrc",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7362958?u=b555c2b39eddebb034c5edee13117a86e9626540&v=4",
+        "location": "Manila, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 86,
+      "name": "NixOS-Hyprland",
+      "nameWithOwner": "JaKooLit/NixOS-Hyprland",
+      "url": "https://github.com/JaKooLit/NixOS-Hyprland",
+      "description": "To Automate Installation of Hyprland on NixOS using flakes. NOTE: Dot configs are not written in Nix.",
+      "stars": 395,
+      "forks": 50,
+      "primaryLanguage": "Nix",
+      "license": null,
+      "createdAt": "2024-09-04T10:34:41Z",
+      "pushedAt": "2026-02-22T15:41:03Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "JaKooLit",
+        "name": "Ja.KooLit",
+        "type": "User",
+        "url": "https://github.com/JaKooLit",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85185940?u=ef87f8b470f535e5a8175b31df0345ac283670d5&v=4",
+        "location": "Philippines / South Korea - Worldwide",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 87,
+      "name": "diwata",
+      "nameWithOwner": "ivanceras/diwata",
+      "url": "https://github.com/ivanceras/diwata",
+      "description": "A user-friendly database interface",
+      "stars": 394,
+      "forks": 13,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2017-12-08T17:15:42Z",
+      "pushedAt": "2020-10-29T18:07:31Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "ivanceras",
+        "name": "Jovansonlee Cesar",
+        "type": "User",
+        "url": "https://github.com/ivanceras",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7972655?u=305c09efcc84f8f3ff45803c9e606133018740c3&v=4",
+        "location": "Cebu, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 88,
+      "name": "R36S-DTB",
+      "nameWithOwner": "AeolusUX/R36S-DTB",
+      "url": "https://github.com/AeolusUX/R36S-DTB",
+      "description": "RetroBox Console / Game Station / Game Console R33S/R35S/R36S/PowKiddy RGB20S with Functional Function (FN) Button",
+      "stars": 388,
+      "forks": 81,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2024-01-10T19:40:52Z",
+      "pushedAt": "2026-01-16T16:05:00Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "AeolusUX",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/AeolusUX",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/153573107?u=12f6d7ca744cdbb550458ab4a318ca94d72f0d8b&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 89,
+      "name": "ffmpeg-autobuild",
+      "nameWithOwner": "AnimMouse/ffmpeg-autobuild",
+      "url": "https://github.com/AnimMouse/ffmpeg-autobuild",
+      "description": "Automated nonfree builds of FFmpeg for Windows using GitHub Actions",
+      "stars": 378,
+      "forks": 25,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Mozilla Public License 2.0",
+        "spdxId": "MPL-2.0"
+      },
+      "createdAt": "2020-07-04T05:39:19Z",
+      "pushedAt": "2026-07-12T12:55:02Z",
+      "homepageUrl": "https://www.animmouse.com/projects/ffmpeg-autobuild/",
+      "archived": false,
+      "owner": {
+        "login": "AnimMouse",
+        "name": "Anim Mouse",
+        "type": "User",
+        "url": "https://github.com/AnimMouse",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40349541?u=b7b50d7e272f2076632ddafe2bd3f98cf6680354&v=4",
+        "location": "Caloocan, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 90,
+      "name": "vuetified",
+      "nameWithOwner": "goldcoders-corp/vuetified",
+      "url": "https://github.com/goldcoders-corp/vuetified",
+      "description": "Laravel Starter App Using Vue ,Vuetify,  and InertiaJS.",
+      "stars": 376,
+      "forks": 80,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-07-26T13:15:14Z",
+      "pushedAt": "2025-01-14T08:09:41Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "goldcoders-corp",
+        "name": "GOLDCODERS CORP.",
+        "type": "Organization",
+        "url": "https://github.com/goldcoders-corp",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/126829885?v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 91,
+      "name": "Titan-Framework",
+      "nameWithOwner": "gambitph/Titan-Framework",
+      "url": "https://github.com/gambitph/Titan-Framework",
+      "description": "The easiest to use WordPress option framework.",
+      "stars": 373,
+      "forks": 130,
+      "primaryLanguage": "PHP",
+      "license": null,
+      "createdAt": "2014-02-15T06:39:35Z",
+      "pushedAt": "2023-04-15T17:41:39Z",
+      "homepageUrl": "http://www.titanframework.net",
+      "archived": false,
+      "owner": {
+        "login": "gambitph",
+        "name": "Gambit Technologies",
+        "type": "Organization",
+        "url": "https://github.com/gambitph",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3227089?v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 92,
+      "name": "css-text-portrait-builder",
+      "nameWithOwner": "warengonzaga/css-text-portrait-builder",
+      "url": "https://github.com/warengonzaga/css-text-portrait-builder",
+      "description": "A popular pure CSS text portrait builder for your loved ones. 🥰",
+      "stars": 373,
+      "forks": 80,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2021-11-19T03:14:30Z",
+      "pushedAt": "2026-04-29T06:13:58Z",
+      "homepageUrl": "http://waren.build/css-text-portrait-builder/",
+      "archived": false,
+      "owner": {
+        "login": "warengonzaga",
+        "name": "Waren Gonzaga",
+        "type": "User",
+        "url": "https://github.com/warengonzaga",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15052701?u=7db8aa1dcfea0c44b3eea98d0cdd436663c91658&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 93,
+      "name": "ghfollowers",
+      "nameWithOwner": "macalinao/ghfollowers",
+      "url": "https://github.com/macalinao/ghfollowers",
+      "description": ":octocat: Get GitHub followers.",
+      "stars": 370,
+      "forks": 11,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-03-14T00:07:19Z",
+      "pushedAt": "2015-11-04T03:54:04Z",
+      "homepageUrl": "http://githubfollowers.com",
+      "archived": false,
+      "owner": {
+        "login": "macalinao",
+        "name": "Ian Macalinao",
+        "type": "User",
+        "url": "https://github.com/macalinao",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/401263?u=80a21e11b1fbc9421b5488fca9193c0f3d0db7dd&v=4",
+        "location": "Metro Manila, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 94,
+      "name": "mcp-everything-search",
+      "nameWithOwner": "mamertofabian/mcp-everything-search",
+      "url": "https://github.com/mamertofabian/mcp-everything-search",
+      "description": null,
+      "stars": 365,
+      "forks": 39,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2024-12-14T14:46:46Z",
+      "pushedAt": "2025-10-20T21:36:47Z",
+      "homepageUrl": "https://usemcp.com",
+      "archived": false,
+      "owner": {
+        "login": "mamertofabian",
+        "name": "Mamerto Fabian Jr",
+        "type": "User",
+        "url": "https://github.com/mamertofabian",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7698436?u=9b3718801d917d744e08788a8088611562b05158&v=4",
+        "location": "Tanza, Cavite, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 95,
+      "name": "letra-extension",
+      "nameWithOwner": "jayehernandez/letra-extension",
+      "url": "https://github.com/jayehernandez/letra-extension",
+      "description": "Passively learn a new language every time you open a new tab",
+      "stars": 363,
+      "forks": 266,
+      "primaryLanguage": "SCSS",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-04-09T07:56:18Z",
+      "pushedAt": "2023-12-15T16:59:02Z",
+      "homepageUrl": "https://letra.vercel.app",
+      "archived": false,
+      "owner": {
+        "login": "jayehernandez",
+        "name": "Jaye Hernandez",
+        "type": "User",
+        "url": "https://github.com/jayehernandez",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13959651?u=7c7e8c32a1b6c838daca2b689376539288a8572a&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 96,
+      "name": "laragym",
+      "nameWithOwner": "johndavedecano/laragym",
+      "url": "https://github.com/johndavedecano/laragym",
+      "description": " A laravel gym management system",
+      "stars": 361,
+      "forks": 193,
+      "primaryLanguage": "PHP",
+      "license": null,
+      "createdAt": "2013-10-20T17:16:46Z",
+      "pushedAt": "2026-05-14T13:41:09Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "johndavedecano",
+        "name": "John Dave Decano",
+        "type": "User",
+        "url": "https://github.com/johndavedecano",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1860038?u=9c37e3b1b182af30be1c17724c8fbdea4bede2d1&v=4",
+        "location": "Pasig, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 97,
+      "name": "TheSidebarController",
+      "nameWithOwner": "jondanao/TheSidebarController",
+      "url": "https://github.com/jondanao/TheSidebarController",
+      "description": "A container view controller that implements different popular sidebar view controllers like Facebook, Airbnb, Flipboard, etc.",
+      "stars": 356,
+      "forks": 46,
+      "primaryLanguage": "Objective-C",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2014-01-09T12:30:02Z",
+      "pushedAt": "2016-02-13T04:06:59Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "jondanao",
+        "name": "Jon Danao",
+        "type": "User",
+        "url": "https://github.com/jondanao",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/110116?u=8aa9286a242829596c196bc2d6095b032aedc364&v=4",
+        "location": "Quezon City, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 98,
+      "name": "forgetti",
+      "nameWithOwner": "lxsmnsyc/forgetti",
+      "url": "https://github.com/lxsmnsyc/forgetti",
+      "description": "Solve your hook spaghetti (with more spaghetti). Inspired by React Forget.",
+      "stars": 354,
+      "forks": 6,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-02-15T03:34:39Z",
+      "pushedAt": "2024-03-12T14:55:59Z",
+      "homepageUrl": "https://forgetti.vercel.app/",
+      "archived": false,
+      "owner": {
+        "login": "lxsmnsyc",
+        "name": "Alexis H. Munsayac",
+        "type": "User",
+        "url": "https://github.com/lxsmnsyc",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4783372?u=d2703898b986d28943660920e134c8df47e676da&v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 99,
+      "name": "Stackable",
+      "nameWithOwner": "gambitph/Stackable",
+      "url": "https://github.com/gambitph/Stackable",
+      "description": "Page Builder Blocks for WordPress. An Amazing Block Library for the new WordPress Block Editor (Gutenberg).",
+      "stars": 351,
+      "forks": 67,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2019-01-22T10:52:00Z",
+      "pushedAt": "2026-10-13T04:10:37Z",
+      "homepageUrl": "https://wpstackable.com",
+      "archived": false,
+      "owner": {
+        "login": "gambitph",
+        "name": "Gambit Technologies",
+        "type": "Organization",
+        "url": "https://github.com/gambitph",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3227089?v=4",
+        "location": "Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 100,
+      "name": "dash2dock-lite",
+      "nameWithOwner": "icedman/dash2dock-lite",
+      "url": "https://github.com/icedman/dash2dock-lite",
+      "description": "A minimal and animated implementation of dash to dock",
+      "stars": 350,
+      "forks": 59,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2021-05-08T15:17:16Z",
+      "pushedAt": "2026-10-12T13:16:43Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "icedman",
+        "name": "icedman",
+        "type": "User",
+        "url": "https://github.com/icedman",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/529886?u=ece252d7ddef535509f716975af67fd64d829aba&v=4",
+        "location": "Cebu, Philippines",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "PH",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "philippines"
+        },
+        "discoveryTerms": []
+      }
+    }
+  ]
+}

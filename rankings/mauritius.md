@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **427**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **347**
 
 ### High-star verified preview
 
@@ -54,5 +54,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [rahul-thakoor/balena-rpiplay](https://github.com/rahul-thakoor/balena-rpiplay) | **1,427** | Mauritius |
 | [thatstraw/Cybersecurity-Roadmap](https://github.com/thatstraw/Cybersecurity-Roadmap) | **739** | Mauritius |
 | [SiZapPaaiGwat/inhuman-cpc.github.io](https://github.com/SiZapPaaiGwat/inhuman-cpc.github.io) | **430** | China town |
+| [giriss/comfy-image-saver](https://github.com/giriss/comfy-image-saver) | **348** | Mauritius |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

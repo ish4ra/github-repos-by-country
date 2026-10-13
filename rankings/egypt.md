@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **6**
-- Current global star frontier: **509**
+- Verified high-star candidates retained: **7**
+- Current global star frontier: **347**
 
 ### High-star verified preview
 
@@ -57,5 +57,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ahmedbna/ui](https://github.com/ahmedbna/ui) | **739** | Giza, Egypt |
 | [alash3al/smtp2http](https://github.com/alash3al/smtp2http) | **558** | Hurghada, Red Sea, Egypt |
 | [alash3al/wsify](https://github.com/alash3al/wsify) | **524** | Hurghada, Red Sea, Egypt |
+| [preemptdev/bluffy](https://github.com/preemptdev/bluffy) | **355** | /dev/tcp/0 |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
