@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **368**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **284**
 
 ### High-star verified preview
 
@@ -55,5 +55,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [venomous0x/WhatsAPI](https://github.com/venomous0x/WhatsAPI) | **2,619** | Bahrain |
 | [walidshaari/Certified-Kubernetes-Security-Specialist](https://github.com/walidshaari/Certified-Kubernetes-Security-Specialist) | **2,129** | Bahrain |
 | [naweed/MauiTubePlayer](https://github.com/naweed/MauiTubePlayer) | **374** | Bahrain |
+| [naweed/MauiPlanets](https://github.com/naweed/MauiPlanets) | **287** | Bahrain |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

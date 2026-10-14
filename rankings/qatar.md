@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **6**
-- Current global star frontier: **291**
+- Verified high-star candidates retained: **7**
+- Current global star frontier: **284**
 
 ### High-star verified preview
 
@@ -57,5 +57,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Offensive-Panda/RWX_MEMEORY_HUNT_AND_INJECTION_DV](https://github.com/Offensive-Panda/RWX_MEMEORY_HUNT_AND_INJECTION_DV) | **294** | Qatar |
 | [andrewheiss/hikmah-academic-quarto](https://github.com/andrewheiss/hikmah-academic-quarto) | **292** | Doha, Qatar |
 | [Samimust/predictive-maintenance](https://github.com/Samimust/predictive-maintenance) | **291** | Qatar |
+| [myofficework000/Jetpack-Compose-All-in-one-Guide](https://github.com/myofficework000/Jetpack-Compose-All-in-one-Guide) | **288** | Doha, Qatar |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

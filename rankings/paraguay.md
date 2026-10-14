@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **456**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **284**
 
 ### High-star verified preview
 
@@ -55,5 +55,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [matiasinsaurralde/facebook-tunnel](https://github.com/matiasinsaurralde/facebook-tunnel) | **1,289** | Paraguay |
 | [matiasinsaurralde/go-dotnet](https://github.com/matiasinsaurralde/go-dotnet) | **494** | Paraguay |
 | [olrtg/emmet-language-server](https://github.com/olrtg/emmet-language-server) | **466** | Paraguay |
+| [prolic/fpp](https://github.com/prolic/fpp) | **286** | Paraguay |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

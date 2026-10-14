@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **298**
+- Verified high-star candidates retained: **15**
+- Current global star frontier: **284**
 
 ### High-star verified preview
 
@@ -65,5 +65,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [afgprogrammer/Flutter-Splash-Screen-Animation](https://github.com/afgprogrammer/Flutter-Splash-Screen-Animation) | **341** |  Kabul, Afghanistan |
 | [afgprogrammer/Flutter-home-service-app](https://github.com/afgprogrammer/Flutter-home-service-app) | **309** |  Kabul, Afghanistan |
 | [afgprogrammer/Flutter-Login-Page-3](https://github.com/afgprogrammer/Flutter-Login-Page-3) | **304** |  Kabul, Afghanistan |
+| [ssahibsingh/React_E-Commerce](https://github.com/ssahibsingh/React_E-Commerce) | **289** | Panjab |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
