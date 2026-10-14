@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **298**
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **291**
 
 ### High-star verified preview
 
@@ -55,5 +55,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [AddictedCS/soundfingerprinting](https://github.com/AddictedCS/soundfingerprinting) | **1,038** | Chisinau, Moldova |
 | [alisnic/nyny](https://github.com/alisnic/nyny) | **316** | Chisinau, Moldova |
 | [alexeisavca/webtorrentapp](https://github.com/alexeisavca/webtorrentapp) | **298** | Chișinău, Republic of Moldova |
+| [matiaspub/bxApiDocs](https://github.com/matiaspub/bxApiDocs) | **292** | Tiraspol |
+| [dimmg/dockselpy](https://github.com/dimmg/dockselpy) | **292** | Chișinău, Moldova |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

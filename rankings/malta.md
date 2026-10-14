@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **338**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **291**
 
 ### High-star verified preview
 
@@ -54,5 +54,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [dalerank/imspinner](https://github.com/dalerank/imspinner) | **602** | Sliema, Malta |
 | [dalerank/nanogui-sdl](https://github.com/dalerank/nanogui-sdl) | **454** | Sliema, Malta |
 | [MarkCiliaVincenti/AsyncKeyedLock](https://github.com/MarkCiliaVincenti/AsyncKeyedLock) | **344** | Mqabba, Malta |
+| [dalerank/caesaria-game](https://github.com/dalerank/caesaria-game) | **298** | Sliema, Malta |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **16**
-- Current global star frontier: **312**
+- Verified high-star candidates retained: **17**
+- Current global star frontier: **291**
 
 ### High-star verified preview
 
@@ -67,5 +67,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [leotorrez/LeoTools](https://github.com/leotorrez/LeoTools) | **335** | Santiago del Estero, Argentina |
 | [nsanta/fbgraph](https://github.com/nsanta/fbgraph) | **321** | Rio Cuarto, Cordoba, Argentina |
 | [janoamaral/Xresources-themes](https://github.com/janoamaral/Xresources-themes) | **316** | San Carlos de Bolívar |
+| [leotorrez/ZZ-Model-Importer](https://github.com/leotorrez/ZZ-Model-Importer) | **295** | Santiago del Estero, Argentina |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

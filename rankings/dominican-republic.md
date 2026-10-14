@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **16**
-- Current global star frontier: **298**
+- Verified high-star candidates retained: **17**
+- Current global star frontier: **291**
 
 ### High-star verified preview
 
@@ -67,5 +67,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [tiramisulabs/seyfert](https://github.com/tiramisulabs/seyfert) | **321** | Dominican Republic |
 | [crewdevio/Snel](https://github.com/crewdevio/Snel) | **315** | Dominican Republic |
 | [oldani/HtmlTestRunner](https://github.com/oldani/HtmlTestRunner) | **299** | Dominican Republic |
+| [dualra1n/dualra1n](https://github.com/dualra1n/dualra1n) | **296** | Dominican Republic |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

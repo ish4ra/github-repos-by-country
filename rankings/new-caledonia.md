@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **338**
+- Verified high-star candidates retained: **10**
+- Current global star frontier: **291**
 
 ### High-star verified preview
 
@@ -60,5 +60,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [cohesivestack/valgo](https://github.com/cohesivestack/valgo) | **508** | WY, USA |
 | [oftheheadland/Colorblindly](https://github.com/oftheheadland/Colorblindly) | **416** | NC |
 | [erichs/composure](https://github.com/erichs/composure) | **346** | NC |
+| [erichs/awesome-awesome](https://github.com/erichs/awesome-awesome) | **298** | NC |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

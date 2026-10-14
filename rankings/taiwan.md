@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **19**
-- Current global star frontier: **298**
+- Verified high-star candidates retained: **20**
+- Current global star frontier: **291**
 
 ### High-star verified preview
 
@@ -70,5 +70,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Yubo0826/line-bot-covid19-tracker](https://github.com/Yubo0826/line-bot-covid19-tracker) | **314** | New Taipei City, Taiwan |
 | [Yubo0826/Todolist_express](https://github.com/Yubo0826/Todolist_express) | **314** | New Taipei City, Taiwan |
 | [liangjingkanji/StatusBar](https://github.com/liangjingkanji/StatusBar) | **299** | 新竹市 |
+| [qwqjsq/qwqjsq](https://github.com/qwqjsq/qwqjsq) | **296** | TW |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

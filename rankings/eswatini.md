@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **12**
-- Current global star frontier: **312**
+- Verified high-star candidates retained: **13**
+- Current global star frontier: **291**
 
 ### High-star verified preview
 
@@ -63,5 +63,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [FaceAISDK/FaceAISDK_iOS](https://github.com/FaceAISDK/FaceAISDK_iOS) | **351** | SZ |
 | [dee1024/housedb](https://github.com/dee1024/housedb) | **324** | SZ |
 | [icsfy/Pedestrian_Detection](https://github.com/icsfy/Pedestrian_Detection) | **314** | SZ |
+| [FaceAISDK/DownloadInstaller](https://github.com/FaceAISDK/DownloadInstaller) | **293** | SZ |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

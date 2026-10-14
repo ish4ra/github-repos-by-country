@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **319**
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **291**
 
 ### High-star verified preview
 
@@ -56,5 +56,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [marchof/java-almanac](https://github.com/marchof/java-almanac) | **1,149** | Alps |
 | [stefanocudini/leaflet-search](https://github.com/stefanocudini/leaflet-search) | **815** | Alps |
 | [ntfargo/CSSFontFace-Exploit](https://github.com/ntfargo/CSSFontFace-Exploit) | **324** | Silent Hill |
+| [stefanocudini/leaflet-panel-layers](https://github.com/stefanocudini/leaflet-panel-layers) | **297** | Alps |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

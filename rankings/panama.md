@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **15**
-- Current global star frontier: **298**
+- Verified high-star candidates retained: **16**
+- Current global star frontier: **291**
 
 ### High-star verified preview
 
@@ -66,5 +66,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [zacharee/HINTControl](https://github.com/zacharee/HINTControl) | **340** | PA |
 | [zacharee/SystemUITunerRedesign](https://github.com/zacharee/SystemUITunerRedesign) | **333** | PA |
 | [zacharee/RootActivityLauncher](https://github.com/zacharee/RootActivityLauncher) | **300** | PA |
+| [CircuitSetup/Split-Single-Phase-Energy-Meter](https://github.com/CircuitSetup/Split-Single-Phase-Energy-Meter) | **298** | PA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
