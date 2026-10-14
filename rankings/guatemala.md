@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **12**
-- Current global star frontier: **347**
+- Verified high-star candidates retained: **13**
+- Current global star frontier: **319**
 
 ### High-star verified preview
 
@@ -63,5 +63,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [andrescv/jupiter](https://github.com/andrescv/jupiter) | **446** | Guatemala |
 | [wuelnerdotexe/vim-enfocado](https://github.com/wuelnerdotexe/vim-enfocado) | **368** | Guatemala |
 | [jcardama/LeopardWM](https://github.com/jcardama/LeopardWM) | **348** | Guatemala, Guatemala |
+| [RandolphVI/Hierarchical-Multi-Label-Text-Classification](https://github.com/RandolphVI/Hierarchical-Multi-Label-Text-Classification) | **327** | Guatemala |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

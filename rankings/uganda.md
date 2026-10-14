@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **338**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **319**
 
 ### High-star verified preview
 
@@ -55,5 +55,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [nmmapper/dnsdumpster](https://github.com/nmmapper/dnsdumpster) | **379** | Kampala |
 | [Lusitaniae/apache_exporter](https://github.com/Lusitaniae/apache_exporter) | **361** | APAC |
 | [CryceTruly/incomeexpensesapi](https://github.com/CryceTruly/incomeexpensesapi) | **342** | Kampala |
+| [nmmapper/python3-nmap](https://github.com/nmmapper/python3-nmap) | **320** | Kampala |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

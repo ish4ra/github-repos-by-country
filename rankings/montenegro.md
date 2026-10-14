@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **12**
-- Current global star frontier: **328**
+- Verified high-star candidates retained: **13**
+- Current global star frontier: **319**
 
 ### High-star verified preview
 
@@ -63,5 +63,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [viniciusmo/VMaskTextField](https://github.com/viniciusmo/VMaskTextField) | **377** | São Paulo, BR |
 | [gilbarbara/react-spotify-web-playback](https://github.com/gilbarbara/react-spotify-web-playback) | **343** | São Paulo, BR |
 | [thompsonemerson/zoomove](https://github.com/thompsonemerson/zoomove) | **336** | Fortaleza, CE, BR |
+| [kostafey/ejc-sql](https://github.com/kostafey/ejc-sql) | **321** | Podgorica, Montenegro |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

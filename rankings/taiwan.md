@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **328**
+- Verified high-star candidates retained: **16**
+- Current global star frontier: **319**
 
 ### High-star verified preview
 
@@ -65,5 +65,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [liangjingkanji/Channel](https://github.com/liangjingkanji/Channel) | **387** | 新竹市 |
 | [ming053l/DRCT](https://github.com/ming053l/DRCT) | **365** | New Taipei City, Taiwan |
 | [liangjingkanji/soft-input-event](https://github.com/liangjingkanji/soft-input-event) | **333** | 新竹市 |
+| [Yubo0826/88mall](https://github.com/Yubo0826/88mall) | **321** | New Taipei City, Taiwan |
+| [Yubo0826/TCOD--](https://github.com/Yubo0826/TCOD--) | **320** | New Taipei City, Taiwan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

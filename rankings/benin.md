@@ -20,8 +20,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **17**
-- Current global star frontier: **338**
+- Verified high-star candidates retained: **18**
+- Current global star frontier: **319**
 
 ### High-star verified preview
 
@@ -46,5 +46,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [o8oo8o/WebSSH](https://github.com/o8oo8o/WebSSH) | **385** | BJ |
 | [JideGuru/flutter_drawing_board](https://github.com/JideGuru/flutter_drawing_board) | **341** | Cotonou, Benin. |
 | [GarinZ/link-map](https://github.com/GarinZ/link-map) | **338** | BJ |
+| [snight1983/chia-rosechain](https://github.com/snight1983/chia-rosechain) | **320** | bj |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

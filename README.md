@@ -21,7 +21,7 @@
 
 ## Browse by country
 
-**250 indexed · 46 live · 250 building · 0 queued**
+**250 indexed · 47 live · 250 building · 0 queued**
 
 > 🟢 **Live** = published ranking · 🟡 **Building** = crawl in progress · ⚪ **Queued** = waiting for its first crawl
 
@@ -327,7 +327,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
       <td width="25%">🟡 <a href="./rankings/slovenia.md"><strong>🇸🇮 Slovenia</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/solomon-islands.md"><strong>🇸🇧 Solomon Islands</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/somalia.md"><strong>🇸🇴 Somalia</strong></a></td>
-      <td width="25%">🟡 <a href="./rankings/south-africa.md"><strong>🇿🇦 South Africa</strong></a></td>
+      <td width="25%">🟢 <a href="./rankings/south-africa.md"><strong>🇿🇦 South Africa</strong></a></td>
     </tr>
     <tr>
       <td width="25%">🟡 <a href="./rankings/south-georgia-south-sandwich-islands.md"><strong>🇬🇸 South Georgia &amp; South Sandwich Islands</strong></a></td>
