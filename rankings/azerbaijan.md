@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **338**
+- Verified high-star candidates retained: **10**
+- Current global star frontier: **305**
 
 ### High-star verified preview
 
@@ -60,5 +60,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [r14dd/patent](https://github.com/r14dd/patent) | **534** | Baku, Azerbaijan |
 | [theahmadov/NIVOS](https://github.com/theahmadov/NIVOS) | **481** | Azerbaijan |
 | [martian56/redcell](https://github.com/martian56/redcell) | **339** | Azerbaijan |
+| [ianb821/IBActionSheet](https://github.com/ianb821/IBActionSheet) | **305** | AZ |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

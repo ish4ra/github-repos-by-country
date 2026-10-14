@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **414**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **305**
 
 ### High-star verified preview
 
@@ -54,5 +54,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [duckythescientist/SmoothLife](https://github.com/duckythescientist/SmoothLife) | **706** | NoVA |
 | [marshyski/quick-secure](https://github.com/marshyski/quick-secure) | **425** | NoVA |
 | [skeate/Leaflet.timeline](https://github.com/skeate/Leaflet.timeline) | **420** | NoVA |
+| [duckythescientist/obfuscatedLife](https://github.com/duckythescientist/obfuscatedLife) | **307** | NoVA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

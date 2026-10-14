@@ -1,0 +1,3386 @@
+{
+  "schemaVersion": 1,
+  "methodologyVersion": "0.8.0-repository-first",
+  "generatedAt": "2026-10-14T10:09:28.159Z",
+  "country": {
+    "code": "CY",
+    "name": "Cyprus",
+    "slug": "cyprus"
+  },
+  "source": {
+    "provider": "GitHub GraphQL API",
+    "endpoint": "https://api.github.com/graphql",
+    "countryBasis": "public repository-owner profile location",
+    "discovery": "global repositories scanned by stars descending"
+  },
+  "coverage": {
+    "status": "repository-first-certified-by-star-frontier",
+    "exhaustive": false,
+    "rawOwnerHits": 192028,
+    "acceptedUniqueOwners": 59,
+    "ownerMetricLabel": "Unique owners in top ranking",
+    "repositoriesConsidered": 100,
+    "publishedRepositories": 100,
+    "candidateThresholdStars": 308,
+    "rankingLimit": 100,
+    "cappedQueries": [],
+    "repositoryFirst": {
+      "scanFrontierStars": 305,
+      "topObservedStars": 551406,
+      "repositoriesSeen": 192028,
+      "attributedRepositories": 71166,
+      "ambiguousLocations": 30682,
+      "unknownLocations": 90180,
+      "unresolvedStarCounts": []
+    },
+    "notes": [
+      "Repositories are scanned globally in descending star ranges, independently of owner follower count or owner-search ordering.",
+      "A country is certified only after its 100th repository has more stars than every unprocessed global star range.",
+      "Owner country is inferred from the owner public GitHub profile location using the global geography resolver.",
+      "Owners with missing or unresolved locations are excluded, so country attribution is not a citizenship or legal-incorporation claim.",
+      "Compound city/admin locations such as \"Portland, OR\" are resolved before ambiguous city-only names."
+    ]
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "AdGuardHome",
+      "nameWithOwner": "AdguardTeam/AdGuardHome",
+      "url": "https://github.com/AdguardTeam/AdGuardHome",
+      "description": "Network-wide ads & trackers blocking DNS server",
+      "stars": 37194,
+      "forks": 2533,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2016-07-06T10:31:47Z",
+      "pushedAt": "2026-10-02T17:23:39Z",
+      "homepageUrl": "https://adguard.com/adguard-home/overview.html",
+      "archived": false,
+      "owner": {
+        "login": "AdguardTeam",
+        "name": "AdGuard",
+        "type": "Organization",
+        "url": "https://github.com/AdguardTeam",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8361145?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 2,
+      "name": "core-js",
+      "nameWithOwner": "zloirock/core-js",
+      "url": "https://github.com/zloirock/core-js",
+      "description": "Standard Library",
+      "stars": 25535,
+      "forks": 1678,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-07-17T16:32:27Z",
+      "pushedAt": "2026-10-02T20:24:25Z",
+      "homepageUrl": "https://core-js.io",
+      "archived": false,
+      "owner": {
+        "login": "zloirock",
+        "name": "Denis Pushkarev",
+        "type": "User",
+        "url": "https://github.com/zloirock",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2213682?u=8b15e73a3320dde600389250b04b958996f8afe9&v=4",
+        "location": "Cyprus, Larnaca",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 3,
+      "name": "cognitive-load",
+      "nameWithOwner": "zakirullin/cognitive-load",
+      "url": "https://github.com/zakirullin/cognitive-load",
+      "description": "🧠 Cognitive load is what matters",
+      "stars": 12514,
+      "forks": 306,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Creative Commons Attribution 4.0 International",
+        "spdxId": "CC-BY-4.0"
+      },
+      "createdAt": "2023-05-19T13:58:31Z",
+      "pushedAt": "2026-06-29T17:36:29Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "zakirullin",
+        "name": "Artem Zakirullin",
+        "type": "User",
+        "url": "https://github.com/zakirullin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3357383?u=e4ed470910e0a05ae608d510bc1e2acb810c3363&v=4",
+        "location": "Limassol, Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 4,
+      "name": "centrifugo",
+      "nameWithOwner": "centrifugal/centrifugo",
+      "url": "https://github.com/centrifugal/centrifugo",
+      "description": "Scalable real-time messaging server in a language-agnostic way. Self-hosted alternative to Pubnub, Pusher, Ably, socket.io, Phoenix.PubSub, SignalR. Set up once and forever.",
+      "stars": 10828,
+      "forks": 739,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2015-03-31T20:26:49Z",
+      "pushedAt": "2026-09-30T16:21:34Z",
+      "homepageUrl": "https://centrifugal.dev",
+      "archived": false,
+      "owner": {
+        "login": "centrifugal",
+        "name": "Centrifugal Labs",
+        "type": "Organization",
+        "url": "https://github.com/centrifugal",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6236442?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 5,
+      "name": "pikvm",
+      "nameWithOwner": "pikvm/pikvm",
+      "url": "https://github.com/pikvm/pikvm",
+      "description": "Open and inexpensive DIY IP-KVM based on Raspberry Pi",
+      "stars": 10369,
+      "forks": 574,
+      "primaryLanguage": null,
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2019-09-16T13:18:57Z",
+      "pushedAt": "2026-09-21T16:11:27Z",
+      "homepageUrl": "https://pikvm.org",
+      "archived": false,
+      "owner": {
+        "login": "pikvm",
+        "name": "PiKVM Project",
+        "type": "Organization",
+        "url": "https://github.com/pikvm",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41749659?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 6,
+      "name": "google-maps-scraper",
+      "nameWithOwner": "gosom/google-maps-scraper",
+      "url": "https://github.com/gosom/google-maps-scraper",
+      "description": "scrape data  from Google Maps. Extracts data such as the name, address, phone number, website URL, rating,  reviews number, latitude and longitude, reviews,email and more for each place",
+      "stars": 6265,
+      "forks": 988,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-04-22T14:35:13Z",
+      "pushedAt": "2026-09-24T04:54:54Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "gosom",
+        "name": "Georgios Komninos",
+        "type": "User",
+        "url": "https://github.com/gosom",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/454718?u=f2d25d4104f0cff0b10530084361d502ac9e4e12&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 7,
+      "name": "AdguardFilters",
+      "nameWithOwner": "AdguardTeam/AdguardFilters",
+      "url": "https://github.com/AdguardTeam/AdguardFilters",
+      "description": "AdGuard Content Blocking Filters",
+      "stars": 4540,
+      "forks": 826,
+      "primaryLanguage": "Adblock Filter List",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2014-08-05T09:12:41Z",
+      "pushedAt": "2026-10-04T15:08:59Z",
+      "homepageUrl": "https://adguard.com/",
+      "archived": false,
+      "owner": {
+        "login": "AdguardTeam",
+        "name": "AdGuard",
+        "type": "Organization",
+        "url": "https://github.com/AdguardTeam",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8361145?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 8,
+      "name": "AdguardBrowserExtension",
+      "nameWithOwner": "AdguardTeam/AdguardBrowserExtension",
+      "url": "https://github.com/AdguardTeam/AdguardBrowserExtension",
+      "description": "AdGuard browser extension",
+      "stars": 4479,
+      "forks": 452,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2015-03-11T10:42:52Z",
+      "pushedAt": "2026-09-30T15:48:55Z",
+      "homepageUrl": "https://adguard.com/",
+      "archived": false,
+      "owner": {
+        "login": "AdguardTeam",
+        "name": "AdGuard",
+        "type": "Organization",
+        "url": "https://github.com/AdguardTeam",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8361145?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 9,
+      "name": "files.md",
+      "nameWithOwner": "zakirullin/files.md",
+      "url": "https://github.com/zakirullin/files.md",
+      "description": "🌱 Private, quiet space for thinking. Simple app for .md files.",
+      "stars": 4156,
+      "forks": 218,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-05-23T06:25:12Z",
+      "pushedAt": "2026-09-02T05:05:14Z",
+      "homepageUrl": "https://files.md",
+      "archived": false,
+      "owner": {
+        "login": "zakirullin",
+        "name": "Artem Zakirullin",
+        "type": "User",
+        "url": "https://github.com/zakirullin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3357383?u=e4ed470910e0a05ae608d510bc1e2acb810c3363&v=4",
+        "location": "Limassol, Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 10,
+      "name": "TrustTunnel",
+      "nameWithOwner": "TrustTunnel/TrustTunnel",
+      "url": "https://github.com/TrustTunnel/TrustTunnel",
+      "description": "Modern, fast and obfuscated VPN protocol",
+      "stars": 3505,
+      "forks": 241,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2025-11-07T13:01:12Z",
+      "pushedAt": "2026-10-01T13:56:05Z",
+      "homepageUrl": "https://trusttunnel.org/",
+      "archived": false,
+      "owner": {
+        "login": "TrustTunnel",
+        "name": "TrustTunnel",
+        "type": "Organization",
+        "url": "https://github.com/TrustTunnel",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/242616821?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 11,
+      "name": "dnsproxy",
+      "nameWithOwner": "AdguardTeam/dnsproxy",
+      "url": "https://github.com/AdguardTeam/dnsproxy",
+      "description": "Simple DNS proxy with DoH, DoT, DoQ and DNSCrypt support",
+      "stars": 3353,
+      "forks": 345,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-12-19T12:46:18Z",
+      "pushedAt": "2026-10-01T14:25:46Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "AdguardTeam",
+        "name": "AdGuard",
+        "type": "Organization",
+        "url": "https://github.com/AdguardTeam",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8361145?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 12,
+      "name": "ustreamer",
+      "nameWithOwner": "pikvm/ustreamer",
+      "url": "https://github.com/pikvm/ustreamer",
+      "description": "µStreamer - Lightweight and fast MJPEG-HTTP streamer",
+      "stars": 2035,
+      "forks": 278,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2018-09-14T11:33:51Z",
+      "pushedAt": "2026-09-17T01:36:25Z",
+      "homepageUrl": "https://pikvm.org",
+      "archived": false,
+      "owner": {
+        "login": "pikvm",
+        "name": "PiKVM Project",
+        "type": "Organization",
+        "url": "https://github.com/pikvm",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41749659?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 13,
+      "name": "AdguardForAndroid",
+      "nameWithOwner": "AdguardTeam/AdguardForAndroid",
+      "url": "https://github.com/AdguardTeam/AdguardForAndroid",
+      "description": "Open bug tracker for Android version of AdGuard.",
+      "stars": 1903,
+      "forks": 122,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2015-08-24T11:48:15Z",
+      "pushedAt": "2026-09-25T11:51:52Z",
+      "homepageUrl": "https://adguard.com/",
+      "archived": false,
+      "owner": {
+        "login": "AdguardTeam",
+        "name": "AdGuard",
+        "type": "Organization",
+        "url": "https://github.com/AdguardTeam",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8361145?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 14,
+      "name": "greenmask",
+      "nameWithOwner": "GreenmaskIO/greenmask",
+      "url": "https://github.com/GreenmaskIO/greenmask",
+      "description": "Database anonymization and test data management",
+      "stars": 1777,
+      "forks": 75,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2023-12-01T22:19:27Z",
+      "pushedAt": "2026-10-05T15:02:52Z",
+      "homepageUrl": "https://greenmask.io",
+      "archived": false,
+      "owner": {
+        "login": "GreenmaskIO",
+        "name": "Greenmask",
+        "type": "Organization",
+        "url": "https://github.com/GreenmaskIO",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/142438751?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 15,
+      "name": "AdguardForiOS",
+      "nameWithOwner": "AdguardTeam/AdguardForiOS",
+      "url": "https://github.com/AdguardTeam/AdguardForiOS",
+      "description": "The most advanced ad blocker for iOS",
+      "stars": 1711,
+      "forks": 244,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2015-10-07T10:04:16Z",
+      "pushedAt": "2026-09-28T15:06:02Z",
+      "homepageUrl": "https://adguard.com/",
+      "archived": false,
+      "owner": {
+        "login": "AdguardTeam",
+        "name": "AdGuard",
+        "type": "Organization",
+        "url": "https://github.com/AdguardTeam",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8361145?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 16,
+      "name": "framework",
+      "nameWithOwner": "goaop/framework",
+      "url": "https://github.com/goaop/framework",
+      "description": ":gem: Go! AOP PHP - modern aspect-oriented framework for the new level of software development",
+      "stars": 1670,
+      "forks": 166,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2011-02-26T22:15:12Z",
+      "pushedAt": "2026-10-05T23:20:51Z",
+      "homepageUrl": "https://go.aopphp.com",
+      "archived": false,
+      "owner": {
+        "login": "goaop",
+        "name": "Go! Aspect-Oriented Framework",
+        "type": "Organization",
+        "url": "https://github.com/goaop",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12559187?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 17,
+      "name": "nestjs-pino",
+      "nameWithOwner": "iamolegga/nestjs-pino",
+      "url": "https://github.com/iamolegga/nestjs-pino",
+      "description": "Platform agnostic logger for NestJS based on Pino with REQUEST CONTEXT IN EVERY LOG",
+      "stars": 1542,
+      "forks": 108,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-09-04T10:57:10Z",
+      "pushedAt": "2026-10-03T16:27:19Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "iamolegga",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/iamolegga",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5501657?u=e179a1695bd2f2f4cacd3ddd4135d13983186039&v=4",
+        "location": "Λεμεσός, Κύπρος",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "λεμεσος"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 18,
+      "name": "centrifuge",
+      "nameWithOwner": "centrifugal/centrifuge",
+      "url": "https://github.com/centrifugal/centrifuge",
+      "description": "Real-time messaging library for Go. The simplest way to add feature-rich and scalable WebSocket support to your application. The core of Centrifugo server.",
+      "stars": 1484,
+      "forks": 122,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-02-21T20:01:53Z",
+      "pushedAt": "2026-10-06T03:52:35Z",
+      "homepageUrl": "https://pkg.go.dev/github.com/centrifugal/centrifuge",
+      "archived": false,
+      "owner": {
+        "login": "centrifugal",
+        "name": "Centrifugal Labs",
+        "type": "Organization",
+        "url": "https://github.com/centrifugal",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6236442?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 19,
+      "name": "jvectormap",
+      "nameWithOwner": "bjornd/jvectormap",
+      "url": "https://github.com/bjornd/jvectormap",
+      "description": null,
+      "stars": 1394,
+      "forks": 422,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2012-01-29T15:52:49Z",
+      "pushedAt": "2024-04-13T11:26:23Z",
+      "homepageUrl": "jvectormap.com",
+      "archived": false,
+      "owner": {
+        "login": "bjornd",
+        "name": "Kirill Lebedev",
+        "type": "User",
+        "url": "https://github.com/bjornd",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/939401?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 20,
+      "name": "AdGuardSDNSFilter",
+      "nameWithOwner": "AdguardTeam/AdGuardSDNSFilter",
+      "url": "https://github.com/AdguardTeam/AdGuardSDNSFilter",
+      "description": "AdGuard DNS filter",
+      "stars": 1387,
+      "forks": 195,
+      "primaryLanguage": "Adblock Filter List",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2018-08-30T13:34:41Z",
+      "pushedAt": "2026-10-06T14:16:29Z",
+      "homepageUrl": "https://adguard-dns.io/",
+      "archived": false,
+      "owner": {
+        "login": "AdguardTeam",
+        "name": "AdGuard",
+        "type": "Organization",
+        "url": "https://github.com/AdguardTeam",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8361145?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 21,
+      "name": "AdGuardExtra",
+      "nameWithOwner": "AdguardTeam/AdGuardExtra",
+      "url": "https://github.com/AdguardTeam/AdGuardExtra",
+      "description": "AdGuard Extra is designed to solve complicated cases when regular ad blocking rules aren't enough.",
+      "stars": 1351,
+      "forks": 35,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2019-06-20T09:25:05Z",
+      "pushedAt": "2025-03-11T15:12:57Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "AdguardTeam",
+        "name": "AdGuard",
+        "type": "Organization",
+        "url": "https://github.com/AdguardTeam",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8361145?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 22,
+      "name": "magic",
+      "nameWithOwner": "polterguy/magic",
+      "url": "https://github.com/polterguy/magic",
+      "description": "Instant SECURE Full Stack Apps and AI Agents",
+      "stars": 1200,
+      "forks": 175,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-03-16T04:57:01Z",
+      "pushedAt": "2026-09-29T13:25:54Z",
+      "homepageUrl": "https://hyperlambda.dev",
+      "archived": false,
+      "owner": {
+        "login": "polterguy",
+        "name": "Thomas Hansen",
+        "type": "User",
+        "url": "https://github.com/polterguy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8466933?u=ee103f1de40bbb14a2850f35f7ca4a2fa7743a10&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 23,
+      "name": "AdGuardMiniForMac",
+      "nameWithOwner": "AdguardTeam/AdGuardMiniForMac",
+      "url": "https://github.com/AdguardTeam/AdGuardMiniForMac",
+      "description": "AdGuard Mini for macOS",
+      "stars": 1186,
+      "forks": 84,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2018-09-18T10:53:12Z",
+      "pushedAt": "2026-10-06T11:10:56Z",
+      "homepageUrl": "https://adguard.com/adguard-mini-mac/overview.html",
+      "archived": false,
+      "owner": {
+        "login": "AdguardTeam",
+        "name": "AdGuard",
+        "type": "Organization",
+        "url": "https://github.com/AdguardTeam",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8361145?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 24,
+      "name": "diff-hl",
+      "nameWithOwner": "dgutov/diff-hl",
+      "url": "https://github.com/dgutov/diff-hl",
+      "description": "Emacs package for highlighting uncommitted changes",
+      "stars": 1116,
+      "forks": 70,
+      "primaryLanguage": "Emacs Lisp",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2012-06-25T12:28:23Z",
+      "pushedAt": "2026-10-01T01:35:49Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "dgutov",
+        "name": "Dmitry Gutov",
+        "type": "User",
+        "url": "https://github.com/dgutov",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/271877?u=4f40670baff9f99dc0187e10cb95b48a6593f09a&v=4",
+        "location": "Limassol, Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 25,
+      "name": "python-package-template",
+      "nameWithOwner": "TezRomacH/python-package-template",
+      "url": "https://github.com/TezRomacH/python-package-template",
+      "description": "🚀 Your next Python package needs a bleeding-edge project structure.",
+      "stars": 1092,
+      "forks": 115,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-04-15T14:53:29Z",
+      "pushedAt": "2023-09-13T16:09:47Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "TezRomacH",
+        "name": "Roman Tezikov",
+        "type": "User",
+        "url": "https://github.com/TezRomacH",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7549587?u=41cfb5039fd34405e9e20d5c951a23b382e41ed0&v=4",
+        "location": "Limassol, Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 26,
+      "name": "AdGuardDNS",
+      "nameWithOwner": "AdguardTeam/AdGuardDNS",
+      "url": "https://github.com/AdguardTeam/AdGuardDNS",
+      "description": "Public DNS resolver that protects you from ad trackers",
+      "stars": 963,
+      "forks": 82,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2018-12-12T10:52:24Z",
+      "pushedAt": "2026-07-20T12:56:36Z",
+      "homepageUrl": "https://adguard-dns.io/",
+      "archived": false,
+      "owner": {
+        "login": "AdguardTeam",
+        "name": "AdGuard",
+        "type": "Organization",
+        "url": "https://github.com/AdguardTeam",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8361145?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 27,
+      "name": "modus-themes",
+      "nameWithOwner": "protesilaos/modus-themes",
+      "url": "https://github.com/protesilaos/modus-themes",
+      "description": "Highly accessible themes for GNU Emacs, conforming with the highest standard for colour contrast between background and foreground values (WCAG AAA).",
+      "stars": 912,
+      "forks": 76,
+      "primaryLanguage": "Emacs Lisp",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2020-04-17T10:33:22Z",
+      "pushedAt": "2026-10-05T10:01:06Z",
+      "homepageUrl": "https://protesilaos.com/emacs/modus-themes",
+      "archived": false,
+      "owner": {
+        "login": "protesilaos",
+        "name": "Protesilaos",
+        "type": "User",
+        "url": "https://github.com/protesilaos",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12828033?u=5da178f4b164b51a0d863ddd7a241aa0c354c72e&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 28,
+      "name": "helmwave",
+      "nameWithOwner": "helmwave/helmwave",
+      "url": "https://github.com/helmwave/helmwave",
+      "description": "New 🌊 wave for @helm",
+      "stars": 903,
+      "forks": 49,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-11-02T00:09:57Z",
+      "pushedAt": "2026-08-06T08:44:35Z",
+      "homepageUrl": "https://docs.helmwave.app",
+      "archived": false,
+      "owner": {
+        "login": "helmwave",
+        "name": "Helmwave",
+        "type": "Organization",
+        "url": "https://github.com/helmwave",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80326404?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 29,
+      "name": "AdguardForWindows",
+      "nameWithOwner": "AdguardTeam/AdguardForWindows",
+      "url": "https://github.com/AdguardTeam/AdguardForWindows",
+      "description": "AdGuard for Windows open bug tracker",
+      "stars": 892,
+      "forks": 84,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2015-07-19T10:58:55Z",
+      "pushedAt": "2026-10-01T14:56:18Z",
+      "homepageUrl": "https://adguard.com/",
+      "archived": false,
+      "owner": {
+        "login": "AdguardTeam",
+        "name": "AdGuard",
+        "type": "Organization",
+        "url": "https://github.com/AdguardTeam",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8361145?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 30,
+      "name": "tiktokpy",
+      "nameWithOwner": "sudoguy/tiktokpy",
+      "url": "https://github.com/sudoguy/tiktokpy",
+      "description": "Tool for automated TikTok interactions",
+      "stars": 876,
+      "forks": 165,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-06-05T16:00:47Z",
+      "pushedAt": "2026-10-06T00:40:19Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "sudoguy",
+        "name": "Evgeny Kemerov",
+        "type": "User",
+        "url": "https://github.com/sudoguy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12039393?u=a58241214c6458512f029d337b095f8674aeeea2&v=4",
+        "location": "Limassol, Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 31,
+      "name": "slackthemes",
+      "nameWithOwner": "paracycle/slackthemes",
+      "url": "https://github.com/paracycle/slackthemes",
+      "description": "A Slack sidebar theme browser",
+      "stars": 873,
+      "forks": 246,
+      "primaryLanguage": "HTML",
+      "license": null,
+      "createdAt": "2015-03-15T02:02:38Z",
+      "pushedAt": "2026-05-16T00:50:34Z",
+      "homepageUrl": "http://slackthemes.net",
+      "archived": false,
+      "owner": {
+        "login": "paracycle",
+        "name": "Ufuk Kayserilioglu",
+        "type": "User",
+        "url": "https://github.com/paracycle",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/224488?u=c2bf6efb0a589a3a1bbe94a447ced602a0884d15&v=4",
+        "location": "Nicosia, Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 32,
+      "name": "denote",
+      "nameWithOwner": "protesilaos/denote",
+      "url": "https://github.com/protesilaos/denote",
+      "description": "Efficient file-naming scheme to organise files and write notes with Emacs",
+      "stars": 869,
+      "forks": 94,
+      "primaryLanguage": "Emacs Lisp",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2022-06-04T04:47:49Z",
+      "pushedAt": "2026-10-07T17:51:39Z",
+      "homepageUrl": "https://protesilaos.com/emacs/denote",
+      "archived": false,
+      "owner": {
+        "login": "protesilaos",
+        "name": "Protesilaos",
+        "type": "User",
+        "url": "https://github.com/protesilaos",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12828033?u=5da178f4b164b51a0d863ddd7a241aa0c354c72e&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 33,
+      "name": "filtrr",
+      "nameWithOwner": "alexmic/filtrr",
+      "url": "https://github.com/alexmic/filtrr",
+      "description": "Instagram-like image filters in pure JavaScript.",
+      "stars": 823,
+      "forks": 86,
+      "primaryLanguage": "JavaScript",
+      "license": null,
+      "createdAt": "2011-01-29T14:50:29Z",
+      "pushedAt": "2013-11-13T00:00:33Z",
+      "homepageUrl": "http://filtrr.me",
+      "archived": false,
+      "owner": {
+        "login": "alexmic",
+        "name": "Alex Michael",
+        "type": "User",
+        "url": "https://github.com/alexmic",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/333117?u=8131cec55a32dd22e459558e5a276fdc61f6b2f3&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 34,
+      "name": "ContentBlocker",
+      "nameWithOwner": "AdguardTeam/ContentBlocker",
+      "url": "https://github.com/AdguardTeam/ContentBlocker",
+      "description": "Content blocking extension for Samsung Internet and Yandex Browser",
+      "stars": 761,
+      "forks": 158,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2016-05-05T11:39:16Z",
+      "pushedAt": "2026-09-22T07:45:10Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "AdguardTeam",
+        "name": "AdGuard",
+        "type": "Organization",
+        "url": "https://github.com/AdguardTeam",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8361145?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 35,
+      "name": "anyplace",
+      "nameWithOwner": "dmsl/anyplace",
+      "url": "https://github.com/dmsl/anyplace",
+      "description": "A free and open Indoor Navigation Service with superb accuracy!",
+      "stars": 753,
+      "forks": 318,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-08-26T14:13:27Z",
+      "pushedAt": "2022-08-06T02:18:08Z",
+      "homepageUrl": "https://anyplace.cs.ucy.ac.cy/",
+      "archived": false,
+      "owner": {
+        "login": "dmsl",
+        "name": "Data Management Systems Laboratory (DMSL), CS, UCY",
+        "type": "Organization",
+        "url": "https://github.com/dmsl",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1130241?v=4",
+        "location": "Nicosia, Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 36,
+      "name": "egui_graphs",
+      "nameWithOwner": "blitzarx1/egui_graphs",
+      "url": "https://github.com/blitzarx1/egui_graphs",
+      "description": "Interactive graph visualization widget for rust powered by egui and petgraph",
+      "stars": 707,
+      "forks": 77,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-03-28T20:54:55Z",
+      "pushedAt": "2026-08-31T19:33:08Z",
+      "homepageUrl": "https://blitzarx1.github.io/egui_graphs",
+      "archived": false,
+      "owner": {
+        "login": "blitzarx1",
+        "name": "starlord",
+        "type": "User",
+        "url": "https://github.com/blitzarx1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32969427?u=069392749c79ee98c084259098c3c8359275d35b&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 37,
+      "name": "quazip",
+      "nameWithOwner": "stachenov/quazip",
+      "url": "https://github.com/stachenov/quazip",
+      "description": "Qt/C++ wrapper over minizip",
+      "stars": 696,
+      "forks": 251,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2018-03-18T18:28:00Z",
+      "pushedAt": "2026-06-30T22:47:50Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "stachenov",
+        "name": "Sergei Tachenov",
+        "type": "User",
+        "url": "https://github.com/stachenov",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10459538?u=a186de82218793240d542aa5e2c058aa24be6be2&v=4",
+        "location": "Paphos, Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 38,
+      "name": "centrifuge",
+      "nameWithOwner": "FZambia/centrifuge",
+      "url": "https://github.com/FZambia/centrifuge",
+      "description": "Migrated to Go language, see https://github.com/centrifugal/centrifugo",
+      "stars": 672,
+      "forks": 35,
+      "primaryLanguage": "Python",
+      "license": null,
+      "createdAt": "2013-03-03T11:43:39Z",
+      "pushedAt": "2016-12-09T09:43:16Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "FZambia",
+        "name": "Alexander Emelin",
+        "type": "User",
+        "url": "https://github.com/FZambia",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1196565?u=dd960ecaf3339af63585295d7a17ff8fd86a52b5&v=4",
+        "location": "Limassol, Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 39,
+      "name": "ccm_slam",
+      "nameWithOwner": "v4rl-ucy/ccm_slam",
+      "url": "https://github.com/v4rl-ucy/ccm_slam",
+      "description": "CCM-SLAM: Robust and Efficient Centralized Collaborative Monocular SLAM for Robotic Teams",
+      "stars": 645,
+      "forks": 111,
+      "primaryLanguage": "C++",
+      "license": null,
+      "createdAt": "2018-10-19T15:31:55Z",
+      "pushedAt": "2023-07-06T08:57:09Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "v4rl-ucy",
+        "name": "Vision for Robotics Lab (V4RL)",
+        "type": "Organization",
+        "url": "https://github.com/v4rl-ucy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14180826?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 40,
+      "name": "gpt-go",
+      "nameWithOwner": "zakirullin/gpt-go",
+      "url": "https://github.com/zakirullin/gpt-go",
+      "description": "Tiny GPT implemented from scratch in pure Go. Optimized for understanding. Trained on Jules Verne books.",
+      "stars": 643,
+      "forks": 44,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-04-16T14:45:29Z",
+      "pushedAt": "2025-10-08T12:02:27Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "zakirullin",
+        "name": "Artem Zakirullin",
+        "type": "User",
+        "url": "https://github.com/zakirullin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3357383?u=e4ed470910e0a05ae608d510bc1e2acb810c3363&v=4",
+        "location": "Limassol, Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 41,
+      "name": "overlord",
+      "nameWithOwner": "qsecure-labs/overlord",
+      "url": "https://github.com/qsecure-labs/overlord",
+      "description": "Overlord - Red Teaming Infrastructure Automation",
+      "stars": 639,
+      "forks": 78,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-09-08T15:59:02Z",
+      "pushedAt": "2024-05-28T21:38:05Z",
+      "homepageUrl": "https://blog.qsecure.com.cy/posts/overlord/",
+      "archived": false,
+      "owner": {
+        "login": "qsecure-labs",
+        "name": "QSecure Labs",
+        "type": "Organization",
+        "url": "https://github.com/qsecure-labs",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53810599?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 42,
+      "name": "helm-s3",
+      "nameWithOwner": "hypnoglow/helm-s3",
+      "url": "https://github.com/hypnoglow/helm-s3",
+      "description": "⎈ Helm plugin that adds support for AWS S3 as a chart repository.",
+      "stars": 615,
+      "forks": 172,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-09-29T16:15:09Z",
+      "pushedAt": "2026-09-17T18:05:15Z",
+      "homepageUrl": "https://helm-s3.hypnoglow.io",
+      "archived": false,
+      "owner": {
+        "login": "hypnoglow",
+        "name": "Igor Zibarev",
+        "type": "User",
+        "url": "https://github.com/hypnoglow",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4853075?u=46a46b12713a37327db040e701fdf974032e4f28&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 43,
+      "name": "qman",
+      "nameWithOwner": "plp13/qman",
+      "url": "https://github.com/plp13/qman",
+      "description": "A more modern man page viewer for our terminals",
+      "stars": 607,
+      "forks": 23,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "spdxId": "BSD-2-Clause"
+      },
+      "createdAt": "2023-09-28T20:06:06Z",
+      "pushedAt": "2026-09-06T17:18:55Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "plp13",
+        "name": "Pantelis Panayiotou",
+        "type": "User",
+        "url": "https://github.com/plp13",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3441173?u=3ed2a765758f1b7652421b7d6c792729d5f64b79&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 44,
+      "name": "robe",
+      "nameWithOwner": "dgutov/robe",
+      "url": "https://github.com/dgutov/robe",
+      "description": "Code navigation, documentation lookup and completion for Ruby",
+      "stars": 590,
+      "forks": 38,
+      "primaryLanguage": "Emacs Lisp",
+      "license": null,
+      "createdAt": "2012-11-16T04:34:12Z",
+      "pushedAt": "2025-02-19T19:43:41Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "dgutov",
+        "name": "Dmitry Gutov",
+        "type": "User",
+        "url": "https://github.com/dgutov",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/271877?u=4f40670baff9f99dc0187e10cb95b48a6593f09a&v=4",
+        "location": "Limassol, Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 45,
+      "name": "ef-themes",
+      "nameWithOwner": "protesilaos/ef-themes",
+      "url": "https://github.com/protesilaos/ef-themes",
+      "description": "Colourful and legible themes for GNU Emacs",
+      "stars": 589,
+      "forks": 32,
+      "primaryLanguage": "Emacs Lisp",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2022-08-13T10:13:56Z",
+      "pushedAt": "2026-08-14T10:56:35Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "protesilaos",
+        "name": "Protesilaos",
+        "type": "User",
+        "url": "https://github.com/protesilaos",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12828033?u=5da178f4b164b51a0d863ddd7a241aa0c354c72e&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 46,
+      "name": "tiny-compiler",
+      "nameWithOwner": "zakirullin/tiny-compiler",
+      "url": "https://github.com/zakirullin/tiny-compiler",
+      "description": "A tiny compiler for a language featuring LL(2) grammar. With Lexer, Parser, ASM-like codegen and VM. Complex enough to give you a flavour of how the \"real\" thing works whilst not being a mere toy example",
+      "stars": 580,
+      "forks": 44,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-04-12T08:40:25Z",
+      "pushedAt": "2025-05-11T05:50:53Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "zakirullin",
+        "name": "Artem Zakirullin",
+        "type": "User",
+        "url": "https://github.com/zakirullin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3357383?u=e4ed470910e0a05ae608d510bc1e2acb810c3363&v=4",
+        "location": "Limassol, Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 47,
+      "name": "ecs",
+      "nameWithOwner": "chromealex/ecs",
+      "url": "https://github.com/chromealex/ecs",
+      "description": "ECS for Unity with full game state automatic rollbacks",
+      "stars": 562,
+      "forks": 53,
+      "primaryLanguage": null,
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-01-02T20:10:34Z",
+      "pushedAt": "2023-06-01T19:39:39Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "chromealex",
+        "name": "Alex Silaev",
+        "type": "User",
+        "url": "https://github.com/chromealex",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5654506?u=043b7b9b8d11a406416812d719b3ea104913fff9&v=4",
+        "location": "Paphos, Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 48,
+      "name": "Unity3d.UI.Windows",
+      "nameWithOwner": "chromealex/Unity3d.UI.Windows",
+      "url": "https://github.com/chromealex/Unity3d.UI.Windows",
+      "description": "Unity 3D UI (uGUI) Windows Extensions",
+      "stars": 512,
+      "forks": 110,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2015-02-13T11:21:40Z",
+      "pushedAt": "2022-03-23T19:31:43Z",
+      "homepageUrl": "http://chromealex.github.io/Unity3d.UI.Windows/",
+      "archived": false,
+      "owner": {
+        "login": "chromealex",
+        "name": "Alex Silaev",
+        "type": "User",
+        "url": "https://github.com/chromealex",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5654506?u=043b7b9b8d11a406416812d719b3ea104913fff9&v=4",
+        "location": "Paphos, Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 49,
+      "name": "centrifuge-js",
+      "nameWithOwner": "centrifugal/centrifuge-js",
+      "url": "https://github.com/centrifugal/centrifuge-js",
+      "description": "JavaScript client SDK to communicate with Centrifugo and Centrifuge-based server from browser, NodeJS and React Native. Supports WebSocket, HTTP-streaming over Fetch and Readable Stream API, EventSource, WebTransport.",
+      "stars": 508,
+      "forks": 118,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-11-20T18:57:56Z",
+      "pushedAt": "2026-10-10T13:33:30Z",
+      "homepageUrl": "https://centrifugal.dev",
+      "archived": false,
+      "owner": {
+        "login": "centrifugal",
+        "name": "Centrifugal Labs",
+        "type": "Organization",
+        "url": "https://github.com/centrifugal",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6236442?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 50,
+      "name": "talk-codebase",
+      "nameWithOwner": "rsaryev/talk-codebase",
+      "url": "https://github.com/rsaryev/talk-codebase",
+      "description": "Tool for chatting with your codebase and docs using OpenAI, LlamaCpp, and GPT-4-All",
+      "stars": 506,
+      "forks": 38,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-05-25T20:02:59Z",
+      "pushedAt": "2024-11-18T22:15:48Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "rsaryev",
+        "name": "Saryev Rustam",
+        "type": "User",
+        "url": "https://github.com/rsaryev",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70219513?u=8ccb6aa197127eadb892499fa007858f884c2a78&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 51,
+      "name": "MMLanScan",
+      "nameWithOwner": "mavris/MMLanScan",
+      "url": "https://github.com/mavris/MMLanScan",
+      "description": "An iOS LAN  Network Scanner library",
+      "stars": 501,
+      "forks": 125,
+      "primaryLanguage": "Objective-C",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-08-11T23:04:29Z",
+      "pushedAt": "2021-04-21T20:27:30Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "mavris",
+        "name": "Michael Mavris",
+        "type": "User",
+        "url": "https://github.com/mavris",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3520168?u=16219aeb85079504bb2731835744ff04f9bfc010&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 52,
+      "name": "pinba_engine",
+      "nameWithOwner": "tony2001/pinba_engine",
+      "url": "https://github.com/tony2001/pinba_engine",
+      "description": "Pinba - MySQL plugin and storage engine",
+      "stars": 482,
+      "forks": 52,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "spdxId": "GPL-2.0"
+      },
+      "createdAt": "2009-02-15T22:36:07Z",
+      "pushedAt": "2018-12-07T15:15:53Z",
+      "homepageUrl": "http://pinba.org",
+      "archived": false,
+      "owner": {
+        "login": "tony2001",
+        "name": "Antony Dovgal",
+        "type": "User",
+        "url": "https://github.com/tony2001",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42386?v=4",
+        "location": "Limassol, Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 53,
+      "name": "PogoLocationFeeder",
+      "nameWithOwner": "5andr0/PogoLocationFeeder",
+      "url": "https://github.com/5andr0/PogoLocationFeeder",
+      "description": "Json feed of pokemon location data",
+      "stars": 478,
+      "forks": 160,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2016-07-28T22:32:22Z",
+      "pushedAt": "2016-09-24T14:57:41Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "5andr0",
+        "name": "Sandro Trianni",
+        "type": "User",
+        "url": "https://github.com/5andr0",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/206866?u=b6e18a0738e156e4bb5ab5412714f4e5f4a04d47&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 54,
+      "name": "clink-completions",
+      "nameWithOwner": "vladimir-kotikov/clink-completions",
+      "url": "https://github.com/vladimir-kotikov/clink-completions",
+      "description": "Completion files to clink util",
+      "stars": 467,
+      "forks": 93,
+      "primaryLanguage": "Lua",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-12-02T09:33:17Z",
+      "pushedAt": "2026-08-25T16:48:18Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "vladimir-kotikov",
+        "name": "Vladimir Kotikov",
+        "type": "User",
+        "url": "https://github.com/vladimir-kotikov",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3857604?u=694d29270a86401812a1417dd03b5ee985361443&v=4",
+        "location": "Limassol, Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 55,
+      "name": "discrete-math-python-scripts",
+      "nameWithOwner": "alexanderskulikov/discrete-math-python-scripts",
+      "url": "https://github.com/alexanderskulikov/discrete-math-python-scripts",
+      "description": "Python code snippets from Discrete Mathematics for Computer Science specialization at Coursera",
+      "stars": 463,
+      "forks": 175,
+      "primaryLanguage": "Jupyter Notebook",
+      "license": null,
+      "createdAt": "2020-07-03T16:09:14Z",
+      "pushedAt": "2026-01-20T12:01:53Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "alexanderskulikov",
+        "name": "Alexander S. Kulikov",
+        "type": "User",
+        "url": "https://github.com/alexanderskulikov",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/990953?u=2b27ecf475eb7008cf034786a0d7ac23b0e9aeae&v=4",
+        "location": "Limassol, Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 56,
+      "name": "ch-download",
+      "nameWithOwner": "alekseylovchikov/ch-download",
+      "url": "https://github.com/alekseylovchikov/ch-download",
+      "description": "Download videos (course) from coursehunter.net",
+      "stars": 462,
+      "forks": 109,
+      "primaryLanguage": "JavaScript",
+      "license": null,
+      "createdAt": "2017-09-13T07:47:40Z",
+      "pushedAt": "2026-04-02T17:40:36Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "alekseylovchikov",
+        "name": "Aleksey Lovchikov",
+        "type": "User",
+        "url": "https://github.com/alekseylovchikov",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2079591?u=940a85a15cea72f9dcefa8660b37da8d2866bb78&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 57,
+      "name": "covins",
+      "nameWithOwner": "v4rl-ucy/covins",
+      "url": "https://github.com/v4rl-ucy/covins",
+      "description": "COVINS-(G) -- A (Generic) Framework for Collaborative Visual-Inertial SLAM and Multi-Agent 3D Mapping",
+      "stars": 461,
+      "forks": 74,
+      "primaryLanguage": "C++",
+      "license": null,
+      "createdAt": "2021-07-25T14:10:45Z",
+      "pushedAt": "2023-12-01T22:30:38Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "v4rl-ucy",
+        "name": "Vision for Robotics Lab (V4RL)",
+        "type": "Organization",
+        "url": "https://github.com/v4rl-ucy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14180826?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 58,
+      "name": "PopupBlocker",
+      "nameWithOwner": "AdguardTeam/PopupBlocker",
+      "url": "https://github.com/AdguardTeam/PopupBlocker",
+      "description": "Popup blocking userscript",
+      "stars": 460,
+      "forks": 41,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU Lesser General Public License v3.0",
+        "spdxId": "LGPL-3.0"
+      },
+      "createdAt": "2017-07-17T09:08:55Z",
+      "pushedAt": "2026-09-30T09:15:43Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "AdguardTeam",
+        "name": "AdGuard",
+        "type": "Organization",
+        "url": "https://github.com/AdguardTeam",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8361145?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 59,
+      "name": "DDoSlayer",
+      "nameWithOwner": "blackhatethicalhacking/DDoSlayer",
+      "url": "https://github.com/blackhatethicalhacking/DDoSlayer",
+      "description": "An Advanced Layer 7 DDoS tool, Able to bypass CF and offers various DoS Techniques",
+      "stars": 459,
+      "forks": 101,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2018-08-25T11:19:00Z",
+      "pushedAt": "2026-07-23T12:32:55Z",
+      "homepageUrl": "https://www.blackhatethicalhacking.com",
+      "archived": false,
+      "owner": {
+        "login": "blackhatethicalhacking",
+        "name": "Black Hat Ethical Hacking",
+        "type": "User",
+        "url": "https://github.com/blackhatethicalhacking",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13942386?u=6f82b07b465c48060a710dde1af58ac6ad81593f&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 60,
+      "name": "z-engine",
+      "nameWithOwner": "lisachenko/z-engine",
+      "url": "https://github.com/lisachenko/z-engine",
+      "description": ":zap: PHP Engine Direct API",
+      "stars": 457,
+      "forks": 24,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-09-05T08:48:12Z",
+      "pushedAt": "2026-10-10T20:33:18Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "lisachenko",
+        "name": "Alexander Lisachenko",
+        "type": "User",
+        "url": "https://github.com/lisachenko",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/640114?u=b48ee5c64db29ad5a33582b0afef1d589a6a9bb8&v=4",
+        "location": "Limassol",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "limassol"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 61,
+      "name": "bear_fault_diagnosis",
+      "nameWithOwner": "Xiaohan-Chen/bear_fault_diagnosis",
+      "url": "https://github.com/Xiaohan-Chen/bear_fault_diagnosis",
+      "description": "Bearing fault diagnosis model based on MCNN-LSTM",
+      "stars": 450,
+      "forks": 53,
+      "primaryLanguage": "Jupyter Notebook",
+      "license": null,
+      "createdAt": "2020-08-05T14:01:03Z",
+      "pushedAt": "2026-07-24T20:12:52Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Xiaohan-Chen",
+        "name": "xh chen",
+        "type": "User",
+        "url": "https://github.com/Xiaohan-Chen",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46585538?u=68e429921b605274e4a40819b0a6649a583cd589&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 62,
+      "name": "Indicators",
+      "nameWithOwner": "debut-js/Indicators",
+      "url": "https://github.com/debut-js/Indicators",
+      "description": "Technical indicators for cryptocurrencies, stocks and forex. To work with historical and real price data. One of the most efficient Javascript library implementations. The library has such indicators as: Relative Strength Index (RSI), Moving Average C / D (MACD), Average Directional Index (ADX), Stochastic Oscillator, Bollinger Bands, Average True Range (ATR) and many others",
+      "stars": 446,
+      "forks": 59,
+      "primaryLanguage": "TypeScript",
+      "license": null,
+      "createdAt": "2020-06-23T08:21:31Z",
+      "pushedAt": "2026-05-16T10:14:30Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "debut-js",
+        "name": "Debut",
+        "type": "Organization",
+        "url": "https://github.com/debut-js",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84679686?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 63,
+      "name": "Solution-Architect-Road-Map",
+      "nameWithOwner": "NikAshanin/Solution-Architect-Road-Map",
+      "url": "https://github.com/NikAshanin/Solution-Architect-Road-Map",
+      "description": null,
+      "stars": 435,
+      "forks": 95,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2019-08-04T23:20:53Z",
+      "pushedAt": "2023-03-14T11:08:23Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "NikAshanin",
+        "name": "Nikolai Ashanin",
+        "type": "User",
+        "url": "https://github.com/NikAshanin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9415847?u=40ffd192fde9cef7b9b5b3650c3aba7d053b23f2&v=4",
+        "location": "Cyprus, Limassol",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 64,
+      "name": "cname-trackers",
+      "nameWithOwner": "AdguardTeam/cname-trackers",
+      "url": "https://github.com/AdguardTeam/cname-trackers",
+      "description": "This repository contains a list of popular CNAME trackers",
+      "stars": 431,
+      "forks": 43,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-02-28T20:17:00Z",
+      "pushedAt": "2026-10-09T14:29:23Z",
+      "homepageUrl": "https://adguard.com/",
+      "archived": false,
+      "owner": {
+        "login": "AdguardTeam",
+        "name": "AdGuard",
+        "type": "Organization",
+        "url": "https://github.com/AdguardTeam",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8361145?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 65,
+      "name": "adguardcert",
+      "nameWithOwner": "AdguardTeam/adguardcert",
+      "url": "https://github.com/AdguardTeam/adguardcert",
+      "description": "Magisk module that allows using AdGuard's HTTPS filtering for all apps",
+      "stars": 428,
+      "forks": 35,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-03-28T11:39:23Z",
+      "pushedAt": "2026-10-08T06:51:28Z",
+      "homepageUrl": "https://adguard.com/",
+      "archived": false,
+      "owner": {
+        "login": "AdguardTeam",
+        "name": "AdGuard",
+        "type": "Organization",
+        "url": "https://github.com/AdguardTeam",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8361145?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 66,
+      "name": "django-private-chat",
+      "nameWithOwner": "Bearle/django-private-chat",
+      "url": "https://github.com/Bearle/django-private-chat",
+      "description": "(Deprecated - Please check out https://github.com/Bearle/django_private_chat2) Django one-to-one Websocket-based Asyncio-handled chat, developed by Bearle team",
+      "stars": 417,
+      "forks": 130,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "ISC License",
+        "spdxId": "ISC"
+      },
+      "createdAt": "2017-01-31T23:50:53Z",
+      "pushedAt": "2022-12-26T21:30:17Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Bearle",
+        "name": "Bearle",
+        "type": "Organization",
+        "url": "https://github.com/Bearle",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22602540?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 67,
+      "name": "ZoteroDuplicatesMerger",
+      "nameWithOwner": "frangoud/ZoteroDuplicatesMerger",
+      "url": "https://github.com/frangoud/ZoteroDuplicatesMerger",
+      "description": "A zotero plugin to automatically merge duplicate items",
+      "stars": 415,
+      "forks": 15,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Mozilla Public License 2.0",
+        "spdxId": "MPL-2.0"
+      },
+      "createdAt": "2021-02-28T08:40:59Z",
+      "pushedAt": "2024-08-13T22:22:47Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "frangoud",
+        "name": "Fotos Frangoudes",
+        "type": "User",
+        "url": "https://github.com/frangoud",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4771378?u=1643abb7b93442096a7c04b688e218e984f3a7f2&v=4",
+        "location": "Nicosia, Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 68,
+      "name": "moonlight-nx",
+      "nameWithOwner": "rock88/moonlight-nx",
+      "url": "https://github.com/rock88/moonlight-nx",
+      "description": "Moonlight port for Horizon OS",
+      "stars": 411,
+      "forks": 42,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2020-05-23T14:49:47Z",
+      "pushedAt": "2021-09-15T01:12:10Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "rock88",
+        "name": "Andrey K",
+        "type": "User",
+        "url": "https://github.com/rock88",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/323908?u=70901621c09d8a1b8a8939d131f5193a3086f11c&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 69,
+      "name": "majordomo",
+      "nameWithOwner": "sergejey/majordomo",
+      "url": "https://github.com/sergejey/majordomo",
+      "description": "Home automation platform",
+      "stars": 406,
+      "forks": 155,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2012-08-01T12:06:04Z",
+      "pushedAt": "2026-10-11T17:51:12Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "sergejey",
+        "name": "Sergei Jeihala",
+        "type": "User",
+        "url": "https://github.com/sergejey",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/412987?u=3ffed60c273cc5e0489f51870a27fcac17656fa9&v=4",
+        "location": "Larnaca, Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 70,
+      "name": "HostlistsRegistry",
+      "nameWithOwner": "AdguardTeam/HostlistsRegistry",
+      "url": "https://github.com/AdguardTeam/HostlistsRegistry",
+      "description": "Known hosts blocklists that are made available to the users of AdGuard products",
+      "stars": 406,
+      "forks": 119,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2021-12-21T12:08:19Z",
+      "pushedAt": "2026-10-11T22:18:35Z",
+      "homepageUrl": "https://adguard-dns.io/",
+      "archived": false,
+      "owner": {
+        "login": "AdguardTeam",
+        "name": "AdGuard",
+        "type": "Organization",
+        "url": "https://github.com/AdguardTeam",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8361145?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 71,
+      "name": "twitter-spring-reactjs",
+      "nameWithOwner": "merikbest/twitter-spring-reactjs",
+      "url": "https://github.com/merikbest/twitter-spring-reactjs",
+      "description": ":bird: Twitter Clone with Microservice Architecture using Java 17, Spring Boot, Spring Cloud, PostgreSQL, S3 bucket, JWT, TypeScript, React.js, Redux-Saga, Material-UI",
+      "stars": 403,
+      "forks": 131,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-05-25T20:10:56Z",
+      "pushedAt": "2025-11-22T18:54:09Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "merikbest",
+        "name": "Miroslav  Khotinskiy",
+        "type": "User",
+        "url": "https://github.com/merikbest",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56604599?u=810990b45ce9593271d0bfca7b22e07129a77ac5&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 72,
+      "name": "vue3-notification",
+      "nameWithOwner": "kyvg/vue3-notification",
+      "url": "https://github.com/kyvg/vue3-notification",
+      "description": "Vue 3 notification library 💬",
+      "stars": 400,
+      "forks": 74,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-04-14T21:58:05Z",
+      "pushedAt": "2026-02-16T20:59:35Z",
+      "homepageUrl": "https://kyvg.github.io/vue3-notification/",
+      "archived": false,
+      "owner": {
+        "login": "kyvg",
+        "name": "Evgeny Kirpichyov",
+        "type": "User",
+        "url": "https://github.com/kyvg",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47474371?v=4",
+        "location": "Limassol",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "limassol"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 73,
+      "name": "ecommerce-spring-reactjs",
+      "nameWithOwner": "merikbest/ecommerce-spring-reactjs",
+      "url": "https://github.com/merikbest/ecommerce-spring-reactjs",
+      "description": "🌺 eCommerce online shop. Using Java, Spring Boot, JWT, OAuth2.0, React.js, Redux Toolkit, Ant Design, REST API, GraphQL",
+      "stars": 397,
+      "forks": 210,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-10-26T11:32:25Z",
+      "pushedAt": "2023-05-31T18:32:30Z",
+      "homepageUrl": "http://perfume-web.tk",
+      "archived": false,
+      "owner": {
+        "login": "merikbest",
+        "name": "Miroslav  Khotinskiy",
+        "type": "User",
+        "url": "https://github.com/merikbest",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56604599?u=810990b45ce9593271d0bfca7b22e07129a77ac5&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 74,
+      "name": "Aether.Physics2D",
+      "nameWithOwner": "tainicom/Aether.Physics2D",
+      "url": "https://github.com/tainicom/Aether.Physics2D",
+      "description": "2D collision detection system.",
+      "stars": 388,
+      "forks": 71,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2017-04-02T15:37:16Z",
+      "pushedAt": "2023-08-23T08:26:47Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "tainicom",
+        "name": "tainicom",
+        "type": "Organization",
+        "url": "https://github.com/tainicom",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8556485?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 75,
+      "name": "tensor-stream",
+      "nameWithOwner": "osai-ai/tensor-stream",
+      "url": "https://github.com/osai-ai/tensor-stream",
+      "description": "A library for real-time video stream decoding to CUDA memory",
+      "stars": 388,
+      "forks": 44,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "GNU Lesser General Public License v2.1",
+        "spdxId": "LGPL-2.1"
+      },
+      "createdAt": "2018-08-14T08:20:04Z",
+      "pushedAt": "2023-04-27T14:04:41Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "osai-ai",
+        "name": "OSAI",
+        "type": "Organization",
+        "url": "https://github.com/osai-ai",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64211946?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 76,
+      "name": "Gradle-License-Report",
+      "nameWithOwner": "jk1/Gradle-License-Report",
+      "url": "https://github.com/jk1/Gradle-License-Report",
+      "description": "A plugin for generating reports about the licenses of third party software using Gradle",
+      "stars": 382,
+      "forks": 108,
+      "primaryLanguage": "Groovy",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2015-05-11T15:34:25Z",
+      "pushedAt": "2026-10-01T05:19:06Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "jk1",
+        "name": "Evgeny Naumenko",
+        "type": "User",
+        "url": "https://github.com/jk1",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/715844?u=0a7d8e970a89108dba33ce4f05c2d2d9e5e7d5bc&v=4",
+        "location": "Cyprus ",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 77,
+      "name": "RadioButton-ios",
+      "nameWithOwner": "onegray/RadioButton-ios",
+      "url": "https://github.com/onegray/RadioButton-ios",
+      "description": "Lightweight RadioButton class for iOS",
+      "stars": 372,
+      "forks": 67,
+      "primaryLanguage": "Objective-C",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-09-19T16:47:02Z",
+      "pushedAt": "2017-04-06T21:37:01Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "onegray",
+        "name": "Sergey Nikitenko",
+        "type": "User",
+        "url": "https://github.com/onegray",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/430929?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 78,
+      "name": "transfer-learning-fault-diagnosis-pytorch",
+      "nameWithOwner": "Xiaohan-Chen/transfer-learning-fault-diagnosis-pytorch",
+      "url": "https://github.com/Xiaohan-Chen/transfer-learning-fault-diagnosis-pytorch",
+      "description": "A transfer learning fault diagnosis repository covering popular algorithms",
+      "stars": 371,
+      "forks": 44,
+      "primaryLanguage": "Python",
+      "license": null,
+      "createdAt": "2022-11-03T06:59:23Z",
+      "pushedAt": "2024-08-06T08:17:05Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Xiaohan-Chen",
+        "name": "xh chen",
+        "type": "User",
+        "url": "https://github.com/Xiaohan-Chen",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46585538?u=68e429921b605274e4a40819b0a6649a583cd589&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 79,
+      "name": "UIViewController-BackButtonHandler",
+      "nameWithOwner": "onegray/UIViewController-BackButtonHandler",
+      "url": "https://github.com/onegray/UIViewController-BackButtonHandler",
+      "description": "The extension allows to handle UINavigationViewController's 'Back' button action. Download sample app - https://github.com/onegray/UIViewController-BackButtonHandler/archive/BackBtnHandlerSample.zip",
+      "stars": 369,
+      "forks": 67,
+      "primaryLanguage": "Objective-C",
+      "license": null,
+      "createdAt": "2013-10-02T07:25:47Z",
+      "pushedAt": "2021-06-16T10:09:03Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "onegray",
+        "name": "Sergey Nikitenko",
+        "type": "User",
+        "url": "https://github.com/onegray",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/430929?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 80,
+      "name": "Awesome-RealityKit",
+      "nameWithOwner": "divalue/Awesome-RealityKit",
+      "url": "https://github.com/divalue/Awesome-RealityKit",
+      "description": " Awesome projects and resources about RealityKit",
+      "stars": 366,
+      "forks": 20,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdxId": "CC0-1.0"
+      },
+      "createdAt": "2023-08-10T21:20:22Z",
+      "pushedAt": "2024-05-23T16:03:39Z",
+      "homepageUrl": "https://divalue.github.io/Awesome-RealityKit/",
+      "archived": false,
+      "owner": {
+        "login": "divalue",
+        "name": "Dmitrii Valuev",
+        "type": "User",
+        "url": "https://github.com/divalue",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36172129?u=9a0502d2cf86f1750e897111b83b59c75f72d5a7&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 81,
+      "name": "auto-copilot-cli",
+      "nameWithOwner": "rsaryev/auto-copilot-cli",
+      "url": "https://github.com/rsaryev/auto-copilot-cli",
+      "description": null,
+      "stars": 366,
+      "forks": 16,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-04-30T22:04:58Z",
+      "pushedAt": "2024-10-29T19:45:17Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "rsaryev",
+        "name": "Saryev Rustam",
+        "type": "User",
+        "url": "https://github.com/rsaryev",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70219513?u=8ccb6aa197127eadb892499fa007858f884c2a78&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 82,
+      "name": "websocket",
+      "nameWithOwner": "morozovsk/websocket",
+      "url": "https://github.com/morozovsk/websocket",
+      "description": "simple php websocket server + demos + yii/yii2 integration + php 7 support",
+      "stars": 363,
+      "forks": 73,
+      "primaryLanguage": "PHP",
+      "license": null,
+      "createdAt": "2014-01-24T20:53:40Z",
+      "pushedAt": "2019-05-01T14:38:17Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "morozovsk",
+        "name": "Vladimir Goncharov",
+        "type": "User",
+        "url": "https://github.com/morozovsk",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1822063?u=47091aaee9db898df3f4f4fcc6143297c7c7001e&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 83,
+      "name": "aporetic",
+      "nameWithOwner": "protesilaos/aporetic",
+      "url": "https://github.com/protesilaos/aporetic",
+      "description": "Aporetic fonts are a custom build of Iosevka with different style and metrics than the default. This is the successor to my \"Iosevka Comfy\" fonts.",
+      "stars": 359,
+      "forks": 6,
+      "primaryLanguage": null,
+      "license": {
+        "name": "SIL Open Font License 1.1",
+        "spdxId": "OFL-1.1"
+      },
+      "createdAt": "2025-02-04T09:56:58Z",
+      "pushedAt": "2025-05-31T16:58:54Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "protesilaos",
+        "name": "Protesilaos",
+        "type": "User",
+        "url": "https://github.com/protesilaos",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12828033?u=5da178f4b164b51a0d863ddd7a241aa0c354c72e&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 84,
+      "name": "mmm-mode",
+      "nameWithOwner": "dgutov/mmm-mode",
+      "url": "https://github.com/dgutov/mmm-mode",
+      "description": "New official home for mmm-mode, fixed for Emacs >= 23",
+      "stars": 351,
+      "forks": 35,
+      "primaryLanguage": "Emacs Lisp",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "spdxId": "GPL-2.0"
+      },
+      "createdAt": "2010-05-07T10:57:42Z",
+      "pushedAt": "2024-02-22T04:28:51Z",
+      "homepageUrl": "http://mmm-mode.sourceforge.net/",
+      "archived": false,
+      "owner": {
+        "login": "dgutov",
+        "name": "Dmitry Gutov",
+        "type": "User",
+        "url": "https://github.com/dgutov",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/271877?u=4f40670baff9f99dc0187e10cb95b48a6593f09a&v=4",
+        "location": "Limassol, Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 85,
+      "name": "iosevka-comfy",
+      "nameWithOwner": "protesilaos/iosevka-comfy",
+      "url": "https://github.com/protesilaos/iosevka-comfy",
+      "description": "Custom build of Iosevka with different style and metrics than the default.",
+      "stars": 350,
+      "forks": 14,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2022-01-07T10:06:16Z",
+      "pushedAt": "2025-02-04T09:59:00Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "protesilaos",
+        "name": "Protesilaos",
+        "type": "User",
+        "url": "https://github.com/protesilaos",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12828033?u=5da178f4b164b51a0d863ddd7a241aa0c354c72e&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 86,
+      "name": "dotfiles",
+      "nameWithOwner": "protesilaos/dotfiles",
+      "url": "https://github.com/protesilaos/dotfiles",
+      "description": "Configuration files for Emacs, tiling window managers, and related for Linux. Managed with GNU Stow.",
+      "stars": 348,
+      "forks": 27,
+      "primaryLanguage": "Emacs Lisp",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2021-01-18T08:09:37Z",
+      "pushedAt": "2026-10-10T11:46:10Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "protesilaos",
+        "name": "Protesilaos",
+        "type": "User",
+        "url": "https://github.com/protesilaos",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12828033?u=5da178f4b164b51a0d863ddd7a241aa0c354c72e&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 87,
+      "name": "gomitmproxy",
+      "nameWithOwner": "AdguardTeam/gomitmproxy",
+      "url": "https://github.com/AdguardTeam/gomitmproxy",
+      "description": "Simple golang mitm proxy implementation",
+      "stars": 347,
+      "forks": 71,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2019-11-06T22:13:55Z",
+      "pushedAt": "2026-08-18T15:14:50Z",
+      "homepageUrl": "https://adguard.com/",
+      "archived": false,
+      "owner": {
+        "login": "AdguardTeam",
+        "name": "AdGuard",
+        "type": "Organization",
+        "url": "https://github.com/AdguardTeam",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8361145?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 88,
+      "name": "guacamole-lite",
+      "nameWithOwner": "vadimpronin/guacamole-lite",
+      "url": "https://github.com/vadimpronin/guacamole-lite",
+      "description": "Node.js library for creating Guacamole-compatible servers. Guacamole is a RDP/VNC/SSH/Telnet client for HTML5 browsers.",
+      "stars": 336,
+      "forks": 93,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2017-02-09T09:05:55Z",
+      "pushedAt": "2026-01-11T16:29:09Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "vadimpronin",
+        "name": "Vadim Pronin",
+        "type": "User",
+        "url": "https://github.com/vadimpronin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5534215?u=423afe9c302b2ae3d81c90f38af0ad180fc0a157&v=4",
+        "location": "Limassol, Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 89,
+      "name": "TerminatorZ",
+      "nameWithOwner": "blackhatethicalhacking/TerminatorZ",
+      "url": "https://github.com/blackhatethicalhacking/TerminatorZ",
+      "description": "TerminatorZ is a highly sophisticated and efficient Offensive CVE Exploitation Framework that scans for top potential vulnerabilities with known CVEs in your web applications.",
+      "stars": 334,
+      "forks": 46,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2023-01-31T21:33:14Z",
+      "pushedAt": "2026-07-23T12:32:18Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "blackhatethicalhacking",
+        "name": "Black Hat Ethical Hacking",
+        "type": "User",
+        "url": "https://github.com/blackhatethicalhacking",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13942386?u=6f82b07b465c48060a710dde1af58ac6ad81593f&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 90,
+      "name": "awesome-product-manager",
+      "nameWithOwner": "yuhenobi/awesome-product-manager",
+      "url": "https://github.com/yuhenobi/awesome-product-manager",
+      "description": "A curated list of awesome resources for product managers to learn and grow.",
+      "stars": 333,
+      "forks": 39,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2019-10-19T09:54:39Z",
+      "pushedAt": "2026-03-06T14:32:01Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "yuhenobi",
+        "name": "Yuhenobi",
+        "type": "User",
+        "url": "https://github.com/yuhenobi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2319325?u=c6e5d8fc98643c4b211a12c5e3fd5919b0e56ed3&v=4",
+        "location": "Limassol, Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 91,
+      "name": "backendinterview",
+      "nameWithOwner": "arturpanteleev/backendinterview",
+      "url": "https://github.com/arturpanteleev/backendinterview",
+      "description": "Памятка Backend разработчика по прохождению собеседованй",
+      "stars": 330,
+      "forks": 59,
+      "primaryLanguage": "CSS",
+      "license": null,
+      "createdAt": "2017-12-12T23:31:48Z",
+      "pushedAt": "2025-03-16T11:08:17Z",
+      "homepageUrl": "https://backendinterview.ru/",
+      "archived": false,
+      "owner": {
+        "login": "arturpanteleev",
+        "name": "Artur Panteleev",
+        "type": "User",
+        "url": "https://github.com/arturpanteleev",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7831658?u=90982925d176a343a9f0ca897a1cf0913743365d&v=4",
+        "location": "Limassol",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "limassol"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 92,
+      "name": "AdguardForMac",
+      "nameWithOwner": "AdguardTeam/AdguardForMac",
+      "url": "https://github.com/AdguardTeam/AdguardForMac",
+      "description": "Open bug tracker for Mac version of AdGuard",
+      "stars": 330,
+      "forks": 19,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2015-10-20T09:55:57Z",
+      "pushedAt": "2026-10-09T14:47:08Z",
+      "homepageUrl": "https://adguard.com/",
+      "archived": false,
+      "owner": {
+        "login": "AdguardTeam",
+        "name": "AdGuard",
+        "type": "Organization",
+        "url": "https://github.com/AdguardTeam",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8361145?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 93,
+      "name": "Bug_Bounty_Tools_and_Methodology",
+      "nameWithOwner": "blackhatethicalhacking/Bug_Bounty_Tools_and_Methodology",
+      "url": "https://github.com/blackhatethicalhacking/Bug_Bounty_Tools_and_Methodology",
+      "description": "Bug Bounty Tools used on Twitch - Recon",
+      "stars": 328,
+      "forks": 85,
+      "primaryLanguage": null,
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2021-05-16T12:17:44Z",
+      "pushedAt": "2026-07-23T12:38:19Z",
+      "homepageUrl": "https://www.blackhatethicalhacking.com",
+      "archived": false,
+      "owner": {
+        "login": "blackhatethicalhacking",
+        "name": "Black Hat Ethical Hacking",
+        "type": "User",
+        "url": "https://github.com/blackhatethicalhacking",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13942386?u=6f82b07b465c48060a710dde1af58ac6ad81593f&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 94,
+      "name": "Blitzkrieg",
+      "nameWithOwner": "nival/Blitzkrieg",
+      "url": "https://github.com/nival/Blitzkrieg",
+      "description": "Blitzkrieg is a 2003 real-time tactics video game based on the events of World War II and the first title in the Blitzkrieg series. The game was developed by Nival using an in-house game engine and was primarily written in C and C++.",
+      "stars": 328,
+      "forks": 60,
+      "primaryLanguage": "Rich Text Format",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2025-04-02T20:01:45Z",
+      "pushedAt": "2025-04-30T18:21:04Z",
+      "homepageUrl": "https://wikipedia.org/wiki/Blitzkrieg_(video_game)",
+      "archived": false,
+      "owner": {
+        "login": "nival",
+        "name": "Nival",
+        "type": "Organization",
+        "url": "https://github.com/nival",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/182402097?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 95,
+      "name": "Blitzkrieg-2",
+      "nameWithOwner": "nival/Blitzkrieg-2",
+      "url": "https://github.com/nival/Blitzkrieg-2",
+      "description": "Blitzkrieg 2 is a 2005 real-time tactics video game based on the events of World War II and the second title in the Blitzkrieg series. The game was developed by Nival using an in-house game engine and was primarily written in C and C++.",
+      "stars": 313,
+      "forks": 37,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2025-09-10T18:02:34Z",
+      "pushedAt": "2025-09-20T07:39:06Z",
+      "homepageUrl": "https://en.wikipedia.org/wiki/Blitzkrieg_2",
+      "archived": false,
+      "owner": {
+        "login": "nival",
+        "name": "Nival",
+        "type": "Organization",
+        "url": "https://github.com/nival",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/182402097?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 96,
+      "name": "ESCape32",
+      "nameWithOwner": "neoxic/ESCape32",
+      "url": "https://github.com/neoxic/ESCape32",
+      "description": "BLDC motor control firmware for 32-bit ESCs",
+      "stars": 311,
+      "forks": 138,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2022-02-04T01:56:07Z",
+      "pushedAt": "2026-10-02T16:44:18Z",
+      "homepageUrl": "http://wiki.escape32.org",
+      "archived": false,
+      "owner": {
+        "login": "neoxic",
+        "name": "Arseny Vakhrushev",
+        "type": "User",
+        "url": "https://github.com/neoxic",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/958340?u=e2948c7801fa6f84ae0fe742e0b135637636042f&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 97,
+      "name": "express-ejs-layouts",
+      "nameWithOwner": "soarez/express-ejs-layouts",
+      "url": "https://github.com/soarez/express-ejs-layouts",
+      "description": "Layout support for ejs in express.",
+      "stars": 310,
+      "forks": 71,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2012-04-28T21:51:32Z",
+      "pushedAt": "2024-03-11T14:21:17Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "soarez",
+        "name": "Igor Soarez",
+        "type": "User",
+        "url": "https://github.com/soarez",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1357510?u=3c7d8a7e529388365ba1f92b00e7b6882c5bf36d&v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 98,
+      "name": "Telegram-Site-Helper-2.0",
+      "nameWithOwner": "Surzhikov/Telegram-Site-Helper-2.0",
+      "url": "https://github.com/Surzhikov/Telegram-Site-Helper-2.0",
+      "description": "Little chat (based on Telegram BOT platform) for creating web site helper",
+      "stars": 309,
+      "forks": 104,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2016-05-05T12:39:31Z",
+      "pushedAt": "2018-04-12T12:32:26Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Surzhikov",
+        "name": "Andrey Surzhikov",
+        "type": "User",
+        "url": "https://github.com/Surzhikov",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7311895?u=f34a60d806d8cb41cabc9c4476664958246bf5bf&v=4",
+        "location": "Cyprus, Paphos",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 99,
+      "name": "voxfield",
+      "nameWithOwner": "v4rl-ucy/voxfield",
+      "url": "https://github.com/v4rl-ucy/voxfield",
+      "description": "🦊 Voxfield: non-Projective Signed Distance Fields for Online Planning and 3D Reconstruction [IROS' 22]",
+      "stars": 309,
+      "forks": 33,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2022-03-02T15:34:14Z",
+      "pushedAt": "2023-05-16T15:18:58Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "v4rl-ucy",
+        "name": "Vision for Robotics Lab (V4RL)",
+        "type": "Organization",
+        "url": "https://github.com/v4rl-ucy",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14180826?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 100,
+      "name": "django_private_chat2",
+      "nameWithOwner": "Bearle/django_private_chat2",
+      "url": "https://github.com/Bearle/django_private_chat2",
+      "description": "Chat app for Django, powered by Django Channels, Websockets & Asyncio",
+      "stars": 308,
+      "forks": 83,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-03-05T22:41:43Z",
+      "pushedAt": "2023-08-17T07:13:39Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Bearle",
+        "name": "Bearle",
+        "type": "Organization",
+        "url": "https://github.com/Bearle",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22602540?v=4",
+        "location": "Cyprus",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "CY",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "cyprus"
+        },
+        "discoveryTerms": []
+      }
+    }
+  ]
+}

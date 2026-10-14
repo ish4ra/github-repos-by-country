@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **17**
-- Current global star frontier: **377**
+- Verified high-star candidates retained: **18**
+- Current global star frontier: **305**
 
 ### High-star verified preview
 
@@ -68,5 +68,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [romankh3/image-comparison](https://github.com/romankh3/image-comparison) | **401** | Tashkent |
 | [smixs/agent-second-brain](https://github.com/smixs/agent-second-brain) | **398** | Tashkent, Uzbekistan |
 | [Andrey0189/nixos-config](https://github.com/Andrey0189/nixos-config) | **386** | Tashkent |
+| [anvarnarz/python-darslar](https://github.com/anvarnarz/python-darslar) | **311** | Tashkent |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

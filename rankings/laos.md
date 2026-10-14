@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **347**
+- Verified high-star candidates retained: **15**
+- Current global star frontier: **305**
 
 ### High-star verified preview
 
@@ -65,5 +65,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [notiondog/notion.dog](https://github.com/notiondog/notion.dog) | **361** | LA |
 | [phips28/gh-action-bump-version](https://github.com/phips28/gh-action-bump-version) | **359** | LA |
 | [DerrickXuNu/v2x-vit](https://github.com/DerrickXuNu/v2x-vit) | **348** | LA |
+| [alexabbott/firebase-cms](https://github.com/alexabbott/firebase-cms) | **310** | LA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
