@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **427**
+- Verified high-star candidates retained: **6**
+- Current global star frontier: **298**
 
 ### High-star verified preview
 
@@ -56,5 +56,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [NSAntoine/Santander](https://github.com/NSAntoine/Santander) | **573** | Amman, Jordan |
 | [AlaaMezian/NodeJs-backend-structure](https://github.com/AlaaMezian/NodeJs-backend-structure) | **569** | Amman, Jordan  |
 | [NSAntoine/Samra](https://github.com/NSAntoine/Samra) | **430** | Amman, Jordan |
+| [DefinetlyNotAI/Solidworks-Crack](https://github.com/DefinetlyNotAI/Solidworks-Crack) | **298** | Jordan, Amman |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
