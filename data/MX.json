@@ -1,0 +1,3377 @@
+{
+  "schemaVersion": 1,
+  "methodologyVersion": "0.8.0-repository-first",
+  "generatedAt": "2026-10-14T05:09:42.302Z",
+  "country": {
+    "code": "MX",
+    "name": "Mexico",
+    "slug": "mexico"
+  },
+  "source": {
+    "provider": "GitHub GraphQL API",
+    "endpoint": "https://api.github.com/graphql",
+    "countryBasis": "public repository-owner profile location",
+    "discovery": "global repositories scanned by stars descending"
+  },
+  "coverage": {
+    "status": "repository-first-certified-by-star-frontier",
+    "exhaustive": false,
+    "rawOwnerHits": 187971,
+    "acceptedUniqueOwners": 65,
+    "ownerMetricLabel": "Unique owners in top ranking",
+    "repositoriesConsidered": 100,
+    "publishedRepositories": 100,
+    "candidateThresholdStars": 317,
+    "rankingLimit": 100,
+    "cappedQueries": [],
+    "repositoryFirst": {
+      "scanFrontierStars": 312,
+      "topObservedStars": 551406,
+      "repositoriesSeen": 187971,
+      "attributedRepositories": 69646,
+      "ambiguousLocations": 29991,
+      "unknownLocations": 88334,
+      "unresolvedStarCounts": []
+    },
+    "notes": [
+      "Repositories are scanned globally in descending star ranges, independently of owner follower count or owner-search ordering.",
+      "A country is certified only after its 100th repository has more stars than every unprocessed global star range.",
+      "Owner country is inferred from the owner public GitHub profile location using the global geography resolver.",
+      "Owners with missing or unresolved locations are excluded, so country attribution is not a citizenship or legal-incorporation claim.",
+      "Compound city/admin locations such as \"Portland, OR\" are resolved before ambiguous city-only names."
+    ]
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "yazi",
+      "nameWithOwner": "sxyazi/yazi",
+      "url": "https://github.com/sxyazi/yazi",
+      "description": "💥 Blazing fast terminal file manager written in Rust, based on async I/O.",
+      "stars": 42600,
+      "forks": 1039,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-07-08T11:45:55Z",
+      "pushedAt": "2026-10-03T16:03:28Z",
+      "homepageUrl": "https://yazi-rs.github.io",
+      "archived": false,
+      "owner": {
+        "login": "sxyazi",
+        "name": "三咲雅 misaki masa",
+        "type": "User",
+        "url": "https://github.com/sxyazi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17523360?u=b349e32966ba7b6aa5ac4b0f2d34547cb148cc73&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 2,
+      "name": "bats",
+      "nameWithOwner": "sstephenson/bats",
+      "url": "https://github.com/sstephenson/bats",
+      "description": "Bash Automated Testing System",
+      "stars": 7103,
+      "forks": 506,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2011-12-28T18:40:33Z",
+      "pushedAt": "2019-09-27T17:21:43Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "sstephenson",
+        "name": "Sam Stephenson",
+        "type": "User",
+        "url": "https://github.com/sstephenson",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2603?u=ebf3eb85eb613942620b81a0930f157857a56e75&v=4",
+        "location": "Ciudad de México",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ciudad de mexico"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 3,
+      "name": "bugbounty-cheatsheet",
+      "nameWithOwner": "EdOverflow/bugbounty-cheatsheet",
+      "url": "https://github.com/EdOverflow/bugbounty-cheatsheet",
+      "description": "A list of interesting payloads, tips and tricks for bug bounty hunters.",
+      "stars": 6555,
+      "forks": 1622,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Creative Commons Attribution Share Alike 4.0 International",
+        "spdxId": "CC-BY-SA-4.0"
+      },
+      "createdAt": "2017-07-13T16:50:31Z",
+      "pushedAt": "2023-09-14T05:50:48Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "EdOverflow",
+        "name": "EdOverflow",
+        "type": "User",
+        "url": "https://github.com/EdOverflow",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18099289?u=e14beb1f7aefcbc53d3aa33d4b554caf64ab94b1&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 4,
+      "name": "can-i-take-over-xyz",
+      "nameWithOwner": "EdOverflow/can-i-take-over-xyz",
+      "url": "https://github.com/EdOverflow/can-i-take-over-xyz",
+      "description": "\"Can I take over XYZ?\" — a list of services and how to claim (sub)domains with dangling DNS records.",
+      "stars": 5819,
+      "forks": 805,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Creative Commons Attribution 4.0 International",
+        "spdxId": "CC-BY-4.0"
+      },
+      "createdAt": "2018-03-18T19:00:29Z",
+      "pushedAt": "2025-02-08T01:51:50Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "EdOverflow",
+        "name": "EdOverflow",
+        "type": "User",
+        "url": "https://github.com/EdOverflow",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18099289?u=e14beb1f7aefcbc53d3aa33d4b554caf64ab94b1&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 5,
+      "name": "dotfiles",
+      "nameWithOwner": "gh0stzk/dotfiles",
+      "url": "https://github.com/gh0stzk/dotfiles",
+      "description": "BSPWM environment with 18 themes. With a theme selector to change on the fly.",
+      "stars": 4751,
+      "forks": 318,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2020-06-22T15:16:10Z",
+      "pushedAt": "2026-08-24T02:43:27Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "gh0stzk",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/gh0stzk",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67278339?u=21e32eafc0c3353ebd343f343394212b7425d5ea&v=4",
+        "location": "Mexico City",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mexico city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 6,
+      "name": "Ethical-Hacking-Labs",
+      "nameWithOwner": "Samsar4/Ethical-Hacking-Labs",
+      "url": "https://github.com/Samsar4/Ethical-Hacking-Labs",
+      "description": "Practical Ethical Hacking Labs 🗡🛡",
+      "stars": 3917,
+      "forks": 908,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2019-12-04T20:16:11Z",
+      "pushedAt": "2024-04-23T20:08:56Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Samsar4",
+        "name": "SAMSARA FM",
+        "type": "User",
+        "url": "https://github.com/Samsar4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3259997?u=321b1a30a4e046c56792f9bb5ca9044c593291d4&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 7,
+      "name": "awesome-online-ide",
+      "nameWithOwner": "styfle/awesome-online-ide",
+      "url": "https://github.com/styfle/awesome-online-ide",
+      "description": "🌩️ A list of awesome online development environments",
+      "stars": 3533,
+      "forks": 294,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2017-08-23T18:27:16Z",
+      "pushedAt": "2024-12-03T22:54:05Z",
+      "homepageUrl": "https://styfle.dev/projects/awesome-online-ide",
+      "archived": false,
+      "owner": {
+        "login": "styfle",
+        "name": "Steven",
+        "type": "User",
+        "url": "https://github.com/styfle",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/229881?u=58675cc3f9993517e5f29209ccba960d79b719ad&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 8,
+      "name": "sops-nix",
+      "nameWithOwner": "Mic92/sops-nix",
+      "url": "https://github.com/Mic92/sops-nix",
+      "description": "Atomic secret provisioning for NixOS based on sops",
+      "stars": 3208,
+      "forks": 237,
+      "primaryLanguage": "Nix",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-07-06T06:32:31Z",
+      "pushedAt": "2026-10-04T08:54:37Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Mic92",
+        "name": "Jörg Thalheim",
+        "type": "User",
+        "url": "https://github.com/Mic92",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96200?u=9ed15c85825694d00e996d605d728179b830c4fa&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 9,
+      "name": "awesome-cloud-security",
+      "nameWithOwner": "4ndersonLin/awesome-cloud-security",
+      "url": "https://github.com/4ndersonLin/awesome-cloud-security",
+      "description": "🛡️ Awesome Cloud Security Resources ⚔️",
+      "stars": 2497,
+      "forks": 388,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2020-05-10T05:07:06Z",
+      "pushedAt": "2026-03-17T02:09:12Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "4ndersonLin",
+        "name": "Anderson Lin",
+        "type": "User",
+        "url": "https://github.com/4ndersonLin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19994230?u=b4799341c22af3727e70cf179ccdfdd027589f07&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 10,
+      "name": "packagephobia",
+      "nameWithOwner": "styfle/packagephobia",
+      "url": "https://github.com/styfle/packagephobia",
+      "description": "⚖️ Find the cost of adding a new dependency to your project",
+      "stars": 2314,
+      "forks": 63,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-03-20T02:03:07Z",
+      "pushedAt": "2026-09-20T00:28:42Z",
+      "homepageUrl": "https://packagephobia.com",
+      "archived": false,
+      "owner": {
+        "login": "styfle",
+        "name": "Steven",
+        "type": "User",
+        "url": "https://github.com/styfle",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/229881?u=58675cc3f9993517e5f29209ccba960d79b719ad&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 11,
+      "name": "recipe-scrapers",
+      "nameWithOwner": "hhursev/recipe-scrapers",
+      "url": "https://github.com/hhursev/recipe-scrapers",
+      "description": "Python package for scraping recipes data",
+      "stars": 2245,
+      "forks": 677,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-09-14T12:05:00Z",
+      "pushedAt": "2026-09-28T14:13:06Z",
+      "homepageUrl": "https://docs.recipe-scrapers.com",
+      "archived": false,
+      "owner": {
+        "login": "hhursev",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/hhursev",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2513981?u=a957448b3e037ac0d4e7511eaaa251b4a415df9f&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 12,
+      "name": "puredns",
+      "nameWithOwner": "d3mondev/puredns",
+      "url": "https://github.com/d3mondev/puredns",
+      "description": "Puredns is a fast domain resolver and subdomain bruteforcing tool that can accurately filter out wildcard subdomains and DNS poisoned entries.",
+      "stars": 2241,
+      "forks": 191,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2020-07-29T23:02:14Z",
+      "pushedAt": "2026-02-23T16:29:40Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "d3mondev",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/d3mondev",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55468528?u=b83ded116330c31ad6949bfc3ad85140dba7c28a&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 13,
+      "name": "vue-tailwind",
+      "nameWithOwner": "alfonsobries/vue-tailwind",
+      "url": "https://github.com/alfonsobries/vue-tailwind",
+      "description": "Vue UI components with configurable classes ready for TailwindCSS",
+      "stars": 2158,
+      "forks": 133,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-03-22T04:28:15Z",
+      "pushedAt": "2023-03-05T09:36:54Z",
+      "homepageUrl": "https://www.vue-tailwind.com/",
+      "archived": false,
+      "owner": {
+        "login": "alfonsobries",
+        "name": "Alfonso Bribiesca",
+        "type": "User",
+        "url": "https://github.com/alfonsobries",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17262776?u=2d3279137b640f0311903da697f3338788aa24ad&v=4",
+        "location": "Mérida Yucatán",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "merida yucatan"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 14,
+      "name": "KitHack",
+      "nameWithOwner": "AdrMXR/KitHack",
+      "url": "https://github.com/AdrMXR/KitHack",
+      "description": "Hacking tools pack & backdoors generator.",
+      "stars": 2096,
+      "forks": 267,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-12-15T07:28:16Z",
+      "pushedAt": "2025-02-19T05:32:04Z",
+      "homepageUrl": "https://adrmxr.github.io/KitHack/",
+      "archived": false,
+      "owner": {
+        "login": "AdrMXR",
+        "name": "Adrián Guillermo",
+        "type": "User",
+        "url": "https://github.com/AdrMXR",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54054887?u=99c290f8bf2303533b61f3be3cbf8e23d6721cc7&v=4",
+        "location": "MX",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "high",
+          "evidence": "country-code",
+          "matched": "MX"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 15,
+      "name": "easystarjs",
+      "nameWithOwner": "prettymuchbryce/easystarjs",
+      "url": "https://github.com/prettymuchbryce/easystarjs",
+      "description": "An asynchronous A* pathfinding API written in Javascript.",
+      "stars": 1937,
+      "forks": 171,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2012-09-26T05:27:55Z",
+      "pushedAt": "2024-01-23T23:07:02Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "prettymuchbryce",
+        "name": "Bryce Neal",
+        "type": "User",
+        "url": "https://github.com/prettymuchbryce",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/709042?u=cf79bbf7fd0d59253d61772fe1fa06210ab07eb8&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 16,
+      "name": "NoUnityCN",
+      "nameWithOwner": "DanKE123abc/NoUnityCN",
+      "url": "https://github.com/DanKE123abc/NoUnityCN",
+      "description": "🔥✅ Unity国际版下载站，可通过直链或者Unity Hub下载例如Unity 6等Unity Editor的国际版，支持添加组件、下载国际版Unity Hub、包含长期支持版、技术支持版、测试版、预览版的Unity。",
+      "stars": 1897,
+      "forks": 83,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-06-26T07:12:35Z",
+      "pushedAt": "2026-10-04T19:43:34Z",
+      "homepageUrl": "https://nounitycn.danke666.top",
+      "archived": false,
+      "owner": {
+        "login": "DanKE123abc",
+        "name": "DanKe",
+        "type": "User",
+        "url": "https://github.com/DanKE123abc",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98072464?u=491fceba159babaec5d6b2c154f565f72433187d&v=4",
+        "location": "[::1]",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 17,
+      "name": "undervolt",
+      "nameWithOwner": "georgewhewell/undervolt",
+      "url": "https://github.com/georgewhewell/undervolt",
+      "description": "Undervolt Intel CPUs under Linux",
+      "stars": 1740,
+      "forks": 115,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2017-12-30T19:29:24Z",
+      "pushedAt": "2024-04-22T17:18:20Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "georgewhewell",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/georgewhewell",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1176131?u=b42ae169186321f250d7fded295623930802e180&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 18,
+      "name": "eco",
+      "nameWithOwner": "sstephenson/eco",
+      "url": "https://github.com/sstephenson/eco",
+      "description": "Embedded CoffeeScript templates",
+      "stars": 1694,
+      "forks": 68,
+      "primaryLanguage": "CoffeeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2010-09-19T05:01:25Z",
+      "pushedAt": "2019-07-02T05:26:52Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "sstephenson",
+        "name": "Sam Stephenson",
+        "type": "User",
+        "url": "https://github.com/sstephenson",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2603?u=ebf3eb85eb613942620b81a0930f157857a56e75&v=4",
+        "location": "Ciudad de México",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ciudad de mexico"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 19,
+      "name": "nvf",
+      "nameWithOwner": "NotAShelf/nvf",
+      "url": "https://github.com/NotAShelf/nvf",
+      "description": "Modular, extensible and distro-agnostic Neovim configuration framework for Nix/NixOS",
+      "stars": 1644,
+      "forks": 234,
+      "primaryLanguage": "Nix",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-02-01T17:13:58Z",
+      "pushedAt": "2026-10-05T15:57:07Z",
+      "homepageUrl": "https://nvf.notashelf.dev/",
+      "archived": false,
+      "owner": {
+        "login": "NotAShelf",
+        "name": "raf",
+        "type": "User",
+        "url": "https://github.com/NotAShelf",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62766066?u=3becd73b020fa149a4824e73e2bb046033f82696&v=4",
+        "location": "[::1]",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 20,
+      "name": "nginxpwner",
+      "nameWithOwner": "stark0de/nginxpwner",
+      "url": "https://github.com/stark0de/nginxpwner",
+      "description": "Nginxpwner is a simple tool to look for common Nginx misconfigurations and vulnerabilities.",
+      "stars": 1594,
+      "forks": 150,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2021-04-06T15:29:33Z",
+      "pushedAt": "2024-03-04T21:16:15Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "stark0de",
+        "name": "stark0de",
+        "type": "User",
+        "url": "https://github.com/stark0de",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53110298?u=0ad451ed73814a0160179137f229a7a07a6e1b5d&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 21,
+      "name": "imaotai",
+      "nameWithOwner": "insoxin/imaotai",
+      "url": "https://github.com/insoxin/imaotai",
+      "description": "i茅台app 每日自动预约 抢茅台",
+      "stars": 1551,
+      "forks": 418,
+      "primaryLanguage": "Objective-C",
+      "license": null,
+      "createdAt": "2022-04-02T04:03:22Z",
+      "pushedAt": "2023-03-09T10:03:48Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "insoxin",
+        "name": "1",
+        "type": "User",
+        "url": "https://github.com/insoxin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19371836?u=37e0b1aa6fea1c127e38730ba4c2c3c46767eea5&v=4",
+        "location": "1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 22,
+      "name": "China-Telecom-Helper",
+      "nameWithOwner": "insoxin/China-Telecom-Helper",
+      "url": "https://github.com/insoxin/China-Telecom-Helper",
+      "description": "中国电信助手,白嫖年入保底256+话费 .每月金豆领取(lv6,1000金豆),每日签到(随机金豆),每日喂食宠物.每日登录奖励领取(5金豆),查看我的云盘(10金豆),翻牌 (10金豆),查看我的订单 (5金豆),打开消息 (100金豆),当日分享 (50金豆),浏览生活频道 (5金豆),查看我的金豆 (5金豆),关注直播 (5金豆),观看直播15s (5金豆),打开消息 (100金豆),答问卷 (100金豆),支付宝小程序",
+      "stars": 1340,
+      "forks": 290,
+      "primaryLanguage": null,
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2022-05-16T13:06:26Z",
+      "pushedAt": "2025-06-09T23:55:15Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "insoxin",
+        "name": "1",
+        "type": "User",
+        "url": "https://github.com/insoxin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19371836?u=37e0b1aa6fea1c127e38730ba4c2c3c46767eea5&v=4",
+        "location": "1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 23,
+      "name": "API",
+      "nameWithOwner": "insoxin/API",
+      "url": "https://github.com/insoxin/API",
+      "description": "API For Docker 一个基于多种编程语言开源免费不限制提供生活常用,出行服务,开发工具,金融服务,通讯服务和公益大数据的平台.",
+      "stars": 1336,
+      "forks": 236,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2017-08-16T07:43:12Z",
+      "pushedAt": "2026-09-05T07:53:00Z",
+      "homepageUrl": "https://api.isoyu.com/",
+      "archived": false,
+      "owner": {
+        "login": "insoxin",
+        "name": "1",
+        "type": "User",
+        "url": "https://github.com/insoxin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19371836?u=37e0b1aa6fea1c127e38730ba4c2c3c46767eea5&v=4",
+        "location": "1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 24,
+      "name": "saycheese",
+      "nameWithOwner": "hangetzzu/saycheese",
+      "url": "https://github.com/hangetzzu/saycheese",
+      "description": "Grab target's webcam shots by link",
+      "stars": 1285,
+      "forks": 977,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2019-04-29T04:07:00Z",
+      "pushedAt": "2024-06-18T23:39:41Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "hangetzzu",
+        "name": "Carlos A Diaz N",
+        "type": "User",
+        "url": "https://github.com/hangetzzu",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10404083?v=4",
+        "location": "Mx",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "high",
+          "evidence": "country-code",
+          "matched": "Mx"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 25,
+      "name": "AnimationsWithManim",
+      "nameWithOwner": "Elteoremadebeethoven/AnimationsWithManim",
+      "url": "https://github.com/Elteoremadebeethoven/AnimationsWithManim",
+      "description": " Animation course with Manim",
+      "stars": 1235,
+      "forks": 216,
+      "primaryLanguage": "Python",
+      "license": null,
+      "createdAt": "2018-10-10T10:27:18Z",
+      "pushedAt": "2021-05-03T08:49:26Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Elteoremadebeethoven",
+        "name": "Alexander Vázquez",
+        "type": "User",
+        "url": "https://github.com/Elteoremadebeethoven",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43224662?u=0c81ed594d5fcd225cf461b2fd631682435f4f97&v=4",
+        "location": "Mexico City",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mexico city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 26,
+      "name": "http-status-codes",
+      "nameWithOwner": "prettymuchbryce/http-status-codes",
+      "url": "https://github.com/prettymuchbryce/http-status-codes",
+      "description": "Constants enumerating the HTTP status codes. All status codes defined in RFC1945 (HTTP/1.0, RFC2616 (HTTP/1.1), and RFC2518 (WebDAV) are supported.",
+      "stars": 1122,
+      "forks": 105,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-05-08T18:56:39Z",
+      "pushedAt": "2024-07-23T17:07:48Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "prettymuchbryce",
+        "name": "Bryce Neal",
+        "type": "User",
+        "url": "https://github.com/prettymuchbryce",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/709042?u=cf79bbf7fd0d59253d61772fe1fa06210ab07eb8&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 27,
+      "name": "qgis_mcp",
+      "nameWithOwner": "jjsantos01/qgis_mcp",
+      "url": "https://github.com/jjsantos01/qgis_mcp",
+      "description": "Model Context Protocol (MCP) that allows LLMs to use QGIS Desktop",
+      "stars": 1115,
+      "forks": 184,
+      "primaryLanguage": "Python",
+      "license": null,
+      "createdAt": "2025-03-12T21:09:53Z",
+      "pushedAt": "2025-10-01T01:23:25Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "jjsantos01",
+        "name": "Juan Santos Ochoa",
+        "type": "User",
+        "url": "https://github.com/jjsantos01",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17869861?u=2326a0523be1ad913fab9bb58d110ece7b7d3986&v=4",
+        "location": "Mexico city",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mexico city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 28,
+      "name": "stitch",
+      "nameWithOwner": "sstephenson/stitch",
+      "url": "https://github.com/sstephenson/stitch",
+      "description": "Stitch your CommonJS modules together for the browser",
+      "stars": 1039,
+      "forks": 80,
+      "primaryLanguage": "CoffeeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2010-09-18T01:20:47Z",
+      "pushedAt": "2012-11-02T14:08:32Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "sstephenson",
+        "name": "Sam Stephenson",
+        "type": "User",
+        "url": "https://github.com/sstephenson",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2603?u=ebf3eb85eb613942620b81a0930f157857a56e75&v=4",
+        "location": "Ciudad de México",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ciudad de mexico"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 29,
+      "name": "CVE-2016-5195",
+      "nameWithOwner": "timwr/CVE-2016-5195",
+      "url": "https://github.com/timwr/CVE-2016-5195",
+      "description": "CVE-2016-5195 (dirtycow/dirtyc0w) proof of concept for Android",
+      "stars": 1014,
+      "forks": 391,
+      "primaryLanguage": "C",
+      "license": null,
+      "createdAt": "2016-10-21T11:19:21Z",
+      "pushedAt": "2021-02-03T16:03:40Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "timwr",
+        "name": "Tim",
+        "type": "User",
+        "url": "https://github.com/timwr",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/684924?u=698860b80fa0f23962524b00ff0a0988447121f7&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 30,
+      "name": "nmap-nse-scripts",
+      "nameWithOwner": "cldrn/nmap-nse-scripts",
+      "url": "https://github.com/cldrn/nmap-nse-scripts",
+      "description": "My collection of nmap NSE scripts",
+      "stars": 994,
+      "forks": 364,
+      "primaryLanguage": "Lua",
+      "license": null,
+      "createdAt": "2011-05-31T05:41:49Z",
+      "pushedAt": "2026-09-29T13:55:04Z",
+      "homepageUrl": "http://calderonpale.com",
+      "archived": false,
+      "owner": {
+        "login": "cldrn",
+        "name": "Paulino Calderon",
+        "type": "User",
+        "url": "https://github.com/cldrn",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/191724?v=4",
+        "location": "Mexico city",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mexico city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 31,
+      "name": "cancel-workflow-action",
+      "nameWithOwner": "styfle/cancel-workflow-action",
+      "url": "https://github.com/styfle/cancel-workflow-action",
+      "description": "⏹️ GitHub Action to cancel previous running workflows on push",
+      "stars": 982,
+      "forks": 128,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-02-02T00:01:51Z",
+      "pushedAt": "2026-03-11T14:56:34Z",
+      "homepageUrl": "https://github.com/marketplace/actions/cancel-workflow-action",
+      "archived": false,
+      "owner": {
+        "login": "styfle",
+        "name": "Steven",
+        "type": "User",
+        "url": "https://github.com/styfle",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/229881?u=58675cc3f9993517e5f29209ccba960d79b719ad&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 32,
+      "name": "cntr",
+      "nameWithOwner": "Mic92/cntr",
+      "url": "https://github.com/Mic92/cntr",
+      "description": "A container debugging tool based on FUSE",
+      "stars": 956,
+      "forks": 27,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-06-01T21:57:42Z",
+      "pushedAt": "2026-10-05T06:55:39Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Mic92",
+        "name": "Jörg Thalheim",
+        "type": "User",
+        "url": "https://github.com/Mic92",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96200?u=9ed15c85825694d00e996d605d728179b830c4fa&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 33,
+      "name": "CatSniffer",
+      "nameWithOwner": "ElectronicCats/CatSniffer",
+      "url": "https://github.com/ElectronicCats/CatSniffer",
+      "description": "CatSniffer is an original multiprotocol and multiband board for sniffing, communicating, and attacking IoT (Internet of Things) devices using the latest radio IoT protocols. It is a highly portable USB stick that integrates TI CC1352, Semtech SX1262, and an RP2040 for V3 or a Microchip SAMD21E17 for V2",
+      "stars": 951,
+      "forks": 109,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2020-08-15T02:24:25Z",
+      "pushedAt": "2026-09-22T22:41:50Z",
+      "homepageUrl": "https://electroniccats.com",
+      "archived": false,
+      "owner": {
+        "login": "ElectronicCats",
+        "name": "ElectronicCats",
+        "type": "Organization",
+        "url": "https://github.com/ElectronicCats",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16904656?v=4",
+        "location": "Aguascalientes, México",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "aguascalientes"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 34,
+      "name": "nixos-shell",
+      "nameWithOwner": "Mic92/nixos-shell",
+      "url": "https://github.com/Mic92/nixos-shell",
+      "description": "Spawns lightweight nixos vms in a shell",
+      "stars": 919,
+      "forks": 48,
+      "primaryLanguage": "Nix",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-04-03T21:46:23Z",
+      "pushedAt": "2026-10-06T17:35:40Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Mic92",
+        "name": "Jörg Thalheim",
+        "type": "User",
+        "url": "https://github.com/Mic92",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96200?u=9ed15c85825694d00e996d605d728179b830c4fa&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 35,
+      "name": "nix-update",
+      "nameWithOwner": "Mic92/nix-update",
+      "url": "https://github.com/Mic92/nix-update",
+      "description": "Swiss-knife for updating nix packages.",
+      "stars": 887,
+      "forks": 110,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-03-05T11:31:09Z",
+      "pushedAt": "2026-10-05T12:01:27Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Mic92",
+        "name": "Jörg Thalheim",
+        "type": "User",
+        "url": "https://github.com/Mic92",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96200?u=9ed15c85825694d00e996d605d728179b830c4fa&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 36,
+      "name": "Monogatari",
+      "nameWithOwner": "Monogatari/Monogatari",
+      "url": "https://github.com/Monogatari/Monogatari",
+      "description": "Monogatari is a simple web visual novel engine, created to bring Visual Novels to the web.",
+      "stars": 886,
+      "forks": 128,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-06-23T18:05:59Z",
+      "pushedAt": "2026-06-18T05:53:17Z",
+      "homepageUrl": "https://monogatari.io/",
+      "archived": false,
+      "owner": {
+        "login": "Monogatari",
+        "name": "Monogatari",
+        "type": "Organization",
+        "url": "https://github.com/Monogatari",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29076049?v=4",
+        "location": "Mexico City",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mexico city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 37,
+      "name": "awesome-desktop-js",
+      "nameWithOwner": "styfle/awesome-desktop-js",
+      "url": "https://github.com/styfle/awesome-desktop-js",
+      "description": "🖥️ A list of awesome packages and frameworks for implementing javascript applications on the desktop",
+      "stars": 873,
+      "forks": 51,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2018-06-06T13:28:51Z",
+      "pushedAt": "2026-05-09T13:45:24Z",
+      "homepageUrl": "https://styfle.dev/projects/awesome-desktop-js",
+      "archived": false,
+      "owner": {
+        "login": "styfle",
+        "name": "Steven",
+        "type": "User",
+        "url": "https://github.com/styfle",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/229881?u=58675cc3f9993517e5f29209ccba960d79b719ad&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 38,
+      "name": "stud42",
+      "nameWithOwner": "42atomys/stud42",
+      "url": "https://github.com/42atomys/stud42",
+      "description": "Stud42 official repository since major 3 update (https://s42.app)",
+      "stars": 859,
+      "forks": 29,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-02-23T18:45:24Z",
+      "pushedAt": "2025-10-25T15:02:33Z",
+      "homepageUrl": "https://s42.app",
+      "archived": true,
+      "owner": {
+        "login": "42atomys",
+        "name": "Atomys",
+        "type": "User",
+        "url": "https://github.com/42atomys",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8448358?u=4c3251bf5256852cba38edebd345911d54329595&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 39,
+      "name": "claude-on-rails",
+      "nameWithOwner": "obie/claude-on-rails",
+      "url": "https://github.com/obie/claude-on-rails",
+      "description": "A development framework for Ruby on Rails developers using Claude Code, inspired by SuperClaude",
+      "stars": 814,
+      "forks": 47,
+      "primaryLanguage": "Ruby",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-06-26T21:18:04Z",
+      "pushedAt": "2025-09-26T16:43:18Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "obie",
+        "name": "Obie Fernandez",
+        "type": "User",
+        "url": "https://github.com/obie",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3908?u=f7883d386266bce3ef8b8cc26e53fa015e0c9459&v=4",
+        "location": "Mexico City",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mexico city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 40,
+      "name": "dotfiles",
+      "nameWithOwner": "Mic92/dotfiles",
+      "url": "https://github.com/Mic92/dotfiles",
+      "description": "My NixOS dotfiles",
+      "stars": 789,
+      "forks": 39,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-08-06T05:40:40Z",
+      "pushedAt": "2026-10-08T02:51:35Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Mic92",
+        "name": "Jörg Thalheim",
+        "type": "User",
+        "url": "https://github.com/Mic92",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96200?u=9ed15c85825694d00e996d605d728179b830c4fa&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 41,
+      "name": "SMF",
+      "nameWithOwner": "SimpleMachines/SMF",
+      "url": "https://github.com/SimpleMachines/SMF",
+      "description": "Simple Machines Forum — SMF in short — is free and open-source community forum software, delivering professional grade features in a package that allows you to set up your own online community within minutes!",
+      "stars": 750,
+      "forks": 269,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2012-01-24T16:36:19Z",
+      "pushedAt": "2026-10-04T20:11:22Z",
+      "homepageUrl": "https://www.simplemachines.org/",
+      "archived": false,
+      "owner": {
+        "login": "SimpleMachines",
+        "name": "Simple Machines",
+        "type": "Organization",
+        "url": "https://github.com/SimpleMachines",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1085746?v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 42,
+      "name": "flutter_projects",
+      "nameWithOwner": "brocodev/flutter_projects",
+      "url": "https://github.com/brocodev/flutter_projects",
+      "description": "This is a set of small projects focused solely on the development of the graphical interface with Flutter",
+      "stars": 747,
+      "forks": 191,
+      "primaryLanguage": "Dart",
+      "license": null,
+      "createdAt": "2020-10-08T19:14:02Z",
+      "pushedAt": "2025-01-31T19:32:52Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "brocodev",
+        "name": "Kevin Melendez",
+        "type": "User",
+        "url": "https://github.com/brocodev",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56772655?u=aa42ae961a4e32f7f9b911ff864b9f20da5853b2&v=4",
+        "location": "Acapulco",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "acapulco"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 43,
+      "name": "wave.js",
+      "nameWithOwner": "foobar404/wave.js",
+      "url": "https://github.com/foobar404/wave.js",
+      "description": "Audio visualizer library for javascript. Create dynamic animations that react to an audio file or audio stream. ",
+      "stars": 734,
+      "forks": 102,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-05-20T04:29:38Z",
+      "pushedAt": "2024-03-28T11:07:30Z",
+      "homepageUrl": "https://foobar404.github.io/wave.js/ ",
+      "archived": false,
+      "owner": {
+        "login": "foobar404",
+        "name": "Austin Michaud ",
+        "type": "User",
+        "url": "https://github.com/foobar404",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28680349?u=a19c4284b2435a05cd277ec9e78ea1a4f93399e9&v=4",
+        "location": "Mexico City, Mexico",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mexico city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 44,
+      "name": "ghetto-skype",
+      "nameWithOwner": "stanfieldr/ghetto-skype",
+      "url": "https://github.com/stanfieldr/ghetto-skype",
+      "description": "Web Skype + Tray Icon + Notifications",
+      "stars": 712,
+      "forks": 51,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2016-05-01T06:14:23Z",
+      "pushedAt": "2023-01-03T15:15:10Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "stanfieldr",
+        "name": "Robert Stanfield",
+        "type": "User",
+        "url": "https://github.com/stanfieldr",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7494573?u=b605ff5ac5b565e6c32b56fbfd838b3c898562e4&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 45,
+      "name": "microservices-go",
+      "nameWithOwner": "gbrayhan/microservices-go",
+      "url": "https://github.com/gbrayhan/microservices-go",
+      "description": "Golang Microservice Boilerplate using PSQL, Docker and  Cucumber, API REST. Gin Go and GORM with pagination and implementation of a Clean Architecture.",
+      "stars": 701,
+      "forks": 82,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-02-14T00:14:43Z",
+      "pushedAt": "2025-11-20T02:29:11Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "gbrayhan",
+        "name": "Alex Guerrero",
+        "type": "User",
+        "url": "https://github.com/gbrayhan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7296535?u=a0d3dd63cc6ff27c78ad18f12c48683c49f3e04e&v=4",
+        "location": "CDMX, MX",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "cdmx"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 46,
+      "name": "qrpay",
+      "nameWithOwner": "insoxin/qrpay",
+      "url": "https://github.com/insoxin/qrpay",
+      "description": "五合一收款码在线生成,40个模板 支持微信支付、支付宝支付、手机QQ支付、京东钱包、百度钱包,PayPal五合一收款，将其二维码合并为一个二维码，无需手续费,支持qq头像,昵称判断(HTML单页版多模板免安装) 腾讯云服务器 https://api.isoyu.com/qrpay/  腾讯云COS https://qrpay.isoyu.com/",
+      "stars": 678,
+      "forks": 159,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "GNU Affero General Public License v3.0",
+        "spdxId": "AGPL-3.0"
+      },
+      "createdAt": "2019-03-30T01:49:11Z",
+      "pushedAt": "2022-05-26T09:39:48Z",
+      "homepageUrl": "https://api.isoyu.com/qrpay/",
+      "archived": true,
+      "owner": {
+        "login": "insoxin",
+        "name": "1",
+        "type": "User",
+        "url": "https://github.com/insoxin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19371836?u=37e0b1aa6fea1c127e38730ba4c2c3c46767eea5&v=4",
+        "location": "1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 47,
+      "name": "arduinoFFT",
+      "nameWithOwner": "kosme/arduinoFFT",
+      "url": "https://github.com/kosme/arduinoFFT",
+      "description": "Fast Fourier Transform for Arduino",
+      "stars": 662,
+      "forks": 181,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2014-07-20T00:55:27Z",
+      "pushedAt": "2025-03-23T04:34:43Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "kosme",
+        "name": "Enrique Condes",
+        "type": "User",
+        "url": "https://github.com/kosme",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1418331?u=2a2ba36e1c5dda56098ddef951d099beecf79516&v=4",
+        "location": "Mexico city",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mexico city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 48,
+      "name": "FastLogin",
+      "nameWithOwner": "TuxCoding/FastLogin",
+      "url": "https://github.com/TuxCoding/FastLogin",
+      "description": "Checks if a Minecraft player has a valid paid account. If so, they can skip offline authentication automatically. (premium auto login)",
+      "stars": 650,
+      "forks": 168,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-09-04T17:54:25Z",
+      "pushedAt": "2026-05-05T11:42:37Z",
+      "homepageUrl": "https://www.spigotmc.org/resources/fastlogin.14153",
+      "archived": false,
+      "owner": {
+        "login": "TuxCoding",
+        "name": "Alex (TuxCoding)",
+        "type": "User",
+        "url": "https://github.com/TuxCoding",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1957196?u=72d3f3900430079623b9f288893a3fe21d4ed3bf&v=4",
+        "location": "[::1]",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 49,
+      "name": "git-deploy",
+      "nameWithOwner": "vicenteguerra/git-deploy",
+      "url": "https://github.com/vicenteguerra/git-deploy",
+      "description": "Php Script for Auto-Pull in server (Using WebHook from GitLab, GitHub and Bitbucket)",
+      "stars": 644,
+      "forks": 230,
+      "primaryLanguage": "PHP",
+      "license": null,
+      "createdAt": "2015-10-26T18:36:35Z",
+      "pushedAt": "2024-01-26T18:56:00Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "vicenteguerra",
+        "name": "Vicente Guerra",
+        "type": "User",
+        "url": "https://github.com/vicenteguerra",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7199402?u=158e13a08222180f65182e431b9a5741a92bbe2b&v=4",
+        "location": "Mexico City",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mexico city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 50,
+      "name": "nixpkgs-review",
+      "nameWithOwner": "Mic92/nixpkgs-review",
+      "url": "https://github.com/Mic92/nixpkgs-review",
+      "description": "Review pull-requests on https://github.com/NixOS/nixpkgs",
+      "stars": 643,
+      "forks": 105,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-03-17T13:30:00Z",
+      "pushedAt": "2026-10-03T09:44:38Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Mic92",
+        "name": "Jörg Thalheim",
+        "type": "User",
+        "url": "https://github.com/Mic92",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96200?u=9ed15c85825694d00e996d605d728179b830c4fa&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 51,
+      "name": "Turnip-Calculator",
+      "nameWithOwner": "elxris/Turnip-Calculator",
+      "url": "https://github.com/elxris/Turnip-Calculator",
+      "description": "ACNH Turnip Calculator Responsive Web App",
+      "stars": 632,
+      "forks": 104,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-04-06T01:15:18Z",
+      "pushedAt": "2023-04-07T01:34:22Z",
+      "homepageUrl": "https://ac-turnip.com",
+      "archived": false,
+      "owner": {
+        "login": "elxris",
+        "name": "Christian Ceciliano",
+        "type": "User",
+        "url": "https://github.com/elxris",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1855014?u=6dc77ff4fd2b3dced30cb83dbf2966fa5868f873&v=4",
+        "location": "Ciudad de México, México",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ciudad de mexico"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 52,
+      "name": "free-hls",
+      "nameWithOwner": "sxyazi/free-hls",
+      "url": "https://github.com/sxyazi/free-hls",
+      "description": "Upload video clips to a free image hosting service",
+      "stars": 612,
+      "forks": 163,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-02-21T05:35:46Z",
+      "pushedAt": "2022-03-31T14:39:56Z",
+      "homepageUrl": "https://github.com/sxyazi/free-hls/wiki",
+      "archived": false,
+      "owner": {
+        "login": "sxyazi",
+        "name": "三咲雅 misaki masa",
+        "type": "User",
+        "url": "https://github.com/sxyazi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17523360?u=b349e32966ba7b6aa5ac4b0f2d34547cb148cc73&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 53,
+      "name": "react-native-tesseract-ocr",
+      "nameWithOwner": "jonathanpalma/react-native-tesseract-ocr",
+      "url": "https://github.com/jonathanpalma/react-native-tesseract-ocr",
+      "description": "Tesseract OCR wrapper for React Native",
+      "stars": 595,
+      "forks": 173,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-09-04T19:53:31Z",
+      "pushedAt": "2025-11-18T17:51:12Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "jonathanpalma",
+        "name": "Jonathan Palma",
+        "type": "User",
+        "url": "https://github.com/jonathanpalma",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12414771?u=57d459622c3e965fb8f6bfe9ec5054196e7fb045&v=4",
+        "location": "Mexico City, Mexico",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mexico city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 54,
+      "name": "wp-api-jwt-auth",
+      "nameWithOwner": "Tmeister/wp-api-jwt-auth",
+      "url": "https://github.com/Tmeister/wp-api-jwt-auth",
+      "description": "A simple plugin to add JSON Web Token (JWT) Authentication to WP REST API",
+      "stars": 592,
+      "forks": 157,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "spdxId": "GPL-2.0"
+      },
+      "createdAt": "2015-07-29T03:58:36Z",
+      "pushedAt": "2026-02-18T01:05:52Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Tmeister",
+        "name": "Enrique Chavez",
+        "type": "User",
+        "url": "https://github.com/Tmeister",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/210349?u=c08cd2f26a5b3d61681941397ea41ed79fd5aa47&v=4",
+        "location": "Valle de Bravo, Mexico",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "valle de bravo"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 55,
+      "name": "simple_html_dom",
+      "nameWithOwner": "samacs/simple_html_dom",
+      "url": "https://github.com/samacs/simple_html_dom",
+      "description": "Just a Simple HTML DOM library fork. (http://simplehtmldom.sourceforge.net/)",
+      "stars": 582,
+      "forks": 523,
+      "primaryLanguage": "HTML",
+      "license": null,
+      "createdAt": "2012-09-23T00:32:10Z",
+      "pushedAt": "2024-05-15T07:40:13Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "samacs",
+        "name": "Saul Martínez",
+        "type": "User",
+        "url": "https://github.com/samacs",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48268?v=4",
+        "location": "Hermosillo, Sonora",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "hermosillo sonora"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 56,
+      "name": "youtube-js",
+      "nameWithOwner": "jonmircha/youtube-js",
+      "url": "https://github.com/jonmircha/youtube-js",
+      "description": "Repositorio de códigos del Curso JavaScript de @jonmircha",
+      "stars": 574,
+      "forks": 581,
+      "primaryLanguage": "HTML",
+      "license": null,
+      "createdAt": "2020-09-11T18:01:08Z",
+      "pushedAt": "2024-01-24T21:53:29Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "jonmircha",
+        "name": "Jonathan MirCha",
+        "type": "User",
+        "url": "https://github.com/jonmircha",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11139429?u=3e261a951a28302c25840ad12435837bb86416da&v=4",
+        "location": "México, CDMX",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "cdmx"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 57,
+      "name": "rpi-buildroot",
+      "nameWithOwner": "gamaral/rpi-buildroot",
+      "url": "https://github.com/gamaral/rpi-buildroot",
+      "description": "Buildroot overlay with a few personal tweaks for the Raspberry Pi",
+      "stars": 571,
+      "forks": 138,
+      "primaryLanguage": "Makefile",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2012-11-08T20:25:26Z",
+      "pushedAt": "2018-01-20T22:34:29Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "gamaral",
+        "name": "Guillermo A. Amaral",
+        "type": "User",
+        "url": "https://github.com/gamaral",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17997?v=4",
+        "location": "Tijuana, MX",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "tijuana"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 58,
+      "name": "baby-names-analysis",
+      "nameWithOwner": "PhantomInsights/baby-names-analysis",
+      "url": "https://github.com/PhantomInsights/baby-names-analysis",
+      "description": "Data ETL & Analysis on the dataset 'Baby Names from Social Security Card Applications - National Data'.",
+      "stars": 562,
+      "forks": 66,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-07-18T18:06:25Z",
+      "pushedAt": "2021-11-14T22:41:28Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "PhantomInsights",
+        "name": "Phantom Insights",
+        "type": "Organization",
+        "url": "https://github.com/PhantomInsights",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33854021?v=4",
+        "location": "Mexico City",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mexico city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 59,
+      "name": "nix-fast-build",
+      "nameWithOwner": "Mic92/nix-fast-build",
+      "url": "https://github.com/Mic92/nix-fast-build",
+      "description": "Combine the power of nix-eval-jobs with nix-output-monitor to speed-up your evaluation and building process.",
+      "stars": 553,
+      "forks": 41,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-09-08T08:11:43Z",
+      "pushedAt": "2026-10-04T12:36:37Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Mic92",
+        "name": "Jörg Thalheim",
+        "type": "User",
+        "url": "https://github.com/Mic92",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96200?u=9ed15c85825694d00e996d605d728179b830c4fa&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 60,
+      "name": "global_phone",
+      "nameWithOwner": "sstephenson/global_phone",
+      "url": "https://github.com/sstephenson/global_phone",
+      "description": "Parse, validate, and format phone numbers in Ruby using Google's libphonenumber database",
+      "stars": 548,
+      "forks": 104,
+      "primaryLanguage": "Ruby",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-05-28T18:51:57Z",
+      "pushedAt": "2018-01-18T18:09:10Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "sstephenson",
+        "name": "Sam Stephenson",
+        "type": "User",
+        "url": "https://github.com/sstephenson",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2603?u=ebf3eb85eb613942620b81a0930f157857a56e75&v=4",
+        "location": "Ciudad de México",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ciudad de mexico"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 61,
+      "name": "CombatExtended",
+      "nameWithOwner": "CombatExtended-Continued/CombatExtended",
+      "url": "https://github.com/CombatExtended-Continued/CombatExtended",
+      "description": "Combat Extended mod for RimWorld",
+      "stars": 543,
+      "forks": 346,
+      "primaryLanguage": "C#",
+      "license": null,
+      "createdAt": "2020-04-15T17:41:40Z",
+      "pushedAt": "2026-10-10T06:28:24Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "CombatExtended-Continued",
+        "name": "Combat Extended - Continued",
+        "type": "Organization",
+        "url": "https://github.com/CombatExtended-Continued",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63742287?v=4",
+        "location": "Work Rehabilitation Camp #0791, Siberia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "siberia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 62,
+      "name": "MultiDump",
+      "nameWithOwner": "Xre0uS/MultiDump",
+      "url": "https://github.com/Xre0uS/MultiDump",
+      "description": "MultiDump is a post-exploitation tool for dumping and extracting LSASS memory discreetly.",
+      "stars": 542,
+      "forks": 65,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2024-02-02T05:56:29Z",
+      "pushedAt": "2025-11-14T22:11:58Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Xre0uS",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/Xre0uS",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36565320?u=0ba0eae8cecf25c4c43ee5aedc55035cac937543&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 63,
+      "name": "bugbounty",
+      "nameWithOwner": "aufzayed/bugbounty",
+      "url": "https://github.com/aufzayed/bugbounty",
+      "description": "Bugbounty Resources",
+      "stars": 535,
+      "forks": 100,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2021-10-31T12:40:06Z",
+      "pushedAt": "2023-05-31T16:58:55Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "aufzayed",
+        "name": "ᴀʙᴅᴇʟʀʜᴍᴀɴ ᴢᴀʏᴇᴅ",
+        "type": "User",
+        "url": "https://github.com/aufzayed",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40190200?u=1fb4a70e6f76019c194e9b4bfde9e054ed128ed6&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 64,
+      "name": "Goopt",
+      "nameWithOwner": "jokenox/Goopt",
+      "url": "https://github.com/jokenox/Goopt",
+      "description": "🔍 Search Engine for a Procedural Simulation of the Web with GPT-3.",
+      "stars": 522,
+      "forks": 37,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-12-10T11:24:10Z",
+      "pushedAt": "2022-11-29T05:54:07Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "jokenox",
+        "name": "Kenny Cruz",
+        "type": "User",
+        "url": "https://github.com/jokenox",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31686468?u=3cb30f44843b7f5242b55481f4fd0210979f4e20&v=4",
+        "location": "Mexico City",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mexico city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 65,
+      "name": "subreddit-analyzer",
+      "nameWithOwner": "PhantomInsights/subreddit-analyzer",
+      "url": "https://github.com/PhantomInsights/subreddit-analyzer",
+      "description": "A comprehensive Data and Text Mining workflow for submissions and comments from any given public subreddit.",
+      "stars": 500,
+      "forks": 39,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-12-17T13:42:42Z",
+      "pushedAt": "2020-04-02T12:50:13Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "PhantomInsights",
+        "name": "Phantom Insights",
+        "type": "Organization",
+        "url": "https://github.com/PhantomInsights",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33854021?v=4",
+        "location": "Mexico City",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mexico city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 66,
+      "name": "mexican-government-report",
+      "nameWithOwner": "PhantomInsights/mexican-government-report",
+      "url": "https://github.com/PhantomInsights/mexican-government-report",
+      "description": "Text Mining on the 2019 Mexican Government Report, covering from extracting text from a PDF file to plotting the results.",
+      "stars": 475,
+      "forks": 81,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-09-10T10:42:52Z",
+      "pushedAt": "2020-01-22T22:26:12Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "PhantomInsights",
+        "name": "Phantom Insights",
+        "type": "Organization",
+        "url": "https://github.com/PhantomInsights",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33854021?v=4",
+        "location": "Mexico City",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mexico city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 67,
+      "name": "QQScreenShot",
+      "nameWithOwner": "insoxin/QQScreenShot",
+      "url": "https://github.com/insoxin/QQScreenShot",
+      "description": "电脑QQ截图工具提取版,支持文字提取、图片识别、截长图、qq录屏。默认截图文件名为ScreenShot日期",
+      "stars": 475,
+      "forks": 46,
+      "primaryLanguage": "CSS",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2022-05-29T00:14:23Z",
+      "pushedAt": "2022-12-17T11:02:53Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "insoxin",
+        "name": "1",
+        "type": "User",
+        "url": "https://github.com/insoxin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19371836?u=37e0b1aa6fea1c127e38730ba4c2c3c46767eea5&v=4",
+        "location": "1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 68,
+      "name": "bugbountyguide",
+      "nameWithOwner": "EdOverflow/bugbountyguide",
+      "url": "https://github.com/EdOverflow/bugbountyguide",
+      "description": "Bug Bounty Guide is a launchpad for bug bounty programs and bug bounty hunters.",
+      "stars": 473,
+      "forks": 107,
+      "primaryLanguage": "HTML",
+      "license": null,
+      "createdAt": "2018-01-01T16:52:38Z",
+      "pushedAt": "2022-11-10T11:21:05Z",
+      "homepageUrl": "https://bugbountyguide.com/",
+      "archived": false,
+      "owner": {
+        "login": "EdOverflow",
+        "name": "EdOverflow",
+        "type": "User",
+        "url": "https://github.com/EdOverflow",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18099289?u=e14beb1f7aefcbc53d3aa33d4b554caf64ab94b1&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 69,
+      "name": "acordeon-az900-innovaccion",
+      "nameWithOwner": "josejesusguzman/acordeon-az900-innovaccion",
+      "url": "https://github.com/josejesusguzman/acordeon-az900-innovaccion",
+      "description": "Aquí podrás encontrar recursos clave y adicionales para tu paso por la certificación Microsoft Azure Fundamentals AZ-900",
+      "stars": 470,
+      "forks": 276,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2021-02-02T02:38:24Z",
+      "pushedAt": "2022-06-18T17:35:53Z",
+      "homepageUrl": "https://josejesusguzman.github.io/acordeon-az900-innovaccion/",
+      "archived": false,
+      "owner": {
+        "login": "josejesusguzman",
+        "name": "Jose Jesus Guzman Eusebio",
+        "type": "User",
+        "url": "https://github.com/josejesusguzman",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8755301?u=a41422e7adcd600befe4db1bf1af1a663cf71815&v=4",
+        "location": "Ciudad de Mexico",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ciudad de mexico"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 70,
+      "name": "mpu6050",
+      "nameWithOwner": "ElectronicCats/mpu6050",
+      "url": "https://github.com/ElectronicCats/mpu6050",
+      "description": "MPU6050 Arduino Library",
+      "stars": 469,
+      "forks": 157,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-02-03T10:54:43Z",
+      "pushedAt": "2026-07-08T19:18:49Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ElectronicCats",
+        "name": "ElectronicCats",
+        "type": "Organization",
+        "url": "https://github.com/ElectronicCats",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16904656?v=4",
+        "location": "Aguascalientes, México",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "aguascalientes"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 71,
+      "name": "dark-whatsapp",
+      "nameWithOwner": "vednoc/dark-whatsapp",
+      "url": "https://github.com/vednoc/dark-whatsapp",
+      "description": "Complete, dark and light, very customizable theme for WhatsApp.",
+      "stars": 449,
+      "forks": 46,
+      "primaryLanguage": "Stylus",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-02-11T21:47:24Z",
+      "pushedAt": "2024-08-19T22:22:49Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "vednoc",
+        "name": "vednoc",
+        "type": "User",
+        "url": "https://github.com/vednoc",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18245694?u=54245512ac7b3f4fec8196bcf3092e6ed2ebab3b&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 72,
+      "name": "nyx",
+      "nameWithOwner": "NotAShelf/nyx",
+      "url": "https://github.com/NotAShelf/nyx",
+      "description": "My overengineered NixOS flake. Desktops, laptops, servers and everything else that can run an OS.",
+      "stars": 438,
+      "forks": 12,
+      "primaryLanguage": "Nix",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2023-04-13T21:25:57Z",
+      "pushedAt": "2024-08-05T12:46:11Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "NotAShelf",
+        "name": "raf",
+        "type": "User",
+        "url": "https://github.com/NotAShelf",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62766066?u=3becd73b020fa149a4824e73e2bb046033f82696&v=4",
+        "location": "[::1]",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 73,
+      "name": "gb-recompiled",
+      "nameWithOwner": "arcanite24/gb-recompiled",
+      "url": "https://github.com/arcanite24/gb-recompiled",
+      "description": "Static recompiler for Game Boy and Game Boy Color ROMs that emits portable C projects with an SDL2 runtime.",
+      "stars": 436,
+      "forks": 35,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-01-03T20:04:27Z",
+      "pushedAt": "2026-09-10T18:28:31Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "arcanite24",
+        "name": "Brandon G. Neri",
+        "type": "User",
+        "url": "https://github.com/arcanite24",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3642929?u=4727958cc1305f649dbda1557b5c877d6fdee79c&v=4",
+        "location": "CDMX",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "cdmx"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 74,
+      "name": "gemini-scrollbar",
+      "nameWithOwner": "noeldelgado/gemini-scrollbar",
+      "url": "https://github.com/noeldelgado/gemini-scrollbar",
+      "description": ":first_quarter_moon: Custom overlay-scrollbars with native scrolling mechanism for web applications",
+      "stars": 430,
+      "forks": 62,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-03-12T03:40:52Z",
+      "pushedAt": "2023-12-13T07:13:24Z",
+      "homepageUrl": "https://noeldelgado.github.io/gemini-scrollbar/",
+      "archived": false,
+      "owner": {
+        "login": "noeldelgado",
+        "name": "Noel Delgado",
+        "type": "User",
+        "url": "https://github.com/noeldelgado",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/895846?v=4",
+        "location": "MX",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "high",
+          "evidence": "country-code",
+          "matched": "MX"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 75,
+      "name": "envfs",
+      "nameWithOwner": "Mic92/envfs",
+      "url": "https://github.com/Mic92/envfs",
+      "description": "Fuse filesystem that returns symlinks to executables based on the PATH of the requesting process.",
+      "stars": 416,
+      "forks": 17,
+      "primaryLanguage": "Rust",
+      "license": null,
+      "createdAt": "2021-01-02T16:24:46Z",
+      "pushedAt": "2026-10-05T23:06:32Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Mic92",
+        "name": "Jörg Thalheim",
+        "type": "User",
+        "url": "https://github.com/Mic92",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96200?u=9ed15c85825694d00e996d605d728179b830c4fa&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 76,
+      "name": "strace-macos",
+      "nameWithOwner": "Mic92/strace-macos",
+      "url": "https://github.com/Mic92/strace-macos",
+      "description": "A clone of the strace command for macOS",
+      "stars": 410,
+      "forks": 8,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-11-17T10:40:39Z",
+      "pushedAt": "2026-05-22T17:34:02Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Mic92",
+        "name": "Jörg Thalheim",
+        "type": "User",
+        "url": "https://github.com/Mic92",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96200?u=9ed15c85825694d00e996d605d728179b830c4fa&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 77,
+      "name": "vue-datasource",
+      "nameWithOwner": "coderdiaz/vue-datasource",
+      "url": "https://github.com/coderdiaz/vue-datasource",
+      "description": "A vue.js component to create dynamic tables",
+      "stars": 407,
+      "forks": 91,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-01-11T23:25:20Z",
+      "pushedAt": "2019-07-24T02:14:34Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "coderdiaz",
+        "name": "Javier Diaz",
+        "type": "User",
+        "url": "https://github.com/coderdiaz",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1901273?u=e37a7fdd19efab03bb7e5fbd2809233d4aff75f8&v=4",
+        "location": "Mexico City",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mexico city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 78,
+      "name": "easybank-learning-sass",
+      "nameWithOwner": "LeonidasEsteban/easybank-learning-sass",
+      "url": "https://github.com/LeonidasEsteban/easybank-learning-sass",
+      "description": "I'm learning sass in a live streaming",
+      "stars": 401,
+      "forks": 27,
+      "primaryLanguage": "HTML",
+      "license": null,
+      "createdAt": "2020-05-10T00:14:24Z",
+      "pushedAt": "2020-08-13T01:01:37Z",
+      "homepageUrl": "https://leonidasesteban.github.io/easybank-learning-sass/",
+      "archived": false,
+      "owner": {
+        "login": "LeonidasEsteban",
+        "name": "Leonidas Esteban",
+        "type": "User",
+        "url": "https://github.com/LeonidasEsteban",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1150114?u=92cb99985e36e10f722b1f72715214780e87dfaf&v=4",
+        "location": "Ciudad de México",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ciudad de mexico"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 79,
+      "name": "DHSmartScreenshot",
+      "nameWithOwner": "davidman/DHSmartScreenshot",
+      "url": "https://github.com/davidman/DHSmartScreenshot",
+      "description": "UITableView/UIScrollView Category to get really easy, smart and instant screenshot images like no other library out there for iOS 5+ devices.",
+      "stars": 396,
+      "forks": 67,
+      "primaryLanguage": "Objective-C",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-12-02T18:57:17Z",
+      "pushedAt": "2017-02-14T06:44:40Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "davidman",
+        "name": "davidman",
+        "type": "User",
+        "url": "https://github.com/davidman",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/860166?v=4",
+        "location": "Mexico City",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mexico city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 80,
+      "name": "bootstrap-iconpicker",
+      "nameWithOwner": "victor-valencia/bootstrap-iconpicker",
+      "url": "https://github.com/victor-valencia/bootstrap-iconpicker",
+      "description": "A simple icon picker",
+      "stars": 386,
+      "forks": 136,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-11-19T21:18:08Z",
+      "pushedAt": "2020-12-07T05:11:42Z",
+      "homepageUrl": "https://victor-valencia.github.com/bootstrap-iconpicker/",
+      "archived": false,
+      "owner": {
+        "login": "victor-valencia",
+        "name": "Victor Valencia Rico",
+        "type": "User",
+        "url": "https://github.com/victor-valencia",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3579937?u=7135c485e2ff1b62fd195e5ebe38a6ccf03799ef&v=4",
+        "location": "Guanajuato, México",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "guanajuato"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 81,
+      "name": "smoke",
+      "nameWithOwner": "alfredobarron/smoke",
+      "url": "https://github.com/alfredobarron/smoke",
+      "description": "Smoke form validation and components for Bootstrap",
+      "stars": 384,
+      "forks": 60,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "GNU Lesser General Public License v3.0",
+        "spdxId": "LGPL-3.0"
+      },
+      "createdAt": "2013-11-08T20:12:48Z",
+      "pushedAt": "2020-04-06T10:14:16Z",
+      "homepageUrl": "http://alfredobarron.github.io/smoke",
+      "archived": false,
+      "owner": {
+        "login": "alfredobarron",
+        "name": "Alfredo Barron",
+        "type": "User",
+        "url": "https://github.com/alfredobarron",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2327016?u=950328adcde0c89bb3e28b3cbed3a9c75a660336&v=4",
+        "location": "Monterrey, Nuevo León",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "high",
+          "evidence": "recognized-place-with-admin",
+          "matched": "monterrey nuevo leon"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 82,
+      "name": "modxo",
+      "nameWithOwner": "shalxmva/modxo",
+      "url": "https://github.com/shalxmva/modxo",
+      "description": "Xbox LPC Port modchip using a Raspberry Pi Pico",
+      "stars": 381,
+      "forks": 20,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "spdxId": "BSD-2-Clause"
+      },
+      "createdAt": "2024-03-13T09:19:02Z",
+      "pushedAt": "2024-12-12T06:39:18Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "shalxmva",
+        "name": "Shalx",
+        "type": "User",
+        "url": "https://github.com/shalxmva",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5183445?u=2354021b3c813c66d2150922fac55add817b44f1&v=4",
+        "location": "Monclova, Coahuila, Mexico",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "monclova"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 83,
+      "name": "bearclaw",
+      "nameWithOwner": "donuts-are-good/bearclaw",
+      "url": "https://github.com/donuts-are-good/bearclaw",
+      "description": "tiny static site generator w/ rss",
+      "stars": 380,
+      "forks": 6,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-02-11T07:07:21Z",
+      "pushedAt": "2024-02-17T10:13:23Z",
+      "homepageUrl": "https://bearclaw.blog",
+      "archived": false,
+      "owner": {
+        "login": "donuts-are-good",
+        "name": "donuts are good",
+        "type": "User",
+        "url": "https://github.com/donuts-are-good",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96031819?u=0f10a0637bc5bf04d9a28c49061cc761f2d33949&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 84,
+      "name": "V2rayCollector",
+      "nameWithOwner": "mrvcoder/V2rayCollector",
+      "url": "https://github.com/mrvcoder/V2rayCollector",
+      "description": "This project crawls v2ray configs from Telegram channels.",
+      "stars": 373,
+      "forks": 100,
+      "primaryLanguage": "Go",
+      "license": null,
+      "createdAt": "2023-03-03T11:22:12Z",
+      "pushedAt": "2026-01-20T13:43:07Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "mrvcoder",
+        "name": "VC0D3R",
+        "type": "User",
+        "url": "https://github.com/mrvcoder",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49777789?u=5abf459d46b18d3c0a91aee771e56cacf1a9281d&v=4",
+        "location": "[::1]",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 85,
+      "name": "params",
+      "nameWithOwner": "vic/params",
+      "url": "https://github.com/vic/params",
+      "description": "Easy parameters validation/casting with Ecto.Schema, akin to Rails' strong parameters.",
+      "stars": 373,
+      "forks": 49,
+      "primaryLanguage": "Elixir",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2016-01-24T08:38:50Z",
+      "pushedAt": "2026-05-26T05:22:53Z",
+      "homepageUrl": "http://hex.pm/packages/params",
+      "archived": false,
+      "owner": {
+        "login": "vic",
+        "name": "Victor Borja",
+        "type": "User",
+        "url": "https://github.com/vic",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/331?u=1933431546606de8cee7f8bbaecb05e6ca2ebffd&v=4",
+        "location": "Mexico City",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mexico city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 86,
+      "name": "python-mpd2",
+      "nameWithOwner": "Mic92/python-mpd2",
+      "url": "https://github.com/Mic92/python-mpd2",
+      "description": "Python library which provides a client interface for the Music Player Daemon.",
+      "stars": 368,
+      "forks": 121,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU Lesser General Public License v3.0",
+        "spdxId": "LGPL-3.0"
+      },
+      "createdAt": "2012-03-18T19:13:09Z",
+      "pushedAt": "2026-10-08T17:21:15Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Mic92",
+        "name": "Jörg Thalheim",
+        "type": "User",
+        "url": "https://github.com/Mic92",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96200?u=9ed15c85825694d00e996d605d728179b830c4fa&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 87,
+      "name": "rick-morty-vanilla",
+      "nameWithOwner": "LeonidasEsteban/rick-morty-vanilla",
+      "url": "https://github.com/LeonidasEsteban/rick-morty-vanilla",
+      "description": "Web App using the rick and morty API in Vanilla.js",
+      "stars": 362,
+      "forks": 20,
+      "primaryLanguage": "CSS",
+      "license": null,
+      "createdAt": "2020-06-07T00:57:15Z",
+      "pushedAt": "2020-06-10T22:22:05Z",
+      "homepageUrl": "https://leonidasesteban.github.io/rick-morty-vanilla/",
+      "archived": false,
+      "owner": {
+        "login": "LeonidasEsteban",
+        "name": "Leonidas Esteban",
+        "type": "User",
+        "url": "https://github.com/LeonidasEsteban",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1150114?u=92cb99985e36e10f722b1f72715214780e87dfaf&v=4",
+        "location": "Ciudad de México",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ciudad de mexico"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 88,
+      "name": "guide-to-reactive-rails",
+      "nameWithOwner": "obie/guide-to-reactive-rails",
+      "url": "https://github.com/obie/guide-to-reactive-rails",
+      "description": "A comprehensive guide to online resources about \"Reactive\" Ruby on Rails development",
+      "stars": 353,
+      "forks": 12,
+      "primaryLanguage": null,
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-10-15T02:03:41Z",
+      "pushedAt": "2020-12-22T22:02:21Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "obie",
+        "name": "Obie Fernandez",
+        "type": "User",
+        "url": "https://github.com/obie",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3908?u=f7883d386266bce3ef8b8cc26e53fa015e0c9459&v=4",
+        "location": "Mexico City",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mexico city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 89,
+      "name": "breaking-changes-web",
+      "nameWithOwner": "styfle/breaking-changes-web",
+      "url": "https://github.com/styfle/breaking-changes-web",
+      "description": "💢 A list of breaking changes to the web platform",
+      "stars": 353,
+      "forks": 8,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2018-03-08T15:17:13Z",
+      "pushedAt": "2022-08-30T19:50:36Z",
+      "homepageUrl": "https://styfle.dev/projects/breaking-changes-web",
+      "archived": false,
+      "owner": {
+        "login": "styfle",
+        "name": "Steven",
+        "type": "User",
+        "url": "https://github.com/styfle",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/229881?u=58675cc3f9993517e5f29209ccba960d79b719ad&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 90,
+      "name": "brochure",
+      "nameWithOwner": "sstephenson/brochure",
+      "url": "https://github.com/sstephenson/brochure",
+      "description": "A Rack application for serving static sites",
+      "stars": 352,
+      "forks": 12,
+      "primaryLanguage": "Ruby",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2010-10-12T23:06:05Z",
+      "pushedAt": "2011-10-20T21:00:06Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "sstephenson",
+        "name": "Sam Stephenson",
+        "type": "User",
+        "url": "https://github.com/sstephenson",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2603?u=ebf3eb85eb613942620b81a0930f157857a56e75&v=4",
+        "location": "Ciudad de México",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ciudad de mexico"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 91,
+      "name": "CEH-v10-Study-Guide",
+      "nameWithOwner": "Samsar4/CEH-v10-Study-Guide",
+      "url": "https://github.com/Samsar4/CEH-v10-Study-Guide",
+      "description": "Study Guide for CEH v10 exam",
+      "stars": 350,
+      "forks": 137,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdxId": "CC0-1.0"
+      },
+      "createdAt": "2020-08-10T18:57:59Z",
+      "pushedAt": "2020-10-17T02:36:09Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Samsar4",
+        "name": "SAMSARA FM",
+        "type": "User",
+        "url": "https://github.com/Samsar4",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3259997?u=321b1a30a4e046c56792f9bb5ca9044c593291d4&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 92,
+      "name": "gnuboard5",
+      "nameWithOwner": "gnuboard/gnuboard5",
+      "url": "https://github.com/gnuboard/gnuboard5",
+      "description": "그누보드5 (영카트 포함) 공개형 Git",
+      "stars": 349,
+      "forks": 268,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2014-06-09T04:51:56Z",
+      "pushedAt": "2026-10-08T06:12:45Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "gnuboard",
+        "name": "kagla",
+        "type": "Organization",
+        "url": "https://github.com/gnuboard",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1716400?v=4",
+        "location": "Corea",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "corea"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 93,
+      "name": "reto-netflix",
+      "nameWithOwner": "LeonidasEsteban/reto-netflix",
+      "url": "https://github.com/LeonidasEsteban/reto-netflix",
+      "description": "Regálame una estrella para yo regalarte más retos y resolverlos en vivo",
+      "stars": 348,
+      "forks": 20,
+      "primaryLanguage": "HTML",
+      "license": null,
+      "createdAt": "2020-12-13T01:42:31Z",
+      "pushedAt": "2020-12-13T03:12:06Z",
+      "homepageUrl": "https://leonidasesteban.github.io/reto-netflix/",
+      "archived": false,
+      "owner": {
+        "login": "LeonidasEsteban",
+        "name": "Leonidas Esteban",
+        "type": "User",
+        "url": "https://github.com/LeonidasEsteban",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1150114?u=92cb99985e36e10f722b1f72715214780e87dfaf&v=4",
+        "location": "Ciudad de México",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ciudad de mexico"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 94,
+      "name": "bookmark-landing",
+      "nameWithOwner": "LeonidasEsteban/bookmark-landing",
+      "url": "https://github.com/LeonidasEsteban/bookmark-landing",
+      "description": "Challenge #3 by FrontendMentor.io",
+      "stars": 346,
+      "forks": 13,
+      "primaryLanguage": "CSS",
+      "license": null,
+      "createdAt": "2020-05-17T00:45:38Z",
+      "pushedAt": "2020-05-17T06:54:56Z",
+      "homepageUrl": "https://leonidasesteban.github.io/bookmark-landing/",
+      "archived": false,
+      "owner": {
+        "login": "LeonidasEsteban",
+        "name": "Leonidas Esteban",
+        "type": "User",
+        "url": "https://github.com/LeonidasEsteban",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1150114?u=92cb99985e36e10f722b1f72715214780e87dfaf&v=4",
+        "location": "Ciudad de México",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ciudad de mexico"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 95,
+      "name": "wash_out",
+      "nameWithOwner": "inossidabile/wash_out",
+      "url": "https://github.com/inossidabile/wash_out",
+      "description": "Dead simple Rails 4/5 SOAP server library",
+      "stars": 341,
+      "forks": 234,
+      "primaryLanguage": "Ruby",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2011-08-15T13:04:44Z",
+      "pushedAt": "2023-02-21T10:58:39Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "inossidabile",
+        "name": "Boris Staal",
+        "type": "User",
+        "url": "https://github.com/inossidabile",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/930257?u=aaa6d161c98552c7e5e85467428a95f0d7d4f513&v=4",
+        "location": "CDMX, Mexico",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "cdmx"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 96,
+      "name": "rock-paper-scissors-react",
+      "nameWithOwner": "LeonidasEsteban/rock-paper-scissors-react",
+      "url": "https://github.com/LeonidasEsteban/rock-paper-scissors-react",
+      "description": "Challenge #5 from Frontend Mentor",
+      "stars": 338,
+      "forks": 22,
+      "primaryLanguage": "JavaScript",
+      "license": null,
+      "createdAt": "2020-05-24T00:36:44Z",
+      "pushedAt": "2023-01-06T06:48:34Z",
+      "homepageUrl": "https://leonidasesteban.github.io/rock-paper-scissors-react/",
+      "archived": false,
+      "owner": {
+        "login": "LeonidasEsteban",
+        "name": "Leonidas Esteban",
+        "type": "User",
+        "url": "https://github.com/LeonidasEsteban",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1150114?u=92cb99985e36e10f722b1f72715214780e87dfaf&v=4",
+        "location": "Ciudad de México",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ciudad de mexico"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 97,
+      "name": "Chain",
+      "nameWithOwner": "lalomts/Chain",
+      "url": "https://github.com/lalomts/Chain",
+      "description": "Dynamic color relations in Sketch.",
+      "stars": 337,
+      "forks": 17,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2017-07-13T08:25:15Z",
+      "pushedAt": "2018-05-26T15:32:33Z",
+      "homepageUrl": "https://lalomrtnz.github.io/Chain/",
+      "archived": false,
+      "owner": {
+        "login": "lalomts",
+        "name": "Lalo Martínez",
+        "type": "User",
+        "url": "https://github.com/lalomts",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8953421?u=18ce199684dce52e2ba3501e24ee4b4ac7d855d2&v=4",
+        "location": "Mexico City",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mexico city"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 98,
+      "name": "shiki",
+      "nameWithOwner": "sazardev/shiki",
+      "url": "https://github.com/sazardev/shiki",
+      "description": "TUI note-taking app in Rust — Yazi-style navigation, notebooks as independent git repos, real per-note version history, themes, and fast fuzzy search.",
+      "stars": 328,
+      "forks": 19,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-07-23T01:10:48Z",
+      "pushedAt": "2026-10-08T06:17:17Z",
+      "homepageUrl": "https://sazardev.github.io/shiki/",
+      "archived": false,
+      "owner": {
+        "login": "sazardev",
+        "name": "Omar Flores Salazar",
+        "type": "User",
+        "url": "https://github.com/sazardev",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66286300?u=88f5d276d46d0d357dae342b309fef2a026e2acf&v=4",
+        "location": "Mexicali, B.C, Mexico",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "mexicali"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 99,
+      "name": "go-webview2",
+      "nameWithOwner": "jchv/go-webview2",
+      "url": "https://github.com/jchv/go-webview2",
+      "description": "WebView2 bindings for pure Go, without CGo, based on the webview/webview bindings.",
+      "stars": 327,
+      "forks": 87,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2020-08-09T21:49:36Z",
+      "pushedAt": "2026-02-05T17:32:54Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "jchv",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/jchv",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/938744?u=c21b088f9214caa4a39f50ddd2a07bf2ea286c22&v=4",
+        "location": "::1",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "1"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 100,
+      "name": "ninjemail",
+      "nameWithOwner": "david96182/ninjemail",
+      "url": "https://github.com/david96182/ninjemail",
+      "description": "Python library for automated email account creation. Create multiple accounts easily with support for major email providers.",
+      "stars": 317,
+      "forks": 79,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2024-01-19T03:12:22Z",
+      "pushedAt": "2026-02-24T14:19:29Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "david96182",
+        "name": "David Puerta Martín",
+        "type": "User",
+        "url": "https://github.com/david96182",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88980449?u=a0d45afb4e542f8b061b1f3c5f624c03f1e8c137&v=4",
+        "location": "Cancún, Quintana Roo, México",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "MX",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "quintana roo"
+        },
+        "discoveryTerms": []
+      }
+    }
+  ]
+}

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **6**
-- Current global star frontier: **427**
+- Verified high-star candidates retained: **7**
+- Current global star frontier: **312**
 
 ### High-star verified preview
 
@@ -57,5 +57,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [hashgraph-online/awesome-ai-plugins](https://github.com/hashgraph-online/awesome-ai-plugins) | **518** | Marshall Islands |
 | [hashgraph-online/registry-broker-skills](https://github.com/hashgraph-online/registry-broker-skills) | **457** | Marshall Islands |
 | [P20-ORG/P-20-Blockchain](https://github.com/P20-ORG/P-20-Blockchain) | **430** | Marshall Islands  |
+| [hashgraph-online/standards-sdk-go](https://github.com/hashgraph-online/standards-sdk-go) | **319** | Marshall Islands |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

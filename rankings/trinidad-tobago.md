@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **5**
-- Current global star frontier: **472**
+- Verified high-star candidates retained: **7**
+- Current global star frontier: **312**
 
 ### High-star verified preview
 
@@ -56,5 +56,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [chrisdev/django-pandas](https://github.com/chrisdev/django-pandas) | **806** | Trinidad & Tobago |
 | [trinib/trinib](https://github.com/trinib/trinib) | **509** | ❤Trinidad & Tobago❤ |
 | [callmenick/Animating-Hamburger-Icons](https://github.com/callmenick/Animating-Hamburger-Icons) | **485** | Trinidad & Tobago |
+| [creativenull/efmls-configs-nvim](https://github.com/creativenull/efmls-configs-nvim) | **318** | Trinidad and Tobago |
+| [trinib/ZORG-Jailbreak-Prompt-Text](https://github.com/trinib/ZORG-Jailbreak-Prompt-Text) | **313** | ❤Trinidad & Tobago❤ |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **11**
-- Current global star frontier: **319**
+- Verified high-star candidates retained: **12**
+- Current global star frontier: **312**
 
 ### High-star verified preview
 
@@ -62,5 +62,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [sahlberg/pop-fe](https://github.com/sahlberg/pop-fe) | **395** | MooreParkBeach/QLD/AU |
 | [TheBlewish/Web-LLM-Assistant-Llamacpp-Ollama](https://github.com/TheBlewish/Web-LLM-Assistant-Llamacpp-Ollama) | **375** | QLD, Australia |
 | [linuxscout/mishkal](https://github.com/linuxscout/mishkal) | **321** | Bouira, Algeria |
+| [joker25000/Optiva-Framework](https://github.com/joker25000/Optiva-Framework) | **314** | DZ |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
