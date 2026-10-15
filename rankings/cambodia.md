@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **8**
-- Current global star frontier: **305**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **248**
 
 ### High-star verified preview
 
@@ -59,5 +59,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [0x1iii1ii/PPPwn-Luckfox](https://github.com/0x1iii1ii/PPPwn-Luckfox) | **391** | Cambodia |
 | [seanghay/vector-drawable-nextjs](https://github.com/seanghay/vector-drawable-nextjs) | **323** | Cambodia |
 | [invisal/sqlite-internal](https://github.com/invisal/sqlite-internal) | **309** | Cambodia |
+| [moul-co/moul](https://github.com/moul-co/moul) | **251** | Cambodia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

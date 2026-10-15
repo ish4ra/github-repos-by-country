@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **8**
-- Current global star frontier: **260**
+- Verified high-star candidates retained: **10**
+- Current global star frontier: **248**
 
 ### High-star verified preview
 
@@ -59,5 +59,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [yuvraj108c/ComfyUI-Whisper](https://github.com/yuvraj108c/ComfyUI-Whisper) | **276** | Mauritius |
 | [yuvraj108c/ComfyUI-FLOAT](https://github.com/yuvraj108c/ComfyUI-FLOAT) | **272** | Mauritius |
 | [yuvraj108c/ComfyUI_InvSR](https://github.com/yuvraj108c/ComfyUI_InvSR) | **262** | Mauritius |
+| [yuvraj108c/ComfyUI-Upscaler-Tensorrt](https://github.com/yuvraj108c/ComfyUI-Upscaler-Tensorrt) | **251** | Mauritius |
+| [eznix86/docker-registry-ui](https://github.com/eznix86/docker-registry-ui) | **250** | Mauritius |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **16**
-- Current global star frontier: **266**
+- Verified high-star candidates retained: **18**
+- Current global star frontier: **248**
 
 ### High-star verified preview
 
@@ -67,5 +67,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [jahirfiquitiva/FABsMenu](https://github.com/jahirfiquitiva/FABsMenu) | **333** | Duitama, Colombia |
 | [teffcode/sass-workshop](https://github.com/teffcode/sass-workshop) | **281** | Medellín, Antioquia |
 | [esbanarango/Competitive-Programming](https://github.com/esbanarango/Competitive-Programming) | **268** | Envigado, Colombia |
+| [neonbjb/ocotillo](https://github.com/neonbjb/ocotillo) | **254** | CO |
+| [jahirfiquitiva/Kuper](https://github.com/jahirfiquitiva/Kuper) | **250** | Duitama, Colombia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

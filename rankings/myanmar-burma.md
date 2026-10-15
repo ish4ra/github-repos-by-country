@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **10**
-- Current global star frontier: **254**
+- Verified high-star candidates retained: **11**
+- Current global star frontier: **248**
 
 ### High-star verified preview
 
@@ -61,5 +61,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [sailay1996/UAC_bypass_windows_store](https://github.com/sailay1996/UAC_bypass_windows_store) | **262** | Myanmar |
 | [sailay1996/WerTrigger](https://github.com/sailay1996/WerTrigger) | **261** | Myanmar |
 | [sailay1996/CdpSvcLPE](https://github.com/sailay1996/CdpSvcLPE) | **255** | Myanmar |
+| [myokyawhtun/PDFMerger](https://github.com/myokyawhtun/PDFMerger) | **249** | Yangon, Myanmar |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

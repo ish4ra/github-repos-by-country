@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **266**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **248**
 
 ### High-star verified preview
 
@@ -54,5 +54,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [malgamves/CommunityWriterPrograms](https://github.com/malgamves/CommunityWriterPrograms) | **4,185** | Lusaka, Zambia |
 | [kampsy/ui](https://github.com/kampsy/ui) | **289** | Zambia |
 | [rly0nheart/thedevilseye](https://github.com/rly0nheart/thedevilseye) | **267** | Zambia |
+| [rly0nheart/oxdork](https://github.com/rly0nheart/oxdork) | **253** | Zambia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

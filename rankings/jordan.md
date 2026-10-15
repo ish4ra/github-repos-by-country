@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **254**
+- Verified high-star candidates retained: **10**
+- Current global star frontier: **248**
 
 ### High-star verified preview
 
@@ -60,5 +60,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [SaifAqqad/AHK_MicMute](https://github.com/SaifAqqad/AHK_MicMute) | **287** | Amman, Jordan |
 | [YahyaOdeh/HealthWatcher](https://github.com/YahyaOdeh/HealthWatcher) | **268** | Jordan, Amman  |
 | [zrashwani/arachnid](https://github.com/zrashwani/arachnid) | **255** | Amman, Jordan |
+| [tamerthamoqa/facenet-pytorch-glint360k](https://github.com/tamerthamoqa/facenet-pytorch-glint360k) | **249** | Amman, Jordan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
