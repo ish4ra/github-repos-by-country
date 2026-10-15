@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **13**
-- Current global star frontier: **271**
+- Verified high-star candidates retained: **15**
+- Current global star frontier: **266**
 
 ### High-star verified preview
 
@@ -64,5 +64,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [shawnlawson/The_Force](https://github.com/shawnlawson/The_Force) | **294** | AZ |
 | [tomipiriyev/Loko](https://github.com/tomipiriyev/Loko) | **290** | Azerbaijan |
 | [andrewstuart/hn](https://github.com/andrewstuart/hn) | **274** | AZ |
+| [andrewstuart/goq](https://github.com/andrewstuart/goq) | **269** | AZ |
+| [AfigAliyev/Cinemax](https://github.com/AfigAliyev/Cinemax) | **266** | Baku, Azerbaijan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **7**
-- Current global star frontier: **357**
+- Verified high-star candidates retained: **8**
+- Current global star frontier: **266**
 
 ### High-star verified preview
 
@@ -58,5 +58,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [intelligo-dev/intelligo](https://github.com/intelligo-dev/intelligo) | **432** | Ulaanbaatar, Mongolia |
 | [chris1610/sidetable](https://github.com/chris1610/sidetable) | **390** | MN |
 | [pankajchopra/togaf](https://github.com/pankajchopra/togaf) | **360** | MN |
+| [tortuvshin/intelligo.store](https://github.com/tortuvshin/intelligo.store) | **268** | Mongolia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

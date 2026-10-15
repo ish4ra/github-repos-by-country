@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **6**
-- Current global star frontier: **291**
+- Verified high-star candidates retained: **7**
+- Current global star frontier: **266**
 
 ### High-star verified preview
 
@@ -57,5 +57,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [alexeisavca/webtorrentapp](https://github.com/alexeisavca/webtorrentapp) | **298** | Chișinău, Republic of Moldova |
 | [matiaspub/bxApiDocs](https://github.com/matiaspub/bxApiDocs) | **292** | Tiraspol |
 | [dimmg/dockselpy](https://github.com/dimmg/dockselpy) | **292** | Chișinău, Moldova |
+| [vova07/yii2-start](https://github.com/vova07/yii2-start) | **268** | Chișinău, Moldova |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
