@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **6**
-- Current global star frontier: **266**
+- Verified high-star candidates retained: **7**
+- Current global star frontier: **260**
 
 ### High-star verified preview
 
@@ -57,5 +57,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [david-legend/flutter_catalog](https://github.com/david-legend/flutter_catalog) | **302** | Rwanda |
 | [vixalien/sticky](https://github.com/vixalien/sticky) | **302** | Kigali, Rwanda |
 | [david-legend/nimbus](https://github.com/david-legend/nimbus) | **271** | Rwanda |
+| [david-legend/david-legend.github.io](https://github.com/david-legend/david-legend.github.io) | **261** | Rwanda |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

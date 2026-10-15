@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **11**
-- Current global star frontier: **284**
+- Verified high-star candidates retained: **12**
+- Current global star frontier: **260**
 
 ### High-star verified preview
 
@@ -62,5 +62,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [erichs/composure](https://github.com/erichs/composure) | **346** | NC |
 | [erichs/awesome-awesome](https://github.com/erichs/awesome-awesome) | **298** | NC |
 | [michaelwayman/node-sass-chokidar](https://github.com/michaelwayman/node-sass-chokidar) | **288** | NC |
+| [JordanMarr/SqlHydra](https://github.com/JordanMarr/SqlHydra) | **264** | NC |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

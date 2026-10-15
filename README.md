@@ -21,7 +21,7 @@
 
 ## Browse by country
 
-**250 indexed · 50 live · 250 building · 0 queued**
+**250 indexed · 51 live · 250 building · 0 queued**
 
 > 🟢 **Live** = published ranking · 🟡 **Building** = crawl in progress · ⚪ **Queued** = waiting for its first crawl
 
@@ -228,7 +228,7 @@ Use `Ctrl+F` / `⌘F` to find a country instantly.
       <td width="25%">🟡 <a href="./rankings/malawi.md"><strong>🇲🇼 Malawi</strong></a></td>
     </tr>
     <tr>
-      <td width="25%">🟡 <a href="./rankings/malaysia.md"><strong>🇲🇾 Malaysia</strong></a></td>
+      <td width="25%">🟢 <a href="./rankings/malaysia.md"><strong>🇲🇾 Malaysia</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/maldives.md"><strong>🇲🇻 Maldives</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/mali.md"><strong>🇲🇱 Mali</strong></a></td>
       <td width="25%">🟡 <a href="./rankings/malta.md"><strong>🇲🇹 Malta</strong></a></td>

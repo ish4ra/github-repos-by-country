@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **17**
-- Current global star frontier: **266**
+- Verified high-star candidates retained: **18**
+- Current global star frontier: **260**
 
 ### High-star verified preview
 
@@ -68,5 +68,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [alexabbott/firebase-cms](https://github.com/alexabbott/firebase-cms) | **310** | LA |
 | [aczw/sddm-theme-corners](https://github.com/aczw/sddm-theme-corners) | **302** | LA |
 | [lmccart/SocialHacking](https://github.com/lmccart/SocialHacking) | **268** | LA |
+| [DerrickXuNu/CoBEVT](https://github.com/DerrickXuNu/CoBEVT) | **262** | LA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

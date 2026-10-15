@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **7**
-- Current global star frontier: **271**
+- Verified high-star candidates retained: **8**
+- Current global star frontier: **260**
 
 ### High-star verified preview
 
@@ -58,5 +58,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Abdur-rahmaanJ/shopcube](https://github.com/Abdur-rahmaanJ/shopcube) | **277** | Mauritius |
 | [yuvraj108c/ComfyUI-Whisper](https://github.com/yuvraj108c/ComfyUI-Whisper) | **276** | Mauritius |
 | [yuvraj108c/ComfyUI-FLOAT](https://github.com/yuvraj108c/ComfyUI-FLOAT) | **272** | Mauritius |
+| [yuvraj108c/ComfyUI_InvSR](https://github.com/yuvraj108c/ComfyUI_InvSR) | **262** | Mauritius |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
