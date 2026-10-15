@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **19**
-- Current global star frontier: **284**
+- Verified high-star candidates retained: **21**
+- Current global star frontier: **278**
 
 ### High-star verified preview
 
@@ -70,5 +70,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Andrey0189/nixos-config](https://github.com/Andrey0189/nixos-config) | **386** | Tashkent |
 | [anvarnarz/python-darslar](https://github.com/anvarnarz/python-darslar) | **311** | Tashkent |
 | [kugaevsky/mousetrap-rails](https://github.com/kugaevsky/mousetrap-rails) | **287** | Tashkent, Uzbekistan |
+| [Andrey0189/nixos-config-reborn](https://github.com/Andrey0189/nixos-config-reborn) | **283** | Tashkent |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

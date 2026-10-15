@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **328**
+- Verified high-star candidates retained: **15**
+- Current global star frontier: **278**
 
 ### High-star verified preview
 
@@ -65,5 +65,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [DragonJAR/Android-Pentesting-Skill](https://github.com/DragonJAR/Android-Pentesting-Skill) | **399** | Manizales, Caldas, Colombia |
 | [jahirfiquitiva/jahir.dev](https://github.com/jahirfiquitiva/jahir.dev) | **363** | Duitama, Colombia |
 | [jahirfiquitiva/FABsMenu](https://github.com/jahirfiquitiva/FABsMenu) | **333** | Duitama, Colombia |
+| [teffcode/sass-workshop](https://github.com/teffcode/sass-workshop) | **281** | Medellín, Antioquia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

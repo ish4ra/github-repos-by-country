@@ -1,0 +1,3398 @@
+{
+  "schemaVersion": 1,
+  "methodologyVersion": "0.8.0-repository-first",
+  "generatedAt": "2026-10-15T00:42:49.968Z",
+  "country": {
+    "code": "LT",
+    "name": "Lithuania",
+    "slug": "lithuania"
+  },
+  "source": {
+    "provider": "GitHub GraphQL API",
+    "endpoint": "https://api.github.com/graphql",
+    "countryBasis": "public repository-owner profile location",
+    "discovery": "global repositories scanned by stars descending"
+  },
+  "coverage": {
+    "status": "repository-first-certified-by-star-frontier",
+    "exhaustive": false,
+    "rawOwnerHits": 207898,
+    "acceptedUniqueOwners": 73,
+    "ownerMetricLabel": "Unique owners in top ranking",
+    "repositoriesConsidered": 102,
+    "publishedRepositories": 100,
+    "candidateThresholdStars": 279,
+    "rankingLimit": 100,
+    "cappedQueries": [],
+    "repositoryFirst": {
+      "scanFrontierStars": 278,
+      "topObservedStars": 551406,
+      "repositoriesSeen": 207898,
+      "attributedRepositories": 77090,
+      "ambiguousLocations": 33338,
+      "unknownLocations": 97470,
+      "unresolvedStarCounts": []
+    },
+    "notes": [
+      "Repositories are scanned globally in descending star ranges, independently of owner follower count or owner-search ordering.",
+      "A country is certified only after its 100th repository has more stars than every unprocessed global star range.",
+      "Owner country is inferred from the owner public GitHub profile location using the global geography resolver.",
+      "Owners with missing or unresolved locations are excluded, so country attribution is not a citizenship or legal-incorporation claim.",
+      "Compound city/admin locations such as \"Portland, OR\" are resolved before ambiguous city-only names."
+    ]
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "vuestic-admin",
+      "nameWithOwner": "epicmaxco/vuestic-admin",
+      "url": "https://github.com/epicmaxco/vuestic-admin",
+      "description": "Vuestic Admin is an open-source, ready-to-use admin template suite designed for rapid development, easy maintenance, and high accessibility. Built on Vuestic UI, Vue 3, Vite, Pinia, and Tailwind CSS. Maintained by Epicmax (@epicmaxco).",
+      "stars": 10955,
+      "forks": 1795,
+      "primaryLanguage": "Vue",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-07-31T11:52:40Z",
+      "pushedAt": "2026-02-26T07:06:10Z",
+      "homepageUrl": "https://admin.vuestic.dev",
+      "archived": false,
+      "owner": {
+        "login": "epicmaxco",
+        "name": "Epicmax",
+        "type": "Organization",
+        "url": "https://github.com/epicmaxco",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30595047?v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 2,
+      "name": "go-sqlmock",
+      "nameWithOwner": "DATA-DOG/go-sqlmock",
+      "url": "https://github.com/DATA-DOG/go-sqlmock",
+      "description": "Sql mock driver for golang to test database interactions",
+      "stars": 6570,
+      "forks": 420,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2014-02-07T07:59:29Z",
+      "pushedAt": "2026-07-10T06:12:55Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "DATA-DOG",
+        "name": "DATA-DOG",
+        "type": "Organization",
+        "url": "https://github.com/DATA-DOG",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6613360?v=4",
+        "location": "Kaunas",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "kaunas"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 3,
+      "name": "epic-spinners",
+      "nameWithOwner": "epicmaxco/epic-spinners",
+      "url": "https://github.com/epicmaxco/epic-spinners",
+      "description": "Easy to use css spinners collection with Vue.js integration",
+      "stars": 3912,
+      "forks": 353,
+      "primaryLanguage": "Vue",
+      "license": null,
+      "createdAt": "2017-12-05T09:05:15Z",
+      "pushedAt": "2024-09-05T12:22:24Z",
+      "homepageUrl": "https://epic-spinners.epicmax.co",
+      "archived": false,
+      "owner": {
+        "login": "epicmaxco",
+        "name": "Epicmax",
+        "type": "Organization",
+        "url": "https://github.com/epicmaxco",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30595047?v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 4,
+      "name": "vuestic-ui",
+      "nameWithOwner": "epicmaxco/vuestic-ui",
+      "url": "https://github.com/epicmaxco/vuestic-ui",
+      "description": "Vuestic UI is an open-source Vue 3 component library designed for rapid development, easy maintenance, and high accessibility. Maintained by Epicmax (@epicmaxco).",
+      "stars": 3747,
+      "forks": 351,
+      "primaryLanguage": "Vue",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-08-03T11:58:26Z",
+      "pushedAt": "2026-05-09T13:59:58Z",
+      "homepageUrl": "https://vuestic.dev",
+      "archived": false,
+      "owner": {
+        "login": "epicmaxco",
+        "name": "Epicmax",
+        "type": "Organization",
+        "url": "https://github.com/epicmaxco",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30595047?v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 5,
+      "name": "miniPaint",
+      "nameWithOwner": "viliusle/miniPaint",
+      "url": "https://github.com/viliusle/miniPaint",
+      "description": "online image editor",
+      "stars": 3469,
+      "forks": 795,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2013-07-30T14:11:26Z",
+      "pushedAt": "2026-04-20T18:43:28Z",
+      "homepageUrl": "http://viliusle.github.io/miniPaint/",
+      "archived": false,
+      "owner": {
+        "login": "viliusle",
+        "name": "Vilius",
+        "type": "User",
+        "url": "https://github.com/viliusle",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3708786?u=b2a9a98562e264013269fc94919dade1e7fc6fc0&v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 6,
+      "name": "UnityGaussianSplatting",
+      "nameWithOwner": "aras-p/UnityGaussianSplatting",
+      "url": "https://github.com/aras-p/UnityGaussianSplatting",
+      "description": "Toy Gaussian Splatting visualization in Unity",
+      "stars": 3420,
+      "forks": 484,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-08-24T19:34:46Z",
+      "pushedAt": "2025-10-17T07:21:38Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "aras-p",
+        "name": "Aras Pranckevičius",
+        "type": "User",
+        "url": "https://github.com/aras-p",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/348087?u=41311731f3f004fab8817c14c0440e09a29caa48&v=4",
+        "location": "Kaunas, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 7,
+      "name": "alice",
+      "nameWithOwner": "justinas/alice",
+      "url": "https://github.com/justinas/alice",
+      "description": "Painless middleware chaining for Go",
+      "stars": 3368,
+      "forks": 153,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-05-25T07:27:41Z",
+      "pushedAt": "2024-06-06T09:50:16Z",
+      "homepageUrl": "https://godoc.org/github.com/justinas/alice",
+      "archived": false,
+      "owner": {
+        "login": "justinas",
+        "name": "Justinas Stankevičius",
+        "type": "User",
+        "url": "https://github.com/justinas",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/662666?u=e8fe927ead3c8e9fcf30b6884190de182335495c&v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 8,
+      "name": "L5-Swagger",
+      "nameWithOwner": "DarkaOnLine/L5-Swagger",
+      "url": "https://github.com/DarkaOnLine/L5-Swagger",
+      "description": "OpenApi or Swagger integration to Laravel",
+      "stars": 2938,
+      "forks": 412,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-03-16T09:52:17Z",
+      "pushedAt": "2026-06-12T12:34:23Z",
+      "homepageUrl": "https://github.com/DarkaOnLine/L5-Swagger",
+      "archived": false,
+      "owner": {
+        "login": "DarkaOnLine",
+        "name": "Darius Matulionis",
+        "type": "User",
+        "url": "https://github.com/DarkaOnLine",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1171698?u=5c204690e8063e73db1c9e6a80a681cf902932a8&v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 9,
+      "name": "wacrm",
+      "nameWithOwner": "ArnasDon/wacrm",
+      "url": "https://github.com/ArnasDon/wacrm",
+      "description": "Self-hostable CRM template for WhatsApp — shared inbox, contacts, sales pipelines, broadcasts, and no-code automations. Fork it, brand it, host it.",
+      "stars": 2497,
+      "forks": 6422,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-04-16T14:04:40Z",
+      "pushedAt": "2026-09-28T12:37:41Z",
+      "homepageUrl": "https://wacrm.tech",
+      "archived": false,
+      "owner": {
+        "login": "ArnasDon",
+        "name": "Arnas Donauskas",
+        "type": "User",
+        "url": "https://github.com/ArnasDon",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61235555?u=819f942c9adb88c61c61391d6f3d75b37e0f9475&v=4",
+        "location": "Kaunas",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "kaunas"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 10,
+      "name": "livehelperchat",
+      "nameWithOwner": "LiveHelperChat/livehelperchat",
+      "url": "https://github.com/LiveHelperChat/livehelperchat",
+      "description": "Live Helper Chat - live support for your website. Featuring web and mobile apps, Voice & Video & ScreenShare. Supports Telegram, Twilio (whatsapp), Facebook messenger including building a bot.",
+      "stars": 2252,
+      "forks": 743,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2012-12-08T14:58:36Z",
+      "pushedAt": "2026-10-04T05:28:21Z",
+      "homepageUrl": "http://livehelperchat.com",
+      "archived": false,
+      "owner": {
+        "login": "LiveHelperChat",
+        "name": "Live Helper Chat",
+        "type": "Organization",
+        "url": "https://github.com/LiveHelperChat",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6755310?v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 11,
+      "name": "Swifton",
+      "nameWithOwner": "sauliusgrigaitis/Swifton",
+      "url": "https://github.com/sauliusgrigaitis/Swifton",
+      "description": "A Ruby on Rails inspired Web Framework for Swift that runs on Linux and OS X",
+      "stars": 1950,
+      "forks": 68,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-02-21T15:58:27Z",
+      "pushedAt": "2017-02-22T08:29:17Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "sauliusgrigaitis",
+        "name": "Saulius Grigaitis",
+        "type": "User",
+        "url": "https://github.com/sauliusgrigaitis",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6917?u=b4a9d73e70d47f415d7231a67b4e10de79dd1095&v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 12,
+      "name": "flutter-design-patterns",
+      "nameWithOwner": "mkobuolys/flutter-design-patterns",
+      "url": "https://github.com/mkobuolys/flutter-design-patterns",
+      "description": "Flutter Design Patterns application",
+      "stars": 1843,
+      "forks": 368,
+      "primaryLanguage": "Dart",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-10-07T22:04:17Z",
+      "pushedAt": "2026-08-03T20:00:48Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "mkobuolys",
+        "name": "Mangirdas Kazlauskas",
+        "type": "User",
+        "url": "https://github.com/mkobuolys",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17415795?u=17d4ac3b8ad4bb9d21695177411b2b04fb6e1824&v=4",
+        "location": "Kaunas",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "kaunas"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 13,
+      "name": "glsl-optimizer",
+      "nameWithOwner": "aras-p/glsl-optimizer",
+      "url": "https://github.com/aras-p/glsl-optimizer",
+      "description": "GLSL optimizer based on Mesa's GLSL compiler. Used to be used in Unity for mobile shader optimization.",
+      "stars": 1789,
+      "forks": 434,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2010-07-29T11:41:28Z",
+      "pushedAt": "2020-05-14T19:15:37Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "aras-p",
+        "name": "Aras Pranckevičius",
+        "type": "User",
+        "url": "https://github.com/aras-p",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/348087?u=41311731f3f004fab8817c14c0440e09a29caa48&v=4",
+        "location": "Kaunas, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 14,
+      "name": "nosurf",
+      "nameWithOwner": "justinas/nosurf",
+      "url": "https://github.com/justinas/nosurf",
+      "description": "CSRF protection middleware for Go.",
+      "stars": 1753,
+      "forks": 130,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-08-22T17:47:34Z",
+      "pushedAt": "2025-05-13T12:23:43Z",
+      "homepageUrl": "http://godoc.org/github.com/justinas/nosurf",
+      "archived": false,
+      "owner": {
+        "login": "justinas",
+        "name": "Justinas Stankevičius",
+        "type": "User",
+        "url": "https://github.com/justinas",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/662666?u=e8fe927ead3c8e9fcf30b6884190de182335495c&v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 15,
+      "name": "simple-keyboard",
+      "nameWithOwner": "rkkr/simple-keyboard",
+      "url": "https://github.com/rkkr/simple-keyboard",
+      "description": null,
+      "stars": 1593,
+      "forks": 352,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2017-04-22T11:32:21Z",
+      "pushedAt": "2026-10-04T16:03:30Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "rkkr",
+        "name": "Raimondas Rimkus",
+        "type": "User",
+        "url": "https://github.com/rkkr",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3480123?v=4",
+        "location": "Kaunas, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 16,
+      "name": "CSharp-From-Zero-To-Hero",
+      "nameWithOwner": "Almantask/CSharp-From-Zero-To-Hero",
+      "url": "https://github.com/Almantask/CSharp-From-Zero-To-Hero",
+      "description": "C# boot camp",
+      "stars": 1570,
+      "forks": 559,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2020-01-07T21:02:02Z",
+      "pushedAt": "2024-06-11T19:45:48Z",
+      "homepageUrl": "https://discord.gg/rCMKcUU",
+      "archived": false,
+      "owner": {
+        "login": "Almantask",
+        "name": "Kaisinel",
+        "type": "User",
+        "url": "https://github.com/Almantask",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40486932?u=a1b9f2a2260056f8f6aa2fd9e785ad5cdfd85939&v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 17,
+      "name": "libsimdpp",
+      "nameWithOwner": "p12tic/libsimdpp",
+      "url": "https://github.com/p12tic/libsimdpp",
+      "description": "Portable header-only C++ low level SIMD library",
+      "stars": 1304,
+      "forks": 129,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Boost Software License 1.0",
+        "spdxId": "BSL-1.0"
+      },
+      "createdAt": "2013-05-08T17:45:25Z",
+      "pushedAt": "2024-08-26T22:41:44Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "p12tic",
+        "name": "Povilas Kanapickas",
+        "type": "User",
+        "url": "https://github.com/p12tic",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1056711?u=cc9106cb4622f22c43e0fc493a9b6259c8e2d24e&v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 18,
+      "name": "invoice-builder",
+      "nameWithOwner": "piratuks/invoice-builder",
+      "url": "https://github.com/piratuks/invoice-builder",
+      "description": "Invoice and quotation builder desktop app with PDF export, designed for small businesses and freelancers. Create, manage, and export invoices and quotes easily using a local database in an Electron-based app.",
+      "stars": 1275,
+      "forks": 187,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2025-11-13T15:01:53Z",
+      "pushedAt": "2026-10-05T10:01:02Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "piratuks",
+        "name": "Evaldas L.",
+        "type": "User",
+        "url": "https://github.com/piratuks",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8760197?u=241e210233c08385473c92205c8a16028f35e27f&v=4",
+        "location": "Klaipėda",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "klaipeda"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 19,
+      "name": "ClangBuildAnalyzer",
+      "nameWithOwner": "aras-p/ClangBuildAnalyzer",
+      "url": "https://github.com/aras-p/ClangBuildAnalyzer",
+      "description": "Clang build analysis tool using -ftime-trace",
+      "stars": 1261,
+      "forks": 78,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "The Unlicense",
+        "spdxId": "Unlicense"
+      },
+      "createdAt": "2019-08-17T10:13:22Z",
+      "pushedAt": "2025-03-21T04:55:04Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "aras-p",
+        "name": "Aras Pranckevičius",
+        "type": "User",
+        "url": "https://github.com/aras-p",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/348087?u=41311731f3f004fab8817c14c0440e09a29caa48&v=4",
+        "location": "Kaunas, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 20,
+      "name": "Decodo",
+      "nameWithOwner": "Decodo/Decodo",
+      "url": "https://github.com/Decodo/Decodo",
+      "description": "HTTP(S)/SOCKS5 rotating residential proxies - code examples & general information.",
+      "stars": 1247,
+      "forks": 59,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-01-07T13:05:34Z",
+      "pushedAt": "2026-05-06T12:13:40Z",
+      "homepageUrl": "https://decodo.com",
+      "archived": false,
+      "owner": {
+        "login": "Decodo",
+        "name": "Decodo",
+        "type": "Organization",
+        "url": "https://github.com/Decodo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45659734?v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 21,
+      "name": "DebugDrawer",
+      "nameWithOwner": "palaima/DebugDrawer",
+      "url": "https://github.com/palaima/DebugDrawer",
+      "description": "Android Debug Drawer for faster development",
+      "stars": 1192,
+      "forks": 123,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2015-05-25T12:33:01Z",
+      "pushedAt": "2022-09-16T19:22:37Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "palaima",
+        "name": "Mantas",
+        "type": "User",
+        "url": "https://github.com/palaima",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5595382?u=870053a91769dfe855f7d5e887eea84cc8dab2ea&v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 22,
+      "name": "djangoql",
+      "nameWithOwner": "ivelum/djangoql",
+      "url": "https://github.com/ivelum/djangoql",
+      "description": "Advanced search language for Django",
+      "stars": 1140,
+      "forks": 96,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-03-22T10:23:59Z",
+      "pushedAt": "2026-01-27T03:42:34Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ivelum",
+        "name": "ivelum",
+        "type": "Organization",
+        "url": "https://github.com/ivelum",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1415096?v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 23,
+      "name": "SVG-to-SwiftUI",
+      "nameWithOwner": "bring-shrubbery/SVG-to-SwiftUI",
+      "url": "https://github.com/bring-shrubbery/SVG-to-SwiftUI",
+      "description": "SVG to SwiftUI Compiler",
+      "stars": 1119,
+      "forks": 53,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2020-04-07T16:26:27Z",
+      "pushedAt": "2026-08-05T17:18:32Z",
+      "homepageUrl": "https://svg-to-swiftui.quassum.com",
+      "archived": false,
+      "owner": {
+        "login": "bring-shrubbery",
+        "name": "Antoni Silvestrovič",
+        "type": "User",
+        "url": "https://github.com/bring-shrubbery",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29360707?u=97c962ee9008496504fe94d1660f0df21e91ba24&v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 24,
+      "name": "ToyPathTracer",
+      "nameWithOwner": "aras-p/ToyPathTracer",
+      "url": "https://github.com/aras-p/ToyPathTracer",
+      "description": "Toy path tracer for my own learning purposes (CPU/GPU, C++/C#, Win/Mac/Wasm, DX11/Metal, also Unity)",
+      "stars": 1117,
+      "forks": 113,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "The Unlicense",
+        "spdxId": "Unlicense"
+      },
+      "createdAt": "2018-03-23T13:53:26Z",
+      "pushedAt": "2025-04-12T05:53:35Z",
+      "homepageUrl": "https://aras-p.info/blog/2018/03/28/Daily-Pathtracer-Part-0-Intro/",
+      "archived": false,
+      "owner": {
+        "login": "aras-p",
+        "name": "Aras Pranckevičius",
+        "type": "User",
+        "url": "https://github.com/aras-p",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/348087?u=41311731f3f004fab8817c14c0440e09a29caa48&v=4",
+        "location": "Kaunas, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 25,
+      "name": "IPTV.bundle",
+      "nameWithOwner": "Cigaras/IPTV.bundle",
+      "url": "https://github.com/Cigaras/IPTV.bundle",
+      "description": "Plex plug-in that plays live streams (like IPTV) from a M3U playlist",
+      "stars": 1046,
+      "forks": 280,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2013-10-11T08:38:41Z",
+      "pushedAt": "2022-02-13T02:02:47Z",
+      "homepageUrl": "https://forums.plex.tv/discussion/83083",
+      "archived": false,
+      "owner": {
+        "login": "Cigaras",
+        "name": "Valdas V.",
+        "type": "User",
+        "url": "https://github.com/Cigaras",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/244432?v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 26,
+      "name": "material-angular-dashboard",
+      "nameWithOwner": "CreativeIT/material-angular-dashboard",
+      "url": "https://github.com/CreativeIT/material-angular-dashboard",
+      "description": "Material Angular Admin Template",
+      "stars": 1045,
+      "forks": 274,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-12-01T18:16:33Z",
+      "pushedAt": "2023-01-06T01:42:08Z",
+      "homepageUrl": "http://material-angular-dashboard.creativeit.io/",
+      "archived": false,
+      "owner": {
+        "login": "CreativeIT",
+        "name": "CreativeIT ",
+        "type": "Organization",
+        "url": "https://github.com/CreativeIT",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15989651?v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 27,
+      "name": "csharp-language-server",
+      "nameWithOwner": "razzmatazz/csharp-language-server",
+      "url": "https://github.com/razzmatazz/csharp-language-server",
+      "description": "Roslyn-based LSP server for C#",
+      "stars": 1002,
+      "forks": 73,
+      "primaryLanguage": "F#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-01-26T14:38:28Z",
+      "pushedAt": "2026-09-13T14:11:10Z",
+      "homepageUrl": "https://www.nuget.org/packages/csharp-ls/",
+      "archived": false,
+      "owner": {
+        "login": "razzmatazz",
+        "name": "Saulius Menkevičius",
+        "type": "User",
+        "url": "https://github.com/razzmatazz",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/563556?v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 28,
+      "name": "objgraph",
+      "nameWithOwner": "mgedmin/objgraph",
+      "url": "https://github.com/mgedmin/objgraph",
+      "description": "Visually explore Python object graphs",
+      "stars": 840,
+      "forks": 71,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-08-09T08:48:21Z",
+      "pushedAt": "2026-07-24T15:38:26Z",
+      "homepageUrl": "http://mg.pov.lt/objgraph/",
+      "archived": false,
+      "owner": {
+        "login": "mgedmin",
+        "name": "Marius Gedminas",
+        "type": "User",
+        "url": "https://github.com/mgedmin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/159967?v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 29,
+      "name": "boxbilling",
+      "nameWithOwner": "boxbilling/boxbilling",
+      "url": "https://github.com/boxbilling/boxbilling",
+      "description": "BoxBilling - Open source billing and client management software",
+      "stars": 833,
+      "forks": 368,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2012-01-23T10:42:53Z",
+      "pushedAt": "2024-02-26T01:57:53Z",
+      "homepageUrl": "https://boxbilling.org",
+      "archived": true,
+      "owner": {
+        "login": "boxbilling",
+        "name": "BoxBilling",
+        "type": "Organization",
+        "url": "https://github.com/boxbilling",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/897718?v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 30,
+      "name": "mouthful",
+      "nameWithOwner": "vkuznecovas/mouthful",
+      "url": "https://github.com/vkuznecovas/mouthful",
+      "description": "Mouthful is a self-hosted alternative to Disqus",
+      "stars": 775,
+      "forks": 40,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-02-04T14:15:26Z",
+      "pushedAt": "2025-10-08T07:27:12Z",
+      "homepageUrl": "https://mouthful.dizzy.zone/",
+      "archived": false,
+      "owner": {
+        "login": "vkuznecovas",
+        "name": "Viktoras",
+        "type": "User",
+        "url": "https://github.com/vkuznecovas",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18392269?u=c5be6ce64db8319b19fccedf6f7eee1612a6fb09&v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 31,
+      "name": "material-dashboard-lite",
+      "nameWithOwner": "CreativeIT/material-dashboard-lite",
+      "url": "https://github.com/CreativeIT/material-dashboard-lite",
+      "description": "A free dashboard template with material design lite",
+      "stars": 755,
+      "forks": 217,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-09-12T00:08:59Z",
+      "pushedAt": "2020-09-03T23:10:20Z",
+      "homepageUrl": "http://creativeit.io/material-dashboard-lite",
+      "archived": false,
+      "owner": {
+        "login": "CreativeIT",
+        "name": "CreativeIT ",
+        "type": "Organization",
+        "url": "https://github.com/CreativeIT",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15989651?v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 32,
+      "name": "ImNodes",
+      "nameWithOwner": "rokups/ImNodes",
+      "url": "https://github.com/rokups/ImNodes",
+      "description": "Node graph implementation for Dear ImGui. Used in https://github.com/rokups/rbfx",
+      "stars": 750,
+      "forks": 58,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-05-24T10:49:07Z",
+      "pushedAt": "2024-03-06T14:39:25Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "rokups",
+        "name": "Rokas Kupstys",
+        "type": "User",
+        "url": "https://github.com/rokups",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19151258?u=9428dc412f9ffd9d66a25f2d384c65efd253f047&v=4",
+        "location": "Šiauliai",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "siauliai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 33,
+      "name": "go-txdb",
+      "nameWithOwner": "DATA-DOG/go-txdb",
+      "url": "https://github.com/DATA-DOG/go-txdb",
+      "description": "Immutable transaction isolated sql driver for golang",
+      "stars": 749,
+      "forks": 47,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2015-07-08T07:34:53Z",
+      "pushedAt": "2025-03-11T14:40:44Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "DATA-DOG",
+        "name": "DATA-DOG",
+        "type": "Organization",
+        "url": "https://github.com/DATA-DOG",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6613360?v=4",
+        "location": "Kaunas",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "kaunas"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 34,
+      "name": "riscv_vhdl",
+      "nameWithOwner": "sergeykhbr/riscv_vhdl",
+      "url": "https://github.com/sergeykhbr/riscv_vhdl",
+      "description": "Portable RISC-V System-on-Chip implementation: RTL, debugger and simulators",
+      "stars": 697,
+      "forks": 109,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2015-11-08T20:30:57Z",
+      "pushedAt": "2025-07-16T12:20:02Z",
+      "homepageUrl": "http://sergeykhbr.github.io/riscv_vhdl/",
+      "archived": false,
+      "owner": {
+        "login": "sergeykhbr",
+        "name": "Sergey",
+        "type": "User",
+        "url": "https://github.com/sergeykhbr",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14061675?u=279a18e77b80a7c8efb09ef18ddac402a6cff15c&v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 35,
+      "name": "tgdante2",
+      "nameWithOwner": "schors/tgdante2",
+      "url": "https://github.com/schors/tgdante2",
+      "description": "Dockerized Dante socks5 proxy for telegram. Alpine version",
+      "stars": 627,
+      "forks": 67,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "The Unlicense",
+        "spdxId": "Unlicense"
+      },
+      "createdAt": "2018-04-14T19:32:14Z",
+      "pushedAt": "2018-05-26T22:33:58Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "schors",
+        "name": "Filipp Kulin",
+        "type": "User",
+        "url": "https://github.com/schors",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3613666?u=25fc48c6cd1c59587b870c1187261208dc9bd1a9&v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 36,
+      "name": "financius",
+      "nameWithOwner": "mvarnagiris/financius",
+      "url": "https://github.com/mvarnagiris/financius",
+      "description": "Personal expense manager",
+      "stars": 625,
+      "forks": 252,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "spdxId": "GPL-2.0"
+      },
+      "createdAt": "2013-11-10T14:24:12Z",
+      "pushedAt": "2019-05-12T20:53:22Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "mvarnagiris",
+        "name": "Mantas Varnagiris",
+        "type": "User",
+        "url": "https://github.com/mvarnagiris",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1196127?v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 37,
+      "name": "awesome-framer",
+      "nameWithOwner": "podo/awesome-framer",
+      "url": "https://github.com/podo/awesome-framer",
+      "description": "A curated list of awesome things related to Framer prototyping tool",
+      "stars": 622,
+      "forks": 50,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2015-10-13T09:05:21Z",
+      "pushedAt": "2026-10-06T12:25:48Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "podo",
+        "name": "Giedrius Jaloveckas",
+        "type": "User",
+        "url": "https://github.com/podo",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/136778?u=4a9ae6d334e79dd42c127d42079e5549b836c4fb&v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 38,
+      "name": "toad-scheduler",
+      "nameWithOwner": "kibertoad/toad-scheduler",
+      "url": "https://github.com/kibertoad/toad-scheduler",
+      "description": "In-memory Node.js and browser job scheduler",
+      "stars": 613,
+      "forks": 31,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-01-19T21:58:16Z",
+      "pushedAt": "2026-10-06T16:28:43Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "kibertoad",
+        "name": "Igor Savin",
+        "type": "User",
+        "url": "https://github.com/kibertoad",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1847934?u=c2b2f6633e0a92681474680c64cda1bf7d0500de&v=4",
+        "location": "Vilnius",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "vilnius"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 39,
+      "name": "druid",
+      "nameWithOwner": "Insality/druid",
+      "url": "https://github.com/Insality/druid",
+      "description": "Powerful Defold UI component framework",
+      "stars": 599,
+      "forks": 59,
+      "primaryLanguage": "Lua",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-03-25T20:08:36Z",
+      "pushedAt": "2026-10-08T21:08:55Z",
+      "homepageUrl": "https://insality.github.io/druid/",
+      "archived": false,
+      "owner": {
+        "login": "Insality",
+        "name": "Maksim Tuprikov",
+        "type": "User",
+        "url": "https://github.com/Insality",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3294627?u=04f2fad6b429d82b7e331324d84ebf559730bd35&v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 40,
+      "name": "redis-gui",
+      "nameWithOwner": "ekvedaras/redis-gui",
+      "url": "https://github.com/ekvedaras/redis-gui",
+      "description": "🔬 Modern graphical user interface to peek into redis database",
+      "stars": 591,
+      "forks": 39,
+      "primaryLanguage": "Vue",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-08-22T08:41:01Z",
+      "pushedAt": "2026-09-16T05:29:22Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ekvedaras",
+        "name": "Ernestas Kvedaras",
+        "type": "User",
+        "url": "https://github.com/ekvedaras",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3586184?u=d3402a04d14f89acb7e1ecd585fb472c9bdfdfbe&v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 41,
+      "name": "flutter-design-challenges",
+      "nameWithOwner": "mkobuolys/flutter-design-challenges",
+      "url": "https://github.com/mkobuolys/flutter-design-challenges",
+      "description": "Flutter Design Challenges",
+      "stars": 575,
+      "forks": 159,
+      "primaryLanguage": "Dart",
+      "license": null,
+      "createdAt": "2020-05-11T22:08:16Z",
+      "pushedAt": "2024-01-26T10:21:40Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "mkobuolys",
+        "name": "Mangirdas Kazlauskas",
+        "type": "User",
+        "url": "https://github.com/mkobuolys",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17415795?u=17d4ac3b8ad4bb9d21695177411b2b04fb6e1824&v=4",
+        "location": "Kaunas",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "kaunas"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 42,
+      "name": "hlsl2glslfork",
+      "nameWithOwner": "aras-p/hlsl2glslfork",
+      "url": "https://github.com/aras-p/hlsl2glslfork",
+      "description": "HLSL to GLSL language translator based on ATI's HLSL2GLSL. Used in Unity.",
+      "stars": 575,
+      "forks": 140,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2011-05-17T11:10:43Z",
+      "pushedAt": "2024-10-20T18:40:29Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "aras-p",
+        "name": "Aras Pranckevičius",
+        "type": "User",
+        "url": "https://github.com/aras-p",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/348087?u=41311731f3f004fab8817c14c0440e09a29caa48&v=4",
+        "location": "Kaunas, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 43,
+      "name": "compose-navigation-reimagined",
+      "nameWithOwner": "olshevski/compose-navigation-reimagined",
+      "url": "https://github.com/olshevski/compose-navigation-reimagined",
+      "description": "🌈 Type-safe navigation library for Jetpack Compose",
+      "stars": 571,
+      "forks": 21,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-02-03T10:47:15Z",
+      "pushedAt": "2024-01-27T17:33:17Z",
+      "homepageUrl": "https://olshevski.github.io/compose-navigation-reimagined/",
+      "archived": false,
+      "owner": {
+        "login": "olshevski",
+        "name": "Vitali Olshevski",
+        "type": "User",
+        "url": "https://github.com/olshevski",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5606565?u=2165bf7abc4c08a05f6479b31cf8c7e57e7f95f6&v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 44,
+      "name": "filemanager",
+      "nameWithOwner": "alexantr/filemanager",
+      "url": "https://github.com/alexantr/filemanager",
+      "description": "File manager in a single php file",
+      "stars": 561,
+      "forks": 331,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-07-04T15:12:22Z",
+      "pushedAt": "2018-10-21T18:12:10Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "alexantr",
+        "name": "Alex Yashkin",
+        "type": "User",
+        "url": "https://github.com/alexantr",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4941848?u=fdd2ff2f789daf0812db899d5541cf56a2527dc6&v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 45,
+      "name": "react-spreadsheet-import",
+      "nameWithOwner": "UgnisSoftware/react-spreadsheet-import",
+      "url": "https://github.com/UgnisSoftware/react-spreadsheet-import",
+      "description": "Import flow for Excel (.xlsx) and CSV file with automated column matching and validation.",
+      "stars": 559,
+      "forks": 155,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-01-27T10:29:24Z",
+      "pushedAt": "2026-02-23T16:09:22Z",
+      "homepageUrl": "https://ugnissoftware.github.io/react-spreadsheet-import/iframe.html?id=react-spreadsheet-import--basic&args=&viewMode=story",
+      "archived": false,
+      "owner": {
+        "login": "UgnisSoftware",
+        "name": "Ugnis",
+        "type": "Organization",
+        "url": "https://github.com/UgnisSoftware",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59046400?v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 46,
+      "name": "Self-Balancing-Cube",
+      "nameWithOwner": "remrc/Self-Balancing-Cube",
+      "url": "https://github.com/remrc/Self-Balancing-Cube",
+      "description": null,
+      "stars": 545,
+      "forks": 101,
+      "primaryLanguage": "C++",
+      "license": null,
+      "createdAt": "2022-05-08T10:55:58Z",
+      "pushedAt": "2024-07-20T18:44:07Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "remrc",
+        "name": "Remigijus",
+        "type": "User",
+        "url": "https://github.com/remrc",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92273685?v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 47,
+      "name": "flake-utils-plus",
+      "nameWithOwner": "gytis-ivaskevicius/flake-utils-plus",
+      "url": "https://github.com/gytis-ivaskevicius/flake-utils-plus",
+      "description": "Use Nix flakes without any fluff.",
+      "stars": 545,
+      "forks": 56,
+      "primaryLanguage": "Nix",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-03-13T13:37:12Z",
+      "pushedAt": "2026-08-10T13:05:37Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "gytis-ivaskevicius",
+        "name": "Gytis Ivaskevicius",
+        "type": "User",
+        "url": "https://github.com/gytis-ivaskevicius",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23264966?u=5a5ff3d73e6d1d23822cacacd33edd9ed24f6461&v=4",
+        "location": "Vilnius",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "vilnius"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 48,
+      "name": "jest-coverage-report-action",
+      "nameWithOwner": "ArtiomTr/jest-coverage-report-action",
+      "url": "https://github.com/ArtiomTr/jest-coverage-report-action",
+      "description": "Track your code coverage in every pull request.",
+      "stars": 544,
+      "forks": 149,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-01-10T10:41:26Z",
+      "pushedAt": "2025-09-29T18:01:30Z",
+      "homepageUrl": "https://www.covbot.dev",
+      "archived": false,
+      "owner": {
+        "login": "ArtiomTr",
+        "name": "Artiom Tretjakovas",
+        "type": "User",
+        "url": "https://github.com/ArtiomTr",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44021713?v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 49,
+      "name": "Front-end-Job-Interview-Questions",
+      "nameWithOwner": "FedorovAlexander/Front-end-Job-Interview-Questions",
+      "url": "https://github.com/FedorovAlexander/Front-end-Job-Interview-Questions",
+      "description": "Ответы на вопросы на должность Frontend разработчика.",
+      "stars": 532,
+      "forks": 85,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2019-03-25T07:45:20Z",
+      "pushedAt": "2025-02-09T09:59:49Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "FedorovAlexander",
+        "name": "Aleks Fedorov",
+        "type": "User",
+        "url": "https://github.com/FedorovAlexander",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21294642?u=74cd634f9825a803375bd0e0c1815679b2016cad&v=4",
+        "location": "Vilnius",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "vilnius"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 50,
+      "name": "terminal",
+      "nameWithOwner": "TitasGailius/terminal",
+      "url": "https://github.com/TitasGailius/terminal",
+      "description": "An Elegent wrapper around Symfony's Process component.",
+      "stars": 512,
+      "forks": 37,
+      "primaryLanguage": "PHP",
+      "license": null,
+      "createdAt": "2020-03-04T18:49:40Z",
+      "pushedAt": "2026-04-18T19:55:48Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "TitasGailius",
+        "name": "Titas Gailius",
+        "type": "User",
+        "url": "https://github.com/TitasGailius",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12625773?u=e6a6072188752b3ed9a2e12b4f110a5e28272c7e&v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 51,
+      "name": "youtube-dl-php",
+      "nameWithOwner": "norkunas/youtube-dl-php",
+      "url": "https://github.com/norkunas/youtube-dl-php",
+      "description": "A PHP wrapper for youtube-dl or yt-dlp.",
+      "stars": 507,
+      "forks": 156,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-03-28T23:45:48Z",
+      "pushedAt": "2026-05-24T17:01:21Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "norkunas",
+        "name": "Tomas Norkūnas",
+        "type": "User",
+        "url": "https://github.com/norkunas",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2722872?u=ef6c7f9d938fd09e30b8431571207c63915c81a2&v=4",
+        "location": "Kaunas, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 52,
+      "name": "espkvm",
+      "nameWithOwner": "espkvm/espkvm",
+      "url": "https://github.com/espkvm/espkvm",
+      "description": "IP-KVM on the ESP32-P4: HDMI capture, USB keyboard and mouse, and a browser console over HTTPS",
+      "stars": 504,
+      "forks": 38,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2026-07-22T20:25:01Z",
+      "pushedAt": "2026-10-10T09:00:07Z",
+      "homepageUrl": "https://espkvm.io",
+      "archived": false,
+      "owner": {
+        "login": "espkvm",
+        "name": "ESP KVM",
+        "type": "Organization",
+        "url": "https://github.com/espkvm",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/308046235?v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 53,
+      "name": "barebones-masterserver",
+      "nameWithOwner": "alvyxaz/barebones-masterserver",
+      "url": "https://github.com/alvyxaz/barebones-masterserver",
+      "description": "Master Server framework for Unity",
+      "stars": 485,
+      "forks": 95,
+      "primaryLanguage": "C#",
+      "license": null,
+      "createdAt": "2016-08-21T15:00:53Z",
+      "pushedAt": "2021-02-22T00:55:10Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "alvyxaz",
+        "name": "Alvydas Poškevičius",
+        "type": "User",
+        "url": "https://github.com/alvyxaz",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3227731?u=11a5a3a506d75c16e427bff98a0d22f18979c007&v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 54,
+      "name": "cppreference-doc",
+      "nameWithOwner": "p12tic/cppreference-doc",
+      "url": "https://github.com/p12tic/cppreference-doc",
+      "description": "C++ standard library reference",
+      "stars": 477,
+      "forks": 127,
+      "primaryLanguage": "HTML",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2011-09-18T02:59:59Z",
+      "pushedAt": "2026-04-21T21:17:55Z",
+      "homepageUrl": "en.cppreference.com",
+      "archived": false,
+      "owner": {
+        "login": "p12tic",
+        "name": "Povilas Kanapickas",
+        "type": "User",
+        "url": "https://github.com/p12tic",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1056711?u=cc9106cb4622f22c43e0fc493a9b6259c8e2d24e&v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 55,
+      "name": "revo",
+      "nameWithOwner": "if-not-nil/revo",
+      "url": "https://github.com/if-not-nil/revo",
+      "description": "a dynamic language for the joy of programming",
+      "stars": 476,
+      "forks": 19,
+      "primaryLanguage": "Zig",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-05-07T14:18:56Z",
+      "pushedAt": "2026-10-09T12:34:40Z",
+      "homepageUrl": "https://revo.lung.fyi",
+      "archived": false,
+      "owner": {
+        "login": "if-not-nil",
+        "name": "lung",
+        "type": "User",
+        "url": "https://github.com/if-not-nil",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62560250?u=29137bbb29e438233997292864a0cd8904655cad&v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 56,
+      "name": "mellifluous.nvim",
+      "nameWithOwner": "ramojus/mellifluous.nvim",
+      "url": "https://github.com/ramojus/mellifluous.nvim",
+      "description": "Pleasant and productive colorscheme for Neovim",
+      "stars": 455,
+      "forks": 17,
+      "primaryLanguage": "Lua",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-07-09T13:51:08Z",
+      "pushedAt": "2026-04-20T10:52:58Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ramojus",
+        "name": "Ramojus Lapinskas",
+        "type": "User",
+        "url": "https://github.com/ramojus",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41536253?u=01ce0b8faf55c9b8f4efa178cabe1dba703cfedf&v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 57,
+      "name": "DragLinearLayout",
+      "nameWithOwner": "justasm/DragLinearLayout",
+      "url": "https://github.com/justasm/DragLinearLayout",
+      "description": "Android LinearLayout with drag and drop to reorder.",
+      "stars": 452,
+      "forks": 118,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-08-21T09:41:02Z",
+      "pushedAt": "2016-10-10T13:23:07Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "justasm",
+        "name": "Justas Medeišis",
+        "type": "User",
+        "url": "https://github.com/justasm",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1081815?v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 58,
+      "name": "phrozn",
+      "nameWithOwner": "Pawka/phrozn",
+      "url": "https://github.com/Pawka/phrozn",
+      "description": "Phrozn is extremely flexible static site generator in PHP.",
+      "stars": 451,
+      "forks": 56,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2010-09-13T08:42:42Z",
+      "pushedAt": "2016-11-12T17:15:39Z",
+      "homepageUrl": "phrozn.info",
+      "archived": true,
+      "owner": {
+        "login": "Pawka",
+        "name": "Povilas Balzaravičius",
+        "type": "User",
+        "url": "https://github.com/Pawka",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2011?u=047975678f5f218d9a4ba2939a2093a7107b81fd&v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 59,
+      "name": "stoppropaganda",
+      "nameWithOwner": "erkexzcx/stoppropaganda",
+      "url": "https://github.com/erkexzcx/stoppropaganda",
+      "description": "A special DOS application to stop pro-Russian aggression websites. Support Ukraine!",
+      "stars": 440,
+      "forks": 65,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2022-02-26T10:21:16Z",
+      "pushedAt": "2022-05-24T09:27:52Z",
+      "homepageUrl": "https://en.wikipedia.org/wiki/Putin_khuylo!",
+      "archived": true,
+      "owner": {
+        "login": "erkexzcx",
+        "name": "Erikas",
+        "type": "User",
+        "url": "https://github.com/erkexzcx",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5955795?u=0db444b36488a8eec9c0b3deb59fcc6d9614ca8e&v=4",
+        "location": "Lithuania, Vilnius",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 60,
+      "name": "json-to-ts",
+      "nameWithOwner": "MariusAlch/json-to-ts",
+      "url": "https://github.com/MariusAlch/json-to-ts",
+      "description": "Convert jsons to typescript interfaces",
+      "stars": 429,
+      "forks": 62,
+      "primaryLanguage": "TypeScript",
+      "license": null,
+      "createdAt": "2017-04-16T16:24:01Z",
+      "pushedAt": "2024-04-18T19:45:07Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "MariusAlch",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/MariusAlch",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11492675?u=a504b88e1df29fb1b62f83ee210fc07defef6d64&v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 61,
+      "name": "Nicegram-Android",
+      "nameWithOwner": "nicegram/Nicegram-Android",
+      "url": "https://github.com/nicegram/Nicegram-Android",
+      "description": "Nicegram for Android — an independent Telegram client with Nicegram-specific integrations.",
+      "stars": 413,
+      "forks": 83,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "spdxId": "GPL-2.0"
+      },
+      "createdAt": "2021-12-27T10:02:08Z",
+      "pushedAt": "2026-10-07T09:45:02Z",
+      "homepageUrl": "https://nicegram.me/download",
+      "archived": false,
+      "owner": {
+        "login": "nicegram",
+        "name": "Nicegram",
+        "type": "Organization",
+        "url": "https://github.com/nicegram",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48769310?v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 62,
+      "name": "use-cookie-consent",
+      "nameWithOwner": "bring-shrubbery/use-cookie-consent",
+      "url": "https://github.com/bring-shrubbery/use-cookie-consent",
+      "description": "Smol (~1kB gzipped) hook for managing GDPR cookie consent state.",
+      "stars": 405,
+      "forks": 15,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-05-23T19:11:39Z",
+      "pushedAt": "2023-03-18T20:23:51Z",
+      "homepageUrl": "https://use-cookie-consent.js.org",
+      "archived": false,
+      "owner": {
+        "login": "bring-shrubbery",
+        "name": "Antoni Silvestrovič",
+        "type": "User",
+        "url": "https://github.com/bring-shrubbery",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29360707?u=97c962ee9008496504fe94d1660f0df21e91ba24&v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 63,
+      "name": "musicfun-react-all-stacks",
+      "nameWithOwner": "it-incubator/musicfun-react-all-stacks",
+      "url": "https://github.com/it-incubator/musicfun-react-all-stacks",
+      "description": "Musicfun - state management showcase",
+      "stars": 400,
+      "forks": 19,
+      "primaryLanguage": "TypeScript",
+      "license": null,
+      "createdAt": "2025-05-20T06:42:45Z",
+      "pushedAt": "2026-03-12T17:16:03Z",
+      "homepageUrl": "https://stg.musicfun.dev",
+      "archived": false,
+      "owner": {
+        "login": "it-incubator",
+        "name": "IT-INCUBATOR",
+        "type": "Organization",
+        "url": "https://github.com/it-incubator",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87441904?v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 64,
+      "name": "TempFastMail",
+      "nameWithOwner": "kasteckis/TempFastMail",
+      "url": "https://github.com/kasteckis/TempFastMail",
+      "description": "Self Hosted Temporary Fast Email Box",
+      "stars": 397,
+      "forks": 45,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2025-12-27T13:57:15Z",
+      "pushedAt": "2026-10-10T15:03:48Z",
+      "homepageUrl": "https://tempfastmail.com",
+      "archived": false,
+      "owner": {
+        "login": "kasteckis",
+        "name": "Valentinas Kasteckis",
+        "type": "User",
+        "url": "https://github.com/kasteckis",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41127259?v=4",
+        "location": "Lithuania, Kaunas",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 65,
+      "name": "rust-and-opengl-lessons",
+      "nameWithOwner": "Nercury/rust-and-opengl-lessons",
+      "url": "https://github.com/Nercury/rust-and-opengl-lessons",
+      "description": "Collection of example code for learning OpenGL in Rust",
+      "stars": 395,
+      "forks": 50,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2018-02-08T18:00:22Z",
+      "pushedAt": "2023-06-14T16:08:21Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Nercury",
+        "name": "Nerijus Arlauskas",
+        "type": "User",
+        "url": "https://github.com/Nercury",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/106180?u=0b3915351b4170e188c2723ff4cd851a3cc05cc3&v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 66,
+      "name": "high-quality-nix-content",
+      "nameWithOwner": "gytis-ivaskevicius/high-quality-nix-content",
+      "url": "https://github.com/gytis-ivaskevicius/high-quality-nix-content",
+      "description": "GitHub repository containing highest quality Nix/NixOS content",
+      "stars": 393,
+      "forks": 26,
+      "primaryLanguage": "Nix",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-05-28T18:31:02Z",
+      "pushedAt": "2026-05-19T14:31:28Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "gytis-ivaskevicius",
+        "name": "Gytis Ivaskevicius",
+        "type": "User",
+        "url": "https://github.com/gytis-ivaskevicius",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23264966?u=5a5ff3d73e6d1d23822cacacd33edd9ed24f6461&v=4",
+        "location": "Vilnius",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "vilnius"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 67,
+      "name": "dark-background-light-text-extension",
+      "nameWithOwner": "m-khvoinitsky/dark-background-light-text-extension",
+      "url": "https://github.com/m-khvoinitsky/dark-background-light-text-extension",
+      "description": "Firefox addon that turns every page colors into \"light text on dark background\"",
+      "stars": 389,
+      "forks": 34,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "Mozilla Public License 2.0",
+        "spdxId": "MPL-2.0"
+      },
+      "createdAt": "2016-01-13T00:13:33Z",
+      "pushedAt": "2026-09-10T06:17:58Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "m-khvoinitsky",
+        "name": "Mikhail Khvoinitsky",
+        "type": "User",
+        "url": "https://github.com/m-khvoinitsky",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16675892?u=7f513b9de3305adcacd464b3aef50e5e9e7a3bdf&v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 68,
+      "name": "dod-playground",
+      "nameWithOwner": "aras-p/dod-playground",
+      "url": "https://github.com/aras-p/dod-playground",
+      "description": "Sample OOP/ECS/DOD project (C++) for an internal Unity lecture in 2018",
+      "stars": 384,
+      "forks": 49,
+      "primaryLanguage": "C++",
+      "license": null,
+      "createdAt": "2018-09-20T13:36:59Z",
+      "pushedAt": "2020-11-20T00:53:18Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "aras-p",
+        "name": "Aras Pranckevičius",
+        "type": "User",
+        "url": "https://github.com/aras-p",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/348087?u=41311731f3f004fab8817c14c0440e09a29caa48&v=4",
+        "location": "Kaunas, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 69,
+      "name": "bosquet",
+      "nameWithOwner": "zmedelis/bosquet",
+      "url": "https://github.com/zmedelis/bosquet",
+      "description": "Tooling to build LLM applications: prompt templating and composition, agents, LLM memory, and other instruments for builders of AI applications.",
+      "stars": 381,
+      "forks": 29,
+      "primaryLanguage": "Clojure",
+      "license": {
+        "name": "Eclipse Public License 1.0",
+        "spdxId": "EPL-1.0"
+      },
+      "createdAt": "2023-01-01T17:03:29Z",
+      "pushedAt": "2026-09-30T08:54:47Z",
+      "homepageUrl": "https://zmedelis.github.io/bosquet/",
+      "archived": false,
+      "owner": {
+        "login": "zmedelis",
+        "name": "Žygimantas Medelis",
+        "type": "User",
+        "url": "https://github.com/zmedelis",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/171114?u=44f04c2c7df85558211f1d27ef4d6b44056e8f48&v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 70,
+      "name": "SwiftUI-Tooltip",
+      "nameWithOwner": "quassum/SwiftUI-Tooltip",
+      "url": "https://github.com/quassum/SwiftUI-Tooltip",
+      "description": "Easy Tooltip for your SwiftUI Project",
+      "stars": 375,
+      "forks": 47,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-10-24T14:47:46Z",
+      "pushedAt": "2023-05-10T11:03:26Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "quassum",
+        "name": "Quassum",
+        "type": "Organization",
+        "url": "https://github.com/quassum",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56130789?v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 71,
+      "name": "PlantWateringAlarm",
+      "nameWithOwner": "Miceuz/PlantWateringAlarm",
+      "url": "https://github.com/Miceuz/PlantWateringAlarm",
+      "description": "A soil humidity level sensor based on ATTINY44. Uses capacitive sensing.",
+      "stars": 366,
+      "forks": 83,
+      "primaryLanguage": "Jupyter Notebook",
+      "license": null,
+      "createdAt": "2012-08-02T14:20:44Z",
+      "pushedAt": "2023-06-06T06:42:02Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Miceuz",
+        "name": "Albertas Mickėnas",
+        "type": "User",
+        "url": "https://github.com/Miceuz",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/533263?v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 72,
+      "name": "ofxstatement",
+      "nameWithOwner": "kedder/ofxstatement",
+      "url": "https://github.com/kedder/ofxstatement",
+      "description": "Tool to convert proprietary bank statement to OFX format, suitable for importing to GnuCash or other personal finance applications.",
+      "stars": 365,
+      "forks": 78,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2012-03-11T14:47:50Z",
+      "pushedAt": "2026-08-22T03:03:28Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "kedder",
+        "name": "Andrey Lebedev",
+        "type": "User",
+        "url": "https://github.com/kedder",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59499?v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 73,
+      "name": "smol-v",
+      "nameWithOwner": "aras-p/smol-v",
+      "url": "https://github.com/aras-p/smol-v",
+      "description": "SMOL-V: like Vulkan/Khronos SPIR-V, but smaller.",
+      "stars": 363,
+      "forks": 21,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2016-08-27T12:55:58Z",
+      "pushedAt": "2026-09-20T18:24:04Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "aras-p",
+        "name": "Aras Pranckevičius",
+        "type": "User",
+        "url": "https://github.com/aras-p",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/348087?u=41311731f3f004fab8817c14c0440e09a29caa48&v=4",
+        "location": "Kaunas, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 74,
+      "name": "javascript-understanding-the-weird-parts",
+      "nameWithOwner": "jasonbaciulis/javascript-understanding-the-weird-parts",
+      "url": "https://github.com/jasonbaciulis/javascript-understanding-the-weird-parts",
+      "description": "Notes from the JavaScript course by Tony Alicea",
+      "stars": 359,
+      "forks": 114,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2018-03-20T03:12:38Z",
+      "pushedAt": "2022-02-06T03:55:52Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "jasonbaciulis",
+        "name": "Jason Baciulis",
+        "type": "User",
+        "url": "https://github.com/jasonbaciulis",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18900226?u=b38d0303f5aacb548053c1371d2b1ce2cb2823e8&v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 75,
+      "name": "nova-search-relations",
+      "nameWithOwner": "TitasGailius/nova-search-relations",
+      "url": "https://github.com/TitasGailius/nova-search-relations",
+      "description": " This package allow you to include relationship columns into Laravel Nova search query.",
+      "stars": 357,
+      "forks": 41,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2018-09-01T11:16:44Z",
+      "pushedAt": "2026-02-25T16:17:36Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "TitasGailius",
+        "name": "Titas Gailius",
+        "type": "User",
+        "url": "https://github.com/TitasGailius",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12625773?u=e6a6072188752b3ed9a2e12b4f110a5e28272c7e&v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 76,
+      "name": "httpinvoke",
+      "nameWithOwner": "jakutis/httpinvoke",
+      "url": "https://github.com/jakutis/httpinvoke",
+      "description": "A no-dependencies HTTP client library for browsers and Node.js with a promise-based or Node.js-style callback-based API to progress events, text and binary file upload and download, partial response body, request and response headers, status code.",
+      "stars": 341,
+      "forks": 15,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-07-31T17:02:22Z",
+      "pushedAt": "2016-01-25T08:55:17Z",
+      "homepageUrl": "https://www.npmjs.org/package/httpinvoke",
+      "archived": false,
+      "owner": {
+        "login": "jakutis",
+        "name": "Vytautas Jakutis",
+        "type": "User",
+        "url": "https://github.com/jakutis",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4760120?u=7fd0d8da210a0eacad9a898f00b7251987caee55&v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 77,
+      "name": "october30",
+      "nameWithOwner": "lekevicius/october30",
+      "url": "https://github.com/lekevicius/october30",
+      "description": "macOS Screen Saver showing 371 Apple logos from their 2018 iPad event",
+      "stars": 341,
+      "forks": 13,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-11-01T15:05:56Z",
+      "pushedAt": "2023-07-19T07:33:06Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "lekevicius",
+        "name": "Jonas Lekevicius",
+        "type": "User",
+        "url": "https://github.com/lekevicius",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/218656?u=445c316498bdf71b0b0445efa81da83152c0c97f&v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 78,
+      "name": "profilehooks",
+      "nameWithOwner": "mgedmin/profilehooks",
+      "url": "https://github.com/mgedmin/profilehooks",
+      "description": "Python decorators for profiling/tracing/timing a single function",
+      "stars": 338,
+      "forks": 29,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2012-06-04T21:24:25Z",
+      "pushedAt": "2026-07-24T17:01:43Z",
+      "homepageUrl": "http://mg.pov.lt/profilehooks/",
+      "archived": false,
+      "owner": {
+        "login": "mgedmin",
+        "name": "Marius Gedminas",
+        "type": "User",
+        "url": "https://github.com/mgedmin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/159967?v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 79,
+      "name": "nixos-ha-kubernetes",
+      "nameWithOwner": "justinas/nixos-ha-kubernetes",
+      "url": "https://github.com/justinas/nixos-ha-kubernetes",
+      "description": "Toy highly-available Kubernetes cluster on NixOS",
+      "stars": 338,
+      "forks": 10,
+      "primaryLanguage": "Nix",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-09-26T17:57:41Z",
+      "pushedAt": "2026-06-26T17:22:58Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "justinas",
+        "name": "Justinas Stankevičius",
+        "type": "User",
+        "url": "https://github.com/justinas",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/662666?u=e8fe927ead3c8e9fcf30b6884190de182335495c&v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 80,
+      "name": "SwaggerLume",
+      "nameWithOwner": "DarkaOnLine/SwaggerLume",
+      "url": "https://github.com/DarkaOnLine/SwaggerLume",
+      "description": "Lumen swagger",
+      "stars": 331,
+      "forks": 84,
+      "primaryLanguage": "PHP",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-01-21T14:33:06Z",
+      "pushedAt": "2024-05-15T06:18:08Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "DarkaOnLine",
+        "name": "Darius Matulionis",
+        "type": "User",
+        "url": "https://github.com/DarkaOnLine",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1171698?u=5c204690e8063e73db1c9e6a80a681cf902932a8&v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 81,
+      "name": "hello-vue-django",
+      "nameWithOwner": "rokups/hello-vue-django",
+      "url": "https://github.com/rokups/hello-vue-django",
+      "description": "vuejs and Django integration with hot code reload. Dont use this, use https://github.com/NdagiStanley/vue-django or https://github.com/gtalarico/django-vue-template",
+      "stars": 329,
+      "forks": 90,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2017-01-04T15:57:08Z",
+      "pushedAt": "2017-12-27T08:40:51Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "rokups",
+        "name": "Rokas Kupstys",
+        "type": "User",
+        "url": "https://github.com/rokups",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19151258?u=9428dc412f9ffd9d66a25f2d384c65efd253f047&v=4",
+        "location": "Šiauliai",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "siauliai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 82,
+      "name": "job",
+      "nameWithOwner": "ivelum/job",
+      "url": "https://github.com/ivelum/job",
+      "description": null,
+      "stars": 328,
+      "forks": 31,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-06-30T12:14:11Z",
+      "pushedAt": "2026-05-01T18:20:54Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ivelum",
+        "name": "ivelum",
+        "type": "Organization",
+        "url": "https://github.com/ivelum",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1415096?v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 83,
+      "name": "mcman",
+      "nameWithOwner": "deniz-blue/mcman",
+      "url": "https://github.com/deniz-blue/mcman",
+      "description": " Powerful Minecraft Server Manager CLI. Easily install jars (server, plugins & mods) and write config files. Docker and git support included.",
+      "stars": 328,
+      "forks": 28,
+      "primaryLanguage": "Rust",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2023-05-18T16:56:46Z",
+      "pushedAt": "2026-09-19T08:11:30Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "deniz-blue",
+        "name": "deniz",
+        "type": "User",
+        "url": "https://github.com/deniz-blue",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43997085?u=a0f54cc7037c7a2a94934d3b85255a7a87aa7435&v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 84,
+      "name": "vue-lazy-image-loading",
+      "nameWithOwner": "subotkevic/vue-lazy-image-loading",
+      "url": "https://github.com/subotkevic/vue-lazy-image-loading",
+      "description": "Vue lazy image and background loading plugin.",
+      "stars": 325,
+      "forks": 11,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-11-09T13:05:14Z",
+      "pushedAt": "2022-12-30T02:10:08Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "subotkevic",
+        "name": "Artur Subotkevič",
+        "type": "User",
+        "url": "https://github.com/subotkevic",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2277261?u=b281e8851d3f7027a107393d979c552515ed9a02&v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 85,
+      "name": "hubot-control",
+      "nameWithOwner": "spajus/hubot-control",
+      "url": "https://github.com/spajus/hubot-control",
+      "description": "Control Hubot via web interface",
+      "stars": 322,
+      "forks": 44,
+      "primaryLanguage": "Ruby",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2013-06-02T10:31:08Z",
+      "pushedAt": "2023-03-16T19:12:45Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "spajus",
+        "name": "spajus",
+        "type": "User",
+        "url": "https://github.com/spajus",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70706?u=e37501db75d2a245471cac94279fc29b5feb17e0&v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 86,
+      "name": "SpringCertification5.0",
+      "nameWithOwner": "MrR0807/SpringCertification5.0",
+      "url": "https://github.com/MrR0807/SpringCertification5.0",
+      "description": "My notes for preparing for Spring Professional Certification",
+      "stars": 321,
+      "forks": 186,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2019-01-23T15:35:10Z",
+      "pushedAt": "2019-01-23T15:50:10Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "MrR0807",
+        "name": "Laurynas",
+        "type": "User",
+        "url": "https://github.com/MrR0807",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/24605837?v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 87,
+      "name": "squircle-js",
+      "nameWithOwner": "bring-shrubbery/squircle-js",
+      "url": "https://github.com/bring-shrubbery/squircle-js",
+      "description": "A squircle element for your favourite frontend framework!",
+      "stars": 321,
+      "forks": 16,
+      "primaryLanguage": "MDX",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-06-02T07:49:42Z",
+      "pushedAt": "2026-06-15T12:48:00Z",
+      "homepageUrl": "https://squircle.js.org",
+      "archived": false,
+      "owner": {
+        "login": "bring-shrubbery",
+        "name": "Antoni Silvestrovič",
+        "type": "User",
+        "url": "https://github.com/bring-shrubbery",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29360707?u=97c962ee9008496504fe94d1660f0df21e91ba24&v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 88,
+      "name": "ExpandableButtonMenu",
+      "nameWithOwner": "lemonlabs/ExpandableButtonMenu",
+      "url": "https://github.com/lemonlabs/ExpandableButtonMenu",
+      "description": "[DEPRECATED] An Android library for an expandable button menu",
+      "stars": 319,
+      "forks": 115,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2013-12-18T08:26:15Z",
+      "pushedAt": "2014-07-16T13:16:38Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "lemonlabs",
+        "name": "Lemon Labs",
+        "type": "Organization",
+        "url": "https://github.com/lemonlabs",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2040499?v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 89,
+      "name": "awesome-pytorch-scholarship",
+      "nameWithOwner": "arnas/awesome-pytorch-scholarship",
+      "url": "https://github.com/arnas/awesome-pytorch-scholarship",
+      "description": " A list of awesome PyTorch scholarship articles, guides, blogs, courses and other resources.",
+      "stars": 312,
+      "forks": 67,
+      "primaryLanguage": null,
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-11-09T22:54:47Z",
+      "pushedAt": "2018-11-24T05:11:33Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "arnas",
+        "name": "Arnas Gečas",
+        "type": "User",
+        "url": "https://github.com/arnas",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13507001?v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 90,
+      "name": "blackmagic-espidf",
+      "nameWithOwner": "walmis/blackmagic-espidf",
+      "url": "https://github.com/walmis/blackmagic-espidf",
+      "description": "Blackmagic Wireless SWD Debug probe hosted on esp-idf SDK (for ESP8266) with UART on Telnet port and HTTP using xterm.js",
+      "stars": 298,
+      "forks": 59,
+      "primaryLanguage": "C",
+      "license": null,
+      "createdAt": "2019-12-15T18:24:23Z",
+      "pushedAt": "2024-01-04T19:00:06Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "walmis",
+        "name": "Valmantas Palikša",
+        "type": "User",
+        "url": "https://github.com/walmis",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3736730?v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 91,
+      "name": "ml-sharp-web",
+      "nameWithOwner": "bring-shrubbery/ml-sharp-web",
+      "url": "https://github.com/bring-shrubbery/ml-sharp-web",
+      "description": "Web playground to create Gaussian Splats using Apple's SHARP model",
+      "stars": 298,
+      "forks": 10,
+      "primaryLanguage": "TypeScript",
+      "license": null,
+      "createdAt": "2026-02-22T15:25:07Z",
+      "pushedAt": "2026-07-01T21:57:42Z",
+      "homepageUrl": "https://ml-sharp-web.vercel.app/",
+      "archived": false,
+      "owner": {
+        "login": "bring-shrubbery",
+        "name": "Antoni Silvestrovič",
+        "type": "User",
+        "url": "https://github.com/bring-shrubbery",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29360707?u=97c962ee9008496504fe94d1660f0df21e91ba24&v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 92,
+      "name": "Hermite-resize",
+      "nameWithOwner": "viliusle/Hermite-resize",
+      "url": "https://github.com/viliusle/Hermite-resize",
+      "description": "Canvas image resize/resample using Hermite filter with JavaScript.",
+      "stars": 297,
+      "forks": 45,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2013-08-13T19:48:38Z",
+      "pushedAt": "2022-12-02T14:02:29Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "viliusle",
+        "name": "Vilius",
+        "type": "User",
+        "url": "https://github.com/viliusle",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3708786?u=b2a9a98562e264013269fc94919dade1e7fc6fc0&v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 93,
+      "name": "LibreAutomate",
+      "nameWithOwner": "qgindi/LibreAutomate",
+      "url": "https://github.com/qgindi/LibreAutomate",
+      "description": "C# script editor and automation library for Windows",
+      "stars": 295,
+      "forks": 35,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-03-18T06:13:51Z",
+      "pushedAt": "2026-10-14T06:30:17Z",
+      "homepageUrl": "https://www.libreautomate.com",
+      "archived": false,
+      "owner": {
+        "login": "qgindi",
+        "name": "Gintaras Didžgalvis",
+        "type": "User",
+        "url": "https://github.com/qgindi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15153357?v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 94,
+      "name": "getmdl-select",
+      "nameWithOwner": "CreativeIT/getmdl-select",
+      "url": "https://github.com/CreativeIT/getmdl-select",
+      "description": "Select for material-design-lite",
+      "stars": 294,
+      "forks": 82,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-11-27T11:18:13Z",
+      "pushedAt": "2019-10-29T13:59:59Z",
+      "homepageUrl": "http://creativeit.github.io/getmdl-select/",
+      "archived": false,
+      "owner": {
+        "login": "CreativeIT",
+        "name": "CreativeIT ",
+        "type": "Organization",
+        "url": "https://github.com/CreativeIT",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15989651?v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 95,
+      "name": "sequelize-fixtures",
+      "nameWithOwner": "domasx2/sequelize-fixtures",
+      "url": "https://github.com/domasx2/sequelize-fixtures",
+      "description": "Load data from json, yaml or js to sequelize",
+      "stars": 294,
+      "forks": 81,
+      "primaryLanguage": "JavaScript",
+      "license": null,
+      "createdAt": "2013-06-29T20:18:54Z",
+      "pushedAt": "2023-08-03T11:07:08Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "domasx2",
+        "name": "Domas",
+        "type": "User",
+        "url": "https://github.com/domasx2",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/847684?u=0b0fb854047ba77a0eb85bf571f881838be01698&v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 96,
+      "name": "check-manifest",
+      "nameWithOwner": "mgedmin/check-manifest",
+      "url": "https://github.com/mgedmin/check-manifest",
+      "description": "Tool to check the completeness of MANIFEST.in for Python packages",
+      "stars": 293,
+      "forks": 42,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-03-05T15:27:20Z",
+      "pushedAt": "2026-08-04T18:39:30Z",
+      "homepageUrl": "https://pypi.org/p/check-manifest",
+      "archived": false,
+      "owner": {
+        "login": "mgedmin",
+        "name": "Marius Gedminas",
+        "type": "User",
+        "url": "https://github.com/mgedmin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/159967?v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 97,
+      "name": "emoji-keyboard",
+      "nameWithOwner": "OzymandiasTheGreat/emoji-keyboard",
+      "url": "https://github.com/OzymandiasTheGreat/emoji-keyboard",
+      "description": "Type emoji easily! Virtual keyboard-like emoji palette for Linux with [fewer] of features.",
+      "stars": 287,
+      "forks": 29,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-05-30T13:46:26Z",
+      "pushedAt": "2024-07-21T14:42:08Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "OzymandiasTheGreat",
+        "name": "Tomas Ravinskas",
+        "type": "User",
+        "url": "https://github.com/OzymandiasTheGreat",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17731419?u=7c69ed71541880525e699e533469b1a18b5d9d85&v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 98,
+      "name": "virtual-reality",
+      "nameWithOwner": "rokups/virtual-reality",
+      "url": "https://github.com/rokups/virtual-reality",
+      "description": "Stealthy backdoor for Windows operating systems",
+      "stars": 286,
+      "forks": 46,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-02-06T11:29:22Z",
+      "pushedAt": "2020-02-13T14:11:36Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "rokups",
+        "name": "Rokas Kupstys",
+        "type": "User",
+        "url": "https://github.com/rokups",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19151258?u=9428dc412f9ffd9d66a25f2d384c65efd253f047&v=4",
+        "location": "Šiauliai",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "siauliai"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 99,
+      "name": "chopper-resonance-tuner",
+      "nameWithOwner": "MRX8024/chopper-resonance-tuner",
+      "url": "https://github.com/MRX8024/chopper-resonance-tuner",
+      "description": "Registers calibration script for TMC drivers",
+      "stars": 281,
+      "forks": 47,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2024-01-30T22:30:57Z",
+      "pushedAt": "2026-01-22T19:34:34Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "MRX8024",
+        "name": "Maksim Bolgov",
+        "type": "User",
+        "url": "https://github.com/MRX8024",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57844100?u=315e9ea0d973c66af3c2eb3461c7d2cd258153df&v=4",
+        "location": "Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 100,
+      "name": "GitLabApiClient",
+      "nameWithOwner": "nmklotas/GitLabApiClient",
+      "url": "https://github.com/nmklotas/GitLabApiClient",
+      "description": "GitLab API client",
+      "stars": 279,
+      "forks": 162,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-09-15T21:39:11Z",
+      "pushedAt": "2024-07-15T08:20:17Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "nmklotas",
+        "name": "Julius",
+        "type": "User",
+        "url": "https://github.com/nmklotas",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4801422?v=4",
+        "location": "Vilnius, Lithuania",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "LT",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "lithuania"
+        },
+        "discoveryTerms": []
+      }
+    }
+  ]
+}
