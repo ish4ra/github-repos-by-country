@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **489**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **271**
 
 ### High-star verified preview
 
@@ -54,5 +54,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [iib0011/omni-tools](https://github.com/iib0011/omni-tools) | **10,281** | Senegal |
 | [aimerou/awesome-ai-papers](https://github.com/aimerou/awesome-ai-papers) | **1,314** | Senegal |
 | [abdoufermat5/unix-and-linux-sysadmin-notes](https://github.com/abdoufermat5/unix-and-linux-sysadmin-notes) | **492** | Senegal |
+| [ibrahima92/pwa-with-vanilla-js](https://github.com/ibrahima92/pwa-with-vanilla-js) | **275** | Senegal |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

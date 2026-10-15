@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **427**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **271**
 
 ### High-star verified preview
 
@@ -54,5 +54,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [luckasRanarison/tailwind-tools.nvim](https://github.com/luckasRanarison/tailwind-tools.nvim) | **587** | Antananarivo, Madagascar |
 | [tsirysndr/music-player](https://github.com/tsirysndr/music-player) | **525** | Antananarivo / Madagascar |
 | [TacoGuy21/Greatsword-V3](https://github.com/TacoGuy21/Greatsword-V3) | **437** | RVA |
+| [luckasRanarison/nvim-devdocs](https://github.com/luckasRanarison/nvim-devdocs) | **276** | Antananarivo, Madagascar |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
