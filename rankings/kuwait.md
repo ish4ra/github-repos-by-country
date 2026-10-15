@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **15**
-- Current global star frontier: **284**
+- Verified high-star candidates retained: **17**
+- Current global star frontier: **254**
 
 ### High-star verified preview
 
@@ -66,5 +66,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [obytes/app-icon-badge](https://github.com/obytes/app-icon-badge) | **380** | Kuwait |
 | [telly/FloatingAction](https://github.com/telly/FloatingAction) | **306** | Kuwait |
 | [halfwhey/claudraband](https://github.com/halfwhey/claudraband) | **287** | Kuwait |
+| [MaaSTaaR/539kernel](https://github.com/MaaSTaaR/539kernel) | **257** | Kuwait |
+| [Voulnet/CVE-2017-8759-Exploit-sample](https://github.com/Voulnet/CVE-2017-8759-Exploit-sample) | **256** | Kuwait, Kuwait City |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

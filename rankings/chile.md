@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **271**
+- Verified high-star candidates retained: **10**
+- Current global star frontier: **254**
 
 ### High-star verified preview
 
@@ -60,5 +60,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [jakeajames/rootlessJB](https://github.com/jakeajames/rootlessJB) | **308** | Antartica  |
 | [grisuno/LazyOwn](https://github.com/grisuno/LazyOwn) | **300** | Santiago de chile |
 | [EstebanFuentealba/MALVEKE-Flipper-Zero](https://github.com/EstebanFuentealba/MALVEKE-Flipper-Zero) | **273** | Talcahuano, Chile |
+| [jakeajames/jelbrekLib](https://github.com/jakeajames/jelbrekLib) | **259** | Antartica  |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

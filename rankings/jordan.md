@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **8**
-- Current global star frontier: **266**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **254**
 
 ### High-star verified preview
 
@@ -59,5 +59,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [DefinetlyNotAI/Solidworks-Crack](https://github.com/DefinetlyNotAI/Solidworks-Crack) | **298** | Jordan, Amman |
 | [SaifAqqad/AHK_MicMute](https://github.com/SaifAqqad/AHK_MicMute) | **287** | Amman, Jordan |
 | [YahyaOdeh/HealthWatcher](https://github.com/YahyaOdeh/HealthWatcher) | **268** | Jordan, Amman  |
+| [zrashwani/arachnid](https://github.com/zrashwani/arachnid) | **255** | Amman, Jordan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **260**
+- Verified high-star candidates retained: **15**
+- Current global star frontier: **254**
 
 ### High-star verified preview
 
@@ -65,5 +65,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [scottaohara/accessibility_interview_questions](https://github.com/scottaohara/accessibility_interview_questions) | **397** | MA |
 | [mirleft/ocaml-tls](https://github.com/mirleft/ocaml-tls) | **321** | Mirleft, Morocco |
 | [scottaohara/accessible_modal_window](https://github.com/scottaohara/accessible_modal_window) | **263** | MA |
+| [foxrunsoftware/DatePicker](https://github.com/foxrunsoftware/DatePicker) | **255** | MA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

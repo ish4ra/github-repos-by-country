@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **14**
-- Current global star frontier: **284**
+- Verified high-star candidates retained: **15**
+- Current global star frontier: **254**
 
 ### High-star verified preview
 
@@ -65,5 +65,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [joker25000/Optiva-Framework](https://github.com/joker25000/Optiva-Framework) | **314** | DZ |
 | [selfire1/BibleGateway-to-Obsidian](https://github.com/selfire1/BibleGateway-to-Obsidian) | **305** | QLD, Australia |
 | [ayadseghairi/tornet](https://github.com/ayadseghairi/tornet) | **286** | khenchela ,Algeria |
+| [ipenywis/laya-ultrafast](https://github.com/ipenywis/laya-ultrafast) | **258** | Setif, Algeria |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

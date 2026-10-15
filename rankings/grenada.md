@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **328**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **254**
 
 ### High-star verified preview
 
@@ -54,5 +54,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [laishiwen/sven-family](https://github.com/laishiwen/sven-family) | **611** | GD |
 | [XTeam-Wing/RedTeaming2020](https://github.com/XTeam-Wing/RedTeaming2020) | **471** | GD |
 | [XTeam-Wing/Vulcan](https://github.com/XTeam-Wing/Vulcan) | **329** | GD |
+| [XTeam-Wing/Hunting-Active-Directory](https://github.com/XTeam-Wing/Hunting-Active-Directory) | **258** | GD |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

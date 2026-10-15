@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **11**
-- Current global star frontier: **271**
+- Verified high-star candidates retained: **12**
+- Current global star frontier: **254**
 
 ### High-star verified preview
 
@@ -62,5 +62,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [noahabe/database_system_concepts_answers](https://github.com/noahabe/database_system_concepts_answers) | **594** | Addis Ababa, Ethiopia |
 | [devefy/Flutter-Adidas-Shoes-Ecommerce-App-UI](https://github.com/devefy/Flutter-Adidas-Shoes-Ecommerce-App-UI) | **375** | Ethiopia, Adama |
 | [jossephus/chuchu](https://github.com/jossephus/chuchu) | **272** | Addis Ababa, Ethiopia |
+| [yohannesgk/blacksmith](https://github.com/yohannesgk/blacksmith) | **258** | Ethiopia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

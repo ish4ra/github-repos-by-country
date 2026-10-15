@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **6**
-- Current global star frontier: **260**
+- Verified high-star candidates retained: **7**
+- Current global star frontier: **254**
 
 ### High-star verified preview
 
@@ -57,5 +57,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [byteball/obyte-gui-wallet](https://github.com/byteball/obyte-gui-wallet) | **429** | Liechtenstein |
 | [danheron/Heron.MudCalendar](https://github.com/danheron/Heron.MudCalendar) | **332** | Liechtenstein |
 | [TOLDOTECHNIK/buildroot-webkit](https://github.com/TOLDOTECHNIK/buildroot-webkit) | **265** | Vaduz |
+| [aeternity/aepp-sdk-js](https://github.com/aeternity/aepp-sdk-js) | **255** | Liechtenstein |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
