@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **18**
-- Current global star frontier: **266**
+- Verified high-star candidates retained: **19**
+- Current global star frontier: **238**
 
 ### High-star verified preview
 
@@ -69,5 +69,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [CircuitSetup/Split-Single-Phase-Energy-Meter](https://github.com/CircuitSetup/Split-Single-Phase-Energy-Meter) | **298** | PA |
 | [zacharee/WiFiList](https://github.com/zacharee/WiFiList) | **271** | PA |
 | [rajasharan/RearrangeableLayout](https://github.com/rajasharan/RearrangeableLayout) | **269** | PA |
+| [adamgruber/mochawesome-report-generator](https://github.com/adamgruber/mochawesome-report-generator) | **242** | PA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

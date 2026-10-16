@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **10**
-- Current global star frontier: **243**
+- Verified high-star candidates retained: **11**
+- Current global star frontier: **238**
 
 ### High-star verified preview
 
@@ -61,5 +61,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [invisal/sqlite-internal](https://github.com/invisal/sqlite-internal) | **309** | Cambodia |
 | [moul-co/moul](https://github.com/moul-co/moul) | **251** | Cambodia |
 | [lim-anggun/FgSegNet](https://github.com/lim-anggun/FgSegNet) | **248** | Cambodia |
+| [newVkDing2/coinc](https://github.com/newVkDing2/coinc) | **240** | 柬埔寨 |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

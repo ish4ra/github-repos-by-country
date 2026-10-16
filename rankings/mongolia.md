@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **10**
-- Current global star frontier: **243**
+- Verified high-star candidates retained: **11**
+- Current global star frontier: **238**
 
 ### High-star verified preview
 
@@ -61,5 +61,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [tortuvshin/intelligo.store](https://github.com/tortuvshin/intelligo.store) | **268** | Mongolia |
 | [weahforsage/react-native-animated-pagination-dots](https://github.com/weahforsage/react-native-animated-pagination-dots) | **252** | Mongolia |
 | [shinebayar-g/ufw-docker-automated](https://github.com/shinebayar-g/ufw-docker-automated) | **245** | Mongolia |
+| [bilguunint/movieapp](https://github.com/bilguunint/movieapp) | **239** | Mongolia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **13**
-- Current global star frontier: **278**
+- Verified high-star candidates retained: **15**
+- Current global star frontier: **238**
 
 ### High-star verified preview
 
@@ -64,5 +64,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Kalebu/Plagiarism-checker-Python](https://github.com/Kalebu/Plagiarism-checker-Python) | **329** | Dar es Salaam , Tanzania |
 | [Fred1e/FEE-XMD](https://github.com/Fred1e/FEE-XMD) | **318** | Dar Es Salam  |
 | [MaarifaMaarifa/series-troxide](https://github.com/MaarifaMaarifa/series-troxide) | **282** | Tanzania |
+| [yezyilomo/odoo-rest-api](https://github.com/yezyilomo/odoo-rest-api) | **242** | Dar es salaam, Tanzania |
+| [lykmapipo/kue-scheduler](https://github.com/lykmapipo/kue-scheduler) | **240** | Dar es salaam, Tanzania |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
