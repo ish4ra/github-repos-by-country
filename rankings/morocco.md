@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **16**
-- Current global star frontier: **233**
+- Verified high-star candidates retained: **17**
+- Current global star frontier: **228**
 
 ### High-star verified preview
 
@@ -67,5 +67,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [scottaohara/accessible_modal_window](https://github.com/scottaohara/accessible_modal_window) | **263** | MA |
 | [foxrunsoftware/DatePicker](https://github.com/foxrunsoftware/DatePicker) | **255** | MA |
 | [aminebenkeroum/toggle-switch-react-native](https://github.com/aminebenkeroum/toggle-switch-react-native) | **236** | Marrakech |
+| [kaichen-z/PAGE4D](https://github.com/kaichen-z/PAGE4D) | **231** | MA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -1,0 +1,3401 @@
+{
+  "schemaVersion": 1,
+  "methodologyVersion": "0.8.0-repository-first",
+  "generatedAt": "2026-10-16T14:20:40.679Z",
+  "country": {
+    "code": "SI",
+    "name": "Slovenia",
+    "slug": "slovenia"
+  },
+  "source": {
+    "provider": "GitHub GraphQL API",
+    "endpoint": "https://api.github.com/graphql",
+    "countryBasis": "public repository-owner profile location",
+    "discovery": "global repositories scanned by stars descending"
+  },
+  "coverage": {
+    "status": "repository-first-certified-by-star-frontier",
+    "exhaustive": false,
+    "rawOwnerHits": 245243,
+    "acceptedUniqueOwners": 68,
+    "ownerMetricLabel": "Unique owners in top ranking",
+    "repositoriesConsidered": 104,
+    "publishedRepositories": 100,
+    "candidateThresholdStars": 230,
+    "rankingLimit": 100,
+    "cappedQueries": [],
+    "repositoryFirst": {
+      "scanFrontierStars": 228,
+      "topObservedStars": 551406,
+      "repositoriesSeen": 245243,
+      "attributedRepositories": 91035,
+      "ambiguousLocations": 39456,
+      "unknownLocations": 114752,
+      "unresolvedStarCounts": []
+    },
+    "notes": [
+      "Repositories are scanned globally in descending star ranges, independently of owner follower count or owner-search ordering.",
+      "A country is certified only after its 100th repository has more stars than every unprocessed global star range.",
+      "Owner country is inferred from the owner public GitHub profile location using the global geography resolver.",
+      "Owners with missing or unresolved locations are excluded, so country attribution is not a citizenship or legal-incorporation claim.",
+      "Compound city/admin locations such as \"Portland, OR\" are resolved before ambiguous city-only names."
+    ]
+  },
+  "repositories": [
+    {
+      "rank": 1,
+      "name": "python-cheatsheet",
+      "nameWithOwner": "gto76/python-cheatsheet",
+      "url": "https://github.com/gto76/python-cheatsheet",
+      "description": "Comprehensive Python Cheatsheet",
+      "stars": 38695,
+      "forks": 6689,
+      "primaryLanguage": "Python",
+      "license": null,
+      "createdAt": "2018-01-25T04:16:53Z",
+      "pushedAt": "2026-07-29T14:56:37Z",
+      "homepageUrl": "https://gto76.github.io/python-cheatsheet/",
+      "archived": false,
+      "owner": {
+        "login": "gto76",
+        "name": "Jure Šorn",
+        "type": "User",
+        "url": "https://github.com/gto76",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1396046?u=852f59cf0d778cb9863e623352049d42c2fac10c&v=4",
+        "location": "Ljubljana",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ljubljana"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 2,
+      "name": "decap-cms",
+      "nameWithOwner": "decaporg/decap-cms",
+      "url": "https://github.com/decaporg/decap-cms",
+      "description": "A Git-based CMS for Static Site Generators",
+      "stars": 19409,
+      "forks": 3140,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-01-20T05:47:47Z",
+      "pushedAt": "2026-10-02T18:30:28Z",
+      "homepageUrl": "https://decapcms.org",
+      "archived": false,
+      "owner": {
+        "login": "decaporg",
+        "name": "Decap CMS",
+        "type": "Organization",
+        "url": "https://github.com/decaporg",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37912219?v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 3,
+      "name": "react-native-router-flux",
+      "nameWithOwner": "aksonov/react-native-router-flux",
+      "url": "https://github.com/aksonov/react-native-router-flux",
+      "description": "The first declarative React Native router",
+      "stars": 8913,
+      "forks": 2064,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-08-25T11:12:44Z",
+      "pushedAt": "2023-06-28T10:35:04Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "aksonov",
+        "name": "Pavel Aksonov",
+        "type": "User",
+        "url": "https://github.com/aksonov",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1321329?u=4a121f35fb11bda9b936103977a96f1ce691d8bf&v=4",
+        "location": "Koper, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 4,
+      "name": "Strata",
+      "nameWithOwner": "Niko1221/Strata",
+      "url": "https://github.com/Niko1221/Strata",
+      "description": "Qwen3.8-Flash-Next on any consumer hardware: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+      "stars": 8741,
+      "forks": 784,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-09-24T16:40:20Z",
+      "pushedAt": "2026-10-03T01:17:05Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Niko1221",
+        "name": "Niko",
+        "type": "User",
+        "url": "https://github.com/Niko1221",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86886444?u=3aadf100bdecb29e464a29c9378d706940d5fc5b&v=4",
+        "location": "Ljubljana, 🇸🇮",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ljubljana"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 5,
+      "name": "Cork",
+      "nameWithOwner": "buresdv/Cork",
+      "url": "https://github.com/buresdv/Cork",
+      "description": "[NO AI] Fast GUI for Homebrew written in SwiftUI",
+      "stars": 4702,
+      "forks": 277,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2022-07-03T15:51:47Z",
+      "pushedAt": "2026-10-03T19:07:54Z",
+      "homepageUrl": "https://corkmac.app",
+      "archived": false,
+      "owner": {
+        "login": "buresdv",
+        "name": "David Bureš",
+        "type": "User",
+        "url": "https://github.com/buresdv",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22037369?u=98adbfd1a20a7af6cc273cec14d493f938866264&v=4",
+        "location": "Maribor, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 6,
+      "name": "tech-jobs-with-relocation",
+      "nameWithOwner": "AndrewStetsenko/tech-jobs-with-relocation",
+      "url": "https://github.com/AndrewStetsenko/tech-jobs-with-relocation",
+      "description": "All-in-one guide to getting a tech job abroad 🌎 ",
+      "stars": 4568,
+      "forks": 468,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdxId": "CC0-1.0"
+      },
+      "createdAt": "2022-01-20T19:52:58Z",
+      "pushedAt": "2026-08-31T12:52:29Z",
+      "homepageUrl": "https://relocateme.substack.com/",
+      "archived": false,
+      "owner": {
+        "login": "AndrewStetsenko",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/AndrewStetsenko",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2838582?u=5fdfd5ec03b58cd6d5caf7b9dec67e78b80b7c3d&v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 7,
+      "name": "appledoc",
+      "nameWithOwner": "tomaz/appledoc",
+      "url": "https://github.com/tomaz/appledoc",
+      "description": "Objective-c code Apple style documentation set generator.",
+      "stars": 4185,
+      "forks": 646,
+      "primaryLanguage": "Objective-C",
+      "license": null,
+      "createdAt": "2009-04-24T07:19:31Z",
+      "pushedAt": "2023-04-18T11:08:26Z",
+      "homepageUrl": "http://gentlebytes.com",
+      "archived": false,
+      "owner": {
+        "login": "tomaz",
+        "name": "tomaz",
+        "type": "User",
+        "url": "https://github.com/tomaz",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77294?u=33c883039affc9b0bf54e62924d6cda6432948a5&v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 8,
+      "name": "graphql-shield",
+      "nameWithOwner": "maticzav/graphql-shield",
+      "url": "https://github.com/maticzav/graphql-shield",
+      "description": "🛡 A GraphQL tool to ease the creation of permission layer.",
+      "stars": 3575,
+      "forks": 188,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-02-11T17:22:18Z",
+      "pushedAt": "2026-10-04T04:32:59Z",
+      "homepageUrl": "https://graphql-shield.com",
+      "archived": false,
+      "owner": {
+        "login": "maticzav",
+        "name": "Matic Zavadlal",
+        "type": "User",
+        "url": "https://github.com/maticzav",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3924224?u=66a57881d09c312bef538bdb142eb2a01cb20380&v=4",
+        "location": "Ljubljana, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 9,
+      "name": "PWAsForFirefox",
+      "nameWithOwner": "filips123/PWAsForFirefox",
+      "url": "https://github.com/filips123/PWAsForFirefox",
+      "description": "A tool to install, manage and use Progressive Web Apps (PWAs) in Mozilla Firefox",
+      "stars": 3117,
+      "forks": 72,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Mozilla Public License 2.0",
+        "spdxId": "MPL-2.0"
+      },
+      "createdAt": "2021-06-11T20:15:16Z",
+      "pushedAt": "2026-09-19T14:17:46Z",
+      "homepageUrl": "https://pwasforfirefox.filips.si",
+      "archived": false,
+      "owner": {
+        "login": "filips123",
+        "name": "Filip Štamcar",
+        "type": "User",
+        "url": "https://github.com/filips123",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16626308?u=f08d7dcf17124eb57f7a2fe8e25806bf310b251a&v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 10,
+      "name": "Gutenberg",
+      "nameWithOwner": "matejlatin/Gutenberg",
+      "url": "https://github.com/matejlatin/Gutenberg",
+      "description": "A meaningful web typography starter kit.",
+      "stars": 2845,
+      "forks": 149,
+      "primaryLanguage": "SCSS",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2015-03-27T16:35:19Z",
+      "pushedAt": "2022-11-30T15:05:05Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "matejlatin",
+        "name": "Matej Latin",
+        "type": "User",
+        "url": "https://github.com/matejlatin",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3218960?u=f49e343f261f05b2a97911f51af013c59df135fa&v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 11,
+      "name": "nookies",
+      "nameWithOwner": "maticzav/nookies",
+      "url": "https://github.com/maticzav/nookies",
+      "description": "🍪 A set of cookie helpers for Next.js",
+      "stars": 2353,
+      "forks": 75,
+      "primaryLanguage": "TypeScript",
+      "license": null,
+      "createdAt": "2018-01-16T00:32:30Z",
+      "pushedAt": "2026-09-18T21:18:45Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "maticzav",
+        "name": "Matic Zavadlal",
+        "type": "User",
+        "url": "https://github.com/maticzav",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3924224?u=66a57881d09c312bef538bdb142eb2a01cb20380&v=4",
+        "location": "Ljubljana, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 12,
+      "name": "gatsby-starter-decap-cms",
+      "nameWithOwner": "decaporg/gatsby-starter-decap-cms",
+      "url": "https://github.com/decaporg/gatsby-starter-decap-cms",
+      "description": "Example Gatsby + Decap CMS project",
+      "stars": 2045,
+      "forks": 947,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-08-15T23:15:14Z",
+      "pushedAt": "2024-07-21T20:25:18Z",
+      "homepageUrl": "https://gatsby-netlify-cms.netlify.app/",
+      "archived": false,
+      "owner": {
+        "login": "decaporg",
+        "name": "Decap CMS",
+        "type": "Organization",
+        "url": "https://github.com/decaporg",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37912219?v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 13,
+      "name": "CANopenNode",
+      "nameWithOwner": "CANopenNode/CANopenNode",
+      "url": "https://github.com/CANopenNode/CANopenNode",
+      "description": "CANopen protocol stack",
+      "stars": 2020,
+      "forks": 806,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2015-07-30T17:56:14Z",
+      "pushedAt": "2026-07-10T14:17:55Z",
+      "homepageUrl": "https://canopennode.github.io/CANopenNode/index.html",
+      "archived": false,
+      "owner": {
+        "login": "CANopenNode",
+        "name": "Janez",
+        "type": "User",
+        "url": "https://github.com/CANopenNode",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13575344?u=368cc170ec904092098b2fc06001a5b6e2ae1bdf&v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 14,
+      "name": "kubernetes-in-action",
+      "nameWithOwner": "luksa/kubernetes-in-action",
+      "url": "https://github.com/luksa/kubernetes-in-action",
+      "description": "Code from the Kubernetes in Action book",
+      "stars": 1982,
+      "forks": 1491,
+      "primaryLanguage": "JavaScript",
+      "license": null,
+      "createdAt": "2017-11-27T09:21:06Z",
+      "pushedAt": "2024-06-02T23:09:31Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "luksa",
+        "name": "Marko Lukša",
+        "type": "User",
+        "url": "https://github.com/luksa",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/823581?v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 15,
+      "name": "badvpn",
+      "nameWithOwner": "ambrop72/badvpn",
+      "url": "https://github.com/ambrop72/badvpn",
+      "description": "NCD scripting language, tun2socks proxifier, P2P VPN",
+      "stars": 1932,
+      "forks": 652,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2014-02-18T00:17:16Z",
+      "pushedAt": "2021-08-22T15:44:42Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "ambrop72",
+        "name": "Ambroz Bizjak",
+        "type": "User",
+        "url": "https://github.com/ambrop72",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2626481?v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 16,
+      "name": "actordb",
+      "nameWithOwner": "biokoda/actordb",
+      "url": "https://github.com/biokoda/actordb",
+      "description": "ActorDB distributed SQL database",
+      "stars": 1888,
+      "forks": 71,
+      "primaryLanguage": "Erlang",
+      "license": {
+        "name": "Mozilla Public License 2.0",
+        "spdxId": "MPL-2.0"
+      },
+      "createdAt": "2014-01-21T16:41:23Z",
+      "pushedAt": "2022-11-10T05:09:21Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "biokoda",
+        "name": "Biokoda",
+        "type": "Organization",
+        "url": "https://github.com/biokoda",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3921287?v=4",
+        "location": "Maribor, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 17,
+      "name": "iRedMail",
+      "nameWithOwner": "iredmail/iRedMail",
+      "url": "https://github.com/iredmail/iRedMail",
+      "description": "Full-featured, open source mail server solution for mainstream Linux/BSD distributions.",
+      "stars": 1846,
+      "forks": 262,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2019-12-09T00:20:56Z",
+      "pushedAt": "2026-09-23T09:14:12Z",
+      "homepageUrl": "https://www.iredmail.org/",
+      "archived": false,
+      "owner": {
+        "login": "iredmail",
+        "name": "iRedMail",
+        "type": "User",
+        "url": "https://github.com/iredmail",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2048991?u=32ed41e515b63cd5e47327f51d1672271ef8dfc3&v=4",
+        "location": "China, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 18,
+      "name": "openTSNE",
+      "nameWithOwner": "pavlin-policar/openTSNE",
+      "url": "https://github.com/pavlin-policar/openTSNE",
+      "description": "Extensible, parallel implementations of t-SNE",
+      "stars": 1623,
+      "forks": 178,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2018-06-08T18:42:09Z",
+      "pushedAt": "2026-09-08T15:46:33Z",
+      "homepageUrl": "https://opentsne.rtfd.io",
+      "archived": false,
+      "owner": {
+        "login": "pavlin-policar",
+        "name": "Pavlin Poličar",
+        "type": "User",
+        "url": "https://github.com/pavlin-policar",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5758119?u=e45fc47c5334c7db0f8c0a89d7182023f723d1de&v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 19,
+      "name": "plzoo",
+      "nameWithOwner": "andrejbauer/plzoo",
+      "url": "https://github.com/andrejbauer/plzoo",
+      "description": "Programming Languages Zoo",
+      "stars": 1594,
+      "forks": 105,
+      "primaryLanguage": "OCaml",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-08-21T11:27:49Z",
+      "pushedAt": "2024-06-18T14:08:36Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "andrejbauer",
+        "name": "Andrej Bauer",
+        "type": "User",
+        "url": "https://github.com/andrejbauer",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/646599?v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 20,
+      "name": "SpinThatShit",
+      "nameWithOwner": "MatejKustec/SpinThatShit",
+      "url": "https://github.com/MatejKustec/SpinThatShit",
+      "description": "A set of SCSS mixins for single element loaders and spinners",
+      "stars": 1463,
+      "forks": 123,
+      "primaryLanguage": "SCSS",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-08-30T19:23:50Z",
+      "pushedAt": "2022-07-28T09:59:39Z",
+      "homepageUrl": "https://matejkustec.github.io/SpinThatShit/",
+      "archived": true,
+      "owner": {
+        "login": "MatejKustec",
+        "name": "Matej Kustec",
+        "type": "User",
+        "url": "https://github.com/MatejKustec",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5469945?u=80a24865158459b697d8075ee5a1b56bdfa43f9c&v=4",
+        "location": "Slovenia, Ljubljana",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 21,
+      "name": "react-native-tableview",
+      "nameWithOwner": "aksonov/react-native-tableview",
+      "url": "https://github.com/aksonov/react-native-tableview",
+      "description": "Native iOS UITableView for React Native with JSON support and more",
+      "stars": 1407,
+      "forks": 179,
+      "primaryLanguage": "Objective-C",
+      "license": {
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "spdxId": "BSD-2-Clause"
+      },
+      "createdAt": "2015-08-18T08:10:28Z",
+      "pushedAt": "2022-01-24T11:08:05Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "aksonov",
+        "name": "Pavel Aksonov",
+        "type": "User",
+        "url": "https://github.com/aksonov",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1321329?u=4a121f35fb11bda9b936103977a96f1ce691d8bf&v=4",
+        "location": "Koper, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 22,
+      "name": "leapcast",
+      "nameWithOwner": "dz0ny/leapcast",
+      "url": "https://github.com/dz0ny/leapcast",
+      "description": "ChromeCast emulation app for any device",
+      "stars": 1401,
+      "forks": 167,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-07-26T12:43:33Z",
+      "pushedAt": "2016-07-25T05:36:18Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "dz0ny",
+        "name": "Janez Troha",
+        "type": "User",
+        "url": "https://github.com/dz0ny",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/239513?u=5489d27106bc87608ec1f284929ed6e72031a7df&v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 23,
+      "name": "vue-social-sharing",
+      "nameWithOwner": "nicolasbeauvais/vue-social-sharing",
+      "url": "https://github.com/nicolasbeauvais/vue-social-sharing",
+      "description": "A renderless Vue.js component for sharing links to social networks, compatible with SSR",
+      "stars": 1371,
+      "forks": 192,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-10-20T15:06:25Z",
+      "pushedAt": "2024-01-09T16:25:55Z",
+      "homepageUrl": "https://nicolasbeauvais.github.io/vue-social-sharing/",
+      "archived": true,
+      "owner": {
+        "login": "nicolasbeauvais",
+        "name": "Nicolas Beauvais",
+        "type": "User",
+        "url": "https://github.com/nicolasbeauvais",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2951704?u=39bf3247ef90b1e0eb2a20571c5b2ccba06f83e0&v=4",
+        "location": "Ljubljana, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 24,
+      "name": "emma-cli",
+      "nameWithOwner": "maticzav/emma-cli",
+      "url": "https://github.com/maticzav/emma-cli",
+      "description": "📦 Terminal assistant to find and install node packages.",
+      "stars": 1245,
+      "forks": 42,
+      "primaryLanguage": "TypeScript",
+      "license": null,
+      "createdAt": "2018-03-06T15:33:46Z",
+      "pushedAt": "2026-10-05T19:02:36Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "maticzav",
+        "name": "Matic Zavadlal",
+        "type": "User",
+        "url": "https://github.com/maticzav",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3924224?u=66a57881d09c312bef538bdb142eb2a01cb20380&v=4",
+        "location": "Ljubljana, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 25,
+      "name": "DinkToPdf",
+      "nameWithOwner": "rdvojmoc/DinkToPdf",
+      "url": "https://github.com/rdvojmoc/DinkToPdf",
+      "description": "C# .NET Core wrapper for wkhtmltopdf library that uses Webkit engine to convert HTML pages to PDF.",
+      "stars": 1193,
+      "forks": 434,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-04-17T10:53:07Z",
+      "pushedAt": "2020-04-18T23:43:04Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "rdvojmoc",
+        "name": "Rok Dvojmoč",
+        "type": "User",
+        "url": "https://github.com/rdvojmoc",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13537823?v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 26,
+      "name": "graphql-middleware",
+      "nameWithOwner": "maticzav/graphql-middleware",
+      "url": "https://github.com/maticzav/graphql-middleware",
+      "description": "Split up your GraphQL resolvers in middleware functions",
+      "stars": 1146,
+      "forks": 57,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-11-09T09:21:44Z",
+      "pushedAt": "2026-10-04T20:43:59Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "maticzav",
+        "name": "Matic Zavadlal",
+        "type": "User",
+        "url": "https://github.com/maticzav",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3924224?u=66a57881d09c312bef538bdb142eb2a01cb20380&v=4",
+        "location": "Ljubljana, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 27,
+      "name": "nix-config",
+      "nameWithOwner": "gvolpe/nix-config",
+      "url": "https://github.com/gvolpe/nix-config",
+      "description": ":space_invader: NixOS configuration :space_invader:",
+      "stars": 1115,
+      "forks": 81,
+      "primaryLanguage": "Nix",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2020-02-24T19:16:13Z",
+      "pushedAt": "2026-10-03T10:18:56Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "gvolpe",
+        "name": "Gabriel Volpe",
+        "type": "User",
+        "url": "https://github.com/gvolpe",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/443978?u=d9845904b6660ab20563d305d83e60a178506f9b&v=4",
+        "location": "/nix/store/xpkfvz-planet-earth",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "store"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 28,
+      "name": "Esp32_oscilloscope",
+      "nameWithOwner": "BojanJurca/Esp32_oscilloscope",
+      "url": "https://github.com/BojanJurca/Esp32_oscilloscope",
+      "description": "ESP32 oscilloscope - see the signals through Web browser the way ESP32 sees them ",
+      "stars": 1079,
+      "forks": 137,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2019-08-24T09:48:12Z",
+      "pushedAt": "2026-06-02T13:45:55Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "BojanJurca",
+        "name": "Bojan Jurca",
+        "type": "User",
+        "url": "https://github.com/BojanJurca",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42709677?u=b61d0b0edb850b86142426cc6ad24b4933274a67&v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 29,
+      "name": "node-thermal-printer",
+      "nameWithOwner": "Klemen1337/node-thermal-printer",
+      "url": "https://github.com/Klemen1337/node-thermal-printer",
+      "description": "Node.js module for Epson, Star, Tanca, Drauma, Custom and Brother thermal printers command line printing.",
+      "stars": 915,
+      "forks": 258,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-05-15T07:46:47Z",
+      "pushedAt": "2026-08-24T09:28:08Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Klemen1337",
+        "name": "Klemen Kastelic",
+        "type": "User",
+        "url": "https://github.com/Klemen1337",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6691011?u=1cad4dffb5164fa5a06ea1dff9ec0e3d7e99617b&v=4",
+        "location": "Ljubljana, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 30,
+      "name": "ai-commits-intellij-plugin",
+      "nameWithOwner": "Blarc/ai-commits-intellij-plugin",
+      "url": "https://github.com/Blarc/ai-commits-intellij-plugin",
+      "description": "AI Commits for IntelliJ based IDEs/Android Studio.",
+      "stars": 859,
+      "forks": 69,
+      "primaryLanguage": "Kotlin",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-03-25T18:42:16Z",
+      "pushedAt": "2026-10-04T08:10:46Z",
+      "homepageUrl": "https://plugins.jetbrains.com/plugin/21335-ai-commits",
+      "archived": false,
+      "owner": {
+        "login": "Blarc",
+        "name": "Jakob Maležič",
+        "type": "User",
+        "url": "https://github.com/Blarc",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36704759?u=7b2eda0145397519cc98e8edbca3955a93cbf407&v=4",
+        "location": "Ljubljana, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 31,
+      "name": "kubernetes-in-action-2nd-edition",
+      "nameWithOwner": "luksa/kubernetes-in-action-2nd-edition",
+      "url": "https://github.com/luksa/kubernetes-in-action-2nd-edition",
+      "description": "Code from the Kubernetes in Action 2nd Edition book",
+      "stars": 835,
+      "forks": 388,
+      "primaryLanguage": "JavaScript",
+      "license": null,
+      "createdAt": "2019-04-10T10:08:28Z",
+      "pushedAt": "2026-06-20T07:58:03Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "luksa",
+        "name": "Marko Lukša",
+        "type": "User",
+        "url": "https://github.com/luksa",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/823581?v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 32,
+      "name": "docker-postfix",
+      "nameWithOwner": "bokysan/docker-postfix",
+      "url": "https://github.com/bokysan/docker-postfix",
+      "description": "Multi architecture simple SMTP server (postfix null relay) host for your Docker and Kubernetes containers. Based on Debian/Ubuntu/Alpine.",
+      "stars": 806,
+      "forks": 174,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-03-17T23:05:18Z",
+      "pushedAt": "2026-09-29T14:39:22Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "bokysan",
+        "name": "Boky",
+        "type": "User",
+        "url": "https://github.com/bokysan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4567693?u=c0d6041f21e350c44f585442d1286a2c05a57bab&v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 33,
+      "name": "fcm-django",
+      "nameWithOwner": "xtrinch/fcm-django",
+      "url": "https://github.com/xtrinch/fcm-django",
+      "description": "FCM Django: Send push notifications via django to websites, iOS & android mobile devices through FCM (Firebase Cloud Messaging)",
+      "stars": 797,
+      "forks": 198,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-08-05T15:58:43Z",
+      "pushedAt": "2026-04-07T13:04:32Z",
+      "homepageUrl": "http://fcm-django.readthedocs.io/",
+      "archived": false,
+      "owner": {
+        "login": "xtrinch",
+        "name": "Mojca Rojko",
+        "type": "User",
+        "url": "https://github.com/xtrinch",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7256491?u=8a15534c52e88ffea7ab84cb3a9abbb3cdb60a3b&v=4",
+        "location": "Maribor, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 34,
+      "name": "FlowLayout",
+      "nameWithOwner": "blazsolar/FlowLayout",
+      "url": "https://github.com/blazsolar/FlowLayout",
+      "description": "Android implementation of FlowLayout. Layout arranges its children in multiple rows depending on their width.",
+      "stars": 742,
+      "forks": 144,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2013-04-28T10:24:15Z",
+      "pushedAt": "2021-11-18T09:44:46Z",
+      "homepageUrl": "http://blaz.solar/FlowLayout",
+      "archived": false,
+      "owner": {
+        "login": "blazsolar",
+        "name": "Blaž Šolar",
+        "type": "User",
+        "url": "https://github.com/blazsolar",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/613514?v=4",
+        "location": "Ljubljana, Slovenija",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ljubljana"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 35,
+      "name": "Alpha",
+      "nameWithOwner": "Legoless/Alpha",
+      "url": "https://github.com/Legoless/Alpha",
+      "description": "Next generation debugging framework for iOS",
+      "stars": 729,
+      "forks": 43,
+      "primaryLanguage": "Objective-C",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-10-31T11:18:10Z",
+      "pushedAt": "2017-08-10T19:17:26Z",
+      "homepageUrl": "https://github.com/Legoless/Alpha",
+      "archived": false,
+      "owner": {
+        "login": "Legoless",
+        "name": "Dal Rupnik",
+        "type": "User",
+        "url": "https://github.com/Legoless",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1434530?u=27175749df35ab5e0466aa049674552576f0cc99&v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 36,
+      "name": "linux-cheatsheet",
+      "nameWithOwner": "gto76/linux-cheatsheet",
+      "url": "https://github.com/gto76/linux-cheatsheet",
+      "description": "Comprehensive Linux Cheatsheet",
+      "stars": 727,
+      "forks": 226,
+      "primaryLanguage": "Shell",
+      "license": null,
+      "createdAt": "2018-05-07T03:12:53Z",
+      "pushedAt": "2020-01-08T23:10:15Z",
+      "homepageUrl": "https://gto76.github.io/linux-cheatsheet/",
+      "archived": false,
+      "owner": {
+        "login": "gto76",
+        "name": "Jure Šorn",
+        "type": "User",
+        "url": "https://github.com/gto76",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1396046?u=852f59cf0d778cb9863e623352049d42c2fac10c&v=4",
+        "location": "Ljubljana",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ljubljana"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 37,
+      "name": "mc-cnn",
+      "nameWithOwner": "jzbontar/mc-cnn",
+      "url": "https://github.com/jzbontar/mc-cnn",
+      "description": "Stereo Matching by Training a Convolutional Neural Network to Compare Image Patches",
+      "stars": 726,
+      "forks": 225,
+      "primaryLanguage": "Cuda",
+      "license": {
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "spdxId": "BSD-2-Clause"
+      },
+      "createdAt": "2015-09-26T15:22:38Z",
+      "pushedAt": "2018-01-25T21:47:39Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "jzbontar",
+        "name": "Jure Zbontar",
+        "type": "User",
+        "url": "https://github.com/jzbontar",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1426550?v=4",
+        "location": "Ljubljana, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 38,
+      "name": "react-native-tabs",
+      "nameWithOwner": "aksonov/react-native-tabs",
+      "url": "https://github.com/aksonov/react-native-tabs",
+      "description": "React Native platform-independent tabs. Could be used for bottom tab bars as well as sectioned views (with tab buttons)",
+      "stars": 726,
+      "forks": 112,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2015-09-28T12:55:08Z",
+      "pushedAt": "2017-12-19T13:53:29Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "aksonov",
+        "name": "Pavel Aksonov",
+        "type": "User",
+        "url": "https://github.com/aksonov",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1321329?u=4a121f35fb11bda9b936103977a96f1ce691d8bf&v=4",
+        "location": "Koper, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 39,
+      "name": "backbone-offline",
+      "nameWithOwner": "alekseykulikov/backbone-offline",
+      "url": "https://github.com/alekseykulikov/backbone-offline",
+      "description": "[Deprecated] Allows your Backbone.js app to work offline",
+      "stars": 715,
+      "forks": 48,
+      "primaryLanguage": "CoffeeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2012-03-23T20:00:49Z",
+      "pushedAt": "2015-05-11T07:27:58Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "alekseykulikov",
+        "name": "Aleksey Kulikov",
+        "type": "User",
+        "url": "https://github.com/alekseykulikov",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/158189?u=10c7afc275961cd78e011ba62a2bddf920126600&v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 40,
+      "name": "rye",
+      "nameWithOwner": "refaktor/rye",
+      "url": "https://github.com/refaktor/rye",
+      "description": "Programming and interaction language. Flexible about syntax, strict about state.",
+      "stars": 704,
+      "forks": 32,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2020-08-05T09:53:50Z",
+      "pushedAt": "2026-10-08T22:24:29Z",
+      "homepageUrl": "https://ryelang.org",
+      "archived": false,
+      "owner": {
+        "login": "refaktor",
+        "name": "Refaktor",
+        "type": "User",
+        "url": "https://github.com/refaktor",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1375005?u=946943317c043722542c06b83f00db03fd9351b2&v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 41,
+      "name": "Hardware.Info",
+      "nameWithOwner": "Jinjinov/Hardware.Info",
+      "url": "https://github.com/Jinjinov/Hardware.Info",
+      "description": "Battery, BIOS, CPU - processor, storage drive, keyboard, RAM - memory, monitor, motherboard, mouse, NIC - network adapter, printer, sound card - audio card, graphics card - video card. Hardware.Info is a .NET Standard 2.0 library and uses WMI on Windows, /dev, /proc, /sys on Linux and sysctl, system_profiler on macOS.",
+      "stars": 703,
+      "forks": 106,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-07-12T09:14:29Z",
+      "pushedAt": "2026-05-21T05:44:06Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "Jinjinov",
+        "name": "Urban",
+        "type": "User",
+        "url": "https://github.com/Jinjinov",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20396198?v=4",
+        "location": "Ljubljana, Slovenia, Europe",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 42,
+      "name": "trading",
+      "nameWithOwner": "gvolpe/trading",
+      "url": "https://github.com/gvolpe/trading",
+      "description": "💱 Trading application written in Scala 3 that showcases an Event-Driven Architecture (EDA) and Functional Programming (FP)",
+      "stars": 664,
+      "forks": 77,
+      "primaryLanguage": "Scala",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2021-09-17T16:47:16Z",
+      "pushedAt": "2026-09-20T00:18:12Z",
+      "homepageUrl": "https://leanpub.com/feda",
+      "archived": false,
+      "owner": {
+        "login": "gvolpe",
+        "name": "Gabriel Volpe",
+        "type": "User",
+        "url": "https://github.com/gvolpe",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/443978?u=d9845904b6660ab20563d305d83e60a178506f9b&v=4",
+        "location": "/nix/store/xpkfvz-planet-earth",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "store"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 43,
+      "name": "fastapi-celery",
+      "nameWithOwner": "GregaVrbancic/fastapi-celery",
+      "url": "https://github.com/GregaVrbancic/fastapi-celery",
+      "description": "Minimal example utilizing fastapi and celery with RabbitMQ for task queue, Redis for celery backend and flower for monitoring the celery tasks.",
+      "stars": 663,
+      "forks": 112,
+      "primaryLanguage": "Python",
+      "license": null,
+      "createdAt": "2019-04-12T05:37:37Z",
+      "pushedAt": "2026-01-07T13:39:52Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "GregaVrbancic",
+        "name": "Grega Vrbančič",
+        "type": "User",
+        "url": "https://github.com/GregaVrbancic",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1894788?u=cc3fc8b0c2909f51606d5b649ecb37d2760389c7&v=4",
+        "location": "Maribor, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 44,
+      "name": "mINI",
+      "nameWithOwner": "metayeti/mINI",
+      "url": "https://github.com/metayeti/mINI",
+      "description": "INI file reader and writer",
+      "stars": 658,
+      "forks": 121,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-05-04T03:11:15Z",
+      "pushedAt": "2026-06-10T15:16:59Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "metayeti",
+        "name": "Danijel",
+        "type": "User",
+        "url": "https://github.com/metayeti",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2159248?u=640b808d7ab6df19de965dcc12f2211df8d9d983&v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 45,
+      "name": "android-collapse-calendar-view",
+      "nameWithOwner": "blazsolar/android-collapse-calendar-view",
+      "url": "https://github.com/blazsolar/android-collapse-calendar-view",
+      "description": "Android calendar view that can be toggled between week and month view.",
+      "stars": 625,
+      "forks": 201,
+      "primaryLanguage": "Java",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2014-05-16T16:32:21Z",
+      "pushedAt": "2016-11-02T22:02:34Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "blazsolar",
+        "name": "Blaž Šolar",
+        "type": "User",
+        "url": "https://github.com/blazsolar",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/613514?v=4",
+        "location": "Ljubljana, Slovenija",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ljubljana"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 46,
+      "name": "swift-graphql",
+      "nameWithOwner": "maticzav/swift-graphql",
+      "url": "https://github.com/maticzav/swift-graphql",
+      "description": "A GraphQL client that lets you forget about GraphQL.",
+      "stars": 622,
+      "forks": 69,
+      "primaryLanguage": "Swift",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-10-10T14:10:23Z",
+      "pushedAt": "2024-05-06T20:00:13Z",
+      "homepageUrl": "https://swift-graphql.com",
+      "archived": false,
+      "owner": {
+        "login": "maticzav",
+        "name": "Matic Zavadlal",
+        "type": "User",
+        "url": "https://github.com/maticzav",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3924224?u=66a57881d09c312bef538bdb142eb2a01cb20380&v=4",
+        "location": "Ljubljana, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 47,
+      "name": "storage",
+      "nameWithOwner": "alekseykulikov/storage",
+      "url": "https://github.com/alekseykulikov/storage",
+      "description": "Asynchronous browser storage with multiple back-ends (IndexedDB, WebSQL, localStorage)",
+      "stars": 598,
+      "forks": 20,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-08-29T11:35:43Z",
+      "pushedAt": "2015-03-14T17:38:15Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "alekseykulikov",
+        "name": "Aleksey Kulikov",
+        "type": "User",
+        "url": "https://github.com/alekseykulikov",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/158189?u=10c7afc275961cd78e011ba62a2bddf920126600&v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 48,
+      "name": "RedPitaya",
+      "nameWithOwner": "RedPitaya/RedPitaya",
+      "url": "https://github.com/RedPitaya/RedPitaya",
+      "description": "Red Pitaya Ecosystem and Applications",
+      "stars": 567,
+      "forks": 653,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2014-02-27T19:38:52Z",
+      "pushedAt": "2026-10-09T03:38:24Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "RedPitaya",
+        "name": "Red Pitaya",
+        "type": "Organization",
+        "url": "https://github.com/RedPitaya",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6713611?v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 49,
+      "name": "MBPullDownController",
+      "nameWithOwner": "matej/MBPullDownController",
+      "url": "https://github.com/matej/MBPullDownController",
+      "description": "MBPullDownController, an iOS container view controller for pullable scroll view interfaces.",
+      "stars": 555,
+      "forks": 67,
+      "primaryLanguage": "Objective-C",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-02-25T14:20:58Z",
+      "pushedAt": "2018-06-27T17:02:09Z",
+      "homepageUrl": "www.bukovinski.com",
+      "archived": false,
+      "owner": {
+        "login": "matej",
+        "name": "Matej Bukovinski",
+        "type": "User",
+        "url": "https://github.com/matej",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91322?u=87b7840bf70becbee583cd0b98398751daf9335e&v=4",
+        "location": "Ljubljana, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 50,
+      "name": "pfps-shopping-cart",
+      "nameWithOwner": "gvolpe/pfps-shopping-cart",
+      "url": "https://github.com/gvolpe/pfps-shopping-cart",
+      "description": ":shopping_cart: The Shopping Cart application developed in the book \"Practical FP in Scala: A hands-on approach\"",
+      "stars": 550,
+      "forks": 169,
+      "primaryLanguage": "Scala",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2019-10-03T00:52:57Z",
+      "pushedAt": "2026-10-04T00:59:13Z",
+      "homepageUrl": "https://leanpub.com/pfp-scala",
+      "archived": false,
+      "owner": {
+        "login": "gvolpe",
+        "name": "Gabriel Volpe",
+        "type": "User",
+        "url": "https://github.com/gvolpe",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/443978?u=d9845904b6660ab20563d305d83e60a178506f9b&v=4",
+        "location": "/nix/store/xpkfvz-planet-earth",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "store"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 51,
+      "name": "one-click-hugo-cms",
+      "nameWithOwner": "decaporg/one-click-hugo-cms",
+      "url": "https://github.com/decaporg/one-click-hugo-cms",
+      "description": "Hugo template with Decap CMS",
+      "stars": 541,
+      "forks": 334,
+      "primaryLanguage": "SCSS",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-09-07T03:11:30Z",
+      "pushedAt": "2024-08-05T07:03:49Z",
+      "homepageUrl": "https://master-template-one-click-hugo-cms.netlify.app",
+      "archived": false,
+      "owner": {
+        "login": "decaporg",
+        "name": "Decap CMS",
+        "type": "Organization",
+        "url": "https://github.com/decaporg",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37912219?v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 52,
+      "name": "CanOpenSTM32",
+      "nameWithOwner": "CANopenNode/CanOpenSTM32",
+      "url": "https://github.com/CANopenNode/CanOpenSTM32",
+      "description": "CANopenNode on STM32 microcontrollers.",
+      "stars": 526,
+      "forks": 193,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2021-09-01T11:34:05Z",
+      "pushedAt": "2026-10-03T09:43:35Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "CANopenNode",
+        "name": "Janez",
+        "type": "User",
+        "url": "https://github.com/CANopenNode",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13575344?u=368cc170ec904092098b2fc06001a5b6e2ae1bdf&v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 53,
+      "name": "OmniThreadLibrary",
+      "nameWithOwner": "gabr42/OmniThreadLibrary",
+      "url": "https://github.com/gabr42/OmniThreadLibrary",
+      "description": "A simple and powerful multithreading library for Delphi",
+      "stars": 513,
+      "forks": 146,
+      "primaryLanguage": "Pascal",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2015-04-16T20:38:28Z",
+      "pushedAt": "2026-10-10T08:04:42Z",
+      "homepageUrl": "http://www.omnithreadlibrary.com",
+      "archived": false,
+      "owner": {
+        "login": "gabr42",
+        "name": "Primož Gabrijelčič",
+        "type": "User",
+        "url": "https://github.com/gabr42",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2873801?u=f8dc5dfb8e67d7ecd937794a785619574571cb50&v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 54,
+      "name": "webphysics",
+      "nameWithOwner": "jure/webphysics",
+      "url": "https://github.com/jure/webphysics",
+      "description": "WebGPU physics engine based on the AVBD solver",
+      "stars": 427,
+      "forks": 12,
+      "primaryLanguage": "TypeScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2026-04-08T18:38:13Z",
+      "pushedAt": "2026-04-16T19:33:27Z",
+      "homepageUrl": "https://jure.github.io/webphysics/",
+      "archived": false,
+      "owner": {
+        "login": "jure",
+        "name": "Jure Triglav",
+        "type": "User",
+        "url": "https://github.com/jure",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/238667?u=18a98da772a417ade1c1d7b5aa86ca973517ba52&v=4",
+        "location": "Ljubljana, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 55,
+      "name": "paragraph-vectors",
+      "nameWithOwner": "inejc/paragraph-vectors",
+      "url": "https://github.com/inejc/paragraph-vectors",
+      "description": ":page_facing_up: A PyTorch implementation of Paragraph Vectors (doc2vec).",
+      "stars": 415,
+      "forks": 73,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-09-02T14:50:43Z",
+      "pushedAt": "2022-12-08T00:37:05Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "inejc",
+        "name": "Nejc Ilenic",
+        "type": "User",
+        "url": "https://github.com/inejc",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3806837?u=71afd174fb2ba56735d19274c7fdce849e718ac1&v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 56,
+      "name": "react-native-redux-router",
+      "nameWithOwner": "aksonov/react-native-redux-router",
+      "url": "https://github.com/aksonov/react-native-redux-router",
+      "description": "React Native Router using Redux architecture",
+      "stars": 404,
+      "forks": 44,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "spdxId": "BSD-2-Clause"
+      },
+      "createdAt": "2015-11-23T15:22:22Z",
+      "pushedAt": "2017-03-11T08:53:31Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "aksonov",
+        "name": "Pavel Aksonov",
+        "type": "User",
+        "url": "https://github.com/aksonov",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1321329?u=4a121f35fb11bda9b936103977a96f1ce691d8bf&v=4",
+        "location": "Koper, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 57,
+      "name": "xcode-one-dark",
+      "nameWithOwner": "bojan/xcode-one-dark",
+      "url": "https://github.com/bojan/xcode-one-dark",
+      "description": "Atom One Dark theme for Xcode",
+      "stars": 385,
+      "forks": 37,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2015-10-04T09:37:11Z",
+      "pushedAt": "2019-04-02T13:49:11Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "bojan",
+        "name": "Bojan Dimovski",
+        "type": "User",
+        "url": "https://github.com/bojan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/273287?v=4",
+        "location": "Ljubljana, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 58,
+      "name": "django-bootstrap-modal-forms",
+      "nameWithOwner": "trco/django-bootstrap-modal-forms",
+      "url": "https://github.com/trco/django-bootstrap-modal-forms",
+      "description": "A Django plugin for creating AJAX driven forms in Bootstrap modal.",
+      "stars": 379,
+      "forks": 134,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-05-27T18:24:54Z",
+      "pushedAt": "2024-12-06T19:34:14Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "trco",
+        "name": "Uroš Trstenjak",
+        "type": "User",
+        "url": "https://github.com/trco",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33464584?u=9bd299dad45d386d401303443d6a7b61dd93eacb&v=4",
+        "location": "Kidričevo, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 59,
+      "name": "kubectl-plugins",
+      "nameWithOwner": "luksa/kubectl-plugins",
+      "url": "https://github.com/luksa/kubectl-plugins",
+      "description": "My own plugins for kubectl",
+      "stars": 372,
+      "forks": 71,
+      "primaryLanguage": "Shell",
+      "license": null,
+      "createdAt": "2019-07-30T09:08:44Z",
+      "pushedAt": "2024-11-08T10:08:46Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "luksa",
+        "name": "Marko Lukša",
+        "type": "User",
+        "url": "https://github.com/luksa",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/823581?v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 60,
+      "name": "spidey",
+      "nameWithOwner": "tinrab/spidey",
+      "url": "https://github.com/tinrab/spidey",
+      "description": "A Microservices and GraphQL based online store",
+      "stars": 370,
+      "forks": 56,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-05-25T07:18:55Z",
+      "pushedAt": "2020-02-22T15:00:52Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "tinrab",
+        "name": "Tin Rabzelj",
+        "type": "User",
+        "url": "https://github.com/tinrab",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6238910?u=fda1a3c760168087fe05a0e0d8b1c21260164b85&v=4",
+        "location": "Ljubljana, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 61,
+      "name": "GetCountries",
+      "nameWithOwner": "peric/GetCountries",
+      "url": "https://github.com/peric/GetCountries",
+      "description": " MySQL, Firebird, XML, JSON, CSV or YAML generator for custom Countries data.",
+      "stars": 351,
+      "forks": 47,
+      "primaryLanguage": "JavaScript",
+      "license": null,
+      "createdAt": "2012-09-23T20:03:33Z",
+      "pushedAt": "2023-03-05T21:39:53Z",
+      "homepageUrl": "https://peric.github.io/GetCountries/",
+      "archived": false,
+      "owner": {
+        "login": "peric",
+        "name": "Dražen Perić",
+        "type": "User",
+        "url": "https://github.com/peric",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1193864?u=dae94af16c38ee124753914020dc984b339efee4&v=4",
+        "location": "Ljubljana, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 62,
+      "name": "chatgpt-vscode",
+      "nameWithOwner": "timkmecl/chatgpt-vscode",
+      "url": "https://github.com/timkmecl/chatgpt-vscode",
+      "description": "VSCode extension that allows you to use ChatGPT or GPT4 inside the IDE",
+      "stars": 344,
+      "forks": 73,
+      "primaryLanguage": "TypeScript",
+      "license": null,
+      "createdAt": "2022-12-05T18:28:17Z",
+      "pushedAt": "2024-05-20T15:23:12Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "timkmecl",
+        "name": "Tim Kmecl",
+        "type": "User",
+        "url": "https://github.com/timkmecl",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49208260?u=b8ea98e1a7c983f49f9db27687b7a2f50ca2b125&v=4",
+        "location": "Ljubljana, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 63,
+      "name": "comp-cpp",
+      "nameWithOwner": "gto76/comp-cpp",
+      "url": "https://github.com/gto76/comp-cpp",
+      "description": "Comp Mark I – Simple 4-bit virtual computer",
+      "stars": 343,
+      "forks": 32,
+      "primaryLanguage": "C++",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2015-05-25T09:52:20Z",
+      "pushedAt": "2024-03-09T01:16:19Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "gto76",
+        "name": "Jure Šorn",
+        "type": "User",
+        "url": "https://github.com/gto76",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1396046?u=852f59cf0d778cb9863e623352049d42c2fac10c&v=4",
+        "location": "Ljubljana",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ljubljana"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 64,
+      "name": "netbox-inventory",
+      "nameWithOwner": "ArnesSI/netbox-inventory",
+      "url": "https://github.com/ArnesSI/netbox-inventory",
+      "description": "Manage your hardware inventory in NetBox",
+      "stars": 329,
+      "forks": 45,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2022-08-10T09:58:32Z",
+      "pushedAt": "2026-10-06T12:28:54Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ArnesSI",
+        "name": "Arnes",
+        "type": "Organization",
+        "url": "https://github.com/ArnesSI",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1256856?v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 65,
+      "name": "ai-playground",
+      "nameWithOwner": "rokbenko/ai-playground",
+      "url": "https://github.com/rokbenko/ai-playground",
+      "description": "📽️ Code from tutorials presented on the \"Code AI with Rok\" YouTube channel",
+      "stars": 321,
+      "forks": 84,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2023-11-07T09:32:52Z",
+      "pushedAt": "2026-04-23T13:48:54Z",
+      "homepageUrl": "https://www.youtube.com/@rokbenko?sub_confirmation=1",
+      "archived": false,
+      "owner": {
+        "login": "rokbenko",
+        "name": "Rok Benko",
+        "type": "User",
+        "url": "https://github.com/rokbenko",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/115651717?u=906cebc4949816765fce4efed9ab18bbe7b67662&v=4",
+        "location": "Murska Sobota, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 66,
+      "name": "mixed-segdec-net-comind2021",
+      "nameWithOwner": "vicoslab/mixed-segdec-net-comind2021",
+      "url": "https://github.com/vicoslab/mixed-segdec-net-comind2021",
+      "description": "Official PyTorch implementation for \"Mixed supervision for surface-defect detection: from weakly to fully supervised learning\"",
+      "stars": 319,
+      "forks": 85,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2021-03-30T10:07:22Z",
+      "pushedAt": "2022-03-17T09:28:40Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "vicoslab",
+        "name": "ViCoS Lab",
+        "type": "Organization",
+        "url": "https://github.com/vicoslab",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4302760?v=4",
+        "location": "Večna pot 113, Ljubljana, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 67,
+      "name": "Aardwolf",
+      "nameWithOwner": "lexandera/Aardwolf",
+      "url": "https://github.com/lexandera/Aardwolf",
+      "description": "A remote JavaScript debugger for Android/iOS/WindowsPhone7/BlackBerry6. Written in JavaScript.",
+      "stars": 319,
+      "forks": 36,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2011-07-27T19:32:22Z",
+      "pushedAt": "2015-09-01T07:32:53Z",
+      "homepageUrl": "http://lexandera.com/aardwolf/",
+      "archived": true,
+      "owner": {
+        "login": "lexandera",
+        "name": "Aleksander Kmetec",
+        "type": "User",
+        "url": "https://github.com/lexandera",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/220522?v=4",
+        "location": "Ljubljana, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 68,
+      "name": "ib-edavki",
+      "nameWithOwner": "ib-edavki/ib-edavki",
+      "url": "https://github.com/ib-edavki/ib-edavki",
+      "description": "Skripta, ki prevede XML poročilo trgovalnih poslov v platformi InteractiveBrokers v XML format primeren za uvoz v obrazce Doh-KDVP, D-IFI, Doh-Div in Doh-Obr v eDavkih Finančne uprave.",
+      "stars": 318,
+      "forks": 93,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-07-29T20:05:40Z",
+      "pushedAt": "2026-03-29T07:46:37Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "ib-edavki",
+        "name": "Interactive Brokers - eDavki",
+        "type": "Organization",
+        "url": "https://github.com/ib-edavki",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/161647817?v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 69,
+      "name": "nix-devcontainer",
+      "nameWithOwner": "xtruder/nix-devcontainer",
+      "url": "https://github.com/xtruder/nix-devcontainer",
+      "description": "Swiss army knife container for vscode development environments",
+      "stars": 314,
+      "forks": 35,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-09-18T09:30:40Z",
+      "pushedAt": "2026-03-04T18:12:59Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "xtruder",
+        "name": "X-Truder labs",
+        "type": "Organization",
+        "url": "https://github.com/xtruder",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25673078?v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 70,
+      "name": "homotopy-type-theory-course",
+      "nameWithOwner": "andrejbauer/homotopy-type-theory-course",
+      "url": "https://github.com/andrejbauer/homotopy-type-theory-course",
+      "description": "A course on homotopy theory and type theory, taught jointly with Jaka Smrekar",
+      "stars": 314,
+      "forks": 8,
+      "primaryLanguage": "TeX",
+      "license": null,
+      "createdAt": "2019-02-12T10:45:48Z",
+      "pushedAt": "2024-02-01T20:46:30Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "andrejbauer",
+        "name": "Andrej Bauer",
+        "type": "User",
+        "url": "https://github.com/andrejbauer",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/646599?v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 71,
+      "name": "react-native-xmpp",
+      "nameWithOwner": "aksonov/react-native-xmpp",
+      "url": "https://github.com/aksonov/react-native-xmpp",
+      "description": "XMPP library for React Native (iOS and Android native support)",
+      "stars": 310,
+      "forks": 95,
+      "primaryLanguage": "Objective-C",
+      "license": {
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "spdxId": "BSD-2-Clause"
+      },
+      "createdAt": "2015-09-23T17:25:25Z",
+      "pushedAt": "2019-04-04T04:49:41Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "aksonov",
+        "name": "Pavel Aksonov",
+        "type": "User",
+        "url": "https://github.com/aksonov",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1321329?u=4a121f35fb11bda9b936103977a96f1ce691d8bf&v=4",
+        "location": "Koper, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 72,
+      "name": "pi_pico_neopixel",
+      "nameWithOwner": "blaz-r/pi_pico_neopixel",
+      "url": "https://github.com/blaz-r/pi_pico_neopixel",
+      "description": "Pi Pico library for NeoPixel led-strip written in MicroPython. Works with ws2812b (RGB) and sk6812 (RGBW).",
+      "stars": 309,
+      "forks": 57,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2021-04-11T17:44:47Z",
+      "pushedAt": "2025-04-20T07:10:27Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "blaz-r",
+        "name": "Blaž Rolih",
+        "type": "User",
+        "url": "https://github.com/blaz-r",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61357777?u=55b326117bbace6211b2bd397d95249a5fcf2692&v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 73,
+      "name": "OpenHabitTracker",
+      "nameWithOwner": "Jinjinov/OpenHabitTracker",
+      "url": "https://github.com/Jinjinov/OpenHabitTracker",
+      "description": "C# .NET 10 Blazor habit tracker application. Works on Web, Windows, Linux, Android, iOS and macOS.",
+      "stars": 301,
+      "forks": 24,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2023-11-14T20:21:27Z",
+      "pushedAt": "2026-09-29T07:52:07Z",
+      "homepageUrl": "https://openhabittracker.net",
+      "archived": false,
+      "owner": {
+        "login": "Jinjinov",
+        "name": "Urban",
+        "type": "User",
+        "url": "https://github.com/Jinjinov",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20396198?v=4",
+        "location": "Ljubljana, Slovenia, Europe",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 74,
+      "name": "dockerized",
+      "nameWithOwner": "iredmail/dockerized",
+      "url": "https://github.com/iredmail/dockerized",
+      "description": "Official dockerized iRedMail.",
+      "stars": 300,
+      "forks": 79,
+      "primaryLanguage": "Shell",
+      "license": null,
+      "createdAt": "2019-11-10T08:57:16Z",
+      "pushedAt": "2023-12-23T21:12:37Z",
+      "homepageUrl": "https://www.iredmail.org/",
+      "archived": true,
+      "owner": {
+        "login": "iredmail",
+        "name": "iRedMail",
+        "type": "User",
+        "url": "https://github.com/iredmail",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2048991?u=32ed41e515b63cd5e47327f51d1672271ef8dfc3&v=4",
+        "location": "China, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 75,
+      "name": "kubenix",
+      "nameWithOwner": "xtruder/kubenix",
+      "url": "https://github.com/xtruder/kubenix",
+      "description": "Replaced by https://github.com/hall/kubenix",
+      "stars": 296,
+      "forks": 33,
+      "primaryLanguage": "Nix",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-11-11T10:46:00Z",
+      "pushedAt": "2023-02-11T15:03:04Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "xtruder",
+        "name": "X-Truder labs",
+        "type": "Organization",
+        "url": "https://github.com/xtruder",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25673078?v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 76,
+      "name": "klipper-prusa-mk3s",
+      "nameWithOwner": "dz0ny/klipper-prusa-mk3s",
+      "url": "https://github.com/dz0ny/klipper-prusa-mk3s",
+      "description": "Structured Klipper config for Prusa MK3s 3D printer",
+      "stars": 285,
+      "forks": 77,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "The Unlicense",
+        "spdxId": "Unlicense"
+      },
+      "createdAt": "2021-11-10T16:57:01Z",
+      "pushedAt": "2024-02-08T01:43:36Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "dz0ny",
+        "name": "Janez Troha",
+        "type": "User",
+        "url": "https://github.com/dz0ny",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/239513?u=5489d27106bc87608ec1f284929ed6e72031a7df&v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 77,
+      "name": "symfony-must-watch",
+      "nameWithOwner": "symfony-si/symfony-must-watch",
+      "url": "https://github.com/symfony-si/symfony-must-watch",
+      "description": "🎥 Must-watch videos about Symfony",
+      "stars": 284,
+      "forks": 21,
+      "primaryLanguage": null,
+      "license": null,
+      "createdAt": "2015-03-05T19:21:12Z",
+      "pushedAt": "2018-10-14T16:14:03Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "symfony-si",
+        "name": "Symfony Slovenia",
+        "type": "Organization",
+        "url": "https://github.com/symfony-si",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5654845?v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 78,
+      "name": "advancedtomato",
+      "nameWithOwner": "Jackysi/advancedtomato",
+      "url": "https://github.com/Jackysi/advancedtomato",
+      "description": "AdvancedTomato firmware repository (Tomato by Shibby fork)",
+      "stars": 278,
+      "forks": 69,
+      "primaryLanguage": null,
+      "license": {
+        "name": "Other",
+        "spdxId": "NOASSERTION"
+      },
+      "createdAt": "2014-07-22T14:06:44Z",
+      "pushedAt": "2022-12-27T14:11:58Z",
+      "homepageUrl": "https://advancedtomato.com/",
+      "archived": false,
+      "owner": {
+        "login": "Jackysi",
+        "name": "Jaka Prašnikar",
+        "type": "User",
+        "url": "https://github.com/Jackysi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2860965?u=294b661eeb0c9852c9376c3f043eb0d4d64e4897&v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 79,
+      "name": "spartan-type-theory",
+      "nameWithOwner": "andrejbauer/spartan-type-theory",
+      "url": "https://github.com/andrejbauer/spartan-type-theory",
+      "description": "Spartan type theory",
+      "stars": 277,
+      "forks": 18,
+      "primaryLanguage": "OCaml",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-12-14T15:40:38Z",
+      "pushedAt": "2025-09-12T14:03:05Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "andrejbauer",
+        "name": "Andrej Bauer",
+        "type": "User",
+        "url": "https://github.com/andrejbauer",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/646599?v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 80,
+      "name": "koder",
+      "nameWithOwner": "maslick/koder",
+      "url": "https://github.com/maslick/koder",
+      "description": "QR/bar code scanner for the Browser",
+      "stars": 276,
+      "forks": 31,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-01-16T10:44:33Z",
+      "pushedAt": "2023-11-09T17:24:30Z",
+      "homepageUrl": "https://koder-prod.web.app",
+      "archived": false,
+      "owner": {
+        "login": "maslick",
+        "name": "Paul Maslov",
+        "type": "User",
+        "url": "https://github.com/maslick",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5644706?u=43b6d17b0991e9a9e3bc1c0fe0d1baf91f6ccf05&v=4",
+        "location": "Ljubljana, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 81,
+      "name": "Dnsflare",
+      "nameWithOwner": "5aaee9/Dnsflare",
+      "url": "https://github.com/5aaee9/Dnsflare",
+      "description": "Edit cloudflare domain dns settings",
+      "stars": 275,
+      "forks": 164,
+      "primaryLanguage": "Vue",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-02-25T10:35:51Z",
+      "pushedAt": "2026-07-22T15:10:29Z",
+      "homepageUrl": "https://dnsflare-indexyz.vercel.app",
+      "archived": false,
+      "owner": {
+        "login": "5aaee9",
+        "name": "5aaee9",
+        "type": "User",
+        "url": "https://github.com/5aaee9",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7685264?u=aa6ccbe555f6ecdc1419b59bf59ff919ccce3fe7&v=4",
+        "location": "/nix/store",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "store"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 82,
+      "name": "vizanti",
+      "nameWithOwner": "MoffKalast/vizanti",
+      "url": "https://github.com/MoffKalast/vizanti",
+      "description": "A mission planner and visualizer for controlling outdoor ROS robots.",
+      "stars": 273,
+      "forks": 66,
+      "primaryLanguage": "JavaScript",
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2023-04-26T16:53:58Z",
+      "pushedAt": "2026-09-27T15:21:44Z",
+      "homepageUrl": "https://moffkalast.github.io/vizanti_docs",
+      "archived": false,
+      "owner": {
+        "login": "MoffKalast",
+        "name": null,
+        "type": "User",
+        "url": "https://github.com/MoffKalast",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9977799?v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 83,
+      "name": "meower",
+      "nameWithOwner": "tinrab/meower",
+      "url": "https://github.com/tinrab/meower",
+      "description": "Social network for cats",
+      "stars": 265,
+      "forks": 45,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-03-25T05:45:27Z",
+      "pushedAt": "2023-11-10T03:24:00Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "tinrab",
+        "name": "Tin Rabzelj",
+        "type": "User",
+        "url": "https://github.com/tinrab",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6238910?u=fda1a3c760168087fe05a0e0d8b1c21260164b85&v=4",
+        "location": "Ljubljana, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 84,
+      "name": "painters",
+      "nameWithOwner": "inejc/painters",
+      "url": "https://github.com/inejc/painters",
+      "description": ":art: Winning solution for the Painter by Numbers competition on Kaggle.",
+      "stars": 264,
+      "forks": 55,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2016-11-01T09:48:47Z",
+      "pushedAt": "2018-06-15T12:43:27Z",
+      "homepageUrl": "https://www.kaggle.com/c/painter-by-numbers",
+      "archived": false,
+      "owner": {
+        "login": "inejc",
+        "name": "Nejc Ilenic",
+        "type": "User",
+        "url": "https://github.com/inejc",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3806837?u=71afd174fb2ba56735d19274c7fdce849e718ac1&v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 85,
+      "name": "quackd",
+      "nameWithOwner": "rokbenko/quackd",
+      "url": "https://github.com/rokbenko/quackd",
+      "description": "One CLI for all your robots. Connect them, command them, and let them work together, each with an LLM for a brain (Claude, OpenAI, Gemini, Grok, or local via Ollama or vLLM), VLAs for arms and decision LLMs (Jev, Laya, Kev). Drives Microduck, Open Duck Mini, LeRobot, XLeRobot, AlohaMini, ToddlerBot, or any ROS 2 base from a laptop, offboard.",
+      "stars": 262,
+      "forks": 26,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2026-08-28T09:09:16Z",
+      "pushedAt": "2026-10-13T05:45:15Z",
+      "homepageUrl": "https://www.quackd.org",
+      "archived": false,
+      "owner": {
+        "login": "rokbenko",
+        "name": "Rok Benko",
+        "type": "User",
+        "url": "https://github.com/rokbenko",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/115651717?u=906cebc4949816765fce4efed9ab18bbe7b67662&v=4",
+        "location": "Murska Sobota, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 86,
+      "name": "birdy",
+      "nameWithOwner": "inueni/birdy",
+      "url": "https://github.com/inueni/birdy",
+      "description": "A super awesome Twitter API client for Python.",
+      "stars": 260,
+      "forks": 46,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2013-08-28T21:24:04Z",
+      "pushedAt": "2021-07-31T21:34:28Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "inueni",
+        "name": "Inueni",
+        "type": "Organization",
+        "url": "https://github.com/inueni",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64966?v=4",
+        "location": "Kranj, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 87,
+      "name": "ha-asusrouter",
+      "nameWithOwner": "Vaskivskyi/ha-asusrouter",
+      "url": "https://github.com/Vaskivskyi/ha-asusrouter",
+      "description": "Monitor and control your AsusWRT-powered router from Home Assistant",
+      "stars": 257,
+      "forks": 31,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2022-04-23T09:53:01Z",
+      "pushedAt": "2026-10-15T12:13:45Z",
+      "homepageUrl": "https://asusrouter.vaskivskyi.com",
+      "archived": false,
+      "owner": {
+        "login": "Vaskivskyi",
+        "name": "Yevhenii Vaskivskyi",
+        "type": "User",
+        "url": "https://github.com/Vaskivskyi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6554415?u=0495f3300e9af69895744e2e793b47fa8823b80c&v=4",
+        "location": "Ljubljana, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 88,
+      "name": "ppk2-api-python",
+      "nameWithOwner": "IRNAS/ppk2-api-python",
+      "url": "https://github.com/IRNAS/ppk2-api-python",
+      "description": "Power Profiling Kit 2 unofficial python api.",
+      "stars": 256,
+      "forks": 69,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "GNU General Public License v2.0",
+        "spdxId": "GPL-2.0"
+      },
+      "createdAt": "2020-12-11T15:56:55Z",
+      "pushedAt": "2026-05-19T07:20:19Z",
+      "homepageUrl": "http://irnas.eu",
+      "archived": false,
+      "owner": {
+        "login": "IRNAS",
+        "name": "DEWESoft RealTime - Development of advanced applied systems / ex. IRNAS",
+        "type": "Organization",
+        "url": "https://github.com/IRNAS",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6459617?v=4",
+        "location": "Slovenija",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "slovenija"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 89,
+      "name": "xdgctl",
+      "nameWithOwner": "mitjafelicijan/xdgctl",
+      "url": "https://github.com/mitjafelicijan/xdgctl",
+      "description": "TUI for managing XDG default applications",
+      "stars": 256,
+      "forks": 3,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "BSD 2-Clause \"Simplified\" License",
+        "spdxId": "BSD-2-Clause"
+      },
+      "createdAt": "2026-01-25T11:03:23Z",
+      "pushedAt": "2026-06-30T13:40:15Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "mitjafelicijan",
+        "name": "Mitja Felicijan",
+        "type": "User",
+        "url": "https://github.com/mitjafelicijan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/296714?v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 90,
+      "name": "VS-Code-STM32-IDE",
+      "nameWithOwner": "damogranlabs/VS-Code-STM32-IDE",
+      "url": "https://github.com/damogranlabs/VS-Code-STM32-IDE",
+      "description": "Use VS Code as STM32 IDE with CubeMX",
+      "stars": 253,
+      "forks": 50,
+      "primaryLanguage": "C",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2018-10-15T13:38:37Z",
+      "pushedAt": "2021-12-29T13:35:08Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "damogranlabs",
+        "name": "Damogran Labs",
+        "type": "Organization",
+        "url": "https://github.com/damogranlabs",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17387034?v=4",
+        "location": "Slovenija",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "slovenija"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 91,
+      "name": "go-tensorflow-image-recognition",
+      "nameWithOwner": "tinrab/go-tensorflow-image-recognition",
+      "url": "https://github.com/tinrab/go-tensorflow-image-recognition",
+      "description": "Image Recognition API in Go using TensorFlow",
+      "stars": 250,
+      "forks": 76,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-10-12T06:12:38Z",
+      "pushedAt": "2019-08-24T12:12:15Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "tinrab",
+        "name": "Tin Rabzelj",
+        "type": "User",
+        "url": "https://github.com/tinrab",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6238910?u=fda1a3c760168087fe05a0e0d8b1c21260164b85&v=4",
+        "location": "Ljubljana, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 92,
+      "name": "cuallee",
+      "nameWithOwner": "canimus/cuallee",
+      "url": "https://github.com/canimus/cuallee",
+      "description": "Possibly the fastest DataFrame-agnostic quality check library in town.",
+      "stars": 250,
+      "forks": 23,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2021-10-05T20:38:45Z",
+      "pushedAt": "2026-02-05T20:43:46Z",
+      "homepageUrl": "https://canimus.github.io/cuallee/",
+      "archived": false,
+      "owner": {
+        "login": "canimus",
+        "name": "Herminio Vazquez",
+        "type": "User",
+        "url": "https://github.com/canimus",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/278303?v=4",
+        "location": "Ljubljana, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 93,
+      "name": "netdata",
+      "nameWithOwner": "titpetric/netdata",
+      "url": "https://github.com/titpetric/netdata",
+      "description": "Dockerfile for building netdata",
+      "stars": 238,
+      "forks": 78,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "Creative Commons Zero v1.0 Universal",
+        "spdxId": "CC0-1.0"
+      },
+      "createdAt": "2016-01-10T22:59:26Z",
+      "pushedAt": "2019-12-12T12:54:17Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "titpetric",
+        "name": "Tit Petric",
+        "type": "User",
+        "url": "https://github.com/titpetric",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/233360?v=4",
+        "location": "Ljubljana, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 94,
+      "name": "emmy",
+      "nameWithOwner": "xlab-si/emmy",
+      "url": "https://github.com/xlab-si/emmy",
+      "description": "Library for zero-knowledge proof based applications (like anonymous credentials)",
+      "stars": 238,
+      "forks": 55,
+      "primaryLanguage": "Go",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2017-04-21T13:10:58Z",
+      "pushedAt": "2022-11-25T08:04:49Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "xlab-si",
+        "name": "XLAB d.o.o.",
+        "type": "Organization",
+        "url": "https://github.com/xlab-si",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17640165?v=4",
+        "location": "Ljubljana, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 95,
+      "name": "HereIsWally",
+      "nameWithOwner": "tadejmagajna/HereIsWally",
+      "url": "https://github.com/tadejmagajna/HereIsWally",
+      "description": "Deep learning project that solves Where's Wally puzzles by finding Wally in an image",
+      "stars": 238,
+      "forks": 51,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2017-11-26T21:45:01Z",
+      "pushedAt": "2022-11-21T22:01:22Z",
+      "homepageUrl": "https://towardsdatascience.com/how-to-find-wally-neural-network-eddbb20b0b90",
+      "archived": false,
+      "owner": {
+        "login": "tadejmagajna",
+        "name": "Tadej Magajna",
+        "type": "User",
+        "url": "https://github.com/tadejmagajna",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1088423?u=e3cc8b34778174e70250aa02a976f88612c02b0d&v=4",
+        "location": "Ljubljana, Slovenija",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "ljubljana"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 96,
+      "name": "aitlas",
+      "nameWithOwner": "biasvariancelabs/aitlas",
+      "url": "https://github.com/biasvariancelabs/aitlas",
+      "description": "AiTLAS implements state-of-the-art AI methods for exploratory and predictive analysis of satellite images.",
+      "stars": 235,
+      "forks": 43,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "Apache License 2.0",
+        "spdxId": "Apache-2.0"
+      },
+      "createdAt": "2020-05-15T14:59:51Z",
+      "pushedAt": "2026-07-17T08:50:52Z",
+      "homepageUrl": "https://aitlas.readthedocs.io/",
+      "archived": false,
+      "owner": {
+        "login": "biasvariancelabs",
+        "name": "Bias Variance Labs",
+        "type": "Organization",
+        "url": "https://github.com/biasvariancelabs",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65408967?v=4",
+        "location": "Ljubljana, Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 97,
+      "name": "Ididit",
+      "nameWithOwner": "Jinjinov/Ididit",
+      "url": "https://github.com/Jinjinov/Ididit",
+      "description": "C# .NET 7 Blazor habit tracker application. Works on Web, Windows, Linux, Android, iOS and macOS.",
+      "stars": 233,
+      "forks": 26,
+      "primaryLanguage": "C#",
+      "license": {
+        "name": "GNU General Public License v3.0",
+        "spdxId": "GPL-3.0"
+      },
+      "createdAt": "2022-04-15T17:07:01Z",
+      "pushedAt": "2024-08-18T06:34:54Z",
+      "homepageUrl": "https://ididit.today",
+      "archived": false,
+      "owner": {
+        "login": "Jinjinov",
+        "name": "Urban",
+        "type": "User",
+        "url": "https://github.com/Jinjinov",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20396198?v=4",
+        "location": "Ljubljana, Slovenia, Europe",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 98,
+      "name": "jquery-scrollintoview",
+      "nameWithOwner": "litera/jquery-scrollintoview",
+      "url": "https://github.com/litera/jquery-scrollintoview",
+      "description": "Animated scroll into view jQuery plugin",
+      "stars": 232,
+      "forks": 132,
+      "primaryLanguage": "HTML",
+      "license": null,
+      "createdAt": "2011-06-07T12:53:17Z",
+      "pushedAt": "2021-05-19T08:01:12Z",
+      "homepageUrl": "http://erraticdev.blogspot.com/2011/02/jquery-scroll-into-view-plugin-with.html",
+      "archived": false,
+      "owner": {
+        "login": "litera",
+        "name": "Robert Koritnik",
+        "type": "User",
+        "url": "https://github.com/litera",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/800583?v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 99,
+      "name": "lightdm-login-chromeos",
+      "nameWithOwner": "dz0ny/lightdm-login-chromeos",
+      "url": "https://github.com/dz0ny/lightdm-login-chromeos",
+      "description": "Installs chromiumos-aura window manager to Ubuntu",
+      "stars": 232,
+      "forks": 36,
+      "primaryLanguage": "Shell",
+      "license": {
+        "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+        "spdxId": "BSD-3-Clause"
+      },
+      "createdAt": "2012-11-08T22:13:17Z",
+      "pushedAt": "2017-09-09T01:49:30Z",
+      "homepageUrl": null,
+      "archived": true,
+      "owner": {
+        "login": "dz0ny",
+        "name": "Janez Troha",
+        "type": "User",
+        "url": "https://github.com/dz0ny",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/239513?u=5489d27106bc87608ec1f284929ed6e72031a7df&v=4",
+        "location": "Slovenia",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "high",
+          "evidence": "explicit-country",
+          "matched": "slovenia"
+        },
+        "discoveryTerms": []
+      }
+    },
+    {
+      "rank": 100,
+      "name": "classy_blocks",
+      "nameWithOwner": "damogranlabs/classy_blocks",
+      "url": "https://github.com/damogranlabs/classy_blocks",
+      "description": "Python classes for easier creation of OpenFOAM's blockMesh dictionaries.",
+      "stars": 230,
+      "forks": 54,
+      "primaryLanguage": "Python",
+      "license": {
+        "name": "MIT License",
+        "spdxId": "MIT"
+      },
+      "createdAt": "2020-02-01T18:05:37Z",
+      "pushedAt": "2026-10-14T21:17:26Z",
+      "homepageUrl": null,
+      "archived": false,
+      "owner": {
+        "login": "damogranlabs",
+        "name": "Damogran Labs",
+        "type": "Organization",
+        "url": "https://github.com/damogranlabs",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17387034?v=4",
+        "location": "Slovenija",
+        "attribution": {
+          "accepted": true,
+          "countryCode": "SI",
+          "confidence": "medium",
+          "evidence": "recognized-place",
+          "matched": "slovenija"
+        },
+        "discoveryTerms": []
+      }
+    }
+  ]
+}

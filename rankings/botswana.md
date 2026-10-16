@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **1,094**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **228**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [darula-hpp/shimmer-from-structure](https://github.com/darula-hpp/shimmer-from-structure) | **1,122** | Gaborone |
+| [zen0wu/topcoder-greed](https://github.com/zen0wu/topcoder-greed) | **232** | In the world |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

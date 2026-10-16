@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [N3RDCLASH/mail-drive-sync](https://github.com/N3RDCLASH/mail-drive-sync) | **4** | Suriname |
 | [timmy1420/linux_scripts](https://github.com/timmy1420/linux_scripts) | **4** | Suriname |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **228**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [giannisanni/pulsar](https://github.com/giannisanni/pulsar) | **229** | Paramaribo, Suriname |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

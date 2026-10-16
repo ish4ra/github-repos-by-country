@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **11**
-- Current global star frontier: **319**
+- Verified high-star candidates retained: **12**
+- Current global star frontier: **228**
 
 ### High-star verified preview
 
@@ -62,5 +62,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [samsouder/reggy](https://github.com/samsouder/reggy) | **358** | KY |
 | [gitcoinco/grants-stack](https://github.com/gitcoinco/grants-stack) | **354** | Cayman Islands |
 | [berachain/beacon-kit](https://github.com/berachain/beacon-kit) | **325** | Cayman Islands |
+| [gitcoinco/kudosbadges](https://github.com/gitcoinco/kudosbadges) | **231** | Cayman Islands |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
