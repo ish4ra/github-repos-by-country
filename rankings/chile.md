@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **11**
-- Current global star frontier: **238**
+- Verified high-star candidates retained: **12**
+- Current global star frontier: **233**
 
 ### High-star verified preview
 
@@ -62,5 +62,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [EstebanFuentealba/MALVEKE-Flipper-Zero](https://github.com/EstebanFuentealba/MALVEKE-Flipper-Zero) | **273** | Talcahuano, Chile |
 | [jakeajames/jelbrekLib](https://github.com/jakeajames/jelbrekLib) | **259** | Antartica  |
 | [misobadev/neostation-frontend](https://github.com/misobadev/neostation-frontend) | **240** | Puerto Montt, Chile |
+| [IgnacioNMiranda/vite-component-library-template](https://github.com/IgnacioNMiranda/vite-component-library-template) | **234** | Antofagasta, Chile |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

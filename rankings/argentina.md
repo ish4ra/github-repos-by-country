@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **19**
-- Current global star frontier: **248**
+- Verified high-star candidates retained: **20**
+- Current global star frontier: **233**
 
 ### High-star verified preview
 
@@ -70,5 +70,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [leotorrez/ZZ-Model-Importer](https://github.com/leotorrez/ZZ-Model-Importer) | **295** | Santiago del Estero, Argentina |
 | [villoren/KalmanLocationManager](https://github.com/villoren/KalmanLocationManager) | **276** | San Antonio de Areco, Argentina |
 | [goncy/pency](https://github.com/goncy/pency) | **249** | Quilmes, Buenos Aires, Argentina |
+| [AgusMayol/optics](https://github.com/AgusMayol/optics) | **234** | Autonomous City of Buenos Aires |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

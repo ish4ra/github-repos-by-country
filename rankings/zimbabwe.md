@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **624**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **233**
 
 ### High-star verified preview
 
@@ -53,5 +53,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [XdKing2/MALVIN-XD](https://github.com/XdKing2/MALVIN-XD) | **1,582** | Zimbabwe |
 | [mrxdking/star-xd](https://github.com/mrxdking/star-xd) | **629** | Zimbabwe |
+| [AyuGram/AyuGramDocs](https://github.com/AyuGram/AyuGramDocs) | **236** | Zimbabwe |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -40,4 +40,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [HordRic/meteo](https://github.com/HordRic/meteo) | **6** | Lomé-Togo |
 | [toutpuissantged/clickbot-monster](https://github.com/toutpuissantged/clickbot-monster) | **6** | togo |
 
+## Repository-first scan
+
+- Verified high-star candidates retained: **1**
+- Current global star frontier: **233**
+
+### High-star verified preview
+
+> These repositories were found by the independent global stars-desc scan and their owner locations resolved to this country. The list becomes final only when the global scan frontier drops below the country’s 100th-place star cutoff.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [Is-Daouda/is-Engine](https://github.com/Is-Daouda/is-Engine) | **235** | Lomé |
+
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
