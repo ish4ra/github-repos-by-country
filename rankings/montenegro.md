@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **15**
-- Current global star frontier: **223**
+- Verified high-star candidates retained: **16**
+- Current global star frontier: **215**
 
 ### High-star verified preview
 
@@ -66,5 +66,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [kostafey/ejc-sql](https://github.com/kostafey/ejc-sql) | **321** | Podgorica, Montenegro |
 | [gilbarbara/react-floater](https://github.com/gilbarbara/react-floater) | **240** | São Paulo, BR |
 | [M1ck0/adskipper-extension](https://github.com/M1ck0/adskipper-extension) | **227** | Podgorica, Montenegro |
+| [viniciusmo/extract-localizable-string-plugin-xcode](https://github.com/viniciusmo/extract-localizable-string-plugin-xcode) | **217** | São Paulo, BR |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

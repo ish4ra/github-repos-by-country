@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **650**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **215**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [mohn93/AdvancedPageControl](https://github.com/mohn93/AdvancedPageControl) | **655** | Libya |
+| [tahaak67/Farhan](https://github.com/tahaak67/Farhan) | **216** | Libya |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **16**
-- Current global star frontier: **219**
+- Verified high-star candidates retained: **17**
+- Current global star frontier: **215**
 
 ### High-star verified preview
 
@@ -67,5 +67,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [kjanko/python-fingerprint-recognition](https://github.com/kjanko/python-fingerprint-recognition) | **237** | Ohrid, Macedonia |
 | [vvangelovski/django-audit-log](https://github.com/vvangelovski/django-audit-log) | **234** | Skopje, Macedonia |
 | [losisin/helm-values-schema-json](https://github.com/losisin/helm-values-schema-json) | **221** | Skopje, Macedonia |
+| [Risto-Stevcev/bastet](https://github.com/Risto-Stevcev/bastet) | **214** | Skopje, North Macedonia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **377**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **215**
 
 ### High-star verified preview
 
@@ -53,5 +53,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [alainm23/planify](https://github.com/alainm23/planify) | **5,725** | Cusco, Cusco, Perú |
 | [aleckrh/laravel-sb-admin-2](https://github.com/aleckrh/laravel-sb-admin-2) | **378** | Huaraz, Perú |
+| [matiskay/html-similarity](https://github.com/matiskay/html-similarity) | **217** | Arequipa, Perú |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

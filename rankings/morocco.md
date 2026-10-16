@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **18**
-- Current global star frontier: **223**
+- Verified high-star candidates retained: **20**
+- Current global star frontier: **215**
 
 ### High-star verified preview
 
@@ -69,5 +69,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [aminebenkeroum/toggle-switch-react-native](https://github.com/aminebenkeroum/toggle-switch-react-native) | **236** | Marrakech |
 | [kaichen-z/PAGE4D](https://github.com/kaichen-z/PAGE4D) | **231** | MA |
 | [kaichen-z/STREAM3D](https://github.com/kaichen-z/STREAM3D) | **228** | MA |
+| [elghazal-a/autowire](https://github.com/elghazal-a/autowire) | **217** | Marrakech, Morocco |
+| [salahhusa9/laravel-updater](https://github.com/salahhusa9/laravel-updater) | **216** | Morocco, Agadir |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
