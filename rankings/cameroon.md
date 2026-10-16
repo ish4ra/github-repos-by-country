@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **266**
+- Verified high-star candidates retained: **10**
+- Current global star frontier: **243**
 
 ### High-star verified preview
 
@@ -60,5 +60,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Leoneldev532/Free-Ui-game](https://github.com/Leoneldev532/Free-Ui-game) | **365** | Cameroun |
 | [djantche/site-du-zero-old-pdf](https://github.com/djantche/site-du-zero-old-pdf) | **336** | Yaoundé, Cameroon. |
 | [ln-dev7/logos-apps](https://github.com/ln-dev7/logos-apps) | **267** | Cameroon |
+| [laravelcm/laravel-subscriptions](https://github.com/laravelcm/laravel-subscriptions) | **244** | Douala, Cameroon |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

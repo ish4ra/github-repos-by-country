@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **7**
-- Current global star frontier: **266**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **243**
 
 ### High-star verified preview
 
@@ -58,5 +58,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [matiaspub/bxApiDocs](https://github.com/matiaspub/bxApiDocs) | **292** | Tiraspol |
 | [dimmg/dockselpy](https://github.com/dimmg/dockselpy) | **292** | Chișinău, Moldova |
 | [vova07/yii2-start](https://github.com/vova07/yii2-start) | **268** | Chișinău, Moldova |
+| [andrei-zgirvaci/Arbitrage-Bot](https://github.com/andrei-zgirvaci/Arbitrage-Bot) | **248** | Chișinău, Moldova |
+| [gophertuts/go-basics](https://github.com/gophertuts/go-basics) | **245** | Republic of Moldova |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

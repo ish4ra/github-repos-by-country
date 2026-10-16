@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **15**
-- Current global star frontier: **260**
+- Verified high-star candidates retained: **16**
+- Current global star frontier: **243**
 
 ### High-star verified preview
 
@@ -66,5 +66,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [FaceAISDK/DownloadInstaller](https://github.com/FaceAISDK/DownloadInstaller) | **293** | SZ |
 | [tghfly/grafana-manual](https://github.com/tghfly/grafana-manual) | **264** | sz |
 | [chaos-zhu/easyimg](https://github.com/chaos-zhu/easyimg) | **263** | SZ |
+| [kaolengmian7/v2ex-tui](https://github.com/kaolengmian7/v2ex-tui) | **247** | SZ |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

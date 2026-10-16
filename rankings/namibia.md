@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **312**
+- Verified high-star candidates retained: **3**
+- Current global star frontier: **243**
 
 ### High-star verified preview
 
@@ -53,5 +53,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [l123456789jy/Lazy](https://github.com/l123456789jy/Lazy) | **2,164** | NA |
 | [l123456789jy/WxDatabaseDecryptKey](https://github.com/l123456789jy/WxDatabaseDecryptKey) | **319** | NA |
+| [ramonpoca/ColorTools](https://github.com/ramonpoca/ColorTools) | **247** | NA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

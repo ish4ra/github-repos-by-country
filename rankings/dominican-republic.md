@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **19**
-- Current global star frontier: **271**
+- Verified high-star candidates retained: **20**
+- Current global star frontier: **243**
 
 ### High-star verified preview
 
@@ -70,5 +70,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [dualra1n/dualra1n](https://github.com/dualra1n/dualra1n) | **296** | Dominican Republic |
 | [sgermosen/TorneoPredicciones](https://github.com/sgermosen/TorneoPredicciones) | **285** | Santo Domingo, Republica Dominicana |
 | [rmariuzzo/Lang.js](https://github.com/rmariuzzo/Lang.js) | **276** | Dominican Republic |
+| [sgermosen/Denunciado](https://github.com/sgermosen/Denunciado) | **245** | Santo Domingo, Republica Dominicana |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
