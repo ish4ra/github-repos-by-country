@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **11**
-- Current global star frontier: **223**
+- Verified high-star candidates retained: **12**
+- Current global star frontier: **219**
 
 ### High-star verified preview
 
@@ -62,5 +62,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [gophertuts/go-basics](https://github.com/gophertuts/go-basics) | **245** | Republic of Moldova |
 | [vova07/yii2-imperavi-widget](https://github.com/vova07/yii2-imperavi-widget) | **238** | Chișinău, Moldova |
 | [vladimarius/imapy](https://github.com/vladimarius/imapy) | **228** | Chisinau, Moldova |
+| [dimmg/flusk](https://github.com/dimmg/flusk) | **221** | Chișinău, Moldova |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

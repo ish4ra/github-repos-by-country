@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **18**
-- Current global star frontier: **223**
+- Verified high-star candidates retained: **20**
+- Current global star frontier: **219**
 
 ### High-star verified preview
 
@@ -69,5 +69,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ipenywis/nestjs-solid](https://github.com/ipenywis/nestjs-solid) | **233** | Setif, Algeria |
 | [willthames/ansible-review](https://github.com/willthames/ansible-review) | **226** | Brisbane, QLD, Australia |
 | [yasserbdj96/hiphp](https://github.com/yasserbdj96/hiphp) | **225** | Jijel, Algeria |
+| [sahlberg/libiscsi](https://github.com/sahlberg/libiscsi) | **220** | MooreParkBeach/QLD/AU |
+| [CharafeddineMechalikh/PureEdgeSim](https://github.com/CharafeddineMechalikh/PureEdgeSim) | **220** | Ain Defla, Algeria |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

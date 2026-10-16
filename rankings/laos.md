@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **19**
-- Current global star frontier: **233**
+- Verified high-star candidates retained: **20**
+- Current global star frontier: **219**
 
 ### High-star verified preview
 
@@ -70,5 +70,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [lmccart/SocialHacking](https://github.com/lmccart/SocialHacking) | **268** | LA |
 | [DerrickXuNu/CoBEVT](https://github.com/DerrickXuNu/CoBEVT) | **262** | LA |
 | [wrannaman/generators](https://github.com/wrannaman/generators) | **235** | LA |
+| [natefaubion/adt.js](https://github.com/natefaubion/adt.js) | **220** | LA |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **7**
-- Current global star frontier: **284**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **219**
 
 ### High-star verified preview
 
@@ -58,5 +58,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [andrewheiss/hikmah-academic-quarto](https://github.com/andrewheiss/hikmah-academic-quarto) | **292** | Doha, Qatar |
 | [Samimust/predictive-maintenance](https://github.com/Samimust/predictive-maintenance) | **291** | Qatar |
 | [myofficework000/Jetpack-Compose-All-in-one-Guide](https://github.com/myofficework000/Jetpack-Compose-All-in-one-Guide) | **288** | Doha, Qatar |
+| [Abrar74774/FossFLOW](https://github.com/Abrar74774/FossFLOW) | **223** | Qatar |
+| [vahid-nejad/next-auth-fullstack](https://github.com/vahid-nejad/next-auth-fullstack) | **221** | Qatar |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

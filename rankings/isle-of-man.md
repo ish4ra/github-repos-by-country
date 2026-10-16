@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **15,078**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **219**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [braydie/HowToBeAProgrammer](https://github.com/braydie/HowToBeAProgrammer) | **16,317** | Isle of Man |
+| [lproven/usb-dos](https://github.com/lproven/usb-dos) | **219** | Douglas, Isle of Man |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

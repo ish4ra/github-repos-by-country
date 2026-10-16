@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **548**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **219**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [labexp/osmtracker-android](https://github.com/labexp/osmtracker-android) | **563** | Alajuela |
+| [ztrhgf/useful_powershell_functions](https://github.com/ztrhgf/useful_powershell_functions) | **219** | CR |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

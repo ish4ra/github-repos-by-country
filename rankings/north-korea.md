@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **2**
-- Current global star frontier: **238**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **219**
 
 ### High-star verified preview
 
@@ -53,5 +53,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [VisionVerse/RemoteSensing-Restoration-Survey](https://github.com/VisionVerse/RemoteSensing-Restoration-Survey) | **247** | North Korea |
 | [VisionVerse/Awesome-RGBT](https://github.com/VisionVerse/Awesome-RGBT) | **241** | North Korea |
+| [0x4f53/Wristkey](https://github.com/0x4f53/Wristkey) | **223** | 🇰🇵 Pyongyang, North Korea |
+| [VisionVerse/Blind-Motion-Deblurring-Survey](https://github.com/VisionVerse/Blind-Motion-Deblurring-Survey) | **222** | North Korea |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

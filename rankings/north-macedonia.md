@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **15**
-- Current global star frontier: **233**
+- Verified high-star candidates retained: **16**
+- Current global star frontier: **219**
 
 ### High-star verified preview
 
@@ -66,5 +66,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [object505/tipso](https://github.com/object505/tipso) | **318** | Skopje |
 | [kjanko/python-fingerprint-recognition](https://github.com/kjanko/python-fingerprint-recognition) | **237** | Ohrid, Macedonia |
 | [vvangelovski/django-audit-log](https://github.com/vvangelovski/django-audit-log) | **234** | Skopje, Macedonia |
+| [losisin/helm-values-schema-json](https://github.com/losisin/helm-values-schema-json) | **221** | Skopje, Macedonia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

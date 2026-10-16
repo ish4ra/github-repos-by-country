@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **9**
-- Current global star frontier: **228**
+- Verified high-star candidates retained: **10**
+- Current global star frontier: **219**
 
 ### High-star verified preview
 
@@ -60,5 +60,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [preemptdev/bluffy](https://github.com/preemptdev/bluffy) | **355** | /dev/tcp/0 |
 | [MohammadAboulEla/ComfyUI-iTools](https://github.com/MohammadAboulEla/ComfyUI-iTools) | **242** | Egypt, Giza |
 | [KL13NT/badeel](https://github.com/KL13NT/badeel) | **232** | Giza, Egypt |
+| [7oSkaaa/Competitive-Programming-Session-Content](https://github.com/7oSkaaa/Competitive-Programming-Session-Content) | **222** | Port Said, Egypt |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

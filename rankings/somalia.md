@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **228**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **219**
 
 ### High-star verified preview
 
@@ -54,5 +54,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [theironcook/Backbone.ModelBinder](https://github.com/theironcook/Backbone.ModelBinder) | **1,409** | 'merca |
 | [Cabdulahi/pish](https://github.com/Cabdulahi/pish) | **260** | Mogadishu |
 | [soplang/soplang](https://github.com/soplang/soplang) | **230** | Somalia |
+| [Abdinajibahmed/MadCam---Termux-Hack-Front-camera-by-Sending-link](https://github.com/Abdinajibahmed/MadCam---Termux-Hack-Front-camera-by-Sending-link) | **220** | hargeisa |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

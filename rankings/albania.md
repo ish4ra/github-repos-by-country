@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **4**
-- Current global star frontier: **319**
+- Verified high-star candidates retained: **5**
+- Current global star frontier: **219**
 
 ### High-star verified preview
 
@@ -55,5 +55,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [klendi/react-top-loading-bar](https://github.com/klendi/react-top-loading-bar) | **749** | Tirana, Albania |
 | [LLMpsycho/Pln-Droid-Orchestrator](https://github.com/LLMpsycho/Pln-Droid-Orchestrator) | **359** | Tirane |
 | [banago/simple-php-website](https://github.com/banago/simple-php-website) | **324** | Vlorë, Albania |
+| [theringsofsaturn/3D-art-gallery-threejs](https://github.com/theringsofsaturn/3D-art-gallery-threejs) | **222** | Durres, Albania |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
