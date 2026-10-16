@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **389**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **223**
 
 ### High-star verified preview
 
@@ -54,5 +54,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Siumauricio/rippleui](https://github.com/Siumauricio/rippleui) | **1,040** | Honduras, San Pedro Sula |
 | [Siumauricio/nextui-dashboard-template](https://github.com/Siumauricio/nextui-dashboard-template) | **824** | Honduras, San Pedro Sula |
 | [Siumauricio/landing-template-nextui](https://github.com/Siumauricio/landing-template-nextui) | **399** | Honduras, San Pedro Sula |
+| [dansiegel/Mobile.BuildTools](https://github.com/dansiegel/Mobile.BuildTools) | **224** | Roatan, Honduras |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

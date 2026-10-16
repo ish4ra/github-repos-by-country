@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **8**
-- Current global star frontier: **305**
+- Verified high-star candidates retained: **9**
+- Current global star frontier: **223**
 
 ### High-star verified preview
 
@@ -59,5 +59,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [creativenull/efmls-configs-nvim](https://github.com/creativenull/efmls-configs-nvim) | **318** | Trinidad and Tobago |
 | [trinib/ZORG-Jailbreak-Prompt-Text](https://github.com/trinib/ZORG-Jailbreak-Prompt-Text) | **313** | ❤Trinidad & Tobago❤ |
 | [godlyranchdressing/United-GNOME](https://github.com/godlyranchdressing/United-GNOME) | **305** | Trinidad & Tobago |
+| [callmenick/Slide-Push-Menus](https://github.com/callmenick/Slide-Push-Menus) | **224** | Trinidad & Tobago |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

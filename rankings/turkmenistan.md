@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **1**
-- Current global star frontier: **2,424**
+- Verified high-star candidates retained: **2**
+- Current global star frontier: **223**
 
 ### High-star verified preview
 
@@ -52,5 +52,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [vbauerster/mpb](https://github.com/vbauerster/mpb) | **2,513** | Turkmenistan |
+| [Shatlyk1011/my-best-resources](https://github.com/Shatlyk1011/my-best-resources) | **224** | Turkmenabat |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

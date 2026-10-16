@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **7**
-- Current global star frontier: **254**
+- Verified high-star candidates retained: **8**
+- Current global star frontier: **223**
 
 ### High-star verified preview
 
@@ -58,5 +58,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [buzzySmile/qBreakpad](https://github.com/buzzySmile/qBreakpad) | **330** | Bishkek City, Kyrgyzstan |
 | [intelliants/subrion](https://github.com/intelliants/subrion) | **284** | Bishkek, KG |
 | [zoxon/gulp-front](https://github.com/zoxon/gulp-front) | **258** | Bishkek, KG |
+| [bashu/django-tracking](https://github.com/bashu/django-tracking) | **224** | Bishkek, Kyrgyzstan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **11**
-- Current global star frontier: **243**
+- Verified high-star candidates retained: **13**
+- Current global star frontier: **223**
 
 ### High-star verified preview
 
@@ -62,5 +62,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [yuvraj108c/ComfyUI-Upscaler-Tensorrt](https://github.com/yuvraj108c/ComfyUI-Upscaler-Tensorrt) | **251** | Mauritius |
 | [eznix86/docker-registry-ui](https://github.com/eznix86/docker-registry-ui) | **250** | Mauritius |
 | [rahul-thakoor/rust_gpiozero](https://github.com/rahul-thakoor/rust_gpiozero) | **246** | Mauritius |
+| [thatstraw/PwnLnX](https://github.com/thatstraw/PwnLnX) | **226** | Mauritius |
+| [yuvraj108c/4k-video-upscaler-colab](https://github.com/yuvraj108c/4k-video-upscaler-colab) | **224** | Mauritius |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

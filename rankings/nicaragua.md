@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **266**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **223**
 
 ### High-star verified preview
 
@@ -54,5 +54,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [miaru3d/FacebookBot](https://github.com/miaru3d/FacebookBot) | **409** | Nicaragua |
 | [franccesco/getaltname](https://github.com/franccesco/getaltname) | **390** | Nicaragua |
 | [JezerM/web-greeter](https://github.com/JezerM/web-greeter) | **271** | Nicaragua |
+| [gdgmanagua/jekyll-mdl](https://github.com/gdgmanagua/jekyll-mdl) | **227** | Managua, Nicaragua |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

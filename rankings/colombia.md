@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **19**
-- Current global star frontier: **238**
+- Verified high-star candidates retained: **20**
+- Current global star frontier: **223**
 
 ### High-star verified preview
 
@@ -70,5 +70,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [neonbjb/ocotillo](https://github.com/neonbjb/ocotillo) | **254** | CO |
 | [jahirfiquitiva/Kuper](https://github.com/jahirfiquitiva/Kuper) | **250** | Duitama, Colombia |
 | [manuelgilm/mlflow_for_ml_dev](https://github.com/manuelgilm/mlflow_for_ml_dev) | **241** | Zipaquirá, Colombia |
+| [miguel5612/MQSensorsLib](https://github.com/miguel5612/MQSensorsLib) | **224** | Facatativa, Cundinamarca |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

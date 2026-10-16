@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **18**
-- Current global star frontier: **228**
+- Verified high-star candidates retained: **20**
+- Current global star frontier: **223**
 
 ### High-star verified preview
 
@@ -69,5 +69,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [MaaSTaaR/539kernel](https://github.com/MaaSTaaR/539kernel) | **257** | Kuwait |
 | [Voulnet/CVE-2017-8759-Exploit-sample](https://github.com/Voulnet/CVE-2017-8759-Exploit-sample) | **256** | Kuwait, Kuwait City |
 | [smokeme/payloadGenerator](https://github.com/smokeme/payloadGenerator) | **231** | Kuwait |
+| [NYAN-x-CAT/Disable-Windows-Defender](https://github.com/NYAN-x-CAT/Disable-Windows-Defender) | **225** | Kuwait |
+| [telly/groundy](https://github.com/telly/groundy) | **225** | Kuwait |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -42,8 +42,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 ## Repository-first scan
 
-- Verified high-star candidates retained: **3**
-- Current global star frontier: **260**
+- Verified high-star candidates retained: **4**
+- Current global star frontier: **223**
 
 ### High-star verified preview
 
@@ -54,5 +54,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Dump-GUY/Malware-analysis-and-Reverse-engineering](https://github.com/Dump-GUY/Malware-analysis-and-Reverse-engineering) | **964** | CZE |
 | [easyCZ/grpc-web-hacker-news](https://github.com/easyCZ/grpc-web-hacker-news) | **389** | Prague, CZE |
 | [hgouveia/node-downloader-helper](https://github.com/hgouveia/node-downloader-helper) | **261** | Guatire, Venezuela |
+| [cobisja/tad-php](https://github.com/cobisja/tad-php) | **225** | Bolivarian Republic of Venezuela |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
