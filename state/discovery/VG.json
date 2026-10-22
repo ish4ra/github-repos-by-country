@@ -12,21 +12,143 @@
     "termsTotal": 20
   },
   "phase": "discovery",
-  "nextTermIndex": 4,
-  "activeTerm": null,
+  "nextTermIndex": 10,
+  "activeTerm": {
+    "index": 10,
+    "term": "Road Town",
+    "queue": [
+      {
+        "query": "location:\"Road Town\" type:user followers:0",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Road Town\" type:user followers:1..4",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Road Town\" type:user followers:5..9",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Road Town\" type:user followers:10..24",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Road Town\" type:user followers:25..49",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Road Town\" type:user followers:50..99",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Road Town\" type:user followers:100..249",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Road Town\" type:user followers:250..499",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Road Town\" type:user followers:500..999",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Road Town\" type:user followers:1000..2499",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Road Town\" type:user followers:2500..4999",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Road Town\" type:user followers:5000..9999",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Road Town\" type:user followers:10000..24999",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Road Town\" type:user followers:25000..49999",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Road Town\" type:user followers:>=50000",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Road Town\" type:org",
+        "stage": "type",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      }
+    ],
+    "startedAt": "2026-10-22T17:18:34.408Z",
+    "requests": 2,
+    "leafPages": 0,
+    "shardExpansions": 2,
+    "reportedCount": 1124
+  },
   "discoveryComplete": false,
   "startedAt": "2026-10-04T04:20:00.823Z",
-  "updatedAt": "2026-10-04T04:20:12.789Z",
+  "updatedAt": "2026-10-22T17:18:41.013Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
-    "termsProcessed": 4,
-    "searchRequests": 8,
-    "leafPages": 8,
-    "shardExpansions": 0,
-    "rawOwnerHits": 202,
-    "acceptedOwnerHits": 202,
-    "rejectedOwnerHits": 0,
+    "termsProcessed": 10,
+    "searchRequests": 16,
+    "leafPages": 14,
+    "shardExpansions": 2,
+    "rawOwnerHits": 303,
+    "acceptedOwnerHits": 210,
+    "rejectedOwnerHits": 93,
     "unresolvedShardCount": 0,
     "minimumRateLimitRemaining": 4772
   },
@@ -162,7 +284,8 @@
         "matched": "British Virgin Islands"
       },
       "discoveryTerms": [
-        "British Virgin Islands"
+        "British Virgin Islands",
+        "Road Town"
       ],
       "topRepository": {
         "name": "LowRes",
@@ -855,6 +978,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM3NjEwNDYw",
+      "login": "cryptocurrency",
+      "name": "CryptoCurrency",
+      "type": "User",
+      "location": "Road Town, Tortola, VG1110 BVI ",
+      "url": "https://github.com/cryptocurrency",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/37610460?u=85dbf26a275101054a26b7b8e28fd3452e84a64f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "VG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "road town"
+      },
+      "discoveryTerms": [
+        "Road Town"
+      ],
+      "topRepository": {
+        "name": "cryptocurrency.github.io",
+        "nameWithOwner": "cryptocurrency/cryptocurrency.github.io",
+        "url": "https://github.com/cryptocurrency/cryptocurrency.github.io",
+        "description": null,
+        "stargazerCount": 5,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-04-20T07:47:23Z",
+        "pushedAt": "2018-04-20T10:44:11Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "O_kgDOBsQTNQ",
       "login": "kgen-protocol",
       "name": "KGeN",
@@ -1205,7 +1362,8 @@
         "matched": "British Virgin Islands"
       },
       "discoveryTerms": [
-        "British Virgin Islands"
+        "British Virgin Islands",
+        "Road Town"
       ],
       "topRepository": {
         "name": "cryptounit",
@@ -2078,7 +2236,8 @@
         "matched": "British Virgin Islands"
       },
       "discoveryTerms": [
-        "British Virgin Islands"
+        "British Virgin Islands",
+        "Road Town"
       ],
       "topRepository": {
         "name": "Bazaars-contracts",
