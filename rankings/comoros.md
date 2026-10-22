@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 6%
+## Repository ranking status: Building 11%
 
-- Geography terms processed: **8 / 128**
-- Progress: **6%**
-- Retained high-potential owner candidates: **30**
-- Search requests completed: **8**
+- Geography terms processed: **15 / 128**
+- Progress: **11%**
+- Retained high-potential owner candidates: **39**
+- Search requests completed: **16**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -29,15 +29,15 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [fefe269/git_test](https://github.com/fefe269/git_test) | **1** | comoros |
 | [linkhousni/twominutes](https://github.com/linkhousni/twominutes) | **1** | Moroni - Comoros |
 | [MoneyXGG/crash_v2](https://github.com/MoneyXGG/crash_v2) | **1** | Anjouan |
+| [svnshadow/mango-calculator](https://github.com/svnshadow/mango-calculator) | **1** | Chandra, Gazipur |
 | [yvssineyh269/Flutter_bottom_navigation](https://github.com/yvssineyh269/Flutter_bottom_navigation) | **1** | Moroni, Comoros |
 | [ANADEN-KM/ANADEN-KM.github.io](https://github.com/ANADEN-KM/ANADEN-KM.github.io) | **0** | Moroni, Comoros |
+| [Anamulkk/client-sdk-android](https://github.com/Anamulkk/client-sdk-android) | **0** | Chandra, Kaliakair, Gazipu |
 | [azzhyinc-cloud/waiichia](https://github.com/azzhyinc-cloud/waiichia) | **0** | Comoros |
 | [bossmarksman/bossmarksman](https://github.com/bossmarksman/bossmarksman) | **0** | Comoros (KM) |
 | [Chimiste/prepod](https://github.com/Chimiste/prepod) | **0** | Comoros |
 | [darklightkffe/darklightkffe](https://github.com/darklightkffe/darklightkffe) | **0** | Comoros (KM) |
 | [Darknahayane/test](https://github.com/Darknahayane/test) | **0** | Comoros |
 | [daroussilab88/strapi-nextjs-and-magic-frontend](https://github.com/daroussilab88/strapi-nextjs-and-magic-frontend) | **0** | COMOROS |
-| [data-sas/datasas](https://github.com/data-sas/datasas) | **0** | Comoros |
-| [demzex5/projetTeste](https://github.com/demzex5/projetTeste) | **0** | Comoros |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

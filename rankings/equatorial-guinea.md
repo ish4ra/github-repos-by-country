@@ -8,14 +8,23 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 13%
+## Repository ranking status: Building 27%
 
-- Geography terms processed: **8 / 58**
-- Progress: **13%**
-- Retained high-potential owner candidates: **0**
-- Search requests completed: **8**
+- Geography terms processed: **16 / 58**
+- Progress: **27%**
+- Retained high-potential owner candidates: **2**
+- Search requests completed: **16**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
+
+## Early preview
+
+> These are the strongest repository candidates discovered **so far**. This is not the final country ranking and can change as city, town, district, alias, and search-shard coverage expands.
+
+| Repository | Stars | Owner location |
+| --- | ---: | --- |
+| [carlota-raquel/CARLOTA-RAQUEL-NCHAMA](https://github.com/carlota-raquel/CARLOTA-RAQUEL-NCHAMA) | **0** | Djibloho, Ciudad de la Paz |
+| [Flora-hub251/Plantilla-personal](https://github.com/Flora-hub251/Plantilla-personal) | **0** | GQ-Bioko-Norte/Malabo |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

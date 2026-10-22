@@ -53,28 +53,28 @@ Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a co
 | 🇹🇩 **Chad** | `TD` | 🟡 Building 11% | [Open country page](./chad.md) | — | 22 Oct 2026, 17:21 UTC |
 | 🇨🇱 **Chile** | `CL` | 🟡 Building 0% | [Open country page](./chile.md) | — | 16 Oct 2026, 09:43 UTC |
 | 🇨🇳 **China** | `CN` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./china.md) | 100 | 17 Oct 2026, 01:38 UTC |
-| 🇨🇽 **Christmas Island** | `CX` | 🟡 Building 47% | [Open country page](./christmas-island.md) | — | 08 Oct 2026, 13:49 UTC |
-| 🇨🇨 **Cocos (Keeling) Islands** | `CC` | 🟡 Building 38% | [Open country page](./cocos-keeling-islands.md) | — | 04 Oct 2026, 12:33 UTC |
+| 🇨🇽 **Christmas Island** | `CX` | 🟡 Building 85% | [Open country page](./christmas-island.md) | — | 08 Oct 2026, 13:49 UTC |
+| 🇨🇨 **Cocos (Keeling) Islands** | `CC` | 🟡 Building 76% | [Open country page](./cocos-keeling-islands.md) | — | 22 Oct 2026, 21:42 UTC |
 | 🇨🇴 **Colombia** | `CO` | 🟡 Building 0% | [Open country page](./colombia.md) | — | 16 Oct 2026, 23:48 UTC |
-| 🇰🇲 **Comoros** | `KM` | 🟡 Building 6% | [Open country page](./comoros.md) | — | 04 Oct 2026, 12:33 UTC |
-| 🇨🇰 **Cook Islands** | `CK` | 🟡 Building 38% | [Open country page](./cook-islands.md) | — | 04 Oct 2026, 12:33 UTC |
+| 🇰🇲 **Comoros** | `KM` | 🟡 Building 11% | [Open country page](./comoros.md) | — | 22 Oct 2026, 21:43 UTC |
+| 🇨🇰 **Cook Islands** | `CK` | 🟡 Building 76% | [Open country page](./cook-islands.md) | — | 22 Oct 2026, 21:43 UTC |
 | 🇨🇷 **Costa Rica** | `CR` | 🟡 Building 0% | [Open country page](./costa-rica.md) | — | 16 Oct 2026, 21:29 UTC |
 | 🇨🇮 **Côte d'Ivoire** | `CI` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./cote-d-ivoire.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇭🇷 **Croatia** | `HR` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./croatia.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇨🇺 **Cuba** | `CU` | 🟡 Building 0% | [Open country page](./cuba.md) | — | 04 Oct 2026, 10:01 UTC |
-| 🇨🇼 **Curaçao** | `CW` | 🟡 Building 33% | [Open country page](./curacao.md) | — | 04 Oct 2026, 21:35 UTC |
+| 🇨🇼 **Curaçao** | `CW` | 🟡 Building 77% | [Open country page](./curacao.md) | — | 22 Oct 2026, 21:44 UTC |
 | 🇨🇾 **Cyprus** | `CY` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./cyprus.md) | 100 | 16 Oct 2026, 23:48 UTC |
 | 🇨🇿 **Czechia** | `CZ` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./czechia.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇩🇰 **Denmark** | `DK` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./denmark.md) | 100 | 17 Oct 2026, 01:38 UTC |
-| 🇩🇯 **Djibouti** | `DJ` | 🟡 Building 7% | [Open country page](./djibouti.md) | — | 04 Oct 2026, 21:36 UTC |
-| 🇩🇲 **Dominica** | `DM` | 🟡 Building 33% | [Open country page](./dominica.md) | — | 04 Oct 2026, 21:37 UTC |
+| 🇩🇯 **Djibouti** | `DJ` | 🟡 Building 17% | [Open country page](./djibouti.md) | — | 22 Oct 2026, 21:46 UTC |
+| 🇩🇲 **Dominica** | `DM` | 🟡 Building 71% | [Open country page](./dominica.md) | — | 22 Oct 2026, 21:46 UTC |
 | 🇩🇴 **Dominican Republic** | `DO` | 🟡 Building 0% | [Open country page](./dominican-republic.md) | — | 16 Oct 2026, 21:29 UTC |
 | 🇨🇩 **DR Congo** | `CD` | 🟡 Building 1% | [Open country page](./dr-congo.md) | — | 15 Oct 2026, 00:42 UTC |
 | 🇪🇨 **Ecuador** | `EC` | 🟡 Building 0% | [Open country page](./ecuador.md) | — | 16 Oct 2026, 23:48 UTC |
 | 🇪🇬 **Egypt** | `EG` | 🟡 Building 0% | [Open country page](./egypt.md) | — | 16 Oct 2026, 21:29 UTC |
 | 🇸🇻 **El Salvador** | `SV` | 🟡 Building 0% | [Open country page](./el-salvador.md) | — | 05 Oct 2026, 06:20 UTC |
-| 🇬🇶 **Equatorial Guinea** | `GQ` | 🟡 Building 13% | [Open country page](./equatorial-guinea.md) | — | 04 Oct 2026, 21:38 UTC |
-| 🇪🇷 **Eritrea** | `ER` | 🟡 Building 17% | [Open country page](./eritrea.md) | — | 04 Oct 2026, 21:38 UTC |
+| 🇬🇶 **Equatorial Guinea** | `GQ` | 🟡 Building 27% | [Open country page](./equatorial-guinea.md) | — | 22 Oct 2026, 21:48 UTC |
+| 🇪🇷 **Eritrea** | `ER` | 🟡 Building 34% | [Open country page](./eritrea.md) | — | 22 Oct 2026, 21:48 UTC |
 | 🇪🇪 **Estonia** | `EE` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./estonia.md) | 100 | 16 Oct 2026, 23:48 UTC |
 | 🇸🇿 **Eswatini** | `SZ` | 🟡 Building 1% | [Open country page](./eswatini.md) | — | 16 Oct 2026, 00:34 UTC |
 | 🇪🇹 **Ethiopia** | `ET` | 🟡 Building 0% | [Open country page](./ethiopia.md) | — | 16 Oct 2026, 05:04 UTC |

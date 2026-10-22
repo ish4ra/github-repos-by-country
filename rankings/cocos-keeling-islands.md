@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 38%
+## Repository ranking status: Building 76%
 
-- Geography terms processed: **8 / 21**
-- Progress: **38%**
-- Retained high-potential owner candidates: **8**
-- Search requests completed: **8**
+- Geography terms processed: **16 / 21**
+- Progress: **76%**
+- Retained high-potential owner candidates: **9**
+- Search requests completed: **16**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -32,5 +32,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [epichelloguy/deepjazz](https://github.com/epichelloguy/deepjazz) | **0** | Cocos (Keeling) Islands |
 | [funproxy/Documents](https://github.com/funproxy/Documents) | **0** | Cocos (Keeling) Islands |
 | [lifelikerham/lifelikerham](https://github.com/lifelikerham/lifelikerham) | **0** | Cocos (Keeling) Islands (CC) |
+| [revolloverr/Toys4Us](https://github.com/revolloverr/Toys4Us) | **0** | Montreal \| West Island |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
