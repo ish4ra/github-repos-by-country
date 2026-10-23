@@ -122,25 +122,25 @@ Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a co
 | 🇯🇴 **Jordan** | `JO` | 🟡 Building 0% | [Open country page](./jordan.md) | — | 15 Oct 2026, 22:12 UTC |
 | 🇰🇿 **Kazakhstan** | `KZ` | 🟡 Building 0% | [Open country page](./kazakhstan.md) | — | 16 Oct 2026, 23:48 UTC |
 | 🇰🇪 **Kenya** | `KE` | 🟡 Building 0% | [Open country page](./kenya.md) | — | 16 Oct 2026, 23:48 UTC |
-| 🇰🇮 **Kiribati** | `KI` | 🟡 Building 13% | [Open country page](./kiribati.md) | — | 05 Oct 2026, 14:59 UTC |
+| 🇰🇮 **Kiribati** | `KI` | 🟡 Building 26% | [Open country page](./kiribati.md) | — | 23 Oct 2026, 17:15 UTC |
 | 🇽🇰 **Kosovo** | `XK` | 🟡 Building 0% | [Open country page](./kosovo.md) | — | 16 Oct 2026, 14:20 UTC |
 | 🇰🇼 **Kuwait** | `KW` | 🟡 Building 0% | [Open country page](./kuwait.md) | — | 16 Oct 2026, 18:16 UTC |
 | 🇰🇬 **Kyrgyzstan** | `KG` | 🟡 Building 0% | [Open country page](./kyrgyzstan.md) | — | 16 Oct 2026, 18:16 UTC |
-| 🇱🇦 **Laos** | `LA` | 🟡 Building 0% | [Open country page](./laos.md) | — | 16 Oct 2026, 21:29 UTC |
+| 🇱🇦 **Laos** | `LA` | 🟡 Building 1% | [Open country page](./laos.md) | — | 16 Oct 2026, 21:29 UTC |
 | 🇱🇻 **Latvia** | `LV` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./latvia.md) | 100 | 16 Oct 2026, 23:48 UTC |
-| 🇱🇧 **Lebanon** | `LB` | 🟡 Building 0% | [Open country page](./lebanon.md) | — | 06 Oct 2026, 00:08 UTC |
-| 🇱🇸 **Lesotho** | `LS` | 🟡 Building 0% | [Open country page](./lesotho.md) | — | 12 Oct 2026, 18:58 UTC |
-| 🇱🇷 **Liberia** | `LR` | 🟡 Building 0% | [Open country page](./liberia.md) | — | 06 Oct 2026, 00:09 UTC |
+| 🇱🇧 **Lebanon** | `LB` | 🟡 Building 0% | [Open country page](./lebanon.md) | — | 23 Oct 2026, 17:18 UTC |
+| 🇱🇸 **Lesotho** | `LS` | 🟡 Building 12% | [Open country page](./lesotho.md) | — | 12 Oct 2026, 18:58 UTC |
+| 🇱🇷 **Liberia** | `LR` | 🟡 Building 0% | [Open country page](./liberia.md) | — | 23 Oct 2026, 17:18 UTC |
 | 🇱🇾 **Libya** | `LY` | 🟡 Building 0% | [Open country page](./libya.md) | — | 16 Oct 2026, 23:48 UTC |
-| 🇱🇮 **Liechtenstein** | `LI` | 🟡 Building 3% | [Open country page](./liechtenstein.md) | — | 17 Oct 2026, 01:38 UTC |
+| 🇱🇮 **Liechtenstein** | `LI` | 🟡 Building 31% | [Open country page](./liechtenstein.md) | — | 17 Oct 2026, 01:38 UTC |
 | 🇱🇹 **Lithuania** | `LT` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./lithuania.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇱🇺 **Luxembourg** | `LU` | 🟡 Building 0% | [Open country page](./luxembourg.md) | — | 11 Oct 2026, 01:09 UTC |
 | 🇲🇴 **Macao** | `MO` | 🟡 Building 4% | [Open country page](./macao.md) | — | 16 Oct 2026, 05:04 UTC |
 | 🇲🇬 **Madagascar** | `MG` | 🟡 Building 0% | [Open country page](./madagascar.md) | — | 15 Oct 2026, 22:12 UTC |
-| 🇲🇼 **Malawi** | `MW` | 🟡 Building 0% | [Open country page](./malawi.md) | — | 06 Oct 2026, 00:11 UTC |
+| 🇲🇼 **Malawi** | `MW` | 🟡 Building 0% | [Open country page](./malawi.md) | — | 23 Oct 2026, 17:20 UTC |
 | 🇲🇾 **Malaysia** | `MY` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./malaysia.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇲🇻 **Maldives** | `MV` | 🟡 Building 0% | [Open country page](./maldives.md) | — | 12 Oct 2026, 09:07 UTC |
-| 🇲🇱 **Mali** | `ML` | 🟡 Building 0% | [Open country page](./mali.md) | — | 06 Oct 2026, 00:13 UTC |
+| 🇲🇱 **Mali** | `ML` | 🟡 Building 4% | [Open country page](./mali.md) | — | 23 Oct 2026, 17:21 UTC |
 | 🇲🇹 **Malta** | `MT` | 🟡 Building 0% | [Open country page](./malta.md) | — | 14 Oct 2026, 19:21 UTC |
 | 🇲🇭 **Marshall Islands** | `MH` | 🟡 Building 7% | [Open country page](./marshall-islands.md) | — | 14 Oct 2026, 05:09 UTC |
 | 🇲🇶 **Martinique** | `MQ` | 🟡 Building 10% | [Open country page](./martinique.md) | — | 06 Oct 2026, 00:13 UTC |

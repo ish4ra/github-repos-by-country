@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 0%
+## Repository ranking status: Building 1%
 
-- Geography terms processed: **0 / 201**
-- Progress: **0%**
-- Retained high-potential owner candidates: **313**
-- Search requests completed: **8**
+- Geography terms processed: **3 / 201**
+- Progress: **1%**
+- Retained high-potential owner candidates: **444**
+- Search requests completed: **16**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,6 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
+| [topser9/kernel_samsung_universal7885](https://github.com/topser9/kernel_samsung_universal7885) | **31** | Lao People's Democratic Republic |
 | [dekitproject/ux-ui-promax-skill](https://github.com/dekitproject/ux-ui-promax-skill) | **17** | Laos |
 | [os555/lao-province-district-villages-sql](https://github.com/os555/lao-province-district-villages-sql) | **16** | Laos |
 | [tinbotu/sub](https://github.com/tinbotu/sub) | **11** | ວຽງຈັນ, Laos |
@@ -38,7 +39,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [chanthavong/Vestimate-App-ui](https://github.com/chanthavong/Vestimate-App-ui) | **5** | Vientiane, Laos |
 | [Dan16ssd/deployguard](https://github.com/Dan16ssd/deployguard) | **4** | Vientiane, Laos |
 | [BounkhongDev/go-generator](https://github.com/BounkhongDev/go-generator) | **3** | Vientiane, laos |
-| [drquackky/global-amr-burden-analysis](https://github.com/drquackky/global-amr-burden-analysis) | **3** | Laos |
 
 ## Repository-first scan
 

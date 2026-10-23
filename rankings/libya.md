@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 162**
 - Progress: **0%**
-- Retained high-potential owner candidates: **240**
-- Search requests completed: **8**
+- Retained high-potential owner candidates: **428**
+- Search requests completed: **16**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -28,6 +28,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [tahaak67/Farhan](https://github.com/tahaak67/Farhan) | **214** | Libya |
 | [absholi7ly/POC-CVE-2025-24813](https://github.com/absholi7ly/POC-CVE-2025-24813) | **197** | Libya |
 | [qw46478/BlackHacker](https://github.com/qw46478/BlackHacker) | **143** | Libya |
+| [mared4reall/Floating-Context-Panels](https://github.com/mared4reall/Floating-Context-Panels) | **68** | Ghat, Libya |
 | [Mahamed-Belkheir/qufl](https://github.com/Mahamed-Belkheir/qufl) | **53** | Libya, Benghazi |
 | [torgodly/Html2Media](https://github.com/torgodly/Html2Media) | **48** | libya |
 | [KhawlahElshah/dynamic-relations-includes](https://github.com/KhawlahElshah/dynamic-relations-includes) | **28** | Tripoli, Libya |
@@ -35,10 +36,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Monther-bug/web_project](https://github.com/Monther-bug/web_project) | **14** | Libya |
 | [risc-vee/Pulsr](https://github.com/risc-vee/Pulsr) | **11** | Libya |
 | [abdelsalamshahlol/Toyota-VIN-Decoder-TVD.js](https://github.com/abdelsalamshahlol/Toyota-VIN-Decoder-TVD.js) | **8** | Benghazi, Libya |
+| [DANCH0U/Unity3D-Target-Lock-System](https://github.com/DANCH0U/Unity3D-Target-Lock-System) | **8** | Libya |
 | [getplutu/plutu-laravel](https://github.com/getplutu/plutu-laravel) | **7** | Tripoli, Libya |
 | [khengari77/PyParsec](https://github.com/khengari77/PyParsec) | **7** | Tripoli, Libya |
-| [ayagaidi/libyancityseeds](https://github.com/ayagaidi/libyancityseeds) | **6** |  Tripoli, Libya  |
-| [Mo7ammedXD/Tigerbeetle-studio](https://github.com/Mo7ammedXD/Tigerbeetle-studio) | **6** | Libya |
 
 ## Repository-first scan
 

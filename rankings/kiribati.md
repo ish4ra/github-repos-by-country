@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 13%
+## Repository ranking status: Building 26%
 
-- Geography terms processed: **8 / 60**
-- Progress: **13%**
-- Retained high-potential owner candidates: **22**
-- Search requests completed: **8**
+- Geography terms processed: **16 / 60**
+- Progress: **26%**
+- Retained high-potential owner candidates: **23**
+- Search requests completed: **16**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -32,12 +32,12 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [truneosprinter/tetros](https://github.com/truneosprinter/tetros) | **1** | London, Kiribati |
 | [Aj-Kazza/wdd231](https://github.com/Aj-Kazza/wdd231) | **0** | Kiribati |
 | [byui-riben/dw130](https://github.com/byui-riben/dw130) | **0** | Kiribati |
+| [cl6x/6vhda](https://github.com/cl6x/6vhda) | **0** | banana village |
 | [entrejambe/branlitox](https://github.com/entrejambe/branlitox) | **0** | Kiribati |
 | [James1348/me](https://github.com/James1348/me) | **0** | Banana, Kiribati |
 | [jojoramarsexypanda/jojoramarsexypanda](https://github.com/jojoramarsexypanda/jojoramarsexypanda) | **0** | Kiribati (KI) |
 | [lagerredzilla/lagerredzilla](https://github.com/lagerredzilla/lagerredzilla) | **0** | Kiribati (KI) |
 | [lepatriinukast/kandlekeel](https://github.com/lepatriinukast/kandlekeel) | **0** | Tarawa, Kiribati |
 | [LinsClub1228/IB-math](https://github.com/LinsClub1228/IB-math) | **0** | 5133 ,Edmundo Canyon ,Pokbury ,Oregon ,Kiribati |
-| [mhms-developer/hello-world](https://github.com/mhms-developer/hello-world) | **0** | Tarawa, Kiribati |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
