@@ -18,17 +18,10 @@
     "term": "France",
     "queue": [
       {
-        "query": "location:\"France\" type:user followers:0 repos:1..4 created:2011-01-01..2011-12-31",
-        "stage": "year:2011",
-        "cursor": "Y3Vyc29yOjUw",
-        "pageNumber": 2,
-        "attempts": 0
-      },
-      {
         "query": "location:\"France\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
         "stage": "year:2012",
-        "cursor": null,
-        "pageNumber": 1,
+        "cursor": "Y3Vyc29yOjI1MA==",
+        "pageNumber": 6,
         "attempts": 0
       },
       {
@@ -285,24 +278,24 @@
       }
     ],
     "startedAt": "2026-10-04T21:40:33.867Z",
-    "requests": 8,
-    "leafPages": 4,
+    "requests": 16,
+    "leafPages": 12,
     "shardExpansions": 4,
     "reportedCount": 27003
   },
   "discoveryComplete": false,
   "startedAt": "2026-10-04T21:40:33.867Z",
-  "updatedAt": "2026-10-04T21:40:50.569Z",
+  "updatedAt": "2026-10-23T05:02:00.826Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 8,
-    "leafPages": 4,
+    "searchRequests": 16,
+    "leafPages": 12,
     "shardExpansions": 4,
-    "rawOwnerHits": 256,
+    "rawOwnerHits": 647,
     "acceptedOwnerHits": 0,
-    "rejectedOwnerHits": 256,
+    "rejectedOwnerHits": 647,
     "unresolvedShardCount": 0,
     "minimumRateLimitRemaining": 4825
   },
