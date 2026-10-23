@@ -12,40 +12,23 @@
     "termsTotal": 97
   },
   "phase": "discovery",
-  "nextTermIndex": 0,
-  "activeTerm": {
-    "index": 0,
-    "term": "Mali",
-    "queue": [
-      {
-        "query": "location:\"Mali\"",
-        "stage": "base",
-        "cursor": "Y3Vyc29yOjQwMA==",
-        "pageNumber": 9,
-        "attempts": 0
-      }
-    ],
-    "startedAt": "2026-10-06T00:12:40.272Z",
-    "requests": 8,
-    "leafPages": 8,
-    "shardExpansions": 0,
-    "reportedCount": null
-  },
+  "nextTermIndex": 4,
+  "activeTerm": null,
   "discoveryComplete": false,
   "startedAt": "2026-10-06T00:12:40.272Z",
-  "updatedAt": "2026-10-06T00:13:04.654Z",
+  "updatedAt": "2026-10-23T17:21:48.523Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
-    "termsProcessed": 0,
-    "searchRequests": 8,
-    "leafPages": 8,
+    "termsProcessed": 4,
+    "searchRequests": 16,
+    "leafPages": 16,
     "shardExpansions": 0,
-    "rawOwnerHits": 400,
-    "acceptedOwnerHits": 393,
-    "rejectedOwnerHits": 7,
+    "rawOwnerHits": 645,
+    "acceptedOwnerHits": 630,
+    "rejectedOwnerHits": 15,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4889
+    "minimumRateLimitRemaining": 4870
   },
   "unresolvedShards": [],
   "candidates": [
@@ -603,6 +586,40 @@
       }
     },
     {
+      "id": "U_kgDODTXqQw",
+      "login": "user0000111222sey",
+      "name": "Blendgenious",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/user0000111222sey",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/221637187?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "Morse_translator-TERMUX",
+        "nameWithOwner": "user0000111222sey/Morse_translator-TERMUX",
+        "url": "https://github.com/user0000111222sey/Morse_translator-TERMUX",
+        "description": "Translate message into morse code and output via flashlight",
+        "stargazerCount": 5,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-12T01:30:03Z",
+        "pushedAt": "2026-08-12T01:51:08Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "O_kgDOBl5TMQ",
       "login": "0xInDev",
       "name": "InDev Group",
@@ -894,6 +911,45 @@
           "name": "Python"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjQ0NzM4NDY5",
+      "login": "lynn-eRP",
+      "name": "Lynn ERP Solutions",
+      "type": "Organization",
+      "location": "Mali",
+      "url": "https://github.com/lynn-eRP",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/44738469?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "cockpit_client",
+        "nameWithOwner": "lynn-eRP/cockpit_client",
+        "url": "https://github.com/lynn-eRP/cockpit_client",
+        "description": null,
+        "stargazerCount": 3,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-07-10T16:40:07Z",
+        "pushedAt": "2022-02-26T15:10:38Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Dart"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -1369,6 +1425,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDODDkCgQ",
+      "login": "African-Dawn-Remaster-Team",
+      "name": "African Dawn Remaster Team",
+      "type": "Organization",
+      "location": "Mali",
+      "url": "https://github.com/African-Dawn-Remaster-Team",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/205062785?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "african-dawn-remastered",
+        "nameWithOwner": "African-Dawn-Remaster-Team/african-dawn-remastered",
+        "url": "https://github.com/African-Dawn-Remaster-Team/african-dawn-remastered",
+        "description": "The public repository of the African Dawn Remastered mod for HOI4",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-03-26T17:14:18Z",
+        "pushedAt": "2025-04-02T12:25:11Z",
+        "homepageUrl": "https://afrinz.ru/africandawn/",
+        "primaryLanguage": {
+          "name": "HLSL"
         },
         "licenseInfo": null
       }
@@ -2393,6 +2485,40 @@
       }
     },
     {
+      "id": "U_kgDOCPbchA",
+      "login": "aziz7321",
+      "name": "abdoulaziz-data",
+      "type": "User",
+      "location": "Bamako Mali",
+      "url": "https://github.com/aziz7321",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/150396036?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "Analyse-Superstore",
+        "nameWithOwner": "aziz7321/Analyse-Superstore",
+        "url": "https://github.com/aziz7321/Analyse-Superstore",
+        "description": "Projet d'analyse des données d'un superstore américain",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-02-23T00:30:31Z",
+        "pushedAt": "2026-02-24T16:09:27Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjg5OTc3ODg2",
       "login": "BAGA07",
       "name": "Aboubacar Arouna BAGAYOKO",
@@ -2571,6 +2697,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjczNTU1MTQz",
+      "login": "dcsambaa",
+      "name": "dcsambaa",
+      "type": "User",
+      "location": "Bamako/Mali, Hippodrome",
+      "url": "https://github.com/dcsambaa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73555143?u=3c27d5601b9bff8cdbda54fed8d71c61926f2d70&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "tmdev",
+        "nameWithOwner": "dcsambaa/tmdev",
+        "url": "https://github.com/dcsambaa/tmdev",
+        "description": "Premier site de TMDev",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-06-08T15:30:42Z",
+        "pushedAt": "2021-06-08T15:49:54Z",
+        "homepageUrl": "https://dcsamba.github.io/tmdev/",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDODj2oEg",
       "login": "ddevle9761-creator",
       "name": "Devle ",
@@ -2602,6 +2764,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "CSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODj2oEg",
+      "login": "devle-coder",
+      "name": "Devle ",
+      "type": "User",
+      "location": "Mali ",
+      "url": "https://github.com/devle-coder",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/238921746?u=e0873e7d13a511ab36c0bffcc18ef21d6bd19b0a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "downloader",
+        "nameWithOwner": "devle-coder/downloader",
+        "url": "https://github.com/devle-coder/downloader",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-21T10:17:53Z",
+        "pushedAt": "2026-10-22T23:27:05Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
         },
         "licenseInfo": null
       }
@@ -2793,6 +2991,40 @@
       }
     },
     {
+      "id": "U_kgDOBp1MeA",
+      "login": "FilyMSakine",
+      "name": "Fily Mohamed Sakine",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/FilyMSakine",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/110972024?u=6c16b28a0cdb660ee05c8232e2615d7e2277923e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "FilyMSakine",
+        "nameWithOwner": "FilyMSakine/FilyMSakine",
+        "url": "https://github.com/FilyMSakine/FilyMSakine",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-08-10T08:59:00Z",
+        "pushedAt": "2023-02-20T13:13:01Z",
+        "homepageUrl": "https://github.com/FilyMSakine",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCW9OXA",
       "login": "fombasouleymane",
       "name": "Souleymane Fomba",
@@ -2893,6 +3125,42 @@
         "pushedAt": "2023-03-10T21:28:10Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCrahPg",
+      "login": "Hamady794",
+      "name": "Hamady SISSOKO",
+      "type": "User",
+      "location": "Bamako, Mali",
+      "url": "https://github.com/Hamady794",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/179740990?u=04cc655840957e858b90492976b80f4e7fd85dbe&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "dhis2-vaccination-data-mart-demo",
+        "nameWithOwner": "Hamady794/dhis2-vaccination-data-mart-demo",
+        "url": "https://github.com/Hamady794/dhis2-vaccination-data-mart-demo",
+        "description": "ipeline de données de vaccination (DHIS2 demo) vers BigQuery, avec tables gold, contrôles qualité et tableau de bord Looker Studio.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-22T18:53:55Z",
+        "pushedAt": "2026-10-23T10:22:45Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
         "licenseInfo": null
       }
     },
@@ -3508,6 +3776,78 @@
       }
     },
     {
+      "id": "U_kgDOD46_5w",
+      "login": "maigasoumaguel1-tech",
+      "name": "Leader Maiga ",
+      "type": "User",
+      "location": "Bamako Mali (FSEG)",
+      "url": "https://github.com/maigasoumaguel1-tech",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/261013479?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "malicut-",
+        "nameWithOwner": "maigasoumaguel1-tech/malicut-",
+        "url": "https://github.com/maigasoumaguel1-tech/malicut-",
+        "description": "MaliCut consiste à faire des montages vidéos pro, concevoir des images de qualité et permet des publié des contenus vidéo, Audio et photos ",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-10T00:13:16Z",
+        "pushedAt": "2026-10-06T16:55:59Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjc0MjA0NzI=",
+      "login": "MALINUSE",
+      "name": "MALINUSE",
+      "type": "Organization",
+      "location": "Mali",
+      "url": "https://github.com/MALINUSE",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7420472?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "limama",
+        "nameWithOwner": "MALINUSE/limama",
+        "url": "https://github.com/MALINUSE/limama",
+        "description": "website for limama",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-12-15T07:26:35Z",
+        "pushedAt": "2015-12-15T07:45:38Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Ruby"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjYxOTA4OTA2",
       "login": "malladev",
       "name": "Mohamed Lamine KONE",
@@ -3687,6 +4027,45 @@
         "licenseInfo": {
           "name": "MIT License",
           "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOBXbIAA",
+      "login": "modibokniare",
+      "name": "Modibo Kane NIARE",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/modibokniare",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/91670528?u=d7d1430da73987b598b0c3a98d5a5d541eaa393a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "ebm_search",
+        "nameWithOwner": "modibokniare/ebm_search",
+        "url": "https://github.com/modibokniare/ebm_search",
+        "description": "Application de gestion documentaire avec recherche full-text",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-04-11T18:36:10Z",
+        "pushedAt": "2025-04-21T00:21:51Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
         }
       }
     },
@@ -4009,6 +4388,40 @@
       }
     },
     {
+      "id": "U_kgDOBX5cUQ",
+      "login": "Osoboy-hacker",
+      "name": "Oso Boyÿ",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/Osoboy-hacker",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/92167249?u=d10bf7fed6f2125069e6276f2d4d86373435e3e8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "Osoboy-hacker",
+        "nameWithOwner": "Osoboy-hacker/Osoboy-hacker",
+        "url": "https://github.com/Osoboy-hacker/Osoboy-hacker",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-10-08T13:49:23Z",
+        "pushedAt": "2021-10-08T13:49:23Z",
+        "homepageUrl": "https://github.com/Osoboy-hacker",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "O_kgDOEcIb4w",
       "login": "SahelBridge",
       "name": "SahelBridge",
@@ -4149,6 +4562,42 @@
       }
     },
     {
+      "id": "U_kgDOExLMCg",
+      "login": "seydoudoum",
+      "name": "seydou",
+      "type": "User",
+      "location": "bko mali",
+      "url": "https://github.com/seydoudoum",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/319998986?u=e3556224b173b1c1dee5909e57069b20bd812045&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "mande-sugu",
+        "nameWithOwner": "seydoudoum/mande-sugu",
+        "url": "https://github.com/seydoudoum/mande-sugu",
+        "description": "Marketplace en ligne du Mandé - Flutter Web",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-27T02:05:11Z",
+        "pushedAt": "2026-09-28T14:45:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Dart"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDODZFQfw",
       "login": "sidibemallet8-sudo",
       "name": "Malet Sidibe",
@@ -4263,6 +4712,42 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "U_kgDOCliNQg",
+      "login": "togo75",
+      "name": "John Togo75",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/togo75",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/173575490?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "Projet-Agricash",
+        "nameWithOwner": "togo75/Projet-Agricash",
+        "url": "https://github.com/togo75/Projet-Agricash",
+        "description": "Les projets FinTech agricoles combinent technologie financière et agriculture pour améliorer l’accès au financement, sécuriser les paiements et optimiser la gestion des exploitations agricoles.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-02-23T15:34:49Z",
+        "pushedAt": "2026-07-20T18:55:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -4408,6 +4893,40 @@
           "name": "BSD 3-Clause \"New\" or \"Revised\" License",
           "spdxId": "BSD-3-Clause"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYxMjMxNzQy",
+      "login": "1963-a11y",
+      "name": "Adama SANOGO",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/1963-a11y",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/61231742?u=e8427f59c8d51c5c2ff350673e86397d811d2424&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "SIA",
+        "nameWithOwner": "1963-a11y/SIA",
+        "url": "https://github.com/1963-a11y/SIA",
+        "description": "Project to build classrooms, equipment, directions, latrines, drinking water point.",
+        "stargazerCount": 0,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-02-19T11:25:23Z",
+        "pushedAt": "2020-02-19T11:59:25Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
       }
     },
     {
@@ -4585,6 +5104,120 @@
       }
     },
     {
+      "id": "U_kgDOCnGf0w",
+      "login": "Aboubakrh",
+      "name": "Aboubacar Togola",
+      "type": "User",
+      "location": "Bamako Mali",
+      "url": "https://github.com/Aboubakrh",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/175218643?u=c51b5c43d133cd74cfa50b04314cb6d446a02cbd&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "kalansoft",
+        "nameWithOwner": "Aboubakrh/kalansoft",
+        "url": "https://github.com/Aboubakrh/kalansoft",
+        "description": "projet de fin de cycle : ERP scolaire adapté à la réalité maliennne",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-20T16:54:59Z",
+        "pushedAt": "2026-10-13T08:40:34Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Blade"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjcwMDQ5NTc5",
+      "login": "accordmin",
+      "name": "Accord Bit",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/accordmin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/70049579?u=e8940900fe9b20f36bf92ac7795581f579fc3eae&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "saiboi",
+        "nameWithOwner": "accordmin/saiboi",
+        "url": "https://github.com/accordmin/saiboi",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-09-16T12:51:36Z",
+        "pushedAt": "2020-09-16T13:00:34Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOEFNbKw",
+      "login": "adouflaws",
+      "name": "Stonedev",
+      "type": "User",
+      "location": "Bamako, Mali",
+      "url": "https://github.com/adouflaws",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/273898283?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "djastice",
+        "nameWithOwner": "adouflaws/djastice",
+        "url": "https://github.com/adouflaws/djastice",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-24T09:15:22Z",
+        "pushedAt": "2026-07-24T15:57:06Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "O_kgDODuNGrQ",
       "login": "agentsia223",
       "name": "AGENTSIA",
@@ -4722,6 +5355,40 @@
         "isFork": false,
         "createdAt": "2023-09-26T10:12:48Z",
         "pushedAt": "2023-09-26T11:11:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCQ5ziw",
+      "login": "Aissatha",
+      "name": null,
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/Aissatha",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/151942027?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "studenta",
+        "nameWithOwner": "Aissatha/studenta",
+        "url": "https://github.com/Aissatha/studenta",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-05T23:13:37Z",
+        "pushedAt": "2026-04-05T23:13:38Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -4929,9 +5596,11 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2025-09-03T11:29:58Z",
-        "pushedAt": "2025-09-03T11:29:58Z",
+        "pushedAt": "2026-10-07T22:04:33Z",
         "homepageUrl": null,
-        "primaryLanguage": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
         "licenseInfo": {
           "name": "The Unlicense",
           "spdxId": "Unlicense"
@@ -5007,6 +5676,40 @@
         "primaryLanguage": {
           "name": "Dart"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU3NDQwMTEy",
+      "login": "Amadou-lab",
+      "name": "Amadou Diabate",
+      "type": "User",
+      "location": "Bamako, Mali",
+      "url": "https://github.com/Amadou-lab",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/57440112?u=9275e914522b34a1a40579f1ad277e9a0db689f5&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "MaliTrek",
+        "nameWithOwner": "Amadou-lab/MaliTrek",
+        "url": "https://github.com/Amadou-lab/MaliTrek",
+        "description": "Tourism web & mobile platform connecting travelers and local guides in Mali",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-21T13:56:55Z",
+        "pushedAt": "2026-05-21T14:42:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -5508,6 +6211,42 @@
       }
     },
     {
+      "id": "U_kgDOBhjVPA",
+      "login": "asycudamali",
+      "name": "Sydonia Mali",
+      "type": "User",
+      "location": "Bamako, Mali",
+      "url": "https://github.com/asycudamali",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/102290748?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "prod_asytax",
+        "nameWithOwner": "asycudamali/prod_asytax",
+        "url": "https://github.com/asycudamali/prod_asytax",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-03-24T11:12:02Z",
+        "pushedAt": "2022-03-24T11:12:56Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "O_kgDOESeiUA",
       "login": "axiora-dev",
       "name": "axiora",
@@ -5791,6 +6530,45 @@
       }
     },
     {
+      "id": "U_kgDODblY_w",
+      "login": "belibara",
+      "name": null,
+      "type": "User",
+      "location": "Mali/Global",
+      "url": "https://github.com/belibara",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/230250751?u=bbef0f6e8a789e9ced7f497f61e61022a645b266&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "belibara-token",
+        "nameWithOwner": "belibara/belibara-token",
+        "url": "https://github.com/belibara/belibara-token",
+        "description": "Smart contract officiel du Belibara (BLB) + documentation & ressources.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-09-03T21:49:18Z",
+        "pushedAt": "2025-09-03T22:50:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Solidity"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjcwNzAxNTc5",
       "login": "Benjamin-Bah",
       "name": "Benj",
@@ -5821,6 +6599,117 @@
         "pushedAt": "2024-12-09T17:52:50Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCz_HJA",
+      "login": "berthesory",
+      "name": "Sory",
+      "type": "User",
+      "location": "Bamako, Mali",
+      "url": "https://github.com/berthesory",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/188729124?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "splunk-security-monitoring-lab",
+        "nameWithOwner": "berthesory/splunk-security-monitoring-lab",
+        "url": "https://github.com/berthesory/splunk-security-monitoring-lab",
+        "description": "Reproducible June 2026 Splunk security monitoring lab with detection-as-code and resilience validation",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-28T10:31:16Z",
+        "pushedAt": "2026-08-28T19:40:08Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "U_kgDODCFt3A",
+      "login": "BILL896",
+      "name": "Bill Tech",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/BILL896",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/203517404?u=ca2d9a8ca2adb5b10f409e1e13854a13eaa8d62f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "Check-Num-WhatsApp",
+        "nameWithOwner": "BILL896/Check-Num-WhatsApp",
+        "url": "https://github.com/BILL896/Check-Num-WhatsApp",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-12-11T22:05:18Z",
+        "pushedAt": "2025-12-11T22:05:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOC8UWPQ",
+      "login": "Black-Ezek",
+      "name": "Ezekiel Abenama Yamba SAIDU",
+      "type": "User",
+      "location": "Bamako, Mali",
+      "url": "https://github.com/Black-Ezek",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/197465661?u=7abc8ccc965b2e3d769a933277591a74743fe05d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "Calculatrice",
+        "nameWithOwner": "Black-Ezek/Calculatrice",
+        "url": "https://github.com/Black-Ezek/Calculatrice",
+        "description": "Dans le dépôt, il y'a deux calculatrices mais qui n'ont pas été faites de la même manière.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-28T08:58:38Z",
+        "pushedAt": "2026-01-28T09:28:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
         "licenseInfo": null
       }
     },
@@ -5857,6 +6746,40 @@
         "primaryLanguage": {
           "name": "HTML"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODaBpPA",
+      "login": "bouachoco",
+      "name": "Mamary Coulibaly",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/bouachoco",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/228616508?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "Mamary-Coulibaly-",
+        "nameWithOwner": "bouachoco/Mamary-Coulibaly-",
+        "url": "https://github.com/bouachoco/Mamary-Coulibaly-",
+        "description": "Le travail fait du bien ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-08-29T01:05:34Z",
+        "pushedAt": "2025-08-29T01:05:34Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -6035,6 +6958,40 @@
       }
     },
     {
+      "id": "U_kgDOFJWKXQ",
+      "login": "c-seydouba",
+      "name": "Seydou BA",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/c-seydouba",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/345344605?u=1199f48df5484a76d8477f54d89dc6b415c37135&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "hospital-network-infrastructure",
+        "nameWithOwner": "c-seydouba/hospital-network-infrastructure",
+        "url": "https://github.com/c-seydouba/hospital-network-infrastructure",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-20T13:34:59Z",
+        "pushedAt": "2026-10-20T16:37:52Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjM3MjY4OTk4",
       "login": "cameleonRuoi",
       "name": "Moussa",
@@ -6139,6 +7096,42 @@
       }
     },
     {
+      "id": "U_kgDOEnMMJg",
+      "login": "Cheickfox",
+      "name": "Cheick Ahmed K Keita",
+      "type": "User",
+      "location": "📍Bamako, Mali",
+      "url": "https://github.com/Cheickfox",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/309529638?u=8054a0d26a26f5ed5c867481dd50a315d8a4bd8a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "C-programming",
+        "nameWithOwner": "Cheickfox/C-programming",
+        "url": "https://github.com/Cheickfox/C-programming",
+        "description": "Collection of my C progamming projects and exercises.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-27T16:21:38Z",
+        "pushedAt": "2026-07-27T16:42:46Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOC3tMOQ",
       "login": "Cheickne-Kanoute",
       "name": "Cheickne Kanoute",
@@ -6204,6 +7197,40 @@
         "createdAt": "2022-05-31T17:55:44Z",
         "pushedAt": "2022-05-31T17:55:45Z",
         "homepageUrl": "https://github.com/chenonzltan",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOFJlNkg",
+      "login": "chikaone718-tech",
+      "name": "CHIKA ONE AI",
+      "type": "User",
+      "location": "MALI",
+      "url": "https://github.com/chikaone718-tech",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/345591186?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "CHIKA-OneAi",
+        "nameWithOwner": "chikaone718-tech/CHIKA-OneAi",
+        "url": "https://github.com/chikaone718-tech/CHIKA-OneAi",
+        "description": "Mon application d'intelligence artificielle éducative Visibilité Choisis Public pour commencer facilement. Initialisation Coche Add a README file si cette option apparaît.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-21T02:32:33Z",
+        "pushedAt": "2026-10-21T02:32:35Z",
+        "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
       }
@@ -6315,6 +7342,40 @@
           "name": "Apache License 2.0",
           "spdxId": "Apache-2.0"
         }
+      }
+    },
+    {
+      "id": "U_kgDODz1IwA",
+      "login": "codecraft-haidara",
+      "name": "Almamy Aly Haïdara",
+      "type": "User",
+      "location": "Bamako/Mali",
+      "url": "https://github.com/codecraft-haidara",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/255674560?u=8aae4128723c3c56be471e6df37d4d7e6f82f7f1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "monitoring-grafana-stack",
+        "nameWithOwner": "codecraft-haidara/monitoring-grafana-stack",
+        "url": "https://github.com/codecraft-haidara/monitoring-grafana-stack",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-18T14:36:34Z",
+        "pushedAt": "2026-03-18T14:43:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
       }
     },
     {
@@ -6497,6 +7558,42 @@
       }
     },
     {
+      "id": "U_kgDOCamwPQ",
+      "login": "DamaSangare",
+      "name": "Dama SANGARE",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/DamaSangare",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/162115645?u=5d077e831ec9fdd2d7c5d2de10c3afe2576e4606&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "movies_analytics",
+        "nameWithOwner": "DamaSangare/movies_analytics",
+        "url": "https://github.com/DamaSangare/movies_analytics",
+        "description": "Analyse et visualisation des données cinématographiques : exploration via SDK et Jupyter, création d’une app interactive avec Streamlit, enrichissement des données avec affiches et liens IMDb via l’API OMDb.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-07-14T12:37:39Z",
+        "pushedAt": "2025-08-06T11:42:16Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDEyOk9yZ2FuaXphdGlvbjI3ODYyNjAz",
       "login": "Damp-Consulting",
       "name": "Sékou Diabaté",
@@ -6563,6 +7660,40 @@
         "primaryLanguage": {
           "name": "JavaScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCutw7g",
+      "login": "darkangelwebshot",
+      "name": null,
+      "type": "User",
+      "location": "Mali (ML)",
+      "url": "https://github.com/darkangelwebshot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/183202030?u=ea1ef2aeaae3b9c23d33d8b41e317f78183fbb2d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "darkangelwebshot",
+        "nameWithOwner": "darkangelwebshot/darkangelwebshot",
+        "url": "https://github.com/darkangelwebshot/darkangelwebshot",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-28T10:59:48Z",
+        "pushedAt": "2024-09-28T11:00:16Z",
+        "homepageUrl": "https://github.com/darkangelwebshot",
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -6780,6 +7911,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM5Mzc1Nzk1",
+      "login": "DevComputerLove",
+      "name": "MODIBO NIARE",
+      "type": "User",
+      "location": "MALI BAMAKO",
+      "url": "https://github.com/DevComputerLove",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39375795?u=87ccd514b03328305bec7868ada7ecfc0400b8d8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "NIARETECH",
+        "nameWithOwner": "DevComputerLove/NIARETECH",
+        "url": "https://github.com/DevComputerLove/NIARETECH",
+        "description": "my private project folder",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-05-23T11:53:48Z",
+        "pushedAt": "2018-05-23T11:53:49Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCzB0QQ",
       "login": "devdiagui",
       "name": "Mahatma Diagui",
@@ -6949,11 +8114,45 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-09-28T22:25:29Z",
-        "pushedAt": "2026-10-02T14:11:52Z",
+        "pushedAt": "2026-10-19T17:54:34Z",
         "homepageUrl": "https://diako-stock.vercel.app",
         "primaryLanguage": {
           "name": "TypeScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU5NzM5Nzc0",
+      "login": "Diango700",
+      "name": "Diango700",
+      "type": "User",
+      "location": "MALI",
+      "url": "https://github.com/Diango700",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/59739774?u=dfb2a0f4c9233ad9924d042b49614151ff926c14&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "KALI",
+        "nameWithOwner": "Diango700/KALI",
+        "url": "https://github.com/Diango700/KALI",
+        "description": "Study",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-01-10T15:49:51Z",
+        "pushedAt": "2020-01-10T15:49:53Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -7314,6 +8513,78 @@
       }
     },
     {
+      "id": "U_kgDOFH-y4g",
+      "login": "Draken-dg",
+      "name": "Daga Mamadou DEMBELE",
+      "type": "User",
+      "location": "Bamako, Mali",
+      "url": "https://github.com/Draken-dg",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/343913186?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "portfolio",
+        "nameWithOwner": "Draken-dg/portfolio",
+        "url": "https://github.com/Draken-dg/portfolio",
+        "description": "CV en ligne dans le cade de l'atelier IAM-code-to-career",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-17T11:10:07Z",
+        "pushedAt": "2026-10-23T10:35:33Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc2NDA1ODE1",
+      "login": "drasdoumbia",
+      "name": "Dramane Doumbia",
+      "type": "User",
+      "location": "Bamako, Mali",
+      "url": "https://github.com/drasdoumbia",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/76405815?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "todo-app",
+        "nameWithOwner": "drasdoumbia/todo-app",
+        "url": "https://github.com/drasdoumbia/todo-app",
+        "description": "Todo app from third party api.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-02-04T11:51:28Z",
+        "pushedAt": "2021-02-04T15:55:54Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Dart"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBfQh9Q",
       "login": "dsekou166",
       "name": "Sékou DIAKITE",
@@ -7345,6 +8616,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODPls8A",
+      "login": "DTECHT223",
+      "name": "Sory Ibrahim Diarra",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/DTECHT223",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/217672944?u=820a8e6f040256f67829130b7009ea4be7569c63&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "premierprojet",
+        "nameWithOwner": "DTECHT223/premierprojet",
+        "url": "https://github.com/DTECHT223/premierprojet",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-11-16T20:32:55Z",
+        "pushedAt": "2025-11-16T21:20:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
         },
         "licenseInfo": null
       }
@@ -7422,6 +8729,42 @@
       }
     },
     {
+      "id": "O_kgDOB4EWmQ",
+      "login": "edgemali",
+      "name": "ML at the Edge",
+      "type": "Organization",
+      "location": "Mali",
+      "url": "https://github.com/edgemali",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/125900441?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "edgemali.github.io",
+        "nameWithOwner": "edgemali/edgemali.github.io",
+        "url": "https://github.com/edgemali/edgemali.github.io",
+        "description": "Main Website for Edge Mali workshop",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-03-14T17:41:12Z",
+        "pushedAt": "2023-06-11T16:35:04Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjU2NjkxMjYw",
       "login": "elbmaiga",
       "name": "Baba Elhadj Maiga",
@@ -7452,6 +8795,42 @@
         "pushedAt": "2020-12-21T15:05:37Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOE_FyvA",
+      "login": "electroniquesogobasolution-design",
+      "name": "Electronique S S",
+      "type": "User",
+      "location": "Magnambougou, Bamako, Mali",
+      "url": "https://github.com/electroniquesogobasolution-design",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/334590652?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "electronique-sogoba-solution",
+        "nameWithOwner": "electroniquesogobasolution-design/electronique-sogoba-solution",
+        "url": "https://github.com/electroniquesogobasolution-design/electronique-sogoba-solution",
+        "description": "Site officiel de la boutique Électronique Sogoba Solution — matériels électroniques, téléphones et accessoires.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-28T03:31:41Z",
+        "pushedAt": "2026-09-29T06:41:14Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
         "licenseInfo": null
       }
     },
@@ -7526,6 +8905,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjg5MjgwNTM=",
+      "login": "enzosuma",
+      "name": "Enzo",
+      "type": "User",
+      "location": "Bamako, Mali",
+      "url": "https://github.com/enzosuma",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8928053?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "datasciencecoursera",
+        "nameWithOwner": "enzosuma/datasciencecoursera",
+        "url": "https://github.com/enzosuma/datasciencecoursera",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-01-14T15:58:31Z",
+        "pushedAt": "2015-01-14T15:58:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI0NjA3Mzkz",
       "login": "Fakoly",
       "name": "Fakoly",
@@ -7559,6 +8972,45 @@
           "name": "Jupyter Notebook"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODn3NxA",
+      "login": "familyalasko7-lang",
+      "name": "Lassana DIARRA",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/familyalasko7-lang",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/243125700?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "my_final_projet",
+        "nameWithOwner": "familyalasko7-lang/my_final_projet",
+        "url": "https://github.com/familyalasko7-lang/my_final_projet",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-12-22T10:54:54Z",
+        "pushedAt": "2025-12-22T11:09:44Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -7811,6 +9263,78 @@
       }
     },
     {
+      "id": "U_kgDODn3ihw",
+      "login": "fere-molambo",
+      "name": "Fere App",
+      "type": "User",
+      "location": "Bamako, Mali",
+      "url": "https://github.com/fere-molambo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/243131015?u=e6cc52b99c9169569861cc6d614d4fde52cd58e1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "fere-mobile-app",
+        "nameWithOwner": "fere-molambo/fere-mobile-app",
+        "url": "https://github.com/fere-molambo/fere-mobile-app",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-02-28T03:30:11Z",
+        "pushedAt": "2026-10-13T19:35:35Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOCC8DTA",
+      "login": "firmdigital",
+      "name": "FIRM DIGITAL SARL",
+      "type": "Organization",
+      "location": "Mali",
+      "url": "https://github.com/firmdigital",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/137298764?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "website",
+        "nameWithOwner": "firmdigital/website",
+        "url": "https://github.com/firmdigital/website",
+        "description": "Bienvenue dans le référentiel GitHub du site web de FIRM DIGITAL, une entreprise spécialisée dans le développement d'applications web et mobile, la création graphique, et bien plus encore.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-02-10T13:29:26Z",
+        "pushedAt": "2024-09-21T15:01:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQ3NDM3NTIz",
       "login": "Flex94i",
       "name": "Ibrahim Samake",
@@ -7909,6 +9433,115 @@
         "pushedAt": "2016-11-02T09:57:22Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOENJRKA",
+      "login": "Forex-Afrique",
+      "name": "Forex-Afrique",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/Forex-Afrique",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/282218792?u=edc3c5216aeb0d78859aea3c584fce540473f7d5&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "sahellia-initiative",
+        "nameWithOwner": "Forex-Afrique/sahellia-initiative",
+        "url": "https://github.com/Forex-Afrique/sahellia-initiative",
+        "description": "Sahelia Initiative: Blockchain-based development finance platform channeling diaspora remittances into verified rural infrastructure projects using Stellar and Soroban smart contracts. By Forex-Afrique (Mali).",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-20T15:33:03Z",
+        "pushedAt": "2026-07-20T16:59:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYzNDk3NzA4",
+      "login": "fousscience",
+      "name": "foussztogola",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/fousscience",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/63497708?u=5e489ed3f3aaf1d3c7f08a64fed79dd2f81871f6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "gridev",
+        "nameWithOwner": "fousscience/gridev",
+        "url": "https://github.com/fousscience/gridev",
+        "description": "Site web ONG GRIDev — Next.js + Sanity",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-19T12:50:01Z",
+        "pushedAt": "2026-07-20T14:29:25Z",
+        "homepageUrl": "https://gridev-amber.vercel.app",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI1NjA5OTY2",
+      "login": "FoussDEM",
+      "name": "fousseyni",
+      "type": "User",
+      "location": "Bamako, Mali",
+      "url": "https://github.com/FoussDEM",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25609966?u=de35c1ea5a1929d0c4dd3659ce924123476476fa&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "malipark",
+        "nameWithOwner": "FoussDEM/malipark",
+        "url": "https://github.com/FoussDEM/malipark",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-10-04T18:52:31Z",
+        "pushedAt": "2020-10-04T20:14:00Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
         "licenseInfo": null
       }
     },
@@ -8017,6 +9650,42 @@
       }
     },
     {
+      "id": "U_kgDODLjf8w",
+      "login": "geek-Konate",
+      "name": "Mamadou KONATE",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/geek-Konate",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/213442547?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "portfolio",
+        "nameWithOwner": "geek-Konate/portfolio",
+        "url": "https://github.com/geek-Konate/portfolio",
+        "description": "mon portfolio",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-18T19:53:19Z",
+        "pushedAt": "2026-10-18T22:00:12Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCQJtsw",
       "login": "georgedakouo",
       "name": "george",
@@ -8046,6 +9715,40 @@
         "createdAt": "2024-01-17T23:59:41Z",
         "pushedAt": "2024-01-17T23:59:41Z",
         "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBhbtcw",
+      "login": "Gilles-AnaizanGroup",
+      "name": "Gilles KPANOU - Anaizan",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/Gilles-AnaizanGroup",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/102165875?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "Gilles-AnaizanGroup",
+        "nameWithOwner": "Gilles-AnaizanGroup/Gilles-AnaizanGroup",
+        "url": "https://github.com/Gilles-AnaizanGroup/Gilles-AnaizanGroup",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-03-26T17:47:10Z",
+        "pushedAt": "2022-03-26T17:47:10Z",
+        "homepageUrl": "https://github.com/Gilles-AnaizanGroup",
         "primaryLanguage": null,
         "licenseInfo": null
       }
@@ -8121,6 +9824,77 @@
       }
     },
     {
+      "id": "U_kgDOC5cfCw",
+      "login": "Green-fad",
+      "name": "Greenfad",
+      "type": "User",
+      "location": "Bamako,Mali ",
+      "url": "https://github.com/Green-fad",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/194453259?u=3f8b6ba33f13497c849e6acac03e8384448ca186&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "cloudforge-e2e-cappsh",
+        "nameWithOwner": "Green-fad/cloudforge-e2e-cappsh",
+        "url": "https://github.com/Green-fad/cloudforge-e2e-cappsh",
+        "description": "Repo temporaire pour E2E CloudForge (clonage → déploiement)",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-17T19:12:49Z",
+        "pushedAt": "2026-09-17T19:12:50Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjcwNzA4Mzkz",
+      "login": "Grenier-vert-Ltd",
+      "name": "Yessir",
+      "type": "Organization",
+      "location": "Mali",
+      "url": "https://github.com/Grenier-vert-Ltd",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/70708393?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "funny",
+        "nameWithOwner": "Grenier-vert-Ltd/funny",
+        "url": "https://github.com/Grenier-vert-Ltd/funny",
+        "description": "Dressed",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-05-15T23:54:50Z",
+        "pushedAt": "2022-05-15T23:54:51Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "The Unlicense",
+          "spdxId": "Unlicense"
+        }
+      }
+    },
+    {
       "id": "U_kgDOC2Xmcw",
       "login": "Hadji-gid",
       "name": "Alhadji Alassane Dicko",
@@ -8188,6 +9962,42 @@
         "isFork": false,
         "createdAt": "2024-06-03T02:32:00Z",
         "pushedAt": "2024-06-03T02:49:45Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCho4uw",
+      "login": "HamzaSANMO",
+      "name": "Hamza Sanmo",
+      "type": "User",
+      "location": "Bamako-Mali",
+      "url": "https://github.com/HamzaSANMO",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/169490619?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "beninMonde",
+        "nameWithOwner": "HamzaSANMO/beninMonde",
+        "url": "https://github.com/HamzaSANMO/beninMonde",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-09-21T19:28:26Z",
+        "pushedAt": "2025-09-29T23:29:26Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "HTML"
@@ -8296,6 +10106,40 @@
         "isFork": false,
         "createdAt": "2026-09-13T23:09:21Z",
         "pushedAt": "2026-09-13T23:09:22Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM3ODQzNzg0",
+      "login": "HQIS-DL",
+      "name": "DL DataLab",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/HQIS-DL",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/37843784?u=47e7e13ef0e44b43d263059ae9d9f206550d41be&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "stageApp",
+        "nameWithOwner": "HQIS-DL/stageApp",
+        "url": "https://github.com/HQIS-DL/stageApp",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-05-03T12:08:41Z",
+        "pushedAt": "2025-05-03T12:08:42Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -8652,6 +10496,42 @@
       }
     },
     {
+      "id": "U_kgDOBnk06g",
+      "login": "Isaasanogo",
+      "name": "Sanogo Issa",
+      "type": "User",
+      "location": "Bamako, Mali",
+      "url": "https://github.com/Isaasanogo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/108606698?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "portfolio",
+        "nameWithOwner": "Isaasanogo/portfolio",
+        "url": "https://github.com/Isaasanogo/portfolio",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-09-01T11:53:44Z",
+        "pushedAt": "2026-06-23T17:02:40Z",
+        "homepageUrl": "https://isaasanogo.github.io/portfolio/",
+        "primaryLanguage": {
+          "name": "CSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOESbyHw",
       "login": "isbydem9",
       "name": "Isby",
@@ -8684,6 +10564,40 @@
         "primaryLanguage": {
           "name": "TypeScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOChnlHA",
+      "login": "Ismail2850",
+      "name": "Ismaila TRAORE",
+      "type": "User",
+      "location": "Bamako, Mali",
+      "url": "https://github.com/Ismail2850",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/169469212?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "Ismail2850",
+        "nameWithOwner": "Ismail2850/Ismail2850",
+        "url": "https://github.com/Ismail2850/Ismail2850",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-10T13:55:23Z",
+        "pushedAt": "2026-08-10T13:55:24Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -9043,6 +10957,110 @@
         "pushedAt": "2021-07-27T10:37:17Z",
         "homepageUrl": "https://github.com/kamanga123",
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOEMH8hw",
+      "login": "kanealimata",
+      "name": "Alimata Kane",
+      "type": "User",
+      "location": "Bamako, Mali",
+      "url": "https://github.com/kanealimata",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/281148551?u=67148958ed80b7b9da100086b0e406f39643cc1b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "Covid19-Stats---Python",
+        "nameWithOwner": "kanealimata/Covid19-Stats---Python",
+        "url": "https://github.com/kanealimata/Covid19-Stats---Python",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-14T11:50:55Z",
+        "pushedAt": "2026-05-14T11:50:56Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY5Nzk5NDQ0",
+      "login": "Karl-Gabin",
+      "name": "Karl Kemgang",
+      "type": "User",
+      "location": "Bamako, Mali",
+      "url": "https://github.com/Karl-Gabin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/69799444?u=36776f66fdd8198ed6e7a334acf012939eed4e0b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "Karl-Gabin",
+        "nameWithOwner": "Karl-Gabin/Karl-Gabin",
+        "url": "https://github.com/Karl-Gabin/Karl-Gabin",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-03-13T10:19:00Z",
+        "pushedAt": "2021-09-08T08:54:52Z",
+        "homepageUrl": "https://github.com/Karl-Gabin",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODG8xkA",
+      "login": "keich-samoura",
+      "name": "cheick hamallah Samoura",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/keich-samoura",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/208613776?u=f2519a2681160cbaa0fe3192555944bd575f5756&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "WebScraping1BOOKS",
+        "nameWithOwner": "keich-samoura/WebScraping1BOOKS",
+        "url": "https://github.com/keich-samoura/WebScraping1BOOKS",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-10-10T12:00:29Z",
+        "pushedAt": "2025-10-10T12:18:08Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
         "licenseInfo": null
       }
     },
@@ -9506,6 +11524,42 @@
       }
     },
     {
+      "id": "U_kgDOBtpx7w",
+      "login": "MahamadouDMC",
+      "name": "CAMARA Mahamadou dit Modibo",
+      "type": "User",
+      "location": "Bamako, Mali",
+      "url": "https://github.com/MahamadouDMC",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/114979311?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "javascript_sample",
+        "nameWithOwner": "MahamadouDMC/javascript_sample",
+        "url": "https://github.com/MahamadouDMC/javascript_sample",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-11-03T08:42:18Z",
+        "pushedAt": "2022-11-03T08:52:54Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "O_kgDOE_NJWw",
       "login": "MalCom-ERP",
       "name": "MalCom ERP",
@@ -9538,6 +11592,40 @@
         "primaryLanguage": {
           "name": "HTML"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc1MzI1NjU5",
+      "login": "MalehaMogazouMaiga",
+      "name": null,
+      "type": "User",
+      "location": "BAMAKO MALI",
+      "url": "https://github.com/MalehaMogazouMaiga",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/75325659?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "Monprojet",
+        "nameWithOwner": "MalehaMogazouMaiga/Monprojet",
+        "url": "https://github.com/MalehaMogazouMaiga/Monprojet",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-12-02T09:21:55Z",
+        "pushedAt": "2020-12-02T09:21:58Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -9682,6 +11770,108 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjE1OTk2NDk2",
+      "login": "mcwconsulting",
+      "name": "MCW",
+      "type": "User",
+      "location": "Bamako Mali",
+      "url": "https://github.com/mcwconsulting",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/15996496?u=1872ee8338615fca57ebbac8dbdcea1c6763402d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "site_mcw",
+        "nameWithOwner": "mcwconsulting/site_mcw",
+        "url": "https://github.com/mcwconsulting/site_mcw",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-11-24T17:32:37Z",
+        "pushedAt": "2015-11-24T17:32:37Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBj2XPQ",
+      "login": "mdsceo",
+      "name": "Mahamadou Sidibe",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/mdsceo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/104699709?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "mdsceo",
+        "nameWithOwner": "mdsceo/mdsceo",
+        "url": "https://github.com/mdsceo/mdsceo",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-04-30T22:46:44Z",
+        "pushedAt": "2022-04-30T22:46:45Z",
+        "homepageUrl": "https://github.com/mdsceo",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODtnzfA",
+      "login": "MIM223otaku",
+      "name": "bobmaiga",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/MIM223otaku",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/249164668?u=b3b66998123ac4eda7b02d55a8c7d805bfc3e122&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "bobmaiga",
+        "nameWithOwner": "MIM223otaku/bobmaiga",
+        "url": "https://github.com/MIM223otaku/bobmaiga",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-20T13:22:46Z",
+        "pushedAt": "2026-08-20T13:22:46Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjY1MjQxNTk4",
       "login": "mintaahmed",
       "name": "Amadou Minta",
@@ -9716,6 +11906,81 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "O_kgDOBYco9w",
+      "login": "Mirakleio",
+      "name": "Mirakle.io",
+      "type": "Organization",
+      "location": "Mali",
+      "url": "https://github.com/Mirakleio",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/92743927?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "portofolio",
+        "nameWithOwner": "Mirakleio/portofolio",
+        "url": "https://github.com/Mirakleio/portofolio",
+        "description": "Playful and Colorful One-Page portfolio featuring Parallax effects and animations. Especially designers and/or photographers will love this theme! Built with MDX and Theme UI.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-08-09T01:12:25Z",
+        "pushedAt": "2022-08-09T01:12:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "BSD Zero Clause License",
+          "spdxId": "0BSD"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc3MDk2OTg3",
+      "login": "MKgis",
+      "name": "M_KONE",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/MKgis",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/77096987?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "geomatos-bon-de-sortie",
+        "nameWithOwner": "MKgis/geomatos-bon-de-sortie",
+        "url": "https://github.com/MKgis/geomatos-bon-de-sortie",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-05T00:32:33Z",
+        "pushedAt": "2026-10-07T15:17:01Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -9787,6 +12052,76 @@
         "primaryLanguage": {
           "name": "PHP"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCRWh3Q",
+      "login": "moh610",
+      "name": null,
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/moh610",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/152412637?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "intagram_interface",
+        "nameWithOwner": "moh610/intagram_interface",
+        "url": "https://github.com/moh610/intagram_interface",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-10-06T16:28:46Z",
+        "pushedAt": "2025-10-06T16:30:25Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCqv5MA",
+      "login": "Mohame982",
+      "name": null,
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/Mohame982",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/179042608?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "Mohame982",
+        "nameWithOwner": "Mohame982/Mohame982",
+        "url": "https://github.com/Mohame982/Mohame982",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-08-21T19:24:45Z",
+        "pushedAt": "2024-08-21T19:29:07Z",
+        "homepageUrl": "https://github.com/Mohame982",
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -10116,6 +12451,79 @@
       }
     },
     {
+      "id": "U_kgDOD8H_Bw",
+      "login": "mousskante2016-jpg",
+      "name": "Moussa kante",
+      "type": "User",
+      "location": "Bamako Mali",
+      "url": "https://github.com/mousskante2016-jpg",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/264371975?u=60c27c37a4e9ef48988d6b22110b145aa639854f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "District-Design-Group",
+        "nameWithOwner": "mousskante2016-jpg/District-Design-Group",
+        "url": "https://github.com/mousskante2016-jpg/District-Design-Group",
+        "description": "Nous sommes une entreprise multidimensionnelle incluant les services maçonnerie et l'architecture moderne recommandée...",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-15T21:55:45Z",
+        "pushedAt": "2026-10-15T22:53:52Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": {
+          "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+          "spdxId": "BSD-3-Clause"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOBraaxQ",
+      "login": "Moustapha1957",
+      "name": "YaMoustapha",
+      "type": "User",
+      "location": "Mali/Bamako",
+      "url": "https://github.com/Moustapha1957",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/112630469?u=68c062723039131a81f0026c2a3f255b374cb7b9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "ImperisSW",
+        "nameWithOwner": "Moustapha1957/ImperisSW",
+        "url": "https://github.com/Moustapha1957/ImperisSW",
+        "description": "Le site wen de Imperis Sarl",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-12-05T15:06:21Z",
+        "pushedAt": "2025-12-05T15:06:21Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOC_jX5g",
       "login": "moustaphg",
       "name": "Moustaphg",
@@ -10254,6 +12662,40 @@
         "primaryLanguage": {
           "name": "Python"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOE9KTRA",
+      "login": "nashzm5zvmn",
+      "name": "Boubakar Diallo",
+      "type": "User",
+      "location": "Bamako, Mali",
+      "url": "https://github.com/nashzm5zvmn",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/332567364?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "noise-suppressor-tool",
+        "nameWithOwner": "nashzm5zvmn/noise-suppressor-tool",
+        "url": "https://github.com/nashzm5zvmn/noise-suppressor-tool",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-22T16:07:49Z",
+        "pushedAt": "2026-09-22T16:07:50Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -10789,6 +13231,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjg5MTYxMzE5",
+      "login": "Peaplekeita",
+      "name": "Kassim KÉÏTA",
+      "type": "User",
+      "location": "Bamako, Mali",
+      "url": "https://github.com/Peaplekeita",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/89161319?u=7243b5e422a11c81a365835899b72a1b4c9a9c04&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "mon-premier-projet-web",
+        "nameWithOwner": "Peaplekeita/mon-premier-projet-web",
+        "url": "https://github.com/Peaplekeita/mon-premier-projet-web",
+        "description": "Formation de développement Web D-CLIC",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-07-27T17:59:30Z",
+        "pushedAt": "2025-07-27T18:03:22Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQ0OTI1NjI0",
       "login": "phatwo",
       "name": "Fatou Touré",
@@ -10897,6 +13373,78 @@
       }
     },
     {
+      "id": "U_kgDODX74pg",
+      "login": "PrinceHarouna",
+      "name": "Prince Harouna Traore",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/PrinceHarouna",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/226424998?u=d69ddc7aeee6d9d096f20ab6dec772fc534fb9e6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "Malisuguba-Demo",
+        "nameWithOwner": "PrinceHarouna/Malisuguba-Demo",
+        "url": "https://github.com/PrinceHarouna/Malisuguba-Demo",
+        "description": "this is just a training projects on github for school ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-10-18T22:25:04Z",
+        "pushedAt": "2025-10-18T22:36:08Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODubw6Q",
+      "login": "princeharounatr",
+      "name": "PrinceHarounatr",
+      "type": "User",
+      "location": "Bamako Mali",
+      "url": "https://github.com/princeharounatr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/250015977?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "gestion-etudiants-Exam-S250614",
+        "nameWithOwner": "princeharounatr/gestion-etudiants-Exam-S250614",
+        "url": "https://github.com/princeharounatr/gestion-etudiants-Exam-S250614",
+        "description": "Student management app built with Flutter",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-28T11:30:58Z",
+        "pushedAt": "2026-01-28T12:04:08Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "O_kgDODef_lw",
       "login": "ProjetDjiguiTougun",
       "name": "CollaborationODK",
@@ -10928,6 +13476,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOB05GsA",
+      "login": "realkamisama",
+      "name": "Camara Mamourou",
+      "type": "User",
+      "location": "Bamako, Mali",
+      "url": "https://github.com/realkamisama",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/122570416?u=40e9d6693ded753ec5e12e3a24a291ce0183931a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "homeworks",
+        "nameWithOwner": "realkamisama/homeworks",
+        "url": "https://github.com/realkamisama/homeworks",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-01-14T19:23:11Z",
+        "pushedAt": "2023-01-14T19:24:28Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
         },
         "licenseInfo": null
       }
@@ -11112,6 +13696,40 @@
       }
     },
     {
+      "id": "U_kgDOCtlAIQ",
+      "login": "Salif0",
+      "name": null,
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/Salif0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/182009889?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "Salif0",
+        "nameWithOwner": "Salif0/Salif0",
+        "url": "https://github.com/Salif0/Salif0",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-22T09:22:53Z",
+        "pushedAt": "2024-09-22T09:24:33Z",
+        "homepageUrl": "https://github.com/Salif0",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBeSNmg",
       "login": "SalifDiawara",
       "name": "Salif DIAWARA",
@@ -11146,6 +13764,110 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjcyMTQzNjQ=",
+      "login": "salimfa",
+      "name": "Mahalmadane Aly Toure",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/salimfa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7214364?u=f48180bad6976aaadeba10c99a332a1e68ece704&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "calculelectrique",
+        "nameWithOwner": "salimfa/calculelectrique",
+        "url": "https://github.com/salimfa/calculelectrique",
+        "description": "Feuilles de calculs et miniprogrammes permettant de réaliser les dimensionnements des installations électriques",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-03-16T10:01:30Z",
+        "pushedAt": "2018-03-16T22:17:08Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOEzYzKg",
+      "login": "samakeamadou548-ctrl",
+      "name": "Amadou Samake",
+      "type": "User",
+      "location": "Mali ",
+      "url": "https://github.com/samakeamadou548-ctrl",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/322319146?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "afroflix",
+        "nameWithOwner": "samakeamadou548-ctrl/afroflix",
+        "url": "https://github.com/samakeamadou548-ctrl/afroflix",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-29T23:25:53Z",
+        "pushedAt": "2026-08-29T23:36:45Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOEu0a3w",
+      "login": "samakedramane176-code",
+      "name": "Dramane Samaké",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/samakedramane176-code",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/317528799?u=374bcd6825829c9b3fa96b161482aafeab320323&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "Dilmoh-IA",
+        "nameWithOwner": "samakedramane176-code/Dilmoh-IA",
+        "url": "https://github.com/samakedramane176-code/Dilmoh-IA",
+        "description": "Une application très bonne qualité ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-16T09:29:23Z",
+        "pushedAt": "2026-08-16T11:16:37Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -11217,6 +13939,42 @@
       }
     },
     {
+      "id": "U_kgDOEqB_lg",
+      "login": "SaoraTech",
+      "name": "Fousseyni DIALLO ",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/SaoraTech",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/312508310?u=c66cb6e6d16e49b295483bcf10daf21fd657861e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "boutica-android",
+        "nameWithOwner": "SaoraTech/boutica-android",
+        "url": "https://github.com/SaoraTech/boutica-android",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-23T13:16:55Z",
+        "pushedAt": "2026-10-23T13:56:19Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBbcTNg",
       "login": "Seinkou",
       "name": "Seinkou",
@@ -11249,6 +14007,40 @@
         "primaryLanguage": {
           "name": "Python"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg4MjU0MTI3",
+      "login": "sekouciss",
+      "name": "Sekou CISSE",
+      "type": "User",
+      "location": "Bamako, Mali",
+      "url": "https://github.com/sekouciss",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/88254127?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "Pharma-All",
+        "nameWithOwner": "sekouciss/Pharma-All",
+        "url": "https://github.com/sekouciss/Pharma-All",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-08-08T00:07:38Z",
+        "pushedAt": "2022-08-08T00:07:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -11364,6 +14156,42 @@
       }
     },
     {
+      "id": "U_kgDOCZ2QcA",
+      "login": "Seydou0603",
+      "name": "seydou_dev",
+      "type": "User",
+      "location": "Mali,Bamako",
+      "url": "https://github.com/Seydou0603",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/161321072?u=0615a1f55aebd1f0c0ac145b536fb183773b2950&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "portfolio",
+        "nameWithOwner": "Seydou0603/portfolio",
+        "url": "https://github.com/Seydou0603/portfolio",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-02-25T14:32:50Z",
+        "pushedAt": "2026-02-25T14:37:42Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjg5ODQzMjA3",
       "login": "sidimedag",
       "name": "Sidi Mohamed",
@@ -11426,6 +14254,40 @@
         "isFork": false,
         "createdAt": "2026-09-13T19:49:59Z",
         "pushedAt": "2026-09-13T19:50:00Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBjiheA",
+      "login": "Siresat",
+      "name": "Brehima FOFANA",
+      "type": "User",
+      "location": "MALI",
+      "url": "https://github.com/Siresat",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/104374648?u=fe14a49889e4cd60e1576bf255ca9a634ccc7437&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "opoenclaroom",
+        "nameWithOwner": "Siresat/opoenclaroom",
+        "url": "https://github.com/Siresat/opoenclaroom",
+        "description": "test",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-09-02T16:22:46Z",
+        "pushedAt": "2025-09-02T16:23:20Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -11505,6 +14367,76 @@
       }
     },
     {
+      "id": "U_kgDOBlwwAw",
+      "login": "sorysissoko",
+      "name": null,
+      "type": "User",
+      "location": "Bamako Mali",
+      "url": "https://github.com/sorysissoko",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/106704899?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "projet_appart",
+        "nameWithOwner": "sorysissoko/projet_appart",
+        "url": "https://github.com/sorysissoko/projet_appart",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-14T10:58:05Z",
+        "pushedAt": "2026-10-18T23:20:32Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Dart"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODiRQrg",
+      "login": "souleymanemaguiraga-sudo",
+      "name": "Souleymane MAGUIRAGA",
+      "type": "User",
+      "location": "Bamako Mali",
+      "url": "https://github.com/souleymanemaguiraga-sudo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/237260974?u=791ae5fae2d96a6c984f931348d840c622847258&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "OFIA-Cahier-des-Charges",
+        "nameWithOwner": "souleymanemaguiraga-sudo/OFIA-Cahier-des-Charges",
+        "url": "https://github.com/souleymanemaguiraga-sudo/OFIA-Cahier-des-Charges",
+        "description": "Plateforme OFIA",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-22T14:20:12Z",
+        "pushedAt": "2026-07-22T14:20:13Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjU4MzA1MDg4",
       "login": "soulsidibe",
       "name": "Soulsidibe",
@@ -11569,6 +14501,40 @@
         "isFork": false,
         "createdAt": "2019-09-28T14:00:47Z",
         "pushedAt": "2024-02-02T14:53:00Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODZTaag",
+      "login": "soungalongoita2014-tech",
+      "name": "Soungalo GOITA",
+      "type": "User",
+      "location": "Bamako, Mali",
+      "url": "https://github.com/soungalongoita2014-tech",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/227859050?u=1c1282cfc6965193714d1ddd6477b94179ea7967&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "data",
+        "nameWithOwner": "soungalongoita2014-tech/data",
+        "url": "https://github.com/soungalongoita2014-tech/data",
+        "description": "Data projet respository",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-16T08:14:21Z",
+        "pushedAt": "2026-07-16T08:14:22Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -11647,6 +14613,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjg5MDg4Njc3",
+      "login": "Sunfer01",
+      "name": "Drag",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/Sunfer01",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/89088677?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "Sunfer01",
+        "nameWithOwner": "Sunfer01/Sunfer01",
+        "url": "https://github.com/Sunfer01/Sunfer01",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-08-27T18:26:20Z",
+        "pushedAt": "2021-08-27T18:38:57Z",
+        "homepageUrl": "https://github.com/Sunfer01",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBmdKxA",
       "login": "SuperSheykh",
       "name": "Sekou SIDIBE",
@@ -11715,6 +14715,40 @@
         "primaryLanguage": {
           "name": "CSS"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCsmiSA",
+      "login": "ThePrimeSam",
+      "name": "SAM",
+      "type": "User",
+      "location": "Bamako,Mali",
+      "url": "https://github.com/ThePrimeSam",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/180986440?u=ac4a9e66ad984cc6a7bc4105d2f0056750e8e5e9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "egg_track_mobile",
+        "nameWithOwner": "ThePrimeSam/egg_track_mobile",
+        "url": "https://github.com/ThePrimeSam/egg_track_mobile",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-02-13T21:36:56Z",
+        "pushedAt": "2026-02-13T21:36:57Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -11825,6 +14859,40 @@
       }
     },
     {
+      "id": "U_kgDOE8D8Nw",
+      "login": "togolatogolaadama87-cpu",
+      "name": "bizchat-pro",
+      "type": "User",
+      "location": "Mali ",
+      "url": "https://github.com/togolatogolaadama87-cpu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/331414583?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "bizachat-pro-",
+        "nameWithOwner": "togolatogolaadama87-cpu/bizachat-pro-",
+        "url": "https://github.com/togolatogolaadama87-cpu/bizachat-pro-",
+        "description": "Private ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-19T22:09:15Z",
+        "pushedAt": "2026-09-20T00:53:28Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOB6978Q",
       "login": "tounkara55",
       "name": "Salim Tounkara",
@@ -11855,6 +14923,42 @@
         "pushedAt": "2023-11-07T09:40:43Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODw9-Fg",
+      "login": "traoremamadoufousseni-design",
+      "name": "Mamadou Traoré Github",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/traoremamadoufousseni-design",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/252673558?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "Analyse-Telecom",
+        "nameWithOwner": "traoremamadoufousseni-design/Analyse-Telecom",
+        "url": "https://github.com/traoremamadoufousseni-design/Analyse-Telecom",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-25T12:03:31Z",
+        "pushedAt": "2026-05-25T15:01:50Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
         "licenseInfo": null
       }
     },
@@ -11964,6 +15068,149 @@
       }
     },
     {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjQzNzQ5ODgw",
+      "login": "vitepay",
+      "name": "Vitepay",
+      "type": "Organization",
+      "location": "Mali",
+      "url": "https://github.com/vitepay",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43749880?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "vitepay-developers",
+        "nameWithOwner": "vitepay/vitepay-developers",
+        "url": "https://github.com/vitepay/vitepay-developers",
+        "description": "Documentation développeurs",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-07-11T11:16:07Z",
+        "pushedAt": "2025-01-15T12:47:57Z",
+        "homepageUrl": "https://developers.vitepay.com",
+        "primaryLanguage": {
+          "name": "CSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOClmFVw",
+      "login": "VORTEXsys",
+      "name": "̶v̶̶o̶̶r̶̶t̶̶e̶̶x̶(-_-)",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/VORTEXsys",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/173638999?u=0aa87b083da8c070bf7d0001f0c2bfa588198350&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "bulletin-bac",
+        "nameWithOwner": "VORTEXsys/bulletin-bac",
+        "url": "https://github.com/VORTEXsys/bulletin-bac",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-07-03T22:34:44Z",
+        "pushedAt": "2025-07-03T23:03:04Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOC3XNyg",
+      "login": "w66098244k",
+      "name": "Wakanda ",
+      "type": "User",
+      "location": "MALI",
+      "url": "https://github.com/w66098244k",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/192269770?u=1fc6ec9b8d39149ad1c2fb29dce231191b1c9445&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "Wakanda-Trading",
+        "nameWithOwner": "w66098244k/Wakanda-Trading",
+        "url": "https://github.com/w66098244k/Wakanda-Trading",
+        "description": "The fist global exchange of crypto in Africa",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-12-19T20:49:47Z",
+        "pushedAt": "2024-12-19T20:49:48Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCsG81g",
+      "login": "Wata90",
+      "name": "Assane",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/Wata90",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/180468950?u=0f64d07d52287389a69be525ba4f1c5b67a530b3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "Base-template",
+        "nameWithOwner": "Wata90/Base-template",
+        "url": "https://github.com/Wata90/Base-template",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-04T20:21:31Z",
+        "pushedAt": "2024-09-04T20:31:02Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
       "id": "U_kgDODNladw",
       "login": "wdbsw",
       "name": "wdbs",
@@ -11996,6 +15243,74 @@
         "primaryLanguage": {
           "name": "HTML"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBXjIVQ",
+      "login": "wniangAPI",
+      "name": "Waly ",
+      "type": "User",
+      "location": "Bamako-Mali",
+      "url": "https://github.com/wniangAPI",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/91801685?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "sf6Waly",
+        "nameWithOwner": "wniangAPI/sf6Waly",
+        "url": "https://github.com/wniangAPI/sf6Waly",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-01-25T11:17:03Z",
+        "pushedAt": "2022-01-25T11:17:03Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMyNjQwNzIw",
+      "login": "xalip72",
+      "name": "Ali Salem",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/xalip72",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/32640720?u=dc0a33a08bf969472ad0cbaff89ed5176728c2ee&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "Hello-World",
+        "nameWithOwner": "xalip72/Hello-World",
+        "url": "https://github.com/xalip72/Hello-World",
+        "description": "my first repository",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-10-17T21:32:29Z",
+        "pushedAt": "2020-10-17T23:03:10Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -12066,6 +15381,76 @@
         "primaryLanguage": {
           "name": "Vue"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOEVVdEg",
+      "login": "Yacouba-ia",
+      "name": "Berthe Yacouba",
+      "type": "User",
+      "location": "Bamako, Mali",
+      "url": "https://github.com/Yacouba-ia",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/290807058?u=a98d02e106373cede299a15b80bb21f26a56aff8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "ai-knowledge-assistant-frontend",
+        "nameWithOwner": "Yacouba-ia/ai-knowledge-assistant-frontend",
+        "url": "https://github.com/Yacouba-ia/ai-knowledge-assistant-frontend",
+        "description": "A premium React frontend for a multi-user AI document assistant where users can upload documents, manage their knowledge base, and chat with their private data.  Long description: AI Knowledge Assistant is a modern SaaS-style frontend designed for a multi-user RAG platform. It allows users to register, log in, upload documents, manage their private",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-06-09T15:10:08Z",
+        "pushedAt": "2026-06-09T18:20:20Z",
+        "homepageUrl": "https://ai-knowledge-assistant-frontend-ashen.vercel.app",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBu9DTQ",
+      "login": "yacoubadembele399",
+      "name": "Yacouba Dembele",
+      "type": "User",
+      "location": "Mali",
+      "url": "https://github.com/yacoubadembele399",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/116343629?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "ML",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Mali"
+      },
+      "discoveryTerms": [
+        "Mali"
+      ],
+      "topRepository": {
+        "name": "MES-PROJETS-",
+        "nameWithOwner": "yacoubadembele399/MES-PROJETS-",
+        "url": "https://github.com/yacoubadembele399/MES-PROJETS-",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-04-22T11:27:18Z",
+        "pushedAt": "2023-04-22T11:27:18Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
