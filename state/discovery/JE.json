@@ -18,27 +18,6 @@
     "term": "Jersey",
     "queue": [
       {
-        "query": "location:\"Jersey\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
-        "stage": "year:2012",
-        "cursor": null,
-        "pageNumber": 1,
-        "attempts": 0
-      },
-      {
-        "query": "location:\"Jersey\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
-        "stage": "year:2013",
-        "cursor": null,
-        "pageNumber": 1,
-        "attempts": 0
-      },
-      {
-        "query": "location:\"Jersey\" type:user followers:0 repos:1..4 created:2014-01-01..2014-12-31",
-        "stage": "year:2014",
-        "cursor": null,
-        "pageNumber": 1,
-        "attempts": 0
-      },
-      {
         "query": "location:\"Jersey\" type:user followers:0 repos:1..4 created:2015-01-01..2015-12-31",
         "stage": "year:2015",
         "cursor": null,
@@ -278,26 +257,26 @@
       }
     ],
     "startedAt": "2026-10-05T14:57:23.578Z",
-    "requests": 8,
-    "leafPages": 4,
+    "requests": 16,
+    "leafPages": 12,
     "shardExpansions": 4,
     "reportedCount": 3151
   },
   "discoveryComplete": false,
   "startedAt": "2026-10-05T14:57:23.578Z",
-  "updatedAt": "2026-10-05T14:57:49.410Z",
+  "updatedAt": "2026-10-23T11:54:11.150Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 8,
-    "leafPages": 4,
+    "searchRequests": 16,
+    "leafPages": 12,
     "shardExpansions": 4,
-    "rawOwnerHits": 221,
-    "acceptedOwnerHits": 178,
-    "rejectedOwnerHits": 43,
+    "rawOwnerHits": 531,
+    "acceptedOwnerHits": 418,
+    "rejectedOwnerHits": 113,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4890
+    "minimumRateLimitRemaining": 4874
   },
   "unresolvedShards": [],
   "candidates": [
@@ -2029,6 +2008,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjY3OTg0OTQ=",
+      "login": "bonthron",
+      "name": "Jason Bonthron",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/bonthron",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6798494?u=b279efeaa107a80fb8b030913607061942eb4988&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "wirth1976",
+        "nameWithOwner": "bonthron/wirth1976",
+        "url": "https://github.com/bonthron/wirth1976",
+        "description": "Niklaus Wirth's Algorithms + Data Structures 1976 in Python, JavaScript, Scheme, and Pascal",
+        "stargazerCount": 5,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-10-02T01:19:18Z",
+        "pushedAt": "2020-11-14T21:58:35Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Pascal"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjM3MTI2NzQ4",
       "login": "ja1dan",
       "name": "Jaidan Arenas",
@@ -2065,6 +2080,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjYxMjQyMjA=",
+      "login": "tstrausb",
+      "name": "Thomas Strausbaugh",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/tstrausb",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6124220?u=7bcf790dee7116cdebc8cecf9e702861fa494955&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "XKeys-Library-for-Arduino",
+        "nameWithOwner": "tstrausb/XKeys-Library-for-Arduino",
+        "url": "https://github.com/tstrausb/XKeys-Library-for-Arduino",
+        "description": "A library to allow use of an X-Keys device on an Arduino microcontroller (used in conjunction with Circuits at Home USB Host Shield 2.0)",
+        "stargazerCount": 5,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-09-29T21:08:23Z",
+        "pushedAt": "2016-07-07T14:51:13Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Arduino"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v2.0",
+          "spdxId": "GPL-2.0"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE3Mzg0MDA=",
       "login": "nxbdi",
       "name": "Tim Spann",
@@ -2096,6 +2150,153 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUxNzA3NDE=",
+      "login": "alexriley",
+      "name": "Alex Riley",
+      "type": "User",
+      "location": "South Jersey (Greater Philadelphia)",
+      "url": "https://github.com/alexriley",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5170741?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "Cache2SSD",
+        "nameWithOwner": "alexriley/Cache2SSD",
+        "url": "https://github.com/alexriley/Cache2SSD",
+        "description": "Easily copy folders back and forth between drives. With symbolic links, it appears as if the folder never left to any program which accesses it. For Linux. ",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-02-22T20:16:05Z",
+        "pushedAt": "2015-03-03T22:27:35Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v2.0",
+          "spdxId": "GPL-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjkxNDM2NDE=",
+      "login": "ar18",
+      "name": "Aleece",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/ar18",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9143641?u=cbe8e0a9ab2fa21c9a47dad664d0e596af6c3f3d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "GPA-Extension",
+        "nameWithOwner": "ar18/GPA-Extension",
+        "url": "https://github.com/ar18/GPA-Extension",
+        "description": null,
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-04-23T02:02:05Z",
+        "pushedAt": "2017-04-25T05:19:43Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM4OTYwMDM=",
+      "login": "brench",
+      "name": "Brad Rench",
+      "type": "User",
+      "location": "Jersey City, NJ",
+      "url": "https://github.com/brench",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3896003?u=e7f1b598fb6f1593979f6f8cfe31ed0a95be7c5e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "GitHubUserSearch",
+        "nameWithOwner": "brench/GitHubUserSearch",
+        "url": "https://github.com/brench/GitHubUserSearch",
+        "description": null,
+        "stargazerCount": 2,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-03-25T23:43:37Z",
+        "pushedAt": "2021-03-26T01:00:09Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM0NTk0MzM=",
+      "login": "Coopra",
+      "name": "Alex Cooper",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/Coopra",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3459433?u=8d7f246f8c02df7f924afff2d57943b6352edb1c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "nebulus-android",
+        "nameWithOwner": "Coopra/nebulus-android",
+        "url": "https://github.com/Coopra/nebulus-android",
+        "description": "Re-creating SoundCloud on Android to practice my Android development.",
+        "stargazerCount": 2,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-01-26T22:12:12Z",
+        "pushedAt": "2021-02-27T22:47:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Kotlin"
         },
         "licenseInfo": null
       }
@@ -2136,6 +2337,149 @@
         "licenseInfo": {
           "name": "MIT License",
           "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE0MDY1MDY=",
+      "login": "onoitsjon",
+      "name": "Jon Yi",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/onoitsjon",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1406506?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "IES-File-Creator",
+        "nameWithOwner": "onoitsjon/IES-File-Creator",
+        "url": "https://github.com/onoitsjon/IES-File-Creator",
+        "description": "IESNA-formatted file creator for goniophotometer",
+        "stargazerCount": 2,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-04-08T04:07:20Z",
+        "pushedAt": "2015-04-08T04:52:31Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjkxNDI5NDM=",
+      "login": "acewave",
+      "name": null,
+      "type": "User",
+      "location": "Jersey",
+      "url": "https://github.com/acewave",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9142943?u=a3bafb52000f8e5c984984f26327ba581e8c8494&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "bank2budget",
+        "nameWithOwner": "acewave/bank2budget",
+        "url": "https://github.com/acewave/bank2budget",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-10-26T21:34:35Z",
+        "pushedAt": "2026-08-21T13:34:57Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYyMDg4NzI=",
+      "login": "AliMusa8790",
+      "name": "Ali Musa",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/AliMusa8790",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6208872?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "MooseSpectacles",
+        "nameWithOwner": "AliMusa8790/MooseSpectacles",
+        "url": "https://github.com/AliMusa8790/MooseSpectacles",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-05-17T18:22:25Z",
+        "pushedAt": "2016-05-17T18:22:25Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYyMDY4Njg=",
+      "login": "awilton",
+      "name": "Arthur  Wilton",
+      "type": "User",
+      "location": "Holmdel, New Jersey",
+      "url": "https://github.com/awilton",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6206868?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "KafkaUnit",
+        "nameWithOwner": "awilton/KafkaUnit",
+        "url": "https://github.com/awilton/KafkaUnit",
+        "description": "Embedded Kafka to Assist in writing JUnit tests for applications using Apache Kafka",
+        "stargazerCount": 1,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-06-11T00:48:06Z",
+        "pushedAt": "2015-06-24T23:40:53Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
         }
       }
     },
@@ -2285,6 +2629,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjc4ODIwMDQ=",
+      "login": "harry-robinson",
+      "name": "Harry Robinson",
+      "type": "User",
+      "location": "Jersey City, New Jersey",
+      "url": "https://github.com/harry-robinson",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7882004?u=41b1da1d799a1fb445d8cc196b241f32b9a6a1a2&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "MyCustom.AspNetCore",
+        "nameWithOwner": "harry-robinson/MyCustom.AspNetCore",
+        "url": "https://github.com/harry-robinson/MyCustom.AspNetCore",
+        "description": "ASP.NET Core middleware, extensions and libraries that fill gaps in the Microsoft.AspNetCore.App shared framework. Published as independent NuGet packages with secure defaults, sensible conventions and minimal boilerplate and bloat.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-14T17:51:25Z",
+        "pushedAt": "2026-08-08T05:25:49Z",
+        "homepageUrl": "https://www.harryrobinsoniv.com",
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE1NjYxNTI=",
       "login": "iguana251",
       "name": null,
@@ -2314,6 +2697,40 @@
         "createdAt": "2012-03-22T21:10:33Z",
         "pushedAt": null,
         "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjk1Nzk0ODI=",
+      "login": "jgdalal",
+      "name": "JGDALAL",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/jgdalal",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9579482?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "JGD-Class-Projects",
+        "nameWithOwner": "jgdalal/JGD-Class-Projects",
+        "url": "https://github.com/jgdalal/JGD-Class-Projects",
+        "description": "Projects from Data Scientist's Tool Box class",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-11-05T22:09:15Z",
+        "pushedAt": "2014-11-05T22:09:15Z",
+        "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
       }
@@ -2385,6 +2802,180 @@
         "primaryLanguage": {
           "name": "Jupyter Notebook"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc1NDQwNzg=",
+      "login": "mathildamlloyd",
+      "name": "Mathilda Lloyd",
+      "type": "User",
+      "location": "Princeton, New Jersey",
+      "url": "https://github.com/mathildamlloyd",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7544078?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "smart-shopper",
+        "nameWithOwner": "mathildamlloyd/smart-shopper",
+        "url": "https://github.com/mathildamlloyd/smart-shopper",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-09-13T17:19:30Z",
+        "pushedAt": "2014-09-14T03:35:19Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE1NzYxOTU=",
+      "login": "mjalal",
+      "name": "jalal",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/mjalal",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1576195?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "Hello-world",
+        "nameWithOwner": "mjalal/Hello-world",
+        "url": "https://github.com/mjalal/Hello-world",
+        "description": "test prohect",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2012-03-26T14:03:50Z",
+        "pushedAt": "2012-03-26T14:07:50Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg0OTYxNDI=",
+      "login": "pkurczynski",
+      "name": "Peter Kurczynski",
+      "type": "User",
+      "location": "Piscataway, New Jersey",
+      "url": "https://github.com/pkurczynski",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8496142?u=730b67c78f59315da32b43ee29a723134ef3cdd4&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "AdaptiveOptics",
+        "nameWithOwner": "pkurczynski/AdaptiveOptics",
+        "url": "https://github.com/pkurczynski/AdaptiveOptics",
+        "description": "Un-twinkling the stars, and enabling super-human vision ",
+        "stargazerCount": 1,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-02-27T12:41:34Z",
+        "pushedAt": "2016-02-27T20:17:00Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Mathematica"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ0NzQ2MzE=",
+      "login": "rachelstephanie",
+      "name": "rachel",
+      "type": "User",
+      "location": "new jersey",
+      "url": "https://github.com/rachelstephanie",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4474631?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "rachrach",
+        "nameWithOwner": "rachelstephanie/rachrach",
+        "url": "https://github.com/rachelstephanie/rachrach",
+        "description": "heyyy",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-07-11T03:19:32Z",
+        "pushedAt": "2013-07-11T03:19:32Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc2NzM5MTY=",
+      "login": "rdulaurier",
+      "name": "Roosevelt D",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/rdulaurier",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7673916?u=b5366b0113b07a01769f919a00c17d80af5b7d42&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "public-code",
+        "nameWithOwner": "rdulaurier/public-code",
+        "url": "https://github.com/rdulaurier/public-code",
+        "description": "Public Repository",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-09-07T14:31:45Z",
+        "pushedAt": "2023-01-23T01:53:23Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -2489,6 +3080,40 @@
         "primaryLanguage": {
           "name": "Jupyter Notebook"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE0NDczODg=",
+      "login": "sksmurthy",
+      "name": "Sunil",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/sksmurthy",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1447388?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "Click-Learn",
+        "nameWithOwner": "sksmurthy/Click-Learn",
+        "url": "https://github.com/sksmurthy/Click-Learn",
+        "description": "Click on the pictures and learn",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2012-02-17T17:59:46Z",
+        "pushedAt": null,
+        "homepageUrl": "",
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -2631,6 +3256,114 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjEwMjAxNTA2",
+      "login": "adaita",
+      "name": "Ankita Daita",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/adaita",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10201506?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "test-repo",
+        "nameWithOwner": "adaita/test-repo",
+        "url": "https://github.com/adaita/test-repo",
+        "description": "this is a test repo",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-03-21T22:07:34Z",
+        "pushedAt": "2015-03-21T22:16:52Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY3NDAyMzA=",
+      "login": "affarram",
+      "name": "Sean Marraffa",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/affarram",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6740230?u=223a232016528c3268dabba86be836f79d6f542e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "RGB_Shutter_Shades",
+        "nameWithOwner": "affarram/RGB_Shutter_Shades",
+        "url": "https://github.com/affarram/RGB_Shutter_Shades",
+        "description": "RGB Shutter Shades connect to iOS Application",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-02-13T04:07:38Z",
+        "pushedAt": "2016-02-13T04:07:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg0MDUwNTQ=",
+      "login": "agurnani",
+      "name": "Anil Gurnani",
+      "type": "User",
+      "location": "New York/New Jersey",
+      "url": "https://github.com/agurnani",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8405054?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "ragworkshop",
+        "nameWithOwner": "agurnani/ragworkshop",
+        "url": "https://github.com/agurnani/ragworkshop",
+        "description": "rag workshop course July 26, 2025",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-07-26T01:31:41Z",
+        "pushedAt": "2025-07-26T01:31:41Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "U_kgDOBeoTdg",
       "login": "aiyadjaz",
       "name": "Aidana",
@@ -2663,6 +3396,76 @@
         "primaryLanguage": {
           "name": "HCL"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjk0NTEzNDQ=",
+      "login": "Akash-1991",
+      "name": "Akash Mahajan",
+      "type": "User",
+      "location": "New Jersey Institute of Technology, Newark, NJ 07103",
+      "url": "https://github.com/Akash-1991",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9451344?u=2ea8b9cbbe6633ed516b099d5402fd27b81ef226&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "angular2-tp",
+        "nameWithOwner": "Akash-1991/angular2-tp",
+        "url": "https://github.com/Akash-1991/angular2-tp",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-11-22T22:40:39Z",
+        "pushedAt": "2016-11-22T22:45:06Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgwOTU3NjI=",
+      "login": "albertdong11",
+      "name": "Albert Dong",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/albertdong11",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8095762?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "Superset-test",
+        "nameWithOwner": "albertdong11/Superset-test",
+        "url": "https://github.com/albertdong11/Superset-test",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-02-19T20:34:51Z",
+        "pushedAt": "2026-03-03T00:39:16Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -2703,6 +3506,110 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM2MTMxMzg=",
+      "login": "amanB",
+      "name": "aman",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/amanB",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3613138?u=0a2cb1eec9730190fe5300f897aa4bd86bf18739&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "resume",
+        "nameWithOwner": "amanB/resume",
+        "url": "https://github.com/amanB/resume",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-10-01T04:42:48Z",
+        "pushedAt": "2021-10-01T04:45:04Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc3ODE0MTA=",
+      "login": "andreypanasenko",
+      "name": "Andriy Panasenko",
+      "type": "User",
+      "location": "New Jersey, US",
+      "url": "https://github.com/andreypanasenko",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7781410?u=dc3ea49c5b8cd92347c1122fd0fa74f5ccf2bf24&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "cities-connected",
+        "nameWithOwner": "andreypanasenko/cities-connected",
+        "url": "https://github.com/andreypanasenko/cities-connected",
+        "description": "Repository for test project which resolve graph unidirectional connectivity between two nodes.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-12-18T12:51:20Z",
+        "pushedAt": "2017-12-18T12:57:23Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE4MzU0OTk=",
+      "login": "apostodr",
+      "name": "Darren Apostolik",
+      "type": "User",
+      "location": "Jersey City",
+      "url": "https://github.com/apostodr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1835499?u=2832db2e5a8d5011d3beb664e97fa2326421becf&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "apostodr",
+        "nameWithOwner": "apostodr/apostodr",
+        "url": "https://github.com/apostodr/apostodr",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-09-30T18:04:08Z",
+        "pushedAt": "2021-09-30T18:04:09Z",
+        "homepageUrl": "https://github.com/apostodr",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCFV0Hg",
       "login": "Ar-husain",
       "name": "Arsalan Husain",
@@ -2737,6 +3644,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjY1NjUzMTU=",
+      "login": "atle27",
+      "name": "Atle Wilhelmsen",
+      "type": "User",
+      "location": "Jersey City",
+      "url": "https://github.com/atle27",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6565315?u=93c1bc78aaf9ba47f6b78bedf7349da880c2494b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "birdie-webapp",
+        "nameWithOwner": "atle27/birdie-webapp",
+        "url": "https://github.com/atle27/birdie-webapp",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-07T15:30:31Z",
+        "pushedAt": "2026-05-07T15:30:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjEyNjQyNDA=",
       "login": "audrickim",
       "name": "Audric Kim",
@@ -2765,6 +3706,253 @@
         "isFork": false,
         "createdAt": "2014-07-11T13:50:39Z",
         "pushedAt": "2014-07-11T13:50:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY1NTc3ODk=",
+      "login": "ayswanny",
+      "name": "Austen Swanson",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/ayswanny",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6557789?u=4913aba8496739b30bd4df30f08c576bf8471f61&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "Senior-Project",
+        "nameWithOwner": "ayswanny/Senior-Project",
+        "url": "https://github.com/ayswanny/Senior-Project",
+        "description": "Software developed for Rowan University's Music Department",
+        "stargazerCount": 0,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-09-15T17:53:52Z",
+        "pushedAt": "2015-12-21T03:34:54Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYyMDExNjU=",
+      "login": "balaram12399",
+      "name": "Balaram Raju",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/balaram12399",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6201165?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "balaram",
+        "nameWithOwner": "balaram12399/balaram",
+        "url": "https://github.com/balaram12399/balaram",
+        "description": "This is my personal project",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-02-04T21:34:09Z",
+        "pushedAt": "2014-02-04T21:34:09Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ0NDI0MTE=",
+      "login": "barcomedia",
+      "name": "Manuel Barco",
+      "type": "User",
+      "location": "Jersey City, NJ",
+      "url": "https://github.com/barcomedia",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4442411?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "javaprojects",
+        "nameWithOwner": "barcomedia/javaprojects",
+        "url": "https://github.com/barcomedia/javaprojects",
+        "description": "Java Projects ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-07-11T16:10:45Z",
+        "pushedAt": "2013-07-11T16:10:46Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ5MDk2NzI=",
+      "login": "bcardinale",
+      "name": "mhat",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/bcardinale",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4909672?u=d019db2e9eb0f278577846a39605e6cb7219e26d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "TimeCrunch",
+        "nameWithOwner": "bcardinale/TimeCrunch",
+        "url": "https://github.com/bcardinale/TimeCrunch",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-01-15T14:26:15Z",
+        "pushedAt": "2017-01-15T14:33:25Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEwMTM0ODEw",
+      "login": "beccatron",
+      "name": "Rebecca Rojer",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/beccatron",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10134810?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "wp-plugin-beccatron-people",
+        "nameWithOwner": "beccatron/wp-plugin-beccatron-people",
+        "url": "https://github.com/beccatron/wp-plugin-beccatron-people",
+        "description": "A Wordpress plugin featuring a custom post type 'Person', separate from Wordpress user accounts",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-12-09T21:16:27Z",
+        "pushedAt": "2015-06-22T17:50:36Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v2.0",
+          "spdxId": "GPL-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM3OTcwOTI=",
+      "login": "bgtham",
+      "name": "Gowtham Burle",
+      "type": "User",
+      "location": "Parsippany, New Jersey",
+      "url": "https://github.com/bgtham",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3797092?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "NSEBSE",
+        "nameWithOwner": "bgtham/NSEBSE",
+        "url": "https://github.com/bgtham/NSEBSE",
+        "description": "This is to store my code base and pull at any time",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-07-02T13:52:33Z",
+        "pushedAt": "2018-01-07T18:13:52Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQxNTgzNzM=",
+      "login": "biyaniabhi",
+      "name": "Abhishek Biyani",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/biyaniabhi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4158373?u=82d76dd24edf3f1199e2905c99d276893cfaf271&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "repo",
+        "nameWithOwner": "biyaniabhi/repo",
+        "url": "https://github.com/biyaniabhi/repo",
+        "description": "Training repository",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-04-23T05:56:28Z",
+        "pushedAt": "2013-04-23T07:13:27Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -2807,6 +3995,183 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ0NzQxNzA=",
+      "login": "bkstewart60",
+      "name": "Bryan Stewart",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/bkstewart60",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4474170?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "angular-get-started-tutorial",
+        "nameWithOwner": "bkstewart60/angular-get-started-tutorial",
+        "url": "https://github.com/bkstewart60/angular-get-started-tutorial",
+        "description": "Created with StackBlitz ⚡️",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-02-13T17:29:30Z",
+        "pushedAt": "2023-10-11T00:45:33Z",
+        "homepageUrl": "https://stackblitz.com/edit/angular-get-started-tutorial",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjk3NDkzNzc=",
+      "login": "blaffey19",
+      "name": "Brendon Laffey",
+      "type": "User",
+      "location": "Cape May County, New Jersey",
+      "url": "https://github.com/blaffey19",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9749377?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "phase-0-gps-1",
+        "nameWithOwner": "blaffey19/phase-0-gps-1",
+        "url": "https://github.com/blaffey19/phase-0-gps-1",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-03-27T03:08:27Z",
+        "pushedAt": "2015-03-27T04:54:33Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM5NTAwMzQ=",
+      "login": "blueassetmanagementllc",
+      "name": "Charles Blumenkehl",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/blueassetmanagementllc",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3950034?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "Buy-Mortgage-Notes-in-New-Jersey",
+        "nameWithOwner": "blueassetmanagementllc/Buy-Mortgage-Notes-in-New-Jersey",
+        "url": "https://github.com/blueassetmanagementllc/Buy-Mortgage-Notes-in-New-Jersey",
+        "description": "Buy and Sell Performing and Non Performing Mortgage Notes in New Jersey",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-03-23T15:10:58Z",
+        "pushedAt": "2013-03-23T15:10:59Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYyNDgyMzQ=",
+      "login": "bosesps",
+      "name": "Subhash Sabbani",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/bosesps",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6248234?u=5fa88310124a00f8a2de49d18914b1e6dc42bee2&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "AdventureWorks2008",
+        "nameWithOwner": "bosesps/AdventureWorks2008",
+        "url": "https://github.com/bosesps/AdventureWorks2008",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-02-19T19:44:00Z",
+        "pushedAt": "2014-02-19T19:45:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU2ODgzOTg=",
+      "login": "bravobuilders",
+      "name": "bravo builders",
+      "type": "User",
+      "location": "Pt. Pleasant Beach,New Jersey,08742",
+      "url": "https://github.com/bravobuilders",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5688398?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "bravobuilders",
+        "nameWithOwner": "bravobuilders/bravobuilders",
+        "url": "https://github.com/bravobuilders/bravobuilders",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-10-15T05:40:27Z",
+        "pushedAt": "2013-10-15T05:45:24Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "CSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE4MjQ3NTA=",
       "login": "brianjschneider",
       "name": "Brian Schneider",
@@ -2843,6 +4208,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjk0MDU3MTU=",
+      "login": "BrianWilbur",
+      "name": "Brian Wilbur",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/BrianWilbur",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9405715?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "foffbox",
+        "nameWithOwner": "BrianWilbur/foffbox",
+        "url": "https://github.com/BrianWilbur/foffbox",
+        "description": "Repo for the few, the proud, the Foffbox!",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-10-26T16:39:28Z",
+        "pushedAt": "2014-11-02T21:52:10Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI0OTA2NjI=",
       "login": "bslook",
       "name": "Bob Slook",
@@ -2874,6 +4275,118 @@
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI5NTE2MjM=",
+      "login": "budetsdelano",
+      "name": "Slava",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/budetsdelano",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2951623?u=5d66993c86e8d8d86adbe63bc9e287e85cb3220a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "sistema-ui",
+        "nameWithOwner": "budetsdelano/sistema-ui",
+        "url": "https://github.com/budetsdelano/sistema-ui",
+        "description": "Demo Design System",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-08T05:42:23Z",
+        "pushedAt": "2026-01-18T12:32:18Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Vue"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMzMTIyMzc=",
+      "login": "c0nc3ptSF",
+      "name": "Jarret Redding",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/c0nc3ptSF",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3312237?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "Wordpress-System-Status",
+        "nameWithOwner": "c0nc3ptSF/Wordpress-System-Status",
+        "url": "https://github.com/c0nc3ptSF/Wordpress-System-Status",
+        "description": "Easily display system messages to your visitors.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-02-12T21:53:14Z",
+        "pushedAt": "2015-02-12T23:21:11Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUxMjI0MDE=",
+      "login": "carlofiorletta",
+      "name": "Carlo Fiorletta",
+      "type": "User",
+      "location": "Jersey City, NJ",
+      "url": "https://github.com/carlofiorletta",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5122401?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "RobotC",
+        "nameWithOwner": "carlofiorletta/RobotC",
+        "url": "https://github.com/carlofiorletta/RobotC",
+        "description": "RobotC code. ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-11-22T22:16:26Z",
+        "pushedAt": "2013-11-22T22:16:26Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
       }
     },
     {
@@ -2947,6 +4460,74 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjczMjAyNTE=",
+      "login": "chris51",
+      "name": "christopher lee",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/chris51",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7320251?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "VBA-Restaurant-Simulation",
+        "nameWithOwner": "chris51/VBA-Restaurant-Simulation",
+        "url": "https://github.com/chris51/VBA-Restaurant-Simulation",
+        "description": "VBA Restaurant Simulation",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-05-06T23:24:07Z",
+        "pushedAt": "2024-07-28T23:45:24Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjcxMTk1MTY=",
+      "login": "chrisjbrinkman",
+      "name": "Chris Brinkman",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/chrisjbrinkman",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7119516?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "datasciencecoursera",
+        "nameWithOwner": "chrisjbrinkman/datasciencecoursera",
+        "url": "https://github.com/chrisjbrinkman/datasciencecoursera",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-09-13T13:20:12Z",
+        "pushedAt": "2016-09-13T23:31:50Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE1MzEzMjU=",
       "login": "chrislee2000",
       "name": "Chris",
@@ -3015,6 +4596,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjk0NjYxNTg=",
+      "login": "CodeDonors",
+      "name": "Jeremy McDonald",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/CodeDonors",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9466158?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "github-slideshow",
+        "nameWithOwner": "CodeDonors/github-slideshow",
+        "url": "https://github.com/CodeDonors/github-slideshow",
+        "description": "A robot powered training repository :robot:",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-05-14T10:24:02Z",
+        "pushedAt": "2022-05-14T17:11:52Z",
+        "homepageUrl": "https://lab.github.com/githubtraining/introduction-to-github",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjM1MzgwMDM0",
       "login": "CodesbyCliff",
       "name": "Cliff",
@@ -3043,6 +4663,191 @@
         "isFork": false,
         "createdAt": "2024-02-09T17:26:34Z",
         "pushedAt": "2024-02-09T17:26:34Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM2MTk4NjQ=",
+      "login": "codesherwin",
+      "name": "David Sherwin",
+      "type": "User",
+      "location": "Jersey City, NJ",
+      "url": "https://github.com/codesherwin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3619864?u=a5a51d74f5e531d0bda79599a70133b05e60d7da&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "myblog",
+        "nameWithOwner": "codesherwin/myblog",
+        "url": "https://github.com/codesherwin/myblog",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-08-07T20:03:49Z",
+        "pushedAt": "2016-08-08T01:34:38Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg0Mzc0MTk=",
+      "login": "ColinLubout",
+      "name": "Colin Lubout",
+      "type": "User",
+      "location": "Jersey (Channel Islands)",
+      "url": "https://github.com/ColinLubout",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8437419?u=6d98b79adbbbb49d308711cc914c1db920bf947c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "BAH_Francais",
+        "nameWithOwner": "ColinLubout/BAH_Francais",
+        "url": "https://github.com/ColinLubout/BAH_Francais",
+        "description": "Mobile App to Learn French",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-23T10:04:22Z",
+        "pushedAt": "2026-10-23T06:55:12Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Dart"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgzMDY1Njc=",
+      "login": "coloredwithchaos",
+      "name": "Brian Maya",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/coloredwithchaos",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8306567?u=4bc7e38d45805441d6f728e6d9330fe15b226fca&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "bta",
+        "nameWithOwner": "coloredwithchaos/bta",
+        "url": "https://github.com/coloredwithchaos/bta",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-11-16T04:31:01Z",
+        "pushedAt": "2018-11-19T01:29:41Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY3NDEyOTM=",
+      "login": "compassneedle",
+      "name": "Jose Fernando Lopez",
+      "type": "User",
+      "location": "Princeton, New Jersey",
+      "url": "https://github.com/compassneedle",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6741293?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "Solopreneurs-Online",
+        "nameWithOwner": "compassneedle/Solopreneurs-Online",
+        "url": "https://github.com/compassneedle/Solopreneurs-Online",
+        "description": "Solopreneurs Online Presence",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-11-18T18:53:24Z",
+        "pushedAt": "2021-11-18T18:53:25Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "Creative Commons Zero v1.0 Universal",
+          "spdxId": "CC0-1.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgzMzU0OTg=",
+      "login": "CorgiSquidman",
+      "name": "Corgi SquidMan",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/CorgiSquidman",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8335498?u=55fe7760228459b55be019bdd88b08d25987a4b2&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "CorgiSquidman.github.io",
+        "nameWithOwner": "CorgiSquidman/CorgiSquidman.github.io",
+        "url": "https://github.com/CorgiSquidman/CorgiSquidman.github.io",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-08-02T22:37:19Z",
+        "pushedAt": "2014-08-03T04:47:23Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -3080,6 +4885,146 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgzMjE4NTU=",
+      "login": "datajewel",
+      "name": "jr",
+      "type": "User",
+      "location": "San Jose, CA~ Denver, CO~ Jersey City, NJ",
+      "url": "https://github.com/datajewel",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8321855?u=2b0ffd0156875768ee77f297ba42a8f0fe2bf775&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "99raiderz",
+        "nameWithOwner": "datajewel/99raiderz",
+        "url": "https://github.com/datajewel/99raiderz",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-10-09T17:31:39Z",
+        "pushedAt": "2014-10-09T17:31:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE4NzgzNDM=",
+      "login": "davidpm1021",
+      "name": " David Martin",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/davidpm1021",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1878343?u=385f92c1a80e2be55dc7a85e357671c13315d979&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "musicbot",
+        "nameWithOwner": "davidpm1021/musicbot",
+        "url": "https://github.com/davidpm1021/musicbot",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-11-12T01:20:40Z",
+        "pushedAt": "2026-10-11T16:07:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYwMTcwNTM=",
+      "login": "DBPeins",
+      "name": "David Peins",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/DBPeins",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6017053?u=1edd7c04839797a739e26b7382db03726dee1a34&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "PI-1",
+        "nameWithOwner": "DBPeins/PI-1",
+        "url": "https://github.com/DBPeins/PI-1",
+        "description": "Raspi-1",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-02-26T14:57:07Z",
+        "pushedAt": "2018-02-26T14:57:08Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc5NjA4Mjk=",
+      "login": "DeadCereal",
+      "name": "Dan Rodriguez",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/DeadCereal",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7960829?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "CyberProject",
+        "nameWithOwner": "DeadCereal/CyberProject",
+        "url": "https://github.com/DeadCereal/CyberProject",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-12-01T05:38:45Z",
+        "pushedAt": "2024-12-04T23:37:28Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Dockerfile"
         },
         "licenseInfo": null
       }
@@ -3124,6 +5069,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjEwMzQ1Mjkw",
+      "login": "dgallag",
+      "name": "Dan Gallagher",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/dgallag",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10345290?u=0dead890591939461234d4d5a1bb22f9bdaabcd5&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "dgallag.github.io",
+        "nameWithOwner": "dgallag/dgallag.github.io",
+        "url": "https://github.com/dgallag/dgallag.github.io",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-04-22T15:33:48Z",
+        "pushedAt": "2015-04-22T19:02:06Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE3NjUyMTg=",
       "login": "dharmkap",
       "name": "Dharm Kapadia",
@@ -3160,6 +5141,108 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjcxNTAyNTA=",
+      "login": "dnhetzell",
+      "name": null,
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/dnhetzell",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7150250?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "datasciencecoursera",
+        "nameWithOwner": "dnhetzell/datasciencecoursera",
+        "url": "https://github.com/dnhetzell/datasciencecoursera",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-03-21T19:09:16Z",
+        "pushedAt": "2015-03-21T19:20:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU1NDM5MDI=",
+      "login": "DoubleGee",
+      "name": "Garry",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/DoubleGee",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5543902?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "Python",
+        "nameWithOwner": "DoubleGee/Python",
+        "url": "https://github.com/DoubleGee/Python",
+        "description": "Some example of my python",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-10-05T06:19:15Z",
+        "pushedAt": "2013-10-05T06:23:14Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEwMDgzNTc5",
+      "login": "downtoboogie",
+      "name": "Alex Taormina",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/downtoboogie",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10083579?u=8d98b7f0e71a3b436a8b350b5011d6040bad1db3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "datasciencecoursera",
+        "nameWithOwner": "downtoboogie/datasciencecoursera",
+        "url": "https://github.com/downtoboogie/datasciencecoursera",
+        "description": "Class.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-12-18T05:28:11Z",
+        "pushedAt": "2014-12-20T17:45:42Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBhrm1Q",
       "login": "Dynastyunreal",
       "name": "Nana Osei-Owusu",
@@ -3188,6 +5271,110 @@
         "isFork": false,
         "createdAt": "2022-03-31T00:00:33Z",
         "pushedAt": "2022-03-31T00:00:34Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE0NDgxNjg=",
+      "login": "ediaz5513",
+      "name": "Elliot Diaz",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/ediaz5513",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1448168?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "libs",
+        "nameWithOwner": "ediaz5513/libs",
+        "url": "https://github.com/ediaz5513/libs",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-11-07T02:28:32Z",
+        "pushedAt": "2017-11-07T02:28:32Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc5MjkzNTg=",
+      "login": "emijayne",
+      "name": "Emily Uderman",
+      "type": "User",
+      "location": "New Jersey, US",
+      "url": "https://github.com/emijayne",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7929358?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "hamon_pantheon",
+        "nameWithOwner": "emijayne/hamon_pantheon",
+        "url": "https://github.com/emijayne/hamon_pantheon",
+        "description": "Former HamonUSA.com site; hosted on Pantheon.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-05-18T20:27:57Z",
+        "pushedAt": "2017-09-18T05:15:54Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg3NDUxNDE=",
+      "login": "eq091801",
+      "name": "Edgar Quinones Jr",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/eq091801",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8745141?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "Personal-Website",
+        "nameWithOwner": "eq091801/Personal-Website",
+        "url": "https://github.com/eq091801/Personal-Website",
+        "description": "Portfolio Website",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-10-04T19:36:05Z",
+        "pushedAt": "2017-10-04T23:46:55Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -3302,6 +5489,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM0MzMzMzA=",
+      "login": "firesidegargoyle",
+      "name": "Tyler da Silva",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/firesidegargoyle",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3433330?u=49f783ec74186662e8822a1523a9c780e16e595e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "firesidegargoyle.github.io",
+        "nameWithOwner": "firesidegargoyle/firesidegargoyle.github.io",
+        "url": "https://github.com/firesidegargoyle/firesidegargoyle.github.io",
+        "description": "HTML 5 Challenges",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-08-22T05:20:43Z",
+        "pushedAt": "2015-08-22T05:27:50Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE5NzcxMDY=",
       "login": "fishnet37222",
       "name": "Dave Frischknecht",
@@ -3338,6 +5559,110 @@
           "name": "Apache License 2.0",
           "spdxId": "Apache-2.0"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ2MTA5OTI=",
+      "login": "fisolucci",
+      "name": "Fisayo Dada",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/fisolucci",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4610992?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "codes",
+        "nameWithOwner": "fisolucci/codes",
+        "url": "https://github.com/fisolucci/codes",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-09-05T23:53:01Z",
+        "pushedAt": "2018-04-22T03:02:37Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYwNzYzMDE=",
+      "login": "flaurore",
+      "name": "fritz",
+      "type": "User",
+      "location": "jersey city, nj",
+      "url": "https://github.com/flaurore",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6076301?u=7f1fe371874fda0a4b6683ede355fcafb22c4e95&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "Doctor-patient",
+        "nameWithOwner": "flaurore/Doctor-patient",
+        "url": "https://github.com/flaurore/Doctor-patient",
+        "description": "A website project for a book",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-07-15T17:54:45Z",
+        "pushedAt": "2014-07-15T17:54:45Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU3MzY2NTg=",
+      "login": "gafroofing",
+      "name": "gafroofing",
+      "type": "User",
+      "location": "1361 Alps Road Wayne, New Jersey 07470",
+      "url": "https://github.com/gafroofing",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5736658?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "gafroofing",
+        "nameWithOwner": "gafroofing/gafroofing",
+        "url": "https://github.com/gafroofing/gafroofing",
+        "description": " GAF has two production lines both utilizing a wet-laid process. GAF also operates a coating line designed to single-side or double-side coat a variety of fabrics. Proprietary coatings are developed to meet specific customer needs and requirements. ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-10-21T11:02:28Z",
+        "pushedAt": "2013-10-21T11:02:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
       }
     },
     {
@@ -3411,6 +5736,180 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM1Nzc2ODY=",
+      "login": "Generalpros",
+      "name": "General Construction Pro",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/Generalpros",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3577686?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "General-Construction-Pro",
+        "nameWithOwner": "Generalpros/General-Construction-Pro",
+        "url": "https://github.com/Generalpros/General-Construction-Pro",
+        "description": "General Construction Pro",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-02-12T19:14:38Z",
+        "pushedAt": "2013-02-12T19:14:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEwMTE5Mjg5",
+      "login": "ggibson2371",
+      "name": "Gregg Gibson",
+      "type": "User",
+      "location": "North Jersey",
+      "url": "https://github.com/ggibson2371",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10119289?u=7734ea4eafaac7d3e0f21179cf6483bec00b1162&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "firstproject",
+        "nameWithOwner": "ggibson2371/firstproject",
+        "url": "https://github.com/ggibson2371/firstproject",
+        "description": "initial work with github from coursera training",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-12-08T17:33:03Z",
+        "pushedAt": "2014-12-08T20:18:23Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjczMjEyNzA=",
+      "login": "GMBeats95",
+      "name": "Greg M.",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/GMBeats95",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7321270?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "alpha-planner",
+        "nameWithOwner": "GMBeats95/alpha-planner",
+        "url": "https://github.com/GMBeats95/alpha-planner",
+        "description": "A planbook program for keeping track of assignments/courses",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-05-06T20:17:09Z",
+        "pushedAt": "2015-05-14T21:41:14Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU4NzU3ODI=",
+      "login": "gusboom",
+      "name": "Gus B",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/gusboom",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5875782?u=5a4bcca37126d6bdb4fcf95584ca64a774b141b8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "IS218_Final",
+        "nameWithOwner": "gusboom/IS218_Final",
+        "url": "https://github.com/gusboom/IS218_Final",
+        "description": "IS-218 Final Project",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-05-08T19:04:21Z",
+        "pushedAt": "2015-05-11T16:14:25Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg0MjEwMzE=",
+      "login": "GWBlank3",
+      "name": "George Blank",
+      "type": "User",
+      "location": "Newark, New Jersey",
+      "url": "https://github.com/GWBlank3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8421031?u=bbd6483f271dd7f652ebb13ac1ee3159e5e846d0&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "DataScientist",
+        "nameWithOwner": "GWBlank3/DataScientist",
+        "url": "https://github.com/GWBlank3/DataScientist",
+        "description": "Course Project Repository",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-08-11T20:20:41Z",
+        "pushedAt": "2014-08-11T20:20:41Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjMwNTYxMzIz",
       "login": "H3adshot",
       "name": "Walter Karroll",
@@ -3439,6 +5938,74 @@
         "isFork": false,
         "createdAt": "2017-07-30T01:11:05Z",
         "pushedAt": "2017-07-30T01:25:26Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY2NjAxNTA=",
+      "login": "harinj",
+      "name": "Hari",
+      "type": "User",
+      "location": "new jersey",
+      "url": "https://github.com/harinj",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6660150?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "harinj",
+        "nameWithOwner": "harinj/harinj",
+        "url": "https://github.com/harinj/harinj",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-02-19T13:56:30Z",
+        "pushedAt": "2023-06-24T13:11:25Z",
+        "homepageUrl": "https://github.com/harinj",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU2NzA4Njk=",
+      "login": "hemantbehera",
+      "name": "Hemant Behera",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/hemantbehera",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5670869?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "ionic",
+        "nameWithOwner": "hemantbehera/ionic",
+        "url": "https://github.com/hemantbehera/ionic",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-11-17T09:48:55Z",
+        "pushedAt": "2015-11-17T09:48:56Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -3549,6 +6116,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjgxODMzMjk=",
+      "login": "jasongoolamadeen",
+      "name": "Jason Goolamadeen",
+      "type": "User",
+      "location": "new jersey",
+      "url": "https://github.com/jasongoolamadeen",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8183329?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "Douchesnoze",
+        "nameWithOwner": "jasongoolamadeen/Douchesnoze",
+        "url": "https://github.com/jasongoolamadeen/Douchesnoze",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-04-30T20:56:08Z",
+        "pushedAt": "2021-04-30T20:56:09Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjMxMTUyNjQz",
       "login": "jasontoussig",
       "name": "jason_toussig",
@@ -3585,6 +6186,144 @@
           "name": "GNU General Public License v2.0",
           "spdxId": "GPL-2.0"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjkwOTM5MTk=",
+      "login": "JayBoucher",
+      "name": "Jay Boucher",
+      "type": "User",
+      "location": "Jersey City, NJ",
+      "url": "https://github.com/JayBoucher",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9093919?u=d9836bcbf31216225342e022aa09d712fac15603&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "puzzlescripts",
+        "nameWithOwner": "JayBoucher/puzzlescripts",
+        "url": "https://github.com/JayBoucher/puzzlescripts",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-06-22T16:19:25Z",
+        "pushedAt": "2016-06-22T16:19:26Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY5OTE2MDY=",
+      "login": "Jbabel11",
+      "name": "Justin Babel",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/Jbabel11",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6991606?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "palidromeapp",
+        "nameWithOwner": "Jbabel11/palidromeapp",
+        "url": "https://github.com/Jbabel11/palidromeapp",
+        "description": "Palindrome Application",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-04-16T20:59:59Z",
+        "pushedAt": "2014-04-16T21:01:01Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc4MzQ2NTM=",
+      "login": "jballanco",
+      "name": "Jerry Ballanco",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/jballanco",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7834653?u=bc7861ea7bae806119a87e19c70eb9fbae4af2a8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "hello-world",
+        "nameWithOwner": "jballanco/hello-world",
+        "url": "https://github.com/jballanco/hello-world",
+        "description": "My first Git repository. ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-06-20T18:43:17Z",
+        "pushedAt": "2017-06-20T18:51:33Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc0NDM0OTg=",
+      "login": "jbarrett40",
+      "name": "Joe Barrett",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/jbarrett40",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7443498?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "layer0-nextjs-example",
+        "nameWithOwner": "jbarrett40/layer0-nextjs-example",
+        "url": "https://github.com/jbarrett40/layer0-nextjs-example",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-11-17T21:49:04Z",
+        "pushedAt": "2021-11-17T21:49:06Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -3692,6 +6431,178 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU1NTQyNDY=",
+      "login": "jcoamx",
+      "name": null,
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/jcoamx",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5554246?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "jcoamx",
+        "nameWithOwner": "jcoamx/jcoamx",
+        "url": "https://github.com/jcoamx/jcoamx",
+        "description": "GitHub profile README — overview of all jcoamx repositories",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-16T16:51:03Z",
+        "pushedAt": "2026-07-21T22:25:17Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQxOTc2NDA=",
+      "login": "JDasiii",
+      "name": "Luis Serpas",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/JDasiii",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4197640?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "Hello-World",
+        "nameWithOwner": "JDasiii/Hello-World",
+        "url": "https://github.com/JDasiii/Hello-World",
+        "description": "Testing Repo",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-04-24T00:30:09Z",
+        "pushedAt": "2013-04-24T00:30:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQyNDY3MjY=",
+      "login": "jebongiovanni",
+      "name": "Jim Bongiovanni",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/jebongiovanni",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4246726?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "jebongiovanni.github.io",
+        "nameWithOwner": "jebongiovanni/jebongiovanni.github.io",
+        "url": "https://github.com/jebongiovanni/jebongiovanni.github.io",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-04-08T18:28:52Z",
+        "pushedAt": "2025-04-15T19:02:28Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU3NTMwMjg=",
+      "login": "jimbox",
+      "name": "jimbox",
+      "type": "User",
+      "location": "Jersey City, NJ",
+      "url": "https://github.com/jimbox",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5753028?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "foobar",
+        "nameWithOwner": "jimbox/foobar",
+        "url": "https://github.com/jimbox/foobar",
+        "description": "A Test Repository",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-10-23T05:21:05Z",
+        "pushedAt": "2013-10-23T05:21:05Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc0OTIyMzc=",
+      "login": "jimi-j",
+      "name": "Jimi Josevski",
+      "type": "User",
+      "location": "Northern New Jersey",
+      "url": "https://github.com/jimi-j",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7492237?u=4d9272c4b5ec861ae3b05728d683c942c899dbbc&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "myappsample",
+        "nameWithOwner": "jimi-j/myappsample",
+        "url": "https://github.com/jimi-j/myappsample",
+        "description": "sample app for tutorial",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-03-04T03:53:57Z",
+        "pushedAt": "2019-03-04T04:10:19Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjMxMzgyOTY=",
       "login": "JIsaac94",
       "name": "Jordan I",
@@ -3723,6 +6634,78 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjkxMjU1ODE=",
+      "login": "jkfurrer",
+      "name": "James Furrer",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/jkfurrer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9125581?u=692ffacfade5281911a594f8e2b872d8b897c70a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "SiT-RoomCheck",
+        "nameWithOwner": "jkfurrer/SiT-RoomCheck",
+        "url": "https://github.com/jkfurrer/SiT-RoomCheck",
+        "description": "Useful utility for Classroom Technology at Stevens Institute of Technology to check the next availability of a specified room.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-05-05T19:36:47Z",
+        "pushedAt": "2019-05-05T19:50:15Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjk5NTU5MjM=",
+      "login": "jkysela",
+      "name": "Jeanne K.",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/jkysela",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9955923?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "DOT",
+        "nameWithOwner": "jkysela/DOT",
+        "url": "https://github.com/jkysela/DOT",
+        "description": "diocesan website",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-11-26T01:39:09Z",
+        "pushedAt": "2014-11-26T01:43:08Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "CSS"
         },
         "licenseInfo": null
       }
@@ -3837,6 +6820,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjEwMDY3MzMz",
+      "login": "John-Leonard",
+      "name": "John Leonard",
+      "type": "User",
+      "location": "New Jersey ",
+      "url": "https://github.com/John-Leonard",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10067333?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "todo_2017Fall",
+        "nameWithOwner": "John-Leonard/todo_2017Fall",
+        "url": "https://github.com/John-Leonard/todo_2017Fall",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-09-12T02:14:29Z",
+        "pushedAt": "2017-09-12T03:13:48Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjIxODY1NTg=",
       "login": "JonathanCioffi",
       "name": "Jonathan Cioffi",
@@ -3873,6 +6892,217 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ4NjcxNjA=",
+      "login": "joseph-mclaughlin",
+      "name": "Joe McLaughlin",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/joseph-mclaughlin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4867160?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "EnterpriseDecisionEngine",
+        "nameWithOwner": "joseph-mclaughlin/EnterpriseDecisionEngine",
+        "url": "https://github.com/joseph-mclaughlin/EnterpriseDecisionEngine",
+        "description": "My entry to The Daily WTF OMGWTF 2.0",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-06-28T12:49:41Z",
+        "pushedAt": "2013-06-28T12:49:42Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg3NDc4MDU=",
+      "login": "JosephFranks",
+      "name": "Joe Franks",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/JosephFranks",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8747805?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "QuickMonoheapsort",
+        "nameWithOwner": "JosephFranks/QuickMonoheapsort",
+        "url": "https://github.com/JosephFranks/QuickMonoheapsort",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-28T21:43:49Z",
+        "pushedAt": "2026-07-31T04:30:26Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU3Njg2MzA=",
+      "login": "josephmserrani",
+      "name": "Joseph Serrani",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/josephmserrani",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5768630?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "mer-music-bot",
+        "nameWithOwner": "josephmserrani/mer-music-bot",
+        "url": "https://github.com/josephmserrani/mer-music-bot",
+        "description": "music bot using heroku",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-01-15T01:53:56Z",
+        "pushedAt": "2018-01-15T03:21:05Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU5MjI1MDg=",
+      "login": "junjo87",
+      "name": "Jun Jo",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/junjo87",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5922508?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "Unique-in-Order",
+        "nameWithOwner": "junjo87/Unique-in-Order",
+        "url": "https://github.com/junjo87/Unique-in-Order",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-05-09T13:47:31Z",
+        "pushedAt": "2018-05-09T13:47:32Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg1MDgyMzI=",
+      "login": "kannan3108",
+      "name": "Kannan Srinivasan",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/kannan3108",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8508232?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "Code-Fights",
+        "nameWithOwner": "kannan3108/Code-Fights",
+        "url": "https://github.com/kannan3108/Code-Fights",
+        "description": "Code filght challengessolution which I worked are available here",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-03-09T14:44:01Z",
+        "pushedAt": "2017-03-09T14:44:02Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg0MjgzOTE=",
+      "login": "Kimba11",
+      "name": "Kimball",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/Kimba11",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8428391?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "datasciencecoursera",
+        "nameWithOwner": "Kimba11/datasciencecoursera",
+        "url": "https://github.com/Kimba11/datasciencecoursera",
+        "description": "A repo for John Hopkin's Data Science Coursera classes",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-08-18T11:54:13Z",
+        "pushedAt": "2014-08-18T21:31:44Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOB1zIsg",
       "login": "KimberlyBarrera56",
       "name": "Kim",
@@ -3905,6 +7135,212 @@
         "primaryLanguage": {
           "name": "HTML"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc4MjcyOTU=",
+      "login": "kimberussell",
+      "name": "Kim Russell",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/kimberussell",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7827295?u=2d4d0880ea7b0ab0162cc57026f103c106fa67c9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "pyBirthdays",
+        "nameWithOwner": "kimberussell/pyBirthdays",
+        "url": "https://github.com/kimberussell/pyBirthdays",
+        "description": "Whose birthday is next?",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-09-04T14:26:14Z",
+        "pushedAt": "2016-09-04T14:26:14Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEwMzUxMTEw",
+      "login": "kodurinaresh",
+      "name": "Naresh Koduri",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/kodurinaresh",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10351110?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "helloWord",
+        "nameWithOwner": "kodurinaresh/helloWord",
+        "url": "https://github.com/kodurinaresh/helloWord",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-01-02T20:32:46Z",
+        "pushedAt": "2015-01-02T20:32:46Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgzNTcyMzQ=",
+      "login": "kooreal",
+      "name": "Jreal",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/kooreal",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8357234?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "apitesting",
+        "nameWithOwner": "kooreal/apitesting",
+        "url": "https://github.com/kooreal/apitesting",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-03-06T19:38:43Z",
+        "pushedAt": "2021-03-07T00:16:10Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY4NDAwMTg=",
+      "login": "krdhinesh",
+      "name": "KRDHINESH",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/krdhinesh",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6840018?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "NewSample",
+        "nameWithOwner": "krdhinesh/NewSample",
+        "url": "https://github.com/krdhinesh/NewSample",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-02-21T00:15:23Z",
+        "pushedAt": "2023-02-21T00:15:23Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg5NzgyODc=",
+      "login": "krunalpatel05",
+      "name": "Krunal Patel",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/krunalpatel05",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8978287?u=4b00956fea0cc019f0c27a2d5bd0bbbd11cd8a65&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "Shipstation",
+        "nameWithOwner": "krunalpatel05/Shipstation",
+        "url": "https://github.com/krunalpatel05/Shipstation",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-12-27T22:25:53Z",
+        "pushedAt": "2016-12-27T22:25:54Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQzNDM5MjI=",
+      "login": "KrypTiKPS",
+      "name": "Christopher Stephens",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/KrypTiKPS",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4343922?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "file-sorter",
+        "nameWithOwner": "KrypTiKPS/file-sorter",
+        "url": "https://github.com/KrypTiKPS/file-sorter",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-05-16T06:37:23Z",
+        "pushedAt": "2013-05-16T09:40:16Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -4007,6 +7443,40 @@
         "isFork": false,
         "createdAt": "2016-08-13T13:57:47Z",
         "pushedAt": "2016-08-13T14:05:59Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEwMTAxMTcz",
+      "login": "lcarbone",
+      "name": "Lou Carbone",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/lcarbone",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10101173?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "Cookbook",
+        "nameWithOwner": "lcarbone/Cookbook",
+        "url": "https://github.com/lcarbone/Cookbook",
+        "description": "This is a solution to create and maintain a cookbook in SQL, with Power BI reports and Canvas App.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-17T15:53:42Z",
+        "pushedAt": "2026-07-17T15:54:27Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -4190,6 +7660,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjc5Mjk2ODc=",
+      "login": "marci5378",
+      "name": "Marci JC",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/marci5378",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7929687?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "marci5378.github.io",
+        "nameWithOwner": "marci5378/marci5378.github.io",
+        "url": "https://github.com/marci5378/marci5378.github.io",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-06-22T00:36:58Z",
+        "pushedAt": "2017-06-22T00:36:59Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjExMjEwMjE=",
       "login": "marcinpop4",
       "name": "Marcin Popielarz",
@@ -4260,6 +7764,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjk3NzkyMzA=",
+      "login": "marioas1",
+      "name": "Mario Santoro",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/marioas1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9779230?u=8f4dc3df166ea11f22b2829294d1a486f7da1447&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "scaling-octo-cyril",
+        "nameWithOwner": "marioas1/scaling-octo-cyril",
+        "url": "https://github.com/marioas1/scaling-octo-cyril",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-11-16T04:11:12Z",
+        "pushedAt": "2014-11-16T04:11:13Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI0ODM0MzM=",
       "login": "mark2579",
       "name": "Mark Guerrero",
@@ -4290,6 +7828,76 @@
         "pushedAt": "2012-11-13T06:50:45Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjk4MjY2NTE=",
+      "login": "markhartigan",
+      "name": "Mark Hartigan",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/markhartigan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9826651?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "Test1",
+        "nameWithOwner": "markhartigan/Test1",
+        "url": "https://github.com/markhartigan/Test1",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-11-18T18:42:16Z",
+        "pushedAt": "2014-11-18T18:42:25Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU0MzU2NzE=",
+      "login": "marksal87",
+      "name": "Mark Salacinski",
+      "type": "User",
+      "location": "Jersey City, NJ",
+      "url": "https://github.com/marksal87",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5435671?u=71928a8512f90036fceb8394897488d0b2ff6b85&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "marksal87.github.io",
+        "nameWithOwner": "marksal87/marksal87.github.io",
+        "url": "https://github.com/marksal87/marksal87.github.io",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-10-16T15:22:18Z",
+        "pushedAt": "2019-10-16T16:46:50Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
         "licenseInfo": null
       }
     },
@@ -4330,6 +7938,113 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU3NjEzODc=",
+      "login": "MegCampa",
+      "name": "Meg Campagna",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/MegCampa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5761387?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "VBA",
+        "nameWithOwner": "MegCampa/VBA",
+        "url": "https://github.com/MegCampa/VBA",
+        "description": "VBA Code Sharing",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-10-24T14:46:52Z",
+        "pushedAt": "2013-10-24T14:46:52Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEwMjYyNDA4",
+      "login": "mfreeman1",
+      "name": "Dmitrii",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/mfreeman1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10262408?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "explore_california",
+        "nameWithOwner": "mfreeman1/explore_california",
+        "url": "https://github.com/mfreeman1/explore_california",
+        "description": "Website for Exploring California (Linda Course0",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-02-28T01:18:07Z",
+        "pushedAt": "2019-02-28T01:57:38Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMzMzA1OTY=",
+      "login": "michaelemartinez",
+      "name": "Michael Martinez",
+      "type": "User",
+      "location": "Jersey City, NJ",
+      "url": "https://github.com/michaelemartinez",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3330596?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "Test",
+        "nameWithOwner": "michaelemartinez/Test",
+        "url": "https://github.com/michaelemartinez/Test",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-04-15T12:02:23Z",
+        "pushedAt": "2022-04-15T12:02:23Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjIzODgwNjI=",
       "login": "mikeHQ",
       "name": "Michael Micallef",
@@ -4360,6 +8075,42 @@
         "pushedAt": "2012-09-20T21:01:00Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg5OTk3MDM=",
+      "login": "MikeJRepos",
+      "name": "Mike J",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/MikeJRepos",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8999703?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "Text-Based-RPG",
+        "nameWithOwner": "MikeJRepos/Text-Based-RPG",
+        "url": "https://github.com/MikeJRepos/Text-Based-RPG",
+        "description": "Text based RPG based on a novel I'm writing",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-05-15T21:31:03Z",
+        "pushedAt": "2020-09-25T00:13:17Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
         "licenseInfo": null
       }
     },
@@ -4398,6 +8149,115 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjEwMzEzOTI1",
+      "login": "MissSweeti",
+      "name": "Sweeti F.",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/MissSweeti",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10313925?u=e0afe833fda3f7ecf4436cb4e2cd43f18628a0af&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "tools",
+        "nameWithOwner": "MissSweeti/tools",
+        "url": "https://github.com/MissSweeti/tools",
+        "description": "General JavaScript tools I use for page scraping, data analysis, etc.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-12-26T19:58:19Z",
+        "pushedAt": "2014-12-26T20:11:48Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v2.0",
+          "spdxId": "GPL-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ3MDE1MjI=",
+      "login": "misuero",
+      "name": "Milton Suero",
+      "type": "User",
+      "location": "Newark, New Jersey",
+      "url": "https://github.com/misuero",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4701522?u=c45cb531959e53845cc0f0300732be6f8195acc8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "ios-course-super-cool-app",
+        "nameWithOwner": "misuero/ios-course-super-cool-app",
+        "url": "https://github.com/misuero/ios-course-super-cool-app",
+        "description": "This is the first app we built in the IOS course",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-12-03T23:39:16Z",
+        "pushedAt": "2015-12-04T01:01:25Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Swift"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUzOTU5NDI=",
+      "login": "MJM91",
+      "name": "Michael Moloughney ",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/MJM91",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5395942?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "basic-vue-app-skeleton",
+        "nameWithOwner": "MJM91/basic-vue-app-skeleton",
+        "url": "https://github.com/MJM91/basic-vue-app-skeleton",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-05-06T18:01:43Z",
+        "pushedAt": "2021-05-06T18:17:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjk5MzY3Ng==",
       "login": "mkatehakis",
       "name": "Michael N. Katehakis",
@@ -4428,6 +8288,42 @@
         "pushedAt": "2019-05-31T20:52:46Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQyODA0MTg=",
+      "login": "mlindeboom",
+      "name": "Michael Lindeboom",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/mlindeboom",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4280418?u=af8f95c6aca3970c54a54fe1b1a86d38c5b87a81&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "videopipe",
+        "nameWithOwner": "mlindeboom/videopipe",
+        "url": "https://github.com/mlindeboom/videopipe",
+        "description": "Video demonstrator application using React and AWS",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-03-02T18:08:07Z",
+        "pushedAt": "2020-03-02T18:11:11Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
         "licenseInfo": null
       }
     },
@@ -4540,6 +8436,253 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjUzNjY0MDU=",
+      "login": "neophiyte",
+      "name": "Douglas",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/neophiyte",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5366405?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "treebook",
+        "nameWithOwner": "neophiyte/treebook",
+        "url": "https://github.com/neophiyte/treebook",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-09-02T16:24:13Z",
+        "pushedAt": "2013-09-02T16:26:27Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Ruby"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjcyNzM5ODM=",
+      "login": "nitinb007",
+      "name": "nitin bhatia",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/nitinb007",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7273983?u=7771e38f9dc13acb2234a1fd049aa4189daea558&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "datasciencecoursera",
+        "nameWithOwner": "nitinb007/datasciencecoursera",
+        "url": "https://github.com/nitinb007/datasciencecoursera",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-04-15T00:17:47Z",
+        "pushedAt": "2014-04-15T00:17:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg1OTI0NjU=",
+      "login": "NJSPBIT",
+      "name": "NJ State Parole Board IT",
+      "type": "User",
+      "location": "171 Jersey Street Bldg 1, Trenton, NJ",
+      "url": "https://github.com/NJSPBIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8592465?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "NJSPB-Map",
+        "nameWithOwner": "NJSPBIT/NJSPB-Map",
+        "url": "https://github.com/NJSPBIT/NJSPB-Map",
+        "description": "Testing the maps polymer elements.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-09-01T18:58:19Z",
+        "pushedAt": "2014-09-01T18:58:19Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEwMDc5ODY4",
+      "login": "nsm100",
+      "name": "Nick Maher",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/nsm100",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10079868?u=6146a4f6e6a2de2a300b0134ee7bae91c0d12a20&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "personalsite",
+        "nameWithOwner": "nsm100/personalsite",
+        "url": "https://github.com/nsm100/personalsite",
+        "description": "my personal website",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-10-05T01:17:49Z",
+        "pushedAt": "2016-10-05T03:31:51Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMyNjk0NzY=",
+      "login": "nycgavin",
+      "name": "Gavin Lee",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/nycgavin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3269476?u=a9b27bfd818632f7746a87fce13f8a4a45a2c106&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "interview",
+        "nameWithOwner": "nycgavin/interview",
+        "url": "https://github.com/nycgavin/interview",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-03-07T18:20:15Z",
+        "pushedAt": "2022-03-07T19:56:34Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ1MzM4MTY=",
+      "login": "pataslin",
+      "name": "Pat Aslin",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/pataslin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4533816?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "PowerShell_DSC",
+        "nameWithOwner": "pataslin/PowerShell_DSC",
+        "url": "https://github.com/pataslin/PowerShell_DSC",
+        "description": "Powershell_DSC",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-05-14T12:25:27Z",
+        "pushedAt": "2014-05-14T12:25:27Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ5NjkzODM=",
+      "login": "patrickbock",
+      "name": "Patrick Bock",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/patrickbock",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4969383?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "SpecifixPrep",
+        "nameWithOwner": "patrickbock/SpecifixPrep",
+        "url": "https://github.com/patrickbock/SpecifixPrep",
+        "description": "website codes",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-07-09T01:38:59Z",
+        "pushedAt": "2013-07-09T01:38:59Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBhHLsw",
       "login": "PaulLeClerk",
       "name": "PaulLeClerk",
@@ -4568,6 +8711,76 @@
         "isFork": false,
         "createdAt": "2024-05-24T08:50:12Z",
         "pushedAt": "2024-05-24T09:15:15Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQwMjczMDI=",
+      "login": "pnardini",
+      "name": "Paul Nardini",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/pnardini",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4027302?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "5daysofai",
+        "nameWithOwner": "pnardini/5daysofai",
+        "url": "https://github.com/pnardini/5daysofai",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-27T21:33:46Z",
+        "pushedAt": "2026-07-28T00:28:23Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY5NjE2Mjc=",
+      "login": "pquirk",
+      "name": "Patrick Quirk",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/pquirk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6961627?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "hello-world",
+        "nameWithOwner": "pquirk/hello-world",
+        "url": "https://github.com/pquirk/hello-world",
+        "description": "I'm a n00b and I'm learning how to git.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-01-19T20:30:01Z",
+        "pushedAt": "2016-01-19T20:41:01Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -4610,6 +8823,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjgwNDQ2MjU=",
+      "login": "prodigy09",
+      "name": "Rushan Ahmed",
+      "type": "User",
+      "location": "Jersey City, NJ",
+      "url": "https://github.com/prodigy09",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8044625?u=8c0126b45acb61bcd2a2f786ea9f8cedbf849e74&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "finalproject",
+        "nameWithOwner": "prodigy09/finalproject",
+        "url": "https://github.com/prodigy09/finalproject",
+        "description": "files of final project",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-08-12T02:54:53Z",
+        "pushedAt": "2014-08-12T03:19:42Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "CSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjIzMDI2OTE=",
       "login": "ProfRussellCIE",
       "name": "Michael C. Russell",
@@ -4640,6 +8889,112 @@
         "pushedAt": "2018-12-08T13:17:48Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM5MjI2NzM=",
+      "login": "quest2know",
+      "name": "Chandrika Hariharan",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/quest2know",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3922673?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "ProcessAutomation",
+        "nameWithOwner": "quest2know/ProcessAutomation",
+        "url": "https://github.com/quest2know/ProcessAutomation",
+        "description": "Automating using Python. Organizing files, merging information from multiple APIs. Scheduling. ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-12-04T16:44:09Z",
+        "pushedAt": "2026-08-04T18:34:00Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgxNjM1MTc=",
+      "login": "raghurr",
+      "name": "Raghu Rao",
+      "type": "User",
+      "location": "Whitehouse Station, New Jersey",
+      "url": "https://github.com/raghurr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8163517?u=ab95977d0f4e2bb85c246b07cbc79c3f4a2f927b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "datasciencecoursera",
+        "nameWithOwner": "raghurr/datasciencecoursera",
+        "url": "https://github.com/raghurr/datasciencecoursera",
+        "description": "This is a Course Assignment Repor - datasciencecoursera ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-07-26T15:03:37Z",
+        "pushedAt": "2014-07-26T16:06:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjcyMTA5ODI=",
+      "login": "rajesharora27",
+      "name": "Rajesh Arora",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/rajesharora27",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7210982?u=334f39c800c9ef427505c41c519552225324aec7&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "tenant-manager-app",
+        "nameWithOwner": "rajesharora27/tenant-manager-app",
+        "url": "https://github.com/rajesharora27/tenant-manager-app",
+        "description": "Production-ready Flask app for managing Cisco SSE tenants with enhanced deployment scripts",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-10-06T18:11:07Z",
+        "pushedAt": "2025-10-06T18:30:22Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Shell"
+        },
         "licenseInfo": null
       }
     },
@@ -4748,6 +9103,185 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjUzNTYxMzk=",
+      "login": "reggieesposa",
+      "name": "Reggie Esposa",
+      "type": "User",
+      "location": "New York - New Jersey",
+      "url": "https://github.com/reggieesposa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5356139?u=3abe8fe9cc6a626b52eaca494801b1e8404dd362&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "SpecflowReporter",
+        "nameWithOwner": "reggieesposa/SpecflowReporter",
+        "url": "https://github.com/reggieesposa/SpecflowReporter",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-07-07T12:57:37Z",
+        "pushedAt": "2017-07-07T12:58:22Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ0Mjg5NzE=",
+      "login": "rensley",
+      "name": "Raymond Ensley",
+      "type": "User",
+      "location": " New Jersey",
+      "url": "https://github.com/rensley",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4428971?u=b6d1f5999b0adcfdabbbd5e75c3686b0bae6be7b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "RayTech-BBQ",
+        "nameWithOwner": "rensley/RayTech-BBQ",
+        "url": "https://github.com/rensley/RayTech-BBQ",
+        "description": "Testing",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-11-08T16:32:49Z",
+        "pushedAt": "2022-11-08T16:57:42Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "Creative Commons Zero v1.0 Universal",
+          "spdxId": "CC0-1.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU1NTQ5NDk=",
+      "login": "Reverof82",
+      "name": "Richard",
+      "type": "User",
+      "location": "Jersey City, NJ",
+      "url": "https://github.com/Reverof82",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5554949?u=8d4bbfc304693b2d0f1781ce048c5837ae423ada&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "PuzzleCube",
+        "nameWithOwner": "Reverof82/PuzzleCube",
+        "url": "https://github.com/Reverof82/PuzzleCube",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-10-20T07:22:49Z",
+        "pushedAt": "2015-10-25T17:20:55Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYxNjAwNzc=",
+      "login": "riddhishah1989",
+      "name": "Riddhi Shah",
+      "type": "User",
+      "location": "Westfield New Jersey",
+      "url": "https://github.com/riddhishah1989",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6160077?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "NotesLensAI",
+        "nameWithOwner": "riddhishah1989/NotesLensAI",
+        "url": "https://github.com/riddhishah1989/NotesLensAI",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-03T15:06:54Z",
+        "pushedAt": "2026-08-03T15:16:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Kotlin"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc1Mzc0MTg=",
+      "login": "rmanche",
+      "name": "Rajendra Manche",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/rmanche",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7537418?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "Hello-World",
+        "nameWithOwner": "rmanche/Hello-World",
+        "url": "https://github.com/rmanche/Hello-World",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-05-09T19:38:23Z",
+        "pushedAt": "2014-05-09T19:38:23Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI0MzY5NTg=",
       "login": "rmont1",
       "name": "Richard Montgomery",
@@ -4776,6 +9310,74 @@
         "isFork": false,
         "createdAt": "2012-09-27T12:24:36Z",
         "pushedAt": "2012-09-27T12:24:36Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEwMDM3NDE3",
+      "login": "robertduggar",
+      "name": "Robert Adler",
+      "type": "User",
+      "location": "Cherry Hill, New Jersey",
+      "url": "https://github.com/robertduggar",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10037417?u=13ac8c7947afffe0b30ff4dd8a6ef953b99a39a1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "Healthy-Expenses",
+        "nameWithOwner": "robertduggar/Healthy-Expenses",
+        "url": "https://github.com/robertduggar/Healthy-Expenses",
+        "description": "Expenses mobile app for The Healthy Smile",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-11-24T16:02:52Z",
+        "pushedAt": "2015-11-24T20:04:00Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc1MzY3NDM=",
+      "login": "RobOrr",
+      "name": "Rob Orr",
+      "type": "User",
+      "location": "Jersey City, NJ",
+      "url": "https://github.com/RobOrr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7536743?u=a1a6ae54331e35b8514d63cdb34bb5861e6fa9b2&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "datasciencecoursera",
+        "nameWithOwner": "RobOrr/datasciencecoursera",
+        "url": "https://github.com/RobOrr/datasciencecoursera",
+        "description": "Assignment 3",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-05-22T13:26:39Z",
+        "pushedAt": "2014-05-22T13:26:39Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -4846,6 +9448,112 @@
         "pushedAt": "2013-06-26T06:12:53Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjk0NjEwODY=",
+      "login": "rushabhshah1693",
+      "name": "Rushabh Shah",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/rushabhshah1693",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9461086?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "Practice",
+        "nameWithOwner": "rushabhshah1693/Practice",
+        "url": "https://github.com/rushabhshah1693/Practice",
+        "description": "Random practice set",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-11-05T04:43:51Z",
+        "pushedAt": "2016-11-05T04:43:56Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg1ODIyMzE=",
+      "login": "Rusty-Cat",
+      "name": "Jim Morgan",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/Rusty-Cat",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8582231?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "datasciencecoursera",
+        "nameWithOwner": "Rusty-Cat/datasciencecoursera",
+        "url": "https://github.com/Rusty-Cat/datasciencecoursera",
+        "description": "First repository For 'Data Scientist's Toolkit' Course",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-09-04T17:00:55Z",
+        "pushedAt": "2014-09-04T17:08:05Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIyOTQ0NTA=",
+      "login": "sandipmurmu",
+      "name": "SandipMurmu",
+      "type": "User",
+      "location": "Jersey City, NJ",
+      "url": "https://github.com/sandipmurmu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2294450?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "data_experiments",
+        "nameWithOwner": "sandipmurmu/data_experiments",
+        "url": "https://github.com/sandipmurmu/data_experiments",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-04-17T15:51:57Z",
+        "pushedAt": "2025-06-30T05:07:01Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
         "licenseInfo": null
       }
     },
@@ -4922,6 +9630,389 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM0MTc3NDY=",
+      "login": "saralaramesh",
+      "name": "Sarala Ramesh",
+      "type": "User",
+      "location": "Edison, New Jersey",
+      "url": "https://github.com/saralaramesh",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3417746?u=52aa38c3b5fe3c222ab537a19f8e9bab43ed49bb&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "weblogic",
+        "nameWithOwner": "saralaramesh/weblogic",
+        "url": "https://github.com/saralaramesh/weblogic",
+        "description": "weblogic scripts",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-08-23T17:58:53Z",
+        "pushedAt": "2013-08-23T17:58:54Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQzOTk1MDg=",
+      "login": "sconzof",
+      "name": "Frank Sconzo",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/sconzof",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4399508?u=f47939c05ebb4ed52d62a2576bca932eac85f8b8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "misc",
+        "nameWithOwner": "sconzof/misc",
+        "url": "https://github.com/sconzof/misc",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-11-14T01:28:37Z",
+        "pushedAt": "2024-11-14T01:28:37Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ4NzM3MjI=",
+      "login": "seantshen",
+      "name": "Sean T Shen",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/seantshen",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4873722?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "linkedin_posts",
+        "nameWithOwner": "seantshen/linkedin_posts",
+        "url": "https://github.com/seantshen/linkedin_posts",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-07-23T01:48:51Z",
+        "pushedAt": "2020-07-25T02:10:11Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY1NTY4MTE=",
+      "login": "shailiparikh",
+      "name": "Shaili Parikh",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/shailiparikh",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6556811?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "job-tracker",
+        "nameWithOwner": "shailiparikh/job-tracker",
+        "url": "https://github.com/shailiparikh/job-tracker",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-06-25T16:48:50Z",
+        "pushedAt": "2026-07-24T00:18:22Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUyNTY1MTg=",
+      "login": "Sharla",
+      "name": "Sharla Sava",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/Sharla",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5256518?u=2626e7eb5ba044b3f90be1af339115b91ba23a39&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "hello-world",
+        "nameWithOwner": "Sharla/hello-world",
+        "url": "https://github.com/Sharla/hello-world",
+        "description": "Repository that greets the world",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-11-04T23:28:16Z",
+        "pushedAt": "2017-11-05T00:22:34Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg5MTcyMzY=",
+      "login": "shengoro86",
+      "name": "Shengoro86",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/shengoro86",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8917236?u=bad0158dd015d1d568e94e845a88c53b47dd50d9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "n7EliteAndroid",
+        "nameWithOwner": "shengoro86/n7EliteAndroid",
+        "url": "https://github.com/shengoro86/n7EliteAndroid",
+        "description": "Framework Development for the N7Elite Cosplay Group Application",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-09-25T15:36:36Z",
+        "pushedAt": "2014-09-25T15:36:36Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "GNU General Public License v2.0",
+          "spdxId": "GPL-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgyODE5NTM=",
+      "login": "shreyanxdas",
+      "name": "Shreyan Das",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/shreyanxdas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8281953?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "shreyanxdas.github.io",
+        "nameWithOwner": "shreyanxdas/shreyanxdas.github.io",
+        "url": "https://github.com/shreyanxdas/shreyanxdas.github.io",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-03T21:29:28Z",
+        "pushedAt": "2024-09-08T04:11:08Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM5MTcyNDc=",
+      "login": "SirRoberts",
+      "name": "Marc Roberts",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/SirRoberts",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3917247?u=2e39a4f57617d52c6e35e5bc79d30111741c3c52&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "ArchDrop",
+        "nameWithOwner": "SirRoberts/ArchDrop",
+        "url": "https://github.com/SirRoberts/ArchDrop",
+        "description": "for le coded things",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-03-20T07:02:48Z",
+        "pushedAt": "2013-03-20T07:02:48Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU1NjEzODY=",
+      "login": "skalover95",
+      "name": "Tony Bologna",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/skalover95",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5561386?u=49f04959dcb5996eef5e78db8b277034333e2fe3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "test-repo",
+        "nameWithOwner": "skalover95/test-repo",
+        "url": "https://github.com/skalover95/test-repo",
+        "description": "This is a test repository",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-01-10T05:12:24Z",
+        "pushedAt": "2018-01-10T05:12:26Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ2NDkwMzE=",
+      "login": "SmitaraniBhol",
+      "name": "Smitarani Bhol",
+      "type": "User",
+      "location": "Jersey City, NJ",
+      "url": "https://github.com/SmitaraniBhol",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4649031?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "career",
+        "nameWithOwner": "SmitaraniBhol/career",
+        "url": "https://github.com/SmitaraniBhol/career",
+        "description": "My career roadmap",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-19T22:07:31Z",
+        "pushedAt": "2026-04-19T22:30:28Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY4NDMxNzE=",
+      "login": "spsulliv",
+      "name": "Sean",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/spsulliv",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6843171?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "projects",
+        "nameWithOwner": "spsulliv/projects",
+        "url": "https://github.com/spsulliv/projects",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-03-03T19:29:09Z",
+        "pushedAt": "2014-03-03T19:29:09Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI0OTQ0Mjk=",
       "login": "sr1927",
       "name": "Suresh Rangarajan",
@@ -4958,6 +10049,108 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ2NDQ2NzQ=",
+      "login": "srallred",
+      "name": "Sarah Allred",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/srallred",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4644674?u=dc1d7f08fa9f47fbc2b6035741868e6aa97f521c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "fictionShelf",
+        "nameWithOwner": "srallred/fictionShelf",
+        "url": "https://github.com/srallred/fictionShelf",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-05-13T14:34:23Z",
+        "pushedAt": "2022-05-13T14:34:24Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ1ODE3Mjc=",
+      "login": "sreenivasap",
+      "name": "Sreenu Pilla",
+      "type": "User",
+      "location": "Princeton, New Jersey",
+      "url": "https://github.com/sreenivasap",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4581727?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "cicddemo",
+        "nameWithOwner": "sreenivasap/cicddemo",
+        "url": "https://github.com/sreenivasap/cicddemo",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-28T00:13:07Z",
+        "pushedAt": "2026-01-28T00:50:19Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgyMDU5ODU=",
+      "login": "steven2021",
+      "name": "Jimmy Paul ",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/steven2021",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8205985?u=b7d398b31b7102606a186173d5760e8143f34fa9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "DataSciencecoursera",
+        "nameWithOwner": "steven2021/DataSciencecoursera",
+        "url": "https://github.com/steven2021/DataSciencecoursera",
+        "description": "Data Science project ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-07-27T21:38:06Z",
+        "pushedAt": "2014-07-27T22:42:45Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjM0MDM0MjQ0",
       "login": "stllc",
       "name": "STLLC",
@@ -4989,6 +10182,115 @@
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUyMzk1MDA=",
+      "login": "tanishqaggarwal",
+      "name": "Tanishq Aggarwal",
+      "type": "User",
+      "location": "Princeton, New Jersey",
+      "url": "https://github.com/tanishqaggarwal",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5239500?u=b128feac5812bc0bba924ef2897da3cf8fc2865a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "tanishqaggarwal.github.io",
+        "nameWithOwner": "tanishqaggarwal/tanishqaggarwal.github.io",
+        "url": "https://github.com/tanishqaggarwal/tanishqaggarwal.github.io",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-04-13T19:33:09Z",
+        "pushedAt": "2026-08-30T04:57:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI4ODE3NzU=",
+      "login": "tfhackett",
+      "name": "Tom Hackett",
+      "type": "User",
+      "location": "Central Northern Jersey",
+      "url": "https://github.com/tfhackett",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2881775?u=248380f137b46732c1b69797885b05b7be6901e5&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "thursday_git_test",
+        "nameWithOwner": "tfhackett/thursday_git_test",
+        "url": "https://github.com/tfhackett/thursday_git_test",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-02-13T19:28:48Z",
+        "pushedAt": "2020-02-13T19:28:50Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjczNTI3MjA=",
+      "login": "thusharatom",
+      "name": "Thushara Elizabeth Tom",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/thusharatom",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7352720?u=d54ad8e9a5274fc9d72bb4499c60d9c8fa6adf8d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "Business-Info-Prediction",
+        "nameWithOwner": "thusharatom/Business-Info-Prediction",
+        "url": "https://github.com/thusharatom/Business-Info-Prediction",
+        "description": "Yelp Business Info Prediction",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-12-09T16:57:24Z",
+        "pushedAt": "2017-12-08T00:50:52Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -5096,6 +10398,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjcyNTMyNTc=",
+      "login": "tprashanth",
+      "name": "Prashanth Talla",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/tprashanth",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7253257?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "micro-services-arch",
+        "nameWithOwner": "tprashanth/micro-services-arch",
+        "url": "https://github.com/tprashanth/micro-services-arch",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-17T06:04:06Z",
+        "pushedAt": "2026-03-17T06:04:07Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjMzMDg4Mzc2",
       "login": "troccola",
       "name": "Ted Troccola",
@@ -5133,6 +10469,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjk3ODk0MTk=",
+      "login": "Tsizer1",
+      "name": "Theodore Sizer",
+      "type": "User",
+      "location": "Monmouth County, New Jersey",
+      "url": "https://github.com/Tsizer1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9789419?u=c79dc012569654e81d9d1e80d8569074da7c4d38&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "TedSizerDesigns",
+        "nameWithOwner": "Tsizer1/TedSizerDesigns",
+        "url": "https://github.com/Tsizer1/TedSizerDesigns",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-07-06T02:08:58Z",
+        "pushedAt": "2017-07-06T02:08:59Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBjo6rg",
       "login": "tszzzero370",
       "name": "Ruobing Wang",
@@ -5165,6 +10535,40 @@
         "primaryLanguage": {
           "name": "HTML"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjk4NDY2NTE=",
+      "login": "umaravi",
+      "name": "Uma Ravi",
+      "type": "User",
+      "location": "New Jersey & New York",
+      "url": "https://github.com/umaravi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9846651?u=56347dc52344d17105afaa97c6adb9048e343101&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "articulate",
+        "nameWithOwner": "umaravi/articulate",
+        "url": "https://github.com/umaravi/articulate",
+        "description": "pcf developer -cs",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-12-12T04:37:47Z",
+        "pushedAt": "2017-12-12T04:37:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -5237,6 +10641,110 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjc4ODIyNDM=",
+      "login": "vajent",
+      "name": "Victoria Jent",
+      "type": "User",
+      "location": "Jersey City, NJ",
+      "url": "https://github.com/vajent",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7882243?u=4df7f06b1e5c3189171b4ec6c49bf7abc6a3f609&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "datasciencecoursera",
+        "nameWithOwner": "vajent/datasciencecoursera",
+        "url": "https://github.com/vajent/datasciencecoursera",
+        "description": "Coursera Data Science Repo",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-08-19T18:00:12Z",
+        "pushedAt": "2014-08-23T22:14:08Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEwMTk4Nzcx",
+      "login": "vedangijani",
+      "name": "Vedangi Jani",
+      "type": "User",
+      "location": "Jersey city",
+      "url": "https://github.com/vedangijani",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10198771?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "SocialLogin",
+        "nameWithOwner": "vedangijani/SocialLogin",
+        "url": "https://github.com/vedangijani/SocialLogin",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-08-20T21:04:08Z",
+        "pushedAt": "2019-08-20T21:06:52Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjk4MDY2Njc=",
+      "login": "vgadewar",
+      "name": "Vinayak Gadewar",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/vgadewar",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9806667?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "first_streamlit_app",
+        "nameWithOwner": "vgadewar/first_streamlit_app",
+        "url": "https://github.com/vgadewar/first_streamlit_app",
+        "description": "First Streamlit app for snowflake DBAW course",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-04-18T23:03:56Z",
+        "pushedAt": "2022-04-18T23:24:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBXYwDw",
       "login": "ViceScarp",
       "name": "Steven Scarpa",
@@ -5265,6 +10773,110 @@
         "isFork": false,
         "createdAt": "2021-10-27T09:46:19Z",
         "pushedAt": "2021-10-27T09:46:19Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY0NjU5ODk=",
+      "login": "victrjhnsn",
+      "name": "Victor Johnson",
+      "type": "User",
+      "location": "Atlantic City, New Jersey",
+      "url": "https://github.com/victrjhnsn",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6465989?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "victrjhnsn.github.io",
+        "nameWithOwner": "victrjhnsn/victrjhnsn.github.io",
+        "url": "https://github.com/victrjhnsn/victrjhnsn.github.io",
+        "description": "Personal blog of Victor Johnson",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-01-22T01:08:09Z",
+        "pushedAt": "2014-01-22T01:08:09Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEwMTc0Njg5",
+      "login": "Vijaygarg001",
+      "name": "Vijay Kumar",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/Vijaygarg001",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10174689?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "MIT-VK-REPO-001",
+        "nameWithOwner": "Vijaygarg001/MIT-VK-REPO-001",
+        "url": "https://github.com/Vijaygarg001/MIT-VK-REPO-001",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-11-01T00:33:56Z",
+        "pushedAt": "2022-11-01T01:05:32Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUxNTgwMzE=",
+      "login": "w2ttt",
+      "name": "Communications Technology Group - Amateur Radio Networking",
+      "type": "User",
+      "location": "New Jersey ",
+      "url": "https://github.com/w2ttt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5158031?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "ComTechGroup",
+        "nameWithOwner": "w2ttt/ComTechGroup",
+        "url": "https://github.com/w2ttt/ComTechGroup",
+        "description": "Communications Technology Group - Amateur Radio Networking and Applications",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-08-04T08:37:09Z",
+        "pushedAt": "2013-08-04T08:37:09Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -5301,6 +10913,78 @@
         "pushedAt": "2019-08-08T19:10:34Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjkzNTI1NDE=",
+      "login": "yokorey",
+      "name": "Rey",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/yokorey",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9352541?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "EmployeePay",
+        "nameWithOwner": "yokorey/EmployeePay",
+        "url": "https://github.com/yokorey/EmployeePay",
+        "description": "Takes the first name, last name, id, Birthdate, Hire Date, and base pay. Spits out information and based on base pay, shows the taxes on the base pay and spits out the final pay.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-06-04T14:17:24Z",
+        "pushedAt": "2017-06-04T14:17:41Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgzNzE3NzM=",
+      "login": "zachlew",
+      "name": "Zach",
+      "type": "User",
+      "location": "New Jersey",
+      "url": "https://github.com/zachlew",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8371773?u=842ef9805a4e91904f02bcfde29eb0a5387eb060&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "JE",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Jersey"
+      },
+      "discoveryTerms": [
+        "Jersey"
+      ],
+      "topRepository": {
+        "name": "herbluck",
+        "nameWithOwner": "zachlew/herbluck",
+        "url": "https://github.com/zachlew/herbluck",
+        "description": "A plugin to keep track of your farming luck.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-05T14:34:47Z",
+        "pushedAt": "2026-04-05T14:34:49Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
         "licenseInfo": null
       }
     },
