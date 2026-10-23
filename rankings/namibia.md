@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 121**
 - Progress: **0%**
-- Retained high-potential owner candidates: **263**
-- Search requests completed: **8**
+- Retained high-potential owner candidates: **475**
+- Search requests completed: **16**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -29,6 +29,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [m-spangenberg/CS50P](https://github.com/m-spangenberg/CS50P) | **45** | Walvis Bay, Namibia |
 | [axelmukwena/biometricECG](https://github.com/axelmukwena/biometricECG) | **44** | Namibia |
 | [Fox520/pushyy](https://github.com/Fox520/pushyy) | **31** | Namibia |
+| [raminhossaini/ramin-dough-calculator](https://github.com/raminhossaini/ramin-dough-calculator) | **26** | Namibia |
 | [Lucas-Erkana/Awesome_Book](https://github.com/Lucas-Erkana/Awesome_Book) | **24** | Walvis Bay, Namibia |
 | [Rainexn0b/keyRGB](https://github.com/Rainexn0b/keyRGB) | **22** | Swakopmund, Namibia |
 | [SelmaNdapanda/To-Do-List](https://github.com/SelmaNdapanda/To-Do-List) | **12** | Windhoek, Namibia |
@@ -38,7 +39,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Matiastomas/html-css-form-layout](https://github.com/Matiastomas/html-css-form-layout) | **5** | Windhoek, Namibia |
 | [RaoulBock/SELF-DRIVING-CAR-OPEN-WORLD-NEURAL-NETWORK](https://github.com/RaoulBock/SELF-DRIVING-CAR-OPEN-WORLD-NEURAL-NETWORK) | **5** | Windhoek, Namibia |
 | [ohrionmartin/recipe-manager](https://github.com/ohrionmartin/recipe-manager) | **4** | Namibia |
-| [CodeGrogu/Asset-Mangement](https://github.com/CodeGrogu/Asset-Mangement) | **3** | Namibia |
 
 ## Repository-first scan
 
