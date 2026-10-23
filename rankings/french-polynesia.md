@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 4%
+## Repository ranking status: Building 12%
 
-- Geography terms processed: **5 / 105**
-- Progress: **4%**
-- Retained high-potential owner candidates: **83**
-- Search requests completed: **8**
+- Geography terms processed: **13 / 105**
+- Progress: **12%**
+- Retained high-potential owner candidates: **88**
+- Search requests completed: **16**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -31,14 +31,14 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [guybedo/minos](https://github.com/guybedo/minos) | **53** | Tahiti - French Polynesia |
 | [sysnux/btrfs-snapshots-diff](https://github.com/sysnux/btrfs-snapshots-diff) | **51** | Tahiti, French Polynesia, Polynésie française |
 | [paraita/hft-sim](https://github.com/paraita/hft-sim) | **30** | Tahiti, French Polynesia |
+| [aneopsy/LibraryOfBabel](https://github.com/aneopsy/LibraryOfBabel) | **28** | Bora-bora |
 | [smortex/portshaker](https://github.com/smortex/portshaker) | **26** | Faa'a, Tahiti, French Polynesia |
 | [jaffadog/lambda-facebook-oauth](https://github.com/jaffadog/lambda-facebook-oauth) | **15** | Tahanea, Tuamotus, French Polynesia |
 | [ferrucci-franco/timeseries-explorer](https://github.com/ferrucci-franco/timeseries-explorer) | **9** | Tahiti, French Polynesia |
+| [Rem4rkable/Solving-the-LunarLanderContinuous-v2](https://github.com/Rem4rkable/Solving-the-LunarLanderContinuous-v2) | **7** | Bora Bora |
+| [chinmayrelkar/bawarchi](https://github.com/chinmayrelkar/bawarchi) | **5** | Bora Bora |
+| [ono7/dotfiles2](https://github.com/ono7/dotfiles2) | **4** | bora bora |
 | [MartinBINARD/MartinBinard_7_02122021](https://github.com/MartinBINARD/MartinBinard_7_02122021) | **3** | Tahiti, French Polynesia |
-| [TToarii/Envoy-control-plane](https://github.com/TToarii/Envoy-control-plane) | **3** | French Polynesia |
-| [adriencanterot/masterinfo](https://github.com/adriencanterot/masterinfo) | **2** | Tahiti, French Polynesia |
-| [geoffguillain/Inefficient-WordPress-Theme](https://github.com/geoffguillain/Inefficient-WordPress-Theme) | **2** | French Polynesia |
-| [Heinux/Heal](https://github.com/Heinux/Heal) | **2** | French Polynesia |
 
 ## Repository-first scan
 

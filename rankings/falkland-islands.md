@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 40%
+## Repository ranking status: Building 80%
 
-- Geography terms processed: **8 / 20**
-- Progress: **40%**
-- Retained high-potential owner candidates: **13**
-- Search requests completed: **8**
+- Geography terms processed: **16 / 20**
+- Progress: **80%**
+- Retained high-potential owner candidates: **15**
+- Search requests completed: **16**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -31,7 +31,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Dunedayl/KNTU-2023](https://github.com/Dunedayl/KNTU-2023) | **0** | Falkland islands |
 | [Jansen27/Student](https://github.com/Jansen27/Student) | **0** | Stanley, Falkland Islands |
 | [martinglhf/paraliparis-bathypelagicus-poster-references](https://github.com/martinglhf/paraliparis-bathypelagicus-poster-references) | **0** | Stanley, Falkland Islands |
+| [MauriOfc/MauriBOT](https://github.com/MauriOfc/MauriBOT) | **0** | Islas Malvinas |
 | [missprissmadk/missprissmadk](https://github.com/missprissmadk/missprissmadk) | **0** | Falkland Islands (FK) |
+| [netzeeek/proyecto](https://github.com/netzeeek/proyecto) | **0** | Islas Malvinas |
 | [OmaRadio/omaradio-numbers-station](https://github.com/OmaRadio/omaradio-numbers-station) | **0** | Falkland Islands |
 | [OwenRF/CSHARPWORK](https://github.com/OwenRF/CSHARPWORK) | **0** | Falkland Islands |
 | [saeri-ims/1956-aerial-imagery](https://github.com/saeri-ims/1956-aerial-imagery) | **0** | Stanley, Falkland Islands |

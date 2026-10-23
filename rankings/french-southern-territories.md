@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 22%
+## Repository ranking status: Building 45%
 
-- Geography terms processed: **8 / 35**
-- Progress: **22%**
-- Retained high-potential owner candidates: **5**
-- Search requests completed: **8**
+- Geography terms processed: **16 / 35**
+- Progress: **45%**
+- Retained high-potential owner candidates: **7**
+- Search requests completed: **16**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
+| [litmus-ritten/slurpy](https://github.com/litmus-ritten/slurpy) | **2** | Kerguelen Islands |
 | [chewkekofmeister/chewkekofmeister](https://github.com/chewkekofmeister/chewkekofmeister) | **0** | French Southern Territories (TF) |
+| [digglator/test](https://github.com/digglator/test) | **0** | Kerguelen Islands  |
 | [Le-Nedelec/Les-Threads](https://github.com/Le-Nedelec/Les-Threads) | **0** | French southern territories |
 | [mubokoxbrutalking/mubokoxbrutalking](https://github.com/mubokoxbrutalking/mubokoxbrutalking) | **0** | French Southern Territories (TF) |
 | [woodoosniper/woodoosniper](https://github.com/woodoosniper/woodoosniper) | **0** | French Southern Territories (TF) |
