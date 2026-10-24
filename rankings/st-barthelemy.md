@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 72%
+## Repository ranking status: Building 100%
 
-- Geography terms processed: **8 / 11**
-- Progress: **72%**
-- Retained high-potential owner candidates: **3**
-- Search requests completed: **8**
+- Geography terms processed: **11 / 11**
+- Progress: **100%**
+- Retained high-potential owner candidates: **4**
+- Search requests completed: **11**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -27,5 +27,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [bambinafrankriver/bambinafrankriver](https://github.com/bambinafrankriver/bambinafrankriver) | **0** | St Barthélemy (BL) |
 | [malmesbourne/malmesbourne](https://github.com/malmesbourne/malmesbourne) | **0** | St. Barthélemy (BL) |
 | [sandstormundead/sandstormundead](https://github.com/sandstormundead/sandstormundead) | **0** | St. Barthélemy (BL) |
+| [tonyshuzhi666/booking_script](https://github.com/tonyshuzhi666/booking_script) | **0** | 圣巴泰勒米 |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

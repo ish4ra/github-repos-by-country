@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 16%
+## Repository ranking status: Building 24%
 
-- Geography terms processed: **8 / 49**
-- Progress: **16%**
-- Retained high-potential owner candidates: **22**
-- Search requests completed: **8**
+- Geography terms processed: **12 / 49**
+- Progress: **24%**
+- Retained high-potential owner candidates: **45**
+- Search requests completed: **16**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,21 +24,21 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
+| [cake-tech/cake_wallet](https://github.com/cake-tech/cake_wallet) | **1,992** | Saint Kitts and Nevis |
+| [RaoFoundation/bittensor](https://github.com/RaoFoundation/bittensor) | **1,468** | Saint Kitts and Nevis |
 | [Thutmose/Pokecube](https://github.com/Thutmose/Pokecube) | **19** | St Kitts and Nevis |
 | [RonaldCrb/go-pg-rest-api](https://github.com/RonaldCrb/go-pg-rest-api) | **5** | St. Kitts and Nevis, Basseterre |
 | [Allisterh/Large-BVAR-Python-codes-](https://github.com/Allisterh/Large-BVAR-Python-codes-) | **4** | St Kitts and Nevis |
+| [25x-casino/eldorado](https://github.com/25x-casino/eldorado) | **2** | Saint Kitts and Nevis |
+| [Anonymous-Partners/traderJS](https://github.com/Anonymous-Partners/traderJS) | **2** | Saint Kitts and Nevis |
+| [shopxlabs/shopxcommunity](https://github.com/shopxlabs/shopxcommunity) | **2** | Saint Kitts and Nevis |
+| [Assetbasefoundation/AssetBase-CrowdSale-Token](https://github.com/Assetbasefoundation/AssetBase-CrowdSale-Token) | **1** | Nevis |
 | [GabriellaLaPlace/Data-Analyst-Portfolio-ProjectHandWashingDiscoveryFromDataCamp](https://github.com/GabriellaLaPlace/Data-Analyst-Portfolio-ProjectHandWashingDiscoveryFromDataCamp) | **1** | Basseterre, St. Kitts. St. Kitts and Nevis |
+| [koepp92260/api](https://github.com/koepp92260/api) | **1** | Saint Kitts and Nevis |
 | [PatcharaGun/FAI](https://github.com/PatcharaGun/FAI) | **1** | St. Kitts and Nevis |
-| [boesequeenie/boesequeenie](https://github.com/boesequeenie/boesequeenie) | **0** | St. Kitts & Nevis (KN) |
-| [cryptodeposit/crypto-deposit-contracts](https://github.com/cryptodeposit/crypto-deposit-contracts) | **0** | St Kitts and Nevis |
-| [dimonvordamiones/dimonvordamiones](https://github.com/dimonvordamiones/dimonvordamiones) | **0** | St. Kitts & Nevis (KN) |
-| [Dore133/JenkinsProgram](https://github.com/Dore133/JenkinsProgram) | **0** | St. Kitts & Nevis |
-| [dparis164/hello_test](https://github.com/dparis164/hello_test) | **0** | St. Kitts & Nevis |
-| [EvolutionOfGaming/EOG-Beta-Bug-Reporting](https://github.com/EvolutionOfGaming/EOG-Beta-Bug-Reporting) | **0** | St. Kitts & Nevis |
-| [GiggyDragoon/haxe](https://github.com/GiggyDragoon/haxe) | **0** | Basseterre |
-| [kemare2012/antibiotics_use](https://github.com/kemare2012/antibiotics_use) | **0** | St. Kitts and Nevis |
-| [ll1301/t](https://github.com/ll1301/t) | **0** | Basseterre, St Kitts & Nevis |
-| [lubberayescobar/lubberayescobar](https://github.com/lubberayescobar/lubberayescobar) | **0** | St. Kitts & Nevis (KN) |
+| [SimpledPro/Crypto-StartUp](https://github.com/SimpledPro/Crypto-StartUp) | **1** | Saint Kitts and Nevis |
+| [bankcoin-capital/contracts](https://github.com/bankcoin-capital/contracts) | **0** | Saint Kitts and Nevis |
+| [bankcoincapital/assets](https://github.com/bankcoincapital/assets) | **0** | Saint Kitts and Nevis |
 
 ## Repository-first scan
 

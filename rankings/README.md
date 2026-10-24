@@ -1,6 +1,6 @@
 # Browse Repository Rankings
 
-**250 countries and territories indexed · 53 live · 248 building**
+**250 countries and territories indexed · 53 live · 245 building**
 
 Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a country.
 
@@ -208,19 +208,19 @@ Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a co
 | 🇿🇦 **South Africa** | `ZA` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./south-africa.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇬🇸 **South Georgia & South Sandwich Islands** | `GS` | 🟡 Building 68% | [Open country page](./south-georgia-south-sandwich-islands.md) | — | 09 Oct 2026, 13:09 UTC |
 | 🇰🇷 **South Korea** | `KR` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./south-korea.md) | 100 | 17 Oct 2026, 01:38 UTC |
-| 🇸🇸 **South Sudan** | `SS` | 🟡 Building 6% | [Open country page](./south-sudan.md) | — | 24 Oct 2026, 11:17 UTC |
+| 🇸🇸 **South Sudan** | `SS` | 🟡 Building 17% | [Open country page](./south-sudan.md) | — | 24 Oct 2026, 16:02 UTC |
 | 🇪🇸 **Spain** | `ES` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./spain.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇱🇰 **Sri Lanka** | `LK` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./sri-lanka.md) | 100 | 16 Oct 2026, 21:29 UTC |
-| 🇧🇱 **St. Barthélemy** | `BL` | 🟡 Building 72% | [Open country page](./st-barthelemy.md) | — | 07 Oct 2026, 06:12 UTC |
-| 🇸🇭 **St. Helena** | `SH` | 🟡 Building 44% | [Open country page](./st-helena.md) | — | 16 Oct 2026, 23:48 UTC |
-| 🇰🇳 **St. Kitts & Nevis** | `KN` | 🟡 Building 16% | [Open country page](./st-kitts-nevis.md) | — | 12 Oct 2026, 01:51 UTC |
-| 🇱🇨 **St. Lucia** | `LC` | 🟡 Building 1% | [Open country page](./st-lucia.md) | — | 07 Oct 2026, 06:13 UTC |
-| 🇲🇫 **St. Martin** | `MF` | 🟡 Building 53% | [Open country page](./st-martin.md) | — | 07 Oct 2026, 06:13 UTC |
-| 🇵🇲 **St. Pierre & Miquelon** | `PM` | 🟡 Building 57% | [Open country page](./st-pierre-miquelon.md) | — | 07 Oct 2026, 13:33 UTC |
-| 🇻🇨 **St. Vincent & Grenadines** | `VC` | 🟡 Building 20% | [Open country page](./st-vincent-grenadines.md) | — | 07 Oct 2026, 13:33 UTC |
-| 🇸🇩 **Sudan** | `SD` | 🟡 Building 0% | [Open country page](./sudan.md) | — | 07 Oct 2026, 13:34 UTC |
-| 🇸🇷 **Suriname** | `SR` | 🟡 Building 7% | [Open country page](./suriname.md) | — | 16 Oct 2026, 14:20 UTC |
-| 🇸🇯 **Svalbard & Jan Mayen** | `SJ` | 🟡 Building 36% | [Open country page](./svalbard-jan-mayen.md) | — | 07 Oct 2026, 13:34 UTC |
+| 🇧🇱 **St. Barthélemy** | `BL` | Completed | [Open country page](./st-barthelemy.md) | — | 24 Oct 2026, 16:02 UTC |
+| 🇸🇭 **St. Helena** | `SH` | 🟡 Building 88% | [Open country page](./st-helena.md) | — | 16 Oct 2026, 23:48 UTC |
+| 🇰🇳 **St. Kitts & Nevis** | `KN` | 🟡 Building 24% | [Open country page](./st-kitts-nevis.md) | — | 12 Oct 2026, 01:51 UTC |
+| 🇱🇨 **St. Lucia** | `LC` | 🟡 Building 3% | [Open country page](./st-lucia.md) | — | 24 Oct 2026, 16:03 UTC |
+| 🇲🇫 **St. Martin** | `MF` | Completed | [Open country page](./st-martin.md) | — | 24 Oct 2026, 16:03 UTC |
+| 🇵🇲 **St. Pierre & Miquelon** | `PM` | 🟡 Building 95% | [Open country page](./st-pierre-miquelon.md) | — | 24 Oct 2026, 16:03 UTC |
+| 🇻🇨 **St. Vincent & Grenadines** | `VC` | 🟡 Building 35% | [Open country page](./st-vincent-grenadines.md) | — | 24 Oct 2026, 16:03 UTC |
+| 🇸🇩 **Sudan** | `SD` | 🟡 Building 0% | [Open country page](./sudan.md) | — | 24 Oct 2026, 16:03 UTC |
+| 🇸🇷 **Suriname** | `SR` | 🟡 Building 27% | [Open country page](./suriname.md) | — | 16 Oct 2026, 14:20 UTC |
+| 🇸🇯 **Svalbard & Jan Mayen** | `SJ` | 🟡 Building 72% | [Open country page](./svalbard-jan-mayen.md) | — | 24 Oct 2026, 16:04 UTC |
 | 🇸🇪 **Sweden** | `SE` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./sweden.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇨🇭 **Switzerland** | `CH` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./switzerland.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇸🇾 **Syria** | `SY` | 🟡 Building 0% | [Open country page](./syria.md) | — | 15 Oct 2026, 10:11 UTC |
@@ -228,10 +228,10 @@ Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a co
 | 🇹🇯 **Tajikistan** | `TJ` | 🟡 Building 0% | [Open country page](./tajikistan.md) | — | 13 Oct 2026, 21:14 UTC |
 | 🇹🇿 **Tanzania** | `TZ` | 🟡 Building 0% | [Open country page](./tanzania.md) | — | 17 Oct 2026, 01:38 UTC |
 | 🇹🇭 **Thailand** | `TH` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./thailand.md) | 100 | 17 Oct 2026, 01:38 UTC |
-| 🇹🇱 **Timor-Leste** | `TL` | 🟡 Building 4% | [Open country page](./timor-leste.md) | — | 07 Oct 2026, 13:38 UTC |
+| 🇹🇱 **Timor-Leste** | `TL` | 🟡 Building 13% | [Open country page](./timor-leste.md) | — | 24 Oct 2026, 16:06 UTC |
 | 🇹🇬 **Togo** | `TG` | 🟡 Building 0% | [Open country page](./togo.md) | — | 16 Oct 2026, 09:43 UTC |
-| 🇹🇰 **Tokelau** | `TK` | 🟡 Building 57% | [Open country page](./tokelau.md) | — | 07 Oct 2026, 13:38 UTC |
-| 🇹🇴 **Tonga** | `TO` | 🟡 Building 12% | [Open country page](./tonga.md) | — | 15 Oct 2026, 15:00 UTC |
+| 🇹🇰 **Tokelau** | `TK` | Completed | [Open country page](./tokelau.md) | — | 24 Oct 2026, 16:06 UTC |
+| 🇹🇴 **Tonga** | `TO` | 🟡 Building 25% | [Open country page](./tonga.md) | — | 15 Oct 2026, 15:00 UTC |
 | 🇹🇹 **Trinidad & Tobago** | `TT` | 🟡 Building 0% | [Open country page](./trinidad-tobago.md) | — | 16 Oct 2026, 18:16 UTC |
 | 🇹🇳 **Tunisia** | `TN` | 🟡 Building 0% | [Open country page](./tunisia.md) | — | 17 Oct 2026, 01:38 UTC |
 | 🇹🇷 **Türkiye** | `TR` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./turkiye.md) | 100 | 16 Oct 2026, 23:48 UTC |

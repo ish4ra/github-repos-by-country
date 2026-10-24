@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 44**
 - Progress: **0%**
-- Retained high-potential owner candidates: **287**
-- Search requests completed: **8**
+- Retained high-potential owner candidates: **532**
+- Search requests completed: **16**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -35,10 +35,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [lecodeur228/challenge-cac](https://github.com/lecodeur228/challenge-cac) | **13** | TOGO |
 | [kosher9/kosher9.github.io](https://github.com/kosher9/kosher9.github.io) | **12** | Lome, Togo |
 | [GhostEsso/bookstore-react](https://github.com/GhostEsso/bookstore-react) | **8** | Lomé, Togo |
+| [skpassegna/USSD-Togo](https://github.com/skpassegna/USSD-Togo) | **8** | Lomé, Togo |
 | [KronosCodeur/news_pilot](https://github.com/KronosCodeur/news_pilot) | **7** | Lomé,Togo |
 | [Matthieu96Code/portfolio-setup-mobile-first](https://github.com/Matthieu96Code/portfolio-setup-mobile-first) | **7** | Togo, Lome |
 | [HordRic/meteo](https://github.com/HordRic/meteo) | **6** | Lomé-Togo |
-| [toutpuissantged/clickbot-monster](https://github.com/toutpuissantged/clickbot-monster) | **6** | togo |
 
 ## Repository-first scan
 
