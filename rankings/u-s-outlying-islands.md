@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 42%
+## Repository ranking status: Building 71%
 
-- Geography terms processed: **12 / 28**
-- Progress: **42%**
-- Retained high-potential owner candidates: **3**
-- Search requests completed: **12**
+- Geography terms processed: **20 / 28**
+- Progress: **71%**
+- Retained high-potential owner candidates: **7**
+- Search requests completed: **20**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -26,6 +26,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [realjarvis69/NintenDeck](https://github.com/realjarvis69/NintenDeck) | **21** | Jarvis Island |
 | [BakingLiberteZ/tui_tools](https://github.com/BakingLiberteZ/tui_tools) | **4** | Baker Island |
+| [mijail73/Introduccion-al-Desarrollo-de-Programas-con-Java](https://github.com/mijail73/Introduccion-al-Desarrollo-de-Programas-con-Java) | **2** | Wake Island |
+| [OgJAkFy8/Mad-Libs](https://github.com/OgJAkFy8/Mad-Libs) | **1** | Navassa Island |
 | [RanchoSM/CTSDirectlinkLibrary](https://github.com/RanchoSM/CTSDirectlinkLibrary) | **1** | U.S. Outlying Islands |
+| [faykhet/cokies.xyz](https://github.com/faykhet/cokies.xyz) | **0** | Wake Island |
+| [IiDxmon/Yinn](https://github.com/IiDxmon/Yinn) | **0** | Wake Island |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 31%
+## Repository ranking status: Building 68%
 
-- Geography terms processed: **7 / 22**
-- Progress: **31%**
-- Retained high-potential owner candidates: **52**
-- Search requests completed: **8**
+- Geography terms processed: **15 / 22**
+- Progress: **68%**
+- Retained high-potential owner candidates: **56**
+- Search requests completed: **16**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,6 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
+| [alfnitacoder/FB-AutoPasswordGen-Brutforce](https://github.com/alfnitacoder/FB-AutoPasswordGen-Brutforce) | **31** | Port Vila |
 | [fayrlight/huawei_bootloader_phone_reversal_bruter](https://github.com/fayrlight/huawei_bootloader_phone_reversal_bruter) | **4** | Vanuatu |
 | [Vanuatu-National-Statistics-Office/climate-change-natural-disasters](https://github.com/Vanuatu-National-Statistics-Office/climate-change-natural-disasters) | **3** | Vanuatu |
 | [worthlesspixels/smart_swap](https://github.com/worthlesspixels/smart_swap) | **3** | Vanuatu |
@@ -38,6 +39,5 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [AleksanderAleksander/frontendmaster.github.io](https://github.com/AleksanderAleksander/frontendmaster.github.io) | **0** | Vanuatu |
 | [angeu4/gitter](https://github.com/angeu4/gitter) | **0** | Vanuatu |
 | [antzjosh/student-registry](https://github.com/antzjosh/student-registry) | **0** | Port Vila, Vanuatu |
-| [baltorgabriel/tours-transfers](https://github.com/baltorgabriel/tours-transfers) | **0** | Vanuatu |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

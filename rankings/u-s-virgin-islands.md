@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 23%
+## Repository ranking status: Building 50%
 
-- Geography terms processed: **7 / 30**
-- Progress: **23%**
-- Retained high-potential owner candidates: **15**
-- Search requests completed: **8**
+- Geography terms processed: **15 / 30**
+- Progress: **50%**
+- Retained high-potential owner candidates: **16**
+- Search requests completed: **16**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,6 +25,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [CousinRicky/POV-SpectralRender-mods](https://github.com/CousinRicky/POV-SpectralRender-mods) | **3** | St. Thomas, U.S. Virgin Islands |
+| [0catx/random-ass-game-py](https://github.com/0catx/random-ass-game-py) | **0** | Northside |
 | [axl-vg/pve-scripts](https://github.com/axl-vg/pve-scripts) | **0** | West Los Angeles County / U.S. Virgin Islands |
 | [BadBoyBettingClub/Auction](https://github.com/BadBoyBettingClub/Auction) | **0** | U.S. Virgin Islands |
 | [david-hensley/vi-flo](https://github.com/david-hensley/vi-flo) | **0** | Frederiksted, VI |
@@ -38,6 +39,5 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [RareBirdsLLC/rarebirds](https://github.com/RareBirdsLLC/rarebirds) | **0** | Christiansted, Virgin Islands |
 | [Rotgarg/lazyUpdatellama](https://github.com/Rotgarg/lazyUpdatellama) | **0** | Little Saint James, U.S. Virgin Islands |
 | [suzunaxyzz/test12321451325](https://github.com/suzunaxyzz/test12321451325) | **0** | U.S Virgin Islands |
-| [thesteinagen/thesteinagen](https://github.com/thesteinagen/thesteinagen) | **0** | Little Saint James, U.S. Virgin Islands |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
