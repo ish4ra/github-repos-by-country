@@ -12,43 +12,95 @@
     "termsTotal": 152
   },
   "phase": "discovery",
-  "nextTermIndex": 0,
-  "activeTerm": {
-    "index": 0,
-    "term": "Papua New Guinea",
-    "queue": [
-      {
-        "query": "location:\"Papua New Guinea\"",
-        "stage": "base",
-        "cursor": "Y3Vyc29yOjQwMA==",
-        "pageNumber": 9,
-        "attempts": 0
-      }
-    ],
-    "startedAt": "2026-10-06T18:29:26.360Z",
-    "requests": 8,
-    "leafPages": 8,
-    "shardExpansions": 0,
-    "reportedCount": null
-  },
+  "nextTermIndex": 5,
+  "activeTerm": null,
   "discoveryComplete": false,
   "startedAt": "2026-10-06T18:29:26.360Z",
-  "updatedAt": "2026-10-06T18:29:51.608Z",
+  "updatedAt": "2026-10-24T04:48:21.185Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
-    "termsProcessed": 0,
-    "searchRequests": 8,
-    "leafPages": 8,
+    "termsProcessed": 5,
+    "searchRequests": 16,
+    "leafPages": 16,
     "shardExpansions": 0,
-    "rawOwnerHits": 400,
-    "acceptedOwnerHits": 0,
-    "rejectedOwnerHits": 400,
+    "rawOwnerHits": 593,
+    "acceptedOwnerHits": 3,
+    "rejectedOwnerHits": 590,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4945
+    "minimumRateLimitRemaining": 4918
   },
   "unresolvedShards": [],
-  "candidates": [],
+  "candidates": [
+    {
+      "id": "MDQ6VXNlcjY2NTIwMTgz",
+      "login": "ishmaelmarshall",
+      "name": "Ishmael Marshall",
+      "type": "User",
+      "location": "Alotau",
+      "url": "https://github.com/ishmaelmarshall",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/66520183?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "PG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "alotau"
+      },
+      "discoveryTerms": [
+        "Alotau"
+      ],
+      "topRepository": {
+        "name": "Mimo-Python-Development-Project-Chatbot-1",
+        "nameWithOwner": "ishmaelmarshall/Mimo-Python-Development-Project-Chatbot-1",
+        "url": "https://github.com/ishmaelmarshall/Mimo-Python-Development-Project-Chatbot-1",
+        "description": "This is a simple Python Chatbot.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-03-14T06:15:40Z",
+        "pushedAt": "2025-04-13T02:22:10Z",
+        "homepageUrl": "https://mimo-python-development-project-chatbot-1.vercel.app",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEyNjMyNTQ1",
+      "login": "austinpolin",
+      "name": "Austin Polin",
+      "type": "User",
+      "location": "Alotau, 211",
+      "url": "https://github.com/austinpolin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12632545?u=3291a8cbe494da481455c89d8aa0d0c6db16a34d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "PG",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "alotau"
+      },
+      "discoveryTerms": [
+        "Alotau"
+      ],
+      "topRepository": {
+        "name": "melanesianbuiltenvironment.github.io",
+        "nameWithOwner": "austinpolin/melanesianbuiltenvironment.github.io",
+        "url": "https://github.com/austinpolin/melanesianbuiltenvironment.github.io",
+        "description": "Melanesian Built Enviroment Journal is a Journal for Architecture & Construction Management at the PNG University of Technology.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-11-27T07:35:57Z",
+        "pushedAt": "2020-11-27T07:35:58Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    }
+  ],
   "candidatePoolLimit": 500,
   "candidatePoolThresholdStars": null
 }
