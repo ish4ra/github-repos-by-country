@@ -10,10 +10,10 @@
 
 ## Repository ranking status: Building 0%
 
-- Geography terms processed: **0 / 402**
+- Geography terms processed: **1 / 402**
 - Progress: **0%**
-- Retained high-potential owner candidates: **569**
-- Search requests completed: **8**
+- Retained high-potential owner candidates: **572**
+- Search requests completed: **16**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -35,9 +35,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [gocemitevski/bushava-azbuka](https://github.com/gocemitevski/bushava-azbuka) | **26** | Skopje, North Macedonia |
 | [jaggedsoft/chartaholic](https://github.com/jaggedsoft/chartaholic) | **25** | North Macedonia |
 | [EienMosu/MERN-Shopping-App](https://github.com/EienMosu/MERN-Shopping-App) | **22** | North Macedonia/Skopje |
+| [codeverbojan/remotion-cinematic](https://github.com/codeverbojan/remotion-cinematic) | **21** | North Macedonia |
 | [flakrimjusufi/grpc-with-rest](https://github.com/flakrimjusufi/grpc-with-rest) | **21** | Tetovo, North Macedonia |
 | [srdzank/WinSQLite-Editor](https://github.com/srdzank/WinSQLite-Editor) | **19** | North Macedonia |
-| [codeverbojan/remotion-cinematic](https://github.com/codeverbojan/remotion-cinematic) | **18** | North Macedonia |
 | [Delemangi/FINKI](https://github.com/Delemangi/FINKI) | **15** | Skopje, North Macedonia |
 
 ## Repository-first scan

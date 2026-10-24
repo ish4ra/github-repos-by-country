@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 60**
 - Progress: **0%**
-- Retained high-potential owner candidates: **311**
-- Search requests completed: **8**
+- Retained high-potential owner candidates: **628**
+- Search requests completed: **16**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -38,7 +38,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [d7omdev/clipse-gui](https://github.com/d7omdev/clipse-gui) | **78** | Qatar |
 | [Sakib1263/NABNet](https://github.com/Sakib1263/NABNet) | **53** | Al Wakra, Qatar |
 | [nirzaf/merconiq](https://github.com/nirzaf/merconiq) | **52** | Doha - Qatar |
-| [akhalil-qa/SecurityPlus](https://github.com/akhalil-qa/SecurityPlus) | **41** | Qatar |
+| [malfp/tormalwarefp](https://github.com/malfp/tormalwarefp) | **44** | Qatar |
 
 ## Repository-first scan
 

@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 0%
+## Repository ranking status: Building 2%
 
-- Geography terms processed: **0 / 182**
-- Progress: **0%**
-- Retained high-potential owner candidates: **197**
-- Search requests completed: **8**
+- Geography terms processed: **5 / 182**
+- Progress: **2%**
+- Retained high-potential owner candidates: **272**
+- Search requests completed: **16**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -31,6 +31,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [norksec/usbwatchdog](https://github.com/norksec/usbwatchdog) | **49** | Pyongyang, North Korea |
 | [PookiePepelsss/MultiRoblox-RAM](https://github.com/PookiePepelsss/MultiRoblox-RAM) | **44** | North Korea |
 | [tsung-sc/JDPurchaser](https://github.com/tsung-sc/JDPurchaser) | **41** | Pyongyang,North Korea |
+| [Queue-ri/Korea-Covid-19-Vaccine-Reservation](https://github.com/Queue-ri/Korea-Covid-19-Vaccine-Reservation) | **22** | Seoul, Korea (not DPRK -_-) |
 | [Duzopy/VRChat-Crasher](https://github.com/Duzopy/VRChat-Crasher) | **14** | North Korea |
 | [sunyuchentrx/xiaov2bclient](https://github.com/sunyuchentrx/xiaov2bclient) | **14** | North Korea/Pyongyang |
 | [DespairParadise/DCP-BuildScript](https://github.com/DespairParadise/DCP-BuildScript) | **10** | North Korea |
@@ -38,7 +39,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [brendan-lee/SMT](https://github.com/brendan-lee/SMT) | **7** | Pyongyang, North Korea |
 | [satt-hri/vscode-plugin-cf-formatter](https://github.com/satt-hri/vscode-plugin-cf-formatter) | **7** | North Korea |
 | [aMiscreant/OrangePi-Zero-3](https://github.com/aMiscreant/OrangePi-Zero-3) | **6** | North Korea |
-| [georgeglaskin/Better-DDos-Archive](https://github.com/georgeglaskin/Better-DDos-Archive) | **6** | north korea |
 
 ## Repository-first scan
 
