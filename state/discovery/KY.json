@@ -12,21 +12,45 @@
     "termsTotal": 75
   },
   "phase": "discovery",
-  "nextTermIndex": 9,
-  "activeTerm": null,
+  "nextTermIndex": 16,
+  "activeTerm": {
+    "index": 16,
+    "term": "Creek",
+    "queue": [
+      {
+        "query": "location:\"Creek\" type:user",
+        "stage": "type",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Creek\" type:org",
+        "stage": "type",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      }
+    ],
+    "startedAt": "2026-10-25T16:30:57.612Z",
+    "requests": 1,
+    "leafPages": 0,
+    "shardExpansions": 1,
+    "reportedCount": 1658
+  },
   "discoveryComplete": false,
   "startedAt": "2026-10-04T12:31:53.344Z",
-  "updatedAt": "2026-10-25T11:47:10.074Z",
+  "updatedAt": "2026-10-25T16:31:00.766Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
-    "termsProcessed": 9,
-    "searchRequests": 19,
-    "leafPages": 19,
-    "shardExpansions": 0,
-    "rawOwnerHits": 515,
+    "termsProcessed": 16,
+    "searchRequests": 27,
+    "leafPages": 26,
+    "shardExpansions": 1,
+    "rawOwnerHits": 565,
     "acceptedOwnerHits": 503,
-    "rejectedOwnerHits": 12,
+    "rejectedOwnerHits": 62,
     "unresolvedShardCount": 0,
     "minimumRateLimitRemaining": 4889
   },
