@@ -1,31 +1,31 @@
 # Browse Repository Rankings
 
-**250 countries and territories indexed · 53 live · 245 building**
+**250 countries and territories indexed · 53 live · 244 building**
 
 Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a country.
 
 | Country | ISO | Status | Ranking | Repositories | Last updated |
 | --- | :---: | :---: | --- | ---: | --- |
 | 🇦🇫 **Afghanistan** | `AF` | 🟡 Building 0% | [Open country page](./afghanistan.md) | — | 16 Oct 2026, 14:20 UTC |
-| 🇦🇽 **Åland Islands** | `AX` | 🟡 Building 19% | [Open country page](./aland-islands.md) | — | 16 Oct 2026, 09:43 UTC |
+| 🇦🇽 **Åland Islands** | `AX` | 🟡 Building 39% | [Open country page](./aland-islands.md) | — | 16 Oct 2026, 09:43 UTC |
 | 🇦🇱 **Albania** | `AL` | 🟡 Building 0% | [Open country page](./albania.md) | — | 16 Oct 2026, 21:29 UTC |
 | 🇩🇿 **Algeria** | `DZ` | 🟡 Building 0% | [Open country page](./algeria.md) | — | 16 Oct 2026, 21:29 UTC |
-| 🇦🇸 **American Samoa** | `AS` | 🟡 Building 8% | [Open country page](./american-samoa.md) | — | 17 Oct 2026, 01:38 UTC |
-| 🇦🇩 **Andorra** | `AD` | 🟡 Building 0% | [Open country page](./andorra.md) | — | 16 Oct 2026, 05:04 UTC |
+| 🇦🇸 **American Samoa** | `AS` | 🟡 Building 22% | [Open country page](./american-samoa.md) | — | 17 Oct 2026, 01:38 UTC |
+| 🇦🇩 **Andorra** | `AD` | 🟡 Building 10% | [Open country page](./andorra.md) | — | 16 Oct 2026, 05:04 UTC |
 | 🇦🇴 **Angola** | `AO` | 🟡 Building 0% | [Open country page](./angola.md) | — | 14 Oct 2026, 22:28 UTC |
-| 🇦🇮 **Anguilla** | `AI` | 🟡 Building 34% | [Open country page](./anguilla.md) | — | 09 Oct 2026, 22:59 UTC |
+| 🇦🇮 **Anguilla** | `AI` | 🟡 Building 69% | [Open country page](./anguilla.md) | — | 09 Oct 2026, 22:59 UTC |
 | 🇦🇶 **Antarctica** | `AQ` | 🟡 Building 0% | [Open country page](./antarctica.md) | — | 16 Oct 2026, 23:48 UTC |
-| 🇦🇬 **Antigua & Barbuda** | `AG` | 🟡 Building 12% | [Open country page](./antigua-barbuda.md) | — | 10 Oct 2026, 02:18 UTC |
+| 🇦🇬 **Antigua & Barbuda** | `AG` | 🟡 Building 25% | [Open country page](./antigua-barbuda.md) | — | 10 Oct 2026, 02:18 UTC |
 | 🇦🇷 **Argentina** | `AR` | 🟡 Building 0% | [Open country page](./argentina.md) | — | 16 Oct 2026, 21:29 UTC |
 | 🇦🇲 **Armenia** | `AM` | 🟡 Building 0% | [Open country page](./armenia.md) | — | 17 Oct 2026, 01:38 UTC |
-| 🇦🇼 **Aruba** | `AW` | 🟡 Building 65% | [Open country page](./aruba.md) | — | 08 Oct 2026, 06:16 UTC |
+| 🇦🇼 **Aruba** | `AW` | Completed | [Open country page](./aruba.md) | — | 25 Oct 2026, 04:55 UTC |
 | 🇦🇺 **Australia** | `AU` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./australia.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇦🇹 **Austria** | `AT` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./austria.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇦🇿 **Azerbaijan** | `AZ` | 🟡 Building 0% | [Open country page](./azerbaijan.md) | — | 16 Oct 2026, 05:04 UTC |
-| 🇧🇸 **Bahamas** | `BS` | 🟡 Building 9% | [Open country page](./bahamas.md) | — | 08 Oct 2026, 06:17 UTC |
+| 🇧🇸 **Bahamas** | `BS` | 🟡 Building 22% | [Open country page](./bahamas.md) | — | 25 Oct 2026, 04:56 UTC |
 | 🇧🇭 **Bahrain** | `BH` | 🟡 Building 0% | [Open country page](./bahrain.md) | — | 16 Oct 2026, 21:29 UTC |
 | 🇧🇩 **Bangladesh** | `BD` | 🟡 Building 0% | [Open country page](./bangladesh.md) | — | 16 Oct 2026, 21:29 UTC |
-| 🇧🇧 **Barbados** | `BB` | 🟡 Building 36% | [Open country page](./barbados.md) | — | 10 Oct 2026, 02:18 UTC |
+| 🇧🇧 **Barbados** | `BB` | 🟡 Building 59% | [Open country page](./barbados.md) | — | 10 Oct 2026, 02:18 UTC |
 | 🇧🇾 **Belarus** | `BY` | 🟡 Building 0% | [Open country page](./belarus.md) | — | 17 Oct 2026, 01:38 UTC |
 | 🇧🇪 **Belgium** | `BE` | 🟡 Building 0% | [Open country page](./belgium.md) | — | 16 Oct 2026, 21:29 UTC |
 | 🇧🇿 **Belize** | `BZ` | 🟡 Building 8% | [Open country page](./belize.md) | — | 08 Oct 2026, 06:19 UTC |
