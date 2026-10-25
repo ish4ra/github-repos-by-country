@@ -18,34 +18,6 @@
     "term": "Algeria",
     "queue": [
       {
-        "query": "location:\"Algeria\" type:user followers:0 repos:1..4 created:2016-01-01..2016-12-31",
-        "stage": "year:2016",
-        "cursor": null,
-        "pageNumber": 1,
-        "attempts": 0
-      },
-      {
-        "query": "location:\"Algeria\" type:user followers:0 repos:1..4 created:2017-01-01..2017-12-31",
-        "stage": "year:2017",
-        "cursor": null,
-        "pageNumber": 1,
-        "attempts": 0
-      },
-      {
-        "query": "location:\"Algeria\" type:user followers:0 repos:1..4 created:2018-01-01..2018-12-31",
-        "stage": "year:2018",
-        "cursor": null,
-        "pageNumber": 1,
-        "attempts": 0
-      },
-      {
-        "query": "location:\"Algeria\" type:user followers:0 repos:1..4 created:2019-01-01..2019-12-31",
-        "stage": "year:2019",
-        "cursor": null,
-        "pageNumber": 1,
-        "attempts": 0
-      },
-      {
         "query": "location:\"Algeria\" type:user followers:0 repos:1..4 created:2020-01-01..2020-12-31",
         "stage": "year:2020",
         "cursor": null,
@@ -250,24 +222,24 @@
       }
     ],
     "startedAt": "2026-10-07T23:16:34.924Z",
-    "requests": 12,
-    "leafPages": 8,
+    "requests": 20,
+    "leafPages": 16,
     "shardExpansions": 4,
     "reportedCount": 2079
   },
   "discoveryComplete": false,
   "startedAt": "2026-10-07T23:16:34.924Z",
-  "updatedAt": "2026-10-08T06:14:21.722Z",
+  "updatedAt": "2026-10-25T04:53:57.972Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 12,
-    "leafPages": 8,
+    "searchRequests": 20,
+    "leafPages": 16,
     "shardExpansions": 4,
-    "rawOwnerHits": 292,
-    "acceptedOwnerHits": 289,
-    "rejectedOwnerHits": 3,
+    "rawOwnerHits": 669,
+    "acceptedOwnerHits": 664,
+    "rejectedOwnerHits": 5,
     "unresolvedShardCount": 0,
     "minimumRateLimitRemaining": 4812
   },
@@ -2112,6 +2084,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjI1NjIyMjY1",
+      "login": "mrmedani",
+      "name": "Medani Hassene",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/mrmedani",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25622265?u=21106c7593b09b3e73081596a0f5de8885973102&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "chronodesk",
+        "nameWithOwner": "mrmedani/chronodesk",
+        "url": "https://github.com/mrmedani/chronodesk",
+        "description": "Open-source remote desktop software - a fast, secure, self-hosted alternative to AnyDesk & TeamViewer. Built with Rust + Flutter.",
+        "stargazerCount": 3,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-06-27T17:19:33Z",
+        "pushedAt": "2026-07-08T18:53:24Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Rust"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI1ODMwOTAz",
       "login": "SalemSamah",
       "name": "Samah SALEM",
@@ -2184,6 +2195,40 @@
           "name": "Apache License 2.0",
           "spdxId": "Apache-2.0"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ2Mzk5NDUx",
+      "login": "bhalima",
+      "name": "Halima",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/bhalima",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/46399451?u=b14e307cee721fe926e18b76185f84e5e6decdb5&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Arabic-Dataset-for-CAPT",
+        "nameWithOwner": "bhalima/Arabic-Dataset-for-CAPT",
+        "url": "https://github.com/bhalima/Arabic-Dataset-for-CAPT",
+        "description": "The repository includes an Arabic speech dataset for computer-assisted pronunciation teaching/learning applications.",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-02-02T19:43:55Z",
+        "pushedAt": "2022-02-02T19:56:03Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
       }
     },
     {
@@ -2295,45 +2340,6 @@
       }
     },
     {
-      "id": "MDQ6VXNlcjI1NjIyMjY1",
-      "login": "mrmedani",
-      "name": "Medani Hassene",
-      "type": "User",
-      "location": "Algeria",
-      "url": "https://github.com/mrmedani",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/25622265?u=21106c7593b09b3e73081596a0f5de8885973102&v=4",
-      "attribution": {
-        "accepted": true,
-        "countryCode": "DZ",
-        "confidence": "high",
-        "evidence": "explicit-country",
-        "matched": "Algeria"
-      },
-      "discoveryTerms": [
-        "Algeria"
-      ],
-      "topRepository": {
-        "name": "chronodesk",
-        "nameWithOwner": "mrmedani/chronodesk",
-        "url": "https://github.com/mrmedani/chronodesk",
-        "description": "Open-source remote desktop software - a fast, secure, self-hosted alternative to AnyDesk & TeamViewer. Built with Rust + Flutter.",
-        "stargazerCount": 2,
-        "forkCount": 3,
-        "isArchived": false,
-        "isFork": false,
-        "createdAt": "2026-06-27T17:19:33Z",
-        "pushedAt": "2026-07-08T18:53:24Z",
-        "homepageUrl": null,
-        "primaryLanguage": {
-          "name": "Rust"
-        },
-        "licenseInfo": {
-          "name": "Other",
-          "spdxId": "NOASSERTION"
-        }
-      }
-    },
-    {
       "id": "MDQ6VXNlcjE3NTA4NDU=",
       "login": "n4ss1m",
       "name": "Nassim",
@@ -2440,6 +2446,42 @@
         "isFork": false,
         "createdAt": "2025-07-06T15:13:45Z",
         "pushedAt": "2025-07-06T15:59:20Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUzMjY0MDg4",
+      "login": "abouhaithem2016",
+      "name": "benmoulay",
+      "type": "User",
+      "location": "algeria",
+      "url": "https://github.com/abouhaithem2016",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/53264088?u=1f245c73115983c50c19d3affa6c7d841ba29b2c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "python-pi-exemple",
+        "nameWithOwner": "abouhaithem2016/python-pi-exemple",
+        "url": "https://github.com/abouhaithem2016/python-pi-exemple",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-07-24T12:56:49Z",
+        "pushedAt": "2019-07-24T16:43:24Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Python"
@@ -2593,6 +2635,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQzMDE3Nzk0",
+      "login": "birechamar",
+      "name": null,
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/birechamar",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43017794?u=f2d0a564e6fff3421c27234432fe6468ac50b61f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "ReconCLI",
+        "nameWithOwner": "birechamar/ReconCLI",
+        "url": "https://github.com/birechamar/ReconCLI",
+        "description": "Reconnaissance automation tool for bug bounty hunters.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-25T17:59:53Z",
+        "pushedAt": "2026-05-01T14:14:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI1MTE5Mzk3",
       "login": "codesem",
       "name": "Codesem ",
@@ -2668,6 +2749,81 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjUzMjg5Mjgy",
+      "login": "deltanadir",
+      "name": "Nadir Benhamouda",
+      "type": "User",
+      "location": "Algiers, Algeria",
+      "url": "https://github.com/deltanadir",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/53289282?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "projet_exo01",
+        "nameWithOwner": "deltanadir/projet_exo01",
+        "url": "https://github.com/deltanadir/projet_exo01",
+        "description": "Dépôt code du projet exo01",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-06-05T12:50:58Z",
+        "pushedAt": "2020-06-05T13:06:23Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU4NjE0OTQ3",
+      "login": "elmaestro31",
+      "name": "Mohammed E. Z M B",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/elmaestro31",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58614947?u=0c910f3b9a11a6abda9ecf2d16d4cc9d71b16779&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "DeepLearningforMaliciousURLsDetection",
+        "nameWithOwner": "elmaestro31/DeepLearningforMaliciousURLsDetection",
+        "url": "https://github.com/elmaestro31/DeepLearningforMaliciousURLsDetection",
+        "description": "Deep Learning CNN model for binary and multiclass classification of malicious URLs",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-09-05T15:20:21Z",
+        "pushedAt": "2021-09-05T15:27:44Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQyMDM5ODM4",
       "login": "f-43",
       "name": "karout romaissa",
@@ -2696,6 +2852,40 @@
         "isFork": false,
         "createdAt": "2021-01-16T10:38:24Z",
         "pushedAt": "2021-01-16T10:38:25Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU5MDQwMzU5",
+      "login": "FAROUQ-Algeria",
+      "name": "FAROUQ",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/FAROUQ-Algeria",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/59040359?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "plugins",
+        "nameWithOwner": "FAROUQ-Algeria/plugins",
+        "url": "https://github.com/FAROUQ-Algeria/plugins",
+        "description": "هذا مجلد من خلاله يتم تحميل إضافات Jieshuo.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-05T22:32:15Z",
+        "pushedAt": "2026-08-05T22:39:12Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -2950,6 +3140,78 @@
         "pushedAt": null,
         "homepageUrl": "http://sahouma.fr.gd",
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUyMzgyNjQ4",
+      "login": "Koukiscarletta",
+      "name": "Kaouther Nouni",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/Koukiscarletta",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/52382648?u=ec4cf9d750c22726a291af757978dfa45ec56c6e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Deep-learning-based-web-applicatio-for-the-detection-of-Covid-19-from-CT-scan-chest-images",
+        "nameWithOwner": "Koukiscarletta/Deep-learning-based-web-applicatio-for-the-detection-of-Covid-19-from-CT-scan-chest-images",
+        "url": "https://github.com/Koukiscarletta/Deep-learning-based-web-applicatio-for-the-detection-of-Covid-19-from-CT-scan-chest-images",
+        "description": "A web application that categorise images into covid-19 and non covid-19 cases using CNN with three pretrained models InceptionV3, VGG16 and Resnet50 on 3 different dataset of CT scan chest images. the application was built using Django/ Pycharm/ Python/ Tensorflow",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-07-11T19:13:18Z",
+        "pushedAt": "2021-07-17T17:16:56Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU4OTcwMzM4",
+      "login": "Lamine-MOH",
+      "name": "Mohamed Lamine",
+      "type": "User",
+      "location": "Algeria, Ouargla",
+      "url": "https://github.com/Lamine-MOH",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58970338?u=f0716f84981f161eb106311aee1a46069ecfb7b9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Comparative-Study",
+        "nameWithOwner": "Lamine-MOH/Comparative-Study",
+        "url": "https://github.com/Lamine-MOH/Comparative-Study",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-10T10:31:24Z",
+        "pushedAt": "2026-01-10T10:43:44Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
         "licenseInfo": null
       }
     },
@@ -3317,6 +3579,214 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU0NzI3MzQ2",
+      "login": "tadjeddine-08",
+      "name": null,
+      "type": "User",
+      "location": "bechar -Algeria",
+      "url": "https://github.com/tadjeddine-08",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/54727346?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "my-work-prog",
+        "nameWithOwner": "tadjeddine-08/my-work-prog",
+        "url": "https://github.com/tadjeddine-08/my-work-prog",
+        "description": "this is my ferst project",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-08-31T11:41:33Z",
+        "pushedAt": "2019-08-31T11:41:34Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ3MTcxODI5",
+      "login": "tony-benz",
+      "name": "benalia benatia",
+      "type": "User",
+      "location": "algeria",
+      "url": "https://github.com/tony-benz",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47171829?u=cf6de46a04ac0c1d00d2f2dcb7b73563c7596fc7&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "quantum-tony.github.io",
+        "nameWithOwner": "tony-benz/quantum-tony.github.io",
+        "url": "https://github.com/tony-benz/quantum-tony.github.io",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-06-28T13:38:11Z",
+        "pushedAt": "2025-06-28T13:38:12Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUwNjM3OTQ1",
+      "login": "twofeek",
+      "name": "TOUFIK",
+      "type": "User",
+      "location": "ALGERIA",
+      "url": "https://github.com/twofeek",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50637945?u=d44e623a79b241d7dcf0d5c0b81b555f1a9a37bb&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "pirple-assignments",
+        "nameWithOwner": "twofeek/pirple-assignments",
+        "url": "https://github.com/twofeek/pirple-assignments",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-05-21T22:29:59Z",
+        "pushedAt": "2019-08-07T12:13:57Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU4NjU5Mzc1",
+      "login": "Withraouf",
+      "name": "Abderaouf Cherafa",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/Withraouf",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58659375?u=25d6cc7b27935a963cbfdd1cc16f1cd5eb97215f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Simple-flutter-todo-app-sql-",
+        "nameWithOwner": "Withraouf/Simple-flutter-todo-app-sql-",
+        "url": "https://github.com/Withraouf/Simple-flutter-todo-app-sql-",
+        "description": "flutter todo app (sql)",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-05-07T16:37:12Z",
+        "pushedAt": "2020-05-07T16:43:11Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Dart"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM1MjY2MDg3",
+      "login": "Yedmed30",
+      "name": "MANKOUR Sihem",
+      "type": "User",
+      "location": "HMD, Algeria",
+      "url": "https://github.com/Yedmed30",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/35266087?u=369caa801a9790a01e27d219a1c8b34086bd3703&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Python",
+        "nameWithOwner": "Yedmed30/Python",
+        "url": "https://github.com/Yedmed30/Python",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-03-12T19:39:31Z",
+        "pushedAt": "2018-03-12T19:39:32Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ2OTU5NTEw",
+      "login": "youcef-djeriri",
+      "name": "Youcef Djeriri",
+      "type": "User",
+      "location": "Sidi Bel Abbes - Algeria",
+      "url": "https://github.com/youcef-djeriri",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/46959510?u=49bfa46bfe843c43ca3156c45fc6328d6fcb229b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "youcefdjeriri",
+        "nameWithOwner": "youcef-djeriri/youcefdjeriri",
+        "url": "https://github.com/youcef-djeriri/youcefdjeriri",
+        "description": "PhD in Sciences / Teacher & Researcher / Elactrical Engineering Faculty / Djillali Liabes University / Sidi Bel Abbes / Algeria",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-01-23T11:52:40Z",
+        "pushedAt": "2019-01-23T11:52:41Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjExNDQwODc0",
       "login": "YoucefHam",
       "name": "YoucefHam",
@@ -3459,6 +3929,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjUzNzg2MDQ3",
+      "login": "a-9-k",
+      "name": "Akram Houssem Eddine Belekhelef",
+      "type": "User",
+      "location": "algeria",
+      "url": "https://github.com/a-9-k",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/53786047?u=ffe6b9694c010a40a42e13dfe619d39a05ac7d81&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "WriteUps",
+        "nameWithOwner": "a-9-k/WriteUps",
+        "url": "https://github.com/a-9-k/WriteUps",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-05-07T15:11:39Z",
+        "pushedAt": "2024-12-04T00:34:43Z",
+        "homepageUrl": "https://a-9-k.github.io/WriteUps/",
+        "primaryLanguage": {
+          "name": "SCSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjIzMjE5OTg0",
       "login": "abda9aa",
       "name": "Abdelkader Mohamed Amine Hammou",
@@ -3561,6 +4067,74 @@
         "createdAt": "2017-02-25T14:54:46Z",
         "pushedAt": "2017-02-25T14:54:47Z",
         "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU0NTQxMjc0",
+      "login": "abdelkrim115",
+      "name": "Abde The Magnificent",
+      "type": "User",
+      "location": "Algeria, Alger",
+      "url": "https://github.com/abdelkrim115",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/54541274?u=8253e544c6373d73c83720d87ba38661da3cea43&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "abdelkrim115.github.io",
+        "nameWithOwner": "abdelkrim115/abdelkrim115.github.io",
+        "url": "https://github.com/abdelkrim115/abdelkrim115.github.io",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-13T04:04:37Z",
+        "pushedAt": "2026-03-13T04:18:38Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUyNjIzMjU3",
+      "login": "Abderrahmane95",
+      "name": "Hadid Abderrahmane",
+      "type": "User",
+      "location": "Algiers,Algeria",
+      "url": "https://github.com/Abderrahmane95",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/52623257?u=7f87bca6b3607aca08d5de43422bc507b2e0f66b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Abderrahmane95",
+        "nameWithOwner": "Abderrahmane95/Abderrahmane95",
+        "url": "https://github.com/Abderrahmane95/Abderrahmane95",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-01-13T23:45:38Z",
+        "pushedAt": "2022-01-13T23:45:39Z",
+        "homepageUrl": "https://github.com/Abderrahmane95",
         "primaryLanguage": null,
         "licenseInfo": null
       }
@@ -3671,6 +4245,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ2MzEzODEx",
+      "login": "AbdouMimouni",
+      "name": null,
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/AbdouMimouni",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/46313811?u=969c91c403955cf62395245c4347129aaf317a15&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "WarCardGame",
+        "nameWithOwner": "AbdouMimouni/WarCardGame",
+        "url": "https://github.com/AbdouMimouni/WarCardGame",
+        "description": "this is an ios card game compatible with ios 8 and later",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-08-16T10:36:24Z",
+        "pushedAt": "2019-08-22T09:52:16Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjIwNzUxNTAx",
       "login": "abdouteta",
       "name": "AbderrahmanTeta",
@@ -3733,6 +4341,40 @@
         "isFork": false,
         "createdAt": "2017-02-16T00:48:51Z",
         "pushedAt": "2017-02-16T00:48:52Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ1OTk4MjY5",
+      "login": "adamwoon",
+      "name": "med.deia",
+      "type": "User",
+      "location": "algeria",
+      "url": "https://github.com/adamwoon",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/45998269?u=5673b3c0aa1319b8490167c93a33dcc583a2f2bc&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "MEAN.js",
+        "nameWithOwner": "adamwoon/MEAN.js",
+        "url": "https://github.com/adamwoon/MEAN.js",
+        "description": "for learning",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-12-25T19:17:10Z",
+        "pushedAt": "2018-12-25T19:17:11Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -3877,6 +4519,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ3MjI4NzE5",
+      "login": "adnane3301",
+      "name": "Ibrahim Rampersad",
+      "type": "User",
+      "location": "19, tranche 2, BeniSaf Aintemouchent - 46001- Algeria",
+      "url": "https://github.com/adnane3301",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47228719?u=827db95e1fd5dc6e101f2054885143c55ed83b69&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "HeritageALG",
+        "nameWithOwner": "adnane3301/HeritageALG",
+        "url": "https://github.com/adnane3301/HeritageALG",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-04-16T23:05:47Z",
+        "pushedAt": "2025-04-16T23:07:26Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjMyOTcwMTkx",
       "login": "Aghilas777",
       "name": "TAB COMPUTING SYSTEM",
@@ -3905,6 +4583,112 @@
         "isFork": false,
         "createdAt": "2019-02-07T23:10:55Z",
         "pushedAt": "2019-02-07T23:10:56Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUxOTM5NDA1",
+      "login": "ahmedbachircherif",
+      "name": "Ahmed Bachir Cherif",
+      "type": "User",
+      "location": "Algiers, Algeria",
+      "url": "https://github.com/ahmedbachircherif",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/51939405?u=4961670fca42dee16a5eafa9eb6ec116725c1156&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "tb_code_waitlist_kv",
+        "nameWithOwner": "ahmedbachircherif/tb_code_waitlist_kv",
+        "url": "https://github.com/ahmedbachircherif/tb_code_waitlist_kv",
+        "description": "FikrIA waitlist+contact KV-only handlers",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-06-12T18:37:23Z",
+        "pushedAt": "2026-06-12T20:43:54Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ5NjExOTY1",
+      "login": "AhmedBemnahammed",
+      "name": null,
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/AhmedBemnahammed",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/49611965?u=8c133062e2c7c67541287c284c164f3706c95241&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "django-ecommerce",
+        "nameWithOwner": "AhmedBemnahammed/django-ecommerce",
+        "url": "https://github.com/AhmedBemnahammed/django-ecommerce",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-05-20T17:09:57Z",
+        "pushedAt": "2020-05-20T18:29:06Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM5MDU1NTI3",
+      "login": "ahmedcherif821",
+      "name": "AHMED CHERIF BOULESNAM",
+      "type": "User",
+      "location": "ALGERIA",
+      "url": "https://github.com/ahmedcherif821",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39055527?u=438a203f258563f035cca692bf656398dac5807b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "hatem",
+        "nameWithOwner": "ahmedcherif821/hatem",
+        "url": "https://github.com/ahmedcherif821/hatem",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-05-13T22:57:02Z",
+        "pushedAt": "2018-05-13T22:59:04Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -4079,6 +4863,40 @@
         "isFork": false,
         "createdAt": "2019-08-08T10:52:19Z",
         "pushedAt": "2019-08-08T10:54:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU3ODc1Mjg3",
+      "login": "AKRIMO95",
+      "name": "AKLI BRAHIM",
+      "type": "User",
+      "location": "algeria",
+      "url": "https://github.com/AKRIMO95",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/57875287?u=37ddb7707439dcdf87cb1f8f28c79083824679b9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "smart-teach-dz.",
+        "nameWithOwner": "AKRIMO95/smart-teach-dz.",
+        "url": "https://github.com/AKRIMO95/smart-teach-dz.",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-28T09:18:14Z",
+        "pushedAt": "2026-08-28T09:18:14Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -4359,6 +5177,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM4NTU5MTM4",
+      "login": "amineBelmili-officiel",
+      "name": "AMiNE Belmili",
+      "type": "User",
+      "location": "Mila,Algeria",
+      "url": "https://github.com/amineBelmili-officiel",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/38559138?u=b99ae89d20f027f41aaf6e082da43152a5f257a5&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Sample-Web-Project",
+        "nameWithOwner": "amineBelmili-officiel/Sample-Web-Project",
+        "url": "https://github.com/amineBelmili-officiel/Sample-Web-Project",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-11-25T01:08:55Z",
+        "pushedAt": "2018-11-30T15:56:40Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "CSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE5NzcyMDg=",
       "login": "aMINEiDZ",
       "name": "Mohammed Amine GUELMANE",
@@ -4427,6 +5281,40 @@
         "primaryLanguage": {
           "name": "TypeScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU3NTA0MTY2",
+      "login": "amirHAMEL",
+      "name": null,
+      "type": "User",
+      "location": "Algiers,ALGERIA",
+      "url": "https://github.com/amirHAMEL",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/57504166?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "test",
+        "nameWithOwner": "amirHAMEL/test",
+        "url": "https://github.com/amirHAMEL/test",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-11-09T11:30:04Z",
+        "pushedAt": "2019-11-09T11:30:05Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -4614,6 +5502,45 @@
           "name": "TypeScript"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM1MDY5MTI5",
+      "login": "Anissa-Rouzzi",
+      "name": "Nissana-Schöne",
+      "type": "User",
+      "location": "Algiers Algeria",
+      "url": "https://github.com/Anissa-Rouzzi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/35069129?u=66d9cf974b32ee429d431667486fc4ed1b3d2c79&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "mywebsite",
+        "nameWithOwner": "Anissa-Rouzzi/mywebsite",
+        "url": "https://github.com/Anissa-Rouzzi/mywebsite",
+        "description": "🚀⚡️ Blazing fast blog built with Gatsby and the Cosmic Headless CMS 🔥",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-02-24T12:17:10Z",
+        "pushedAt": "2021-02-24T12:17:14Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -5229,20 +6156,54 @@
         "Algeria"
       ],
       "topRepository": {
-        "name": "tarjimcall-signaling",
-        "nameWithOwner": "benabdelkader-sebti/tarjimcall-signaling",
-        "url": "https://github.com/benabdelkader-sebti/tarjimcall-signaling",
-        "description": null,
+        "name": "tarjimcall",
+        "nameWithOwner": "benabdelkader-sebti/tarjimcall",
+        "url": "https://github.com/benabdelkader-sebti/tarjimcall",
+        "description": "TarjimCall public site: privacy policy and app landing page",
         "stargazerCount": 0,
         "forkCount": 0,
         "isArchived": false,
         "isFork": false,
-        "createdAt": "2026-09-25T09:26:38Z",
-        "pushedAt": "2026-10-02T14:11:01Z",
+        "createdAt": "2026-10-09T12:44:39Z",
+        "pushedAt": "2026-10-09T17:41:52Z",
         "homepageUrl": null,
         "primaryLanguage": {
-          "name": "JavaScript"
+          "name": "HTML"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM2NTA1MDA3",
+      "login": "Bencheikh-Youcef",
+      "name": "Bencheikh Youcef",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/Bencheikh-Youcef",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/36505007?u=bd1a251d87c81927dde23bc02648e034ce85e215&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "hello-world",
+        "nameWithOwner": "Bencheikh-Youcef/hello-world",
+        "url": "https://github.com/Bencheikh-Youcef/hello-world",
+        "description": "Just another Repository",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-02-15T12:43:44Z",
+        "pushedAt": "2018-02-15T13:38:43Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -5317,6 +6278,78 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU1Mzg2Mzg3",
+      "login": "benouared-affaf",
+      "name": "affaf benouared",
+      "type": "User",
+      "location": "algeria",
+      "url": "https://github.com/benouared-affaf",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/55386387?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "api_spring",
+        "nameWithOwner": "benouared-affaf/api_spring",
+        "url": "https://github.com/benouared-affaf/api_spring",
+        "description": "API REST développée avec Spring Boot pour la gestion des clients, offrant des opérations CRUD, la validation des données, la gestion globale des exceptions, la persistance des données avec PostgreSQL et Spring Data JPA, ainsi qu'une documentation interactive via Swagger/OpenAPI.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-02T10:04:18Z",
+        "pushedAt": "2026-08-02T10:06:35Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQyNDkzODcy",
+      "login": "benouisse",
+      "name": "Brahim ben ouisse",
+      "type": "User",
+      "location": "algeria",
+      "url": "https://github.com/benouisse",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/42493872?u=a0819b3cfc4b1f9574d3d08c717afed2ee04543c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "khatma",
+        "nameWithOwner": "benouisse/khatma",
+        "url": "https://github.com/benouisse/khatma",
+        "description": "khatma web desigb ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-08-10T13:48:46Z",
+        "pushedAt": "2022-08-10T14:14:28Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "CSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjMxMjg0NTI2",
       "login": "berrogtane",
       "name": "Akrem Berrogtane",
@@ -5348,6 +6381,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU3MzI2NTc2",
+      "login": "BesaiMohamed",
+      "name": "Mohamed Ben",
+      "type": "User",
+      "location": "ALgeria",
+      "url": "https://github.com/BesaiMohamed",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/57326576?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Khdmaat_app",
+        "nameWithOwner": "BesaiMohamed/Khdmaat_app",
+        "url": "https://github.com/BesaiMohamed/Khdmaat_app",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-06-21T16:12:49Z",
+        "pushedAt": "2023-06-23T23:45:34Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Dart"
         },
         "licenseInfo": null
       }
@@ -5385,6 +6454,40 @@
         "primaryLanguage": {
           "name": "HTML"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ4ODY1NzA3",
+      "login": "bichaty",
+      "name": "BICHATY BICHA PROJECT MANAGER",
+      "type": "User",
+      "location": "algeria",
+      "url": "https://github.com/bichaty",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/48865707?u=72dacfb1e71460ae5cd9127b5b028753194b145c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "bicha",
+        "nameWithOwner": "bichaty/bicha",
+        "url": "https://github.com/bichaty/bicha",
+        "description": "creative , free thinker, hobbist",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-03-23T18:22:41Z",
+        "pushedAt": "2019-03-23T18:22:42Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -5428,6 +6531,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQzMzEzNjY2",
+      "login": "Billal-ghazali",
+      "name": "billal ghazali",
+      "type": "User",
+      "location": "algeria",
+      "url": "https://github.com/Billal-ghazali",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43313666?u=3df0d9fa93ceaf8738dbc3b66adcb12d67522b44&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "AppAvecLaravel6",
+        "nameWithOwner": "Billal-ghazali/AppAvecLaravel6",
+        "url": "https://github.com/Billal-ghazali/AppAvecLaravel6",
+        "description": "laravel6",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-01-28T11:48:00Z",
+        "pushedAt": "2023-01-05T06:11:25Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjk3ODkxNTU=",
       "login": "BILLAL1986",
       "name": "Billal KHETTAOUI",
@@ -5458,6 +6597,42 @@
         "pushedAt": "2014-11-23T19:46:40Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM3NDUwMjkx",
+      "login": "Billdzdv",
+      "name": "Billdzdv",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/Billdzdv",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/37450291?u=a20a6b7ce3aa8a3a2915dd4f713def3a6e2cfc4f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "java_arithmetic_evaluator",
+        "nameWithOwner": "Billdzdv/java_arithmetic_evaluator",
+        "url": "https://github.com/Billdzdv/java_arithmetic_evaluator",
+        "description": "Parse a given string, and return the result as a double",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-04-07T15:12:03Z",
+        "pushedAt": "2018-04-07T21:52:50Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
         "licenseInfo": null
       }
     },
@@ -5668,6 +6843,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ4NDUxNjE5",
+      "login": "Boubellouta-Islam",
+      "name": "boubellouta islam",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/Boubellouta-Islam",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/48451619?u=5c2e9d95675f7967e28392872454ee355188949a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Boubellouta-Islam",
+        "nameWithOwner": "Boubellouta-Islam/Boubellouta-Islam",
+        "url": "https://github.com/Boubellouta-Islam/Boubellouta-Islam",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-12T15:37:56Z",
+        "pushedAt": "2026-09-12T15:45:35Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjM5MzkyMzc0",
       "login": "bounabali",
       "name": "alibounab",
@@ -5738,6 +6947,81 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjUxMDMxMTE4",
+      "login": "bousbai",
+      "name": "Bousbai Khalil",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/bousbai",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/51031118?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "equipment-utilization-tracker",
+        "nameWithOwner": "bousbai/equipment-utilization-tracker",
+        "url": "https://github.com/bousbai/equipment-utilization-tracker",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-02T07:31:04Z",
+        "pushedAt": "2026-04-02T07:41:14Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQwMjkwOTM4",
+      "login": "Br-Hamza",
+      "name": "Hamza",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/Br-Hamza",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/40290938?u=264c5233ef9d987bf68b3587e2069f130e9f60b8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Gestion-Employee",
+        "nameWithOwner": "Br-Hamza/Gestion-Employee",
+        "url": "https://github.com/Br-Hamza/Gestion-Employee",
+        "description": "Memoire",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-12-22T12:36:01Z",
+        "pushedAt": "2025-12-22T12:38:13Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjExMzEyMjg2",
       "login": "brahimbo",
       "name": null,
@@ -5768,6 +7052,76 @@
         "pushedAt": "2020-10-21T12:37:11Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU4MzM3MzUz",
+      "login": "bsmatek",
+      "name": "bsmatek",
+      "type": "User",
+      "location": "algeria",
+      "url": "https://github.com/bsmatek",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58337353?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "bsmatek",
+        "nameWithOwner": "bsmatek/bsmatek",
+        "url": "https://github.com/bsmatek/bsmatek",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-11-29T15:16:36Z",
+        "pushedAt": "2019-11-29T15:16:37Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU3NDk0ODU2",
+      "login": "bsn-web",
+      "name": "Abdelhadi Saidane",
+      "type": "User",
+      "location": "Algries, Algeria",
+      "url": "https://github.com/bsn-web",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/57494856?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "YemboulGroupWebsite",
+        "nameWithOwner": "bsn-web/YemboulGroupWebsite",
+        "url": "https://github.com/bsn-web/YemboulGroupWebsite",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-10-15T11:58:43Z",
+        "pushedAt": "2026-09-05T14:45:05Z",
+        "homepageUrl": "https://yemboul-group.vercel.app",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
         "licenseInfo": null
       }
     },
@@ -5806,6 +7160,42 @@
           "name": "Apache License 2.0",
           "spdxId": "Apache-2.0"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU2OTk2MTIw",
+      "login": "byacine82",
+      "name": "Yacine Blk",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/byacine82",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/56996120?u=9e5976b399106f22776b64d19f9d8e0e00fde7ea&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Gomycod",
+        "nameWithOwner": "byacine82/Gomycod",
+        "url": "https://github.com/byacine82/Gomycod",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-11-19T23:32:22Z",
+        "pushedAt": "2020-11-19T23:41:57Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -5916,6 +7306,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU3NzUwMTgz",
+      "login": "chelmou",
+      "name": "Mourad Chelik",
+      "type": "User",
+      "location": "Bejaia, Algeria.",
+      "url": "https://github.com/chelmou",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/57750183?u=9a482808d72fdc1aaed1c8e49f229b032831b274&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "mywebsite",
+        "nameWithOwner": "chelmou/mywebsite",
+        "url": "https://github.com/chelmou/mywebsite",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-12-22T09:50:21Z",
+        "pushedAt": "2021-12-22T10:16:58Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
       "id": "U_kgDOBf29Ew",
       "login": "CheraitaOussama",
       "name": "oussama cheraita",
@@ -5984,6 +7413,40 @@
         "primaryLanguage": {
           "name": "CSS"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM5NjEwNjY1",
+      "login": "Chinwi1337",
+      "name": "✪ Çhîňwî »",
+      "type": "User",
+      "location": "Algeria ",
+      "url": "https://github.com/Chinwi1337",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39610665?u=bb5dcdde72bfe3418379158a7c3f5a56ada00300&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "ez",
+        "nameWithOwner": "Chinwi1337/ez",
+        "url": "https://github.com/Chinwi1337/ez",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-10-17T15:09:45Z",
+        "pushedAt": "2018-10-17T15:09:46Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -6095,6 +7558,74 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM5MTIxNTAw",
+      "login": "cosoftmoh",
+      "name": "softmico",
+      "type": "User",
+      "location": "algeria",
+      "url": "https://github.com/cosoftmoh",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39121500?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "projetV0",
+        "nameWithOwner": "cosoftmoh/projetV0",
+        "url": "https://github.com/cosoftmoh/projetV0",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-05-21T07:50:58Z",
+        "pushedAt": "2018-05-21T07:50:58Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU4NDI1NjY4",
+      "login": "crryptix",
+      "name": "Zakaria Abdelaziz",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/crryptix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58425668?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "posters",
+        "nameWithOwner": "crryptix/posters",
+        "url": "https://github.com/crryptix/posters",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-10-01T19:39:16Z",
+        "pushedAt": "2021-10-01T19:39:17Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjg0MzI5MjY=",
       "login": "cryptofact",
       "name": "Merouane B.",
@@ -6127,6 +7658,74 @@
         "primaryLanguage": {
           "name": "JavaScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQwMjE5MDIz",
+      "login": "cssmel",
+      "name": "Abdelmoumene Kendel",
+      "type": "User",
+      "location": "Algeria, Bejaïa",
+      "url": "https://github.com/cssmel",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/40219023?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "cssmel",
+        "nameWithOwner": "cssmel/cssmel",
+        "url": "https://github.com/cssmel/cssmel",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-06-14T12:19:39Z",
+        "pushedAt": "2022-06-14T12:19:39Z",
+        "homepageUrl": "https://github.com/cssmel",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU4OTQwNDc5",
+      "login": "cyborgoff",
+      "name": "Adel Supra",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/cyborgoff",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58940479?u=c72d009103185b1435e1aa72d4cf7aa66b9289f1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "stupratore",
+        "nameWithOwner": "cyborgoff/stupratore",
+        "url": "https://github.com/cyborgoff/stupratore",
+        "description": "am youtubers",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-12-16T12:00:45Z",
+        "pushedAt": "2019-12-16T12:00:46Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -6197,6 +7796,45 @@
         "pushedAt": "2015-12-11T13:31:22Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ5MzI0ODMz",
+      "login": "DevCef",
+      "name": "DevCef",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/DevCef",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/49324833?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "quikmath",
+        "nameWithOwner": "DevCef/quikmath",
+        "url": "https://github.com/DevCef/quikmath",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-12-05T06:56:13Z",
+        "pushedAt": "2024-12-11T22:14:38Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Dart"
+        },
         "licenseInfo": {
           "name": "MIT License",
           "spdxId": "MIT"
@@ -6517,6 +8155,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ3Njk0NjM2",
+      "login": "DrExperiment",
+      "name": "Attab Mohamed Aymen",
+      "type": "User",
+      "location": "Algiers, Algeria",
+      "url": "https://github.com/DrExperiment",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47694636?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "ecole_peg",
+        "nameWithOwner": "DrExperiment/ecole_peg",
+        "url": "https://github.com/DrExperiment/ecole_peg",
+        "description": "Un système d'information pour la gestion d'une école via une application web.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-03-28T15:21:10Z",
+        "pushedAt": "2026-08-19T09:55:41Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjgyMDQzNTQ=",
       "login": "DrFisheur",
       "name": "Fayçal HANNOUN",
@@ -6581,6 +8255,42 @@
         "pushedAt": "2016-08-03T22:15:07Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ3OTI2NTEw",
+      "login": "drifterman20",
+      "name": "Youcef Benrached",
+      "type": "User",
+      "location": "Khemis Miliana - Ain Defla/Algeria",
+      "url": "https://github.com/drifterman20",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47926510?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "ASD",
+        "nameWithOwner": "drifterman20/ASD",
+        "url": "https://github.com/drifterman20/ASD",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-12-13T03:17:47Z",
+        "pushedAt": "2025-12-13T03:50:35Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C"
+        },
         "licenseInfo": null
       }
     },
@@ -6865,6 +8575,76 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ3NDcxNDcz",
+      "login": "Elmo9aw9ass",
+      "name": "ABDELAZIZ HOUCINI",
+      "type": "User",
+      "location": "Ténès, Algeria",
+      "url": "https://github.com/Elmo9aw9ass",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47471473?u=4fcd972f8ae002f076dd3b3ec8a6588f46f3eb48&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "CV",
+        "nameWithOwner": "Elmo9aw9ass/CV",
+        "url": "https://github.com/Elmo9aw9ass/CV",
+        "description": "A testing repository for my CV created along with Angela Yu's WebDevelopment bootcamp 2023",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-01-06T19:49:55Z",
+        "pushedAt": "2023-01-06T19:51:26Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ1MDcwMjcx",
+      "login": "elmojsaidane",
+      "name": null,
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/elmojsaidane",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/45070271?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "elmojsaidane",
+        "nameWithOwner": "elmojsaidane/elmojsaidane",
+        "url": "https://github.com/elmojsaidane/elmojsaidane",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-04-12T08:53:23Z",
+        "pushedAt": "2021-04-12T08:53:23Z",
+        "homepageUrl": "https://github.com/elmojsaidane",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI0MjM2MjA5",
       "login": "elmouhawes",
       "name": "Sun-Soft",
@@ -6964,6 +8744,45 @@
         "homepageUrl": "https://github.com/essabre",
         "primaryLanguage": null,
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ3MzI2NzY1",
+      "login": "eup31000",
+      "name": null,
+      "type": "User",
+      "location": "Hassi Messaoud, Algeria",
+      "url": "https://github.com/eup31000",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47326765?u=8bd6609ce8e59d85ce9431fde75fc289bbdff9f5&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "outStat4nex",
+        "nameWithOwner": "eup31000/outStat4nex",
+        "url": "https://github.com/eup31000/outStat4nex",
+        "description": "Python script to extract well status information from Nexus .out file",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-06-05T13:24:20Z",
+        "pushedAt": "2020-06-07T16:22:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -7182,6 +9001,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM2NzA3MTk3",
+      "login": "fateh47",
+      "name": "ALMOND",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/fateh47",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/36707197?u=9431cfb6db616614cda22a4dbbd6172984ef9c96&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "idk-",
+        "nameWithOwner": "fateh47/idk-",
+        "url": "https://github.com/fateh47/idk-",
+        "description": "test !! ..",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-02-21T17:09:11Z",
+        "pushedAt": "2023-07-29T15:11:19Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOChbg-Q",
       "login": "fatima09mdr",
       "name": "wassan",
@@ -7246,6 +9099,42 @@
         "pushedAt": "2016-12-18T08:27:58Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU4MzQ2MTUx",
+      "login": "fethibouazza",
+      "name": "fethi29",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/fethibouazza",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58346151?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Fethi29000",
+        "nameWithOwner": "fethibouazza/Fethi29000",
+        "url": "https://github.com/fethibouazza/Fethi29000",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-10-04T14:34:32Z",
+        "pushedAt": "2025-10-04T14:57:50Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
         "licenseInfo": null
       }
     },
@@ -7888,6 +9777,81 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU0NTczMDQ1",
+      "login": "HadiOpenSource",
+      "name": "Hadi Moumen",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/HadiOpenSource",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/54573045?u=7f61bf17df89d238d7ccff761b5b0c4f8375d967&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Coran",
+        "nameWithOwner": "HadiOpenSource/Coran",
+        "url": "https://github.com/HadiOpenSource/Coran",
+        "description": "This repository contains all projects about Quran.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-08-27T07:25:31Z",
+        "pushedAt": "2019-08-28T03:18:35Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Pascal"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU0NzE5NDg3",
+      "login": "hafid-bot",
+      "name": "hafid tadjeddine",
+      "type": "User",
+      "location": "bechar -Algeria",
+      "url": "https://github.com/hafid-bot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/54719487?u=591a1e7dcc36654e4dabd1e950780e132aa99c80&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "hello-world",
+        "nameWithOwner": "hafid-bot/hello-world",
+        "url": "https://github.com/hafid-bot/hello-world",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-08-30T16:42:01Z",
+        "pushedAt": "2019-08-30T16:42:02Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjMwODYwNjI3",
       "login": "HakimBhd",
       "name": null,
@@ -8096,6 +10060,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU5MDk2Mjcx",
+      "login": "hamzad3d",
+      "name": "Hamza Abbas",
+      "type": "User",
+      "location": "City El Oued , Algeria",
+      "url": "https://github.com/hamzad3d",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/59096271?u=e31f5515a08fbc8fd2b362137c6a6113357a121e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Money-Calculator",
+        "nameWithOwner": "hamzad3d/Money-Calculator",
+        "url": "https://github.com/hamzad3d/Money-Calculator",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-01-05T21:16:58Z",
+        "pushedAt": "2025-01-05T23:05:38Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI4NzI4MDI1",
       "login": "HamzaGuenfoud",
       "name": "Hamza Guenfoud",
@@ -8200,6 +10200,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjUyMzM0OTY0",
+      "login": "hereyacine",
+      "name": "Yacine Bagua",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/hereyacine",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/52334964?u=e58256408d8429e50fafcb295e7760b3dd7af279&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "jallsa",
+        "nameWithOwner": "hereyacine/jallsa",
+        "url": "https://github.com/hereyacine/jallsa",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-05-13T11:37:11Z",
+        "pushedAt": "2024-06-13T15:51:35Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE4Njg3MjYz",
       "login": "HI-techstore",
       "name": "sofiane tizi",
@@ -8270,6 +10304,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ3MjQ3NTQ4",
+      "login": "HichamBer",
+      "name": "Hicham Berbache",
+      "type": "User",
+      "location": "Bejaia, Algeria",
+      "url": "https://github.com/HichamBer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47247548?u=3d508480a4462511b228db8709214b75ad4acccc&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "books",
+        "nameWithOwner": "HichamBer/books",
+        "url": "https://github.com/HichamBer/books",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-03-28T18:02:54Z",
+        "pushedAt": "2020-03-29T17:57:58Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE3Njc5OTUx",
       "login": "hichemax",
       "name": "hichem",
@@ -8299,6 +10367,40 @@
         "createdAt": "2016-03-07T21:45:11Z",
         "pushedAt": "2016-03-07T21:45:12Z",
         "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUwNjY2NzI4",
+      "login": "HichemGuer",
+      "name": "Hichem Guergouri",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/HichemGuer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50666728?u=1febb70deb1327afc9fb6d1b41f42d646d6bd817&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "HichemGuer",
+        "nameWithOwner": "HichemGuer/HichemGuer",
+        "url": "https://github.com/HichemGuer/HichemGuer",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-06-25T11:07:42Z",
+        "pushedAt": "2021-06-25T11:08:31Z",
+        "homepageUrl": "https://github.com/HichemGuer",
         "primaryLanguage": null,
         "licenseInfo": null
       }
@@ -8477,6 +10579,76 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjUwNjU1NTY2",
+      "login": "houssm",
+      "name": "Houssam",
+      "type": "User",
+      "location": "Bejaia, Algeria ",
+      "url": "https://github.com/houssm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50655566?u=1bf7330eaac2bbd3e72511d56c380627eae878e6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "houssm",
+        "nameWithOwner": "houssm/houssm",
+        "url": "https://github.com/houssm/houssm",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-10-06T12:16:06Z",
+        "pushedAt": "2021-10-06T12:16:07Z",
+        "homepageUrl": "https://github.com/houssm",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ5NTcxNzU3",
+      "login": "Iam-TheOverlord",
+      "name": "The Patriarch",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/Iam-TheOverlord",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/49571757?u=29b4df9b6897ac1d100d0d81c51c1dad46996f9f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Iam-TheOverlord.github.io",
+        "nameWithOwner": "Iam-TheOverlord/Iam-TheOverlord.github.io",
+        "url": "https://github.com/Iam-TheOverlord/Iam-TheOverlord.github.io",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-04-19T13:36:52Z",
+        "pushedAt": "2025-04-19T13:38:19Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "CSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQzODI0ODgy",
       "login": "ibrahimWF",
       "name": "ibrahim hidour",
@@ -8541,6 +10713,42 @@
         "pushedAt": "2016-12-21T21:01:05Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUyMTEyMjg2",
+      "login": "ilyahkh2003",
+      "name": "Yahia Ilyas Khettabi",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/ilyahkh2003",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/52112286?u=579212008dd48dbfd3bd30c185e703c66815bb87&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Smart-Telecom-Data-Analyzer",
+        "nameWithOwner": "ilyahkh2003/Smart-Telecom-Data-Analyzer",
+        "url": "https://github.com/ilyahkh2003/Smart-Telecom-Data-Analyzer",
+        "description": "Python telecom analytics tool from my Algerie Télécome internship. Automates log analysis—peak hours, anomalies, churn risk, user segments. CLI + Streamlit dashboard.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-03T18:19:08Z",
+        "pushedAt": "2026-04-03T18:23:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
         "licenseInfo": null
       }
     },
@@ -8681,6 +10889,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU2NTA0MTQw",
+      "login": "InoudjalRafik",
+      "name": "Rafik Inoudjal",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/InoudjalRafik",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/56504140?u=06443f5eb1e19404290257d5acaa47707c6d2957&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "InoudjalRafik",
+        "nameWithOwner": "InoudjalRafik/InoudjalRafik",
+        "url": "https://github.com/InoudjalRafik/InoudjalRafik",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-08-08T11:08:13Z",
+        "pushedAt": "2021-08-08T11:08:13Z",
+        "homepageUrl": "https://github.com/InoudjalRafik",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDODHUwHw",
       "login": "INVISIBLEx66x",
       "name": "INVISIBLE",
@@ -8746,6 +10988,74 @@
         "createdAt": "2022-12-03T22:51:37Z",
         "pushedAt": "2022-12-03T22:51:38Z",
         "homepageUrl": "https://github.com/ISAAQESEM",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQxODY0MTUx",
+      "login": "Islemblm",
+      "name": "Islem Boualami",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/Islemblm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/41864151?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Islemblm",
+        "nameWithOwner": "Islemblm/Islemblm",
+        "url": "https://github.com/Islemblm/Islemblm",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-10-05T13:31:33Z",
+        "pushedAt": "2026-10-12T23:42:48Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM1MTczNDA3",
+      "login": "ismaiilwaliid",
+      "name": "walid",
+      "type": "User",
+      "location": "algeria",
+      "url": "https://github.com/ismaiilwaliid",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/35173407?u=63aa80e67fe2d1955841b484c8c9cb227be3e12b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "hello-word",
+        "nameWithOwner": "ismaiilwaliid/hello-word",
+        "url": "https://github.com/ismaiilwaliid/hello-word",
+        "description": "firsttest",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-01-06T17:00:35Z",
+        "pushedAt": "2018-01-06T17:24:45Z",
+        "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
       }
@@ -9099,6 +11409,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ5ODA5MTk4",
+      "login": "kamelsalaheddine",
+      "name": null,
+      "type": "User",
+      "location": "algeria",
+      "url": "https://github.com/kamelsalaheddine",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/49809198?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "ResourceMang",
+        "nameWithOwner": "kamelsalaheddine/ResourceMang",
+        "url": "https://github.com/kamelsalaheddine/ResourceMang",
+        "description": "Human Recource Management System",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-04-20T10:36:21Z",
+        "pushedAt": "2019-04-20T10:36:21Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQ0ODkyOTY=",
       "login": "khaiero",
       "name": "khaiero",
@@ -9127,6 +11471,142 @@
         "isFork": false,
         "createdAt": "2018-06-02T08:54:52Z",
         "pushedAt": "2018-06-02T08:54:59Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU3NjM3Njg1",
+      "login": "KHALDIB",
+      "name": "KHALDI BRAHIM",
+      "type": "User",
+      "location": "Mascara, Algeria",
+      "url": "https://github.com/KHALDIB",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/57637685?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "KHALDIB",
+        "nameWithOwner": "KHALDIB/KHALDIB",
+        "url": "https://github.com/KHALDIB/KHALDIB",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-06-04T23:36:34Z",
+        "pushedAt": "2021-06-04T23:36:35Z",
+        "homepageUrl": "https://github.com/KHALDIB",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU4OTgzMjI4",
+      "login": "Khaled-bouchi",
+      "name": "Khaled",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/Khaled-bouchi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58983228?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Odoo",
+        "nameWithOwner": "Khaled-bouchi/Odoo",
+        "url": "https://github.com/Khaled-bouchi/Odoo",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-12-17T14:04:22Z",
+        "pushedAt": "2019-12-17T14:04:23Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ3NDgzMTY2",
+      "login": "khaledaio1",
+      "name": "Aouissi Khaled",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/khaledaio1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47483166?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "hellowordtp01",
+        "nameWithOwner": "khaledaio1/hellowordtp01",
+        "url": "https://github.com/khaledaio1/hellowordtp01",
+        "description": "Solution de travaille demandé  ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-01-01T21:56:34Z",
+        "pushedAt": "2021-01-01T21:56:35Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU4NjcwMTIy",
+      "login": "Khalid908",
+      "name": "khalid",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/Khalid908",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58670122?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "khalid",
+        "nameWithOwner": "Khalid908/khalid",
+        "url": "https://github.com/Khalid908/khalid",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-12-08T22:51:25Z",
+        "pushedAt": "2019-12-08T22:51:27Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -9195,6 +11675,74 @@
         "isFork": false,
         "createdAt": "2020-04-30T12:19:34Z",
         "pushedAt": "2020-04-30T12:19:36Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUxNjYxNzc2",
+      "login": "khallido",
+      "name": null,
+      "type": "User",
+      "location": "algeria",
+      "url": "https://github.com/khallido",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/51661776?u=0e3f9d44ca6052f56515ea5d150bd7f24e3af31f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Html-Css-To-WordRress",
+        "nameWithOwner": "khallido/Html-Css-To-WordRress",
+        "url": "https://github.com/khallido/Html-Css-To-WordRress",
+        "description": "Create a Wp theme ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-06-10T15:17:33Z",
+        "pushedAt": "2019-06-10T15:17:35Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU3NTgyNzEy",
+      "login": "khawla201",
+      "name": "Khawla guessouri",
+      "type": "User",
+      "location": "algeria",
+      "url": "https://github.com/khawla201",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/57582712?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "khawla201.github.io",
+        "nameWithOwner": "khawla201/khawla201.github.io",
+        "url": "https://github.com/khawla201/khawla201.github.io",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-12-19T21:02:29Z",
+        "pushedAt": "2019-12-19T21:02:32Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -9377,6 +11925,43 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM3NzQzMzM2",
+      "login": "KOUADRIIBRAHIM",
+      "name": "Kouadri Ibrahim",
+      "type": "User",
+      "location": "algeria",
+      "url": "https://github.com/KOUADRIIBRAHIM",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/37743336?u=68beb8351da322946cf9558399121b644e46ef4f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "kouadriibrahim.Med",
+        "nameWithOwner": "KOUADRIIBRAHIM/kouadriibrahim.Med",
+        "url": "https://github.com/KOUADRIIBRAHIM/kouadriibrahim.Med",
+        "description": "عربي يمارس حقه الطبيعي في الكلام  OFFICIAL |  إبراهيم كوادري 🇩🇿",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-02-15T10:07:25Z",
+        "pushedAt": "2020-02-15T10:07:27Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+          "spdxId": "BSD-3-Clause"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjEzMDE3NjA1",
       "login": "koubeex",
       "name": "Yaakoub CT",
@@ -9556,6 +12141,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU3NTA2NjM4",
+      "login": "LefkirOmar",
+      "name": "LEFKIR Omar",
+      "type": "User",
+      "location": "algeria",
+      "url": "https://github.com/LefkirOmar",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/57506638?u=ea77ff077bad661e468d0a387da71f699a89518f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "LefkirOmar.github.io",
+        "nameWithOwner": "LefkirOmar/LefkirOmar.github.io",
+        "url": "https://github.com/LefkirOmar/LefkirOmar.github.io",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-06-22T21:43:55Z",
+        "pushedAt": "2020-06-22T21:43:59Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE3NTE1NTM0",
       "login": "linkdz",
       "name": "Rachid Slimani",
@@ -9653,7 +12272,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-09-03T21:39:46Z",
-        "pushedAt": "2026-09-11T13:27:23Z",
+        "pushedAt": "2026-10-13T06:59:09Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "TypeScript"
@@ -9729,6 +12348,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU2MzUyMTg2",
+      "login": "mabrouk14",
+      "name": "djaoui mohamed",
+      "type": "User",
+      "location": "algeria",
+      "url": "https://github.com/mabrouk14",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/56352186?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "initiation",
+        "nameWithOwner": "mabrouk14/initiation",
+        "url": "https://github.com/mabrouk14/initiation",
+        "description": "new tuto",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-11-17T22:55:03Z",
+        "pushedAt": "2019-11-17T23:03:51Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
         },
         "licenseInfo": null
       }
@@ -9986,6 +12641,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM2ODAzNzc2",
+      "login": "MBCGeek",
+      "name": "MBCGeek",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/MBCGeek",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/36803776?u=754e7e35cebdf4e08c96eb023ab8bddbe17d662a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "hello-world",
+        "nameWithOwner": "MBCGeek/hello-world",
+        "url": "https://github.com/MBCGeek/hello-world",
+        "description": "Just another repository",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-02-25T00:42:29Z",
+        "pushedAt": "2018-02-25T01:03:37Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjIzMDEyNDM0",
       "login": "MedFarouk95",
       "name": "RAHAL MOHAMED-EL FAROUK",
@@ -10226,6 +12915,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ4ODYxMzcy",
+      "login": "mertinus862",
+      "name": "Mohammed Emin Hameurlaine",
+      "type": "User",
+      "location": "Algeria ",
+      "url": "https://github.com/mertinus862",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/48861372?u=db3999e6a21d3242b83b18a70986f67465a39d27&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "MohammedEmin-Hameurlaine",
+        "nameWithOwner": "mertinus862/MohammedEmin-Hameurlaine",
+        "url": "https://github.com/mertinus862/MohammedEmin-Hameurlaine",
+        "description": "Technology",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-03-23T14:53:15Z",
+        "pushedAt": "2019-03-23T14:53:17Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQzODExNDg3",
       "login": "MerzouguiMarouane",
       "name": "Merzougui Marouane",
@@ -10401,6 +13124,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM3OTQzMzEz",
+      "login": "mimiaskygram",
+      "name": "skygram",
+      "type": "User",
+      "location": "Algeria.",
+      "url": "https://github.com/mimiaskygram",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/37943313?u=8d7a3bc2c66a673481c1916ab8f5d9e181897196&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "hello_world",
+        "nameWithOwner": "mimiaskygram/hello_world",
+        "url": "https://github.com/mimiaskygram/hello_world",
+        "description": "first ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-03-30T22:25:27Z",
+        "pushedAt": "2018-03-30T22:25:28Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjIwNzIyOTEw",
       "login": "mkettouche",
       "name": "Mohand",
@@ -10435,6 +13192,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU5MjI3OTY1",
+      "login": "mladel",
+      "name": "MLadel",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/mladel",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/59227965?u=addb8f3b44225f5c2befb61ecc4dd9fc3d1dba75&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "github-slideshow",
+        "nameWithOwner": "mladel/github-slideshow",
+        "url": "https://github.com/mladel/github-slideshow",
+        "description": "A robot powered training repository :robot:",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-12-25T20:37:50Z",
+        "pushedAt": "2023-04-11T23:37:28Z",
+        "homepageUrl": "https://lab.github.com/githubtraining/introduction-to-github",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "U_kgDOBXtjmw",
       "login": "moha17031",
       "name": "BENKAHLA Mohammed",
@@ -10465,6 +13261,42 @@
         "pushedAt": "2022-02-12T16:06:05Z",
         "homepageUrl": "https://github.com/moha17031",
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU1NDQ0NDIx",
+      "login": "mohamed-trad",
+      "name": "mohammed trad",
+      "type": "User",
+      "location": "algeria ",
+      "url": "https://github.com/mohamed-trad",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/55444421?u=aeb2773dc1b1c74de218ce5f2ed37c490cfec94c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "hello-world",
+        "nameWithOwner": "mohamed-trad/hello-world",
+        "url": "https://github.com/mohamed-trad/hello-world",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-09-17T12:31:47Z",
+        "pushedAt": "2019-09-17T12:31:49Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
         "licenseInfo": null
       }
     },
@@ -10569,6 +13401,76 @@
         "primaryLanguage": {
           "name": "Python"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU2OTE0NjQ1",
+      "login": "momedrsd",
+      "name": "Momed",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/momedrsd",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/56914645?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "dev",
+        "nameWithOwner": "momedrsd/dev",
+        "url": "https://github.com/momedrsd/dev",
+        "description": "Developer java & c#",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-10-23T09:09:29Z",
+        "pushedAt": "2026-03-09T13:14:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUwNzY3MjQ0",
+      "login": "moncef4s3",
+      "name": "Mouns_Web",
+      "type": "User",
+      "location": "Algers, Algeria",
+      "url": "https://github.com/moncef4s3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50767244?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "git_test",
+        "nameWithOwner": "moncef4s3/git_test",
+        "url": "https://github.com/moncef4s3/git_test",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-01-19T20:51:37Z",
+        "pushedAt": "2023-01-19T22:46:37Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -10883,6 +13785,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM4MTYzNDc4",
+      "login": "mrboukadoum",
+      "name": "Boukadoum Abderezak",
+      "type": "User",
+      "location": "algeria",
+      "url": "https://github.com/mrboukadoum",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/38163478?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "taqnawi",
+        "nameWithOwner": "mrboukadoum/taqnawi",
+        "url": "https://github.com/mrboukadoum/taqnawi",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-09-20T00:49:22Z",
+        "pushedAt": "2018-09-20T01:07:33Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjMxNDE2NDg4",
       "login": "MrCoba2517",
       "name": null,
@@ -10912,6 +13848,40 @@
         "createdAt": "2022-07-25T00:07:46Z",
         "pushedAt": "2022-07-25T00:07:46Z",
         "homepageUrl": "https://github.com/MrCoba2517",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU2OTU4ODQ0",
+      "login": "mseghirate",
+      "name": "M'hamed Seghirate",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/mseghirate",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/56958844?u=55524c7922f029ad23d78421005100e7888f84d1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "hello-world",
+        "nameWithOwner": "mseghirate/hello-world",
+        "url": "https://github.com/mseghirate/hello-world",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-10-24T11:04:26Z",
+        "pushedAt": "2019-10-25T19:57:51Z",
+        "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
       }
@@ -11095,6 +14065,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU0NzgzMTI0",
+      "login": "NAJFNR",
+      "name": "The North African Journal of Food and Nutrition Research",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/NAJFNR",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/54783124?u=b992744dce5fcdee4a98d6fe7f5d291e34e659a8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "KhaledMB",
+        "nameWithOwner": "NAJFNR/KhaledMB",
+        "url": "https://github.com/NAJFNR/KhaledMB",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-09-02T00:13:51Z",
+        "pushedAt": "2019-09-02T00:13:53Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjkwNTM2ODc=",
       "login": "naroran",
       "name": "faci",
@@ -11205,6 +14209,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjUzNDMxOTQ2",
+      "login": "nelasof",
+      "name": "larbi NEGHLI",
+      "type": "User",
+      "location": "Algiers, ALGERIA",
+      "url": "https://github.com/nelasof",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/53431946?u=5b791b23c8db8f5f73c6579f08e04a609f6a845a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "myrepo",
+        "nameWithOwner": "nelasof/myrepo",
+        "url": "https://github.com/nelasof/myrepo",
+        "description": "Repository for testing my Git/GitHub setup",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-03-29T14:32:40Z",
+        "pushedAt": "2023-03-29T14:53:33Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI0NjEzNTQ2",
       "login": "northenmist",
       "name": "Saïd Ammouche",
@@ -11267,6 +14305,40 @@
         "isFork": false,
         "createdAt": "2024-12-25T17:40:41Z",
         "pushedAt": "2024-12-25T17:40:41Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ0MjY2NjMz",
+      "login": "NourEl46",
+      "name": "Nour Elhouda Nouar",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/NourEl46",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/44266633?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Hello-world",
+        "nameWithOwner": "NourEl46/Hello-world",
+        "url": "https://github.com/NourEl46/Hello-world",
+        "description": "just to start ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-10-18T17:13:04Z",
+        "pushedAt": "2018-10-18T17:37:25Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -11459,6 +14531,112 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ4NTUzMDE0",
+      "login": "OPGIDevs",
+      "name": "OPGI Développeurs",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/OPGIDevs",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/48553014?u=50c6e9b6885849dddd60669109f15ba713afe1af&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "RevisionLoyer",
+        "nameWithOwner": "OPGIDevs/RevisionLoyer",
+        "url": "https://github.com/OPGIDevs/RevisionLoyer",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-03-14T14:11:35Z",
+        "pushedAt": "2019-03-14T14:11:53Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Pascal"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU0NzEzNTAx",
+      "login": "Ossama-blk",
+      "name": "Belkacemi Oussama",
+      "type": "User",
+      "location": "khemisti, tissemsilt , algeria",
+      "url": "https://github.com/Ossama-blk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/54713501?u=89425e9e1cc2ff2c43528547089fb919b3210223&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Oussa-cha",
+        "nameWithOwner": "Ossama-blk/Oussa-cha",
+        "url": "https://github.com/Ossama-blk/Oussa-cha",
+        "description": "Electronics Science Student  ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-08-30T13:35:21Z",
+        "pushedAt": "2019-08-30T13:35:22Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ3MjI0NjIx",
+      "login": "ouassimkads",
+      "name": "Ouassim Kadissa",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/ouassimkads",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47224621?u=b3e39e1a8185168c2e3c8ff410dba95512873eb3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "api",
+        "nameWithOwner": "ouassimkads/api",
+        "url": "https://github.com/ouassimkads/api",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-30T20:52:30Z",
+        "pushedAt": "2026-09-30T21:59:37Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjM3OTUyMDUz",
       "login": "OUCHENE-Hiba",
       "name": "OUCHENE Hiba",
@@ -11645,11 +14823,11 @@
     {
       "id": "MDQ6VXNlcjMxNTg1NTMw",
       "login": "oussamakarloss",
-      "name": "oussamakarloss350",
+      "name": "oussamahasssani86",
       "type": "User",
       "location": "algeria algiers",
       "url": "https://github.com/oussamakarloss",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/31585530?u=2db6c935164787fb6492f35564c89252844a6e0c&v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/31585530?u=1514bf6eb0c84b113fddca09796e8c1ef63701ac&v=4",
       "attribution": {
         "accepted": true,
         "countryCode": "DZ",
@@ -11675,6 +14853,74 @@
         "primaryLanguage": {
           "name": "Python"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM5MjczMjE1",
+      "login": "pashanga0",
+      "name": "pashanga0",
+      "type": "User",
+      "location": "Algeria , Souk Ahras",
+      "url": "https://github.com/pashanga0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39273215?u=ab5f26c519d5ea32b319ca9a3989710a2dcb8832&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Hello-world-",
+        "nameWithOwner": "pashanga0/Hello-world-",
+        "url": "https://github.com/pashanga0/Hello-world-",
+        "description": "store here ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-07-13T10:24:03Z",
+        "pushedAt": "2018-07-13T10:24:04Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU2Nzc0OTk4",
+      "login": "Physics339",
+      "name": "Essma Redouane Salah",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/Physics339",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/56774998?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "git-example",
+        "nameWithOwner": "Physics339/git-example",
+        "url": "https://github.com/Physics339/git-example",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-06-28T09:15:24Z",
+        "pushedAt": "2024-06-28T09:24:01Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -11784,6 +15030,74 @@
         "primaryLanguage": {
           "name": "C++"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQzMDA0OTA4",
+      "login": "rafik47",
+      "name": "A. Rafik. Zouaoui",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/rafik47",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43004908?u=7706b3e74b7bc3ec1bf8b67e1e0fc684586bfacb&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "rafik47",
+        "nameWithOwner": "rafik47/rafik47",
+        "url": "https://github.com/rafik47/rafik47",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-09-20T10:06:01Z",
+        "pushedAt": "2021-09-20T10:06:02Z",
+        "homepageUrl": "https://github.com/rafik47",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU4MTE0NzYw",
+      "login": "rahimbn",
+      "name": "rahim",
+      "type": "User",
+      "location": "algeria",
+      "url": "https://github.com/rahimbn",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58114760?u=cb12c6d83dbf5537bff0a3ab3ad2bddb4de9d102&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "rahim",
+        "nameWithOwner": "rahimbn/rahim",
+        "url": "https://github.com/rahimbn/rahim",
+        "description": "just a gay with talents which is fast learning",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-11-23T16:10:12Z",
+        "pushedAt": "2019-11-23T16:12:19Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -12032,6 +15346,76 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjUxNTE0ODkx",
+      "login": "rolandrahim",
+      "name": "rolls",
+      "type": "User",
+      "location": "algeria",
+      "url": "https://github.com/rolandrahim",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/51514891?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Abderrahim-Boughelous",
+        "nameWithOwner": "rolandrahim/Abderrahim-Boughelous",
+        "url": "https://github.com/rolandrahim/Abderrahim-Boughelous",
+        "description": "Dz net",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-06-08T17:08:22Z",
+        "pushedAt": "2019-06-08T17:08:22Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ3MzczMjkx",
+      "login": "RostomMENNOUR",
+      "name": "Rostom MENNOUR",
+      "type": "User",
+      "location": "Constantine, Algeria",
+      "url": "https://github.com/RostomMENNOUR",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47373291?u=00f580045555567fbda4535a8231d66ac624e007&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "aws-cloud-architecture-three-tiers",
+        "nameWithOwner": "RostomMENNOUR/aws-cloud-architecture-three-tiers",
+        "url": "https://github.com/RostomMENNOUR/aws-cloud-architecture-three-tiers",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-15T12:14:30Z",
+        "pushedAt": "2026-10-18T12:59:40Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HCL"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjk3MjE2NzY=",
       "login": "Rouge-Rubis",
       "name": "Imane Tchantchane",
@@ -12098,6 +15482,76 @@
         "primaryLanguage": {
           "name": "Python"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU3MTc0Mjk2",
+      "login": "Rst-RaDi",
+      "name": "Khelif Ouassim",
+      "type": "User",
+      "location": "Tebessa , Algeria , 12000",
+      "url": "https://github.com/Rst-RaDi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/57174296?u=cccab55bcb850c4dbdd63b613e7392f58c8f6d2a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Aotn",
+        "nameWithOwner": "Rst-RaDi/Aotn",
+        "url": "https://github.com/Rst-RaDi/Aotn",
+        "description": "Network Cutter Alone On The Network",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-10-30T10:26:38Z",
+        "pushedAt": "2019-11-01T21:47:28Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ0NzUwMDgz",
+      "login": "sagitterre",
+      "name": null,
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/sagitterre",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/44750083?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "sagitterre",
+        "nameWithOwner": "sagitterre/sagitterre",
+        "url": "https://github.com/sagitterre/sagitterre",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-03-26T02:03:10Z",
+        "pushedAt": "2021-03-26T02:03:11Z",
+        "homepageUrl": "https://github.com/sagitterre",
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -12279,6 +15733,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU4NjM0NzI4",
+      "login": "sarra-azibi",
+      "name": "Sarra AZIBI",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/sarra-azibi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58634728?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Netflix-clone",
+        "nameWithOwner": "sarra-azibi/Netflix-clone",
+        "url": "https://github.com/sarra-azibi/Netflix-clone",
+        "description": "Cloning Netflix's UI, using ReactJS. #FrontEnd #ReactJS ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-07-23T16:06:26Z",
+        "pushedAt": "2021-07-23T16:42:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI4NTQ4NjYx",
       "login": "sarrya",
       "name": "Sarra-DevOps",
@@ -12297,16 +15785,52 @@
         "Algeria"
       ],
       "topRepository": {
-        "name": "devops-lab",
-        "nameWithOwner": "sarrya/devops-lab",
-        "url": "https://github.com/sarrya/devops-lab",
-        "description": null,
+        "name": "skincare-store",
+        "nameWithOwner": "sarrya/skincare-store",
+        "url": "https://github.com/sarrya/skincare-store",
+        "description": "E-commerce skincare store built as a DevOps portfolio project.",
         "stargazerCount": 0,
         "forkCount": 0,
         "isArchived": false,
         "isFork": false,
-        "createdAt": "2026-09-29T09:18:29Z",
-        "pushedAt": "2026-09-29T09:18:31Z",
+        "createdAt": "2026-10-05T14:44:06Z",
+        "pushedAt": "2026-10-06T14:38:54Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQyMDY5MjU5",
+      "login": "SawssenBr",
+      "name": "sawssen",
+      "type": "User",
+      "location": "algeria",
+      "url": "https://github.com/SawssenBr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/42069259?u=10bc6c49c5a7674dbb9a21fb8c790d87f203a009&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Hello-World-",
+        "nameWithOwner": "SawssenBr/Hello-World-",
+        "url": "https://github.com/SawssenBr/Hello-World-",
+        "description": "First try ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-08-03T14:23:51Z",
+        "pushedAt": "2018-08-03T14:35:41Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -12347,6 +15871,43 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ4OTIwOTg1",
+      "login": "seddikwalid",
+      "name": "seddik walid",
+      "type": "User",
+      "location": "algeria",
+      "url": "https://github.com/seddikwalid",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/48920985?u=1f90d41e067afce1be63d9b481da855f36b590c9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "palette",
+        "nameWithOwner": "seddikwalid/palette",
+        "url": "https://github.com/seddikwalid/palette",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-26T12:10:56Z",
+        "pushedAt": "2026-07-26T12:23:04Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjY4MjU0MzI=",
       "login": "SEDIK-CH",
       "name": "SEDDIK Charfeddine",
@@ -12377,6 +15938,45 @@
         "pushedAt": "2024-08-22T20:31:48Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU4OTYxOTQy",
+      "login": "sidvhmed",
+      "name": "SidAhmed Maaradji ",
+      "type": "User",
+      "location": "Algiers, Algeria",
+      "url": "https://github.com/sidvhmed",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58961942?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "n8n",
+        "nameWithOwner": "sidvhmed/n8n",
+        "url": "https://github.com/sidvhmed/n8n",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-12-11T21:35:00Z",
+        "pushedAt": "2026-01-01T17:45:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Dockerfile"
+        },
         "licenseInfo": {
           "name": "Apache License 2.0",
           "spdxId": "Apache-2.0"
@@ -12448,6 +16048,76 @@
         "isFork": false,
         "createdAt": "2015-12-09T23:46:38Z",
         "pushedAt": "2015-12-09T23:46:52Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU4NTE2MDQ3",
+      "login": "socho007",
+      "name": "BOULARAK Souheyb",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/socho007",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58516047?u=e3ff03f029669c6d2b08976fb2d5a740acd25512&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "BlazorApp",
+        "nameWithOwner": "socho007/BlazorApp",
+        "url": "https://github.com/socho007/BlazorApp",
+        "description": "A full stack app with blazor",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-12-06T09:50:21Z",
+        "pushedAt": "2019-12-06T09:52:25Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ3MzQ0OTQw",
+      "login": "solariom",
+      "name": "Gassab Karim",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/solariom",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47344940?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "hello-world",
+        "nameWithOwner": "solariom/hello-world",
+        "url": "https://github.com/solariom/hello-world",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-02-09T09:28:34Z",
+        "pushedAt": "2021-02-09T09:28:36Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -12776,6 +16446,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU3MDAyOTIx",
+      "login": "Taldorus",
+      "name": "Belkhodja Samy Mokhtar",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/Taldorus",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/57002921?u=febf4395396d25151372658a9035ab40e67b4441&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Docker-WebServer",
+        "nameWithOwner": "Taldorus/Docker-WebServer",
+        "url": "https://github.com/Taldorus/Docker-WebServer",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-04-13T11:22:29Z",
+        "pushedAt": "2024-04-16T08:40:26Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI1Njg1NjYw",
       "login": "tarikmouss",
       "name": "moussaoui tarik",
@@ -12808,6 +16514,40 @@
         "primaryLanguage": {
           "name": "JavaScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU0MzU3MTIx",
+      "login": "tayeb16",
+      "name": "tayeb16",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/tayeb16",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/54357121?u=2c1703121c45e23ff8fd345f6ef9d9e60beb1ce6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "dailyislam",
+        "nameWithOwner": "tayeb16/dailyislam",
+        "url": "https://github.com/tayeb16/dailyislam",
+        "description": "site",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-09-20T13:54:00Z",
+        "pushedAt": "2019-09-20T13:54:02Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -12918,6 +16658,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjUyOTM1MjY0",
+      "login": "too-tch",
+      "name": "Omar dilekh",
+      "type": "User",
+      "location": "algeria",
+      "url": "https://github.com/too-tch",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/52935264?u=487bd28aa16b845341fe79ab2f965ce1427a815c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "smileybebe",
+        "nameWithOwner": "too-tch/smileybebe",
+        "url": "https://github.com/too-tch/smileybebe",
+        "description": "landing page smileybebe",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-10-28T16:10:40Z",
+        "pushedAt": "2023-10-28T18:03:37Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "SCSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjIzMzQ2MjUz",
       "login": "touati27gtd",
       "name": "TITOU ",
@@ -12979,9 +16755,47 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-10-01T19:47:10Z",
-        "pushedAt": "2026-10-01T19:47:11Z",
+        "pushedAt": "2026-10-10T18:44:49Z",
         "homepageUrl": null,
-        "primaryLanguage": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ5NzMzODQ4",
+      "login": "trima",
+      "name": "Moncef Trima",
+      "type": "User",
+      "location": "Annaba, Algeria",
+      "url": "https://github.com/trima",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/49733848?u=94c07952f9ea05d6c6776738161121155736dc5e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "trima.github.io",
+        "nameWithOwner": "trima/trima.github.io",
+        "url": "https://github.com/trima/trima.github.io",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-12-21T02:18:38Z",
+        "pushedAt": "2024-08-20T14:03:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "SCSS"
+        },
         "licenseInfo": null
       }
     },
@@ -13050,6 +16864,40 @@
         "isFork": false,
         "createdAt": "2016-04-08T09:56:52Z",
         "pushedAt": "2016-04-08T10:02:27Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQyNzgxNzY0",
+      "login": "Vibrex46",
+      "name": "Vibrex",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/Vibrex46",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/42781764?u=72df5534eefd5ec943ac2f43a9d4661cd8a27478&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Vibrex46",
+        "nameWithOwner": "Vibrex46/Vibrex46",
+        "url": "https://github.com/Vibrex46/Vibrex46",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-30T18:08:17Z",
+        "pushedAt": "2026-09-30T19:07:09Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -13197,6 +17045,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU0OTkxMjU3",
+      "login": "Walid-Lalioui",
+      "name": "Walid Lalioui",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/Walid-Lalioui",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/54991257?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "Walid-Lalioui",
+        "nameWithOwner": "Walid-Lalioui/Walid-Lalioui",
+        "url": "https://github.com/Walid-Lalioui/Walid-Lalioui",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-09-06T17:24:54Z",
+        "pushedAt": "2019-09-06T17:24:55Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQ4NjMyNjA=",
       "login": "walidnaceri",
       "name": "Walid Naceri",
@@ -13332,6 +17214,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "CSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM2NDc4OTY0",
+      "login": "WrHammad",
+      "name": "Hammad",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/WrHammad",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/36478964?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "train_DZ",
+        "nameWithOwner": "WrHammad/train_DZ",
+        "url": "https://github.com/WrHammad/train_DZ",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-12-04T12:06:30Z",
+        "pushedAt": "2025-12-09T16:39:25Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
         },
         "licenseInfo": null
       }
@@ -13550,6 +17468,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjUwNjMxODE3",
+      "login": "yasserhemche",
+      "name": "YASSER HEMCHE",
+      "type": "User",
+      "location": "algeria",
+      "url": "https://github.com/yasserhemche",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50631817?u=b17968b3e84ceebf193e3ecf0ad0432dc877580d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "OpenclassroomProject",
+        "nameWithOwner": "yasserhemche/OpenclassroomProject",
+        "url": "https://github.com/yasserhemche/OpenclassroomProject",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-09-10T09:27:54Z",
+        "pushedAt": "2020-09-10T09:27:57Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI2MjU0NTc0",
       "login": "yassine32as",
       "name": "yassine",
@@ -13578,6 +17530,40 @@
         "isFork": false,
         "createdAt": "2017-05-24T12:23:02Z",
         "pushedAt": "2017-05-24T12:23:03Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU1NTMzNzg5",
+      "login": "yat0-ops",
+      "name": "younes dah",
+      "type": "User",
+      "location": "algeria, Ain defla, miliana",
+      "url": "https://github.com/yat0-ops",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/55533789?u=ad9f265ad6bd49a5d8cf740d35bf752e164201c8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "yato",
+        "nameWithOwner": "yat0-ops/yato",
+        "url": "https://github.com/yat0-ops/yato",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-09-19T08:51:34Z",
+        "pushedAt": "2019-09-19T08:51:35Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -13849,24 +17835,125 @@
         "Algeria"
       ],
       "topRepository": {
-        "name": "Huntermaster",
-        "nameWithOwner": "yurristudio/Huntermaster",
-        "url": "https://github.com/yurristudio/Huntermaster",
-        "description": "The ultimate all-in-one toolkit for Hunters featuring a complete Pet Taming Codex, DeadZone range indicator, map coordinates, and combat utilities.",
+        "name": "senminimap",
+        "nameWithOwner": "yurristudio/senminimap",
+        "url": "https://github.com/yurristudio/senminimap",
+        "description": null,
         "stargazerCount": 0,
         "forkCount": 0,
         "isArchived": false,
         "isFork": false,
-        "createdAt": "2026-09-30T13:55:24Z",
-        "pushedAt": "2026-09-30T15:47:55Z",
+        "createdAt": "2026-10-18T17:38:51Z",
+        "pushedAt": "2026-10-18T17:42:17Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Lua"
         },
-        "licenseInfo": {
-          "name": "MIT License",
-          "spdxId": "MIT"
-        }
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQzNzQzNzA3",
+      "login": "zahra-Djenna",
+      "name": "Zahra Djenna",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/zahra-Djenna",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43743707?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "my-travel-plans",
+        "nameWithOwner": "zahra-Djenna/my-travel-plans",
+        "url": "https://github.com/zahra-Djenna/my-travel-plans",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-10-01T09:15:15Z",
+        "pushedAt": "2018-10-01T11:13:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "CSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ5MjUyODA0",
+      "login": "ZahraGtf",
+      "name": "Zahra Gtf",
+      "type": "User",
+      "location": "Algeria ",
+      "url": "https://github.com/ZahraGtf",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/49252804?u=89869216201d0eb8beb5fa00a1a3b7e74a3a7d96&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "TimeTableManager",
+        "nameWithOwner": "ZahraGtf/TimeTableManager",
+        "url": "https://github.com/ZahraGtf/TimeTableManager",
+        "description": "TimeTableManager: An all-in-one solution for creating, managing, and optimizing timetables. Ideal for educational institutions, corporates, and event organizers. Features include user-friendly interface, entity management, access control, reporting, integration, and backup.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-06-19T19:12:15Z",
+        "pushedAt": "2024-06-19T19:46:14Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQxMzcyMzE0",
+      "login": "zainxwolf",
+      "name": "Zainx",
+      "type": "User",
+      "location": "Algeria",
+      "url": "https://github.com/zainxwolf",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/41372314?u=8b0ff3e2da7044078d44070d03e738c16b5c1b9f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "DZ",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Algeria"
+      },
+      "discoveryTerms": [
+        "Algeria"
+      ],
+      "topRepository": {
+        "name": "zainxwolf.github.io",
+        "nameWithOwner": "zainxwolf/zainxwolf.github.io",
+        "url": "https://github.com/zainxwolf/zainxwolf.github.io",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-07-18T11:36:54Z",
+        "pushedAt": "2018-07-18T15:02:20Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
       }
     },
     {
@@ -14186,5 +18273,5 @@
     }
   ],
   "candidatePoolLimit": 500,
-  "candidatePoolThresholdStars": null
+  "candidatePoolThresholdStars": 0
 }
