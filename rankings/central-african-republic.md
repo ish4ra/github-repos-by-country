@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 17%
+## Repository ranking status: Building 26%
 
-- Geography terms processed: **16 / 89**
-- Progress: **17%**
-- Retained high-potential owner candidates: **18**
-- Search requests completed: **16**
+- Geography terms processed: **24 / 89**
+- Progress: **26%**
+- Retained high-potential owner candidates: **19**
+- Search requests completed: **24**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -37,7 +37,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [hingyuen/OrderingSystemMiniProgram](https://github.com/hingyuen/OrderingSystemMiniProgram) | **0** | 37715 ,O'Keefe Neck ,Dickenstown ,South Carolina ,Central African Republic |
 | [ikouecode/webdev-001](https://github.com/ikouecode/webdev-001) | **0** | Central African Republic |
 | [neliscoet/laravel](https://github.com/neliscoet/laravel) | **0** | Central African Republic |
+| [Nfirmin236/Mon-premier-projet-web](https://github.com/Nfirmin236/Mon-premier-projet-web) | **0** | Bossangoa |
 | [PhiSIBS/LimotiAnyama](https://github.com/PhiSIBS/LimotiAnyama) | **0** | Bangui - Central African Republic |
-| [ringcamomile/ringcamomile](https://github.com/ringcamomile/ringcamomile) | **0** | Central African Republic (CF) |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

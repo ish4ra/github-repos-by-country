@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 85%
+## Repository ranking status: Building 100%
 
-- Geography terms processed: **18 / 21**
-- Progress: **85%**
-- Retained high-potential owner candidates: **71**
-- Search requests completed: **20**
+- Geography terms processed: **21 / 21**
+- Progress: **100%**
+- Retained high-potential owner candidates: **75**
+- Search requests completed: **23**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -36,9 +36,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Altidias/reforger-internal-hook-example](https://github.com/Altidias/reforger-internal-hook-example) | **4** | Christmas Island |
 | [Tango-Club/Sometime](https://github.com/Tango-Club/Sometime) | **4** | Christmas Island |
 | [ECE-366-Final-Project/Back-End](https://github.com/ECE-366-Final-Project/Back-End) | **2** | Christmas Island |
+| [IFREADLI/Astro-Ownio-blogs](https://github.com/IFREADLI/Astro-Ownio-blogs) | **2** | 圣诞岛 |
 | [louis1204/MapNavigationDrawerExample](https://github.com/louis1204/MapNavigationDrawerExample) | **2** | Christmas Island |
 | [ScriptKitKat/personalwebsite](https://github.com/ScriptKitKat/personalwebsite) | **2** | Christmas Island |
-| [Sonic-Riders-Tournament-Edition/sega-nn-gno-exporter](https://github.com/Sonic-Riders-Tournament-Edition/sega-nn-gno-exporter) | **2** | Christmas Island |
 
 ## Repository-first scan
 

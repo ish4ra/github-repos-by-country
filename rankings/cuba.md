@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 202**
 - Progress: **0%**
-- Retained high-potential owner candidates: **743**
-- Search requests completed: **20**
+- Retained high-potential owner candidates: **893**
+- Search requests completed: **28**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -36,9 +36,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [cuza/luci-app-nauta](https://github.com/cuza/luci-app-nauta) | **22** | Varadero, Cuba |
 | [yudivian/cuba-geojsons](https://github.com/yudivian/cuba-geojsons) | **20** | La Habana, Cuba |
 | [ObisoftDev/pyobigram](https://github.com/ObisoftDev/pyobigram) | **19** | Cuba |
+| [artechedi/FreeRTOS-lwIP-Vivado-2016](https://github.com/artechedi/FreeRTOS-lwIP-Vivado-2016) | **16** | CUBA |
 | [kurokykun/cuota](https://github.com/kurokykun/cuota) | **15** | Habana,Cuba |
 | [blacknoize404/MiniJWS](https://github.com/blacknoize404/MiniJWS) | **13** | Cuba |
-| [rodnye/kodekloud.inspector](https://github.com/rodnye/kodekloud.inspector) | **13** | La Habana, Cuba |
 
 ## Repository-first scan
 
