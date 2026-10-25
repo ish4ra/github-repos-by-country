@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 30%
+## Repository ranking status: Building 48%
 
-- Geography terms processed: **13 / 43**
-- Progress: **30%**
-- Retained high-potential owner candidates: **121**
-- Search requests completed: **16**
+- Geography terms processed: **21 / 43**
+- Progress: **48%**
+- Retained high-potential owner candidates: **122**
+- Search requests completed: **24**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -33,7 +33,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [filzehoka/ZeroShift](https://github.com/filzehoka/ZeroShift) | **25** | Greenland |
 | [polarstoat/stardew-crop-data](https://github.com/polarstoat/stardew-crop-data) | **25** | Greenland |
 | [BlackPearl-Forum/Blackpearl-Template-Posters](https://github.com/BlackPearl-Forum/Blackpearl-Template-Posters) | **20** | Qeqertalik, Greenland |
-| [pierreminik/lisa-templates](https://github.com/pierreminik/lisa-templates) | **16** | Kalaallit Nunaat (Greenland) |
+| [pierreminik/lisa-templates](https://github.com/pierreminik/lisa-templates) | **17** | Kalaallit Nunaat (Greenland) |
 | [ProjectAtlantis-dev/atlantis-terrain-server](https://github.com/ProjectAtlantis-dev/atlantis-terrain-server) | **12** | Greenland |
 | [panyster/FastapiRadiant](https://github.com/panyster/FastapiRadiant) | **11** | Greenland |
 | [Oqaasileriffik/martha](https://github.com/Oqaasileriffik/martha) | **8** | Nuuk, Greenland |

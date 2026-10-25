@@ -1,6 +1,6 @@
 # Browse Repository Rankings
 
-**250 countries and territories indexed · 53 live · 238 building**
+**250 countries and territories indexed · 53 live · 237 building**
 
 Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a country.
 
@@ -73,29 +73,29 @@ Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a co
 | 🇪🇨 **Ecuador** | `EC` | 🟡 Building 0% | [Open country page](./ecuador.md) | — | 16 Oct 2026, 23:48 UTC |
 | 🇪🇬 **Egypt** | `EG` | 🟡 Building 0% | [Open country page](./egypt.md) | — | 16 Oct 2026, 21:29 UTC |
 | 🇸🇻 **El Salvador** | `SV` | 🟡 Building 0% | [Open country page](./el-salvador.md) | — | 05 Oct 2026, 06:20 UTC |
-| 🇬🇶 **Equatorial Guinea** | `GQ` | 🟡 Building 27% | [Open country page](./equatorial-guinea.md) | — | 22 Oct 2026, 21:48 UTC |
-| 🇪🇷 **Eritrea** | `ER` | 🟡 Building 34% | [Open country page](./eritrea.md) | — | 22 Oct 2026, 21:48 UTC |
+| 🇬🇶 **Equatorial Guinea** | `GQ` | 🟡 Building 41% | [Open country page](./equatorial-guinea.md) | — | 25 Oct 2026, 20:57 UTC |
+| 🇪🇷 **Eritrea** | `ER` | 🟡 Building 52% | [Open country page](./eritrea.md) | — | 25 Oct 2026, 20:57 UTC |
 | 🇪🇪 **Estonia** | `EE` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./estonia.md) | 100 | 16 Oct 2026, 23:48 UTC |
-| 🇸🇿 **Eswatini** | `SZ` | 🟡 Building 15% | [Open country page](./eswatini.md) | — | 16 Oct 2026, 00:34 UTC |
+| 🇸🇿 **Eswatini** | `SZ` | 🟡 Building 29% | [Open country page](./eswatini.md) | — | 16 Oct 2026, 00:34 UTC |
 | 🇪🇹 **Ethiopia** | `ET` | 🟡 Building 0% | [Open country page](./ethiopia.md) | — | 16 Oct 2026, 05:04 UTC |
-| 🇫🇰 **Falkland Islands** | `FK` | 🟡 Building 80% | [Open country page](./falkland-islands.md) | — | 23 Oct 2026, 05:00 UTC |
-| 🇫🇴 **Faroe Islands** | `FO` | 🟡 Building 18% | [Open country page](./faroe-islands.md) | — | 13 Oct 2026, 01:18 UTC |
-| 🇫🇯 **Fiji** | `FJ` | 🟡 Building 0% | [Open country page](./fiji.md) | — | 23 Oct 2026, 05:01 UTC |
+| 🇫🇰 **Falkland Islands** | `FK` | Completed | [Open country page](./falkland-islands.md) | — | 25 Oct 2026, 20:57 UTC |
+| 🇫🇴 **Faroe Islands** | `FO` | 🟡 Building 29% | [Open country page](./faroe-islands.md) | — | 13 Oct 2026, 01:18 UTC |
+| 🇫🇯 **Fiji** | `FJ` | 🟡 Building 0% | [Open country page](./fiji.md) | — | 25 Oct 2026, 20:58 UTC |
 | 🇫🇮 **Finland** | `FI` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./finland.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇫🇷 **France** | `FR` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./france.md) | 100 | 17 Oct 2026, 01:38 UTC |
-| 🇬🇫 **French Guiana** | `GF` | 🟡 Building 44% | [Open country page](./french-guiana.md) | — | 23 Oct 2026, 05:02 UTC |
-| 🇵🇫 **French Polynesia** | `PF` | 🟡 Building 12% | [Open country page](./french-polynesia.md) | — | 09 Oct 2026, 05:59 UTC |
-| 🇹🇫 **French Southern Territories** | `TF` | 🟡 Building 45% | [Open country page](./french-southern-territories.md) | — | 23 Oct 2026, 05:02 UTC |
-| 🇬🇦 **Gabon** | `GA` | 🟡 Building 14% | [Open country page](./gabon.md) | — | 07 Oct 2026, 00:38 UTC |
-| 🇬🇲 **Gambia** | `GM` | 🟡 Building 3% | [Open country page](./gambia.md) | — | 23 Oct 2026, 05:02 UTC |
+| 🇬🇫 **French Guiana** | `GF` | 🟡 Building 60% | [Open country page](./french-guiana.md) | — | 25 Oct 2026, 20:59 UTC |
+| 🇵🇫 **French Polynesia** | `PF` | 🟡 Building 20% | [Open country page](./french-polynesia.md) | — | 09 Oct 2026, 05:59 UTC |
+| 🇹🇫 **French Southern Territories** | `TF` | 🟡 Building 68% | [Open country page](./french-southern-territories.md) | — | 25 Oct 2026, 20:59 UTC |
+| 🇬🇦 **Gabon** | `GA` | 🟡 Building 27% | [Open country page](./gabon.md) | — | 07 Oct 2026, 00:38 UTC |
+| 🇬🇲 **Gambia** | `GM` | 🟡 Building 6% | [Open country page](./gambia.md) | — | 25 Oct 2026, 20:59 UTC |
 | 🇬🇪 **Georgia** | `GE` | 🟡 Building 0% | [Open country page](./georgia.md) | — | 16 Oct 2026, 23:48 UTC |
 | 🇩🇪 **Germany** | `DE` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./germany.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇬🇭 **Ghana** | `GH` | 🟡 Building 0% | [Open country page](./ghana.md) | — | 16 Oct 2026, 23:48 UTC |
-| 🇬🇮 **Gibraltar** | `GI` | 🟡 Building 43% | [Open country page](./gibraltar.md) | — | 23 Oct 2026, 05:03 UTC |
+| 🇬🇮 **Gibraltar** | `GI` | 🟡 Building 93% | [Open country page](./gibraltar.md) | — | 25 Oct 2026, 21:00 UTC |
 | 🇬🇷 **Greece** | `GR` | 🟡 Building 0% | [Open country page](./greece.md) | — | 17 Oct 2026, 01:38 UTC |
-| 🇬🇱 **Greenland** | `GL` | 🟡 Building 30% | [Open country page](./greenland.md) | — | 23 Oct 2026, 05:04 UTC |
-| 🇬🇩 **Grenada** | `GD` | 🟡 Building 93% | [Open country page](./grenada.md) | — | 15 Oct 2026, 19:07 UTC |
-| 🇬🇵 **Guadeloupe** | `GP` | 🟡 Building 27% | [Open country page](./guadeloupe.md) | — | 23 Oct 2026, 05:04 UTC |
+| 🇬🇱 **Greenland** | `GL` | 🟡 Building 48% | [Open country page](./greenland.md) | — | 25 Oct 2026, 21:01 UTC |
+| 🇬🇩 **Grenada** | `GD` | Completed | [Open country page](./grenada.md) | — | 15 Oct 2026, 19:07 UTC |
+| 🇬🇵 **Guadeloupe** | `GP` | 🟡 Building 47% | [Open country page](./guadeloupe.md) | — | 25 Oct 2026, 21:01 UTC |
 | 🇬🇺 **Guam** | `GU` | 🟡 Building 21% | [Open country page](./guam.md) | — | 23 Oct 2026, 05:04 UTC |
 | 🇬🇹 **Guatemala** | `GT` | 🟡 Building 0% | [Open country page](./guatemala.md) | — | 15 Oct 2026, 19:07 UTC |
 | 🇬🇬 **Guernsey** | `GG` | 🟡 Building 48% | [Open country page](./guernsey.md) | — | 23 Oct 2026, 11:47 UTC |

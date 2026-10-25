@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 18%
+## Repository ranking status: Building 29%
 
-- Geography terms processed: **13 / 72**
-- Progress: **18%**
-- Retained high-potential owner candidates: **101**
-- Search requests completed: **16**
+- Geography terms processed: **21 / 72**
+- Progress: **29%**
+- Retained high-potential owner candidates: **103**
+- Search requests completed: **24**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -28,6 +28,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [QODIO/selectator](https://github.com/QODIO/selectator) | **88** | Faroe Islands |
 | [bardurt/odontograma](https://github.com/bardurt/odontograma) | **77** | Faroe Islands |
 | [Brian-ED/rayed-bqn](https://github.com/Brian-ED/rayed-bqn) | **53** | Faroe Islands |
+| [TimonPeng/AD-LCSC-Addons](https://github.com/TimonPeng/AD-LCSC-Addons) | **32** | Føroyar |
 | [argilzar/vagrant-nzb](https://github.com/argilzar/vagrant-nzb) | **30** | Faroe Islands |
 | [flowcore-io/luttaka-open](https://github.com/flowcore-io/luttaka-open) | **13** | Faroe Islands |
 | [ahjohannessen/sec](https://github.com/ahjohannessen/sec) | **12** | Faroe Islands |
@@ -38,7 +39,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Rogn/copilot-cli-agent-observer](https://github.com/Rogn/copilot-cli-agent-observer) | **6** | Faroe Islands |
 | [Smilex/umka-lang-odin](https://github.com/Smilex/umka-lang-odin) | **6** | Faroe Islands |
 | [BergurDavidsen/GoProjects](https://github.com/BergurDavidsen/GoProjects) | **5** | Faroe Islands |
-| [Sprotin/translations](https://github.com/Sprotin/translations) | **5** | Faroe Islands |
 
 ## Repository-first scan
 
