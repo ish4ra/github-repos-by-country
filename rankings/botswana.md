@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 149**
 - Progress: **0%**
-- Retained high-potential owner candidates: **479**
-- Search requests completed: **16**
+- Retained high-potential owner candidates: **627**
+- Search requests completed: **24**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,20 +25,20 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [Fuzzworth/alx_test_suite](https://github.com/Fuzzworth/alx_test_suite) | **93** | Botswana |
+| [anothermorena/nft-marketplace](https://github.com/anothermorena/nft-marketplace) | **25** | Botswana |
 | [kalungia/How-to-Install-ERPNext-on-Ubuntu-22.04-LTS](https://github.com/kalungia/How-to-Install-ERPNext-on-Ubuntu-22.04-LTS) | **20** | Botswana, Gaborone |
 | [mwmiller/ed25519_ex](https://github.com/mwmiller/ed25519_ex) | **19** | Gaborone, Botswana |
-| [the-dezeray/biust-insight-project](https://github.com/the-dezeray/biust-insight-project) | **10** | Botswana,Palapye |
+| [the-dezeray/biust-insight-project](https://github.com/the-dezeray/biust-insight-project) | **11** | Botswana,Palapye |
+| [Koketso1999/our-day](https://github.com/Koketso1999/our-day) | **10** | Gaborone, Botswana |
 | [BegangN/Phishing-Website-Detection-using-Machine-Learning](https://github.com/BegangN/Phishing-Website-Detection-using-Machine-Learning) | **9** | Francistown,Botswana |
 | [oarabilekoore/material-components](https://github.com/oarabilekoore/material-components) | **9** | Botswana |
+| [twice/poodpy](https://github.com/twice/poodpy) | **7** | Gaborone, Botswana |
 | [BakangMonei/MyAdminDashboard](https://github.com/BakangMonei/MyAdminDashboard) | **6** | Gaborone, Botswana |
+| [Mr-Ketlhaetse/MobiWirePrinter](https://github.com/Mr-Ketlhaetse/MobiWirePrinter) | **6** | Serowe, Botswana |
+| [GovanDBT/Prep](https://github.com/GovanDBT/Prep) | **5** | Botswana |
+| [LuckyKatlegoChinaye/atom-expansion-engine](https://github.com/LuckyKatlegoChinaye/atom-expansion-engine) | **5** | Botswana |
 | [mstoun/contrib-pool-3-498](https://github.com/mstoun/contrib-pool-3-498) | **5** | Carsonton, Botswana |
 | [the-javatar/TechConnectBotswana](https://github.com/the-javatar/TechConnectBotswana) | **5** | Botswana |
-| [Timbar09/Awesome-books-vol-2](https://github.com/Timbar09/Awesome-books-vol-2) | **5** | Palapye, Botswana |
-| [mulaxprime/Tsala_Yame](https://github.com/mulaxprime/Tsala_Yame) | **4** | Gaborone, Botswana |
-| [ramokhua/cavista2026](https://github.com/ramokhua/cavista2026) | **4** | Gaborone, Botswana |
-| [sadccsc/cft](https://github.com/sadccsc/cft) | **4** | Gaborone, Botswana |
-| [Abel-Moremi/covid-info-bw](https://github.com/Abel-Moremi/covid-info-bw) | **3** | Gaborone, Botswana |
-| [Chalebgwa/kkfx](https://github.com/Chalebgwa/kkfx) | **3** | Botswana,Gaborone |
 
 ## Repository-first scan
 

@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 300**
 - Progress: **0%**
-- Retained high-potential owner candidates: **479**
-- Search requests completed: **16**
+- Retained high-potential owner candidates: **819**
+- Search requests completed: **24**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -38,7 +38,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [beganovich/snappdf](https://github.com/beganovich/snappdf) | **222** | Bosnia and Herzegovina |
 | [BenjaminMahmic/collapsible_drawer](https://github.com/BenjaminMahmic/collapsible_drawer) | **182** | Zenica, Bosnia and Herzegovina |
 | [mstijak/tdo](https://github.com/mstijak/tdo) | **182** | Banja Luka, Bosnia and Herzegovina |
-| [BranislavLazic/SwingTutorials](https://github.com/BranislavLazic/SwingTutorials) | **123** | Bijeljina, Bosnia and Herzegovina |
+| [NurudinImsirovic/windows-cursors-modern](https://github.com/NurudinImsirovic/windows-cursors-modern) | **139** | Bosnia and Herzegovina |
 
 ## Repository-first scan
 

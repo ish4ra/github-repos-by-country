@@ -1,6 +1,6 @@
 # Browse Repository Rankings
 
-**250 countries and territories indexed · 53 live · 244 building**
+**250 countries and territories indexed · 53 live · 242 building**
 
 Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a country.
 
@@ -25,30 +25,30 @@ Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a co
 | 🇧🇸 **Bahamas** | `BS` | 🟡 Building 22% | [Open country page](./bahamas.md) | — | 25 Oct 2026, 04:56 UTC |
 | 🇧🇭 **Bahrain** | `BH` | 🟡 Building 0% | [Open country page](./bahrain.md) | — | 16 Oct 2026, 21:29 UTC |
 | 🇧🇩 **Bangladesh** | `BD` | 🟡 Building 0% | [Open country page](./bangladesh.md) | — | 16 Oct 2026, 21:29 UTC |
-| 🇧🇧 **Barbados** | `BB` | 🟡 Building 59% | [Open country page](./barbados.md) | — | 10 Oct 2026, 02:18 UTC |
+| 🇧🇧 **Barbados** | `BB` | 🟡 Building 95% | [Open country page](./barbados.md) | — | 10 Oct 2026, 02:18 UTC |
 | 🇧🇾 **Belarus** | `BY` | 🟡 Building 0% | [Open country page](./belarus.md) | — | 17 Oct 2026, 01:38 UTC |
 | 🇧🇪 **Belgium** | `BE` | 🟡 Building 0% | [Open country page](./belgium.md) | — | 16 Oct 2026, 21:29 UTC |
-| 🇧🇿 **Belize** | `BZ` | 🟡 Building 8% | [Open country page](./belize.md) | — | 08 Oct 2026, 06:19 UTC |
+| 🇧🇿 **Belize** | `BZ` | 🟡 Building 16% | [Open country page](./belize.md) | — | 25 Oct 2026, 11:42 UTC |
 | 🇧🇯 **Benin** | `BJ` | 🟡 Building 0% | [Open country page](./benin.md) | — | 14 Oct 2026, 15:06 UTC |
-| 🇧🇲 **Bermuda** | `BM` | 🟡 Building 33% | [Open country page](./bermuda.md) | — | 13 Oct 2026, 21:14 UTC |
-| 🇧🇹 **Bhutan** | `BT` | 🟡 Building 9% | [Open country page](./bhutan.md) | — | 22 Oct 2026, 17:16 UTC |
-| 🇧🇴 **Bolivia** | `BO` | 🟡 Building 0% | [Open country page](./bolivia.md) | — | 22 Oct 2026, 17:17 UTC |
+| 🇧🇲 **Bermuda** | `BM` | 🟡 Building 62% | [Open country page](./bermuda.md) | — | 13 Oct 2026, 21:14 UTC |
+| 🇧🇹 **Bhutan** | `BT` | 🟡 Building 19% | [Open country page](./bhutan.md) | — | 25 Oct 2026, 11:43 UTC |
+| 🇧🇴 **Bolivia** | `BO` | 🟡 Building 0% | [Open country page](./bolivia.md) | — | 25 Oct 2026, 11:43 UTC |
 | 🇧🇦 **Bosnia & Herzegovina** | `BA` | 🟡 Building 0% | [Open country page](./bosnia-herzegovina.md) | — | 16 Oct 2026, 21:29 UTC |
 | 🇧🇼 **Botswana** | `BW` | 🟡 Building 0% | [Open country page](./botswana.md) | — | 16 Oct 2026, 14:20 UTC |
-| 🇧🇻 **Bouvet Island** | `BV` | 🟡 Building 80% | [Open country page](./bouvet-island.md) | — | 22 Oct 2026, 17:18 UTC |
+| 🇧🇻 **Bouvet Island** | `BV` | Completed | [Open country page](./bouvet-island.md) | — | 25 Oct 2026, 11:44 UTC |
 | 🇧🇷 **Brazil** | `BR` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./brazil.md) | 100 | 17 Oct 2026, 01:38 UTC |
-| 🇮🇴 **British Indian Ocean Territory** | `IO` | 🟡 Building 76% | [Open country page](./british-indian-ocean-territory.md) | — | 22 Oct 2026, 17:18 UTC |
+| 🇮🇴 **British Indian Ocean Territory** | `IO` | Completed | [Open country page](./british-indian-ocean-territory.md) | — | 25 Oct 2026, 11:44 UTC |
 | 🇻🇬 **British Virgin Islands** | `VG` | 🟡 Building 50% | [Open country page](./british-virgin-islands.md) | — | 13 Oct 2026, 15:56 UTC |
-| 🇧🇳 **Brunei** | `BN` | 🟡 Building 12% | [Open country page](./brunei.md) | — | 16 Oct 2026, 14:20 UTC |
+| 🇧🇳 **Brunei** | `BN` | 🟡 Building 23% | [Open country page](./brunei.md) | — | 16 Oct 2026, 14:20 UTC |
 | 🇧🇬 **Bulgaria** | `BG` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./bulgaria.md) | 100 | 17 Oct 2026, 01:38 UTC |
-| 🇧🇫 **Burkina Faso** | `BF` | 🟡 Building 0% | [Open country page](./burkina-faso.md) | — | 11 Oct 2026, 07:08 UTC |
-| 🇧🇮 **Burundi** | `BI` | 🟡 Building 6% | [Open country page](./burundi.md) | — | 22 Oct 2026, 17:19 UTC |
+| 🇧🇫 **Burkina Faso** | `BF` | 🟡 Building 4% | [Open country page](./burkina-faso.md) | — | 11 Oct 2026, 07:08 UTC |
+| 🇧🇮 **Burundi** | `BI` | 🟡 Building 10% | [Open country page](./burundi.md) | — | 25 Oct 2026, 11:45 UTC |
 | 🇰🇭 **Cambodia** | `KH` | 🟡 Building 0% | [Open country page](./cambodia.md) | — | 16 Oct 2026, 23:48 UTC |
 | 🇨🇲 **Cameroon** | `CM` | 🟡 Building 0% | [Open country page](./cameroon.md) | — | 16 Oct 2026, 00:34 UTC |
 | 🇨🇦 **Canada** | `CA` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./canada.md) | 100 | 17 Oct 2026, 01:38 UTC |
-| 🇨🇻 **Cape Verde** | `CV` | 🟡 Building 6% | [Open country page](./cape-verde.md) | — | 22 Oct 2026, 17:21 UTC |
-| 🇧🇶 **Caribbean Netherlands** | `BQ` | 🟡 Building 53% | [Open country page](./caribbean-netherlands.md) | — | 22 Oct 2026, 17:21 UTC |
-| 🇰🇾 **Cayman Islands** | `KY` | 🟡 Building 8% | [Open country page](./cayman-islands.md) | — | 16 Oct 2026, 14:20 UTC |
+| 🇨🇻 **Cape Verde** | `CV` | 🟡 Building 10% | [Open country page](./cape-verde.md) | — | 25 Oct 2026, 11:47 UTC |
+| 🇧🇶 **Caribbean Netherlands** | `BQ` | 🟡 Building 76% | [Open country page](./caribbean-netherlands.md) | — | 25 Oct 2026, 11:47 UTC |
+| 🇰🇾 **Cayman Islands** | `KY` | 🟡 Building 12% | [Open country page](./cayman-islands.md) | — | 16 Oct 2026, 14:20 UTC |
 | 🇨🇫 **Central African Republic** | `CF` | 🟡 Building 17% | [Open country page](./central-african-republic.md) | — | 22 Oct 2026, 17:21 UTC |
 | 🇹🇩 **Chad** | `TD` | 🟡 Building 11% | [Open country page](./chad.md) | — | 22 Oct 2026, 17:21 UTC |
 | 🇨🇱 **Chile** | `CL` | 🟡 Building 0% | [Open country page](./chile.md) | — | 16 Oct 2026, 09:43 UTC |
