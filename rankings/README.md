@@ -1,6 +1,6 @@
 # Browse Repository Rankings
 
-**250 countries and territories indexed · 53 live · 237 building**
+**250 countries and territories indexed · 53 live · 236 building**
 
 Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a country.
 
@@ -95,15 +95,15 @@ Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a co
 | 🇬🇷 **Greece** | `GR` | 🟡 Building 0% | [Open country page](./greece.md) | — | 17 Oct 2026, 01:38 UTC |
 | 🇬🇱 **Greenland** | `GL` | 🟡 Building 48% | [Open country page](./greenland.md) | — | 25 Oct 2026, 21:01 UTC |
 | 🇬🇩 **Grenada** | `GD` | Completed | [Open country page](./grenada.md) | — | 15 Oct 2026, 19:07 UTC |
-| 🇬🇵 **Guadeloupe** | `GP` | 🟡 Building 47% | [Open country page](./guadeloupe.md) | — | 25 Oct 2026, 21:01 UTC |
-| 🇬🇺 **Guam** | `GU` | 🟡 Building 21% | [Open country page](./guam.md) | — | 23 Oct 2026, 05:04 UTC |
+| 🇬🇵 **Guadeloupe** | `GP` | 🟡 Building 69% | [Open country page](./guadeloupe.md) | — | 26 Oct 2026, 04:56 UTC |
+| 🇬🇺 **Guam** | `GU` | 🟡 Building 35% | [Open country page](./guam.md) | — | 26 Oct 2026, 04:56 UTC |
 | 🇬🇹 **Guatemala** | `GT` | 🟡 Building 0% | [Open country page](./guatemala.md) | — | 15 Oct 2026, 19:07 UTC |
-| 🇬🇬 **Guernsey** | `GG` | 🟡 Building 48% | [Open country page](./guernsey.md) | — | 23 Oct 2026, 11:47 UTC |
-| 🇬🇳 **Guinea** | `GN` | 🟡 Building 0% | [Open country page](./guinea.md) | — | 23 Oct 2026, 11:48 UTC |
-| 🇬🇼 **Guinea-Bissau** | `GW` | 🟡 Building 23% | [Open country page](./guinea-bissau.md) | — | 23 Oct 2026, 11:48 UTC |
-| 🇬🇾 **Guyana** | `GY` | 🟡 Building 24% | [Open country page](./guyana.md) | — | 23 Oct 2026, 11:48 UTC |
-| 🇭🇹 **Haiti** | `HT` | 🟡 Building 0% | [Open country page](./haiti.md) | — | 23 Oct 2026, 11:48 UTC |
-| 🇭🇲 **Heard & McDonald Islands** | `HM` | 🟡 Building 80% | [Open country page](./heard-mcdonald-islands.md) | — | 23 Oct 2026, 11:48 UTC |
+| 🇬🇬 **Guernsey** | `GG` | 🟡 Building 77% | [Open country page](./guernsey.md) | — | 26 Oct 2026, 04:56 UTC |
+| 🇬🇳 **Guinea** | `GN` | 🟡 Building 4% | [Open country page](./guinea.md) | — | 26 Oct 2026, 04:57 UTC |
+| 🇬🇼 **Guinea-Bissau** | `GW` | 🟡 Building 35% | [Open country page](./guinea-bissau.md) | — | 26 Oct 2026, 04:57 UTC |
+| 🇬🇾 **Guyana** | `GY` | 🟡 Building 43% | [Open country page](./guyana.md) | — | 26 Oct 2026, 04:57 UTC |
+| 🇭🇹 **Haiti** | `HT` | 🟡 Building 6% | [Open country page](./haiti.md) | — | 26 Oct 2026, 04:57 UTC |
+| 🇭🇲 **Heard & McDonald Islands** | `HM` | Completed | [Open country page](./heard-mcdonald-islands.md) | — | 26 Oct 2026, 04:57 UTC |
 | 🇭🇳 **Honduras** | `HN` | 🟡 Building 0% | [Open country page](./honduras.md) | — | 16 Oct 2026, 18:16 UTC |
 | 🇭🇰 **Hong Kong** | `HK` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./hong-kong.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇭🇺 **Hungary** | `HU` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./hungary.md) | 100 | 17 Oct 2026, 01:38 UTC |
@@ -113,7 +113,7 @@ Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a co
 | 🇮🇷 **Iran** | `IR` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./iran.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇮🇶 **Iraq** | `IQ` | 🟡 Building 0% | [Open country page](./iraq.md) | — | 13 Oct 2026, 07:54 UTC |
 | 🇮🇪 **Ireland** | `IE` | 🟡 Building 0% | [Open country page](./ireland.md) | — | 16 Oct 2026, 23:48 UTC |
-| 🇮🇲 **Isle of Man** | `IM` | 🟡 Building 12% | [Open country page](./isle-of-man.md) | — | 16 Oct 2026, 21:29 UTC |
+| 🇮🇲 **Isle of Man** | `IM` | 🟡 Building 21% | [Open country page](./isle-of-man.md) | — | 16 Oct 2026, 21:29 UTC |
 | 🇮🇱 **Israel** | `IL` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./israel.md) | 100 | 16 Oct 2026, 23:48 UTC |
 | 🇮🇹 **Italy** | `IT` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./italy.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇯🇲 **Jamaica** | `JM` | 🟡 Building 0% | [Open country page](./jamaica.md) | — | 14 Oct 2026, 19:21 UTC |
