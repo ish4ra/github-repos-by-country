@@ -12,23 +12,40 @@
     "termsTotal": 47
   },
   "phase": "discovery",
-  "nextTermIndex": 6,
-  "activeTerm": null,
+  "nextTermIndex": 10,
+  "activeTerm": {
+    "index": 10,
+    "term": "German",
+    "queue": [
+      {
+        "query": "location:\"German\"",
+        "stage": "base",
+        "cursor": "Y3Vyc29yOjIwMA==",
+        "pageNumber": 5,
+        "attempts": 0
+      }
+    ],
+    "startedAt": "2026-10-26T05:00:24.082Z",
+    "requests": 4,
+    "leafPages": 4,
+    "shardExpansions": 0,
+    "reportedCount": null
+  },
   "discoveryComplete": false,
   "startedAt": "2026-10-05T14:55:02.281Z",
-  "updatedAt": "2026-10-23T11:52:16.912Z",
+  "updatedAt": "2026-10-26T05:00:36.358Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
-    "termsProcessed": 6,
-    "searchRequests": 16,
-    "leafPages": 16,
+    "termsProcessed": 10,
+    "searchRequests": 24,
+    "leafPages": 24,
     "shardExpansions": 0,
-    "rawOwnerHits": 558,
-    "acceptedOwnerHits": 477,
-    "rejectedOwnerHits": 81,
+    "rawOwnerHits": 759,
+    "acceptedOwnerHits": 644,
+    "rejectedOwnerHits": 115,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4906
+    "minimumRateLimitRemaining": 4887
   },
   "unresolvedShards": [],
   "candidates": [
@@ -136,6 +153,123 @@
           "name": "TypeScript"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIxMDk4NTAz",
+      "login": "pixelriot",
+      "name": "Richi",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/pixelriot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/21098503?u=a820ca01e3cc9c664e82e3dc5b47821f120009ff&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "GodotGoG",
+        "nameWithOwner": "pixelriot/GodotGoG",
+        "url": "https://github.com/pixelriot/GodotGoG",
+        "description": "GOG module for Godot engine.",
+        "stargazerCount": 102,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-04-13T19:31:46Z",
+        "pushedAt": "2020-05-01T08:48:28Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM2NTA2OTM=",
+      "login": "hsimpson",
+      "name": "Daniel Toplak",
+      "type": "User",
+      "location": "Gersthofen, German",
+      "url": "https://github.com/hsimpson",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3650693?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "vscode-glsllint",
+        "nameWithOwner": "hsimpson/vscode-glsllint",
+        "url": "https://github.com/hsimpson/vscode-glsllint",
+        "description": "VSCode extension to lint GLSL shading language files",
+        "stargazerCount": 91,
+        "forkCount": 14,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-10-09T06:30:26Z",
+        "pushedAt": "2026-09-13T04:58:03Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjQyNjUzNTc=",
+      "login": "DigitalMasterpieces",
+      "name": "Digital Masterpieces GmbH",
+      "type": "Organization",
+      "location": "Potsdam, German",
+      "url": "https://github.com/DigitalMasterpieces",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4265357?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "CoreImageExtensions",
+        "nameWithOwner": "DigitalMasterpieces/CoreImageExtensions",
+        "url": "https://github.com/DigitalMasterpieces/CoreImageExtensions",
+        "description": "Useful extensions for Apple's Core Image framework",
+        "stargazerCount": 90,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-04-16T17:26:02Z",
+        "pushedAt": "2025-08-05T07:27:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Swift"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -323,6 +457,45 @@
       }
     },
     {
+      "id": "U_kgDOB6YGjA",
+      "login": "knoellix",
+      "name": null,
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/knoellix",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/128321164?u=35a2693ff78f2610fb03f1372c42d45e3ce008ed&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "NativMix",
+        "nameWithOwner": "knoellix/NativMix",
+        "url": "https://github.com/knoellix/NativMix",
+        "description": "NativMix is a modern, hardware-based volume mixer for Linux and Windows, built with PyQt6. Designed as a powerful alternative to deej.",
+        "stargazerCount": 34,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-07T09:23:54Z",
+        "pushedAt": "2026-10-14T15:10:50Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjMwOTQ1NDY=",
       "login": "lwangenheim",
       "name": "Lee Wangenheim",
@@ -437,6 +610,120 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjEyODAyMjA2",
+      "login": "EslamHussein",
+      "name": "Eslam Hussein",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/EslamHussein",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12802206?u=8a395a7516a5d63cbf9dc9eeb4332ef7c26d1a87&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Database-First",
+        "nameWithOwner": "EslamHussein/Database-First",
+        "url": "https://github.com/EslamHussein/Database-First",
+        "description": "Database-First",
+        "stargazerCount": 27,
+        "forkCount": 10,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-03-03T07:35:14Z",
+        "pushedAt": "2019-04-08T08:20:20Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgxNTIzNTI4",
+      "login": "DomyRndi",
+      "name": "Tao An",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/DomyRndi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/81523528?u=2d53de3fe5976ccb6e5f6329903f6b240ffcdb1c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "npq_rotbo",
+        "nameWithOwner": "DomyRndi/npq_rotbo",
+        "url": "https://github.com/DomyRndi/npq_rotbo",
+        "description": null,
+        "stargazerCount": 24,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-01-16T08:57:58Z",
+        "pushedAt": "2023-10-22T15:23:31Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc5NzUzNw==",
+      "login": "DrMabuse23",
+      "name": "Pascal Brewing",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/DrMabuse23",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/797537?u=859fd108dd90bbe4dfbc0212fbaa75dfe1a76be3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "generator-ionic-2",
+        "nameWithOwner": "DrMabuse23/generator-ionic-2",
+        "url": "https://github.com/DrMabuse23/generator-ionic-2",
+        "description": null,
+        "stargazerCount": 24,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-11-19T20:31:35Z",
+        "pushedAt": "2016-01-06T10:32:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjExNDkxMTY=",
       "login": "stavinski",
       "name": "Mike",
@@ -473,6 +760,42 @@
           "name": "Other",
           "spdxId": "NOASSERTION"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgwMzkwOTk=",
+      "login": "Sina30",
+      "name": "Sina",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/Sina30",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8039099?u=af59259d3f6d418c4a7657d8aea90cc6da6cced0&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "NoPixelserver3.0",
+        "nameWithOwner": "Sina30/NoPixelserver3.0",
+        "url": "https://github.com/Sina30/NoPixelserver3.0",
+        "description": null,
+        "stargazerCount": 23,
+        "forkCount": 35,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2021-10-04T09:18:38Z",
+        "pushedAt": "2021-10-04T10:51:33Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Lua"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -548,6 +871,81 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjEyODA4NTQ5",
+      "login": "jsnzwu",
+      "name": "Zhizhen Wu",
+      "type": "User",
+      "location": "Stuttgart, German",
+      "url": "https://github.com/jsnzwu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12808549?u=7c2dc816432071ed8608f5cfc65cecf47180c52d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "learnable-motion-vector",
+        "nameWithOwner": "jsnzwu/learnable-motion-vector",
+        "url": "https://github.com/jsnzwu/learnable-motion-vector",
+        "description": "[SIGGRAPH Asia 2023] Official implementation for \"Adaptive Recurrent Frame Prediction with Learnable Motion Vectors\" ",
+        "stargazerCount": 20,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-04-17T09:12:03Z",
+        "pushedAt": "2025-12-25T03:49:40Z",
+        "homepageUrl": "https://wzz.ink/projects/learnable-motion-vector/",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEzNDAyMzMx",
+      "login": "skeetor",
+      "name": null,
+      "type": "User",
+      "location": "German/NRW",
+      "url": "https://github.com/skeetor",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13402331?u=34c0c384a303a56f23bc8c225ff66d36e1484e83&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "amiga-utils",
+        "nameWithOwner": "skeetor/amiga-utils",
+        "url": "https://github.com/skeetor/amiga-utils",
+        "description": "This project provides an Amiga utillity library targeted for Assembler but also C/CPP programming without OS support from Kickstart 1.2 or higher. All features have sample projects to demonstrate how to use the,",
+        "stargazerCount": 20,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-12-15T21:00:42Z",
+        "pushedAt": "2021-04-25T12:40:45Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
       "id": "O_kgDODKwmpw",
       "login": "BambooOrg",
       "name": "BambooOrg",
@@ -579,6 +977,42 @@
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI0MzAyNDUz",
+      "login": "Mateus224",
+      "name": "Mateus",
+      "type": "User",
+      "location": "German, Bremen",
+      "url": "https://github.com/Mateus224",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/24302453?u=d1a2f23daf4f24bceb4d8d068494f5dd0c820121&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Visual-Explanation-in-Deep-Reinforcement-Learning",
+        "nameWithOwner": "Mateus224/Visual-Explanation-in-Deep-Reinforcement-Learning",
+        "url": "https://github.com/Mateus224/Visual-Explanation-in-Deep-Reinforcement-Learning",
+        "description": "This project visualizes the knowledge of an agent trained by Deep Reinforcement Learning (paper will be published) using Backpropagation, Guided Backpropagation, GradCam and Guided gradCam. It shows why the agent is performing the action. Which pixels had the biggest influence on the decision of the agent.",
+        "stargazerCount": 18,
+        "forkCount": 5,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-08-19T13:06:43Z",
+        "pushedAt": "2020-05-20T12:04:45Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
         },
         "licenseInfo": null
       }
@@ -623,6 +1057,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjE5NDg2ODQ=",
+      "login": "SchulteDev",
+      "name": "Markus Schulte",
+      "type": "User",
+      "location": "Cologne, German",
+      "url": "https://github.com/SchulteDev",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1948684?u=aaea6ca3de8523119af08e488072cea35eff4fdc&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "selenium-standalone-chrome-spring-boot-demo",
+        "nameWithOwner": "SchulteDev/selenium-standalone-chrome-spring-boot-demo",
+        "url": "https://github.com/SchulteDev/selenium-standalone-chrome-spring-boot-demo",
+        "description": "Demonstrating \"selenium/standalone-chrome\" in a Spring Boot project",
+        "stargazerCount": 17,
+        "forkCount": 13,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2017-08-31T07:19:06Z",
+        "pushedAt": "2024-01-04T08:49:49Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
       "id": "U_kgDOChbo5A",
       "login": "Winter0x11",
       "name": "🏴‍☠️ 𝓦𝓲𝓷𝓽𝓮𝓻 🏴‍☠️",
@@ -656,6 +1129,45 @@
           "name": "C"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOEaCqUg",
+      "login": "XarminaEu",
+      "name": "RLDevDE",
+      "type": "User",
+      "location": "German, Wuppertal",
+      "url": "https://github.com/XarminaEu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/295742034?u=3cfff55e840f354fe5f58ab0c416419ab17e3537&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "ue4ss-linux",
+        "nameWithOwner": "XarminaEu/ue4ss-linux",
+        "url": "https://github.com/XarminaEu/ue4ss-linux",
+        "description": "Coding",
+        "stargazerCount": 16,
+        "forkCount": 7,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-15T04:44:25Z",
+        "pushedAt": "2026-07-28T13:25:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -698,6 +1210,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjUyOTE0ODY1",
+      "login": "Ohkiam",
+      "name": "Maik Hoffmann",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/Ohkiam",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/52914865?u=d5773bb21024d269de5c65ce12b9679d12519fc1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "git-auf-deutsch",
+        "nameWithOwner": "Ohkiam/git-auf-deutsch",
+        "url": "https://github.com/Ohkiam/git-auf-deutsch",
+        "description": null,
+        "stargazerCount": 12,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-07-16T08:55:16Z",
+        "pushedAt": "2019-07-16T08:55:37Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDEyOk9yZ2FuaXphdGlvbjQwMjQwMzg5",
       "login": "rivalrygg",
       "name": "Rivalry",
@@ -728,6 +1274,42 @@
         "pushedAt": "2022-12-22T22:28:18Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ3MjA4ODUy",
+      "login": "Daddelgreis74",
+      "name": "Daddelgreis",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/Daddelgreis74",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47208852?u=dea7038f418c17e63f2f20c00e6577ae6d0f9dfb&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "smart-home-dashboard",
+        "nameWithOwner": "Daddelgreis74/smart-home-dashboard",
+        "url": "https://github.com/Daddelgreis74/smart-home-dashboard",
+        "description": "Smart Home Dashboard v3   Modern, highly customizable smart home wall panel with J.A.R.V.I.S. AI, multi-theme engine & TrueNAS SCALE support",
+        "stargazerCount": 11,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-13T15:50:19Z",
+        "pushedAt": "2026-10-04T06:20:53Z",
+        "homepageUrl": "http://www.abg-home.de",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
         "licenseInfo": null
       }
     },
@@ -841,6 +1423,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM1OTU2MDM=",
+      "login": "loesler",
+      "name": "Michael Lösler",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/loesler",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3595603?u=48caba966781d85242b7db015c33f41afac567db&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "coded_photogrammetric_targets",
+        "nameWithOwner": "loesler/coded_photogrammetric_targets",
+        "url": "https://github.com/loesler/coded_photogrammetric_targets",
+        "description": "Generation of circular coded targets, which are frequently used in close-range photogrammetric applications for automatic target recognition.",
+        "stargazerCount": 9,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-12-20T09:57:40Z",
+        "pushedAt": "2023-12-20T10:35:56Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "MATLAB"
+        },
+        "licenseInfo": {
+          "name": "Creative Commons Zero v1.0 Universal",
+          "spdxId": "CC0-1.0"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE5ODE2Nzkx",
       "login": "martiensk",
       "name": "Martiens Kropff",
@@ -916,6 +1537,78 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjcxNjA5Nw==",
+      "login": "cashmen",
+      "name": null,
+      "type": "User",
+      "location": "german",
+      "url": "https://github.com/cashmen",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/716097?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "crypto-flash",
+        "nameWithOwner": "cashmen/crypto-flash",
+        "url": "https://github.com/cashmen/crypto-flash",
+        "description": "A trading bot for cryptocurrency which aims to be fast.",
+        "stargazerCount": 8,
+        "forkCount": 17,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-05-27T05:57:57Z",
+        "pushedAt": "2020-12-08T14:29:48Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIyODY4NTQ2",
+      "login": "javidaslan",
+      "name": "Javid Aslanov",
+      "type": "User",
+      "location": "Berlin, German",
+      "url": "https://github.com/javidaslan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/22868546?u=5a3a2879df6545f2f076d4a594c7a46fbac611ef&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "inter-pod-network-optimisation",
+        "nameWithOwner": "javidaslan/inter-pod-network-optimisation",
+        "url": "https://github.com/javidaslan/inter-pod-network-optimisation",
+        "description": null,
+        "stargazerCount": 8,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-08-25T13:54:31Z",
+        "pushedAt": "2024-09-08T17:40:59Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjEzNDkwMzc3",
       "login": "Jessicaward",
       "name": "Jessica Ward",
@@ -955,6 +1648,112 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjI4MzgwODQz",
+      "login": "lsb108",
+      "name": "lsb108.eth",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/lsb108",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/28380843?u=9688b19b57383767dfa3719249d7954402ab87cd&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "hello-world",
+        "nameWithOwner": "lsb108/hello-world",
+        "url": "https://github.com/lsb108/hello-world",
+        "description": "kevin",
+        "stargazerCount": 7,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-05-04T04:33:51Z",
+        "pushedAt": "2017-05-04T04:33:52Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI0MTg5NTY3",
+      "login": "NicoNico6",
+      "name": "Nianhui Guo",
+      "type": "User",
+      "location": "Potsdam, German",
+      "url": "https://github.com/NicoNico6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/24189567?u=8e619a124ef86a0df3b794278bdd65de220c3df1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "ShadowRemoval",
+        "nameWithOwner": "NicoNico6/ShadowRemoval",
+        "url": "https://github.com/NicoNico6/ShadowRemoval",
+        "description": "An impleamention of Towards Ghost-free Shadow Removal using pytorch",
+        "stargazerCount": 7,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-05-19T03:05:38Z",
+        "pushedAt": "2020-07-12T17:27:44Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU1NjM4NjE=",
+      "login": "ChiperSage",
+      "name": "ByteNinja",
+      "type": "User",
+      "location": "Leipzig, German",
+      "url": "https://github.com/ChiperSage",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5563861?u=a64c643f370f0601250f55cfe0e11ac0d73698c0&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Login-Register-Laravel11",
+        "nameWithOwner": "ChiperSage/Login-Register-Laravel11",
+        "url": "https://github.com/ChiperSage/Login-Register-Laravel11",
+        "description": "This project demonstrates a user management system using Laravel 11 with features such as user listing, adding, editing, and deleting. It includes form validation, password hashing, and proper security measures.",
+        "stargazerCount": 6,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-07-15T07:45:22Z",
+        "pushedAt": "2024-07-30T09:20:39Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDEyOk9yZ2FuaXphdGlvbjY1MzUyNDY=",
       "login": "ctrmint",
       "name": "Caterham7Diaries",
@@ -991,6 +1790,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU5MzczMTYx",
+      "login": "IcticStep",
+      "name": "Maxim Moskalyk",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/IcticStep",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/59373161?u=bb114af184998ac17ea92eb25a919c3dfb384954&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "IcticShortcuts",
+        "nameWithOwner": "IcticStep/IcticShortcuts",
+        "url": "https://github.com/IcticStep/IcticShortcuts",
+        "description": "Additional shortcuts for Unity to save developer's time.",
+        "stargazerCount": 6,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-04-28T15:40:33Z",
+        "pushedAt": "2025-04-28T16:01:04Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDEyOk9yZ2FuaXphdGlvbjY5MDUzODY=",
       "login": "Isle-of-Man-Government",
       "name": "Isle of Man Government",
@@ -1024,6 +1862,45 @@
           "name": "C#"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ5MDAzNTgy",
+      "login": "MrSchoool",
+      "name": "MrSchoool",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/MrSchoool",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/49003582?u=b6047c23b3ec4a100c8c41559c5521de4bb7a6e9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Spigot-Server-Install-Script",
+        "nameWithOwner": "MrSchoool/Spigot-Server-Install-Script",
+        "url": "https://github.com/MrSchoool/Spigot-Server-Install-Script",
+        "description": "a script for install a spigot minecraft server on windows",
+        "stargazerCount": 6,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-02-04T18:59:57Z",
+        "pushedAt": "2024-02-06T21:49:01Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Batchfile"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -1141,6 +2018,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjMzOTUxNTI=",
+      "login": "fanoos",
+      "name": "Mostafa Ramezani",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/fanoos",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3395152?u=382aa5b64bfaed4d1ddfa0bdb75d9e0801025018&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "heart_rate_monitor",
+        "nameWithOwner": "fanoos/heart_rate_monitor",
+        "url": "https://github.com/fanoos/heart_rate_monitor",
+        "description": "Detection of hypoglycemia, or low blood sugar, in type 1 diabetes.",
+        "stargazerCount": 4,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-05-22T21:18:03Z",
+        "pushedAt": "2018-07-22T18:17:39Z",
+        "homepageUrl": "https://fanoos.github.io/heart_rate_monitor/",
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE3MjYzMjQ=",
       "login": "jonnyirwin",
       "name": "Jonny Irwin",
@@ -1174,6 +2087,84 @@
           "name": "C"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE2NzcxODUz",
+      "login": "lucent1090",
+      "name": "lucent1090",
+      "type": "User",
+      "location": "Berlin, German",
+      "url": "https://github.com/lucent1090",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16771853?u=07aacd260093feb6374611414a90101d6bc37636&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "MCCQ",
+        "nameWithOwner": "lucent1090/MCCQ",
+        "url": "https://github.com/lucent1090/MCCQ",
+        "description": "median cut color quantization",
+        "stargazerCount": 4,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-01-27T08:44:10Z",
+        "pushedAt": "2017-02-02T07:19:37Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE4MTI0NTk=",
+      "login": "madsys",
+      "name": null,
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/madsys",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1812459?u=f6cddd679a99c99c8abb81db917fb898075d8739&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "ALIRT",
+        "nameWithOwner": "madsys/ALIRT",
+        "url": "https://github.com/madsys/ALIRT",
+        "description": "ALIRT(Advanced Linux incident response toolkit, formerly known as AIRT) is a Linux-based tool suite for incident response, specifically designed to detect kernel rootkits on the Linux box.",
+        "stargazerCount": 4,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-01-16T13:37:40Z",
+        "pushedAt": "2026-10-18T06:32:01Z",
+        "homepageUrl": "https://madsys.github.io/ALIRT/",
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
       }
     },
     {
@@ -1249,6 +2240,45 @@
           "name": "Python"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODaLwRQ",
+      "login": "AndiGermany",
+      "name": "Andi",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/AndiGermany",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/228782149?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "hoshi-0.8",
+        "nameWithOwner": "AndiGermany/hoshi-0.8",
+        "url": "https://github.com/AndiGermany/hoshi-0.8",
+        "description": null,
+        "stargazerCount": 3,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-18T09:16:43Z",
+        "pushedAt": "2026-08-23T12:33:07Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Kotlin"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
       }
     },
     {
@@ -1469,6 +2499,42 @@
       }
     },
     {
+      "id": "U_kgDOB3Nw7g",
+      "login": "DavidTausend",
+      "name": "David Tausend",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/DavidTausend",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/125006062?u=06148fccb26b5b9bc74876f8186a35c71ade3f1a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "aws-bootcamp-cruddur-2023",
+        "nameWithOwner": "DavidTausend/aws-bootcamp-cruddur-2023",
+        "url": "https://github.com/DavidTausend/aws-bootcamp-cruddur-2023",
+        "description": "AWS Bootcamp",
+        "stargazerCount": 3,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-02-11T19:16:10Z",
+        "pushedAt": "2023-07-11T20:13:20Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBvMVbg",
       "login": "dominichubble",
       "name": "Dominic Hubble",
@@ -1498,6 +2564,45 @@
         "createdAt": "2025-09-08T14:13:49Z",
         "pushedAt": "2026-06-16T21:13:29Z",
         "homepageUrl": "https://investor-sentiment-dashboard.vercel.app",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY4MjI1ODIx",
+      "login": "Eco404",
+      "name": "Huhan Li",
+      "type": "User",
+      "location": "Welfengarten 1, 30167 Hannover, German",
+      "url": "https://github.com/Eco404",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/68225821?u=229349b777cd02f6af619523db64ef7d030e0675&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "stardew-host-swap",
+        "nameWithOwner": "Eco404/stardew-host-swap",
+        "url": "https://github.com/Eco404/stardew-host-swap",
+        "description": "一个用于 星露谷物语 1.6 版本多人联机存档主客机数据互换的 Python 工具",
+        "stargazerCount": 3,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-10T18:26:36Z",
+        "pushedAt": "2026-03-20T18:57:42Z",
+        "homepageUrl": null,
         "primaryLanguage": {
           "name": "Python"
         },
@@ -1544,6 +2649,42 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg5MTQwOA==",
+      "login": "herrkrueger",
+      "name": "Arne Krueger",
+      "type": "User",
+      "location": "Berlin, German",
+      "url": "https://github.com/herrkrueger",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/891408?u=8274830347b51e8ff19760fbb32e7fb5b144c7b0&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "patlib2025",
+        "nameWithOwner": "herrkrueger/patlib2025",
+        "url": "https://github.com/herrkrueger/patlib2025",
+        "description": "This is a repo for the demo at the PATLIB conference in Vienna in July 2025, where we live demoed a claude code session to modifiy a Jupyter notebook. ",
+        "stargazerCount": 3,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-06-13T12:04:41Z",
+        "pushedAt": "2025-07-02T08:48:36Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -1664,6 +2805,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU1ODYwOTU0",
+      "login": "op-hxc0",
+      "name": "xuan",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/op-hxc0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/55860954?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "some-exp-for-xray",
+        "nameWithOwner": "op-hxc0/some-exp-for-xray",
+        "url": "https://github.com/op-hxc0/some-exp-for-xray",
+        "description": "writem by ophxc",
+        "stargazerCount": 3,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-01-21T14:37:47Z",
+        "pushedAt": "2021-01-26T13:06:45Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOB2pBWQ",
       "login": "recone83",
       "name": "Rafal Lesniewski",
@@ -1739,6 +2916,157 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjMxMDUyMDg=",
+      "login": "daynt",
+      "name": "daynt",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/daynt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3105208?u=37e14534154a5f22140a111b7908f7939d6a1238&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "KeePassHTTP-Python",
+        "nameWithOwner": "daynt/KeePassHTTP-Python",
+        "url": "https://github.com/daynt/KeePassHTTP-Python",
+        "description": null,
+        "stargazerCount": 2,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-10-17T12:00:02Z",
+        "pushedAt": "2016-12-07T21:58:24Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOCuzA2g",
+      "login": "Dean-1337",
+      "name": "Dean",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/Dean-1337",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/183288026?u=d3b63bf2441dd747ae8200a17556085537d27b18&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Spoofer-asus",
+        "nameWithOwner": "Dean-1337/Spoofer-asus",
+        "url": "https://github.com/Dean-1337/Spoofer-asus",
+        "description": "HWID SPOOFER ASUS!!!!!!!!!!!!!! and all other ",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-29T14:34:18Z",
+        "pushedAt": "2024-12-23T18:20:53Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Batchfile"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMwOTg3NTMw",
+      "login": "derSumo",
+      "name": "Sumo",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/derSumo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/30987530?u=85191378dd33cc490b78e31ca5a26c52326fb228&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "ScanDeck",
+        "nameWithOwner": "derSumo/ScanDeck",
+        "url": "https://github.com/derSumo/ScanDeck",
+        "description": "Ein Knopf, ein Scan, direkt in Paperless-ngx. Mobile PWA für eSCL-Netzwerkscanner — mit Home-Assistant-Anbindung.",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-10T17:38:24Z",
+        "pushedAt": "2026-08-12T22:20:29Z",
+        "homepageUrl": "https://github.com/derSumo/ScanDeck/pkgs/container/scandeck",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc1NzkyMjk5",
+      "login": "DevKiDCosmo",
+      "name": "DevKiD",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/DevKiDCosmo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/75792299?u=d735619df255a0e5de0b595fe45fd6b34055b2a7&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "SATELLITE-EDGE-MODULE",
+        "nameWithOwner": "DevKiDCosmo/SATELLITE-EDGE-MODULE",
+        "url": "https://github.com/DevKiDCosmo/SATELLITE-EDGE-MODULE",
+        "description": "A satellite edge module ready for competition",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-08-11T16:16:51Z",
+        "pushedAt": "2025-08-11T16:25:58Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjEzMDMzNzIw",
       "login": "drapermovies",
       "name": "Joel E.P. Draper",
@@ -1772,6 +3100,45 @@
           "name": "C++"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOB9l8Qg",
+      "login": "ilyafedotov-ops",
+      "name": "Ilya Fedotov",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/ilyafedotov-ops",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/131693634?u=11dacea8fc2e6dc9ce455ebcf201ec1ca7c8ccf7&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "SimpleAdminReporter",
+        "nameWithOwner": "ilyafedotov-ops/SimpleAdminReporter",
+        "url": "https://github.com/ilyafedotov-ops/SimpleAdminReporter",
+        "description": "SimpleAdminReporter - Containerized AD/Azure AD/O365 reporting application",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-08-18T11:31:37Z",
+        "pushedAt": "2026-10-03T11:12:49Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -1847,6 +3214,42 @@
       }
     },
     {
+      "id": "U_kgDOD5y3HQ",
+      "login": "kevindepro10-cool",
+      "name": "kevin-dev-code",
+      "type": "User",
+      "location": "German, Niedersachsen",
+      "url": "https://github.com/kevindepro10-cool",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/261928733?u=89938f4cfe89180c30ca6d79796117c4a13f7e9d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "DevCodeForge_terminal-",
+        "nameWithOwner": "kevindepro10-cool/DevCodeForge_terminal-",
+        "url": "https://github.com/kevindepro10-cool/DevCodeForge_terminal-",
+        "description": "das ist ein terminal mit mehreren funktionen ",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-07T17:26:02Z",
+        "pushedAt": "2026-05-15T13:28:36Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Batchfile"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjM4Mjg1MjUx",
       "login": "lily-silva",
       "name": "Lily Silva",
@@ -1878,6 +3281,45 @@
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU3NzM5MTgy",
+      "login": "liuquan18",
+      "name": "Liu Quan",
+      "type": "User",
+      "location": "20146,,Hamburg,German",
+      "url": "https://github.com/liuquan18",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/57739182?u=474b2584635d4ffb7d4a87d2cc17123cbbbfeeca&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "NAO_MMLE",
+        "nameWithOwner": "liuquan18/NAO_MMLE",
+        "url": "https://github.com/liuquan18/NAO_MMLE",
+        "description": "the code for the project \"More extreme summertime North Atlantic Oscillation (NAO) under climate change\"",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-01-05T14:59:48Z",
+        "pushedAt": "2025-11-06T17:02:34Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -1954,6 +3396,42 @@
       }
     },
     {
+      "id": "U_kgDOBkDGqw",
+      "login": "MohammadAbbasi76",
+      "name": "Mohammad Javad Abbasi",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/MohammadAbbasi76",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/104908459?u=11d3d3115273a9c8f6320c662f51c1494c624a9e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "voice_recorder_with_stm32f103",
+        "nameWithOwner": "MohammadAbbasi76/voice_recorder_with_stm32f103",
+        "url": "https://github.com/MohammadAbbasi76/voice_recorder_with_stm32f103",
+        "description": "we make voice recorder with stm32f103 , we getting sample with ADC and making audio wave with pwm ",
+        "stargazerCount": 2,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-05-25T13:29:16Z",
+        "pushedAt": "2024-07-30T10:38:36Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE1NjU2OTc=",
       "login": "MrJcfire2",
       "name": "Jason Crompton",
@@ -1986,6 +3464,40 @@
         "primaryLanguage": {
           "name": "JavaScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOB5M9fw",
+      "login": "muntazar77",
+      "name": "Muntadher",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/muntazar77",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/127090047?u=faf4134fe8fb17aaccbfcb662921f23eb6ee8c1c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "muntazar77",
+        "nameWithOwner": "muntazar77/muntazar77",
+        "url": "https://github.com/muntazar77/muntazar77",
+        "description": null,
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-05-16T11:14:29Z",
+        "pushedAt": "2026-03-28T11:55:42Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -2107,6 +3619,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjUxMTcwMjE5",
+      "login": "RajibMiah",
+      "name": "Rajib Miah",
+      "type": "User",
+      "location": "Cottbus , German",
+      "url": "https://github.com/RajibMiah",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/51170219?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "voice-assistance-ai",
+        "nameWithOwner": "RajibMiah/voice-assistance-ai",
+        "url": "https://github.com/RajibMiah/voice-assistance-ai",
+        "description": null,
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-11-03T17:47:21Z",
+        "pushedAt": "2020-12-22T16:01:56Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "O_kgDOBZw3CA",
       "login": "realme-sm8150-development",
       "name": "Realme SM8150 Development",
@@ -2140,6 +3688,234 @@
           "name": "Shell"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM0NjAzNTIy",
+      "login": "RobinSeidel",
+      "name": "Robin Seidel",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/RobinSeidel",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/34603522?u=8876076091f7a69a6876b3838fe168685280b908&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "pyrelvis",
+        "nameWithOwner": "RobinSeidel/pyrelvis",
+        "url": "https://github.com/RobinSeidel/pyrelvis",
+        "description": "A simple binary relation visualizer",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-01-12T13:23:47Z",
+        "pushedAt": "2022-01-28T18:47:48Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOB3A85w",
+      "login": "SchubertChris",
+      "name": "Chris Schubert",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/SchubertChris",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/124796135?u=d9c6ba13223a84f625b4568b7d25de953b5523ea&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "CS-OP",
+        "nameWithOwner": "SchubertChris/CS-OP",
+        "url": "https://github.com/SchubertChris/CS-OP",
+        "description": null,
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-14T14:32:57Z",
+        "pushedAt": "2026-07-09T23:13:20Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCpzo8w",
+      "login": "Scorezyy",
+      "name": "Jxstn",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/Scorezyy",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/178055411?u=d8897127b1db0b3e3ca73af1393a5c47b1a3fe2c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "ReBank-3DS",
+        "nameWithOwner": "Scorezyy/ReBank-3DS",
+        "url": "https://github.com/Scorezyy/ReBank-3DS",
+        "description": "Cloud storage for your Pokemon collection on Nintendo 3DS",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-15T23:04:44Z",
+        "pushedAt": "2026-10-23T05:48:41Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOD1JDaA",
+      "login": "SeaBeanBlue",
+      "name": "Akira",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/SeaBeanBlue",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/257049448?u=c418bc96507a375c322712e375bfb9fd4d4ac4de&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "numpy-playground",
+        "nameWithOwner": "SeaBeanBlue/numpy-playground",
+        "url": "https://github.com/SeaBeanBlue/numpy-playground",
+        "description": null,
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-20T08:48:14Z",
+        "pushedAt": "2026-05-20T09:45:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI0NzM3NjAz",
+      "login": "Shiv1799",
+      "name": "Om Tiwari",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/Shiv1799",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/24737603?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "dual_arm_teleop_humble",
+        "nameWithOwner": "Shiv1799/dual_arm_teleop_humble",
+        "url": "https://github.com/Shiv1799/dual_arm_teleop_humble",
+        "description": "Control TWO 7-DOF robotic arms simultaneously with your left and right hands. No gloves, no depth camera, no special hardware — just a standard 2D webcam, MediaPipe two-hand tracking, and computer vision.",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-29T00:44:05Z",
+        "pushedAt": "2026-04-09T16:56:34Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOCJzJ3g",
+      "login": "0MrM0",
+      "name": "Mohammad",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/0MrM0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/144493022?u=e1213af542c642aae8d6cf0eede2277ebf7257cf&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "LayerEdge-CLI-Node-Setup-Guide",
+        "nameWithOwner": "0MrM0/LayerEdge-CLI-Node-Setup-Guide",
+        "url": "https://github.com/0MrM0/LayerEdge-CLI-Node-Setup-Guide",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-03-22T23:49:17Z",
+        "pushedAt": "2025-03-23T00:13:00Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Shell"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
       }
     },
     {
@@ -2294,6 +4070,115 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjIzMjQzNTg5",
+      "login": "Algashev1",
+      "name": "Gennady",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/Algashev1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/23243589?u=aba78bde3e43f1c3077f4b9e1f67350d4f378e5a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "reference-builder",
+        "nameWithOwner": "Algashev1/reference-builder",
+        "url": "https://github.com/Algashev1/reference-builder",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-05-12T06:02:37Z",
+        "pushedAt": "2025-05-21T11:30:53Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE2MDI0MDI5",
+      "login": "allgorithm",
+      "name": "Aleksey Krivonos",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/allgorithm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16024029?u=b27b5edb6126779dfd59ac44eb368636d71e011b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "filament-actionguard",
+        "nameWithOwner": "allgorithm/filament-actionguard",
+        "url": "https://github.com/allgorithm/filament-actionguard",
+        "description": "🛡️ Stop incomplete records and prevent data degradation across critical Filament actions.",
+        "stargazerCount": 1,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-11T16:15:38Z",
+        "pushedAt": "2026-10-23T11:24:01Z",
+        "homepageUrl": "https://valueoftrust.de/#actionguard",
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOCBkz9w",
+      "login": "amiramir84r",
+      "name": "amir 001",
+      "type": "User",
+      "location": "german",
+      "url": "https://github.com/amiramir84r",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/135869431?u=2825fc74a0768b3349bd85592a57daaaaa6b4278&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "dart98",
+        "nameWithOwner": "amiramir84r/dart98",
+        "url": "https://github.com/amiramir84r/dart98",
+        "description": "dart+",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-06-07T18:20:00Z",
+        "pushedAt": "2023-06-07T18:20:00Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCG0c2w",
       "login": "andyheggs",
       "name": "Andy Heggs",
@@ -2325,6 +4210,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ3MzI1MjE=",
+      "login": "AnimaTow",
+      "name": "AnimaTow",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/AnimaTow",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4732521?u=d6b859b7175ede129a219a8a52bbdd5295135017&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "cakephp-firebird-driver",
+        "nameWithOwner": "AnimaTow/cakephp-firebird-driver",
+        "url": "https://github.com/AnimaTow/cakephp-firebird-driver",
+        "description": "CakePHP 4 Driver for Firebird Database",
+        "stargazerCount": 1,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-04-03T19:19:43Z",
+        "pushedAt": "2022-04-07T20:07:48Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "PHP"
         },
         "licenseInfo": null
       }
@@ -2475,6 +4396,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjgwOTg5OTY1",
+      "login": "bobzhu-11",
+      "name": "Nuggets",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/bobzhu-11",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/80989965?u=6f1a5758114b7526e3fb221ba4a40f1842db1030&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "ProjectY",
+        "nameWithOwner": "bobzhu-11/ProjectY",
+        "url": "https://github.com/bobzhu-11/ProjectY",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-23T17:30:14Z",
+        "pushedAt": "2024-11-06T11:57:34Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjYwNDUyMDY=",
       "login": "BrianMayFan123",
       "name": "Conner Evans",
@@ -2544,6 +4501,45 @@
           "name": "Python"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBnglig",
+      "login": "cali72mero",
+      "name": "cali72mero",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/cali72mero",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/108537226?u=dd704a0d763ae832e3289830ecf6d732d9d7af1b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Megakino-mega-downloder",
+        "nameWithOwner": "cali72mero/Megakino-mega-downloder",
+        "url": "https://github.com/cali72mero/Megakino-mega-downloder",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-18T13:50:25Z",
+        "pushedAt": "2026-04-19T19:09:00Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -2694,6 +4690,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjE3NjQ3MzE4",
+      "login": "Corner88",
+      "name": null,
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/Corner88",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17647318?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Raspberry-Pi-Pico-MicroPython-Demo-Code",
+        "nameWithOwner": "Corner88/Raspberry-Pi-Pico-MicroPython-Demo-Code",
+        "url": "https://github.com/Corner88/Raspberry-Pi-Pico-MicroPython-Demo-Code",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-11-03T11:29:19Z",
+        "pushedAt": "2023-11-03T11:29:20Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOB3CD5A",
       "login": "dankeeny",
       "name": "Daniel Keen",
@@ -2839,6 +4869,42 @@
       }
     },
     {
+      "id": "U_kgDOBeP4Cw",
+      "login": "Elia1802",
+      "name": "Elia",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/Elia1802",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/98826251?u=9656650aa93c20cc0360a1a0bc29deb3c58e4c5f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "SoulCommands",
+        "nameWithOwner": "Elia1802/SoulCommands",
+        "url": "https://github.com/Elia1802/SoulCommands",
+        "description": "SoulCommands",
+        "stargazerCount": 1,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-01-26T14:57:15Z",
+        "pushedAt": "2025-06-04T21:24:21Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjgyMTY4OTA4",
       "login": "ERevere",
       "name": "Elliot",
@@ -2912,6 +4978,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjg2NjE3NzY=",
+      "login": "FFTEAM",
+      "name": "FFTEAM-Thomas",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/FFTEAM",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8661776?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "oscam-modern",
+        "nameWithOwner": "FFTEAM/oscam-modern",
+        "url": "https://github.com/FFTEAM/oscam-modern",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-04-02T21:30:57Z",
+        "pushedAt": "2015-04-02T21:33:20Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
       "id": "MDEyOk9yZ2FuaXphdGlvbjc0NjU5Nzg0",
       "login": "FUDLtd",
       "name": "FUD Limited",
@@ -2942,6 +5047,42 @@
         "pushedAt": "2020-12-27T18:15:48Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE0MjUyNDAw",
+      "login": "gDev95",
+      "name": null,
+      "type": "User",
+      "location": "Berlin, German",
+      "url": "https://github.com/gDev95",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/14252400?u=6b173ec9551c88fa86b33dfbe6cadfe992aa5074&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "tigerhacks-alexa-api",
+        "nameWithOwner": "gDev95/tigerhacks-alexa-api",
+        "url": "https://github.com/gDev95/tigerhacks-alexa-api",
+        "description": "An Alexa API for journalists to brainstorm and take notes by dictating to Alexa",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-10-14T12:03:00Z",
+        "pushedAt": "2018-02-13T16:16:36Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
         "licenseInfo": null
       }
     },
@@ -2979,6 +5120,115 @@
           "name": "Jupyter Notebook"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCOoB2A",
+      "login": "Ingo-Kasper",
+      "name": "Ingo Kasper",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/Ingo-Kasper",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/149553624?u=f0cf3d4162509ca90b12d14ec670ed5c16de2f23&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Portfolio",
+        "nameWithOwner": "Ingo-Kasper/Portfolio",
+        "url": "https://github.com/Ingo-Kasper/Portfolio",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-24T11:38:29Z",
+        "pushedAt": "2024-11-12T23:11:35Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM0NTU3MDMy",
+      "login": "IrisDinge",
+      "name": "IrisDinge",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/IrisDinge",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/34557032?u=008e9eb90170f29883b11a36352fcc30347b29d0&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "calibration",
+        "nameWithOwner": "IrisDinge/calibration",
+        "url": "https://github.com/IrisDinge/calibration",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-02-17T07:43:25Z",
+        "pushedAt": "2023-02-17T07:49:12Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODnaL6Q",
+      "login": "jaebaewonji12-sys",
+      "name": "Yung yrug",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/jaebaewonji12-sys",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/242650089?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "https-t.me-grubamichal04",
+        "nameWithOwner": "jaebaewonji12-sys/https-t.me-grubamichal04",
+        "url": "https://github.com/jaebaewonji12-sys/https-t.me-grubamichal04",
+        "description": "YungYury:VIP Ticket wird geliefert an//Bezahlen Sie mit PayPal",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-11-17T04:22:24Z",
+        "pushedAt": "2025-12-01T14:06:01Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "Creative Commons Zero v1.0 Universal",
+          "spdxId": "CC0-1.0"
+        }
       }
     },
     {
@@ -3089,6 +5339,79 @@
         "primaryLanguage": {
           "name": "CSS"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMwNzk1NzE2",
+      "login": "ksy1113",
+      "name": "Songyang",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/ksy1113",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/30795716?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "yuecai",
+        "nameWithOwner": "ksy1113/yuecai",
+        "url": "https://github.com/ksy1113/yuecai",
+        "description": "悦财 YueCai - AI驱动的个人资产管理仪表盘",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-23T06:26:59Z",
+        "pushedAt": "2026-05-23T06:30:44Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQwNTMzNjI0",
+      "login": "LocDog78",
+      "name": "Loc Dog®",
+      "type": "User",
+      "location": "german",
+      "url": "https://github.com/LocDog78",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/40533624?u=d8819ca99bd55a8fceec69e2f54f9d384ce34322&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "UgStillGaming",
+        "nameWithOwner": "LocDog78/UgStillGaming",
+        "url": "https://github.com/LocDog78/UgStillGaming",
+        "description": "BDK",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-04-09T16:20:05Z",
+        "pushedAt": "2019-04-09T16:20:06Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -3267,6 +5590,81 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjE1MjY2OTE5",
+      "login": "mobilernd",
+      "name": "Mahmoud",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/mobilernd",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/15266919?u=851e656e6340891435e2ddf64bbfe9f791a7e9f6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "web-mobile_project_stage1",
+        "nameWithOwner": "mobilernd/web-mobile_project_stage1",
+        "url": "https://github.com/mobilernd/web-mobile_project_stage1",
+        "description": "Restaurant App stage 1 from Udacity NanoDegree Mobile web specialist ",
+        "stargazerCount": 1,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-04-22T17:26:54Z",
+        "pushedAt": "2018-04-22T17:33:28Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIxMzczNjg4",
+      "login": "murilojrpereira",
+      "name": "Murilo Junio Rezende Pereira",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/murilojrpereira",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/21373688?u=7a2f9176901efc90f9a45dcec435f2133beb333d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "mcp-graphql-bridge",
+        "nameWithOwner": "murilojrpereira/mcp-graphql-bridge",
+        "url": "https://github.com/murilojrpereira/mcp-graphql-bridge",
+        "description": "A generic MCP server that dynamically exposes any GraphQL API as tools for claude, cursor, oll,a tools via schema introspection — plug in your endpoint and start querying",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-18T21:29:38Z",
+        "pushedAt": "2026-10-19T20:26:17Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQxMzE4OQ==",
       "login": "oliciv",
       "name": "Oli Allen",
@@ -3303,6 +5701,42 @@
           "name": "GNU General Public License v3.0",
           "spdxId": "GPL-3.0"
         }
+      }
+    },
+    {
+      "id": "U_kgDOC0q-iA",
+      "login": "onfr0y",
+      "name": "Kittisak 'Froy' Porkha",
+      "type": "User",
+      "location": "Kollone, german",
+      "url": "https://github.com/onfr0y",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/189447816?u=17a7ac7d49bd17570b5015da6a62811921287518&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Sp-app",
+        "nameWithOwner": "onfr0y/Sp-app",
+        "url": "https://github.com/onfr0y/Sp-app",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-03-16T12:21:57Z",
+        "pushedAt": "2026-07-17T09:10:16Z",
+        "homepageUrl": "https://sp-app-api.vercel.app",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -3520,6 +5954,110 @@
       }
     },
     {
+      "id": "U_kgDOCMOBYg",
+      "login": "Razorray12",
+      "name": "Denis",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/Razorray12",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/147030370?u=974212ad9eb15cee9f9bb359886887aa7d1a620f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "kotlin11-12",
+        "nameWithOwner": "Razorray12/kotlin11-12",
+        "url": "https://github.com/Razorray12/kotlin11-12",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-10-10T14:53:48Z",
+        "pushedAt": "2024-10-10T14:53:57Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Kotlin"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU3MzcxNjEz",
+      "login": "recepkaymakci",
+      "name": "xD",
+      "type": "User",
+      "location": "german",
+      "url": "https://github.com/recepkaymakci",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/57371613?u=25f5639ef1ecc877e2205f13fecf4d71438cefd9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Web-Siteleri",
+        "nameWithOwner": "recepkaymakci/Web-Siteleri",
+        "url": "https://github.com/recepkaymakci/Web-Siteleri",
+        "description": "Eğitim sürecinde geliştirdiğim proje web siteleri",
+        "stargazerCount": 1,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-11-05T19:32:38Z",
+        "pushedAt": "2019-11-05T19:52:28Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCAnGhA",
+      "login": "Rezapv00",
+      "name": "Reza",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/Rezapv00",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/134858372?u=e7161a8b99683ceee4f1989e3fb4af14d7706501&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Mainscrip",
+        "nameWithOwner": "Rezapv00/Mainscrip",
+        "url": "https://github.com/Rezapv00/Mainscrip",
+        "description": "Html vs",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-05-28T15:13:39Z",
+        "pushedAt": "2023-05-28T15:13:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjEyODY5NzM5",
       "login": "samuelnub",
       "name": "Sam Yap",
@@ -3553,6 +6091,45 @@
           "name": "JavaScript"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOEKjDrg",
+      "login": "sarazargan",
+      "name": "Sara Zargan",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/sarazargan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/279495598?u=7b3896ed6c727e65e8126b717456ef2af3a39ef8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "My-portfolio",
+        "nameWithOwner": "sarazargan/My-portfolio",
+        "url": "https://github.com/sarazargan/My-portfolio",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-29T08:39:47Z",
+        "pushedAt": "2026-05-29T12:04:44Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -3703,6 +6280,76 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjYxMDk5NDcz",
+      "login": "T4rmay",
+      "name": "5h4ka",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/T4rmay",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/61099473?u=3fc51da3861c48f7fa4416faf8a57a89e5db8742&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "-K-S-Music",
+        "nameWithOwner": "T4rmay/-K-S-Music",
+        "url": "https://github.com/T4rmay/-K-S-Music",
+        "description": "Kurd Source Java Music 🎶 ",
+        "stargazerCount": 1,
+        "forkCount": 5,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-06-12T12:46:10Z",
+        "pushedAt": "2023-12-05T22:27:20Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBsMycg",
+      "login": "TapsyPhill",
+      "name": "Phill Tapuwa",
+      "type": "User",
+      "location": "German ",
+      "url": "https://github.com/TapsyPhill",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/113455730?u=650625b2668f79be5e90ed885b761b05aaa73561&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "closest-matches-API-",
+        "nameWithOwner": "TapsyPhill/closest-matches-API-",
+        "url": "https://github.com/TapsyPhill/closest-matches-API-",
+        "description": "topic 1. Research is an opportunity to explore the unknown. What open questions drive your curiosity?",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-09-09T18:53:46Z",
+        "pushedAt": "2024-05-20T13:29:32Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "O_kgDOCJBM-g",
       "login": "the-goobers",
       "name": "The Goobers",
@@ -3739,6 +6386,42 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjk2MTA0Mzc=",
+      "login": "Timexx",
+      "name": "Tim",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/Timexx",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9610437?u=0cdffbce02e5f9ce86e77fe90439a3c77bf75286&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "ControlSphere",
+        "nameWithOwner": "Timexx/ControlSphere",
+        "url": "https://github.com/Timexx/ControlSphere",
+        "description": "A modern, web-based platform for managing and monitoring multiple Linux and Windows systems.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-12-03T16:29:44Z",
+        "pushedAt": "2026-03-29T08:13:58Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -3781,6 +6464,78 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ1MDcwOTMy",
+      "login": "UOUPROJECT",
+      "name": "Martin",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/UOUPROJECT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/45070932?u=c5a3ca29a978c614004f9fe3c4030a651c779f38&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "CryptoDredge-Miner",
+        "nameWithOwner": "UOUPROJECT/CryptoDredge-Miner",
+        "url": "https://github.com/UOUPROJECT/CryptoDredge-Miner",
+        "description": "A closed source miner for UOU mining,The hashrate has been greatly improved",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-11-15T14:10:49Z",
+        "pushedAt": "2018-11-28T18:04:40Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM1MTYzMzMw",
+      "login": "werewolf666",
+      "name": "Gatsby Yuan",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/werewolf666",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/35163330?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "carshop",
+        "nameWithOwner": "werewolf666/carshop",
+        "url": "https://github.com/werewolf666/carshop",
+        "description": "汽车销售公司官网",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-03-27T14:18:12Z",
+        "pushedAt": "2019-05-21T10:04:14Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "O_kgDOBfX0TA",
       "login": "wosops",
       "name": "homies",
@@ -3812,6 +6567,81 @@
         "homepageUrl": "https://www.goldify.app",
         "primaryLanguage": {
           "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY4NjY4MTc3",
+      "login": "yuriy0803",
+      "name": null,
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/yuriy0803",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/68668177?u=9a25b027dfcc50dc7fd42bfc298a324b37a31936&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "miningcore11",
+        "nameWithOwner": "yuriy0803/miningcore11",
+        "url": "https://github.com/yuriy0803/miningcore11",
+        "description": "miningcore",
+        "stargazerCount": 1,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-01-15T19:13:44Z",
+        "pushedAt": "2021-01-14T07:47:51Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg4MTU5NTMw",
+      "login": "ZyadHamdy",
+      "name": "ZiadElSalmanii",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/ZyadHamdy",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/88159530?u=2a2cd77e5ddc5ae7d9d184badb7e66069f746461&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Graduation-Project",
+        "nameWithOwner": "ZyadHamdy/Graduation-Project",
+        "url": "https://github.com/ZyadHamdy/Graduation-Project",
+        "description": "My graduation project it is an integration with ASP.Net system",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-08-06T19:54:18Z",
+        "pushedAt": "2023-11-24T19:48:12Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
         },
         "licenseInfo": null
       }
@@ -4032,6 +6862,42 @@
       }
     },
     {
+      "id": "U_kgDOBcbnXw",
+      "login": "ahmed6394",
+      "name": "Mahabub Ahmed",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/ahmed6394",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/96921439?u=b021c9cd9d17114c3dfb508c6743e726947e1d8a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "DevOps-Circle",
+        "nameWithOwner": "ahmed6394/DevOps-Circle",
+        "url": "https://github.com/ahmed6394/DevOps-Circle",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-27T10:28:08Z",
+        "pushedAt": "2026-09-29T14:55:00Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "O_kgDOD6uvJA",
       "login": "aidoo-systems",
       "name": "ai.doo",
@@ -4098,6 +6964,81 @@
         "pushedAt": "2024-10-25T18:53:44Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODkFpog",
+      "login": "aishsawant0202-tech",
+      "name": "Aishwarya Sawant",
+      "type": "User",
+      "location": "Frankfurt, German",
+      "url": "https://github.com/aishsawant0202-tech",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/239167906?u=64d8e4ea2a18e1337c8892ac298735e23b1a7519&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "dailyanchor",
+        "nameWithOwner": "aishsawant0202-tech/dailyanchor",
+        "url": "https://github.com/aishsawant0202-tech/dailyanchor",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-02T17:05:32Z",
+        "pushedAt": "2026-10-21T20:37:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOCAi7wg",
+      "login": "Alexqwsa",
+      "name": "alexqwsa",
+      "type": "User",
+      "location": "german",
+      "url": "https://github.com/Alexqwsa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/134790082?u=30f4ff2702dc5718ee26922b479875fb97c47c67&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "some-random-godot-game",
+        "nameWithOwner": "Alexqwsa/some-random-godot-game",
+        "url": "https://github.com/Alexqwsa/some-random-godot-game",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-15T16:21:40Z",
+        "pushedAt": "2026-10-16T11:03:55Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "GDScript"
+        },
         "licenseInfo": null
       }
     },
@@ -4353,6 +7294,151 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjg3Mjk1MDMy",
+      "login": "ArseLupin",
+      "name": "Arséne Lupin",
+      "type": "User",
+      "location": "German, Berlin",
+      "url": "https://github.com/ArseLupin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/87295032?u=c89a2beb24e87f1107e0c75633cd4e1c8c52f708&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Arse",
+        "nameWithOwner": "ArseLupin/Arse",
+        "url": "https://github.com/ArseLupin/Arse",
+        "description": "Website template, if you want to use my template, talk to me and I will gladly help you.  🎃📌",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-07-16T23:18:29Z",
+        "pushedAt": "2021-07-17T03:09:28Z",
+        "homepageUrl": "https://Arselupin.github.io/Arse/",
+        "primaryLanguage": {
+          "name": "CSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCOuFnw",
+      "login": "artnaaa",
+      "name": "Agung Ratna",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/artnaaa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/149652895?u=9cfdaf77d45ef50064da46d4c787e2ba2694fd75&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "tugas-rag-nlp",
+        "nameWithOwner": "artnaaa/tugas-rag-nlp",
+        "url": "https://github.com/artnaaa/tugas-rag-nlp",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-06-16T23:54:20Z",
+        "pushedAt": "2026-06-17T08:50:53Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYzMTg2NDM3",
+      "login": "Artyom099",
+      "name": "Artyom Golubev",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/Artyom099",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/63186437?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "factory",
+        "nameWithOwner": "Artyom099/factory",
+        "url": "https://github.com/Artyom099/factory",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-10-06T16:14:46Z",
+        "pushedAt": "2026-04-02T06:13:41Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI5NTEzMjc=",
+      "login": "axxg",
+      "name": "Alexander",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/axxg",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2951327?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Konferenz-Webapp",
+        "nameWithOwner": "axxg/Konferenz-Webapp",
+        "url": "https://github.com/axxg/Konferenz-Webapp",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-07-17T08:30:00Z",
+        "pushedAt": "2015-07-30T10:57:54Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjUwNTMzNDAx",
       "login": "Azicoin",
       "name": "Elchapo Weber",
@@ -4392,6 +7478,42 @@
       }
     },
     {
+      "id": "U_kgDOCxpxqQ",
+      "login": "B1llyWL",
+      "name": "Billy",
+      "type": "User",
+      "location": "Cologne, German",
+      "url": "https://github.com/B1llyWL",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/186282409?u=a108ab3e5c0b982059a2dbcf1a41e30a33da028f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "KernHuelle",
+        "nameWithOwner": "B1llyWL/KernHuelle",
+        "url": "https://github.com/B1llyWL/KernHuelle",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-26T04:27:33Z",
+        "pushedAt": "2026-10-26T04:42:48Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "O_kgDOBbsp6A",
       "login": "BacoFinance",
       "name": "BACO Finance",
@@ -4428,6 +7550,112 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjM5Mjg0NDM=",
+      "login": "BADFactory",
+      "name": "Bad Factory",
+      "type": "Organization",
+      "location": "German",
+      "url": "https://github.com/BADFactory",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3928443?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Tactical-Advanced",
+        "nameWithOwner": "BADFactory/Tactical-Advanced",
+        "url": "https://github.com/BADFactory/Tactical-Advanced",
+        "description": "Tactical First Person Shooter",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-09-11T21:00:10Z",
+        "pushedAt": "2014-09-12T19:54:17Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg4Mjg5MTE4",
+      "login": "BaronRaizer",
+      "name": "Raizer",
+      "type": "User",
+      "location": "German, Cologne",
+      "url": "https://github.com/BaronRaizer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/88289118?u=5a6e9efdcba2e8c8d61e72723d62023d39bd0d57&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "GoldenBozoTicket",
+        "nameWithOwner": "BaronRaizer/GoldenBozoTicket",
+        "url": "https://github.com/BaronRaizer/GoldenBozoTicket",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-12-28T18:00:45Z",
+        "pushedAt": "2021-12-28T18:06:49Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Lua"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMzNTk1Nzc5",
+      "login": "bastibond",
+      "name": "bastian",
+      "type": "User",
+      "location": "german",
+      "url": "https://github.com/bastibond",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33595779?u=0ca657ff67a2423c77091a487f2a0e608c86ce98&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "email_phishing_detection_info_",
+        "nameWithOwner": "bastibond/email_phishing_detection_info_",
+        "url": "https://github.com/bastibond/email_phishing_detection_info_",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-02-17T05:31:19Z",
+        "pushedAt": "2025-03-16T12:01:46Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -4576,6 +7804,76 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ3NjIyNQ==",
+      "login": "Bigevildog666",
+      "name": "Yannick Dippel",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/Bigevildog666",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/476225?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Testy-Repo",
+        "nameWithOwner": "Bigevildog666/Testy-Repo",
+        "url": "https://github.com/Bigevildog666/Testy-Repo",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-23T09:04:19Z",
+        "pushedAt": "2026-09-23T09:25:22Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBti-_g",
+      "login": "BirdBoxCode",
+      "name": "Chris McCarthy",
+      "type": "User",
+      "location": "Berlin, German",
+      "url": "https://github.com/BirdBoxCode",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/114867966?u=d0efd174f6443182aa674343c5ed3c428faf20e5&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "kino-games",
+        "nameWithOwner": "BirdBoxCode/kino-games",
+        "url": "https://github.com/BirdBoxCode/kino-games",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-30T10:48:29Z",
+        "pushedAt": "2026-03-02T20:27:47Z",
+        "homepageUrl": "https://kino-games.vercel.app",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjgwMzM3MTQz",
       "login": "bjonesIM",
       "name": null,
@@ -4612,6 +7910,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjE4NzU0NjQ0",
+      "login": "Blackioo",
+      "name": "Me",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/Blackioo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18754644?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "AuD1",
+        "nameWithOwner": "Blackioo/AuD1",
+        "url": "https://github.com/Blackioo/AuD1",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-05-24T16:27:21Z",
+        "pushedAt": "2018-05-24T16:27:22Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjMxNzAyNjQ=",
       "login": "boballanjones",
       "name": "Bob Jones",
@@ -4642,6 +7974,42 @@
         "pushedAt": "2021-02-17T15:36:35Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgwNDUyMTU0",
+      "login": "bortokdanil",
+      "name": null,
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/bortokdanil",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/80452154?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "bortokdanil.github.io",
+        "nameWithOwner": "bortokdanil/bortokdanil.github.io",
+        "url": "https://github.com/bortokdanil/bortokdanil.github.io",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-03-22T21:02:36Z",
+        "pushedAt": "2022-03-22T22:24:20Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
         "licenseInfo": null
       }
     },
@@ -5109,6 +8477,76 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjgxNTIwMjg2",
+      "login": "CrazyPlaysHD",
+      "name": null,
+      "type": "User",
+      "location": "German ",
+      "url": "https://github.com/CrazyPlaysHD",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/81520286?u=ffce94337ee178684f4ceb0c819a8c30d90ecd55&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "gtv",
+        "nameWithOwner": "CrazyPlaysHD/gtv",
+        "url": "https://github.com/CrazyPlaysHD/gtv",
+        "description": "gtv",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-12-25T16:53:37Z",
+        "pushedAt": "2023-12-25T17:48:25Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ1MzI3MzUx",
+      "login": "Cybercat1991",
+      "name": "Christian",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/Cybercat1991",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/45327351?u=f5c7ba4bb779b51ac55c0447985c407b2fc90a9a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "TicTacToe",
+        "nameWithOwner": "Cybercat1991/TicTacToe",
+        "url": "https://github.com/Cybercat1991/TicTacToe",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-27T08:23:05Z",
+        "pushedAt": "2024-10-01T11:06:40Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI1MjcxMzMy",
       "login": "cydolo",
       "name": "Dolo",
@@ -5292,6 +8730,40 @@
       }
     },
     {
+      "id": "U_kgDOBtm9uA",
+      "login": "davidfrosts",
+      "name": "David",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/davidfrosts",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/114933176?u=28f0871443a2880ab6f710a2842c2ab587174c98&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "readme",
+        "nameWithOwner": "davidfrosts/readme",
+        "url": "https://github.com/davidfrosts/readme",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-02-09T18:46:28Z",
+        "pushedAt": "2023-08-19T06:19:50Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDODuwV9Q",
       "login": "davidjamesshelley-netizen",
       "name": "David Shelley",
@@ -5363,6 +8835,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjg2Mzc0OTM5",
+      "login": "DerKuhle",
+      "name": "Der kuhle ",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/DerKuhle",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/86374939?u=6f0613a808c94ec3877425156c5508ea54df601b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "DerKuhle",
+        "nameWithOwner": "DerKuhle/DerKuhle",
+        "url": "https://github.com/DerKuhle/DerKuhle",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-06-23T17:43:23Z",
+        "pushedAt": "2021-06-23T17:43:23Z",
+        "homepageUrl": "https://github.com/DerKuhle",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjY2OTEzNjU=",
       "login": "Dragnipurake97",
       "name": "Liam Dawson",
@@ -5395,6 +8901,40 @@
         "primaryLanguage": {
           "name": "C++"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODYAfQQ",
+      "login": "DronVoken",
+      "name": "DronVoken",
+      "type": "User",
+      "location": "GERMAN",
+      "url": "https://github.com/DronVoken",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/226500417?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "GeoWave",
+        "nameWithOwner": "DronVoken/GeoWave",
+        "url": "https://github.com/DronVoken/GeoWave",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-12-01T03:12:39Z",
+        "pushedAt": "2026-08-23T04:22:03Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -5535,6 +9075,42 @@
         "pushedAt": "2018-03-01T18:20:23Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI2MjU4NDA4",
+      "login": "Flowx3",
+      "name": "Flow",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/Flowx3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/26258408?u=f47d22378c7b4ce4a106b5869c5e56c4cb2162e3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "NTLauncherV2",
+        "nameWithOwner": "Flowx3/NTLauncherV2",
+        "url": "https://github.com/Flowx3/NTLauncherV2",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-18T17:15:05Z",
+        "pushedAt": "2026-04-18T17:49:45Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
         "licenseInfo": null
       }
     },
@@ -5749,6 +9325,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjg2NzE1NzU1",
+      "login": "GKLisboa",
+      "name": "Greice Lisboa",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/GKLisboa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/86715755?u=4f7608a2a38b28624c1fae8cdc7b6c0ff863d047&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "todoapp",
+        "nameWithOwner": "GKLisboa/todoapp",
+        "url": "https://github.com/GKLisboa/todoapp",
+        "description": "To Do App",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-02-15T15:49:46Z",
+        "pushedAt": "2023-02-15T15:49:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "O_kgDOBxeRXA",
       "login": "greenstag-im",
       "name": "Green Stag IoM",
@@ -5819,6 +9429,81 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "U_kgDOCJ6m_Q",
+      "login": "haku0x",
+      "name": "Haku0x",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/haku0x",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/144615165?u=3258d304b5d8126704b0d7c6f2e333177feacdeb&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Auto-Install-Spicetify-on-Startup",
+        "nameWithOwner": "haku0x/Auto-Install-Spicetify-on-Startup",
+        "url": "https://github.com/haku0x/Auto-Install-Spicetify-on-Startup",
+        "description": "Spicetify bei jedem PC-Neustart automatisch installieren",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-13T13:13:35Z",
+        "pushedAt": "2026-10-25T15:52:12Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg4NjUyNjQ3",
+      "login": "Hao-Peng-19",
+      "name": "Hao Peng",
+      "type": "User",
+      "location": "Darmstadt, German",
+      "url": "https://github.com/Hao-Peng-19",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/88652647?u=460dc7f1088f18628f3963dd58ea5171eb971187&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "PMPP",
+        "nameWithOwner": "Hao-Peng-19/PMPP",
+        "url": "https://github.com/Hao-Peng-19/PMPP",
+        "description": "TU-Darmstadt course",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-11-18T09:10:13Z",
+        "pushedAt": "2025-12-02T18:14:36Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -6000,6 +9685,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjExNzQzNjY=",
+      "login": "hugolden",
+      "name": "Tinma",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/hugolden",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1174366?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "FingerTrain",
+        "nameWithOwner": "hugolden/FingerTrain",
+        "url": "https://github.com/hugolden/FingerTrain",
+        "description": "A web program to allow user train their finger",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-07T02:37:23Z",
+        "pushedAt": "2026-07-07T06:53:59Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjIyOTU3NzUw",
       "login": "ianvincent",
       "name": "UCM-DE-IRV",
@@ -6171,6 +9892,40 @@
         "createdAt": "2026-03-31T16:37:13Z",
         "pushedAt": "2026-04-29T21:12:28Z",
         "homepageUrl": "https://planningportal.im",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI0MzU3Mjg0",
+      "login": "jacekzawisza",
+      "name": "Prof. Dr.-Ing. Jacek Zawisza",
+      "type": "User",
+      "location": "Berlin, German",
+      "url": "https://github.com/jacekzawisza",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/24357284?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "smart-apps-demo",
+        "nameWithOwner": "jacekzawisza/smart-apps-demo",
+        "url": "https://github.com/jacekzawisza/smart-apps-demo",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-06-26T13:08:31Z",
+        "pushedAt": "2026-06-29T07:06:45Z",
+        "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
       }
@@ -6354,6 +10109,45 @@
           "name": "Python"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEwMDc3ODc4",
+      "login": "JiangJeng",
+      "name": "JiangZheng (Nickname: Tei)",
+      "type": "User",
+      "location": "Darmstadt, German",
+      "url": "https://github.com/JiangJeng",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10077878?u=1f6b5bf541d7315f3b0bf75a3f9dd1b2b0220589&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "skills-build-applications-w-copilot-agent-mode",
+        "nameWithOwner": "JiangJeng/skills-build-applications-w-copilot-agent-mode",
+        "url": "https://github.com/JiangJeng/skills-build-applications-w-copilot-agent-mode",
+        "description": "Exercise: Build and test a multi-tier application with GitHub Copilot",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-24T14:23:03Z",
+        "pushedAt": "2026-10-25T21:29:59Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -6853,6 +10647,40 @@
       }
     },
     {
+      "id": "U_kgDODMHd-Q",
+      "login": "Lucario25274",
+      "name": "Luca Niedling ",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/Lucario25274",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/214031865?u=2020c341f41ecdb9dd3958c81ecb58c66a98755d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Lucario25274",
+        "nameWithOwner": "Lucario25274/Lucario25274",
+        "url": "https://github.com/Lucario25274/Lucario25274",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-08T19:51:54Z",
+        "pushedAt": "2026-09-08T19:55:35Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "O_kgDOBvo3LA",
       "login": "luxdao",
       "name": "▼",
@@ -7137,6 +10965,42 @@
       }
     },
     {
+      "id": "U_kgDOB3VkHg",
+      "login": "MasterItaly",
+      "name": "Sven",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/MasterItaly",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/125133854?u=1461e0762c01bc248206cf547afb2e432dd600fa&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "node-opc-ua",
+        "nameWithOwner": "MasterItaly/node-opc-ua",
+        "url": "https://github.com/MasterItaly/node-opc-ua",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-12-23T20:24:30Z",
+        "pushedAt": "2025-12-23T20:24:32Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBnDsVg",
       "login": "mattwilson02",
       "name": "Matt Wilson",
@@ -7168,6 +11032,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Bicep"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY1OTUzNjI=",
+      "login": "melect",
+      "name": "Sebastian Peters",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/melect",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6595362?u=c5b7e3def9b5af196bd6fc4e0379644560be2093&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Get-OneDrive-Refresh-Token",
+        "nameWithOwner": "melect/Get-OneDrive-Refresh-Token",
+        "url": "https://github.com/melect/Get-OneDrive-Refresh-Token",
+        "description": "Get OneDrive Refresh Token for the syncany plugin",
+        "stargazerCount": 0,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-02-11T20:12:06Z",
+        "pushedAt": "2016-02-11T20:22:06Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
         },
         "licenseInfo": null
       }
@@ -7209,6 +11109,112 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjE5Nzc1OA==",
+      "login": "mhutzsch",
+      "name": "Marco Hutzsch",
+      "type": "User",
+      "location": "Hamburg, German",
+      "url": "https://github.com/mhutzsch",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/197758?u=e60e73a9377a65e65cdd18126800d307c0ca6eda&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "scripts",
+        "nameWithOwner": "mhutzsch/scripts",
+        "url": "https://github.com/mhutzsch/scripts",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-07-05T15:13:29Z",
+        "pushedAt": "2016-07-06T12:32:49Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Shell"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjczMzM3OTg5",
+      "login": "michel929",
+      "name": "michel_929",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/michel929",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73337989?u=37d8003ef9b0e97abab9dc2f87355b1950e0badc&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "michel929",
+        "nameWithOwner": "michel929/michel929",
+        "url": "https://github.com/michel929/michel929",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-06-15T08:57:00Z",
+        "pushedAt": "2026-05-13T16:06:38Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc4MDI3NzM1",
+      "login": "mixelio",
+      "name": "Mykhailo Hubko",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/mixelio",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/78027735?u=27f6017197d96d226905f92ba5c4a330e2181a8e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Markify-test-task",
+        "nameWithOwner": "mixelio/Markify-test-task",
+        "url": "https://github.com/mixelio/Markify-test-task",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-07-24T19:44:38Z",
+        "pushedAt": "2025-07-25T15:12:27Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE0MDE5NzE2",
       "login": "MostlyHarmlessLena",
       "name": null,
@@ -7237,6 +11243,76 @@
         "isFork": false,
         "createdAt": "2016-01-04T13:29:13Z",
         "pushedAt": "2016-01-04T13:29:14Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIzMTMzNDIx",
+      "login": "mountainbrother",
+      "name": "Guenni",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/mountainbrother",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/23133421?u=c1433023fdb0681a044a9413fc4c78af8b45cc2b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "ThesisCompanion-Github",
+        "nameWithOwner": "mountainbrother/ThesisCompanion-Github",
+        "url": "https://github.com/mountainbrother/ThesisCompanion-Github",
+        "description": "Dokumentation und methodenkonformen Durchführung einer qualitativen empirischen Arbeit",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-25T13:25:00Z",
+        "pushedAt": "2026-03-25T20:42:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ1MTI4OTA=",
+      "login": "mrongen",
+      "name": "Martin",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/mrongen",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4512890?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Hexacopter",
+        "nameWithOwner": "mrongen/Hexacopter",
+        "url": "https://github.com/mrongen/Hexacopter",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-04-19T14:21:48Z",
+        "pushedAt": "2014-04-26T22:12:24Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -7315,6 +11391,40 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU0NTUyMDE0",
+      "login": "nickshogun",
+      "name": "Nick",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/nickshogun",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/54552014?u=90868a268f847ec40373b0b1e5c7263b95d7711c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "pokazantoshke",
+        "nameWithOwner": "nickshogun/pokazantoshke",
+        "url": "https://github.com/nickshogun/pokazantoshke",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-11-07T17:38:44Z",
+        "pushedAt": "2024-11-07T17:38:45Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
       }
     },
     {
@@ -7468,6 +11578,42 @@
       }
     },
     {
+      "id": "U_kgDOD08Yxw",
+      "login": "nurtonyxy",
+      "name": "Tony",
+      "type": "User",
+      "location": "GERMAN",
+      "url": "https://github.com/nurtonyxy",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/256841927?u=1fb5e46e805ee2e23c3b828364939493afe1a4c6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "stormsmp-dc",
+        "nameWithOwner": "nurtonyxy/stormsmp-dc",
+        "url": "https://github.com/nurtonyxy/stormsmp-dc",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-27T14:49:11Z",
+        "pushedAt": "2026-05-27T14:49:15Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjUwNzY3MjYx",
       "login": "oliverSwindlehurst",
       "name": "Oliver Swindlehurst",
@@ -7496,6 +11642,76 @@
         "isFork": false,
         "createdAt": "2024-12-01T14:38:19Z",
         "pushedAt": "2025-11-25T20:28:37Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOClW9Qw",
+      "login": "paradox02de",
+      "name": "⛧Eden⛧",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/paradox02de",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/173391171?u=357b3c4a3881c3d4b6e7ceaec94d10fcad3e2f4c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "paradox02de",
+        "nameWithOwner": "paradox02de/paradox02de",
+        "url": "https://github.com/paradox02de/paradox02de",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-01T18:55:24Z",
+        "pushedAt": "2026-07-01T18:55:25Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCLvssQ",
+      "login": "pavazsombor",
+      "name": null,
+      "type": "User",
+      "location": "german",
+      "url": "https://github.com/pavazsombor",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/146533553?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "szamokSorban",
+        "nameWithOwner": "pavazsombor/szamokSorban",
+        "url": "https://github.com/pavazsombor/szamokSorban",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-10-08T15:44:56Z",
+        "pushedAt": "2023-10-08T16:59:31Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Python"
@@ -7569,6 +11785,45 @@
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg2NjUxOTM1",
+      "login": "PoolNode",
+      "name": null,
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/PoolNode",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/86651935?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "open-etc-pool",
+        "nameWithOwner": "PoolNode/open-etc-pool",
+        "url": "https://github.com/PoolNode/open-etc-pool",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-12-18T22:00:26Z",
+        "pushedAt": "2021-12-28T12:13:25Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
       }
     },
     {
@@ -7779,6 +12034,45 @@
           "name": "PHP"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOB36QKQ",
+      "login": "Rimolo13",
+      "name": "Rimolo13",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/Rimolo13",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/125734953?u=c0ac30315fc786c95b723697b1b89190df4a32e1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Simple_Calculator",
+        "nameWithOwner": "Rimolo13/Simple_Calculator",
+        "url": "https://github.com/Rimolo13/Simple_Calculator",
+        "description": "A simple calculator as a Web App.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-29T13:14:33Z",
+        "pushedAt": "2026-10-22T13:51:30Z",
+        "homepageUrl": "https://rimolo13.github.io/Simple_Calculator/",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
       }
     },
     {
@@ -8111,6 +12405,114 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjgxNzkzMzMx",
+      "login": "SalFisherJr",
+      "name": null,
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/SalFisherJr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/81793331?u=21f86351e79bf3fe7db6f87b807675a16a6974e4&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Airplay-For-Android-TV-From-Scratch",
+        "nameWithOwner": "SalFisherJr/Airplay-For-Android-TV-From-Scratch",
+        "url": "https://github.com/SalFisherJr/Airplay-For-Android-TV-From-Scratch",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-12-29T04:40:52Z",
+        "pushedAt": "2021-12-31T05:56:23Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCkRORA",
+      "login": "sandoropiok",
+      "name": "Sandor Opiok",
+      "type": "User",
+      "location": "Mönchengladbach/German",
+      "url": "https://github.com/sandoropiok",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/172248644?u=1ee11c0b0e3e25e46718ab852f04ba8aa67392a4&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "deployment-env-fullstack",
+        "nameWithOwner": "sandoropiok/deployment-env-fullstack",
+        "url": "https://github.com/sandoropiok/deployment-env-fullstack",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-02-13T10:04:27Z",
+        "pushedAt": "2025-02-13T10:05:20Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM5MTM4OTI1",
+      "login": "sbata1984",
+      "name": "Hicham Harhar",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/sbata1984",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39138925?u=388d5c65093bc12e56e9343b77aba73702da2238&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Group21",
+        "nameWithOwner": "sbata1984/Group21",
+        "url": "https://github.com/sbata1984/Group21",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-01-10T19:46:30Z",
+        "pushedAt": "2024-01-10T20:40:14Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBjFpug",
       "login": "SeanIsYoung",
       "name": "Sean Young",
@@ -8142,6 +12544,120 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Shell"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI4MzIzMzk=",
+      "login": "seema84",
+      "name": null,
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/seema84",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2832339?u=60a2ed1cbf86251c01e5fd2e10c29acd1f45efb7&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "SystemInfo",
+        "nameWithOwner": "seema84/SystemInfo",
+        "url": "https://github.com/seema84/SystemInfo",
+        "description": "An amazing plugin to get system info from in-game.",
+        "stargazerCount": 0,
+        "forkCount": 5,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-02-27T18:00:44Z",
+        "pushedAt": "2020-02-27T18:01:35Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": {
+          "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+          "spdxId": "BSD-3-Clause"
+        }
+      }
+    },
+    {
+      "id": "U_kgDODU0Cvw",
+      "login": "Shakirah525",
+      "name": "Atukunda Shakirah",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/Shakirah525",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/223150783?u=bafc7b52ab952f9cf3f8cf688f5f4ac95a233047&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "car_price-predict",
+        "nameWithOwner": "Shakirah525/car_price-predict",
+        "url": "https://github.com/Shakirah525/car_price-predict",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-18T11:32:00Z",
+        "pushedAt": "2026-04-24T11:30:00Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOB0-vAQ",
+      "login": "shrrxx",
+      "name": "ShreeRam",
+      "type": "User",
+      "location": "ohio, German",
+      "url": "https://github.com/shrrxx",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/122662657?u=b23cb4d8b2c342fea5b051c01819b3664ddd7807&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Phish-kit",
+        "nameWithOwner": "shrrxx/Phish-kit",
+        "url": "https://github.com/shrrxx/Phish-kit",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-21T13:45:34Z",
+        "pushedAt": "2026-08-21T13:47:09Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
         },
         "licenseInfo": null
       }
@@ -8323,6 +12839,42 @@
       }
     },
     {
+      "id": "U_kgDOB50bOQ",
+      "login": "Spliic",
+      "name": "Danny Williams",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/Spliic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/127736633?u=2071ad0db1f260fcea2756fb31743f07f03c6c4b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "FunRepair",
+        "nameWithOwner": "Spliic/FunRepair",
+        "url": "https://github.com/Spliic/FunRepair",
+        "description": "Eine App um selbstständig Handy Reparaturen durchzuführen",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-09-20T07:31:18Z",
+        "pushedAt": "2023-09-20T07:33:34Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Kotlin"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjcyODIzMjQx",
       "login": "stacedan",
       "name": "Dan Stacey",
@@ -8428,6 +12980,152 @@
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUxNzYxNTQz",
+      "login": "SuperDog34",
+      "name": "Otto Endres",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/SuperDog34",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/51761543?u=a0cf598ab11ad6ebd3758d165c65ec2a7967c783&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "SuperDog34.github.io",
+        "nameWithOwner": "SuperDog34/SuperDog34.github.io",
+        "url": "https://github.com/SuperDog34/SuperDog34.github.io",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-22T08:50:26Z",
+        "pushedAt": "2026-10-22T08:50:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY0NjAwNDk=",
+      "login": "tangmj",
+      "name": "sunday",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/tangmj",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6460049?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "MyUtils",
+        "nameWithOwner": "tangmj/MyUtils",
+        "url": "https://github.com/tangmj/MyUtils",
+        "description": "工具类集合",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-04-07T09:35:47Z",
+        "pushedAt": "2017-03-30T08:19:25Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "GNU General Public License v2.0",
+          "spdxId": "GPL-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgxNTk1MDE0",
+      "login": "tbz-ayhan",
+      "name": "Ayhan",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/tbz-ayhan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/81595014?u=193240ac98ccf038d3ef4504e65f92bb61be4c03&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "outline-server-management-api",
+        "nameWithOwner": "tbz-ayhan/outline-server-management-api",
+        "url": "https://github.com/tbz-ayhan/outline-server-management-api",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-12-13T13:43:16Z",
+        "pushedAt": "2019-11-23T13:32:24Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQyMzMwMjU1",
+      "login": "TerrorRaver6",
+      "name": "Fabio",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/TerrorRaver6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/42330255?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "ZodiacGX_Luci",
+        "nameWithOwner": "TerrorRaver6/ZodiacGX_Luci",
+        "url": "https://github.com/TerrorRaver6/ZodiacGX_Luci",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-08-13T08:11:14Z",
+        "pushedAt": "2018-08-11T09:51:28Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Lua"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
       }
     },
     {
@@ -8569,6 +13267,78 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUxMDg2ODM4",
+      "login": "tim-endert",
+      "name": "Tim Endert",
+      "type": "User",
+      "location": "Hamburg, German",
+      "url": "https://github.com/tim-endert",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/51086838?u=005da2ed990f76685546955c50c8695110d2369b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "coffee",
+        "nameWithOwner": "tim-endert/coffee",
+        "url": "https://github.com/tim-endert/coffee",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-06-27T14:12:34Z",
+        "pushedAt": "2024-06-27T14:33:10Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgwNTEwMzE5",
+      "login": "Tim-Labahn",
+      "name": "Tim Labahn",
+      "type": "User",
+      "location": "deutschland/german",
+      "url": "https://github.com/Tim-Labahn",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/80510319?u=07aea86ca2223526b705f030671c94cab6455efa&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Rooms",
+        "nameWithOwner": "Tim-Labahn/Rooms",
+        "url": "https://github.com/Tim-Labahn/Rooms",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-10T07:53:05Z",
+        "pushedAt": "2026-10-12T10:22:06Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
         },
         "licenseInfo": null
       }
@@ -8789,6 +13559,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjg5MTgzNDg2",
+      "login": "tungsonle3110",
+      "name": "Tung Son Le",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/tungsonle3110",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/89183486?u=af57c8f7855d01c3ed82bc30d8211b22e25839ac&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Outsystems",
+        "nameWithOwner": "tungsonle3110/Outsystems",
+        "url": "https://github.com/tungsonle3110/Outsystems",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-11-05T19:43:14Z",
+        "pushedAt": "2023-11-22T20:26:53Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQ0NTQyMDAz",
       "login": "Tyler-Roche",
       "name": "Tyler Roche",
@@ -8856,6 +13660,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "CSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM3NjIyMzQ=",
+      "login": "vigorSmith",
+      "name": "vigor",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/vigorSmith",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3762234?u=5df6e1aecf3ef76636e452ab396f46b3b910bd4c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "ICISS",
+        "nameWithOwner": "vigorSmith/ICISS",
+        "url": "https://github.com/vigorSmith/ICISS",
+        "description": "inter country identity siphon system",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-22T03:28:31Z",
+        "pushedAt": "2026-05-30T04:45:19Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
         },
         "licenseInfo": null
       }
@@ -8936,6 +13776,40 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "U_kgDOC_o4ww",
+      "login": "whoisbezofx",
+      "name": "Whoisbezo.fx",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/whoisbezofx",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/200947907?u=9517320079fb4bc96686d4b774c5793bbdf5b7fe&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "TradeFlux",
+        "nameWithOwner": "whoisbezofx/TradeFlux",
+        "url": "https://github.com/whoisbezofx/TradeFlux",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-16T09:37:25Z",
+        "pushedAt": "2026-07-16T09:50:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
       }
     },
     {
@@ -9048,6 +13922,81 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjYxNjIxODg5",
+      "login": "xtasyman89",
+      "name": "Xtasy89 ",
+      "type": "User",
+      "location": "German ",
+      "url": "https://github.com/xtasyman89",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/61621889?u=5cbf90acef251e14d26e0092bd1128e5f20755a6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "coooll-root",
+        "nameWithOwner": "xtasyman89/coooll-root",
+        "url": "https://github.com/xtasyman89/coooll-root",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-05-29T10:57:27Z",
+        "pushedAt": "2020-05-29T10:58:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgwNDUyMzgz",
+      "login": "yaryshevai",
+      "name": "Irina Yarysheva ",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/yaryshevai",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/80452383?u=d6817f2bf220f83a0aff768bbd0740be02b65542&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "yaryshevai.github.io",
+        "nameWithOwner": "yaryshevai/yaryshevai.github.io",
+        "url": "https://github.com/yaryshevai/yaryshevai.github.io",
+        "description": "starting using html",
+        "stargazerCount": 0,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-03-21T18:54:24Z",
+        "pushedAt": "2022-04-24T18:03:26Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE3MzA1MDc=",
       "login": "yesopk",
       "name": "Ken",
@@ -9078,6 +14027,78 @@
         "pushedAt": "2016-03-14T18:37:53Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ5Mzk4MDYy",
+      "login": "yeugautruc",
+      "name": "Hung Doan Manh",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/yeugautruc",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/49398062?u=a30ad42e178e6f8d8f7e294c5f99d91825f71b8e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "lili-restaurant-website",
+        "nameWithOwner": "yeugautruc/lili-restaurant-website",
+        "url": "https://github.com/yeugautruc/lili-restaurant-website",
+        "description": "Lili Sushi Asia Kueche - website test deploy",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-29T17:54:21Z",
+        "pushedAt": "2026-09-29T13:36:03Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg0MTI1MjA2",
+      "login": "YucanLuo",
+      "name": "OvomaltineX",
+      "type": "User",
+      "location": "German",
+      "url": "https://github.com/YucanLuo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/84125206?u=f0d6a4dc6a891d3bbc30e6274d9e63dd436f6945&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "german"
+      },
+      "discoveryTerms": [
+        "German"
+      ],
+      "topRepository": {
+        "name": "Master-3DSeg-Thesis",
+        "nameWithOwner": "YucanLuo/Master-3DSeg-Thesis",
+        "url": "https://github.com/YucanLuo/Master-3DSeg-Thesis",
+        "description": "Master thesis research on adaptive parameter selection for large-scale 3D point cloud semantic segmentation",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-27T16:08:04Z",
+        "pushedAt": "2026-06-25T10:58:18Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
         "licenseInfo": null
       }
     },

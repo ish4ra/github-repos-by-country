@@ -18,52 +18,10 @@
     "term": "Iceland",
     "queue": [
       {
-        "query": "location:\"Iceland\" type:user followers:0 repos:10..24",
-        "stage": "repos",
-        "cursor": null,
-        "pageNumber": 1,
-        "attempts": 0
-      },
-      {
-        "query": "location:\"Iceland\" type:user followers:0 repos:25..49",
-        "stage": "repos",
-        "cursor": null,
-        "pageNumber": 1,
-        "attempts": 0
-      },
-      {
-        "query": "location:\"Iceland\" type:user followers:0 repos:50..99",
-        "stage": "repos",
-        "cursor": null,
-        "pageNumber": 1,
-        "attempts": 0
-      },
-      {
-        "query": "location:\"Iceland\" type:user followers:0 repos:100..249",
-        "stage": "repos",
-        "cursor": null,
-        "pageNumber": 1,
-        "attempts": 0
-      },
-      {
-        "query": "location:\"Iceland\" type:user followers:0 repos:250..499",
-        "stage": "repos",
-        "cursor": null,
-        "pageNumber": 1,
-        "attempts": 0
-      },
-      {
-        "query": "location:\"Iceland\" type:user followers:0 repos:>=500",
-        "stage": "repos",
-        "cursor": null,
-        "pageNumber": 1,
-        "attempts": 0
-      },
-      {
         "query": "location:\"Iceland\" type:user followers:1..4",
         "stage": "followers",
-        "cursor": null,
-        "pageNumber": 1,
+        "cursor": "Y3Vyc29yOjUw",
+        "pageNumber": 2,
         "attempts": 0
       },
       {
@@ -166,26 +124,26 @@
       }
     ],
     "startedAt": "2026-10-05T14:52:33.459Z",
-    "requests": 16,
-    "leafPages": 13,
+    "requests": 24,
+    "leafPages": 21,
     "shardExpansions": 3,
     "reportedCount": 1217
   },
   "discoveryComplete": false,
   "startedAt": "2026-10-05T14:52:33.459Z",
-  "updatedAt": "2026-10-23T11:50:21.223Z",
+  "updatedAt": "2026-10-26T04:58:38.298Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 16,
-    "leafPages": 13,
+    "searchRequests": 24,
+    "leafPages": 21,
     "shardExpansions": 3,
-    "rawOwnerHits": 749,
-    "acceptedOwnerHits": 740,
-    "rejectedOwnerHits": 9,
+    "rawOwnerHits": 877,
+    "acceptedOwnerHits": 867,
+    "rejectedOwnerHits": 10,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4941
+    "minimumRateLimitRemaining": 4921
   },
   "unresolvedShards": [],
   "candidates": [
@@ -843,6 +801,45 @@
         "licenseInfo": {
           "name": "MIT License",
           "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMyMTQyMDg4",
+      "login": "Durtur",
+      "name": "Símon",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/Durtur",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/32142088?u=ecb8ca222393e0d64470b7fc7b1ce735110871d5&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "Dungeoneer",
+        "nameWithOwner": "Durtur/Dungeoneer",
+        "url": "https://github.com/Durtur/Dungeoneer",
+        "description": "A virtual tabletop designed for 5e D&D, includes a map tool with dynamic lighting, initiative tracker, combat tracker and homebrew management. ",
+        "stargazerCount": 217,
+        "forkCount": 20,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-03-18T16:34:53Z",
+        "pushedAt": "2026-01-24T15:50:44Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "GNU Affero General Public License v3.0",
+          "spdxId": "AGPL-3.0"
         }
       }
     },
@@ -1873,6 +1870,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjE1MzY4Nzg=",
+      "login": "thorhs",
+      "name": "Þórhallur Sverrisson",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/thorhs",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1536878?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "node_exporter_aix",
+        "nameWithOwner": "thorhs/node_exporter_aix",
+        "url": "https://github.com/thorhs/node_exporter_aix",
+        "description": "Prometheus node_exporter clone for AIX servers, written in C++ utilizing libperfstat",
+        "stargazerCount": 22,
+        "forkCount": 11,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-11-20T16:55:14Z",
+        "pushedAt": "2023-08-22T12:48:02Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjYzODM5MQ==",
       "login": "kristinn",
       "name": "Kristinn Örn Sigurðsson",
@@ -2020,6 +2056,120 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjk5Nzk5ODc=",
+      "login": "ironpeak",
+      "name": "Hrafn Orri Hrafnkelsson",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/ironpeak",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9979987?u=37b053608400cc035ae3aedeb6624940b2f2ccb7&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "bevy_modern_pixel_camera",
+        "nameWithOwner": "ironpeak/bevy_modern_pixel_camera",
+        "url": "https://github.com/ironpeak/bevy_modern_pixel_camera",
+        "description": null,
+        "stargazerCount": 12,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-10-25T23:46:38Z",
+        "pushedAt": "2026-10-21T11:18:22Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Rust"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ5NDQ1NDc=",
+      "login": "agustik",
+      "name": "Ágúst Ingi Kjartansson",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/agustik",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4944547?u=5480b89f64f42ba11009289ca89f086ce3aea454&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "lua-resty-puzzle",
+        "nameWithOwner": "agustik/lua-resty-puzzle",
+        "url": "https://github.com/agustik/lua-resty-puzzle",
+        "description": null,
+        "stargazerCount": 10,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-06-30T17:37:16Z",
+        "pushedAt": "2015-07-03T17:26:06Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Lua"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEzMjQ2NjQ=",
+      "login": "theom",
+      "name": "Jens Páll Hafsteinsson",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/theom",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1324664?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "python-threejs-framework",
+        "nameWithOwner": "theom/python-threejs-framework",
+        "url": "https://github.com/theom/python-threejs-framework",
+        "description": "A 3D web framework based on three.js, websockets, Tornado and ZODB",
+        "stargazerCount": 10,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-11-09T15:45:47Z",
+        "pushedAt": "2016-12-03T23:48:21Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjM4NTk2MDc=",
       "login": "paurinn",
       "name": "Programmer Bob Snorgen",
@@ -2098,6 +2248,81 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjIyODg3OTE4",
+      "login": "RyanXee",
+      "name": "Ryan Hsu",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/RyanXee",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/22887918?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "BiharmonicSplineInterpolation",
+        "nameWithOwner": "RyanXee/BiharmonicSplineInterpolation",
+        "url": "https://github.com/RyanXee/BiharmonicSplineInterpolation",
+        "description": "Green function of the biharmonic operator, in one and two dimensions, are used for  minimum curvature interpolation of irregularly spaced data points.",
+        "stargazerCount": 7,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-09-09T07:07:06Z",
+        "pushedAt": "2017-09-09T07:48:58Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU5ODk3Ng==",
+      "login": "biggihs",
+      "name": "Birgir Hrafn Sigurðsson",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/biggihs",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/598976?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "r4s",
+        "nameWithOwner": "biggihs/r4s",
+        "url": "https://github.com/biggihs/r4s",
+        "description": "Rails 4 Streaming gem",
+        "stargazerCount": 6,
+        "forkCount": 0,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2012-10-26T13:29:33Z",
+        "pushedAt": "2012-11-16T12:28:23Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Ruby"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE0OTk1NDQ=",
       "login": "bir3",
       "name": "Bergur Ragnarsson",
@@ -2133,6 +2358,45 @@
         "licenseInfo": {
           "name": "BSD 3-Clause \"New\" or \"Revised\" License",
           "spdxId": "BSD-3-Clause"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIyMTE4OTQ2",
+      "login": "elgerpus",
+      "name": "Gylfi Þór Guðmundsson",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/elgerpus",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/22118946?u=4c214059459549e266899b5712f43771784e8003&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "DeCP",
+        "nameWithOwner": "elgerpus/DeCP",
+        "url": "https://github.com/elgerpus/DeCP",
+        "description": "DeCP: A high-throughput CBIR system for very large image collections",
+        "stargazerCount": 5,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-02-21T18:16:07Z",
+        "pushedAt": "2020-12-25T04:50:52Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Scala"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
         }
       }
     },
@@ -2173,6 +2437,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQzNzA5NTg=",
+      "login": "Stalfur",
+      "name": "Jóhannes Birgir Jensson",
+      "type": "User",
+      "location": "Kópavogur, Iceland",
+      "url": "https://github.com/Stalfur",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4370958?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "Askja",
+        "nameWithOwner": "Stalfur/Askja",
+        "url": "https://github.com/Stalfur/Askja",
+        "description": "OpenStreetMap Data Quality Assurance Tool",
+        "stargazerCount": 5,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-05-30T15:57:25Z",
+        "pushedAt": "2023-11-05T10:11:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": {
+          "name": "The Unlicense",
+          "spdxId": "Unlicense"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE5MjgxMDM=",
       "login": "benediktvaldez",
       "name": "Benedikt D Valdez",
@@ -2209,6 +2512,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ4NzkxNTMy",
+      "login": "Daddara",
+      "name": "Arnar Már Brynjarsson",
+      "type": "User",
+      "location": "Reykjavik, Iceland",
+      "url": "https://github.com/Daddara",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/48791532?u=25bdfad73437928eda07af19e8e409e58c116858&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "deckify",
+        "nameWithOwner": "Daddara/deckify",
+        "url": "https://github.com/Daddara/deckify",
+        "description": "Create digital QR cards from a Spotify playlists or albums. ",
+        "stargazerCount": 3,
+        "forkCount": 0,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2023-09-03T22:13:50Z",
+        "pushedAt": "2026-07-23T08:41:20Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjg5NDk1Njg=",
       "login": "hannespetur",
       "name": "Hannes Pétur Eggertsson",
@@ -2240,6 +2579,120 @@
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "C++"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCAnIcQ",
+      "login": "KczBen",
+      "name": "Bence Koczogh",
+      "type": "User",
+      "location": "Reykjavík, Iceland",
+      "url": "https://github.com/KczBen",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/134858865?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "rs-linux-autoconnect",
+        "nameWithOwner": "KczBen/rs-linux-autoconnect",
+        "url": "https://github.com/KczBen/rs-linux-autoconnect",
+        "description": "A shim library to automatically connect Rocksmith 2014 on Linux to hardware inputs and outputs.",
+        "stargazerCount": 3,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-06-07T21:43:38Z",
+        "pushedAt": "2025-07-25T14:41:17Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjczNDk2Ng==",
+      "login": "lumpidu",
+      "name": "Daniel Schnell",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/lumpidu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/734966?u=215bbe52bd168573f41588d7ad1c26268e837a3b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "UTMOS-demo",
+        "nameWithOwner": "lumpidu/UTMOS-demo",
+        "url": "https://github.com/lumpidu/UTMOS-demo",
+        "description": null,
+        "stargazerCount": 3,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-02-17T20:39:59Z",
+        "pushedAt": "2024-05-06T18:25:04Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMzODMwNzMw",
+      "login": "MikaelAndriIngason",
+      "name": "Mikael Andri Ingason",
+      "type": "User",
+      "location": "Ísland / Iceland",
+      "url": "https://github.com/MikaelAndriIngason",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33830730?u=56d6a906afb64705bfdac05dfe77b270c1d4ea15&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "HBV501G-Team-4",
+        "nameWithOwner": "MikaelAndriIngason/HBV501G-Team-4",
+        "url": "https://github.com/MikaelAndriIngason/HBV501G-Team-4",
+        "description": null,
+        "stargazerCount": 3,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-09-07T18:16:03Z",
+        "pushedAt": "2024-03-11T17:52:37Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
         },
         "licenseInfo": null
       }
@@ -2537,6 +2990,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjc0NDk3NDIw",
+      "login": "BlueCat9013",
+      "name": "Blue_Cat_9013",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/BlueCat9013",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/74497420?u=4e0e2280269aa943346d61a458d5e14a3139b00f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "BlueCat9013",
+        "nameWithOwner": "BlueCat9013/BlueCat9013",
+        "url": "https://github.com/BlueCat9013/BlueCat9013",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-07-21T12:42:31Z",
+        "pushedAt": "2023-08-31T06:25:56Z",
+        "homepageUrl": "https://github.com/BlueCat9013",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjUyMDA0NTY1",
       "login": "BRE-ISNIC",
       "name": "Bjarni Rúnar Einarsson",
@@ -2568,6 +3055,45 @@
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI0MjIyNjU0",
+      "login": "davidv16",
+      "name": "Davíð Valdimar Arnalds",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/davidv16",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/24222654?u=d9c78bf00248ad4510b1fb68b8bb0f9a8a9355ed&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "Fictional-University-Course",
+        "nameWithOwner": "davidv16/Fictional-University-Course",
+        "url": "https://github.com/davidv16/Fictional-University-Course",
+        "description": null,
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-11-11T17:02:29Z",
+        "pushedAt": "2021-04-21T22:54:13Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
       }
     },
     {
@@ -2640,6 +3166,84 @@
           "name": "C"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEzODkwODQ1",
+      "login": "k0sf",
+      "name": "k0sf",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/k0sf",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13890845?u=21e643ba46a153a083e57d6f8a3db960b782fea4&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "WineApplication",
+        "nameWithOwner": "k0sf/WineApplication",
+        "url": "https://github.com/k0sf/WineApplication",
+        "description": "wine应用",
+        "stargazerCount": 2,
+        "forkCount": 1,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2018-03-28T14:47:27Z",
+        "pushedAt": "2020-03-02T17:36:37Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Shell"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjcxMTAyNDk=",
+      "login": "kristux",
+      "name": "Kristinn Sigurbergsson",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/kristux",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7110249?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "software-house-template",
+        "nameWithOwner": "kristux/software-house-template",
+        "url": "https://github.com/kristux/software-house-template",
+        "description": "An AI-agent software development company run inside Claude Code: pipeline, roles, and ground rules (reference copy)",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-20T22:50:05Z",
+        "pushedAt": "2026-10-20T22:50:11Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -2746,6 +3350,45 @@
           "name": "C++"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI3MzUxMzUx",
+      "login": "uglurass",
+      "name": "Ásgeir Örn Loftsson",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/uglurass",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/27351351?u=e6eee104cfb2732c82c6a23dec011dfa77e47a07&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "Bafang-Ebike",
+        "nameWithOwner": "uglurass/Bafang-Ebike",
+        "url": "https://github.com/uglurass/Bafang-Ebike",
+        "description": "This is modification of firmware.",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-06-02T03:17:48Z",
+        "pushedAt": "2024-06-02T03:48:43Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Pascal"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
       }
     },
     {
@@ -3075,6 +3718,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjE0OTc3OTQ=",
+      "login": "depill",
+      "name": "Davíð Fannar Gunnarsson",
+      "type": "User",
+      "location": "Kópavogur, Iceland",
+      "url": "https://github.com/depill",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1497794?u=cf7d2953a307b4d7e00144bab0e6a188dff3b43b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "sfdx-plugin-scratcher",
+        "nameWithOwner": "depill/sfdx-plugin-scratcher",
+        "url": "https://github.com/depill/sfdx-plugin-scratcher",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2018-11-30T18:48:45Z",
+        "pushedAt": "2019-11-04T14:56:54Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDODW_sBg",
       "login": "DieTinkus",
       "name": "Die Tinkus",
@@ -3179,6 +3858,84 @@
       }
     },
     {
+      "id": "U_kgDODZSwWg",
+      "login": "gabesdr",
+      "name": "Gabríel del Rosario",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/gabesdr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/227848282?u=75e7f8e766cd744bb7569ee48b1a0d0512defa4b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "Movie-Planner",
+        "nameWithOwner": "gabesdr/Movie-Planner",
+        "url": "https://github.com/gabesdr/Movie-Planner",
+        "description": "Movie Planner - Þetta verkefni er byggt með Apache Maven, sem sér um pakkastjórnun og þýðingu sjálfkrafa.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-18T20:40:13Z",
+        "pushedAt": "2026-04-24T20:02:28Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOBm0aLg",
+      "login": "GIH-LOL",
+      "name": "GIH_LOL",
+      "type": "User",
+      "location": "iceland",
+      "url": "https://github.com/GIH-LOL",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/107813422?u=e73ed6a14c4cd0bcf7099c17b27c5597ec162dd7&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "GIH_LOL-roblox-gui",
+        "nameWithOwner": "GIH-LOL/GIH_LOL-roblox-gui",
+        "url": "https://github.com/GIH-LOL/GIH_LOL-roblox-gui",
+        "description": "for fun",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-02-08T14:34:25Z",
+        "pushedAt": "2024-09-08T02:05:08Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Lua"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE1MzE0MDI4",
       "login": "Ginagie",
       "name": "Gina sapanta",
@@ -3245,6 +4002,42 @@
         "pushedAt": "2020-10-23T11:06:15Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjczMzMyNjcw",
+      "login": "goldfink",
+      "name": "Dan Marsollek",
+      "type": "User",
+      "location": "iceland",
+      "url": "https://github.com/goldfink",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73332670?u=7bf4fc748091cb611b531661b8c2610a04b6f205&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "collision-detection-physics-gpu-accelerated",
+        "nameWithOwner": "goldfink/collision-detection-physics-gpu-accelerated",
+        "url": "https://github.com/goldfink/collision-detection-physics-gpu-accelerated",
+        "description": "i accelerated the spicyjoghurt collision detection with a GPU.js kernel",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-11-21T14:57:10Z",
+        "pushedAt": "2020-11-21T14:58:14Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
         "licenseInfo": null
       }
     },
@@ -3433,6 +4226,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjEzMDQ3MDg5",
+      "login": "hallur",
+      "name": "Hallur A. Atlason",
+      "type": "User",
+      "location": "Reykjavik, Iceland",
+      "url": "https://github.com/hallur",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13047089?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "boardgame",
+        "nameWithOwner": "hallur/boardgame",
+        "url": "https://github.com/hallur/boardgame",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-05-09T14:10:32Z",
+        "pushedAt": "2017-05-14T22:56:33Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "U_kgDOB5fI3g",
       "login": "hnodriturbo",
       "name": "Hreidar Petursson",
@@ -3463,6 +4295,78 @@
         "pushedAt": "2026-06-16T16:51:00Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjExOTExMjg4",
+      "login": "hutton85is",
+      "name": "John Russell Hutton",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/hutton85is",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11911288?u=c38a48bcbd0ae4434c584bf80bb12017447fe122&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "SearchDirectory",
+        "nameWithOwner": "hutton85is/SearchDirectory",
+        "url": "https://github.com/hutton85is/SearchDirectory",
+        "description": "Program that searches all files in a folder and its subfolders",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-03-01T16:32:37Z",
+        "pushedAt": "2018-03-03T14:05:23Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODeHonA",
+      "login": "ingzenegger",
+      "name": "Inga Beck",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/ingzenegger",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/232908956?u=f5aad4ed16524c2f5d3ff3fffd60f526d68e4d1d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "HrossabresturShop",
+        "nameWithOwner": "ingzenegger/HrossabresturShop",
+        "url": "https://github.com/ingzenegger/HrossabresturShop",
+        "description": "Lokaverkefni NTV vor26",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-12T18:33:17Z",
+        "pushedAt": "2026-09-28T15:08:16Z",
+        "homepageUrl": "https://hrossabrestur.vercel.app",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
         "licenseInfo": null
       }
     },
@@ -3571,6 +4475,78 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjMxNzgzMTU=",
+      "login": "kertavax",
+      "name": "Egill Runar Vidarsson",
+      "type": "User",
+      "location": "Reykjavik, Iceland",
+      "url": "https://github.com/kertavax",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3178315?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "holacracy-governance-meeting-chat",
+        "nameWithOwner": "kertavax/holacracy-governance-meeting-chat",
+        "url": "https://github.com/kertavax/holacracy-governance-meeting-chat",
+        "description": "Holacracy Governance Meeting in chat form",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-07-30T14:53:01Z",
+        "pushedAt": "2016-08-04T22:11:56Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEyNDQ1Ng==",
+      "login": "konni",
+      "name": "Hákon Birgisson",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/konni",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/124456?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "smartthings-viera",
+        "nameWithOwner": "konni/smartthings-viera",
+        "url": "https://github.com/konni/smartthings-viera",
+        "description": "Smart Things Apps",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-10-02T00:30:03Z",
+        "pushedAt": "2017-10-02T00:45:20Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Groovy"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjMzMTM2NTU5",
       "login": "Kowajanski",
       "name": "Jan Kowalewski",
@@ -3602,6 +4578,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI3NjczNTg=",
+      "login": "KuroSan",
+      "name": "Raul San",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/KuroSan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2767358?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "HotelAnimais-master",
+        "nameWithOwner": "KuroSan/HotelAnimais-master",
+        "url": "https://github.com/KuroSan/HotelAnimais-master",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2012-11-24T17:46:45Z",
+        "pushedAt": "2012-11-26T11:42:17Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
         },
         "licenseInfo": null
       }
@@ -3682,6 +4694,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjI1ODg1NDY=",
+      "login": "maggask",
+      "name": "Margrét S. Kristjánsdóttir",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/maggask",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2588546?u=b8059b2cc0d3dfdb5373420ff0d2489e08f8f36b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "DrawProgram",
+        "nameWithOwner": "maggask/DrawProgram",
+        "url": "https://github.com/maggask/DrawProgram",
+        "description": "A little canvas drawing program programmed in HTML5, CSS and Javascript and is Object oriented",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-02-28T11:00:21Z",
+        "pushedAt": "2014-02-28T11:12:24Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDODNk75Q",
       "login": "mbty-hi",
       "name": null,
@@ -3718,6 +4766,42 @@
           "name": "Apache License 2.0",
           "spdxId": "Apache-2.0"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI2MzAzNTQx",
+      "login": "milosptr",
+      "name": "Miloš Petrović",
+      "type": "User",
+      "location": "Reykjavik, Iceland",
+      "url": "https://github.com/milosptr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/26303541?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "alphabet-reflex-game",
+        "nameWithOwner": "milosptr/alphabet-reflex-game",
+        "url": "https://github.com/milosptr/alphabet-reflex-game",
+        "description": "Letter guessing game built in JavaScript",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-06-23T16:18:33Z",
+        "pushedAt": "2019-06-25T17:55:46Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -3791,6 +4875,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjcwNzAxMjEz",
+      "login": "OliValur",
+      "name": "CCP-Valcon",
+      "type": "User",
+      "location": "Reykjavik, Iceland",
+      "url": "https://github.com/OliValur",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/70701213?u=de4812a448906bc85c1b0c53fd843900cefe7a08&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "BallPredict",
+        "nameWithOwner": "OliValur/BallPredict",
+        "url": "https://github.com/OliValur/BallPredict",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-04-15T16:04:37Z",
+        "pushedAt": "2025-08-30T14:49:12Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
         },
         "licenseInfo": null
       }
@@ -3904,6 +5024,78 @@
       }
     },
     {
+      "id": "U_kgDOBtYDUw",
+      "login": "Sigrun3va",
+      "name": "Sigrún Eva",
+      "type": "User",
+      "location": "iceland",
+      "url": "https://github.com/Sigrun3va",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/114688851?u=7f7dc78c2094b921a99279b828b45fada9d3c75c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "Lokaverkefni_recipes_app",
+        "nameWithOwner": "Sigrun3va/Lokaverkefni_recipes_app",
+        "url": "https://github.com/Sigrun3va/Lokaverkefni_recipes_app",
+        "description": "Baking recipes app",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-12-11T20:07:24Z",
+        "pushedAt": "2024-12-22T16:44:19Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Dart"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMwMzU3MzQ=",
+      "login": "sigurdurthorjonsson",
+      "name": "Sigurður Þór Jónsson",
+      "type": "User",
+      "location": "Reykjavík, Iceland",
+      "url": "https://github.com/sigurdurthorjonsson",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3035734?u=020de05a8f4af85c85c93ab4700a63a2242c732b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "myoisst",
+        "nameWithOwner": "sigurdurthorjonsson/myoisst",
+        "url": "https://github.com/sigurdurthorjonsson/myoisst",
+        "description": "scripts and average oi-sst-ncdfs to show SST and SST anomalies in selected areas of the North Atlantic",
+        "stargazerCount": 1,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-08-22T06:58:04Z",
+        "pushedAt": "2020-08-18T10:24:55Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "R"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjcwNzA1MTcy",
       "login": "SindriTh",
       "name": "Sindri Þór",
@@ -3935,6 +5127,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI4MjI4Mg==",
+      "login": "snarpur",
+      "name": "Orri Gautur Pálsson",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/snarpur",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/282282?u=0cc881ac85880aba4fd1b7bb7cc8c3617d4da920&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "timeline",
+        "nameWithOwner": "snarpur/timeline",
+        "url": "https://github.com/snarpur/timeline",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2010-11-16T09:46:53Z",
+        "pushedAt": "2010-12-21T14:57:20Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "JavaScript"
         },
         "licenseInfo": null
       }
@@ -4015,6 +5243,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjEyMzc0MzQx",
+      "login": "Steinarthor",
+      "name": "Steinar Þór Oddsson",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/Steinarthor",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12374341?u=fd4ea614ee953f1de6c69a5850a68f1b5ddeadee&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "savvy-quiz",
+        "nameWithOwner": "Steinarthor/savvy-quiz",
+        "url": "https://github.com/Steinarthor/savvy-quiz",
+        "description": "Reasonml quiz app",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-01-25T17:25:23Z",
+        "pushedAt": "2022-12-11T21:58:43Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Reason"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjY0NDA5NjA=",
       "login": "Teddi96",
       "name": "Theódór S. Andrésson",
@@ -4054,6 +5318,42 @@
       }
     },
     {
+      "id": "U_kgDOCadTiQ",
+      "login": "TomasPospisil97",
+      "name": null,
+      "type": "User",
+      "location": "ICELAND",
+      "url": "https://github.com/TomasPospisil97",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/161960841?u=42a57890f4588f15379fdbe1644b4a46cc780772&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "game",
+        "nameWithOwner": "TomasPospisil97/game",
+        "url": "https://github.com/TomasPospisil97/game",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-05-19T17:59:20Z",
+        "pushedAt": "2024-05-28T15:33:24Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjU3MzQ3OTMy",
       "login": "utlagi",
       "name": "Gísli Hjálmtýsson",
@@ -4085,6 +5385,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "TeX"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUyNzgzMjA=",
+      "login": "vhafdal",
+      "name": "Þorvaldur Hafdal",
+      "type": "User",
+      "location": "Selfoss, Iceland",
+      "url": "https://github.com/vhafdal",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5278320?u=fcc044d02f06d64fc536b8a8cacfdfa07074660a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "DevOp.Toon.API",
+        "nameWithOwner": "vhafdal/DevOp.Toon.API",
+        "url": "https://github.com/vhafdal/DevOp.Toon.API",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-18T17:07:00Z",
+        "pushedAt": "2026-04-23T16:48:13Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C#"
         },
         "licenseInfo": null
       }
@@ -4126,6 +5462,42 @@
           "name": "Other",
           "spdxId": "NOASSERTION"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjcxMTI2MTAz",
+      "login": "WebDevN",
+      "name": "Devin Neubrander",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/WebDevN",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/71126103?u=73b0652a193155a33e3e087c01287394d206dacd&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "Battleship",
+        "nameWithOwner": "WebDevN/Battleship",
+        "url": "https://github.com/WebDevN/Battleship",
+        "description": "Web application to play a sizeable yet simple game of battleship.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-12-15T10:07:37Z",
+        "pushedAt": "2020-12-15T13:11:23Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -4631,6 +6003,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjE4MzAyNjY3",
+      "login": "Ali-xra",
+      "name": "Ali soleymani",
+      "type": "User",
+      "location": "iceland",
+      "url": "https://github.com/Ali-xra",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18302667?u=b81960c36439a5b9d07236e24e3130969757df0d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "playlens",
+        "nameWithOwner": "Ali-xra/playlens",
+        "url": "https://github.com/Ali-xra/playlens",
+        "description": "playlens on ai suudio",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-02T22:10:51Z",
+        "pushedAt": "2026-05-21T19:39:44Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjIyMzAyMTk3",
       "login": "alialsaraaf",
       "name": "ali alsaraaf",
@@ -4730,6 +6138,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY1MjY1Njky",
+      "login": "amandaelvars",
+      "name": null,
+      "type": "User",
+      "location": "Reykjavík, Iceland",
+      "url": "https://github.com/amandaelvars",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/65265692?u=ab175c42711e83754bd721b2b0db6a8b97e88449&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "amandahelga_2_0",
+        "nameWithOwner": "amandaelvars/amandahelga_2_0",
+        "url": "https://github.com/amandaelvars/amandahelga_2_0",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-10-30T17:59:26Z",
+        "pushedAt": "2025-12-09T19:39:23Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
         },
         "licenseInfo": null
       }
@@ -5092,6 +6536,79 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjE3ODI1OTE0",
+      "login": "ArnaVala",
+      "name": "Arna Vala",
+      "type": "User",
+      "location": "Reykjavík, Iceland",
+      "url": "https://github.com/ArnaVala",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17825914?u=b618898420447f8dd6873b670ffd05dc8333ff08&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "erna",
+        "nameWithOwner": "ArnaVala/erna",
+        "url": "https://github.com/ArnaVala/erna",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-07-15T20:32:38Z",
+        "pushedAt": "2023-11-11T04:48:49Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOBqnLNw",
+      "login": "ArngrimurDagur",
+      "name": "Arngrimur Dagur",
+      "type": "User",
+      "location": "Iceland, Reykjavik",
+      "url": "https://github.com/ArngrimurDagur",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/111790903?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "KEST3LN",
+        "nameWithOwner": "ArngrimurDagur/KEST3LN",
+        "url": "https://github.com/ArngrimurDagur/KEST3LN",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-10-14T02:17:13Z",
+        "pushedAt": "2025-10-14T02:17:14Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBysF2Q",
       "login": "arnim0656",
       "name": "Arni Möller",
@@ -5122,6 +6639,42 @@
         "pushedAt": "2022-12-10T16:20:38Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ4Nzk2ODg5",
+      "login": "arninja",
+      "name": "Arnar Ingi Njardarson",
+      "type": "User",
+      "location": "Reykjavik, Iceland",
+      "url": "https://github.com/arninja",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/48796889?u=e9da1f1b90a7f61ed3e27154b0c84be7dbf9a82d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "vef2-2019-v2-synilausn",
+        "nameWithOwner": "arninja/vef2-2019-v2-synilausn",
+        "url": "https://github.com/arninja/vef2-2019-v2-synilausn",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-02-12T12:12:18Z",
+        "pushedAt": "2021-02-12T12:18:11Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
         "licenseInfo": null
       }
     },
@@ -5227,6 +6780,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBh2m-w",
+      "login": "ArtemixArt228",
+      "name": "Artem Kovalitskyi (Artemix)",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/ArtemixArt228",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/102606587?u=e63177b5dfb9c39573b108f6c2ee0f5e69785bbf&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "task-tracker",
+        "nameWithOwner": "ArtemixArt228/task-tracker",
+        "url": "https://github.com/ArtemixArt228/task-tracker",
+        "description": "Task Tracker: from zero to production on Railway (better-t-stack)",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-07T14:57:13Z",
+        "pushedAt": "2026-10-16T11:38:33Z",
+        "homepageUrl": "https://web-production-3ee61c.up.railway.app/",
+        "primaryLanguage": {
+          "name": "TypeScript"
         },
         "licenseInfo": null
       }
@@ -5448,6 +7037,42 @@
         "pushedAt": "2022-06-05T02:50:47Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMyNzAxMjIx",
+      "login": "AtliG",
+      "name": "Atli Guðjónsson",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/AtliG",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/32701221?u=239ab3ff24a4faf2edc8fd13fcf20bed004a03e4&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "Breakout3D",
+        "nameWithOwner": "AtliG/Breakout3D",
+        "url": "https://github.com/AtliG/Breakout3D",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-04-10T22:28:09Z",
+        "pushedAt": "2021-04-12T00:16:05Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
         "licenseInfo": null
       }
     },
@@ -5701,6 +7326,42 @@
       }
     },
     {
+      "id": "U_kgDOCZStag",
+      "login": "baldureinar1",
+      "name": "Baldur Einar",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/baldureinar1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/160738666?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "b2b-elko",
+        "nameWithOwner": "baldureinar1/b2b-elko",
+        "url": "https://github.com/baldureinar1/b2b-elko",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-16T19:28:03Z",
+        "pushedAt": "2026-10-18T15:24:09Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjczNzczNzg=",
       "login": "baldurkr",
       "name": null,
@@ -5734,6 +7395,45 @@
           "name": "TypeScript"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjk5Nzc0NDg=",
+      "login": "BaldurTr",
+      "name": "Baldur Tryggvason",
+      "type": "User",
+      "location": "Reykjavik, Iceland",
+      "url": "https://github.com/BaldurTr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9977448?u=b5e44eeec78921bf1e9b9241280e94a82948d6d9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "BokunDart",
+        "nameWithOwner": "BaldurTr/BokunDart",
+        "url": "https://github.com/BaldurTr/BokunDart",
+        "description": "A mobile client for managing dart games as Bokun",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-03-31T17:46:38Z",
+        "pushedAt": "2019-05-05T11:48:59Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Dart"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -6197,6 +7897,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "R"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMyNjE2MTE0",
+      "login": "birkirfreyrg",
+      "name": "Birkir Freyr Guðbjartsson",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/birkirfreyrg",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/32616114?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "agnes-knitting",
+        "nameWithOwner": "birkirfreyrg/agnes-knitting",
+        "url": "https://github.com/birkirfreyrg/agnes-knitting",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-12-31T01:41:55Z",
+        "pushedAt": "2026-09-25T21:47:19Z",
+        "homepageUrl": "https://agnes-knitting.vercel.app",
+        "primaryLanguage": {
+          "name": "TypeScript"
         },
         "licenseInfo": null
       }
@@ -6788,6 +8524,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjEwMzMwMzk=",
+      "login": "Chipcius",
+      "name": "Andri Thorlacius",
+      "type": "User",
+      "location": "Reykjavik, Iceland",
+      "url": "https://github.com/Chipcius",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1033039?u=85eab88fe4b17960fa9043e768f4c1813226ccef&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "Chipcius",
+        "nameWithOwner": "Chipcius/Chipcius",
+        "url": "https://github.com/Chipcius/Chipcius",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-15T20:46:39Z",
+        "pushedAt": "2026-01-15T20:48:04Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjc0ODg4NjE=",
       "login": "clarkdeirdre",
       "name": "Deirdre Clark",
@@ -7111,6 +8881,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjg5Nzc4MzA1",
+      "login": "dadi-sothebys",
+      "name": "Daði",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/dadi-sothebys",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/89778305?u=498e5ea2da80498f525f6d0d0a8c5d49bd115e1e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "dadi-sothebys",
+        "nameWithOwner": "dadi-sothebys/dadi-sothebys",
+        "url": "https://github.com/dadi-sothebys/dadi-sothebys",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-09-01T10:47:49Z",
+        "pushedAt": "2022-02-18T08:49:27Z",
+        "homepageUrl": "https://github.com/dadi-sothebys",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI4NTE0Njk4",
       "login": "dadilisto",
       "name": "Daði ",
@@ -7142,6 +8946,45 @@
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE3MTYyNjQz",
+      "login": "dagsson",
+      "name": "Þormóður Dagsson",
+      "type": "User",
+      "location": "Reykjavík, Iceland",
+      "url": "https://github.com/dagsson",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17162643?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "gatsby-thorri-netlify-cms",
+        "nameWithOwner": "dagsson/gatsby-thorri-netlify-cms",
+        "url": "https://github.com/dagsson/gatsby-thorri-netlify-cms",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-03-28T11:41:13Z",
+        "pushedAt": "2023-01-11T21:57:09Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -7213,6 +9056,42 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "U_kgDOBxZ9Qw",
+      "login": "danakongur",
+      "name": null,
+      "type": "User",
+      "location": "iceland",
+      "url": "https://github.com/danakongur",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/118914371?u=a227adf0a95e1e82449651c7e2a1bdb056b28230&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "temperature-controller",
+        "nameWithOwner": "danakongur/temperature-controller",
+        "url": "https://github.com/danakongur/temperature-controller",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-06-16T21:26:54Z",
+        "pushedAt": "2026-10-03T16:51:34Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -7642,6 +9521,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ1ODg2NzMy",
+      "login": "Deweyhinni",
+      "name": "deweyhinni",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/Deweyhinni",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/45886732?u=4aa08bad6364485de9f3b6ebee28bbebbee529c4&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "tree-sitter-nyaaml",
+        "nameWithOwner": "Deweyhinni/tree-sitter-nyaaml",
+        "url": "https://github.com/Deweyhinni/tree-sitter-nyaaml",
+        "description": "treesitter parser for NyaaML",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-11-03T21:32:05Z",
+        "pushedAt": "2025-11-04T18:06:54Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE3MTgxMTg4",
       "login": "DNA90",
       "name": "Tanya Tasheva",
@@ -7673,6 +9588,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc4MTAxODkw",
+      "login": "Domald-d",
+      "name": "Domald",
+      "type": "User",
+      "location": "iceland",
+      "url": "https://github.com/Domald-d",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/78101890?u=acbd6b42ec5d48b9c9785c262f1496cd979dc54a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "Stora-Verkefnid",
+        "nameWithOwner": "Domald-d/Stora-Verkefnid",
+        "url": "https://github.com/Domald-d/Stora-Verkefnid",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-03-13T08:24:11Z",
+        "pushedAt": "2025-04-07T17:03:07Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
         },
         "licenseInfo": null
       }
@@ -7821,6 +9772,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU2ODUwNDg=",
+      "login": "Durti",
+      "name": "Hjörtur Steingrímsson",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/Durti",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5685048?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "tv-time-2",
+        "nameWithOwner": "Durti/tv-time-2",
+        "url": "https://github.com/Durti/tv-time-2",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-01-05T20:18:43Z",
+        "pushedAt": "2016-01-05T20:18:43Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOEW6iPQ",
       "login": "dyahanggraini",
       "name": null,
@@ -7896,6 +9881,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjI1ODQ2NzI=",
+      "login": "egillah",
+      "name": "Egill Heinesen",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/egillah",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2584672?u=b7d7f2f24f984590bb33a1f92aac57ec8d0a90a3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "onoff",
+        "nameWithOwner": "egillah/onoff",
+        "url": "https://github.com/egillah/onoff",
+        "description": "OnOff tímaskráning",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-11-28T17:07:03Z",
+        "pushedAt": "2017-11-28T17:07:04Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE2MDMxNTQy",
       "login": "EgillM",
       "name": "Egill",
@@ -7927,6 +9946,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Go"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM0MDY0ODcw",
+      "login": "egilltor17",
+      "name": null,
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/egilltor17",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/34064870?u=1412edd9155c5b639901fddb24fc3fe4b43137bf&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "COPM-Project",
+        "nameWithOwner": "egilltor17/COPM-Project",
+        "url": "https://github.com/egilltor17/COPM-Project",
+        "description": "Liver Tumor Segmentation - SC-T-869-COMP - Computer Vision course in Reykjavik University - Fall 2020",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-11-29T01:25:51Z",
+        "pushedAt": "2020-12-06T21:26:38Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
         },
         "licenseInfo": null
       }
@@ -8545,6 +10600,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjY4NjA5NTU=",
+      "login": "ethnicland",
+      "name": "Benedikt Björnsson",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/ethnicland",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6860955?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "Hverfi_fyrsta",
+        "nameWithOwner": "ethnicland/Hverfi_fyrsta",
+        "url": "https://github.com/ethnicland/Hverfi_fyrsta",
+        "description": "Gefa ut Fyrsta hverfið með því að búa til pull request og færa það þannig yfir í master",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-05-06T15:14:21Z",
+        "pushedAt": "2016-05-11T10:17:22Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOC0uzLw",
       "login": "Evil-Whales",
       "name": "鲸鱼_Official",
@@ -8574,6 +10663,40 @@
         "createdAt": "2024-11-24T08:05:57Z",
         "pushedAt": "2026-06-24T10:19:51Z",
         "homepageUrl": "https://github.com/Evil-Whales",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE2NzE0OA==",
+      "login": "eythor",
+      "name": "Eyþór Sigmundsson",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/eythor",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/167148?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "vim-snippets",
+        "nameWithOwner": "eythor/vim-snippets",
+        "url": "https://github.com/eythor/vim-snippets",
+        "description": "Snippets I create/use for vim",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-09-07T12:38:22Z",
+        "pushedAt": "2016-09-14T22:10:13Z",
+        "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
       }
@@ -8680,6 +10803,45 @@
           "name": "TypeScript"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCeJ2SA",
+      "login": "Faisaliqbal2003",
+      "name": "Faisal Iqbal ",
+      "type": "User",
+      "location": "Silver iceland building, near baniyas metro station daira dubai ",
+      "url": "https://github.com/Faisaliqbal2003",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/165836360?u=0f9f6a6f564aa2ac0efe6069fc68d459a511337c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "All-Files-Converter-",
+        "nameWithOwner": "Faisaliqbal2003/All-Files-Converter-",
+        "url": "https://github.com/Faisaliqbal2003/All-Files-Converter-",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-02-20T16:19:05Z",
+        "pushedAt": "2025-02-20T16:25:24Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -8964,6 +11126,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjMyNjM4ODM1",
+      "login": "fredzonn",
+      "name": "Emil Alfreðsson",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/fredzonn",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/32638835?u=a4c3a7455c7c049a541ab1e667b555e82fe50b7a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "ReactTemplate",
+        "nameWithOwner": "fredzonn/ReactTemplate",
+        "url": "https://github.com/fredzonn/ReactTemplate",
+        "description": "Getting started with React, will use this as template.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-04-06T21:17:24Z",
+        "pushedAt": "2023-04-06T21:53:07Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOC0SvyA",
       "login": "FreyjaKatra",
       "name": "Freyja Katra Erlingsdóttir",
@@ -9169,6 +11367,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgxMjE1MzE3",
+      "login": "gabehwk",
+      "name": "Gabriel",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/gabehwk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/81215317?u=8297c4a7f98ad9da74e587bc65620eac3b681124&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "imagehosting",
+        "nameWithOwner": "gabehwk/imagehosting",
+        "url": "https://github.com/gabehwk/imagehosting",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-01-17T08:09:44Z",
+        "pushedAt": "2025-01-17T08:09:46Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
         },
         "licenseInfo": null
       }
@@ -9861,6 +12095,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjk0NjEyNDA=",
+      "login": "gsvavarsson",
+      "name": "Gísli Freyr Svavarsson",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/gsvavarsson",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9461240?u=0d27d7466ad873cfd96c183596405cb91aed7125&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "forestryTest",
+        "nameWithOwner": "gsvavarsson/forestryTest",
+        "url": "https://github.com/gsvavarsson/forestryTest",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-07-16T07:38:45Z",
+        "pushedAt": "2022-12-13T07:35:02Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "CSS"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI2MzY2Mzgz",
       "login": "GTK87",
       "name": "Łukasz Gotkiewicz",
@@ -9962,6 +12235,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEyMjU0ODQ2",
+      "login": "gudjonss",
+      "name": "Guðjón Steinar Sverrisson",
+      "type": "User",
+      "location": "Reykjavík, Iceland",
+      "url": "https://github.com/gudjonss",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12254846?u=eca6d50be74b4445d513d195225d427c19d1b7e0&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "SpaceInvaders",
+        "nameWithOwner": "gudjonss/SpaceInvaders",
+        "url": "https://github.com/gudjonss/SpaceInvaders",
+        "description": "Space Invaders clone written in python 3.5",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-01-06T14:10:41Z",
+        "pushedAt": "2017-01-06T16:52:56Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
         },
         "licenseInfo": null
       }
@@ -10070,6 +12379,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjcyNTU5NzA0",
+      "login": "Gunnar-Ingi",
+      "name": "Gunnar Ingi Guðjónsson",
+      "type": "User",
+      "location": "iceland",
+      "url": "https://github.com/Gunnar-Ingi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/72559704?u=79e4403d46f565d81fdd3a08b0fd32607f2459e5&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "vef2-2024-v5",
+        "nameWithOwner": "Gunnar-Ingi/vef2-2024-v5",
+        "url": "https://github.com/Gunnar-Ingi/vef2-2024-v5",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-04-06T19:14:17Z",
+        "pushedAt": "2024-04-08T13:42:03Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
         },
         "licenseInfo": null
       }
@@ -10610,6 +12955,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjIwMzgyMzg4",
+      "login": "hermannsson",
+      "name": "Ingvi Þór Hermannsson",
+      "type": "User",
+      "location": "Reykjavík, Iceland",
+      "url": "https://github.com/hermannsson",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/20382388?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "crossfit-games-2026",
+        "nameWithOwner": "hermannsson/crossfit-games-2026",
+        "url": "https://github.com/hermannsson/crossfit-games-2026",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-22T12:02:24Z",
+        "pushedAt": "2026-07-22T20:30:23Z",
+        "homepageUrl": "https://crossfit-games-2026.vercel.app",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI1Mjk4MzI=",
       "login": "herraviddi",
       "name": "Vidar Fridriksson",
@@ -10710,6 +13091,42 @@
         "pushedAt": "2013-04-10T02:48:00Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYwMDM2MzA=",
+      "login": "hi-jklmn",
+      "name": "jklmn",
+      "type": "User",
+      "location": "Reykjavik, Iceland",
+      "url": "https://github.com/hi-jklmn",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6003630?u=4391cfc93785fb1dd9293d82b5a292100b06c267&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "cursed",
+        "nameWithOwner": "hi-jklmn/cursed",
+        "url": "https://github.com/hi-jklmn/cursed",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-07-26T17:51:19Z",
+        "pushedAt": "2022-08-10T19:00:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C"
+        },
         "licenseInfo": null
       }
     },
@@ -10885,6 +13302,112 @@
         "createdAt": "2025-03-22T14:06:44Z",
         "pushedAt": "2025-03-23T12:22:43Z",
         "homepageUrl": "https://hjolabretti.vercel.app",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc0NzM1ODY=",
+      "login": "hrannar10",
+      "name": "Hrannar Már Ágústsson",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/hrannar10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7473586?u=e93ac1f3ea5268b11f815ce8ab25dddeb7c5d883&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "pottastyring",
+        "nameWithOwner": "hrannar10/pottastyring",
+        "url": "https://github.com/hrannar10/pottastyring",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-31T21:24:35Z",
+        "pushedAt": "2026-08-31T21:28:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI1MjA3MTAw",
+      "login": "hrefnathorey",
+      "name": "Hrefna Þórey",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/hrefnathorey",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25207100?u=3996ecb651a3b564569865fd82080f0303dd914f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "Nexter",
+        "nameWithOwner": "hrefnathorey/Nexter",
+        "url": "https://github.com/hrefnathorey/Nexter",
+        "description": "Project from the Udemy course: Advanced CSS and Sass: Flexbox, Grid, Animation and more. In this project I worked with Grid.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-05-21T14:20:37Z",
+        "pushedAt": "2022-12-11T06:55:37Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "CSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc1MDYxNDk=",
+      "login": "hreidar96",
+      "name": "Hreiðar Ingi Hallgrímsson",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/hreidar96",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7506149?u=f6afa0415467cdc8d81d1df9168ca23286672cc7&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "receipt-tracker",
+        "nameWithOwner": "hreidar96/receipt-tracker",
+        "url": "https://github.com/hreidar96/receipt-tracker",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-03-25T17:49:49Z",
+        "pushedAt": "2025-04-15T20:07:33Z",
+        "homepageUrl": null,
         "primaryLanguage": {
           "name": "TypeScript"
         },
@@ -11671,6 +14194,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU4NDM1MjY=",
+      "login": "ivanbjarni",
+      "name": "Ívan Bjarni Jónsson",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/ivanbjarni",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5843526?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "GM48-30",
+        "nameWithOwner": "ivanbjarni/GM48-30",
+        "url": "https://github.com/ivanbjarni/GM48-30",
+        "description": "GM48 game jam nr30",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-04-19T23:35:30Z",
+        "pushedAt": "2019-04-19T23:35:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBYnL3A",
       "login": "IvarKarlBjarnason",
       "name": "Ívar Karl Bjarnason",
@@ -12307,6 +14864,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjg0ODA5Mg==",
+      "login": "johannthorir",
+      "name": "Jói",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/johannthorir",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/848092?u=df8e58200ffff4ff2b376578043596752ac1a5ca&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "holdmybeer",
+        "nameWithOwner": "johannthorir/holdmybeer",
+        "url": "https://github.com/johannthorir/holdmybeer",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-30T21:44:00Z",
+        "pushedAt": "2024-10-14T17:28:08Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCCrNNA",
       "login": "JohntitorO",
       "name": null,
@@ -12518,6 +15111,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjI1MzAwODY0",
+      "login": "joninaosk",
+      "name": "Jónína Ósk Hansen",
+      "type": "User",
+      "location": "Reykjavík, Iceland",
+      "url": "https://github.com/joninaosk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25300864?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "geers",
+        "nameWithOwner": "joninaosk/geers",
+        "url": "https://github.com/joninaosk/geers",
+        "description": "Sonova digital assessment",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-10-26T17:18:29Z",
+        "pushedAt": "2021-10-26T23:29:19Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI4MDQwNDg=",
       "login": "joningi86",
       "name": "jonistef",
@@ -12695,6 +15324,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ0MDA4MjQ0",
+      "login": "kaernested",
+      "name": "Anton Örn Kærnested",
+      "type": "User",
+      "location": "Hafnarfjörður, Iceland",
+      "url": "https://github.com/kaernested",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/44008244?u=94b164b067cc1e9f70066b05c5410ad548d60127&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "blogpost",
+        "nameWithOwner": "kaernested/blogpost",
+        "url": "https://github.com/kaernested/blogpost",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-10-14T16:54:17Z",
+        "pushedAt": "2019-10-14T16:55:40Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "CSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCvUWMQ",
       "login": "Kaldi-create",
       "name": "Einar",
@@ -12760,6 +15425,45 @@
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOEFpD6A",
+      "login": "kamiljan11",
+      "name": "Kamil Jan",
+      "type": "User",
+      "location": "Reykjavík, Iceland",
+      "url": "https://github.com/kamiljan11",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/274351080?u=63cdb56dd3f266cc31017f07514261264e63d766&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "video-pipeline-panel",
+        "nameWithOwner": "kamiljan11/video-pipeline-panel",
+        "url": "https://github.com/kamiljan11/video-pipeline-panel",
+        "description": "Local browser editor for video-pipeline: live player, timeline, critic, render queue",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-24T21:35:01Z",
+        "pushedAt": "2026-10-25T19:39:05Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -12835,6 +15539,78 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjc1MTc4OTA=",
+      "login": "karsfri",
+      "name": "Kári S Friðriksson",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/karsfri",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7517890?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "HMS_demo",
+        "nameWithOwner": "karsfri/HMS_demo",
+        "url": "https://github.com/karsfri/HMS_demo",
+        "description": "demo",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-02-19T15:48:30Z",
+        "pushedAt": "2020-02-19T16:00:23Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU0NjI1MzU0",
+      "login": "KaySiggs",
+      "name": "KaySiggs",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/KaySiggs",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/54625354?u=acd5a22dbc205901c4b2bd62896053e8e29e836e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "smileyCoinNew",
+        "nameWithOwner": "KaySiggs/smileyCoinNew",
+        "url": "https://github.com/KaySiggs/smileyCoinNew",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-11-14T19:41:51Z",
+        "pushedAt": "2021-11-15T22:23:57Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjEwMDI2Mzk=",
       "login": "kboli",
       "name": "Sveinn Björnsson",
@@ -12905,6 +15681,42 @@
           "name": "GNU General Public License v2.0",
           "spdxId": "GPL-2.0"
         }
+      }
+    },
+    {
+      "id": "U_kgDOCApwiA",
+      "login": "keneyias666",
+      "name": "Kenette Elias Amaba C.",
+      "type": "User",
+      "location": "Reykjavík, Iceland",
+      "url": "https://github.com/keneyias666",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/134901896?u=09eb130099f10f913796e909bacc7f40a0e319a2&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "voice_ver_sign",
+        "nameWithOwner": "keneyias666/voice_ver_sign",
+        "url": "https://github.com/keneyias666/voice_ver_sign",
+        "description": "A real-time translation web-app for deaf and hearing users.",
+        "stargazerCount": 0,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-25T13:14:52Z",
+        "pushedAt": "2026-08-31T09:39:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -13007,6 +15819,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEzMTAxOTM=",
+      "login": "kjwise",
+      "name": "Jóhann Haukur Gunnarsson",
+      "type": "User",
+      "location": "Reykjavík, Iceland",
+      "url": "https://github.com/kjwise",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1310193?u=3447d874660f66b50e513ee511b68676413570a5&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "typescript_code_improver",
+        "nameWithOwner": "kjwise/typescript_code_improver",
+        "url": "https://github.com/kjwise/typescript_code_improver",
+        "description": "Code Improver for TypeScript code based on SDaC principles (see architectsofintent.com)",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-02-25T14:17:40Z",
+        "pushedAt": "2026-02-26T22:43:17Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
         },
         "licenseInfo": null
       }
@@ -13140,17 +15988,17 @@
         "Iceland"
       ],
       "topRepository": {
-        "name": "vefurinn-minn",
-        "nameWithOwner": "Kr1ss1/vefurinn-minn",
-        "url": "https://github.com/Kr1ss1/vefurinn-minn",
+        "name": "timi-13-arrays",
+        "nameWithOwner": "Kr1ss1/timi-13-arrays",
+        "url": "https://github.com/Kr1ss1/timi-13-arrays",
         "description": null,
         "stargazerCount": 0,
         "forkCount": 0,
         "isArchived": false,
         "isFork": false,
-        "createdAt": "2026-09-30T18:09:42Z",
-        "pushedAt": "2026-10-01T21:53:06Z",
-        "homepageUrl": "",
+        "createdAt": "2026-10-21T19:02:17Z",
+        "pushedAt": "2026-10-22T17:56:51Z",
+        "homepageUrl": null,
         "primaryLanguage": {
           "name": "HTML"
         },
@@ -13621,6 +16469,79 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjExMTM5NTE0",
+      "login": "maggias",
+      "name": "Magnús Ágúst Skúlason",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/maggias",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11139514?u=d4ca7b84e93eb18b5dcbcd87a7d9ae7d8bbbd868&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "lovable-confslist",
+        "nameWithOwner": "maggias/lovable-confslist",
+        "url": "https://github.com/maggias/lovable-confslist",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-07-05T13:07:40Z",
+        "pushedAt": "2025-07-05T13:07:41Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE1NDk0ODg5",
+      "login": "magneticat",
+      "name": "MagnetiCat",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/magneticat",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/15494889?u=93f3ffb004de23d559b7089ede0c630b15176c07&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "catscanner",
+        "nameWithOwner": "magneticat/catscanner",
+        "url": "https://github.com/magneticat/catscanner",
+        "description": "MagnetiCat Simple Integrity Scanner",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-10-29T18:32:36Z",
+        "pushedAt": "2026-08-22T23:25:32Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI1Njc3OTU=",
       "login": "magnusk12",
       "name": "Magnus Kristinsson",
@@ -13688,6 +16609,40 @@
         "isFork": false,
         "createdAt": "2019-03-17T19:16:29Z",
         "pushedAt": "2019-03-17T19:16:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODF-jGA",
+      "login": "mangobabyme",
+      "name": "端端 Zoey",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/mangobabyme",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/207594264?u=f6c1322f8e4246e79935a390b703fa5089b4cb97&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "mangobabyme",
+        "nameWithOwner": "mangobabyme/mangobabyme",
+        "url": "https://github.com/mangobabyme/mangobabyme",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-04-14T16:45:50Z",
+        "pushedAt": "2025-04-14T16:45:51Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -13900,6 +16855,42 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjk5NzY3Njg=",
+      "login": "mazes",
+      "name": "Eirkur Birkir ragnarsson",
+      "type": "User",
+      "location": "Iceland ",
+      "url": "https://github.com/mazes",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9976768?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "Simple-REST-API-test",
+        "nameWithOwner": "mazes/Simple-REST-API-test",
+        "url": "https://github.com/mazes/Simple-REST-API-test",
+        "description": "Example for Web Services course, Reykjavík University",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-11-15T14:55:51Z",
+        "pushedAt": "2016-11-15T15:59:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -14120,6 +17111,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjUxODI1NzQy",
+      "login": "millifrikk",
+      "name": "Emil Fridriksson",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/millifrikk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/51825742?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "dose",
+        "nameWithOwner": "millifrikk/dose",
+        "url": "https://github.com/millifrikk/dose",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-06-22T16:02:36Z",
+        "pushedAt": "2026-06-23T17:26:52Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBaV4Lg",
       "login": "Mioriquf",
       "name": "Mioriquf",
@@ -14220,6 +17247,42 @@
         "pushedAt": "2026-06-08T21:11:37Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMxMzY1NTE2",
+      "login": "mortlove",
+      "name": "AleksanderGorczyk",
+      "type": "User",
+      "location": "Keflavik / Iceland",
+      "url": "https://github.com/mortlove",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/31365516?u=d96b32007165f63bcf09999bd638619fb2f81a68&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "Etap3Dzien5",
+        "nameWithOwner": "mortlove/Etap3Dzien5",
+        "url": "https://github.com/mortlove/Etap3Dzien5",
+        "description": "Zadanka",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-10-20T21:04:07Z",
+        "pushedAt": "2022-10-20T21:11:26Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
         "licenseInfo": null
       }
     },
@@ -14726,6 +17789,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU2MDQ0ODI2",
+      "login": "Olafur-Hrafn",
+      "name": "Ólafur Hrafn Ólafsson",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/Olafur-Hrafn",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/56044826?u=b4ee697586647d7e2f2e66ab6945752458b07439&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "nufcnewshub",
+        "nameWithOwner": "Olafur-Hrafn/nufcnewshub",
+        "url": "https://github.com/Olafur-Hrafn/nufcnewshub",
+        "description": "Pet project to get the latest news",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-07-03T12:19:47Z",
+        "pushedAt": "2024-07-03T12:19:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjc5MTEyNDg=",
       "login": "olafurbragason",
       "name": "Ólafur Örn Bragason",
@@ -14793,6 +17890,45 @@
           "name": "Python"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY5Nzk5MTYx",
+      "login": "olafurnielsen",
+      "name": "Olafur Nielsen",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/olafurnielsen",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/69799161?u=6093aa39a2003bb16ef80116aa5f5bc6c64b84bf&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "olafurnielsen.github.io",
+        "nameWithOwner": "olafurnielsen/olafurnielsen.github.io",
+        "url": "https://github.com/olafurnielsen/olafurnielsen.github.io",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-10-05T16:56:55Z",
+        "pushedAt": "2021-11-10T16:37:38Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -15257,6 +18393,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjcyNDAxNzEz",
+      "login": "PallFreyr",
+      "name": "Páll Freyr",
+      "type": "User",
+      "location": "Reykjavík, Iceland",
+      "url": "https://github.com/PallFreyr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/72401713?u=4fdba28f28640ad44b6f0bd21def511f9992ffb6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "Javascript-String-Encode",
+        "nameWithOwner": "PallFreyr/Javascript-String-Encode",
+        "url": "https://github.com/PallFreyr/Javascript-String-Encode",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-10-27T23:55:29Z",
+        "pushedAt": "2020-10-27T23:57:06Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCeGbBQ",
       "login": "palmithorm",
       "name": "Pálmi Þormóðsson",
@@ -15425,6 +18595,42 @@
         "isFork": false,
         "createdAt": "2026-09-07T23:33:31Z",
         "pushedAt": "2026-09-28T18:12:36Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc3NzA3NzA=",
+      "login": "PeturOA",
+      "name": "Pétur Ólafur Aðalgeirsson",
+      "type": "User",
+      "location": "Reykjavík, Iceland",
+      "url": "https://github.com/PeturOA",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7770770?u=c204383b69f22aadc8a390dc4f2335e323f194f7&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "forecast",
+        "nameWithOwner": "PeturOA/forecast",
+        "url": "https://github.com/PeturOA/forecast",
+        "description": "An application that connects to and reads weather forecast information from the Icelandic national weather forecast service.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-01-24T01:28:17Z",
+        "pushedAt": "2025-01-24T07:01:10Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Python"
@@ -15605,6 +18811,40 @@
         "primaryLanguage": {
           "name": "JavaScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCYOVZA",
+      "login": "psawhy",
+      "name": "PsA",
+      "type": "User",
+      "location": "iceland",
+      "url": "https://github.com/psawhy",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/159618404?u=00bf158ed3f1224e90a72754c02ec5a1a8ecab27&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "psawhy",
+        "nameWithOwner": "psawhy/psawhy",
+        "url": "https://github.com/psawhy/psawhy",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-02-17T11:29:16Z",
+        "pushedAt": "2024-03-28T11:05:51Z",
+        "homepageUrl": "https://github.com/psawhy",
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -15816,6 +19056,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjc0NDA0NzA=",
+      "login": "raggiadolf",
+      "name": "Ragnar Adolf Árnason",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/raggiadolf",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7440470?u=b93aec5240c1c280dfe3f0caf7b019b482f86013&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "mv",
+        "nameWithOwner": "raggiadolf/mv",
+        "url": "https://github.com/raggiadolf/mv",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-03-05T19:43:31Z",
+        "pushedAt": "2024-08-02T10:03:16Z",
+        "homepageUrl": "https://mv-omega.vercel.app",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjczMDgxMDE=",
       "login": "ragnark82",
       "name": "Ragnar Karlsson",
@@ -15880,6 +19156,42 @@
         "pushedAt": "2015-11-03T09:56:49Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI1NjQ2Nzg=",
+      "login": "ragnarp12",
+      "name": null,
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/ragnarp12",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2564678?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "Calcvisa",
+        "nameWithOwner": "ragnarp12/Calcvisa",
+        "url": "https://github.com/ragnarp12/Calcvisa",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-05-19T12:42:14Z",
+        "pushedAt": "2019-05-19T22:22:12Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
         "licenseInfo": null
       }
     },
@@ -16426,6 +19738,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjIzNjM1OTY2",
+      "login": "saevaris-advania",
+      "name": "Sævar Ingi",
+      "type": "User",
+      "location": "Reykjavík, Iceland",
+      "url": "https://github.com/saevaris-advania",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/23635966?u=125f3880f5baa4ddd15711e7ee97307fe3c91649&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "roll-call.github.io",
+        "nameWithOwner": "saevaris-advania/roll-call.github.io",
+        "url": "https://github.com/saevaris-advania/roll-call.github.io",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-06-29T15:45:21Z",
+        "pushedAt": "2026-06-29T15:49:59Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjgxMTk5NDI0",
       "login": "Safiukas",
       "name": "Augustas Matizonka",
@@ -16465,6 +19811,43 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM1Mjk1NDA0",
+      "login": "sageapgeorgei",
+      "name": "sageapgeorgei",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/sageapgeorgei",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/35295404?u=70b9e3a4bfdb0d45a527f9e4c12ba9c921c038b7&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "walidbosso",
+        "nameWithOwner": "sageapgeorgei/walidbosso",
+        "url": "https://github.com/sageapgeorgei/walidbosso",
+        "description": "🔍 You are seeing an awesome and way organized profile readme, maybe the best on Github, with a blue and green theme 🌀🍏 and then rainbow theme merged in a way with workflows 🐍 and amusing ideas 🔥 ⭐ You made it this far I see. Give it a star ⭐ & fork it!📈",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-18T16:02:38Z",
+        "pushedAt": "2026-04-18T16:04:04Z",
+        "homepageUrl": "http://walidbosso.byethost12.com",
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
       "id": "U_kgDODZSASw",
       "login": "samyperez08",
       "name": "samy perez",
@@ -16494,6 +19877,40 @@
         "createdAt": "2026-08-21T12:29:02Z",
         "pushedAt": "2026-08-21T12:29:03Z",
         "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE2MDQ3MTAy",
+      "login": "sandraosp",
+      "name": "Sandra Ösp Stefánsdóttir",
+      "type": "User",
+      "location": "Reykjavik, Iceland",
+      "url": "https://github.com/sandraosp",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16047102?u=894d51a37c8fd314363a2103b0b57be6a8a94929&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "sandraosp.is",
+        "nameWithOwner": "sandraosp/sandraosp.is",
+        "url": "https://github.com/sandraosp/sandraosp.is",
+        "description": "New design for my website. Site is down for maintenance at the moment.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-02-11T16:27:09Z",
+        "pushedAt": "2020-02-11T16:27:10Z",
+        "homepageUrl": "http://www.sandraosp.is",
         "primaryLanguage": null,
         "licenseInfo": null
       }
@@ -16646,6 +20063,42 @@
       }
     },
     {
+      "id": "U_kgDODcxZDA",
+      "login": "savargeir-byte",
+      "name": "Sævar",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/savargeir-byte",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/231495948?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "gotobudapest",
+        "nameWithOwner": "savargeir-byte/gotobudapest",
+        "url": "https://github.com/savargeir-byte/gotobudapest",
+        "description": "Vefur Fyrir GoToBudapest",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-23T09:38:38Z",
+        "pushedAt": "2026-10-23T17:43:51Z",
+        "homepageUrl": "https://gotobudapest.vercel.app",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjU5NjkzMDY=",
       "login": "sbjarnason",
       "name": "Styrmir I Bjarnason",
@@ -16711,6 +20164,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCQjR7A",
+      "login": "sbvoxel",
+      "name": "Orri",
+      "type": "User",
+      "location": "Reykjavík, Iceland",
+      "url": "https://github.com/sbvoxel",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/151572972?u=6e7e4a2cd070ed19d4bd08d12a3cc8896331e820&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "vscode-scd",
+        "nameWithOwner": "sbvoxel/vscode-scd",
+        "url": "https://github.com/sbvoxel/vscode-scd",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-12-19T22:41:05Z",
+        "pushedAt": "2025-12-31T14:46:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
         },
         "licenseInfo": null
       }
@@ -17521,6 +21010,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjYxOTgzMzQ5",
+      "login": "spackperson",
+      "name": "Thomas Evan Spackman",
+      "type": "User",
+      "location": "Reykjavík, Iceland",
+      "url": "https://github.com/spackperson",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/61983349?u=6f040377656ab0658557189fe72bf44bf3738b43&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "igcse-pseudocode-foundations",
+        "nameWithOwner": "spackperson/igcse-pseudocode-foundations",
+        "url": "https://github.com/spackperson/igcse-pseudocode-foundations",
+        "description": "An independent Cambridge IGCSE pseudocode learning pathway",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-21T22:22:34Z",
+        "pushedAt": "2026-10-21T09:43:13Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjEwNjQzMjI2",
       "login": "spoldman",
       "name": "Baldur Árnason",
@@ -17625,6 +21150,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU2OTI5OTU=",
+      "login": "steinararnason",
+      "name": "Steinar Árnason",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/steinararnason",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5692995?u=c8a9ad922b153c2f5804175818bd56cc652bf357&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "fd-reddit-smallproject",
+        "nameWithOwner": "steinararnason/fd-reddit-smallproject",
+        "url": "https://github.com/steinararnason/fd-reddit-smallproject",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-06T18:19:06Z",
+        "pushedAt": "2026-03-06T18:24:14Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjk1Njg4NDc=",
       "login": "steinsson",
       "name": "Jónas Friðrik Steinsson",
@@ -17691,6 +21252,40 @@
         "primaryLanguage": {
           "name": "JavaScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIyNDIwODgx",
+      "login": "Strandor",
+      "name": "Strandor",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/Strandor",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/22420881?u=d1d190067e4bfc322711329dec6d11272c097a58&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "malid",
+        "nameWithOwner": "Strandor/malid",
+        "url": "https://github.com/Strandor/malid",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-17T23:10:13Z",
+        "pushedAt": "2026-10-17T23:10:15Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -18479,6 +22074,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjE4NDkyNg==",
+      "login": "thorgilsv",
+      "name": "Þorgils Völundarson",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/thorgilsv",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/184926?u=28eabbe209ee44b9f90b6d94ca9a398a6dcbf79f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "angular-3dyuuv",
+        "nameWithOwner": "thorgilsv/angular-3dyuuv",
+        "url": "https://github.com/thorgilsv/angular-3dyuuv",
+        "description": "Created with StackBlitz ⚡️",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-05-03T00:32:39Z",
+        "pushedAt": "2019-05-03T01:23:22Z",
+        "homepageUrl": "https://stackblitz.com/edit/angular-3dyuuv",
+        "primaryLanguage": {
+          "name": "CSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjEyNTI4MDM4",
       "login": "Thorhallurh",
       "name": "Þórhallur Auður Helgason",
@@ -18618,6 +22249,42 @@
         "pushedAt": "2020-12-03T19:43:42Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBYAKIA",
+      "login": "thrandurorriolason",
+      "name": "Þrándur",
+      "type": "User",
+      "location": "Reykjavik, Iceland",
+      "url": "https://github.com/thrandurorriolason",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/92277280?u=f401abbf3759a955d18756bd1d92c30c204e2b8a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "stora-verkefnid",
+        "nameWithOwner": "thrandurorriolason/stora-verkefnid",
+        "url": "https://github.com/thrandurorriolason/stora-verkefnid",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-04-14T22:47:38Z",
+        "pushedAt": "2023-04-20T15:59:44Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
         "licenseInfo": null
       }
     },
@@ -18762,6 +22429,40 @@
         "primaryLanguage": {
           "name": "Python"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEyMjg0MDY2",
+      "login": "tomhste",
+      "name": "Tómas Helgi Stefánsson",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/tomhste",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12284066?u=4d86e4ed28915296b301fb5adbff19fb4f15c212&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "mjawmjawmjaw",
+        "nameWithOwner": "tomhste/mjawmjawmjaw",
+        "url": "https://github.com/tomhste/mjawmjawmjaw",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-02-09T20:32:38Z",
+        "pushedAt": "2017-02-09T20:32:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -19146,6 +22847,42 @@
       }
     },
     {
+      "id": "U_kgDOCRX1ug",
+      "login": "utlandingur",
+      "name": "Luke Hening",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/utlandingur",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/152434106?u=5f8dcdfefa909b76c93b9a6c09dd9010047b76d1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "vefskoli_initial",
+        "nameWithOwner": "utlandingur/vefskoli_initial",
+        "url": "https://github.com/utlandingur/vefskoli_initial",
+        "description": "project for the introduction to the course",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-06-13T10:47:14Z",
+        "pushedAt": "2024-06-13T12:28:54Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCPLnuw",
       "login": "v4ld1m027",
       "name": "Ástvaldur Sigurðsson",
@@ -19179,6 +22916,45 @@
           "name": "Python"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjcwNzA0NTI2",
+      "login": "v4ldimar",
+      "name": "Valdimar John Parks",
+      "type": "User",
+      "location": "@Reykjavik, Iceland",
+      "url": "https://github.com/v4ldimar",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/70704526?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "dotfiles",
+        "nameWithOwner": "v4ldimar/dotfiles",
+        "url": "https://github.com/v4ldimar/dotfiles",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-11-08T13:12:39Z",
+        "pushedAt": "2026-09-11T11:19:53Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Shell"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -19317,6 +23093,40 @@
         "isFork": false,
         "createdAt": "2026-09-04T14:30:23Z",
         "pushedAt": "2026-09-04T14:52:53Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM4ODc0Ng==",
+      "login": "vicmontol",
+      "name": "Victor Montol",
+      "type": "User",
+      "location": "Iceland - Barcelona - Mursiya",
+      "url": "https://github.com/vicmontol",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/388746?u=0fe3a81037558603dfaff53119d7d9a7f8c3c062&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "es-opencart",
+        "nameWithOwner": "vicmontol/es-opencart",
+        "url": "https://github.com/vicmontol/es-opencart",
+        "description": "Traducción al español de los ficheros de Opencart ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-07-23T12:02:08Z",
+        "pushedAt": "2015-07-23T12:02:08Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -19495,6 +23305,78 @@
         "pushedAt": "2016-11-24T15:57:10Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE4NTAwMTcx",
+      "login": "viktorhollanders",
+      "name": "Viktor Hollanders",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/viktorhollanders",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18500171?u=f25ca861ee70787f9b05e786c973ad715f24f114&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "viktorhollanders-web",
+        "nameWithOwner": "viktorhollanders/viktorhollanders-web",
+        "url": "https://github.com/viktorhollanders/viktorhollanders-web",
+        "description": "personal website",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-06-11T23:16:48Z",
+        "pushedAt": "2026-10-11T23:33:59Z",
+        "homepageUrl": "https://viktorhollanders-web-viktor-hollanders-projects.vercel.app",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjk5NzYzNTI=",
+      "login": "villiafro",
+      "name": "Vilhjálmur Alex Hannesson",
+      "type": "User",
+      "location": "Reykjavík, Iceland",
+      "url": "https://github.com/villiafro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9976352?u=05a047854a0fa1377a5bc438b0b06ad7b249ec75&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "Underwatch",
+        "nameWithOwner": "villiafro/Underwatch",
+        "url": "https://github.com/villiafro/Underwatch",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-02-11T13:12:42Z",
+        "pushedAt": "2017-02-20T20:22:01Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C#"
+        },
         "licenseInfo": null
       }
     },
@@ -19783,6 +23665,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjczMzg2ODM=",
+      "login": "Walfran",
+      "name": "Walle",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/Walfran",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7338683?u=fc4bd954c4c8144e29e35eb44a1bc8c9e2721230&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "signup-form",
+        "nameWithOwner": "Walfran/signup-form",
+        "url": "https://github.com/Walfran/signup-form",
+        "description": "Learning to work with forms",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-28T08:50:56Z",
+        "pushedAt": "2026-01-30T15:38:38Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCuswFg",
       "login": "warpathskuzoppo",
       "name": null,
@@ -19847,6 +23765,42 @@
         "pushedAt": "2020-03-26T13:26:28Z",
         "homepageUrl": "",
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjExMDYyNTgy",
+      "login": "watkinskris",
+      "name": "Kristina Watkins",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/watkinskris",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11062582?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "tin-dog-landing-page",
+        "nameWithOwner": "watkinskris/tin-dog-landing-page",
+        "url": "https://github.com/watkinskris/tin-dog-landing-page",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-03-03T16:48:59Z",
+        "pushedAt": "2024-03-03T22:20:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
         "licenseInfo": null
       }
     },
@@ -19919,6 +23873,40 @@
         "primaryLanguage": {
           "name": "HTML"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE3ODAzOTAz",
+      "login": "yanshulee",
+      "name": null,
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/yanshulee",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17803903?u=f748f2586bab059919f316e1904b7c4d40b218cb&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "Maps",
+        "nameWithOwner": "yanshulee/Maps",
+        "url": "https://github.com/yanshulee/Maps",
+        "description": "KML files to verify",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-06-01T20:27:22Z",
+        "pushedAt": "2023-06-01T20:27:23Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -20100,6 +24088,42 @@
         "pushedAt": "2025-10-31T08:58:43Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY0MjY2MjA4",
+      "login": "yousef-ghanim",
+      "name": "Yousef Ghanim",
+      "type": "User",
+      "location": "Iceland",
+      "url": "https://github.com/yousef-ghanim",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/64266208?u=14bb1c47517e8e371ce02984f92705ce7abdba45&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "IS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Iceland"
+      },
+      "discoveryTerms": [
+        "Iceland"
+      ],
+      "topRepository": {
+        "name": "g-tes",
+        "nameWithOwner": "yousef-ghanim/g-tes",
+        "url": "https://github.com/yousef-ghanim/g-tes",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-01-13T20:18:48Z",
+        "pushedAt": "2022-01-15T16:59:49Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Liquid"
+        },
         "licenseInfo": null
       }
     },
