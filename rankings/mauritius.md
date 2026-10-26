@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 164**
 - Progress: **0%**
-- Retained high-potential owner candidates: **599**
-- Search requests completed: **16**
+- Retained high-potential owner candidates: **739**
+- Search requests completed: **24**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -26,6 +26,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [rahul-thakoor/balena-rpiplay](https://github.com/rahul-thakoor/balena-rpiplay) | **1,427** | Mauritius |
 | [thatstraw/Cybersecurity-Roadmap](https://github.com/thatstraw/Cybersecurity-Roadmap) | **739** | Mauritius |
+| [giriss/comfy-image-saver](https://github.com/giriss/comfy-image-saver) | **348** | Mauritius |
 | [Abdur-rahmaanJ/shopcube](https://github.com/Abdur-rahmaanJ/shopcube) | **278** | Mauritius |
 | [yuvraj108c/ComfyUI-Whisper](https://github.com/yuvraj108c/ComfyUI-Whisper) | **274** | Mauritius |
 | [eznix86/docker-registry-ui](https://github.com/eznix86/docker-registry-ui) | **246** | Mauritius |
@@ -38,7 +39,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [percymamedy/laravel-dev-booter](https://github.com/percymamedy/laravel-dev-booter) | **35** | Port Louis Mauritius |
 | [k3ii/revq](https://github.com/k3ii/revq) | **34** | Mauritius |
 | [BarbUk/dotfiles](https://github.com/BarbUk/dotfiles) | **33** | Mauritius |
-| [MaskyS/daily_steps](https://github.com/MaskyS/daily_steps) | **30** | Mauritius |
 
 ## Repository-first scan
 

@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 109**
 - Progress: **0%**
-- Retained high-potential owner candidates: **494**
-- Search requests completed: **16**
+- Retained high-potential owner candidates: **794**
+- Search requests completed: **24**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -37,8 +37,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [arnaldo-tomo/laravel-autoscema](https://github.com/arnaldo-tomo/laravel-autoscema) | **21** | Mozambique |
 | [themisterpaps/SGRH](https://github.com/themisterpaps/SGRH) | **16** | Maputo, Mozambique |
 | [EdNgulele/Speak-To-Me](https://github.com/EdNgulele/Speak-To-Me) | **12** | Maputo,  Mozambique |
+| [mabuie-test/Samsung_desbloqueios](https://github.com/mabuie-test/Samsung_desbloqueios) | **12** | Mozambique |
 | [ErnestoArgentina/optmus](https://github.com/ErnestoArgentina/optmus) | **11** | Mozambique, Maputo |
-| [joseseie/js-script-ubuntu](https://github.com/joseseie/js-script-ubuntu) | **9** | Maputo, Mozambique |
 
 ## Repository-first scan
 

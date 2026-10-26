@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 121**
 - Progress: **0%**
-- Retained high-potential owner candidates: **475**
-- Search requests completed: **16**
+- Retained high-potential owner candidates: **737**
+- Search requests completed: **24**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -28,17 +28,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [rigred/SIMMBA-16](https://github.com/rigred/SIMMBA-16) | **66** | Namibia |
 | [m-spangenberg/CS50P](https://github.com/m-spangenberg/CS50P) | **45** | Walvis Bay, Namibia |
 | [axelmukwena/biometricECG](https://github.com/axelmukwena/biometricECG) | **44** | Namibia |
+| [TylerByte666/gitea-matrix-template](https://github.com/TylerByte666/gitea-matrix-template) | **37** | Namibia |
 | [Fox520/pushyy](https://github.com/Fox520/pushyy) | **31** | Namibia |
 | [raminhossaini/ramin-dough-calculator](https://github.com/raminhossaini/ramin-dough-calculator) | **26** | Namibia |
 | [Lucas-Erkana/Awesome_Book](https://github.com/Lucas-Erkana/Awesome_Book) | **24** | Walvis Bay, Namibia |
+| [evertvorster/dualfisheye2equirectangular_ffmpeg_remap](https://github.com/evertvorster/dualfisheye2equirectangular_ffmpeg_remap) | **22** | Walvis Bay, Namibia |
 | [Rainexn0b/keyRGB](https://github.com/Rainexn0b/keyRGB) | **22** | Swakopmund, Namibia |
+| [b-venter/Matrix-Docker-install](https://github.com/b-venter/Matrix-Docker-install) | **17** | Namibia |
 | [SelmaNdapanda/To-Do-List](https://github.com/SelmaNdapanda/To-Do-List) | **12** | Windhoek, Namibia |
+| [wilwad/frontend-for-ffmpeg](https://github.com/wilwad/frontend-for-ffmpeg) | **11** | Windhoek, Namibia |
 | [WilhelmK109/awesome-books](https://github.com/WilhelmK109/awesome-books) | **8** | Windhoek, Namibia |
-| [carleii/Realtime-Chat-app-With-PHP](https://github.com/carleii/Realtime-Chat-app-With-PHP) | **5** | Namibia |
-| [LogicHarvest/Logic-Harvest-Directory](https://github.com/LogicHarvest/Logic-Harvest-Directory) | **5** | Windhoek Namibia |
-| [Matiastomas/html-css-form-layout](https://github.com/Matiastomas/html-css-form-layout) | **5** | Windhoek, Namibia |
-| [RaoulBock/SELF-DRIVING-CAR-OPEN-WORLD-NEURAL-NETWORK](https://github.com/RaoulBock/SELF-DRIVING-CAR-OPEN-WORLD-NEURAL-NETWORK) | **5** | Windhoek, Namibia |
-| [ohrionmartin/recipe-manager](https://github.com/ohrionmartin/recipe-manager) | **4** | Namibia |
+| [wiesnerbernard/fragmen](https://github.com/wiesnerbernard/fragmen) | **7** | Namibia |
 
 ## Repository-first scan
 

@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 13%
+## Repository ranking status: Building 20%
 
-- Geography terms processed: **16 / 118**
-- Progress: **13%**
-- Retained high-potential owner candidates: **20**
-- Search requests completed: **16**
+- Geography terms processed: **24 / 118**
+- Progress: **20%**
+- Retained high-potential owner candidates: **21**
+- Search requests completed: **24**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -36,8 +36,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [gh0stkilla4/empadinha-de-camarao2.0](https://github.com/gh0stkilla4/empadinha-de-camarao2.0) | **0** | micronesia |
 | [iomfsmlabio/iomfsmlabio](https://github.com/iomfsmlabio/iomfsmlabio) | **0** | Micronesia |
 | [jakebyurne/quiz-darksouls](https://github.com/jakebyurne/quiz-darksouls) | **0** | micronesia |
+| [jasmmage/Mini-Project_IS260](https://github.com/jasmmage/Mini-Project_IS260) | **0** | Kolonia, Pohnpei FSM 96941 |
 | [linkangren/linkangren](https://github.com/linkangren/linkangren) | **0** | 9560 ,Pouros Street ,Schulistborough ,Delaware ,Micronesia |
 | [malehz/Test-Test](https://github.com/malehz/Test-Test) | **0** | Micronesia |
-| [micronesianmacarthur/ARR](https://github.com/micronesianmacarthur/ARR) | **0** | Micronesia |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
