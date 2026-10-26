@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 162**
 - Progress: **0%**
-- Retained high-potential owner candidates: **428**
-- Search requests completed: **16**
+- Retained high-potential owner candidates: **691**
+- Search requests completed: **24**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -31,14 +31,14 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [mared4reall/Floating-Context-Panels](https://github.com/mared4reall/Floating-Context-Panels) | **68** | Ghat, Libya |
 | [Mahamed-Belkheir/qufl](https://github.com/Mahamed-Belkheir/qufl) | **53** | Libya, Benghazi |
 | [torgodly/Html2Media](https://github.com/torgodly/Html2Media) | **48** | libya |
+| [iskaa02/qalam](https://github.com/iskaa02/qalam) | **46** | Libya |
 | [KhawlahElshah/dynamic-relations-includes](https://github.com/KhawlahElshah/dynamic-relations-includes) | **28** | Tripoli, Libya |
 | [BllurryDev/FreeFire-PubgMobile-Source-Code](https://github.com/BllurryDev/FreeFire-PubgMobile-Source-Code) | **20** | Libya, Tripoli |
+| [devjustly/en_ar_dict](https://github.com/devjustly/en_ar_dict) | **17** | Libya |
 | [Monther-bug/web_project](https://github.com/Monther-bug/web_project) | **14** | Libya |
+| [ehabyahia/MT4-Martingale-Bot-With-Reinforcement-Learning](https://github.com/ehabyahia/MT4-Martingale-Bot-With-Reinforcement-Learning) | **13** | Tripoli, Libya |
+| [CODE-NAME-IN-B/FRP_MOBILE](https://github.com/CODE-NAME-IN-B/FRP_MOBILE) | **12** | Libya |
 | [risc-vee/Pulsr](https://github.com/risc-vee/Pulsr) | **11** | Libya |
-| [abdelsalamshahlol/Toyota-VIN-Decoder-TVD.js](https://github.com/abdelsalamshahlol/Toyota-VIN-Decoder-TVD.js) | **8** | Benghazi, Libya |
-| [DANCH0U/Unity3D-Target-Lock-System](https://github.com/DANCH0U/Unity3D-Target-Lock-System) | **8** | Libya |
-| [getplutu/plutu-laravel](https://github.com/getplutu/plutu-laravel) | **7** | Tripoli, Libya |
-| [khengari77/PyParsec](https://github.com/khengari77/PyParsec) | **7** | Tripoli, Libya |
 
 ## Repository-first scan
 

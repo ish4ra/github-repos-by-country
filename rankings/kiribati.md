@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 26%
+## Repository ranking status: Building 40%
 
-- Geography terms processed: **16 / 60**
-- Progress: **26%**
-- Retained high-potential owner candidates: **23**
-- Search requests completed: **16**
+- Geography terms processed: **24 / 60**
+- Progress: **40%**
+- Retained high-potential owner candidates: **24**
+- Search requests completed: **24**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,6 +25,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [PAJO-egg/ancient_defense](https://github.com/PAJO-egg/ancient_defense) | **4** | Kiribati |
+| [abonteman/wdd230](https://github.com/abonteman/wdd230) | **1** | Tabwakea, Kiritimati |
 | [bekarakaranabutae-oss/MY-PORTFOLIO](https://github.com/bekarakaranabutae-oss/MY-PORTFOLIO) | **1** | Kiribati |
 | [hola2005kaikai/ProjectsKiri](https://github.com/hola2005kaikai/ProjectsKiri) | **1** | Kiribati, Tarawa |
 | [jinxing150/urbanSoundsCnn](https://github.com/jinxing150/urbanSoundsCnn) | **1** | Kiribati  |
@@ -38,6 +39,5 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [jojoramarsexypanda/jojoramarsexypanda](https://github.com/jojoramarsexypanda/jojoramarsexypanda) | **0** | Kiribati (KI) |
 | [lagerredzilla/lagerredzilla](https://github.com/lagerredzilla/lagerredzilla) | **0** | Kiribati (KI) |
 | [lepatriinukast/kandlekeel](https://github.com/lepatriinukast/kandlekeel) | **0** | Tarawa, Kiribati |
-| [LinsClub1228/IB-math](https://github.com/LinsClub1228/IB-math) | **0** | 5133 ,Edmundo Canyon ,Pokbury ,Oregon ,Kiribati |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
