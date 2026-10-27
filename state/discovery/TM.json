@@ -12,21 +12,143 @@
     "termsTotal": 175
   },
   "phase": "discovery",
-  "nextTermIndex": 3,
-  "activeTerm": null,
+  "nextTermIndex": 4,
+  "activeTerm": {
+    "index": 4,
+    "term": "Ak",
+    "queue": [
+      {
+        "query": "location:\"Ak\" type:user followers:0",
+        "stage": "followers",
+        "cursor": "Y3Vyc29yOjI1MA==",
+        "pageNumber": 6,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Ak\" type:user followers:1..4",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Ak\" type:user followers:5..9",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Ak\" type:user followers:10..24",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Ak\" type:user followers:25..49",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Ak\" type:user followers:50..99",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Ak\" type:user followers:100..249",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Ak\" type:user followers:250..499",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Ak\" type:user followers:500..999",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Ak\" type:user followers:1000..2499",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Ak\" type:user followers:2500..4999",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Ak\" type:user followers:5000..9999",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Ak\" type:user followers:10000..24999",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Ak\" type:user followers:25000..49999",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Ak\" type:user followers:>=50000",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Ak\" type:org",
+        "stage": "type",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      }
+    ],
+    "startedAt": "2026-10-27T18:11:45.270Z",
+    "requests": 7,
+    "leafPages": 5,
+    "shardExpansions": 2,
+    "reportedCount": 1016
+  },
   "discoveryComplete": false,
   "startedAt": "2026-10-07T13:40:11.444Z",
-  "updatedAt": "2026-10-24T20:57:36.397Z",
+  "updatedAt": "2026-10-27T18:12:06.976Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
-    "termsProcessed": 3,
-    "searchRequests": 16,
-    "leafPages": 16,
-    "shardExpansions": 0,
-    "rawOwnerHits": 677,
-    "acceptedOwnerHits": 675,
-    "rejectedOwnerHits": 2,
+    "termsProcessed": 4,
+    "searchRequests": 24,
+    "leafPages": 22,
+    "shardExpansions": 2,
+    "rawOwnerHits": 1027,
+    "acceptedOwnerHits": 934,
+    "rejectedOwnerHits": 93,
     "unresolvedShardCount": 0,
     "minimumRateLimitRemaining": 4844
   },
@@ -72,6 +194,234 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjI1NjA0Ng==",
+      "login": "Clancey",
+      "name": "James Clancey",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/Clancey",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/256046?u=fbd7be24b7150393595f28e5922bc93341a856e6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "simple_auth",
+        "nameWithOwner": "Clancey/simple_auth",
+        "url": "https://github.com/Clancey/simple_auth",
+        "description": "The Simplest way to Authenticate in Flutter",
+        "stargazerCount": 354,
+        "forkCount": 108,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-06-07T19:14:50Z",
+        "pushedAt": "2025-08-08T20:17:53Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Dart"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM1Nzc0MzQ=",
+      "login": "strongdan",
+      "name": "Dan Strong",
+      "type": "User",
+      "location": "Juneau, AK",
+      "url": "https://github.com/strongdan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3577434?u=3cac2a3d25faddb8434d79abdaeedead99cdaa3f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "beginner-js-projects",
+        "nameWithOwner": "strongdan/beginner-js-projects",
+        "url": "https://github.com/strongdan/beginner-js-projects",
+        "description": "Beginner JavaScript Applications",
+        "stargazerCount": 332,
+        "forkCount": 89,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2018-01-30T17:20:33Z",
+        "pushedAt": "2022-07-06T11:53:33Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjk0NzYxNQ==",
+      "login": "asfadmin",
+      "name": "Alaska Satellite Facility",
+      "type": "Organization",
+      "location": "Fairbanks, AK",
+      "url": "https://github.com/asfadmin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/947615?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "Discovery-asf_search",
+        "nameWithOwner": "asfadmin/Discovery-asf_search",
+        "url": "https://github.com/asfadmin/Discovery-asf_search",
+        "description": null,
+        "stargazerCount": 153,
+        "forkCount": 54,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-02-17T20:39:25Z",
+        "pushedAt": "2026-10-14T17:58:27Z",
+        "homepageUrl": "https://docs.asf.alaska.edu",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+          "spdxId": "BSD-3-Clause"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE2OTEwMTEx",
+      "login": "austinholland",
+      "name": "Austin Holland",
+      "type": "User",
+      "location": "Fairbanks, AK",
+      "url": "https://github.com/austinholland",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16910111?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "PhasePApy",
+        "nameWithOwner": "austinholland/PhasePApy",
+        "url": "https://github.com/austinholland/PhasePApy",
+        "description": "Python Seismic Phase Picker and Associator",
+        "stargazerCount": 103,
+        "forkCount": 47,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-01-27T02:20:02Z",
+        "pushedAt": "2018-05-06T21:46:08Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE4NTkxOTg=",
+      "login": "rhinoman",
+      "name": "James Adam",
+      "type": "User",
+      "location": "Soldotna, AK",
+      "url": "https://github.com/rhinoman",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1859198?u=62f93ca99cf84b5c8c97e24166cc04fe1d6dadf8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "wikifeat",
+        "nameWithOwner": "rhinoman/wikifeat",
+        "url": "https://github.com/rhinoman/wikifeat",
+        "description": "Extensible wiki system using CouchDB and written in Golang",
+        "stargazerCount": 99,
+        "forkCount": 5,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-07-19T00:04:07Z",
+        "pushedAt": "2016-07-11T09:57:58Z",
+        "homepageUrl": "https://www.wikifeat.org",
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": {
+          "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+          "spdxId": "BSD-3-Clause"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE2NDAxMzky",
+      "login": "Skyyo",
+      "name": "Denys Rudenko",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/Skyyo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16401392?u=b5d387ed91cd9a917d91242177ec588e0c99df9e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "samples",
+        "nameWithOwner": "Skyyo/samples",
+        "url": "https://github.com/Skyyo/samples",
+        "description": "Jetpack Compose based project, used to stress-testing compose features / integrations and explore non-trivial functionality",
+        "stargazerCount": 80,
+        "forkCount": 7,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-07-13T08:19:08Z",
+        "pushedAt": "2022-11-08T21:20:09Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Kotlin"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQ5OTA4MzAz",
       "login": "nyansterowo",
       "name": "Данил Бездушный",
@@ -105,6 +455,81 @@
           "name": "JavaScript"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY4OTg1MDU=",
+      "login": "bechbd",
+      "name": null,
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/bechbd",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6898505?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "graph-databases-in-action",
+        "nameWithOwner": "bechbd/graph-databases-in-action",
+        "url": "https://github.com/bechbd/graph-databases-in-action",
+        "description": null,
+        "stargazerCount": 71,
+        "forkCount": 16,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-12-30T22:30:31Z",
+        "pushedAt": "2020-05-21T14:40:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjY4MjQ3NDUx",
+      "login": "ASFHyP3",
+      "name": "HyP3",
+      "type": "Organization",
+      "location": "Fairbanks, AK",
+      "url": "https://github.com/ASFHyP3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/68247451?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "hyp3",
+        "nameWithOwner": "ASFHyP3/hyp3",
+        "url": "https://github.com/ASFHyP3/hyp3",
+        "description": "A processing environment for HyP3 Plugins in AWS.",
+        "stargazerCount": 55,
+        "forkCount": 13,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-04-29T17:33:47Z",
+        "pushedAt": "2026-10-26T19:44:12Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+          "spdxId": "BSD-3-Clause"
+        }
       }
     },
     {
@@ -183,6 +608,159 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjYwMjUyMzc=",
+      "login": "akhepcat",
+      "name": "Leif",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/akhepcat",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6025237?u=136809446bba5f1590d7e8b6d7b9dc1af6830c37&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "bridgeap",
+        "nameWithOwner": "akhepcat/bridgeap",
+        "url": "https://github.com/akhepcat/bridgeap",
+        "description": "Automagically bridge any live interface to any idle interface using NATS, DHCP, and HostAP where applicable",
+        "stargazerCount": 51,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-02-25T07:19:04Z",
+        "pushedAt": "2024-03-06T23:33:06Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Shell"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU2MTU3",
+      "login": "roycewilliams",
+      "name": "Royce Williams",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/roycewilliams",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/56157?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "kens-salty-rainbow",
+        "nameWithOwner": "roycewilliams/kens-salty-rainbow",
+        "url": "https://github.com/roycewilliams/kens-salty-rainbow",
+        "description": "An archive of descrypt hashes for common non-personal passwords",
+        "stargazerCount": 46,
+        "forkCount": 9,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-06-04T14:40:05Z",
+        "pushedAt": "2026-06-02T01:08:57Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Shell"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjI5NzYyOTgy",
+      "login": "akhealth",
+      "name": "Alaska Department of Health",
+      "type": "Organization",
+      "location": "Juneau, AK",
+      "url": "https://github.com/akhealth",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/29762982?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "EIS-Modernization",
+        "nameWithOwner": "akhealth/EIS-Modernization",
+        "url": "https://github.com/akhealth/EIS-Modernization",
+        "description": "Documentation describing the Alaska Department of Health (DOH) modernization project and integrated eligibility system.",
+        "stargazerCount": 45,
+        "forkCount": 17,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-03-13T19:08:39Z",
+        "pushedAt": "2026-05-20T16:21:57Z",
+        "homepageUrl": "http://health.alaska.gov/dpa/",
+        "primaryLanguage": {
+          "name": "CSS"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE4ODAyNA==",
+      "login": "bcwood",
+      "name": "Brandon Wood",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/bcwood",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/188024?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "FluentRegex",
+        "nameWithOwner": "bcwood/FluentRegex",
+        "url": "https://github.com/bcwood/FluentRegex",
+        "description": "The original fluent regular expression builder for .NET",
+        "stargazerCount": 43,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-11-27T00:23:13Z",
+        "pushedAt": "2023-04-14T15:50:13Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "O_kgDOBZfscQ",
       "login": "c10udburst-discord",
       "name": "c10udburst-discord",
@@ -222,6 +800,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM1MDEwMzE1",
+      "login": "logan-berner",
+      "name": "Logan Berner",
+      "type": "User",
+      "location": "Juneau, AK",
+      "url": "https://github.com/logan-berner",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/35010315?u=6e3d7ee1cde3458e5a69c4d1d36f3a773378bd72&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "LandsatTS",
+        "nameWithOwner": "logan-berner/LandsatTS",
+        "url": "https://github.com/logan-berner/LandsatTS",
+        "description": "LandsatTS is an R package to facilitate retrieval, cleaning, cross-calibration, and phenological modeling of Landsat time-series data.",
+        "stargazerCount": 35,
+        "forkCount": 6,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-03-12T15:57:59Z",
+        "pushedAt": "2024-10-17T23:42:25Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "R"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
       "id": "U_kgDOBqZAnw",
       "login": "Atamyrat2005",
       "name": "ᴀᴛᴀᴍʏʀᴀᴛ",
@@ -253,6 +870,156 @@
         "homepageUrl": "https://github.com/Atamyrat2005",
         "primaryLanguage": null,
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjM5OTk3NDI=",
+      "login": "codeforanchorage",
+      "name": "Code for Anchorage",
+      "type": "Organization",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/codeforanchorage",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3999742?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "land_acknowledgement",
+        "nameWithOwner": "codeforanchorage/land_acknowledgement",
+        "url": "https://github.com/codeforanchorage/land_acknowledgement",
+        "description": "Land Acknowledgement SMS Application",
+        "stargazerCount": 32,
+        "forkCount": 3,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2020-06-10T03:11:17Z",
+        "pushedAt": "2023-01-04T21:20:35Z",
+        "homepageUrl": "https://land.codeforanchorage.org/",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjExNTk5MzA=",
+      "login": "jessicaaustin",
+      "name": "Jessica Austin",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/jessicaaustin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1159930?u=05f074a9774fed790f678ca35f8a2099a6571f52&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "robotics-projects",
+        "nameWithOwner": "jessicaaustin/robotics-projects",
+        "url": "https://github.com/jessicaaustin/robotics-projects",
+        "description": null,
+        "stargazerCount": 32,
+        "forkCount": 21,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2011-11-12T16:02:34Z",
+        "pushedAt": "2016-01-12T03:21:07Z",
+        "homepageUrl": "http://jessicaaustin.net",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE4NzkzMDY=",
+      "login": "n-west",
+      "name": "Nathan West",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/n-west",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1879306?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "Wideband-RF-Signal-Detection-with-Machine-Learning",
+        "nameWithOwner": "n-west/Wideband-RF-Signal-Detection-with-Machine-Learning",
+        "url": "https://github.com/n-west/Wideband-RF-Signal-Detection-with-Machine-Learning",
+        "description": null,
+        "stargazerCount": 30,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-09-20T19:13:16Z",
+        "pushedAt": "2021-09-27T17:22:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMyNDE0Njk=",
+      "login": "armcknight",
+      "name": "Andrew McKnight",
+      "type": "User",
+      "location": "Fairbanks, AK",
+      "url": "https://github.com/armcknight",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3241469?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "pkpassgenerator",
+        "nameWithOwner": "armcknight/pkpassgenerator",
+        "url": "https://github.com/armcknight/pkpassgenerator",
+        "description": "Provides a template for a generic Wallet (née PassKit) pass, and utilities to generate a pass with minimal effort.",
+        "stargazerCount": 22,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-05-01T22:37:12Z",
+        "pushedAt": "2026-08-08T23:29:21Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Objective-C"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
       }
     },
     {
@@ -292,6 +1059,42 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjExNDY0",
+      "login": "ralreegorganon",
+      "name": "Jason Jones",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/ralreegorganon",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11464?u=44319fd44a574a32553329ebf81793e5257ae383&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "rrobots",
+        "nameWithOwner": "ralreegorganon/rrobots",
+        "url": "https://github.com/ralreegorganon/rrobots",
+        "description": "fork of the rrobots project from http://rrobots.rubyforge.org/",
+        "stargazerCount": 19,
+        "forkCount": 19,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2010-05-05T02:34:08Z",
+        "pushedAt": "2014-05-20T21:51:31Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Ruby"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -370,6 +1173,42 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc4ODI2OTM=",
+      "login": "jhkennedy",
+      "name": "Joseph H Kennedy",
+      "type": "User",
+      "location": "Fairbanks, AK",
+      "url": "https://github.com/jhkennedy",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7882693?u=91343522d2a42e12b70c461da4b4e97c0fd5fdb3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "DOE_latex_template",
+        "nameWithOwner": "jhkennedy/DOE_latex_template",
+        "url": "https://github.com/jhkennedy/DOE_latex_template",
+        "description": "A latex template for DOE proposals",
+        "stargazerCount": 16,
+        "forkCount": 10,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-04-26T19:52:18Z",
+        "pushedAt": "2016-10-11T15:02:16Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -484,6 +1323,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjYxMzM2MTY=",
+      "login": "AdamSLevy",
+      "name": "Adam S Levy",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/AdamSLevy",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6133616?u=b27d7cf7481e5c7eb1d1196b2afab9659fee7df9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "jsonrpc2",
+        "nameWithOwner": "AdamSLevy/jsonrpc2",
+        "url": "https://github.com/AdamSLevy/jsonrpc2",
+        "description": "Golang package for implementing a JSON RPC 2.0 server or client.",
+        "stargazerCount": 12,
+        "forkCount": 7,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-06-27T09:52:00Z",
+        "pushedAt": "2023-07-06T08:16:47Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjEwNzg5NDc=",
       "login": "apuokenas",
       "name": "M. Tumėnas",
@@ -519,6 +1397,231 @@
         "licenseInfo": {
           "name": "MIT License",
           "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjExNjc0MzU=",
+      "login": "camwebb",
+      "name": "Cam Webb",
+      "type": "User",
+      "location": "North Pole, AK",
+      "url": "https://github.com/camwebb",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1167435?u=165d7e420827812d26388b31e87f19521301850f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "oddx-arch",
+        "nameWithOwner": "camwebb/oddx-arch",
+        "url": "https://github.com/camwebb/oddx-arch",
+        "description": "This project is about creating an open, reliable, global database that associates symptoms with diseases",
+        "stargazerCount": 12,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2012-08-27T21:14:01Z",
+        "pushedAt": "2012-09-17T04:40:09Z",
+        "homepageUrl": "http://openddx.net/",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg0NDI3NjI3",
+      "login": "chengmatt",
+      "name": "Matt Cheng",
+      "type": "User",
+      "location": "Juneau, AK",
+      "url": "https://github.com/chengmatt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/84427627?u=ba04efc410c80ffa59dd347464d9e574125e8d1e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "GMRF_WAA",
+        "nameWithOwner": "chengmatt/GMRF_WAA",
+        "url": "https://github.com/chengmatt/GMRF_WAA",
+        "description": "Implementing Gaussian Markov Random Fields estimating age, year, and cohort effects in TMB",
+        "stargazerCount": 12,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-01-08T20:09:09Z",
+        "pushedAt": "2025-03-24T17:43:56Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "R"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE3ODkxMDIw",
+      "login": "dbetchkal",
+      "name": "D.Halyn Betchkal",
+      "type": "User",
+      "location": "Yedatene Na, AK",
+      "url": "https://github.com/dbetchkal",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17891020?u=d1b70029ffdadb0f7f8302f255a1c97dc78232ea&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "NMSIM-Python",
+        "nameWithOwner": "dbetchkal/NMSIM-Python",
+        "url": "https://github.com/dbetchkal/NMSIM-Python",
+        "description": "A Python-based wrapper for Noise Model Simulation (NMSIM). Eases the creation of input files and joining data from GIS databases.",
+        "stargazerCount": 12,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-11-06T18:20:56Z",
+        "pushedAt": "2026-09-24T16:31:12Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v2.0",
+          "spdxId": "GPL-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYwNjI5Njk0",
+      "login": "Josh-Gotro",
+      "name": "Josh Gauthreaux",
+      "type": "User",
+      "location": "Juneau, AK",
+      "url": "https://github.com/Josh-Gotro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/60629694?u=cb1aa537b6d12d44e1bbca9b4b5aeb450286c078&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "react-from-scratch",
+        "nameWithOwner": "Josh-Gotro/react-from-scratch",
+        "url": "https://github.com/Josh-Gotro/react-from-scratch",
+        "description": null,
+        "stargazerCount": 12,
+        "forkCount": 10,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-09-13T18:24:39Z",
+        "pushedAt": "2020-09-13T21:28:05Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIwNjE1MA==",
+      "login": "mspanish",
+      "name": "Stacey Reiman",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/mspanish",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/206150?u=8b65f7be6e8a34a370b419f3c78326e1ee790951&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "backgrounder",
+        "nameWithOwner": "mspanish/backgrounder",
+        "url": "https://github.com/mspanish/backgrounder",
+        "description": "Dynamic SVG Backgrounds Generator Using SVG.js",
+        "stargazerCount": 11,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-07-15T21:37:08Z",
+        "pushedAt": "2017-07-17T23:26:43Z",
+        "homepageUrl": "https://mspanish.github.io/backgrounder",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM2NzE5Mw==",
+      "login": "rabbitear",
+      "name": "Jon Bradley",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/rabbitear",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/367193?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "Homebrew-bbs",
+        "nameWithOwner": "rabbitear/Homebrew-bbs",
+        "url": "https://github.com/rabbitear/Homebrew-bbs",
+        "description": "My first C project started around 1998, telnet to velvet.ath.cx to see it in action.",
+        "stargazerCount": 11,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2011-03-08T10:23:10Z",
+        "pushedAt": "2024-02-17T01:25:29Z",
+        "homepageUrl": "velvet.ath.cx",
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
         }
       }
     },
@@ -811,6 +1914,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjYwODQ4MA==",
+      "login": "jmerrifield",
+      "name": "Jon Merrifield",
+      "type": "User",
+      "location": "Girdwood, AK",
+      "url": "https://github.com/jmerrifield",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/608480?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "cuke_iterations",
+        "nameWithOwner": "jmerrifield/cuke_iterations",
+        "url": "https://github.com/jmerrifield/cuke_iterations",
+        "description": "Multiple invocations of your scenarios, without running Cucumber multiple times.",
+        "stargazerCount": 8,
+        "forkCount": 5,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2011-08-22T08:27:24Z",
+        "pushedAt": "2012-04-06T05:49:23Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Ruby"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBb-Vmg",
       "login": "AnonimTM1",
       "name": "Merdan Caryyew",
@@ -839,6 +1978,42 @@
         "isFork": false,
         "createdAt": "2026-09-11T12:58:13Z",
         "pushedAt": "2026-09-11T14:09:50Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg5ODI5Nzk1",
+      "login": "laurenleadbetter",
+      "name": "Lauren Leadbetter",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/laurenleadbetter",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/89829795?u=66c67548592af7436ff2a5a87f1ad80e975c0871&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "HW_02",
+        "nameWithOwner": "laurenleadbetter/HW_02",
+        "url": "https://github.com/laurenleadbetter/HW_02",
+        "description": null,
+        "stargazerCount": 7,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-10-27T04:02:21Z",
+        "pushedAt": "2021-10-27T04:22:38Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Python"
@@ -919,6 +2094,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjE5MjQyMTU=",
+      "login": "citibeth",
+      "name": "Elizabeth Fischer",
+      "type": "User",
+      "location": "Fairbanks, AK",
+      "url": "https://github.com/citibeth",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1924215?u=fe3047b33e568574eb6d3c31a6500b3b3b3d2488&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "usermacports",
+        "nameWithOwner": "citibeth/usermacports",
+        "url": "https://github.com/citibeth/usermacports",
+        "description": "Automated MacPorts in user space",
+        "stargazerCount": 6,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-11-18T17:09:20Z",
+        "pushedAt": "2020-04-10T02:40:55Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
       "id": "U_kgDOCkZjrw",
       "login": "mad808",
       "name": "Abdyleziz Sopyyev",
@@ -958,6 +2172,45 @@
       }
     },
     {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjMwMjIxMQ==",
+      "login": "ResourceDataInc",
+      "name": "Resource Data, Inc.",
+      "type": "Organization",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/ResourceDataInc",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/302211?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "Centroid",
+        "nameWithOwner": "ResourceDataInc/Centroid",
+        "url": "https://github.com/ResourceDataInc/Centroid",
+        "description": "A centralized paradigm of configuration management.",
+        "stargazerCount": 6,
+        "forkCount": 4,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-01-29T21:37:16Z",
+        "pushedAt": "2022-06-22T17:05:27Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjc4OTU5OTY1",
       "login": "vladEDT",
       "name": "Vladislav Ischanov",
@@ -987,6 +2240,45 @@
         "createdAt": "2025-02-21T14:52:26Z",
         "pushedAt": "2025-02-21T15:12:58Z",
         "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMwNTMwMQ==",
+      "login": "whardier",
+      "name": "Shane R. Spencer",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/whardier",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/305301?u=60b42feaf94ecf1b826471ce89b03f84c5651e1a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "tornado-nginx-post-action-example",
+        "nameWithOwner": "whardier/tornado-nginx-post-action-example",
+        "url": "https://github.com/whardier/tornado-nginx-post-action-example",
+        "description": "Sample server and nginx.conf demonstrating a useful technique for how to use nginx post actions after Tornado is done serving a page.",
+        "stargazerCount": 6,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-02-28T17:37:01Z",
+        "pushedAt": "2014-02-28T18:57:05Z",
+        "homepageUrl": null,
         "primaryLanguage": {
           "name": "Python"
         },
@@ -1441,6 +2733,42 @@
       }
     },
     {
+      "id": "U_kgDOB-_vpg",
+      "login": "Calebrlx",
+      "name": "Caleb Forestal",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/Calebrlx",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/133164966?u=b57205327579cc8fdfa2543becf36bb5cfac8dfb&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "ai-robie",
+        "nameWithOwner": "Calebrlx/ai-robie",
+        "url": "https://github.com/Calebrlx/ai-robie",
+        "description": null,
+        "stargazerCount": 4,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-01-23T03:06:01Z",
+        "pushedAt": "2025-01-25T22:19:43Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "O_kgDOCDbuZA",
       "login": "Codingtkm",
       "name": "Coding TKM",
@@ -1477,6 +2805,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU5MTEzOTk=",
+      "login": "EthanGould",
+      "name": "Ethan Gould",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/EthanGould",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5911399?u=d431e3bd42d6fa6a9cebdd5f48a6a4fa31aa6157&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "SnackAttackApp",
+        "nameWithOwner": "EthanGould/SnackAttackApp",
+        "url": "https://github.com/EthanGould/SnackAttackApp",
+        "description": "Simple app for healthy snack suggestions",
+        "stargazerCount": 4,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-05-19T18:47:59Z",
+        "pushedAt": "2014-08-04T01:23:11Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Ruby"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBa26ow",
       "login": "Goshko812",
       "name": "Kиро.Kрика",
@@ -1508,6 +2872,78 @@
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "GDScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc1MDQ4NTI=",
+      "login": "jordanwatson",
+      "name": "Jordan Watson",
+      "type": "User",
+      "location": "Juneau, AK",
+      "url": "https://github.com/jordanwatson",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7504852?u=9c8210a9e73dab0381385b5b388437db2814234d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "R_Tutorials",
+        "nameWithOwner": "jordanwatson/R_Tutorials",
+        "url": "https://github.com/jordanwatson/R_Tutorials",
+        "description": "Tutorials or code snippets I've put together for people that may be useful. Some of them may need data that I can't share here.",
+        "stargazerCount": 4,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-04-06T17:45:14Z",
+        "pushedAt": "2021-01-04T19:15:06Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc2NjQwNw==",
+      "login": "mbjones",
+      "name": "Matt Jones",
+      "type": "User",
+      "location": "Juneau, AK",
+      "url": "https://github.com/mbjones",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/766407?u=303dc9fec8721db1183578552d85007d5c407659&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "opensci_r_esa_2013",
+        "nameWithOwner": "mbjones/opensci_r_esa_2013",
+        "url": "https://github.com/mbjones/opensci_r_esa_2013",
+        "description": "Conducting Open Science using R and DataONE: A Hands­ on Primer",
+        "stargazerCount": 4,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-08-04T01:12:15Z",
+        "pushedAt": "2013-10-30T22:13:57Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "R"
         },
         "licenseInfo": null
       }
@@ -1849,6 +3285,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjc3MzAyMzk=",
+      "login": "tbrycekelly",
+      "name": "Thomas Bryce Kelly",
+      "type": "User",
+      "location": "Fairbanks, AK",
+      "url": "https://github.com/tbrycekelly",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7730239?u=abfbf6d8ee6d5ce3bbf0f4774cd749ff3e26f396&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "TheSource",
+        "nameWithOwner": "tbrycekelly/TheSource",
+        "url": "https://github.com/tbrycekelly/TheSource",
+        "description": "An R package for the rest of us.",
+        "stargazerCount": 4,
+        "forkCount": 1,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2019-09-19T19:20:00Z",
+        "pushedAt": "2023-11-04T18:25:25Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBc4QUw",
       "login": "annayevv",
       "name": "Orazmammet",
@@ -2029,6 +3501,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjcyNDY2MjE0",
+      "login": "brandonapol",
+      "name": "Brandon Apol",
+      "type": "User",
+      "location": "Fairbanks, AK",
+      "url": "https://github.com/brandonapol",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/72466214?u=1c781382128068668a956b69a172eb1abf3033c9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "birchwood-CMS",
+        "nameWithOwner": "brandonapol/birchwood-CMS",
+        "url": "https://github.com/brandonapol/birchwood-CMS",
+        "description": "Content management and back-end for Birchwood Blog. Vue/Express",
+        "stargazerCount": 3,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-02-28T02:05:10Z",
+        "pushedAt": "2024-01-05T20:03:16Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Vue"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBgvlFA",
       "login": "hacker0709boy",
       "name": "Nurmuhammet Kadyrov",
@@ -2132,6 +3640,78 @@
         "homepageUrl": "https://readgen-eight.vercel.app",
         "primaryLanguage": {
           "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIwODY3MQ==",
+      "login": "jdabney",
+      "name": "Jeremiah Dabney",
+      "type": "User",
+      "location": "Fairbanks, AK",
+      "url": "https://github.com/jdabney",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/208671?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "InstaLight",
+        "nameWithOwner": "jdabney/InstaLight",
+        "url": "https://github.com/jdabney/InstaLight",
+        "description": "Small, fast flashlight app for iPhone.",
+        "stargazerCount": 3,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2012-03-17T08:39:13Z",
+        "pushedAt": "2013-09-18T07:23:03Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Objective-C"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI1MzA5OTUx",
+      "login": "Jlrine2",
+      "name": "James Rine",
+      "type": "User",
+      "location": "Fairbanks, AK",
+      "url": "https://github.com/Jlrine2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25309951?u=727a6b9b5872de00871474b1977602e730aa1830&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "wat",
+        "nameWithOwner": "Jlrine2/wat",
+        "url": "https://github.com/Jlrine2/wat",
+        "description": "Watch Anything Together, A simple web app for syncing video player client between multiple people for virtual watch parties.",
+        "stargazerCount": 3,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-02-26T02:21:48Z",
+        "pushedAt": "2025-04-18T00:36:04Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Go"
         },
         "licenseInfo": null
       }
@@ -3108,6 +4688,114 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjY4MzAzMDg5",
+      "login": "JaneSullivan-NOAA",
+      "name": "Jane Sullivan",
+      "type": "User",
+      "location": "Juneau, AK",
+      "url": "https://github.com/JaneSullivan-NOAA",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/68303089?u=6013529bfc06dd2242c2a9e5e12bbcde5edc1d0a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "sablefish_condition",
+        "nameWithOwner": "JaneSullivan-NOAA/sablefish_condition",
+        "url": "https://github.com/JaneSullivan-NOAA/sablefish_condition",
+        "description": "Sablefish condition indicators using length-weight residuals",
+        "stargazerCount": 2,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-10-16T17:22:08Z",
+        "pushedAt": "2026-10-08T19:33:51Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "R"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjExNDg5MjU=",
+      "login": "jasonkb",
+      "name": "Jason Katz-Brown",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/jasonkb",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1148925?u=d321a5fd287df0c9004bf078f13cd39157b99eaa&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "gotvcode",
+        "nameWithOwner": "jasonkb/gotvcode",
+        "url": "https://github.com/jasonkb/gotvcode",
+        "description": null,
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-09-07T06:25:18Z",
+        "pushedAt": "2020-09-15T07:52:33Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc3NjQwODg4",
+      "login": "JLEWilson",
+      "name": "Jacob Wilson",
+      "type": "User",
+      "location": "Anchorage, Ak",
+      "url": "https://github.com/JLEWilson",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/77640888?u=e640727c04fe6d4793cd1a062d259a371dfadabe&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "programming_language_suggester",
+        "nameWithOwner": "JLEWilson/programming_language_suggester",
+        "url": "https://github.com/JLEWilson/programming_language_suggester",
+        "description": "Epicodus week 2 project. A form that recommends what programming language to learn.",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-10-22T15:02:31Z",
+        "pushedAt": "2021-10-22T23:25:59Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjg4NjIwMDgw",
       "login": "Kemal04",
       "name": "Kemal",
@@ -3177,6 +4865,45 @@
           "name": "Python"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ2NzI1NTQ0",
+      "login": "mmwilber",
+      "name": "Michelle Wilber",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/mmwilber",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/46725544?u=1b153f2200b9715cbd419957bbdb093db89ce455&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "AKSolar-Calculator",
+        "nameWithOwner": "mmwilber/AKSolar-Calculator",
+        "url": "https://github.com/mmwilber/AKSolar-Calculator",
+        "description": "A streamlit version of Ben Loeffler's solar sizing and payback calculator",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-02-16T20:15:03Z",
+        "pushedAt": "2023-10-19T18:09:12Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -3397,6 +5124,45 @@
           "name": "JavaScript"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE0MTUxOQ==",
+      "login": "stieg",
+      "name": "Andrew Stiegmann",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/stieg",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/141519?u=538f66a6075004289b16bfd5dd1d12df44b380c6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "xbmc_npr",
+        "nameWithOwner": "stieg/xbmc_npr",
+        "url": "https://github.com/stieg/xbmc_npr",
+        "description": "NPR plugin for XBMC",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2011-11-29T06:04:29Z",
+        "pushedAt": "2012-03-13T21:25:37Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v2.0",
+          "spdxId": "GPL-2.0"
+        }
       }
     },
     {
@@ -4697,6 +6463,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjE3NTMyNjk1",
+      "login": "bendnorman",
+      "name": "Bennett Norman",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/bendnorman",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17532695?u=fae2f5657f9222f8309289be844b2087ec364f39&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "gridle",
+        "nameWithOwner": "bendnorman/gridle",
+        "url": "https://github.com/bendnorman/gridle",
+        "description": "Gridle",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-09-19T02:34:32Z",
+        "pushedAt": "2025-09-05T19:57:13Z",
+        "homepageUrl": "https://gridle.bendnorman.com/",
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "U_kgDOC_U_3g",
       "login": "berdyev",
       "name": "yoldash",
@@ -4798,6 +6603,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOByxBPg",
+      "login": "CWLunas",
+      "name": "Colin Lunas",
+      "type": "User",
+      "location": "Sitka, AK",
+      "url": "https://github.com/CWLunas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/120340798?u=86efe080547cb78310e2b7131ee8cdbf24ea9170&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "Python-Stack",
+        "nameWithOwner": "CWLunas/Python-Stack",
+        "url": "https://github.com/CWLunas/Python-Stack",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-05-03T04:00:20Z",
+        "pushedAt": "2023-06-06T22:05:11Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
         },
         "licenseInfo": null
       }
@@ -4979,6 +6820,40 @@
         "primaryLanguage": {
           "name": "JavaScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE2NzI4MTE=",
+      "login": "ejohnson1971",
+      "name": "Erick Johnson",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/ejohnson1971",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1672811?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "FlexViewerDev",
+        "nameWithOwner": "ejohnson1971/FlexViewerDev",
+        "url": "https://github.com/ejohnson1971/FlexViewerDev",
+        "description": "Flex Viewer development and practice.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2012-05-25T18:10:40Z",
+        "pushedAt": "2012-05-25T18:10:40Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -6198,6 +8073,45 @@
       }
     },
     {
+      "id": "U_kgDOCsoo3A",
+      "login": "mkbradley2",
+      "name": "Melissa Bradley",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/mkbradley2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/181020892?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "rural-urban-lsd-risk",
+        "nameWithOwner": "mkbradley2/rural-urban-lsd-risk",
+        "url": "https://github.com/mkbradley2/rural-urban-lsd-risk",
+        "description": "Analysis code for manuscript of NSDUH analysis examining rural vs. urban risk perceptions of LSD and cannabis.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-15T05:57:20Z",
+        "pushedAt": "2026-09-15T06:03:06Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "R"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjM3NDM0NTkz",
       "login": "moebius5",
       "name": "Muhammet Berdimyradov",
@@ -6485,6 +8399,42 @@
         "pushedAt": "2024-12-05T07:03:24Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQwODY5Mg==",
+      "login": "NigelKibodeaux",
+      "name": "Nigel Kibodeaux",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/NigelKibodeaux",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/408692?u=6a96498cd56573084f76e7c5631d774e0bc83be0&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "covid",
+        "nameWithOwner": "NigelKibodeaux/covid",
+        "url": "https://github.com/NigelKibodeaux/covid",
+        "description": "Displays Anchorage (and statewide) COVID data the way I want to see it",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-07-29T21:22:44Z",
+        "pushedAt": "2021-01-05T02:49:24Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
         "licenseInfo": null
       }
     },
@@ -7103,6 +9053,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU5NzE3MjE2",
+      "login": "saatom",
+      "name": "Wyatt Richards",
+      "type": "User",
+      "location": "Fairbanks, AK",
+      "url": "https://github.com/saatom",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/59717216?u=247007d0ca6b4800173b4eacaf262849520c9944&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "portable_antenna_rotator",
+        "nameWithOwner": "saatom/portable_antenna_rotator",
+        "url": "https://github.com/saatom/portable_antenna_rotator",
+        "description": "DIY-friently portable antenna rotator for satellite and terrestrial communications",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-09T19:57:19Z",
+        "pushedAt": "2026-05-13T05:34:58Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCcsCug",
       "login": "sadyk-abdyreshit",
       "name": "Sadyk Abdyreshit",
@@ -7170,6 +9156,42 @@
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI1MDk0Nzk5",
+      "login": "SebbySebbyBinx",
+      "name": "Sebastian Neumayer",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/SebbySebbyBinx",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25094799?u=a1ba1a94d91d7ff530401f4acb8cc683c48d1a0f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "acceptancePolicies",
+        "nameWithOwner": "SebbySebbyBinx/acceptancePolicies",
+        "url": "https://github.com/SebbySebbyBinx/acceptancePolicies",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-01-04T01:17:53Z",
+        "pushedAt": "2018-01-04T01:24:03Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "MATLAB"
         },
         "licenseInfo": null
       }
@@ -7601,6 +9623,81 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM2MjYxMg==",
+      "login": "timrisi",
+      "name": "Timothy Risi",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/timrisi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/362612?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "AuroraSquadBuilder",
+        "nameWithOwner": "timrisi/AuroraSquadBuilder",
+        "url": "https://github.com/timrisi/AuroraSquadBuilder",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-12-07T06:57:08Z",
+        "pushedAt": "2018-06-23T07:39:50Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOCUx_kQ",
+      "login": "tziomek-DOI",
+      "name": "National Park Service - Southeast Alaska IMD Network",
+      "type": "User",
+      "location": "Juneau, AK",
+      "url": "https://github.com/tziomek-DOI",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/156008337?u=1523d86096c8d7c399522aa2fd5330f16d46eb0c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "SEAN_Sea-Otters",
+        "nameWithOwner": "tziomek-DOI/SEAN_Sea-Otters",
+        "url": "https://github.com/tziomek-DOI/SEAN_Sea-Otters",
+        "description": "Code repository in support of the SEAN Sea Otter vital sign monitoring program.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-01-20T00:26:44Z",
+        "pushedAt": "2024-11-27T19:35:33Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
         },
         "licenseInfo": null
       }
@@ -8117,6 +10214,42 @@
       }
     },
     {
+      "id": "U_kgDOBsYb1g",
+      "login": "a-hend",
+      "name": "Abe Henderson",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/a-hend",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/113646550?u=408b353b3fb7ab28bd5038732824e362d9730ee2&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "LifeHx",
+        "nameWithOwner": "a-hend/LifeHx",
+        "url": "https://github.com/a-hend/LifeHx",
+        "description": "A place to find and save life hacks.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-12-17T03:40:36Z",
+        "pushedAt": "2023-12-17T04:11:15Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDODqap7A",
       "login": "aaziz00775-ship-it",
       "name": "Aziz Abdullayev",
@@ -8501,6 +10634,110 @@
       }
     },
     {
+      "id": "U_kgDOCBupbw",
+      "login": "AK3Ring",
+      "name": "Adam",
+      "type": "User",
+      "location": "eagle river, ak",
+      "url": "https://github.com/AK3Ring",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/136030575?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "odin-recipes",
+        "nameWithOwner": "AK3Ring/odin-recipes",
+        "url": "https://github.com/AK3Ring/odin-recipes",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-09-27T20:10:51Z",
+        "pushedAt": "2023-09-27T20:10:52Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYwNjc0NDcz",
+      "login": "Akcajun1971",
+      "name": "Jimmy ",
+      "type": "User",
+      "location": "Wasilla ,Ak",
+      "url": "https://github.com/Akcajun1971",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/60674473?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "Akcajun1971",
+        "nameWithOwner": "Akcajun1971/Akcajun1971",
+        "url": "https://github.com/Akcajun1971/Akcajun1971",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-03-30T09:24:29Z",
+        "pushedAt": "2021-03-30T09:24:30Z",
+        "homepageUrl": "https://github.com/Akcajun1971",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBcKSWQ",
+      "login": "akestrel",
+      "name": "Andrew Kestrel",
+      "type": "User",
+      "location": "Alpine, AK",
+      "url": "https://github.com/akestrel",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/96637529?u=0e2461d95f24eed0285f4da7fb7741f8262435af&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "akestrel.github.io",
+        "nameWithOwner": "akestrel/akestrel.github.io",
+        "url": "https://github.com/akestrel/akestrel.github.io",
+        "description": "My homepage, as encouraged by Derris.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-12-24T23:35:14Z",
+        "pushedAt": "2021-12-25T00:04:09Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Ruby"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCfBrvg",
       "login": "akmammethojayew",
       "name": "Akmammet Hojayew",
@@ -8855,6 +11092,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM0MTEzMDc=",
+      "login": "amorphous907",
+      "name": "Amorphous",
+      "type": "User",
+      "location": "AK",
+      "url": "https://github.com/amorphous907",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3411307?u=cf93eba9ceb8d731f4d478ac4ddf1b6bd8079f66&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "WIPshmup",
+        "nameWithOwner": "amorphous907/WIPshmup",
+        "url": "https://github.com/amorphous907/WIPshmup",
+        "description": "A small SHMUP game. cuurently WIP, early alpha, etc.",
+        "stargazerCount": 0,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-04-22T07:11:58Z",
+        "pushedAt": "2016-06-23T10:51:53Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE2OTU4NDc3",
       "login": "AnatolyPushkarev",
       "name": "Anatoly",
@@ -9103,6 +11376,45 @@
           "name": "CSS"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCyFkiA",
+      "login": "asdstevenc",
+      "name": "Steven",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/asdstevenc",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/186737800?u=487f7b20f3c6b52b4e7a25cc966a48c944a85976&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "reposteve",
+        "nameWithOwner": "asdstevenc/reposteve",
+        "url": "https://github.com/asdstevenc/reposteve",
+        "description": "Steven's repo of useful scripts/tools made for internal projects which can be shared for public utility, and the betterment of scripting.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-23T16:16:44Z",
+        "pushedAt": "2026-08-11T17:54:41Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PowerShell"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
       }
     },
     {
@@ -10804,6 +13116,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjEzMzQ5Mjc=",
+      "login": "briansenta",
+      "name": "Brian Senta",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/briansenta",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1334927?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "brian-dotnet-interview-template",
+        "nameWithOwner": "briansenta/brian-dotnet-interview-template",
+        "url": "https://github.com/briansenta/brian-dotnet-interview-template",
+        "description": "Syncro interview process",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-10-04T19:32:46Z",
+        "pushedAt": "2024-10-08T17:24:16Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDODhRPFg",
       "login": "bridgecoresystems-cmd",
       "name": "BridgeCore SYSTEMS",
@@ -11014,6 +13362,42 @@
       }
     },
     {
+      "id": "U_kgDOBklJzQ",
+      "login": "cejlynn",
+      "name": "Cait Johnson",
+      "type": "User",
+      "location": "Delta Junction, AK",
+      "url": "https://github.com/cejlynn",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/105466317?u=96c1ec15c7bb1c75edea88bb10b7ca8c816be6d3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "nodebucket",
+        "nameWithOwner": "cejlynn/nodebucket",
+        "url": "https://github.com/cejlynn/nodebucket",
+        "description": "Repository for WEB450-339A Mastering the MEAN Stack Bootcamp",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-08-07T22:07:31Z",
+        "pushedAt": "2023-09-11T01:16:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDODXXTgQ",
       "login": "charymyradov",
       "name": "Orazgeldi_04",
@@ -11082,6 +13466,40 @@
         "primaryLanguage": {
           "name": "JavaScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEyMjE1MTE0",
+      "login": "ciscomancer",
+      "name": "ciscomancer",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/ciscomancer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12215114?u=22929963d20bb184649f8abe5bbed64afb2efa48&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "hello-world",
+        "nameWithOwner": "ciscomancer/hello-world",
+        "url": "https://github.com/ciscomancer/hello-world",
+        "description": "tutorial",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-10-09T20:32:37Z",
+        "pushedAt": "2019-10-09T20:40:46Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -11192,6 +13610,110 @@
       }
     },
     {
+      "id": "U_kgDOBoo-jA",
+      "login": "CortneyAK",
+      "name": "Cortney McLellan",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/CortneyAK",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/109723276?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "Run_Analysis_UCI_HAR_avgs",
+        "nameWithOwner": "CortneyAK/Run_Analysis_UCI_HAR_avgs",
+        "url": "https://github.com/CortneyAK/Run_Analysis_UCI_HAR_avgs",
+        "description": "Create table of feature averages grouped by subject and activity from the UCI HAR dataset",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-08-13T00:40:12Z",
+        "pushedAt": "2022-08-13T04:04:40Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "R"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY4OTI2MDk2",
+      "login": "craigschools",
+      "name": "craigschools",
+      "type": "User",
+      "location": "Craig, AK",
+      "url": "https://github.com/craigschools",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/68926096?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "autopkg",
+        "nameWithOwner": "craigschools/autopkg",
+        "url": "https://github.com/craigschools/autopkg",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-07-28T20:58:48Z",
+        "pushedAt": "2020-07-29T19:20:21Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBblq-w",
+      "login": "cyber-moose",
+      "name": "Ben Schmidt",
+      "type": "User",
+      "location": "Acnhorage, AK",
+      "url": "https://github.com/cyber-moose",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/96037627?u=8b4287240bfda387c9aff2d2ca98fd7880396cc3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "cyber-moose",
+        "nameWithOwner": "cyber-moose/cyber-moose",
+        "url": "https://github.com/cyber-moose/cyber-moose",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-12-13T04:58:21Z",
+        "pushedAt": "2022-11-15T22:25:09Z",
+        "homepageUrl": "https://github.com/cyber-moose",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBljLfw",
       "login": "d0kt3r4",
       "name": "NaZyM",
@@ -11220,6 +13742,40 @@
         "isFork": false,
         "createdAt": "2023-05-06T16:31:37Z",
         "pushedAt": "2023-05-07T06:12:43Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU4MjE3MzI=",
+      "login": "daddyblack",
+      "name": "Terrell Grant",
+      "type": "User",
+      "location": "Anch. Town, Ak.",
+      "url": "https://github.com/daddyblack",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5821732?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "WhoKnows",
+        "nameWithOwner": "daddyblack/WhoKnows",
+        "url": "https://github.com/daddyblack/WhoKnows",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-10-31T10:29:28Z",
+        "pushedAt": "2013-10-31T10:29:29Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -11467,6 +14023,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "CSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI0ODMxNDE1",
+      "login": "DigDugP",
+      "name": "Doug Perucca",
+      "type": "User",
+      "location": "Wasilla, AK",
+      "url": "https://github.com/DigDugP",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/24831415?u=a8605088f99d5699040752b3dd855b89ccbb712a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "Prime-Numbers",
+        "nameWithOwner": "DigDugP/Prime-Numbers",
+        "url": "https://github.com/DigDugP/Prime-Numbers",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-12-29T22:19:20Z",
+        "pushedAt": "2016-12-29T22:35:43Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
         },
         "licenseInfo": null
       }
@@ -11787,6 +14379,76 @@
         "pushedAt": "2026-07-09T07:42:57Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUwNjg3NzA5",
+      "login": "edgarn83",
+      "name": "Edgar Nunez",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/edgarn83",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50687709?u=005460309cad4d804566610ae4b696f69cce8145&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "devops-20220813",
+        "nameWithOwner": "edgarn83/devops-20220813",
+        "url": "https://github.com/edgarn83/devops-20220813",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-08-14T15:32:08Z",
+        "pushedAt": "2022-08-25T17:21:55Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMyODU0MTc1",
+      "login": "EHinkle",
+      "name": "Elizabeth Hinkle",
+      "type": "User",
+      "location": "Unalaska, AK",
+      "url": "https://github.com/EHinkle",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/32854175?u=bcb1a907840f516df4d9786068f0c72fe8884c1b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "Fire-Foodwebs",
+        "nameWithOwner": "EHinkle/Fire-Foodwebs",
+        "url": "https://github.com/EHinkle/Fire-Foodwebs",
+        "description": "These are the data for the second chapter of my dissertation focusing on fire impacts on stream foodwebs in AK",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-03-06T00:00:59Z",
+        "pushedAt": "2025-03-06T00:05:58Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "R"
+        },
         "licenseInfo": null
       }
     },
@@ -12399,6 +15061,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjgxOTY0Mzg2",
+      "login": "geraldyu96",
+      "name": "Gerald Yu",
+      "type": "User",
+      "location": "US, AK",
+      "url": "https://github.com/geraldyu96",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/81964386?u=d6e87e957029a5b8b8296815f8eac5d2466e61c9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "geraldyu96",
+        "nameWithOwner": "geraldyu96/geraldyu96",
+        "url": "https://github.com/geraldyu96/geraldyu96",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-04-05T11:17:39Z",
+        "pushedAt": "2021-04-05T11:25:15Z",
+        "homepageUrl": "https://github.com/geraldyu96",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBmNKng",
       "login": "ghetto123ghetto",
       "name": "Tofig",
@@ -12428,6 +15124,74 @@
         "createdAt": "2022-06-09T06:14:32Z",
         "pushedAt": "2022-06-09T06:21:32Z",
         "homepageUrl": "https://github.com/ghetto123ghetto",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjcxMDkyNDg=",
+      "login": "Ghost-gum",
+      "name": "Ghosh-gum",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/Ghost-gum",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7109248?u=8dbd40dfe5ecbbfa241f5fe29f18af21a8ebca50&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "python-forecast",
+        "nameWithOwner": "Ghost-gum/python-forecast",
+        "url": "https://github.com/Ghost-gum/python-forecast",
+        "description": "Sample program to capture the text forecast for Cooper Landing, Alaska",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-03-25T23:05:17Z",
+        "pushedAt": "2016-03-25T23:05:19Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEzNjMzNTUy",
+      "login": "gigaranger",
+      "name": "Kenny",
+      "type": "User",
+      "location": "Palmer, AK",
+      "url": "https://github.com/gigaranger",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13633552?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "Hello-World-",
+        "nameWithOwner": "gigaranger/Hello-World-",
+        "url": "https://github.com/gigaranger/Hello-World-",
+        "description": "Hello World, First time on GitHub",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-08-04T00:48:16Z",
+        "pushedAt": "2015-08-04T00:48:16Z",
+        "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
       }
@@ -12798,6 +15562,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQyODIwMzA3",
+      "login": "hillaryweinberg",
+      "name": "Hillary Weinberg",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/hillaryweinberg",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/42820307?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "rf_black_box",
+        "nameWithOwner": "hillaryweinberg/rf_black_box",
+        "url": "https://github.com/hillaryweinberg/rf_black_box",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-05-19T20:51:15Z",
+        "pushedAt": "2020-05-19T21:26:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOEDN5zg",
       "login": "hudayberdipolat",
       "name": "Hudayberdi Polatov",
@@ -13050,6 +15850,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjMwMjMwMzkx",
+      "login": "internetcanvas",
+      "name": "Brenn Berliner",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/internetcanvas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/30230391?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "chordmatch",
+        "nameWithOwner": "internetcanvas/chordmatch",
+        "url": "https://github.com/internetcanvas/chordmatch",
+        "description": "ChordMatch",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-05-06T01:41:09Z",
+        "pushedAt": "2024-07-30T03:27:17Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjc0MTgwMzgx",
       "login": "itop-tm",
       "name": "Hojayev Mohamed",
@@ -13086,6 +15922,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjgxNDY4Nzk=",
+      "login": "jackcholt",
+      "name": "Jack C. Holt",
+      "type": "User",
+      "location": "Soldotna, AK",
+      "url": "https://github.com/jackcholt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8146879?u=4d965a511e49e1b4ceee8236c91b8e3aecdf5c4e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "angular-example",
+        "nameWithOwner": "jackcholt/angular-example",
+        "url": "https://github.com/jackcholt/angular-example",
+        "description": "Created with StackBlitz ⚡️",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-03-28T15:56:43Z",
+        "pushedAt": "2022-03-30T17:53:11Z",
+        "homepageUrl": "https://stackblitz.com/edit/angular-x7hzlh",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDODWKpqQ",
       "login": "jahan1991",
       "name": "Jahan Abdullayeva",
@@ -13116,6 +15988,42 @@
         "pushedAt": "2025-08-04T16:05:37Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODPO7sw",
+      "login": "jaxmobs",
+      "name": "Jaron Mobley",
+      "type": "User",
+      "location": "Palmer, AK",
+      "url": "https://github.com/jaxmobs",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/217299891?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "jaronportfolio",
+        "nameWithOwner": "jaxmobs/jaronportfolio",
+        "url": "https://github.com/jaxmobs/jaronportfolio",
+        "description": "my photo and video portfolio mainly held together by prayers and claude ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-30T18:07:46Z",
+        "pushedAt": "2026-09-22T04:44:06Z",
+        "homepageUrl": "https://jaronportfolio.vercel.app",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
         "licenseInfo": null
       }
     },
@@ -13188,6 +16096,117 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU0NjA0NjYy",
+      "login": "jfarcalas",
+      "name": "JC Arcalas",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/jfarcalas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/54604662?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "hello-world",
+        "nameWithOwner": "jfarcalas/hello-world",
+        "url": "https://github.com/jfarcalas/hello-world",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-08-27T22:30:08Z",
+        "pushedAt": "2019-08-27T22:30:10Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU3MjI3MDg=",
+      "login": "jimmyRobson",
+      "name": "JImmy Robson",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/jimmyRobson",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5722708?u=fc39bac0cbe5f4c21dbcf530c7e871edd062cc17&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "memory-dotnet",
+        "nameWithOwner": "jimmyRobson/memory-dotnet",
+        "url": "https://github.com/jimmyRobson/memory-dotnet",
+        "description": "AspNet Core Web API",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-07-07T21:52:48Z",
+        "pushedAt": "2017-08-28T02:30:20Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU0NTQ4OTYx",
+      "login": "jordanjmiller",
+      "name": "Jordan Miller",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/jordanjmiller",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/54548961?u=ccca5d06a46003504894fffe67160e492562291d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "Docker-tutorial-projects",
+        "nameWithOwner": "jordanjmiller/Docker-tutorial-projects",
+        "url": "https://github.com/jordanjmiller/Docker-tutorial-projects",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-10-21T21:12:55Z",
+        "pushedAt": "2020-10-21T21:13:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "The Unlicense",
+          "spdxId": "Unlicense"
+        }
+      }
+    },
+    {
       "id": "U_kgDOCMg6sw",
       "login": "Joshgun1202",
       "name": "joshgun",
@@ -13220,6 +16239,40 @@
         "primaryLanguage": {
           "name": "JavaScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE2ODI1OTQ5",
+      "login": "JoshuaCPeter",
+      "name": "Joshua C Peter",
+      "type": "User",
+      "location": "Fairbanks, AK",
+      "url": "https://github.com/JoshuaCPeter",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16825949?u=5dd54efbfd149758c5466bf61db01b58d35d7412&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "funtimes",
+        "nameWithOwner": "JoshuaCPeter/funtimes",
+        "url": "https://github.com/JoshuaCPeter/funtimes",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-08-25T17:28:35Z",
+        "pushedAt": "2021-08-25T17:28:36Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -13292,6 +16345,79 @@
         "primaryLanguage": {
           "name": "JavaScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE5MzM1ODk=",
+      "login": "jwknox",
+      "name": "Joe Knox",
+      "type": "User",
+      "location": "Fairbanks, AK",
+      "url": "https://github.com/jwknox",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1933589?u=aea9022bce56072fc1da03d5d61aae6a2666073a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "rotomdexbot",
+        "nameWithOwner": "jwknox/rotomdexbot",
+        "url": "https://github.com/jwknox/rotomdexbot",
+        "description": "A simple bot for providing Pokemon information in certain Twitch channels",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-03-06T19:39:10Z",
+        "pushedAt": "2020-03-07T03:17:45Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY1NzkwMzkz",
+      "login": "jwmerickel",
+      "name": "John Merickel",
+      "type": "User",
+      "location": "Fairbanks, AK",
+      "url": "https://github.com/jwmerickel",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/65790393?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "test",
+        "nameWithOwner": "jwmerickel/test",
+        "url": "https://github.com/jwmerickel/test",
+        "description": "test",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-06-10T22:59:06Z",
+        "pushedAt": "2020-06-10T22:59:07Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -13398,6 +16524,78 @@
         "pushedAt": "2024-08-24T07:03:10Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE0OTAzMTIw",
+      "login": "karlohrr",
+      "name": "Christopher Patlingrao",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/karlohrr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/14903120?u=997bf27a17c24d176140d388c1005a27abe9fcf7&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "drink-finder-react-ts",
+        "nameWithOwner": "karlohrr/drink-finder-react-ts",
+        "url": "https://github.com/karlohrr/drink-finder-react-ts",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-05-21T20:56:58Z",
+        "pushedAt": "2022-05-26T03:41:45Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODVMjWA",
+      "login": "keaneruben",
+      "name": "Ruben Keane",
+      "type": "User",
+      "location": "Fairbanks, AK",
+      "url": "https://github.com/keaneruben",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/223552344?u=f6f667bd29ae8af5f7b835f322ca6368541b2b76&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "Soil_Moisture-",
+        "nameWithOwner": "keaneruben/Soil_Moisture-",
+        "url": "https://github.com/keaneruben/Soil_Moisture-",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-07-29T20:11:22Z",
+        "pushedAt": "2025-07-29T20:15:59Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
         "licenseInfo": null
       }
     },
@@ -13538,6 +16736,40 @@
         "primaryLanguage": {
           "name": "Python"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjcyNjMzMzc3",
+      "login": "kgruenthal",
+      "name": "Kristen Gruenthal",
+      "type": "User",
+      "location": "Juneau, AK",
+      "url": "https://github.com/kgruenthal",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/72633377?u=4f70c3100394b1838a1145deae39e42d61058197&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "GitTest",
+        "nameWithOwner": "kgruenthal/GitTest",
+        "url": "https://github.com/kgruenthal/GitTest",
+        "description": "testing my setup",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-10-20T23:23:49Z",
+        "pushedAt": "2021-10-20T23:57:05Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -13687,6 +16919,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjkxMjk4NDM2",
+      "login": "lacroitgnamsbeau",
+      "name": "Louise Santos",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/lacroitgnamsbeau",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/91298436?u=a9697b89e206d9512a1ca3834259ecc5a0dbfa04&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "Dream-Sweet-in-C-",
+        "nameWithOwner": "lacroitgnamsbeau/Dream-Sweet-in-C-",
+        "url": "https://github.com/lacroitgnamsbeau/Dream-Sweet-in-C-",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-10-17T17:02:03Z",
+        "pushedAt": "2024-12-01T05:42:42Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOE8Rcqg",
       "login": "landrymc9qd4u1",
       "name": null,
@@ -13827,6 +17095,81 @@
       }
     },
     {
+      "id": "U_kgDOCOSylQ",
+      "login": "Lilly-Banuelos",
+      "name": "Lilly Banuelos",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/Lilly-Banuelos",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/149205653?u=1fef729eb6f0a6e3cd6c636e0ed5af32b4aaafa3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "Web-Dev-Website-Subscription-Assignment",
+        "nameWithOwner": "Lilly-Banuelos/Web-Dev-Website-Subscription-Assignment",
+        "url": "https://github.com/Lilly-Banuelos/Web-Dev-Website-Subscription-Assignment",
+        "description": "This is a web dev 1 assignment. Users must enter their name and select a format in order to subscribe to the website's blog. This was early in my schooling before try catches had been introduced to prevent the user from entering in invalid answers.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-03-31T03:31:53Z",
+        "pushedAt": "2025-03-31T03:32:34Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgyMTEyNjY3",
+      "login": "LinnBenson",
+      "name": "北川",
+      "type": "User",
+      "location": "Haines, AK",
+      "url": "https://github.com/LinnBenson",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/82112667?u=f39335280f2b756a790ea2953f66e4308882ae32&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "S-Key",
+        "nameWithOwner": "LinnBenson/S-Key",
+        "url": "https://github.com/LinnBenson/S-Key",
+        "description": "S Key 是一款注重输入体验和隐私的 Android 输入法，绝大部分操作只在您的本地加密完成，并且不会记录您的输入行为，也可以使用离线语音模式，以做到完全离线的输入体验。翻译及 AI 助手仅使用您许可的 API 进行操作，不向其它任何第三方上报内容。输入法的 词库/主题/样式/习惯 等皆可由您自行个性化定义。",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-26T16:41:48Z",
+        "pushedAt": "2026-10-26T17:54:20Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Kotlin"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
       "id": "U_kgDODVGB_w",
       "login": "luminos-sayra",
       "name": "Luminos sayra",
@@ -13856,6 +17199,40 @@
         "createdAt": "2025-07-29T09:15:10Z",
         "pushedAt": "2025-07-29T09:15:11Z",
         "homepageUrl": "https://sayra-five.vercel.app",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU4MTgzODky",
+      "login": "mafitch",
+      "name": "Mark Fitch",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/mafitch",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58183892?u=120e8ac90532f7ec83bb16e6421895fe9931b059&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "MAA-PNW-Section-Meeting-Program",
+        "nameWithOwner": "mafitch/MAA-PNW-Section-Meeting-Program",
+        "url": "https://github.com/mafitch/MAA-PNW-Section-Meeting-Program",
+        "description": "PreTeXt meeting program",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-23T20:20:13Z",
+        "pushedAt": "2026-04-18T23:19:51Z",
+        "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
       }
@@ -14034,6 +17411,45 @@
         "homepageUrl": "https://github.com/marusnikefeed",
         "primaryLanguage": null,
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEwNjQyODk5",
+      "login": "mattcurfman",
+      "name": "Matt Curfman ",
+      "type": "User",
+      "location": "Juneau, AK",
+      "url": "https://github.com/mattcurfman",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10642899?u=588fc6a3909decebdf3fce6889690b2f6d2a666a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "ai_meter",
+        "nameWithOwner": "mattcurfman/ai_meter",
+        "url": "https://github.com/mattcurfman/ai_meter",
+        "description": "Yet another vibe coded Menu bar meter of Claude and Codex usage",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-15T00:49:11Z",
+        "pushedAt": "2026-10-24T21:13:49Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
       }
     },
     {
@@ -14929,6 +18345,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjc0NDc1MjE1",
+      "login": "mrsnandes",
+      "name": "Faith Fernandes",
+      "type": "User",
+      "location": "Fairbanks, AK",
+      "url": "https://github.com/mrsnandes",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/74475215?u=705c30335dff3e073f4e505336fb18934a5a39ef&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "student-roster",
+        "nameWithOwner": "mrsnandes/student-roster",
+        "url": "https://github.com/mrsnandes/student-roster",
+        "description": "C867 Scripting and Programming Performance Assessment - Western Governors University",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-05-31T20:42:17Z",
+        "pushedAt": "2021-09-26T17:39:13Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCP00Cg",
       "login": "mrxx7707",
       "name": "mrxx7707",
@@ -15219,6 +18671,42 @@
       }
     },
     {
+      "id": "U_kgDOC_QWXw",
+      "login": "natlas-deluca",
+      "name": "Nicholas Deluca",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/natlas-deluca",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/200545887?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "neon-task-tracker",
+        "nameWithOwner": "natlas-deluca/neon-task-tracker",
+        "url": "https://github.com/natlas-deluca/neon-task-tracker",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-02-15T03:58:27Z",
+        "pushedAt": "2026-02-15T04:08:41Z",
+        "homepageUrl": "https://neon-task-tracker.vercel.app",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjUyMTUyNjQw",
       "login": "nberdyyev",
       "name": "Nazar Berdiyev",
@@ -15248,6 +18736,40 @@
         "createdAt": "2021-11-25T08:43:57Z",
         "pushedAt": "2021-11-25T08:43:58Z",
         "homepageUrl": "https://github.com/nberdyyev",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM1MTc1Njkw",
+      "login": "NewWorldOptimist",
+      "name": "Kim Forsythe",
+      "type": "User",
+      "location": "Fairbanks, AK ",
+      "url": "https://github.com/NewWorldOptimist",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/35175690?u=f14698843e22f96712e3e8d07aae9f46209c612a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "Namaste-Coin",
+        "nameWithOwner": "NewWorldOptimist/Namaste-Coin",
+        "url": "https://github.com/NewWorldOptimist/Namaste-Coin",
+        "description": "Namaste Coin -- AKuaponics3D, LLC",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-01-07T00:45:23Z",
+        "pushedAt": "2018-01-07T00:45:24Z",
+        "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
       }
@@ -15752,6 +19274,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjIzNDYxMTgz",
+      "login": "planetjerm",
+      "name": "Jeremy Thomas",
+      "type": "User",
+      "location": "Fairbanks, AK, US",
+      "url": "https://github.com/planetjerm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/23461183?u=fc97f3e48d7ae5939917b7c44c07446b410ff815&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "SMFL-battleships",
+        "nameWithOwner": "planetjerm/SMFL-battleships",
+        "url": "https://github.com/planetjerm/SMFL-battleships",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-05-08T22:48:30Z",
+        "pushedAt": "2018-05-08T23:03:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjc4NzkwMTgz",
       "login": "pmuhammedov",
       "name": "Pena Muhammedov",
@@ -15788,6 +19349,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjI2MjA2OTU5",
+      "login": "pnhansen",
+      "name": "Paula Hansen",
+      "type": "User",
+      "location": "Kenai, AK",
+      "url": "https://github.com/pnhansen",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/26206959?u=ef0d470eefedca946de2db14ed3acbd575f55533&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "git_test",
+        "nameWithOwner": "pnhansen/git_test",
+        "url": "https://github.com/pnhansen/git_test",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-03-31T20:02:25Z",
+        "pushedAt": "2017-03-31T20:02:25Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjg3OTAwOTYx",
       "login": "PolatGarlyev",
       "name": "Polat",
@@ -15818,6 +19413,42 @@
         "pushedAt": "2021-07-24T21:43:19Z",
         "homepageUrl": "https://github.com/PolatGarlyev",
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjExMzY0OTg=",
+      "login": "ponderingtom",
+      "name": "Tom Lewis",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/ponderingtom",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1136498?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "gofortom-mvc",
+        "nameWithOwner": "ponderingtom/gofortom-mvc",
+        "url": "https://github.com/ponderingtom/gofortom-mvc",
+        "description": "Playing with MVC",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-01-01T19:15:11Z",
+        "pushedAt": "2019-01-01T19:15:19Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
         "licenseInfo": null
       }
     },
@@ -15894,6 +19525,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjYxODYwMDc2",
+      "login": "rarollin",
+      "name": "KeyenLocke",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/rarollin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/61860076?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "portfolio-projects",
+        "nameWithOwner": "rarollin/portfolio-projects",
+        "url": "https://github.com/rarollin/portfolio-projects",
+        "description": "A collection of data analysis and programming projects.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-01-22T22:32:23Z",
+        "pushedAt": "2023-09-07T19:25:28Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCB90OQ",
       "login": "Rash93311",
       "name": "Rasty's Web Group",
@@ -15959,6 +19624,42 @@
         "homepageUrl": "https://rahymberdi.vercel.app",
         "primaryLanguage": {
           "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOC3aNZw",
+      "login": "rdazadda",
+      "name": "Raymond D. Azadda",
+      "type": "User",
+      "location": "Fairbanks, AK",
+      "url": "https://github.com/rdazadda",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/192318823?u=6269152c1f17834f67a053a94b184fa62f5c167d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "rdazadda.github.io",
+        "nameWithOwner": "rdazadda/rdazadda.github.io",
+        "url": "https://github.com/rdazadda/rdazadda.github.io",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-20T22:32:48Z",
+        "pushedAt": "2026-10-27T01:36:21Z",
+        "homepageUrl": "https://rdazadda.github.io/",
+        "primaryLanguage": {
+          "name": "Astro"
         },
         "licenseInfo": null
       }
@@ -16036,6 +19737,42 @@
       }
     },
     {
+      "id": "U_kgDOCbdzhg",
+      "login": "reyvilla17",
+      "name": "Ramon Villalobos",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/reyvilla17",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/163017606?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "CodeCademy-Projects",
+        "nameWithOwner": "reyvilla17/CodeCademy-Projects",
+        "url": "https://github.com/reyvilla17/CodeCademy-Projects",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-04-11T19:00:17Z",
+        "pushedAt": "2024-04-25T18:40:02Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOE7AjTw",
       "login": "rhys7idw",
       "name": null,
@@ -16102,6 +19839,40 @@
         "primaryLanguage": {
           "name": "CSS"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY4Mjk4MTgy",
+      "login": "RootX99",
+      "name": null,
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/RootX99",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/68298182?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "datasciencecoursera",
+        "nameWithOwner": "RootX99/datasciencecoursera",
+        "url": "https://github.com/RootX99/datasciencecoursera",
+        "description": "Repo created as part of Project",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-10-07T01:09:37Z",
+        "pushedAt": "2020-10-07T02:04:23Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -16239,6 +20010,78 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjk4OTIyNg==",
+      "login": "rvivian",
+      "name": "Rhyss Vivian",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/rvivian",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/989226?u=3e4000c23b6db4208fede6d188076d49b518b01a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "rhyssvivian.dev",
+        "nameWithOwner": "rvivian/rhyssvivian.dev",
+        "url": "https://github.com/rvivian/rhyssvivian.dev",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-06-28T03:17:47Z",
+        "pushedAt": "2026-08-20T23:46:01Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Astro"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMxOTcyNjI1",
+      "login": "Ryllek",
+      "name": "Chase",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/Ryllek",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/31972625?u=54248da9faf153ad625c9114ae3987bcdd5ea34d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "f1-3-c2p1-colmar-academy",
+        "nameWithOwner": "Ryllek/f1-3-c2p1-colmar-academy",
+        "url": "https://github.com/Ryllek/f1-3-c2p1-colmar-academy",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-11-22T00:45:35Z",
+        "pushedAt": "2017-11-22T00:45:48Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "CSS"
         },
         "licenseInfo": null
       }
@@ -16448,6 +20291,42 @@
         "pushedAt": "2024-10-17T14:51:29Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOC_BrJg",
+      "login": "Scooby0133",
+      "name": "Andrew Wees",
+      "type": "User",
+      "location": "Ketchikan, AK",
+      "url": "https://github.com/Scooby0133",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/200305446?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "my-personal-blog",
+        "nameWithOwner": "Scooby0133/my-personal-blog",
+        "url": "https://github.com/Scooby0133/my-personal-blog",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-13T00:07:11Z",
+        "pushedAt": "2026-10-13T00:07:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Astro"
+        },
         "licenseInfo": null
       }
     },
@@ -16730,6 +20609,42 @@
         "pushedAt": "2025-11-05T06:41:32Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg0MTkzNTU=",
+      "login": "ShaunReid",
+      "name": "Shaun Reid",
+      "type": "User",
+      "location": "Eagle River, AK",
+      "url": "https://github.com/ShaunReid",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8419355?u=f03c07902065683bfa5de6f16f8cd5bcd2f6ff3f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "CMSC350_ThreeAddressGenerator",
+        "nameWithOwner": "ShaunReid/CMSC350_ThreeAddressGenerator",
+        "url": "https://github.com/ShaunReid/CMSC350_ThreeAddressGenerator",
+        "description": "This project uses an expression tree to create and output the three address format.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-09-13T23:33:33Z",
+        "pushedAt": "2020-09-13T23:35:08Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
         "licenseInfo": null
       }
     },
@@ -17052,6 +20967,40 @@
       }
     },
     {
+      "id": "U_kgDOCEaERQ",
+      "login": "smoore5600",
+      "name": "Jack huckleberry ",
+      "type": "User",
+      "location": "Metlakatla, Ak",
+      "url": "https://github.com/smoore5600",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/138839109?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "smoore5600",
+        "nameWithOwner": "smoore5600/smoore5600",
+        "url": "https://github.com/smoore5600/smoore5600",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-07-07T14:11:33Z",
+        "pushedAt": "2023-07-07T14:11:33Z",
+        "homepageUrl": "https://github.com/smoore5600",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCj3lZw",
       "login": "Softdeveloper03",
       "name": "Abdulla Amangeldiyev",
@@ -17194,6 +21143,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjI1Mzk0NTA5",
+      "login": "StevenThater",
+      "name": "Steven Thater",
+      "type": "User",
+      "location": "Juneau, AK",
+      "url": "https://github.com/StevenThater",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25394509?u=786c0e681497359def25231a37e9b0e1bce4bb50&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "CodeSample",
+        "nameWithOwner": "StevenThater/CodeSample",
+        "url": "https://github.com/StevenThater/CodeSample",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-01-27T21:33:43Z",
+        "pushedAt": "2017-01-28T04:45:58Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
       "id": "U_kgDOE8PT8A",
       "login": "stonevttx2",
       "name": null,
@@ -17224,6 +21212,42 @@
         "pushedAt": "2026-09-20T11:14:16Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMxNDY3ODY0",
+      "login": "StringnameMatt",
+      "name": "Matt",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/StringnameMatt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/31467864?u=2b24b69e30dc565730bb20b027daaaaec867f4cf&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "Coastal",
+        "nameWithOwner": "StringnameMatt/Coastal",
+        "url": "https://github.com/StringnameMatt/Coastal",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-02-04T10:54:48Z",
+        "pushedAt": "2022-02-22T00:02:14Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
         "licenseInfo": null
       }
     },
@@ -17546,6 +21570,148 @@
       }
     },
     {
+      "id": "U_kgDOCIy9Uw",
+      "login": "techynoahb",
+      "name": "techynoahb",
+      "type": "User",
+      "location": "AK",
+      "url": "https://github.com/techynoahb",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/143441235?u=56331d2d23368a970e13d03796d413932ca55110&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "CS471_Mini-Project",
+        "nameWithOwner": "techynoahb/CS471_Mini-Project",
+        "url": "https://github.com/techynoahb/CS471_Mini-Project",
+        "description": "CS471 Mini Project",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-21T20:03:22Z",
+        "pushedAt": "2026-10-20T03:27:28Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI2NDY5OTIw",
+      "login": "Telayna",
+      "name": "Telayna Wong",
+      "type": "User",
+      "location": "Fairbanks, AK",
+      "url": "https://github.com/Telayna",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/26469920?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "learn-co-sandbox",
+        "nameWithOwner": "Telayna/learn-co-sandbox",
+        "url": "https://github.com/Telayna/learn-co-sandbox",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-10-08T04:47:01Z",
+        "pushedAt": "2018-10-08T04:47:03Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY3Mjk0NDI1",
+      "login": "thedavidelrod",
+      "name": "David Elrod",
+      "type": "User",
+      "location": "Oakland, CA/Juneau, AK",
+      "url": "https://github.com/thedavidelrod",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/67294425?u=4c3fdd66110d93a33d7e147ffdd64b6ccb2516a3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "devtimequestionfrontend",
+        "nameWithOwner": "thedavidelrod/devtimequestionfrontend",
+        "url": "https://github.com/thedavidelrod/devtimequestionfrontend",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-04-09T00:17:30Z",
+        "pushedAt": "2021-04-09T00:18:41Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE3NjY2NTk=",
+      "login": "tillguth",
+      "name": "Tim Illguth",
+      "type": "User",
+      "location": "Fairbanks, AK",
+      "url": "https://github.com/tillguth",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1766659?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "RobotC",
+        "nameWithOwner": "tillguth/RobotC",
+        "url": "https://github.com/tillguth/RobotC",
+        "description": "RobotC programs",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-02-11T19:16:37Z",
+        "pushedAt": "2015-02-11T20:11:56Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOB5MoEA",
       "login": "TirkishmammetAnnamammedov",
       "name": "Tirkish",
@@ -17616,6 +21782,45 @@
       }
     },
     {
+      "id": "U_kgDOCw1a8Q",
+      "login": "TundraFox907",
+      "name": "Benjamin Hedges",
+      "type": "User",
+      "location": "Fairbanks, AK",
+      "url": "https://github.com/TundraFox907",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/185424625?u=1ce836a5e7a84f6a4b0f8ebd3ad0c6768cec8ce3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "GSIA-Wiping-Scripts",
+        "nameWithOwner": "TundraFox907/GSIA-Wiping-Scripts",
+        "url": "https://github.com/TundraFox907/GSIA-Wiping-Scripts",
+        "description": "Dumping ground for various GSIA wiping scripts. Effectively cloud storage for a backup and ease of retrieval. ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-03-26T04:06:52Z",
+        "pushedAt": "2025-09-10T22:40:48Z",
+        "homepageUrl": "https://iagreenstar.org",
+        "primaryLanguage": {
+          "name": "Shell"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "O_kgDOC4TLgw",
       "login": "turkmenCode-Lab",
       "name": "Turkmen Code Lab",
@@ -17682,6 +21887,42 @@
         "pushedAt": "2022-10-08T13:16:38Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYwMjQ4MTA2",
+      "login": "TylerFevy",
+      "name": "Tyler Fevurly",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/TylerFevy",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/60248106?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "portfolio",
+        "nameWithOwner": "TylerFevy/portfolio",
+        "url": "https://github.com/TylerFevy/portfolio",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-01-24T05:17:55Z",
+        "pushedAt": "2020-01-24T05:18:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
         "licenseInfo": null
       }
     },
@@ -18042,6 +22283,40 @@
         "primaryLanguage": {
           "name": "JavaScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMzNTg1MjQ2",
+      "login": "wmedlin733",
+      "name": "Will Medlin",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/wmedlin733",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33585246?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "gitonlinetraining",
+        "nameWithOwner": "wmedlin733/gitonlinetraining",
+        "url": "https://github.com/wmedlin733/gitonlinetraining",
+        "description": "github examples from udemy",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-09-18T01:32:35Z",
+        "pushedAt": "2021-09-18T05:02:06Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -18469,6 +22744,76 @@
       }
     },
     {
+      "id": "U_kgDOE-1WXg",
+      "login": "zakrahks",
+      "name": "AKAi LLC",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/zakrahks",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/334321246?u=5b790529ad6a4bbc59fd52c0afcb67e08f4ec7e8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "akai.llc",
+        "nameWithOwner": "zakrahks/akai.llc",
+        "url": "https://github.com/zakrahks/akai.llc",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-06T02:35:06Z",
+        "pushedAt": "2026-10-06T02:35:19Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE0ODU0Mzcz",
+      "login": "zenShaunD",
+      "name": "Shaun Dyess",
+      "type": "User",
+      "location": "Anchorage, AK",
+      "url": "https://github.com/zenShaunD",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/14854373?u=fb31235e1a51a4cd4ad22c8bf636b38b2ad3f325&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "tidemesh",
+        "nameWithOwner": "zenShaunD/tidemesh",
+        "url": "https://github.com/zenShaunD/tidemesh",
+        "description": "Community-owned RF-first ocean conditions sensing mesh with sovereign edge AI and offline-capable apps for Alaska's fishers and coastal communities.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-06-17T02:15:53Z",
+        "pushedAt": "2026-06-17T02:15:54Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOE68spw",
       "login": "zeta3hr5x",
       "name": "Turgun Amanov",
@@ -18535,6 +22880,40 @@
         "primaryLanguage": {
           "name": "HTML"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE3OTM3MTk2",
+      "login": "zjbrown72",
+      "name": "Zach",
+      "type": "User",
+      "location": "Eagle River, AK",
+      "url": "https://github.com/zjbrown72",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17937196?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "TM",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "ak"
+      },
+      "discoveryTerms": [
+        "Ak"
+      ],
+      "topRepository": {
+        "name": "hello-world",
+        "nameWithOwner": "zjbrown72/hello-world",
+        "url": "https://github.com/zjbrown72/hello-world",
+        "description": "just another repository",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-03-18T22:35:57Z",
+        "pushedAt": "2016-03-18T22:44:55Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     }
