@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 581**
 - Progress: **0%**
-- Retained high-potential owner candidates: **644**
-- Search requests completed: **16**
+- Retained high-potential owner candidates: **971**
+- Search requests completed: **24**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -38,7 +38,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [DottieDot/GTAV-NativeDB](https://github.com/DottieDot/GTAV-NativeDB) | **60** | Panama |
 | [sigmaco/rwsrc-v3.7.0.2](https://github.com/sigmaco/rwsrc-v3.7.0.2) | **51** | Panama |
 | [kuking/seof](https://github.com/kuking/seof) | **46** | Panama City |
-| [jeremymcs/patchdeck](https://github.com/jeremymcs/patchdeck) | **21** | Panama City, FL |
+| [cfHxqA/Mission-Chief.Bot](https://github.com/cfHxqA/Mission-Chief.Bot) | **25** | Panama, Central America |
 
 ## Repository-first scan
 

@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 55%
+## Repository ranking status: Building 82%
 
-- Geography terms processed: **16 / 29**
-- Progress: **55%**
-- Retained high-potential owner candidates: **13**
-- Search requests completed: **16**
+- Geography terms processed: **24 / 29**
+- Progress: **82%**
+- Retained high-potential owner candidates: **26**
+- Search requests completed: **24**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -27,15 +27,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [raipay/chronik](https://github.com/raipay/chronik) | **5** | Northern Mariana Islands |
 | [mhscc/mhs-sh](https://github.com/mhscc/mhs-sh) | **3** | Saipan, Northern Mariana Islands |
 | [Ar7Backup/generator](https://github.com/Ar7Backup/generator) | **2** | Northern Mariana Islands |
+| [donnaada/starter-template](https://github.com/donnaada/starter-template) | **2** | Saipan, MP |
 | [kallo-project/kallo-backend](https://github.com/kallo-project/kallo-backend) | **2** | Saipan, Northern Mariana Islands |
 | [dipsmhsacc/ldstr](https://github.com/dipsmhsacc/ldstr) | **1** | Saipan, Northern Mariana Islands |
+| [ellieroark/StopoverHabitatMonitoring](https://github.com/ellieroark/StopoverHabitatMonitoring) | **1** | Saipan, MP |
+| [wgaul/R_Crash_Course](https://github.com/wgaul/R_Crash_Course) | **1** | Saipan, MP |
 | [AudutSphere-Intelligence-Corp/audut-cnmi](https://github.com/AudutSphere-Intelligence-Corp/audut-cnmi) | **0** | Northern Mariana Islands |
 | [BaiJaCheng/BaiJaCheng.github.io](https://github.com/BaiJaCheng/BaiJaCheng.github.io) | **0** | 715 ,Cristopher Forge ,Williehaven ,Virginia ,Northern Mariana Islands |
 | [Batchproducts/.github](https://github.com/Batchproducts/.github) | **0** | Northern Mariana Islands |
+| [bhurn02/reactjs-reactjsconsulting](https://github.com/bhurn02/reactjs-reactjsconsulting) | **0** | Saipan, MP 96950 |
 | [Bradley-Jones-Hisashi/Future-Homes](https://github.com/Bradley-Jones-Hisashi/Future-Homes) | **0** | Northern Mariana Islands |
 | [bratmasarukioto/bratmasarukioto](https://github.com/bratmasarukioto/bratmasarukioto) | **0** | Northern Mariana Islands (MP) |
 | [chris-yng/tether-swing](https://github.com/chris-yng/tether-swing) | **0** | Sotobury, Northern Mariana Islands |
-| [isaaccalvo/bhwcode](https://github.com/isaaccalvo/bhwcode) | **0** | Northern Mariana Islands |
-| [rudi-marshall/rudimarshall](https://github.com/rudi-marshall/rudimarshall) | **0** | Saipan, Northern Mariana Islands  |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

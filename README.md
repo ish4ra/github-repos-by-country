@@ -21,7 +21,7 @@
 
 ## Browse by country
 
-**250 indexed · 53 live · 236 building · 0 queued**
+**250 indexed · 53 live · 234 building · 0 queued**
 
 > 🟢 **Live** = published ranking · 🟡 **Building** = crawl in progress · ⚪ **Queued** = waiting for its first crawl
 

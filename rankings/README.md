@@ -1,6 +1,6 @@
 # Browse Repository Rankings
 
-**250 countries and territories indexed · 53 live · 236 building**
+**250 countries and territories indexed · 53 live · 234 building**
 
 Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a country.
 
@@ -164,24 +164,24 @@ Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a co
 | 🇳🇨 **New Caledonia** | `NC` | 🟡 Building 25% | [Open country page](./new-caledonia.md) | — | 16 Oct 2026, 05:04 UTC |
 | 🇳🇿 **New Zealand** | `NZ` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./new-zealand.md) | 100 | 16 Oct 2026, 23:48 UTC |
 | 🇳🇮 **Nicaragua** | `NI` | 🟡 Building 0% | [Open country page](./nicaragua.md) | — | 16 Oct 2026, 18:16 UTC |
-| 🇳🇪 **Niger** | `NE` | 🟡 Building 3% | [Open country page](./niger.md) | — | 13 Oct 2026, 01:18 UTC |
+| 🇳🇪 **Niger** | `NE` | 🟡 Building 10% | [Open country page](./niger.md) | — | 13 Oct 2026, 01:18 UTC |
 | 🇳🇬 **Nigeria** | `NG` | 🟡 Building 0% | [Open country page](./nigeria.md) | — | 17 Oct 2026, 01:38 UTC |
-| 🇳🇺 **Niue** | `NU` | 🟡 Building 51% | [Open country page](./niue.md) | — | 24 Oct 2026, 04:45 UTC |
-| 🇳🇫 **Norfolk Island** | `NF` | 🟡 Building 84% | [Open country page](./norfolk-island.md) | — | 24 Oct 2026, 04:45 UTC |
-| 🇰🇵 **North Korea** | `KP` | 🟡 Building 2% | [Open country page](./north-korea.md) | — | 16 Oct 2026, 21:29 UTC |
-| 🇲🇰 **North Macedonia** | `MK` | 🟡 Building 0% | [Open country page](./north-macedonia.md) | — | 16 Oct 2026, 23:48 UTC |
-| 🇲🇵 **Northern Mariana Islands** | `MP` | 🟡 Building 55% | [Open country page](./northern-mariana-islands.md) | — | 24 Oct 2026, 04:46 UTC |
+| 🇳🇺 **Niue** | `NU` | 🟡 Building 77% | [Open country page](./niue.md) | — | 27 Oct 2026, 05:14 UTC |
+| 🇳🇫 **Norfolk Island** | `NF` | Completed | [Open country page](./norfolk-island.md) | — | 27 Oct 2026, 05:14 UTC |
+| 🇰🇵 **North Korea** | `KP` | 🟡 Building 7% | [Open country page](./north-korea.md) | — | 16 Oct 2026, 21:29 UTC |
+| 🇲🇰 **North Macedonia** | `MK` | 🟡 Building 2% | [Open country page](./north-macedonia.md) | — | 16 Oct 2026, 23:48 UTC |
+| 🇲🇵 **Northern Mariana Islands** | `MP` | 🟡 Building 82% | [Open country page](./northern-mariana-islands.md) | — | 27 Oct 2026, 05:14 UTC |
 | 🇳🇴 **Norway** | `NO` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./norway.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇴🇲 **Oman** | `OM` | 🟡 Building 0% | [Open country page](./oman.md) | — | 09 Oct 2026, 00:01 UTC |
 | 🇵🇰 **Pakistan** | `PK` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./pakistan.md) | 100 | 16 Oct 2026, 23:48 UTC |
-| 🇵🇼 **Palau** | `PW` | 🟡 Building 27% | [Open country page](./palau.md) | — | 24 Oct 2026, 04:47 UTC |
+| 🇵🇼 **Palau** | `PW` | 🟡 Building 41% | [Open country page](./palau.md) | — | 27 Oct 2026, 05:16 UTC |
 | 🇵🇸 **Palestine** | `PS` | 🟡 Building 0% | [Open country page](./palestine.md) | — | 10 Oct 2026, 14:48 UTC |
 | 🇵🇦 **Panama** | `PA` | 🟡 Building 0% | [Open country page](./panama.md) | — | 16 Oct 2026, 05:04 UTC |
-| 🇵🇬 **Papua New Guinea** | `PG` | 🟡 Building 3% | [Open country page](./papua-new-guinea.md) | — | 24 Oct 2026, 04:48 UTC |
+| 🇵🇬 **Papua New Guinea** | `PG` | 🟡 Building 8% | [Open country page](./papua-new-guinea.md) | — | 27 Oct 2026, 05:16 UTC |
 | 🇵🇾 **Paraguay** | `PY` | 🟡 Building 0% | [Open country page](./paraguay.md) | — | 14 Oct 2026, 22:28 UTC |
 | 🇵🇪 **Peru** | `PE` | 🟡 Building 0% | [Open country page](./peru.md) | — | 16 Oct 2026, 23:48 UTC |
 | 🇵🇭 **Philippines** | `PH` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./philippines.md) | 100 | 16 Oct 2026, 23:48 UTC |
-| 🇵🇳 **Pitcairn Islands** | `PN` | 🟡 Building 80% | [Open country page](./pitcairn-islands.md) | — | 24 Oct 2026, 04:49 UTC |
+| 🇵🇳 **Pitcairn Islands** | `PN` | Completed | [Open country page](./pitcairn-islands.md) | — | 27 Oct 2026, 05:18 UTC |
 | 🇵🇱 **Poland** | `PL` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./poland.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇵🇹 **Portugal** | `PT` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./portugal.md) | 100 | 16 Oct 2026, 23:48 UTC |
 | 🇵🇷 **Puerto Rico** | `PR` | 🟡 Building 0% | [Open country page](./puerto-rico.md) | — | 16 Oct 2026, 21:29 UTC |
