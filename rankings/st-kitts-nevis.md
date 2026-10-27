@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 24%
+## Repository ranking status: Building 40%
 
-- Geography terms processed: **12 / 49**
-- Progress: **24%**
-- Retained high-potential owner candidates: **45**
-- Search requests completed: **16**
+- Geography terms processed: **20 / 49**
+- Progress: **40%**
+- Retained high-potential owner candidates: **46**
+- Search requests completed: **24**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -32,13 +32,13 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [25x-casino/eldorado](https://github.com/25x-casino/eldorado) | **2** | Saint Kitts and Nevis |
 | [Anonymous-Partners/traderJS](https://github.com/Anonymous-Partners/traderJS) | **2** | Saint Kitts and Nevis |
 | [shopxlabs/shopxcommunity](https://github.com/shopxlabs/shopxcommunity) | **2** | Saint Kitts and Nevis |
+| [8nqeBP9dWQ3kbGi/Prince-Project-](https://github.com/8nqeBP9dWQ3kbGi/Prince-Project-) | **1** | Gaye Town, Old Road |
 | [Assetbasefoundation/AssetBase-CrowdSale-Token](https://github.com/Assetbasefoundation/AssetBase-CrowdSale-Token) | **1** | Nevis |
 | [GabriellaLaPlace/Data-Analyst-Portfolio-ProjectHandWashingDiscoveryFromDataCamp](https://github.com/GabriellaLaPlace/Data-Analyst-Portfolio-ProjectHandWashingDiscoveryFromDataCamp) | **1** | Basseterre, St. Kitts. St. Kitts and Nevis |
 | [koepp92260/api](https://github.com/koepp92260/api) | **1** | Saint Kitts and Nevis |
 | [PatcharaGun/FAI](https://github.com/PatcharaGun/FAI) | **1** | St. Kitts and Nevis |
 | [SimpledPro/Crypto-StartUp](https://github.com/SimpledPro/Crypto-StartUp) | **1** | Saint Kitts and Nevis |
 | [bankcoin-capital/contracts](https://github.com/bankcoin-capital/contracts) | **0** | Saint Kitts and Nevis |
-| [bankcoincapital/assets](https://github.com/bankcoincapital/assets) | **0** | Saint Kitts and Nevis |
 
 ## Repository-first scan
 

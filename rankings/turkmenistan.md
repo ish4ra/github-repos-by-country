@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 1%
+## Repository ranking status: Building 2%
 
-- Geography terms processed: **3 / 175**
-- Progress: **1%**
-- Retained high-potential owner candidates: **517**
-- Search requests completed: **16**
+- Geography terms processed: **4 / 175**
+- Progress: **2%**
+- Retained high-potential owner candidates: **634**
+- Search requests completed: **24**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,20 +25,20 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [vbauerster/mpb](https://github.com/vbauerster/mpb) | **2,513** | Turkmenistan |
+| [Clancey/simple_auth](https://github.com/Clancey/simple_auth) | **354** | Anchorage, AK |
+| [strongdan/beginner-js-projects](https://github.com/strongdan/beginner-js-projects) | **332** | Juneau, AK |
+| [asfadmin/Discovery-asf_search](https://github.com/asfadmin/Discovery-asf_search) | **153** | Fairbanks, AK |
+| [austinholland/PhasePApy](https://github.com/austinholland/PhasePApy) | **103** | Fairbanks, AK |
+| [rhinoman/wikifeat](https://github.com/rhinoman/wikifeat) | **99** | Soldotna, AK |
+| [Skyyo/samples](https://github.com/Skyyo/samples) | **80** | Anchorage, AK |
 | [nyansterowo/MongoDB-bot](https://github.com/nyansterowo/MongoDB-bot) | **75** | Turkmenistan, Ashabat |
+| [bechbd/graph-databases-in-action](https://github.com/bechbd/graph-databases-in-action) | **71** | Anchorage, AK |
+| [ASFHyP3/hyp3](https://github.com/ASFHyP3/hyp3) | **55** | Fairbanks, AK |
 | [richxcame/ride-hailing](https://github.com/richxcame/ride-hailing) | **55** | Turkmenistan |
 | [berdimyradov/fs-rn-todo-app](https://github.com/berdimyradov/fs-rn-todo-app) | **53** | Turkmenistan |
-| [c10udburst-discord/Aliucord-RightNow-Plugins](https://github.com/c10udburst-discord/Aliucord-RightNow-Plugins) | **39** | Turkmenistan |
-| [Atamyrat2005/Atamyrat2005](https://github.com/Atamyrat2005/Atamyrat2005) | **34** | Ashgabat/Turkmenistan |
-| [Dragon-0609/Yuki-Theme](https://github.com/Dragon-0609/Yuki-Theme) | **19** | Turkmenistan |
-| [bruno-keiko/Restaurant-app](https://github.com/bruno-keiko/Restaurant-app) | **18** | Turkmenistan |
-| [orazchollaev/nuxt-feature-starter](https://github.com/orazchollaev/nuxt-feature-starter) | **17** | Turkmenistan, Ashgabat |
-| [merdiano/gateway-tm](https://github.com/merdiano/gateway-tm) | **16** | Turkmenistan |
-| [ykjam/bpchack](https://github.com/ykjam/bpchack) | **16** | Ashgabat, Turkmenistan |
-| [resulshm/howabot](https://github.com/resulshm/howabot) | **13** | Ashgabat, Turkmenistan |
-| [apuokenas/allow-unsigned-extensions](https://github.com/apuokenas/allow-unsigned-extensions) | **12** | Cavitas-dendri-başy, Turkmenistan |
-| [azamattajiyev/weather-swiftui-app](https://github.com/azamattajiyev/weather-swiftui-app) | **10** | Turkmenabat, Turkmenistan |
-| [dayanchm/Go-turkmen](https://github.com/dayanchm/Go-turkmen) | **10** | Turkmenistan |
+| [akhepcat/bridgeap](https://github.com/akhepcat/bridgeap) | **51** | Anchorage, AK |
+| [roycewilliams/kens-salty-rainbow](https://github.com/roycewilliams/kens-salty-rainbow) | **46** | Anchorage, AK |
+| [akhealth/EIS-Modernization](https://github.com/akhealth/EIS-Modernization) | **45** | Juneau, AK |
 
 ## Repository-first scan
 
