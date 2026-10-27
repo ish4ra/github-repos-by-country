@@ -18,17 +18,10 @@
     "term": "Russia",
     "queue": [
       {
-        "query": "location:\"Russia\" type:user followers:0 repos:1..4 created:2012-01-01..2012-12-31",
-        "stage": "year:2012",
-        "cursor": "Y3Vyc29yOjI1MA==",
-        "pageNumber": 6,
-        "attempts": 0
-      },
-      {
         "query": "location:\"Russia\" type:user followers:0 repos:1..4 created:2013-01-01..2013-12-31",
         "stage": "year:2013",
-        "cursor": null,
-        "pageNumber": 1,
+        "cursor": "Y3Vyc29yOjIwMA==",
+        "pageNumber": 5,
         "attempts": 0
       },
       {
@@ -278,24 +271,24 @@
       }
     ],
     "startedAt": "2026-10-06T18:33:46.764Z",
-    "requests": 16,
-    "leafPages": 12,
+    "requests": 24,
+    "leafPages": 20,
     "shardExpansions": 4,
     "reportedCount": 20485
   },
   "discoveryComplete": false,
   "startedAt": "2026-10-06T18:33:46.764Z",
-  "updatedAt": "2026-10-24T11:13:27.811Z",
+  "updatedAt": "2026-10-27T12:23:25.501Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 16,
-    "leafPages": 12,
+    "searchRequests": 24,
+    "leafPages": 20,
     "shardExpansions": 4,
-    "rawOwnerHits": 613,
+    "rawOwnerHits": 1012,
     "acceptedOwnerHits": 0,
-    "rejectedOwnerHits": 613,
+    "rejectedOwnerHits": 1012,
     "unresolvedShardCount": 0,
     "minimumRateLimitRemaining": 4850
   },
