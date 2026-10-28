@@ -10,29 +10,29 @@ Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a co
 | 🇦🇽 **Åland Islands** | `AX` | 🟡 Building 58% | [Open country page](./aland-islands.md) | — | 16 Oct 2026, 09:43 UTC |
 | 🇦🇱 **Albania** | `AL` | 🟡 Building 0% | [Open country page](./albania.md) | — | 16 Oct 2026, 21:29 UTC |
 | 🇩🇿 **Algeria** | `DZ` | 🟡 Building 0% | [Open country page](./algeria.md) | — | 16 Oct 2026, 21:29 UTC |
-| 🇦🇸 **American Samoa** | `AS` | 🟡 Building 22% | [Open country page](./american-samoa.md) | — | 17 Oct 2026, 01:38 UTC |
-| 🇦🇩 **Andorra** | `AD` | 🟡 Building 10% | [Open country page](./andorra.md) | — | 16 Oct 2026, 05:04 UTC |
+| 🇦🇸 **American Samoa** | `AS` | 🟡 Building 35% | [Open country page](./american-samoa.md) | — | 17 Oct 2026, 01:38 UTC |
+| 🇦🇩 **Andorra** | `AD` | 🟡 Building 39% | [Open country page](./andorra.md) | — | 16 Oct 2026, 05:04 UTC |
 | 🇦🇴 **Angola** | `AO` | 🟡 Building 0% | [Open country page](./angola.md) | — | 14 Oct 2026, 22:28 UTC |
-| 🇦🇮 **Anguilla** | `AI` | 🟡 Building 69% | [Open country page](./anguilla.md) | — | 09 Oct 2026, 22:59 UTC |
+| 🇦🇮 **Anguilla** | `AI` | Completed | [Open country page](./anguilla.md) | — | 09 Oct 2026, 22:59 UTC |
 | 🇦🇶 **Antarctica** | `AQ` | 🟡 Building 0% | [Open country page](./antarctica.md) | — | 16 Oct 2026, 23:48 UTC |
-| 🇦🇬 **Antigua & Barbuda** | `AG` | 🟡 Building 25% | [Open country page](./antigua-barbuda.md) | — | 10 Oct 2026, 02:18 UTC |
+| 🇦🇬 **Antigua & Barbuda** | `AG` | 🟡 Building 39% | [Open country page](./antigua-barbuda.md) | — | 10 Oct 2026, 02:18 UTC |
 | 🇦🇷 **Argentina** | `AR` | 🟡 Building 0% | [Open country page](./argentina.md) | — | 16 Oct 2026, 21:29 UTC |
 | 🇦🇲 **Armenia** | `AM` | 🟡 Building 0% | [Open country page](./armenia.md) | — | 17 Oct 2026, 01:38 UTC |
 | 🇦🇼 **Aruba** | `AW` | Completed | [Open country page](./aruba.md) | — | 25 Oct 2026, 04:55 UTC |
 | 🇦🇺 **Australia** | `AU` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./australia.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇦🇹 **Austria** | `AT` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./austria.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇦🇿 **Azerbaijan** | `AZ` | 🟡 Building 0% | [Open country page](./azerbaijan.md) | — | 16 Oct 2026, 05:04 UTC |
-| 🇧🇸 **Bahamas** | `BS` | 🟡 Building 22% | [Open country page](./bahamas.md) | — | 25 Oct 2026, 04:56 UTC |
+| 🇧🇸 **Bahamas** | `BS` | 🟡 Building 34% | [Open country page](./bahamas.md) | — | 28 Oct 2026, 05:55 UTC |
 | 🇧🇭 **Bahrain** | `BH` | 🟡 Building 0% | [Open country page](./bahrain.md) | — | 16 Oct 2026, 21:29 UTC |
 | 🇧🇩 **Bangladesh** | `BD` | 🟡 Building 0% | [Open country page](./bangladesh.md) | — | 16 Oct 2026, 21:29 UTC |
-| 🇧🇧 **Barbados** | `BB` | 🟡 Building 95% | [Open country page](./barbados.md) | — | 10 Oct 2026, 02:18 UTC |
+| 🇧🇧 **Barbados** | `BB` | Completed | [Open country page](./barbados.md) | — | 10 Oct 2026, 02:18 UTC |
 | 🇧🇾 **Belarus** | `BY` | 🟡 Building 0% | [Open country page](./belarus.md) | — | 17 Oct 2026, 01:38 UTC |
 | 🇧🇪 **Belgium** | `BE` | 🟡 Building 0% | [Open country page](./belgium.md) | — | 16 Oct 2026, 21:29 UTC |
-| 🇧🇿 **Belize** | `BZ` | 🟡 Building 16% | [Open country page](./belize.md) | — | 25 Oct 2026, 11:42 UTC |
+| 🇧🇿 **Belize** | `BZ` | 🟡 Building 24% | [Open country page](./belize.md) | — | 28 Oct 2026, 05:57 UTC |
 | 🇧🇯 **Benin** | `BJ` | 🟡 Building 0% | [Open country page](./benin.md) | — | 14 Oct 2026, 15:06 UTC |
-| 🇧🇲 **Bermuda** | `BM` | 🟡 Building 62% | [Open country page](./bermuda.md) | — | 13 Oct 2026, 21:14 UTC |
-| 🇧🇹 **Bhutan** | `BT` | 🟡 Building 19% | [Open country page](./bhutan.md) | — | 25 Oct 2026, 11:43 UTC |
-| 🇧🇴 **Bolivia** | `BO` | 🟡 Building 0% | [Open country page](./bolivia.md) | — | 25 Oct 2026, 11:43 UTC |
+| 🇧🇲 **Bermuda** | `BM` | 🟡 Building 92% | [Open country page](./bermuda.md) | — | 13 Oct 2026, 21:14 UTC |
+| 🇧🇹 **Bhutan** | `BT` | 🟡 Building 30% | [Open country page](./bhutan.md) | — | 28 Oct 2026, 05:57 UTC |
+| 🇧🇴 **Bolivia** | `BO` | 🟡 Building 0% | [Open country page](./bolivia.md) | — | 28 Oct 2026, 05:57 UTC |
 | 🇧🇦 **Bosnia & Herzegovina** | `BA` | 🟡 Building 0% | [Open country page](./bosnia-herzegovina.md) | — | 16 Oct 2026, 21:29 UTC |
 | 🇧🇼 **Botswana** | `BW` | 🟡 Building 0% | [Open country page](./botswana.md) | — | 16 Oct 2026, 14:20 UTC |
 | 🇧🇻 **Bouvet Island** | `BV` | Completed | [Open country page](./bouvet-island.md) | — | 25 Oct 2026, 11:44 UTC |

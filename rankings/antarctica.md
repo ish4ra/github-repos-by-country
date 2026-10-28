@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 15**
 - Progress: **0%**
-- Retained high-potential owner candidates: **485**
-- Search requests completed: **16**
+- Retained high-potential owner candidates: **729**
+- Search requests completed: **24**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -38,7 +38,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [home-operations/containers](https://github.com/home-operations/containers) | **434** | Antarctica |
 | [pancakeswap/pancake-farm](https://github.com/pancakeswap/pancake-farm) | **420** | Antarctica |
 | [sympa-community/sympa](https://github.com/sympa-community/sympa) | **318** | Antarctica |
-| [TheProjectLumina/LuminaClient](https://github.com/TheProjectLumina/LuminaClient) | **244** | Antarctica |
+| [thongtech/go-legacy-win7](https://github.com/thongtech/go-legacy-win7) | **268** | Antarctica |
 
 ## Repository-first scan
 

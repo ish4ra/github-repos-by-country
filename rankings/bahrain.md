@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 27**
 - Progress: **0%**
-- Retained high-potential owner candidates: **679**
-- Search requests completed: **24**
+- Retained high-potential owner candidates: **986**
+- Search requests completed: **32**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -32,13 +32,13 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [AbRahman-ra/psql-notes](https://github.com/AbRahman-ra/psql-notes) | **54** | Bahrain |
 | [haqbany/Bigtreetouch-SKR-Mini-E3V3.0](https://github.com/haqbany/Bigtreetouch-SKR-Mini-E3V3.0) | **50** | Bahrain |
 | [a7madev/AndroidGlobalUtils](https://github.com/a7madev/AndroidGlobalUtils) | **47** | Bahrain |
+| [i3sam/OrbitDrop](https://github.com/i3sam/OrbitDrop) | **47** | Bahrain |
 | [f-9t9it/optic_store](https://github.com/f-9t9it/optic_store) | **43** | Bahrain |
 | [iamohd-zz/laravel-settings](https://github.com/iamohd-zz/laravel-settings) | **42** | Bahrain |
 | [fairbird/NCam](https://github.com/fairbird/NCam) | **34** | Bahrain |
 | [meshahid973/localitfy](https://github.com/meshahid973/localitfy) | **34** | bahrain |
 | [juandl/react-native-credit-card-input-plus](https://github.com/juandl/react-native-credit-card-input-plus) | **29** | Bahrain |
 | [nomanhaq/ReadingMaterial](https://github.com/nomanhaq/ReadingMaterial) | **22** | Bahrain |
-| [sayed3li97/Flutter-Firestore-CRUD](https://github.com/sayed3li97/Flutter-Firestore-CRUD) | **22** | Bahrain |
 
 ## Repository-first scan
 

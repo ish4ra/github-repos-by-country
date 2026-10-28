@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 468**
 - Progress: **0%**
-- Retained high-potential owner candidates: **671**
-- Search requests completed: **17**
+- Retained high-potential owner candidates: **796**
+- Search requests completed: **25**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -28,17 +28,17 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [banago/PHPloy](https://github.com/banago/PHPloy) | **1,431** | Vlorë, Albania |
 | [klendi/react-top-loading-bar](https://github.com/klendi/react-top-loading-bar) | **749** | Tirana, Albania |
 | [redianmarku/instagram-follower-scraper](https://github.com/redianmarku/instagram-follower-scraper) | **300** | Albania |
+| [BesianSherifaj-AI/PromptCraft](https://github.com/BesianSherifaj-AI/PromptCraft) | **209** | Fier,Albania |
 | [fadion/Maneuver](https://github.com/fadion/Maneuver) | **172** | Tirana, Albania |
 | [eneajaho/ngx-isr](https://github.com/eneajaho/ngx-isr) | **150** | Albania |
 | [treshi/daily-iptv.al](https://github.com/treshi/daily-iptv.al) | **109** | albania |
 | [SxtBox/TablePlus_1x_License_Activation](https://github.com/SxtBox/TablePlus_1x_License_Activation) | **82** | Albania |
+| [theringsofsaturn/virtual-museum-tour-threejs](https://github.com/theringsofsaturn/virtual-museum-tour-threejs) | **50** | Durres, Albania |
 | [redjanym/FCMBundle](https://github.com/redjanym/FCMBundle) | **43** | Tirane, Albania |
 | [orgito1015/free-cybersecurity-certifications](https://github.com/orgito1015/free-cybersecurity-certifications) | **39** | Albania |
 | [ilirhushi/laravel5.5-angular5](https://github.com/ilirhushi/laravel5.5-angular5) | **37** | Tirana, Albania |
 | [nertilpoci/PeopleCounter](https://github.com/nertilpoci/PeopleCounter) | **33** | Albania |
 | [detjonmataj/Data-Structure-and-Algorithms-Visualization-in-VR](https://github.com/detjonmataj/Data-Structure-and-Algorithms-Visualization-in-VR) | **27** | Tirana, Albania |
-| [vasilirigels/travel-app](https://github.com/vasilirigels/travel-app) | **26** | Tirana, Albania |
-| [Rolanddoda/vue-cli-plugin-gh-pages-auto-deploy](https://github.com/Rolanddoda/vue-cli-plugin-gh-pages-auto-deploy) | **22** | Tirana, Albania |
 
 ## Repository-first scan
 
