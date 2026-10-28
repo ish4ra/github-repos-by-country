@@ -18,8 +18,148 @@
     "term": "Creek",
     "queue": [
       {
-        "query": "location:\"Creek\" type:user",
-        "stage": "type",
+        "query": "location:\"Creek\" type:user followers:0 repos:5..9",
+        "stage": "repos",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Creek\" type:user followers:0 repos:10..24",
+        "stage": "repos",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Creek\" type:user followers:0 repos:25..49",
+        "stage": "repos",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Creek\" type:user followers:0 repos:50..99",
+        "stage": "repos",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Creek\" type:user followers:0 repos:100..249",
+        "stage": "repos",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Creek\" type:user followers:0 repos:250..499",
+        "stage": "repos",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Creek\" type:user followers:0 repos:>=500",
+        "stage": "repos",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Creek\" type:user followers:1..4",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Creek\" type:user followers:5..9",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Creek\" type:user followers:10..24",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Creek\" type:user followers:25..49",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Creek\" type:user followers:50..99",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Creek\" type:user followers:100..249",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Creek\" type:user followers:250..499",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Creek\" type:user followers:500..999",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Creek\" type:user followers:1000..2499",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Creek\" type:user followers:2500..4999",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Creek\" type:user followers:5000..9999",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Creek\" type:user followers:10000..24999",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Creek\" type:user followers:25000..49999",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Creek\" type:user followers:>=50000",
+        "stage": "followers",
         "cursor": null,
         "pageNumber": 1,
         "attempts": 0
@@ -33,24 +173,24 @@
       }
     ],
     "startedAt": "2026-10-25T16:30:57.612Z",
-    "requests": 1,
-    "leafPages": 0,
-    "shardExpansions": 1,
-    "reportedCount": 1658
+    "requests": 9,
+    "leafPages": 6,
+    "shardExpansions": 3,
+    "reportedCount": 1013
   },
   "discoveryComplete": false,
   "startedAt": "2026-10-04T12:31:53.344Z",
-  "updatedAt": "2026-10-25T16:31:00.766Z",
+  "updatedAt": "2026-10-28T13:11:28.934Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 16,
-    "searchRequests": 27,
-    "leafPages": 26,
-    "shardExpansions": 1,
-    "rawOwnerHits": 565,
-    "acceptedOwnerHits": 503,
-    "rejectedOwnerHits": 62,
+    "searchRequests": 35,
+    "leafPages": 32,
+    "shardExpansions": 3,
+    "rawOwnerHits": 941,
+    "acceptedOwnerHits": 504,
+    "rejectedOwnerHits": 437,
     "unresolvedShardCount": 0,
     "minimumRateLimitRemaining": 4889
   },
@@ -5091,6 +5231,45 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Ruby"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY1OTMwMzg1",
+      "login": "brkothari",
+      "name": "Bharat Kothari",
+      "type": "User",
+      "location": "Johns, Creek",
+      "url": "https://github.com/brkothari",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/65930385?u=a9a4f8529a5d6dbd0063098da8cab6e06095eb01&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "KY",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "creek"
+      },
+      "discoveryTerms": [
+        "Creek"
+      ],
+      "topRepository": {
+        "name": "tictactoe",
+        "nameWithOwner": "brkothari/tictactoe",
+        "url": "https://github.com/brkothari/tictactoe",
+        "description": "Tic-Tac-Toe game",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-06-07T19:43:48Z",
+        "pushedAt": "2026-06-07T19:55:54Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
         },
         "licenseInfo": {
           "name": "MIT License",
