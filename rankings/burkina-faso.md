@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 4%
+## Repository ranking status: Building 8%
 
-- Geography terms processed: **10 / 213**
-- Progress: **4%**
-- Retained high-potential owner candidates: **2**
-- Search requests completed: **24**
+- Geography terms processed: **18 / 213**
+- Progress: **8%**
+- Retained high-potential owner candidates: **3**
+- Search requests completed: **32**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,6 +24,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
+| [escrowadmin/REAPER](https://github.com/escrowadmin/REAPER) | **0** | bingo |
 | [omzakrevo/parkfaso-plaques](https://github.com/omzakrevo/parkfaso-plaques) | **0** | Banfora |
 | [powerexpertconnect/powerexpets-sitep](https://github.com/powerexpertconnect/powerexpets-sitep) | **0** | Banfora  |
 
