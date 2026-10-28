@@ -18,52 +18,10 @@
     "term": "Albania",
     "queue": [
       {
-        "query": "location:\"Albania\" type:user followers:0 repos:10..24",
-        "stage": "repos",
-        "cursor": "Y3Vyc29yOjUw",
-        "pageNumber": 2,
-        "attempts": 0
-      },
-      {
-        "query": "location:\"Albania\" type:user followers:0 repos:25..49",
-        "stage": "repos",
-        "cursor": null,
-        "pageNumber": 1,
-        "attempts": 0
-      },
-      {
-        "query": "location:\"Albania\" type:user followers:0 repos:50..99",
-        "stage": "repos",
-        "cursor": null,
-        "pageNumber": 1,
-        "attempts": 0
-      },
-      {
-        "query": "location:\"Albania\" type:user followers:0 repos:100..249",
-        "stage": "repos",
-        "cursor": null,
-        "pageNumber": 1,
-        "attempts": 0
-      },
-      {
-        "query": "location:\"Albania\" type:user followers:0 repos:250..499",
-        "stage": "repos",
-        "cursor": null,
-        "pageNumber": 1,
-        "attempts": 0
-      },
-      {
-        "query": "location:\"Albania\" type:user followers:0 repos:>=500",
-        "stage": "repos",
-        "cursor": null,
-        "pageNumber": 1,
-        "attempts": 0
-      },
-      {
         "query": "location:\"Albania\" type:user followers:1..4",
         "stage": "followers",
-        "cursor": null,
-        "pageNumber": 1,
+        "cursor": "Y3Vyc29yOjEwMA==",
+        "pageNumber": 3,
         "attempts": 0
       },
       {
@@ -166,24 +124,24 @@
       }
     ],
     "startedAt": "2026-10-07T23:16:05.090Z",
-    "requests": 17,
-    "leafPages": 14,
+    "requests": 25,
+    "leafPages": 22,
     "shardExpansions": 3,
     "reportedCount": 1196
   },
   "discoveryComplete": false,
   "startedAt": "2026-10-07T23:16:05.090Z",
-  "updatedAt": "2026-10-27T22:27:08.475Z",
+  "updatedAt": "2026-10-28T05:52:14.663Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 17,
-    "leafPages": 14,
+    "searchRequests": 25,
+    "leafPages": 22,
     "shardExpansions": 3,
-    "rawOwnerHits": 823,
-    "acceptedOwnerHits": 816,
-    "rejectedOwnerHits": 7,
+    "rawOwnerHits": 969,
+    "acceptedOwnerHits": 959,
+    "rejectedOwnerHits": 10,
     "unresolvedShardCount": 0,
     "minimumRateLimitRemaining": 4816
   },
@@ -340,6 +298,45 @@
       }
     },
     {
+      "id": "U_kgDOBzYoZA",
+      "login": "BesianSherifaj-AI",
+      "name": "Besian Sherifaj",
+      "type": "User",
+      "location": "Fier,Albania",
+      "url": "https://github.com/BesianSherifaj-AI",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/120989796?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "PromptCraft",
+        "nameWithOwner": "BesianSherifaj-AI/PromptCraft",
+        "url": "https://github.com/BesianSherifaj-AI/PromptCraft",
+        "description": "An AI image gen prompt manager !",
+        "stargazerCount": 209,
+        "forkCount": 27,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-12-13T22:43:13Z",
+        "pushedAt": "2026-04-28T17:43:46Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjM3NDUxOQ==",
       "login": "fadion",
       "name": "Fadion Dashi",
@@ -487,6 +484,42 @@
         "pushedAt": "2025-12-28T23:09:08Z",
         "homepageUrl": "https://tableplus.com/download",
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYwMDUwOTUy",
+      "login": "theringsofsaturn",
+      "name": "Emilian Kasemi",
+      "type": "User",
+      "location": "Durres, Albania",
+      "url": "https://github.com/theringsofsaturn",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/60050952?u=f709eae575b5111efe85d5d04aba56d02425f3c8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "virtual-museum-tour-threejs",
+        "nameWithOwner": "theringsofsaturn/virtual-museum-tour-threejs",
+        "url": "https://github.com/theringsofsaturn/virtual-museum-tour-threejs",
+        "description": "Imagine a virtual interactive tour of the hotel, apartment, or for tourist attractions, a guided informative virtual tour in the museum, art gallery or historical and archaeological sites.",
+        "stargazerCount": 50,
+        "forkCount": 21,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-11-20T15:52:42Z",
+        "pushedAt": "2022-11-21T02:24:44Z",
+        "homepageUrl": "https://youtu.be/8oQC0ICNtL0",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
         "licenseInfo": null
       }
     },
@@ -710,6 +743,40 @@
         "primaryLanguage": {
           "name": "TypeScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ0NDU3Njg=",
+      "login": "BladeTail",
+      "name": "Blade Tail",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/BladeTail",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4445768?u=611675eae035ebbf394bb92879ba8987f644f516&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "Event-Handling-Guide-for-iOS",
+        "nameWithOwner": "BladeTail/Event-Handling-Guide-for-iOS",
+        "url": "https://github.com/BladeTail/Event-Handling-Guide-for-iOS",
+        "description": "Event Handling Guide for iOS 翻译",
+        "stargazerCount": 24,
+        "forkCount": 6,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-01-28T07:22:38Z",
+        "pushedAt": "2018-01-28T07:35:45Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -1346,6 +1413,42 @@
       }
     },
     {
+      "id": "U_kgDOB8CACw",
+      "login": "geridev12",
+      "name": "Gerald Nuraj",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/geridev12",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/130056203?u=9accb392e2fadcfc8a5ee843dcab1494d66f03f6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "internet-connection-status",
+        "nameWithOwner": "geridev12/internet-connection-status",
+        "url": "https://github.com/geridev12/internet-connection-status",
+        "description": null,
+        "stargazerCount": 4,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-02-20T19:44:27Z",
+        "pushedAt": "2025-02-20T19:47:17Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE3NTI0NTE=",
       "login": "ilstarno",
       "name": "Indrit",
@@ -1535,6 +1638,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjg5MzY2MDM=",
+      "login": "MetalHacker01",
+      "name": "Aldorino Rrushi",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/MetalHacker01",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8936603?u=d3ffeb2c97e376502a3e7ef82fe686742068de1c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "SFMC_Scout",
+        "nameWithOwner": "MetalHacker01/SFMC_Scout",
+        "url": "https://github.com/MetalHacker01/SFMC_Scout",
+        "description": null,
+        "stargazerCount": 3,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-26T15:01:11Z",
+        "pushedAt": "2026-05-27T13:39:20Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE4NzIxNjg4",
       "login": "mjellma",
       "name": null,
@@ -1607,6 +1749,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjExNDIyNDk=",
+      "login": "synapsea",
+      "name": "Eddy",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/synapsea",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1142249?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "Hdf5-CSharp",
+        "nameWithOwner": "synapsea/Hdf5-CSharp",
+        "url": "https://github.com/synapsea/Hdf5-CSharp",
+        "description": "Set of tools that help in reading and writing hdf5 files for .net environments",
+        "stargazerCount": 3,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-06-13T09:14:09Z",
+        "pushedAt": "2021-06-13T09:25:57Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI0Mjk3NzQ2",
       "login": "tonikolaba",
       "name": "toni",
@@ -1638,6 +1819,45 @@
         "homepageUrl": "https://springvuejsxstarter.herokuapp.com/",
         "primaryLanguage": {
           "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE2OTQxMDQz",
+      "login": "Aldiger",
+      "name": "Aldiger",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/Aldiger",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16941043?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": ".NetCore2.0-OracleDb-Dapper-IRepositoryPattern-",
+        "nameWithOwner": "Aldiger/.NetCore2.0-OracleDb-Dapper-IRepositoryPattern-",
+        "url": "https://github.com/Aldiger/.NetCore2.0-OracleDb-Dapper-IRepositoryPattern-",
+        "description": "Simple project using .Net Core 2+, OracleDb,  Dapper, IRepository pattern",
+        "stargazerCount": 2,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-04-04T10:03:15Z",
+        "pushedAt": "2018-04-04T10:20:09Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C#"
         },
         "licenseInfo": {
           "name": "MIT License",
@@ -1680,6 +1900,40 @@
       }
     },
     {
+      "id": "U_kgDOBsA8mg",
+      "login": "ardiyoo",
+      "name": "ardiyo",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/ardiyoo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/113261722?u=40b585ce24624815a3cb814177f6c90b9ee84ea9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "iFollow",
+        "nameWithOwner": "ardiyoo/iFollow",
+        "url": "https://github.com/ardiyoo/iFollow",
+        "description": "Follow a user from Multiple accounts on Instagram.",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-10-08T19:55:55Z",
+        "pushedAt": "2022-10-27T22:19:36Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBtN69Q",
       "login": "DenDev712",
       "name": "Denis Papara",
@@ -1711,6 +1965,42 @@
         "homepageUrl": "https://www.flenker.blog/hecto/",
         "primaryLanguage": {
           "name": "Rust"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM5MDI0ODIz",
+      "login": "dnerzker",
+      "name": "dnerzker",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/dnerzker",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39024823?u=f6140b578bd978e8a697110765f01bf5ebfaaed9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "UfoNet",
+        "nameWithOwner": "dnerzker/UfoNet",
+        "url": "https://github.com/dnerzker/UfoNet",
+        "description": "UfoNet is a toolkit designed to launch DDoS and DoS attacks.",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-03-06T04:43:44Z",
+        "pushedAt": "2019-03-06T04:54:26Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
         },
         "licenseInfo": null
       }
@@ -1749,6 +2039,153 @@
           "name": "C#"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE2ODE1MzY5",
+      "login": "enisshala",
+      "name": "Enis",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/enisshala",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16815369?u=3a3dc21b70813e7006b8f6d2f4ec4512fd486c8d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "reverse-number",
+        "nameWithOwner": "enisshala/reverse-number",
+        "url": "https://github.com/enisshala/reverse-number",
+        "description": "Reverse number webapp built with Laravel",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-10-18T15:47:19Z",
+        "pushedAt": "2022-01-05T14:01:50Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYyODQwOTAz",
+      "login": "Evison24",
+      "name": "Evison Ndoni",
+      "type": "User",
+      "location": "Tirana,Albania",
+      "url": "https://github.com/Evison24",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/62840903?u=36a84159a02a597d0adafe1a04cddfce664dc451&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "seatreserve",
+        "nameWithOwner": "Evison24/seatreserve",
+        "url": "https://github.com/Evison24/seatreserve",
+        "description": null,
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-10-18T12:16:25Z",
+        "pushedAt": "2025-12-01T14:02:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBcQlWg",
+      "login": "Fationcuro",
+      "name": "Fatjon Curo",
+      "type": "User",
+      "location": "Tirana Albania",
+      "url": "https://github.com/Fationcuro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/96740698?u=ebaa62c972e7dde02a505b7cb23c0a1bdfd92538&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "portfolio",
+        "nameWithOwner": "Fationcuro/portfolio",
+        "url": "https://github.com/Fationcuro/portfolio",
+        "description": "Portofolio",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-03-10T14:27:07Z",
+        "pushedAt": "2022-03-11T15:12:36Z",
+        "homepageUrl": "https://fationcuro.github.io/portfolio",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE4NjQzOTQ1",
+      "login": "gentjankolicaj",
+      "name": "Gentjan Koliçaj",
+      "type": "User",
+      "location": "Tirane/Albania",
+      "url": "https://github.com/gentjankolicaj",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18643945?u=41b2d58a2ed0ca21a5dedc9f25cff60aba655141&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "spring-boot-samples",
+        "nameWithOwner": "gentjankolicaj/spring-boot-samples",
+        "url": "https://github.com/gentjankolicaj/spring-boot-samples",
+        "description": "Spring boot samples with different tech.",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-06-20T13:17:52Z",
+        "pushedAt": "2026-04-13T19:21:26Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -1861,6 +2298,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM5NjE5MjM3",
+      "login": "kelvin30",
+      "name": "Kelvin Rumani",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/kelvin30",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39619237?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "MealsToGo",
+        "nameWithOwner": "kelvin30/MealsToGo",
+        "url": "https://github.com/kelvin30/MealsToGo",
+        "description": "React Native App made for restaurants, using google maps, firebase and react-native",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-02-24T19:30:49Z",
+        "pushedAt": "2024-02-17T12:42:52Z",
+        "homepageUrl": "https://expo.dev/accounts/kelvin9797/projects/mealstogo2024/updates/2bfb2892-e863-4a2b-8987-a9543028b57a",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjM2MTg4NDc=",
       "login": "kelvincobanaj",
       "name": "Kelvin Çobanaj",
@@ -1896,6 +2369,45 @@
         "licenseInfo": {
           "name": "GNU General Public License v3.0",
           "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOCrmyBQ",
+      "login": "klejdiLOL",
+      "name": "Klejdi",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/klejdiLOL",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/179941893?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "task-i3",
+        "nameWithOwner": "klejdiLOL/task-i3",
+        "url": "https://github.com/klejdiLOL/task-i3",
+        "description": "task-i3 package's contents and build files, OpenMandriva Lx",
+        "stargazerCount": 2,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-06-19T14:53:11Z",
+        "pushedAt": "2025-12-19T12:11:35Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Shell"
+        },
+        "licenseInfo": {
+          "name": "The Unlicense",
+          "spdxId": "Unlicense"
         }
       }
     },
@@ -1936,6 +2448,45 @@
       }
     },
     {
+      "id": "U_kgDOByAHjw",
+      "login": "lisenpasha",
+      "name": "Lisen Pasha",
+      "type": "User",
+      "location": "Tirana,Albania",
+      "url": "https://github.com/lisenpasha",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/119539599?u=757c2cca153f494ad3825244e2ed90f52c9b46be&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "bookstore-api-cicd-docker",
+        "nameWithOwner": "lisenpasha/bookstore-api-cicd-docker",
+        "url": "https://github.com/lisenpasha/bookstore-api-cicd-docker",
+        "description": "This repo is a continuation of the  nodejs-bookstore-api repo.  It includes enhancements such as a CI/CD pipeline using GitHub Actions and Docker integration.  The CI/CD pipeline automates the build, test, and image push processes.",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-07-18T12:26:06Z",
+        "pushedAt": "2024-07-18T15:28:21Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "Mozilla Public License 2.0",
+          "spdxId": "MPL-2.0"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjc1MTM2NjUx",
       "login": "MateoKaloshi",
       "name": "teo ;)",
@@ -1972,6 +2523,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjg1NDA1MjEy",
+      "login": "mexhi-byte",
+      "name": "mexhit dara",
+      "type": "User",
+      "location": "Albania tirane",
+      "url": "https://github.com/mexhi-byte",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/85405212?u=540c647de0cebc40227914ee3d0553d9e9c0f234&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "secure-ota-ecu-secure-boot",
+        "nameWithOwner": "mexhi-byte/secure-ota-ecu-secure-boot",
+        "url": "https://github.com/mexhi-byte/secure-ota-ecu-secure-boot",
+        "description": "secure-ota-ecu-secure-boot",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-15T16:31:30Z",
+        "pushedAt": "2026-01-15T16:34:07Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjY0Nzc2NTY2",
       "login": "pavlimiho",
       "name": "Pavli Miho",
@@ -2003,6 +2593,45 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "PHP"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQzMTIwNzQ=",
+      "login": "Rac0n",
+      "name": "Andi Allaraj",
+      "type": "User",
+      "location": "Tirane, Albania",
+      "url": "https://github.com/Rac0n",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4312074?u=2f6e8120528607b608cba111a8cb046243712a6c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "swipe_path_typer",
+        "nameWithOwner": "Rac0n/swipe_path_typer",
+        "url": "https://github.com/Rac0n/swipe_path_typer",
+        "description": null,
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-06-27T20:29:00Z",
+        "pushedAt": "2025-11-18T19:38:14Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Dart"
         },
         "licenseInfo": {
           "name": "MIT License",
@@ -2194,6 +2823,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjc0NzM1MDQy",
+      "login": "adikica",
+      "name": "AdiKica",
+      "type": "User",
+      "location": "Durres/Albania",
+      "url": "https://github.com/adikica",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/74735042?u=96e41cde1e2e3d4498b2cbb38c939cb2934dd3b5&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "NodeJs-NextJs-JWT-auth",
+        "nameWithOwner": "adikica/NodeJs-NextJs-JWT-auth",
+        "url": "https://github.com/adikica/NodeJs-NextJs-JWT-auth",
+        "description": "Boilerplate -  with node js backend and next js frontend  with authentication using jwt",
+        "stargazerCount": 1,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-03-26T14:26:04Z",
+        "pushedAt": "2021-03-28T20:01:49Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE2NzMwODM3",
       "login": "ADudija",
       "name": "Albi Dudija",
@@ -2225,6 +2890,78 @@
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQwNzk5ODQx",
+      "login": "albamerdani",
+      "name": "Alba Merdani",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/albamerdani",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/40799841?u=637e62ac70fff1ecb5898bd3eb29b3b01d5d0fc7&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "iot_air_quality_ml",
+        "nameWithOwner": "albamerdani/iot_air_quality_ml",
+        "url": "https://github.com/albamerdani/iot_air_quality_ml",
+        "description": "IoT Project for Air Quality and Data Analysis with Machine Learning",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-05-09T07:29:54Z",
+        "pushedAt": "2024-05-09T11:57:23Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUzNzEwNDEw",
+      "login": "albi2",
+      "name": "Albi",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/albi2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/53710410?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "TripsApplicationAPI",
+        "nameWithOwner": "albi2/TripsApplicationAPI",
+        "url": "https://github.com/albi2/TripsApplicationAPI",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-07-01T16:02:28Z",
+        "pushedAt": "2021-09-01T15:05:16Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
         },
         "licenseInfo": null
       }
@@ -2269,6 +3006,184 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjgzNTQ2MzA4",
+      "login": "amarildo2001",
+      "name": "Amarildo Prendi",
+      "type": "User",
+      "location": "Lezhe/Albania",
+      "url": "https://github.com/amarildo2001",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/83546308?u=2163c2be34f324c82c91c97fe039f993f0449280&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "amarildo2001",
+        "nameWithOwner": "amarildo2001/amarildo2001",
+        "url": "https://github.com/amarildo2001/amarildo2001",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-11-26T14:06:30Z",
+        "pushedAt": "2026-06-20T19:29:21Z",
+        "homepageUrl": "https://github.com/amarildo2001",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCx_hgA",
+      "login": "andetazeqiri",
+      "name": "Andeta Zeqiri",
+      "type": "User",
+      "location": "Tirana,Albania",
+      "url": "https://github.com/andetazeqiri",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/186638720?u=f87a5eb1725653163a25e4aa9e41f51afb87e7ab&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "Data-Analytics-Lifecycle-Customer-Churn-Prediction",
+        "nameWithOwner": "andetazeqiri/Data-Analytics-Lifecycle-Customer-Churn-Prediction",
+        "url": "https://github.com/andetazeqiri/Data-Analytics-Lifecycle-Customer-Churn-Prediction",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-01-30T20:45:54Z",
+        "pushedAt": "2025-02-15T14:05:36Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBew6Dg",
+      "login": "anxheloo",
+      "name": "anxheloo",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/anxheloo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/99367438?u=db5806b115aa3dbaccd23f168b39cbb8b317d860&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "wolt-react-native",
+        "nameWithOwner": "anxheloo/wolt-react-native",
+        "url": "https://github.com/anxheloo/wolt-react-native",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-11-17T15:00:44Z",
+        "pushedAt": "2025-12-11T10:39:32Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODNDqVQ",
+      "login": "ArbriHamzallari",
+      "name": "Arbri Hamzallari",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/ArbriHamzallari",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/215018069?u=f268b53bba6831a93c0a2ff0b3e3b55f8d5e827a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "Dental-Operating-System",
+        "nameWithOwner": "ArbriHamzallari/Dental-Operating-System",
+        "url": "https://github.com/ArbriHamzallari/Dental-Operating-System",
+        "description": " Multi-tenant dental clinic operating system with NestJS/Prisma backend and React frontend for appointment scheduling, clinical charting, treatment planning, and patient management.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-09T23:41:23Z",
+        "pushedAt": "2026-03-14T10:28:27Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBe4OjA",
+      "login": "arjolfilipi1",
+      "name": null,
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/arjolfilipi1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/99487372?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "t2",
+        "nameWithOwner": "arjolfilipi1/t2",
+        "url": "https://github.com/arjolfilipi1/t2",
+        "description": "test 2 for the card game",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-29T13:38:45Z",
+        "pushedAt": "2026-09-14T13:40:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "GDScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjExNDc3MTIw",
       "login": "arnoldkenaci",
       "name": "Arnold Kenaci",
@@ -2297,6 +3212,42 @@
         "isFork": false,
         "createdAt": "2018-09-11T16:40:58Z",
         "pushedAt": "2018-09-11T19:02:33Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODt72jA",
+      "login": "artenisalija",
+      "name": "Artenis Alija",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/artenisalija",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/249493132?u=6b3483171e6fa77b381027385c593c7ba59997ed&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "Open-Job-Board-EU",
+        "nameWithOwner": "artenisalija/Open-Job-Board-EU",
+        "url": "https://github.com/artenisalija/Open-Job-Board-EU",
+        "description": "This is an open source web app where you can find jobs that are posted in websites directly from the companies of different EU countries. ",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-02-10T00:52:36Z",
+        "pushedAt": "2026-10-28T03:27:29Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Python"
@@ -2377,6 +3328,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjE4NzUyOTQ1",
+      "login": "avjolsakaj",
+      "name": "Avjol Sakaj",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/avjolsakaj",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18752945?u=561bd033d0a8c2b4254f01e8c71d56d4e57eecb1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "Simple-PhoneBook",
+        "nameWithOwner": "avjolsakaj/Simple-PhoneBook",
+        "url": "https://github.com/avjolsakaj/Simple-PhoneBook",
+        "description": "Simple Phone Book Web Api-s with .Net Core",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-10-19T11:19:52Z",
+        "pushedAt": "2022-12-08T06:18:50Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjgyNTE1MzYx",
       "login": "basha0110",
       "name": "Ergest Basha",
@@ -2407,6 +3394,78 @@
         "pushedAt": "2025-10-24T15:04:36Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI1NDQwOTU0",
+      "login": "brunofrani",
+      "name": "Bruno Frani",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/brunofrani",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25440954?u=28c819f5181a4f4237ebd488afac6f994379c3c7&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "SwiftUPOC",
+        "nameWithOwner": "brunofrani/SwiftUPOC",
+        "url": "https://github.com/brunofrani/SwiftUPOC",
+        "description": "A Poc working on the gestures and animation of swiftUI",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-01-22T11:43:19Z",
+        "pushedAt": "2024-01-22T12:30:50Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Swift"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOC_sjow",
+      "login": "DeaXhavara",
+      "name": "Dea Xhavara",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/DeaXhavara",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/201008035?u=949771065e5fd2bc2e190a236d861d89c2aa37cb&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "CyberPrint",
+        "nameWithOwner": "DeaXhavara/CyberPrint",
+        "url": "https://github.com/DeaXhavara/CyberPrint",
+        "description": "Your Online Behavior, Decoded. (Anti-Cyberbullying AI agent)",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-08-29T11:13:58Z",
+        "pushedAt": "2026-04-28T08:52:54Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
         "licenseInfo": null
       }
     },
@@ -2443,6 +3502,76 @@
         "primaryLanguage": {
           "name": "JavaScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg4NDYzMjU5",
+      "login": "drhcode",
+      "name": "Dorjan Cocka",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/drhcode",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/88463259?u=71476d6455293b32fbc479e2c59dbb202501ce12&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "feedback-app",
+        "nameWithOwner": "drhcode/feedback-app",
+        "url": "https://github.com/drhcode/feedback-app",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-01-27T13:56:16Z",
+        "pushedAt": "2023-01-31T16:50:37Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY4MTI0Nzg4",
+      "login": "drinaxtech",
+      "name": "Dorian Rina",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/drinaxtech",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/68124788?u=37dce40fcf17ddbf928c68682ecc353cb69faa44&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "drinaxtech",
+        "nameWithOwner": "drinaxtech/drinaxtech",
+        "url": "https://github.com/drinaxtech/drinaxtech",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-05-15T23:57:16Z",
+        "pushedAt": "2025-04-22T22:11:29Z",
+        "homepageUrl": "https://github.com/drinaxtech",
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -2589,6 +3718,42 @@
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "C"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjk1MzMxMDY=",
+      "login": "EndrikLelo",
+      "name": "Endrik Lelo",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/EndrikLelo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9533106?u=f986c19c601f20566648749caa2bf1695d8d76eb&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "akademia-ikubinfo",
+        "nameWithOwner": "EndrikLelo/akademia-ikubinfo",
+        "url": "https://github.com/EndrikLelo/akademia-ikubinfo",
+        "description": "Repo holding a series of mini-projects with academic purposes for stutends on their first steps into the Java Web specifications",
+        "stargazerCount": 1,
+        "forkCount": 4,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-05-10T12:54:33Z",
+        "pushedAt": "2019-10-06T17:04:12Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
         },
         "licenseInfo": null
       }
@@ -2915,6 +4080,42 @@
       }
     },
     {
+      "id": "U_kgDOBvWo1Q",
+      "login": "Florjen",
+      "name": "Florjen Golli",
+      "type": "User",
+      "location": "Durres Durres Albania",
+      "url": "https://github.com/Florjen",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/116762837?u=306c7048b8e560d8151f573aff56a053c1c145f3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "MERN-STACK-F.G-1-BACKEND",
+        "nameWithOwner": "Florjen/MERN-STACK-F.G-1-BACKEND",
+        "url": "https://github.com/Florjen/MERN-STACK-F.G-1-BACKEND",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-02-24T10:00:46Z",
+        "pushedAt": "2024-02-24T10:06:51Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOB6Nn8g",
       "login": "FrankoKaloshi1",
       "name": "Franko",
@@ -2985,6 +4186,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjUwMzI4MzQ3",
+      "login": "GameOverTM0289",
+      "name": "leloaurel",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/GameOverTM0289",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50328347?u=348934133242f708c836c8a8febfaf3677ee5475&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "GameOverTM0289.github.io",
+        "nameWithOwner": "GameOverTM0289/GameOverTM0289.github.io",
+        "url": "https://github.com/GameOverTM0289/GameOverTM0289.github.io",
+        "description": "Have a look at my projects :)",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-07-31T02:15:40Z",
+        "pushedAt": "2023-02-04T15:50:52Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjgyNzI2MzM2",
       "login": "gentmeci",
       "name": "Gentjan Meci",
@@ -3014,6 +4251,76 @@
         "createdAt": "2026-08-27T13:06:57Z",
         "pushedAt": "2026-10-02T12:21:46Z",
         "homepageUrl": "https://meci.al",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI2NzE2MDA0",
+      "login": "geraldib",
+      "name": "GERALD Ibra",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/geraldib",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/26716004?u=9ad80d70b0f3df8ceccd4e4e0ff2b13998a797e6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "wild-travel",
+        "nameWithOwner": "geraldib/wild-travel",
+        "url": "https://github.com/geraldib/wild-travel",
+        "description": "A travel and guide online system",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-04-11T18:28:36Z",
+        "pushedAt": "2022-04-29T08:22:55Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "SCSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc3NDQwNzI0",
+      "login": "Grabielavrapi",
+      "name": "Grabiela Vrapi",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/Grabielavrapi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/77440724?u=db9eb652ba42bc2d34dbb559e9307011a3896e00&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "Grabielavrapi",
+        "nameWithOwner": "Grabielavrapi/Grabielavrapi",
+        "url": "https://github.com/Grabielavrapi/Grabielavrapi",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-02-28T13:58:53Z",
+        "pushedAt": "2026-02-28T14:07:10Z",
+        "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
       }
@@ -3120,6 +4427,42 @@
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBoE1Yg",
+      "login": "igliSallcini",
+      "name": "Igli Sallcini",
+      "type": "User",
+      "location": "Tirana, ALBANIA",
+      "url": "https://github.com/igliSallcini",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/109131106?u=6eefa6c4d9d8f328f6b4cf83ed9431bedebfd55c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "projekti_webdevelopment",
+        "nameWithOwner": "igliSallcini/projekti_webdevelopment",
+        "url": "https://github.com/igliSallcini/projekti_webdevelopment",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-11-02T19:12:10Z",
+        "pushedAt": "2022-11-18T18:59:09Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
         },
         "licenseInfo": null
       }
@@ -3379,6 +4722,78 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM2MjM1OTMw",
+      "login": "kristbezatlliu",
+      "name": "Krist Bezatlliu",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/kristbezatlliu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/36235930?u=2af19ba8969488bfffd5b9dc0e353b3cd637ade3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "Simple-Calculator",
+        "nameWithOwner": "kristbezatlliu/Simple-Calculator",
+        "url": "https://github.com/kristbezatlliu/Simple-Calculator",
+        "description": "A basic calculator coded in python using tkinter library, which is a GUI Application library.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-07-09T00:56:14Z",
+        "pushedAt": "2022-07-09T01:09:35Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQyMjM0Mjk0",
+      "login": "Kristi47",
+      "name": "Kristi Mita",
+      "type": "User",
+      "location": "Tirane, Albania",
+      "url": "https://github.com/Kristi47",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/42234294?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "j_upload",
+        "nameWithOwner": "Kristi47/j_upload",
+        "url": "https://github.com/Kristi47/j_upload",
+        "description": "jUpload is a jQuery package for managing files. Dynamically add and remove files before upload. Custom file validation",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-09-28T23:47:27Z",
+        "pushedAt": "2020-04-30T12:13:09Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBp6NSA",
       "login": "KristiNote",
       "name": "Kristi Note",
@@ -3482,6 +4897,112 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMxOTcwMDQ5",
+      "login": "ledjo-b",
+      "name": "Ledjo Bego",
+      "type": "User",
+      "location": "Durres/Albania",
+      "url": "https://github.com/ledjo-b",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/31970049?u=6b4246fe53e0a0a827a61324e5d6f5224317b344&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "learnNodeJs",
+        "nameWithOwner": "ledjo-b/learnNodeJs",
+        "url": "https://github.com/ledjo-b/learnNodeJs",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-09-30T22:07:05Z",
+        "pushedAt": "2020-09-30T22:15:55Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODTjnLQ",
+      "login": "LucasJ223",
+      "name": "Lucas J.",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/LucasJ223",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/221833005?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "Delta-IPA-2.693",
+        "nameWithOwner": "LucasJ223/Delta-IPA-2.693",
+        "url": "https://github.com/LucasJ223/Delta-IPA-2.693",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-10-03T10:25:23Z",
+        "pushedAt": "2025-10-03T10:41:02Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjczMTMzODEy",
+      "login": "manodroid",
+      "name": "Emanuel ",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/manodroid",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73133812?u=ffaca6b28f1dfa18874e9941cc09f420733816b8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "EnigmaPy",
+        "nameWithOwner": "manodroid/EnigmaPy",
+        "url": "https://github.com/manodroid/EnigmaPy",
+        "description": "Enigma encryption machine implemented in python.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-05-21T15:12:52Z",
+        "pushedAt": "2022-08-10T20:10:18Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
         },
         "licenseInfo": null
       }
@@ -3593,6 +5114,78 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYzMTk0NDEx",
+      "login": "misenkashari",
+      "name": "Misen Kashari",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/misenkashari",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/63194411?u=08f48c9fdb31b2bf300d0851caac5316c6656574&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "tirana",
+        "nameWithOwner": "misenkashari/tirana",
+        "url": "https://github.com/misenkashari/tirana",
+        "description": "Prayer times React.js app for Tirana, Albania.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-06-07T15:59:28Z",
+        "pushedAt": "2024-06-07T16:43:48Z",
+        "homepageUrl": "https://tirana.vercel.app",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU5MzgzNDgy",
+      "login": "nabi-ebrahimi",
+      "name": "Nabi",
+      "type": "User",
+      "location": "Tiranë, Albania",
+      "url": "https://github.com/nabi-ebrahimi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/59383482?u=b1625aebf9edee7ef6f5b0a6639c94ec1921c077&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "Whitelist-dApp",
+        "nameWithOwner": "nabi-ebrahimi/Whitelist-dApp",
+        "url": "https://github.com/nabi-ebrahimi/Whitelist-dApp",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-10-03T17:36:57Z",
+        "pushedAt": "2022-10-24T17:47:37Z",
+        "homepageUrl": "whitelist-app-kappa.vercel.app",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -3817,6 +5410,42 @@
       }
     },
     {
+      "id": "U_kgDOBoitPg",
+      "login": "OlegDrobina",
+      "name": "Oleg Drobina",
+      "type": "User",
+      "location": "Vlore, Albania",
+      "url": "https://github.com/OlegDrobina",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/109620542?u=2a3562d7724312ce2b0d28d869da0677ea0742ac&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "GlobalSearchSettingValueFormer",
+        "nameWithOwner": "OlegDrobina/GlobalSearchSettingValueFormer",
+        "url": "https://github.com/OlegDrobina/GlobalSearchSettingValueFormer",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-10-14T21:47:35Z",
+        "pushedAt": "2025-10-23T08:40:10Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjY4MjUyNTA=",
       "login": "olsizotaj",
       "name": "Olsi",
@@ -3850,6 +5479,81 @@
           "name": "C#"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM1MzQ5MzQy",
+      "login": "oltadedej",
+      "name": "Olta Dedej",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/oltadedej",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/35349342?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "my-app",
+        "nameWithOwner": "oltadedej/my-app",
+        "url": "https://github.com/oltadedej/my-app",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-01-07T12:15:47Z",
+        "pushedAt": "2025-05-16T07:27:28Z",
+        "homepageUrl": "https://my-app-rose-mu-53.vercel.app",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUwOTExNDM5",
+      "login": "realmarkoprifti",
+      "name": "Marko Prifti",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/realmarkoprifti",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50911439?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "liblinkedlist",
+        "nameWithOwner": "realmarkoprifti/liblinkedlist",
+        "url": "https://github.com/realmarkoprifti/liblinkedlist",
+        "description": "A simple C++ library to work and declare Single and Double linked lists AND It provides an API to work with the list",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-09-29T16:31:58Z",
+        "pushedAt": "2023-10-04T14:39:30Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -4034,6 +5738,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjI4MTA5OTM2",
+      "login": "RocLifeRecords",
+      "name": "DENIS HOXHA",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/RocLifeRecords",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/28109936?u=e672811de852eabb5ebde31404e9cbd3065ae12b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "documents",
+        "nameWithOwner": "RocLifeRecords/documents",
+        "url": "https://github.com/RocLifeRecords/documents",
+        "description": "Ideal journey",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-01-09T21:21:18Z",
+        "pushedAt": "2026-09-29T14:02:28Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCLPkAg",
       "login": "Roland-2024",
       "name": "Roland Aga",
@@ -4067,6 +5805,45 @@
           "name": "Dockerfile"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBouT8w",
+      "login": "romeollangozi",
+      "name": "Romeo Llangozi",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/romeollangozi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/109810675?u=6b7bb98f2030597b6802c3122e06c75fcae3fa6a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "simple-proxy",
+        "nameWithOwner": "romeollangozi/simple-proxy",
+        "url": "https://github.com/romeollangozi/simple-proxy",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-01-28T12:14:37Z",
+        "pushedAt": "2024-01-28T12:15:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -4246,6 +6023,114 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjg3NDQyNDEy",
+      "login": "skerdishehaj",
+      "name": "Skerdian Shehaj",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/skerdishehaj",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/87442412?u=b71ca22264e85f7b5b6503364c23fa854126fe8c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "e-commerce-microservice-app",
+        "nameWithOwner": "skerdishehaj/e-commerce-microservice-app",
+        "url": "https://github.com/skerdishehaj/e-commerce-microservice-app",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-11-30T15:23:05Z",
+        "pushedAt": "2025-02-21T00:10:21Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjk4NzAzNjI=",
+      "login": "taulantspahiu",
+      "name": "Taulant Spahiu",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/taulantspahiu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9870362?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "Bootcards-Examples",
+        "nameWithOwner": "taulantspahiu/Bootcards-Examples",
+        "url": "https://github.com/taulantspahiu/Bootcards-Examples",
+        "description": "Bootcards is a cards-based UI framework. It is built on top of Bootstrap and uses it's responsive features.",
+        "stargazerCount": 1,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-08-10T20:37:41Z",
+        "pushedAt": "2016-12-12T15:49:16Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU4NDU2Nzg=",
+      "login": "vilsonisaku",
+      "name": "vilson isaku",
+      "type": "User",
+      "location": "albania",
+      "url": "https://github.com/vilsonisaku",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5845678?u=95abde02f974191cc89f189589c629ab31cd358b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "js-proxy",
+        "nameWithOwner": "vilsonisaku/js-proxy",
+        "url": "https://github.com/vilsonisaku/js-proxy",
+        "description": "automatically update dom while update a array or object",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-03-13T11:57:50Z",
+        "pushedAt": "2019-03-13T14:41:05Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjYyNTE3MDA0",
       "login": "vshtishi",
       "name": "Vjola Shtishi",
@@ -4278,6 +6163,40 @@
         "primaryLanguage": {
           "name": "JavaScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI5MzM5MTk5",
+      "login": "Xhoni96",
+      "name": "Xhoni",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/Xhoni96",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/29339199?u=29e52e3c6e6c86bf826c6d617bca04b42cff0096&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "xhoni96",
+        "nameWithOwner": "Xhoni96/xhoni96",
+        "url": "https://github.com/Xhoni96/xhoni96",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-09-01T15:22:06Z",
+        "pushedAt": "2026-01-30T17:08:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -4382,6 +6301,42 @@
         "pushedAt": "2019-02-20T20:54:23Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ3MzUwNTk4",
+      "login": "6kristian",
+      "name": "Kristian Frroku",
+      "type": "User",
+      "location": "Tirana,Albania",
+      "url": "https://github.com/6kristian",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47350598?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "pafaqe-al",
+        "nameWithOwner": "6kristian/pafaqe-al",
+        "url": "https://github.com/6kristian/pafaqe-al",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-12T21:43:28Z",
+        "pushedAt": "2026-10-23T10:23:44Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
         "licenseInfo": null
       }
     },
@@ -4886,6 +6841,42 @@
       }
     },
     {
+      "id": "U_kgDOC7czxg",
+      "login": "aidhas23",
+      "name": "Aiden Hasanaj",
+      "type": "User",
+      "location": "Durres, Albania",
+      "url": "https://github.com/aidhas23",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/196555718?u=b177f4fbc1ad5fec6198ce4951ec539f7d7470c3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "Gitubung1",
+        "nameWithOwner": "aidhas23/Gitubung1",
+        "url": "https://github.com/aidhas23/Gitubung1",
+        "description": "Git Branches und Konflikte",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-11T06:41:29Z",
+        "pushedAt": "2026-09-11T06:57:06Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDODL4zgQ",
       "login": "AITDEPOZITE",
       "name": "Altin Llalla",
@@ -5059,6 +7050,40 @@
         "primaryLanguage": {
           "name": "HTML"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg0Nzg2MzQx",
+      "login": "Akirozen",
+      "name": "Saimir Baraj",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/Akirozen",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/84786341?u=454f2d211816daf4b9915d2792287c38deb2efc0&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "Akirozen",
+        "nameWithOwner": "Akirozen/Akirozen",
+        "url": "https://github.com/Akirozen/Akirozen",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-08-13T14:24:19Z",
+        "pushedAt": "2023-01-08T20:04:44Z",
+        "homepageUrl": "https://github.com/Akirozen",
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -5627,6 +7652,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ2OTcwNDcx",
+      "login": "aleksanderndoci",
+      "name": "Aleksander Ndoci",
+      "type": "User",
+      "location": "Tirane, Albania",
+      "url": "https://github.com/aleksanderndoci",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/46970471?u=71acc39190414272cda05255f1ebe67751fcc7d8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "spring-boot-ctreedb",
+        "nameWithOwner": "aleksanderndoci/spring-boot-ctreedb",
+        "url": "https://github.com/aleksanderndoci/spring-boot-ctreedb",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-05-06T20:03:13Z",
+        "pushedAt": "2021-05-10T20:23:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjgxMjU5Mjg4",
       "login": "AlesioDev",
       "name": "Alesiodev",
@@ -5913,6 +7974,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "C#"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBik7Rg",
+      "login": "Amarildo05",
+      "name": "Amarildo Kola",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/Amarildo05",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/103365446?u=834e262544a6ee8e60ddee72b05efd7997f16c86&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "Lucas-Home-Improvement",
+        "nameWithOwner": "Amarildo05/Lucas-Home-Improvement",
+        "url": "https://github.com/Amarildo05/Lucas-Home-Improvement",
+        "description": "Lucas Home Improvement Business",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-09-22T20:55:27Z",
+        "pushedAt": "2026-01-06T22:41:07Z",
+        "homepageUrl": "https://lucas-home-improvement.vercel.app",
+        "primaryLanguage": {
+          "name": "JavaScript"
         },
         "licenseInfo": null
       }
@@ -6295,6 +8392,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Vue"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgxODg5NjE=",
+      "login": "AndiShkembi",
+      "name": "Andi Shkembi",
+      "type": "User",
+      "location": "Tirane Albania",
+      "url": "https://github.com/AndiShkembi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8188961?u=29d45eb353c4761ba5788e7e69e78289ce9284f5&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "bidalbania",
+        "nameWithOwner": "AndiShkembi/bidalbania",
+        "url": "https://github.com/AndiShkembi/bidalbania",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-02-12T10:18:40Z",
+        "pushedAt": "2025-07-29T19:26:50Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "CSS"
         },
         "licenseInfo": null
       }
@@ -6722,6 +8855,42 @@
       }
     },
     {
+      "id": "U_kgDOC96dBQ",
+      "login": "arberzylyftari",
+      "name": "Arber Zylyftari",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/arberzylyftari",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/199138565?u=efca84868f1e401dfae3b9a6cfdebb26f0085c35&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "rag-voice-assistant-project",
+        "nameWithOwner": "arberzylyftari/rag-voice-assistant-project",
+        "url": "https://github.com/arberzylyftari/rag-voice-assistant-project",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-01T16:42:33Z",
+        "pushedAt": "2026-08-04T11:46:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCk6qtA",
       "login": "arberzylyftariGIT",
       "name": "arberzylyftari",
@@ -6755,6 +8924,81 @@
           "name": "Java"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY0NDMyMzg1",
+      "login": "arbi222",
+      "name": "Arbi",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/arbi222",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/64432385?u=bbb4cc5c515b69bbb88d459f1f3dd9748cd33403&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "rbmarketfrontend",
+        "nameWithOwner": "arbi222/rbmarketfrontend",
+        "url": "https://github.com/arbi222/rbmarketfrontend",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-28T17:28:52Z",
+        "pushedAt": "2026-05-16T20:36:28Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEzNTA5OTU2",
+      "login": "ArchaicDebugger",
+      "name": "Ervin Kurushi",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/ArchaicDebugger",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13509956?u=429d7f885627c284d9122aaf77f4acc10748e51d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "vscode-analyze",
+        "nameWithOwner": "ArchaicDebugger/vscode-analyze",
+        "url": "https://github.com/ArchaicDebugger/vscode-analyze",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-04-24T13:47:25Z",
+        "pushedAt": "2023-05-05T08:54:05Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "PostgreSQL License",
+          "spdxId": "PostgreSQL"
+        }
       }
     },
     {
@@ -7040,6 +9284,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "CSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE1NTI0NTA0",
+      "login": "arjeta",
+      "name": "Arjeta Avllaj",
+      "type": "User",
+      "location": "Tirane, Albania",
+      "url": "https://github.com/arjeta",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/15524504?u=b7b9f35aa169cfb2a52ffe88cc252ea130fe1f14&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "rpgPHP",
+        "nameWithOwner": "arjeta/rpgPHP",
+        "url": "https://github.com/arjeta/rpgPHP",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-02-10T12:02:15Z",
+        "pushedAt": "2019-02-13T18:59:15Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
         },
         "licenseInfo": null
       }
@@ -7363,6 +9643,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjgzMzE0OTQ2",
+      "login": "Arsonous52",
+      "name": "Alexander",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/Arsonous52",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/83314946?u=3fe63a8df482bb2c8875f3a36d930df5e10752fd&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "Lovetext",
+        "nameWithOwner": "Arsonous52/Lovetext",
+        "url": "https://github.com/Arsonous52/Lovetext",
+        "description": "A lightweight text engine for LÖVE.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-11-04T03:33:06Z",
+        "pushedAt": "2026-07-02T08:44:35Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Lua"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjUxODU0MDg0",
       "login": "artensCeruni",
       "name": "Artens Ceruni",
@@ -7472,6 +9791,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjc1MjIyNjc5",
+      "login": "asipbajrami",
+      "name": "Asip Bajrami",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/asipbajrami",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/75222679?u=293e5fb039de9af42b31536ae48a2f8cf4cd1d6d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "red",
+        "nameWithOwner": "asipbajrami/red",
+        "url": "https://github.com/asipbajrami/red",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-11T23:35:46Z",
+        "pushedAt": "2026-03-19T10:38:26Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Shell"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI4ODIzMzY3",
       "login": "aulona1",
       "name": "Aulona Kolicaj",
@@ -7506,6 +9861,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM0NDQ2MTc3",
+      "login": "AulonaBinaj",
+      "name": "Aulona Binaj",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/AulonaBinaj",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/34446177?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "NODEJS-COMPLETE-GUIDE",
+        "nameWithOwner": "AulonaBinaj/NODEJS-COMPLETE-GUIDE",
+        "url": "https://github.com/AulonaBinaj/NODEJS-COMPLETE-GUIDE",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-11-20T10:42:16Z",
+        "pushedAt": "2025-12-18T14:58:19Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjYxODc3Mzgz",
       "login": "Ava-oss",
       "name": null,
@@ -7536,6 +9927,76 @@
         "pushedAt": "2020-03-06T14:26:36Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBe7TZQ",
+      "login": "aveyo-albania",
+      "name": "Aveyo",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/aveyo-albania",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/99537765?u=e77bb601272a541a92bd81d6e86a33f7da667051&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "aveyo-public",
+        "nameWithOwner": "aveyo-albania/aveyo-public",
+        "url": "https://github.com/aveyo-albania/aveyo-public",
+        "description": "public things",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-02-13T17:11:05Z",
+        "pushedAt": "2022-03-21T16:36:48Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI5NDg2OTMx",
+      "login": "azeneli2000",
+      "name": "Andi Zeneli",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/azeneli2000",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/29486931?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "EasyPay_DataMigration_New",
+        "nameWithOwner": "azeneli2000/EasyPay_DataMigration_New",
+        "url": "https://github.com/azeneli2000/EasyPay_DataMigration_New",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-11-13T14:43:03Z",
+        "pushedAt": "2025-11-13T18:40:41Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C#"
+        },
         "licenseInfo": null
       }
     },
@@ -7732,19 +10193,19 @@
         "Albania"
       ],
       "topRepository": {
-        "name": "NorthwindShop",
-        "nameWithOwner": "BenAsama/NorthwindShop",
-        "url": "https://github.com/BenAsama/NorthwindShop",
-        "description": null,
+        "name": "Apartment_hunter",
+        "nameWithOwner": "BenAsama/Apartment_hunter",
+        "url": "https://github.com/BenAsama/Apartment_hunter",
+        "description": "A web application that scrapes apartment listings and lists them all in one place with proper features",
         "stargazerCount": 0,
         "forkCount": 0,
         "isArchived": false,
         "isFork": false,
-        "createdAt": "2026-06-08T19:47:35Z",
-        "pushedAt": "2026-06-09T09:32:32Z",
+        "createdAt": "2026-10-09T08:47:57Z",
+        "pushedAt": "2026-10-10T21:52:02Z",
         "homepageUrl": null,
         "primaryLanguage": {
-          "name": "TypeScript"
+          "name": "Python"
         },
         "licenseInfo": null
       }
@@ -7853,6 +10314,45 @@
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCiqBeg",
+      "login": "BleonaDev",
+      "name": "Bleona Hitaj",
+      "type": "User",
+      "location": "Tirana,Albania",
+      "url": "https://github.com/BleonaDev",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/170557818?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "Portfolio-Website",
+        "nameWithOwner": "BleonaDev/Portfolio-Website",
+        "url": "https://github.com/BleonaDev/Portfolio-Website",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-29T20:23:16Z",
+        "pushedAt": "2026-10-27T01:35:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Astro"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -8743,6 +11243,76 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjc5MTk5NjQx",
+      "login": "Damjanose",
+      "name": "Damjano",
+      "type": "User",
+      "location": "Albania, Tirana",
+      "url": "https://github.com/Damjanose",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/79199641?u=eb8bbbe5aa9ebf670039dd780d29ad98c60609e6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "trip-plan",
+        "nameWithOwner": "Damjanose/trip-plan",
+        "url": "https://github.com/Damjanose/trip-plan",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-23T15:32:01Z",
+        "pushedAt": "2026-09-26T07:09:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCS8wzw",
+      "login": "DanielIsNotReallyHere",
+      "name": "DanielCastelo",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/DanielIsNotReallyHere",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/154087631?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "library",
+        "nameWithOwner": "DanielIsNotReallyHere/library",
+        "url": "https://github.com/DanielIsNotReallyHere/library",
+        "description": "first project after 2 months, hope i do well ahhhhhh",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-01-04T21:08:22Z",
+        "pushedAt": "2025-01-04T21:08:22Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBoN-gg",
       "login": "danjel137",
       "name": "Danjel Halili",
@@ -9202,6 +11772,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjE4MDc2NDM5",
+      "login": "DemneriEnio",
+      "name": null,
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/DemneriEnio",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18076439?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "movie-search",
+        "nameWithOwner": "DemneriEnio/movie-search",
+        "url": "https://github.com/DemneriEnio/movie-search",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-08-29T16:24:31Z",
+        "pushedAt": "2017-08-29T16:27:25Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOClv8Ow",
       "login": "denisceno",
       "name": "Denis Ceno",
@@ -9378,6 +11984,40 @@
         "primaryLanguage": {
           "name": "Blade"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODKjLuQ",
+      "login": "devwizard2",
+      "name": "Wizard",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/devwizard2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/212388793?u=0e15b6c1a9458c7ea894053529467170279e6ff0&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "volt",
+        "nameWithOwner": "devwizard2/volt",
+        "url": "https://github.com/devwizard2/volt",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-22T11:38:16Z",
+        "pushedAt": "2026-09-22T11:38:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -9844,6 +12484,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU3ODYzNjk2",
+      "login": "DORELAS",
+      "name": "Dorela Sinjari",
+      "type": "User",
+      "location": "Tirana Albania",
+      "url": "https://github.com/DORELAS",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/57863696?u=049b63a20b81a9208d954f54eb170d2eb26617a2&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "seat-management",
+        "nameWithOwner": "DORELAS/seat-management",
+        "url": "https://github.com/DORELAS/seat-management",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-08-05T10:30:34Z",
+        "pushedAt": "2022-08-05T10:39:56Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCVn3Tw",
       "login": "doriunitcod",
       "name": "Dorjan Rrapushaj",
@@ -9909,6 +12585,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "C#"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBz8Rww",
+      "login": "drama-404",
+      "name": "Denada✌️",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/drama-404",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/121573827?u=ac16938643025ac72592d3ab4ce11fafc9e81a64&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "rishikimi-te-dhenave-sintentike",
+        "nameWithOwner": "drama-404/rishikimi-te-dhenave-sintentike",
+        "url": "https://github.com/drama-404/rishikimi-te-dhenave-sintentike",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-31T00:23:56Z",
+        "pushedAt": "2026-06-16T11:24:22Z",
+        "homepageUrl": "https://rishikimi-te-dhenave-sintentike.vercel.app",
+        "primaryLanguage": {
+          "name": "Python"
         },
         "licenseInfo": null
       }
@@ -10397,21 +13109,24 @@
         "Albania"
       ],
       "topRepository": {
-        "name": "credit-risk-platform",
-        "nameWithOwner": "egigj-dev/credit-risk-platform",
-        "url": "https://github.com/egigj-dev/credit-risk-platform",
+        "name": "jagent",
+        "nameWithOwner": "egigj-dev/jagent",
+        "url": "https://github.com/egigj-dev/jagent",
         "description": null,
         "stargazerCount": 0,
         "forkCount": 0,
         "isArchived": false,
         "isFork": false,
-        "createdAt": "2026-08-31T12:39:12Z",
-        "pushedAt": "2026-08-31T12:39:57Z",
+        "createdAt": "2026-10-16T18:37:14Z",
+        "pushedAt": "2026-10-27T23:40:35Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Python"
         },
-        "licenseInfo": null
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -10446,6 +13161,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "C#"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOB83BOw",
+      "login": "ehamati",
+      "name": "Enxhi Hamati",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/ehamati",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/130924859?u=67a47128c5679731399f70f1ad7d304ee4b8f62b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "registration.form",
+        "nameWithOwner": "ehamati/registration.form",
+        "url": "https://github.com/ehamati/registration.form",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-05-23T12:14:58Z",
+        "pushedAt": "2024-05-23T12:15:33Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
         },
         "licenseInfo": null
       }
@@ -11049,6 +13800,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE2NjU1MDA2",
+      "login": "Emil1997",
+      "name": "Emil Kadilli",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/Emil1997",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16655006?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "slick-magento",
+        "nameWithOwner": "Emil1997/slick-magento",
+        "url": "https://github.com/Emil1997/slick-magento",
+        "description": "Include SlickCarousel to your magento project",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-01-09T20:17:42Z",
+        "pushedAt": "2021-10-29T09:18:26Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
         },
         "licenseInfo": null
       }
@@ -12503,6 +15290,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQwMTM2OTg2",
+      "login": "erlisb",
+      "name": null,
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/erlisb",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/40136986?u=87c77147daf36e71e319ac38c6e4f7606195d3fc&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "uigen",
+        "nameWithOwner": "erlisb/uigen",
+        "url": "https://github.com/erlisb/uigen",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-05T21:51:27Z",
+        "pushedAt": "2026-03-05T21:54:51Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQ5NTExNzY1",
       "login": "Ermal7",
       "name": "Ermal Hanko",
@@ -12570,6 +15393,42 @@
         "homepageUrl": "https://shqiperi-org.vercel.app",
         "primaryLanguage": {
           "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOC3s3wA",
+      "login": "ersa-mezuraj9",
+      "name": "Ersa Mëzuraj",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/ersa-mezuraj9",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/192624576?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "Statistical-Projects-with-SPSS",
+        "nameWithOwner": "ersa-mezuraj9/Statistical-Projects-with-SPSS",
+        "url": "https://github.com/ersa-mezuraj9/Statistical-Projects-with-SPSS",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-17T16:49:36Z",
+        "pushedAt": "2026-03-17T17:12:32Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "R"
         },
         "licenseInfo": null
       }
@@ -13255,6 +16114,42 @@
       }
     },
     {
+      "id": "U_kgDOBrlEdA",
+      "login": "fjorianm",
+      "name": "Fjorian Musaraj",
+      "type": "User",
+      "location": "Albania Fier",
+      "url": "https://github.com/fjorianm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/112804980?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "idealdevops",
+        "nameWithOwner": "fjorianm/idealdevops",
+        "url": "https://github.com/fjorianm/idealdevops",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-05T02:03:11Z",
+        "pushedAt": "2026-07-05T02:06:14Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjg3MTQ4Mg==",
       "login": "flakerimi",
       "name": "Flakerim Ismani",
@@ -13397,6 +16292,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCTwc5Q",
+      "login": "FlorianHiso18",
+      "name": "Florian Hiso",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/FlorianHiso18",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/154934501?u=d916c32ca21582182910e77b049dc9b91689cb70&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "NLP-Albania",
+        "nameWithOwner": "FlorianHiso18/NLP-Albania",
+        "url": "https://github.com/FlorianHiso18/NLP-Albania",
+        "description": "This repository contains models for evaluating the accuracy of sentiment analysis on Albanian language datasets.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-10-27T11:45:23Z",
+        "pushedAt": "2025-01-19T17:11:06Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
         },
         "licenseInfo": null
       }
@@ -14076,6 +17007,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjIxMDU3MTAz",
+      "login": "glerinsonum",
+      "name": null,
+      "type": "User",
+      "location": "Albania,Tirana.",
+      "url": "https://github.com/glerinsonum",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/21057103?u=fb0d5f806822ea88e3aa6b1e03fb27d4403c09c4&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "ibis-language",
+        "nameWithOwner": "glerinsonum/ibis-language",
+        "url": "https://github.com/glerinsonum/ibis-language",
+        "description": "The Ibis Programming Language",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-04-01T20:35:54Z",
+        "pushedAt": "2017-04-01T21:23:46Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjMzNjU5Njgx",
       "login": "Gremza",
       "name": "Gremza Digital Solution",
@@ -14145,6 +17110,42 @@
         "pushedAt": "2021-05-19T16:06:34Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOC7lbqA",
+      "login": "hasanPisli",
+      "name": "Hasan Pisli",
+      "type": "User",
+      "location": "Durres Albania ",
+      "url": "https://github.com/hasanPisli",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/196697000?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "soad-test-2",
+        "nameWithOwner": "hasanPisli/soad-test-2",
+        "url": "https://github.com/hasanPisli/soad-test-2",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-07-10T10:59:01Z",
+        "pushedAt": "2025-07-10T11:00:04Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
         "licenseInfo": null
       }
     },
@@ -14325,6 +17326,42 @@
       }
     },
     {
+      "id": "U_kgDOBYhj9g",
+      "login": "herion05",
+      "name": "Herion Halilaj",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/herion05",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/92824566?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "intro2swe",
+        "nameWithOwner": "herion05/intro2swe",
+        "url": "https://github.com/herion05/intro2swe",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-04-07T19:52:02Z",
+        "pushedAt": "2023-04-07T20:41:05Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBzBe-w",
       "login": "hermeshalili",
       "name": null,
@@ -14426,6 +17463,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Shell"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ4MzE3OTEy",
+      "login": "hhysa",
+      "name": null,
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/hhysa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/48317912?u=84d6b6f819396af51cf11c59eae955e2a9fad317&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "tafsir-as-saadi-web-desktop",
+        "nameWithOwner": "hhysa/tafsir-as-saadi-web-desktop",
+        "url": "https://github.com/hhysa/tafsir-as-saadi-web-desktop",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-02T19:46:54Z",
+        "pushedAt": "2026-10-03T20:22:32Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
         },
         "licenseInfo": null
       }
@@ -15135,6 +18208,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU3NjI4Njcz",
+      "login": "InvaCeni",
+      "name": "Inva Ceni",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/InvaCeni",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/57628673?u=be22ad90fd4b43db6fed4c5719b824e98a536d0d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "Employee-Manager",
+        "nameWithOwner": "InvaCeni/Employee-Manager",
+        "url": "https://github.com/InvaCeni/Employee-Manager",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-03-12T13:25:18Z",
+        "pushedAt": "2025-03-12T13:25:54Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQ2MTEzMDA5",
       "login": "irddy",
       "name": "Irdi Duka",
@@ -15171,6 +18280,42 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg3MDY0OTcx",
+      "login": "Iris-Hadushi",
+      "name": null,
+      "type": "User",
+      "location": "Tiranë,Albania",
+      "url": "https://github.com/Iris-Hadushi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/87064971?u=790473026f3ca8f80f92ffa0658f2e644632bf28&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "EmployeeManagementSystem",
+        "nameWithOwner": "Iris-Hadushi/EmployeeManagementSystem",
+        "url": "https://github.com/Iris-Hadushi/EmployeeManagementSystem",
+        "description": "This is an employee management system, part of my master diploma thesis.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-09-21T20:50:27Z",
+        "pushedAt": "2025-09-21T21:03:05Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -15599,6 +18744,42 @@
       }
     },
     {
+      "id": "U_kgDOC17Bbg",
+      "login": "joanateneqexhi",
+      "name": "Joana Teneqexhi",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/joanateneqexhi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/190759278?u=b8c2553f09cd8f4ffd4853e14c538300a825ece3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "Menaxhues-Buxheti-Personal",
+        "nameWithOwner": "joanateneqexhi/Menaxhues-Buxheti-Personal",
+        "url": "https://github.com/joanateneqexhi/Menaxhues-Buxheti-Personal",
+        "description": "Personal Budget Manager (Albanian Version)",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-20T15:52:50Z",
+        "pushedAt": "2026-10-12T20:52:13Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI0NjYxNTM0",
       "login": "joelbollo",
       "name": "Joel Bollo",
@@ -15629,6 +18810,42 @@
         "pushedAt": "2016-12-19T23:47:40Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjczMzQzMjE2",
+      "login": "JonaHysaj",
+      "name": "JonaHysaj",
+      "type": "User",
+      "location": "Tirana/Albania",
+      "url": "https://github.com/JonaHysaj",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73343216?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "holbertonschool-machine_learning",
+        "nameWithOwner": "JonaHysaj/holbertonschool-machine_learning",
+        "url": "https://github.com/JonaHysaj/holbertonschool-machine_learning",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-02-20T16:14:39Z",
+        "pushedAt": "2023-11-07T09:54:50Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
         "licenseInfo": null
       }
     },
@@ -15919,6 +19136,78 @@
       }
     },
     {
+      "id": "U_kgDOCHwtww",
+      "login": "JustiHysi",
+      "name": "Justi Hysi",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/JustiHysi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/142355907?u=f6662a49963acd9e78c59c1f7947e7e94b114467&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "car-rental-mern",
+        "nameWithOwner": "JustiHysi/car-rental-mern",
+        "url": "https://github.com/JustiHysi/car-rental-mern",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-11-18T15:24:33Z",
+        "pushedAt": "2025-11-18T15:44:01Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODw8NpQ",
+      "login": "jxhihani24-cloud",
+      "name": "Jurgen Xhihani",
+      "type": "User",
+      "location": "Tirana,Albania",
+      "url": "https://github.com/jxhihani24-cloud",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/252644773?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "MovieSeries-Watchlist-Manager-Cpp",
+        "nameWithOwner": "jxhihani24-cloud/MovieSeries-Watchlist-Manager-Cpp",
+        "url": "https://github.com/jxhihani24-cloud/MovieSeries-Watchlist-Manager-Cpp",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-16T09:31:39Z",
+        "pushedAt": "2026-05-16T09:31:43Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjU4NzI2Mzc3",
       "login": "kaloshi32",
       "name": "Ermal Kaloshi",
@@ -15947,6 +19236,40 @@
         "isFork": false,
         "createdAt": "2019-12-10T09:10:46Z",
         "pushedAt": "2019-12-10T09:10:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOColIBQ",
+      "login": "kasildab",
+      "name": "Kasilda Biba",
+      "type": "User",
+      "location": "Kukës, Albania",
+      "url": "https://github.com/kasildab",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/176769029?u=2f3f1b143cb388be4ddc911102be0db1d8a4a2dd&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "shqiptv",
+        "nameWithOwner": "kasildab/shqiptv",
+        "url": "https://github.com/kasildab/shqiptv",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-06T16:10:30Z",
+        "pushedAt": "2026-08-15T17:55:48Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -16017,6 +19340,42 @@
         "pushedAt": "2022-06-15T08:49:03Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCPUNEg",
+      "login": "kejsi-blushi",
+      "name": "Kejsi Blushi",
+      "type": "User",
+      "location": "Tirane, Albania",
+      "url": "https://github.com/kejsi-blushi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/150277394?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "cypress-tests-orange-hrm",
+        "nameWithOwner": "kejsi-blushi/cypress-tests-orange-hrm",
+        "url": "https://github.com/kejsi-blushi/cypress-tests-orange-hrm",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-04-18T01:20:44Z",
+        "pushedAt": "2024-04-18T02:01:00Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
         "licenseInfo": null
       }
     },
@@ -16688,6 +20047,42 @@
         "pushedAt": "2022-03-08T10:42:58Z",
         "homepageUrl": "https://github.com/klentinoka",
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOByvSkA",
+      "login": "KLEOJAHOLLARI",
+      "name": "Kleo Jahollari",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/KLEOJAHOLLARI",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/120312464?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "healthtravel",
+        "nameWithOwner": "KLEOJAHOLLARI/healthtravel",
+        "url": "https://github.com/KLEOJAHOLLARI/healthtravel",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-18T18:41:35Z",
+        "pushedAt": "2026-05-28T18:40:18Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
         "licenseInfo": null
       }
     },
@@ -17429,6 +20824,42 @@
       }
     },
     {
+      "id": "U_kgDOCLV4kQ",
+      "login": "LedinaRrethi",
+      "name": "LedinaRrethi",
+      "type": "User",
+      "location": "Tirana , Albania",
+      "url": "https://github.com/LedinaRrethi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/146110609?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "eProtokoll",
+        "nameWithOwner": "LedinaRrethi/eProtokoll",
+        "url": "https://github.com/LedinaRrethi/eProtokoll",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-01T21:51:39Z",
+        "pushedAt": "2026-09-09T07:04:14Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOER6sGQ",
       "login": "leliadriel",
       "name": "Adriel",
@@ -17822,6 +21253,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjc0NDk5MDMz",
+      "login": "LorenMeta",
+      "name": "Loren Meta",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/LorenMeta",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/74499033?u=c0de8a60347983bd57a07fbde448963ce8064ada&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "angularProject",
+        "nameWithOwner": "LorenMeta/angularProject",
+        "url": "https://github.com/LorenMeta/angularProject",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-09-11T12:16:37Z",
+        "pushedAt": "2022-09-25T13:45:35Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjgzNTM1MDc5",
       "login": "lpreka",
       "name": "Lorenco",
@@ -17852,6 +21319,42 @@
         "pushedAt": "2021-05-03T12:12:22Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMyMTIzOTU2",
+      "login": "Luan-Sinani",
+      "name": "Luan Sinani",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/Luan-Sinani",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/32123956?u=351168f45882e2ebb4b2267ceea8d87269bc2a8a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "Animal-Trading-Cards",
+        "nameWithOwner": "Luan-Sinani/Animal-Trading-Cards",
+        "url": "https://github.com/Luan-Sinani/Animal-Trading-Cards",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-05-10T17:28:44Z",
+        "pushedAt": "2021-05-11T18:07:10Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
         "licenseInfo": null
       }
     },
@@ -18308,6 +21811,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQwNjM1NzIz",
+      "login": "MarjanaPrifti",
+      "name": "Marjana P. Skenduli",
+      "type": "User",
+      "location": "Tirana, Albania ",
+      "url": "https://github.com/MarjanaPrifti",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/40635723?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "Quantum-Computing",
+        "nameWithOwner": "MarjanaPrifti/Quantum-Computing",
+        "url": "https://github.com/MarjanaPrifti/Quantum-Computing",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-24T07:51:04Z",
+        "pushedAt": "2026-07-24T07:51:05Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjUzOTAyMzUx",
       "login": "markeljan111",
       "name": "Markeljan lesaj",
@@ -18624,6 +22161,40 @@
       }
     },
     {
+      "id": "U_kgDOCDm6_A",
+      "login": "megigremi",
+      "name": "Megi",
+      "type": "User",
+      "location": "Tirana , Albania",
+      "url": "https://github.com/megigremi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/138001148?u=05d89b2d80893c0b578881d54b288b9b81f24775&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "SpamDetectionAI",
+        "nameWithOwner": "megigremi/SpamDetectionAI",
+        "url": "https://github.com/megigremi/SpamDetectionAI",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-05T08:47:42Z",
+        "pushedAt": "2026-01-05T08:47:43Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDODfOfkg",
       "login": "mehmetisai2024-lgtm",
       "name": "Afrim Rexhepi",
@@ -18844,6 +22415,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM4NzUxMzQy",
+      "login": "MindExpert",
+      "name": "Elvis",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/MindExpert",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/38751342?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "help-desk",
+        "nameWithOwner": "MindExpert/help-desk",
+        "url": "https://github.com/MindExpert/help-desk",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-10T21:08:29Z",
+        "pushedAt": "2026-08-11T07:50:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDODLoSRQ",
       "login": "Mo-eid200",
       "name": "Mohamed EID",
@@ -18911,6 +22518,43 @@
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQxMTkyNDkx",
+      "login": "Mr-randomize",
+      "name": "Ivi Berberi",
+      "type": "User",
+      "location": "Durres, Albania",
+      "url": "https://github.com/Mr-randomize",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/41192491?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "EShopMicroservices",
+        "nameWithOwner": "Mr-randomize/EShopMicroservices",
+        "url": "https://github.com/Mr-randomize/EShopMicroservices",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-04-06T18:00:27Z",
+        "pushedAt": "2025-04-06T18:00:27Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -19088,6 +22732,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ5Njc3MTA4",
+      "login": "nandakallugjeri",
+      "name": "Nanda Kallugjeri",
+      "type": "User",
+      "location": "Tirana/Albania",
+      "url": "https://github.com/nandakallugjeri",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/49677108?u=7024a627e26a8140b00ba21b29f183b84e0167ff&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "online_news",
+        "nameWithOwner": "nandakallugjeri/online_news",
+        "url": "https://github.com/nandakallugjeri/online_news",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-09-26T08:28:08Z",
+        "pushedAt": "2019-09-26T12:31:49Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjMzOTY5MjIy",
       "login": "NekiKuka",
       "name": "Neki Kuka",
@@ -19118,6 +22798,42 @@
         "pushedAt": "2021-10-25T15:17:51Z",
         "homepageUrl": "https://github.com/NekiKuka",
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE3OTE2NDI4",
+      "login": "NensiSkenderi",
+      "name": "Nensi Skenderi",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/NensiSkenderi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17916428?u=154581c09631438c96a9d92c0340b48b2b9ed9cc&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "vending-machine-system-design",
+        "nameWithOwner": "NensiSkenderi/vending-machine-system-design",
+        "url": "https://github.com/NensiSkenderi/vending-machine-system-design",
+        "description": "This project is a demonstration of How do you design a Vending Machine in Java? which is one of the Java interview questions mostly asked at Senior level Java developer Interviews.",
+        "stargazerCount": 0,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-11-25T11:08:06Z",
+        "pushedAt": "2022-11-28T13:23:20Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Java"
+        },
         "licenseInfo": null
       }
     },
@@ -19364,6 +23080,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ0MDg0Mjkx",
+      "login": "northern-polaris",
+      "name": null,
+      "type": "User",
+      "location": "Tirane, Albania",
+      "url": "https://github.com/northern-polaris",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/44084291?u=0b43923024bdc650f4b7fee9ac527fe10fa7a9af&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "smart-map-app",
+        "nameWithOwner": "northern-polaris/smart-map-app",
+        "url": "https://github.com/northern-polaris/smart-map-app",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-07-24T07:19:46Z",
+        "pushedAt": "2022-07-28T13:08:16Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOD3be8w",
       "login": "noryxdev",
       "name": "noryx",
@@ -19496,6 +23248,76 @@
         "pushedAt": "2024-09-15T03:37:03Z",
         "homepageUrl": "https://github.com/nyancatwhistlebaby",
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjkxMTQ3OTY1",
+      "login": "OlardSiqeca",
+      "name": "Olard Siqeca",
+      "type": "User",
+      "location": "Tirana Albania",
+      "url": "https://github.com/OlardSiqeca",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/91147965?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "2020-W51-Arsenal-s-worst-ever-Premier-League-start",
+        "nameWithOwner": "OlardSiqeca/2020-W51-Arsenal-s-worst-ever-Premier-League-start",
+        "url": "https://github.com/OlardSiqeca/2020-W51-Arsenal-s-worst-ever-Premier-League-start",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-10-31T14:38:31Z",
+        "pushedAt": "2021-10-31T14:38:32Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMzNDUzODQ1",
+      "login": "olgerm",
+      "name": "Olger",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/olgerm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33453845?u=c1dc3be9855420ce1abf13fbfd5a979c20abfc91&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "valerante-bot",
+        "nameWithOwner": "olgerm/valerante-bot",
+        "url": "https://github.com/olgerm/valerante-bot",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-12-13T02:05:36Z",
+        "pushedAt": "2023-07-17T01:51:24Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
         "licenseInfo": null
       }
     },
@@ -19886,6 +23708,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjI0NDYyNDkw",
+      "login": "p-user",
+      "name": "pamela",
+      "type": "User",
+      "location": "Tirana/Albania",
+      "url": "https://github.com/p-user",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/24462490?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "Booking-microservices",
+        "nameWithOwner": "p-user/Booking-microservices",
+        "url": "https://github.com/p-user/Booking-microservices",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-03T15:18:08Z",
+        "pushedAt": "2026-06-18T13:54:06Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "U_kgDODBL9IA",
       "login": "PandiP205",
       "name": "Pandi",
@@ -20023,6 +23884,81 @@
         "homepageUrl": "https://paxerr.com",
         "primaryLanguage": {
           "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOC9Y8Tw",
+      "login": "petritfisheku",
+      "name": "Petrit Fisheku",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/petritfisheku",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/198589519?u=c46dea183ce7515dcbc7dbfcd642c1c4931f4ccd&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "Travel-Agency",
+        "nameWithOwner": "petritfisheku/Travel-Agency",
+        "url": "https://github.com/petritfisheku/Travel-Agency",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-05-25T21:34:44Z",
+        "pushedAt": "2025-05-25T22:47:41Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc0NDUyNDI0",
+      "login": "PetroTafilaj",
+      "name": "Petro Tafilaj",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/PetroTafilaj",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/74452424?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "InstagramUnfollowers",
+        "nameWithOwner": "PetroTafilaj/InstagramUnfollowers",
+        "url": "https://github.com/PetroTafilaj/InstagramUnfollowers",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-11T23:11:47Z",
+        "pushedAt": "2026-10-11T23:36:43Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
         },
         "licenseInfo": {
           "name": "MIT License",
@@ -20351,6 +24287,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjkxNTAwMTcx",
+      "login": "RedemtionK",
+      "name": "Klaus Cepani",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/RedemtionK",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/91500171?u=73af83bca6d572d1f079c5f5b7524b9d704c74b6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "finalProject",
+        "nameWithOwner": "RedemtionK/finalProject",
+        "url": "https://github.com/RedemtionK/finalProject",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-08-07T19:40:28Z",
+        "pushedAt": "2023-09-21T19:37:33Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjczNjAxMjk2",
       "login": "redwood-v",
       "name": "Project: R",
@@ -20487,6 +24459,40 @@
         "primaryLanguage": {
           "name": "CSS"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY0OTUzMDA5",
+      "login": "reinaldlicaj",
+      "name": "Reinald Licaj",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/reinaldlicaj",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/64953009?u=2d39a0167577b90f0603c545e42d29e863cde438&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "reinaldlicaj",
+        "nameWithOwner": "reinaldlicaj/reinaldlicaj",
+        "url": "https://github.com/reinaldlicaj/reinaldlicaj",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-01-19T12:03:29Z",
+        "pushedAt": "2026-05-12T12:18:16Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -21211,6 +25217,78 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjg5MjQ0OTM4",
+      "login": "sadripervana",
+      "name": "Sadri Përvana",
+      "type": "User",
+      "location": "Tirane, Albania.",
+      "url": "https://github.com/sadripervana",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/89244938?u=d7fb3f3cadb90225e864732c9bdd816c67ba9141&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "Advanced-SPAs",
+        "nameWithOwner": "sadripervana/Advanced-SPAs",
+        "url": "https://github.com/sadripervana/Advanced-SPAs",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-03-12T14:01:38Z",
+        "pushedAt": "2025-06-24T10:38:51Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBlPWFw",
+      "login": "SamedHaveri",
+      "name": "Samed Haveri",
+      "type": "User",
+      "location": "Albania, Shkoder",
+      "url": "https://github.com/SamedHaveri",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/106157591?u=631019ae99eed1aec749da4a499aa9fe35876407&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "php-project",
+        "nameWithOwner": "SamedHaveri/php-project",
+        "url": "https://github.com/SamedHaveri/php-project",
+        "description": "Web API using php",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-04-16T09:20:12Z",
+        "pushedAt": "2023-04-26T19:10:42Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOEcagWw",
       "login": "samuelxhixho",
       "name": "Samuel Xhixho",
@@ -21496,6 +25574,42 @@
       }
     },
     {
+      "id": "U_kgDOC3BUMQ",
+      "login": "selmakonda",
+      "name": "Selma Konda",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/selmakonda",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/191910961?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "CV_test_2026",
+        "nameWithOwner": "selmakonda/CV_test_2026",
+        "url": "https://github.com/selmakonda/CV_test_2026",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-24T19:09:40Z",
+        "pushedAt": "2026-05-25T15:54:03Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBwvmtg",
       "login": "Senpaii4",
       "name": "Senpaii4",
@@ -21705,6 +25819,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM5MjU5NzQw",
+      "login": "Shatraj",
+      "name": "Aleksandra",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/Shatraj",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39259740?u=f324f848a947237aab0d6589f71f0fa9fb45a87c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "Cv",
+        "nameWithOwner": "Shatraj/Cv",
+        "url": "https://github.com/Shatraj/Cv",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-02-14T13:36:51Z",
+        "pushedAt": "2023-02-27T10:19:22Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
         },
         "licenseInfo": null
       }
@@ -22031,6 +26181,78 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjY2NTA3NDQ0",
+      "login": "sindihamataj",
+      "name": "Sindi Hamataj",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/sindihamataj",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/66507444?u=ed30d63d4d4a03238bcb42cf6ec5d4b888e5d8a4&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "test_project",
+        "nameWithOwner": "sindihamataj/test_project",
+        "url": "https://github.com/sindihamataj/test_project",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-03-28T08:00:21Z",
+        "pushedAt": "2025-04-02T08:13:43Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOB8ELLw",
+      "login": "sirenaahmet",
+      "name": "Sirena Ahmet",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/sirenaahmet",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/130091823?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "pokemon-trainer",
+        "nameWithOwner": "sirenaahmet/pokemon-trainer",
+        "url": "https://github.com/sirenaahmet/pokemon-trainer",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-04-06T18:54:35Z",
+        "pushedAt": "2025-04-09T16:42:18Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBYbCyg",
       "login": "sirolius",
       "name": "Sirolius",
@@ -22269,6 +26491,42 @@
         "isFork": false,
         "createdAt": "2026-09-16T03:39:28Z",
         "pushedAt": "2026-09-16T03:40:06Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCN9YYw",
+      "login": "sstojani",
+      "name": "Semi Stojani",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/sstojani",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/148854883?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "Extension-",
+        "nameWithOwner": "sstojani/Extension-",
+        "url": "https://github.com/sstojani/Extension-",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-02T14:26:24Z",
+        "pushedAt": "2026-10-21T11:21:18Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "TypeScript"
@@ -22624,6 +26882,81 @@
           "name": "TypeScript"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgzMDI5NDc=",
+      "login": "tars17",
+      "name": "Tarzan Prenga",
+      "type": "User",
+      "location": "Durrës, Albania",
+      "url": "https://github.com/tars17",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8302947?u=cef76f13e1d8cceaa3a18483db9cc1c299e6aa4b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "tprenga.github.io",
+        "nameWithOwner": "tars17/tprenga.github.io",
+        "url": "https://github.com/tars17/tprenga.github.io",
+        "description": "Personal website",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-02-07T22:36:15Z",
+        "pushedAt": "2020-02-08T08:58:11Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjkwNzM0Mg==",
+      "login": "tavasja",
+      "name": "Elvis Tavasja",
+      "type": "User",
+      "location": "Shkoder,Albania",
+      "url": "https://github.com/tavasja",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/907342?u=dc11dc6c8d5d0c819727152983fccdf1d10395c8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "github-final-project",
+        "nameWithOwner": "tavasja/github-final-project",
+        "url": "https://github.com/tavasja/github-final-project",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-10-13T20:57:09Z",
+        "pushedAt": "2023-10-13T21:06:45Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Shell"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
       }
     },
     {
@@ -23112,6 +27445,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjYyNDc1MjA4",
+      "login": "ultimo123",
+      "name": null,
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/ultimo123",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/62475208?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "classroom-frontend",
+        "nameWithOwner": "ultimo123/classroom-frontend",
+        "url": "https://github.com/ultimo123/classroom-frontend",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-22T17:42:39Z",
+        "pushedAt": "2026-05-04T13:52:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBiSstw",
       "login": "User262003",
       "name": "Selma Lico",
@@ -23260,6 +27629,42 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE4MTM3MTI3",
+      "login": "valentino1996",
+      "name": "Valentino",
+      "type": "User",
+      "location": "Tirana, Albania",
+      "url": "https://github.com/valentino1996",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18137127?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "HolidayCompanion2",
+        "nameWithOwner": "valentino1996/HolidayCompanion2",
+        "url": "https://github.com/valentino1996/HolidayCompanion2",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-07-13T08:02:21Z",
+        "pushedAt": "2022-12-08T23:55:44Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -23470,6 +27875,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "PLpgSQL"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOEsdBeQ",
+      "login": "violazeneli31",
+      "name": "Viola Zeneli",
+      "type": "User",
+      "location": "Albania",
+      "url": "https://github.com/violazeneli31",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/315048313?u=cfbfb90a78fa39616c06251064e40da232095d39&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "RestaurantSimulation",
+        "nameWithOwner": "violazeneli31/RestaurantSimulation",
+        "url": "https://github.com/violazeneli31/RestaurantSimulation",
+        "description": "Restaurant kitchen simulated with Python threads (queues, semaphore, lock, condition variable) and a live Flask dashboard.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-14T13:42:39Z",
+        "pushedAt": "2026-10-14T13:42:47Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "HTML"
         },
         "licenseInfo": null
       }
@@ -23816,6 +28257,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "SCSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBf29bA",
+      "login": "xhoiKabashi",
+      "name": "Xhoi Kabashi",
+      "type": "User",
+      "location": "Tirana, Albania ",
+      "url": "https://github.com/xhoiKabashi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/100515180?u=07d7cd5df833d466e0eb7bd88821a70b0d9355d5&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "AL",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Albania"
+      },
+      "discoveryTerms": [
+        "Albania"
+      ],
+      "topRepository": {
+        "name": "fridge",
+        "nameWithOwner": "xhoiKabashi/fridge",
+        "url": "https://github.com/xhoiKabashi/fridge",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-25T15:56:56Z",
+        "pushedAt": "2026-05-25T21:26:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
         },
         "licenseInfo": null
       }
