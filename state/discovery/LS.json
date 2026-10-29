@@ -12,23 +12,40 @@
     "termsTotal": 55
   },
   "phase": "discovery",
-  "nextTermIndex": 15,
-  "activeTerm": null,
+  "nextTermIndex": 19,
+  "activeTerm": {
+    "index": 19,
+    "term": "Maseru",
+    "queue": [
+      {
+        "query": "location:\"Maseru\"",
+        "stage": "base",
+        "cursor": "Y3Vyc29yOjIwMA==",
+        "pageNumber": 5,
+        "attempts": 0
+      }
+    ],
+    "startedAt": "2026-10-29T13:21:10.328Z",
+    "requests": 4,
+    "leafPages": 4,
+    "shardExpansions": 0,
+    "reportedCount": null
+  },
   "discoveryComplete": false,
   "startedAt": "2026-10-06T00:08:25.533Z",
-  "updatedAt": "2026-10-26T13:18:46.015Z",
+  "updatedAt": "2026-10-29T13:21:24.604Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
-    "termsProcessed": 15,
-    "searchRequests": 24,
-    "leafPages": 24,
+    "termsProcessed": 19,
+    "searchRequests": 32,
+    "leafPages": 32,
     "shardExpansions": 0,
-    "rawOwnerHits": 519,
-    "acceptedOwnerHits": 514,
-    "rejectedOwnerHits": 5,
+    "rawOwnerHits": 721,
+    "acceptedOwnerHits": 709,
+    "rejectedOwnerHits": 12,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4921
+    "minimumRateLimitRemaining": 4875
   },
   "unresolvedShards": [],
   "candidates": [
@@ -48,14 +65,15 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "bat",
         "nameWithOwner": "tshakalekholoane/bat",
         "url": "https://github.com/tshakalekholoane/bat",
         "description": "Battery management utility for Linux laptops.",
-        "stargazerCount": 375,
+        "stargazerCount": 378,
         "forkCount": 28,
         "isArchived": false,
         "isFork": false,
@@ -87,7 +105,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "real_estate",
@@ -147,6 +166,46 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjUxNDk0MTE2",
+      "login": "letele",
+      "name": null,
+      "type": "User",
+      "location": "HaNelese, Maseru, Lesotho",
+      "url": "https://github.com/letele",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/51494116?u=69bb07e428397bd25540913bfda07f2331cbfec1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Lesotho"
+      },
+      "discoveryTerms": [
+        "Lesotho",
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "playing-cards",
+        "nameWithOwner": "letele/playing-cards",
+        "url": "https://github.com/letele/playing-cards",
+        "description": "SVG playing cards",
+        "stargazerCount": 7,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-08-02T06:57:42Z",
+        "pushedAt": "2023-08-18T15:27:43Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "Creative Commons Zero v1.0 Universal",
+          "spdxId": "CC0-1.0"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjIyMzkzOTU2",
       "login": "nkalait",
       "name": "Tsepo Nkalai",
@@ -162,7 +221,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "mamela-audiobook-player-open",
@@ -183,41 +243,77 @@
       }
     },
     {
-      "id": "MDQ6VXNlcjUxNDk0MTE2",
-      "login": "letele",
-      "name": null,
+      "id": "MDQ6VXNlcjE5Nzk3NzQx",
+      "login": "ntholi",
+      "name": "Ntholi Nkhatho",
       "type": "User",
-      "location": "HaNelese, Maseru, Lesotho",
-      "url": "https://github.com/letele",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/51494116?u=69bb07e428397bd25540913bfda07f2331cbfec1&v=4",
+      "location": "Maseru",
+      "url": "https://github.com/ntholi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19797741?u=df43e19690da4679b8fa820e042016457c92c768&v=4",
       "attribution": {
         "accepted": true,
         "countryCode": "LS",
-        "confidence": "high",
-        "evidence": "explicit-country",
-        "matched": "Lesotho"
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Maseru"
       ],
       "topRepository": {
-        "name": "playing-cards",
-        "nameWithOwner": "letele/playing-cards",
-        "url": "https://github.com/letele/playing-cards",
-        "description": "SVG playing cards",
-        "stargazerCount": 6,
-        "forkCount": 3,
+        "name": "fivedays-prototype",
+        "nameWithOwner": "ntholi/fivedays-prototype",
+        "url": "https://github.com/ntholi/fivedays-prototype",
+        "description": "AI-powered app that assists teachers with creating and grading assessments, integrated with Google Classroom and utilizing OpenAI API.",
+        "stargazerCount": 7,
+        "forkCount": 0,
         "isArchived": false,
         "isFork": false,
-        "createdAt": "2023-08-02T06:57:42Z",
-        "pushedAt": "2023-08-18T15:27:43Z",
-        "homepageUrl": null,
+        "createdAt": "2023-05-12T06:40:11Z",
+        "pushedAt": "2023-11-01T21:11:38Z",
+        "homepageUrl": "https://fivedays.vercel.app/",
         "primaryLanguage": {
-          "name": "JavaScript"
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY3ODMxOTcz",
+      "login": "LomNtetha",
+      "name": "Lumkile Ntetha",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/LomNtetha",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/67831973?u=f97a1d3315d909891355b487d2125384fa8a853f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "fraudDetection",
+        "nameWithOwner": "LomNtetha/fraudDetection",
+        "url": "https://github.com/LomNtetha/fraudDetection",
+        "description": "This is a fraud Detection  and Sales analysis system , that detects fraud  for insurance and analyzing policy sales",
+        "stargazerCount": 6,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-06-16T18:11:15Z",
+        "pushedAt": "2024-04-17T08:55:08Z",
+        "homepageUrl": "https://boiling-earth-35730.herokuapp.com/",
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
         },
         "licenseInfo": {
-          "name": "Creative Commons Zero v1.0 Universal",
-          "spdxId": "CC0-1.0"
+          "name": "MIT License",
+          "spdxId": "MIT"
         }
       }
     },
@@ -307,7 +403,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "swift-blurred-background-modal-view",
@@ -323,6 +420,42 @@
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "Swift"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBfgFqw",
+      "login": "PholohoHlaha",
+      "name": "Pholoho Hlaha",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/PholohoHlaha",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/100140459?u=3f17372ab93ed5b4e1bb0ce5fd965f908793a6d2&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "Wastewater-treatment-monitoring-software",
+        "nameWithOwner": "PholohoHlaha/Wastewater-treatment-monitoring-software",
+        "url": "https://github.com/PholohoHlaha/Wastewater-treatment-monitoring-software",
+        "description": "This software has an AI integrated system that predicts the disposal of treated effluent from the wastewater treatment plant. The system simulates the behavior of the sensors' data and tries to manipulate and display the data in real-time.",
+        "stargazerCount": 4,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-05-10T07:12:55Z",
+        "pushedAt": "2024-06-19T19:42:46Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
         },
         "licenseInfo": null
       }
@@ -400,6 +533,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM5OTU1NDY3",
+      "login": "KNkoe",
+      "name": "Katleho Nkoe",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/KNkoe",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39955467?u=840d6fac1da460cc31fc223733a1536d96c32d78&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "Tourist-personal-assistant-app",
+        "nameWithOwner": "KNkoe/Tourist-personal-assistant-app",
+        "url": "https://github.com/KNkoe/Tourist-personal-assistant-app",
+        "description": "A mobile app to help make touring easy in Lesotho",
+        "stargazerCount": 3,
+        "forkCount": 4,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-11-08T21:37:43Z",
+        "pushedAt": "2023-01-06T08:19:46Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Dart"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBjmR-g",
       "login": "1923k",
       "name": "Kefuoe Sole",
@@ -451,7 +620,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "LesBackEnd",
@@ -523,7 +693,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "CS3520",
@@ -531,14 +702,55 @@
         "url": "https://github.com/khobatha/CS3520",
         "description": "CS3520 repository",
         "stargazerCount": 2,
-        "forkCount": 70,
+        "forkCount": 76,
         "isArchived": false,
         "isFork": false,
         "createdAt": "2022-10-28T10:34:06Z",
-        "pushedAt": "2026-09-08T18:56:08Z",
+        "pushedAt": "2026-10-28T05:48:09Z",
         "homepageUrl": null,
-        "primaryLanguage": null,
+        "primaryLanguage": {
+          "name": "Assembly"
+        },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOByk00g",
+      "login": "LehlohonoloMoketa",
+      "name": "Lehlohonolo Moketa ",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/LehlohonoloMoketa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/120141010?u=40df2ecbd218de9ef9577bd5f8a94a4c24c61ba8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "spring-boot-keycloak-oidc-demo",
+        "nameWithOwner": "LehlohonoloMoketa/spring-boot-keycloak-oidc-demo",
+        "url": "https://github.com/LehlohonoloMoketa/spring-boot-keycloak-oidc-demo",
+        "description": "Spring Boot OpenID Connect authentication lab with Keycloak, PostgreSQL, local user provisioning, and tests.",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-21T12:31:43Z",
+        "pushedAt": "2026-07-21T12:42:53Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -594,7 +806,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "wikipedia-search-app",
@@ -666,7 +879,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "student-attendance-system",
@@ -702,7 +916,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "PHP-Datastructures",
@@ -718,6 +933,42 @@
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU4MjE5MDM2",
+      "login": "wydmav",
+      "name": "Raphooko Phooko",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/wydmav",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58219036?u=866a18b9d83ed996eb0e48cb295eaa950113ee1b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "Common-Rust-Vulnerabilities-Scanner",
+        "nameWithOwner": "wydmav/Common-Rust-Vulnerabilities-Scanner",
+        "url": "https://github.com/wydmav/Common-Rust-Vulnerabilities-Scanner",
+        "description": "Rust vulnerability testing toolkit exploring memory safety boundaries — from safe-Rust panics to raw unsafe memory bugs.",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-21T10:05:52Z",
+        "pushedAt": "2026-04-21T10:52:33Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Makefile"
         },
         "licenseInfo": null
       }
@@ -846,7 +1097,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "java",
@@ -987,7 +1239,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "react-sass-starter-template",
@@ -1080,6 +1333,42 @@
       }
     },
     {
+      "id": "U_kgDOB7IAQA",
+      "login": "famedMaxximus",
+      "name": "Thabiso Thelingoane",
+      "type": "User",
+      "location": "Maseru, Lesotho",
+      "url": "https://github.com/famedMaxximus",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/129105984?u=65ab8499dc546e0318c5b352d55a7fd1410c0752&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Lesotho"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "mad-experimental-lab",
+        "nameWithOwner": "famedMaxximus/mad-experimental-lab",
+        "url": "https://github.com/famedMaxximus/mad-experimental-lab",
+        "description": "Welcome to my digital playground!  🗿",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-21T02:30:08Z",
+        "pushedAt": "2026-10-27T20:17:50Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjg4Mzc5NDQ0",
       "login": "goldenkat213",
       "name": "Kat Kherehloa",
@@ -1131,7 +1420,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "AeroMail",
@@ -1203,7 +1493,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Jonejabari",
@@ -1237,7 +1528,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Node-Design-Ntsoekhe-Distributed-Database-Health-Management-System",
@@ -1276,7 +1568,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "musicapi",
@@ -1292,6 +1585,42 @@
         "homepageUrl": "https://musicapi-phi-umber.vercel.app",
         "primaryLanguage": {
           "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUzMjIwNjc2",
+      "login": "kaneloramokhele",
+      "name": "Ramokhele",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/kaneloramokhele",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/53220676?u=e0554c315b48f0e2fa22d696702365e45a79e6a6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "HTML-Video-Slider",
+        "nameWithOwner": "kaneloramokhele/HTML-Video-Slider",
+        "url": "https://github.com/kaneloramokhele/HTML-Video-Slider",
+        "description": "Responsive video slider using HTML, CSS and JAVASCRIPT",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-05-24T12:25:28Z",
+        "pushedAt": "2023-05-24T12:27:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "CSS"
         },
         "licenseInfo": null
       }
@@ -1384,7 +1713,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "studio",
@@ -1532,7 +1862,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "quiz-app",
@@ -1750,7 +2081,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "hr_spec",
@@ -1810,6 +2142,79 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjEzNzUwMTEw",
+      "login": "maele",
+      "name": null,
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/maele",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13750110?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "js-tailwind-qrcode-generator",
+        "nameWithOwner": "maele/js-tailwind-qrcode-generator",
+        "url": "https://github.com/maele/js-tailwind-qrcode-generator",
+        "description": "Simple QR Code generator in JavaScript and Tailwind CSS (practice project)",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-10-18T18:51:45Z",
+        "pushedAt": "2022-10-20T12:51:39Z",
+        "homepageUrl": "js-tailwind-qrcode-generator.vercel.app",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYwNzAwMTU1",
+      "login": "Magadlela",
+      "name": "Magadlela Thato",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/Magadlela",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/60700155?u=9c6a1303923a7b3948b6165dc0d14e82270dd724&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "AssessmentCS3430",
+        "nameWithOwner": "Magadlela/AssessmentCS3430",
+        "url": "https://github.com/Magadlela/AssessmentCS3430",
+        "description": "An assigmnent on SYSTEMS ANALYSIS AND LOGICAL DESIGN project.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-12-01T05:42:40Z",
+        "pushedAt": "2021-12-03T11:07:33Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjgyOTYxNzM1",
       "login": "malungamahlo",
       "name": "Malunga Mahlo",
@@ -1825,7 +2230,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Data-analysis-and-science",
@@ -1861,7 +2267,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "EduFees-school-fee-tracker",
@@ -1967,7 +2374,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "mmgcgeneraltrading.github.io",
@@ -1979,7 +2387,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-09-09T16:59:09Z",
-        "pushedAt": "2026-09-23T06:20:45Z",
+        "pushedAt": "2026-10-29T11:41:24Z",
         "homepageUrl": "https://mmgcgeneraltrading.github.io/",
         "primaryLanguage": {
           "name": "HTML"
@@ -2003,7 +2411,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "logIn-interface-java-swings",
@@ -2109,7 +2518,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "StricklyLs",
@@ -2179,7 +2589,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Linux-System",
@@ -2287,7 +2698,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "WpfMvvmIntro",
@@ -2323,7 +2735,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "SmartQueue-Management-System",
@@ -2373,6 +2786,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Vue"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOD_xpAQ",
+      "login": "NkhekheRepository",
+      "name": "Nkhekhe Innovations",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/NkhekheRepository",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/268200193?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "platinum-credit-website",
+        "nameWithOwner": "NkhekheRepository/platinum-credit-website",
+        "url": "https://github.com/NkhekheRepository/platinum-credit-website",
+        "description": "Platinum Credit Ltd — website theme and plugin source (WordPress child theme + pcl-core)",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-20T13:25:40Z",
+        "pushedAt": "2026-08-25T04:17:04Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
         },
         "licenseInfo": null
       }
@@ -2557,6 +3006,42 @@
       }
     },
     {
+      "id": "U_kgDOB3-WdA",
+      "login": "PhiLouGii",
+      "name": "Philippa Louise Giibwa",
+      "type": "User",
+      "location": "Maseru, Lesotho",
+      "url": "https://github.com/PhiLouGii",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/125802100?u=a41aaa85b7e39b0c3fb33a1ba1390471d2e1db1a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Lesotho"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "Gemini-Live-Agent-Challenge",
+        "nameWithOwner": "PhiLouGii/Gemini-Live-Agent-Challenge",
+        "url": "https://github.com/PhiLouGii/Gemini-Live-Agent-Challenge",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-02T11:02:05Z",
+        "pushedAt": "2026-03-14T19:02:07Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBb4UsA",
       "login": "Polokopule",
       "name": "BD-SCHOOL-OF-CREATION ",
@@ -2572,7 +3057,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Unite-lite",
@@ -2642,7 +3128,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Realtime-Speech-to-Speech-using-OpenAI-and-Twilio-",
@@ -2678,7 +3165,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "YoutubeVideoPlayListDownloader",
@@ -2753,7 +3241,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "sammy-ai",
@@ -2787,7 +3276,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "SLN_assets",
@@ -2821,7 +3311,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Todo-app",
@@ -2915,6 +3406,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjE0MTk4NTEx",
+      "login": "tshata",
+      "name": "Tsepo Shata",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/tshata",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/14198511?u=b3c4bd13ca9c8d6e2eb8bbac0ef3059bc1b93a32&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "Sky266",
+        "nameWithOwner": "tshata/Sky266",
+        "url": "https://github.com/tshata/Sky266",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-02-20T10:01:16Z",
+        "pushedAt": "2021-04-08T13:41:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
       "id": "U_kgDODdJSgw",
       "login": "TweetTech1",
       "name": "Thebesa Stephan Chaba",
@@ -2930,7 +3460,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "TweetTech",
@@ -2988,6 +3519,74 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjYyMzE0Mw==",
+      "login": "zumz",
+      "name": "Tsatsi Mahase",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/zumz",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/623143?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "Genetic-Algorithm",
+        "nameWithOwner": "zumz/Genetic-Algorithm",
+        "url": "https://github.com/zumz/Genetic-Algorithm",
+        "description": "This shows a simple genetic algorithm and can be further improved or used as a framework ",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-03-05T14:24:26Z",
+        "pushedAt": "2014-03-05T15:10:52Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCThGUA",
+      "login": "396Bluecrocodilestandard",
+      "name": "396Bluecrocodilestandard",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/396Bluecrocodilestandard",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/154682960?u=7b369492b16ec390e7ded4efd4c756ae8e2d72e2&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "csso",
+        "nameWithOwner": "396Bluecrocodilestandard/csso",
+        "url": "https://github.com/396Bluecrocodilestandard/csso",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-12-23T13:57:19Z",
+        "pushedAt": "2023-12-23T13:57:19Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDODB1HNA",
       "login": "AcGunship",
       "name": "Motlatsi Michael Pita",
@@ -3003,7 +3602,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "EIGRP-configuration-lab",
@@ -3177,7 +3777,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Vehicle-Identification-System",
@@ -3260,6 +3861,42 @@
         "isFork": false,
         "createdAt": "2024-05-02T16:16:14Z",
         "pushedAt": "2024-05-02T16:26:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOC1_gow",
+      "login": "bafokengBaffy",
+      "name": "Bafokeng Khoali",
+      "type": "User",
+      "location": "Lesotho ,Maseru",
+      "url": "https://github.com/bafokengBaffy",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/190832803?u=18fb6e826c0c610237aaf232c40d1ac6cd1a5f15&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Lesotho"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "caresync-medcare-backend",
+        "nameWithOwner": "bafokengBaffy/caresync-medcare-backend",
+        "url": "https://github.com/bafokengBaffy/caresync-medcare-backend",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-26T01:16:59Z",
+        "pushedAt": "2026-10-28T10:51:51Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Java"
@@ -3354,7 +3991,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "LODIIS",
@@ -3388,7 +4026,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "favorable-fishers",
@@ -3412,6 +4051,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjc3ODAyNzUy",
+      "login": "blehema",
+      "name": "Bokang Lehema",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/blehema",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/77802752?u=ccc5245cdde95913aa27bc9e8902b4e37c7820b8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "HelloWorld",
+        "nameWithOwner": "blehema/HelloWorld",
+        "url": "https://github.com/blehema/HelloWorld",
+        "description": "Lininking pre-existing HelloWorld project to the Github",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-01-31T18:17:41Z",
+        "pushedAt": "2021-01-31T18:17:42Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCXHlCA",
       "login": "BlueHatThebe",
       "name": "Thebe Nkhasi ",
@@ -3427,7 +4100,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "COMPLAINTs-BOX-Prototype",
@@ -3463,7 +4137,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "LucaBets",
@@ -3556,6 +4231,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjgxODgyOA==",
+      "login": "bonzysalesman",
+      "name": "Bonzy Salesman",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/bonzysalesman",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/818828?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "puo-ai",
+        "nameWithOwner": "bonzysalesman/puo-ai",
+        "url": "https://github.com/bonzysalesman/puo-ai",
+        "description": "PUO.ai is a Sesotho language NLP project that builds foundational models and datatsets.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-02T14:42:14Z",
+        "pushedAt": "2026-06-23T06:56:52Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE4NjQzNjQ3",
       "login": "boocha34",
       "name": "Thabo Maqelepo",
@@ -3605,7 +4316,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "eAuction",
@@ -3673,7 +4385,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "adminstudentportal",
@@ -3709,7 +4422,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "hareeng-web",
@@ -4029,7 +4743,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Beckham",
@@ -4120,6 +4835,42 @@
       }
     },
     {
+      "id": "U_kgDOCIve4w",
+      "login": "Daexo-coder",
+      "name": "Monehela Lichaba ",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/Daexo-coder",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/143384291?u=ecc9d7b8d27231ad2bab017106570482591efa7c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "softwaretesting",
+        "nameWithOwner": "Daexo-coder/softwaretesting",
+        "url": "https://github.com/Daexo-coder/softwaretesting",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-06-04T18:09:39Z",
+        "pushedAt": "2026-06-08T05:54:27Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjg0OTMzMzU0",
       "login": "DevLereko",
       "name": "Lereko Foloko",
@@ -4135,7 +4886,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "msc-dissertation",
@@ -4147,7 +4899,7 @@
         "isArchived": false,
         "isFork": false,
         "createdAt": "2026-10-05T16:49:43Z",
-        "pushedAt": "2026-10-05T17:18:03Z",
+        "pushedAt": "2026-10-19T21:18:32Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Python"
@@ -4208,7 +4960,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "SAGE-POND-Landing-Page",
@@ -4386,7 +5139,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "whiteBoard",
@@ -4472,6 +5226,40 @@
         "createdAt": "2024-09-12T09:47:04Z",
         "pushedAt": "2024-09-12T11:34:10Z",
         "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCzCuAA",
+      "login": "Fadah20233",
+      "name": "Fadah 20233",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/Fadah20233",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/187739648?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "Fadah20233",
+        "nameWithOwner": "Fadah20233/Fadah20233",
+        "url": "https://github.com/Fadah20233/Fadah20233",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-11-08T08:19:35Z",
+        "pushedAt": "2024-11-08T08:41:33Z",
+        "homepageUrl": "https://github.com/Fadah20233",
         "primaryLanguage": null,
         "licenseInfo": null
       }
@@ -4628,7 +5416,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Katmahn-Cody",
@@ -4918,7 +5707,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "ithabeleng.github.io",
@@ -5027,7 +5817,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "rentnshare",
@@ -5167,7 +5958,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Helping-hand-donation-web-app",
@@ -5201,19 +5993,20 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
-        "name": "lifeimprovement",
-        "nameWithOwner": "Joseph-ZAR/lifeimprovement",
-        "url": "https://github.com/Joseph-ZAR/lifeimprovement",
-        "description": "Life Improvement Foundation Lesotho",
+        "name": "besa-car-wash-system",
+        "nameWithOwner": "Joseph-ZAR/besa-car-wash-system",
+        "url": "https://github.com/Joseph-ZAR/besa-car-wash-system",
+        "description": "Besa Car Wash System",
         "stargazerCount": 0,
         "forkCount": 0,
         "isArchived": false,
         "isFork": false,
-        "createdAt": "2026-10-05T09:42:12Z",
-        "pushedAt": "2026-10-05T09:42:14Z",
+        "createdAt": "2026-10-17T10:52:46Z",
+        "pushedAt": "2026-10-17T11:18:34Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -5271,23 +6064,58 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
-        "name": "justslick_web",
-        "nameWithOwner": "justslick23/justslick_web",
-        "url": "https://github.com/justslick23/justslick_web",
-        "description": "Official Website for Just Slick",
+        "name": "expense-tracker",
+        "nameWithOwner": "justslick23/expense-tracker",
+        "url": "https://github.com/justslick23/expense-tracker",
+        "description": null,
         "stargazerCount": 0,
         "forkCount": 0,
         "isArchived": false,
         "isFork": false,
-        "createdAt": "2026-10-05T12:44:48Z",
-        "pushedAt": "2026-10-05T13:45:13Z",
+        "createdAt": "2026-10-11T08:33:12Z",
+        "pushedAt": "2026-10-11T09:28:58Z",
         "homepageUrl": null,
         "primaryLanguage": {
-          "name": "Blade"
+          "name": "PHP"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU5NzI0OTc5",
+      "login": "Kabeloqhobosheane",
+      "name": "Kabelo Qhobosheane",
+      "type": "User",
+      "location": "Maseru, Borokhoaneng",
+      "url": "https://github.com/Kabeloqhobosheane",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/59724979?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "ELS-CSPRO",
+        "nameWithOwner": "Kabeloqhobosheane/ELS-CSPRO",
+        "url": "https://github.com/Kabeloqhobosheane/ELS-CSPRO",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-10-15T17:36:15Z",
+        "pushedAt": "2025-10-15T17:36:15Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -5307,7 +6135,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Automated-Teller-Machine-system",
@@ -5343,7 +6172,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Loan_default",
@@ -5415,7 +6245,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "DataScienceEcosystem-Exercise",
@@ -5519,7 +6350,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "sql-database-pipeline",
@@ -5555,7 +6387,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "jobsadmin",
@@ -5568,6 +6401,78 @@
         "isFork": false,
         "createdAt": "2025-11-07T10:30:08Z",
         "pushedAt": "2025-11-07T14:14:49Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUxNTE0ODU5",
+      "login": "KenedyMoremi",
+      "name": "Tumisang Moremi",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/KenedyMoremi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/51514859?u=2727bf0dce7cba6fd065584a62ba80e5273c7e1a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "PCP1",
+        "nameWithOwner": "KenedyMoremi/PCP1",
+        "url": "https://github.com/KenedyMoremi/PCP1",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-24T18:06:15Z",
+        "pushedAt": "2026-08-24T18:06:22Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOB9RKIw",
+      "login": "KevinMkk",
+      "name": "Keketso Makebe",
+      "type": "User",
+      "location": "Maseru, Lesotho ",
+      "url": "https://github.com/KevinMkk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/131353123?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Lesotho"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "ECOMMERCE",
+        "nameWithOwner": "KevinMkk/ECOMMERCE",
+        "url": "https://github.com/KevinMkk/ECOMMERCE",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-29T12:37:47Z",
+        "pushedAt": "2026-06-11T18:35:35Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "JavaScript"
@@ -5591,22 +6496,23 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
-        "name": "multiplae",
-        "nameWithOwner": "kgatman/multiplae",
-        "url": "https://github.com/kgatman/multiplae",
+        "name": "dhis2-rs",
+        "nameWithOwner": "kgatman/dhis2-rs",
+        "url": "https://github.com/kgatman/dhis2-rs",
         "description": null,
         "stargazerCount": 0,
         "forkCount": 0,
         "isArchived": false,
         "isFork": false,
-        "createdAt": "2026-07-03T14:39:04Z",
-        "pushedAt": "2026-07-03T17:39:21Z",
+        "createdAt": "2026-10-15T11:46:48Z",
+        "pushedAt": "2026-10-16T04:52:53Z",
         "homepageUrl": null,
         "primaryLanguage": {
-          "name": "CSS"
+          "name": "Rust"
         },
         "licenseInfo": null
       }
@@ -5823,6 +6729,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjIzNDkzMTUy",
+      "login": "KoebeTumisang",
+      "name": "Koebe Tumisang",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/KoebeTumisang",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/23493152?u=40356054bdd10aeb39fe5e1339f42054a7fc7c8e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "employees",
+        "nameWithOwner": "KoebeTumisang/employees",
+        "url": "https://github.com/KoebeTumisang/employees",
+        "description": "employee mgmnt system",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-10-17T02:42:08Z",
+        "pushedAt": "2021-10-17T02:42:08Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCE2mCw",
       "login": "Konza83",
       "name": "Konosoang  Lephoto",
@@ -5893,6 +6833,42 @@
       }
     },
     {
+      "id": "U_kgDOEnvd7w",
+      "login": "kthatho",
+      "name": "Katiso Thatho",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/kthatho",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/310107631?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "QER_app_test",
+        "nameWithOwner": "kthatho/QER_app_test",
+        "url": "https://github.com/kthatho/QER_app_test",
+        "description": "Testing a shiny app",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-06T10:55:39Z",
+        "pushedAt": "2026-08-06T14:45:48Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "R"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjMxMDQwMDk=",
       "login": "labane",
       "name": "Labane Tšilo",
@@ -5908,7 +6884,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "php-boilerplate",
@@ -6014,27 +6991,23 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
-        "name": "go-web-server",
-        "nameWithOwner": "lebusa/go-web-server",
-        "url": "https://github.com/lebusa/go-web-server",
-        "description": "A basic go web server",
+        "name": "lebusa",
+        "nameWithOwner": "lebusa/lebusa",
+        "url": "https://github.com/lebusa/lebusa",
+        "description": "My customized GitHub profile",
         "stargazerCount": 0,
         "forkCount": 0,
         "isArchived": false,
         "isFork": false,
-        "createdAt": "2023-03-13T09:29:41Z",
-        "pushedAt": "2023-03-15T07:24:43Z",
-        "homepageUrl": "",
-        "primaryLanguage": {
-          "name": "Go"
-        },
-        "licenseInfo": {
-          "name": "MIT License",
-          "spdxId": "MIT"
-        }
+        "createdAt": "2021-09-02T04:07:23Z",
+        "pushedAt": "2026-08-07T22:51:38Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
       }
     },
     {
@@ -6087,7 +7060,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "HTTPS-server",
@@ -6103,6 +7077,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "C"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg3Mzk4MTI2",
+      "login": "Lemohang",
+      "name": "Lemohang57",
+      "type": "User",
+      "location": "Maseru ",
+      "url": "https://github.com/Lemohang",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/87398126?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "TRC_Voting_Poll",
+        "nameWithOwner": "Lemohang/TRC_Voting_Poll",
+        "url": "https://github.com/Lemohang/TRC_Voting_Poll",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-14T21:05:12Z",
+        "pushedAt": "2026-10-15T11:34:08Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
         },
         "licenseInfo": null
       }
@@ -6232,7 +7242,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "My-1st-Project",
@@ -6497,6 +7508,42 @@
       }
     },
     {
+      "id": "U_kgDOBksv6w",
+      "login": "Litebo",
+      "name": "Liteboho Moeketse ",
+      "type": "User",
+      "location": "Maseru ",
+      "url": "https://github.com/Litebo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/105590763?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "Onfon-Training",
+        "nameWithOwner": "Litebo/Onfon-Training",
+        "url": "https://github.com/Litebo/Onfon-Training",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-07-23T13:06:43Z",
+        "pushedAt": "2024-08-03T12:59:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE4Njk2MDMw",
       "login": "Lithoko",
       "name": "Lithoko",
@@ -6546,7 +7593,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "certifications",
@@ -6583,7 +7631,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "datasciencecoursera",
@@ -6653,7 +7702,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "c-pay",
@@ -6669,6 +7719,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMxMzEzNzQx",
+      "login": "Lovemakery",
+      "name": "Fusi Motoboli",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/Lovemakery",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/31313741?u=539450d663d297d4219d81902e5ffe9ae47edbb0&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "motivational-speech-html-css",
+        "nameWithOwner": "Lovemakery/motivational-speech-html-css",
+        "url": "https://github.com/Lovemakery/motivational-speech-html-css",
+        "description": "A motivational speech app with a simple user interface.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-12-19T17:09:18Z",
+        "pushedAt": "2024-12-19T17:48:22Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
         },
         "licenseInfo": null
       }
@@ -6901,7 +7987,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "CAR-HUB",
@@ -6973,7 +8060,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Khuboni",
@@ -7007,22 +8095,23 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
-        "name": "Express_Movie_App",
-        "nameWithOwner": "Mampheteng/Express_Movie_App",
-        "url": "https://github.com/Mampheteng/Express_Movie_App",
+        "name": "holbertonschool-low_level_programming",
+        "nameWithOwner": "Mampheteng/holbertonschool-low_level_programming",
+        "url": "https://github.com/Mampheteng/holbertonschool-low_level_programming",
         "description": null,
         "stargazerCount": 0,
         "forkCount": 0,
         "isArchived": false,
         "isFork": false,
-        "createdAt": "2026-08-24T12:48:10Z",
-        "pushedAt": "2026-08-24T13:52:30Z",
+        "createdAt": "2026-10-29T08:54:57Z",
+        "pushedAt": "2026-10-29T13:20:46Z",
         "homepageUrl": null,
         "primaryLanguage": {
-          "name": "JavaScript"
+          "name": "C"
         },
         "licenseInfo": null
       }
@@ -7149,7 +8238,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "prisma-crash-course",
@@ -7188,7 +8278,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "2018",
@@ -7398,7 +8489,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "myportfolio",
@@ -7570,7 +8662,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "ChimhauApp",
@@ -7677,7 +8770,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "php-jquery-bootstrap-mysql",
@@ -7789,7 +8883,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "mcjockey",
@@ -8031,6 +9126,42 @@
       }
     },
     {
+      "id": "U_kgDOCW0uzA",
+      "login": "Molise-N",
+      "name": "Molise Ntlhoki",
+      "type": "User",
+      "location": "Maseru, Ha Thetsane",
+      "url": "https://github.com/Molise-N",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/158150348?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "crud-app-backend",
+        "nameWithOwner": "Molise-N/crud-app-backend",
+        "url": "https://github.com/Molise-N/crud-app-backend",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-09-13T21:16:09Z",
+        "pushedAt": "2025-09-13T21:33:09Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjM3MDIzNDAx",
       "login": "monaheng101",
       "name": "Monaheng",
@@ -8046,23 +9177,61 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
-        "name": "HealthPros",
-        "nameWithOwner": "monaheng101/HealthPros",
-        "url": "https://github.com/monaheng101/HealthPros",
+        "name": "african-recipes-app",
+        "nameWithOwner": "monaheng101/african-recipes-app",
+        "url": "https://github.com/monaheng101/african-recipes-app",
         "description": null,
         "stargazerCount": 0,
         "forkCount": 0,
         "isArchived": false,
         "isFork": false,
-        "createdAt": "2026-02-05T20:08:48Z",
-        "pushedAt": "2026-03-09T17:59:57Z",
+        "createdAt": "2026-10-06T09:34:48Z",
+        "pushedAt": "2026-10-20T21:00:31Z",
         "homepageUrl": null,
         "primaryLanguage": {
-          "name": "JavaScript"
+          "name": "TypeScript"
         },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM4MTMxNzUy",
+      "login": "MontsoMatlaletsa",
+      "name": "MontsoMatlaletsa",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/MontsoMatlaletsa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/38131752?u=8ed9c45df7f3df19130468b968c2d76464a94709&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "Website-Bookmarker",
+        "nameWithOwner": "MontsoMatlaletsa/Website-Bookmarker",
+        "url": "https://github.com/MontsoMatlaletsa/Website-Bookmarker",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-07-18T07:02:55Z",
+        "pushedAt": "2020-03-13T19:38:05Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -8106,6 +9275,42 @@
       }
     },
     {
+      "id": "U_kgDOChThxA",
+      "login": "Morisky1234",
+      "name": null,
+      "type": "User",
+      "location": "Maseru ",
+      "url": "https://github.com/Morisky1234",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/169140676?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "Morapeli-final",
+        "nameWithOwner": "Morisky1234/Morapeli-final",
+        "url": "https://github.com/Morisky1234/Morapeli-final",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-19T13:06:09Z",
+        "pushedAt": "2024-09-19T13:06:32Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCil3wQ",
       "login": "moshoeshoeletsie",
       "name": null,
@@ -8121,7 +9326,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Give-A-Credit-or-Not",
@@ -8193,7 +9399,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Lesotho-Tourism-Web",
@@ -8403,7 +9610,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "cloud-devops-portfolio",
@@ -8437,7 +9645,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "airhunt",
@@ -8543,7 +9752,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "VehicleIdentificationSystem",
@@ -8616,7 +9826,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "PerBranch",
@@ -8684,7 +9895,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "MUZA-GFXKL-STRATEGY-",
@@ -8718,7 +9930,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "chis_release",
@@ -9067,7 +10280,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "SimplePayslipCalculator",
@@ -9212,7 +10426,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Linareng",
@@ -9248,7 +10463,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "testing",
@@ -9263,6 +10479,42 @@
         "pushedAt": "2019-02-22T09:16:59Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc5MDYzNjgw",
+      "login": "nonstop13",
+      "name": "m0r4p3l1",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/nonstop13",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/79063680?u=c2956640574e6a2742b420b8bb29819e559b7189&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "DarkMode-Media-Player-",
+        "nameWithOwner": "nonstop13/DarkMode-Media-Player-",
+        "url": "https://github.com/nonstop13/DarkMode-Media-Player-",
+        "description": "This Java Application plays Media files",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-04-27T12:22:46Z",
+        "pushedAt": "2023-04-27T13:33:53Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
         "licenseInfo": null
       }
     },
@@ -9316,7 +10568,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "CLUB-CONNECT-JAVA",
@@ -9422,7 +10675,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Portfilio",
@@ -9456,7 +10710,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Sesotho-Baseline-Language-Model",
@@ -9568,7 +10823,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "onielphoole.github.io",
@@ -9602,7 +10858,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "backend",
@@ -9945,6 +11202,112 @@
       }
     },
     {
+      "id": "U_kgDODUn3Bw",
+      "login": "Pletsie",
+      "name": "Puleng",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/Pletsie",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/222951175?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "OddEvenChecher",
+        "nameWithOwner": "Pletsie/OddEvenChecher",
+        "url": "https://github.com/Pletsie/OddEvenChecher",
+        "description": "checks if number is odd or even",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-08-24T16:31:42Z",
+        "pushedAt": "2025-08-24T17:04:43Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBiSaYQ",
+      "login": "PosholiMoyeni",
+      "name": "Posholi Moyeni",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/PosholiMoyeni",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/103062113?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "group-assignment",
+        "nameWithOwner": "PosholiMoyeni/group-assignment",
+        "url": "https://github.com/PosholiMoyeni/group-assignment",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-06-26T12:56:22Z",
+        "pushedAt": "2023-06-26T13:00:57Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY3MzI2NTkw",
+      "login": "Potsane97",
+      "name": "Meshaka Potsane",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/Potsane97",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/67326590?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "Discover-Lesotho",
+        "nameWithOwner": "Potsane97/Discover-Lesotho",
+        "url": "https://github.com/Potsane97/Discover-Lesotho",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-11-05T05:23:45Z",
+        "pushedAt": "2025-11-05T05:23:45Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCwdf4g",
       "login": "PrimordialFire",
       "name": "Primordial Fire",
@@ -9960,7 +11323,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Schools-Only",
@@ -9996,7 +11360,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "pw",
@@ -10136,7 +11501,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "AngularJS",
@@ -10211,7 +11577,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "GroupAssignment",
@@ -10245,7 +11612,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Binary-Bosses",
@@ -10279,7 +11647,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "RantshoCharlie",
@@ -10343,7 +11712,7 @@
       "type": "User",
       "location": "Maseru Lesotho",
       "url": "https://github.com/Reatile98",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/151405471?u=995c8638ff31ea12e352b60c4307c40e489650ca&v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/151405471?u=d36e2d4fae9fd6eba9bc880486f62161faabbfd1&v=4",
       "attribution": {
         "accepted": true,
         "countryCode": "LS",
@@ -10352,7 +11721,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Enumeration-exam",
@@ -10373,6 +11743,42 @@
       }
     },
     {
+      "id": "U_kgDOBf7w9g",
+      "login": "Relebo1",
+      "name": "Relebohile Sekutlu",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/Relebo1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/100593910?u=8e89164dabb2ecbf88392e30f34c08972fc0640a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "wasco-leaktrack",
+        "nameWithOwner": "Relebo1/wasco-leaktrack",
+        "url": "https://github.com/Relebo1/wasco-leaktrack",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-27T02:55:16Z",
+        "pushedAt": "2026-10-05T13:51:27Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOExrEQw",
       "login": "relebohileramphene",
       "name": "Relebohile Ramphene",
@@ -10388,7 +11794,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Drip-and-Drive",
@@ -10460,7 +11867,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Cryptography",
@@ -10496,7 +11904,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Fomooo",
@@ -10592,6 +12001,81 @@
       }
     },
     {
+      "id": "U_kgDOEDNoKg",
+      "login": "Riity",
+      "name": "riity.101 ",
+      "type": "User",
+      "location": "Maseru ",
+      "url": "https://github.com/Riity",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/271804458?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "Lefa-car-dealership",
+        "nameWithOwner": "Riity/Lefa-car-dealership",
+        "url": "https://github.com/Riity/Lefa-car-dealership",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-30T11:20:38Z",
+        "pushedAt": "2026-04-30T11:39:36Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODYOaHQ",
+      "login": "Rorisang-Molapo",
+      "name": "Isaac",
+      "type": "User",
+      "location": "Maseru Lesotho",
+      "url": "https://github.com/Rorisang-Molapo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/226728477?u=b4a78f9bbd449641eeb4e923818253a2658b6b88&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Lesotho"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "Media-player-",
+        "nameWithOwner": "Rorisang-Molapo/Media-player-",
+        "url": "https://github.com/Rorisang-Molapo/Media-player-",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-25T16:09:29Z",
+        "pushedAt": "2026-10-08T09:35:11Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "U_kgDODBZYlQ",
       "login": "s3ri4l0ng",
       "name": "Serialong Sebele",
@@ -10675,7 +12159,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Portfolio",
@@ -10725,6 +12210,40 @@
         "createdAt": "2020-10-09T07:16:04Z",
         "pushedAt": "2020-10-09T07:16:06Z",
         "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBo3V1g",
+      "login": "Seakhoa",
+      "name": "Baile",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/Seakhoa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/109958614?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "Seakhoa",
+        "nameWithOwner": "Seakhoa/Seakhoa",
+        "url": "https://github.com/Seakhoa/Seakhoa",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-07-25T10:53:36Z",
+        "pushedAt": "2022-07-25T10:54:18Z",
+        "homepageUrl": "https://github.com/Seakhoa",
         "primaryLanguage": null,
         "licenseInfo": null
       }
@@ -10839,6 +12358,76 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQwMTk3MzQ0",
+      "login": "secretomadanga",
+      "name": "Mpho Takalimane",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/secretomadanga",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/40197344?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "sectret-express",
+        "nameWithOwner": "secretomadanga/sectret-express",
+        "url": "https://github.com/secretomadanga/sectret-express",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-11-19T19:44:30Z",
+        "pushedAt": "2024-11-19T19:46:58Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE2MjA5MjIy",
+      "login": "seeisol",
+      "name": "Seeiso Lehlehla",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/seeisol",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16209222?u=eb3a2089192dd0d93bb544f7a33cdb7f26f4ffb3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "seeisol",
+        "nameWithOwner": "seeisol/seeisol",
+        "url": "https://github.com/seeisol/seeisol",
+        "description": "About me",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-04-28T13:49:32Z",
+        "pushedAt": "2025-04-28T14:06:08Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOEPaGng",
       "login": "Seitlheko001",
       "name": "John seitlheko",
@@ -10854,7 +12443,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Johnseitlheko",
@@ -10984,6 +12574,40 @@
       }
     },
     {
+      "id": "U_kgDOEqbe3w",
+      "login": "semamoeno2-max",
+      "name": "Sema moeno",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/semamoeno2-max",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/312925919?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "sema-moeno",
+        "nameWithOwner": "semamoeno2-max/sema-moeno",
+        "url": "https://github.com/semamoeno2-max/sema-moeno",
+        "description": "Welcome to Lesotho digital government platform",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-04T10:59:11Z",
+        "pushedAt": "2026-08-04T10:59:12Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE1MTc2MTk4",
       "login": "seshele",
       "name": "Seshele Eddie Ramaqoma",
@@ -11067,7 +12691,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "eleventy-starter-ghost",
@@ -11106,23 +12731,22 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
-        "name": "Investment",
-        "nameWithOwner": "SimonThoabaladev/Investment",
-        "url": "https://github.com/SimonThoabaladev/Investment",
-        "description": null,
+        "name": "-Civil-Registration-and-Vital-Statistics-Systems---Basic-Level---Self-Paced-CLOSE-PLAYER",
+        "nameWithOwner": "SimonThoabaladev/-Civil-Registration-and-Vital-Statistics-Systems---Basic-Level---Self-Paced-CLOSE-PLAYER",
+        "url": "https://github.com/SimonThoabaladev/-Civil-Registration-and-Vital-Statistics-Systems---Basic-Level---Self-Paced-CLOSE-PLAYER",
+        "description": " Civil Registration and Vital Statistics Systems - Basic Level - Self-Paced CLOSE PLAYER",
         "stargazerCount": 0,
-        "forkCount": 1,
+        "forkCount": 0,
         "isArchived": false,
         "isFork": false,
-        "createdAt": "2026-08-06T13:51:00Z",
-        "pushedAt": "2026-08-06T19:11:56Z",
-        "homepageUrl": "https://investment-khaki-seven.vercel.app",
-        "primaryLanguage": {
-          "name": "TypeScript"
-        },
+        "createdAt": "2026-10-21T20:15:09Z",
+        "pushedAt": "2026-10-21T20:15:10Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -11248,7 +12872,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "alx-zero_day",
@@ -11354,7 +12979,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "skybot1",
@@ -11463,7 +13089,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "technomath",
@@ -11497,7 +13124,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "nand_flash",
@@ -11603,7 +13231,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Data-Analytics-Portfolio",
@@ -11653,6 +13282,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjczMjgxMjAx",
+      "login": "ThaboBot",
+      "name": "Thabo ليكوبي",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/ThaboBot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/73281201?u=0601324fc7a7d72783c19fe10b8558a7b66e5617&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "Python",
+        "nameWithOwner": "ThaboBot/Python",
+        "url": "https://github.com/ThaboBot/Python",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-06-16T00:43:56Z",
+        "pushedAt": "2026-06-18T21:06:24Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
         },
         "licenseInfo": null
       }
@@ -11764,6 +13429,42 @@
       }
     },
     {
+      "id": "U_kgDOCby9rQ",
+      "login": "Thesele27",
+      "name": "Thesele Kabelo Csmajor",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/Thesele27",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/163364269?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "minix-arithmetic-server",
+        "nameWithOwner": "Thesele27/minix-arithmetic-server",
+        "url": "https://github.com/Thesele27/minix-arithmetic-server",
+        "description": "Operating Systems 2 lab assignment: A calculation server for MINIX 3 showcasing system calls, kernel integration, and inter-process communication.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-06-10T19:55:18Z",
+        "pushedAt": "2026-06-10T20:02:49Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBfKunA",
       "login": "thetsane",
       "name": "Morapeli Thetsane",
@@ -11815,7 +13516,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "py-api",
@@ -12156,6 +13858,40 @@
       }
     },
     {
+      "id": "U_kgDOCrsC0A",
+      "login": "Tsita689",
+      "name": "Tsita Makhele",
+      "type": "User",
+      "location": "Maseru",
+      "url": "https://github.com/Tsita689",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/180028112?u=f58eb77d3df74914f10d6406c451462c2104fe7d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "LS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "maseru"
+      },
+      "discoveryTerms": [
+        "Maseru"
+      ],
+      "topRepository": {
+        "name": "Tsita689",
+        "nameWithOwner": "Tsita689/Tsita689",
+        "url": "https://github.com/Tsita689/Tsita689",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-01T15:46:26Z",
+        "pushedAt": "2024-09-01T16:18:11Z",
+        "homepageUrl": "https://github.com/Tsita689",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI0NTI5MTE=",
       "login": "tsitso",
       "name": "Tsitso Tlali",
@@ -12207,7 +13943,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "tsitsomotsoehli.github.io",
@@ -12316,7 +14053,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Tasks-Android",
@@ -12387,7 +14125,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "circl",
@@ -12423,7 +14162,8 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
         "name": "Sundae-App",
@@ -12701,20 +14441,21 @@
         "matched": "Lesotho"
       },
       "discoveryTerms": [
-        "Lesotho"
+        "Lesotho",
+        "Maseru"
       ],
       "topRepository": {
-        "name": "Automated-Agri-drone-",
-        "nameWithOwner": "Zwane71/Automated-Agri-drone-",
-        "url": "https://github.com/Zwane71/Automated-Agri-drone-",
+        "name": "Automated-Agri-drone",
+        "nameWithOwner": "Zwane71/Automated-Agri-drone",
+        "url": "https://github.com/Zwane71/Automated-Agri-drone",
         "description": null,
         "stargazerCount": 0,
         "forkCount": 0,
         "isArchived": false,
         "isFork": false,
-        "createdAt": "2026-07-08T12:16:49Z",
-        "pushedAt": "2026-09-25T08:38:35Z",
-        "homepageUrl": "https://automated-agri-drone.vercel.app",
+        "createdAt": "2026-10-21T11:12:09Z",
+        "pushedAt": "2026-10-21T11:12:56Z",
+        "homepageUrl": null,
         "primaryLanguage": {
           "name": "TypeScript"
         },
