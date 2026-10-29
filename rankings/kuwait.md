@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 46**
 - Progress: **0%**
-- Retained high-potential owner candidates: **880**
-- Search requests completed: **24**
+- Retained high-potential owner candidates: **1,060**
+- Search requests completed: **32**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -37,8 +37,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Dreamersoul/administrate-field-active_storage](https://github.com/Dreamersoul/administrate-field-active_storage) | **170** | Kuwait |
 | [selmux/Alhasawi-ICS-OT-Security-projetcs](https://github.com/selmux/Alhasawi-ICS-OT-Security-projetcs) | **141** | Kuwait |
 | [MoathOthman/MOLH](https://github.com/MoathOthman/MOLH) | **116** | Kuwait |
+| [SuFxGIT/scoutarr](https://github.com/SuFxGIT/scoutarr) | **115** | Kuwait city |
 | [knro/indiwebmanager](https://github.com/knro/indiwebmanager) | **51** | Kuwait |
-| [abdallahelsokary/TwitterSniper](https://github.com/abdallahelsokary/TwitterSniper) | **41** | kuwait |
 
 ## Repository-first scan
 

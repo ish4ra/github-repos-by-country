@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 137**
 - Progress: **0%**
-- Retained high-potential owner candidates: **915**
-- Search requests completed: **24**
+- Retained high-potential owner candidates: **1,158**
+- Search requests completed: **32**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -31,6 +31,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [CyberLight/caninclude](https://github.com/CyberLight/caninclude) | **191** | Kyrgyzstan |
 | [spacegangster/page-renderer](https://github.com/spacegangster/page-renderer) | **117** | Kyrgyzstan |
 | [KanybekMomukeyev/FacebookChat](https://github.com/KanybekMomukeyev/FacebookChat) | **85** | Bishkek, Kyrgyzstan |
+| [4inodev/Neomorphic-FrameLayout-Android](https://github.com/4inodev/Neomorphic-FrameLayout-Android) | **75** | Bishkek, Kyrgyzstan |
 | [2bj/Phanybar](https://github.com/2bj/Phanybar) | **62** | Kyrgyzstan |
 | [xbaysal11/phish-js](https://github.com/xbaysal11/phish-js) | **61** | Bishkek, Kyrgyzstan. |
 | [temirovazat/temirovazat](https://github.com/temirovazat/temirovazat) | **39** | Bishkek, Kyrgyzstan |
@@ -38,7 +39,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [chyngyz/awesome-angular-components](https://github.com/chyngyz/awesome-angular-components) | **23** | Bishkek, Kyrgyzstan |
 | [Maksbicoin/Pdebank](https://github.com/Maksbicoin/Pdebank) | **19** | Kyrgyzstan |
 | [d010b/custom_geoip](https://github.com/d010b/custom_geoip) | **15** | Kyrgyzstan |
-| [Toktorov/telegram_bot_aiogram](https://github.com/Toktorov/telegram_bot_aiogram) | **15** | Kyrgyzstan, Bishkek |
 
 ## Repository-first scan
 

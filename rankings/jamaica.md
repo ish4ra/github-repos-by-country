@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 555**
 - Progress: **0%**
-- Retained high-potential owner candidates: **717**
-- Search requests completed: **24**
+- Retained high-potential owner candidates: **1,055**
+- Search requests completed: **32**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -36,9 +36,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [JordanMicahBennett/SMART-CT-SCAN_BASED-COVID19_VIRUS_DETECTOR](https://github.com/JordanMicahBennett/SMART-CT-SCAN_BASED-COVID19_VIRUS_DETECTOR) | **102** | Jamaica |
 | [marlonajgayle/Net6WebApiTemplate](https://github.com/marlonajgayle/Net6WebApiTemplate) | **77** | Kingston, Jamaica |
 | [JasonHinds13/hackable](https://github.com/JasonHinds13/hackable) | **73** | Jamaica |
+| [NyronW/MinimalEndpoints](https://github.com/NyronW/MinimalEndpoints) | **70** | Kingston, Jamaica |
 | [IceDragon200/oui-blendish](https://github.com/IceDragon200/oui-blendish) | **55** | Knockpatrick, Manchester, Jamaica W.I |
 | [Fortnite-API/py-wrapper](https://github.com/Fortnite-API/py-wrapper) | **42** | Jamaica |
-| [JavonDavis/Android-View-Controller](https://github.com/JavonDavis/Android-View-Controller) | **41** | Jamaica |
 
 ## Repository-first scan
 

@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 78**
 - Progress: **0%**
-- Retained high-potential owner candidates: **782**
-- Search requests completed: **24**
+- Retained high-potential owner candidates: **1,058**
+- Search requests completed: **32**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -29,16 +29,16 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [godd0t/django-docker-quickstart](https://github.com/godd0t/django-docker-quickstart) | **246** | Kosovo |
 | [amiranagram/localizator](https://github.com/amiranagram/localizator) | **245** | Prizren, Kosovo |
 | [Eltion/Facebook-SSL-Pinning-Bypass](https://github.com/Eltion/Facebook-SSL-Pinning-Bypass) | **233** | Kosovo |
+| [Jettonn/originui-vue](https://github.com/Jettonn/originui-vue) | **208** | Mitrovica, Kosovo |
 | [gentritabazi/vue-lumen-starter](https://github.com/gentritabazi/vue-lumen-starter) | **162** | Kosovo, Mitrovice |
+| [majlindavdylaj/ChatAppTutorial](https://github.com/majlindavdylaj/ChatAppTutorial) | **126** | Kosovo |
 | [amar8eka/hetzner-laravel](https://github.com/amar8eka/hetzner-laravel) | **90** | Kosovo |
 | [vjanz/python-asynchronous-tasks](https://github.com/vjanz/python-asynchronous-tasks) | **87** | Prishtina, Kosovo |
 | [ledjon-behluli/OrleanSpaces](https://github.com/ledjon-behluli/OrleanSpaces) | **69** | Kosovo |
 | [Korabi-dev/VelocityFixer](https://github.com/Korabi-dev/VelocityFixer) | **64** | Gjilan, Kosovo. |
+| [fiskryeziu/zoroClone](https://github.com/fiskryeziu/zoroClone) | **56** | Prizren, Kosovo |
 | [altinthaqi/next-elysia-template](https://github.com/altinthaqi/next-elysia-template) | **55** | Kosovo |
 | [edongashi/WpfMaterialForms](https://github.com/edongashi/WpfMaterialForms) | **52** | Kosovo |
-| [BetimShala/quran-images-api](https://github.com/BetimShala/quran-images-api) | **50** | Kosovo |
-| [egzonpllana/interactive-image-view-ios](https://github.com/egzonpllana/interactive-image-view-ios) | **49** | Prishtina, Kosovo |
-| [omermaksutii/mnemo](https://github.com/omermaksutii/mnemo) | **44** | Kosovo |
 
 ## Repository-first scan
 
