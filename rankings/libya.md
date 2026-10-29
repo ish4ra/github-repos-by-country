@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 162**
 - Progress: **0%**
-- Retained high-potential owner candidates: **814**
-- Search requests completed: **28**
+- Retained high-potential owner candidates: **1,053**
+- Search requests completed: **36**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,21 +24,21 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [mohn93/AdvancedPageControl](https://github.com/mohn93/AdvancedPageControl) | **654** | Libya |
+| [mohn93/AdvancedPageControl](https://github.com/mohn93/AdvancedPageControl) | **657** | Libya |
 | [tahaak67/Farhan](https://github.com/tahaak67/Farhan) | **214** | Libya |
 | [absholi7ly/POC-CVE-2025-24813](https://github.com/absholi7ly/POC-CVE-2025-24813) | **197** | Libya |
-| [qw46478/BlackHacker](https://github.com/qw46478/BlackHacker) | **143** | Libya |
+| [qw46478/BlackHacker](https://github.com/qw46478/BlackHacker) | **144** | Libya |
+| [ItsSp00ky/pdf_enhancer](https://github.com/ItsSp00ky/pdf_enhancer) | **75** | Tripoli, Libya |
+| [omsharp/BetterComments](https://github.com/omsharp/BetterComments) | **70** | Tripoli, Libya |
 | [mared4reall/Floating-Context-Panels](https://github.com/mared4reall/Floating-Context-Panels) | **68** | Ghat, Libya |
+| [IMYdev/OpenFPS](https://github.com/IMYdev/OpenFPS) | **64** | Libya |
+| [almontasser/crust](https://github.com/almontasser/crust) | **57** | Misurata, Libya |
 | [Mahamed-Belkheir/qufl](https://github.com/Mahamed-Belkheir/qufl) | **53** | Libya, Benghazi |
-| [torgodly/Html2Media](https://github.com/torgodly/Html2Media) | **48** | libya |
+| [torgodly/Html2Media](https://github.com/torgodly/Html2Media) | **49** | libya |
 | [iskaa02/qalam](https://github.com/iskaa02/qalam) | **46** | Libya |
-| [KhawlahElshah/dynamic-relations-includes](https://github.com/KhawlahElshah/dynamic-relations-includes) | **28** | Tripoli, Libya |
-| [3shadow7/BestName](https://github.com/3shadow7/BestName) | **21** | libya - AL Zawia |
-| [attayeb/snaq](https://github.com/attayeb/snaq) | **20** | Zliten, Libya |
-| [BllurryDev/FreeFire-PubgMobile-Source-Code](https://github.com/BllurryDev/FreeFire-PubgMobile-Source-Code) | **20** | Libya, Tripoli |
-| [devjustly/en_ar_dict](https://github.com/devjustly/en_ar_dict) | **17** | Libya |
-| [Monther-bug/web_project](https://github.com/Monther-bug/web_project) | **14** | Libya |
-| [ehabyahia/MT4-Martingale-Bot-With-Reinforcement-Learning](https://github.com/ehabyahia/MT4-Martingale-Bot-With-Reinforcement-Learning) | **13** | Tripoli, Libya |
+| [alti3/stk-mcp](https://github.com/alti3/stk-mcp) | **43** | Tripoli, Libya |
+| [sdekna/svelte-capacitor-store](https://github.com/sdekna/svelte-capacitor-store) | **38** | Janzur, Libya |
+| [mamon-aburawi/Table-KMP](https://github.com/mamon-aburawi/Table-KMP) | **35** | Libya |
 
 ## Repository-first scan
 

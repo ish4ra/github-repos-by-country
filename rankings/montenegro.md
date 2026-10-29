@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 97**
 - Progress: **0%**
-- Retained high-potential owner candidates: **681**
-- Search requests completed: **24**
+- Retained high-potential owner candidates: **997**
+- Search requests completed: **32**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -31,6 +31,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [QuasarApp/CQtDeployer](https://github.com/QuasarApp/CQtDeployer) | **652** | Montenegro |
 | [olegkoval/magento2-regenerate_url_rewrites](https://github.com/olegkoval/magento2-regenerate_url_rewrites) | **444** | Bar, Montenegro |
 | [kostafey/ejc-sql](https://github.com/kostafey/ejc-sql) | **321** | Podgorica, Montenegro |
+| [raycastly/texture-ripper](https://github.com/raycastly/texture-ripper) | **307** | Bar, Montenegro |
 | [M1ck0/adskipper-extension](https://github.com/M1ck0/adskipper-extension) | **229** | Podgorica, Montenegro |
 | [vladignatyev/crx-extractor](https://github.com/vladignatyev/crx-extractor) | **229** | Montenegro |
 | [mladenrakonjac/ModernAndroidApp](https://github.com/mladenrakonjac/ModernAndroidApp) | **203** | Montenegro |
@@ -38,7 +39,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [hedza06/spring-boot-otp](https://github.com/hedza06/spring-boot-otp) | **116** | Montenegro, Podgorica |
 | [ivanderbu2/angular-redux](https://github.com/ivanderbu2/angular-redux) | **104** | Montenegro |
 | [mikha-dev/mt4-websockets](https://github.com/mikha-dev/mt4-websockets) | **100** | Montenegro |
-| [alekspetrov/mcp-docs-service](https://github.com/alekspetrov/mcp-docs-service) | **58** | Montenegro, Podgorica |
 
 ## Repository-first scan
 

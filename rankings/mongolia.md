@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 322**
 - Progress: **0%**
-- Retained high-potential owner candidates: **805**
-- Search requests completed: **24**
+- Retained high-potential owner candidates: **1,049**
+- Search requests completed: **32**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -34,11 +34,11 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [doljko/ToDay](https://github.com/doljko/ToDay) | **36** | Ulaanbaatar, Mongolia |
 | [sharavsambuu/mongolian-text-classification](https://github.com/sharavsambuu/mongolian-text-classification) | **32** | Khuvsgul, Mongolia |
 | [hurelhuyag/ebarimt](https://github.com/hurelhuyag/ebarimt) | **26** | Mongolia |
+| [Pekly/modern-html5-music-player](https://github.com/Pekly/modern-html5-music-player) | **26** | Ulaanbaatar, Mongolia |
 | [vonqo/gestalt](https://github.com/vonqo/gestalt) | **22** | Ulaanbaatar, Mongolia |
 | [kyuna0312/dotfiles](https://github.com/kyuna0312/dotfiles) | **17** | Mongolia |
 | [Ankhbayar/monxansh](https://github.com/Ankhbayar/monxansh) | **15** | Mongolia |
 | [biligunb/qplugin](https://github.com/biligunb/qplugin) | **15** | Mongolia |
-| [khaschuluu/NodeChat](https://github.com/khaschuluu/NodeChat) | **14** | Ulaanbaatar, Mongolia |
 
 ## Repository-first scan
 

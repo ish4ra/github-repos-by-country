@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 87**
 - Progress: **0%**
-- Retained high-potential owner candidates: **694**
-- Search requests completed: **24**
+- Retained high-potential owner candidates: **1,024**
+- Search requests completed: **32**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -30,14 +30,14 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Bright-Phiri/JavaFX-Library-Management-Information-System](https://github.com/Bright-Phiri/JavaFX-Library-Management-Information-System) | **29** | Lilongwe, Malawi |
 | [ACT91/My-Portfolio](https://github.com/ACT91/My-Portfolio) | **25** | Blantyre , Malawi |
 | [StevenKamwaza/weather-staion-iot](https://github.com/StevenKamwaza/weather-staion-iot) | **21** |  Malawi |
+| [doreanbyte/katswiri](https://github.com/doreanbyte/katswiri) | **17** | Blantyre, Malawi |
 | [PreciousNyasulu/malawi-country-data](https://github.com/PreciousNyasulu/malawi-country-data) | **15** | Blantyre, Malawi |
 | [Cyber-prince-k/queue-management-system](https://github.com/Cyber-prince-k/queue-management-system) | **12** | Malawi |
 | [Kakoko/MovieManagementDemoCQRS](https://github.com/Kakoko/MovieManagementDemoCQRS) | **12** | Lilongwe, Malawi |
+| [RedsonNgwira/sonder](https://github.com/RedsonNgwira/sonder) | **11** | Malawi |
 | [melodykellys/melodykellys](https://github.com/melodykellys/melodykellys) | **9** | Lilongwe Malawi |
 | [inno-waluza/OllamaChat](https://github.com/inno-waluza/OllamaChat) | **7** | Blantrye, Malawi |
 | [stanulilic/markdown-editor](https://github.com/stanulilic/markdown-editor) | **7** | Zomba, Malawi |
 | [TgkCapture/RepoMaster](https://github.com/TgkCapture/RepoMaster) | **7** | Blantyre, Malawi. |
-| [Cod3ddy/sanja](https://github.com/Cod3ddy/sanja) | **6** | Mzuzu Malawi |
-| [nbolok-code/Python-Backend-Api](https://github.com/nbolok-code/Python-Backend-Api) | **6** | Malawi  |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

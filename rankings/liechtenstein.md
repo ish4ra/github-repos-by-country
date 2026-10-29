@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 58%
+## Repository ranking status: Building 82%
 
-- Geography terms processed: **17 / 29**
-- Progress: **58%**
-- Retained high-potential owner candidates: **191**
-- Search requests completed: **24**
+- Geography terms processed: **24 / 29**
+- Progress: **82%**
+- Retained high-potential owner candidates: **207**
+- Search requests completed: **32**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -29,6 +29,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ParetoSecurity/pareto-mac](https://github.com/ParetoSecurity/pareto-mac) | **458** | Liechtenstein |
 | [byteball/obyte-gui-wallet](https://github.com/byteball/obyte-gui-wallet) | **429** | Liechtenstein |
 | [danheron/Heron.MudCalendar](https://github.com/danheron/Heron.MudCalendar) | **332** | Liechtenstein |
+| [TOLDOTECHNIK/buildroot-webkit](https://github.com/TOLDOTECHNIK/buildroot-webkit) | **265** | Vaduz |
 | [Hilti-Research/hilti-trimble-slam-challenge-2026](https://github.com/Hilti-Research/hilti-trimble-slam-challenge-2026) | **209** | Liechtenstein |
 | [vodtv/api](https://github.com/vodtv/api) | **161** | Liechtenstein |
 | [niklasfrick/spark-dashboard](https://github.com/niklasfrick/spark-dashboard) | **129** | Liechtenstein |
@@ -38,7 +39,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [oscardvs/zoteus](https://github.com/oscardvs/zoteus) | **53** | Liechtenstein |
 | [ixofoundation/ixo-blockchain](https://github.com/ixofoundation/ixo-blockchain) | **44** | Liechtenstein |
 | [ixoworld/bonds](https://github.com/ixoworld/bonds) | **41** | Liechtenstein |
-| [pitschr/knx-core](https://github.com/pitschr/knx-core) | **38** | Liechtenstein |
 
 ## Repository-first scan
 
