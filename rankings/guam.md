@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 35%
+## Repository ranking status: Building 49%
 
-- Geography terms processed: **20 / 57**
-- Progress: **35%**
-- Retained high-potential owner candidates: **104**
-- Search requests completed: **24**
+- Geography terms processed: **28 / 57**
+- Progress: **49%**
+- Retained high-potential owner candidates: **105**
+- Search requests completed: **32**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -35,9 +35,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Chovin/VEDA-Notes](https://github.com/Chovin/VEDA-Notes) | **2** | Guam |
 | [cshellz/brain-party](https://github.com/cshellz/brain-party) | **2** | Marianas Trench, Guam |
 | [cthulhu-uu/pwnagotchi-leds](https://github.com/cthulhu-uu/pwnagotchi-leds) | **2** | Tamuning, Guam |
+| [GregoryRHart/Population_Dynamics](https://github.com/GregoryRHart/Population_Dynamics) | **2** | Mangilao, GU |
 | [AlfredoLondono/Snake](https://github.com/AlfredoLondono/Snake) | **1** | Guam |
 | [AnT1nG-Organization/animated-octo-Alyssa-](https://github.com/AnT1nG-Organization/animated-octo-Alyssa-) | **1** | Guam |
 | [audradarty/MusicBot](https://github.com/audradarty/MusicBot) | **1** | Guam (GU) |
-| [dannikate/tethysapp-nitrates](https://github.com/dannikate/tethysapp-nitrates) | **1** | Guam |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

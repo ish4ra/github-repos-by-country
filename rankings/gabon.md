@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 27%
+## Repository ranking status: Building 35%
 
-- Geography terms processed: **17 / 62**
-- Progress: **27%**
-- Retained high-potential owner candidates: **277**
-- Search requests completed: **24**
+- Geography terms processed: **22 / 62**
+- Progress: **35%**
+- Retained high-potential owner candidates: **331**
+- Search requests completed: **32**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -31,14 +31,14 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [bangaromaric/spring-ai](https://github.com/bangaromaric/spring-ai) | **5** | Libreville, Gabon |
 | [Ggboykxz/APEX](https://github.com/Ggboykxz/APEX) | **5** | Gabon |
 | [maestrodimateo/simple-rabbitmq](https://github.com/maestrodimateo/simple-rabbitmq) | **5** | Gabon / Libreville |
-| [mendoc/smsforwarder](https://github.com/mendoc/smsforwarder) | **4** | Libreville, Gabon |
+| [MelSardes/codee](https://github.com/MelSardes/codee) | **5** | Libreville |
+| [mendoc/smsforwarder](https://github.com/mendoc/smsforwarder) | **5** | Libreville, Gabon |
 | [abdoulayedong/Netflix](https://github.com/abdoulayedong/Netflix) | **3** | Libreville, Gabon |
 | [itzune/futo-basque](https://github.com/itzune/futo-basque) | **3** | Gabon |
+| [mawuva/keyblog](https://github.com/mawuva/keyblog) | **3** | Libreville, Lomé |
+| [SlymDev/PlayingWithAnimation](https://github.com/SlymDev/PlayingWithAnimation) | **3** | Libreville |
 | [Wazestudio/vps-control](https://github.com/Wazestudio/vps-control) | **3** | Gabon |
-| [Djomab/alx-higher_level_programming](https://github.com/Djomab/alx-higher_level_programming) | **2** | Gabon |
-| [esperanceengineer/React_native_maintenance](https://github.com/esperanceengineer/React_native_maintenance) | **2** | Libreville, Gabon |
-| [hamiltondarryl/leginorme](https://github.com/hamiltondarryl/leginorme) | **2** | Libreville, Gabon |
-| [jealife/MecaDom-plus](https://github.com/jealife/MecaDom-plus) | **2** | Gabon |
+| [deis241/devopsscripts](https://github.com/deis241/devopsscripts) | **2** | Libreville |
 
 ## Repository-first scan
 
