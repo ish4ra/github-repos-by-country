@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 205**
 - Progress: **0%**
-- Retained high-potential owner candidates: **1,004**
-- Search requests completed: **24**
+- Retained high-potential owner candidates: **1,275**
+- Search requests completed: **32**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -36,9 +36,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [KevRojo/Dulus](https://github.com/KevRojo/Dulus) | **124** | Dominican Republic |
 | [luismts/ValidationRulesPlugin](https://github.com/luismts/ValidationRulesPlugin) | **67** | Dominican Republic |
 | [Jadhielv/ITL](https://github.com/Jadhielv/ITL) | **66** | Dominican Republic |
+| [ricardo-rod/sdd-engram-plugin](https://github.com/ricardo-rod/sdd-engram-plugin) | **65** | Dominican Republic |
 | [itsalb3rt/savycart-app](https://github.com/itsalb3rt/savycart-app) | **55** | Santiago,Dominican Republic |
 | [DannyFeliz/Datos-Rep-Dom](https://github.com/DannyFeliz/Datos-Rep-Dom) | **52** | Santo Domingo, Dominican Republic |
-| [GlitchyPSIX/VEGASRPC](https://github.com/GlitchyPSIX/VEGASRPC) | **51** | Dominican Republic |
 
 ## Repository-first scan
 

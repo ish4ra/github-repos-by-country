@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 33%
+## Repository ranking status: Building 49%
 
-- Geography terms processed: **17 / 51**
-- Progress: **33%**
-- Retained high-potential owner candidates: **153**
-- Search requests completed: **24**
+- Geography terms processed: **25 / 51**
+- Progress: **49%**
+- Retained high-potential owner candidates: **155**
+- Search requests completed: **32**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.

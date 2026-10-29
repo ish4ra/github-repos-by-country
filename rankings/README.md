@@ -66,25 +66,25 @@ Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a co
 | 🇨🇾 **Cyprus** | `CY` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./cyprus.md) | 100 | 16 Oct 2026, 23:48 UTC |
 | 🇨🇿 **Czechia** | `CZ` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./czechia.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇩🇰 **Denmark** | `DK` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./denmark.md) | 100 | 17 Oct 2026, 01:38 UTC |
-| 🇩🇯 **Djibouti** | `DJ` | 🟡 Building 33% | [Open country page](./djibouti.md) | — | 25 Oct 2026, 16:34 UTC |
+| 🇩🇯 **Djibouti** | `DJ` | 🟡 Building 49% | [Open country page](./djibouti.md) | — | 28 Oct 2026, 22:42 UTC |
 | 🇩🇲 **Dominica** | `DM` | Completed | [Open country page](./dominica.md) | — | 25 Oct 2026, 16:34 UTC |
 | 🇩🇴 **Dominican Republic** | `DO` | 🟡 Building 0% | [Open country page](./dominican-republic.md) | — | 16 Oct 2026, 21:29 UTC |
-| 🇨🇩 **DR Congo** | `CD` | 🟡 Building 3% | [Open country page](./dr-congo.md) | — | 15 Oct 2026, 00:42 UTC |
+| 🇨🇩 **DR Congo** | `CD` | 🟡 Building 8% | [Open country page](./dr-congo.md) | — | 15 Oct 2026, 00:42 UTC |
 | 🇪🇨 **Ecuador** | `EC` | 🟡 Building 0% | [Open country page](./ecuador.md) | — | 16 Oct 2026, 23:48 UTC |
 | 🇪🇬 **Egypt** | `EG` | 🟡 Building 0% | [Open country page](./egypt.md) | — | 16 Oct 2026, 21:29 UTC |
 | 🇸🇻 **El Salvador** | `SV` | 🟡 Building 0% | [Open country page](./el-salvador.md) | — | 05 Oct 2026, 06:20 UTC |
-| 🇬🇶 **Equatorial Guinea** | `GQ` | 🟡 Building 41% | [Open country page](./equatorial-guinea.md) | — | 25 Oct 2026, 20:57 UTC |
-| 🇪🇷 **Eritrea** | `ER` | 🟡 Building 52% | [Open country page](./eritrea.md) | — | 25 Oct 2026, 20:57 UTC |
+| 🇬🇶 **Equatorial Guinea** | `GQ` | 🟡 Building 55% | [Open country page](./equatorial-guinea.md) | — | 28 Oct 2026, 22:44 UTC |
+| 🇪🇷 **Eritrea** | `ER` | 🟡 Building 69% | [Open country page](./eritrea.md) | — | 28 Oct 2026, 22:44 UTC |
 | 🇪🇪 **Estonia** | `EE` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./estonia.md) | 100 | 16 Oct 2026, 23:48 UTC |
-| 🇸🇿 **Eswatini** | `SZ` | 🟡 Building 29% | [Open country page](./eswatini.md) | — | 16 Oct 2026, 00:34 UTC |
+| 🇸🇿 **Eswatini** | `SZ` | 🟡 Building 43% | [Open country page](./eswatini.md) | — | 16 Oct 2026, 00:34 UTC |
 | 🇪🇹 **Ethiopia** | `ET` | 🟡 Building 0% | [Open country page](./ethiopia.md) | — | 16 Oct 2026, 05:04 UTC |
 | 🇫🇰 **Falkland Islands** | `FK` | Completed | [Open country page](./falkland-islands.md) | — | 25 Oct 2026, 20:57 UTC |
-| 🇫🇴 **Faroe Islands** | `FO` | 🟡 Building 29% | [Open country page](./faroe-islands.md) | — | 13 Oct 2026, 01:18 UTC |
-| 🇫🇯 **Fiji** | `FJ` | 🟡 Building 0% | [Open country page](./fiji.md) | — | 25 Oct 2026, 20:58 UTC |
+| 🇫🇴 **Faroe Islands** | `FO` | 🟡 Building 40% | [Open country page](./faroe-islands.md) | — | 13 Oct 2026, 01:18 UTC |
+| 🇫🇯 **Fiji** | `FJ` | 🟡 Building 0% | [Open country page](./fiji.md) | — | 28 Oct 2026, 22:45 UTC |
 | 🇫🇮 **Finland** | `FI` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./finland.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇫🇷 **France** | `FR` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./france.md) | 100 | 17 Oct 2026, 01:38 UTC |
-| 🇬🇫 **French Guiana** | `GF` | 🟡 Building 60% | [Open country page](./french-guiana.md) | — | 25 Oct 2026, 20:59 UTC |
-| 🇵🇫 **French Polynesia** | `PF` | 🟡 Building 20% | [Open country page](./french-polynesia.md) | — | 09 Oct 2026, 05:59 UTC |
+| 🇬🇫 **French Guiana** | `GF` | 🟡 Building 79% | [Open country page](./french-guiana.md) | — | 28 Oct 2026, 22:46 UTC |
+| 🇵🇫 **French Polynesia** | `PF` | 🟡 Building 23% | [Open country page](./french-polynesia.md) | — | 09 Oct 2026, 05:59 UTC |
 | 🇹🇫 **French Southern Territories** | `TF` | 🟡 Building 68% | [Open country page](./french-southern-territories.md) | — | 25 Oct 2026, 20:59 UTC |
 | 🇬🇦 **Gabon** | `GA` | 🟡 Building 27% | [Open country page](./gabon.md) | — | 07 Oct 2026, 00:38 UTC |
 | 🇬🇲 **Gambia** | `GM` | 🟡 Building 6% | [Open country page](./gambia.md) | — | 25 Oct 2026, 20:59 UTC |

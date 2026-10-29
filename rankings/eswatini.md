@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 29%
+## Repository ranking status: Building 43%
 
-- Geography terms processed: **17 / 57**
-- Progress: **29%**
-- Retained high-potential owner candidates: **284**
-- Search requests completed: **24**
+- Geography terms processed: **25 / 57**
+- Progress: **43%**
+- Retained high-potential owner candidates: **294**
+- Search requests completed: **32**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,16 +24,16 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [Njabulo240/InventorySystem](https://github.com/Njabulo240/InventorySystem) | **36** | Eswatini, Manzini |
+| [Njabulo240/InventorySystem](https://github.com/Njabulo240/InventorySystem) | **38** | Eswatini, Manzini |
 | [crypto-jobs-fyi/crawler](https://github.com/crypto-jobs-fyi/crawler) | **8** | Swaziland |
 | [SiveMdluli/My-Portfolio](https://github.com/SiveMdluli/My-Portfolio) | **7** | ESwatini, Mbabane |
 | [allGhostAnon/wifi-hacker-advanced](https://github.com/allGhostAnon/wifi-hacker-advanced) | **6** | Mbabane, Swaziland  |
+| [wandilemawelela/ai-engineer-project-1-llm-chatbot](https://github.com/wandilemawelela/ai-engineer-project-1-llm-chatbot) | **5** | Manzini, Eswatini |
 | [Addis-AI-Org/addis-ai-docs](https://github.com/Addis-AI-Org/addis-ai-docs) | **4** | Swaziland |
 | [Mtsetfosisekelo/Variance-Gamma-Model-Calibration](https://github.com/Mtsetfosisekelo/Variance-Gamma-Model-Calibration) | **4** | Plot 1149 Nkhanini Township, Nhlangano, Swaziland |
 | [nigeljohnson73/gStation](https://github.com/nigeljohnson73/gStation) | **4** | Malkerns, Swaziland |
 | [patiesoft/Law-Of-Contract](https://github.com/patiesoft/Law-Of-Contract) | **4** | Mbabane Swaziland |
 | [phume03/Level-Up-Python](https://github.com/phume03/Level-Up-Python) | **4** | Eswatini |
-| [wandilemawelela/ai-engineer-project-1-llm-chatbot](https://github.com/wandilemawelela/ai-engineer-project-1-llm-chatbot) | **4** | Manzini, Eswatini |
 | [0xSP4C3/binance-spot](https://github.com/0xSP4C3/binance-spot) | **2** | Swaziland |
 | [bandilepdlamini/PickMe](https://github.com/bandilepdlamini/PickMe) | **2** | Mbabane, Eswatini |
 | [bl1nk3r/Ummo](https://github.com/bl1nk3r/Ummo) | **2** | Mbabane, Swaziland |
