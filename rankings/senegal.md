@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 176**
 - Progress: **0%**
-- Retained high-potential owner candidates: **877**
-- Search requests completed: **24**
+- Retained high-potential owner candidates: **1,189**
+- Search requests completed: **32**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -26,19 +26,19 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [iib0011/omni-tools](https://github.com/iib0011/omni-tools) | **10,289** | Senegal |
 | [aimerou/awesome-ai-papers](https://github.com/aimerou/awesome-ai-papers) | **1,314** | Senegal |
+| [abdoufermat5/unix-and-linux-sysadmin-notes](https://github.com/abdoufermat5/unix-and-linux-sysadmin-notes) | **492** | Senegal |
 | [ibrahima92/pwa-with-vanilla-js](https://github.com/ibrahima92/pwa-with-vanilla-js) | **275** | Senegal |
 | [GalsenDev221/made.in.senegal](https://github.com/GalsenDev221/made.in.senegal) | **106** | Senegal |
+| [donsolo-khalifa/FootballKeyPointsExtraction](https://github.com/donsolo-khalifa/FootballKeyPointsExtraction) | **78** | Kaolack, Senegal |
 | [mamless/Gentella-admin-Symfony-6](https://github.com/mamless/Gentella-admin-Symfony-6) | **76** | Dakar, SENEGAL |
 | [PapiHack/document-templating-service](https://github.com/PapiHack/document-templating-service) | **65** | Dakar, Senegal |
+| [cheikhshift/cleo](https://github.com/cheikhshift/cleo) | **59** | Dakar, Senegal |
+| [Denver-sn/whatsapp-api](https://github.com/Denver-sn/whatsapp-api) | **59** | Senegal,Dakar |
 | [sibylassana95/GalsenAPi](https://github.com/sibylassana95/GalsenAPi) | **55** | Senegal  |
 | [takanome-dev/astro.go.blog](https://github.com/takanome-dev/astro.go.blog) | **50** | Dakar, Senegal |
 | [elias-ba/ask](https://github.com/elias-ba/ask) | **49** | Dakar, Senegal |
+| [99mass/gitea-to-github](https://github.com/99mass/gitea-to-github) | **41** | Dakar,Senegal |
 | [Code-for-Senegal/vie-publique.sn](https://github.com/Code-for-Senegal/vie-publique.sn) | **37** | Senegal |
-| [abdouaziz/wolof](https://github.com/abdouaziz/wolof) | **32** | Dakar - Senegal |
-| [lodjim/wolof-subtitle-generator](https://github.com/lodjim/wolof-subtitle-generator) | **31** | senegal |
-| [bambadiagne/github-user-stats](https://github.com/bambadiagne/github-user-stats) | **27** | Senegal,Dakar |
-| [makhtardiouf/d2d](https://github.com/makhtardiouf/d2d) | **27** | Dakar, Senegal |
-| [bmaxtar/nextzy](https://github.com/bmaxtar/nextzy) | **26** | Dakar, Senegal |
 
 ## Repository-first scan
 
