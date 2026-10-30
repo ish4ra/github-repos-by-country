@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 2%
+## Repository ranking status: Building 3%
 
-- Geography terms processed: **9 / 402**
-- Progress: **2%**
-- Retained high-potential owner candidates: **572**
-- Search requests completed: **24**
+- Geography terms processed: **14 / 402**
+- Progress: **3%**
+- Retained high-potential owner candidates: **673**
+- Search requests completed: **32**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -31,14 +31,14 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [bor0/evm-esp32](https://github.com/bor0/evm-esp32) | **144** | Skopje, North Macedonia |
 | [henryruhs/chroma-feedback](https://github.com/henryruhs/chroma-feedback) | **144** | North Macedonia |
 | [hf/leveldb-android](https://github.com/hf/leveldb-android) | **57** | Skopje, Republic of North Macedonia |
+| [kondinskis/hyperx-cloud-flight](https://github.com/kondinskis/hyperx-cloud-flight) | **43** | Bitola, Macedonia |
 | [nushkovg/k1s](https://github.com/nushkovg/k1s) | **43** | Skopje, North Macedonia |
+| [kalevski/rivalis](https://github.com/kalevski/rivalis) | **29** | Bitola, Macedonia |
 | [gocemitevski/bushava-azbuka](https://github.com/gocemitevski/bushava-azbuka) | **26** | Skopje, North Macedonia |
 | [jaggedsoft/chartaholic](https://github.com/jaggedsoft/chartaholic) | **25** | North Macedonia |
+| [martinpetkovski/ImQuick](https://github.com/martinpetkovski/ImQuick) | **23** | Bitola, Macedonia |
 | [EienMosu/MERN-Shopping-App](https://github.com/EienMosu/MERN-Shopping-App) | **22** | North Macedonia/Skopje |
 | [codeverbojan/remotion-cinematic](https://github.com/codeverbojan/remotion-cinematic) | **21** | North Macedonia |
-| [flakrimjusufi/grpc-with-rest](https://github.com/flakrimjusufi/grpc-with-rest) | **21** | Tetovo, North Macedonia |
-| [srdzank/WinSQLite-Editor](https://github.com/srdzank/WinSQLite-Editor) | **19** | North Macedonia |
-| [Delemangi/FINKI](https://github.com/Delemangi/FINKI) | **15** | Skopje, North Macedonia |
 
 ## Repository-first scan
 

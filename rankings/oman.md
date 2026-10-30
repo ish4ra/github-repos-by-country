@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 65**
 - Progress: **0%**
-- Retained high-potential owner candidates: **821**
-- Search requests completed: **24**
+- Retained high-potential owner candidates: **1,090**
+- Search requests completed: **32**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -31,14 +31,14 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [pylover/khayyam](https://github.com/pylover/khayyam) | **150** | Muscat, Oman |
 | [habibalmawali/UI-Challenges](https://github.com/habibalmawali/UI-Challenges) | **134** | Oman |
 | [prp-e/persian_ocr_project](https://github.com/prp-e/persian_ocr_project) | **92** | Muscat, Oman |
+| [yousephzidan/gsvp-dl](https://github.com/yousephzidan/gsvp-dl) | **62** | Oman |
 | [foxoman/pdftoword](https://github.com/foxoman/pdftoword) | **59** | Oman |
 | [byteab/operation-ink](https://github.com/byteab/operation-ink) | **44** | Muscat Oman |
 | [sweelam/microservices-architecture-talks](https://github.com/sweelam/microservices-architecture-talks) | **42** | Oman |
 | [PhazeRoOman/thawani-for-woocommerce](https://github.com/PhazeRoOman/thawani-for-woocommerce) | **34** | Oman |
 | [nRafinia/Emby.Subtitle.Subscene](https://github.com/nRafinia/Emby.Subtitle.Subscene) | **31** | Oman |
 | [zidhuss/neotest-minitest](https://github.com/zidhuss/neotest-minitest) | **27** | Oman |
-| [0xmahdirostami/audits](https://github.com/0xmahdirostami/audits) | **19** | Oman |
-| [sajadevo/material-ripple-effects](https://github.com/sajadevo/material-ripple-effects) | **19** | Muscat, Oman |
+| [heydardsm/topn](https://github.com/heydardsm/topn) | **21** | Oman |
 
 ## Repository-first scan
 

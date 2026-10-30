@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 121**
 - Progress: **0%**
-- Retained high-potential owner candidates: **737**
-- Search requests completed: **24**
+- Retained high-potential owner candidates: **740**
+- Search requests completed: **32**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,7 +25,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [Eckhardt-D/blanq](https://github.com/Eckhardt-D/blanq) | **72** | Namibia |
-| [rigred/SIMMBA-16](https://github.com/rigred/SIMMBA-16) | **66** | Namibia |
+| [rigred/SIMMBA-16](https://github.com/rigred/SIMMBA-16) | **67** | Namibia |
 | [m-spangenberg/CS50P](https://github.com/m-spangenberg/CS50P) | **45** | Walvis Bay, Namibia |
 | [axelmukwena/biometricECG](https://github.com/axelmukwena/biometricECG) | **44** | Namibia |
 | [TylerByte666/gitea-matrix-template](https://github.com/TylerByte666/gitea-matrix-template) | **37** | Namibia |
@@ -36,9 +36,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Rainexn0b/keyRGB](https://github.com/Rainexn0b/keyRGB) | **22** | Swakopmund, Namibia |
 | [b-venter/Matrix-Docker-install](https://github.com/b-venter/Matrix-Docker-install) | **17** | Namibia |
 | [SelmaNdapanda/To-Do-List](https://github.com/SelmaNdapanda/To-Do-List) | **12** | Windhoek, Namibia |
+| [mtjikuzu/hermes-osint-skill](https://github.com/mtjikuzu/hermes-osint-skill) | **11** | Windhoek, Namibia |
 | [wilwad/frontend-for-ffmpeg](https://github.com/wilwad/frontend-for-ffmpeg) | **11** | Windhoek, Namibia |
 | [WilhelmK109/awesome-books](https://github.com/WilhelmK109/awesome-books) | **8** | Windhoek, Namibia |
-| [wiesnerbernard/fragmen](https://github.com/wiesnerbernard/fragmen) | **7** | Namibia |
 
 ## Repository-first scan
 

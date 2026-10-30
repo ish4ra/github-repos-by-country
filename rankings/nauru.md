@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 70%
+## Repository ranking status: Building 91%
 
-- Geography terms processed: **24 / 34**
-- Progress: **70%**
-- Retained high-potential owner candidates: **10**
-- Search requests completed: **24**
+- Geography terms processed: **31 / 34**
+- Progress: **91%**
+- Retained high-potential owner candidates: **14**
+- Search requests completed: **32**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,7 +24,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
+| [Melonbwead/lucky-zsh-theme](https://github.com/Melonbwead/lucky-zsh-theme) | **11** | Verse |
+| [ensonfun/ensonfun.github.io](https://github.com/ensonfun/ensonfun.github.io) | **2** | Verse |
 | [nauru-jp/nauru](https://github.com/nauru-jp/nauru) | **2** | Nauru |
+| [nutsi/rust-mysql](https://github.com/nutsi/rust-mysql) | **1** | Yaren |
 | [01LuckyStrike10/overtone](https://github.com/01LuckyStrike10/overtone) | **0** | Nauru |
 | [AquaBera/aquabera-assets](https://github.com/AquaBera/aquabera-assets) | **0** | Nauru |
 | [bonifacyfirefly/bonifacyfirefly](https://github.com/bonifacyfirefly/bonifacyfirefly) | **0** | Nauru (NR) |
@@ -34,5 +37,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [rabbitwolfder/rabbitwolfder](https://github.com/rabbitwolfder/rabbitwolfder) | **0** | Nauru (NR) |
 | [rejectX/rejectX](https://github.com/rejectX/rejectX) | **0** | Nauru |
 | [SatiaLee/Soundness](https://github.com/SatiaLee/Soundness) | **0** | Nauru |
+| [therealsocke/power-assert](https://github.com/therealsocke/power-assert) | **0** | Yaren |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
