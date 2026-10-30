@@ -12,40 +12,23 @@
     "termsTotal": 40
   },
   "phase": "discovery",
-  "nextTermIndex": 21,
-  "activeTerm": {
-    "index": 21,
-    "term": "Saint Vincent and the Grenadines",
-    "queue": [
-      {
-        "query": "location:\"Saint Vincent and the Grenadines\"",
-        "stage": "base",
-        "cursor": "Y3Vyc29yOjUw",
-        "pageNumber": 2,
-        "attempts": 0
-      }
-    ],
-    "startedAt": "2026-10-27T18:07:00.412Z",
-    "requests": 1,
-    "leafPages": 1,
-    "shardExpansions": 0,
-    "reportedCount": null
-  },
+  "nextTermIndex": 29,
+  "activeTerm": null,
   "discoveryComplete": false,
   "startedAt": "2026-10-07T13:33:41.149Z",
-  "updatedAt": "2026-10-27T18:07:03.524Z",
+  "updatedAt": "2026-10-30T22:29:17.200Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
-    "termsProcessed": 21,
-    "searchRequests": 24,
-    "leafPages": 24,
+    "termsProcessed": 29,
+    "searchRequests": 32,
+    "leafPages": 32,
     "shardExpansions": 0,
-    "rawOwnerHits": 249,
-    "acceptedOwnerHits": 116,
-    "rejectedOwnerHits": 133,
+    "rawOwnerHits": 257,
+    "acceptedOwnerHits": 121,
+    "rejectedOwnerHits": 136,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4962
+    "minimumRateLimitRemaining": 4942
   },
   "unresolvedShards": [],
   "candidates": [
@@ -519,7 +502,8 @@
         "matched": "saint vincent and the grenadines"
       },
       "discoveryTerms": [
-        "Grenadines"
+        "Grenadines",
+        "Saint Vincent and the Grenadines"
       ],
       "topRepository": {
         "name": "workSheetOne",
@@ -1202,7 +1186,8 @@
         "matched": "saint vincent and the grenadines"
       },
       "discoveryTerms": [
-        "Grenadines"
+        "Grenadines",
+        "Saint Vincent and the Grenadines"
       ],
       "topRepository": {
         "name": "madr-test2",
