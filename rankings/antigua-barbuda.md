@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 39%
+## Repository ranking status: Building 46%
 
-- Geography terms processed: **22 / 56**
-- Progress: **39%**
-- Retained high-potential owner candidates: **55**
-- Search requests completed: **24**
+- Geography terms processed: **26 / 56**
+- Progress: **46%**
+- Retained high-potential owner candidates: **57**
+- Search requests completed: **32**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -31,6 +31,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [ArcherDiaz/Rivr](https://github.com/ArcherDiaz/Rivr) | **3** | Antigua & Barbuda |
 | [danausx/ffmpeg-cluster](https://github.com/danausx/ffmpeg-cluster) | **3** | Antigua and Barbuda |
 | [dadlian/ticketing-test-app](https://github.com/dadlian/ticketing-test-app) | **2** | Antigua and Barbuda |
+| [8nqeBP9dWQ3kbGi/Prince-Project-](https://github.com/8nqeBP9dWQ3kbGi/Prince-Project-) | **1** | Gaye Town, Old Road |
 | [CasperJasper/comp2245-assignment1](https://github.com/CasperJasper/comp2245-assignment1) | **1** | Antigua and Barbuda |
 | [Dark-St-r/bac-inc-homepage](https://github.com/Dark-St-r/bac-inc-homepage) | **1** | Antigua and Barbuda |
 | [FaraPatton/laikovo](https://github.com/FaraPatton/laikovo) | **1** | Antigua and Barbuda |
@@ -38,7 +39,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [nareshvel/zettaz-tours](https://github.com/nareshvel/zettaz-tours) | **1** | Antigua and Barbuda |
 | [taikigz/dotfiles](https://github.com/taikigz/dotfiles) | **1** | Antigua y Barbuda |
 | [TZF-365/Choya-Mark-Of-Exile-T](https://github.com/TZF-365/Choya-Mark-Of-Exile-T) | **1** | Antigua and Barbuda |
-| [1stLauxus/1stLauxus](https://github.com/1stLauxus/1stLauxus) | **0** | Antigua & Barbuda |
 
 ## Repository-first scan
 

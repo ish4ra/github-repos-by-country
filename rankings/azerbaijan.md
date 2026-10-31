@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 392**
 - Progress: **0%**
-- Retained high-potential owner candidates: **813**
-- Search requests completed: **32**
+- Retained high-potential owner candidates: **1,145**
+- Search requests completed: **40**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -36,9 +36,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [nurlanvalizada/ProgrammingInCSharpCourse](https://github.com/nurlanvalizada/ProgrammingInCSharpCourse) | **46** | Azerbaijan |
 | [NijatZeynalov/image_to_handwriting_az](https://github.com/NijatZeynalov/image_to_handwriting_az) | **33** | Azerbaijan |
 | [KhanbalaRashidov/Go-Azerbaijan](https://github.com/KhanbalaRashidov/Go-Azerbaijan) | **27** | Baku/Azerbaijan |
+| [tungstencube-git/radon](https://github.com/tungstencube-git/radon) | **22** | Azerbaijan |
 | [aliyevorkhan/FRI](https://github.com/aliyevorkhan/FRI) | **19** | Baku, Azerbaijan |
 | [raminorujov/hackerrank](https://github.com/raminorujov/hackerrank) | **18** | Baku, Azerbaijan |
-| [thisisyusub/tdd-learn-example](https://github.com/thisisyusub/tdd-learn-example) | **18** | Azerbaijan |
 
 ## Repository-first scan
 

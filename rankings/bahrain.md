@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 27**
 - Progress: **0%**
-- Retained high-potential owner candidates: **986**
-- Search requests completed: **32**
+- Retained high-potential owner candidates: **1,183**
+- Search requests completed: **40**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -26,19 +26,19 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [walidshaari/Kubernetes-Certified-Administrator](https://github.com/walidshaari/Kubernetes-Certified-Administrator) | **4,453** | Bahrain |
 | [naweed/MauiTubePlayer](https://github.com/naweed/MauiTubePlayer) | **375** | Bahrain |
-| [kelvindecosta/picharsso](https://github.com/kelvindecosta/picharsso) | **132** | Bahrain |
+| [a7md0/WakeOnLan](https://github.com/a7md0/WakeOnLan) | **225** | Bahrain |
+| [waelisa/Best-blocklist](https://github.com/waelisa/Best-blocklist) | **185** | Bahrain |
+| [kelvindecosta/picharsso](https://github.com/kelvindecosta/picharsso) | **133** | Bahrain |
+| [iTroy0/WebP-Converter](https://github.com/iTroy0/WebP-Converter) | **63** | Bahrain |
 | [ExTBH/JodelEmproved](https://github.com/ExTBH/JodelEmproved) | **56** | Bahrain |
 | [FnrDev/slash-commands](https://github.com/FnrDev/slash-commands) | **56** | Bahrain |
 | [AbRahman-ra/psql-notes](https://github.com/AbRahman-ra/psql-notes) | **54** | Bahrain |
 | [haqbany/Bigtreetouch-SKR-Mini-E3V3.0](https://github.com/haqbany/Bigtreetouch-SKR-Mini-E3V3.0) | **50** | Bahrain |
 | [a7madev/AndroidGlobalUtils](https://github.com/a7madev/AndroidGlobalUtils) | **47** | Bahrain |
 | [i3sam/OrbitDrop](https://github.com/i3sam/OrbitDrop) | **47** | Bahrain |
-| [f-9t9it/optic_store](https://github.com/f-9t9it/optic_store) | **43** | Bahrain |
+| [f-9t9it/optic_store](https://github.com/f-9t9it/optic_store) | **45** | Bahrain |
 | [iamohd-zz/laravel-settings](https://github.com/iamohd-zz/laravel-settings) | **42** | Bahrain |
-| [fairbird/NCam](https://github.com/fairbird/NCam) | **34** | Bahrain |
-| [meshahid973/localitfy](https://github.com/meshahid973/localitfy) | **34** | bahrain |
-| [juandl/react-native-credit-card-input-plus](https://github.com/juandl/react-native-credit-card-input-plus) | **29** | Bahrain |
-| [nomanhaq/ReadingMaterial](https://github.com/nomanhaq/ReadingMaterial) | **22** | Bahrain |
+| [sfoulad/midad-by-foulad](https://github.com/sfoulad/midad-by-foulad) | **41** | Bahrain |
 
 ## Repository-first scan
 

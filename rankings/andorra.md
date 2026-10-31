@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 39%
+## Repository ranking status: Building 67%
 
-- Geography terms processed: **11 / 28**
-- Progress: **39%**
-- Retained high-potential owner candidates: **380**
-- Search requests completed: **24**
+- Geography terms processed: **19 / 28**
+- Progress: **67%**
+- Retained high-potential owner candidates: **383**
+- Search requests completed: **32**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,7 +25,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [John-Lluch/SWRevealViewController](https://github.com/John-Lluch/SWRevealViewController) | **4,473** | Escaldes - Andorra |
-| [AlexAltea/orbital](https://github.com/AlexAltea/orbital) | **3,650** | Les Escaldes, Andorra |
+| [AlexAltea/orbital](https://github.com/AlexAltea/orbital) | **3,653** | Les Escaldes, Andorra |
 | [jorge07/symfony-7-es-cqrs-boilerplate](https://github.com/jorge07/symfony-7-es-cqrs-boilerplate) | **1,088** | Escaldes, Andorra |
 | [niwinz/phantompy](https://github.com/niwinz/phantompy) | **611** | Andorra |
 | [jmpsec/osctrl](https://github.com/jmpsec/osctrl) | **535** | Andorra |

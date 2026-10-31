@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 65%
+## Repository ranking status: Building 85%
 
-- Geography terms processed: **27 / 41**
-- Progress: **65%**
-- Retained high-potential owner candidates: **53**
-- Search requests completed: **28**
+- Geography terms processed: **35 / 41**
+- Progress: **85%**
+- Retained high-potential owner candidates: **55**
+- Search requests completed: **36**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -29,6 +29,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [hkarlstrom/openapi-validation-middleware](https://github.com/hkarlstrom/openapi-validation-middleware) | **95** | Åland Islands |
 | [flipsite/flipsite](https://github.com/flipsite/flipsite) | **18** | Åland Islands |
 | [eMakerStudio/e-rechnung-rechnungsmanager](https://github.com/eMakerStudio/e-rechnung-rechnungsmanager) | **10** | Mariehamn, Åland |
+| [JerryMalmstrom/no-bullshit-drifting](https://github.com/JerryMalmstrom/no-bullshit-drifting) | **8** | Ytterby |
 | [tvntvn13/wolt-calculator](https://github.com/tvntvn13/wolt-calculator) | **5** | Mariehamn, Åland Islands |
 | [GitHug/rosz2js](https://github.com/GitHug/rosz2js) | **4** | London / Mariehamn |
 | [khalavak/pan-demonium](https://github.com/khalavak/pan-demonium) | **3** | Åland Islands |
@@ -38,7 +39,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [niklasekman/Petterniklas-patches](https://github.com/niklasekman/Petterniklas-patches) | **2** | Mariehamn |
 | [blueskiy01/voxel-christmas-cabin](https://github.com/blueskiy01/voxel-christmas-cabin) | **1** | Mariehamn, Åland Islands |
 | [fatemekh78/nlp-scraper](https://github.com/fatemekh78/nlp-scraper) | **1** | Mariehamn, Åland islands |
-| [karusmari/java-checkpoint](https://github.com/karusmari/java-checkpoint) | **1** | Åland Islands |
 
 ## Repository-first scan
 
