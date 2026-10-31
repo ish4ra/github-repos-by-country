@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 40%
+## Repository ranking status: Building 57%
 
-- Geography terms processed: **20 / 49**
-- Progress: **40%**
-- Retained high-potential owner candidates: **46**
-- Search requests completed: **24**
+- Geography terms processed: **28 / 49**
+- Progress: **57%**
+- Retained high-potential owner candidates: **50**
+- Search requests completed: **32**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,9 +24,12 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [cake-tech/cake_wallet](https://github.com/cake-tech/cake_wallet) | **1,992** | Saint Kitts and Nevis |
+| [cake-tech/cake_wallet](https://github.com/cake-tech/cake_wallet) | **2,000** | Saint Kitts and Nevis |
 | [RaoFoundation/bittensor](https://github.com/RaoFoundation/bittensor) | **1,468** | Saint Kitts and Nevis |
+| [haydenjames/bench-scripts](https://github.com/haydenjames/bench-scripts) | **1,194** | Saint Kitts |
+| [Volkanite/TestSpoof](https://github.com/Volkanite/TestSpoof) | **29** | Saint Kitts |
 | [Thutmose/Pokecube](https://github.com/Thutmose/Pokecube) | **19** | St Kitts and Nevis |
+| [typebrook/helper](https://github.com/typebrook/helper) | **14** | Saint Kitts, Caribbean |
 | [RonaldCrb/go-pg-rest-api](https://github.com/RonaldCrb/go-pg-rest-api) | **5** | St. Kitts and Nevis, Basseterre |
 | [Allisterh/Large-BVAR-Python-codes-](https://github.com/Allisterh/Large-BVAR-Python-codes-) | **4** | St Kitts and Nevis |
 | [25x-casino/eldorado](https://github.com/25x-casino/eldorado) | **2** | Saint Kitts and Nevis |
@@ -36,9 +39,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Assetbasefoundation/AssetBase-CrowdSale-Token](https://github.com/Assetbasefoundation/AssetBase-CrowdSale-Token) | **1** | Nevis |
 | [GabriellaLaPlace/Data-Analyst-Portfolio-ProjectHandWashingDiscoveryFromDataCamp](https://github.com/GabriellaLaPlace/Data-Analyst-Portfolio-ProjectHandWashingDiscoveryFromDataCamp) | **1** | Basseterre, St. Kitts. St. Kitts and Nevis |
 | [koepp92260/api](https://github.com/koepp92260/api) | **1** | Saint Kitts and Nevis |
-| [PatcharaGun/FAI](https://github.com/PatcharaGun/FAI) | **1** | St. Kitts and Nevis |
-| [SimpledPro/Crypto-StartUp](https://github.com/SimpledPro/Crypto-StartUp) | **1** | Saint Kitts and Nevis |
-| [bankcoin-capital/contracts](https://github.com/bankcoin-capital/contracts) | **0** | Saint Kitts and Nevis |
 
 ## Repository-first scan
 

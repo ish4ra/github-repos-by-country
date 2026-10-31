@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 44**
 - Progress: **0%**
-- Retained high-potential owner candidates: **851**
-- Search requests completed: **24**
+- Retained high-potential owner candidates: **1,043**
+- Search requests completed: **32**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,21 +24,21 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
+| [JeanKouss/godot-third-person-camera](https://github.com/JeanKouss/godot-third-person-camera) | **186** | Lomé,Togo |
 | [HackermanMe/spring-flashapi](https://github.com/HackermanMe/spring-flashapi) | **68** | Lomé-Togo |
 | [agnilondapakou/helloWorld](https://github.com/agnilondapakou/helloWorld) | **52** | Lome, Togo |
-| [gsmadjaa05/BYPASS-HELLO-NO-NEED-CHANGE-SN](https://github.com/gsmadjaa05/BYPASS-HELLO-NO-NEED-CHANGE-SN) | **51** | Togo |
-| [omarfarouk228/togolm](https://github.com/omarfarouk228/togolm) | **39** | Togo |
+| [gsmadjaa05/BYPASS-HELLO-NO-NEED-CHANGE-SN](https://github.com/gsmadjaa05/BYPASS-HELLO-NO-NEED-CHANGE-SN) | **52** | Togo |
+| [tchagau/Introduction-to-Data-Science-in-Python](https://github.com/tchagau/Introduction-to-Data-Science-in-Python) | **51** | Lomé-Togo |
+| [omarfarouk228/togolm](https://github.com/omarfarouk228/togolm) | **40** | Togo |
+| [Godark14/coroutine-leak-detector](https://github.com/Godark14/coroutine-leak-detector) | **32** | Lomé, TOGO |
 | [Docteur-Parfait/os228](https://github.com/Docteur-Parfait/os228) | **28** | Lomé, Togo |
+| [kof70/coolify-mcp-server](https://github.com/kof70/coolify-mcp-server) | **28** | Lomé, Togo  |
+| [Ygryan360/localhost](https://github.com/Ygryan360/localhost) | **26** | Lomé, Togo |
 | [gausoft/flutter-mvc-s-riverpod-example](https://github.com/gausoft/flutter-mvc-s-riverpod-example) | **23** | Lomé, Togo |
 | [JosephESSEY/dwg2dxf-converter](https://github.com/JosephESSEY/dwg2dxf-converter) | **22** | Lomé, Togo |
 | [bernadinkele/flash_food](https://github.com/bernadinkele/flash_food) | **18** | Lome, Togo |
 | [Paskod121/C2P-Python-Essentiel](https://github.com/Paskod121/C2P-Python-Essentiel) | **18** | Togo |
-| [afrocodeur/native-document](https://github.com/afrocodeur/native-document) | **16** | Lomé - Togo |
-| [Godwinh19/gotorch](https://github.com/Godwinh19/gotorch) | **14** | Togo |
-| [lecodeur228/challenge-cac](https://github.com/lecodeur228/challenge-cac) | **13** | TOGO |
-| [kosher9/kosher9.github.io](https://github.com/kosher9/kosher9.github.io) | **12** | Lome, Togo |
-| [tchallaStephanie/JavaBankProject](https://github.com/tchallaStephanie/JavaBankProject) | **11** | Sokodé Togo |
-| [GhostEsso/bookstore-react](https://github.com/GhostEsso/bookstore-react) | **8** | Lomé, Togo |
+| [developerandre/strophe-dart](https://github.com/developerandre/strophe-dart) | **17** | Lomé - TOGO |
 
 ## Repository-first scan
 
