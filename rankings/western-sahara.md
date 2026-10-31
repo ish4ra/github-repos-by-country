@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 57%
+## Repository ranking status: Building 76%
 
-- Geography terms processed: **24 / 42**
-- Progress: **57%**
-- Retained high-potential owner candidates: **18**
-- Search requests completed: **24**
+- Geography terms processed: **32 / 42**
+- Progress: **76%**
+- Retained high-potential owner candidates: **20**
+- Search requests completed: **32**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -28,6 +28,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [coroboros/uri](https://github.com/coroboros/uri) | **15** | Western Sahara |
 | [builders-lab/soft-cuda](https://github.com/builders-lab/soft-cuda) | **13** | Western Sahara |
 | [Omebran/contrib-pool-3-756](https://github.com/Omebran/contrib-pool-3-756) | **5** | East Annaton, Western Sahara |
+| [argueUndefeatable29/fsnotify](https://github.com/argueUndefeatable29/fsnotify) | **1** | Tifariti |
 | [Brahim-Ezzahraoui/Java-Lp2I-SMI](https://github.com/Brahim-Ezzahraoui/Java-Lp2I-SMI) | **1** | Western  Sahara |
 | [Ithavollr/PacMan](https://github.com/Ithavollr/PacMan) | **1** | Western Sahara |
 | [abbouh/testing](https://github.com/abbouh/testing) | **0** | Western Sahara |
@@ -36,8 +37,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [devprivatlie/devprivatlie](https://github.com/devprivatlie/devprivatlie) | **0** | Western Sahara |
 | [Enceunc/Fortnight](https://github.com/Enceunc/Fortnight) | **0** | Western Sahara |
 | [F01C/FORUM](https://github.com/F01C/FORUM) | **0** | Western Sahara |
+| [ItsOnlySkilz/reconnecting-websocket](https://github.com/ItsOnlySkilz/reconnecting-websocket) | **0** | Tifariti |
 | [mBghost26/mBghost26](https://github.com/mBghost26/mBghost26) | **0** | laayoune western sahara  |
-| [NajemeZaidan/NajemeZaidan](https://github.com/NajemeZaidan/NajemeZaidan) | **0** | Western Sahara |
-| [ob-aion/pruner](https://github.com/ob-aion/pruner) | **0** | Western Sahara |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

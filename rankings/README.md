@@ -1,13 +1,13 @@
 # Browse Repository Rankings
 
-**250 countries and territories indexed · 53 live · 224 building**
+**250 countries and territories indexed · 53 live · 221 building**
 
 Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a country.
 
 | Country | ISO | Status | Ranking | Repositories | Last updated |
 | --- | :---: | :---: | --- | ---: | --- |
 | 🇦🇫 **Afghanistan** | `AF` | 🟡 Building 0% | [Open country page](./afghanistan.md) | — | 16 Oct 2026, 14:20 UTC |
-| 🇦🇽 **Åland Islands** | `AX` | 🟡 Building 58% | [Open country page](./aland-islands.md) | — | 16 Oct 2026, 09:43 UTC |
+| 🇦🇽 **Åland Islands** | `AX` | 🟡 Building 65% | [Open country page](./aland-islands.md) | — | 16 Oct 2026, 09:43 UTC |
 | 🇦🇱 **Albania** | `AL` | 🟡 Building 0% | [Open country page](./albania.md) | — | 16 Oct 2026, 21:29 UTC |
 | 🇩🇿 **Algeria** | `DZ` | 🟡 Building 0% | [Open country page](./algeria.md) | — | 16 Oct 2026, 21:29 UTC |
 | 🇦🇸 **American Samoa** | `AS` | 🟡 Building 35% | [Open country page](./american-samoa.md) | — | 17 Oct 2026, 01:38 UTC |
@@ -232,14 +232,14 @@ Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a co
 | 🇹🇬 **Togo** | `TG` | 🟡 Building 0% | [Open country page](./togo.md) | — | 16 Oct 2026, 09:43 UTC |
 | 🇹🇰 **Tokelau** | `TK` | Completed | [Open country page](./tokelau.md) | — | 24 Oct 2026, 16:06 UTC |
 | 🇹🇴 **Tonga** | `TO` | 🟡 Building 53% | [Open country page](./tonga.md) | — | 15 Oct 2026, 15:00 UTC |
-| 🇹🇹 **Trinidad & Tobago** | `TT` | 🟡 Building 26% | [Open country page](./trinidad-tobago.md) | — | 16 Oct 2026, 18:16 UTC |
+| 🇹🇹 **Trinidad & Tobago** | `TT` | 🟡 Building 41% | [Open country page](./trinidad-tobago.md) | — | 16 Oct 2026, 18:16 UTC |
 | 🇹🇳 **Tunisia** | `TN` | 🟡 Building 0% | [Open country page](./tunisia.md) | — | 17 Oct 2026, 01:38 UTC |
 | 🇹🇷 **Türkiye** | `TR` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./turkiye.md) | 100 | 16 Oct 2026, 23:48 UTC |
 | 🇹🇲 **Turkmenistan** | `TM` | 🟡 Building 2% | [Open country page](./turkmenistan.md) | — | 16 Oct 2026, 18:16 UTC |
-| 🇹🇨 **Turks & Caicos Islands** | `TC` | 🟡 Building 84% | [Open country page](./turks-caicos-islands.md) | — | 27 Oct 2026, 22:21 UTC |
-| 🇹🇻 **Tuvalu** | `TV` | 🟡 Building 72% | [Open country page](./tuvalu.md) | — | 27 Oct 2026, 22:21 UTC |
+| 🇹🇨 **Turks & Caicos Islands** | `TC` | Completed | [Open country page](./turks-caicos-islands.md) | — | 31 Oct 2026, 05:55 UTC |
+| 🇹🇻 **Tuvalu** | `TV` | 🟡 Building 96% | [Open country page](./tuvalu.md) | — | 31 Oct 2026, 05:55 UTC |
 | 🇺🇲 **U.S. Outlying Islands** | `UM` | Completed | [Open country page](./u-s-outlying-islands.md) | — | 27 Oct 2026, 22:21 UTC |
-| 🇻🇮 **U.S. Virgin Islands** | `VI` | 🟡 Building 76% | [Open country page](./u-s-virgin-islands.md) | — | 27 Oct 2026, 22:21 UTC |
+| 🇻🇮 **U.S. Virgin Islands** | `VI` | Completed | [Open country page](./u-s-virgin-islands.md) | — | 31 Oct 2026, 05:55 UTC |
 | 🇺🇬 **Uganda** | `UG` | 🟡 Building 0% | [Open country page](./uganda.md) | — | 15 Oct 2026, 05:17 UTC |
 | 🇺🇦 **Ukraine** | `UA` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./ukraine.md) | 100 | 16 Oct 2026, 23:48 UTC |
 | 🇦🇪 **United Arab Emirates** | `AE` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./united-arab-emirates.md) | 100 | 17 Oct 2026, 01:38 UTC |
@@ -251,8 +251,8 @@ Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a co
 | 🇻🇦 **Vatican City** | `VA` | Completed | [Open country page](./vatican-city.md) | — | 15 Oct 2026, 22:12 UTC |
 | 🇻🇪 **Venezuela** | `VE` | 🟡 Building 0% | [Open country page](./venezuela.md) | — | 16 Oct 2026, 18:16 UTC |
 | 🇻🇳 **Vietnam** | `VN` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./vietnam.md) | 100 | 17 Oct 2026, 01:38 UTC |
-| 🇼🇫 **Wallis & Futuna** | `WF` | 🟡 Building 85% | [Open country page](./wallis-futuna.md) | — | 27 Oct 2026, 22:25 UTC |
-| 🇪🇭 **Western Sahara** | `EH` | 🟡 Building 57% | [Open country page](./western-sahara.md) | — | 27 Oct 2026, 22:25 UTC |
+| 🇼🇫 **Wallis & Futuna** | `WF` | Completed | [Open country page](./wallis-futuna.md) | — | 31 Oct 2026, 05:58 UTC |
+| 🇪🇭 **Western Sahara** | `EH` | 🟡 Building 76% | [Open country page](./western-sahara.md) | — | 31 Oct 2026, 05:58 UTC |
 | 🇾🇪 **Yemen** | `YE` | 🟡 Building 0% | [Open country page](./yemen.md) | — | 15 Oct 2026, 05:17 UTC |
 | 🇿🇲 **Zambia** | `ZM` | 🟡 Building 0% | [Open country page](./zambia.md) | — | 15 Oct 2026, 22:12 UTC |
 | 🇿🇼 **Zimbabwe** | `ZW` | 🟡 Building 0% | [Open country page](./zimbabwe.md) | — | 16 Oct 2026, 09:43 UTC |

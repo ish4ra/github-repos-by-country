@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 107**
 - Progress: **0%**
-- Retained high-potential owner candidates: **1,117**
-- Search requests completed: **28**
+- Retained high-potential owner candidates: **1,341**
+- Search requests completed: **36**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -27,6 +27,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [malgamves/CommunityWriterPrograms](https://github.com/malgamves/CommunityWriterPrograms) | **4,186** | Lusaka, Zambia |
 | [rly0nheart/thedevilseye](https://github.com/rly0nheart/thedevilseye) | **267** | Zambia |
 | [chandachewe10/loan-management-system](https://github.com/chandachewe10/loan-management-system) | **148** | Zambia |
+| [daz-b-like/ProCam2D_Godot4.x](https://github.com/daz-b-like/ProCam2D_Godot4.x) | **58** | Lusaka, Zambia |
 | [engineervix/cv](https://github.com/engineervix/cv) | **54** | Lusaka, Zambia |
 | [akebu6/Android-Beginner-Projects](https://github.com/akebu6/Android-Beginner-Projects) | **51** | Zambia |
 | [blessedjasonmwanza/MoneyUnify](https://github.com/blessedjasonmwanza/MoneyUnify) | **50** |  Lusaka, Zambia |
@@ -36,9 +37,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Emment-Yamikani/gingerOs](https://github.com/Emment-Yamikani/gingerOs) | **25** | ZAMBEZI, ZAMBIA. |
 | [makayi/express-tdd-tutorial](https://github.com/makayi/express-tdd-tutorial) | **21** | Zambia |
 | [marksikaundi/30Days0f-React-Native](https://github.com/marksikaundi/30Days0f-React-Native) | **20** | Zambia |
+| [Ajsitu/ajsitu-portfolio](https://github.com/Ajsitu/ajsitu-portfolio) | **14** | Zambia |
 | [nmbazima/LinksWWWbrowser](https://github.com/nmbazima/LinksWWWbrowser) | **14** | Zambia |
-| [chaw-bot/TipCalculator](https://github.com/chaw-bot/TipCalculator) | **12** | Lusaka, Zambia |
-| [Joshk21758/erosion-predictor](https://github.com/Joshk21758/erosion-predictor) | **11** | Lusaka, Zambia  |
 
 ## Repository-first scan
 

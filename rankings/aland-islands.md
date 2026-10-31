@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 58%
+## Repository ranking status: Building 65%
 
-- Geography terms processed: **24 / 41**
-- Progress: **58%**
-- Retained high-potential owner candidates: **31**
-- Search requests completed: **24**
+- Geography terms processed: **27 / 41**
+- Progress: **65%**
+- Retained high-potential owner candidates: **53**
+- Search requests completed: **28**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,21 +24,21 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
+| [jesjos/active_record_upsert](https://github.com/jesjos/active_record_upsert) | **207** | Mariehamn, Åland |
+| [rahulwagh/Terraform-Topics](https://github.com/rahulwagh/Terraform-Topics) | **198** | Mariehamn, Åland |
 | [hkarlstrom/openapi-validation-middleware](https://github.com/hkarlstrom/openapi-validation-middleware) | **95** | Åland Islands |
 | [flipsite/flipsite](https://github.com/flipsite/flipsite) | **18** | Åland Islands |
+| [eMakerStudio/e-rechnung-rechnungsmanager](https://github.com/eMakerStudio/e-rechnung-rechnungsmanager) | **10** | Mariehamn, Åland |
 | [tvntvn13/wolt-calculator](https://github.com/tvntvn13/wolt-calculator) | **5** | Mariehamn, Åland Islands |
+| [GitHug/rosz2js](https://github.com/GitHug/rosz2js) | **4** | London / Mariehamn |
 | [khalavak/pan-demonium](https://github.com/khalavak/pan-demonium) | **3** | Åland Islands |
+| [viktor-sarge/koha-hacks](https://github.com/viktor-sarge/koha-hacks) | **3** | Mariehamn |
 | [DeductiveLabs/async_javascript](https://github.com/DeductiveLabs/async_javascript) | **2** | Mariehamn, Åland Islands |
+| [mareerray/secure-messenger](https://github.com/mareerray/secure-messenger) | **2** | Mariehamn, Åland |
+| [niklasekman/Petterniklas-patches](https://github.com/niklasekman/Petterniklas-patches) | **2** | Mariehamn |
 | [blueskiy01/voxel-christmas-cabin](https://github.com/blueskiy01/voxel-christmas-cabin) | **1** | Mariehamn, Åland Islands |
 | [fatemekh78/nlp-scraper](https://github.com/fatemekh78/nlp-scraper) | **1** | Mariehamn, Åland islands |
 | [karusmari/java-checkpoint](https://github.com/karusmari/java-checkpoint) | **1** | Åland Islands |
-| [pophaax/coursecalculation](https://github.com/pophaax/coursecalculation) | **1** | Åland Islands (FIN) |
-| [pregamer189/prello-releases](https://github.com/pregamer189/prello-releases) | **1** | 1 Strandgatan, Mariehamn 22100, Åland Islands |
-| [Ramona-Ekanayake/GritLab](https://github.com/Ramona-Ekanayake/GritLab) | **1** | Åland Islands |
-| [0xAdlerauge/erasmus-etl-pipeline](https://github.com/0xAdlerauge/erasmus-etl-pipeline) | **0** | Åland Islands |
-| [AAAWG/aaawg-ansible](https://github.com/AAAWG/aaawg-ansible) | **0** | Åland Islands |
-| [arvinkhanian/forum](https://github.com/arvinkhanian/forum) | **0** | Mariehamn, Åland Islands |
-| [dwertipyqwelcer/dwertipyqwelcer](https://github.com/dwertipyqwelcer/dwertipyqwelcer) | **0** | Åland Islands (AX) |
 
 ## Repository-first scan
 
