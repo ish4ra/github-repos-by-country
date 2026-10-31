@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 8%
+## Repository ranking status: Building 12%
 
-- Geography terms processed: **18 / 213**
-- Progress: **8%**
-- Retained high-potential owner candidates: **3**
-- Search requests completed: **32**
+- Geography terms processed: **26 / 213**
+- Progress: **12%**
+- Retained high-potential owner candidates: **18**
+- Search requests completed: **40**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,9 +24,21 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
+| [prototypeX-sys/Cyberia-Project](https://github.com/prototypeX-sys/Cyberia-Project) | **3** | BOBO-DIOULASSO |
+| [65257576/Site-web-Nexus-Maths](https://github.com/65257576/Site-web-Nexus-Maths) | **1** | Bobo-Dioulasso |
+| [abouattara/suivi-de-candidatures](https://github.com/abouattara/suivi-de-candidatures) | **1** | Bobo Dioulasso |
+| [amadetraore/AT-TECH-](https://github.com/amadetraore/AT-TECH-) | **0** | Bobo Dioulasso  |
+| [EricDabone/DenBalo-project](https://github.com/EricDabone/DenBalo-project) | **0** | Bobo-Dioulasso |
 | [escrowadmin/REAPER](https://github.com/escrowadmin/REAPER) | **0** | bingo |
+| [iscolafia55-ux/OUATT_COLLECTION-](https://github.com/iscolafia55-ux/OUATT_COLLECTION-) | **0** | BOBO-DIOULASSO  |
+| [joycetoe/AutoPortfolio-Generator](https://github.com/joycetoe/AutoPortfolio-Generator) | **0** | Bobo-Dioulasso |
+| [lgndKid/baraka-e-hub](https://github.com/lgndKid/baraka-e-hub) | **0** | Bobo Dioulasso |
 | [omzakrevo/parkfaso-plaques](https://github.com/omzakrevo/parkfaso-plaques) | **0** | Banfora |
+| [ouattaraamadou406/choosealicense](https://github.com/ouattaraamadou406/choosealicense) | **0** | Bobo Dioulasso |
+| [oumbarry3000-create/permigo-android](https://github.com/oumbarry3000-create/permigo-android) | **0** | Bobo dioulasso  |
+| [Phantome01/AUBE-NOUVELLE-UNIVERSITY](https://github.com/Phantome01/AUBE-NOUVELLE-UNIVERSITY) | **0** | Bobo-Dioulasso |
 | [powerexpertconnect/powerexpets-sitep](https://github.com/powerexpertconnect/powerexpets-sitep) | **0** | Banfora  |
+| [SergeAlain96/portfolio-marina-birba](https://github.com/SergeAlain96/portfolio-marina-birba) | **0** | Bobo-Dioulasso |
 
 ## Repository-first scan
 

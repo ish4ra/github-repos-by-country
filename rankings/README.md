@@ -34,29 +34,29 @@ Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a co
 | 🇧🇹 **Bhutan** | `BT` | 🟡 Building 40% | [Open country page](./bhutan.md) | — | 31 Oct 2026, 12:49 UTC |
 | 🇧🇴 **Bolivia** | `BO` | 🟡 Building 0% | [Open country page](./bolivia.md) | — | 31 Oct 2026, 12:50 UTC |
 | 🇧🇦 **Bosnia & Herzegovina** | `BA` | 🟡 Building 0% | [Open country page](./bosnia-herzegovina.md) | — | 16 Oct 2026, 21:29 UTC |
-| 🇧🇼 **Botswana** | `BW` | 🟡 Building 0% | [Open country page](./botswana.md) | — | 16 Oct 2026, 14:20 UTC |
+| 🇧🇼 **Botswana** | `BW` | 🟡 Building 3% | [Open country page](./botswana.md) | — | 16 Oct 2026, 14:20 UTC |
 | 🇧🇻 **Bouvet Island** | `BV` | Completed | [Open country page](./bouvet-island.md) | — | 25 Oct 2026, 11:44 UTC |
 | 🇧🇷 **Brazil** | `BR` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./brazil.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇮🇴 **British Indian Ocean Territory** | `IO` | Completed | [Open country page](./british-indian-ocean-territory.md) | — | 25 Oct 2026, 11:44 UTC |
 | 🇻🇬 **British Virgin Islands** | `VG` | 🟡 Building 50% | [Open country page](./british-virgin-islands.md) | — | 13 Oct 2026, 15:56 UTC |
-| 🇧🇳 **Brunei** | `BN` | 🟡 Building 34% | [Open country page](./brunei.md) | — | 16 Oct 2026, 14:20 UTC |
+| 🇧🇳 **Brunei** | `BN` | 🟡 Building 45% | [Open country page](./brunei.md) | — | 16 Oct 2026, 14:20 UTC |
 | 🇧🇬 **Bulgaria** | `BG` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./bulgaria.md) | 100 | 17 Oct 2026, 01:38 UTC |
-| 🇧🇫 **Burkina Faso** | `BF` | 🟡 Building 8% | [Open country page](./burkina-faso.md) | — | 11 Oct 2026, 07:08 UTC |
-| 🇧🇮 **Burundi** | `BI` | 🟡 Building 28% | [Open country page](./burundi.md) | — | 28 Oct 2026, 13:09 UTC |
+| 🇧🇫 **Burkina Faso** | `BF` | 🟡 Building 12% | [Open country page](./burkina-faso.md) | — | 11 Oct 2026, 07:08 UTC |
+| 🇧🇮 **Burundi** | `BI` | 🟡 Building 45% | [Open country page](./burundi.md) | — | 31 Oct 2026, 21:43 UTC |
 | 🇰🇭 **Cambodia** | `KH` | 🟡 Building 0% | [Open country page](./cambodia.md) | — | 16 Oct 2026, 23:48 UTC |
 | 🇨🇲 **Cameroon** | `CM` | 🟡 Building 0% | [Open country page](./cameroon.md) | — | 16 Oct 2026, 00:34 UTC |
 | 🇨🇦 **Canada** | `CA` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./canada.md) | 100 | 17 Oct 2026, 01:38 UTC |
-| 🇨🇻 **Cape Verde** | `CV` | 🟡 Building 13% | [Open country page](./cape-verde.md) | — | 28 Oct 2026, 13:10 UTC |
+| 🇨🇻 **Cape Verde** | `CV` | 🟡 Building 17% | [Open country page](./cape-verde.md) | — | 31 Oct 2026, 21:44 UTC |
 | 🇧🇶 **Caribbean Netherlands** | `BQ` | Completed | [Open country page](./caribbean-netherlands.md) | — | 28 Oct 2026, 13:11 UTC |
 | 🇰🇾 **Cayman Islands** | `KY` | 🟡 Building 21% | [Open country page](./cayman-islands.md) | — | 16 Oct 2026, 14:20 UTC |
-| 🇨🇫 **Central African Republic** | `CF` | 🟡 Building 35% | [Open country page](./central-african-republic.md) | — | 28 Oct 2026, 13:11 UTC |
-| 🇹🇩 **Chad** | `TD` | 🟡 Building 25% | [Open country page](./chad.md) | — | 28 Oct 2026, 13:11 UTC |
+| 🇨🇫 **Central African Republic** | `CF` | 🟡 Building 44% | [Open country page](./central-african-republic.md) | — | 31 Oct 2026, 21:44 UTC |
+| 🇹🇩 **Chad** | `TD` | 🟡 Building 33% | [Open country page](./chad.md) | — | 31 Oct 2026, 21:44 UTC |
 | 🇨🇱 **Chile** | `CL` | 🟡 Building 0% | [Open country page](./chile.md) | — | 16 Oct 2026, 09:43 UTC |
 | 🇨🇳 **China** | `CN` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./china.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇨🇽 **Christmas Island** | `CX` | Completed | [Open country page](./christmas-island.md) | — | 08 Oct 2026, 13:49 UTC |
 | 🇨🇨 **Cocos (Keeling) Islands** | `CC` | Completed | [Open country page](./cocos-keeling-islands.md) | — | 25 Oct 2026, 16:31 UTC |
 | 🇨🇴 **Colombia** | `CO` | 🟡 Building 0% | [Open country page](./colombia.md) | — | 16 Oct 2026, 23:48 UTC |
-| 🇰🇲 **Comoros** | `KM` | 🟡 Building 24% | [Open country page](./comoros.md) | — | 28 Oct 2026, 13:12 UTC |
+| 🇰🇲 **Comoros** | `KM` | 🟡 Building 30% | [Open country page](./comoros.md) | — | 31 Oct 2026, 21:45 UTC |
 | 🇨🇰 **Cook Islands** | `CK` | Completed | [Open country page](./cook-islands.md) | — | 25 Oct 2026, 16:32 UTC |
 | 🇨🇷 **Costa Rica** | `CR` | 🟡 Building 0% | [Open country page](./costa-rica.md) | — | 16 Oct 2026, 21:29 UTC |
 | 🇨🇮 **Côte d'Ivoire** | `CI` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./cote-d-ivoire.md) | 100 | 17 Oct 2026, 01:38 UTC |
