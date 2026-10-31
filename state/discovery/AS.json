@@ -13,20 +13,37 @@
   },
   "phase": "discovery",
   "nextTermIndex": 21,
-  "activeTerm": null,
+  "activeTerm": {
+    "index": 21,
+    "term": "Leone",
+    "queue": [
+      {
+        "query": "location:\"Leone\"",
+        "stage": "base",
+        "cursor": "Y3Vyc29yOjQwMA==",
+        "pageNumber": 9,
+        "attempts": 0
+      }
+    ],
+    "startedAt": "2026-10-31T12:44:51.954Z",
+    "requests": 8,
+    "leafPages": 8,
+    "shardExpansions": 0,
+    "reportedCount": null
+  },
   "discoveryComplete": false,
   "startedAt": "2026-10-08T06:14:21.730Z",
-  "updatedAt": "2026-10-28T05:52:42.725Z",
+  "updatedAt": "2026-10-31T12:45:14.509Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 21,
-    "searchRequests": 24,
-    "leafPages": 24,
+    "searchRequests": 32,
+    "leafPages": 32,
     "shardExpansions": 0,
-    "rawOwnerHits": 190,
+    "rawOwnerHits": 590,
     "acceptedOwnerHits": 0,
-    "rejectedOwnerHits": 190,
+    "rejectedOwnerHits": 590,
     "unresolvedShardCount": 0,
     "minimumRateLimitRemaining": 4957
   },
