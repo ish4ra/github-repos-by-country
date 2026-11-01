@@ -12,21 +12,38 @@
     "termsTotal": 49
   },
   "phase": "discovery",
-  "nextTermIndex": 14,
-  "activeTerm": null,
+  "nextTermIndex": 18,
+  "activeTerm": {
+    "index": 18,
+    "term": "If",
+    "queue": [
+      {
+        "query": "location:\"If\"",
+        "stage": "base",
+        "cursor": "Y3Vyc29yOjIwMA==",
+        "pageNumber": 5,
+        "attempts": 0
+      }
+    ],
+    "startedAt": "2026-11-01T22:12:37.016Z",
+    "requests": 4,
+    "leafPages": 4,
+    "shardExpansions": 0,
+    "reportedCount": null
+  },
   "discoveryComplete": false,
   "startedAt": "2026-10-06T00:08:49.093Z",
-  "updatedAt": "2026-10-29T13:21:30.791Z",
+  "updatedAt": "2026-11-01T22:12:50.471Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
-    "termsProcessed": 14,
-    "searchRequests": 32,
-    "leafPages": 32,
+    "termsProcessed": 18,
+    "searchRequests": 40,
+    "leafPages": 40,
     "shardExpansions": 0,
-    "rawOwnerHits": 947,
-    "acceptedOwnerHits": 898,
-    "rejectedOwnerHits": 49,
+    "rawOwnerHits": 1148,
+    "acceptedOwnerHits": 899,
+    "rejectedOwnerHits": 249,
     "unresolvedShardCount": 0,
     "minimumRateLimitRemaining": 4867
   },
@@ -18006,6 +18023,7 @@
         "matched": "Liberia"
       },
       "discoveryTerms": [
+        "Harbel",
         "Liberia"
       ],
       "topRepository": {
