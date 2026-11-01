@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 202**
 - Progress: **0%**
-- Retained high-potential owner candidates: **1,372**
-- Search requests completed: **40**
+- Retained high-potential owner candidates: **697**
+- Search requests completed: **48**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,20 +25,20 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [GamerHack/GamerHack.github.io](https://github.com/GamerHack/GamerHack.github.io) | **220** | Cuba |
+| [geobarrod/KDE-Services](https://github.com/geobarrod/KDE-Services) | **107** | Havana, Cuba |
 | [apiad/auditorium](https://github.com/apiad/auditorium) | **87** | Cuba |
 | [matcom/programming](https://github.com/matcom/programming) | **85** | La Habana, Cuba |
 | [pavelmc/Si5351mcu](https://github.com/pavelmc/Si5351mcu) | **71** | Camaguey, Cuba |
 | [stdevPavelmc/FAASGS](https://github.com/stdevPavelmc/FAASGS) | **68** | Camagüey, Cuba |
+| [Walkercito/CopyClip](https://github.com/Walkercito/CopyClip) | **50** | 🌍 Coding from Cienfuegos, Cuba |
 | [cuba-odoo/l10n-cuba](https://github.com/cuba-odoo/l10n-cuba) | **41** | Cuba |
 | [orlandev/compose-image-blurhash](https://github.com/orlandev/compose-image-blurhash) | **41** | Santiago de Cuba |
 | [EduardoProfe666/une-unwrapped-habana](https://github.com/EduardoProfe666/une-unwrapped-habana) | **39** | La Habana, Cuba |
+| [wolfsouldev/jerrys-pixel-icons](https://github.com/wolfsouldev/jerrys-pixel-icons) | **37** | Cuba/Matanzas  |
+| [mnicolas94/facticus-deploy](https://github.com/mnicolas94/facticus-deploy) | **35** | La Habana, Cuba |
+| [sdtv9507/RPG-Databases](https://github.com/sdtv9507/RPG-Databases) | **31** | La Habana, Cuba |
 | [PushoDev/pushodev-portfolio](https://github.com/PushoDev/pushodev-portfolio) | **29** | Ciudad de Manzanillo, Cuba |
-| [cuza/luci-app-nauta](https://github.com/cuza/luci-app-nauta) | **22** | Varadero, Cuba |
-| [acanive/TL-WN722N](https://github.com/acanive/TL-WN722N) | **20** | Cienfuegos, Cuba |
-| [yudivian/cuba-geojsons](https://github.com/yudivian/cuba-geojsons) | **20** | La Habana, Cuba |
-| [ObisoftDev/pyobigram](https://github.com/ObisoftDev/pyobigram) | **19** | Cuba |
-| [artechedi/FreeRTOS-lwIP-Vivado-2016](https://github.com/artechedi/FreeRTOS-lwIP-Vivado-2016) | **16** | CUBA |
-| [kurokykun/cuota](https://github.com/kurokykun/cuota) | **15** | Habana,Cuba |
+| [bedevlab/rdownload](https://github.com/bedevlab/rdownload) | **24** | Cuba |
 
 ## Repository-first scan
 

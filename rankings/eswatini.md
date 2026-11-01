@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 43%
+## Repository ranking status: Building 54%
 
-- Geography terms processed: **25 / 57**
-- Progress: **43%**
-- Retained high-potential owner candidates: **294**
-- Search requests completed: **32**
+- Geography terms processed: **31 / 57**
+- Progress: **54%**
+- Retained high-potential owner candidates: **317**
+- Search requests completed: **40**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -26,8 +26,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | --- | ---: | --- |
 | [Njabulo240/InventorySystem](https://github.com/Njabulo240/InventorySystem) | **38** | Eswatini, Manzini |
 | [crypto-jobs-fyi/crawler](https://github.com/crypto-jobs-fyi/crawler) | **8** | Swaziland |
+| [allGhostAnon/wifi-hacker-advanced](https://github.com/allGhostAnon/wifi-hacker-advanced) | **7** | Mbabane, Swaziland  |
 | [SiveMdluli/My-Portfolio](https://github.com/SiveMdluli/My-Portfolio) | **7** | ESwatini, Mbabane |
-| [allGhostAnon/wifi-hacker-advanced](https://github.com/allGhostAnon/wifi-hacker-advanced) | **6** | Mbabane, Swaziland  |
 | [wandilemawelela/ai-engineer-project-1-llm-chatbot](https://github.com/wandilemawelela/ai-engineer-project-1-llm-chatbot) | **5** | Manzini, Eswatini |
 | [Addis-AI-Org/addis-ai-docs](https://github.com/Addis-AI-Org/addis-ai-docs) | **4** | Swaziland |
 | [Mtsetfosisekelo/Variance-Gamma-Model-Calibration](https://github.com/Mtsetfosisekelo/Variance-Gamma-Model-Calibration) | **4** | Plot 1149 Nkhanini Township, Nhlangano, Swaziland |

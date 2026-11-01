@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 205**
 - Progress: **0%**
-- Retained high-potential owner candidates: **1,275**
-- Search requests completed: **32**
+- Retained high-potential owner candidates: **1,537**
+- Search requests completed: **40**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
