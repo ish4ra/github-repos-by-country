@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 137**
 - Progress: **0%**
-- Retained high-potential owner candidates: **1,158**
-- Search requests completed: **32**
+- Retained high-potential owner candidates: **1,517**
+- Search requests completed: **40**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -38,7 +38,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [gen1us2k/containers](https://github.com/gen1us2k/containers) | **36** | Kyrgyzstan, Bishkek |
 | [chyngyz/awesome-angular-components](https://github.com/chyngyz/awesome-angular-components) | **23** | Bishkek, Kyrgyzstan |
 | [Maksbicoin/Pdebank](https://github.com/Maksbicoin/Pdebank) | **19** | Kyrgyzstan |
-| [d010b/custom_geoip](https://github.com/d010b/custom_geoip) | **15** | Kyrgyzstan |
+| [constantinekg/pcpo](https://github.com/constantinekg/pcpo) | **17** | Kyrgyzstan |
 
 ## Repository-first scan
 

@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 555**
 - Progress: **0%**
-- Retained high-potential owner candidates: **1,055**
-- Search requests completed: **32**
+- Retained high-potential owner candidates: **1,352**
+- Search requests completed: **40**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -31,14 +31,14 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [JonCooperWorks/judas](https://github.com/JonCooperWorks/judas) | **274** | Jamaica |
 | [trevoirwilliams/HR.LeaveManagement.CleanArchitecture-dotnet5](https://github.com/trevoirwilliams/HR.LeaveManagement.CleanArchitecture-dotnet5) | **252** | Jamaica |
 | [jordanliu/themecn](https://github.com/jordanliu/themecn) | **249** | Kingston, Jamaica |
+| [Steams/ra-data-hasura-graphql](https://github.com/Steams/ra-data-hasura-graphql) | **212** | Jamaica |
 | [absurdprofit/react-motion-router](https://github.com/absurdprofit/react-motion-router) | **151** | Jamaica |
 | [Lithium876/ConTroll_Remote_Access_Trojan](https://github.com/Lithium876/ConTroll_Remote_Access_Trojan) | **104** | Jamaica |
 | [JordanMicahBennett/SMART-CT-SCAN_BASED-COVID19_VIRUS_DETECTOR](https://github.com/JordanMicahBennett/SMART-CT-SCAN_BASED-COVID19_VIRUS_DETECTOR) | **102** | Jamaica |
+| [cajaun/laminar](https://github.com/cajaun/laminar) | **91** | Kingston, Jamaica |
 | [marlonajgayle/Net6WebApiTemplate](https://github.com/marlonajgayle/Net6WebApiTemplate) | **77** | Kingston, Jamaica |
 | [JasonHinds13/hackable](https://github.com/JasonHinds13/hackable) | **73** | Jamaica |
-| [NyronW/MinimalEndpoints](https://github.com/NyronW/MinimalEndpoints) | **70** | Kingston, Jamaica |
-| [IceDragon200/oui-blendish](https://github.com/IceDragon200/oui-blendish) | **55** | Knockpatrick, Manchester, Jamaica W.I |
-| [Fortnite-API/py-wrapper](https://github.com/Fortnite-API/py-wrapper) | **42** | Jamaica |
+| [alexstewartja/laravel-attribute-observer](https://github.com/alexstewartja/laravel-attribute-observer) | **72** | Jamaica |
 
 ## Repository-first scan
 

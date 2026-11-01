@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 162**
 - Progress: **0%**
-- Retained high-potential owner candidates: **1,207**
-- Search requests completed: **32**
+- Retained high-potential owner candidates: **1,477**
+- Search requests completed: **39**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -37,8 +37,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [rivo2302/Mvola](https://github.com/rivo2302/Mvola) | **24** | Antananarivo, Madagascar |
 | [RINOHeinrich1/madaChatFrontend](https://github.com/RINOHeinrich1/madaChatFrontend) | **20** | Madagascar |
 | [tokyramarozaka/crkbd-corne-v3-keymap](https://github.com/tokyramarozaka/crkbd-corne-v3-keymap) | **19** | Madagascar |
+| [HoracioSoldman/batch-processing-on-aws](https://github.com/HoracioSoldman/batch-processing-on-aws) | **15** | Antananarivo, Madagascar |
 | [KiritoEM/boolean-table](https://github.com/KiritoEM/boolean-table) | **15** | Antananarivo, Madagascar |
-| [LizkaRyan/WinterFramework](https://github.com/LizkaRyan/WinterFramework) | **15** | Antananarivo, Madagascar |
 
 ## Repository-first scan
 
