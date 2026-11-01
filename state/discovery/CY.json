@@ -18,50 +18,57 @@
     "term": "Cyprus",
     "queue": [
       {
-        "query": "location:\"Cyprus\" type:user followers:0 repos:10..24",
+        "query": "location:\"Cyprus\" type:user followers:1..4 repos:1..4",
         "stage": "repos",
-        "cursor": "Y3Vyc29yOjE1MA==",
-        "pageNumber": 4,
+        "cursor": "Y3Vyc29yOjUw",
+        "pageNumber": 2,
         "attempts": 0
       },
       {
-        "query": "location:\"Cyprus\" type:user followers:0 repos:25..49",
-        "stage": "repos",
-        "cursor": null,
-        "pageNumber": 1,
-        "attempts": 0
-      },
-      {
-        "query": "location:\"Cyprus\" type:user followers:0 repos:50..99",
+        "query": "location:\"Cyprus\" type:user followers:1..4 repos:5..9",
         "stage": "repos",
         "cursor": null,
         "pageNumber": 1,
         "attempts": 0
       },
       {
-        "query": "location:\"Cyprus\" type:user followers:0 repos:100..249",
+        "query": "location:\"Cyprus\" type:user followers:1..4 repos:10..24",
         "stage": "repos",
         "cursor": null,
         "pageNumber": 1,
         "attempts": 0
       },
       {
-        "query": "location:\"Cyprus\" type:user followers:0 repos:250..499",
+        "query": "location:\"Cyprus\" type:user followers:1..4 repos:25..49",
         "stage": "repos",
         "cursor": null,
         "pageNumber": 1,
         "attempts": 0
       },
       {
-        "query": "location:\"Cyprus\" type:user followers:0 repos:>=500",
+        "query": "location:\"Cyprus\" type:user followers:1..4 repos:50..99",
         "stage": "repos",
         "cursor": null,
         "pageNumber": 1,
         "attempts": 0
       },
       {
-        "query": "location:\"Cyprus\" type:user followers:1..4",
-        "stage": "followers",
+        "query": "location:\"Cyprus\" type:user followers:1..4 repos:100..249",
+        "stage": "repos",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Cyprus\" type:user followers:1..4 repos:250..499",
+        "stage": "repos",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Cyprus\" type:user followers:1..4 repos:>=500",
+        "stage": "repos",
         "cursor": null,
         "pageNumber": 1,
         "attempts": 0
@@ -166,24 +173,24 @@
       }
     ],
     "startedAt": "2026-10-04T21:35:40.455Z",
-    "requests": 32,
-    "leafPages": 29,
-    "shardExpansions": 3,
-    "reportedCount": 2579
+    "requests": 40,
+    "leafPages": 36,
+    "shardExpansions": 4,
+    "reportedCount": 1565
   },
   "discoveryComplete": false,
   "startedAt": "2026-10-04T21:35:40.455Z",
-  "updatedAt": "2026-10-28T22:41:53.886Z",
+  "updatedAt": "2026-11-01T06:19:40.675Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
     "termsProcessed": 0,
-    "searchRequests": 32,
-    "leafPages": 29,
-    "shardExpansions": 3,
-    "rawOwnerHits": 1561,
-    "acceptedOwnerHits": 1536,
-    "rejectedOwnerHits": 25,
+    "searchRequests": 40,
+    "leafPages": 36,
+    "shardExpansions": 4,
+    "rawOwnerHits": 1725,
+    "acceptedOwnerHits": 1698,
+    "rejectedOwnerHits": 27,
     "unresolvedShardCount": 0,
     "minimumRateLimitRemaining": 4932
   },
@@ -1559,6 +1566,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjc3MDAxMzU=",
+      "login": "lonely-lockley",
+      "name": null,
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/lonely-lockley",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7700135?u=59d5d510b899b90e40aa8436a05df58005b54d4d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "archinsight",
+        "nameWithOwner": "lonely-lockley/archinsight",
+        "url": "https://github.com/lonely-lockley/archinsight",
+        "description": "Simplicity in Code, Power in Design",
+        "stargazerCount": 91,
+        "forkCount": 7,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-06-07T09:30:04Z",
+        "pushedAt": "2026-09-26T09:26:55Z",
+        "homepageUrl": "https://archinsight.org",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjY1MjQ5Ng==",
       "login": "amarao",
       "name": "George Shuklin",
@@ -1594,6 +1640,45 @@
         "licenseInfo": {
           "name": "GNU General Public License v2.0",
           "spdxId": "GPL-2.0"
+        }
+      }
+    },
+    {
+      "id": "U_kgDODZERuA",
+      "login": "dmitriimaksimovdevelop",
+      "name": "Maksimov Dmitrii",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/dmitriimaksimovdevelop",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/227611064?u=ccbd0cc6581e9adea8835b77b2afcb2b581269e2&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "melisai",
+        "nameWithOwner": "dmitriimaksimovdevelop/melisai",
+        "url": "https://github.com/dmitriimaksimovdevelop/melisai",
+        "description": "Single-binary Linux performance diagnostics via eBPF/BCC, built for humans and AI agents (MCP)",
+        "stargazerCount": 66,
+        "forkCount": 6,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-02-17T09:59:02Z",
+        "pushedAt": "2026-06-04T06:09:01Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
         }
       }
     },
@@ -1966,6 +2051,81 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjI3NjIwOTM=",
+      "login": "andsol",
+      "name": "Andrey S",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/andsol",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2762093?u=f2a0221274c08c43640f161803db794182953551&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "esp32-creality-chamber-heater",
+        "nameWithOwner": "andsol/esp32-creality-chamber-heater",
+        "url": "https://github.com/andsol/esp32-creality-chamber-heater",
+        "description": null,
+        "stargazerCount": 26,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-06-27T14:44:00Z",
+        "pushedAt": "2026-09-20T20:06:07Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU3MjcxNDc=",
+      "login": "fotsakir",
+      "name": "Fotios Tsakiridis",
+      "type": "User",
+      "location": "Lemesos Avenue 2, Cronos Complex, 2220 Leukosia, Cyprus",
+      "url": "https://github.com/fotsakir",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5727147?u=30c3ba6394f9fcd606841e0e61310e00b8ee46a1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "codehero",
+        "nameWithOwner": "fotsakir/codehero",
+        "url": "https://github.com/fotsakir/codehero",
+        "description": "Self-hosted AI Coding Agent powered by Claude | Autonomous Development Platform | POC for Human-AI Collaboration",
+        "stargazerCount": 26,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-08T19:18:51Z",
+        "pushedAt": "2026-04-08T13:37:46Z",
+        "homepageUrl": "https://fotsakir.github.io/codehero/",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjc3MTE1NzU5",
       "login": "lyushher",
       "name": "Firdevs Akbayır",
@@ -2036,6 +2196,45 @@
         "homepageUrl": "",
         "primaryLanguage": null,
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEyMjczMzc=",
+      "login": "Darkemon",
+      "name": "Artem Krasotin",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/Darkemon",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1227337?u=29c464168ad57cafd8cd9e40315059e886a5ec20&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "troutbox",
+        "nameWithOwner": "Darkemon/troutbox",
+        "url": "https://github.com/Darkemon/troutbox",
+        "description": "Go Transactional Outbox Library",
+        "stargazerCount": 17,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-04-29T11:30:23Z",
+        "pushedAt": "2026-08-17T21:43:54Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -2140,6 +2339,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Kotlin"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE4Nzk4Nzg=",
+      "login": "IvanPopov",
+      "name": "Ivan Popov",
+      "type": "User",
+      "location": "Paphos, Cyprus",
+      "url": "https://github.com/IvanPopov",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1879878?u=498fed7dfac0220a26d0afc193ae0df60b73c99c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "akra-engine-core",
+        "nameWithOwner": "IvanPopov/akra-engine-core",
+        "url": "https://github.com/IvanPopov/akra-engine-core",
+        "description": "3D game engine based on WebGL/JavaScript.",
+        "stargazerCount": 11,
+        "forkCount": 5,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2012-06-22T10:37:24Z",
+        "pushedAt": "2019-11-10T12:15:50Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
         },
         "licenseInfo": null
       }
@@ -2443,6 +2678,81 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjUzMTg5MTkz",
+      "login": "adiafora",
+      "name": "Sergei Zhidkov",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/adiafora",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/53189193?u=d7c0c7ffddcc823887b7f314cd9b9b15dafa4362&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "laravel-notification-bitrix24",
+        "nameWithOwner": "adiafora/laravel-notification-bitrix24",
+        "url": "https://github.com/adiafora/laravel-notification-bitrix24",
+        "description": "Данный пакет расширяет стандартные возможности Notification Laravel, позволяя отправлять уведомления из Вашего приложения в чат Битрикс24, или же пользователю Битрикс24.",
+        "stargazerCount": 5,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-09-11T17:02:40Z",
+        "pushedAt": "2023-10-12T06:07:39Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY3NTQyOTQ1",
+      "login": "Lap420",
+      "name": "Sergei Laptev",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/Lap420",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/67542945?u=c3fb31b48b4282a32071ecc4ad79b971e7e170d6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "LapGrid",
+        "nameWithOwner": "Lap420/LapGrid",
+        "url": "https://github.com/Lap420/LapGrid",
+        "description": "My custom Grid in SwiftUI based on Layout",
+        "stargazerCount": 5,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-04-25T10:23:14Z",
+        "pushedAt": "2024-04-25T13:26:10Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Swift"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOC8zzPw",
       "login": "YegorGilyov",
       "name": "Yegor Gilyov",
@@ -2551,6 +2861,45 @@
           "name": "Python"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE4MTQ0MTg=",
+      "login": "ekundo",
+      "name": "Evgeny Kundo",
+      "type": "User",
+      "location": "Limassol, Cyprus",
+      "url": "https://github.com/ekundo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1814418?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "mc",
+        "nameWithOwner": "ekundo/mc",
+        "url": "https://github.com/ekundo/mc",
+        "description": "Midnight Commander plugins that open Vector-06C floppy and hard disk images as directories",
+        "stargazerCount": 4,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-03-02T23:08:25Z",
+        "pushedAt": "2026-08-26T06:05:46Z",
+        "homepageUrl": "https://ekundo.github.io/mc/",
+        "primaryLanguage": {
+          "name": "Shell"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -2822,6 +3171,45 @@
       }
     },
     {
+      "id": "U_kgDOC8f0JA",
+      "login": "IQ-GROUP",
+      "name": "Begula",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/IQ-GROUP",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/197653540?u=73745831357f7612e9309e924ef2428a9ec3e5c4&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "Turtle-Engine",
+        "nameWithOwner": "IQ-GROUP/Turtle-Engine",
+        "url": "https://github.com/IQ-GROUP/Turtle-Engine",
+        "description": "Game Engine made in pure python that uses python turtle for rendering.",
+        "stargazerCount": 3,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-07-20T16:37:09Z",
+        "pushedAt": "2025-07-20T16:42:58Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjU2MTI5NDk4",
       "login": "krappaU",
       "name": "Krappa",
@@ -2858,6 +3246,117 @@
           "name": "GNU Affero General Public License v3.0",
           "spdxId": "AGPL-3.0"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY1MDcyMjU=",
+      "login": "lueurxax",
+      "name": "ANDREY KHASANOV",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/lueurxax",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6507225?u=7224123582d37cfb4ecbffd18bed08e6dcb3bc2a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "CryptoSavingsTracker",
+        "nameWithOwner": "lueurxax/CryptoSavingsTracker",
+        "url": "https://github.com/lueurxax/CryptoSavingsTracker",
+        "description": "Cross-platform crypto savings tracker for goal planning, monthly budgeting, and portfolio contribution tracking across iOS, macOS, visionOS, and Android.",
+        "stargazerCount": 3,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-07-27T09:01:52Z",
+        "pushedAt": "2026-10-10T20:14:54Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Swift"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOCMJEWA",
+      "login": "METKA0",
+      "name": "Tayfun Mete Kar",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/METKA0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/146949208?u=b4b97336016b4b99abdc04c102e3cc7c0e95e6a9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "C-project",
+        "nameWithOwner": "METKA0/C-project",
+        "url": "https://github.com/METKA0/C-project",
+        "description": null,
+        "stargazerCount": 3,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-02-28T00:16:51Z",
+        "pushedAt": "2026-04-12T07:44:38Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIyMDIxMzc5",
+      "login": "SinnieOnFire",
+      "name": "Sinnie",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/SinnieOnFire",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/22021379?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "jsonl-finetune",
+        "nameWithOwner": "SinnieOnFire/jsonl-finetune",
+        "url": "https://github.com/SinnieOnFire/jsonl-finetune",
+        "description": "Python script to transform a set of localization .json files into a .jsonl file for LLM fine-tuning.",
+        "stargazerCount": 3,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-02-04T13:17:17Z",
+        "pushedAt": "2025-01-25T13:58:19Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -3005,6 +3504,118 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjIwMTQ1",
+      "login": "asv",
+      "name": "Aleksei Smirnov",
+      "type": "User",
+      "location": "Cyprus, Nicosia",
+      "url": "https://github.com/asv",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/20145?u=66418695776179cfd17a5afc6845a210753577c5&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "xlockmost",
+        "nameWithOwner": "asv/xlockmost",
+        "url": "https://github.com/asv/xlockmost",
+        "description": "fast, minimalistic X display locker",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2009-04-29T21:05:49Z",
+        "pushedAt": "2010-01-13T19:31:13Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEyNzU4NTQ=",
+      "login": "BakanovKirill",
+      "name": "Kirill",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/BakanovKirill",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1275854?u=55ddb64292f7e1b045288ee7edbf94a32d9226b1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "Polls",
+        "nameWithOwner": "BakanovKirill/Polls",
+        "url": "https://github.com/BakanovKirill/Polls",
+        "description": null,
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2011-12-23T20:39:58Z",
+        "pushedAt": "2011-12-23T20:47:15Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM0MzAwODA1",
+      "login": "boldthemes",
+      "name": "BoldThemes",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/boldthemes",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/34300805?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "wp-juggler-server",
+        "nameWithOwner": "boldthemes/wp-juggler-server",
+        "url": "https://github.com/boldthemes/wp-juggler-server",
+        "description": "WP Juggler: A robust, free, open-source WordPress Management System, allows you to command and control unlimited number of WordPress sites through a single, self-hosted control panel. With swift and seamless setup, WP Juggler frees you from the painstaking upkeep of individual WordPress instances, giving you more time to focus on what you do best.",
+        "stargazerCount": 2,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-08-14T10:26:58Z",
+        "pushedAt": "2024-10-17T14:49:45Z",
+        "homepageUrl": "https://bold-themes.com/",
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjEyNjg1NTU3",
       "login": "btcsoft",
       "name": "BtcSoft.Com",
@@ -3116,6 +3727,42 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE5NDY0OTIy",
+      "login": "devnovikov",
+      "name": "Alexey",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/devnovikov",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19464922?u=3436a862881cd4e475202bd86da247f9e9424a46&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "pneumonia-detection",
+        "nameWithOwner": "devnovikov/pneumonia-detection",
+        "url": "https://github.com/devnovikov/pneumonia-detection",
+        "description": "Pneumonia detection using deep learning",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-05T18:12:39Z",
+        "pushedAt": "2026-01-05T23:19:33Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -3487,6 +4134,78 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjE2NzI0MTk3",
+      "login": "kapankov",
+      "name": "Konstantin A. Pankov",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/kapankov",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16724197?u=c63259a8be38e2e5bfe11c38fa87acc7406a408a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "RawLab",
+        "nameWithOwner": "kapankov/RawLab",
+        "url": "https://github.com/kapankov/RawLab",
+        "description": "RawLab",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-04-16T05:57:50Z",
+        "pushedAt": "2020-01-30T03:56:19Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjkxMjQ4Mjkw",
+      "login": "Katrin3536",
+      "name": "Katerina Dudko",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/Katrin3536",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/91248290?u=a64c6d26cbdf79f10ec23e547c76a7cc7e947bb1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "cards",
+        "nameWithOwner": "Katrin3536/cards",
+        "url": "https://github.com/Katrin3536/cards",
+        "description": null,
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-06-14T13:19:30Z",
+        "pushedAt": "2022-09-01T14:46:19Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQzNzc3OTA5",
       "login": "Lanmord",
       "name": "Konstantin",
@@ -3673,6 +4392,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjUwOTA4Mzcy",
+      "login": "philippossfrn",
+      "name": "Philippos Sophroniou",
+      "type": "User",
+      "location": "Nicosia, Cyprus",
+      "url": "https://github.com/philippossfrn",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50908372?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "Distributed-Computing",
+        "nameWithOwner": "philippossfrn/Distributed-Computing",
+        "url": "https://github.com/philippossfrn/Distributed-Computing",
+        "description": "Distributed System for storage/upload and retrieve files using MPI",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-01-30T01:13:26Z",
+        "pushedAt": "2021-01-30T01:33:33Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE2NzAyODY3",
       "login": "shishkinaira",
       "name": "Irina Shishkina",
@@ -3706,6 +4461,45 @@
           "name": "Java"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg3ODA4NDI=",
+      "login": "snikol03",
+      "name": "Stelios Nikolaou",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/snikol03",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8780842?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "Markov-Chain-Project",
+        "nameWithOwner": "snikol03/Markov-Chain-Project",
+        "url": "https://github.com/snikol03/Markov-Chain-Project",
+        "description": "Perl implementation of Markov Chain for the course BIO331",
+        "stargazerCount": 2,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-04-11T09:21:35Z",
+        "pushedAt": "2017-05-03T09:44:10Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Perl"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -3776,6 +4570,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMyNzcyNjA0",
+      "login": "victorbahlangene",
+      "name": "Victor Bahlangene",
+      "type": "User",
+      "location": "Nicosia, Cyprus",
+      "url": "https://github.com/victorbahlangene",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/32772604?u=d059e875cddd359296c474e7bbd17c42bb3c96a9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "Data_Science_Portfolio",
+        "nameWithOwner": "victorbahlangene/Data_Science_Portfolio",
+        "url": "https://github.com/victorbahlangene/Data_Science_Portfolio",
+        "description": "My Data Science Portfolio site",
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-05-20T17:37:03Z",
+        "pushedAt": "2023-02-11T20:42:35Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
         },
         "licenseInfo": null
       }
@@ -3923,6 +4753,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQzODQ1NTg4",
+      "login": "AgelousisDev",
+      "name": "Vagelis Agelousis",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/AgelousisDev",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43845588?u=8765c3187174f5a5c4b401f065623b6030bc55e8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "JetpackWeatherForWearOS",
+        "nameWithOwner": "AgelousisDev/JetpackWeatherForWearOS",
+        "url": "https://github.com/AgelousisDev/JetpackWeatherForWearOS",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-10-27T05:19:37Z",
+        "pushedAt": "2022-10-31T12:32:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Kotlin"
         },
         "licenseInfo": null
       }
@@ -4108,6 +4974,45 @@
           "name": "Go"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI4MTQxOTk=",
+      "login": "alex-dwt",
+      "name": "Alex",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/alex-dwt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2814199?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "RaspiVideoRecorder",
+        "nameWithOwner": "alex-dwt/RaspiVideoRecorder",
+        "url": "https://github.com/alex-dwt/RaspiVideoRecorder",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2017-02-12T12:37:41Z",
+        "pushedAt": "2017-04-14T21:35:55Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -4364,6 +5269,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjIyMjMxMTM5",
+      "login": "apten-fors",
+      "name": "Aleksandr Zhitnikov",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/apten-fors",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/22231139?u=511386ae370bd8cd7a33fbed8543e1f945421af9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "infra",
+        "nameWithOwner": "apten-fors/infra",
+        "url": "https://github.com/apten-fors/infra",
+        "description": "Made with 💀 overengineering and ❤️ for the craft",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-18T14:37:03Z",
+        "pushedAt": "2026-08-21T12:04:13Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOEs6zdw",
       "login": "ArdaKurtt",
       "name": "Arda Kurt",
@@ -4433,6 +5372,45 @@
           "name": "Dart"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBZ8WuQ",
+      "login": "ARGYROU-MINAS",
+      "name": "ARGYROU MINAS",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/ARGYROU-MINAS",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/94312121?u=040c78e7c23551e4f6033b36eae7d3593a3e93d4&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "bintra",
+        "nameWithOwner": "ARGYROU-MINAS/bintra",
+        "url": "https://github.com/ARGYROU-MINAS/bintra",
+        "description": "Fork of git repository: https://gitlab.kretschmann.software/kgroup/bintra.git, Project Website: https://bintra.directory/",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2022-09-18T17:22:43Z",
+        "pushedAt": "2023-01-24T13:20:27Z",
+        "homepageUrl": "https://gitlab.kretschmann.software/kgroup/bintra",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -4506,6 +5484,114 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "U_kgDOCH7_gA",
+      "login": "attaloslife",
+      "name": "Attalos",
+      "type": "User",
+      "location": "Nicosia, Cyprus",
+      "url": "https://github.com/attaloslife",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/142540672?u=1d5cdd13be10068874e04e8f32377d6eb9b3a955&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "pegboardfamily",
+        "nameWithOwner": "attaloslife/pegboardfamily",
+        "url": "https://github.com/attaloslife/pegboardfamily",
+        "description": "Tool Holders for Ikea Skadis",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-02-07T20:31:23Z",
+        "pushedAt": "2025-10-08T07:08:37Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "G-code"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ5NTg3MjA=",
+      "login": "ayratzay",
+      "name": "ayrat",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/ayratzay",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4958720?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "Rossmann1",
+        "nameWithOwner": "ayratzay/Rossmann1",
+        "url": "https://github.com/ayratzay/Rossmann1",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-11-14T06:03:19Z",
+        "pushedAt": "2015-12-01T11:21:16Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMzMjUxNTk2",
+      "login": "BorisBelovA",
+      "name": "Boris Belov",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/BorisBelovA",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33251596?u=eb3a2a771ecd12e87810460d89bc2786743d155b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "RoomLocatorApp",
+        "nameWithOwner": "BorisBelovA/RoomLocatorApp",
+        "url": "https://github.com/BorisBelovA/RoomLocatorApp",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-12-25T18:19:58Z",
+        "pushedAt": "2019-03-15T15:47:33Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -4911,6 +5997,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU2Mzg4Mjk4",
+      "login": "Dealmi",
+      "name": null,
+      "type": "User",
+      "location": "Cyprus ",
+      "url": "https://github.com/Dealmi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/56388298?u=b5daa7eb864a80c8270e1a294c0f610bf1d9658f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "E-M_FinalTask",
+        "nameWithOwner": "Dealmi/E-M_FinalTask",
+        "url": "https://github.com/Dealmi/E-M_FinalTask",
+        "description": "Vagrant-based 3-machine infrastructure",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-11-14T08:51:44Z",
+        "pushedAt": "2022-04-12T10:08:06Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE1MDc0Mzkx",
       "login": "Deathwalker9959",
       "name": "Andreas Malathouras",
@@ -5199,6 +6321,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjgzNjczNjk2",
+      "login": "Dumebi-Nwanze",
+      "name": "Dumebi Nwanze",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/Dumebi-Nwanze",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/83673696?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "Delivery-Tracking-app",
+        "nameWithOwner": "Dumebi-Nwanze/Delivery-Tracking-app",
+        "url": "https://github.com/Dumebi-Nwanze/Delivery-Tracking-app",
+        "description": "Flutter application powered by GraphQL backend",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-09-21T15:39:27Z",
+        "pushedAt": "2022-09-21T15:41:18Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Dart"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCSiuCQ",
       "login": "egeakil",
       "name": "Marius Ege akil",
@@ -5298,6 +6456,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEyMTM2OTQ5",
+      "login": "elenaSid",
+      "name": "Elena",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/elenaSid",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12136949?u=295ad324b8c3dd4d868493b62aa2fb31aeba320c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "AndroidGradientWatchFace",
+        "nameWithOwner": "elenaSid/AndroidGradientWatchFace",
+        "url": "https://github.com/elenaSid/AndroidGradientWatchFace",
+        "description": "Simple watch face with different gradient backgrounds for Android Wear 2.0",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-01-05T05:27:25Z",
+        "pushedAt": "2018-01-05T05:59:32Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Java"
         },
         "licenseInfo": null
       }
@@ -5445,6 +6639,45 @@
       }
     },
     {
+      "id": "U_kgDODmh7og",
+      "login": "euglado",
+      "name": "Lukas",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/euglado",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/241728418?u=54bb3190116c4102c732edd0617ed7d58e6dca86&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "harbordesk",
+        "nameWithOwner": "euglado/harbordesk",
+        "url": "https://github.com/euglado/harbordesk",
+        "description": "A privacy-conscious Discord support ticket bot with private channels, staff access, and safe ticket closure.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-13T16:24:23Z",
+        "pushedAt": "2026-10-13T16:31:58Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "U_kgDOBe3b6w",
       "login": "EvgeniyTen",
       "name": "Evgeny Timofeev",
@@ -5513,6 +6746,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Rust"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYyMjY3MzMy",
+      "login": "eyong-joel7",
+      "name": "JOEL EYONG",
+      "type": "User",
+      "location": "North Cyprus",
+      "url": "https://github.com/eyong-joel7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/62267332?u=9ddbb86e5010390b90ab82b4fb8837459f94c96a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "exercise-tracker-app",
+        "nameWithOwner": "eyong-joel7/exercise-tracker-app",
+        "url": "https://github.com/eyong-joel7/exercise-tracker-app",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-01-14T16:58:25Z",
+        "pushedAt": "2021-01-14T17:08:13Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
         },
         "licenseInfo": null
       }
@@ -5874,6 +7143,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjg1MDg5MjYz",
+      "login": "jekaplugarev",
+      "name": "Evgeny Plugarev",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/jekaplugarev",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/85089263?u=1ca1c8b77504326e08c1d5347f18d156decfd3cc&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "online-cinema-frontend",
+        "nameWithOwner": "jekaplugarev/online-cinema-frontend",
+        "url": "https://github.com/jekaplugarev/online-cinema-frontend",
+        "description": "Онлайн кинотеатр - Frontend 🎬 Стек: TS, React, NextJS, Redux-Toolkit, Tailwind.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-07-06T12:36:35Z",
+        "pushedAt": "2022-07-28T03:44:33Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI0ODgwNjM1",
       "login": "jpvoisey",
       "name": "Jeremy Voisey",
@@ -6124,6 +7429,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjEwMjczODQ=",
+      "login": "kn3sv1",
+      "name": "Angie Neophytou",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/kn3sv1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1027384?u=daa11ffca596b0d91a5802492037a33a1adc3fd8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "meteoprog1",
+        "nameWithOwner": "kn3sv1/meteoprog1",
+        "url": "https://github.com/kn3sv1/meteoprog1",
+        "description": "meteoprog1 - первый тестовый проект",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2011-09-05T15:24:50Z",
+        "pushedAt": null,
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjUwMTg5NzEx",
       "login": "Krotehsad",
       "name": "Kursad Mustafa",
@@ -6230,6 +7569,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ2MjU2Mzgy",
+      "login": "Lastsiddiga",
+      "name": "SIDIKA TAŞRALI",
+      "type": "User",
+      "location": "cyprus",
+      "url": "https://github.com/Lastsiddiga",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/46256382?u=5cc20a918f4d8eadca61aac8545d71fc55cd6879&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "Movie-Theater-Automatization",
+        "nameWithOwner": "Lastsiddiga/Movie-Theater-Automatization",
+        "url": "https://github.com/Lastsiddiga/Movie-Theater-Automatization",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-06-17T13:27:03Z",
+        "pushedAt": "2022-06-20T20:12:21Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCN7v8g",
       "login": "Leandros04",
       "name": "Leandros",
@@ -6330,6 +7705,42 @@
         "pushedAt": "2025-09-18T12:49:04Z",
         "homepageUrl": "https://www.langchain.com",
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBsSzDg",
+      "login": "Lypovetskyi",
+      "name": "Dmytro",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/Lypovetskyi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/113554190?u=f4f57f2e96fdbb94090c42003076cb2a714e7927&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "MovieCatalogApplication",
+        "nameWithOwner": "Lypovetskyi/MovieCatalogApplication",
+        "url": "https://github.com/Lypovetskyi/MovieCatalogApplication",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-05-11T22:28:24Z",
+        "pushedAt": "2023-05-15T11:11:49Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
         "licenseInfo": null
       }
     },
@@ -6484,6 +7895,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjEwNjM5MjE3",
+      "login": "mechos3d",
+      "name": "Pavel Gorgolevskiy",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/mechos3d",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10639217?u=b6812e706f01896ad9bff70cb1a920b98cf233d5&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "thrift_benchmark",
+        "nameWithOwner": "mechos3d/thrift_benchmark",
+        "url": "https://github.com/mechos3d/thrift_benchmark",
+        "description": "Files used while conducting a simple benchmark of Apache Thirft for Rambler&Co meetup",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-08-21T22:19:52Z",
+        "pushedAt": "2023-01-20T03:07:14Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Ruby"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjU1MDk5MDQz",
       "login": "miakovlev",
       "name": "Mikhail",
@@ -6554,6 +8001,42 @@
           "name": "GNU General Public License v3.0",
           "spdxId": "GPL-3.0"
         }
+      }
+    },
+    {
+      "id": "U_kgDOBpmLlg",
+      "login": "mofopeadegoke",
+      "name": "Adegoke Mofopefoluwa Daniel",
+      "type": "User",
+      "location": "Famagusta, North Cyprus",
+      "url": "https://github.com/mofopeadegoke",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/110726038?u=5685e56e6179c859ed751c356ceb7567868e50da&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "turkcellAi",
+        "nameWithOwner": "mofopeadegoke/turkcellAi",
+        "url": "https://github.com/mofopeadegoke/turkcellAi",
+        "description": "AI customer-support agent for tourists, built for the Turkcell AI competition",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-23T12:04:00Z",
+        "pushedAt": "2026-02-18T08:07:30Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -6807,6 +8290,42 @@
       }
     },
     {
+      "id": "U_kgDOBlqXXA",
+      "login": "NikD0R",
+      "name": "Mykyta Doroshenko",
+      "type": "User",
+      "location": "Ayia Napa, Cyprus",
+      "url": "https://github.com/NikD0R",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/106600284?u=3921f57e16ff776e58fc20b12669869e960765d7&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "gymai-planner",
+        "nameWithOwner": "NikD0R/gymai-planner",
+        "url": "https://github.com/NikD0R/gymai-planner",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-06-16T22:47:40Z",
+        "pushedAt": "2026-08-12T11:50:33Z",
+        "homepageUrl": "https://gymai-planner.vercel.app",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQwOTAzNjE=",
       "login": "nkonstantinou",
       "name": "Nikos Konstantinou",
@@ -6983,6 +8502,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjIyODUwNTM=",
+      "login": "oik741",
+      "name": "Vladimir Shaikovskii",
+      "type": "User",
+      "location": "Limassol, Cyprus",
+      "url": "https://github.com/oik741",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2285053?u=5504a8614a8a65bd80fca76d0e4f10c0cc7b640b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "lua-smaz",
+        "nameWithOwner": "oik741/lua-smaz",
+        "url": "https://github.com/oik741/lua-smaz",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-07-02T14:17:46Z",
+        "pushedAt": "2018-07-02T20:11:35Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Lua"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjc2MDEwMTUz",
       "login": "OkachuKun",
       "name": null,
@@ -7123,6 +8681,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "KFramework"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM1MDUzNzY5",
+      "login": "Ovladimirou",
+      "name": "Onisiforos Vladimirou",
+      "type": "User",
+      "location": "Limassol, Cyprus",
+      "url": "https://github.com/Ovladimirou",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/35053769?u=cc698f910ae659e9bce7285b75e0c364e17edad9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "Detecting-CXR-and-CT-Covid19-images-using-Deep-Learning",
+        "nameWithOwner": "Ovladimirou/Detecting-CXR-and-CT-Covid19-images-using-Deep-Learning",
+        "url": "https://github.com/Ovladimirou/Detecting-CXR-and-CT-Covid19-images-using-Deep-Learning",
+        "description": "Detecting and classifying CT and CXR Covid-19 images using Deep Learning",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-09-20T12:52:03Z",
+        "pushedAt": "2020-11-26T21:14:38Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
         },
         "licenseInfo": null
       }
@@ -7272,6 +8866,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjY3MjkxMDc=",
+      "login": "pantelisgeor",
+      "name": "Pantelis Georgiades",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/pantelisgeor",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6729107?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "EMME_ROCH_python",
+        "nameWithOwner": "pantelisgeor/EMME_ROCH_python",
+        "url": "https://github.com/pantelisgeor/EMME_ROCH_python",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-08-02T14:31:21Z",
+        "pushedAt": "2023-07-13T09:23:52Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQ2NzM2OTk2",
       "login": "pattihis",
       "name": "GP",
@@ -7344,6 +8974,42 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU2MjE4NDM=",
+      "login": "PetrGaponov",
+      "name": "Petr Gaponov",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/PetrGaponov",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5621843?u=45753364303a570914d502ef34228869473f3a39&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "wake_up_admin",
+        "nameWithOwner": "PetrGaponov/wake_up_admin",
+        "url": "https://github.com/PetrGaponov/wake_up_admin",
+        "description": "Система телефонного оповещения",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-05-17T02:11:03Z",
+        "pushedAt": "2019-05-17T08:52:37Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -7791,6 +9457,81 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjE1MjIwMDQ1",
+      "login": "rusmuss",
+      "name": "Ruslan",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/rusmuss",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/15220045?u=6247bb21165e6a9cde3cf95f827fd253b5b5380e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "playwright_pytest_mvp",
+        "nameWithOwner": "rusmuss/playwright_pytest_mvp",
+        "url": "https://github.com/rusmuss/playwright_pytest_mvp",
+        "description": "playwright pytest template",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-07-08T10:22:51Z",
+        "pushedAt": "2023-07-12T12:36:06Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEwODY5Njgy",
+      "login": "safonovmm",
+      "name": "Safonov Maksim",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/safonovmm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10869682?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "nvim",
+        "nameWithOwner": "safonovmm/nvim",
+        "url": "https://github.com/safonovmm/nvim",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-10-06T14:59:36Z",
+        "pushedAt": "2025-12-04T17:54:12Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Lua"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
       "id": "U_kgDOBtWdcQ",
       "login": "saintarkhat",
       "name": "Artem Kharlamov",
@@ -8046,6 +9787,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU1MjI2NjI5",
+      "login": "seanodera",
+      "name": "Sean Olero",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/seanodera",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/55226629?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "cryshare",
+        "nameWithOwner": "seanodera/cryshare",
+        "url": "https://github.com/seanodera/cryshare",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-07-30T19:52:41Z",
+        "pushedAt": "2024-07-07T22:09:50Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCiqhoQ",
       "login": "semihesmerboga0",
       "name": "Semih Esmerboğa",
@@ -8121,6 +9898,42 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjExNzg0NTAz",
+      "login": "SharpDevSa",
+      "name": "Evgenii Saltykov",
+      "type": "User",
+      "location": "Cyprus, Nicosia",
+      "url": "https://github.com/SharpDevSa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11784503?u=c2bad6416afc9503dc564295a53b69a362961e13&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "PathFinder",
+        "nameWithOwner": "SharpDevSa/PathFinder",
+        "url": "https://github.com/SharpDevSa/PathFinder",
+        "description": "Contains 4 different algorithms to find the path in the matrix in c#: Breadth first, Jump, AStar, Best first search.",
+        "stargazerCount": 1,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-03-10T15:40:27Z",
+        "pushedAt": "2018-03-10T15:40:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -8451,6 +10264,117 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjExNTQ0NDMy",
+      "login": "telchardev",
+      "name": "Aleksei Berezin",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/telchardev",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11544432?u=9e613dd62855658730b0c0b0dd8babc711bd2282&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "armature",
+        "nameWithOwner": "telchardev/armature",
+        "url": "https://github.com/telchardev/armature",
+        "description": "Feature-based Flutter framework. Dependency-graph resolution, reactive stores, typed ports.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-07-14T12:00:55Z",
+        "pushedAt": "2026-04-29T11:57:28Z",
+        "homepageUrl": "https://telchardev.github.io/armature/",
+        "primaryLanguage": {
+          "name": "Dart"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU2MDQxNjY3",
+      "login": "Terfa-web",
+      "name": "NOMHWANGE TERFA",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/Terfa-web",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/56041667?u=604e39275309b769585dffb67479da86bbcc6bb5&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "javascript-amazon-project",
+        "nameWithOwner": "Terfa-web/javascript-amazon-project",
+        "url": "https://github.com/Terfa-web/javascript-amazon-project",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-06-24T18:18:29Z",
+        "pushedAt": "2023-06-24T18:25:22Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ3MTc5MjIx",
+      "login": "Theohr",
+      "name": "Theodoros Herodotou",
+      "type": "User",
+      "location": "Limassol, Cyprus",
+      "url": "https://github.com/Theohr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/47179221?u=c589bd79b1e0537d25746609ae3cdd8a1b233788&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "System-Admin-Scripts",
+        "nameWithOwner": "Theohr/System-Admin-Scripts",
+        "url": "https://github.com/Theohr/System-Admin-Scripts",
+        "description": "Sys Admin Scripts",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-03-09T15:33:23Z",
+        "pushedAt": "2025-05-30T12:04:02Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "PowerShell"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOEkQLPg",
       "login": "threatailwaf",
       "name": null,
@@ -8551,6 +10475,42 @@
         "pushedAt": "2022-07-17T22:40:03Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODPj-vg",
+      "login": "TomrisB",
+      "name": "Tomris",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/TomrisB",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/217644734?u=05da35f0adac59042a3c52257d9c0e4de8e5dbc4&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "pfSense-Security-Plugin",
+        "nameWithOwner": "TomrisB/pfSense-Security-Plugin",
+        "url": "https://github.com/TomrisB/pfSense-Security-Plugin",
+        "description": "A pfSense plugin for IP blocking, Suricata log analysis, and VirusTotal integration.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-11-10T12:13:38Z",
+        "pushedAt": "2025-11-11T11:53:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
         "licenseInfo": null
       }
     },
@@ -8708,6 +10668,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjExNDg0NjE=",
+      "login": "vokhmin",
+      "name": "Andrey Vokhmin",
+      "type": "User",
+      "location": "Cyprus, Limassol",
+      "url": "https://github.com/vokhmin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1148461?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "python-test",
+        "nameWithOwner": "vokhmin/python-test",
+        "url": "https://github.com/vokhmin/python-test",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-01-07T08:38:29Z",
+        "pushedAt": "2019-01-30T13:37:32Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOC4gnOA",
       "login": "vsix8625",
       "name": null,
@@ -8744,6 +10740,42 @@
           "name": "Apache License 2.0",
           "spdxId": "Apache-2.0"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI1OTg2MTQ0",
+      "login": "Xag04",
+      "name": "Xristoforos Agathokleous",
+      "type": "User",
+      "location": "Limassol, Cyprus",
+      "url": "https://github.com/Xag04",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25986144?u=e392775d34246ea55226494e7f87ff5baa681d42&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "ViT-Face",
+        "nameWithOwner": "Xag04/ViT-Face",
+        "url": "https://github.com/Xag04/ViT-Face",
+        "description": "Native C ViT inference and a small CNN detector (faces first; works for other single-class objects)",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-06T14:36:46Z",
+        "pushedAt": "2026-09-02T09:17:00Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -9970,6 +12002,42 @@
       }
     },
     {
+      "id": "U_kgDOCBVqpA",
+      "login": "AdeleDev",
+      "name": "Viktoriia",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/AdeleDev",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/135621284?u=2bec03c92a5a812165841cad29b7ad07e59d044d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "kafka_ssl_sasl",
+        "nameWithOwner": "AdeleDev/kafka_ssl_sasl",
+        "url": "https://github.com/AdeleDev/kafka_ssl_sasl",
+        "description": "Apache Kafka cluster with SSL ",
+        "stargazerCount": 0,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-05-04T14:05:19Z",
+        "pushedAt": "2025-05-04T14:21:16Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDODk9ZZQ",
       "login": "AdonYesil07",
       "name": "Adonis Yeşiloğlu",
@@ -10544,6 +12612,40 @@
       }
     },
     {
+      "id": "U_kgDOBvWmIg",
+      "login": "Akil-Evlat",
+      "name": "Akil Evlat",
+      "type": "User",
+      "location": "Famagusta,Cyprus",
+      "url": "https://github.com/Akil-Evlat",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/116762146?u=cebb36218da502b924660f3bc54978869a02244a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "Akil-Evlat-IoT-and-Cyber-Security-E-portfolio",
+        "nameWithOwner": "Akil-Evlat/Akil-Evlat-IoT-and-Cyber-Security-E-portfolio",
+        "url": "https://github.com/Akil-Evlat/Akil-Evlat-IoT-and-Cyber-Security-E-portfolio",
+        "description": "Itec 442 IoT and Cyber Security Lecture   E-Portfolio 17330267-Akil Evlat ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-11-01T21:02:57Z",
+        "pushedAt": "2023-01-10T19:10:55Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE0OTI2MzQ=",
       "login": "akimovpro",
       "name": "Igor & Sviatoslav Akimov",
@@ -10577,6 +12679,43 @@
         "licenseInfo": {
           "name": "Apache License 2.0",
           "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIwMjQxOTAz",
+      "login": "akinori47",
+      "name": "Roman Khafizov",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/akinori47",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/20241903?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "argocd-workflow",
+        "nameWithOwner": "akinori47/argocd-workflow",
+        "url": "https://github.com/akinori47/argocd-workflow",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-27T20:04:19Z",
+        "pushedAt": "2026-10-17T13:24:49Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
         }
       }
     },
@@ -10721,6 +12860,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEwMzI5MDg2",
+      "login": "alaegin",
+      "name": "Alex Egin",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/alaegin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10329086?u=9da90ef2a6138d93a137623e393573a7c4c21643&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "FitnessApp",
+        "nameWithOwner": "alaegin/FitnessApp",
+        "url": "https://github.com/alaegin/FitnessApp",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-06-19T15:05:56Z",
+        "pushedAt": "2025-06-25T12:02:46Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Kotlin"
         },
         "licenseInfo": null
       }
@@ -11012,6 +13187,42 @@
       }
     },
     {
+      "id": "U_kgDOBzuFZQ",
+      "login": "AlexIvantsovHW",
+      "name": "Alexander Ivantsov",
+      "type": "User",
+      "location": "Limassol (Cyprus)",
+      "url": "https://github.com/AlexIvantsovHW",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/121341285?u=6a3f1b3449f2209fddd4f0f74e70746b68878f75&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "work-planner",
+        "nameWithOwner": "AlexIvantsovHW/work-planner",
+        "url": "https://github.com/AlexIvantsovHW/work-planner",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-09-29T08:29:51Z",
+        "pushedAt": "2025-09-29T09:36:20Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBbDcQg",
       "login": "AlexLivS",
       "name": "Alex",
@@ -11224,6 +13435,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU4MDAwMjY2",
+      "login": "ali119",
+      "name": "Ali Shan",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/ali119",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58000266?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "Calculator-Application",
+        "nameWithOwner": "ali119/Calculator-Application",
+        "url": "https://github.com/ali119/Calculator-Application",
+        "description": "We use Java Language to develope this application",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-28T06:47:18Z",
+        "pushedAt": "2026-10-28T06:50:01Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjY0MDQ1OTIy",
       "login": "aliarzani",
       "name": "Mr atash",
@@ -11368,6 +13613,45 @@
           "name": "TypeScript"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI5MTc1NTQ5",
+      "login": "Alireza0772",
+      "name": "Alireza Senobari",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/Alireza0772",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/29175549?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "planora",
+        "nameWithOwner": "Alireza0772/planora",
+        "url": "https://github.com/Alireza0772/planora",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-12-22T09:26:36Z",
+        "pushedAt": "2025-12-22T09:39:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -12394,6 +14678,40 @@
       }
     },
     {
+      "id": "U_kgDOBt2ROw",
+      "login": "andrey28121989",
+      "name": "Andrey Nenashev",
+      "type": "User",
+      "location": "Limassol, Cyprus",
+      "url": "https://github.com/andrey28121989",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/115183931?u=f978d8025ac50f0a6f20482186ccfff97c344bcd&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "library",
+        "nameWithOwner": "andrey28121989/library",
+        "url": "https://github.com/andrey28121989/library",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-11-02T21:15:54Z",
+        "pushedAt": "2023-11-02T21:26:03Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjkyMzU4Ng==",
       "login": "AndreyBienko",
       "name": "Andrey Bienko",
@@ -12995,6 +15313,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "C++"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBdewCg",
+      "login": "AntoniosKokiantonis",
+      "name": "Antonios Kokiantonis",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/AntoniosKokiantonis",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/98021386?u=e141faa10818323235d25e46bafe97f42670789f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "3d_portfolio",
+        "nameWithOwner": "AntoniosKokiantonis/3d_portfolio",
+        "url": "https://github.com/AntoniosKokiantonis/3d_portfolio",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-10-22T15:58:01Z",
+        "pushedAt": "2024-10-23T13:14:25Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
         },
         "licenseInfo": null
       }
@@ -13997,6 +16351,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM0NDQ4MjAz",
+      "login": "astavrinos",
+      "name": "Adamos",
+      "type": "User",
+      "location": "Limassol, Cyprus",
+      "url": "https://github.com/astavrinos",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/34448203?u=c1e219112be3d9436de32d6a515c6988dee7b7fb&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "dotfiles",
+        "nameWithOwner": "astavrinos/dotfiles",
+        "url": "https://github.com/astavrinos/dotfiles",
+        "description": "Simple dotfiles",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-09-09T09:25:10Z",
+        "pushedAt": "2023-09-09T09:40:33Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Shell"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQ1ODk2Njgz",
       "login": "astavroudev",
       "name": null,
@@ -14025,6 +16415,40 @@
         "isFork": false,
         "createdAt": "2026-05-28T11:04:53Z",
         "pushedAt": "2026-05-28T11:08:15Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOB_DEHg",
+      "login": "asteinberger",
+      "name": "Andy Steinberger",
+      "type": "User",
+      "location": "Oroklini, Cyprus",
+      "url": "https://github.com/asteinberger",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/133219358?u=66a1b21fe8c8a5d12ac00faf7f88d2cccfaab16b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "asteinberger",
+        "nameWithOwner": "asteinberger/asteinberger",
+        "url": "https://github.com/asteinberger/asteinberger",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-13T15:02:15Z",
+        "pushedAt": "2026-09-02T19:21:04Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -14137,6 +16561,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjc3ODQxNTAz",
+      "login": "audamoon",
+      "name": "Nikita Tokar",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/audamoon",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/77841503?u=219557c1207ed0f7eeb3f9e06fa58b86565f42fa&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "di-comparison",
+        "nameWithOwner": "audamoon/di-comparison",
+        "url": "https://github.com/audamoon/di-comparison",
+        "description": "Service I created to compare the most popular DI frameworks. Nothing else here",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-09-24T20:29:32Z",
+        "pushedAt": "2025-09-25T07:35:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCc_now",
       "login": "audreychr33",
       "name": null,
@@ -14240,6 +16700,42 @@
         "isFork": false,
         "createdAt": "2026-10-16T18:48:20Z",
         "pushedAt": "2026-10-18T21:16:17Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEzNTE1OTM3",
+      "login": "avoitenko",
+      "name": "Andriy Voitenko",
+      "type": "User",
+      "location": "Limassol, Cyprus",
+      "url": "https://github.com/avoitenko",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13515937?u=712f39ad2af424b05f840a2f0bb1e75953c5b537&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "booking-meeting-rooms",
+        "nameWithOwner": "avoitenko/booking-meeting-rooms",
+        "url": "https://github.com/avoitenko/booking-meeting-rooms",
+        "description": "test task",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-30T12:36:51Z",
+        "pushedAt": "2026-02-09T05:46:12Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "C#"
@@ -14635,6 +17131,42 @@
       }
     },
     {
+      "id": "U_kgDOBwXLAg",
+      "login": "BARDIAARMAN",
+      "name": "BARDIAARMAN",
+      "type": "User",
+      "location": "cyprus",
+      "url": "https://github.com/BARDIAARMAN",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/117820162?u=490f6013494ea7a0dae615f82609c13d41ffa247&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "tihub-kpi",
+        "nameWithOwner": "BARDIAARMAN/tihub-kpi",
+        "url": "https://github.com/BARDIAARMAN/tihub-kpi",
+        "description": "TIHUB KPI Management Dashboard",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-27T12:08:35Z",
+        "pushedAt": "2026-10-27T12:10:50Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjczOTMyNDQ0",
       "login": "basigek-commits",
       "name": "Vasilis Vasiliou",
@@ -14663,6 +17195,42 @@
         "isFork": false,
         "createdAt": "2022-01-23T10:55:07Z",
         "pushedAt": "2022-01-23T15:41:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM0OTk5MTQ5",
+      "login": "BastienBoy",
+      "name": "Vladimr Pchelyakov",
+      "type": "User",
+      "location": "Paphos, Cyprus",
+      "url": "https://github.com/BastienBoy",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/34999149?u=2aaf022c01be06311ba6c6666c78e729d28dc473&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "babytracker",
+        "nameWithOwner": "BastienBoy/babytracker",
+        "url": "https://github.com/BastienBoy/babytracker",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-11-30T17:57:10Z",
+        "pushedAt": "2025-12-04T20:20:27Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "HTML"
@@ -14739,6 +17307,42 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc0ODk0MjQ=",
+      "login": "begemod",
+      "name": "Roman Arekeev",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/begemod",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7489424?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "smartsearch",
+        "nameWithOwner": "begemod/smartsearch",
+        "url": "https://github.com/begemod/smartsearch",
+        "description": "The service providing search API",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-11-19T09:52:53Z",
+        "pushedAt": "2021-02-12T10:12:24Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -15587,6 +18191,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjExNDM4MTQy",
+      "login": "breezzz",
+      "name": "Ruslan Zaitsev",
+      "type": "User",
+      "location": "Limassol, Cyprus",
+      "url": "https://github.com/breezzz",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11438142?u=9a27af5fc4464081c2a7072ee7b3bfe3f5f9ec13&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "breezzz.github.io",
+        "nameWithOwner": "breezzz/breezzz.github.io",
+        "url": "https://github.com/breezzz/breezzz.github.io",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-11-05T20:06:52Z",
+        "pushedAt": "2021-11-05T20:16:21Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE5NTk0MzE0",
       "login": "brigadier90",
       "name": "Ali Abdallah",
@@ -16090,6 +18730,42 @@
       }
     },
     {
+      "id": "U_kgDOCMfQKA",
+      "login": "caginzng",
+      "name": "Çağın Zengi",
+      "type": "User",
+      "location": "Cyprus/Nicosia",
+      "url": "https://github.com/caginzng",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/147312680?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "rag-node-project",
+        "nameWithOwner": "caginzng/rag-node-project",
+        "url": "https://github.com/caginzng/rag-node-project",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-19T21:51:35Z",
+        "pushedAt": "2026-08-19T22:09:19Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQ2ODcyMDQw",
       "login": "camelinred",
       "name": null,
@@ -16364,6 +19040,40 @@
         "isFork": false,
         "createdAt": "2025-01-19T17:50:06Z",
         "pushedAt": "2025-01-19T18:56:35Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCm_FMw",
+      "login": "Cgri01",
+      "name": "Çağrı Alagöz",
+      "type": "User",
+      "location": "Turkey / Cyprus",
+      "url": "https://github.com/Cgri01",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/175097139?u=ac209aa6a8fc04b1813bc02d747264482a73d1c9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "cgri01",
+        "nameWithOwner": "Cgri01/cgri01",
+        "url": "https://github.com/Cgri01/cgri01",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-01T12:48:50Z",
+        "pushedAt": "2026-07-01T13:10:30Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -16687,6 +19397,42 @@
         "pushedAt": "2024-05-07T19:04:40Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBkkopw",
+      "login": "ChristosPts",
+      "name": "Christos Pitsoulakis",
+      "type": "User",
+      "location": "Limassol, Cyprus",
+      "url": "https://github.com/ChristosPts",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/105457831?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "Kanban-Board",
+        "nameWithOwner": "ChristosPts/Kanban-Board",
+        "url": "https://github.com/ChristosPts/Kanban-Board",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-10T11:24:55Z",
+        "pushedAt": "2026-05-10T11:27:05Z",
+        "homepageUrl": "https://kanban-board-nu-five-60.vercel.app",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
         "licenseInfo": null
       }
     },
@@ -17050,6 +19796,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjYxODgzOTAx",
+      "login": "codeweberdotcom1",
+      "name": "Codeweber",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/codeweberdotcom1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/61883901?u=00e29df3c31c713ff3bd51655f2cf52b9954b863&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "hangsystems",
+        "nameWithOwner": "codeweberdotcom1/hangsystems",
+        "url": "https://github.com/codeweberdotcom1/hangsystems",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-02-02T14:33:01Z",
+        "pushedAt": "2022-02-02T14:41:36Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCm5--w",
       "login": "coding-creed-technologies",
       "name": "Coding Creed Technologies",
@@ -17150,6 +19932,40 @@
         "primaryLanguage": {
           "name": "HTML"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBoUI1g",
+      "login": "conkouroudevs",
+      "name": "Constantinos Kourouklaris",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/conkouroudevs",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/109381846?u=0e9673d674aa36ac84abdd77c6cb1b98aca43a8c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "conkouroudevs",
+        "nameWithOwner": "conkouroudevs/conkouroudevs",
+        "url": "https://github.com/conkouroudevs/conkouroudevs",
+        "description": "GitHub profile README",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-17T10:19:04Z",
+        "pushedAt": "2026-10-31T17:36:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -17325,6 +20141,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Solidity"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOB-DTyg",
+      "login": "cravinx",
+      "name": "Precious Unegbu",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/cravinx",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/132174794?u=606c7a8479f0854727ee2ab2daab949692a78d58&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "codekarft",
+        "nameWithOwner": "cravinx/codekarft",
+        "url": "https://github.com/cravinx/codekarft",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-28T11:18:42Z",
+        "pushedAt": "2026-05-28T11:35:03Z",
+        "homepageUrl": "https://codekarft.vercel.app",
+        "primaryLanguage": {
+          "name": "HTML"
         },
         "licenseInfo": null
       }
@@ -18970,6 +21822,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjE1ODExNzEz",
+      "login": "dinobsd",
+      "name": "DinoBSD",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/dinobsd",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/15811713?u=1fda2b6671104a32e430d9e5400f2be69cd3ceea&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "DinoBSD",
+        "nameWithOwner": "dinobsd/DinoBSD",
+        "url": "https://github.com/dinobsd/DinoBSD",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-05-09T18:00:51Z",
+        "pushedAt": "2016-05-09T18:00:51Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOB0Pqbw",
       "login": "Djoukan-Steven",
       "name": "DJOUKAN STEVEN",
@@ -19761,7 +22647,7 @@
       "type": "User",
       "location": "Northern Cyprus",
       "url": "https://github.com/dweadon",
-      "avatarUrl": "https://avatars.githubusercontent.com/u/276068929?u=65ebc794ca0d473716195e430821babab6f2d750&v=4",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/276068929?u=240b7d120f0fa6ad8215833e743cfce470a2843f&v=4",
       "attribution": {
         "accepted": true,
         "countryCode": "CY",
@@ -20651,6 +23537,42 @@
       }
     },
     {
+      "id": "U_kgDOCQkDvg",
+      "login": "Elzada-Kasymova",
+      "name": "Elzada KK",
+      "type": "User",
+      "location": "North Cyprus",
+      "url": "https://github.com/Elzada-Kasymova",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/151585726?u=6c3ce44a223a983380b88f6df2a7403057af5ab5&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "crm-",
+        "nameWithOwner": "Elzada-Kasymova/crm-",
+        "url": "https://github.com/Elzada-Kasymova/crm-",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-12T20:22:45Z",
+        "pushedAt": "2026-04-12T20:23:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOEOXhbQ",
       "login": "elzarind",
       "name": null,
@@ -21507,6 +24429,45 @@
           "name": "Jupyter Notebook"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMzMTc0NDE4",
+      "login": "EU-PR0",
+      "name": "EU PRO",
+      "type": "User",
+      "location": "CYPRUS",
+      "url": "https://github.com/EU-PR0",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33174418?u=0c130905fec1492835819b3bc2cc81b0a5f7585e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "dbeaver-indentation-folding",
+        "nameWithOwner": "EU-PR0/dbeaver-indentation-folding",
+        "url": "https://github.com/EU-PR0/dbeaver-indentation-folding",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-09-03T13:12:36Z",
+        "pushedAt": "2026-10-22T09:05:19Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
       }
     },
     {
@@ -22788,6 +25749,42 @@
         "pushedAt": "2025-11-09T17:23:29Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjkwNDI4MzE=",
+      "login": "garizlo",
+      "name": null,
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/garizlo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9042831?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "morphy",
+        "nameWithOwner": "garizlo/morphy",
+        "url": "https://github.com/garizlo/morphy",
+        "description": "Обертка для phpMorphy",
+        "stargazerCount": 0,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-04-22T21:54:41Z",
+        "pushedAt": "2017-06-19T08:55:11Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "PHP"
+        },
         "licenseInfo": null
       }
     },
@@ -24253,6 +27250,81 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM5OTkyMzA4",
+      "login": "hb2007",
+      "name": "H. Z.",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/hb2007",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39992308?u=e5d3d33207453aad260787d3b06e755704538d36&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "thesis-presentation",
+        "nameWithOwner": "hb2007/thesis-presentation",
+        "url": "https://github.com/hb2007/thesis-presentation",
+        "description": "Presentation for my thesis on my Greek Dialect Classifier",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-06-06T12:18:38Z",
+        "pushedAt": "2018-06-06T12:45:44Z",
+        "homepageUrl": "https://hb2007.github.io/thesis-presentation/",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIwNTEyNDQ3",
+      "login": "Hedgehogovich",
+      "name": "Yuri Chachilo",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/Hedgehogovich",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/20512447?u=f56d116670a2c980b1389e61904afa91204f21c8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "pokedex-explorer",
+        "nameWithOwner": "Hedgehogovich/pokedex-explorer",
+        "url": "https://github.com/Hedgehogovich/pokedex-explorer",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2024-03-26T07:36:53Z",
+        "pushedAt": "2024-03-26T07:58:53Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjc5OTQ3MDEy",
       "login": "henryayoroh",
       "name": "HENRY AYOROH",
@@ -24715,6 +27787,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjg0MjQxMjg=",
+      "login": "icron",
+      "name": "Alexander L.",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/icron",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8424128?u=02f3e51b91f17aae681a4aca84b6c92e1a17768b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "yii2-simplemde-editor",
+        "nameWithOwner": "icron/yii2-simplemde-editor",
+        "url": "https://github.com/icron/yii2-simplemde-editor",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-02-14T11:29:39Z",
+        "pushedAt": "2016-02-14T15:29:03Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE1ODY5MTk1",
       "login": "ictdev",
       "name": "Nikolaou Nikos",
@@ -24935,6 +28043,40 @@
       }
     },
     {
+      "id": "U_kgDODHUZtA",
+      "login": "Inna-code10",
+      "name": "Inna Konopatska",
+      "type": "User",
+      "location": "Limassol, Cyprus",
+      "url": "https://github.com/Inna-code10",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/209000884?u=05836733ea2d94969b17493fa63ecf02e65c97fa&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "ai-api-incident-monitor",
+        "nameWithOwner": "Inna-code10/ai-api-incident-monitor",
+        "url": "https://github.com/Inna-code10/ai-api-incident-monitor",
+        "description": "Automated API reliability monitoring with AI-powered incident analysis, trend detection, Telegram alerts, Supabase history, and Google Sheets reporting.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-07T13:59:26Z",
+        "pushedAt": "2026-10-07T14:42:23Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjY2MjE5ODQz",
       "login": "InnaMakarova",
       "name": "Inna Makarova",
@@ -24966,6 +28108,42 @@
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg4MjA4MzQy",
+      "login": "ioakeim-h",
+      "name": "Ioakeim Hadjimpalasis",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/ioakeim-h",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/88208342?u=544c9140441a966fe0b4124f57145842ebedac4f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "pokedexcli",
+        "nameWithOwner": "ioakeim-h/pokedexcli",
+        "url": "https://github.com/ioakeim-h/pokedexcli",
+        "description": "A Pokedex in a command-line REPL. A Pokedex is a make-believe device that lets you look up information about Pokemon",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-20T07:24:34Z",
+        "pushedAt": "2026-10-20T14:38:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Go"
         },
         "licenseInfo": null
       }
@@ -25792,6 +28970,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU3Mjc1NjUw",
+      "login": "Jestriker",
+      "name": "Jestriker",
+      "type": "User",
+      "location": "Limassol, Cyprus",
+      "url": "https://github.com/Jestriker",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/57275650?u=d07a2152c4906fd7403aefbf1c5b0439d6bae407&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "starbot",
+        "nameWithOwner": "Jestriker/starbot",
+        "url": "https://github.com/Jestriker/starbot",
+        "description": "Helping servers grow exponentially with a simple solution. Make your server active and entertain your community with a simple solution - A unique discord bot, Star!",
+        "stargazerCount": 0,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-07-17T22:25:51Z",
+        "pushedAt": "2022-07-06T17:14:37Z",
+        "homepageUrl": "https://stardiscordbot.xyz",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
       "id": "U_kgDOCqf2KQ",
       "login": "jeyhuun",
       "name": "Ceyhun D.",
@@ -26180,6 +29397,45 @@
         "pushedAt": "2025-01-07T18:51:24Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjkwMTAwNzkz",
+      "login": "JoniFinskas",
+      "name": "Joni Finskas",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/JoniFinskas",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/90100793?u=355a9a336c54cc2077c3cdc68ab6c5ac859c76d2&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "thermal",
+        "nameWithOwner": "JoniFinskas/thermal",
+        "url": "https://github.com/JoniFinskas/thermal",
+        "description": "Lightweight hardware monitor for Windows 11 with live charts, NVIDIA GPU temperatures, CPU load, RAM usage and optional Acer CPU temperatures.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-21T15:30:13Z",
+        "pushedAt": "2026-10-21T17:34:42Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C#"
+        },
         "licenseInfo": {
           "name": "MIT License",
           "spdxId": "MIT"
@@ -26651,6 +29907,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjg4Nzc4NA==",
+      "login": "kazarin",
+      "name": "Konstantin Kazarin",
+      "type": "User",
+      "location": "Larnaca, Cyprus",
+      "url": "https://github.com/kazarin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/887784?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "leetcode-in-py",
+        "nameWithOwner": "kazarin/leetcode-in-py",
+        "url": "https://github.com/kazarin/leetcode-in-py",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-11-05T09:23:57Z",
+        "pushedAt": "2024-11-13T14:08:28Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOC5Qbwg",
       "login": "kdimit17",
       "name": "Karolina Dimitriou",
@@ -26757,6 +30049,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjUwMjMxNjYx",
+      "login": "kevkoch",
+      "name": "Kevkoch",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/kevkoch",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50231661?u=15b45097b48ea68bd4922b13e9a219988861e0c5&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "assets_audio_player_plus",
+        "nameWithOwner": "kevkoch/assets_audio_player_plus",
+        "url": "https://github.com/kevkoch/assets_audio_player_plus",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-06-11T18:48:19Z",
+        "pushedAt": "2026-10-06T21:13:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Dart"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI0NzMwMzc4",
       "login": "khalikpratama",
       "name": "Khalik Pratama",
@@ -26785,6 +30116,40 @@
         "isFork": false,
         "createdAt": "2017-08-03T06:25:00Z",
         "pushedAt": "2017-08-03T06:25:00Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOB1f1eQ",
+      "login": "kianjazayeri",
+      "name": "Kian Jazayeri",
+      "type": "User",
+      "location": "Nicosia, Cyprus",
+      "url": "https://github.com/kianjazayeri",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/123204985?u=4330dd50edd0dcb303230283f0802c5cf7ceaff6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "cancer_dataset",
+        "nameWithOwner": "kianjazayeri/cancer_dataset",
+        "url": "https://github.com/kianjazayeri/cancer_dataset",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-05-15T08:00:58Z",
+        "pushedAt": "2024-05-15T08:12:48Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -26894,6 +30259,45 @@
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU1NDE4MDI=",
+      "login": "kirsorokin",
+      "name": "Kir Sorokin",
+      "type": "User",
+      "location": "Limassol, Cyprus",
+      "url": "https://github.com/kirsorokin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5541802?u=2e8d1efe7c5854e848fbaf42675abfabe59763a1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "tictactoe-angular-1.5",
+        "nameWithOwner": "kirsorokin/tictactoe-angular-1.5",
+        "url": "https://github.com/kirsorokin/tictactoe-angular-1.5",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-03-05T09:11:35Z",
+        "pushedAt": "2019-03-05T09:18:10Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -27034,6 +30438,45 @@
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY5MDAxNDgw",
+      "login": "klispap",
+      "name": "Agathoklis Papadopoulos",
+      "type": "User",
+      "location": "Limassol, Cyprus",
+      "url": "https://github.com/klispap",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/69001480?u=0d9efe7709a7a9a0f97ad9ee76289e287fd54368&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "advent-of-code-2023",
+        "nameWithOwner": "klispap/advent-of-code-2023",
+        "url": "https://github.com/klispap/advent-of-code-2023",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-10-18T06:06:57Z",
+        "pushedAt": "2024-10-23T04:27:23Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Rust"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -27314,6 +30757,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI2MjU5ODQ2",
+      "login": "korzonkiee",
+      "name": "Maciej Korzeniewski",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/korzonkiee",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/26259846?u=7a536ec519039b78bb754ef8f46904b0982ea4d5&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "wpf-movie-manager",
+        "nameWithOwner": "korzonkiee/wpf-movie-manager",
+        "url": "https://github.com/korzonkiee/wpf-movie-manager",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-05-13T16:06:41Z",
+        "pushedAt": "2017-05-16T16:05:22Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C#"
         },
         "licenseInfo": null
       }
@@ -29582,6 +33061,40 @@
       }
     },
     {
+      "id": "U_kgDODLl4uQ",
+      "login": "makazantsev",
+      "name": "Maksim Kazantsev",
+      "type": "User",
+      "location": "Cyprus, Limassol",
+      "url": "https://github.com/makazantsev",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/213481657?u=0d0f67b0b335357089054a942b23ad8c09f63bd9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "makazantsev",
+        "nameWithOwner": "makazantsev/makazantsev",
+        "url": "https://github.com/makazantsev/makazantsev",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-02T13:22:44Z",
+        "pushedAt": "2026-08-02T13:22:45Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI5NDMwMTI=",
       "login": "makeriwe",
       "name": "Damir",
@@ -29612,6 +33125,42 @@
         "pushedAt": "2026-03-04T15:39:13Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgwMDczNzgx",
+      "login": "Maksim-Shalaev",
+      "name": "Maksim",
+      "type": "User",
+      "location": "Limassol, Cyprus",
+      "url": "https://github.com/Maksim-Shalaev",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/80073781?u=8cf94828a33ca3da049f8ef1fce90cb8fa0ec88d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "my_python_practice",
+        "nameWithOwner": "Maksim-Shalaev/my_python_practice",
+        "url": "https://github.com/Maksim-Shalaev/my_python_practice",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-13T19:54:03Z",
+        "pushedAt": "2026-10-14T21:11:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
         "licenseInfo": null
       }
     },
@@ -30536,6 +34085,40 @@
       }
     },
     {
+      "id": "U_kgDOBwGLTg",
+      "login": "MaryamFrdn",
+      "name": "maryam ",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/MaryamFrdn",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/117541710?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "MaryamFrdn",
+        "nameWithOwner": "MaryamFrdn/MaryamFrdn",
+        "url": "https://github.com/MaryamFrdn/MaryamFrdn",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-11-05T19:58:10Z",
+        "pushedAt": "2024-12-25T22:01:33Z",
+        "homepageUrl": "https://github.com/MaryamFrdn",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOC70ZHw",
       "login": "marynamango",
       "name": "Maryna",
@@ -31310,6 +34893,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjE2ODgzMzY4",
+      "login": "MemberIT",
+      "name": "Mikhail Koniakhin",
+      "type": "User",
+      "location": "Cyprus, Paphos",
+      "url": "https://github.com/MemberIT",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16883368?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "subql-staking-rewards",
+        "nameWithOwner": "MemberIT/subql-staking-rewards",
+        "url": "https://github.com/MemberIT/subql-staking-rewards",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-01-03T11:55:53Z",
+        "pushedAt": "2022-01-05T19:07:12Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjIwNDQxNTUy",
       "login": "menthaspicata",
       "name": "Kseniya Pekur",
@@ -31736,6 +35358,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjU5NjQ4ODQ4",
+      "login": "MicleMaslow",
+      "name": "Mikhail Maslatsov",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/MicleMaslow",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/59648848?u=91cc1a27e1baa018d1ccffc1ef9c5a278c481bcc&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "cluster-api-ipam-provider-netbox",
+        "nameWithOwner": "MicleMaslow/cluster-api-ipam-provider-netbox",
+        "url": "https://github.com/MicleMaslow/cluster-api-ipam-provider-netbox",
+        "description": "NetBox IPAM for Cluster API: cluster subnets, node addresses and control-plane VIPs, allocated in NetBox.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-09T13:58:52Z",
+        "pushedAt": "2026-10-30T03:55:20Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
       "id": "U_kgDOBxkGxA",
       "login": "MightyPowerN",
       "name": null,
@@ -32047,6 +35708,45 @@
           "name": "HTML"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE1MDM5ODg1",
+      "login": "mishaevtikhiev",
+      "name": "Mikhail Evtikhiev",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/mishaevtikhiev",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/15039885?u=549a77394f5879dc28b6ffc45a2e9a79e6095857&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "bf-survey",
+        "nameWithOwner": "mishaevtikhiev/bf-survey",
+        "url": "https://github.com/mishaevtikhiev/bf-survey",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-03-15T15:45:43Z",
+        "pushedAt": "2023-03-16T08:11:14Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -32475,6 +36175,40 @@
         "primaryLanguage": {
           "name": "PHP"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM0MzY5MzU3",
+      "login": "mohdgalbat",
+      "name": "Sabry",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/mohdgalbat",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/34369357?u=f23992df90f2e8462071e46402a78bbbf4f27e19&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "my_first",
+        "nameWithOwner": "mohdgalbat/my_first",
+        "url": "https://github.com/mohdgalbat/my_first",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-12-28T19:25:24Z",
+        "pushedAt": "2017-12-28T19:25:24Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -32983,6 +36717,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjg3NjUyMzA0",
+      "login": "MustafaBostanci",
+      "name": null,
+      "type": "User",
+      "location": "North Cyprus ",
+      "url": "https://github.com/MustafaBostanci",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/87652304?u=fbd2016226347e7451eba85dde755a5d98dd2808&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "MustafaBostanci",
+        "nameWithOwner": "MustafaBostanci/MustafaBostanci",
+        "url": "https://github.com/MustafaBostanci/MustafaBostanci",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-05-13T21:54:38Z",
+        "pushedAt": "2024-11-28T17:37:26Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDODxg3DQ",
       "login": "mvtjdesign",
       "name": "MVTJDESIGNS",
@@ -33311,6 +37079,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "CSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBcJd1Q",
+      "login": "nastiaetstesha",
+      "name": "Anastasiia Avakova",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/nastiaetstesha",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/96624085?u=b7fcf19c3a5fcdc86a93263b319f3bebd518a6b5&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "SelfStorage",
+        "nameWithOwner": "nastiaetstesha/SelfStorage",
+        "url": "https://github.com/nastiaetstesha/SelfStorage",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-02-17T16:01:38Z",
+        "pushedAt": "2026-02-28T18:23:52Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
         },
         "licenseInfo": null
       }
@@ -34359,6 +38163,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjIzMjU5MDgw",
+      "login": "nixdrey",
+      "name": "Andrei Usov",
+      "type": "User",
+      "location": "Limassol, Cyprus",
+      "url": "https://github.com/nixdrey",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/23259080?u=b1d36b538f30ee38b76b0f9fb3d0baf3a9fe31e8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "selenoid-prometheus-exporter",
+        "nameWithOwner": "nixdrey/selenoid-prometheus-exporter",
+        "url": "https://github.com/nixdrey/selenoid-prometheus-exporter",
+        "description": "Selenoid /status metrics Prometheus exporter",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-07-27T15:25:16Z",
+        "pushedAt": "2022-12-08T11:16:37Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjc0NTg5OTAz",
       "login": "niyeltechnologies",
       "name": "Niyel Technologies",
@@ -34462,6 +38302,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "C#"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM2NjYyNjkw",
+      "login": "nneof",
+      "name": "Nicolas Neofytou",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/nneof",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/36662690?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "DocMate",
+        "nameWithOwner": "nneof/DocMate",
+        "url": "https://github.com/nneof/DocMate",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-03-20T12:38:15Z",
+        "pushedAt": "2023-08-16T15:03:45Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
         },
         "licenseInfo": null
       }
@@ -34861,6 +38737,43 @@
       }
     },
     {
+      "id": "U_kgDOBfUqzw",
+      "login": "nvoskos",
+      "name": "Nicolas Voskos",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/nvoskos",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/99953359?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "social_synergy",
+        "nameWithOwner": "nvoskos/social_synergy",
+        "url": "https://github.com/nvoskos/social_synergy",
+        "description": "smart-grid",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-09-22T10:54:05Z",
+        "pushedAt": "2025-09-22T11:30:33Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQ5MTA2Mzcx",
       "login": "nxdpro",
       "name": "NXDPRO Solutions",
@@ -34925,6 +38838,78 @@
         "pushedAt": "2019-04-20T18:37:23Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQyNTc4NTg5",
+      "login": "obopodo",
+      "name": "Boris Podolnyi",
+      "type": "User",
+      "location": "Limassol, Cyprus",
+      "url": "https://github.com/obopodo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/42578589?u=3b2b1b67f188474007533abcc254c55f9aec8d5a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "soundgen",
+        "nameWithOwner": "obopodo/soundgen",
+        "url": "https://github.com/obopodo/soundgen",
+        "description": "sound generation tools using neural networks",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-08T21:01:09Z",
+        "pushedAt": "2026-05-09T20:00:16Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYzNjY0MDAx",
+      "login": "odenra",
+      "name": "ilker kara",
+      "type": "User",
+      "location": "north cyprus",
+      "url": "https://github.com/odenra",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/63664001?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "-zlem",
+        "nameWithOwner": "odenra/-zlem",
+        "url": "https://github.com/odenra/-zlem",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-19T11:27:51Z",
+        "pushedAt": "2026-10-19T11:28:12Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
         "licenseInfo": null
       }
     },
@@ -35414,6 +39399,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Jupyter Notebook"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE0NDUyNTQ=",
+      "login": "orlov-vo",
+      "name": "Vladislav Orlov",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/orlov-vo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1445254?u=bf190ce5070e4d4c985b9ac24b926769fac710a4&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "ttt",
+        "nameWithOwner": "orlov-vo/ttt",
+        "url": "https://github.com/orlov-vo/ttt",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-12-20T18:37:29Z",
+        "pushedAt": "2015-12-20T18:38:08Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
         },
         "licenseInfo": null
       }
@@ -36418,6 +40439,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ2OTM5NDkx",
+      "login": "PickleDan",
+      "name": "Danil Larin",
+      "type": "User",
+      "location": "Cyprus, Limassol",
+      "url": "https://github.com/PickleDan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/46939491?u=2bd58487d90afaa20f64c02103d821471cdd7c0f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "memorazum-client",
+        "nameWithOwner": "PickleDan/memorazum-client",
+        "url": "https://github.com/PickleDan/memorazum-client",
+        "description": "Клиентская часть web-приложения memorazum",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-12-16T10:43:22Z",
+        "pushedAt": "2024-12-24T13:58:56Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Vue"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjMwODI2NTk=",
       "login": "pierostz",
       "name": "Pieros",
@@ -36950,6 +41007,40 @@
         "isFork": false,
         "createdAt": "2025-04-19T09:04:10Z",
         "pushedAt": "2025-04-19T13:13:04Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMzNTE3NDM2",
+      "login": "ppanayiotou2",
+      "name": null,
+      "type": "User",
+      "location": "Larnaca, Cyprus",
+      "url": "https://github.com/ppanayiotou2",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33517436?u=fe8d37f666993dcf5b756c891dd76253712575ba&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "ARSP",
+        "nameWithOwner": "ppanayiotou2/ARSP",
+        "url": "https://github.com/ppanayiotou2/ARSP",
+        "description": "An AR android application to display the menu and ratings of a particular customer service company by pointing their logo at the AR camera provided by the app.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-07-20T09:26:11Z",
+        "pushedAt": "2019-07-20T09:26:12Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -37697,19 +41788,19 @@
         "Cyprus"
       ],
       "topRepository": {
-        "name": "igaming-snowflake-kpi-analytics",
-        "nameWithOwner": "Rajashekar098/igaming-snowflake-kpi-analytics",
-        "url": "https://github.com/Rajashekar098/igaming-snowflake-kpi-analytics",
+        "name": "Candy_Project",
+        "nameWithOwner": "Rajashekar098/Candy_Project",
+        "url": "https://github.com/Rajashekar098/Candy_Project",
         "description": null,
         "stargazerCount": 0,
         "forkCount": 0,
         "isArchived": false,
         "isFork": false,
-        "createdAt": "2026-10-18T08:43:30Z",
-        "pushedAt": "2026-10-18T09:29:15Z",
+        "createdAt": "2026-10-29T14:07:32Z",
+        "pushedAt": "2026-10-29T14:21:00Z",
         "homepageUrl": null,
         "primaryLanguage": {
-          "name": "Python"
+          "name": "HTML"
         },
         "licenseInfo": null
       }
@@ -38407,6 +42498,40 @@
       }
     },
     {
+      "id": "U_kgDOBa1wKw",
+      "login": "Rizvy420",
+      "name": null,
+      "type": "User",
+      "location": "Cyprus,limasol",
+      "url": "https://github.com/Rizvy420",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/95252523?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "vigilant-octo-broccoli",
+        "nameWithOwner": "Rizvy420/vigilant-octo-broccoli",
+        "url": "https://github.com/Rizvy420/vigilant-octo-broccoli",
+        "description": "Bolt courier",
+        "stargazerCount": 0,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-12-05T19:54:23Z",
+        "pushedAt": "2022-12-05T19:54:25Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOE-xtCA",
       "login": "robertkhanofficial",
       "name": "Robert Khan",
@@ -38930,6 +43055,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIzNzExMjUz",
+      "login": "s-glagolev",
+      "name": "Sergey Glagolev",
+      "type": "User",
+      "location": "Paphos, Cyprus",
+      "url": "https://github.com/s-glagolev",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/23711253?u=ee245503176efdfa8be9ed75edebf59b8204a0d1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "Login",
+        "nameWithOwner": "s-glagolev/Login",
+        "url": "https://github.com/s-glagolev/Login",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-11-21T22:10:41Z",
+        "pushedAt": "2021-11-21T22:19:25Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Swift"
         },
         "licenseInfo": null
       }
@@ -39467,6 +43628,42 @@
         "pushedAt": "2017-09-02T08:34:11Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU1Nzc2Njk=",
+      "login": "Savvina19",
+      "name": "Savvina",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/Savvina19",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5577669?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "ProjectExample",
+        "nameWithOwner": "Savvina19/ProjectExample",
+        "url": "https://github.com/Savvina19/ProjectExample",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-05-19T16:52:58Z",
+        "pushedAt": "2019-05-19T16:54:18Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
         "licenseInfo": null
       }
     },
@@ -40181,6 +44378,42 @@
       }
     },
     {
+      "id": "U_kgDOEMYywg",
+      "login": "sheltata",
+      "name": "Tatiana Shelekhova",
+      "type": "User",
+      "location": "Paphos, Cyprus",
+      "url": "https://github.com/sheltata",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/281424578?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "dev-feedback-tool",
+        "nameWithOwner": "sheltata/dev-feedback-tool",
+        "url": "https://github.com/sheltata/dev-feedback-tool",
+        "description": "Product feedback survey tool for PMMs. Collect release, NPS, feature and onboarding feedback. Responses go to Google Sheets.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-14T11:23:52Z",
+        "pushedAt": "2026-05-14T12:21:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDODvFpFA",
       "login": "shenshin",
       "name": "Igor Shenshin",
@@ -40251,6 +44484,42 @@
           "name": "Apache License 2.0",
           "spdxId": "Apache-2.0"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMzMDA0Njgx",
+      "login": "shm29",
+      "name": "Artur S",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/shm29",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33004681?u=23bdcf8c8f823e3430d04a6be2741f156a679478&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "testovoe",
+        "nameWithOwner": "shm29/testovoe",
+        "url": "https://github.com/shm29/testovoe",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-01-24T00:14:30Z",
+        "pushedAt": "2022-01-24T00:24:28Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jinja"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -40573,6 +44842,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjI1ODYwNjIw",
+      "login": "sinalotfim",
+      "name": "Sina Lotfi",
+      "type": "User",
+      "location": "Nicosia, Cyprus",
+      "url": "https://github.com/sinalotfim",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25860620?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "pro-fit",
+        "nameWithOwner": "sinalotfim/pro-fit",
+        "url": "https://github.com/sinalotfim/pro-fit",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-19T09:02:40Z",
+        "pushedAt": "2026-06-07T18:57:02Z",
+        "homepageUrl": "https://pro-fit-wheat.vercel.app",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQwMTM4MjM2",
       "login": "sinomos1",
       "name": "Kyriacos Yiannacou",
@@ -40676,6 +44981,42 @@
         "pushedAt": "2026-02-09T21:47:54Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU0NzE4NTg0",
+      "login": "slimhd",
+      "name": "Burak",
+      "type": "User",
+      "location": "North Cyprus",
+      "url": "https://github.com/slimhd",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/54718584?u=45403f1d2bc142cf9436717a2825797c792cc167&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "TES",
+        "nameWithOwner": "slimhd/TES",
+        "url": "https://github.com/slimhd/TES",
+        "description": "Traffic Enforcement System for Northern Cyprus latest number plates",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-12-25T13:03:26Z",
+        "pushedAt": "2025-12-27T21:03:02Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
         "licenseInfo": null
       }
     },
@@ -41029,6 +45370,40 @@
         "isFork": false,
         "createdAt": "2025-04-07T15:59:48Z",
         "pushedAt": "2025-04-07T15:59:48Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM5NzU0Njk=",
+      "login": "soyome",
+      "name": "Konstantin Zherebtsov",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/soyome",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/3975469?u=1b115e268e1fd109b992b33bebc470319f4665c7&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "try_git",
+        "nameWithOwner": "soyome/try_git",
+        "url": "https://github.com/soyome/try_git",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2013-04-08T18:04:51Z",
+        "pushedAt": "2013-04-08T21:30:00Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -41890,6 +46265,42 @@
       }
     },
     {
+      "id": "U_kgDOCTzgSg",
+      "login": "strecshazovskiOK",
+      "name": "Ömercan Kahveci",
+      "type": "User",
+      "location": "kyrenia/cyprus",
+      "url": "https://github.com/strecshazovskiOK",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/154984522?u=e0c45291acd2b0ffbd3a4d9cbad3e0d2284cb51f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "sonmeztrafo_customer_portal",
+        "nameWithOwner": "strecshazovskiOK/sonmeztrafo_customer_portal",
+        "url": "https://github.com/strecshazovskiOK/sonmeztrafo_customer_portal",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-20T12:24:08Z",
+        "pushedAt": "2026-07-20T13:09:06Z",
+        "homepageUrl": "https://sonmeztrafo-customer-portal-ivory.vercel.app",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjM3OTg3MDk4",
       "login": "strel51",
       "name": "Viktor",
@@ -42629,6 +47040,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjExMTQ0MTg0",
+      "login": "the0filo5",
+      "name": "Theo Constantinidis",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/the0filo5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11144184?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "NVIDIA_NIM",
+        "nameWithOwner": "the0filo5/NVIDIA_NIM",
+        "url": "https://github.com/the0filo5/NVIDIA_NIM",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-14T13:51:10Z",
+        "pushedAt": "2026-01-14T13:52:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQ0NjgxMjA5",
       "login": "themajesticbear",
       "name": "David Mezo",
@@ -43128,6 +47578,40 @@
         "primaryLanguage": {
           "name": "Python"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM1NDA5NTM2",
+      "login": "topscoin",
+      "name": "Topscoin",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/topscoin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/35409536?u=133c6abb955edb9ae142e40d75c9ceda5347c6b5&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "polymatrix",
+        "nameWithOwner": "topscoin/polymatrix",
+        "url": "https://github.com/topscoin/polymatrix",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-07-22T04:55:10Z",
+        "pushedAt": "2025-07-22T04:55:10Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -44130,6 +48614,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ5NTk5MjE5",
+      "login": "VasiliMakouski",
+      "name": "Vasili Makouski",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/VasiliMakouski",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/49599219?u=5e2ba87e0c6456490494c10a3258e093cd9c81db&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "Telegram_Echo_Bot_Template",
+        "nameWithOwner": "VasiliMakouski/Telegram_Echo_Bot_Template",
+        "url": "https://github.com/VasiliMakouski/Telegram_Echo_Bot_Template",
+        "description": "Telegram Echo Bot Template",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-05-11T20:44:34Z",
+        "pushedAt": "2023-05-11T20:45:52Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQ1MDg5Njgw",
       "login": "Vasilis6669",
       "name": "Vasilis Charalambous",
@@ -44197,6 +48717,45 @@
           "name": "C++"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjExNDU5OTI0",
+      "login": "VasilyStrelyaev",
+      "name": "Vasily Strelyaev",
+      "type": "User",
+      "location": "Paphos, Cyprus",
+      "url": "https://github.com/VasilyStrelyaev",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11459924?u=4d8966f59cb6261be026d8457435519a4e22eaa2&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "vite-scss-path-rebase-repro",
+        "nameWithOwner": "VasilyStrelyaev/vite-scss-path-rebase-repro",
+        "url": "https://github.com/VasilyStrelyaev/vite-scss-path-rebase-repro",
+        "description": "Sample to reproduce an issue with how Vite rebases paths in SCSS",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-04-08T11:06:06Z",
+        "pushedAt": "2025-06-27T06:40:40Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -44307,6 +48866,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjUwNDQwMTc1",
+      "login": "Ventje66",
+      "name": null,
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/Ventje66",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50440175?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "iGerd",
+        "nameWithOwner": "Ventje66/iGerd",
+        "url": "https://github.com/Ventje66/iGerd",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-30T07:56:34Z",
+        "pushedAt": "2026-08-16T17:10:26Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Shell"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjg2MDI1Mzgz",
       "login": "VeraKlimanova",
       "name": "Vera",
@@ -44412,6 +49007,40 @@
         "primaryLanguage": {
           "name": "Java"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBjfQ2g",
+      "login": "Vikki100621",
+      "name": "Viktoriya",
+      "type": "User",
+      "location": "Larnaca, Cyprus",
+      "url": "https://github.com/Vikki100621",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/104321242?u=b33018b8b1c7c7d95c875ee83d1253eecc9fe43c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "React-app",
+        "nameWithOwner": "Vikki100621/React-app",
+        "url": "https://github.com/Vikki100621/React-app",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-10-26T07:48:15Z",
+        "pushedAt": "2023-12-03T10:35:19Z",
+        "homepageUrl": "https://react-app-orcin-two.vercel.app",
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -45095,6 +49724,40 @@
         "primaryLanguage": {
           "name": "Java"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI0NjkyODM2",
+      "login": "XanthiZ",
+      "name": "Xanthi Zachariou",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/XanthiZ",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/24692836?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "managementconsoleservicetests",
+        "nameWithOwner": "XanthiZ/managementconsoleservicetests",
+        "url": "https://github.com/XanthiZ/managementconsoleservicetests",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-04-06T06:48:08Z",
+        "pushedAt": "2023-04-06T06:48:08Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -46235,6 +50898,42 @@
       }
     },
     {
+      "id": "U_kgDOBliwBg",
+      "login": "zaferna",
+      "name": "zafer akay",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/zaferna",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/106475526?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "HW-52",
+        "nameWithOwner": "zaferna/HW-52",
+        "url": "https://github.com/zaferna/HW-52",
+        "description": "Nested Class J102",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-08-01T09:05:35Z",
+        "pushedAt": "2022-08-01T09:05:51Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBhpLvg",
       "login": "zaldiego",
       "name": "Diego Fonseca",
@@ -46409,6 +51108,42 @@
         "pushedAt": "2024-04-24T07:48:27Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCJDw8A",
+      "login": "zinaidalalala",
+      "name": "Zinaida Danelian",
+      "type": "User",
+      "location": "Cyprus",
+      "url": "https://github.com/zinaidalalala",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/143716592?u=42d9b44bfcf0650bd16cb2cc77c935c606fe575d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "CY",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Cyprus"
+      },
+      "discoveryTerms": [
+        "Cyprus"
+      ],
+      "topRepository": {
+        "name": "multiplication-game",
+        "nameWithOwner": "zinaidalalala/multiplication-game",
+        "url": "https://github.com/zinaidalalala/multiplication-game",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-05T15:13:21Z",
+        "pushedAt": "2024-09-05T15:36:14Z",
+        "homepageUrl": "https://multiplication-game.zinaida.me/",
+        "primaryLanguage": {
+          "name": "CSS"
+        },
         "licenseInfo": null
       }
     },
