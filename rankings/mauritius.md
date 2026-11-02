@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 164**
 - Progress: **0%**
-- Retained high-potential owner candidates: **1,011**
-- Search requests completed: **32**
+- Retained high-potential owner candidates: **1,211**
+- Search requests completed: **40**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -27,18 +27,18 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [rahul-thakoor/balena-rpiplay](https://github.com/rahul-thakoor/balena-rpiplay) | **1,427** | Mauritius |
 | [thatstraw/Cybersecurity-Roadmap](https://github.com/thatstraw/Cybersecurity-Roadmap) | **739** | Mauritius |
 | [giriss/comfy-image-saver](https://github.com/giriss/comfy-image-saver) | **348** | Mauritius |
+| [yuvraj108c/ComfyUI-Whisper](https://github.com/yuvraj108c/ComfyUI-Whisper) | **282** | Mauritius |
 | [Abdur-rahmaanJ/shopcube](https://github.com/Abdur-rahmaanJ/shopcube) | **278** | Mauritius |
-| [yuvraj108c/ComfyUI-Whisper](https://github.com/yuvraj108c/ComfyUI-Whisper) | **274** | Mauritius |
-| [eznix86/docker-registry-ui](https://github.com/eznix86/docker-registry-ui) | **246** | Mauritius |
+| [eznix86/docker-registry-ui](https://github.com/eznix86/docker-registry-ui) | **250** | Mauritius |
 | [mscraftsman/generative-ai](https://github.com/mscraftsman/generative-ai) | **215** | Mauritius |
-| [SharCodin/YouTube-Video-Archive](https://github.com/SharCodin/YouTube-Video-Archive) | **176** | Mauritius |
+| [SharCodin/YouTube-Video-Archive](https://github.com/SharCodin/YouTube-Video-Archive) | **179** | Mauritius |
+| [khavishbhundoo/obfsproxy-openvpn](https://github.com/khavishbhundoo/obfsproxy-openvpn) | **117** | Mauritius |
+| [ashvin-bhuttoo/PersistentHotspot](https://github.com/ashvin-bhuttoo/PersistentHotspot) | **100** | Mauritius |
+| [ndepend/NDepend.Path](https://github.com/ndepend/NDepend.Path) | **91** | Mauritius |
+| [ZiadJ/knockoutjs-reactor](https://github.com/ZiadJ/knockoutjs-reactor) | **74** | Mauritius |
 | [marclamberti/docker-airflow](https://github.com/marclamberti/docker-airflow) | **70** | Mauritius |
 | [kavishgr/xmlrpc-bruteforcer](https://github.com/kavishgr/xmlrpc-bruteforcer) | **63** | Republic Of Mauritius |
 | [arwinneil/albanian-virus](https://github.com/arwinneil/albanian-virus) | **51** | Mauritius |
-| [asvinb/pixidou](https://github.com/asvinb/pixidou) | **44** | Mauritius |
-| [percymamedy/laravel-dev-booter](https://github.com/percymamedy/laravel-dev-booter) | **35** | Port Louis Mauritius |
-| [k3ii/revq](https://github.com/k3ii/revq) | **34** | Mauritius |
-| [BarbUk/dotfiles](https://github.com/BarbUk/dotfiles) | **33** | Mauritius |
 
 ## Repository-first scan
 

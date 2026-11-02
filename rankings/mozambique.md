@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 109**
 - Progress: **0%**
-- Retained high-potential owner candidates: **1,129**
-- Search requests completed: **32**
+- Retained high-potential owner candidates: **518**
+- Search requests completed: **40**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -25,20 +25,20 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
 | [americo/sqlifinder](https://github.com/americo/sqlifinder) | **395** | Mozambique |
+| [alec1o/Netly](https://github.com/alec1o/Netly) | **110** | Mozambique |
+| [henck/rtf-html-php](https://github.com/henck/rtf-html-php) | **106** | Maputo, Mozambique |
 | [Uanela/arkos](https://github.com/Uanela/arkos) | **91** | Beira, Sofala, Mozambique |
+| [isneezy/open-weather-icons](https://github.com/isneezy/open-weather-icons) | **75** | Maputo, Mozambique |
 | [AghastyGD/lazy-ninja](https://github.com/AghastyGD/lazy-ninja) | **56** | Beira, Sofala, Mozambique |
 | [edilsonmatola/habitual-ecommerce-app-getx](https://github.com/edilsonmatola/habitual-ecommerce-app-getx) | **50** | Maputo, Mozambique |
 | [PauloPhagula/awesome-mpesa](https://github.com/PauloPhagula/awesome-mpesa) | **38** | Maputo, Mozambique |
+| [RichaldoElias/ComunidadesMoz](https://github.com/RichaldoElias/ComunidadesMoz) | **36** | Mozambique |
 | [HercoZauZau/Kutiva](https://github.com/HercoZauZau/Kutiva) | **33** | Maputo, Mozambique |
 | [doilio/Dowy](https://github.com/doilio/Dowy) | **30** | Mozambique, Maputo |
 | [emagombe/mpesa-api](https://github.com/emagombe/mpesa-api) | **30** | Mozambique |
 | [JefferMarcelino/whatsapp-bot](https://github.com/JefferMarcelino/whatsapp-bot) | **29** | Mozambique, Maputo |
 | [MelvinNunes/moz-regional-api](https://github.com/MelvinNunes/moz-regional-api) | **24** | Mozambique |
 | [arnaldo-tomo/laravel-autoscema](https://github.com/arnaldo-tomo/laravel-autoscema) | **21** | Mozambique |
-| [themisterpaps/SGRH](https://github.com/themisterpaps/SGRH) | **16** | Maputo, Mozambique |
-| [EdNgulele/Speak-To-Me](https://github.com/EdNgulele/Speak-To-Me) | **12** | Maputo,  Mozambique |
-| [mabuie-test/Samsung_desbloqueios](https://github.com/mabuie-test/Samsung_desbloqueios) | **12** | Mozambique |
-| [emiltonnhampossa/Moz-Translate](https://github.com/emiltonnhampossa/Moz-Translate) | **11** | Mozambique |
 
 ## Repository-first scan
 

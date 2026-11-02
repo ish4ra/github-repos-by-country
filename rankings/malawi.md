@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 87**
 - Progress: **0%**
-- Retained high-potential owner candidates: **1,024**
-- Search requests completed: **32**
+- Retained high-potential owner candidates: **1,328**
+- Search requests completed: **40**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,20 +24,20 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
+| [ngomile/anigrab](https://github.com/ngomile/anigrab) | **133** | Malawi |
 | [zikani03/groupby](https://github.com/zikani03/groupby) | **74** | Lilongwe, Malawi |
 | [JimmyXtesla/BILN](https://github.com/JimmyXtesla/BILN) | **57** | Blantyre, Malawi |
 | [Iankulani/2020_Malawi_Fresh_Presidential_Election](https://github.com/Iankulani/2020_Malawi_Fresh_Presidential_Election) | **54** | Mzimba, Malawi |
+| [mitosisX/Limekit](https://github.com/mitosisX/Limekit) | **39** | Malawi |
 | [Bright-Phiri/JavaFX-Library-Management-Information-System](https://github.com/Bright-Phiri/JavaFX-Library-Management-Information-System) | **29** | Lilongwe, Malawi |
+| [thewati/ExtractSatelliteImagesFromCSV](https://github.com/thewati/ExtractSatelliteImagesFromCSV) | **26** | Lilongwe, Malawi |
 | [ACT91/My-Portfolio](https://github.com/ACT91/My-Portfolio) | **25** | Blantyre , Malawi |
+| [Gimyk/resize_base64_image](https://github.com/Gimyk/resize_base64_image) | **25** | Malawi |
 | [StevenKamwaza/weather-staion-iot](https://github.com/StevenKamwaza/weather-staion-iot) | **21** |  Malawi |
 | [doreanbyte/katswiri](https://github.com/doreanbyte/katswiri) | **17** | Blantyre, Malawi |
+| [M2KDevelopments/gohighlevel](https://github.com/M2KDevelopments/gohighlevel) | **15** | Malawi |
 | [PreciousNyasulu/malawi-country-data](https://github.com/PreciousNyasulu/malawi-country-data) | **15** | Blantyre, Malawi |
 | [Cyber-prince-k/queue-management-system](https://github.com/Cyber-prince-k/queue-management-system) | **12** | Malawi |
 | [Kakoko/MovieManagementDemoCQRS](https://github.com/Kakoko/MovieManagementDemoCQRS) | **12** | Lilongwe, Malawi |
-| [RedsonNgwira/sonder](https://github.com/RedsonNgwira/sonder) | **11** | Malawi |
-| [melodykellys/melodykellys](https://github.com/melodykellys/melodykellys) | **9** | Lilongwe Malawi |
-| [inno-waluza/OllamaChat](https://github.com/inno-waluza/OllamaChat) | **7** | Blantrye, Malawi |
-| [stanulilic/markdown-editor](https://github.com/stanulilic/markdown-editor) | **7** | Zomba, Malawi |
-| [TgkCapture/RepoMaster](https://github.com/TgkCapture/RepoMaster) | **7** | Blantyre, Malawi. |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

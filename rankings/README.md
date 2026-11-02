@@ -1,6 +1,6 @@
 # Browse Repository Rankings
 
-**250 countries and territories indexed · 53 live · 219 building**
+**250 countries and territories indexed · 53 live · 217 building**
 
 Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a country.
 
@@ -137,20 +137,20 @@ Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a co
 | 🇱🇺 **Luxembourg** | `LU` | 🟡 Building 0% | [Open country page](./luxembourg.md) | — | 11 Oct 2026, 01:09 UTC |
 | 🇲🇴 **Macao** | `MO` | 🟡 Building 4% | [Open country page](./macao.md) | — | 16 Oct 2026, 05:04 UTC |
 | 🇲🇬 **Madagascar** | `MG` | 🟡 Building 0% | [Open country page](./madagascar.md) | — | 15 Oct 2026, 22:12 UTC |
-| 🇲🇼 **Malawi** | `MW` | 🟡 Building 0% | [Open country page](./malawi.md) | — | 29 Oct 2026, 22:51 UTC |
+| 🇲🇼 **Malawi** | `MW` | 🟡 Building 0% | [Open country page](./malawi.md) | — | 02 Nov 2026, 06:20 UTC |
 | 🇲🇾 **Malaysia** | `MY` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./malaysia.md) | 100 | 17 Oct 2026, 01:38 UTC |
-| 🇲🇻 **Maldives** | `MV` | 🟡 Building 14% | [Open country page](./maldives.md) | — | 12 Oct 2026, 09:07 UTC |
-| 🇲🇱 **Mali** | `ML` | 🟡 Building 11% | [Open country page](./mali.md) | — | 29 Oct 2026, 22:52 UTC |
+| 🇲🇻 **Maldives** | `MV` | 🟡 Building 23% | [Open country page](./maldives.md) | — | 12 Oct 2026, 09:07 UTC |
+| 🇲🇱 **Mali** | `ML` | 🟡 Building 19% | [Open country page](./mali.md) | — | 02 Nov 2026, 06:21 UTC |
 | 🇲🇹 **Malta** | `MT` | 🟡 Building 0% | [Open country page](./malta.md) | — | 14 Oct 2026, 19:21 UTC |
-| 🇲🇭 **Marshall Islands** | `MH` | 🟡 Building 48% | [Open country page](./marshall-islands.md) | — | 14 Oct 2026, 05:09 UTC |
-| 🇲🇶 **Martinique** | `MQ` | 🟡 Building 75% | [Open country page](./martinique.md) | — | 29 Oct 2026, 22:53 UTC |
-| 🇲🇷 **Mauritania** | `MR` | 🟡 Building 17% | [Open country page](./mauritania.md) | — | 29 Oct 2026, 22:53 UTC |
+| 🇲🇭 **Marshall Islands** | `MH` | 🟡 Building 62% | [Open country page](./marshall-islands.md) | — | 14 Oct 2026, 05:09 UTC |
+| 🇲🇶 **Martinique** | `MQ` | 🟡 Building 97% | [Open country page](./martinique.md) | — | 02 Nov 2026, 06:21 UTC |
+| 🇲🇷 **Mauritania** | `MR` | 🟡 Building 22% | [Open country page](./mauritania.md) | — | 02 Nov 2026, 06:21 UTC |
 | 🇲🇺 **Mauritius** | `MU` | 🟡 Building 0% | [Open country page](./mauritius.md) | — | 16 Oct 2026, 18:16 UTC |
-| 🇾🇹 **Mayotte** | `YT` | 🟡 Building 40% | [Open country page](./mayotte.md) | — | 29 Oct 2026, 22:53 UTC |
+| 🇾🇹 **Mayotte** | `YT` | 🟡 Building 51% | [Open country page](./mayotte.md) | — | 02 Nov 2026, 06:22 UTC |
 | 🇲🇽 **Mexico** | `MX` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./mexico.md) | 100 | 17 Oct 2026, 01:38 UTC |
-| 🇫🇲 **Micronesia** | `FM` | 🟡 Building 27% | [Open country page](./micronesia.md) | — | 29 Oct 2026, 22:54 UTC |
+| 🇫🇲 **Micronesia** | `FM` | 🟡 Building 33% | [Open country page](./micronesia.md) | — | 02 Nov 2026, 06:22 UTC |
 | 🇲🇩 **Moldova** | `MD` | 🟡 Building 0% | [Open country page](./moldova.md) | — | 16 Oct 2026, 21:29 UTC |
-| 🇲🇨 **Monaco** | `MC` | 🟡 Building 79% | [Open country page](./monaco.md) | — | 29 Oct 2026, 22:54 UTC |
+| 🇲🇨 **Monaco** | `MC` | Completed | [Open country page](./monaco.md) | — | 02 Nov 2026, 06:23 UTC |
 | 🇲🇳 **Mongolia** | `MN` | 🟡 Building 0% | [Open country page](./mongolia.md) | — | 16 Oct 2026, 05:04 UTC |
 | 🇲🇪 **Montenegro** | `ME` | 🟡 Building 0% | [Open country page](./montenegro.md) | — | 16 Oct 2026, 23:48 UTC |
 | 🇲🇸 **Montserrat** | `MS` | Completed | [Open country page](./montserrat.md) | — | 23 Oct 2026, 21:32 UTC |
@@ -158,7 +158,7 @@ Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a co
 | 🇲🇿 **Mozambique** | `MZ` | 🟡 Building 0% | [Open country page](./mozambique.md) | — | 14 Oct 2026, 10:09 UTC |
 | 🇲🇲 **Myanmar (Burma)** | `MM` | 🟡 Building 2% | [Open country page](./myanmar-burma.md) | — | 15 Oct 2026, 22:12 UTC |
 | 🇳🇦 **Namibia** | `NA` | 🟡 Building 0% | [Open country page](./namibia.md) | — | 16 Oct 2026, 00:34 UTC |
-| 🇳🇷 **Nauru** | `NR` | 🟡 Building 91% | [Open country page](./nauru.md) | — | 30 Oct 2026, 05:59 UTC |
+| 🇳🇷 **Nauru** | `NR` | Completed | [Open country page](./nauru.md) | — | 02 Nov 2026, 06:24 UTC |
 | 🇳🇵 **Nepal** | `NP` | 🟡 Building 0% | [Open country page](./nepal.md) | — | 16 Oct 2026, 21:29 UTC |
 | 🇳🇱 **Netherlands** | `NL` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./netherlands.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇳🇨 **New Caledonia** | `NC` | 🟡 Building 35% | [Open country page](./new-caledonia.md) | — | 16 Oct 2026, 05:04 UTC |

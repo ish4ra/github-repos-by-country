@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 162**
 - Progress: **0%**
-- Retained high-potential owner candidates: **1,477**
-- Search requests completed: **39**
+- Retained high-potential owner candidates: **1,819**
+- Search requests completed: **47**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -29,6 +29,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [tsirysndr/music-player](https://github.com/tsirysndr/music-player) | **525** | Antananarivo / Madagascar |
 | [RajaRakoto/cntemad-repository](https://github.com/RajaRakoto/cntemad-repository) | **77** | Antananarivo Madagascar |
 | [julkwel/madagascar-map](https://github.com/julkwel/madagascar-map) | **70** | Madagascar |
+| [MJaonary/vueflow-chat-flow-builder](https://github.com/MJaonary/vueflow-chat-flow-builder) | **66** | Antananarivo, Madagascar |
 | [krishna2206/google-lens-python](https://github.com/krishna2206/google-lens-python) | **45** | Fianarantsoa, Madagascar  |
 | [letsila/slim3-jwt-auth-example](https://github.com/letsila/slim3-jwt-auth-example) | **43** | Antananarivo, Madagascar |
 | [AmigosKazz/Code-templates-DSA](https://github.com/AmigosKazz/Code-templates-DSA) | **36** | Madagascar |
@@ -37,8 +38,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [rivo2302/Mvola](https://github.com/rivo2302/Mvola) | **24** | Antananarivo, Madagascar |
 | [RINOHeinrich1/madaChatFrontend](https://github.com/RINOHeinrich1/madaChatFrontend) | **20** | Madagascar |
 | [tokyramarozaka/crkbd-corne-v3-keymap](https://github.com/tokyramarozaka/crkbd-corne-v3-keymap) | **19** | Madagascar |
-| [HoracioSoldman/batch-processing-on-aws](https://github.com/HoracioSoldman/batch-processing-on-aws) | **15** | Antananarivo, Madagascar |
-| [KiritoEM/boolean-table](https://github.com/KiritoEM/boolean-table) | **15** | Antananarivo, Madagascar |
+| [Don-Gio/QuantumTius](https://github.com/Don-Gio/QuantumTius) | **18** | Madagascar |
 
 ## Repository-first scan
 
