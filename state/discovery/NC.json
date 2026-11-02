@@ -12,21 +12,38 @@
     "termsTotal": 79
   },
   "phase": "discovery",
-  "nextTermIndex": 28,
-  "activeTerm": null,
+  "nextTermIndex": 29,
+  "activeTerm": {
+    "index": 29,
+    "term": "North Province",
+    "queue": [
+      {
+        "query": "location:\"North Province\"",
+        "stage": "base",
+        "cursor": "Y3Vyc29yOjM1MA==",
+        "pageNumber": 8,
+        "attempts": 0
+      }
+    ],
+    "startedAt": "2026-11-02T16:14:57.225Z",
+    "requests": 7,
+    "leafPages": 7,
+    "shardExpansions": 0,
+    "reportedCount": null
+  },
   "discoveryComplete": false,
   "startedAt": "2026-10-06T06:33:05.068Z",
-  "updatedAt": "2026-10-30T05:59:49.961Z",
+  "updatedAt": "2026-11-02T16:15:16.877Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
-    "termsProcessed": 28,
-    "searchRequests": 32,
-    "leafPages": 32,
+    "termsProcessed": 29,
+    "searchRequests": 40,
+    "leafPages": 40,
     "shardExpansions": 0,
-    "rawOwnerHits": 260,
+    "rawOwnerHits": 613,
     "acceptedOwnerHits": 243,
-    "rejectedOwnerHits": 17,
+    "rejectedOwnerHits": 370,
     "unresolvedShardCount": 0,
     "minimumRateLimitRemaining": 4875
   },
