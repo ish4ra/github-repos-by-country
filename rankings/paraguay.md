@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 161**
 - Progress: **0%**
-- Retained high-potential owner candidates: **1,127**
-- Search requests completed: **32**
+- Retained high-potential owner candidates: **1,425**
+- Search requests completed: **40**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -37,8 +37,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [cmelgarejo/go-gql-server](https://github.com/cmelgarejo/go-gql-server) | **73** | Paraguay |
 | [skyvanguard/awesome-ai-pentesting](https://github.com/skyvanguard/awesome-ai-pentesting) | **68** | Paraguay |
 | [kennym/cf7-to-api](https://github.com/kennym/cf7-to-api) | **52** | Paraguay |
+| [wcs/tepid](https://github.com/wcs/tepid) | **44** | Paraguay |
 | [juancarlosmiranda/azure_kinect_notes](https://github.com/juancarlosmiranda/azure_kinect_notes) | **42** | Encarnación - Paraguay |
-| [jvcjunior/login-react-redux](https://github.com/jvcjunior/login-react-redux) | **40** | Santa Rita, Paraguay |
 
 ## Repository-first scan
 

@@ -161,23 +161,23 @@ Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a co
 | 🇳🇷 **Nauru** | `NR` | Completed | [Open country page](./nauru.md) | — | 02 Nov 2026, 06:24 UTC |
 | 🇳🇵 **Nepal** | `NP` | 🟡 Building 0% | [Open country page](./nepal.md) | — | 16 Oct 2026, 21:29 UTC |
 | 🇳🇱 **Netherlands** | `NL` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./netherlands.md) | 100 | 17 Oct 2026, 01:38 UTC |
-| 🇳🇨 **New Caledonia** | `NC` | 🟡 Building 35% | [Open country page](./new-caledonia.md) | — | 16 Oct 2026, 05:04 UTC |
+| 🇳🇨 **New Caledonia** | `NC` | 🟡 Building 36% | [Open country page](./new-caledonia.md) | — | 16 Oct 2026, 05:04 UTC |
 | 🇳🇿 **New Zealand** | `NZ` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./new-zealand.md) | 100 | 16 Oct 2026, 23:48 UTC |
 | 🇳🇮 **Nicaragua** | `NI` | 🟡 Building 0% | [Open country page](./nicaragua.md) | — | 16 Oct 2026, 18:16 UTC |
-| 🇳🇪 **Niger** | `NE` | 🟡 Building 17% | [Open country page](./niger.md) | — | 13 Oct 2026, 01:18 UTC |
+| 🇳🇪 **Niger** | `NE` | 🟡 Building 24% | [Open country page](./niger.md) | — | 13 Oct 2026, 01:18 UTC |
 | 🇳🇬 **Nigeria** | `NG` | 🟡 Building 0% | [Open country page](./nigeria.md) | — | 17 Oct 2026, 01:38 UTC |
 | 🇳🇺 **Niue** | `NU` | Completed | [Open country page](./niue.md) | — | 30 Oct 2026, 06:01 UTC |
 | 🇳🇫 **Norfolk Island** | `NF` | Completed | [Open country page](./norfolk-island.md) | — | 27 Oct 2026, 05:14 UTC |
-| 🇰🇵 **North Korea** | `KP` | 🟡 Building 11% | [Open country page](./north-korea.md) | — | 16 Oct 2026, 21:29 UTC |
-| 🇲🇰 **North Macedonia** | `MK` | 🟡 Building 3% | [Open country page](./north-macedonia.md) | — | 16 Oct 2026, 23:48 UTC |
+| 🇰🇵 **North Korea** | `KP` | 🟡 Building 15% | [Open country page](./north-korea.md) | — | 16 Oct 2026, 21:29 UTC |
+| 🇲🇰 **North Macedonia** | `MK` | 🟡 Building 5% | [Open country page](./north-macedonia.md) | — | 16 Oct 2026, 23:48 UTC |
 | 🇲🇵 **Northern Mariana Islands** | `MP` | Completed | [Open country page](./northern-mariana-islands.md) | — | 30 Oct 2026, 06:01 UTC |
 | 🇳🇴 **Norway** | `NO` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./norway.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇴🇲 **Oman** | `OM` | 🟡 Building 0% | [Open country page](./oman.md) | — | 09 Oct 2026, 00:01 UTC |
 | 🇵🇰 **Pakistan** | `PK` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./pakistan.md) | 100 | 16 Oct 2026, 23:48 UTC |
-| 🇵🇼 **Palau** | `PW` | 🟡 Building 55% | [Open country page](./palau.md) | — | 30 Oct 2026, 06:02 UTC |
+| 🇵🇼 **Palau** | `PW` | 🟡 Building 68% | [Open country page](./palau.md) | — | 02 Nov 2026, 16:18 UTC |
 | 🇵🇸 **Palestine** | `PS` | 🟡 Building 0% | [Open country page](./palestine.md) | — | 10 Oct 2026, 14:48 UTC |
 | 🇵🇦 **Panama** | `PA` | 🟡 Building 0% | [Open country page](./panama.md) | — | 16 Oct 2026, 05:04 UTC |
-| 🇵🇬 **Papua New Guinea** | `PG` | 🟡 Building 17% | [Open country page](./papua-new-guinea.md) | — | 30 Oct 2026, 13:06 UTC |
+| 🇵🇬 **Papua New Guinea** | `PG` | 🟡 Building 20% | [Open country page](./papua-new-guinea.md) | — | 02 Nov 2026, 16:19 UTC |
 | 🇵🇾 **Paraguay** | `PY` | 🟡 Building 0% | [Open country page](./paraguay.md) | — | 14 Oct 2026, 22:28 UTC |
 | 🇵🇪 **Peru** | `PE` | 🟡 Building 0% | [Open country page](./peru.md) | — | 16 Oct 2026, 23:48 UTC |
 | 🇵🇭 **Philippines** | `PH` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./philippines.md) | 100 | 16 Oct 2026, 23:48 UTC |
@@ -186,7 +186,7 @@ Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a co
 | 🇵🇹 **Portugal** | `PT` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./portugal.md) | 100 | 16 Oct 2026, 23:48 UTC |
 | 🇵🇷 **Puerto Rico** | `PR` | 🟡 Building 0% | [Open country page](./puerto-rico.md) | — | 16 Oct 2026, 21:29 UTC |
 | 🇶🇦 **Qatar** | `QA` | 🟡 Building 0% | [Open country page](./qatar.md) | — | 16 Oct 2026, 23:48 UTC |
-| 🇨🇬 **Republic of the Congo** | `CG` | 🟡 Building 50% | [Open country page](./republic-of-the-congo.md) | — | 30 Oct 2026, 13:08 UTC |
+| 🇨🇬 **Republic of the Congo** | `CG` | 🟡 Building 55% | [Open country page](./republic-of-the-congo.md) | — | 02 Nov 2026, 16:22 UTC |
 | 🇷🇪 **Réunion** | `RE` | 🟡 Building 84% | [Open country page](./reunion.md) | — | 30 Oct 2026, 13:08 UTC |
 | 🇷🇴 **Romania** | `RO` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./romania.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇷🇺 **Russia** | `RU` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./russia.md) | 100 | 17 Oct 2026, 01:38 UTC |

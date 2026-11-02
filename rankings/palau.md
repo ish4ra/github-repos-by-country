@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 55%
+## Repository ranking status: Building 68%
 
-- Geography terms processed: **32 / 58**
-- Progress: **55%**
-- Retained high-potential owner candidates: **20**
-- Search requests completed: **32**
+- Geography terms processed: **40 / 58**
+- Progress: **68%**
+- Retained high-potential owner candidates: **21**
+- Search requests completed: **40**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -35,9 +35,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [nbaulesglobalsolutions/agda-logo](https://github.com/nbaulesglobalsolutions/agda-logo) | **1** | Koror, Palau |
 | [VictorVictus/Lapis](https://github.com/VictorVictus/Lapis) | **1** | Palau-Solità i Plegamans |
 | [1ByNacho/PracticaFinal_IgnasiPalau](https://github.com/1ByNacho/PracticaFinal_IgnasiPalau) | **0** | palau city boy |
+| [1CherryCandy1/dashing-rails](https://github.com/1CherryCandy1/dashing-rails) | **0** | Ngerulmud |
 | [3ngineglobal/.github](https://github.com/3ngineglobal/.github) | **0** | Palau |
 | [bcys/Learn_Note-](https://github.com/bcys/Learn_Note-) | **0** | Palau |
 | [courteousgold/courteousgold](https://github.com/courteousgold/courteousgold) | **0** | Palau (PW) |
-| [dohrnii-dev/DHN-V2-Logo](https://github.com/dohrnii-dev/DHN-V2-Logo) | **0** | Palau |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
