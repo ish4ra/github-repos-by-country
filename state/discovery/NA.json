@@ -12,68 +12,23 @@
     "termsTotal": 121
   },
   "phase": "discovery",
-  "nextTermIndex": 0,
-  "activeTerm": {
-    "index": 0,
-    "term": "Namibia",
-    "queue": [
-      {
-        "query": "location:\"Namibia\" type:user followers:5000..9999",
-        "stage": "followers",
-        "cursor": null,
-        "pageNumber": 1,
-        "attempts": 0
-      },
-      {
-        "query": "location:\"Namibia\" type:user followers:10000..24999",
-        "stage": "followers",
-        "cursor": null,
-        "pageNumber": 1,
-        "attempts": 0
-      },
-      {
-        "query": "location:\"Namibia\" type:user followers:25000..49999",
-        "stage": "followers",
-        "cursor": null,
-        "pageNumber": 1,
-        "attempts": 0
-      },
-      {
-        "query": "location:\"Namibia\" type:user followers:>=50000",
-        "stage": "followers",
-        "cursor": null,
-        "pageNumber": 1,
-        "attempts": 0
-      },
-      {
-        "query": "location:\"Namibia\" type:org",
-        "stage": "type",
-        "cursor": null,
-        "pageNumber": 1,
-        "attempts": 0
-      }
-    ],
-    "startedAt": "2026-10-06T06:32:00.492Z",
-    "requests": 32,
-    "leafPages": 30,
-    "shardExpansions": 2,
-    "reportedCount": 1046
-  },
+  "nextTermIndex": 1,
+  "activeTerm": null,
   "discoveryComplete": false,
   "startedAt": "2026-10-06T06:32:00.492Z",
-  "updatedAt": "2026-10-30T05:58:58.083Z",
+  "updatedAt": "2026-11-02T06:24:56.492Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
-    "termsProcessed": 0,
-    "searchRequests": 32,
-    "leafPages": 30,
+    "termsProcessed": 1,
+    "searchRequests": 40,
+    "leafPages": 38,
     "shardExpansions": 2,
-    "rawOwnerHits": 1155,
-    "acceptedOwnerHits": 1145,
+    "rawOwnerHits": 1307,
+    "acceptedOwnerHits": 1297,
     "rejectedOwnerHits": 10,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4900
+    "minimumRateLimitRemaining": 4869
   },
   "unresolvedShards": [],
   "candidates": [
@@ -227,6 +182,45 @@
         "licenseInfo": {
           "name": "MIT License",
           "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjc1MTM3ODY=",
+      "login": "namibia",
+      "name": "Namibia",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/namibia",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7513786?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "eHealth-Portal",
+        "nameWithOwner": "namibia/eHealth-Portal",
+        "url": "https://github.com/namibia/eHealth-Portal",
+        "description": "mirror of https://git.vdm.dev/joomla/eHealth-Portal",
+        "stargazerCount": 37,
+        "forkCount": 9,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-04-24T03:57:34Z",
+        "pushedAt": "2024-01-19T16:28:24Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v2.0",
+          "spdxId": "GPL-2.0"
         }
       }
     },
@@ -687,6 +681,84 @@
       }
     },
     {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjE3MjcyNjMy",
+      "login": "FendlerConsulting",
+      "name": "Fendler Consulting cc",
+      "type": "Organization",
+      "location": "Windhoek, Namibia",
+      "url": "https://github.com/FendlerConsulting",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17272632?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "ninja-quartz",
+        "nameWithOwner": "FendlerConsulting/ninja-quartz",
+        "url": "https://github.com/FendlerConsulting/ninja-quartz",
+        "description": "Quartz Scheduler Integration for the Ninja Web Framework",
+        "stargazerCount": 6,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-02-16T13:17:54Z",
+        "pushedAt": "2016-07-25T11:01:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjEwMjcyMDkx",
+      "login": "python-namibia",
+      "name": "Python Namibia",
+      "type": "Organization",
+      "location": "Windhoek, Namibia",
+      "url": "https://github.com/python-namibia",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10272091?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "python-namibia.github.io-2016",
+        "nameWithOwner": "python-namibia/python-namibia.github.io-2016",
+        "url": "https://github.com/python-namibia/python-namibia.github.io-2016",
+        "description": "The website for the Namibian pycon.",
+        "stargazerCount": 6,
+        "forkCount": 29,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2014-12-22T17:17:32Z",
+        "pushedAt": "2016-11-05T20:25:21Z",
+        "homepageUrl": "http://na.pycon.org/",
+        "primaryLanguage": {
+          "name": "CSS"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "U_kgDOBa3SpA",
       "login": "carleii",
       "name": "Carleii dev",
@@ -909,6 +981,42 @@
       }
     },
     {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjc0NjUzNzUy",
+      "login": "kaizenry",
+      "name": "Kaizen Media",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/kaizenry",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/74653752?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "kaizen-ui",
+        "nameWithOwner": "kaizenry/kaizen-ui",
+        "url": "https://github.com/kaizenry/kaizen-ui",
+        "description": null,
+        "stargazerCount": 4,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-03-12T09:38:58Z",
+        "pushedAt": "2022-03-12T09:40:20Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjEwODQzNzk2",
       "login": "Ngatatue",
       "name": "Mate",
@@ -1019,6 +1127,45 @@
         "licenseInfo": {
           "name": "The Unlicense",
           "spdxId": "Unlicense"
+        }
+      }
+    },
+    {
+      "id": "O_kgDOESGQAw",
+      "login": "UnitBuilds-CC",
+      "name": "UnitBuilds CC",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/UnitBuilds-CC",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/287412227?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "MCP-Lite",
+        "nameWithOwner": "UnitBuilds-CC/MCP-Lite",
+        "url": "https://github.com/UnitBuilds-CC/MCP-Lite",
+        "description": "AOM driven Agentic browser MCP",
+        "stargazerCount": 4,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-23T20:16:35Z",
+        "pushedAt": "2026-05-27T12:36:49Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": {
+          "name": "GNU Affero General Public License v3.0",
+          "spdxId": "AGPL-3.0"
         }
       }
     },
@@ -1169,6 +1316,45 @@
         "licenseInfo": {
           "name": "GNU Affero General Public License v3.0",
           "spdxId": "AGPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "O_kgDOBvvV6w",
+      "login": "GPNamibia",
+      "name": "Global Programs Namibia",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/GPNamibia",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/117167595?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "odk-central-mediator",
+        "nameWithOwner": "GPNamibia/odk-central-mediator",
+        "url": "https://github.com/GPNamibia/odk-central-mediator",
+        "description": "OpenHIM NodeJS Mediator that retrieves submissions from ODK Central using ODK Central API",
+        "stargazerCount": 3,
+        "forkCount": 0,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2022-11-17T12:00:02Z",
+        "pushedAt": "2022-11-17T12:16:21Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
         }
       }
     },
@@ -1758,6 +1944,42 @@
       }
     },
     {
+      "id": "O_kgDOCcSYLA",
+      "login": "lighthouse-na",
+      "name": "lighthouse",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/lighthouse-na",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/163878956?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "trainease",
+        "nameWithOwner": "lighthouse-na/trainease",
+        "url": "https://github.com/lighthouse-na/trainease",
+        "description": "TrainEase - A Laravel-based SaaS platform for efficient training management, enabling streamlined operations for training sessions, attendance tracking, certifications, and more.",
+        "stargazerCount": 2,
+        "forkCount": 4,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-01-28T14:00:23Z",
+        "pushedAt": "2026-01-16T01:00:31Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Blade"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjc5Njk1ODI0",
       "login": "linusmanuel",
       "name": "Joao Lino ",
@@ -2298,6 +2520,45 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "GDScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "O_kgDOCG3ZjA",
+      "login": "Zunda-Group",
+      "name": "ZUNDA TECHNICAL COLLAGE ",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/Zunda-Group",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/141416844?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "Int-Git-GitHub-Ops",
+        "nameWithOwner": "Zunda-Group/Int-Git-GitHub-Ops",
+        "url": "https://github.com/Zunda-Group/Int-Git-GitHub-Ops",
+        "description": "Introduction to Version control and Opensource contribution presentation ",
+        "stargazerCount": 2,
+        "forkCount": 9,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-07-25T08:48:23Z",
+        "pushedAt": "2024-08-02T07:08:02Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
         },
         "licenseInfo": {
           "name": "MIT License",
@@ -5047,6 +5308,45 @@
       }
     },
     {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjYyOTM4NTMw",
+      "login": "meyabase",
+      "name": "Meyabase",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/meyabase",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/62938530?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "elaka",
+        "nameWithOwner": "meyabase/elaka",
+        "url": "https://github.com/meyabase/elaka",
+        "description": "Learn Oshiwambo is where numerous community members shape the future of the Oshiwambo language, together. Contribute to the open-source community, manage your translation entries, educate others.",
+        "stargazerCount": 1,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-03-03T05:28:11Z",
+        "pushedAt": "2023-03-05T23:50:58Z",
+        "homepageUrl": "https://elaka.io",
+        "primaryLanguage": {
+          "name": "Perl"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
       "id": "U_kgDOCnXKPg",
       "login": "MiasJHendrikse",
       "name": "Mias Hendrikse",
@@ -5596,6 +5896,40 @@
         "primaryLanguage": {
           "name": "CSS"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjY0MDY4OTMw",
+      "login": "opennamibia",
+      "name": "Open Source Namibia",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/opennamibia",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/64068930?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "open-source-namibia",
+        "nameWithOwner": "opennamibia/open-source-namibia",
+        "url": "https://github.com/opennamibia/open-source-namibia",
+        "description": "Welcome to Open Source Namibia",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-01-26T20:43:23Z",
+        "pushedAt": "2022-01-26T20:45:19Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -6409,6 +6743,45 @@
           "name": "Dart"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOBnHXoA",
+      "login": "Stack-Namibia",
+      "name": "Stack Technologies",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/Stack-Namibia",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/108124064?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "Iinima-app",
+        "nameWithOwner": "Stack-Namibia/Iinima-app",
+        "url": "https://github.com/Stack-Namibia/Iinima-app",
+        "description": "This is the front-end source code for the linima application",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-10-17T13:53:27Z",
+        "pushedAt": "2023-08-10T07:14:56Z",
+        "homepageUrl": "https://iinima-app.vercel.app",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
       }
     },
     {
@@ -7599,6 +7972,45 @@
       }
     },
     {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjM5NDkxNjU3",
+      "login": "AfriFeel",
+      "name": "AfriFeel Digital Innovations (Pty) Ltd",
+      "type": "Organization",
+      "location": "Windhoek, Namibia",
+      "url": "https://github.com/AfriFeel",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/39491657?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "facility-server",
+        "nameWithOwner": "AfriFeel/facility-server",
+        "url": "https://github.com/AfriFeel/facility-server",
+        "description": "A server to manage facility ressources, allow users to book ressources and request services.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-11-06T12:14:31Z",
+        "pushedAt": "2018-02-14T21:05:50Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI3Njc3MTU1",
       "login": "afroGeM7",
       "name": "Gemma Usiku",
@@ -7671,6 +8083,43 @@
       }
     },
     {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjUxMTIwMzcz",
+      "login": "agamedev",
+      "name": "aGamedev",
+      "type": "Organization",
+      "location": "Windhoek, Namibia",
+      "url": "https://github.com/agamedev",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/51120373?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "ue5_WarehouseWreckage",
+        "nameWithOwner": "agamedev/ue5_WarehouseWreckage",
+        "url": "https://github.com/agamedev/ue5_WarehouseWreckage",
+        "description": "My WarehouseWreckage project from the Udemy Course:  \"Unreal Engine 5 C++ Developer: Learn C++ & Make Video Games\"",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-12-13T05:17:28Z",
+        "pushedAt": "2023-12-13T06:42:41Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "U_kgDOCsbUJA",
       "login": "agripp-tobias",
       "name": "AGRIPPINE L TOBIAS",
@@ -7702,6 +8151,45 @@
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOEPzkIg",
+      "login": "AgriTRUSTHUB",
+      "name": "AgriTRUST",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/AgriTRUSTHUB",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/285008930?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "agritrust-platform",
+        "nameWithOwner": "AgriTRUSTHUB/agritrust-platform",
+        "url": "https://github.com/AgriTRUSTHUB/agritrust-platform",
+        "description": "Global agricultural trust platform — AI, blockchain, harvest finance, LandShare, QualityScan, and climate-smart farming for farmers across Southern Africa.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-16T18:24:35Z",
+        "pushedAt": "2026-05-23T18:34:25Z",
+        "homepageUrl": "https://agri-trust-platform.replit.app",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
+        }
       }
     },
     {
@@ -7985,6 +8473,40 @@
         "primaryLanguage": {
           "name": "TypeScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjY0NDIwNjY0",
+      "login": "alphanumerichq",
+      "name": "alphanumerichq",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/alphanumerichq",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/64420664?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": ".github",
+        "nameWithOwner": "alphanumerichq/.github",
+        "url": "https://github.com/alphanumerichq/.github",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-12-01T07:43:06Z",
+        "pushedAt": "2022-12-01T07:43:06Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -8991,6 +9513,81 @@
       }
     },
     {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjc4NTQxMTQ3",
+      "login": "bi-dynamics",
+      "name": "Bi Dynamics Pty Ltd",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/bi-dynamics",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/78541147?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "coffee-times-cms",
+        "nameWithOwner": "bi-dynamics/coffee-times-cms",
+        "url": "https://github.com/bi-dynamics/coffee-times-cms",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-15T09:57:49Z",
+        "pushedAt": "2026-08-15T22:01:09Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOCr9YqA",
+      "login": "Binary-City",
+      "name": "Binary City",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/Binary-City",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/180312232?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "bc_time_api_sdk",
+        "nameWithOwner": "Binary-City/bc_time_api_sdk",
+        "url": "https://github.com/Binary-City/bc_time_api_sdk",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-08-15T13:32:08Z",
+        "pushedAt": "2026-09-03T13:49:52Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQ0MzQwNTc2",
       "login": "black-tc",
       "name": "Tinashe Chifamba",
@@ -9270,6 +9867,42 @@
       }
     },
     {
+      "id": "O_kgDOCaZOEw",
+      "login": "BrightFameLabs",
+      "name": "BrightFameLabs ",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/BrightFameLabs",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/161893907?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "github.io",
+        "nameWithOwner": "BrightFameLabs/github.io",
+        "url": "https://github.com/BrightFameLabs/github.io",
+        "description": "expert-train",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-07-06T06:51:33Z",
+        "pushedAt": "2024-07-06T10:53:40Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDODrcFtw",
       "login": "by-emberline",
       "name": "Ester Shatipamba",
@@ -9513,6 +10146,43 @@
         "licenseInfo": {
           "name": "MIT License",
           "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "O_kgDODExB7A",
+      "login": "CDI-IUM",
+      "name": "IUM",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/CDI-IUM",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/206324204?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "certificates",
+        "nameWithOwner": "CDI-IUM/certificates",
+        "url": "https://github.com/CDI-IUM/certificates",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-11-24T19:08:57Z",
+        "pushedAt": "2026-06-19T13:45:46Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
         }
       }
     },
@@ -9826,6 +10496,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjM2MjkzNDM1",
+      "login": "codingguysnamibia",
+      "name": "Coding guys",
+      "type": "Organization",
+      "location": "Windhoek, Namibia",
+      "url": "https://github.com/codingguysnamibia",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/36293435?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "Exact-coding",
+        "nameWithOwner": "codingguysnamibia/Exact-coding",
+        "url": "https://github.com/codingguysnamibia/Exact-coding",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-03-14T13:43:27Z",
+        "pushedAt": "2018-03-17T11:42:26Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
         },
         "licenseInfo": null
       }
@@ -10613,6 +11319,40 @@
       }
     },
     {
+      "id": "O_kgDOCcKDYA",
+      "login": "devabscomna",
+      "name": "Apex Business Solutions",
+      "type": "Organization",
+      "location": "Windhoek, Namibia",
+      "url": "https://github.com/devabscomna",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/163742560?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "GitTest",
+        "nameWithOwner": "devabscomna/GitTest",
+        "url": "https://github.com/devabscomna/GitTest",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-25T12:12:47Z",
+        "pushedAt": "2024-09-25T12:14:33Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCfsPBA",
       "login": "devcornel",
       "name": "Cornelius Dev",
@@ -11110,6 +11850,42 @@
       }
     },
     {
+      "id": "O_kgDOBjx4UQ",
+      "login": "DulcetDash",
+      "name": "DulcetDash Technologies",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/DulcetDash",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/104626257?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "Web-Delivery",
+        "nameWithOwner": "DulcetDash/Web-Delivery",
+        "url": "https://github.com/DulcetDash/Web-Delivery",
+        "description": "Business delivery dashboard",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-12-17T01:16:41Z",
+        "pushedAt": "2023-12-21T21:41:03Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOB5rs7Q",
       "login": "dumbld0re",
       "name": "danny-miguel",
@@ -11248,6 +12024,40 @@
         "primaryLanguage": {
           "name": "JavaScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjc3NDg1MjUw",
+      "login": "edge-com-na",
+      "name": "Edge Technology Solutions (Pty) Ltd.",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/edge-com-na",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/77485250?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "DelegateExample",
+        "nameWithOwner": "edge-com-na/DelegateExample",
+        "url": "https://github.com/edge-com-na/DelegateExample",
+        "description": "DelegateExample",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-06-16T15:28:17Z",
+        "pushedAt": "2023-06-16T16:05:51Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -11748,6 +12558,40 @@
       }
     },
     {
+      "id": "O_kgDOCcig4A",
+      "login": "erongo",
+      "name": "Erongo Software",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/erongo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/164143328?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": ".github",
+        "nameWithOwner": "erongo/.github",
+        "url": "https://github.com/erongo/.github",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-07-31T16:09:40Z",
+        "pushedAt": "2026-08-06T08:53:32Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjc1OTc1MDI5",
       "login": "Eshete-amg",
       "name": "Erastus S Kandjimi",
@@ -11855,6 +12699,45 @@
       }
     },
     {
+      "id": "O_kgDODeWazQ",
+      "login": "feasable",
+      "name": "Feasable Labs",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/feasable",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/233151181?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "feasable-uptime",
+        "nameWithOwner": "feasable/feasable-uptime",
+        "url": "https://github.com/feasable/feasable-uptime",
+        "description": "Independent external uptime monitor and status page for Feasable",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-30T15:29:45Z",
+        "pushedAt": "2026-11-02T04:43:31Z",
+        "homepageUrl": "https://status.feasable.org",
+        "primaryLanguage": {
+          "name": "Markdown"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "U_kgDODAyhHA",
       "login": "Felicia-44",
       "name": "Felisia Hafenanye",
@@ -11883,6 +12766,40 @@
         "isFork": false,
         "createdAt": "2026-09-27T13:04:59Z",
         "pushedAt": "2026-09-27T13:43:54Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDODu032w",
+      "login": "FenoLink",
+      "name": "FenoLink ",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/FenoLink",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/250427355?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "farmerapp",
+        "nameWithOwner": "FenoLink/farmerapp",
+        "url": "https://github.com/FenoLink/farmerapp",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-03-20T01:47:38Z",
+        "pushedAt": "2026-03-20T01:47:41Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -12943,6 +13860,42 @@
       }
     },
     {
+      "id": "O_kgDOBruICQ",
+      "login": "Giraffe-Conservation-Foundation",
+      "name": "Giraffe Conservation Foundation",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/Giraffe-Conservation-Foundation",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/112953353?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "ecoscope-workflows-ext-gcf",
+        "nameWithOwner": "Giraffe-Conservation-Foundation/ecoscope-workflows-ext-gcf",
+        "url": "https://github.com/Giraffe-Conservation-Foundation/ecoscope-workflows-ext-gcf",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-06-25T10:36:56Z",
+        "pushedAt": "2026-06-27T13:12:34Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBe8vYg",
       "login": "Gitbotta",
       "name": "Jean-Pierre Bottazzoli",
@@ -13083,6 +14036,81 @@
           "name": "HTML"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOEUhFnw",
+      "login": "Glumira-X-Technologies-cc",
+      "name": "Glumira X Technologies cc",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/Glumira-X-Technologies-cc",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/289949087?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "ibuild",
+        "nameWithOwner": "Glumira-X-Technologies-cc/ibuild",
+        "url": "https://github.com/Glumira-X-Technologies-cc/ibuild",
+        "description": "my production builder",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-07T08:11:37Z",
+        "pushedAt": "2026-10-18T16:22:38Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjUxMTIwMzE3",
+      "login": "goagri",
+      "name": "goagri",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/goagri",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/51120317?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "website",
+        "nameWithOwner": "goagri/website",
+        "url": "https://github.com/goagri/website",
+        "description": "Static Website content",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-02-27T06:03:02Z",
+        "pushedAt": "2025-03-05T05:45:01Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -13333,6 +14361,42 @@
         "pushedAt": "2021-04-19T03:15:21Z",
         "homepageUrl": "https://github.com/HannesvdW",
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjIzNDc4NzE3",
+      "login": "HelixInc",
+      "name": "Helix Technology Inc",
+      "type": "Organization",
+      "location": "Windhoek, Namibia",
+      "url": "https://github.com/HelixInc",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/23478717?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "Data-API",
+        "nameWithOwner": "HelixInc/Data-API",
+        "url": "https://github.com/HelixInc/Data-API",
+        "description": "Namibian Data API",
+        "stargazerCount": 0,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-12-27T06:42:16Z",
+        "pushedAt": "2017-03-24T07:07:04Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
         "licenseInfo": null
       }
     },
@@ -14083,6 +15147,40 @@
       }
     },
     {
+      "id": "O_kgDOByOrmQ",
+      "login": "IdentityToday",
+      "name": "IDToday",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/IdentityToday",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/119778201?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "api-endpoint",
+        "nameWithOwner": "IdentityToday/api-endpoint",
+        "url": "https://github.com/IdentityToday/api-endpoint",
+        "description": "Comprehensive API documentation detailing available endpoints and usage instructions. Simplify integration and streamline development with clear endpoint guidance.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-04-26T09:18:47Z",
+        "pushedAt": "2026-07-23T14:20:50Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjE1NjczNTY3",
       "login": "Ihekandjo",
       "name": "Ingamutuhanga Hekandjo",
@@ -14114,6 +15212,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjU4NDI3NDkw",
+      "login": "ihms-co",
+      "name": "Ihms Co",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/ihms-co",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58427490?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "chrome-api",
+        "nameWithOwner": "ihms-co/chrome-api",
+        "url": "https://github.com/ihms-co/chrome-api",
+        "description": "An API wrapper for puppeteer to generate PDF documents and screenshots from URL's and HTML content",
+        "stargazerCount": 0,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-05-19T09:54:20Z",
+        "pushedAt": "2023-05-31T08:00:13Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
         },
         "licenseInfo": null
       }
@@ -14187,6 +15321,42 @@
       }
     },
     {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjgxODA1MzM=",
+      "login": "imsnamibia",
+      "name": "IMS",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/imsnamibia",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8180533?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "pug",
+        "nameWithOwner": "imsnamibia/pug",
+        "url": "https://github.com/imsnamibia/pug",
+        "description": "archived to https://git.nampharm.com.na/archive/pug",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-02-25T14:33:35Z",
+        "pushedAt": "2018-02-25T14:43:30Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Shell"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjIwMjY4MTky",
       "login": "inekela",
       "name": "Inekela Ihalwa",
@@ -14252,6 +15422,78 @@
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "C#"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDODmjtBg",
+      "login": "innovox-crvw",
+      "name": "innovox-crvw",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/innovox-crvw",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/241757446?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "PayToday-Mobile-App-Design",
+        "nameWithOwner": "innovox-crvw/PayToday-Mobile-App-Design",
+        "url": "https://github.com/innovox-crvw/PayToday-Mobile-App-Design",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-17T11:38:33Z",
+        "pushedAt": "2026-09-26T08:03:33Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjUxMjI4Nzk4",
+      "login": "intouch-interactive-marketing",
+      "name": "Network Innovation Hub",
+      "type": "Organization",
+      "location": "Windhoek Namibia",
+      "url": "https://github.com/intouch-interactive-marketing",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/51228798?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "react-start-template",
+        "nameWithOwner": "intouch-interactive-marketing/react-start-template",
+        "url": "https://github.com/intouch-interactive-marketing/react-start-template",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-01-16T14:17:53Z",
+        "pushedAt": "2024-01-16T14:18:57Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
         },
         "licenseInfo": null
       }
@@ -17750,6 +18992,40 @@
       }
     },
     {
+      "id": "O_kgDOCZCj3Q",
+      "login": "Loop-Africa",
+      "name": "Loop technologies",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/Loop-Africa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/160474077?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "Loop-Africa",
+        "nameWithOwner": "Loop-Africa/Loop-Africa",
+        "url": "https://github.com/Loop-Africa/Loop-Africa",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-05-06T06:32:25Z",
+        "pushedAt": "2025-05-06T06:36:28Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBvekJQ",
       "login": "lorraine-mwoyounotsva",
       "name": "Lorraine Mwoyounotsva",
@@ -18377,6 +19653,40 @@
         "isFork": false,
         "createdAt": "2026-06-05T14:43:51Z",
         "pushedAt": "2026-06-05T14:45:26Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDODHpS4A",
+      "login": "Mashdev-Investments-CC",
+      "name": "Mashdev Investments CC",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/Mashdev-Investments-CC",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/209343200?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "WNCinfosheets",
+        "nameWithOwner": "Mashdev-Investments-CC/WNCinfosheets",
+        "url": "https://github.com/Mashdev-Investments-CC/WNCinfosheets",
+        "description": "Infosheets for Windhoek NEurosurgical Centre",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-05-27T14:00:38Z",
+        "pushedAt": "2025-07-20T07:33:11Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -19226,6 +20536,42 @@
         "isFork": false,
         "createdAt": "2026-06-09T23:39:09Z",
         "pushedAt": "2026-06-10T09:02:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "CSS"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOBiMKVQ",
+      "login": "MultiBank-Technology",
+      "name": "MultiBank Technology",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/MultiBank-Technology",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/102959701?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "multicode-website",
+        "nameWithOwner": "MultiBank-Technology/multicode-website",
+        "url": "https://github.com/MultiBank-Technology/multicode-website",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-08-25T21:38:11Z",
+        "pushedAt": "2024-08-27T08:40:03Z",
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "CSS"
@@ -20142,6 +21488,43 @@
       }
     },
     {
+      "id": "O_kgDOEXqQDw",
+      "login": "oceantrack-platform",
+      "name": "oceantrack-platform",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/oceantrack-platform",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/293244943?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "oceantrack-docs",
+        "nameWithOwner": "oceantrack-platform/oceantrack-docs",
+        "url": "https://github.com/oceantrack-platform/oceantrack-docs",
+        "description": "Technical documentation",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-06-13T00:14:10Z",
+        "pushedAt": "2026-06-13T00:14:11Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "U_kgDODJX35Q",
       "login": "OivaNekwaya",
       "name": "Oiva Nekwaya",
@@ -20349,6 +21732,45 @@
           "name": "Ballerina"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOErJ03g",
+      "login": "ongombe-safaris",
+      "name": " Ongombe Safaris and Logistics cc",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/ongombe-safaris",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/313685214?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "brand",
+        "nameWithOwner": "ongombe-safaris/brand",
+        "url": "https://github.com/ongombe-safaris/brand",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-06T04:15:12Z",
+        "pushedAt": "2026-08-06T06:26:02Z",
+        "homepageUrl": "https://brand.ongombe.com/",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -21133,6 +22555,40 @@
         "primaryLanguage": {
           "name": "CSS"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjI2NTU1NTk4",
+      "login": "PointBluntPro",
+      "name": "PointBluntPro",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/PointBluntPro",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/26555598?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "RT-Copyright",
+        "nameWithOwner": "PointBluntPro/RT-Copyright",
+        "url": "https://github.com/PointBluntPro/RT-Copyright",
+        "description": "Copyright code for RT themes",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-03-20T21:00:42Z",
+        "pushedAt": "2017-03-20T21:00:42Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -22652,6 +24108,42 @@
       }
     },
     {
+      "id": "O_kgDOBpsUCA",
+      "login": "Savanhu",
+      "name": "Savanhu",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/Savanhu",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/110826504?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "sheet2graphql",
+        "nameWithOwner": "Savanhu/sheet2graphql",
+        "url": "https://github.com/Savanhu/sheet2graphql",
+        "description": "Sheet2GraphQL dynamically generates and resolves GraphQL schemas from your spreadsheet data, giving you an instant GraphQL backend for all your coding projects",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-03-29T09:01:35Z",
+        "pushedAt": "2023-03-29T09:03:57Z",
+        "homepageUrl": "https://sheet2graphql.vercel.app",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCe2LRA",
       "login": "Saviitarr",
       "name": "saviitarr",
@@ -22724,6 +24216,45 @@
       }
     },
     {
+      "id": "O_kgDOCbN3-w",
+      "login": "sentialytic",
+      "name": "Sentialytic",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/sentialytic",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/162756603?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "multipart-s3",
+        "nameWithOwner": "sentialytic/multipart-s3",
+        "url": "https://github.com/sentialytic/multipart-s3",
+        "description": "An axum crate that provides a simple interface to upload, get and delete objects from S3.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-03-09T20:44:13Z",
+        "pushedAt": "2024-03-10T10:01:26Z",
+        "homepageUrl": "https://github.com/sentialytic/multipart-s3",
+        "primaryLanguage": {
+          "name": "Rust"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjU2MDkzNTc0",
       "login": "Sergio-Jim",
       "name": "JimSergio",
@@ -22755,6 +24286,45 @@
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjE2MDgxMDEy",
+      "login": "SermonDistributor",
+      "name": "Sermon Distributor",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/SermonDistributor",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16081012?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "Joomla",
+        "nameWithOwner": "SermonDistributor/Joomla",
+        "url": "https://github.com/SermonDistributor/Joomla",
+        "description": "Sermon Distributor",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-10T10:32:52Z",
+        "pushedAt": "2026-10-10T14:08:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v2.0",
+          "spdxId": "GPL-2.0"
+        }
       }
     },
     {
@@ -23109,6 +24679,40 @@
         "createdAt": "2017-05-30T01:14:38Z",
         "pushedAt": "2017-05-30T01:14:38Z",
         "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDEyOk9yZ2FuaXphdGlvbjI4NjcwNDYw",
+      "login": "Shaneswartzconsult",
+      "name": "Shane Swartz Consulting",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/Shaneswartzconsult",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/28670460?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "smartbooks",
+        "nameWithOwner": "Shaneswartzconsult/smartbooks",
+        "url": "https://github.com/Shaneswartzconsult/smartbooks",
+        "description": "Smartbooks Accounting Software",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-08-05T09:58:30Z",
+        "pushedAt": "2017-08-05T10:01:51Z",
+        "homepageUrl": "https://www.shaneswartzconsulting.com/smartbooks",
         "primaryLanguage": null,
         "licenseInfo": null
       }
@@ -23564,6 +25168,40 @@
         "primaryLanguage": {
           "name": "Python"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOBmzQIg",
+      "login": "Simaneka-Intellectual-Technologies",
+      "name": "Simaneka",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/Simaneka-Intellectual-Technologies",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/107794466?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "school-smart-mirror-edith",
+        "nameWithOwner": "Simaneka-Intellectual-Technologies/school-smart-mirror-edith",
+        "url": "https://github.com/Simaneka-Intellectual-Technologies/school-smart-mirror-edith",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-07-08T09:52:51Z",
+        "pushedAt": "2025-07-08T09:52:52Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -24107,6 +25745,40 @@
       }
     },
     {
+      "id": "O_kgDOE0XRIg",
+      "login": "SolarSpin-Technologies",
+      "name": "SolarSpin Technologies",
+      "type": "Organization",
+      "location": "Windhoek, Namibia",
+      "url": "https://github.com/SolarSpin-Technologies",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/323342626?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": ".github",
+        "nameWithOwner": "SolarSpin-Technologies/.github",
+        "url": "https://github.com/SolarSpin-Technologies/.github",
+        "description": "SolarSpin Technologies public organisation profile and identity.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-07T13:31:51Z",
+        "pushedAt": "2026-10-29T16:39:07Z",
+        "homepageUrl": "https://solarspin-namibia.pages.dev/",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjIwODcyMjA1",
       "login": "songiso137",
       "name": "Songiso Chrispin Kamwi",
@@ -24282,6 +25954,42 @@
         "pushedAt": "2026-09-15T12:47:08Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOEQ0ySA",
+      "login": "StareCas3-Technologies",
+      "name": "StareCas3 Technologies",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/StareCas3-Technologies",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/286077512?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "starecas3-Technologies",
+        "nameWithOwner": "StareCas3-Technologies/starecas3-Technologies",
+        "url": "https://github.com/StareCas3-Technologies/starecas3-Technologies",
+        "description": "StareCas3 designs, builds and ships commercial software that solves real-world problems!",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-05-19T16:31:28Z",
+        "pushedAt": "2026-10-07T05:29:24Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
         "licenseInfo": null
       }
     },
@@ -25419,6 +27127,40 @@
       }
     },
     {
+      "id": "O_kgDOCXwruA",
+      "login": "Tunga-Software-Developers",
+      "name": "Tunga Software Developers",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/Tunga-Software-Developers",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/159132600?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": ".github",
+        "nameWithOwner": "Tunga-Software-Developers/.github",
+        "url": "https://github.com/Tunga-Software-Developers/.github",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-02-06T10:43:36Z",
+        "pushedAt": "2024-02-06T10:43:36Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDODEaE6Q",
       "login": "Tuyakula626",
       "name": "Leonard Tuyakula Stefanus",
@@ -25697,6 +27439,42 @@
       }
     },
     {
+      "id": "O_kgDOD9EN_w",
+      "login": "VersaTech-Support",
+      "name": "VersaTech Support",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/VersaTech-Support",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/265358847?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "VersaTech-Support.github.io",
+        "nameWithOwner": "VersaTech-Support/VersaTech-Support.github.io",
+        "url": "https://github.com/VersaTech-Support/VersaTech-Support.github.io",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-03T22:55:57Z",
+        "pushedAt": "2026-08-20T12:05:52Z",
+        "homepageUrl": "https://versa-tech-support-github-io.vercel.app",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjcyMTI4NzQx",
       "login": "veshumba",
       "name": "Vaino Eshumba",
@@ -25765,6 +27543,40 @@
       }
     },
     {
+      "id": "O_kgDODNzlEA",
+      "login": "VINS-Technologies",
+      "name": "VINS Technologies",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/VINS-Technologies",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/215803152?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": ".github",
+        "nameWithOwner": "VINS-Technologies/.github",
+        "url": "https://github.com/VINS-Technologies/.github",
+        "description": "VINS Technologies public repo",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-29T11:25:55Z",
+        "pushedAt": "2026-02-19T12:11:02Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOEu_SqQ",
       "login": "viriitjakaurua-eng",
       "name": "DigiTech ",
@@ -25797,6 +27609,40 @@
         "primaryLanguage": {
           "name": "HTML"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOChTYFQ",
+      "login": "Vision-Vertices",
+      "name": "Vision Vertices",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/Vision-Vertices",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/169138197?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": "Icons",
+        "nameWithOwner": "Vision-Vertices/Icons",
+        "url": "https://github.com/Vision-Vertices/Icons",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-05-07T13:44:40Z",
+        "pushedAt": "2024-05-07T13:44:41Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -26148,6 +27994,40 @@
         "isFork": false,
         "createdAt": "2023-09-17T08:57:39Z",
         "pushedAt": "2023-09-17T09:00:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "O_kgDOCKmJVA",
+      "login": "Woermann-Brock-Co",
+      "name": "Woermann, Brock & co",
+      "type": "Organization",
+      "location": "Namibia",
+      "url": "https://github.com/Woermann-Brock-Co",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/145328468?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "NA",
+        "confidence": "high",
+        "evidence": "explicit-country",
+        "matched": "Namibia"
+      },
+      "discoveryTerms": [
+        "Namibia"
+      ],
+      "topRepository": {
+        "name": ".github",
+        "nameWithOwner": "Woermann-Brock-Co/.github",
+        "url": "https://github.com/Woermann-Brock-Co/.github",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-10-18T09:10:07Z",
+        "pushedAt": "2023-10-18T09:13:22Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
