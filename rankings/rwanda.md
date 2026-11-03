@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 59**
 - Progress: **0%**
-- Retained high-potential owner candidates: **804**
-- Search requests completed: **32**
+- Retained high-potential owner candidates: **1,150**
+- Search requests completed: **40**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -27,6 +27,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [david-legend/foodybite](https://github.com/david-legend/foodybite) | **325** | Rwanda |
 | [Timtech4u/awesome-cloudbuild](https://github.com/Timtech4u/awesome-cloudbuild) | **119** | Kigali, Rwanda |
 | [API-Imperfect/django-real-estate](https://github.com/API-Imperfect/django-real-estate) | **105** | Kigali,Rwanda |
+| [isakaro/kwik-ui-android](https://github.com/isakaro/kwik-ui-android) | **94** | Kigali, Rwanda |
 | [pacifiquem/awesome-go](https://github.com/pacifiquem/awesome-go) | **79** | Kigali, Rwanda |
 | [shemaikuzwe/urban-deals-shop](https://github.com/shemaikuzwe/urban-deals-shop) | **48** | rwanda |
 | [ikuzweelisa/react-todo-app](https://github.com/ikuzweelisa/react-todo-app) | **44** | Rwanda |
@@ -38,7 +39,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [codeWithEdison/150-PHP-project-for-college](https://github.com/codeWithEdison/150-PHP-project-for-college) | **17** | Rwanda |
 | [Edouard144/StayAwake](https://github.com/Edouard144/StayAwake) | **17** | Kigali, Rwanda |
 | [kenessajr/react-with-actions](https://github.com/kenessajr/react-with-actions) | **17** | Kigali Rwanda |
-| [Mucyo-chris/dart-mobile-app](https://github.com/Mucyo-chris/dart-mobile-app) | **17** | KIGALI-RWANDA |
 
 ## Repository-first scan
 

@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 112**
 - Progress: **0%**
-- Retained high-potential owner candidates: **1,104**
-- Search requests completed: **32**
+- Retained high-potential owner candidates: **518**
+- Search requests completed: **40**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -29,16 +29,16 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [abdorizak/Expense-Tracker-App](https://github.com/abdorizak/Expense-Tracker-App) | **171** | Mogadisho,Somalia |
 | [ahmedibra28/NEXTjs-boilerplate](https://github.com/ahmedibra28/NEXTjs-boilerplate) | **75** | Mogadishu - Somalia |
 | [omartood/python-course-dugsiiye](https://github.com/omartood/python-course-dugsiiye) | **41** | Somalia |
+| [BigO-Moha/Telegram-DropperRat](https://github.com/BigO-Moha/Telegram-DropperRat) | **34** | somalia/mogadishu |
 | [ahmed-moha/JUST-CA20-CODES](https://github.com/ahmed-moha/JUST-CA20-CODES) | **33** | Mogadishu, Somalia |
 | [dugsiiyeinc/dhaqsoPay](https://github.com/dugsiiyeinc/dhaqsoPay) | **32** | Somalia |
+| [Joseph-Abdullaah/FX-currency-converter](https://github.com/Joseph-Abdullaah/FX-currency-converter) | **29** | somalia |
 | [baabale/merchant_evc_plus](https://github.com/baabale/merchant_evc_plus) | **23** | Mogadishu, Somalia |
 | [mrkhaaliddev/Car-Selling-Website](https://github.com/mrkhaaliddev/Car-Selling-Website) | **19** | Somalia |
 | [saluumaa/Awesome-Books](https://github.com/saluumaa/Awesome-Books) | **18** | Somalia, Borama |
 | [ysadiq/MVVMPlayground](https://github.com/ysadiq/MVVMPlayground) | **16** | Mogadishu, Somalia |
 | [zayidmohamedy/zayidmohamedy](https://github.com/zayidmohamedy/zayidmohamedy) | **16** | Somalia |
 | [baaslaawe/Quasar-RAT](https://github.com/baaslaawe/Quasar-RAT) | **13** | somalia |
-| [Mohamedali678/crypto-wallet](https://github.com/Mohamedali678/crypto-wallet) | **13** | Mogadishu, Somalia |
-| [abdinasir-Tman/shaqo-sahal](https://github.com/abdinasir-Tman/shaqo-sahal) | **12** | Mogadishu, Somalia |
 
 ## Repository-first scan
 

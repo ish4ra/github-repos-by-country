@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 58%
+## Repository ranking status: Building 72%
 
-- Geography terms processed: **34 / 58**
-- Progress: **58%**
+- Geography terms processed: **42 / 58**
+- Progress: **72%**
 - Retained high-potential owner candidates: **20**
-- Search requests completed: **36**
+- Search requests completed: **44**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -27,10 +27,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [benildebonfim/Proj_Apresentacao](https://github.com/benildebonfim/Proj_Apresentacao) | **2** | São Tomé e Príncipe |
 | [denisquintasluiz/consumidor-situacao-escolar](https://github.com/denisquintasluiz/consumidor-situacao-escolar) | **2** | São Gabriel, São Tomé e Príncipe |
 | [abdulay-cusodio/abdulay-cusodio](https://github.com/abdulay-cusodio/abdulay-cusodio) | **1** | São Tomé and Príncipe |
+| [alekssanderquintas/portif-lio](https://github.com/alekssanderquintas/portif-lio) | **1** | São Tomé e Príncipe |
 | [henilcioterras/Padr_mvc_php](https://github.com/henilcioterras/Padr_mvc_php) | **1** | São Tomé e Príncipe |
 | [JoelGraca/calculadoraIMC](https://github.com/JoelGraca/calculadoraIMC) | **1** | São Tomé e Príncipe |
 | [nevesade/app-bank-transfert](https://github.com/nevesade/app-bank-transfert) | **1** | São Tomé e Príncipe |
-| [alekssanderquintas/portif-lio](https://github.com/alekssanderquintas/portif-lio) | **0** | São Tomé e Príncipe |
 | [bd805672-eng/Focal-Operations](https://github.com/bd805672-eng/Focal-Operations) | **0** | changra ,moyna ,purba Mednipur |
 | [bigdaddydobby/bigdaddydobby](https://github.com/bigdaddydobby/bigdaddydobby) | **0** | São Tomé & Príncipe (ST) |
 | [danielneto81/Tool-System](https://github.com/danielneto81/Tool-System) | **0** | São Tomé e Príncipe |

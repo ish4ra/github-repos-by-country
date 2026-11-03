@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 176**
 - Progress: **0%**
-- Retained high-potential owner candidates: **1,189**
-- Search requests completed: **32**
+- Retained high-potential owner candidates: **1,201**
+- Search requests completed: **40**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,8 +24,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [iib0011/omni-tools](https://github.com/iib0011/omni-tools) | **10,289** | Senegal |
-| [aimerou/awesome-ai-papers](https://github.com/aimerou/awesome-ai-papers) | **1,314** | Senegal |
+| [iib0011/omni-tools](https://github.com/iib0011/omni-tools) | **10,591** | Senegal |
+| [aimerou/awesome-ai-papers](https://github.com/aimerou/awesome-ai-papers) | **1,320** | Senegal |
 | [abdoufermat5/unix-and-linux-sysadmin-notes](https://github.com/abdoufermat5/unix-and-linux-sysadmin-notes) | **492** | Senegal |
 | [ibrahima92/pwa-with-vanilla-js](https://github.com/ibrahima92/pwa-with-vanilla-js) | **275** | Senegal |
 | [GalsenDev221/made.in.senegal](https://github.com/GalsenDev221/made.in.senegal) | **106** | Senegal |
@@ -38,7 +38,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [takanome-dev/astro.go.blog](https://github.com/takanome-dev/astro.go.blog) | **50** | Dakar, Senegal |
 | [elias-ba/ask](https://github.com/elias-ba/ask) | **49** | Dakar, Senegal |
 | [99mass/gitea-to-github](https://github.com/99mass/gitea-to-github) | **41** | Dakar,Senegal |
-| [Code-for-Senegal/vie-publique.sn](https://github.com/Code-for-Senegal/vie-publique.sn) | **37** | Senegal |
+| [ngorseckframework/samanemvc](https://github.com/ngorseckframework/samanemvc) | **40** | Senegal |
 
 ## Repository-first scan
 
