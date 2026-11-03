@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 144**
 - Progress: **0%**
-- Retained high-potential owner candidates: **853**
-- Search requests completed: **32**
+- Retained high-potential owner candidates: **1,124**
+- Search requests completed: **40**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -29,15 +29,15 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [motaz/turbobird](https://github.com/motaz/turbobird) | **67** | Sudan, Khartoum |
 | [galalen/btail](https://github.com/galalen/btail) | **57** | Sudan |
 | [HussamAdil/Ayat](https://github.com/HussamAdil/Ayat) | **45** | Sudan |
+| [kmuharam/laravel-adminer](https://github.com/kmuharam/laravel-adminer) | **45** | Khartoum, Sudan |
 | [amolood/Uber-map-style](https://github.com/amolood/Uber-map-style) | **39** | Khartoum,Sudan |
 | [oovaa/hasanah](https://github.com/oovaa/hasanah) | **33** | Sudan |
 | [phr3nzy/dawai](https://github.com/phr3nzy/dawai) | **26** | Sudan |
+| [kakao-bits/Cognitive-Radio-Matched-Filter-SS](https://github.com/kakao-bits/Cognitive-Radio-Matched-Filter-SS) | **18** | SUDAN, Khartoum, 2/5 |
 | [mhadiahmed/CRUD-System](https://github.com/mhadiahmed/CRUD-System) | **18** | sudan |
 | [semicode-ltd/scripts](https://github.com/semicode-ltd/scripts) | **15** | Khartoum , Sudan |
 | [Tayeb-Ali/Larazoul](https://github.com/Tayeb-Ali/Larazoul) | **12** | Khartoum, Sudan |
 | [DrRoot85/TikTokMod](https://github.com/DrRoot85/TikTokMod) | **11** | Sudan |
 | [kldMohammed/portfolio-kobweb](https://github.com/kldMohammed/portfolio-kobweb) | **9** | Sudan, Khartoum  |
-| [Moe-Baker/Snakes-And-Ladders-Multiplayer](https://github.com/Moe-Baker/Snakes-And-Ladders-Multiplayer) | **9** | Sudan-Khartoum |
-| [vzool/zakat](https://github.com/vzool/zakat) | **9** | Sudan |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

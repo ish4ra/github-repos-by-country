@@ -12,8 +12,8 @@
 
 - Geography terms processed: **4 / 175**
 - Progress: **2%**
-- Retained high-potential owner candidates: **728**
-- Search requests completed: **32**
+- Retained high-potential owner candidates: **949**
+- Search requests completed: **40**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -27,8 +27,10 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [vbauerster/mpb](https://github.com/vbauerster/mpb) | **2,513** | Turkmenistan |
 | [Clancey/simple_auth](https://github.com/Clancey/simple_auth) | **354** | Anchorage, AK |
 | [strongdan/beginner-js-projects](https://github.com/strongdan/beginner-js-projects) | **332** | Juneau, AK |
+| [BeardedTek/notesnook-docker](https://github.com/BeardedTek/notesnook-docker) | **205** | Palmer, AK |
 | [asfadmin/Discovery-asf_search](https://github.com/asfadmin/Discovery-asf_search) | **153** | Fairbanks, AK |
 | [austinholland/PhasePApy](https://github.com/austinholland/PhasePApy) | **103** | Fairbanks, AK |
+| [jahendrie/cheat](https://github.com/jahendrie/cheat) | **102** | Fairbanks, AK |
 | [rhinoman/wikifeat](https://github.com/rhinoman/wikifeat) | **99** | Soldotna, AK |
 | [Skyyo/samples](https://github.com/Skyyo/samples) | **80** | Anchorage, AK |
 | [nyansterowo/MongoDB-bot](https://github.com/nyansterowo/MongoDB-bot) | **75** | Turkmenistan, Ashabat |
@@ -37,8 +39,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [richxcame/ride-hailing](https://github.com/richxcame/ride-hailing) | **55** | Turkmenistan |
 | [berdimyradov/fs-rn-todo-app](https://github.com/berdimyradov/fs-rn-todo-app) | **53** | Turkmenistan |
 | [akhepcat/bridgeap](https://github.com/akhepcat/bridgeap) | **51** | Anchorage, AK |
-| [roycewilliams/kens-salty-rainbow](https://github.com/roycewilliams/kens-salty-rainbow) | **46** | Anchorage, AK |
-| [akhealth/EIS-Modernization](https://github.com/akhealth/EIS-Modernization) | **45** | Juneau, AK |
 
 ## Repository-first scan
 
