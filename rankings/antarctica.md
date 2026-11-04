@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 15**
 - Progress: **0%**
-- Retained high-potential owner candidates: **748**
-- Search requests completed: **32**
+- Retained high-potential owner candidates: **938**
+- Search requests completed: **40**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,21 +24,21 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [MarlinFirmware/Marlin](https://github.com/MarlinFirmware/Marlin) | **17,617** | Antarctica |
+| [MarlinFirmware/Marlin](https://github.com/MarlinFirmware/Marlin) | **17,647** | Antarctica |
 | [adam-maj/tiny-gpu](https://github.com/adam-maj/tiny-gpu) | **13,158** | South Pole, Antarctica |
 | [r-lyeh/single_file_libs](https://github.com/r-lyeh/single_file_libs) | **10,029** | Vostok, Antarctica |
-| [ublue-os/bazzite](https://github.com/ublue-os/bazzite) | **9,155** | Antarctica |
+| [ublue-os/bazzite](https://github.com/ublue-os/bazzite) | **9,265** | Antarctica |
 | [rustformers/llm](https://github.com/rustformers/llm) | **6,156** | Antarctica |
-| [FxEmbed/FxEmbed](https://github.com/FxEmbed/FxEmbed) | **5,670** | Antarctica |
+| [FxEmbed/FxEmbed](https://github.com/FxEmbed/FxEmbed) | **5,822** | Antarctica |
+| [lingdojo/kana-dojo](https://github.com/lingdojo/kana-dojo) | **3,786** | Antarctica |
 | [bestruirui/octopus](https://github.com/bestruirui/octopus) | **2,734** | Antarctica |
+| [Amog-OS/AmogOS](https://github.com/Amog-OS/AmogOS) | **1,822** | Antarctica |
 | [Washi1337/AsmResolver](https://github.com/Washi1337/AsmResolver) | **1,135** | McMurdo Station, Antarctica |
 | [sedmelluq/lavaplayer](https://github.com/sedmelluq/lavaplayer) | **1,006** | Antarctica |
-| [pygame-web/pygbag](https://github.com/pygame-web/pygbag) | **521** | Antarctica |
-| [TerraFirmaGreg-Team/Modpack-Modern](https://github.com/TerraFirmaGreg-Team/Modpack-Modern) | **520** | Antarctica |
-| [home-operations/containers](https://github.com/home-operations/containers) | **434** | Antarctica |
-| [pancakeswap/pancake-farm](https://github.com/pancakeswap/pancake-farm) | **420** | Antarctica |
-| [paulaime/awesome-privacy](https://github.com/paulaime/awesome-privacy) | **412** | Antarctica |
-| [sympa-community/sympa](https://github.com/sympa-community/sympa) | **318** | Antarctica |
+| [state-machines/state_machines](https://github.com/state-machines/state_machines) | **872** | Antarctica |
+| [TerraFirmaGreg-Team/Modpack-Modern](https://github.com/TerraFirmaGreg-Team/Modpack-Modern) | **544** | Antarctica |
+| [pygame-web/pygbag](https://github.com/pygame-web/pygbag) | **524** | Antarctica |
+| [luau/UniversalSynSaveInstance](https://github.com/luau/UniversalSynSaveInstance) | **470** | Antarctica |
 
 ## Repository-first scan
 

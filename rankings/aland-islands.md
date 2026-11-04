@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 85%
+## Repository ranking status: Building 100%
 
-- Geography terms processed: **35 / 41**
-- Progress: **85%**
-- Retained high-potential owner candidates: **55**
-- Search requests completed: **36**
+- Geography terms processed: **41 / 41**
+- Progress: **100%**
+- Retained high-potential owner candidates: **57**
+- Search requests completed: **42**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -37,8 +37,8 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [DeductiveLabs/async_javascript](https://github.com/DeductiveLabs/async_javascript) | **2** | Mariehamn, Åland Islands |
 | [mareerray/secure-messenger](https://github.com/mareerray/secure-messenger) | **2** | Mariehamn, Åland |
 | [niklasekman/Petterniklas-patches](https://github.com/niklasekman/Petterniklas-patches) | **2** | Mariehamn |
+| [ASIA-AFRICA-DEVELOPMENT-ALLIANCE/.github](https://github.com/ASIA-AFRICA-DEVELOPMENT-ALLIANCE/.github) | **1** | 奥兰群岛 |
 | [blueskiy01/voxel-christmas-cabin](https://github.com/blueskiy01/voxel-christmas-cabin) | **1** | Mariehamn, Åland Islands |
-| [fatemekh78/nlp-scraper](https://github.com/fatemekh78/nlp-scraper) | **1** | Mariehamn, Åland islands |
 
 ## Repository-first scan
 

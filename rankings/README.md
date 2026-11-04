@@ -7,15 +7,15 @@ Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a co
 | Country | ISO | Status | Ranking | Repositories | Last updated |
 | --- | :---: | :---: | --- | ---: | --- |
 | 🇦🇫 **Afghanistan** | `AF` | 🟡 Building 0% | [Open country page](./afghanistan.md) | — | 16 Oct 2026, 14:20 UTC |
-| 🇦🇽 **Åland Islands** | `AX` | 🟡 Building 85% | [Open country page](./aland-islands.md) | — | 16 Oct 2026, 09:43 UTC |
+| 🇦🇽 **Åland Islands** | `AX` | Completed | [Open country page](./aland-islands.md) | — | 16 Oct 2026, 09:43 UTC |
 | 🇦🇱 **Albania** | `AL` | 🟡 Building 0% | [Open country page](./albania.md) | — | 16 Oct 2026, 21:29 UTC |
 | 🇩🇿 **Algeria** | `DZ` | 🟡 Building 0% | [Open country page](./algeria.md) | — | 16 Oct 2026, 21:29 UTC |
 | 🇦🇸 **American Samoa** | `AS` | 🟡 Building 35% | [Open country page](./american-samoa.md) | — | 17 Oct 2026, 01:38 UTC |
-| 🇦🇩 **Andorra** | `AD` | 🟡 Building 67% | [Open country page](./andorra.md) | — | 16 Oct 2026, 05:04 UTC |
+| 🇦🇩 **Andorra** | `AD` | 🟡 Building 96% | [Open country page](./andorra.md) | — | 16 Oct 2026, 05:04 UTC |
 | 🇦🇴 **Angola** | `AO` | 🟡 Building 0% | [Open country page](./angola.md) | — | 14 Oct 2026, 22:28 UTC |
 | 🇦🇮 **Anguilla** | `AI` | Completed | [Open country page](./anguilla.md) | — | 09 Oct 2026, 22:59 UTC |
 | 🇦🇶 **Antarctica** | `AQ` | 🟡 Building 0% | [Open country page](./antarctica.md) | — | 16 Oct 2026, 23:48 UTC |
-| 🇦🇬 **Antigua & Barbuda** | `AG` | 🟡 Building 46% | [Open country page](./antigua-barbuda.md) | — | 10 Oct 2026, 02:18 UTC |
+| 🇦🇬 **Antigua & Barbuda** | `AG` | 🟡 Building 55% | [Open country page](./antigua-barbuda.md) | — | 10 Oct 2026, 02:18 UTC |
 | 🇦🇷 **Argentina** | `AR` | 🟡 Building 0% | [Open country page](./argentina.md) | — | 16 Oct 2026, 21:29 UTC |
 | 🇦🇲 **Armenia** | `AM` | 🟡 Building 0% | [Open country page](./armenia.md) | — | 17 Oct 2026, 01:38 UTC |
 | 🇦🇼 **Aruba** | `AW` | Completed | [Open country page](./aruba.md) | — | 25 Oct 2026, 04:55 UTC |
@@ -252,7 +252,7 @@ Use your browser's **Find** command (`Ctrl+F` / `⌘F`) to jump directly to a co
 | 🇻🇪 **Venezuela** | `VE` | 🟡 Building 0% | [Open country page](./venezuela.md) | — | 16 Oct 2026, 18:16 UTC |
 | 🇻🇳 **Vietnam** | `VN` | 🟢 **Live** · 🟡 Building 0% | [Most starred repositories](./vietnam.md) | 100 | 17 Oct 2026, 01:38 UTC |
 | 🇼🇫 **Wallis & Futuna** | `WF` | Completed | [Open country page](./wallis-futuna.md) | — | 31 Oct 2026, 05:58 UTC |
-| 🇪🇭 **Western Sahara** | `EH` | 🟡 Building 76% | [Open country page](./western-sahara.md) | — | 31 Oct 2026, 05:58 UTC |
+| 🇪🇭 **Western Sahara** | `EH` | 🟡 Building 95% | [Open country page](./western-sahara.md) | — | 03 Nov 2026, 23:31 UTC |
 | 🇾🇪 **Yemen** | `YE` | 🟡 Building 0% | [Open country page](./yemen.md) | — | 15 Oct 2026, 05:17 UTC |
 | 🇿🇲 **Zambia** | `ZM` | 🟡 Building 0% | [Open country page](./zambia.md) | — | 15 Oct 2026, 22:12 UTC |
 | 🇿🇼 **Zimbabwe** | `ZW` | 🟡 Building 0% | [Open country page](./zimbabwe.md) | — | 16 Oct 2026, 09:43 UTC |

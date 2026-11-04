@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 76%
+## Repository ranking status: Building 95%
 
-- Geography terms processed: **32 / 42**
-- Progress: **76%**
-- Retained high-potential owner candidates: **20**
-- Search requests completed: **32**
+- Geography terms processed: **40 / 42**
+- Progress: **95%**
+- Retained high-potential owner candidates: **21**
+- Search requests completed: **40**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -28,6 +28,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [coroboros/uri](https://github.com/coroboros/uri) | **15** | Western Sahara |
 | [builders-lab/soft-cuda](https://github.com/builders-lab/soft-cuda) | **13** | Western Sahara |
 | [Omebran/contrib-pool-3-756](https://github.com/Omebran/contrib-pool-3-756) | **5** | East Annaton, Western Sahara |
+| [DariusTheGreate/engine](https://github.com/DariusTheGreate/engine) | **2** | الصحراء الغربية |
 | [argueUndefeatable29/fsnotify](https://github.com/argueUndefeatable29/fsnotify) | **1** | Tifariti |
 | [Brahim-Ezzahraoui/Java-Lp2I-SMI](https://github.com/Brahim-Ezzahraoui/Java-Lp2I-SMI) | **1** | Western  Sahara |
 | [Ithavollr/PacMan](https://github.com/Ithavollr/PacMan) | **1** | Western Sahara |
@@ -38,6 +39,5 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [Enceunc/Fortnight](https://github.com/Enceunc/Fortnight) | **0** | Western Sahara |
 | [F01C/FORUM](https://github.com/F01C/FORUM) | **0** | Western Sahara |
 | [ItsOnlySkilz/reconnecting-websocket](https://github.com/ItsOnlySkilz/reconnecting-websocket) | **0** | Tifariti |
-| [mBghost26/mBghost26](https://github.com/mBghost26/mBghost26) | **0** | laayoune western sahara  |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.
