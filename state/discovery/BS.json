@@ -12,26 +12,530 @@
     "termsTotal": 63
   },
   "phase": "discovery",
-  "nextTermIndex": 30,
-  "activeTerm": null,
+  "nextTermIndex": 32,
+  "activeTerm": {
+    "index": 32,
+    "term": "Long Island",
+    "queue": [
+      {
+        "query": "location:\"Long Island\" type:user followers:0",
+        "stage": "followers",
+        "cursor": "Y3Vyc29yOjIwMA==",
+        "pageNumber": 5,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Long Island\" type:user followers:1..4",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Long Island\" type:user followers:5..9",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Long Island\" type:user followers:10..24",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Long Island\" type:user followers:25..49",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Long Island\" type:user followers:50..99",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Long Island\" type:user followers:100..249",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Long Island\" type:user followers:250..499",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Long Island\" type:user followers:500..999",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Long Island\" type:user followers:1000..2499",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Long Island\" type:user followers:2500..4999",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Long Island\" type:user followers:5000..9999",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Long Island\" type:user followers:10000..24999",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Long Island\" type:user followers:25000..49999",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Long Island\" type:user followers:>=50000",
+        "stage": "followers",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      },
+      {
+        "query": "location:\"Long Island\" type:org",
+        "stage": "type",
+        "cursor": null,
+        "pageNumber": 1,
+        "attempts": 0
+      }
+    ],
+    "startedAt": "2026-11-04T06:38:34.021Z",
+    "requests": 6,
+    "leafPages": 4,
+    "shardExpansions": 2,
+    "reportedCount": 1093
+  },
   "discoveryComplete": false,
   "startedAt": "2026-10-04T04:15:30.155Z",
-  "updatedAt": "2026-10-31T12:47:51.357Z",
+  "updatedAt": "2026-11-04T06:38:51.161Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
-    "termsProcessed": 30,
-    "searchRequests": 40,
-    "leafPages": 40,
-    "shardExpansions": 0,
-    "rawOwnerHits": 536,
-    "acceptedOwnerHits": 520,
-    "rejectedOwnerHits": 16,
+    "termsProcessed": 32,
+    "searchRequests": 48,
+    "leafPages": 46,
+    "shardExpansions": 2,
+    "rawOwnerHits": 837,
+    "acceptedOwnerHits": 751,
+    "rejectedOwnerHits": 86,
     "unresolvedShardCount": 0,
     "minimumRateLimitRemaining": 4887
   },
   "unresolvedShards": [],
   "candidates": [
+    {
+      "id": "MDQ6VXNlcjYwMjY1MDQ=",
+      "login": "rappasoft",
+      "name": "Anthony Rappa",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/rappasoft",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6026504?u=afd84a92bc77c5431fde9f905e6647c7fceba7d7&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "laravel-boilerplate",
+        "nameWithOwner": "rappasoft/laravel-boilerplate",
+        "url": "https://github.com/rappasoft/laravel-boilerplate",
+        "description": "The Laravel Boilerplate Project - https://laravel-boilerplate.com",
+        "stargazerCount": 5624,
+        "forkCount": 1552,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2015-02-02T04:59:07Z",
+        "pushedAt": "2025-09-28T05:06:22Z",
+        "homepageUrl": "https://rappasoft.com",
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE2ODY5MzM=",
+      "login": "NickPiscitelli",
+      "name": "pickykneee",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/NickPiscitelli",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1686933?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "Glider.js",
+        "nameWithOwner": "NickPiscitelli/Glider.js",
+        "url": "https://github.com/NickPiscitelli/Glider.js",
+        "description": "A fast, lightweight, dependency free, native scrolling carousel alternative!",
+        "stargazerCount": 3312,
+        "forkCount": 291,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-10-15T22:43:41Z",
+        "pushedAt": "2026-05-06T00:23:52Z",
+        "homepageUrl": "https://nickpiscitelli.github.io/Glider.js",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjExNzUxODk=",
+      "login": "JesseTG",
+      "name": "Jesse Talavera",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/JesseTG",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1175189?u=a1f3f8629febfc0cd51dbbed078e4b53aa7e871a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "awesome-qt",
+        "nameWithOwner": "JesseTG/awesome-qt",
+        "url": "https://github.com/JesseTG/awesome-qt",
+        "description": "A curated list of awesome tools, libraries, and resources for the Qt framework.",
+        "stargazerCount": 1637,
+        "forkCount": 190,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2016-08-13T21:59:17Z",
+        "pushedAt": "2024-08-12T12:13:26Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "Creative Commons Zero v1.0 Universal",
+          "spdxId": "CC0-1.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE2OTkxMjAx",
+      "login": "robherley",
+      "name": "Rob Herley",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/robherley",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16991201?u=dada2fe6b89e2df06efb897c1c337e03048bbf5a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "snips.sh",
+        "nameWithOwner": "robherley/snips.sh",
+        "url": "https://github.com/robherley/snips.sh",
+        "description": "✂️ passwordless, anonymous SSH-powered pastebin with a human-friendly TUI and web UI",
+        "stargazerCount": 1330,
+        "forkCount": 53,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-01-21T04:17:29Z",
+        "pushedAt": "2026-11-01T06:05:11Z",
+        "homepageUrl": "https://snips.sh",
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE0ODMyMw==",
+      "login": "speric",
+      "name": "Eric Farkas",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/speric",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/148323?u=fb57b82cfd6f4212196ef9cc3113bdb50d31d6f6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "kindle-highlights",
+        "nameWithOwner": "speric/kindle-highlights",
+        "url": "https://github.com/speric/kindle-highlights",
+        "description": "Get your Kindle highlights.",
+        "stargazerCount": 579,
+        "forkCount": 47,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2011-12-20T15:54:17Z",
+        "pushedAt": "2020-04-04T01:12:01Z",
+        "homepageUrl": "https://rubygems.org/gems/kindle-highlights",
+        "primaryLanguage": {
+          "name": "Ruby"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY1NDk2MjM=",
+      "login": "Ethan3600",
+      "name": "Ethan Yehuda",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/Ethan3600",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6549623?u=17017b0efa039bffec1dd32954ff86fc186e6995&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "magento2-CronjobManager",
+        "nameWithOwner": "Ethan3600/magento2-CronjobManager",
+        "url": "https://github.com/Ethan3600/magento2-CronjobManager",
+        "description": "Cron Job Manager for Magento 2",
+        "stargazerCount": 365,
+        "forkCount": 83,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-08-13T16:24:06Z",
+        "pushedAt": "2026-07-21T13:46:12Z",
+        "homepageUrl": "https://packagist.org/packages/ethanyehuda/magento2-cronjobmanager",
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": {
+          "name": "Open Software License 3.0",
+          "spdxId": "OSL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE0OTEzMw==",
+      "login": "pmarreck",
+      "name": "Peter Marreck",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/pmarreck",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/149133?u=38b665f7fc57e23d7fcf0a4c48d642b3cb977e1e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "yt-transcriber",
+        "nameWithOwner": "pmarreck/yt-transcriber",
+        "url": "https://github.com/pmarreck/yt-transcriber",
+        "description": "CLI app- Give it a YouTube URL and you get a transcription with possible speaker identification and optional summary or translation, all thanks to open-source AI tooling and my lack of enough free time to watch content-sparse YouTube videos",
+        "stargazerCount": 338,
+        "forkCount": 12,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-10-24T18:27:32Z",
+        "pushedAt": "2026-10-14T15:01:53Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Shell"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc0NTQ3ODc=",
+      "login": "EugeneHoran",
+      "name": "Eugene Horan",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/EugeneHoran",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7454787?u=b87cfdf2fc4f59b5b0c6692a20a0064b9923a443&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "Android-Material-SearchView",
+        "nameWithOwner": "EugeneHoran/Android-Material-SearchView",
+        "url": "https://github.com/EugeneHoran/Android-Material-SearchView",
+        "description": null,
+        "stargazerCount": 322,
+        "forkCount": 76,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-06-02T22:22:59Z",
+        "pushedAt": "2018-03-30T15:53:16Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjkyMTE=",
+      "login": "dubek",
+      "name": "Dov Murik",
+      "type": "User",
+      "location": "Long Island, NY, US",
+      "url": "https://github.com/dubek",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9211?u=2ba42bf2bcb67b5fccd4e7931e11eb437bab75a6&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "rabbitmq-dump-queue",
+        "nameWithOwner": "dubek/rabbitmq-dump-queue",
+        "url": "https://github.com/dubek/rabbitmq-dump-queue",
+        "description": "Dump messages from a RabbitMQ queue to files, without affecting the queue.",
+        "stargazerCount": 226,
+        "forkCount": 46,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-11-12T02:14:15Z",
+        "pushedAt": "2026-10-15T23:51:22Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjk0MTIxNQ==",
+      "login": "johnpmayer",
+      "name": "John P Mayer, Jr",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/johnpmayer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/941215?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "elm-webgl",
+        "nameWithOwner": "johnpmayer/elm-webgl",
+        "url": "https://github.com/johnpmayer/elm-webgl",
+        "description": "Functional 3D Rendering with WebGL in Elm",
+        "stargazerCount": 166,
+        "forkCount": 44,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-05-08T00:22:08Z",
+        "pushedAt": "2018-03-23T21:15:02Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Elm"
+        },
+        "licenseInfo": {
+          "name": "BSD 3-Clause \"New\" or \"Revised\" License",
+          "spdxId": "BSD-3-Clause"
+        }
+      }
+    },
     {
       "id": "O_kgDODfs4ZQ",
       "login": "XileHUD",
@@ -72,6 +576,154 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjY4MTQxNzQ=",
+      "login": "sibirrer",
+      "name": "Simon Birrer",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/sibirrer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6814174?u=5b44d3306d8a301ba60ae992acb3c56b279d4f7e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "strong_lensing_lectures",
+        "nameWithOwner": "sibirrer/strong_lensing_lectures",
+        "url": "https://github.com/sibirrer/strong_lensing_lectures",
+        "description": "A set of interactive lecture notes about strong gravitational lensing",
+        "stargazerCount": 66,
+        "forkCount": 19,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-06-28T18:22:39Z",
+        "pushedAt": "2025-02-05T18:50:00Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjcwNzcxMDQ=",
+      "login": "seanwevans",
+      "name": "Sean Evans",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/seanwevans",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7077104?u=6a32e51287bce205f8d1ed57177fa109e1be2676&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "fluid-sims",
+        "nameWithOwner": "seanwevans/fluid-sims",
+        "url": "https://github.com/seanwevans/fluid-sims",
+        "description": "Collection of high-performance, CUDA-accelerated fluid dynamics and physics simulators, including SPH, hypersonic flow, and reaction-diffusion systems.",
+        "stargazerCount": 63,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-08-21T16:14:41Z",
+        "pushedAt": "2026-09-01T21:28:34Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Cuda"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjExNjMyNzM=",
+      "login": "johnzanussi",
+      "name": "John Zanussi",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/johnzanussi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1163273?u=60bec2eee611a991b2a17bbd99b5c4c702a83ad1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "unifi-g4-doorbell-sounds",
+        "nameWithOwner": "johnzanussi/unifi-g4-doorbell-sounds",
+        "url": "https://github.com/johnzanussi/unifi-g4-doorbell-sounds",
+        "description": "WAV files from the G4 Doorbell",
+        "stargazerCount": 35,
+        "forkCount": 15,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-03-25T15:11:27Z",
+        "pushedAt": "2022-06-10T16:57:45Z",
+        "homepageUrl": "https://johnzanussi.com/posts/unifi-g4-doorbell-chime-with-sonos#get-audio-file-to-play#get-audio-file-to-play",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMxMTAyNDgw",
+      "login": "mwbrulhardt",
+      "name": "Matthew Brulhardt",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/mwbrulhardt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/31102480?u=83b16160def76279f61f5eaf685e76ae78e3115a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "simple-sine-curve",
+        "nameWithOwner": "mwbrulhardt/simple-sine-curve",
+        "url": "https://github.com/mwbrulhardt/simple-sine-curve",
+        "description": "A tutorial for training a reinforcement learning agent how to trade on a basic sine curve using TensorTrade and Ray. ",
+        "stargazerCount": 35,
+        "forkCount": 15,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-12-18T18:58:20Z",
+        "pushedAt": "2021-06-28T09:32:10Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjM1MzQ3ODcy",
       "login": "ItsSim",
       "name": "Sim",
@@ -107,6 +759,115 @@
         "licenseInfo": {
           "name": "Mozilla Public License 2.0",
           "spdxId": "MPL-2.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjkzMjAxNDE=",
+      "login": "notryanb",
+      "name": "Ryan Blecher",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/notryanb",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/9320141?u=7b095a66ef2c2077ebacfa4a7cd8cfa9fcfdcf60&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "music-player",
+        "nameWithOwner": "notryanb/music-player",
+        "url": "https://github.com/notryanb/music-player",
+        "description": "A simple GUI audio player written in Rust with egui. Inspired by foobar2000. ",
+        "stargazerCount": 23,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-12-23T17:12:06Z",
+        "pushedAt": "2026-04-14T02:50:54Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Rust"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY3MzA1NjI4",
+      "login": "DevenRam",
+      "name": "Deven Ramchandran",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/DevenRam",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/67305628?u=6489390166320f60bd01515ead9079b6392c20c9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "mrekk-osu-Skins",
+        "nameWithOwner": "DevenRam/mrekk-osu-Skins",
+        "url": "https://github.com/DevenRam/mrekk-osu-Skins",
+        "description": null,
+        "stargazerCount": 22,
+        "forkCount": 5,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2020-07-01T22:53:16Z",
+        "pushedAt": "2024-12-04T20:41:38Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUxMjE5MTA=",
+      "login": "drewcsillag",
+      "name": "Drew Csillag",
+      "type": "User",
+      "location": "Long Island",
+      "url": "https://github.com/drewcsillag",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5121910?u=8f71bccd1bce2786422d1d3060465d5a25f98c60&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "twofish",
+        "nameWithOwner": "drewcsillag/twofish",
+        "url": "https://github.com/drewcsillag/twofish",
+        "description": "A highly optimized C version and a nonoptimized python implementation of Bruce Schneier's Twofish encryption algorithm",
+        "stargazerCount": 21,
+        "forkCount": 4,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-07-01T20:33:28Z",
+        "pushedAt": "2025-04-02T17:18:14Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
         }
       }
     },
@@ -225,6 +986,159 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjExMzgxNTk5",
+      "login": "colejohnson66",
+      "name": "Cole Tobin",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/colejohnson66",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/11381599?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "iDecryptIt",
+        "nameWithOwner": "colejohnson66/iDecryptIt",
+        "url": "https://github.com/colejohnson66/iDecryptIt",
+        "description": "The source code of iDecryptIt - an IPSW firmware decryption tool",
+        "stargazerCount": 17,
+        "forkCount": 8,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-01-21T15:18:21Z",
+        "pushedAt": "2026-03-11T14:58:52Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE1NTU4NA==",
+      "login": "jgoldschrafe",
+      "name": "Jeff Goldschrafe",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/jgoldschrafe",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/155584?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "metricinga",
+        "nameWithOwner": "jgoldschrafe/metricinga",
+        "url": "https://github.com/jgoldschrafe/metricinga",
+        "description": "gevent-based Graphite metrics forwarder for Nagios/Icinga",
+        "stargazerCount": 16,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2012-10-31T15:30:49Z",
+        "pushedAt": "2013-05-11T04:37:37Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "BSD 2-Clause \"Simplified\" License",
+          "spdxId": "BSD-2-Clause"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE3MTYxNjgz",
+      "login": "allenea",
+      "name": "Eric Allen",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/allenea",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/17161683?u=6a137083dc3f2efa831e3484be432ce65dbb4aca&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "Forecast_Search_Wizard",
+        "nameWithOwner": "allenea/Forecast_Search_Wizard",
+        "url": "https://github.com/allenea/Forecast_Search_Wizard",
+        "description": "The Forecast Search Wizard makes it easier than ever before to analyze archived NOAA text products to obtain valuable information. The Forecast Search Wizard is a program that allows researchers to search keywords in NOAA/NWS text products (e.g., Area Forecast Discussions, Local Storm Reports, Watches/Warnings, etc.) to identify the occurrence of case studies, particular weather events, or other specific information. This tool will not only save the researcher time, but it will also improve the depth and quality of research by opening a door to a new source of data in the weather enterprise.",
+        "stargazerCount": 14,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-09-06T02:52:12Z",
+        "pushedAt": "2025-03-06T20:51:07Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMwMjQ5MjEz",
+      "login": "wns823",
+      "name": "SJYang",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/wns823",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/30249213?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "medical_federated",
+        "nameWithOwner": "wns823/medical_federated",
+        "url": "https://github.com/wns823/medical_federated",
+        "description": null,
+        "stargazerCount": 13,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-06-24T18:34:39Z",
+        "pushedAt": "2023-05-11T15:38:43Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQ4NDkyMzg0",
       "login": "Johndiddles",
       "name": "Johndiddles",
@@ -256,6 +1170,81 @@
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIwMTcyNTM4",
+      "login": "josephmancuso",
+      "name": "Joseph Mancuso",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/josephmancuso",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/20172538?u=d8956b56ddaeb51b301c1fdb3833effc10241719&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "django-heroku-production",
+        "nameWithOwner": "josephmancuso/django-heroku-production",
+        "url": "https://github.com/josephmancuso/django-heroku-production",
+        "description": "A Django project that's ready to deploy to Heroku within minutes.",
+        "stargazerCount": 11,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-08-23T01:26:36Z",
+        "pushedAt": "2022-11-22T01:12:34Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEwOTMyMzY=",
+      "login": "briancairl",
+      "name": "Brian Cairl",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/briancairl",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1093236?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "multi_field_array",
+        "nameWithOwner": "briancairl/multi_field_array",
+        "url": "https://github.com/briancairl/multi_field_array",
+        "description": "Data-oriented multi-field array container class template written in C++17 ",
+        "stargazerCount": 10,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-09-27T00:36:57Z",
+        "pushedAt": "2022-05-02T04:30:52Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C++"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -294,6 +1283,43 @@
         "licenseInfo": {
           "name": "GNU Affero General Public License v3.0",
           "spdxId": "AGPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUxNTgzNTY=",
+      "login": "kfundarek",
+      "name": "Kevin Fundarek",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/kfundarek",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5158356?u=540ce9d4df876b2849549aedd7dc8098f4044d32&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "Slip-Ring-PCB-Files",
+        "nameWithOwner": "kfundarek/Slip-Ring-PCB-Files",
+        "url": "https://github.com/kfundarek/Slip-Ring-PCB-Files",
+        "description": "Gerbers for Slip Ring PCB Used in Zodiac/Polaris Robot Repair",
+        "stargazerCount": 9,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-10-02T02:21:50Z",
+        "pushedAt": "2022-10-02T03:46:59Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
         }
       }
     },
@@ -337,6 +1363,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjM0MTQxNg==",
+      "login": "heyitsmdr",
+      "name": "Mike DuRussel",
+      "type": "User",
+      "location": "NY / Long Island",
+      "url": "https://github.com/heyitsmdr",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/341416?u=72f2cab30bc24c7751fe2f658b6881629045cd5b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "armeria-web",
+        "nameWithOwner": "heyitsmdr/armeria-web",
+        "url": "https://github.com/heyitsmdr/armeria-web",
+        "description": "Armeria is an open-source web-based MUD being created with modern technology.",
+        "stargazerCount": 8,
+        "forkCount": 2,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-03-19T20:54:14Z",
+        "pushedAt": "2024-02-09T04:47:38Z",
+        "homepageUrl": "https://armeria.io",
+        "primaryLanguage": {
+          "name": "Go"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjM2NDEzOTUy",
       "login": "JarriqTheTechie",
       "name": "Jarriq Rolle",
@@ -372,6 +1437,45 @@
         "licenseInfo": {
           "name": "MIT License",
           "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM2MDQyNTg3",
+      "login": "samuelludwig",
+      "name": "Samuel Ludwig",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/samuelludwig",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/36042587?u=3e5d1f277fc6a659790510eb45559b5dcfd5bcc2&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "teapot",
+        "nameWithOwner": "samuelludwig/teapot",
+        "url": "https://github.com/samuelludwig/teapot",
+        "description": "Rescued x86 source files for the Teapot spreadsheet editor, as the original hosting-site (https://www.syntax-k.de/projekte/teapot/) has gone down. Update: the site seems to be back up now.",
+        "stargazerCount": 8,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-04-15T11:01:01Z",
+        "pushedAt": "2021-04-15T11:03:25Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
         }
       }
     },
@@ -559,6 +1663,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjE2NzYyOTg2",
+      "login": "digimarktech",
+      "name": "Marc Aupont",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/digimarktech",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/16762986?u=ead87cf5d1bc458a195f56884c43e91537f3f18c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "Xport",
+        "nameWithOwner": "digimarktech/Xport",
+        "url": "https://github.com/digimarktech/Xport",
+        "description": "A swift script that builds your Swift project on a remote machine.",
+        "stargazerCount": 6,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-05-13T18:58:10Z",
+        "pushedAt": "2024-08-23T01:00:00Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Swift"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjMwODc2NjIy",
       "login": "jsphpndr",
       "name": "Joseph Pinder",
@@ -630,6 +1770,43 @@
         "licenseInfo": {
           "name": "GNU Lesser General Public License v3.0",
           "spdxId": "LGPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUzNDQwNTU=",
+      "login": "RyanHecht",
+      "name": "Ryan Hecht",
+      "type": "User",
+      "location": "Orlando, FL / Long Island, NY",
+      "url": "https://github.com/RyanHecht",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/5344055?u=dc19275a7121286960f6267a6ae553a710a4817b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "MCParks-ResourcePack",
+        "nameWithOwner": "RyanHecht/MCParks-ResourcePack",
+        "url": "https://github.com/RyanHecht/MCParks-ResourcePack",
+        "description": "Archived! MCParks Resource Pack artists, please use GitLab!",
+        "stargazerCount": 6,
+        "forkCount": 10,
+        "isArchived": true,
+        "isFork": false,
+        "createdAt": "2017-08-24T01:34:17Z",
+        "pushedAt": "2021-07-05T08:48:36Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "Other",
+          "spdxId": "NOASSERTION"
         }
       }
     },
@@ -709,6 +1886,42 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "U_kgDOBY5nfg",
+      "login": "AyalaVirtual",
+      "name": "Erica Ayala",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/AyalaVirtual",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/93218686?u=88e51994a6951ced6bcace6bc1b36a2ac7dfc0ca&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "My-LeetCode-Solutions",
+        "nameWithOwner": "AyalaVirtual/My-LeetCode-Solutions",
+        "url": "https://github.com/AyalaVirtual/My-LeetCode-Solutions",
+        "description": "A collection of solutions to different LeetCode problems written in Java. ",
+        "stargazerCount": 5,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-03-08T19:15:10Z",
+        "pushedAt": "2024-03-13T10:11:29Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -1048,6 +2261,81 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjYxNzE4MDU2",
+      "login": "jonahnm",
+      "name": "Aerith Butler",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/jonahnm",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/61718056?u=55a9fecad4613f4cc649ed8ce6be50a2cea25d2b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "Telescope",
+        "nameWithOwner": "jonahnm/Telescope",
+        "url": "https://github.com/jonahnm/Telescope",
+        "description": "Telescope JB",
+        "stargazerCount": 4,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-01-15T16:55:03Z",
+        "pushedAt": "2024-02-24T17:39:58Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY3NTk5",
+      "login": "nickgs",
+      "name": "Nick Selvaggio",
+      "type": "User",
+      "location": "Long Island",
+      "url": "https://github.com/nickgs",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/67599?u=6b05c9ef9de5928c4e8705378b5e10af2099dad3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "claude-agent-sdk",
+        "nameWithOwner": "nickgs/claude-agent-sdk",
+        "url": "https://github.com/nickgs/claude-agent-sdk",
+        "description": "Experimenting with the claude agent SDK and claude code ",
+        "stargazerCount": 4,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-03T22:33:41Z",
+        "pushedAt": "2026-01-04T22:54:55Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "O_kgDOBijUcg",
       "login": "Nimblefoot",
       "name": "Nimblefoot Research",
@@ -1079,6 +2367,81 @@
         "homepageUrl": "",
         "primaryLanguage": {
           "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYzMTM1Mzgy",
+      "login": "PatFDev",
+      "name": "Patrick Farrell",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/PatFDev",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/63135382?u=4e97a5a215f0c40f4ca2d46dff44fe93adf135db&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "RateMyProfessorSCCC",
+        "nameWithOwner": "PatFDev/RateMyProfessorSCCC",
+        "url": "https://github.com/PatFDev/RateMyProfessorSCCC",
+        "description": "Integrative Chrome extension that imports Rate My Professor ratings into Suffolk Community College's class enrollment interface to aid students in making informed decisions based on instructor evaluations.",
+        "stargazerCount": 4,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-11-04T03:11:16Z",
+        "pushedAt": "2023-11-22T04:03:03Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ0NTMyOTY3",
+      "login": "seawolfiot",
+      "name": "Sam Wen",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/seawolfiot",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/44532967?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "seawolf.io",
+        "nameWithOwner": "seawolfiot/seawolf.io",
+        "url": "https://github.com/seawolfiot/seawolf.io",
+        "description": "seawolf.io.service helps user of linux iot devices to get dynamic IP after power up without the needs of monitor, keyboard and mouse.",
+        "stargazerCount": 4,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-10-27T19:20:57Z",
+        "pushedAt": "2018-11-08T01:16:17Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Shell"
         },
         "licenseInfo": null
       }
@@ -1342,6 +2705,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjEzMzE2NzY5",
+      "login": "mdixon1010",
+      "name": "Matthew Dixon",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/mdixon1010",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13316769?u=fd38759482841f6b50f9bc7fcb62b64eb45e47cb&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "dp900_studyguide",
+        "nameWithOwner": "mdixon1010/dp900_studyguide",
+        "url": "https://github.com/mdixon1010/dp900_studyguide",
+        "description": "Material compiled for DP900 Exam",
+        "stargazerCount": 3,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-02-11T03:25:04Z",
+        "pushedAt": "2021-02-11T03:25:57Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjM2NjY4NjM3",
       "login": "PingPaid",
       "name": "PingPaid ",
@@ -1378,6 +2775,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjI3MTcyODc=",
+      "login": "princetrunks",
+      "name": "Chuck Gaffney",
+      "type": "User",
+      "location": "Long Island",
+      "url": "https://github.com/princetrunks",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/2717287?u=db1aa75a3f30f9129f75a16f4a2a8f60fb49c047&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "CustomGlyphDesignerFont_Swift",
+        "nameWithOwner": "princetrunks/CustomGlyphDesignerFont_Swift",
+        "url": "https://github.com/princetrunks/CustomGlyphDesignerFont_Swift",
+        "description": "Swift SpriteKit Game Class With Custom GlyphDesigner Bitmap Fonts",
+        "stargazerCount": 3,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-11-03T07:16:25Z",
+        "pushedAt": "2014-11-03T07:26:41Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Swift"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjY1NjMwNjA1",
       "login": "tyriem",
       "name": "Tyrie Moss",
@@ -1409,6 +2842,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQzODg2MjQy",
+      "login": "ufkhan97",
+      "name": "Umar Khan",
+      "type": "User",
+      "location": "Long Island",
+      "url": "https://github.com/ufkhan97",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/43886242?u=e3eca48b40b2c5d6538afc64f578a1f618cfed4f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "gitcoin-grants-streamlit",
+        "nameWithOwner": "ufkhan97/gitcoin-grants-streamlit",
+        "url": "https://github.com/ufkhan97/gitcoin-grants-streamlit",
+        "description": null,
+        "stargazerCount": 3,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-04-25T05:41:58Z",
+        "pushedAt": "2023-08-22T20:18:36Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
         },
         "licenseInfo": null
       }
@@ -1487,6 +2956,42 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUyMTM5NjY4",
+      "login": "Briahana-Mauge",
+      "name": "Briahana Maugé",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/Briahana-Mauge",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/52139668?u=a33e8cce526d45a8f038591510ea48cdd1490fb2&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "Endeavor",
+        "nameWithOwner": "Briahana-Mauge/Endeavor",
+        "url": "https://github.com/Briahana-Mauge/Endeavor",
+        "description": "A volunteer management full-stack app developed to backbone an organization’s engagement with and availment of its industry volunteers community force.",
+        "stargazerCount": 2,
+        "forkCount": 3,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-03-25T00:31:02Z",
+        "pushedAt": "2023-01-06T00:38:11Z",
+        "homepageUrl": "https://endeavor-app.herokuapp.com",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -1930,6 +3435,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ5OTE4NDc=",
+      "login": "nychitman1",
+      "name": "Josh C.",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/nychitman1",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4991847?u=274cde68c486b3e57550e996aba11f0f5198feab&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "recommended_tv_shows",
+        "nameWithOwner": "nychitman1/recommended_tv_shows",
+        "url": "https://github.com/nychitman1/recommended_tv_shows",
+        "description": null,
+        "stargazerCount": 2,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-07-19T15:38:44Z",
+        "pushedAt": "2025-11-10T16:46:34Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQzNTk4NzQ=",
       "login": "ryaustin",
       "name": "Ryan",
@@ -2077,6 +3616,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQwNjM5ODI=",
+      "login": "ancgate",
+      "name": "Jefferson Bien-Aime",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/ancgate",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4063982?u=2d56fd9482c0cd405701e479cf0d0f151a5e6da0&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "greentaxicongestionevaluation",
+        "nameWithOwner": "ancgate/greentaxicongestionevaluation",
+        "url": "https://github.com/ancgate/greentaxicongestionevaluation",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-03-08T01:00:26Z",
+        "pushedAt": "2024-05-02T22:45:56Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBr7JBQ",
       "login": "AnonniX",
       "name": "AnonniX",
@@ -2108,6 +3683,45 @@
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU2ODk1Mjc4",
+      "login": "Blu5Morpheus",
+      "name": "Blu5Morpheus",
+      "type": "User",
+      "location": "Long Island, NY and Newport, TN",
+      "url": "https://github.com/Blu5Morpheus",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/56895278?u=5006b1b5412a0a23413752f8424fccb503f0a04e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "tardigrade-cad",
+        "nameWithOwner": "Blu5Morpheus/tardigrade-cad",
+        "url": "https://github.com/Blu5Morpheus/tardigrade-cad",
+        "description": "Physics-constrained CAD: differentiable Biot-Savart field solver + optax geometry optimization",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-16T15:04:04Z",
+        "pushedAt": "2026-07-16T15:04:07Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -2143,6 +3757,40 @@
         "primaryLanguage": {
           "name": "TypeScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjY4OTA3OTg=",
+      "login": "brettjrea",
+      "name": "brettjrea.dev",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/brettjrea",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6890798?u=67b455402070ff6b57ca0c8a770005587be79cfb&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "brettjrea",
+        "nameWithOwner": "brettjrea/brettjrea",
+        "url": "https://github.com/brettjrea/brettjrea",
+        "description": "brettjrea/brettjrea is a special repository. Its README.md will appear on your public profile!",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-07-16T03:19:16Z",
+        "pushedAt": "2025-05-11T21:40:21Z",
+        "homepageUrl": "",
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -2375,6 +4023,42 @@
       }
     },
     {
+      "id": "U_kgDOBiDJHQ",
+      "login": "evamizer",
+      "name": "Eva Mizer",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/evamizer",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/102811933?u=db78b6efe4e7af1203fed626502b285ceae10ef0&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "irish_bee_population_timeseries",
+        "nameWithOwner": "evamizer/irish_bee_population_timeseries",
+        "url": "https://github.com/evamizer/irish_bee_population_timeseries",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-04-05T18:16:17Z",
+        "pushedAt": "2023-04-07T02:13:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjc4OTE4OTE1",
       "login": "Glint-web18",
       "name": "Justin Glinton",
@@ -2511,6 +4195,76 @@
         "primaryLanguage": {
           "name": "Python"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYyMDE4MzQy",
+      "login": "kevinkusky",
+      "name": "Kevin Kusky",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/kevinkusky",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/62018342?u=e9d3a4c24455063da66cb89d8a4d9597f6192ba3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "waiverwizer",
+        "nameWithOwner": "kevinkusky/waiverwizer",
+        "url": "https://github.com/kevinkusky/waiverwizer",
+        "description": "Waiver Wire Analyizer",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-08-27T21:38:37Z",
+        "pushedAt": "2024-08-29T19:45:57Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE1MjI0NzI0",
+      "login": "KGunther",
+      "name": "Ken Gunther",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/KGunther",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/15224724?u=1f4d40e60fb283320171c19cf34d1dfd27cb570b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "KGunther",
+        "nameWithOwner": "KGunther/KGunther",
+        "url": "https://github.com/KGunther/KGunther",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-04-11T21:37:14Z",
+        "pushedAt": "2021-04-11T21:37:15Z",
+        "homepageUrl": "https://github.com/KGunther",
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -2698,6 +4452,45 @@
       }
     },
     {
+      "id": "U_kgDOBh2PFg",
+      "login": "luke-castellan",
+      "name": "Luke Castellan",
+      "type": "User",
+      "location": "Long Island, US",
+      "url": "https://github.com/luke-castellan",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/102600470?u=49df22276f9d7ee0d70eabe08461adb49d038a89&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "nbt-parser",
+        "nameWithOwner": "luke-castellan/nbt-parser",
+        "url": "https://github.com/luke-castellan/nbt-parser",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-10-21T08:29:00Z",
+        "pushedAt": "2022-10-21T15:09:34Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Rust"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "MDQ6VXNlcjMzOTI3MzI0",
       "login": "ManInTheSky",
       "name": null,
@@ -2728,6 +4521,76 @@
         "pushedAt": "2024-02-15T18:19:10Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBdmBfw",
+      "login": "Meplusthree79",
+      "name": "Lisa",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/Meplusthree79",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/98140543?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "Meplusthree79",
+        "nameWithOwner": "Meplusthree79/Meplusthree79",
+        "url": "https://github.com/Meplusthree79/Meplusthree79",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-01-21T04:06:03Z",
+        "pushedAt": "2022-02-12T11:15:22Z",
+        "homepageUrl": "https://github.com/Meplusthree79",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ4NTI1Mzcy",
+      "login": "moumenjuma",
+      "name": "Moumen Juma",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/moumenjuma",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/48525372?u=7e9276bcc3675199b73c790c285dad8eccb0a339&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "Moumen_Juma_Casino",
+        "nameWithOwner": "moumenjuma/Moumen_Juma_Casino",
+        "url": "https://github.com/moumenjuma/Moumen_Juma_Casino",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-10-25T04:08:28Z",
+        "pushedAt": "2024-10-25T04:16:39Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C++"
+        },
         "licenseInfo": null
       }
     },
@@ -3023,6 +4886,45 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjI2MTkyNjYz",
+      "login": "saucetray",
+      "name": "Justin",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/saucetray",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/26192663?u=04e11fbf9cff1ef8a1b73031fe056ebd323f0d50&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "HaskellRank",
+        "nameWithOwner": "saucetray/HaskellRank",
+        "url": "https://github.com/saucetray/HaskellRank",
+        "description": "Programming and Problem Solving in Haskell",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-01-04T20:34:01Z",
+        "pushedAt": "2020-03-04T22:30:03Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "Haskell"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
       "id": "U_kgDOCg9eOQ",
       "login": "Sawwwaxa",
       "name": "Tristepin",
@@ -3059,6 +4961,42 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "U_kgDOB22yMA",
+      "login": "scmsal",
+      "name": "Stephanie S",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/scmsal",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/124629552?u=ffdfcd52eda2e72bc99190e1d2b0f47fcba27ce9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "SSal-portfolio",
+        "nameWithOwner": "scmsal/SSal-portfolio",
+        "url": "https://github.com/scmsal/SSal-portfolio",
+        "description": "Personal portfolio page built with React and Tailwind",
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-08-25T14:41:23Z",
+        "pushedAt": "2026-03-31T14:54:38Z",
+        "homepageUrl": "https://ssalifu-portfolio.vercel.app/",
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -3137,6 +5075,42 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "U_kgDOBiAQnQ",
+      "login": "StevDev88",
+      "name": "Steven Gilliland",
+      "type": "User",
+      "location": "Long Island",
+      "url": "https://github.com/StevDev88",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/102764701?u=71fd010b2e65fd6cbbf76f5dd97d41260616871e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "It-s-Wine-O-Clock",
+        "nameWithOwner": "StevDev88/It-s-Wine-O-Clock",
+        "url": "https://github.com/StevDev88/It-s-Wine-O-Clock",
+        "description": null,
+        "stargazerCount": 1,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-05-29T07:23:10Z",
+        "pushedAt": "2023-08-17T02:01:05Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -3605,6 +5579,150 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjMxNzQ2MjY5",
+      "login": "aaronmasih92",
+      "name": "fourthchamber92",
+      "type": "User",
+      "location": "long island, new york",
+      "url": "https://github.com/aaronmasih92",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/31746269?u=2b05e40a2f0b564d0b47092efd14e6d41904641c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "tech-writing-portfolio",
+        "nameWithOwner": "aaronmasih92/tech-writing-portfolio",
+        "url": "https://github.com/aaronmasih92/tech-writing-portfolio",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-02-02T23:49:11Z",
+        "pushedAt": "2021-03-09T00:48:02Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCf4XmA",
+      "login": "abdul4210",
+      "name": "Abdul Ali",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/abdul4210",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/167647128?u=5c712f076a9179839ce9bff7de43652885abe70a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "STIGS-Powershell",
+        "nameWithOwner": "abdul4210/STIGS-Powershell",
+        "url": "https://github.com/abdul4210/STIGS-Powershell",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-02-28T21:19:06Z",
+        "pushedAt": "2026-03-05T20:56:21Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PowerShell"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCb6YQQ",
+      "login": "abiparilla",
+      "name": "Abigail Parilla",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/abiparilla",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/163485761?u=b0017acde7df31a47264ed6adedc54c80cf2bab8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "abigail-parilla-portfolio",
+        "nameWithOwner": "abiparilla/abigail-parilla-portfolio",
+        "url": "https://github.com/abiparilla/abigail-parilla-portfolio",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-07T00:49:58Z",
+        "pushedAt": "2026-05-01T04:49:16Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg4ODYzNjc=",
+      "login": "adamnicholls85",
+      "name": "Adam Nicholls",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/adamnicholls85",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/8886367?u=868f36cf5fe3e5e30fb504bddbdc2d278691c691&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "database",
+        "nameWithOwner": "adamnicholls85/database",
+        "url": "https://github.com/adamnicholls85/database",
+        "description": "Connects to and runs queries on MySQL database.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-09-12T14:22:15Z",
+        "pushedAt": "2018-09-20T00:52:34Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "PHP"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjI0ODk2Nzk2",
       "login": "Aethercoin1",
       "name": "Aethercoin1",
@@ -3641,6 +5759,40 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "U_kgDOBddJFQ",
+      "login": "Agenttb626",
+      "name": "Thomas Biryla",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/Agenttb626",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/97995029?u=ec15025e6a146cb08b0e01022ebd2013e8c69929&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "agenttb626.github.io",
+        "nameWithOwner": "Agenttb626/agenttb626.github.io",
+        "url": "https://github.com/Agenttb626/agenttb626.github.io",
+        "description": "My Personal Repository",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-05-31T21:36:37Z",
+        "pushedAt": "2025-06-25T00:01:50Z",
+        "homepageUrl": "https://thomas-biryla.click/",
+        "primaryLanguage": null,
+        "licenseInfo": null
       }
     },
     {
@@ -3740,6 +5892,40 @@
         "isFork": false,
         "createdAt": "2016-11-16T02:25:16Z",
         "pushedAt": "2016-11-16T02:25:16Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOC6jfPw",
+      "login": "alllenennn",
+      "name": "Allen",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/alllenennn",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/195616575?u=db516fc1fcff268026a0c58e99ac7dad574db7a1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "alllenennn",
+        "nameWithOwner": "alllenennn/alllenennn",
+        "url": "https://github.com/alllenennn/alllenennn",
+        "description": "My profile!",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-06-11T04:23:28Z",
+        "pushedAt": "2025-06-11T05:54:47Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -3925,6 +6111,42 @@
       }
     },
     {
+      "id": "U_kgDODyu4OQ",
+      "login": "andrew-lynch3",
+      "name": "Andrew Lynch",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/andrew-lynch3",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/254523449?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "March-Madness-Project",
+        "nameWithOwner": "andrew-lynch3/March-Madness-Project",
+        "url": "https://github.com/andrew-lynch3/March-Madness-Project",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-30T02:25:03Z",
+        "pushedAt": "2026-10-30T02:25:51Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "R"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBZLFuQ",
       "login": "andyctaylor",
       "name": "Andy Taylor",
@@ -3997,6 +6219,42 @@
       }
     },
     {
+      "id": "U_kgDOBsBEHA",
+      "login": "anthonysaya",
+      "name": "Anthony Saya",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/anthonysaya",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/113263644?u=d376b005303b1e2574dcba6afae5fa77935f2baa&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "my-devsite",
+        "nameWithOwner": "anthonysaya/my-devsite",
+        "url": "https://github.com/anthonysaya/my-devsite",
+        "description": "Anthony Saya | Web Developer for Hire Website",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-01-11T22:50:13Z",
+        "pushedAt": "2025-01-19T21:42:42Z",
+        "homepageUrl": "https://anthonysaya.github.io/my-devsite/",
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjM2NjIzODQ2",
       "login": "AntonMNL",
       "name": "Anton M",
@@ -4031,6 +6289,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjYyNjczMjI=",
+      "login": "Archania",
+      "name": "Scott",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/Archania",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6267322?u=f8d3e112d2e1703da22e12497c227d32cdd06e9a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "Infiltrator",
+        "nameWithOwner": "Archania/Infiltrator",
+        "url": "https://github.com/Archania/Infiltrator",
+        "description": "3rd person shooter",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2014-03-23T12:13:46Z",
+        "pushedAt": "2014-03-23T12:15:23Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "O_kgDOEyYbdA",
       "login": "arctechnology-hq",
       "name": "ARC Technology",
@@ -4059,6 +6351,79 @@
         "isFork": false,
         "createdAt": "2026-09-11T17:03:22Z",
         "pushedAt": "2026-09-11T17:03:25Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc3MzAxODYz",
+      "login": "ashtonsax",
+      "name": "Ashton Sax",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/ashtonsax",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/77301863?u=83f784950b36e642fca05a76077e3f8683086e73&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "aem-boilerplate-commerce",
+        "nameWithOwner": "ashtonsax/aem-boilerplate-commerce",
+        "url": "https://github.com/ashtonsax/aem-boilerplate-commerce",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-04-04T17:20:22Z",
+        "pushedAt": "2025-04-04T17:29:15Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOBfEoJA",
+      "login": "asteph11",
+      "name": "Andrew Stephens",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/asteph11",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/99690532?u=23e725f232d21edc7b86f3f5251522b8edd2b80c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "asteph11",
+        "nameWithOwner": "asteph11/asteph11",
+        "url": "https://github.com/asteph11/asteph11",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-01-16T03:14:13Z",
+        "pushedAt": "2023-01-16T03:23:28Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -4135,6 +6500,42 @@
           "name": "MIT License",
           "spdxId": "MIT"
         }
+      }
+    },
+    {
+      "id": "U_kgDOBXzG8A",
+      "login": "B-Eckert",
+      "name": "Brant Eckert",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/B-Eckert",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/92063472?u=1a3cfadbde2d546c7e77b82ad83cbb60d528ab87&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "TTRPG-Showreel",
+        "nameWithOwner": "B-Eckert/TTRPG-Showreel",
+        "url": "https://github.com/B-Eckert/TTRPG-Showreel",
+        "description": "A demonstration of my Angular knowledge and a showreel of my favorite D&D characters.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-08-17T22:11:56Z",
+        "pushedAt": "2025-08-18T11:46:17Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "TypeScript"
+        },
+        "licenseInfo": null
       }
     },
     {
@@ -4239,6 +6640,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOFN0ZHQ",
+      "login": "baldbrit",
+      "name": "Trevor Cudmore",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/baldbrit",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/350034205?u=3cdace0986fafe3ad68bbb7ad48524b6e2f6ca8b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "nyc-311-dep-demand-analysis",
+        "nameWithOwner": "baldbrit/nyc-311-dep-demand-analysis",
+        "url": "https://github.com/baldbrit/nyc-311-dep-demand-analysis",
+        "description": "Forecasting daily NYC 311 DEP phone request demand using linear regression and k-means clustering.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-29T22:38:19Z",
+        "pushedAt": "2026-10-29T22:46:26Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "R"
         },
         "licenseInfo": null
       }
@@ -4928,6 +7365,148 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjE4MTE3NDUx",
+      "login": "chenjr98fcc",
+      "name": "JIU-RAN CHEN",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/chenjr98fcc",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/18117451?u=20f17b03e28af191398e601a58d452ef19e2233b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "helloJR",
+        "nameWithOwner": "chenjr98fcc/helloJR",
+        "url": "https://github.com/chenjr98fcc/helloJR",
+        "description": "for freeCodeCamp - Save your Code Revisions Forever with Git",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-03-31T13:48:44Z",
+        "pushedAt": "2016-03-31T13:57:19Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOD1qaYw",
+      "login": "Chris-arch56",
+      "name": "Christopher Rakamaric",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/Chris-arch56",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/257596003?u=9a4e257fa05f6a4a15146e5594275ba85fa0fcaa&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "stacked2",
+        "nameWithOwner": "Chris-arch56/stacked2",
+        "url": "https://github.com/Chris-arch56/stacked2",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-27T17:34:56Z",
+        "pushedAt": "2026-04-27T19:47:52Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjg5ODc1NTU5",
+      "login": "christopher-canenguez",
+      "name": "Christopher Canenguez",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/christopher-canenguez",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/89875559?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "workout-log-api",
+        "nameWithOwner": "christopher-canenguez/workout-log-api",
+        "url": "https://github.com/christopher-canenguez/workout-log-api",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-11-06T01:46:29Z",
+        "pushedAt": "2025-12-24T21:10:07Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIwNDYyMDg0",
+      "login": "clep1969",
+      "name": "Chris Lepore",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/clep1969",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/20462084?u=442426eb1582f637370ad1458fbe83cffc8c6e45&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "thesistesting",
+        "nameWithOwner": "clep1969/thesistesting",
+        "url": "https://github.com/clep1969/thesistesting",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-07-23T19:04:57Z",
+        "pushedAt": "2019-07-23T19:07:42Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDEyOk9yZ2FuaXphdGlvbjE5MzY2MTcx",
       "login": "CloudCarib",
       "name": "Cloud Carib Limited",
@@ -5424,6 +8003,43 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjMzMzI0ODY2",
+      "login": "DanSager",
+      "name": "Dan Sager",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/DanSager",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/33324866?u=60cdaedd01ea21a28c86f4cf68a47bd83d9e9cd1&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "SudokuCV",
+        "nameWithOwner": "DanSager/SudokuCV",
+        "url": "https://github.com/DanSager/SudokuCV",
+        "description": "Android application that solves sudokus using computer vision and Knuth's Algorithm X",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-06-09T17:22:21Z",
+        "pushedAt": "2020-08-19T02:23:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
       "id": "U_kgDOBnIbvA",
       "login": "darkfall-live",
       "name": "Arda Fırat",
@@ -5525,6 +8141,78 @@
         "homepageUrl": "https://voyage-tawny.vercel.app",
         "primaryLanguage": {
           "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOD0RTNQ",
+      "login": "dbassin12",
+      "name": "David Bassin",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/dbassin12",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/256135989?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "micro-review-challenge",
+        "nameWithOwner": "dbassin12/micro-review-challenge",
+        "url": "https://github.com/dbassin12/micro-review-challenge",
+        "description": "AP Micro review game students play at home on their own device",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-25T17:42:24Z",
+        "pushedAt": "2026-10-25T17:43:12Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODaOmHA",
+      "login": "deannabruno",
+      "name": "Deanna Bruno",
+      "type": "User",
+      "location": "Long Island",
+      "url": "https://github.com/deannabruno",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/228828700?u=4e8386be538031f4c602f929270bd9828e59020c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "STA9750-2025-FALL",
+        "nameWithOwner": "deannabruno/STA9750-2025-FALL",
+        "url": "https://github.com/deannabruno/STA9750-2025-FALL",
+        "description": "Projects from STA 9750- Software Tools for Data Analysis- Fall 2025",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-09-04T03:48:35Z",
+        "pushedAt": "2025-12-19T04:40:14Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "R"
         },
         "licenseInfo": null
       }
@@ -5770,6 +8458,42 @@
       }
     },
     {
+      "id": "U_kgDOCDleTQ",
+      "login": "dk-peters",
+      "name": "Devin Peters",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/dk-peters",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/137977421?u=eb1835c7a39e598956144628ae220a97ebb8800d&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "odin-recipes",
+        "nameWithOwner": "dk-peters/odin-recipes",
+        "url": "https://github.com/dk-peters/odin-recipes",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-02-04T16:32:45Z",
+        "pushedAt": "2026-02-12T22:30:40Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "O_kgDOBfTmRQ",
       "login": "Dog-Republik",
       "name": "DOG REPUBLIK",
@@ -5832,6 +8556,40 @@
         "isFork": false,
         "createdAt": "2017-11-16T17:30:23Z",
         "pushedAt": "2017-11-16T17:30:24Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE1Njg0Njc=",
+      "login": "dpaks51",
+      "name": "Steve Beck",
+      "type": "User",
+      "location": "Long Island",
+      "url": "https://github.com/dpaks51",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1568467?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "StevesRepository",
+        "nameWithOwner": "dpaks51/StevesRepository",
+        "url": "https://github.com/dpaks51/StevesRepository",
+        "description": "First Git Repository",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2012-11-02T06:25:14Z",
+        "pushedAt": "2012-11-02T06:25:14Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -5906,6 +8664,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjQ2NTMzNzY4",
+      "login": "eddyorsi",
+      "name": "Edouard Orsi",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/eddyorsi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/46533768?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "simons-portfolio",
+        "nameWithOwner": "eddyorsi/simons-portfolio",
+        "url": "https://github.com/eddyorsi/simons-portfolio",
+        "description": "Some projects I have done at the Simons Center for Geometry and Physics",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-02-18T15:37:16Z",
+        "pushedAt": "2019-06-03T18:30:14Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjg3Mzg0MzI3",
       "login": "Edeisha1",
       "name": "Edeisha Rolle",
@@ -5936,6 +8730,78 @@
         "pushedAt": "2024-05-25T18:29:04Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEzODE4ODIz",
+      "login": "ehegdahl",
+      "name": "Eric Hegdahl",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/ehegdahl",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13818823?u=7cb02ccfbab8a1760b41df3b5c391290471c359c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "ehegdahl.github.io",
+        "nameWithOwner": "ehegdahl/ehegdahl.github.io",
+        "url": "https://github.com/ehegdahl/ehegdahl.github.io",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-04-17T02:36:51Z",
+        "pushedAt": "2018-05-08T14:53:27Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Ruby"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQxNDM5NDUw",
+      "login": "elsaveronicagd",
+      "name": "Elsa V",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/elsaveronicagd",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/41439450?u=5491159cc6740833725e9f8927438a53b467c095&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "cv",
+        "nameWithOwner": "elsaveronicagd/cv",
+        "url": "https://github.com/elsaveronicagd/cv",
+        "description": "CV sample for Online Class Project",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-12-26T21:44:54Z",
+        "pushedAt": "2023-12-08T14:51:24Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
         "licenseInfo": null
       }
     },
@@ -6076,6 +8942,76 @@
         "primaryLanguage": {
           "name": "JavaScript"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE5NjkwODI3",
+      "login": "ErockSchmitt",
+      "name": "Eric Schmitt",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/ErockSchmitt",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19690827?u=50d4c303aef2991a391d493ac9ce5539ba5d7a1e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "NodeTutorial",
+        "nameWithOwner": "ErockSchmitt/NodeTutorial",
+        "url": "https://github.com/ErockSchmitt/NodeTutorial",
+        "description": "Follow Through of Node.js Tutorial located here => https://www.youtube.com/watch?v=TlB_eWDSMt4",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-04-22T17:30:20Z",
+        "pushedAt": "2019-04-22T17:31:29Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUzODY3OTE5",
+      "login": "ESCHESLOW",
+      "name": "Edward Cheslow",
+      "type": "User",
+      "location": "Long Island",
+      "url": "https://github.com/ESCHESLOW",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/53867919?u=a5bf59e12e572307ebb9ad8d00998e9f8eec2786&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "okta-verify",
+        "nameWithOwner": "ESCHESLOW/okta-verify",
+        "url": "https://github.com/ESCHESLOW/okta-verify",
+        "description": "get code",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-09-26T10:28:51Z",
+        "pushedAt": "2019-09-26T10:28:53Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -6221,6 +9157,42 @@
       }
     },
     {
+      "id": "U_kgDOCUdRAg",
+      "login": "Francisjd67",
+      "name": "Francis Danaher",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/Francisjd67",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/155668738?u=ca4abfa5f997148d4f3951f52f8f3e55d0df4a32&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "Web-Based",
+        "nameWithOwner": "Francisjd67/Web-Based",
+        "url": "https://github.com/Francisjd67/Web-Based",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-01T13:58:10Z",
+        "pushedAt": "2026-05-10T00:54:31Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjU0NzQ5MzYy",
       "login": "FromTheGenesys",
       "name": "Vincent Rahming",
@@ -6287,6 +9259,42 @@
         "pushedAt": "2021-08-02T00:38:57Z",
         "homepageUrl": "https://github.com/GALILEOWORLD",
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOC7vz3g",
+      "login": "gayatrixsharma",
+      "name": "Gayatri Sharma",
+      "type": "User",
+      "location": "Long Island ",
+      "url": "https://github.com/gayatrixsharma",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/196867038?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "GNSphotobooth-app",
+        "nameWithOwner": "gayatrixsharma/GNSphotobooth-app",
+        "url": "https://github.com/gayatrixsharma/GNSphotobooth-app",
+        "description": "An interactive photobooth application allowing users to capture 3 photos with real-time webcam integration",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-09-26T18:29:00Z",
+        "pushedAt": "2025-09-26T18:43:03Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
         "licenseInfo": null
       }
     },
@@ -6541,6 +9549,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjI4NzU4MDgw",
+      "login": "holmes45",
+      "name": "Foster Sullivan",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/holmes45",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/28758080?u=5d41b00900289984097324e615935421ac9a001b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "Triangle-Solvers",
+        "nameWithOwner": "holmes45/Triangle-Solvers",
+        "url": "https://github.com/holmes45/Triangle-Solvers",
+        "description": "A few basic Javascript functions that can find different values in right triangles.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-05-17T16:59:22Z",
+        "pushedAt": "2017-05-17T22:13:19Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "O_kgDOC0nejA",
       "login": "https-gitcom",
       "name": "Tr4200812",
@@ -6681,6 +9723,45 @@
         "licenseInfo": {
           "name": "Boost Software License 1.0",
           "spdxId": "BSL-1.0"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOBcWTCg",
+      "login": "ianhnizdo",
+      "name": "Ian",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/ianhnizdo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/96834314?u=4a2ed8bc975824dc6cbab230636605f9a1e8d3df&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "TestApplication",
+        "nameWithOwner": "ianhnizdo/TestApplication",
+        "url": "https://github.com/ianhnizdo/TestApplication",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2023-03-30T23:45:49Z",
+        "pushedAt": "2023-06-09T01:34:10Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
         }
       }
     },
@@ -7036,6 +10117,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjc3Njc5NzMw",
+      "login": "J321-D",
+      "name": "Jeffrey Dong",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/J321-D",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/77679730?u=e17ded41b9116e301028c9e3b275e1fc7a6f4a41&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "J321-D",
+        "nameWithOwner": "J321-D/J321-D",
+        "url": "https://github.com/J321-D/J321-D",
+        "description": "Biomedical Engineering student | Python, data analysis, CAD, and bioprocessing projects",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-05T19:35:08Z",
+        "pushedAt": "2026-08-06T14:54:53Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCqVLTg",
       "login": "Jace-Mc",
       "name": "Jacon11",
@@ -7141,6 +10256,40 @@
         "primaryLanguage": {
           "name": "Vue"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOB2OyHA",
+      "login": "JAP7782",
+      "name": "James Prendergast III",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/JAP7782",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/123974172?u=21b01efc1237a6f7f64646a5fdf96950ddbb020c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "JAP7782",
+        "nameWithOwner": "JAP7782/JAP7782",
+        "url": "https://github.com/JAP7782/JAP7782",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-03-21T01:21:40Z",
+        "pushedAt": "2024-03-21T01:21:41Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -7324,6 +10473,42 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjUwMDg2ODQx",
+      "login": "jennieskilz",
+      "name": "Jennie S.",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/jennieskilz",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/50086841?u=35a683b955c80011550ea81ffaaa46ba521cf97f&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "Exercise4-GTIM",
+        "nameWithOwner": "jennieskilz/Exercise4-GTIM",
+        "url": "https://github.com/jennieskilz/Exercise4-GTIM",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-09-30T19:47:55Z",
+        "pushedAt": "2024-09-30T19:55:25Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjgwMDkzNzEy",
       "login": "jeremylaterreur",
       "name": null,
@@ -7354,6 +10539,151 @@
         "pushedAt": "2021-11-17T14:57:36Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQ2ODI2NDA=",
+      "login": "joeparrilla",
+      "name": "Joe Parrilla",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/joeparrilla",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/4682640?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "jp_utils",
+        "nameWithOwner": "joeparrilla/jp_utils",
+        "url": "https://github.com/joeparrilla/jp_utils",
+        "description": "implementing common utils",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-04-21T03:24:56Z",
+        "pushedAt": "2026-04-21T04:41:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIwMDgwNzY2",
+      "login": "JohnBoccio",
+      "name": "John Boccio",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/JohnBoccio",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/20080766?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "hello-world",
+        "nameWithOwner": "JohnBoccio/hello-world",
+        "url": "https://github.com/JohnBoccio/hello-world",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-06-30T02:45:02Z",
+        "pushedAt": "2016-06-30T02:55:23Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOCRXsgA",
+      "login": "Johnnie007b",
+      "name": "John",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/Johnnie007b",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/152431744?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "tiny-turbo",
+        "nameWithOwner": "Johnnie007b/tiny-turbo",
+        "url": "https://github.com/Johnnie007b/tiny-turbo",
+        "description": "Tiny Turbo: old-school top-down toy car racing with online multiplayer (desktop + mobile)",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-10-23T20:57:14Z",
+        "pushedAt": "2026-10-23T22:06:01Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjUyOTc5ODQy",
+      "login": "JohnnyG196",
+      "name": "Johnny Garcia",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/JohnnyG196",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/52979842?u=a32e8f6ed02442153181ce3acfde389816ee8e03&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "Practice_git",
+        "nameWithOwner": "JohnnyG196/Practice_git",
+        "url": "https://github.com/JohnnyG196/Practice_git",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-04-28T21:30:51Z",
+        "pushedAt": "2020-04-28T21:44:10Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
         "licenseInfo": null
       }
     },
@@ -7390,6 +10720,188 @@
         "primaryLanguage": {
           "name": "Python"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjcyNzM1NzQ=",
+      "login": "jokerjim65",
+      "name": "Jim",
+      "type": "User",
+      "location": "Long Island/Los Angels",
+      "url": "https://github.com/jokerjim65",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/7273574?u=0be2216a199be6067bac18270f1ce7d9e864256c&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "keybase.md",
+        "nameWithOwner": "jokerjim65/keybase.md",
+        "url": "https://github.com/jokerjim65/keybase.md",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-09-14T17:50:16Z",
+        "pushedAt": "2019-09-14T17:56:46Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOD3K_kg",
+      "login": "josephcabrera-cmyk",
+      "name": "Joseph Cabrera",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/josephcabrera-cmyk",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/259178386?u=8c2cca519b796ca940341233215426a9be18b992&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "birthday-countdown-clock",
+        "nameWithOwner": "josephcabrera-cmyk/birthday-countdown-clock",
+        "url": "https://github.com/josephcabrera-cmyk/birthday-countdown-clock",
+        "description": "ESP32-based countdown clock displaying days:hours:minutes:seconds to a target birthday across nine 7-segment displays, with custom PCB and firmware",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-29T00:58:52Z",
+        "pushedAt": "2026-10-22T16:37:29Z",
+        "homepageUrl": "",
+        "primaryLanguage": {
+          "name": "C"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYzMDcwOTE3",
+      "login": "JosephGentile1998",
+      "name": "Joseph Gentile",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/JosephGentile1998",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/63070917?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "LiveLeagueStats",
+        "nameWithOwner": "JosephGentile1998/LiveLeagueStats",
+        "url": "https://github.com/JosephGentile1998/LiveLeagueStats",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-09-14T03:47:15Z",
+        "pushedAt": "2020-11-19T21:47:23Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "GNU General Public License v3.0",
+          "spdxId": "GPL-3.0"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI0OTI5OTgy",
+      "login": "josephJosh",
+      "name": "Josh Joseph",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/josephJosh",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/24929982?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "NRRCalculator",
+        "nameWithOwner": "josephJosh/NRRCalculator",
+        "url": "https://github.com/josephJosh/NRRCalculator",
+        "description": "Net Run Rate (NRR) Calculator",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-05-14T20:14:00Z",
+        "pushedAt": "2019-01-05T20:02:04Z",
+        "homepageUrl": "https://josephjosh.github.io/NRRCalculator/",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEyMDkxMjAw",
+      "login": "Jxc2000",
+      "name": "joseph capunay",
+      "type": "User",
+      "location": "long island, new york",
+      "url": "https://github.com/Jxc2000",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/12091200?u=3ab86b69cd7b8caecdc49cf15bea27abbddc33d3&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "http-masseur-specialists-88702.bitballoon.com-",
+        "nameWithOwner": "Jxc2000/http-masseur-specialists-88702.bitballoon.com-",
+        "url": "https://github.com/Jxc2000/http-masseur-specialists-88702.bitballoon.com-",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-07-14T01:17:57Z",
+        "pushedAt": "2015-07-14T01:17:57Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -7501,6 +11013,74 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjI5Nzg2Mjk3",
+      "login": "kelseynap",
+      "name": "Kelsey Napolitano",
+      "type": "User",
+      "location": "Long Island",
+      "url": "https://github.com/kelseynap",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/29786297?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "git_test",
+        "nameWithOwner": "kelseynap/git_test",
+        "url": "https://github.com/kelseynap/git_test",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-04-24T20:20:45Z",
+        "pushedAt": "2018-04-24T20:20:46Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjMwMjE4Mzg2",
+      "login": "ken-xviii",
+      "name": "Ken W.",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/ken-xviii",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/30218386?u=6fcc1d0b9897b273ee5076d55e9e0c0cbd3524a9&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "practice-repos",
+        "nameWithOwner": "ken-xviii/practice-repos",
+        "url": "https://github.com/ken-xviii/practice-repos",
+        "description": "Just a practice file for getting my feet wet at GitHub",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-07-16T23:06:14Z",
+        "pushedAt": "2017-07-29T17:58:13Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOBkuL3w",
       "login": "KevinMcGregor242",
       "name": "Kevin McGregor",
@@ -7532,6 +11112,81 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBdTZ_w",
+      "login": "Kevnelson1968",
+      "name": "kevnelson1968",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/Kevnelson1968",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/97835519?u=9913a2983a5fa6bf3ad0029bc96c7bd2ba897e12&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "Frankie-Billions",
+        "nameWithOwner": "Kevnelson1968/Frankie-Billions",
+        "url": "https://github.com/Kevnelson1968/Frankie-Billions",
+        "description": "NFT project",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-01-16T13:10:54Z",
+        "pushedAt": "2022-01-16T13:11:07Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjgwMjk3Mjk1",
+      "login": "kofiacheampong-ss",
+      "name": "Kofi",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/kofiacheampong-ss",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/80297295?u=92f4b2ca4004cb6b3bd35af489ed2314a41a9707&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "Week1_Assignments_Java_SS",
+        "nameWithOwner": "kofiacheampong-ss/Week1_Assignments_Java_SS",
+        "url": "https://github.com/kofiacheampong-ss/Week1_Assignments_Java_SS",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-03-09T18:08:31Z",
+        "pushedAt": "2021-03-11T20:12:14Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
         },
         "licenseInfo": null
       }
@@ -7893,6 +11548,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjEzMjY0NjM2",
+      "login": "Mapwritingcentral",
+      "name": "Marie Patten",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/Mapwritingcentral",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13264636?u=22f365c2d997120207809acf1bcd24025e00136a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "github-for-developers-7",
+        "nameWithOwner": "Mapwritingcentral/github-for-developers-7",
+        "url": "https://github.com/Mapwritingcentral/github-for-developers-7",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2015-11-16T01:05:30Z",
+        "pushedAt": "2015-11-16T01:05:35Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjQyMTIyNzYw",
       "login": "MarcusCollin",
       "name": "Marcus C. Collins",
@@ -8024,6 +11713,74 @@
         "createdAt": "2022-08-06T01:43:10Z",
         "pushedAt": "2022-08-06T01:45:16Z",
         "homepageUrl": "https://github.com/Matrix2428",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU4MDA2MzI2",
+      "login": "MattOrr4-Clover",
+      "name": "Matthew Orr",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/MattOrr4-Clover",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58006326?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "hello-world",
+        "nameWithOwner": "MattOrr4-Clover/hello-world",
+        "url": "https://github.com/MattOrr4-Clover/hello-world",
+        "description": "merely another repository",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2020-05-18T14:24:08Z",
+        "pushedAt": "2020-05-18T14:41:44Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBkpKEg",
+      "login": "maxhou58-zebra",
+      "name": "max hou",
+      "type": "User",
+      "location": "long Island",
+      "url": "https://github.com/maxhou58-zebra",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/105531922?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "test_branch_function",
+        "nameWithOwner": "maxhou58-zebra/test_branch_function",
+        "url": "https://github.com/maxhou58-zebra/test_branch_function",
+        "description": "this is a test",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-06-26T20:53:21Z",
+        "pushedAt": "2025-06-26T21:13:15Z",
+        "homepageUrl": "https://github.com/maxhou58-zebra/test_branch_function",
         "primaryLanguage": null,
         "licenseInfo": null
       }
@@ -8417,6 +12174,42 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "C#"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjM1NjA3NjE3",
+      "login": "mpbradshaw",
+      "name": "Matthew Bradshaw",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/mpbradshaw",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/35607617?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "mobile",
+        "nameWithOwner": "mpbradshaw/mobile",
+        "url": "https://github.com/mpbradshaw/mobile",
+        "description": "All of my mobile development",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-02-15T14:57:26Z",
+        "pushedAt": "2021-04-07T18:08:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Swift"
         },
         "licenseInfo": null
       }
@@ -8849,6 +12642,76 @@
       }
     },
     {
+      "id": "U_kgDOBY_A9A",
+      "login": "paytonmccarthy",
+      "name": "Payton McCarthy",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/paytonmccarthy",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/93307124?u=2453d29ef0b6a36ebcc4d6f9cc917cbcb923f91a&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "marketanalysis",
+        "nameWithOwner": "paytonmccarthy/marketanalysis",
+        "url": "https://github.com/paytonmccarthy/marketanalysis",
+        "description": "Consumer Segmentation and Buying Behavior",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-05-06T14:19:40Z",
+        "pushedAt": "2022-05-15T19:22:15Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBmycRA",
+      "login": "pereirakevin",
+      "name": "Kevin Pereira",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/pereirakevin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/107781188?u=04177b3a20214c6d07a35455d5c77ebf76229c40&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "pereirakevin",
+        "nameWithOwner": "pereirakevin/pereirakevin",
+        "url": "https://github.com/pereirakevin/pereirakevin",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-06-22T01:16:46Z",
+        "pushedAt": "2022-06-22T01:57:51Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDODmMATQ",
       "login": "Pesounek",
       "name": "TuffMaster67",
@@ -8913,6 +12776,76 @@
         "pushedAt": "2022-04-21T15:00:20Z",
         "homepageUrl": "https://github.com/peterbtaylor",
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEzODE5Njkw",
+      "login": "peterlyon",
+      "name": "song.fund",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/peterlyon",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/13819690?u=01a6cd6d782e7a429d81a4bed1fdb532c8e62c16&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "tool",
+        "nameWithOwner": "peterlyon/tool",
+        "url": "https://github.com/peterlyon/tool",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-05-21T17:29:58Z",
+        "pushedAt": "2017-05-21T17:29:58Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDOBhCbjg",
+      "login": "philrinaldi",
+      "name": "Phil Rinaldi",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/philrinaldi",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/101751694?u=416750ddc284b1dacc9a72130a2c633df81707c0&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "BlockBreaker",
+        "nameWithOwner": "philrinaldi/BlockBreaker",
+        "url": "https://github.com/philrinaldi/BlockBreaker",
+        "description": "Built By Aidan Develops",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-06-29T13:54:53Z",
+        "pushedAt": "2025-07-01T01:43:53Z",
+        "homepageUrl": "https://philrinaldi.github.io/BlockBreaker/",
+        "primaryLanguage": {
+          "name": "HTML"
+        },
         "licenseInfo": null
       }
     },
@@ -9138,6 +13071,40 @@
       }
     },
     {
+      "id": "U_kgDOCx2yTw",
+      "login": "RebeccaMartin-19",
+      "name": "Rebecca",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/RebeccaMartin-19",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/186495567?u=ce5ae58ec0ba6b70e49863694d8e21b0556a868b&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "RebeccaMartin-19",
+        "nameWithOwner": "RebeccaMartin-19/RebeccaMartin-19",
+        "url": "https://github.com/RebeccaMartin-19/RebeccaMartin-19",
+        "description": "Config files for my GitHub profile.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-10-27T16:20:13Z",
+        "pushedAt": "2024-10-27T16:24:16Z",
+        "homepageUrl": "https://github.com/RebeccaMartin-19",
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "MDQ6VXNlcjkwNzkxMTE3",
       "login": "Rh0d0dendr0n",
       "name": "Lucky Luke",
@@ -9168,6 +13135,78 @@
         "pushedAt": "2022-01-09T18:18:48Z",
         "homepageUrl": null,
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQyMDQxMDc3",
+      "login": "rjbranc5",
+      "name": "Rob Brancale",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/rjbranc5",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/42041077?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "dbrs",
+        "nameWithOwner": "rjbranc5/dbrs",
+        "url": "https://github.com/rjbranc5/dbrs",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 1,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2018-10-30T23:25:09Z",
+        "pushedAt": "2018-11-01T21:17:56Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Jupyter Notebook"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODdPJcw",
+      "login": "robertjviola",
+      "name": "Robert Viola",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/robertjviola",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/231983475?u=f7365518a9c5f4d57f29cd570edff3de0d9eb254&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "Password-Generator",
+        "nameWithOwner": "robertjviola/Password-Generator",
+        "url": "https://github.com/robertjviola/Password-Generator",
+        "description": "A Python script that generates secure random passwords",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-09-12T23:16:09Z",
+        "pushedAt": "2025-09-12T23:42:24Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
         "licenseInfo": null
       }
     },
@@ -9239,6 +13278,113 @@
         "isFork": false,
         "createdAt": "2022-11-13T12:31:51Z",
         "pushedAt": "2022-11-13T12:31:52Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE0OTM2NTA2",
+      "login": "RunningRiotX",
+      "name": "Didier Guillaume-Sam",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/RunningRiotX",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/14936506?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "learn-co-sandbox",
+        "nameWithOwner": "RunningRiotX/learn-co-sandbox",
+        "url": "https://github.com/RunningRiotX/learn-co-sandbox",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-02-01T00:17:20Z",
+        "pushedAt": "2019-02-01T00:17:21Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc5NDcyNTMx",
+      "login": "ryanstoll01",
+      "name": "Ryan Stoll",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/ryanstoll01",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/79472531?u=de5e6c0712534191e44f38f012c153d60a26cfeb&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "github-slideshow",
+        "nameWithOwner": "ryanstoll01/github-slideshow",
+        "url": "https://github.com/ryanstoll01/github-slideshow",
+        "description": "A robot powered training repository :robot:",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-02-22T17:32:48Z",
+        "pushedAt": "2021-02-22T17:32:51Z",
+        "homepageUrl": "https://lab.github.com/githubtraining/introduction-to-github",
+        "primaryLanguage": {
+          "name": "Ruby"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOBpyKtg",
+      "login": "samsaldarelli",
+      "name": "Sam Saldarelli",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/samsaldarelli",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/110922422?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "MultivariableMathConferenceProjectFall2025",
+        "nameWithOwner": "samsaldarelli/MultivariableMathConferenceProjectFall2025",
+        "url": "https://github.com/samsaldarelli/MultivariableMathConferenceProjectFall2025",
+        "description": "Sam Saldarelli's Circuit Analysis Calculator",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-12-08T20:31:24Z",
+        "pushedAt": "2025-12-08T20:31:24Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -9458,6 +13604,78 @@
       }
     },
     {
+      "id": "U_kgDOBkGDQQ",
+      "login": "shusankGo",
+      "name": "Shusank Dahal",
+      "type": "User",
+      "location": "Long island, Pride World City Rd, Charholi Budruk, Pune, Maharashtra 412105",
+      "url": "https://github.com/shusankGo",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/104956737?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "Assignment2",
+        "nameWithOwner": "shusankGo/Assignment2",
+        "url": "https://github.com/shusankGo/Assignment2",
+        "description": "Assignment 2 of angular training",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-06-16T18:34:43Z",
+        "pushedAt": "2022-06-16T18:36:48Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIzMjIzNTQ4",
+      "login": "Silasel",
+      "name": "Katie Muller",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/Silasel",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/23223548?u=f9f43b1a2d694304957b5a1458bc9f497f7804bd&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "Incertidumbre",
+        "nameWithOwner": "Silasel/Incertidumbre",
+        "url": "https://github.com/Silasel/Incertidumbre",
+        "description": "Incertidumbre Project",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-08-18T19:51:54Z",
+        "pushedAt": "2017-08-19T02:28:15Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDODB5zhw",
       "login": "SKGeronimo",
       "name": "Geno Knowles",
@@ -9527,6 +13745,149 @@
         "primaryLanguage": {
           "name": "Python"
         },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc4MDQ5OTI1",
+      "login": "Somaira",
+      "name": null,
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/Somaira",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/78049925?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "github-slideshow",
+        "nameWithOwner": "Somaira/github-slideshow",
+        "url": "https://github.com/Somaira/github-slideshow",
+        "description": "A robot powered training repository :robot:",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-02-20T21:02:32Z",
+        "pushedAt": "2021-02-20T21:02:35Z",
+        "homepageUrl": "https://lab.github.com/githubtraining/introduction-to-github",
+        "primaryLanguage": {
+          "name": "Ruby"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjE5ODI2MTM5",
+      "login": "starpowers11",
+      "name": "Pradeep B.",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/starpowers11",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/19826139?u=0baa847f3822f075032fd20ba05882107e1abda8&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "Learn_Java_Selenium",
+        "nameWithOwner": "starpowers11/Learn_Java_Selenium",
+        "url": "https://github.com/starpowers11/Learn_Java_Selenium",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-03-27T16:05:34Z",
+        "pushedAt": "2017-03-27T16:05:34Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "U_kgDODPqWwg",
+      "login": "SuburbanVagabond",
+      "name": "Suburban Vagabond",
+      "type": "User",
+      "location": "Long Island",
+      "url": "https://github.com/SuburbanVagabond",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/217749186?u=78117ffff188f2a833777bf8db68767465b44692&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "fascism-2025",
+        "nameWithOwner": "SuburbanVagabond/fascism-2025",
+        "url": "https://github.com/SuburbanVagabond/fascism-2025",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-06-24T11:15:51Z",
+        "pushedAt": "2025-06-24T11:27:12Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "HTML"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQyMTk2NDY4",
+      "login": "swapanqa",
+      "name": null,
+      "type": "User",
+      "location": "Long Island,NY",
+      "url": "https://github.com/swapanqa",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/42196468?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "java-first-project-shifa",
+        "nameWithOwner": "swapanqa/java-first-project-shifa",
+        "url": "https://github.com/swapanqa/java-first-project-shifa",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2021-11-19T16:17:22Z",
+        "pushedAt": "2021-11-19T16:17:23Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
         "licenseInfo": null
       }
     },
@@ -9849,6 +14210,81 @@
       }
     },
     {
+      "id": "U_kgDODZkfwA",
+      "login": "ThomasStark13",
+      "name": "Thomas Stark",
+      "type": "User",
+      "location": "Long Island",
+      "url": "https://github.com/ThomasStark13",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/228138944?u=653a2f31686f9cc38b15b57fc5fbf9750b1d3724&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "nord-terminal-installer",
+        "nameWithOwner": "ThomasStark13/nord-terminal-installer",
+        "url": "https://github.com/ThomasStark13/nord-terminal-installer",
+        "description": "One-command Nord theme installer for Linux Mint MATE terminal ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-08-13T21:44:23Z",
+        "pushedAt": "2026-08-14T18:28:47Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
+      }
+    },
+    {
+      "id": "U_kgDOBsJNrg",
+      "login": "Thoreye6",
+      "name": "Thoreye6",
+      "type": "User",
+      "location": "Long Island, NY ",
+      "url": "https://github.com/Thoreye6",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/113397166?u=0f87fe2ba477143f5285ca5b48e44114f4cd3a26&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "marie-weather-project",
+        "nameWithOwner": "Thoreye6/marie-weather-project",
+        "url": "https://github.com/Thoreye6/marie-weather-project",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2022-11-10T01:03:29Z",
+        "pushedAt": "2022-11-30T02:06:16Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOCTTNEA",
       "login": "Tizigamerrrr08",
       "name": "Tizigamerrrr08",
@@ -9877,6 +14313,40 @@
         "isFork": false,
         "createdAt": "2023-12-20T16:41:07Z",
         "pushedAt": "2023-12-20T16:41:07Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjYzNzgwMzQ=",
+      "login": "TK3950",
+      "name": "Timothy Kersten",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/TK3950",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/6378034?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "mc-map",
+        "nameWithOwner": "TK3950/mc-map",
+        "url": "https://github.com/TK3950/mc-map",
+        "description": "This python script is created with help from AI tools to make images styled as Minecraft maps.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2025-09-27T02:15:20Z",
+        "pushedAt": "2025-09-27T02:15:20Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
@@ -9914,6 +14384,45 @@
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEwODMwMjky",
+      "login": "trackdave",
+      "name": "David",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/trackdave",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/10830292?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "Projectwise-Hooks",
+        "nameWithOwner": "trackdave/Projectwise-Hooks",
+        "url": "https://github.com/trackdave/Projectwise-Hooks",
+        "description": "Implement Hooks for projectwise",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2024-01-19T19:21:40Z",
+        "pushedAt": "2024-01-26T22:12:30Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "C#"
+        },
+        "licenseInfo": {
+          "name": "Apache License 2.0",
+          "spdxId": "Apache-2.0"
+        }
       }
     },
     {
@@ -9981,6 +14490,78 @@
         "pushedAt": "2024-05-19T01:48:57Z",
         "homepageUrl": "https://github.com/tsor16",
         "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjIwMzg0NDk2",
+      "login": "tylercreations",
+      "name": "Brian Tyler Hurst",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/tylercreations",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/20384496?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "Python-hw-6",
+        "nameWithOwner": "tylercreations/Python-hw-6",
+        "url": "https://github.com/tylercreations/Python-hw-6",
+        "description": "Implementing a 4:1 Multiplexer ",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-07-17T01:02:28Z",
+        "pushedAt": "2016-07-17T01:02:42Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Python"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjQxOTIzODk0",
+      "login": "tzili1813",
+      "name": "Thomas Zilinske",
+      "type": "User",
+      "location": "Long Island, New York",
+      "url": "https://github.com/tzili1813",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/41923894?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "Adobe-Monorepo",
+        "nameWithOwner": "tzili1813/Adobe-Monorepo",
+        "url": "https://github.com/tzili1813/Adobe-Monorepo",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-07-03T12:50:17Z",
+        "pushedAt": "2026-07-03T23:23:10Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
+        },
         "licenseInfo": null
       }
     },
@@ -10089,6 +14670,40 @@
       }
     },
     {
+      "id": "MDQ6VXNlcjI0NzA0NTcy",
+      "login": "vinnieobrien",
+      "name": "Vinnie O'Brien",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/vinnieobrien",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/24704572?u=813e9f072775d62ee3610a085ae3b49cbe2c3d4e&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "test1",
+        "nameWithOwner": "vinnieobrien/test1",
+        "url": "https://github.com/vinnieobrien/test1",
+        "description": "first project to mess around",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-12-22T23:49:06Z",
+        "pushedAt": "2016-12-22T23:49:06Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
       "id": "U_kgDOEJuq-A",
       "login": "wdotxyz",
       "name": "W",
@@ -10120,6 +14735,76 @@
         "homepageUrl": null,
         "primaryLanguage": {
           "name": "TypeScript"
+        },
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjI1NzEwNTc5",
+      "login": "WellPlayedUnited",
+      "name": "Safak",
+      "type": "User",
+      "location": "Long Island",
+      "url": "https://github.com/WellPlayedUnited",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/25710579?u=7aa005fcc388e89a940c80afee6d044fedd68bce&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "Hello_World",
+        "nameWithOwner": "WellPlayedUnited/Hello_World",
+        "url": "https://github.com/WellPlayedUnited/Hello_World",
+        "description": "Introduction to a life of bliss.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2017-07-10T16:57:53Z",
+        "pushedAt": "2017-07-10T17:06:13Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjc0NDE5MDc0",
+      "login": "WhatTheDiv",
+      "name": "Pat Cannon",
+      "type": "User",
+      "location": "Long Island",
+      "url": "https://github.com/WhatTheDiv",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/74419074?u=16762642c0b8b0b610a94ac4be4ef6092aa38ebe&v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "CommanderTechnologies",
+        "nameWithOwner": "WhatTheDiv/CommanderTechnologies",
+        "url": "https://github.com/WhatTheDiv/CommanderTechnologies",
+        "description": "Website for Commander Technologies LLC",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2026-01-17T23:09:44Z",
+        "pushedAt": "2026-01-18T00:22:05Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "JavaScript"
         },
         "licenseInfo": null
       }
@@ -10158,6 +14843,45 @@
           "name": "HTML"
         },
         "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjEwODQ3MDc=",
+      "login": "xdyldogx",
+      "name": "Dylan Cruz",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/xdyldogx",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/1084707?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "Hangman-Game",
+        "nameWithOwner": "xdyldogx/Hangman-Game",
+        "url": "https://github.com/xdyldogx/Hangman-Game",
+        "description": "Just a test.",
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2016-05-03T16:08:23Z",
+        "pushedAt": "2016-05-03T16:23:44Z",
+        "homepageUrl": null,
+        "primaryLanguage": {
+          "name": "Java"
+        },
+        "licenseInfo": {
+          "name": "MIT License",
+          "spdxId": "MIT"
+        }
       }
     },
     {
@@ -10223,6 +14947,40 @@
         "isFork": false,
         "createdAt": "2015-10-13T00:28:16Z",
         "pushedAt": "2015-10-13T00:28:17Z",
+        "homepageUrl": null,
+        "primaryLanguage": null,
+        "licenseInfo": null
+      }
+    },
+    {
+      "id": "MDQ6VXNlcjU4NzYxMTE2",
+      "login": "yanks7",
+      "name": "Bill Murphy",
+      "type": "User",
+      "location": "Long Island, NY",
+      "url": "https://github.com/yanks7",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/58761116?v=4",
+      "attribution": {
+        "accepted": true,
+        "countryCode": "BS",
+        "confidence": "medium",
+        "evidence": "recognized-place",
+        "matched": "long island"
+      },
+      "discoveryTerms": [
+        "Long Island"
+      ],
+      "topRepository": {
+        "name": "python-source",
+        "nameWithOwner": "yanks7/python-source",
+        "url": "https://github.com/yanks7/python-source",
+        "description": null,
+        "stargazerCount": 0,
+        "forkCount": 0,
+        "isArchived": false,
+        "isFork": false,
+        "createdAt": "2019-12-17T21:05:51Z",
+        "pushedAt": "2019-12-17T21:05:52Z",
         "homepageUrl": null,
         "primaryLanguage": null,
         "licenseInfo": null

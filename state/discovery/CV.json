@@ -12,23 +12,40 @@
     "termsTotal": 209
   },
   "phase": "discovery",
-  "nextTermIndex": 37,
-  "activeTerm": null,
+  "nextTermIndex": 38,
+  "activeTerm": {
+    "index": 38,
+    "term": "Bel Bel",
+    "queue": [
+      {
+        "query": "location:\"Bel Bel\"",
+        "stage": "base",
+        "cursor": "Y3Vyc29yOjE1MA==",
+        "pageNumber": 4,
+        "attempts": 0
+      }
+    ],
+    "startedAt": "2026-11-04T06:43:02.914Z",
+    "requests": 3,
+    "leafPages": 3,
+    "shardExpansions": 0,
+    "reportedCount": null
+  },
   "discoveryComplete": false,
   "startedAt": "2026-10-04T12:31:33.741Z",
-  "updatedAt": "2026-10-31T21:44:34.367Z",
+  "updatedAt": "2026-11-04T06:43:11.093Z",
   "completedAt": null,
   "finalizedAt": null,
   "stats": {
-    "termsProcessed": 37,
-    "searchRequests": 40,
-    "leafPages": 40,
+    "termsProcessed": 38,
+    "searchRequests": 44,
+    "leafPages": 44,
     "shardExpansions": 0,
-    "rawOwnerHits": 208,
+    "rawOwnerHits": 358,
     "acceptedOwnerHits": 205,
-    "rejectedOwnerHits": 3,
+    "rejectedOwnerHits": 153,
     "unresolvedShardCount": 0,
-    "minimumRateLimitRemaining": 4895
+    "minimumRateLimitRemaining": 4867
   },
   "unresolvedShards": [],
   "candidates": [
