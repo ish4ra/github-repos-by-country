@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 163**
 - Progress: **0%**
-- Retained high-potential owner candidates: **1,583**
-- Search requests completed: **40**
+- Retained high-potential owner candidates: **1,860**
+- Search requests completed: **48**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -36,9 +36,9 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [mystroken/drag](https://github.com/mystroken/drag) | **48** | Yaounde, Cameroon |
 | [osscameroon/website](https://github.com/osscameroon/website) | **37** | Douala - Cameroon |
 | [iws3/Medical-AI-Assistant---Production-Ready-Healthcare-Application](https://github.com/iws3/Medical-AI-Assistant---Production-Ready-Healthcare-Application) | **36** | Bamenda, Cameroon |
+| [rich1richard/StoryTeller-Engine](https://github.com/rich1richard/StoryTeller-Engine) | **35** | Cameroon |
 | [Kanjo-Elkamira-Ndi/Data-Science-Operations-Pipeline-Lab](https://github.com/Kanjo-Elkamira-Ndi/Data-Science-Operations-Pipeline-Lab) | **29** | Yaoundé Cameroon |
 | [elhmn/ckp](https://github.com/elhmn/ckp) | **21** | Cameroon |
-| [AssahBismarkabah/Snif](https://github.com/AssahBismarkabah/Snif) | **19** | Cameroon |
 
 ## Repository-first scan
 

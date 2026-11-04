@@ -13,7 +13,7 @@
 - Geography terms processed: **0 / 27**
 - Progress: **0%**
 - Retained high-potential owner candidates: **1,183**
-- Search requests completed: **40**
+- Search requests completed: **48**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,13 +24,13 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [walidshaari/Kubernetes-Certified-Administrator](https://github.com/walidshaari/Kubernetes-Certified-Administrator) | **4,453** | Bahrain |
+| [walidshaari/Kubernetes-Certified-Administrator](https://github.com/walidshaari/Kubernetes-Certified-Administrator) | **4,456** | Bahrain |
 | [naweed/MauiTubePlayer](https://github.com/naweed/MauiTubePlayer) | **375** | Bahrain |
 | [a7md0/WakeOnLan](https://github.com/a7md0/WakeOnLan) | **225** | Bahrain |
 | [waelisa/Best-blocklist](https://github.com/waelisa/Best-blocklist) | **185** | Bahrain |
 | [kelvindecosta/picharsso](https://github.com/kelvindecosta/picharsso) | **133** | Bahrain |
 | [iTroy0/WebP-Converter](https://github.com/iTroy0/WebP-Converter) | **63** | Bahrain |
-| [ExTBH/JodelEmproved](https://github.com/ExTBH/JodelEmproved) | **56** | Bahrain |
+| [ExTBH/JodelEmproved](https://github.com/ExTBH/JodelEmproved) | **57** | Bahrain |
 | [FnrDev/slash-commands](https://github.com/FnrDev/slash-commands) | **56** | Bahrain |
 | [AbRahman-ra/psql-notes](https://github.com/AbRahman-ra/psql-notes) | **54** | Bahrain |
 | [haqbany/Bigtreetouch-SKR-Mini-E3V3.0](https://github.com/haqbany/Bigtreetouch-SKR-Mini-E3V3.0) | **50** | Bahrain |

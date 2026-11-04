@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 47%
+## Repository ranking status: Building 50%
 
-- Geography terms processed: **30 / 63**
-- Progress: **47%**
-- Retained high-potential owner candidates: **285**
-- Search requests completed: **40**
+- Geography terms processed: **32 / 63**
+- Progress: **50%**
+- Retained high-potential owner candidates: **413**
+- Search requests completed: **48**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,20 +24,20 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
+| [rappasoft/laravel-boilerplate](https://github.com/rappasoft/laravel-boilerplate) | **5,624** | Long Island, NY |
+| [NickPiscitelli/Glider.js](https://github.com/NickPiscitelli/Glider.js) | **3,312** | Long Island, NY |
+| [JesseTG/awesome-qt](https://github.com/JesseTG/awesome-qt) | **1,637** | Long Island, NY |
+| [robherley/snips.sh](https://github.com/robherley/snips.sh) | **1,330** | Long Island, NY |
+| [speric/kindle-highlights](https://github.com/speric/kindle-highlights) | **579** | Long Island, NY |
+| [Ethan3600/magento2-CronjobManager](https://github.com/Ethan3600/magento2-CronjobManager) | **365** | Long Island, NY |
+| [pmarreck/yt-transcriber](https://github.com/pmarreck/yt-transcriber) | **338** | Long Island, NY |
+| [EugeneHoran/Android-Material-SearchView](https://github.com/EugeneHoran/Android-Material-SearchView) | **322** | Long Island, New York |
+| [dubek/rabbitmq-dump-queue](https://github.com/dubek/rabbitmq-dump-queue) | **226** | Long Island, NY, US |
+| [johnpmayer/elm-webgl](https://github.com/johnpmayer/elm-webgl) | **166** | Long Island, NY |
 | [XileHUD/poe_overlay](https://github.com/XileHUD/poe_overlay) | **146** | Bahamas |
-| [ItsSim/fsolauncher](https://github.com/ItsSim/fsolauncher) | **32** | Bahamas |
-| [steveWDamesJr/html-css-js-capstone](https://github.com/steveWDamesJr/html-css-js-capstone) | **20** | The Bahamas |
-| [avantgardefinance/enzyme-bot](https://github.com/avantgardefinance/enzyme-bot) | **18** | Bahamas |
-| [SubTropica/SubTropica](https://github.com/SubTropica/SubTropica) | **18** | Bahamas |
-| [Johndiddles/java-notes](https://github.com/Johndiddles/java-notes) | **11** | Nassau, Bahamas |
-| [PinePlatforms/Palladium](https://github.com/PinePlatforms/Palladium) | **10** | Bahamas |
-| [scott-mackenzie/Ubuntu2004-CIS](https://github.com/scott-mackenzie/Ubuntu2004-CIS) | **9** | Nassau, Bahamas |
-| [JarriqTheTechie/flask_fs_router](https://github.com/JarriqTheTechie/flask_fs_router) | **8** | Nassau, Bahamas |
-| [darth-cy/wallet_ecdsa](https://github.com/darth-cy/wallet_ecdsa) | **7** | The Bahamas |
-| [lucayepa/electrum-hashcash](https://github.com/lucayepa/electrum-hashcash) | **7** | Nassau, Bahamas |
-| [Reheight/PterodactylRustWipe](https://github.com/Reheight/PterodactylRustWipe) | **7** | Hopefully somewhere in the Bahamas |
-| [snsmith92/blogit](https://github.com/snsmith92/blogit) | **7** | Bahamas |
-| [Clearwood/grin-mining-docker](https://github.com/Clearwood/grin-mining-docker) | **6** | Bahamas |
-| [jsphpndr/covid-api-bahamas](https://github.com/jsphpndr/covid-api-bahamas) | **6** | Bahamas |
+| [sibirrer/strong_lensing_lectures](https://github.com/sibirrer/strong_lensing_lectures) | **66** | Long Island, NY |
+| [seanwevans/fluid-sims](https://github.com/seanwevans/fluid-sims) | **63** | Long Island, NY |
+| [johnzanussi/unifi-g4-doorbell-sounds](https://github.com/johnzanussi/unifi-g4-doorbell-sounds) | **35** | Long Island, New York |
+| [mwbrulhardt/simple-sine-curve](https://github.com/mwbrulhardt/simple-sine-curve) | **35** | Long Island, NY |
 
 When the verified crawl reaches publication readiness, this page is automatically replaced by the most-starred repository ranking.

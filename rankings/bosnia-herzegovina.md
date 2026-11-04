@@ -12,8 +12,8 @@
 
 - Geography terms processed: **0 / 300**
 - Progress: **0%**
-- Retained high-potential owner candidates: **600**
-- Search requests completed: **42**
+- Retained high-potential owner candidates: **601**
+- Search requests completed: **50**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -24,21 +24,21 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 
 | Repository | Stars | Owner location |
 | --- | ---: | --- |
-| [adnanh/webhook](https://github.com/adnanh/webhook) | **12,171** | Sarajevo, Bosnia & Herzegovina |
-| [inputsh/awesome-linux](https://github.com/inputsh/awesome-linux) | **5,158** | Sarajevo, Bosnia & Herzegovina |
+| [adnanh/webhook](https://github.com/adnanh/webhook) | **12,202** | Sarajevo, Bosnia & Herzegovina |
+| [inputsh/awesome-linux](https://github.com/inputsh/awesome-linux) | **5,186** | Sarajevo, Bosnia & Herzegovina |
 | [borisdj/EFCore.BulkExtensions](https://github.com/borisdj/EFCore.BulkExtensions) | **4,000** | Banja Luka, Bosnia and Herzegovina |
 | [marko-cerovac/material.nvim](https://github.com/marko-cerovac/material.nvim) | **1,093** | Banja Luka, Bosnia and Herzegovina |
 | [code-forge-io/react-router-devtools](https://github.com/code-forge-io/react-router-devtools) | **977** | Bosnia and Herzegovina |
 | [mrakodol/Laravel-5-Bootstrap-3-Starter-Site](https://github.com/mrakodol/Laravel-5-Bootstrap-3-Starter-Site) | **876** | Bosnia and Herzegovina |
 | [adnanademovic/rosrust](https://github.com/adnanademovic/rosrust) | **788** | Sarajevo, Bosnia & Herzegovina |
-| [esensar/nvim-dev-container](https://github.com/esensar/nvim-dev-container) | **737** | Sarajevo, Bosnia and Herzegovina |
-| [nenadg/traquer](https://github.com/nenadg/traquer) | **717** | Banja Luka, Bosnia and Herzegovina |
-| [MS-WEB-BN/h4rpy](https://github.com/MS-WEB-BN/h4rpy) | **664** | Bijeljina, Bosnia and Herzegovina |
-| [AleksaMCode/WiFi-password-stealer](https://github.com/AleksaMCode/WiFi-password-stealer) | **604** | Banja Luka, Bosnia and Herzegovina |
+| [esensar/nvim-dev-container](https://github.com/esensar/nvim-dev-container) | **739** | Sarajevo, Bosnia and Herzegovina |
+| [nenadg/traquer](https://github.com/nenadg/traquer) | **718** | Banja Luka, Bosnia and Herzegovina |
+| [MS-WEB-BN/h4rpy](https://github.com/MS-WEB-BN/h4rpy) | **673** | Bijeljina, Bosnia and Herzegovina |
+| [AleksaMCode/WiFi-password-stealer](https://github.com/AleksaMCode/WiFi-password-stealer) | **611** | Banja Luka, Bosnia and Herzegovina |
+| [Toni-d-e-v/Aurora-Icloud-bypass](https://github.com/Toni-d-e-v/Aurora-Icloud-bypass) | **475** | Bosnia & Herzegovina |
 | [vladimir-cicovic/wifi_pass](https://github.com/vladimir-cicovic/wifi_pass) | **424** | @Bosnia and Herzegovina |
 | [dsanel/mongoose-delete](https://github.com/dsanel/mongoose-delete) | **354** | Sarajevo, Bosnia and Herzegovina |
 | [jasminb/jsonapi-converter](https://github.com/jasminb/jsonapi-converter) | **281** | Bosnia and Herzegovina |
-| [beganovich/snappdf](https://github.com/beganovich/snappdf) | **222** | Bosnia and Herzegovina |
 
 ## Repository-first scan
 

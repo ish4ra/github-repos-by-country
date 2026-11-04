@@ -8,12 +8,12 @@
   <a href="../README.md">Project home</a>
 </p>
 
-## Repository ranking status: Building 12%
+## Repository ranking status: Building 15%
 
-- Geography terms processed: **26 / 213**
-- Progress: **12%**
-- Retained high-potential owner candidates: **18**
-- Search requests completed: **40**
+- Geography terms processed: **34 / 213**
+- Progress: **15%**
+- Retained high-potential owner candidates: **19**
+- Search requests completed: **48**
 - Unresolved shards: **0**
 
 The crawler saves its exact shard queue and pagination cursor, so progress continues across GitHub Actions runs instead of restarting.
@@ -30,6 +30,7 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [amadetraore/AT-TECH-](https://github.com/amadetraore/AT-TECH-) | **0** | Bobo Dioulasso  |
 | [EricDabone/DenBalo-project](https://github.com/EricDabone/DenBalo-project) | **0** | Bobo-Dioulasso |
 | [escrowadmin/REAPER](https://github.com/escrowadmin/REAPER) | **0** | bingo |
+| [Ferrisuki/Karlinia](https://github.com/Ferrisuki/Karlinia) | **0** | Cascades |
 | [iscolafia55-ux/OUATT_COLLECTION-](https://github.com/iscolafia55-ux/OUATT_COLLECTION-) | **0** | BOBO-DIOULASSO  |
 | [joycetoe/AutoPortfolio-Generator](https://github.com/joycetoe/AutoPortfolio-Generator) | **0** | Bobo-Dioulasso |
 | [lgndKid/baraka-e-hub](https://github.com/lgndKid/baraka-e-hub) | **0** | Bobo Dioulasso |
@@ -38,7 +39,6 @@ The crawler saves its exact shard queue and pagination cursor, so progress conti
 | [oumbarry3000-create/permigo-android](https://github.com/oumbarry3000-create/permigo-android) | **0** | Bobo dioulasso  |
 | [Phantome01/AUBE-NOUVELLE-UNIVERSITY](https://github.com/Phantome01/AUBE-NOUVELLE-UNIVERSITY) | **0** | Bobo-Dioulasso |
 | [powerexpertconnect/powerexpets-sitep](https://github.com/powerexpertconnect/powerexpets-sitep) | **0** | Banfora  |
-| [SergeAlain96/portfolio-marina-birba](https://github.com/SergeAlain96/portfolio-marina-birba) | **0** | Bobo-Dioulasso |
 
 ## Repository-first scan
 
